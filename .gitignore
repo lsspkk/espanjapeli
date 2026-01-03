@@ -1,6 +1,6 @@
 # Environment variables
 scripts/.env
-game/env.js
+docs/env.js
 
 # Cache files (in scripts folder)
 scripts/*.json
@@ -24,4 +24,3 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
-
