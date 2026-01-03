@@ -8,31 +8,63 @@
     </head>
     <body>
         <div class="game-container" data-state="home">
+            <!-- Close button - top right, independent of other content -->
+            <button class="btn-exit-game" id="exit-game-btn" title="Lopeta peli">✕</button>
+            
             <h1>🇪🇸 Espanjapeli 🇫🇮</h1>
+            
+            <a href="kielten-oppiminen.html" class="learning-guide-link" target="_blank">
+                📚 Kielten oppiminen
+            </a>
             
             <div class="score-display">
                 <div class="score-area">
-                    <span id="question-counter" class="question-counter">Kysymys: 0/42</span>
+                    <span id="question-counter" class="question-counter">Kysymys: 0/10</span>
                     <span class="score-separator">|</span>
                     Pisteet: <span id="total-score">0</span>
                 </div>
-                <div class="button-area">
-                    <button class="btn-exit-game" id="exit-game-btn" title="Lopeta peli">✕</button>
+            </div>
+
+            <!-- Game settings - only visible on home screen -->
+            <div class="game-settings">
+                <div class="category-selection">
+                    <label for="category-select">Valitse kategoria:</label>
+                    <select id="category-select" class="category-select">
+                        <option value="all">Kaikki sanat</option>
+                    </select>
                 </div>
-            </div>
 
-            <div class="category-selection">
-                <label for="category-select">Valitse kategoria:</label>
-                <select id="category-select" class="category-select">
-                    <option value="all">Kaikki sanat</option>
-                </select>
-            </div>
+                <div class="game-length-option">
+                    <label class="setting-label">Kysymyksiä:</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="game-length" value="10" checked>
+                            <span>10</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="game-length" value="21">
+                            <span>21</span>
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="game-length" value="42">
+                            <span>42</span>
+                        </label>
+                    </div>
+                </div>
 
-            <div class="auto-speak-option">
-                <label>
-                    <input type="checkbox" id="auto-speak-checkbox" checked>
-                    Lue sanat ääneen automaattisesti
-                </label>
+                <div class="auto-speak-option">
+                    <label>
+                        <input type="checkbox" id="auto-speak-checkbox" checked>
+                        Lue sanat ääneen automaattisesti
+                    </label>
+                </div>
+
+                <div class="compact-mode-option">
+                    <label>
+                        <input type="checkbox" id="compact-mode-checkbox" checked>
+                        Pieni näyttö
+                    </label>
+                </div>
             </div>
 
             <button class="btn-new-question" id="new-question-btn">Aloita peli</button>
@@ -88,6 +120,7 @@
 
                 <div class="result-area" id="result-area">
                     <div class="correct-answer-display" id="correct-answer-display"></div>
+                    <div class="points-earned-display" id="points-earned-display"></div>
                     <div class="reaction-messages" id="reaction-messages"></div>
                 </div>
 
@@ -102,6 +135,8 @@
                 <div class="wrong-answers-section" id="wrong-answers-section"></div>
                 <button class="btn-new-game" id="new-game-btn">🔄 Aloita uusi peli</button>
             </div>
+            
+            <div class="game-version" id="game-version"></div>
         </div>
 
         <!-- Environment config (optional, ignored by git) -->
@@ -117,6 +152,7 @@
         
         <script src="messages.js"></script>
         <script src="words.js"></script>
+        <script src="categoryConfig.js"></script>
         <script src="storage.js"></script>
         <script src="tipService.js"></script>
         <script src="game.js"></script>

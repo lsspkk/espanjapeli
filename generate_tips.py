@@ -25,7 +25,7 @@ OLLAMA_HOST = "172.23.64.1"
 OLLAMA_PORT = 11434
 MODEL = "llama3.2:3b"
 OUTPUT_FILE = "words_and_tips.json"
-WORDS_JS_FILE = "../docs/words.js"
+WORDS_JS_FILE = "game/words.js"
 
 def preload_model(model_name):
     """Preload the model by making a simple request to warm it up."""

@@ -22,15 +22,15 @@ let totalScore = 0;
 let gameActive = false;
 let isFetchingTip = false;
 let selectedCategory = 'all'; // Current selected category
-let askedWords = []; // All words asked in this session
-let recentWords = []; // Last 5 words (to avoid immediate repeats)
-const REPEAT_PROBABILITY = 0.1; // 10% chance to repeat a word
-const RECENT_WORD_COUNT = 5; // Don't repeat words from last 5 questions
-const TOTAL_QUESTIONS = 42; // Total questions per game
+let gameLength = 10; // Number of questions per game (10, 21, or 42)
+let wordQueue = []; // Pre-randomized queue of words for current game
 let currentQuestionNumber = 0; // Current question in the game
-let wrongAnswers = []; // Track wrong answers for report
-let correctAnswersCount = 0; // Track correct answers
+let gameQuestions = []; // Track all questions with full details for this game
 let autoSpeakEnabled = true; // Auto-speak words setting
+let compactModeEnabled = true; // Compact mode for mobile (default on)
+
+// Current question tracking (reset each question)
+let currentQuestionData = null;
 
 // Text-to-Speech settings
 let speechSynthesis = window.speechSynthesis;
@@ -55,6 +55,7 @@ const questionCounterEl = document.getElementById('question-counter');
 const exitGameBtn = document.getElementById('exit-game-btn');
 const resultArea = document.getElementById('result-area');
 const correctAnswerDisplay = document.getElementById('correct-answer-display');
+const pointsEarnedDisplay = document.getElementById('points-earned-display');
 const reactionMessages = document.getElementById('reaction-messages');
 const nextQuestionBtn = document.getElementById('next-question-btn');
 const gameReport = document.getElementById('game-report');
@@ -63,6 +64,8 @@ const wrongAnswersSection = document.getElementById('wrong-answers-section');
 const newGameBtn = document.getElementById('new-game-btn');
 const scoreDisplay = document.querySelector('.score-display');
 const autoSpeakCheckbox = document.getElementById('auto-speak-checkbox');
+const compactModeCheckbox = document.getElementById('compact-mode-checkbox');
+const gameLengthRadios = document.querySelectorAll('input[name="game-length"]');
 const historySection = document.getElementById('history-section');
 const historyList = document.getElementById('history-list');
 const wrongWordsList = document.getElementById('wrong-words-list');
@@ -75,6 +78,15 @@ const tipContents = document.querySelectorAll('.tip-content');
 function setGameState(state) {
     console.log('🎮 Game state:', state);
     gameContainer.setAttribute('data-state', state);
+}
+
+// Update compact mode
+function updateCompactMode(enabled) {
+    if (enabled) {
+        gameContainer.setAttribute('data-compact', 'true');
+    } else {
+        gameContainer.removeAttribute('data-compact');
+    }
 }
 
 // Update tip tab visual state (disabled, but shows progress)
@@ -246,12 +258,94 @@ async function displayWordStatistics() {
     console.log('═══════════════════════════════════════════════════════════');
 }
 
-// Select next word using smart repetition logic
-async function selectNextWord() {
-    console.log('📖 Selecting next word...');
-    console.log('   Category:', selectedCategory);
-    console.log('   Asked words:', askedWords.length);
-    console.log('   Recent words (last 5):', recentWords);
+/**
+ * Shuffle array using Fisher-Yates algorithm
+ * @param {Array} array - Array to shuffle
+ * @returns {Array} - Shuffled copy of array
+ */
+function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
+
+/**
+ * Spread out duplicate words to be at least minDistance apart
+ * @param {Array} words - Array of word objects
+ * @param {number} minDistance - Minimum distance between same words (default 5)
+ * @returns {Array} - Rearranged array with duplicates spread out
+ */
+function spreadOutDuplicates(words, minDistance = 5) {
+    const result = [...words];
+    const wordPositions = new Map(); // Track positions of each word by spanish text
+    
+    // Build initial position map
+    result.forEach((word, index) => {
+        if (!wordPositions.has(word.spanish)) {
+            wordPositions.set(word.spanish, []);
+        }
+        wordPositions.get(word.spanish).push(index);
+    });
+    
+    // For each word that appears multiple times
+    for (const [spanish, positions] of wordPositions.entries()) {
+        if (positions.length <= 1) continue; // Skip words that appear only once
+        
+        // Try to spread out duplicates
+        for (let i = 1; i < positions.length; i++) {
+            const currentPos = positions[i];
+            const prevPos = positions[i - 1];
+            
+            // If too close, try to find a better position
+            if (currentPos - prevPos < minDistance) {
+                // Look for a swap position that's far enough from all instances
+                for (let newPos = prevPos + minDistance; newPos < result.length; newPos++) {
+                    // Check if this position is far enough from all instances of this word
+                    const farEnough = positions.every((pos, idx) => {
+                        if (idx >= i) return true; // Don't check positions we haven't processed yet
+                        return Math.abs(newPos - pos) >= minDistance;
+                    });
+                    
+                    // Also check that we're not creating a problem for the word at newPos
+                    const wordAtNewPos = result[newPos];
+                    const newPosInstances = wordPositions.get(wordAtNewPos.spanish) || [];
+                    const wouldCreateProblem = newPosInstances.some(pos => 
+                        pos !== newPos && Math.abs(currentPos - pos) < minDistance
+                    );
+                    
+                    if (farEnough && !wouldCreateProblem) {
+                        // Swap words
+                        [result[currentPos], result[newPos]] = [result[newPos], result[currentPos]];
+                        
+                        // Update position maps
+                        positions[i] = newPos;
+                        const otherWord = result[currentPos];
+                        const otherPositions = wordPositions.get(otherWord.spanish);
+                        const otherIdx = otherPositions.indexOf(newPos);
+                        if (otherIdx !== -1) {
+                            otherPositions[otherIdx] = currentPos;
+                        }
+                        break;
+                    }
+                }
+            }
+        }
+    }
+    
+    return result;
+}
+
+/**
+ * Generate a randomized queue of words for the entire game
+ * Words are shuffled and repeated as needed, then spread out to avoid close repetitions
+ * @param {number} questionsNeeded - Number of questions for the game
+ * @returns {Array} - Queue of word objects
+ */
+async function generateWordQueue(questionsNeeded) {
+    console.log(`🔀 Generating word queue for ${questionsNeeded} questions...`);
     
     // Get available words from selected category
     let availableWords = [];
@@ -261,7 +355,7 @@ async function selectNextWord() {
         availableWords = getWordsFromCategory(selectedCategory);
     }
     
-    console.log('   Available words in category:', availableWords.length);
+    console.log(`   Available words in category: ${availableWords.length}`);
     
     // Filter words based on OLLAMA_IN_USE setting
     if (typeof window.ENV !== 'undefined' && window.ENV.OLLAMA_IN_USE === false) {
@@ -280,59 +374,54 @@ async function selectNextWord() {
         
         if (availableWords.length === 0) {
             console.error('   ❌ No words with complete cached tips available!');
+            return [];
+        }
+    }
+    
+    // Build queue by shuffling and repeating words until we have enough
+    const queue = [];
+    while (queue.length < questionsNeeded) {
+        const shuffled = shuffleArray(availableWords);
+        queue.push(...shuffled);
+    }
+    
+    // Trim to exact length needed
+    const trimmedQueue = queue.slice(0, questionsNeeded);
+    
+    // Spread out duplicates to be at least 5 questions apart
+    const finalQueue = spreadOutDuplicates(trimmedQueue, 5);
+    
+    console.log(`   ✅ Generated queue with ${finalQueue.length} words`);
+    return finalQueue;
+}
+
+/**
+ * Select next word from the pre-generated queue
+ * @returns {Object} - Next word object
+ */
+async function selectNextWord() {
+    // If queue is empty or we're starting a new game, generate new queue
+    if (wordQueue.length === 0) {
+        console.log('📖 Word queue is empty, generating new queue...');
+        wordQueue = await generateWordQueue(gameLength);
+        
+        if (wordQueue.length === 0) {
+            console.error('   ❌ Failed to generate word queue!');
             return null;
         }
     }
     
-    // Decide whether to repeat a word (10% chance)
-    const shouldRepeat = Math.random() < REPEAT_PROBABILITY && askedWords.length > 0;
+    // Pop the next word from the queue
+    const word = wordQueue.shift();
+    console.log(`📖 Selected word ${gameLength - wordQueue.length}/${gameLength}: ${word.spanish}`);
     
-    if (shouldRepeat) {
-        console.log('   🔄 Attempting to repeat a word...');
-        // Get words that are NOT in recent 5
-        const repeatCandidates = askedWords.filter(w => !recentWords.includes(w.spanish));
-        
-        if (repeatCandidates.length > 0) {
-            const randomRepeat = repeatCandidates[Math.floor(Math.random() * repeatCandidates.length)];
-            console.log('   ✅ Repeating word:', randomRepeat.spanish);
-            return randomRepeat;
-        } else {
-            console.log('   ⚠️ No repeat candidates available, selecting new word');
-        }
-    }
-    
-    // Select a new word (not in recent 5)
-    const recentSpanish = recentWords.map(w => w.spanish);
-    const newWordCandidates = availableWords.filter(w => !recentSpanish.includes(w.spanish));
-    
-    if (newWordCandidates.length === 0) {
-        console.warn('   ⚠️ All words in category used recently, resetting');
-        // If all words have been used recently, just use any word from category
-        return availableWords[Math.floor(Math.random() * availableWords.length)];
-    }
-    
-    const selectedWord = newWordCandidates[Math.floor(Math.random() * newWordCandidates.length)];
-    console.log('   ✅ Selected new word:', selectedWord.spanish);
-    
-    return selectedWord;
+    return word;
 }
 
 // Track word usage
 function trackWordUsage(word) {
-    // Add to asked words (if not already there)
-    const existingIndex = askedWords.findIndex(w => w.spanish === word.spanish);
-    if (existingIndex === -1) {
-        askedWords.push(word);
-    }
-    
-    // Add to recent words (last 5)
-    recentWords.push(word);
-    if (recentWords.length > RECENT_WORD_COUNT) {
-        recentWords.shift(); // Remove oldest
-    }
-    
-    console.log('   📊 Total words asked:', askedWords.length);
-    console.log('   📊 Recent words:', recentWords.length);
+    console.log('   📊 Question:', currentQuestionNumber, '/', gameLength);
+    console.log('   📊 Words remaining in queue:', wordQueue.length);
 }
 
 // Get tips using TipService (checks cache first, then LLM)
@@ -387,7 +476,7 @@ const loadingAnimations = [
 // Start new question
 async function startNewQuestion() {
     // Check if game is complete
-    if (currentQuestionNumber >= TOTAL_QUESTIONS) {
+    if (currentQuestionNumber >= gameLength) {
         showGameReport();
         return;
     }
@@ -430,6 +519,20 @@ async function startNewQuestion() {
     currentWord = currentTranslations.spanish;
     spanishWordEl.textContent = currentWord;
     
+    // Initialize question tracking data
+    currentQuestionData = {
+        questionNumber: currentQuestionNumber,
+        spanish: currentTranslations.spanish,
+        finnish: currentTranslations.finnish,
+        english: currentTranslations.english || '',
+        userAnswer: '',
+        isCorrect: false,
+        pointsEarned: 0,
+        maxPoints: 10,
+        tipsRequested: 0,
+        tipsShown: []
+    };
+    
     // Initialize tip tabs and button
     initializeTipTabs();
     updateTipButtonText(0); // Start with "Anna vihje 1"
@@ -457,7 +560,7 @@ async function startNewQuestion() {
 
 // Update question counter display
 function updateQuestionCounter() {
-    questionCounterEl.textContent = `Kysymys: ${currentQuestionNumber}/${TOTAL_QUESTIONS}`;
+    questionCounterEl.textContent = `Kysymys: ${currentQuestionNumber}/${gameLength}`;
 }
 
 // Get random reaction message (just one)
@@ -468,12 +571,21 @@ function getRandomReaction(isCorrect) {
 }
 
 // Show result with reaction message
-function showResult(isCorrect) {
+function showResult(isCorrect, earnedPoints) {
     // Set state to answered (this shows result area and hides input controls)
     setGameState(GameState.ANSWERED);
     
     // Display correct answer
     correctAnswerDisplay.innerHTML = `<strong>${currentTranslations.spanish}</strong> = ${currentTranslations.finnish}`;
+    
+    // Display points earned
+    if (earnedPoints > 0) {
+        pointsEarnedDisplay.innerHTML = `+${earnedPoints} pistettä`;
+        pointsEarnedDisplay.className = 'points-earned-display positive';
+    } else {
+        pointsEarnedDisplay.innerHTML = `0 pistettä`;
+        pointsEarnedDisplay.className = 'points-earned-display zero';
+    }
     
     // Display one random reaction message (separate lines for each language)
     const reaction = getRandomReaction(isCorrect);
@@ -579,6 +691,12 @@ async function showNextTip() {
     
     // Update tipsShown count
     tipsShown++;
+    
+    // Track in current question data
+    if (currentQuestionData) {
+        currentQuestionData.tipsRequested = tipsShown;
+        currentQuestionData.tipsShown.push(difficulty.name);
+    }
     
     // Update points
     const pointsMap = [10, 5, 3, 1];
@@ -694,21 +812,27 @@ function checkAnswer() {
 
     const pointsMap = [10, 5, 3, 1];
     const earnedPoints = pointsMap[tipsShown];
+    const isCorrect = isSimilarEnough(userAnswer, correctAnswer);
 
-    if (isSimilarEnough(userAnswer, correctAnswer)) {
+    // Update current question data
+    if (currentQuestionData) {
+        currentQuestionData.userAnswer = answerInput.value.trim();
+        currentQuestionData.isCorrect = isCorrect;
+        currentQuestionData.pointsEarned = isCorrect ? earnedPoints : 0;
+        currentQuestionData.maxPoints = 10;
+        
+        // Add to game questions array
+        gameQuestions.push({ ...currentQuestionData });
+    }
+
+    if (isCorrect) {
         // Correct answer (or close enough)
         totalScore += earnedPoints;
         totalScoreEl.textContent = totalScore;
-        correctAnswersCount++;
-        showResult(true);
+        showResult(true, earnedPoints);
     } else {
-        // Incorrect answer - track for report
-        wrongAnswers.push({
-            spanish: currentTranslations.spanish,
-            finnish: currentTranslations.finnish,
-            userAnswer: answerInput.value.trim()
-        });
-        showResult(false);
+        // Incorrect answer
+        showResult(false, 0);
     }
 
     // Disable game controls
@@ -723,31 +847,34 @@ function showGameReport() {
     // Set state to report (this shows report and hides everything else)
     setGameState(GameState.REPORT);
     
-    // Calculate statistics
-    const totalQuestions = TOTAL_QUESTIONS;
-    const correctCount = correctAnswersCount;
-    const incorrectCount = wrongAnswers.length;
+    // Calculate statistics from gameQuestions
+    const totalQuestions = gameLength;
+    const correctCount = gameQuestions.filter(q => q.isCorrect).length;
+    const incorrectCount = gameQuestions.filter(q => !q.isCorrect).length;
     const accuracy = Math.round((correctCount / totalQuestions) * 100);
     const maxPossibleScore = totalQuestions * 10;
     const scorePercentage = Math.round((totalScore / maxPossibleScore) * 100);
     
-    // Save game result to local storage
+    // Get wrong answers from gameQuestions
+    const wrongAnswers = gameQuestions.filter(q => !q.isCorrect);
+    
+    // Save game result to local storage with new format
     const categoryName = selectedCategory === 'all' ? 'Kaikki sanat' : getCategoryName(selectedCategory);
     window.GameStorage.saveGameResult({
+        gameType: window.GameStorage.GAME_TYPES.SPANISH_TO_FINNISH,
         category: selectedCategory,
         categoryName: categoryName,
-        score: totalScore,
-        maxScore: maxPossibleScore,
-        correctCount: correctCount,
-        totalQuestions: totalQuestions,
-        accuracy: accuracy,
-        wrongAnswers: wrongAnswers.map(item => ({
-            spanish: item.spanish,
-            finnish: item.finnish,
-            userAnswer: item.userAnswer
-        }))
+        gameLength: gameLength,
+        totalScore: totalScore,
+        maxPossibleScore: maxPossibleScore,
+        summary: {
+            correctCount: correctCount,
+            incorrectCount: incorrectCount,
+            accuracy: accuracy
+        },
+        questions: gameQuestions
     });
-    console.log('💾 Game result saved to history');
+    console.log('💾 Game result saved to history with', gameQuestions.length, 'questions');
     
     // Display statistics
     reportStats.innerHTML = `
@@ -777,11 +904,16 @@ function showGameReport() {
     if (wrongAnswers.length > 0) {
         let wrongAnswersHTML = '<h3>Väärät vastaukset:</h3>';
         wrongAnswers.forEach(item => {
+            // Show tips used if any
+            const tipsInfo = item.tipsRequested > 0 
+                ? `<br><small style="color: #9ca3af;">Vihjeitä käytetty: ${item.tipsRequested} (${item.tipsShown.join(', ')})</small>`
+                : '';
             wrongAnswersHTML += `
                 <div class="wrong-answer-item">
                     <span class="wrong-word">${item.spanish}</span>
                     <span class="correct-translation">= ${item.finnish}</span>
                     ${item.userAnswer ? `<br><small style="color: #6b7280;">Sinun vastauksesi: ${item.userAnswer}</small>` : ''}
+                    ${tipsInfo}
                 </div>
             `;
         });
@@ -795,10 +927,9 @@ function showGameReport() {
 function resetGame() {
     currentQuestionNumber = 0;
     totalScore = 0;
-    wrongAnswers = [];
-    correctAnswersCount = 0;
-    askedWords = [];
-    recentWords = [];
+    gameQuestions = [];
+    currentQuestionData = null;
+    wordQueue = [];
     gameActive = false;
     
     totalScoreEl.textContent = '0';
@@ -823,10 +954,11 @@ function exitGame() {
 async function initializeCategorySelector() {
     console.log('🎯 Initializing category selector...');
     
-    const categoryKeys = getCategoryKeys();
+    // Get categories in recommended learning order
+    const orderedCategories = getCategoriesByLearningOrder();
     const isOllamaDisabled = typeof window.ENV !== 'undefined' && window.ENV.OLLAMA_IN_USE === false;
     
-    let availableCategories = categoryKeys;
+    let availableCategories = orderedCategories;
     
     // Filter categories when Ollama is disabled
     if (isOllamaDisabled) {
@@ -834,8 +966,8 @@ async function initializeCategorySelector() {
         
         const categoriesWithWords = [];
         
-        for (const key of categoryKeys) {
-            const categoryWords = getWordsFromCategory(key);
+        for (const category of orderedCategories) {
+            const categoryWords = getWordsFromCategory(category.key);
             let hasAnyWordWithTips = false;
             
             // Check if at least one word has complete tips
@@ -848,25 +980,38 @@ async function initializeCategorySelector() {
             }
             
             if (hasAnyWordWithTips) {
-                categoriesWithWords.push(key);
+                categoriesWithWords.push(category);
             } else {
-                console.log(`   ⚠️ Skipping category "${key}" - no words with complete tips`);
+                console.log(`   ⚠️ Skipping category "${category.key}" - no words with complete tips`);
             }
         }
         
         availableCategories = categoriesWithWords;
-        console.log(`   ✅ ${availableCategories.length}/${categoryKeys.length} categories have words with tips`);
+        console.log(`   ✅ ${availableCategories.length}/${orderedCategories.length} categories have words with tips`);
     }
     
-    // Add available categories to dropdown
-    availableCategories.forEach(key => {
+    // Add available categories to dropdown in recommended learning order
+    availableCategories.forEach(category => {
         const option = document.createElement('option');
-        option.value = key;
-        option.textContent = getCategoryName(key);
+        option.value = category.key;
+        
+        // Add tier indicator and category name
+        const tierEmoji = ['🔴', '🟡', '🟢', '🔵', '🟣'][category.tier - 1];
+        option.textContent = `${tierEmoji} ${getCategoryName(category.key)}`;
+        
+        // Add data attributes for potential future filtering
+        option.dataset.tier = category.tier;
+        option.dataset.difficulty = category.difficulty;
+        option.dataset.cefrLevel = category.cefrLevel;
+        option.dataset.priority = category.priority;
+        
+        // Add tooltip with learning note
+        option.title = `${category.description} (${category.cefrLevel})`;
+        
         categorySelect.appendChild(option);
     });
     
-    console.log(`✅ Added ${availableCategories.length} categories to selector`);
+    console.log(`✅ Added ${availableCategories.length} categories in recommended learning order`);
 }
 
 // Handle category change
@@ -877,14 +1022,8 @@ function handleCategoryChange() {
     // Save category preference
     window.GameStorage.saveCategory(selectedCategory);
     
-    // Reset recent words when changing category
-    recentWords = [];
-    
-    // If game is active, inform user to start new question
-    if (!gameActive && askedWords.length > 0) {
-        newQuestionBtn.textContent = '▶️ Aloita uusi kysymys';
-        newQuestionBtn.focus();
-    }
+    // Reset word queue when changing category (new words will be loaded on game start)
+    wordQueue = [];
 }
 
 // Display game history
@@ -898,15 +1037,17 @@ function displayGameHistory() {
     
     let html = '<ul class="history-items">';
     history.forEach(record => {
-        const percentage = Math.round((record.score / record.maxScore) * 100);
+        const percentage = Math.round((record.totalScore / record.maxPossibleScore) * 100);
         const accuracyColor = percentage >= 80 ? '#10b981' : percentage >= 60 ? '#f59e0b' : '#ef4444';
+        const questionsInfo = `${record.summary.correctCount}/${record.gameLength}`;
         
         html += `
             <li class="history-item">
                 <span class="history-date">${record.datetime}</span>
                 <span class="history-category">${record.categoryName}</span>
+                <span class="history-questions">${questionsInfo}</span>
                 <span class="history-score" style="color: ${accuracyColor};">
-                    ${record.score}/${record.maxScore} (${percentage}%)
+                    ${record.totalScore}p (${record.summary.accuracy}%)
                 </span>
             </li>
         `;
@@ -925,16 +1066,19 @@ function displayWrongWords() {
         return;
     }
     
-    let html = '<ul class="wrong-words-items">';
+    let html = '<table class="wrong-words-table">';
     wrongWords.forEach(word => {
+        // Show count as times wrong
+        const countLabel = word.count === 1 ? '1×' : `${word.count}×`;
         html += `
-            <li class="wrong-word-item">
-                <span class="word-pair">${word.spanish} = ${word.finnish}</span>
-                <span class="word-count">(${word.count})</span>
-            </li>
+            <tr>
+                <td class="word-spanish">${word.spanish}</td>
+                <td class="word-finnish">${word.finnish}</td>
+                <td class="word-count" title="${word.count} kertaa väärin">${countLabel}</td>
+            </tr>
         `;
     });
-    html += '</ul>';
+    html += '</table>';
     
     wrongWordsList.innerHTML = html;
 }
@@ -956,6 +1100,21 @@ autoSpeakCheckbox.addEventListener('change', (e) => {
     autoSpeakEnabled = e.target.checked;
     window.GameStorage.saveAutoSpeakPreference(autoSpeakEnabled);
     console.log('🔊 Auto-speak:', autoSpeakEnabled ? 'enabled' : 'disabled');
+});
+compactModeCheckbox.addEventListener('change', (e) => {
+    compactModeEnabled = e.target.checked;
+    window.GameStorage.saveCompactModePreference(compactModeEnabled);
+    updateCompactMode(compactModeEnabled);
+    console.log('📱 Compact mode:', compactModeEnabled ? 'enabled' : 'disabled');
+});
+
+gameLengthRadios.forEach(radio => {
+    radio.addEventListener('change', (e) => {
+        gameLength = parseInt(e.target.value, 10);
+        window.GameStorage.saveGameLength(gameLength);
+        updateQuestionCounter();
+        console.log('📏 Game length:', gameLength);
+    });
 });
 
 // Speaker button to replay Spanish word
@@ -984,6 +1143,21 @@ document.addEventListener('DOMContentLoaded', async () => {
     autoSpeakEnabled = savedAutoSpeak;
     autoSpeakCheckbox.checked = savedAutoSpeak;
     console.log('📂 Auto-speak loaded from storage:', savedAutoSpeak);
+    
+    const savedCompactMode = window.GameStorage.loadCompactModePreference();
+    compactModeEnabled = savedCompactMode;
+    compactModeCheckbox.checked = savedCompactMode;
+    updateCompactMode(savedCompactMode);
+    console.log('📂 Compact mode loaded from storage:', savedCompactMode);
+    
+    const savedGameLength = window.GameStorage.loadGameLength();
+    gameLength = savedGameLength;
+    // Set the radio button
+    const lengthRadio = document.querySelector(`input[name="game-length"][value="${savedGameLength}"]`);
+    if (lengthRadio) {
+        lengthRadio.checked = true;
+    }
+    console.log('📂 Game length loaded from storage:', savedGameLength);
     
     const savedCategory = window.GameStorage.loadCategory();
     
@@ -1020,6 +1194,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         speechSynthesis.onvoiceschanged = initializeVoices;
     }
     
-    console.log('🎮 Peli valmis! Valitse kategoria ja aloita.');
+    console.log(`🎮 Espanjapeli v${window.GameStorage.GAME_VERSION} valmis! Valitse kategoria ja aloita.`);
+    
+    // Display version in footer if element exists
+    const versionEl = document.getElementById('game-version');
+    if (versionEl) {
+        versionEl.textContent = `v${window.GameStorage.GAME_VERSION}`;
+    }
 });
+
 

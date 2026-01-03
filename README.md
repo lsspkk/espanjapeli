@@ -1,5 +1,7 @@
 # Espanjapeli - Spanish learning game
 
+> **Development Notice:** This project was developed using AI-assisted coding with Large Language Models (primarily Claude Sonnet 4.5). A human developer provided oversight and guidance, prioritizing functional implementation and rapid prototyping over strict software engineering standards. The codebase reflects an iterative, conversation-driven development process focused on creating a working educational tool.
+
 This is a language learning game that uses local LLMs (via Ollama) to generate contextual tips and translations for learning Spanish vocabulary. The game presents Spanish words and provides hints in your native language (Finnish/English) to help you understand and memorize the meanings. Tips are generated using AI models and cached for fast retrieval during gameplay.
 
 Because translation in Azure is so much faster, that is also supported.
@@ -17,7 +19,7 @@ All Python scripts are located in the `scripts/` folder:
 
 ## Game
 
-The game is located in `game/` and consists of HTML/CSS/JavaScript files that run in the browser. The `words_tips_translations.json` file contains all Spanish words with their translations and pre-generated learning tips organized by categories and difficulty levels (easy, medium, hard). The game uses a tip service that checks the JSON cache first before calling the LLM for new hints. User preferences and game history are stored in browser localStorage for persistence across sessions. The game includes features like text-to-speech, scoring, and wrong answer tracking.
+The game is located in `docs/` (served via GitHub Pages) and consists of HTML/CSS/JavaScript files that run in the browser. The `words_tips_translations.json` file contains all Spanish words with their translations and pre-generated learning tips organized by categories and difficulty levels (easy, medium, hard). The game uses a tip service that checks the JSON cache first before calling the LLM for new hints. User preferences and game history are stored in browser localStorage for persistence across sessions. The game includes features like text-to-speech, scoring, and wrong answer tracking.
 
 Hot-reload game development can be setup and started with the `run_server.sh` script.
 
@@ -58,7 +60,7 @@ Note: The `scripts/.env` file is git-ignored and will never be committed.
 #### Local LLM (Ollama)
 
 - **Python scripts**: Edit `OLLAMA_HOST` and `OLLAMA_PORT` variables in `scripts/generate_tips.py` to point to your Ollama instance
-- **Game (browser)**: Create `game/env.js` from `game/env.example.js` and set `OLLAMA_API_URL` to your Ollama endpoint
+- **Game (browser)**: Create `docs/env.js` from `docs/env.example.js` and set `OLLAMA_API_URL` to your Ollama endpoint
 
 Ollama is a popular tool for running LLMs locally and can be downloaded from [ollama.ai](https://ollama.ai). After installation, pull the `llama3.2:3b` model with `ollama pull llama3.2:3b` and the API will be available at `http://localhost:11434`.
 

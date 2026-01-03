@@ -14,6 +14,6 @@ pip install -r requirements.txt
 # Navigate to the source directory and run server
 echo ""
 echo "🌐 Starting server..."
-cd game
+cd docs
 python server.py
 
