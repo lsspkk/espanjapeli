@@ -11,29 +11,30 @@
             box-sizing: border-box;
         }
 
+        /* Mobile-first base styles */
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
-            line-height: 1.7;
+            font-size: 0.875em; /* Slightly smaller base text */
+            line-height: 1.6;
             color: #2c3e50;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 20px;
+            padding: 0;
+            min-height: 100vh;
         }
 
         .container {
-            max-width: 900px;
-            margin: 0 auto;
+            width: 100%;
+            margin: 0;
             background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            padding: 40px;
-            margin-bottom: 40px;
+            padding: 1em;
+            min-height: 100vh;
         }
 
         .header {
             text-align: center;
-            border-bottom: 3px solid #667eea;
-            padding-bottom: 30px;
-            margin-bottom: 40px;
+            border-bottom: 0.1875em solid #667eea;
+            padding-bottom: 1em;
+            margin-bottom: 1.5em;
         }
 
         .back-link {
@@ -41,7 +42,7 @@
             color: #667eea;
             text-decoration: none;
             font-weight: 600;
-            margin-bottom: 20px;
+            margin-bottom: 1em;
             transition: color 0.3s;
         }
 
@@ -51,83 +52,82 @@
 
         h1 {
             color: #667eea;
-            font-size: 2.5em;
-            margin-bottom: 10px;
+            font-size: 1.75em;
+            margin-bottom: 0.5em;
         }
 
         .subtitle {
             color: #7f8c8d;
-            font-size: 1.1em;
+            font-size: 0.95em;
         }
 
         h2 {
             color: #667eea;
-            font-size: 2em;
-            margin-top: 50px;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #ecf0f1;
+            font-size: 1.5em;
+            margin-top: 2em;
+            margin-bottom: 1em;
+            padding-bottom: 0.5em;
+            border-bottom: 0.125em solid #ecf0f1;
         }
 
         h3 {
             color: #764ba2;
-            font-size: 1.5em;
-            margin-top: 30px;
-            margin-bottom: 15px;
+            font-size: 1.25em;
+            margin-top: 1.5em;
+            margin-bottom: 0.75em;
         }
 
         h4 {
             color: #555;
-            font-size: 1.2em;
-            margin-top: 25px;
-            margin-bottom: 12px;
+            font-size: 1.1em;
+            margin-top: 1.25em;
+            margin-bottom: 0.625em;
         }
 
         p {
-            margin-bottom: 15px;
-            text-align: justify;
+            margin-bottom: 1em;
         }
 
         ul, ol {
-            margin-left: 30px;
-            margin-bottom: 20px;
+            margin-left: 1.5em;
+            margin-bottom: 1em;
         }
 
         li {
-            margin-bottom: 10px;
+            margin-bottom: 0.5em;
         }
 
         .highlight-box {
             background: #f8f9fa;
-            border-left: 4px solid #667eea;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 5px;
+            border-left: 0.25em solid #667eea;
+            padding: 1em;
+            margin: 1em 0;
+            border-radius: 0.3125em;
         }
 
         .action-box {
             background: #e8f4f8;
-            border-left: 4px solid #3498db;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 5px;
+            border-left: 0.25em solid #3498db;
+            padding: 1em;
+            margin: 1em 0;
+            border-radius: 0.3125em;
         }
 
         .warning-box {
             background: #fff3cd;
-            border-left: 4px solid #ffc107;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 5px;
+            border-left: 0.25em solid #ffc107;
+            padding: 1em;
+            margin: 1em 0;
+            border-radius: 0.3125em;
         }
 
         .tier-badge {
             display: inline-block;
-            padding: 5px 12px;
-            border-radius: 15px;
+            padding: 0.3125em 0.75em;
+            border-radius: 0.9375em;
             font-size: 0.9em;
             font-weight: 600;
-            margin-right: 10px;
+            margin-right: 0.5em;
         }
 
         .tier-1 { background: #fee; color: #c00; }
@@ -140,19 +140,19 @@
             color: #667eea;
             text-decoration: none;
             font-weight: 500;
-            border-bottom: 1px dotted #667eea;
+            border-bottom: 0.0625em dotted #667eea;
         }
 
         .resource-link:hover {
             color: #764ba2;
-            border-bottom: 1px solid #764ba2;
+            border-bottom: 0.0625em solid #764ba2;
         }
 
         .toc {
             background: #f8f9fa;
-            padding: 25px;
-            border-radius: 10px;
-            margin: 30px 0;
+            padding: 1.25em;
+            border-radius: 0.625em;
+            margin: 1.5em 0;
         }
 
         .toc h3 {
@@ -166,7 +166,7 @@
         }
 
         .toc li {
-            margin-bottom: 8px;
+            margin-bottom: 0.5em;
         }
 
         .toc a {
@@ -181,8 +181,8 @@
 
         code {
             background: #f4f4f4;
-            padding: 2px 6px;
-            border-radius: 3px;
+            padding: 0.125em 0.375em;
+            border-radius: 0.1875em;
             font-family: 'Courier New', monospace;
             font-size: 0.9em;
         }
@@ -191,31 +191,70 @@
             font-style: normal;
         }
 
-        @media (max-width: 768px) {
-            .container {
-                padding: 20px;
-            }
-
-            h1 {
-                font-size: 1.8em;
-            }
-
-            h2 {
-                font-size: 1.5em;
-            }
-
-            h3 {
-                font-size: 1.2em;
-            }
-        }
-
         .footer {
             text-align: center;
             color: #7f8c8d;
             font-size: 0.9em;
-            margin-top: 50px;
-            padding-top: 30px;
-            border-top: 2px solid #ecf0f1;
+            margin-top: 2.5em;
+            padding-top: 1.5em;
+            border-top: 0.125em solid #ecf0f1;
+        }
+
+        /* Tablet and larger screens */
+        @media (min-width: 768px) {
+            body {
+                font-size: 1em;
+                padding: 1.25em;
+            }
+
+            .container {
+                max-width: 56.25em; /* 900px at 16px base */
+                margin: 0 auto;
+                border-radius: 1.25em;
+                box-shadow: 0 1.25em 3.75em rgba(0, 0, 0, 0.3);
+                padding: 2.5em;
+                margin-bottom: 2.5em;
+                min-height: auto;
+            }
+
+            h1 {
+                font-size: 2.5em;
+            }
+
+            h2 {
+                font-size: 2em;
+                margin-top: 3em;
+            }
+
+            h3 {
+                font-size: 1.5em;
+                margin-top: 2em;
+            }
+
+            h4 {
+                font-size: 1.2em;
+            }
+
+            .header {
+                padding-bottom: 1.875em;
+                margin-bottom: 2.5em;
+            }
+
+            .highlight-box,
+            .action-box,
+            .warning-box {
+                padding: 1.25em;
+                margin: 1.25em 0;
+            }
+
+            .toc {
+                padding: 1.5625em;
+                margin: 1.875em 0;
+            }
+
+            ul, ol {
+                margin-left: 1.875em;
+            }
         }
     </style>
 </head>
@@ -238,17 +277,17 @@
         <div class="toc">
             <h3>Sisällysluettelo</h3>
             <ul>
-                <li><a href="#aikuiset">1. Todistetusti toimivat strategiat aikuisille</a></li>
-                <li><a href="#lapset">2. Tehokkaat menetelmät lapsille</a></li>
-                <li><a href="#yleiset">3. Yleiset periaatteet (kaikille)</a></li>
-                <li><a href="#resurssit">4. Suositellut oppimisresurssit</a></li>
-                <li><a href="#sanasto">5. Espanjan kielen sanaston ohjeet</a></li>
+                <li><a href="#aikuiset">Todistetusti toimivat strategiat aikuisille</a></li>
+                <li><a href="#lapset">Tehokkaat menetelmät lapsille</a></li>
+                <li><a href="#yleiset">Yleiset periaatteet (kaikille)</a></li>
+                <li><a href="#resurssit">Suositellut oppimisresurssit</a></li>
+                <li><a href="#sanasto">Espanjan kielen sanaston ohjeet</a></li>
             </ul>
         </div>
 
         <h2 id="aikuiset">Todistetusti toimivat strategiat aikuisille</h2>
 
-        <h3>1. Keskity ensin yleisimpiin sanoihin</h3>
+        <h3>Keskity ensin yleisimpiin sanoihin</h3>
         <p>Tutkimus osoittaa, että pieni määrä sanoja kattaa suurimman osan jokapäiväisestä viestinnästä:</p>
         <ul>
             <li>100 yleisintä sanaa kattaa ~50% päivittäisestä keskustelusta</li>
@@ -259,7 +298,7 @@
             <strong>Toiminta:</strong> Priorisoi yleisimpien sanojen oppiminen ennen erikoissanaston laajentamista.
         </div>
 
-        <h3>2. Väliajoin toistuva kertaus (SRS)</h3>
+        <h3>Väliajoin toistuva kertaus (SRS)</h3>
         <p>Yksi tieteellisesti vahvistetuimmista tekniikoista sanaston muistamiseen.</p>
         <div class="highlight-box">
             <strong>Miten se toimii:</strong> Kertaa sanoja kasvavilla väleillä (1 päivä, 3 päivää, 1 viikko, 2 viikkoa, 1 kuukausi) siirtääksesi tietoa lyhytaikaisesta pitkäaikaismuistiin.
@@ -271,7 +310,7 @@
             <li>Quizlet</li>
         </ul>
 
-        <h3>3. Ymmärrettävä syöte (Krashenin teoria)</h3>
+        <h3>Ymmärrettävä syöte (Krashenin teoria)</h3>
         <p>Kielen omaksuminen tapahtuu, kun olet alttiina sisällölle, joka on hieman nykyistä tasoasi korkeammalla ("i+1").</p>
         <p><strong>Kuinka soveltaa:</strong></p>
         <ul>
@@ -281,7 +320,7 @@
             <li>Kasvata vaikeusastetta asteittain edistyessäsi</li>
         </ul>
 
-        <h3>4. Aktiivinen tuottaminen ensimmäisestä päivästä lähtien</h3>
+        <h3>Aktiivinen tuottaminen ensimmäisestä päivästä lähtien</h3>
         <p>Älä odota, kunnes olet "valmis" puhumaan. Tutkimus osoittaa, että varhainen puhekäytäntö rakentaa itsevarmuutta ja nopeuttaa oppimista.</p>
         <p><strong>Käytännön lähestymistavat:</strong></p>
         <ul>
@@ -291,7 +330,7 @@
             <li>Nauhoita itsesi ja vertaa äidinkielisiin puhujiin</li>
         </ul>
 
-        <h3>5. Aseta tarkkoja, mitattavia tavoitteita</h3>
+        <h3>Aseta tarkkoja, mitattavia tavoitteita</h3>
         <p>Epämääräiset tavoitteet kuten "parantaa espanjaa" ovat vähemmän tehokkaita kuin konkreettiset tavoitteet.</p>
         <div class="action-box">
             <strong>Esimerkkejä hyvistä tavoitteista:</strong>
@@ -302,7 +341,7 @@
             </ul>
         </div>
 
-        <h3>6. Ota mukaan aitoa sisältöä</h3>
+        <h3>Ota mukaan aitoa sisältöä</h3>
         <p>Kaventaa kuilua luokkahuoneopetuksen ja tosielämän käytön välillä.</p>
         <p><strong>Sisältöideoita:</strong></p>
         <ul>
@@ -313,7 +352,7 @@
             <li>Netflix/suoratoistopalvelut kohdekielellä</li>
         </ul>
 
-        <h3>7. Liity oppimisyhteisöihin</h3>
+        <h3>Liity oppimisyhteisöihin</h3>
         <p>Sosiaalinen vuorovaikutus lisää motivaatiota ja tarjoaa vastuullisuutta.</p>
         <p><strong>Mistä löytää yhteisöjä:</strong></p>
         <ul>
@@ -323,7 +362,7 @@
             <li>Paikalliset tapaamaisryhmät</li>
         </ul>
 
-        <h3>8. Kulttuurinen uppoutuminen (kotona)</h3>
+        <h3>Kulttuurinen uppoutuminen (kotona)</h3>
         <p>Kulttuurin ymmärtäminen syventää kielen ymmärrystä ja motivaatiota.</p>
         <p><strong>Tapoja upota:</strong></p>
         <ul>
@@ -334,7 +373,7 @@
             <li>Opi historiasta ja ajankohtaisista tapahtumista</li>
         </ul>
 
-        <h3>9. Johdonmukainen päivittäinen harjoittelu</h3>
+        <h3>Johdonmukainen päivittäinen harjoittelu</h3>
         <p>Lyhyet, toistuvat istunnot päihittävät pitkät, harvat istunnot.</p>
         <div class="highlight-box">
             <strong>Tutkimuksiin perustuva ajoitus:</strong>
@@ -345,7 +384,7 @@
             </ul>
         </div>
 
-        <h3>10. Käytä useita modaliteetteja</h3>
+        <h3>Käytä useita modaliteetteja</h3>
         <p>Aktivoi eri aisteja ja oppimistyylejä.</p>
         <p><strong>Sekoita näitä aktiviteetteja:</strong></p>
         <ul>
@@ -357,7 +396,7 @@
 
         <h2 id="lapset">Tehokkaat menetelmät lapsille</h2>
 
-        <h3>1. Leikkipohjainen kielten oppiminen</h3>
+        <h3>Leikkipohjainen kielten oppiminen</h3>
         <p>Lapset oppivat parhaiten, kun heillä on hauskaa eivätkä he tajua opiskelevansa.</p>
         <p><strong>Aktiviteetteja:</strong></p>
         <ul>
@@ -367,7 +406,7 @@
             <li>Rakennus-/rakennustoiminta kohdekielen kerronnalla</li>
         </ul>
 
-        <h3>2. Musiikki, laulut ja lorut</h3>
+        <h3>Musiikki, laulut ja lorut</h3>
         <p>Musiikki aktivoi useita aivoalueita ja tekee muistamisesta helpompaa.</p>
         <p><strong>Miksi se toimii:</strong></p>
         <ul>
@@ -377,7 +416,7 @@
             <li>Ääntäminen paranee laulamisen kautta</li>
         </ul>
 
-        <h3>3. Vuorovaikutteinen tarinankerronta ja lukeminen</h3>
+        <h3>Vuorovaikutteinen tarinankerronta ja lukeminen</h3>
         <p>Jaettu kirjojen lukeminen on yksi tehokkaimmista kielen kehittämisen työkaluista.</p>
         <div class="action-box">
             <strong>Parhaat käytännöt:</strong>
@@ -390,7 +429,7 @@
             </ul>
         </div>
 
-        <h3>4. Kokonaisvaltainen fyysinen reaktio (TPR)</h3>
+        <h3>Kokonaisvaltainen fyysinen reaktio (TPR)</h3>
         <p>Kielen yhdistäminen fyysiseen liikkeeseen parantaa muistamista.</p>
         <p><strong>Esimerkkejä:</strong></p>
         <ul>
@@ -400,7 +439,7 @@
             <li>Toimintapohjaiset komennot leikin aikana</li>
         </ul>
 
-        <h3>5. Luo kielirikas ympäristö</h3>
+        <h3>Luo kielirikas ympäristö</h3>
         <p>Jatkuva altistuminen nopeuttaa luonnollista omaksumista.</p>
         <p><strong>Miten toteuttaa:</strong></p>
         <ul>
@@ -410,7 +449,7 @@
             <li>Soita taustaääntä (tarinoita, lauluja) leikkiajan aikana</li>
         </ul>
 
-        <h3>6. Visuaaliset apuvälineet ja assosiaatio</h3>
+        <h3>Visuaaliset apuvälineet ja assosiaatio</h3>
         <p>Lapset ovat erittäin visuaalisia oppijoita.</p>
         <p><strong>Tekniikoita:</strong></p>
         <ul>
@@ -420,7 +459,7 @@
             <li>Fyysiset esineet yhdistettynä sanastoon</li>
         </ul>
 
-        <h3>7. Positiivinen vahvistus</h3>
+        <h3>Positiivinen vahvistus</h3>
         <p>Juhli edistystä, ei täydellisyyttä.</p>
         <div class="highlight-box">
             <strong>Tehokkaat lähestymistavat:</strong>
@@ -433,7 +472,7 @@
             </ul>
         </div>
 
-        <h3>8. Haasteiden varhainen tunnistaminen</h3>
+        <h3>Haasteiden varhainen tunnistaminen</h3>
         <p>Seuraa kielen kehitystä ja puutu asiaan varhain tarvittaessa.</p>
         <div class="warning-box">
             <strong>Varoitusmerkkejä:</strong>

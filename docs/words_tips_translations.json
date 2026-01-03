@@ -10522,43 +10522,344 @@
         "spanish": "dónde",
         "english": "where",
         "finnish": "missä",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A place you might find a map, or walk to get some fresh air.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Think about a specific spot where you've had breakfast before, or a favorite park from childhood.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "Something that can be navigated with a compass and is not always on land.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Paikka, josta voisit löytää kartan tai kävellä saadaksesi raitista ilmaa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Ajattele tiettyä paikkaa, jossa olet syönyt aamiaista aiemmin, tai lapsuuden suosikkipuistoa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Jotain, jota voi navigoida kompassilla eikä aina ole maalla.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "por qué",
         "english": "why",
         "finnish": "miksi",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "The answer is often found at the heart of a question, and can be as simple as looking at the end of a sentence.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "It's something you might ask yourself when trying to figure out what's going on, or when someone asks you to explain something.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A faint scent of curiosity wafts through the air, lingering in the crevices of a thought, where it can be detected only by those who have stopped to ponder the nature of existence and their place within it.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Vastaus löytyy usein kysymyksen ytimestä, ja se voi olla niin yksinkertainen kuin lauseen lopun katsominen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Se on jotain, mitä saatat kysyä itseltäsi yrittäessäsi selvittää, mitä on meneillään, tai kun joku pyytää sinua selittämään jotain.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Hento uteliaisuuden tuoksu leijuu ilmassa, viipyen ajatuksen koloissa, missä sen havaitsevat vain ne, jotka ovat pysähtyneet pohtimaan olemassaolon luonnetta ja paikkaansa siinä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "cómo",
         "english": "how",
         "finnish": "miten",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A gentle nudge in the right direction, often accompanied by a sense of clarity and understanding.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Information that builds upon prior knowledge or experience, providing subtle guidance through context and association.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A whispered promise of insight, hinting at the presence of a solution without revealing its form, leaving only an echoes of potential in the mind's eye.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Hellä tönäisy oikeaan suuntaan, usein selkeyden ja ymmärryksen tunteen mukana.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Tieto, joka rakentuu aiempaan tietoon tai kokemukseen ja tarjoaa hienovaraista ohjausta kontekstin ja assosiaation kautta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Kuiskattu lupaus oivalluksesta, vihjaten ratkaisun olemassaolosta paljastamatta sen muotoa, jättäen mieleen vain potentiaalin kaikuja.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "cuánto",
         "english": "how much",
         "finnish": "kuinka paljon",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "This concept can be measured with a pencil mark on a ruler.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "The amount is often indicated by a numerical value, which may require some calculation to determine its true size.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A single grain of sand represents the boundary between two distinct units of measurement; finding this singular point requires great attention to detail and an understanding of context.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Tämä käsite voidaan mitata lyijykynämerkillä viivaimella.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Summa ilmaistaan usein numeerisella arvolla, joka voi vaatia laskelmointia sen todellisen koon määrittämiseksi.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Yksi hiekanjyvä edustaa kahden erillisen mittayksikön rajaa; Tämän yksittäisen kohdan löytäminen vaatii suurta tarkkuutta yksityiskohtiin ja kontekstin ymmärtämistä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "cuántos",
         "english": "how many",
         "finnish": "kuinka monta",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "Think about a collection that can be easily counted by touching or holding each item individually.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Consider the number of people you invited to a party, or the number of slices of pizza you need to serve your guests.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "Reflect on the relationship between the quantity of items in a set and the ratio of those items to a reference point, such as a specific unit of measurement or a familiar pattern.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Ajattele kokoelmaa, jonka voi helposti laskea koskettamalla tai pitämällä jokaista esinettä erikseen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Ota huomioon, kuinka monta ihmistä kutsuit juhliin tai kuinka monta pizzaviipaletta tarvitset vieraillesi.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Pohdi suhdetta joukon alkioiden määrän ja niiden suhteen välillä vertailupisteeseen, kuten tiettyyn mittayksikköön tai tuttuun kuvioon.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "cuál",
         "english": "which",
         "finnish": "kumpi",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A question marker that begins many sentences and is often used to seek more information about a person, place, or thing.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "In literature and everyday conversation, this word is commonly used as an interrogative pronoun to ask questions about identity or characteristics.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "The sound it makes when you try to describe something, but can't quite put your finger on what it sounds like.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Kysymysmerkki, joka alkaa monista lauseista ja jota käytetään usein etsimään lisätietoja henkilöstä, paikasta tai asiasta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Kirjallisuudessa ja arkikeskusteluissa tätä sanaa käytetään yleisesti kysyvänä pronominina, jossa kysytään identiteetistä tai ominaisuuksista.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Ääni, jonka se aiheuttaa, kun yrität kuvailla jotain, mutta et osaa tarkalleen sanoa, miltä se kuulostaa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "cuáles",
         "english": "which (plural)",
         "finnish": "mitkä",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "Think of a word that describes something you might find at the beginning of an article or book in the library.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Consider a word that sounds similar to another common word for \"one\" but is used when referring to more than one thing, often in a plural context.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A single letter change from the end of a commonly used English word can make it refer to multiple objects instead of just one; you might find this word in a sentence like \"the ______ are going to be open tomorrow.\"",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Ajattele sanaa, joka kuvaa jotain, jonka saatat löytää kirjaston artikkelin tai kirjan alusta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Ajattele sanaa, joka kuulostaa samankaltaiselta kuin toinen yleinen sana \"yksi\", mutta jota käytetään viitattaessa useampaan asiaan, usein monikossa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Yhden kirjaimen muutos yleisesti käytetyn englanninkielisen sanan lopusta voi saada sen viittaamaan useampaan objektiin yhden sijaan; Saatat löytää tämän sanan lauseesta kuten \"______ ovat huomenna auki.\"",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       }
     ]
   },
@@ -10569,121 +10870,981 @@
         "spanish": "ciudad",
         "english": "city",
         "finnish": "kaupunki",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "EASY - This is where you can find a bustling marketplace, street performers, and a vast array of food options from around the world.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "MEDIUM - Think of a place with towering skyscrapers, busy highways, and a rich cultural heritage that's reflected in its architecture and art scene.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "HARD - It's often associated with a particular type of tree, known for its slow growth rate and distinctive shape, which has become an iconic symbol in urban landscapes worldwide.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "EASY – Täältä löydät vilkkaan torin, katuesiintyjiä ja laajan valikoiman ruokavaihtoehtoja ympäri maailmaa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "MEDIUM – Ajattele paikkaa, jossa on korkeita pilvenpiirtäjiä, vilkkaita moottoriteitä ja rikas kulttuuriperintö, joka heijastuu sen arkkitehtuurissa ja taidemaailmassa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "HARD – Se yhdistetään usein tiettyyn puulajiin, joka tunnetaan hitaasta kasvustaan ja tunnusomaisesta muodostaan, ja joka on muodostunut ikoniseksi symboliksi kaupunkimaisemissa ympäri maailmaa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "pueblo",
         "english": "town",
         "finnish": "kylä",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find a post office, library, and diner here.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Imagine a place with shops selling everything from clothes to cars, where you can grab a bite to eat or catch a movie.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "The collective term for the people who live in this type of settlement often starts with an 'h'.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Täältä saattaa löytyä postitoimisto, kirjasto ja diner.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Kuvittele paikka, jossa on kauppoja, joissa myydään kaikkea vaatteista autoihin, jossa voit napata jotain syötävää tai käydä elokuvissa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Tämän tyyppisessä asutuksessa asuvien ihmisten yhteinen termi alkaa usein kirjaimella 'h'.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "calle",
         "english": "street",
         "finnish": "katu",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's where you can find a hot dog cart, and it's lined with people-watching opportunities.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might encounter a street performer juggling fire on a summer evening, or a row of old buildings with peeling paint.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A particular type of paving material used in some urban areas has a distinctive appearance that involves a mixture of different colors.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Sieltä löydät hodarin kärryn, ja siellä on runsaasti mahdollisuuksia tarkkailla ihmisiä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat kohdata katutaiteilijan jonglööraamaan tulta kesäiltana, tai rivin vanhoja rakennuksia, joiden maali hilseilee.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Tietynlainen päällystysmateriaali, jota käytetään joissakin kaupunkialueilla, on erottuva ulkonäöltään ja sisältää eri värien sekoitusta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "tienda",
         "english": "store",
         "finnish": "kauppa",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find it near a mall or on a busy shopping street, and it's usually filled with rows of shelves stacked with colorful products.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Think about the last time you bought something new - where did you go to make that purchase? This place is often a hub for commerce and buying things.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "Imagine a room filled with an assortment of objects, but none are arranged in a way that suggests they're meant to be used as such; instead, they're displayed side by side, waiting to be taken home by someone who might need them.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää sen ostoskeskuksen läheltä tai vilkkaalta ostoskadulta, ja se on yleensä täynnä hyllyrivejä, jotka ovat täynnä värikkäitä tuotteita.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Ajattele, milloin viimeksi ostit jotain uutta – minne menit tekemään sen ostoksen? Tämä paikka toimii usein kaupankäynnin ja ostamisen keskuksena.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Kuvittele huone, joka on täynnä erilaisia esineitä, mutta mikään ei ole aseteltu niin, että ne olisi tarkoitettu käytettäväksi sellaisina; Sen sijaan ne on asetettu vierekkäin, odottamassa, että joku, joka saattaa tarvita niitä, vie ne kotiin.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "supermercado",
         "english": "supermarket",
         "finnish": "ruokakauppa",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A place where you can buy fresh produce, meat, and dairy products alongside packaged snacks and household essentials.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You often visit it on the way home from work or school to pick up groceries for the week, or as a one-stop shop for impulse buys like milk and bread.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "The hum of fluorescent lights overhead and the rustle of plastic bags being carried out can be heard in this environment, which is usually located near residential areas or major highways, and often has aisles dedicated to international cuisine options.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Paikka, josta voi ostaa tuoreita vihanneksia, lihaa ja maitotuotteita sekä pakattuja välipaloja ja kotitaloustarvikkeita.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Käyt siellä usein matkalla töistä tai koulusta kotiin hakemassa viikon ruokatarvikkeita tai heräteostoksia kuten maitoa ja leipää varten.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Yläpuolella olevien loisteputkien humina ja muovipussien kahina kuuluvat tässä ympäristössä, joka sijaitsee yleensä asuinalueiden tai suurten moottoriteiden läheisyydessä, ja jossa on usein käytäviä kansainvälisille keittiövaihtoehdoille.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "restaurante",
         "english": "restaurant",
         "finnish": "ravintola",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "Where people often gather to eat and socialize, surrounded by aromas of cooking food.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "A place that serves a variety of dishes, usually with table service and often open late into the evening, especially on weekends or special occasions like birthdays or anniversaries.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "An establishment where people may pause to savor a repast, characterized by a distinctive architectural feature involving a central opening and sometimes an ornate facade.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Paikka, jossa ihmiset usein kokoontuvat syömään ja seurustelemaan, ympärillään ruoanlaiton tuoksuja.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Paikka, jossa tarjoillaan monenlaisia ruokia, yleensä pöytäpalvelulla ja usein avoinna myöhään iltaan, erityisesti viikonloppuisin tai erityistilaisuuksissa kuten syntymäpäivinä tai vuosipäivinä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Paikka, jossa ihmiset voivat pysähtyä nauttimaan illallista, jolle on ominaista arkkitehtoninen piirre, jossa on keskellä oleva aukko ja joskus koristeellinen julkisivu.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "café",
         "english": "cafe",
         "finnish": "kahvila",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find it near a park or on a busy street, where people often stop to grab a quick bite or drink after work.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "It's a place where you can sit and be served hot drinks like coffee, tea, or hot chocolate, along with snacks like pastries or sandwiches.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "The interior is typically decorated in a warm and inviting style, featuring wooden accents and comfortable seating areas, but the exterior sign might feature a simple metal awning with a few letters that start with an 'M'.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää sen puiston läheltä tai vilkkaalta kadulta, jonne ihmiset usein pysähtyvät hakemaan pikaisen syötävän tai juoman töiden jälkeen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Se on paikka, jossa voit istua ja saada kuumia juomia kuten kahvia, teetä tai kaakaota sekä välipaloja kuten leivonnaisia tai voileipiä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Sisätilat on tyypillisesti koristeltu lämpimällä ja kutsuvalla tyylillä, puisilla yksityiskohdilla ja mukavilla istuma-alueilla, mutta ulkokyltissä voi olla yksinkertainen metallinen markiisi, jossa on muutama kirjain, jotka alkavat 'M':llä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "hospital",
         "english": "hospital",
         "finnish": "sairaala",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "EASY",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "MEDIUM",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "HARD",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "HELPPOA",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "MEDIUM",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "KOVAA",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "farmacia",
         "english": "pharmacy",
         "finnish": "apteekki",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find it in a place that smells like disinfectant and has shelves full of colorful pills.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "It's often associated with medication, prescriptions, and people who need help finding the right medicine to feel better when they're sick or injured.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "It's located near the front door of many hospitals, but you wouldn't find it in a home kitchen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää sen paikasta, joka haisee desinfiointiaineelta ja hyllyt ovat täynnä värikkäitä pillereitä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Se liittyy usein lääkkeisiin, resepteihin ja ihmisiin, jotka tarvitsevat apua oikean lääkkeen löytämisessä voidakseen paremmin sairaana tai loukkaantuneina.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Se sijaitsee monien sairaaloiden ulko-oven lähellä, mutta et löytäisi sitä kotikeittiöstä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "banco",
         "english": "bank",
         "finnish": "pankki",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You'd find one near a river, where people often go to deposit their earnings.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "It's a place where people can save money by putting it into a secure container under their home or in a public building.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A sloping incline of earth, typically found in a rural area, is commonly used for this purpose.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Löydät sellaisen joen läheltä, jonne ihmiset usein menevät tallettamaan tulojaan.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Se on paikka, jossa ihmiset voivat säästää rahaa laittamalla ne turvalliseen astiaan kotinsa alle tai julkiseen rakennukseen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Tähän tarkoitukseen käytetään yleisesti maaseudulla esiintyvää kalteva maata.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "correos",
         "english": "post office",
         "finnish": "posti",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find one near a busy street, where people often drop off packages and mail.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "This is usually a place where people go to send letters or packages to others who live far away, often using a specific type of address that has a special symbol on it.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A distinctive sound can be heard coming from inside the entrance of this establishment during certain times of the year, when people are sorting and processing large quantities of mail for holiday deliveries.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää sellaisen vilkkaan kadun läheltä, jonne ihmiset usein jättävät paketteja ja postia.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Tämä on yleensä paikka, jossa ihmiset lähettävät kirjeitä tai paketteja kaukana asuville, usein käyttäen tietynlaista osoitetta, jossa on erityinen symboli.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Erityinen ääni kuuluu tämän paikan sisäänkäynnistä tiettyinä vuodenaikoina, kun ihmiset lajittelevat ja käsittelevät suuria määriä postia juhlatoimituksia varten.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "aeropuerto",
         "english": "airport",
         "finnish": "lentokenttä",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "EASY - You might find food stalls and shops here, where people often check in with a bag.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "MEDIUM - This place is usually near a large body of water or at least close to it, and you may see planes taking off or landing nearby.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "HARD - It's a spot where the weather forecast is taken very seriously due to its proximity to multiple air routes.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "HELPPO – Täältä löytyy ruokakojuja ja kauppoja, joissa ihmiset usein kirjautuvat sisään laukun kanssa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "KESKIKOKOINEN – Tämä paikka on yleensä lähellä suurta vesistöä tai ainakin lähellä sitä, ja saatat nähdä lentokoneita nousemassa tai laskeutumassa lähellä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "HARD – Se on paikka, jossa sääennusteet otetaan erittäin vakavasti sen läheisyyden vuoksi useisiin lentoreitteihin.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "estación",
         "english": "station",
         "finnish": "asema",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "This is where you might wait to catch a train, bus, or other form of transportation.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might have to get off at this place when traveling by air or sea, but it's also a spot where people often gather before embarking on an adventure.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "It's a location where travelers typically stop to rest and replenish supplies, often marked by a distinctive sign or logo that indicates its purpose.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Täällä saatat odottaa ehtiäksesi junaan, bussiin tai muuhun kulkuvälineeseen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat joutua jäämään pois tässä paikassa matkustaessasi ilmateitse tai meritse, mutta se on myös paikka, jossa ihmiset usein kokoontuvat ennen seikkailua.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Se on paikka, jossa matkustajat yleensä pysähtyvät lepäämään ja täydentämään tarvikkeita, usein merkitty tunnistetulla kyltillä tai logolla, joka osoittaa sen tarkoituksen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "hotel",
         "english": "hotel",
         "finnish": "hotelli",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find it near a highway or by the ocean, where people go to relax and be pampered.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "This place often has an entrance with a reception desk, where you check in and get your keys. It's usually located near an airport or city center.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A certain famous chain built its first location in Germany in 1899, using a combination of letters from the founder's name to create its iconic initials.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää sen moottoritien läheltä tai meren rannalta, jonne ihmiset menevät rentoutumaan ja hemmotelluiksi.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Tässä paikassa on usein sisäänkäynti, jossa on vastaanottotiski, jossa voi kirjautua sisään ja hakea avaimet. Se sijaitsee yleensä lähellä lentokenttää tai keskustaa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Eräs kuuluisa ketju rakensi ensimmäisen toimipisteensä Saksassa vuonna 1899, käyttäen perustajan nimen kirjaimia ikonisten nimikirjaimien luomiseen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "iglesia",
         "english": "church",
         "finnish": "kirkko",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A place where people gather to sing hymns and listen to sermons on Sundays, often surrounded by stained glass windows and ornate decorations.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "In many cultures, a large public building with a steeple or tower, used for worship services, weddings, and other community events; you might find it in a rural town or a bustling city square.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A structure built to house a particular type of architectural feature that often contains intricate carvings or sculptures, which is usually adorned with candles and occasionally hosts a sacred ceremony involving a symbolic object shaped like a staff.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Paikka, jossa ihmiset kokoontuvat laulamaan virsiä ja kuuntelemaan saarnoja sunnuntaisin, usein ympärillään värilliset lasi-ikkunat ja koristeelliset koristeet.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Monissa kulttuureissa suuri julkinen rakennus, jossa on torni tai torni ja jota käytetään jumalanpalveluksiin, häihin ja muihin yhteisötapahtumiin; Saatat löytää sen maaseutukaupungista tai vilkkaalta torilta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Rakennus, joka on rakennettu tietynlaisen arkkitehtonisen piirteen säilyttämiseksi ja jossa usein on monimutkaisia kaiverruksia tai veistoksia, joka on yleensä koristeltu kynttilöillä ja jossa toisinaan järjestetään pyhä seremonia, jossa käytetään symbolista esinettä, joka on muotoiltu sauvan muotoon.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "parque",
         "english": "park",
         "finnish": "puisto",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "This place is often used to take a break from driving, and you might see children playing on swings or slides while their parents relax on benches.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You're likely to find this spot near a city or town, where people go to escape the hustle and bustle of daily life. It's usually surrounded by trees and may have walking trails.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A specific type of vehicle is often parked in these areas on weekends when the weather permits, allowing owners to be closer to nature without leaving their cars behind.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Tätä paikkaa käytetään usein taukoon ajamisesta, ja saatat nähdä lapsia leikkimässä keinuilla tai liukumäillä, kun heidän vanhempansa rentoutuvat penkeillä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Löydät todennäköisesti tämän paikan kaupungin tai kylän läheltä, jonne ihmiset menevät paetakseen arjen kiirettä. Se on yleensä puiden ympäröimä ja siellä voi olla kävelyreittejä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Tietynlainen ajoneuvo pysäköidään usein näille alueille viikonloppuisin, kun sää sallii, jolloin omistajat voivat olla lähempänä luontoa jättämättä autojaan taakseen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "museo",
         "english": "museum",
         "finnish": "museo",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "**Easy Hint**",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "**Medium Hint**",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "**Hard Hint**",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "**Helppo vihje**",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "**Keskitasoinen vihje**",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "**Kova vihje**",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "biblioteca",
         "english": "library",
         "finnish": "kirjasto",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A place where you can find books, audiobooks, and e-books on a vast array of subjects, from fiction to non-fiction, all neatly organized and easily accessible.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "The rows upon rows of shelves in a public institution that serves as a hub for learning, education, and personal enrichment, often frequented by students, researchers, and book lovers.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A dimly lit room with towering vertical stacks of paper-bound volumes, where the scent of aged pages and leather bindings wafts through the air, accompanied only by the soft whisper of turning pages.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Paikka, josta löydät kirjoja, äänikirjoja ja e-kirjoja monista aiheista, kaunokirjallisuudesta tietokirjallisuuteen, kaikki siististi järjestettyinä ja helposti saatavilla.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Rivit rivin jälkeen hyllyjä julkisessa oppilaitoksessa, joka toimii oppimisen, koulutuksen ja henkilökohtaisen rikastuksen keskuksena, usein opiskelijoiden, tutkijoiden ja kirjojen ystävien keskuudessa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Hämärästi valaistu huone, jossa on korkeita pystysuoria paperikantisia kirjoja, joissa vanhojen sivujen ja nahkasidontojen tuoksu leijailee ilmassa, seuranaan vain kääntävien sivujen pehmeä kuiskaus.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "oficina",
         "english": "office",
         "finnish": "toimisto",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find this place in a skyscraper or a suburban strip mall, where people sit at desks all day staring at computers and attending meetings. It's where coworkers chat about their weekends over coffee.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "This is often associated with the corporate world, where employees spend most of their waking hours in a sterile environment filled with fluorescent lighting and the sound of keyboards clacking away. You might find it on a typical Monday morning or during tax season.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A certain type of furniture is commonly found in this area, designed to hold paperwork and office supplies, often made of wood or plastic.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää tämän paikan pilvenpiirtäjästä tai esikaupunkialueen ostoskeskuksesta, jossa ihmiset istuvat työpöytien ääressä koko päivän tuijottaen tietokoneita ja osallistuen kokouksiin. Siellä työkaverit keskustelevat viikonlopuistaan kahvin äärellä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Tämä liitetään usein yritysmaailmaan, jossa työntekijät viettävät suurimman osan valveillaoloajastaan steriilissä ympäristössä, jossa on loisteputkivalo ja näppäimistöjen koputus. Saatat löytää sen tyypillisenä maanantaiaamuna tai verokaudella.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Tällä alueella on yleisesti tietynlaisia huonekaluja, jotka on suunniteltu paperitöiden ja toimistotarvikkeiden säilyttämiseen, usein puusta tai muovista.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "mercado",
         "english": "market",
         "finnish": "tori",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's a place where you can find fresh produce, flowers, and baked goods on a typical Saturday morning.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might have bought clothing or souvenirs from one of these places during your summer vacation in Europe.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A certain type of transaction often takes place at this location, involving the exchange of items for payment with coins or paper bills, and it's often held outdoors to accommodate large crowds of people.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Se on paikka, josta voi löytää tuoreita vihanneksia, kukkia ja leivonnaisia tavallisena lauantaiaamuna.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat olla ostanut vaatteita tai matkamuistoja jostain näistä paikoista kesälomallasi Euroopassa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Tietynlainen kauppa tapahtuu usein tässä paikassa, jossa tavaroita vaihdetaan maksuksi kolikoilla tai seteleillä, ja tapahtumat järjestetään usein ulkona, jotta suuret ihmisjoukot mahtuvat.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       }
     ]
   },
@@ -10694,79 +11855,638 @@
         "spanish": "coche",
         "english": "car",
         "finnish": "auto",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's often red, and you can find one on a Sunday morning at the local parking lot.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "The sound of its engine is music to many drivers' ears, but the smell of exhaust fumes can be overwhelming during rush hour traffic.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A specific type of interior material used in some vehicles has been the subject of controversy due to concerns over its potential health effects on occupants.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Se on usein punainen, ja sellaisen löytää sunnuntaiaamuisin paikalliselta parkkipaikalta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Sen moottorin ääni on monien kuljettajien korville musiikkia, mutta pakokaasujen haju voi olla ylivoimainen ruuhka-ajan liikenteessä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Tietynlainen sisämateriaali, jota joissakin ajoneuvoissa käytetään, on herättänyt kiistaa sen mahdollisista terveysvaikutuksista matkustajille.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "autobús",
         "english": "bus",
         "finnish": "bussi",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find one of these on a road trip, carrying people and their belongings from point A to point B. It's often yellow or orange, with stripes and sometimes ads.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Think about the sound it makes when you approach: a deep rumble, followed by a sudden screech as it hits its brakes. Where do you usually see these vehicles on a weekday morning?",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "It has an unusual shape, like a rectangle stretched into a curve, and is typically seen moving in a straight line on a path with many turns.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää tällaisen automatkalta, kuljettaen ihmisiä ja heidän tavaroitaan pisteestä A pisteeseen B. Se on usein keltainen tai oranssi, raidoilla ja joskus mainoksilla.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Ajattele ääntä, jonka se tekee lähestyessäsi: syvä jyrinä ja äkillinen kirkaisu, kun se painaa jarruja. Missä yleensä näet nämä ajoneuvot arki-aamuisin?",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Sillä on epätavallinen muoto, kuin suorakulmio, joka on venytetty kaareksi, ja se nähdään tyypillisesti liikkumassa suorassa linjassa polulla, jossa on paljon mutkia.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "tren",
         "english": "train",
         "finnish": "juna",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A common sight on rural highways, often carrying a large cargo of cars or buses.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might find one at the end of a long journey, where it would rest before continuing its route.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "In many cultures, it's a mode of transportation that involves sitting in rows of seats and is typically pulled by an animal, while others are driven by a human operator on wheels.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Yleinen näky maaseudun moottoriteillä, usein kuljettaen suurta lastia autoja tai busseja.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat löytää sellaisen pitkän matkan lopussa, jossa se lepää ennen reitin jatkamista.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Monissa kulttuureissa se on kulkuväline, jossa istutaan penkkiriveillä ja jota vetää yleensä eläin, kun taas toisissa ajaa pyörillä liikkuva ihmiskuljettaja.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "avión",
         "english": "plane",
         "finnish": "lentokone",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A mode of transportation often used by people who travel long distances, characterized by its ability to fly through the air.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might see one flying overhead on a sunny day, or waiting at an airport to take you somewhere new. It's typically a large machine with wings.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "In ancient Egyptian art, a particular symbol is sometimes depicted as having two horizontal lines that run parallel to each other, often indicating a means of traversing the air.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Kulkuväline, jota käyttävät usein pitkiä matkoja matkustavat ihmiset, ja jolle on ominaista kyky lentää ilmassa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat nähdä sellaisen lentävän yläpuolella aurinkoisena päivänä tai odottamassa lentokentällä viedäkseen sinut uuteen paikkaan. Se on yleensä suuri kone, jossa on siivet.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Muinaisessa egyptiläisessä taiteessa tietty symboli kuvataan joskus kahdella vaakasuoralla viivalla, jotka kulkevat rinnakkain ja usein ilmaisevat tavan liikkua ilmassa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "bicicleta",
         "english": "bicycle",
         "finnish": "polkupyörä",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's something you might find in a park or by a sidewalk, and it has two round things at the front that help you steer.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You often ride this thing on roads or trails with friends or family, feeling the wind in your hair as you glide along.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A person who rides this thing for exercise is often covered from head to toe when they're cold, but sheds layers when it warms up slightly.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Se on jotain, mitä saatat löytää puistosta tai jalkakäytävän varrelta, ja siinä on kaksi pyöreää esinettä edessä, jotka auttavat ohjaamaan.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Ajat tällä usein teillä tai poluilla ystävien tai perheen kanssa, tuntien tuulen hiuksissasi liidellessäsi.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Henkilö, joka ajaa tätä liikuntaa varten, on usein peitetty päästä varpaisiin kylmissään, mutta pudottaa kerroksia, kun lämpötila hieman lämpenee.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "taxi",
         "english": "taxi",
         "finnish": "taksi",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A ride with a meter that ticks away, often used to get you somewhere quickly and efficiently.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might hail one of these on a busy street corner or at an airport, especially during rush hour.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "It's typically yellow in color, sometimes seen in crowded city streets under the glow of neon lights.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Laite, jossa mittari tikittää nopeasti ja tehokkaasti.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat saada tällaisen vilkkaalla kadunkulmalla tai lentokentällä, erityisesti ruuhka-aikaan.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Se on tyypillisesti keltainen, joskus nähtävissä vilkkailla kaupunkikaduilla neonvalojen loisteessa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "metro",
         "english": "subway",
         "finnish": "metro",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find this underground tunnel system under a major city, and it's often associated with the smell of fresh bread wafting from nearby bakeries.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "This mode of transportation is commonly used during rush hour, and you might have waited in line to board it at an airport or train station after a long flight.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "It has 11 letters: s-u-b-w-a-y.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää tämän maanalaisen tunnelijärjestelmän suuren kaupungin alta, ja se yhdistetään usein tuoreen leivän tuoksuun, joka leijuu läheisistä leipomoista.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Tätä kulkuvälinettä käytetään yleisesti ruuhka-aikoina, ja saatat olla jonottanut nousta siihen lentokentällä tai rautatieasemalla pitkän lennon jälkeen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Siinä on 11 kirjainta: s-u-b-w-a-y.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "barco",
         "english": "boat",
         "finnish": "vene",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "EASY - This vessel is often found on a large body of water, and its movement is typically propelled by a source of energy that provides thrust, such as wind or an engine.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "MEDIUM - In the context of recreational activities, it's commonly used to transport people across lakes or rivers, and its design can vary greatly depending on the intended purpose.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "HARD - It has a distinct shape that allows for stability in calm waters, with a lower center of gravity than other forms of watercraft, and is often associated with nostalgic images of serene landscapes.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "HELPPO – Tämä alus sijaitsee usein suurella vesistöllä, ja sen liikettä ohjaa tyypillisesti energianlähde, joka tuottaa työntövoimaa, kuten tuuli tai moottori.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "MEDIUM – Virkistystoiminnassa sitä käytetään yleisesti ihmisten kuljettamiseen järvien tai jokien yli, ja sen muotoilu voi vaihdella suuresti käyttötarkoituksen mukaan.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "HARD – Sillä on erottuva muoto, joka mahdollistaa vakauden tyynissä vesissä, painopiste on matalampi kuin muissa vesikulkuneuvoissa, ja se liitetään usein nostalgisiin kuviin rauhallisista maisemista.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "moto",
         "english": "motorcycle",
         "finnish": "moottoripyörä",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "This thing typically has two wheels, a seat, and a handlebar. It's often powered by an engine and can reach high speeds, making it popular among thrill-seekers.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might see this vehicle on a coastal highway during summer, or in a parking lot at a music festival. It's commonly used for road trips and has become a symbol of freedom and adventure.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A distinctive feature of a certain type of vehicle often associated with rockstars and long hair is that it can be customized to stand upright when parked, allowing the driver to walk away from it without worrying about a wheel being damaged.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Tässä on tyypillisesti kaksi pyörää, istuin ja ohjaustanko. Se on usein moottorilla ja pystyy saavuttamaan suuria nopeuksia, mikä tekee siitä suositun jännitystä etsivien keskuudessa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat nähdä tämän ajoneuvon rannikkotiellä kesäisin tai musiikkifestivaalin parkkipaikalla. Sitä käytetään yleisesti automatkoilla ja siitä on tullut vapauden ja seikkailun symboli.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Tietynlaisen auton tunnusomainen piirre, joka usein yhdistetään rocktähtiin ja pitkiin hiuksiin, on se, että auto voidaan räätälöidä seisomaan pystyasennossa pysäköidessä, jolloin kuljettaja voi kävellä pois ilman huolta pyörän vaurioitumisesta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "viaje",
         "english": "trip",
         "finnish": "matka",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might take it, but first you'll need to pay the fare.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "It's a journey, often with luggage and a schedule.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A feeling of uncertainty can come from one that's not quite right.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat ottaa sen, mutta ensin sinun täytyy maksaa matka.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Se on matka, usein matkatavaroiden ja aikataulun kanssa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Epävarmuuden tunne voi syntyä myös siitä, että se ei ole aivan oikea.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "pasaporte",
         "english": "passport",
         "finnish": "passi",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's a document that helps you get through customs, and it often has a picture of your face on it.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might need to show this to an immigration officer when traveling internationally, especially if you're going abroad for work or school.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "It can be a thin, wallet-sized booklet with a unique serial number, but the exact location of this serial number is not publicly known.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Se on asiakirja, joka auttaa sinua pääsemään tullin läpi, ja siinä on usein kuva kasvoistasi.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat joutua näyttämään tämän maahanmuuttoviranomaiselle matkustaessasi kansainvälisesti, erityisesti jos olet lähdössä ulkomaille töihin tai opiskelemaan.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Se voi olla ohut, lompakon kokoinen vihko, jolla on ainutlaatuinen sarjanumero, mutta tämän sarjanumeron tarkkaa sijaintia ei tunneta julkisesti.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "billete",
         "english": "ticket",
         "finnish": "lippu",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A small, rectangular piece of paper that can be purchased at a sporting event or used to identify a seat on public transportation.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "The document you need to show when attending a concert, festival, or special event that may require an entry fee.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A thin, folded rectangle with a perforated edge, sometimes containing information about a person's journey or a service they've purchased.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Pieni, suorakaiteen muotoinen paperi, jonka voi ostaa urheilutapahtumasta tai käyttää julkisen liikenteen istuimen tunnistamiseen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Asiakirja, joka sinun tulee näyttää osallistuessasi konserttiin, festivaaliin tai erityistapahtumaan, joka saattaa vaatia osallistumismaksun.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Ohut, taitettu suorakulmio, jossa on rei'itetty reuna ja joka joskus sisältää tietoa henkilön matkasta tai ostamastaan palvelusta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "maleta",
         "english": "suitcase",
         "finnish": "matkalaukku",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's a common companion for travelers, often filled with clothes and personal items.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might find it at an airport or hotel lobby, typically made of durable materials to withstand frequent use.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A distinctive feature of its design is a reinforced handle that can be adjusted to fit different carrying styles, allowing users to easily navigate through crowded spaces.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Se on yleinen matkakumppani, usein täynnä vaatteita ja henkilökohtaisia tavaroita.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat löytää sen lentokentän tai hotellin aulasta, yleensä kestävistä materiaaleista, jotka kestävät usein käyttöä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Sen muotoilun tunnusomainen piirre on vahvistettu kahva, jota voi säätää eri kantotyyleihin, jolloin käyttäjät voivat liikkua helposti ruuhkaisissa tiloissa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       }
     ]
   },
@@ -10777,79 +12497,638 @@
         "spanish": "ropa",
         "english": "clothes",
         "finnish": "vaatteet",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You wear them to keep warm or look stylish, and they come in a wide variety of colors, patterns, and textures.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Think about what you do when it's raining outside - something that helps protect your skin from getting wet, while also keeping you looking presentable.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A peculiarly fragile item often made from organic materials, sometimes used as a means of expressing one's identity or cultural affiliation.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Käytät niitä pysyäksesi lämpimänä tai näyttääksesi tyylikkäiltä, ja niitä on saatavilla monenlaisissa väreissä, kuvioissa ja tekstuureissa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Mieti, mitä teet ulkona sateella – jotain, joka suojaa ihoasi kastumiselta ja pitää sinut siistin näköisenä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Erityisen hauras esine, joka usein valmistetaan orgaanisista materiaaleista ja jota joskus käytetään identiteetin tai kulttuurisen kuuluvuuden ilmaisemiseen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "camisa",
         "english": "shirt",
         "finnish": "paita",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find one on your back when you wake up in the morning.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "This garment is often worn to keep warm or to show off personal style, and it's usually made of fabric that's soft against your skin.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "It's something you can wrap around a cylinder shape, but only if the cylinder has two openings on opposite ends.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää sellaisen selästäsi, kun heräät aamulla.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Tätä vaatetta käytetään usein lämpimänä pysymiseen tai henkilökohtaisen tyylin esiin tuomiseen, ja se on yleensä valmistettu pehmeästä kankaasta ihoa vasten.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Se on jotain, jonka voi kiertää sylinterin muotoon, mutta vain jos sylinterissä on kaksi aukkoa vastakkaisissa päissä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "camiseta",
         "english": "t-shirt",
         "finnish": "t-paita",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A casual, everyday article of clothing that's often worn to show off your favorite sports team or quirky design.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might find one at a music festival, a school event, or when you're running errands with friends on a lazy Sunday afternoon.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A garment commonly associated with 20th-century fashion trends, characterized by its loose fit and distinctive collar shape.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Rento, arkinen vaatekappale, jota usein käytetään esittelemään suosikkijoukkueesi tai omalaatuista designia.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat löytää sellaisen musiikkifestivaalilta, koulun tapahtumasta tai kun olet asioilla ystävien kanssa laiskana sunnuntai-iltapäivänä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Vaate, joka liitetään yleisesti 1900-luvun muotitrendeihin, ja jolle on ominaista väljä istuvuus sekä erottuva kaulusmuoto.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "pantalón",
         "english": "pants",
         "finnish": "housut",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "EASY - A garment worn on the lower half of the body, often made of soft materials and designed to provide comfort and flexibility.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "MEDIUM - Typically found in a closet or dresser, these items are usually made of cotton, polyester, or other synthetic fibers, and come in various styles, such as skinny, straight-leg, or relaxed fit.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "HARD - A feature that distinguishes them from shirts, characterized by a seam that runs along the outer edge, often hidden by a fold or zip.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "EASY – Vaate, jota pidetään kehon alaosassa, usein pehmeistä materiaaleista valmistettu ja suunniteltu tarjoamaan mukavuutta ja joustavuutta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "MEDIUM – Tyypillisesti vaatekaapista tai lipastosta löytyvä vaatteet, ja ne valmistetaan yleensä puuvillasta, polyesteristä tai muista synteettisistä kuiduista, ja niitä on saatavilla eri tyyllisinä, kuten skinny, suoralahkeinen tai rento.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "HARD – Ominaisuus, joka erottaa heidät paidoista, ja se on tunnusomainen sauma, joka kulkee ulkoreunaa pitkin, usein peitettynä taitteen tai vetoketjun taakse.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "falda",
         "english": "skirt",
         "finnish": "hame",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "(Easy) A type of garment that falls below the waist, often worn by women to add a touch of elegance and femininity.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "(Medium) You might find this type of clothing in a dress or uniform section at a department store, especially if you're looking for something flowy and suitable for warmer weather.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "(Hard) A layer of fabric that covers the lower portion of the body, often attached to an undergarment by a narrow strip of material.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "(Helppo) Vaatetyyppi, joka ulottuu vyötärön alapuolelle, ja jota naiset usein käyttävät tuodakseen ripauksen eleganssia ja naisellisuutta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "(Medium) Saatat löytää tämän tyyppisiä vaatteita tavaratalon mekko- tai univormuosastolta, erityisesti jos etsit jotain liehuvaa ja lämpimämpään säähän sopivaa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "(Kova) Kangaskerros, joka peittää kehon alaosan, usein kiinnitetty alusvaatteeseen kapealla kangasnauhalla.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "vestido",
         "english": "dress",
         "finnish": "mekko",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "Easy hint: You often find it in a closet, and it's something you wear to look nice.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Medium hint: Think of what you might do when you're getting ready for a special occasion or a night out with friends.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "Hard hint: Consider the fact that some people have an aversion to tight clothing, while others enjoy wearing layers of fabric to conceal their bodies.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Helppo vinkki: Löydät sen usein kaapista, ja se on jotain, mitä käytät näyttääksesi hyvältä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Keskinkertainen vinkki: Mieti, mitä voisit tehdä, kun valmistaudut erityistilaisuuteen tai illanviettoon ystävien kanssa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Kova vihje: Ota huomioon, että jotkut ihmiset inhoavat tiukkoja vaatteita, kun taas toiset nauttivat kangaskerrosten käyttämisestä peittääkseen kehonsa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "zapato",
         "english": "shoe",
         "finnish": "kenkä",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's something you wear on your feet to protect them from rough surfaces and to keep them clean.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You often find it at a store that sells clothing, and it comes in a wide variety of colors, styles, and sizes.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "Some people have an unusual fondness for collecting them, and they might be found in unexpected places, such as on a dusty old shelf or inside a vintage trunk.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Se on jotain, mitä käytät jaloissasi suojataksesi niitä karkeilta pinnoilta ja pitääksesi ne puhtaina.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Sitä löytyy usein vaatteita myyvästä kaupasta, ja sitä on saatavilla monenlaisissa väreissä, tyyleissä ja koossa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Joillakin ihmisillä on poikkeuksellinen mieltymys kerätä niitä, ja niitä saattaa löytää odottamattomista paikoista, kuten pölyiseltä vanhalta hyllyltä tai vanhan matkalaukun sisältä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "calcetín",
         "english": "sock",
         "finnish": "sukka",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's something you put on your foot to keep it warm and cozy, often made of soft materials like cotton or wool.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might find one in a laundry basket, paired with its matching partner, waiting to be matched up with the rest of your outfit for the day.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A thin, flexible tube typically made of synthetic fibers, occasionally worn on the lower extremities as part of standard attire during colder seasons.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Se on jotain, mitä laitetaan jalkaan pitämään se lämpimänä ja kodikkaana, usein pehmeistä materiaaleista kuten puuvillasta tai villasta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat löytää yhden pyykkikorista, parina sen parin kanssa, odottamassa sovittamista päivän muun asusi kanssa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Ohut, joustava putki, joka on tyypillisesti valmistettu synteettisistä kuiduista, jota käytetään satunnaisesti alaraajoissa osana tavallista asua kylminä vuodenaikoina.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "chaqueta",
         "english": "jacket",
         "finnish": "takki",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "This is something you might wear on a cold winter day to keep your arms warm.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You often take it off when going inside, but sometimes you leave it at the door to protect what's on the other side from getting wet or dirty.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "It can be made of many different materials and colors, and its shape is roughly like an oval with two handles attached on either side.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Tätä voi käyttää kylmänä talvipäivänä pitääksesi kädet lämpiminä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Usein otat sen pois sisälle mennessä, mutta joskus jätät sen oven eteen suojaamaan toisella puolella olevaa kastumasta tai likaantumiselta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Se voidaan valmistaa monista eri materiaaleista ja väreistä, ja sen muoto muistuttaa suunnilleen soikiota, jossa on kaksi kahvaa kummallakin puolella.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "abrigo",
         "english": "coat",
         "finnish": "takki",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's something you might wear to keep warm on a cold winter's day, and it usually has a hood.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You can often find one hanging in a closet or on a hook near a front door, and it's commonly made of materials like wool or fur.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A certain type of garment worn by medieval knights had an overlapping design feature that was meant to resemble the armor plating on a tortoise shell.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Se on jotain, mitä saatat käyttää lämpimänä kylmänä talvipäivänä, ja siinä on yleensä huppu.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Voit usein löytää sellaisen roikkumasta kaapista tai koukussa ulko-oven läheltä, ja se on yleisesti valmistettu materiaaleista kuten villasta tai turkista.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Eräs keskiaikaisten ritarien käyttämä vaatekappale sisälsi päällekkäisen muotoilun, jonka tarkoituksena oli muistuttaa kilpikonnan kuoren panssarilevyä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "sombrero",
         "english": "hat",
         "finnish": "hattu",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's something you might wear on your head to keep it clean and dry, especially if you've been outdoors.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might find one at a store that sells clothes and accessories, or in a drawer where people put things they want to use later.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A certain type of structure can be used as a part of its design, particularly for those who work on the upper parts of their heads.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Se on jotain, mitä voit pitää päässäsi pitääksesi sen puhtaana ja kuivana, erityisesti jos olet ollut ulkona.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat löytää sellaisen kaupasta, joka myy vaatteita ja asusteita, tai laatikosta, johon ihmiset laittavat myöhemmin haluamiaan tavaroita.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Tietynlaista rakennetta voidaan käyttää osana sen suunnittelua, erityisesti niille, jotka työskentelevät päänsä yläosissa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "gafas",
         "english": "glasses",
         "finnish": "lasit",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might need these to see the blackboard clearly, especially if you're a student.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "In the morning, people often put these on after they brush their teeth and wash their face, as part of their daily routine.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "They can be found in the top drawer of a dresser, next to a book or a small decorative item that reflects light.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat tarvita näitä, jotta liitutaulu näkyy selvästi, varsinkin jos olet opiskelija.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Aamuisin ihmiset laittavat näitä usein hampaiden harjauksen ja kasvojen pesun jälkeen osana päivittäistä rutiiniaan.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Ne löytyvät lipaston ylälaatikosta, kirjan tai pienen valoa heijastavan koriste-esineen vierestä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "reloj",
         "english": "watch",
         "finnish": "kello",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might see one on your wrist or on a shelf, often with numbers and hands that move.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "When it's dark outside, people often use this device to see what's happening around them at night, in their homes, cars, or while driving.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "It has a round face with raised hour markers and sometimes other markings like seconds, minutes, or date, and is typically held up to the eye to observe something closely.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat nähdä sellaisen ranteessasi tai hyllyllä, usein numeroilla ja liikkuvilla käsillä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Kun ulkona on pimeää, ihmiset käyttävät tätä laitetta usein nähdäkseen, mitä ympärillä tapahtuu yöllä, kotona, autossa tai ajaessaan.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Siinä on pyöreä pinta, jossa on kohotettuja tuntimerkkejä ja joskus muita merkintöjä, kuten sekunteja, minuutteja tai päivämäärää, ja sitä pidetään yleensä silmän edessä tarkkailemaan jotain läheltä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       }
     ]
   },
@@ -10860,79 +13139,638 @@
         "spanish": "feliz",
         "english": "happy",
         "finnish": "onnellinen",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A warm, fuzzy feeling that comes from being around people you love or doing something you enjoy.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "A time of day often associated with sunshine and outdoor activities, especially during summer months in many parts of the world.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "The faint scent of old leather or a slight tickle on the throat that occurs when someone is experiencing an intense emotional state, but only to those who are familiar with its unique characteristics and can recall it precisely from past experiences.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Lämmin, pehmeä tunne, joka syntyy rakkaiden ihmisten seurassa olemisesta tai siitä, mistä nautit.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Vuorokaudenaika, joka usein yhdistetään auringonpaisteeseen ja ulkoiluun, erityisesti kesäkuukausina monissa maailman osissa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Hento vanhan nahan tuoksu tai pieni kutina kurkussa, joka syntyy, kun joku kokee voimakkaan tunne-elämän, mutta vain niille, jotka tuntevat sen ainutlaatuiset piirteet ja muistavat sen tarkasti menneistä kokemuksista.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "triste",
         "english": "sad",
         "finnish": "surullinen",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "Feeling that comes after a good cry, often accompanied by grey skies and overcast days.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "It's a feeling you might get when you're missing someone you love, or when your favorite team loses in the championship game.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A sensation that can be triggered by the sound of a solitary piano note played at dawn on an empty street.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Tunne, joka tulee hyvän itkun jälkeen, usein harmaan taivaan ja pilvisen päivän mukana.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Se on tunne, jonka saatat saada, kun kaipaat rakastamaasi henkilöä tai kun suosikkijoukkueesi häviää mestaruusottelussa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Tunne, jonka voi laukaista yksinäisen pianonnuotin soitto aamunkoitteessa tyhjällä kadulla.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "cansado",
         "english": "tired",
         "finnish": "väsynyt",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "Feeling of exhaustion after a long period of physical or mental activity. (easy)",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "The sensation that comes from not getting enough rest, often accompanied by difficulty concentrating and decreased energy levels. (medium)",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A subtle change in the way one's eyelids droop slightly more than usual, indicative of an underlying state of depletion.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Uupumuksen tunne pitkän fyysisen tai henkisen toiminnan jälkeen. (rauhallisesti)",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Tunne, joka syntyy liian vähäisestä levosta, usein keskittymisvaikeuksien ja alentunutten energiatasojen kanssa. (medium)",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Hienovarainen muutos siinä, miten silmäluomet roikkuvat hieman tavallista enemmän, mikä viittaa taustalla olevaan ehtymistilaan.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "enfermo",
         "english": "sick",
         "finnish": "sairas",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "Feeling queasy and off-color, like a nasty cold or flu.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Something that makes you feel nauseous and drained, often accompanied by a loss of appetite or energy.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A condition characterized by an imbalance in the body's natural harmony, resulting in a noticeable deviation from normal physiological functioning – perhaps most evident when one is unable to partake in activities that normally bring them joy.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Olo on huonovointinen ja huono väri, kuin ikävä flunssa tai flunssa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Jotain, mikä saa sinut voimaan pahoinvointiin ja uupuneeksi, usein ruokahalun tai energian menetyksen kanssa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Tila, jolle on ominaista kehon luonnollisen harmonian epätasapaino, mikä johtaa huomattavaan poikkeamaan normaalista fysiologisesta toiminnasta – ehkä kaikkein ilmeisimmin, kun ei pysty osallistumaan toimintoihin, jotka normaalisti tuovat iloa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "sano",
         "english": "healthy",
         "finnish": "terve",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A balanced diet, regular exercise, and sufficient sleep can contribute to this state.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might feel a sense of well-being when you've eaten a nutritious meal after a morning jog.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "It's often associated with a vibrant green color that's abundant in nature during certain seasons.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Tasapainoinen ruokavalio, säännöllinen liikunta ja riittävä uni voivat vaikuttaa tähän tilaan.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat tuntea hyvinvoinnin tunnetta, kun olet syönyt ravitsevan aterian aamulenkin jälkeen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Se yhdistetään usein kirkkaaseen vihreään väriin, joka on luonnossa runsas tietyinä vuodenaikoina.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "amor",
         "english": "love",
         "finnish": "rakkaus",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A warm, fuzzy feeling that can fill your chest and make you feel like floating on air.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "The reason why you'd put up with someone's snoring, cooking disasters, or endless Netflix binges – it's a choice to prioritize another person's happiness over your own needs.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A gentle ache in the center of your chest that persists long after a cherished memory has faded into the past, leaving behind only a faint longing that refuses to be satiated by time or distance.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Lämmin, pehmeä tunne, joka voi täyttää rintasi ja saada sinut tuntemaan, että leijut ilmassa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Syy siihen, miksi sietäisit jonkun kuorsausta, ruoanlaittokatastrofeja tai loputtomia Netflix-maratonsseja – se on valinta asettaa toisen onnellisuus omien tarpeidesi edelle.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Hellä kipu rinnan keskellä, joka jatkuu pitkään sen jälkeen, kun rakas muisto on kadonnut menneisyyteen, jättäen jälkeensä vain heikon kaipuun, jota aika tai etäisyys eivät tyydytä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "miedo",
         "english": "fear",
         "finnish": "pelko",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A chill runs down your spine when you hear a strange noise at night, and you can't shake the feeling that something is lurking just out of sight.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You remember being a child and getting lost in the woods with your friends; the memory still sends shivers down your spine whenever you think about it because of the sense of vulnerability and panic you felt.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A faint, almost imperceptible tremble in the fingers of someone holding your hand when they're walking through a crowded room.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Kylmä väre kulkee selkäpiitäsi pitkin, kun kuulet oudon äänen yöllä, etkä pääse eroon tunteesta, että jokin vaanii juuri näkymättömissä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Muistat lapsena eksyneesi metsään ystäviesi kanssa; Muisto saa kylmät väreet kulkemaan selkäpiitäsi pitkin aina kun ajattelet sitä, haavoittuvuuden ja paniikin tunteen vuoksi.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Hento, lähes huomaamaton värinä sormissa jonkun kädestä kävellessään tungoksessa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "alegría",
         "english": "joy",
         "finnish": "ilo",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "The feeling you get when eating your favorite dessert after a long, hard day at school.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "A warm, fuzzy sensation that comes over you when you're surrounded by loved ones on a sunny day.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "Something that might be associated with the sound of laughter and the smell of freshly baked cookies.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Tunne, jonka saat syödessäsi suosikkijälkiruokaasi pitkän, rankan koulupäivän jälkeen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Lämmin, pehmeä tunne, joka valtaa sinut, kun olet rakkaiden ympäröimänä aurinkoisena päivänä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Jotain, joka voisi liittyä naurun ääneen ja vastaleivottujen keksien tuoksuun.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "enojado",
         "english": "angry",
         "finnish": "vihainen",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A scowl on your face can be a giveaway, as can the sound of raised voices or slammed doors.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "This emotion is often associated with feelings of frustration, hurt, or betrayal - think of a person who's been wronged or disrespected.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "The sensation of tension in your shoulders and jaw, as if an unspoken word has been lingering on your lips for too long.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Rypistynyt ilme voi paljastaa, samoin kuin korotettujen äänien tai ovien paiskautuminen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Tämä tunne yhdistetään usein turhautumisen, loukkaantumisen tai petoksen tunteisiin – ajattele henkilöä, jota on kohdeltu väärin tai epäkunnioitettu.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Jännityksen tunne hartioissa ja leuassa, ikään kuin sanaton sana olisi viipynyt huulillasi liian kauan.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "preocupado",
         "english": "worried",
         "finnish": "huolissaan",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "Feeling anxious about a future event or situation, often accompanied by physical symptoms such as a racing heart or trembling hands.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Typically expressed through concerns about someone or something, and may be triggered by changes in routine or unexpected events.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A subtle alteration in tone of voice, characterized by a slightly longer pause before responding to a question, and a faintly hesitant cadence in speech.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Ahdistuksen tunne tulevasta tapahtumasta tai tilanteesta, johon usein liittyy fyysisiä oireita, kuten sydämen hakkaamista tai täriseviä käsiä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Yleensä ilmenee huolina jostakusta tai jostakin, ja se voi laukaista rutiinin muutoksista tai odottamattomista tapahtumista.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Hienovarainen äänensävyn muutos, jolle on ominaista hieman pidempi tauko ennen vastausta kysymykseen ja hieman epävarma puherytmi.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "contento",
         "english": "content",
         "finnish": "tyytyväinen",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "Think of a social media update that makes you smile, or a text message from a loved one - it's often something shared with others.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might find it in a blog post about your favorite hobby, a speech at a wedding reception, or an advertisement for a new product.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A word associated with a feeling of satisfaction or fulfillment that is often linked to the concept of being \"enough\", and can be found in phrases like \"nothing but\" or \"a matter of\".",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Ajattele sosiaalisen median päivitystä, joka saa sinut hymyilemään, tai läheiseltäsi tulevaa tekstiviestiä – se on usein jotain, mitä jaetaan muiden kanssa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat löytää sen blogikirjoituksesta lempiharrastuksestasi, puheesta hääjuhlassa tai uuden tuotteen mainoksesta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Sana, joka liittyy tyytyväisyyden tai täyttymyksen tunteeseen ja joka usein liittyy käsitteeseen \"riittävä\" ja löytyy ilmauksista kuten \"ei mitään muuta\" tai \"asia of\".",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "nervioso",
         "english": "nervous",
         "finnish": "hermostunut",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A feeling that comes before a presentation, and is often accompanied by fidgeting or sweating.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Something you might experience when meeting someone new, especially if they're talking about their job or finances.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A sensation that can be likened to being on edge while waiting for something to happen, like the sound of raindrops hitting a metal roof from inside a dry room.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Tunne, joka tulee ennen esitystä ja johon usein liittyy levottomuutta tai hikoilua.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Jotain, mitä saatat kokea tavatessasi uuden ihmisen, erityisesti jos hän puhuu työstä tai taloudesta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Tunne, jota voi verrata hermostuneisuuteen odottaessaan jotain, kuin sadepisaroiden ääni metallikattoon kuivasta huoneesta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "aburrido",
         "english": "bored",
         "finnish": "tylsistynyt",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "Feeling of listlessness often accompanied by a lack of motivation or enthusiasm.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "A state of mind that can be triggered by a lack of stimulating activities or events, causing someone to feel unengaged and disconnected from their surroundings.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A sensation characterized by a subtle disconnection from one's surroundings, marked by an increased tendency to focus on trivial details, such as the number of minutes remaining until a scheduled event or the texture of a nearby object.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Väsymättömyyden tunne, johon usein liittyy motivaation tai innostuksen puute.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Mielentila, jonka voi laukaista stimuloivien aktiviteettien tai tapahtumien puute, mikä saa ihmisen tuntemaan itsensä irtaantuneeksi ja irtaantuneeksi ympäristöstään.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Aistimus, jolle on ominaista hienovarainen irtautuminen ympäristöstä, jolle on ominaista lisääntynyt taipumus keskittyä mitättömiin yksityiskohtiin, kuten minuuttien määrään ennen aikataulutettua tapahtumaa tai lähellä olevan esineen tekstuuria.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       }
     ]
   },
@@ -10943,73 +13781,589 @@
         "spanish": "trabajo",
         "english": "work/job",
         "finnish": "työ",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A place where you often sit, stare at screens, and drink coffee.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Something you might do after graduating from school, or as part of a long-term plan with your parents to pay off student loans and buy a house in the suburbs.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A 9-to-5 activity that might involve wearing a name tag with a single initial, but only if it's a Thursday.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Paikka, jossa usein istut, tuijotat ruutuja ja juot kahvia.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Jotain, mitä voisit tehdä valmistuttuasi koulusta tai osana pitkäaikaista suunnitelmaa vanhempiesi kanssa opiskelijalainojen maksamiseksi ja talon ostamiseksi esikaupunkialueelta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "9–17 -aktiviteetti, jossa nimilappu voi olla yksi nimikirjain, mutta vain torstaina.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "médico",
         "english": "doctor",
         "finnish": "lääkäri",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find one in a white coat with a stethoscope around their neck, surrounded by medical books and equipment.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "This person is often called upon to make life-or-death decisions, but they typically work in an office setting rather than on the battlefield.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "They are frequently asked to examine patients who are experiencing unusual symptoms, such as severe headaches or persistent rashes, and may be required to perform a procedure involving the administration of a medication that is administered via a small, hollow tube.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää yhden valkoisessa takissa, stetoskooppi kaulassaan, ympärillään lääketieteellisiä kirjoja ja välineitä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Tätä henkilöä pyydetään usein tekemään elämän ja kuoleman päätöksiä, mutta hän työskentelee yleensä toimistoympäristössä eikä taistelukentällä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Heitä pyydetään usein tutkimaan potilaita, joilla esiintyy epätavallisia oireita, kuten voimakasta päänsärkyä tai pitkittäviä ihottumia, ja heitä voidaan vaatia suorittamaan toimenpide, jossa lääke annetaan pienen, onttoa putkea pitkin.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "enfermera",
         "english": "nurse",
         "finnish": "sairaanhoitaja",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find a person with these skills in a hospital, especially during morning rounds.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "This profession often requires wearing scrubs, and a stethoscope is a common piece of equipment used here.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A quiet moment spent listening to someone's heartbeat can be a defining aspect of this occupation.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää henkilön, jolla on nämä taidot, sairaalasta, erityisesti aamukierroksilla.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Tämä ammatti vaatii usein työvaatteiden käyttöä, ja stetoskooppi on yleinen väline täällä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Hiljainen hetki jonkun sydämenlyöntejä kuunnellen voi olla tämän ammatin määrittävä osa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "profesor",
         "english": "teacher",
         "finnish": "opettaja",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "Someone who wears a distinctive badge, often with a lot of pins and symbols.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "A person who is responsible for explaining complex concepts to students at school or university.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "An individual whose presence in a classroom can be sensed through the faint scent of old books and stale air, lingering long after they've left the room.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Joku, joka kantaa tunnistettavaa merkkiä, jossa on usein paljon pinssejä ja symboleja.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Henkilö, joka vastaa monimutkaisten käsitteiden selittämisestä oppilaille koulussa tai yliopistossa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Henkilö, jonka läsnäolo luokkahuoneessa voi aistia vanhojen kirjojen ja tunkkaisen ilman hennon hajun kautta, joka viipyy pitkään sen jälkeen, kun hän on poistunut huoneesta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "abogado",
         "english": "lawyer",
         "finnish": "lakimies",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "(Easy) A person who wears a suit and ties, often has a lot of books on shelves behind them.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "(Medium) You might find someone with this profession in a office building near a courthouse, wearing a tie that matches their client's business attire.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "(Hard) They have a peculiar way of speaking, where they use words like \"verbiage\" and \"procedural\", often to describe something that happens when you're not even paying attention.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "(Helppo) Henkilö, joka käyttää pukua ja solmioita, kantaa usein paljon kirjoja hyllyillä takanaan.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "(Medium) Saatat löytää jonkun tämän ammatin omaavan toimistorakennuksesta lähellä oikeustaloa, jolla on solmio, joka sopii asiakkaan työasuun.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "(Vaikea) Heillä on omituinen puhetapa, jossa he käyttävät sanoja kuten \"verbiage\" ja \"proseduraalinen\", usein kuvaamaan jotain, mitä tapahtuu, kun et edes kiinnitä huomiota.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "ingeniero",
         "english": "engineer",
         "finnish": "insinööri",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find one of these people working on a construction site, surrounded by loud machines and building materials.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "This person's work is often seen in roads, bridges, and buildings - they help make them safe and functional.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "Imagine a person who spends most of their time staring at blueprints or diagrams of intricate systems, often with a cup of coffee nearby to keep them awake.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää jonkun näistä ihmisistä työskentelemässä rakennustyömaalla, ympärillään äänekkäitä koeita ja rakennusmateriaaleja.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Tämän henkilön työtä nähdään usein teillä, silloilla ja rakennuksissa – he auttavat tekemään niistä turvallisia ja toimivia.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Kuvittele henkilö, joka viettää suurimman osan ajastaan tuijottaen monimutkaisten järjestelmien piirustuksia tai kaavioita, usein kahvikuppi lähellä pitämässä hereillä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "artista",
         "english": "artist",
         "finnish": "taiteilija",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "This person's hands move with purpose, creating something new with every stroke of a brush or pencil.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might find their work in a museum or gallery, or perhaps on the walls of your own home - it can be a beautiful addition to any space.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A small, delicate mark was made on a piece of paper a long time ago, and it's still visible today...",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Tämän henkilön kädet liikkuvat päämäärätietoisesti, luoden jokaista uutta jokaisella siveltimen tai lyijykynän vedolla.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat löytää heidän teoksiaan museosta tai galleriasta tai ehkä oman kotisi seiniltä – se voi olla kaunis lisä mihin tahansa tilaan.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Pieni, herkkä merkki tehtiin paperille kauan sitten, ja se näkyy yhä tänäkin päivänä...",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "músico",
         "english": "musician",
         "finnish": "muusikko",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "EASY: The person often wears a flashy outfit or has distinctive hair style.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "MEDIUM: You might see them playing live, on TV, or at a concert venue during their prime years (80s-2000s).",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "HARD: They have fingers.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "HELPPO: Henkilöllä on usein näyttävä asu tai tunnistettava kampaus.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "MEDIUM: Saatat nähdä heidät esiintymässä livenä, televisiossa tai konserttipaikalla heidän parhaimpina vuosinaan (80-2000-luku).",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "KOVA: Heillä on sormet.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "policía",
         "english": "police",
         "finnish": "poliisi",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "EASY - You might see them in a vehicle with flashing lights and sirens, wearing uniforms that are often navy blue or black.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "MEDIUM - They're often called to deal with noise complaints at night, but they also help keep people safe during parades and festivals.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "HARD - A small, circular badge on their uniform might be an identifying feature of those in this profession.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "HELPPO – Saatat nähdä heidät ajoneuvossa, jossa on vilkkuvat valot ja sireenit, pukeutuneina usein laivastonsinisiin tai mustiin univormuihin.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "MEDIUM – Heidät kutsutaan usein hoitamaan meluvalituksia öisin, mutta he auttavat myös pitämään ihmiset turvassa paraateissa ja festivaaleissa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "HARD – Pieni, pyöreä merkki heidän univormussaan saattaa olla tunnusmerkki tässä ammatissa työskenteleville.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "cocinero",
         "english": "cook",
         "finnish": "kokki",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find a delicious, savory meal at this activity, where ingredients are heated to perfection.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "This skill is often learned from family members or friends who have experience with preparing meals, and can be a useful one to acquire in your own kitchen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A faint scent of melting fat on the stovetop may indicate that someone has been engaging in this daily routine for an extended period.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää herkullisen ja suolaisen aterian tästä aktiviteetista, jossa ainekset kuumennetaan täydelliseksi.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Tämä taito opitaan usein perheenjäseniltä tai ystäviltä, joilla on kokemusta ruoanlaitosta, ja se voi olla hyödyllinen omassa keittiössä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Heikko sulavan rasvan tuoksu liedellä voi viitata siihen, että joku on harjoittanut tätä päivittäistä rutiinia pitkään.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "camarero",
         "english": "waiter",
         "finnish": "tarjoilija",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "This person typically walks around a busy dining area, taking orders and delivering food to customers. They often wear a uniform with a name tag.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might encounter this individual on a Friday night at a popular restaurant, where they're responsible for refilling drinks and clearing plates from tables of people enjoying dinner together as a group or family.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A person who carries an order tray with precision and serves food in a timely manner, often while being approached by multiple customers simultaneously to take their orders or resolve any issues with their meal.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Tämä henkilö kulkee tyypillisesti vilkkaassa ruokailutilassa, ottaa tilauksia vastaan ja toimittaa ruokaa asiakkaille. He käyttävät usein univormua, jossa on nimilappu.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat kohdata tämän henkilön perjantai-iltana suositussa ravintolassa, jossa hän vastaa juomien täyttämisestä ja lautasen tyhjentämisestä pöydistä, joissa ihmiset nauttivat yhdessä illallista ryhmänä tai perheenä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Henkilö, joka kantaa tilausalustaa tarkasti ja tarjoilee ruokaa ajallaan, usein useiden asiakkaiden lähestyessä samanaikaisesti ottaakseen tilauksensa vastaan tai ratkaistakseen aterian ongelmat.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "vendedor",
         "english": "salesperson",
         "finnish": "myyjä",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "EASY - They often wear a badge with their company's logo and have a briefcase or purse that contains important documents.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "MEDIUM - In a store, they might ask you how your day is going while trying to convince you to buy something from them. You might also see them in a conference room pitching an idea to colleagues.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "HARD - Someone who frequently handles transactions and has a title that starts with \"C\" but it's not a name like Charles or Christopher, often works in a place where people come to make big decisions, and occasionally uses phrases like \"This is a great opportunity for you to invest.\"",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "HELPPO – Heillä on usein merkki, jossa on yrityksensä logo, ja salkku tai laukku, jossa on tärkeitä asiakirjoja.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "MEDIUM – Kaupassa he saattavat kysyä, miten päiväsi sujuu, samalla kun yrittävät saada sinut ostamaan jotain heiltä. Saatat myös nähdä heidät kokoushuoneessa esittelemässä ideaa kollegoille.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "HARD – Joku, joka hoitaa usein transaktioita ja jonka titteli alkaa kirjaimella \"C\" mutta ei ole nimi kuten Charles tai Christopher, työskentelee usein paikassa, jossa ihmiset tulevat tekemään suuria päätöksiä ja käyttää toisinaan lauseita kuten \"Tämä on loistava tilaisuus sijoittaa.\"",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       }
     ]
   },
@@ -11020,67 +14374,540 @@
         "spanish": "dinero",
         "english": "money",
         "finnish": "raha",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's often found in wallets, purses, or pockets.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might earn it by working a job, selling something, or collecting rewards for completing tasks or milestones.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A certain type of paper used to represent its value has been around since the 17th century and features a portrait of a prominent historical figure.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Sitä löytyy usein lompakoista, laukuista tai taskuista.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat ansaita sen tekemällä työtä, myymällä jotain tai keräämällä palkintoja tehtävien tai virstanpylväiden suorittamisesta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Eräänlainen paperityyppi, jota käytetään sen arvon kuvaamiseen, on ollut olemassa 1600-luvulta lähtien ja siinä on merkittävän historiallisen henkilön muotokuva.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "precio",
         "english": "price",
         "finnish": "hinta",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "The amount you pay when buying something new, usually after a negotiation or a check-out process.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "A factor that can affect the cost of a product, such as location, time, and material quality.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "The scarcity of a resource, often measured in terms of availability, can influence the value placed on it by consumers.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Summa, jonka maksat ostaessasi jotain uutta, yleensä neuvottelujen tai kassaprosessin jälkeen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Tekijä, joka voi vaikuttaa tuotteen hintaan, kuten sijainti, aika ja materiaalin laatu.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Resurssin niukkuus, jota usein mitataan saatavuuden perusteella, voi vaikuttaa kuluttajien sille asettamaan arvoon.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "euro",
         "english": "euro",
         "finnish": "euro",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "This currency is widely used in Southern Europe, and its coins often feature the Twelve Apostles of Christ.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "In some countries, this currency is divided into 100 smaller units, which were previously worth a single German mark before the country's reunification.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "It was introduced as a common currency for several European nations at the start of the 21st century, replacing the need to exchange currency in border towns and cities during weekends and holidays.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Tätä valuuttaa käytetään laajasti Etelä-Euroopassa, ja sen kolikoissa esiintyy usein Kristuksen kaksitoista apostolia.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Joissakin maissa tämä valuutta on jaettu 100 pienempään yksikköön, jotka ennen maan jälleenyhdistymistä olivat yhden saksalaisen markan arvoisia.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Se otettiin käyttöön yhteiseksi valuutaksi useille Euroopan maille 2000-luvun alussa, korvaten tarpeen vaihtaa valuuttaa rajakaupungeissa viikonloppuisin ja juhlapyhinä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "comprar",
         "english": "to buy",
         "finnish": "ostaa",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "Imagine holding something in your hand that makes you feel excited and satisfied, often associated with a sense of accomplishment or pleasure.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "Consider the context in which you've heard or used this phrase before - was it during a special occasion, while browsing through a store, or perhaps in an online marketplace?",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A person who has been known to carry a small pouch or envelope containing a few coins might be doing this action occasionally, but the specifics remain unclear.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Kuvittele, että pidät kädessäsi jotain, joka saa sinut tuntemaan olosi innostuneeksi ja tyytyväiseksi, usein yhdistettynä saavutuksen tai mielihyvän tunteeseen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Mieti kontekstia, jossa olet kuullut tai käyttänyt tätä ilmaisua aiemmin – oliko se erityistilaisuudessa, kaupassa selaillessasi tai ehkä verkkokaupassa?",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Henkilö, joka tunnetaan pienen pussin tai kirjekuoren kantamisesta, jossa on muutama kolikko, saattaa tehdä tätä satunnaisesti, mutta yksityiskohdat ovat epäselviä.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "vender",
         "english": "to sell",
         "finnish": "myydä",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find this activity on a car's window, in a store's storefront, or even on a person's badge.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "It often involves negotiating prices, exchanging money, and making promises about the quality of something.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "Think of the feeling you get when you're parting with something that no longer serves its original purpose – but it still has value to someone else.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää tämän toiminnan auton ikkunasta, kaupan julkisivusta tai jopa henkilön tunnuksesta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Se tarkoittaa usein hintojen neuvottelua, rahan vaihtamista ja lupausten tekemistä jonkin laadun suhteen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Ajattele tunnetta, jonka saat, kun eroat jostain, joka ei enää palvele alkuperäistä tarkoitustaan – mutta sillä on silti arvoa jollekin toiselle.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "pagar",
         "english": "to pay",
         "finnish": "maksaa",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might need to part with some cash when you buy a new pair of shoes.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "When you receive money as a gift, it's customary to put it towards something important, like rent or bills.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "A certain type of debt can be settled by transferring funds from one account to another.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat joutua luopumaan rahasta, kun ostat uudet kengät.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Kun saat rahaa lahjana, on tapana käyttää se johonkin tärkeään, kuten vuokraan tai laskuihin.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Tietynlainen velka voidaan hoitaa siirtämällä varoja tililtä toiselle.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "caro",
         "english": "expensive",
         "finnish": "kallis",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "You might find it on a luxury item you receive as a gift, often made from rare or precious materials.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "In some countries, a high price tag can be seen as a badge of honor, signifying quality and craftsmanship.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "The label may appear on items that were once reserved for royalty, but now are coveted by those with significant financial means.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Saatat löytää sen luksusesineestä, jonka saat lahjaksi, usein harvinaisista tai arvokkaista materiaaleista.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Joissakin maissa korkea hintalappu voidaan nähdä kunniamerkkinä, joka symboloi laatua ja käsityötaitoa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Etiketti saattaa esiintyä esineissä, jotka aiemmin oli varattu kuninkaallisille henkilöille, mutta joita nyt arvostavat merkittävät taloudelliset resurssit.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "barato",
         "english": "cheap",
         "finnish": "halpa",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's a price that can be found on a tag at a thrift store.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might pay this price for a pair of socks or a used book, but not for a new iPhone.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "Consider a place where a budget airline operates, and you'll find something similar to what comes next:",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Se on hinta, joka löytyy kirpputorin tunnisteesta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat maksaa tämän hinnan parista sukista tai käytetystä kirjasta, mutta et uudesta iPhonesta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Ajattele paikkaa, jossa halpalentoyhtiö toimii, ja löydät jotain samankaltaista kuin mitä seuraavaksi tapahtuu:",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "gratis",
         "english": "free",
         "finnish": "ilmainen",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's something you can get without paying a dime, and it's as light as a whisper on a summer breeze.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might receive this as a gift when someone is trying to be generous or friendly, especially if they're parting ways with something of value.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "Imagine the feeling of weightlessness that comes from unencumbered movement – a sense of liberation that transcends tangible objects and material wealth.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Se on jotain, jonka saa maksamatta penniäkään, ja se on kevyt kuin kuiskaus kesätuulessa.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat saada tämän lahjaksi, kun joku yrittää olla antelias tai ystävällinen, erityisesti jos hän luopuu jostain arvokkaasta.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Kuvittele painottomuuden tunne, joka syntyy rajoittamattomasta liikkeestä – vapautumisen tunne, joka ylittää konkreettiset esineet ja aineelliset rikkaudet.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "cuenta",
         "english": "bill",
         "finnish": "lasku",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "It's often used to pay for something you've purchased, and it usually has your name on it.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might receive one from a restaurant or store when you make a purchase, especially if the amount is over a certain threshold.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "In some industries, an early payment made by a supplier before receiving goods can be recorded in a specific type of document that resembles a receipt.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Sitä käytetään usein maksamaan jotain, jonka olet ostanut, ja siinä on yleensä sinun nimesi.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat saada sellaisen ravintolasta tai kaupasta, kun teet ostoksen, erityisesti jos summa ylittää tietyn rajan.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Joillakin toimialoilla toimittajan tekemä varhainen maksu ennen tavaroiden vastaanottamista voidaan kirjata tietynlaiseen asiakirjaan, joka muistuttaa kuittia.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       },
       {
         "spanish": "tarjeta",
         "english": "card",
         "finnish": "kortti",
-        "learningTips": []
+        "learningTips": [
+          {
+            "language": "english",
+            "difficulty": "easy",
+            "text": "A small, thin piece of material often used to store information or identification.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "medium",
+            "text": "You might find one in a wallet, on a table at a game night, or attached to someone's keychain.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "english",
+            "difficulty": "hard",
+            "text": "It has a narrow slot and is typically rectangular in shape.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": null
+          },
+          {
+            "language": "finnish",
+            "difficulty": "easy",
+            "text": "Pieni, ohut materiaalipala, jota usein käytetään tiedon tai tunnistuksen tallentamiseen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "medium",
+            "text": "Saatat löytää sellaisen lompakosta, pöydältä peli-illassa tai kiinnitettynä jonkun avaimenperään.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          },
+          {
+            "language": "finnish",
+            "difficulty": "hard",
+            "text": "Siinä on kapea ura ja se on tyypillisesti suorakaiteen muotoinen.",
+            "tipModel": "llama3.2:3b",
+            "translationModel": "azureTranslatorService"
+          }
+        ]
       }
     ]
   }
