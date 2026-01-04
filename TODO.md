@@ -9,7 +9,7 @@ Before migrating to Svelte, simplify the current code:
 - [x] Extract TTS logic into separate tts-service.js
 - [x] Extract answer checking into answer-checker.js (fuzzy matching, typo tolerance)
 - [x] ~~Extract UI state management into game-state.js~~ (SKIPPED - see note below)
-- [ ] Test that everything still works after each extraction
+- [x] Test that everything still works after each extraction
 
 Notes:
 - Scoring logic stays in game.js — it's specific to the word game (tip penalties,
@@ -24,12 +24,12 @@ Notes:
 
 Choose simplest approach:
 
-- [ ] Create new SvelteKit project in /svelte or similar folder
-- [ ] Add Tailwind CSS
-- [ ] Add DaisyUI (has 30+ themes, kid-friendly colors, ready components)
-- [ ] Configure for static build (GitHub Pages deployment)
-- [ ] Set up GitHub Actions to build and deploy
-- [ ] Verify basic "hello world" deploys correctly
+- [x] Create new SvelteKit project in /svelte or similar folder
+- [x] Add Tailwind CSS
+- [x] Add DaisyUI (has 30+ themes, kid-friendly colors, ready components)
+- [x] Configure for static build (GitHub Pages deployment)
+- [x] Set up GitHub Actions to build and deploy
+- [x] Verify basic "hello world" deploys correctly
 
 ## Phase 3: Move shared services to Svelte
 
