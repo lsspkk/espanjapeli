@@ -9,6 +9,7 @@ The script:
 - Checks if words_tips_translations.json exists and continues from there
 - Only translates tips that don't have Finnish translations yet
 - Saves after each word to prevent data loss
+- By default, does NOT call LLM (use --use-llm flag to enable)
 """
 
 import requests
@@ -16,6 +17,7 @@ import json
 import time
 import os
 import re
+import argparse
 from tqdm import tqdm
 import statistics
 
@@ -105,13 +107,15 @@ def save_data(data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def word_needs_translation(source_word, existing_translations):
+def word_needs_translation(source_word, existing_translations, check_model=None):
     """
     Check if a word needs Finnish translations.
     
     Args:
         source_word: Word from words_and_tips.json (with English tips)
         existing_translations: Dict mapping spanish -> word from words_tips_translations.json
+        check_model: If provided, only consider translations made with this specific model.
+                     If None, accept any Finnish translations.
     
     Returns:
         (needs_translation: bool, existing_word: dict or None)
@@ -134,8 +138,18 @@ def word_needs_translation(source_word, existing_translations):
     if existing_word:
         existing_tips = existing_word.get('learningTips', [])
         finnish_tips = [t for t in existing_tips if isinstance(t, dict) and t.get('language') == 'finnish']
-        if len(finnish_tips) >= 3:
-            return False, existing_word  # Already has Finnish translations
+        
+        if check_model:
+            # When --use-llm is enabled, only count translations from the specified model
+            model_finnish_tips = [t for t in finnish_tips if t.get('translationModel') == check_model]
+            # Check if we have all 3 difficulty levels from this model
+            difficulties = {t.get('difficulty') for t in model_finnish_tips}
+            if len(difficulties) >= 3 and all(d in difficulties for d in ['easy', 'medium', 'hard']):
+                return False, existing_word  # Already has all 3 difficulty levels from this model
+        else:
+            # When not using LLM, accept any Finnish translations
+            if len(finnish_tips) >= 3:
+                return False, existing_word  # Already has Finnish translations
     
     return True, existing_word
 
@@ -284,25 +298,33 @@ def print_translations(word, english_tips, finnish_tips, duration):
     print(f"{'─' * 80}")
 
 
-def generate_all_translations():
-    """Main function to generate Finnish translations for all words."""
+def generate_all_translations(use_llm=False):
+    """Main function to generate Finnish translations for all words.
+    
+    Args:
+        use_llm: If True, call local LLM to translate missing tips. Default False.
+    """
     print("=" * 80)
     print("GENERATE FINNISH TRANSLATIONS FOR LEARNING TIPS")
     print("=" * 80)
     
-    # Test connection
-    print("\n🔌 Testing connection...", end=" ")
-    try:
-        resp = requests.get(f"http://{OLLAMA_HOST}:{OLLAMA_PORT}/api/version", timeout=180)
-        version = resp.json().get("version", "unknown")
-        print(f"✓ Connected to Ollama v{version}")
-    except Exception as e:
-        print(f"\n✗ Failed: {e}")
-        return
-    
-    # Preload model
-    print(f"🔄 Preloading {MODEL}...", end=" ")
-    preload_model(MODEL)
+    if use_llm:
+        # Test connection
+        print("\n🔌 Testing connection...", end=" ")
+        try:
+            resp = requests.get(f"http://{OLLAMA_HOST}:{OLLAMA_PORT}/api/version", timeout=180)
+            version = resp.json().get("version", "unknown")
+            print(f"✓ Connected to Ollama v{version}")
+        except Exception as e:
+            print(f"\n✗ Failed: {e}")
+            return
+        
+        # Preload model
+        print(f"🔄 Preloading {MODEL}...", end=" ")
+        preload_model(MODEL)
+    else:
+        print("\n⚠️  LLM translation is DISABLED (use --use-llm to enable)")
+        print("   Only analyzing existing translations, not generating new ones.")
     
     # Load source data (English tips)
     print(f"\n📖 Reading {INPUT_FILE}...", end=" ")
@@ -323,10 +345,13 @@ def generate_all_translations():
                 existing_translations[spanish] = word
     
     # Count words that need translation
+    # When using LLM, only translate words that don't have translations from current MODEL
+    check_model = MODEL if use_llm else None
+    
     words_to_process = []
     for category_key, category in source_data.items():
         for word in category['words']:
-            needs_translation, existing_word = word_needs_translation(word, existing_translations)
+            needs_translation, existing_word = word_needs_translation(word, existing_translations, check_model)
             if needs_translation:
                 # Get English tips from source
                 english_tips = [t for t in word.get('learningTips', []) 
@@ -349,9 +374,21 @@ def generate_all_translations():
     print(f"  Total words:              {total_words}")
     print(f"  Already have Finnish:     {words_translated}")
     print(f"  Need translation:         {len(words_to_process)}")
+    print(f"  LLM translation:          {'ENABLED' if use_llm else 'DISABLED'}")
+    if use_llm:
+        print(f"  Translation model:        {MODEL}")
     
     if len(words_to_process) == 0:
-        print("\n✅ All words already have Finnish translations!")
+        if use_llm:
+            print(f"\n✅ All words already have Finnish translations from {MODEL}!")
+        else:
+            print("\n✅ All words already have Finnish translations!")
+        print("=" * 80)
+        return
+    
+    if not use_llm:
+        print("\n⚠️  Found words without Finnish translations, but LLM is disabled.")
+        print("   Run with --use-llm flag to generate translations.")
         print("=" * 80)
         return
     
@@ -466,5 +503,16 @@ def generate_all_translations():
 
 
 if __name__ == "__main__":
-    generate_all_translations()
+    parser = argparse.ArgumentParser(
+        description='Generate Finnish translations for English learning tips.',
+        epilog='By default, only analyzes existing translations without calling LLM.'
+    )
+    parser.add_argument(
+        '--use-llm',
+        action='store_true',
+        help='Enable local LLM to translate missing Finnish tips (default: disabled)'
+    )
+    
+    args = parser.parse_args()
+    generate_all_translations(use_llm=args.use_llm)
 
