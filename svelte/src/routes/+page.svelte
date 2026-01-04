@@ -57,7 +57,7 @@
 			description: 'Lasten sanapeli - valitse oikea kuva!',
 			scored: false,
 			route: '/peppa',
-			available: false // Phase 6
+			available: true // Phase 6 - NOW AVAILABLE! ✅
 		}
 		// {
 		// 	id: 'lukeminen',

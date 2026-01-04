@@ -1,6 +1,5 @@
 # TODO - Espanjapeli v2 Migration
 
-Each phase is done in its own git branch (phase-1, phase-2, etc.)
 
 ## Phase 1: Refactor game.js monolith (vanilla JS)
 
@@ -53,15 +52,15 @@ Choose simplest approach:
 - [ ] Test on mobile
 - [ ] Verify progress data carries over from old version
 
-## Phase 6: Add Peppa Pig kids mode
+## Phase 6: Add Peppa Pig kids mode ✅
 
-- [ ] Create PeppaPig.svelte component
-- [ ] Picture-based answers (no reading required)
-- [ ] Big colorful buttons for small fingers
-- [ ] Audio plays Spanish word
-- [ ] Fun celebrations when correct
-- [ ] Use kid-friendly DaisyUI theme
-- [ ] Load content from themes/peppa_pig_kids.json
+- [x] Create PeppaPig.svelte component
+- [x] Picture-based answers (no reading required)
+- [x] Big colorful buttons for small fingers
+- [x] Audio plays Spanish word
+- [x] Fun celebrations when correct
+- [x] Use kid-friendly DaisyUI theme
+- [x] Load content from themes/peppa_pig_kids.json
 
 ## Phase 7: Cleanup
 
