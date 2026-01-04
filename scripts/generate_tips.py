@@ -60,13 +60,33 @@ def parse_words_js():
     # Extract the WORD_CATEGORIES object
     categories = {}
     
-    # Find all category blocks
-    category_pattern = r'(\w+):\s*{\s*name:\s*[\'"]([^\'"]+)[\'"],\s*words:\s*\[(.*?)\]\s*}'
+    # Find all category blocks - improved to handle nested structures
+    category_pattern = r'(\w+):\s*\{\s*name:\s*[\'"]([^\'"]+)[\'"],\s*words:\s*\['
     
-    for match in re.finditer(category_pattern, content, re.DOTALL):
+    # Find category starts
+    for match in re.finditer(category_pattern, content):
         category_key = match.group(1)
         category_name = match.group(2)
-        words_str = match.group(3)
+        
+        # Find the start of the words array
+        words_start = match.end()
+        
+        # Find the matching closing bracket by counting brackets
+        bracket_count = 1
+        i = words_start
+        words_end = words_start
+        
+        while i < len(content) and bracket_count > 0:
+            if content[i] == '[':
+                bracket_count += 1
+            elif content[i] == ']':
+                bracket_count -= 1
+                if bracket_count == 0:
+                    words_end = i
+                    break
+            i += 1
+        
+        words_str = content[words_start:words_end]
         
         # Extract words
         words = []
@@ -278,6 +298,35 @@ def print_tips(word, tip_objects, duration):
     print(f"{'─' * 80}")
 
 
+def merge_missing_words(existing_data, parsed_data):
+    """Merge words from parsed_data into existing_data, adding any missing words without tips."""
+    if existing_data is None:
+        return parsed_data, 0
+    
+    added_count = 0
+    
+    for category_key, parsed_category in parsed_data.items():
+        # If category doesn't exist in existing data, add it entirely
+        if category_key not in existing_data:
+            existing_data[category_key] = parsed_category
+            added_count += len(parsed_category['words'])
+            continue
+        
+        # Get existing words in this category
+        existing_words = {w['spanish']: w for w in existing_data[category_key]['words']}
+        
+        # Check each parsed word
+        for parsed_word in parsed_category['words']:
+            spanish = parsed_word['spanish']
+            
+            # If word doesn't exist, add it without tips
+            if spanish not in existing_words:
+                existing_data[category_key]['words'].append(parsed_word)
+                added_count += 1
+    
+    return existing_data, added_count
+
+
 def generate_all_tips():
     """Main function to generate tips for all words."""
     print("=" * 80)
@@ -302,10 +351,20 @@ def generate_all_tips():
     print(f"\n📖 Reading {WORDS_JS_FILE}...", end=" ")
     parsed_data = parse_words_js()
     
-    # Load existing data or use parsed data
-    data = load_existing_data()
-    if data is None:
-        data = parsed_data
+    # Load existing data
+    existing_data = load_existing_data()
+    
+    # Merge missing words from parsed_data into existing_data
+    print(f"\n🔍 Checking for missing words...", end=" ")
+    data, added_count = merge_missing_words(existing_data, parsed_data)
+    
+    if added_count > 0:
+        print(f"✓ Added {added_count} new words without tips")
+        # Save immediately after adding missing words
+        save_data(data)
+        print(f"💾 Saved updated data to {OUTPUT_FILE}")
+    else:
+        print(f"✓ No missing words found")
     
     # Count words that need tips
     words_to_process = []
