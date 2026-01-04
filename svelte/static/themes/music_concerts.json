@@ -1,0 +1,114 @@
+{
+  "theme": "music_concerts",
+  "name": "🎻 Musiikki ja konsertit",
+  "level": "beginner",
+  "description": "Vocabulary and phrases for music lovers, concert-goers, and dance enthusiasts",
+  
+  "vocabulary": [
+    { "spanish": "el concierto", "finnish": "konsertti", "english": "concert" },
+    { "spanish": "el violín", "finnish": "viulu", "english": "violin" },
+    { "spanish": "la guitarra", "finnish": "kitara", "english": "guitar" },
+    { "spanish": "el piano", "finnish": "piano", "english": "piano" },
+    { "spanish": "la flauta", "finnish": "huilu", "english": "flute" },
+    { "spanish": "el tambor", "finnish": "rumpu", "english": "drum" },
+    { "spanish": "la música", "finnish": "musiikki", "english": "music" },
+    { "spanish": "la música folclórica", "finnish": "kansanmusiikki", "english": "folk music" },
+    { "spanish": "la música clásica", "finnish": "klassinen musiikki", "english": "classical music" },
+    { "spanish": "el baile", "finnish": "tanssi", "english": "dance" },
+    { "spanish": "la danza", "finnish": "tanssi (taiteellinen)", "english": "dance (artistic)" },
+    { "spanish": "el músico", "finnish": "muusikko", "english": "musician" },
+    { "spanish": "el cantante", "finnish": "laulaja", "english": "singer" },
+    { "spanish": "el bailarín", "finnish": "tanssija (mies)", "english": "dancer (male)" },
+    { "spanish": "la bailarina", "finnish": "tanssija (nainen)", "english": "dancer (female)" },
+    { "spanish": "la orquesta", "finnish": "orkesteri", "english": "orchestra" },
+    { "spanish": "la banda", "finnish": "bändi", "english": "band" },
+    { "spanish": "el escenario", "finnish": "lava", "english": "stage" },
+    { "spanish": "el teatro", "finnish": "teatteri", "english": "theater" },
+    { "spanish": "la entrada", "finnish": "pääsylippu", "english": "ticket/entrance" },
+    { "spanish": "los aplausos", "finnish": "aplodit", "english": "applause" },
+    { "spanish": "el ritmo", "finnish": "rytmi", "english": "rhythm" },
+    { "spanish": "la melodía", "finnish": "melodia", "english": "melody" },
+    { "spanish": "la canción", "finnish": "laulu", "english": "song" },
+    { "spanish": "el espectáculo", "finnish": "esitys", "english": "show/performance" },
+    { "spanish": "el festival", "finnish": "festivaali", "english": "festival" }
+  ],
+  
+  "phrases": [
+    { 
+      "spanish": "¿Dónde hay conciertos esta noche?", 
+      "finnish": "Missä on konsertteja tänä iltana?", 
+      "english": "Where are there concerts tonight?" 
+    },
+    { 
+      "spanish": "Me gusta la música folclórica", 
+      "finnish": "Pidän kansanmusiikista", 
+      "english": "I like folk music" 
+    },
+    { 
+      "spanish": "¿A qué hora empieza el concierto?", 
+      "finnish": "Mihin aikaan konsertti alkaa?", 
+      "english": "What time does the concert start?" 
+    },
+    { 
+      "spanish": "¿Hay clases de baile?", 
+      "finnish": "Onko tanssitunteja?", 
+      "english": "Are there dance classes?" 
+    },
+    { 
+      "spanish": "¡Qué música tan bonita!", 
+      "finnish": "Kuinka kaunista musiikkia!", 
+      "english": "What beautiful music!" 
+    },
+    { 
+      "spanish": "¿Dónde puedo comprar entradas?", 
+      "finnish": "Mistä voin ostaa lippuja?", 
+      "english": "Where can I buy tickets?" 
+    },
+    { 
+      "spanish": "¿Cuánto cuestan las entradas?", 
+      "finnish": "Paljonko liput maksavat?", 
+      "english": "How much are the tickets?" 
+    },
+    { 
+      "spanish": "Toco el violín", 
+      "finnish": "Soitan viulua", 
+      "english": "I play the violin" 
+    },
+    { 
+      "spanish": "¿Te gusta bailar?", 
+      "finnish": "Pidätkö tanssimisesta?", 
+      "english": "Do you like to dance?" 
+    },
+    { 
+      "spanish": "¿Quieres bailar conmigo?", 
+      "finnish": "Haluatko tanssia kanssani?", 
+      "english": "Do you want to dance with me?" 
+    },
+    { 
+      "spanish": "¡El músico es muy talentoso!", 
+      "finnish": "Muusikko on hyvin lahjakas!", 
+      "english": "The musician is very talented!" 
+    },
+    { 
+      "spanish": "¿Hay un festival de música este fin de semana?", 
+      "finnish": "Onko viikonloppuna musiikkifestivaali?", 
+      "english": "Is there a music festival this weekend?" 
+    },
+    { 
+      "spanish": "Me encanta esta canción", 
+      "finnish": "Rakastan tätä laulua", 
+      "english": "I love this song" 
+    },
+    { 
+      "spanish": "¿Conoces esta música tradicional?", 
+      "finnish": "Tunnetko tätä perinnemusiikkia?", 
+      "english": "Do you know this traditional music?" 
+    },
+    { 
+      "spanish": "El ritmo es muy alegre", 
+      "finnish": "Rytmi on hyvin iloinen", 
+      "english": "The rhythm is very cheerful" 
+    }
+  ]
+}
+

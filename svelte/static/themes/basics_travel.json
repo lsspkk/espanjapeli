@@ -1,0 +1,253 @@
+{
+  "theme": "basics_travel",
+  "name": "🌍 Perusteet ja matkailu",
+  "level": "beginner",
+  "_description": "Essential Spanish phrases for practice modes - focused on travel, positive communication, and friendly interactions",
+  "_source": "Based on CEFR A1-A2 recommendations, Babbel/Lingvist phrase lists, and language teacher guidelines. See recommendations.md for research notes.",
+  
+  "greetings_farewells": {
+    "name": "Tervehdykset ja hyvästelyt",
+    "description": "Daily greetings - the foundation of friendly communication",
+    "phrases": [
+      { "spanish": "¡Hola!", "finnish": "Hei!", "english": "Hello!" },
+      { "spanish": "¡Buenos días!", "finnish": "Hyvää huomenta!", "english": "Good morning!" },
+      { "spanish": "¡Buenas tardes!", "finnish": "Hyvää iltapäivää!", "english": "Good afternoon!" },
+      { "spanish": "¡Buenas noches!", "finnish": "Hyvää iltaa! / Hyvää yötä!", "english": "Good evening/night!" },
+      { "spanish": "¿Cómo estás?", "finnish": "Mitä kuuluu?", "english": "How are you?" },
+      { "spanish": "¿Qué tal?", "finnish": "Miten menee?", "english": "How's it going?" },
+      { "spanish": "Muy bien, gracias", "finnish": "Oikein hyvin, kiitos", "english": "Very well, thank you" },
+      { "spanish": "¿Y tú?", "finnish": "Entä sinä?", "english": "And you?" },
+      { "spanish": "¡Adiós!", "finnish": "Näkemiin!", "english": "Goodbye!" },
+      { "spanish": "¡Hasta luego!", "finnish": "Nähdään!", "english": "See you later!" },
+      { "spanish": "¡Hasta mañana!", "finnish": "Nähdään huomenna!", "english": "See you tomorrow!" },
+      { "spanish": "¡Hasta pronto!", "finnish": "Nähdään pian!", "english": "See you soon!" },
+      { "spanish": "¡Que tengas un buen día!", "finnish": "Hyvää päivää!", "english": "Have a nice day!" },
+      { "spanish": "¡Buen viaje!", "finnish": "Hyvää matkaa!", "english": "Have a good trip!" },
+      { "spanish": "¡Cuídate!", "finnish": "Pidä huolta itsestäsi!", "english": "Take care!" }
+    ]
+  },
+
+  "polite_essentials": {
+    "name": "Kohteliaisuudet",
+    "description": "Polite words that make every interaction smoother",
+    "phrases": [
+      { "spanish": "Por favor", "finnish": "Ole hyvä / Kiitos", "english": "Please" },
+      { "spanish": "Gracias", "finnish": "Kiitos", "english": "Thank you" },
+      { "spanish": "Muchas gracias", "finnish": "Paljon kiitoksia", "english": "Thank you very much" },
+      { "spanish": "De nada", "finnish": "Ei kestä", "english": "You're welcome" },
+      { "spanish": "Con mucho gusto", "finnish": "Mielelläni", "english": "With pleasure" },
+      { "spanish": "Perdón", "finnish": "Anteeksi", "english": "Excuse me / Sorry" },
+      { "spanish": "Lo siento", "finnish": "Olen pahoillani", "english": "I'm sorry" },
+      { "spanish": "Disculpe", "finnish": "Anteeksi (kohtelias)", "english": "Excuse me (formal)" },
+      { "spanish": "No hay problema", "finnish": "Ei hätää", "english": "No problem" },
+      { "spanish": "Está bien", "finnish": "Se on okei", "english": "It's okay" }
+    ]
+  },
+
+  "positive_friendly": {
+    "name": "Positiiviset ilmaukset",
+    "description": "Happy, encouraging words to spread good vibes",
+    "phrases": [
+      { "spanish": "¡Qué bonito!", "finnish": "Kuinka kaunista!", "english": "How beautiful!" },
+      { "spanish": "¡Qué bien!", "finnish": "Kuinka hienoa!", "english": "How nice!" },
+      { "spanish": "¡Excelente!", "finnish": "Erinomaista!", "english": "Excellent!" },
+      { "spanish": "¡Fantástico!", "finnish": "Fantastista!", "english": "Fantastic!" },
+      { "spanish": "¡Maravilloso!", "finnish": "Ihanaa!", "english": "Wonderful!" },
+      { "spanish": "¡Genial!", "finnish": "Mahtavaa!", "english": "Great!" },
+      { "spanish": "¡Increíble!", "finnish": "Uskomatonta!", "english": "Incredible!" },
+      { "spanish": "¡Perfecto!", "finnish": "Täydellistä!", "english": "Perfect!" },
+      { "spanish": "¡Me encanta!", "finnish": "Rakastan sitä!", "english": "I love it!" },
+      { "spanish": "¡Qué alegría!", "finnish": "Mikä ilo!", "english": "What joy!" },
+      { "spanish": "¡Estoy muy feliz!", "finnish": "Olen todella onnellinen!", "english": "I'm very happy!" },
+      { "spanish": "¡Qué suerte!", "finnish": "Mikä tuuri!", "english": "How lucky!" },
+      { "spanish": "¡Eres muy amable!", "finnish": "Olet todella ystävällinen!", "english": "You're very kind!" },
+      { "spanish": "¡Qué divertido!", "finnish": "Kuinka hauskaa!", "english": "How fun!" },
+      { "spanish": "¡Buena idea!", "finnish": "Hyvä idea!", "english": "Good idea!" }
+    ]
+  },
+
+  "compliments": {
+    "name": "Kehut ja kannustukset",
+    "description": "Kind words to brighten someone's day",
+    "phrases": [
+      { "spanish": "¡Muy bien hecho!", "finnish": "Hyvin tehty!", "english": "Well done!" },
+      { "spanish": "¡Buen trabajo!", "finnish": "Hyvää työtä!", "english": "Good job!" },
+      { "spanish": "¡Eres increíble!", "finnish": "Olet uskomaton!", "english": "You're incredible!" },
+      { "spanish": "¡Tienes razón!", "finnish": "Olet oikeassa!", "english": "You're right!" },
+      { "spanish": "¡Qué listo!", "finnish": "Kuinka fiksu!", "english": "How clever!" },
+      { "spanish": "Me gusta mucho", "finnish": "Pidän siitä paljon", "english": "I like it a lot" },
+      { "spanish": "¡Qué rico!", "finnish": "Kuinka hyvää! (ruoka)", "english": "How delicious!" },
+      { "spanish": "¡Está delicioso!", "finnish": "Tämä on herkullista!", "english": "It's delicious!" },
+      { "spanish": "¡Qué interesante!", "finnish": "Kuinka mielenkiintoista!", "english": "How interesting!" },
+      { "spanish": "Eres muy simpático", "finnish": "Olet todella mukava", "english": "You're very nice" }
+    ]
+  },
+
+  "introductions": {
+    "name": "Esittäytymiset",
+    "description": "Meeting new people and making connections",
+    "phrases": [
+      { "spanish": "Me llamo...", "finnish": "Nimeni on...", "english": "My name is..." },
+      { "spanish": "¿Cómo te llamas?", "finnish": "Mikä sinun nimesi on?", "english": "What's your name?" },
+      { "spanish": "Mucho gusto", "finnish": "Hauska tavata", "english": "Nice to meet you" },
+      { "spanish": "Encantado/Encantada", "finnish": "Iloinen tavatessani", "english": "Pleased to meet you" },
+      { "spanish": "Soy de Finlandia", "finnish": "Olen Suomesta", "english": "I'm from Finland" },
+      { "spanish": "¿De dónde eres?", "finnish": "Mistä olet kotoisin?", "english": "Where are you from?" },
+      { "spanish": "Estoy de vacaciones", "finnish": "Olen lomalla", "english": "I'm on vacation" },
+      { "spanish": "Es mi primera vez aquí", "finnish": "Olen täällä ensimmäistä kertaa", "english": "It's my first time here" }
+    ]
+  },
+
+  "asking_help": {
+    "name": "Avun pyytäminen",
+    "description": "Essential phrases when you need assistance",
+    "phrases": [
+      { "spanish": "¿Puede ayudarme?", "finnish": "Voitteko auttaa minua?", "english": "Can you help me?" },
+      { "spanish": "No entiendo", "finnish": "En ymmärrä", "english": "I don't understand" },
+      { "spanish": "¿Puede repetir?", "finnish": "Voitteko toistaa?", "english": "Can you repeat?" },
+      { "spanish": "Más despacio, por favor", "finnish": "Hitaammin, kiitos", "english": "Slower, please" },
+      { "spanish": "¿Habla inglés?", "finnish": "Puhutteko englantia?", "english": "Do you speak English?" },
+      { "spanish": "Hablo un poco de español", "finnish": "Puhun vähän espanjaa", "english": "I speak a little Spanish" },
+      { "spanish": "¿Cómo se dice...?", "finnish": "Miten sanotaan...?", "english": "How do you say...?" },
+      { "spanish": "¿Qué significa...?", "finnish": "Mitä tarkoittaa...?", "english": "What does ... mean?" },
+      { "spanish": "No sé", "finnish": "En tiedä", "english": "I don't know" },
+      { "spanish": "Estoy perdido/perdida", "finnish": "Olen eksyksissä", "english": "I'm lost" }
+    ]
+  },
+
+  "directions": {
+    "name": "Suunnat ja paikat",
+    "description": "Finding your way around",
+    "phrases": [
+      { "spanish": "¿Dónde está...?", "finnish": "Missä on...?", "english": "Where is...?" },
+      { "spanish": "¿Cómo llego a...?", "finnish": "Miten pääsen...?", "english": "How do I get to...?" },
+      { "spanish": "A la derecha", "finnish": "Oikealle", "english": "To the right" },
+      { "spanish": "A la izquierda", "finnish": "Vasemmalle", "english": "To the left" },
+      { "spanish": "Todo recto", "finnish": "Suoraan eteenpäin", "english": "Straight ahead" },
+      { "spanish": "Está cerca", "finnish": "Se on lähellä", "english": "It's nearby" },
+      { "spanish": "Está lejos", "finnish": "Se on kaukana", "english": "It's far" },
+      { "spanish": "Al lado de", "finnish": "Vieressä", "english": "Next to" },
+      { "spanish": "Enfrente de", "finnish": "Vastapäätä", "english": "In front of" },
+      { "spanish": "¿Dónde está el baño?", "finnish": "Missä on WC?", "english": "Where is the bathroom?" }
+    ]
+  },
+
+  "restaurant": {
+    "name": "Ravintolassa",
+    "description": "Ordering food and enjoying meals",
+    "phrases": [
+      { "spanish": "Una mesa para dos, por favor", "finnish": "Pöytä kahdelle, kiitos", "english": "A table for two, please" },
+      { "spanish": "La carta, por favor", "finnish": "Ruokalista, kiitos", "english": "The menu, please" },
+      { "spanish": "¿Qué me recomienda?", "finnish": "Mitä suosittelette?", "english": "What do you recommend?" },
+      { "spanish": "Quiero...", "finnish": "Haluan...", "english": "I want..." },
+      { "spanish": "Me gustaría...", "finnish": "Haluaisin...", "english": "I would like..." },
+      { "spanish": "Para beber...", "finnish": "Juotavaksi...", "english": "To drink..." },
+      { "spanish": "Agua, por favor", "finnish": "Vettä, kiitos", "english": "Water, please" },
+      { "spanish": "La cuenta, por favor", "finnish": "Lasku, kiitos", "english": "The bill, please" },
+      { "spanish": "¿Está incluida la propina?", "finnish": "Sisältyykö tippi?", "english": "Is the tip included?" },
+      { "spanish": "Estuvo delicioso", "finnish": "Se oli herkullista", "english": "It was delicious" },
+      { "spanish": "Soy vegetariano/vegetariana", "finnish": "Olen kasvissyöjä", "english": "I'm vegetarian" },
+      { "spanish": "¿Tiene algo sin gluten?", "finnish": "Onko teillä gluteenitonta?", "english": "Do you have something gluten-free?" }
+    ]
+  },
+
+  "shopping": {
+    "name": "Ostoksilla",
+    "description": "Shopping and transactions",
+    "phrases": [
+      { "spanish": "¿Cuánto cuesta?", "finnish": "Paljonko maksaa?", "english": "How much does it cost?" },
+      { "spanish": "¿Cuánto es?", "finnish": "Paljonko se on?", "english": "How much is it?" },
+      { "spanish": "Es muy caro", "finnish": "Se on liian kallis", "english": "It's very expensive" },
+      { "spanish": "¿Tiene algo más barato?", "finnish": "Onko teillä halvempaa?", "english": "Do you have something cheaper?" },
+      { "spanish": "Me lo llevo", "finnish": "Otan sen", "english": "I'll take it" },
+      { "spanish": "Solo estoy mirando", "finnish": "Katselen vain", "english": "I'm just looking" },
+      { "spanish": "¿Puedo pagar con tarjeta?", "finnish": "Voinko maksaa kortilla?", "english": "Can I pay by card?" },
+      { "spanish": "¿Tiene una talla más grande?", "finnish": "Onko teillä isompaa kokoa?", "english": "Do you have a larger size?" },
+      { "spanish": "¿Tiene una talla más pequeña?", "finnish": "Onko teillä pienempää kokoa?", "english": "Do you have a smaller size?" },
+      { "spanish": "¿Dónde están los probadores?", "finnish": "Missä sovituskopit ovat?", "english": "Where are the fitting rooms?" }
+    ]
+  },
+
+  "hotel": {
+    "name": "Hotellissa",
+    "description": "Accommodation and hotel stays",
+    "phrases": [
+      { "spanish": "Tengo una reserva", "finnish": "Minulla on varaus", "english": "I have a reservation" },
+      { "spanish": "Una habitación para una noche", "finnish": "Huone yhdeksi yöksi", "english": "A room for one night" },
+      { "spanish": "¿Tiene habitaciones libres?", "finnish": "Onko teillä vapaita huoneita?", "english": "Do you have rooms available?" },
+      { "spanish": "¿A qué hora es el desayuno?", "finnish": "Mihin aikaan on aamiainen?", "english": "What time is breakfast?" },
+      { "spanish": "¿Cuál es la contraseña del wifi?", "finnish": "Mikä on wifi-salasana?", "english": "What's the wifi password?" },
+      { "spanish": "¿Puede llamar un taxi?", "finnish": "Voitteko tilata taksin?", "english": "Can you call a taxi?" },
+      { "spanish": "¿Dónde puedo dejar el equipaje?", "finnish": "Minne voin jättää matkatavarat?", "english": "Where can I leave my luggage?" },
+      { "spanish": "La llave, por favor", "finnish": "Avain, kiitos", "english": "The key, please" }
+    ]
+  },
+
+  "transport": {
+    "name": "Liikenne ja matkustaminen",
+    "description": "Getting around by various transport",
+    "phrases": [
+      { "spanish": "Un billete, por favor", "finnish": "Yksi lippu, kiitos", "english": "One ticket, please" },
+      { "spanish": "¿A qué hora sale el tren?", "finnish": "Mihin aikaan juna lähtee?", "english": "What time does the train leave?" },
+      { "spanish": "¿A qué hora llega?", "finnish": "Mihin aikaan se saapuu?", "english": "What time does it arrive?" },
+      { "spanish": "¿Cuál es el andén?", "finnish": "Mikä laituri?", "english": "Which platform?" },
+      { "spanish": "Ida y vuelta", "finnish": "Meno-paluu", "english": "Round trip" },
+      { "spanish": "Solo ida", "finnish": "Vain meno", "english": "One way" },
+      { "spanish": "¿Está libre este asiento?", "finnish": "Onko tämä paikka vapaa?", "english": "Is this seat free?" },
+      { "spanish": "Pare aquí, por favor", "finnish": "Pysähtykää tässä, kiitos", "english": "Stop here, please" },
+      { "spanish": "¿Cuánto tarda?", "finnish": "Kuinka kauan kestää?", "english": "How long does it take?" }
+    ]
+  },
+
+  "emergency": {
+    "name": "Hätätilanteet",
+    "description": "Important phrases for emergencies",
+    "phrases": [
+      { "spanish": "¡Ayuda!", "finnish": "Apua!", "english": "Help!" },
+      { "spanish": "Necesito un médico", "finnish": "Tarvitsen lääkärin", "english": "I need a doctor" },
+      { "spanish": "Llame a la policía", "finnish": "Soittakaa poliisille", "english": "Call the police" },
+      { "spanish": "Es una emergencia", "finnish": "Tämä on hätätilanne", "english": "It's an emergency" },
+      { "spanish": "No me siento bien", "finnish": "En voi hyvin", "english": "I don't feel well" },
+      { "spanish": "Me duele aquí", "finnish": "Tässä sattuu", "english": "It hurts here" },
+      { "spanish": "Soy alérgico a...", "finnish": "Olen allerginen...", "english": "I'm allergic to..." },
+      { "spanish": "He perdido mi pasaporte", "finnish": "Olen hukannut passini", "english": "I've lost my passport" }
+    ]
+  },
+
+  "time_numbers": {
+    "name": "Aika ja numerot",
+    "description": "Expressing time and basic numbers",
+    "phrases": [
+      { "spanish": "¿Qué hora es?", "finnish": "Mitä kello on?", "english": "What time is it?" },
+      { "spanish": "Son las tres", "finnish": "Kello on kolme", "english": "It's three o'clock" },
+      { "spanish": "Hoy", "finnish": "Tänään", "english": "Today" },
+      { "spanish": "Mañana", "finnish": "Huomenna", "english": "Tomorrow" },
+      { "spanish": "Ayer", "finnish": "Eilen", "english": "Yesterday" },
+      { "spanish": "Esta semana", "finnish": "Tällä viikolla", "english": "This week" },
+      { "spanish": "El próximo lunes", "finnish": "Ensi maanantaina", "english": "Next Monday" },
+      { "spanish": "Ahora", "finnish": "Nyt", "english": "Now" },
+      { "spanish": "Más tarde", "finnish": "Myöhemmin", "english": "Later" },
+      { "spanish": "Pronto", "finnish": "Pian", "english": "Soon" }
+    ]
+  },
+
+  "social_phrases": {
+    "name": "Sosiaaliset fraasit",
+    "description": "Casual conversation and social situations",
+    "phrases": [
+      { "spanish": "¿Qué haces?", "finnish": "Mitä teet?", "english": "What are you doing?" },
+      { "spanish": "¿Tienes planes?", "finnish": "Onko sinulla suunnitelmia?", "english": "Do you have plans?" },
+      { "spanish": "¡Vamos!", "finnish": "Mennään!", "english": "Let's go!" },
+      { "spanish": "¡Claro que sí!", "finnish": "Tietenkin!", "english": "Of course!" },
+      { "spanish": "¡Por supuesto!", "finnish": "Totta kai!", "english": "Of course!" },
+      { "spanish": "No te preocupes", "finnish": "Älä huoli", "english": "Don't worry" },
+      { "spanish": "Tranquilo/Tranquila", "finnish": "Rauhoitu / Ota rennosti", "english": "Calm down / Relax" },
+      { "spanish": "¡Salud!", "finnish": "Kippis!", "english": "Cheers!" },
+      { "spanish": "¡Felicidades!", "finnish": "Onneksi olkoon!", "english": "Congratulations!" },
+      { "spanish": "¡Feliz cumpleaños!", "finnish": "Hyvää syntymäpäivää!", "english": "Happy birthday!" },
+      { "spanish": "¡Buen provecho!", "finnish": "Hyvää ruokahalua!", "english": "Enjoy your meal!" },
+      { "spanish": "¡Que lo pases bien!", "finnish": "Pidä hauskaa!", "english": "Have a good time!" }
+    ]
+  }
+}
+

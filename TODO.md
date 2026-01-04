@@ -33,23 +33,23 @@ Choose simplest approach:
 
 ## Phase 3: Move shared services to Svelte
 
-- [ ] Port tts-service.js to src/lib/services/tts.ts
-- [ ] Port storage.js to src/lib/stores/progress.ts
-- [ ] Copy theme JSON files to static/themes/
-- [ ] Verify localStorage format stays compatible
+- [x] Port tts-service.js to src/lib/services/tts.ts
+- [x] Port storage.js to src/lib/stores/progress.ts
+- [x] Copy theme JSON files to static/themes/
+- [x] Verify localStorage format stays compatible
 
 ## Phase 4: Game selection menu
 
-- [ ] Create home page with game mode selection
-- [ ] Design simple navigation (cards/buttons for each game)
-- [ ] Style for mobile first
-- [ ] Add routing between game modes
+- [x] Create home page with game mode selection
+- [x] Design simple navigation (cards/buttons for each game)
+- [x] Style for mobile first
+- [x] Add routing between game modes
 
 ## Phase 5: Convert word game to Svelte component
 
-- [ ] Create WordGame.svelte component
-- [ ] Keep same UI and behavior as current game
-- [ ] Connect to ported services (TTS, storage)
+- [x] Create WordGame.svelte component
+- [x] Keep same UI and behavior as current game
+- [x] Connect to ported services (TTS, storage)
 - [ ] Test on mobile
 - [ ] Verify progress data carries over from old version
 
