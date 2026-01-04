@@ -1,5 +1,7 @@
 // LLM functions have been moved to tipService.js
-// This game.js now uses the TipService module
+// TTS functions have been moved to tts-service.js
+// Answer checking has been moved to answer-checker.js
+// This game.js now uses the TipService, TTSService, and AnswerChecker modules
 //
 // STATE MANAGEMENT:
 // The game uses a data-state attribute for clean visibility control.
@@ -31,11 +33,6 @@ let compactModeEnabled = true; // Compact mode for mobile (default on)
 
 // Current question tracking (reset each question)
 let currentQuestionData = null;
-
-// Text-to-Speech settings
-let speechSynthesis = window.speechSynthesis;
-let spanishVoice = null;
-let finnishVoice = null;
 
 // DOM elements
 const gameContainer = document.querySelector('.game-container');
@@ -129,70 +126,6 @@ function initializeTipTabs() {
     
     // Activate first content area for mobile
     tipContents[0].classList.add('active');
-}
-
-// Text-to-Speech functions
-function initializeVoices() {
-    const voices = speechSynthesis.getVoices();
-    console.log('🔊 Available voices:', voices.map(v => `${v.name} (${v.lang})`));
-    
-    // Find Spanish voice (prefer es-ES, fallback to any Spanish)
-    spanishVoice = voices.find(v => v.lang === 'es-ES') || 
-                   voices.find(v => v.lang.startsWith('es')) ||
-                   voices.find(v => v.lang === 'es-MX') ||
-                   voices.find(v => v.lang === 'es-US');
-    
-    // Find Finnish voice (if available)
-    finnishVoice = voices.find(v => v.lang === 'fi-FI') ||
-                   voices.find(v => v.lang.startsWith('fi'));
-    
-    if (spanishVoice) {
-        console.log('✅ Spanish voice found:', spanishVoice.name);
-    } else {
-        console.warn('⚠️ No Spanish voice available, using default');
-    }
-    
-    if (finnishVoice) {
-        console.log('✅ Finnish voice found:', finnishVoice.name);
-    } else {
-        console.log('ℹ️ No Finnish voice available, will use default');
-    }
-}
-
-function speakSpanish(text) {
-    // Cancel any ongoing speech
-    speechSynthesis.cancel();
-    
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'es-ES';
-    utterance.rate = 0.8; // Slightly slower for learning
-    utterance.pitch = 1.0;
-    utterance.volume = 1.0;
-    
-    if (spanishVoice) {
-        utterance.voice = spanishVoice;
-    }
-    
-    console.log('🔊 Speaking in Spanish:', text);
-    speechSynthesis.speak(utterance);
-}
-
-function speakFinnish(text) {
-    // Cancel any ongoing speech
-    speechSynthesis.cancel();
-    
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'fi-FI';
-    utterance.rate = 0.9;
-    utterance.pitch = 1.0;
-    utterance.volume = 1.0;
-    
-    if (finnishVoice) {
-        utterance.voice = finnishVoice;
-    }
-    
-    console.log('🔊 Speaking in Finnish:', text);
-    speechSynthesis.speak(utterance);
 }
 
 // Calculate and display statistics about available words (cached tips)
@@ -541,7 +474,7 @@ async function startNewQuestion() {
     console.log('🔊 Auto-speak check:', autoSpeakEnabled, 'Checkbox state:', autoSpeakCheckbox.checked);
     if (autoSpeakEnabled) {
         setTimeout(() => {
-            speakSpanish(currentWord);
+            window.TTSService.speakSpanish(currentWord);
         }, 300); // Small delay for better UX
     }
     
@@ -710,7 +643,7 @@ async function showNextTip() {
     // Speak the first tip in Finnish if auto-speak is enabled
     if (autoSpeakEnabled && tips.length > 0) {
         setTimeout(() => {
-            speakFinnish(tips[0].text);
+            window.TTSService.speakFinnish(tips[0].text);
         }, 300);
     }
 }
@@ -748,71 +681,18 @@ function displayTipInTab(tipIndex, tips) {
     tipContentEl.innerHTML = html;
 }
 
-// Check if two strings are similar (allowing one letter difference)
-function isSimilarEnough(userAnswer, correctAnswer) {
-    // Exact match
-    if (userAnswer === correctAnswer) {
-        return true;
-    }
-    
-    // Allow up to 2 additional letters at the end (Finnish declensions)
-    if (userAnswer.startsWith(correctAnswer) && userAnswer.length <= correctAnswer.length + 2) {
-        return true;
-    }
-    if (correctAnswer.startsWith(userAnswer) && correctAnswer.length <= userAnswer.length + 2) {
-        return true;
-    }
-    
-    // Allow one letter difference (typo tolerance)
-    // Using simple Levenshtein distance calculation
-    const len1 = userAnswer.length;
-    const len2 = correctAnswer.length;
-    
-    // If length difference is more than 1, it's not close enough
-    if (Math.abs(len1 - len2) > 1) {
-        return false;
-    }
-    
-    // Count differences
-    let differences = 0;
-    let i = 0, j = 0;
-    
-    while (i < len1 && j < len2) {
-        if (userAnswer[i] !== correctAnswer[j]) {
-            differences++;
-            if (differences > 1) return false;
-            
-            // Handle insertion/deletion
-            if (len1 > len2) {
-                i++; // Skip char in user answer
-            } else if (len2 > len1) {
-                j++; // Skip char in correct answer
-            } else {
-                i++; j++; // Substitution
-            }
-        } else {
-            i++; j++;
-        }
-    }
-    
-    // Count remaining characters as differences
-    differences += (len1 - i) + (len2 - j);
-    
-    return differences <= 1;
-}
-
 // Check answer
 function checkAnswer() {
     if (!gameActive || !currentTranslations) {
         return;
     }
 
-    const userAnswer = answerInput.value.trim().toLowerCase();
-    const correctAnswer = currentTranslations.finnish.toLowerCase();
+    const userAnswer = answerInput.value.trim();
+    const correctAnswer = currentTranslations.finnish;
 
     const pointsMap = [10, 5, 3, 1];
     const earnedPoints = pointsMap[tipsShown];
-    const isCorrect = isSimilarEnough(userAnswer, correctAnswer);
+    const isCorrect = window.AnswerChecker.isCorrect(userAnswer, correctAnswer);
 
     // Update current question data
     if (currentQuestionData) {
@@ -1120,7 +1000,7 @@ gameLengthRadios.forEach(radio => {
 // Speaker button to replay Spanish word
 speakWordBtn.addEventListener('click', () => {
     if (currentWord) {
-        speakSpanish(currentWord);
+        window.TTSService.speakSpanish(currentWord);
     }
 });
 
@@ -1186,13 +1066,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Set initial state to home
     setGameState(GameState.HOME);
     
-    // Initialize voices
-    initializeVoices();
-    
-    // Voices may load asynchronously, so listen for when they're available
-    if (speechSynthesis.onvoiceschanged !== undefined) {
-        speechSynthesis.onvoiceschanged = initializeVoices;
-    }
+    // Initialize TTS service
+    window.TTSService.init();
     
     console.log(`🎮 Espanjapeli v${window.GameStorage.GAME_VERSION} valmis! Valitse kategoria ja aloita.`);
     
