@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#F0F8FF"/>
+  
+  <!-- Wind lines -->
+  <path d="M 50 100 Q 150 50 250 100" stroke="#A9A9A9" stroke-width="3" fill="none"/>
+  <path d="M 20 200 Q 120 150 220 200" stroke="#A9A9A9" stroke-width="3" fill="none"/>
+  <path d="M 100 300 Q 200 250 300 300" stroke="#A9A9A9" stroke-width="3" fill="none"/>
+  
+  <!-- Flying leaves -->
+  <path d="M 300 150 Q 310 140 320 150 L 310 160 Z" fill="#D2691E"/>
+  <path d="M 100 250 Q 110 240 120 250 L 110 260 Z" fill="#DAA520"/>
+  
+  <!-- Peppa leaning against wind -->
+  <g transform="translate(180, 220) rotate(-10)">
+    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/> 
+    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
+    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
+    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
+    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
+    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF" transform="rotate(20 -15 -65)"/> <!-- Ears blown back -->
+    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF" transform="rotate(20 15 -65)"/>
+    <circle cx="-5" cy="-35" r="3" fill="#333"/>
+    <circle cx="12" cy="-35" r="3" fill="#333"/>
+  </g>
+  
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+</svg>

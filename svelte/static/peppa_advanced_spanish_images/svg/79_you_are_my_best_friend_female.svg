@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <!-- Soft gradient background -->
+    <linearGradient id="softBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8BBD0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FCE4EC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background - very simple, soft gradient or plain color -->
+  <rect width="400" height="400" fill="url(#softBg)"/>
+  
+  <!-- Peppa and Suzy Sheep hugging each other -->
+  <!-- Peppa (left) -->
+  <g transform="translate(150, 250)">
+    <!-- Body -->
+    <ellipse cx="0" cy="25" rx="28" ry="32" fill="#E63946"/>
+    <!-- Legs -->
+    <rect x="-15" y="55" width="10" height="30" rx="5" fill="#F9C6CF"/>
+    <rect x="5" y="55" width="10" height="30" rx="5" fill="#F9C6CF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-20" rx="38" ry="32" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="28" cy="-20" rx="15" ry="12" fill="#F9C6CF"/>
+    <circle cx="32" cy="-23" r="3" fill="#FF69B4"/>
+    <circle cx="32" cy="-17" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-12" cy="-55" rx="8" ry="15" fill="#F9C6CF"/>
+    <ellipse cx="12" cy="-55" rx="8" ry="15" fill="#F9C6CF"/>
+    <!-- Eyes closed showing happiness -->
+    <ellipse cx="-5" cy="-25" rx="5" ry="3" fill="#333"/>
+    <ellipse cx="10" cy="-25" rx="5" ry="3" fill="#333"/>
+    <!-- Big smile -->
+    <path d="M -8 -12 Q 0 -4 8 -12" stroke="#333" stroke-width="3" fill="none"/>
+    <!-- Arms around Suzy in friendly embrace -->
+    <ellipse cx="25" cy="10" rx="10" ry="8" fill="#F9C6CF" transform="rotate(30 25 10)"/>
+    <ellipse cx="-20" cy="15" rx="10" ry="8" fill="#F9C6CF" transform="rotate(-30 -20 15)"/>
+  </g>
+  
+  <!-- Suzy Sheep (right) -->
+  <g transform="translate(250, 250)">
+    <!-- Body -->
+    <ellipse cx="0" cy="25" rx="28" ry="32" fill="#FFFFFF"/>
+    <!-- Legs -->
+    <rect x="-15" y="55" width="10" height="30" rx="5" fill="#FFFFFF"/>
+    <rect x="5" y="55" width="10" height="30" rx="5" fill="#FFFFFF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-20" rx="38" ry="32" fill="#FFFFFF"/>
+    <!-- Snout -->
+    <ellipse cx="28" cy="-20" rx="15" ry="12" fill="#FFFFFF"/>
+    <circle cx="32" cy="-23" r="3" fill="#FF69B4"/>
+    <circle cx="32" cy="-17" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-12" cy="-55" rx="8" ry="15" fill="#FFFFFF"/>
+    <ellipse cx="12" cy="-55" rx="8" ry="15" fill="#FFFFFF"/>
+    <!-- Eyes closed showing happiness -->
+    <ellipse cx="-5" cy="-25" rx="5" ry="3" fill="#333"/>
+    <ellipse cx="10" cy="-25" rx="5" ry="3" fill="#333"/>
+    <!-- Big smile -->
+    <path d="M -8 -12 Q 0 -4 8 -12" stroke="#333" stroke-width="3" fill="none"/>
+    <!-- Arms around Peppa in friendly embrace -->
+    <ellipse cx="-25" cy="10" rx="10" ry="8" fill="#FFFFFF" transform="rotate(-30 -25 10)"/>
+    <ellipse cx="20" cy="15" rx="10" ry="8" fill="#FFFFFF" transform="rotate(30 20 15)"/>
+  </g>
+  
+  <!-- Big pink heart floating above them -->
+  <g transform="translate(200, 120)">
+    <!-- Heart shape -->
+    <path d="M 0 10 C -15 -10 -30 -20 -30 -10 C -30 0 -15 5 0 20 C 15 5 30 0 30 -10 C 30 -20 15 -10 0 10 Z" fill="#E91E63" opacity="0.9"/>
+    <!-- Heart outline -->
+    <path d="M 0 10 C -15 -10 -30 -20 -30 -10 C -30 0 -15 5 0 20 C 15 5 30 0 30 -10 C 30 -20 15 -10 0 10 Z" fill="none" stroke="#C2185B" stroke-width="2" opacity="0.8"/>
+  </g>
+</svg>

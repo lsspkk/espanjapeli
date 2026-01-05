@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#FFF0F5"/>
+  
+  <!-- Music Notes -->
+  <text x="50" y="100" font-size="40" fill="#333">🎵</text>
+  <text x="320" y="80" font-size="50" fill="#333">🎶</text>
+  <text x="300" y="200" font-size="30" fill="#333">🎵</text>
+  
+  <!-- Peppa Singing -->
+  <g transform="translate(200, 250)">
+    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
+    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
+    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
+    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
+    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
+    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <circle cx="-5" cy="-35" r="3" fill="#333"/>
+    <circle cx="12" cy="-35" r="3" fill="#333"/>
+    
+    <!-- Open Mouth -->
+    <circle cx="10" cy="-15" r="8" fill="#000"/>
+    
+    <!-- Microphone -->
+    <rect x="40" y="0" width="10" height="30" fill="#333" transform="rotate(-20)"/>
+    <circle cx="45" cy="0" r="10" fill="#A9A9A9" transform="translate(5, -5)"/>
+  </g>
+  
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+</svg>

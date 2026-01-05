@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#87CEEB"/>
+  <rect x="0" y="300" width="400" height="100" fill="#7BC043"/>
+  
+  <!-- Ball -->
+  <circle cx="300" cy="320" r="25" fill="white" stroke="#333" stroke-width="2"/>
+  <path d="M 300 295 L 300 345 M 275 320 L 325 320" stroke="#333" stroke-width="2"/>
+  <circle cx="300" cy="320" r="10" fill="#333"/>
+  
+  <!-- Peppa Kicking -->
+  <g transform="translate(150, 250)">
+    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/> 
+    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
+    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
+    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
+    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
+    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <circle cx="-5" cy="-35" r="3" fill="#333"/>
+    <circle cx="12" cy="-35" r="3" fill="#333"/>
+    
+    <!-- Leg kicking -->
+    <rect x="10" y="60" width="10" height="30" fill="#F9C6CF" transform="rotate(-45 10 60)"/>
+    <ellipse cx="40" cy="80" rx="10" ry="6" fill="#000"/> <!-- Shoe -->
+  </g>
+  
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+</svg>

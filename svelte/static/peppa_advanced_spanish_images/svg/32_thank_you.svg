@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Thank you">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <style><![CDATA[
+      .ol { stroke: #222222; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .softol { stroke: #222222; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    ]]></style>
+  </defs>
+<ellipse class="ol" cx="81.75" cy="113.25" rx="11.049999999999999" ry="12.75" fill="#F9C6CF"/>
+  <ellipse class="ol" cx="158.25" cy="113.25" rx="11.049999999999999" ry="12.75" fill="#F9C6CF"/>
+  <ellipse class="ol" cx="120" cy="160" rx="55.25" ry="44.625" fill="#F9C6CF"/>
+  <ellipse class="ol" cx="145.5" cy="168.5" rx="29.75" ry="20.4" fill="#F7A8B8"/>
+  <circle cx="132.75" cy="168.5" r="4.25" fill="#222222"/>
+  <circle cx="158.25" cy="168.5" r="4.25" fill="#222222"/>
+  <circle cx="103.0" cy="151.5" r="6.8" fill="#222222"/>
+  <circle cx="128.5" cy="151.5" r="6.8" fill="#222222"/>
+  <circle cx="77.5" cy="168.5" r="5.1" fill="#F59FB4" opacity="0.9"/>
+  <path class="softol" d="M 111.5 181.25 Q 124.25 194.0 141.25 181.25" fill="none"/>
+  <rect class="ol" x="60.5" y="206.75" width="119.0" height="127.5" rx="34.0" fill="#F9C6CF"/>
+  <path class="ol" d="M 81.75 245.0 Q 52.0 262.0 69.0 283.25" fill="none"/>
+  <path class="ol" d="M 158.25 245.0 Q 188.0 262.0 171.0 283.25" fill="none"/>
+  <path class="ol" d="M 90.25 334.25 L 90.25 364.0"/>
+  <path class="ol" d="M 149.75 334.25 L 149.75 364.0"/>
+  <ellipse class="ol" cx="90.25" cy="369.95" rx="15.299999999999999" ry="6.8" fill="#000000"/>
+  <ellipse class="ol" cx="149.75" cy="369.95" rx="15.299999999999999" ry="6.8" fill="#000000"/><path class="ol" d="M 240 250 Q 265 225 290 250 Q 320 282 265 325 Q 210 282 240 250 Z" fill="#FF4D6D"/><path class="ol" d="M 300 280 L 340 240" fill="none"/><path d="M 340 228.0 L 342.1 232.9 L 347.0 235 L 342.1 237.1 L 340 242.0 L 337.9 237.1 L 333.0 235 L 337.9 232.9 Z" fill="#FFD700" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

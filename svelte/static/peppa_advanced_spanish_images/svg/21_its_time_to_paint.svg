@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background: Art classroom -->
+  <defs>
+    <linearGradient id="paintBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#paintBg)"/>
+  
+  <!-- Easel with canvas -->
+  <g transform="translate(200, 180)">
+    <!-- Easel legs -->
+    <line x1="-40" y1="0" x2="-20" y2="120" stroke="#8D6E63" stroke-width="4"/>
+    <line x1="40" y1="0" x2="20" y2="120" stroke="#8D6E63" stroke-width="4"/>
+    <line x1="0" y1="0" x2="0" y2="120" stroke="#8D6E63" stroke-width="4"/>
+    <!-- Canvas -->
+    <rect x="-50" y="-80" width="100" height="80" fill="white" stroke="#333" stroke-width="3"/>
+    <!-- Painting on canvas (colorful) -->
+    <rect x="-45" y="-75" width="90" height="70" fill="#E3F2FD"/>
+    <!-- Sun -->
+    <circle cx="-20" cy="-50" r="15" fill="#FFEB3B"/>
+    <!-- Grass -->
+    <rect x="-45" y="-10" width="90" height="10" fill="#4CAF50"/>
+    <!-- House -->
+    <rect x="10" y="-30" width="30" height="25" fill="#FF6B6B"/>
+    <path d="M 5 -30 L 25 -45 L 45 -30" fill="#E53935"/>
+  </g>
+  
+  <!-- Paint palette -->
+  <g transform="translate(120, 280)">
+    <!-- Palette shape -->
+    <ellipse cx="0" cy="0" rx="40" ry="25" fill="#8D6E63"/>
+    <ellipse cx="0" cy="0" rx="35" ry="20" fill="#FFF8E1"/>
+    <!-- Thumb hole -->
+    <ellipse cx="-25" cy="-5" rx="8" ry="12" fill="#8D6E63"/>
+    <!-- Paint colors -->
+    <circle cx="-15" cy="-5" r="8" fill="#E53935"/>
+    <circle cx="5" cy="-5" r="8" fill="#2196F3"/>
+    <circle cx="-5" cy="5" r="8" fill="#FFEB3B"/>
+    <circle cx="15" cy="5" r="8" fill="#4CAF50"/>
+  </g>
+  
+  <!-- Paint brushes -->
+  <g transform="translate(280, 270)">
+    <!-- Brush 1 -->
+    <rect x="0" y="0" width="4" height="30" fill="#8D6E63"/>
+    <ellipse cx="2" cy="0" rx="10" ry="8" fill="#E53935"/>
+    <!-- Brush 2 -->
+    <rect x="15" y="0" width="4" height="30" fill="#8D6E63"/>
+    <ellipse cx="17" cy="0" rx="10" ry="8" fill="#2196F3"/>
+  </g>
+  
+  <!-- Peppa painting -->
+  <g transform="translate(200, 280)">
+    <!-- Body (red dress) -->
+    <ellipse cx="0" cy="50" rx="45" ry="50" fill="#E63946"/>
+    
+    <!-- Legs (standing) -->
+    <rect x="-25" y="90" width="12" height="50" rx="6" fill="#F9C6CF"/>
+    <rect x="13" y="90" width="12" height="50" rx="6" fill="#F9C6CF"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-19" cy="145" rx="15" ry="8" fill="#333"/>
+    <ellipse cx="19" cy="145" rx="15" ry="8" fill="#333"/>
+    
+    <!-- Right arm holding brush -->
+    <path d="M 40 40 Q 60 20 70 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="70" cy="0" r="12" fill="#F9C6CF"/>
+    <!-- Brush in hand -->
+    <rect x="65" y="-5" width="4" height="20" fill="#8D6E63" transform="rotate(30 67 5)"/>
+    <ellipse cx="67" cy="-8" rx="8" ry="6" fill="#2196F3" transform="rotate(30)"/>
+    
+    <!-- Left arm holding palette -->
+    <path d="M -40 45 Q -50 60 -45 80" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="-45" cy="80" r="12" fill="#F9C6CF"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
+    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
+    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
+    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
+    
+    <!-- Eyes (focused) -->
+    <ellipse cx="-10" cy="-55" rx="8" ry="10" fill="white"/>
+    <ellipse cx="15" cy="-55" rx="8" ry="10" fill="white"/>
+    <circle cx="-8" cy="-53" r="4" fill="#333"/>
+    <circle cx="17" cy="-53" r="4" fill="#333"/>
+    
+    <!-- Concentrated expression -->
+    <path d="M -5 -30 Q 10 -25 25 -30" stroke="#333" stroke-width="3" fill="none"/>
+    
+    <!-- Paint smudge on cheek -->
+    <circle cx="30" cy="-35" r="6" fill="#2196F3" opacity="0.6"/>
+  </g>
+  
+  <!-- Paint drops -->
+  <g fill="#2196F3" opacity="0.6">
+    <circle cx="150" cy="200" r="4"/>
+    <circle cx="250" cy="210" r="3"/>
+  </g>
+  
+  <!-- Signature -->
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Composer 1</text>
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

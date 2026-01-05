@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#E0FFFF"/>
+  <rect x="0" y="300" width="400" height="100" fill="#7BC043"/> <!-- Grass -->
+  <rect x="0" y="320" width="400" height="20" fill="#808080"/> <!-- Road -->
+  
+  <!-- Bike -->
+  <g transform="translate(150, 260)">
+    <circle cx="0" cy="50" r="25" stroke="#333" stroke-width="3" fill="none"/> <!-- Wheel 1 -->
+    <circle cx="100" cy="50" r="25" stroke="#333" stroke-width="3" fill="none"/> <!-- Wheel 2 -->
+    <path d="M 0 50 L 40 20 L 90 20 L 100 50" stroke="#E63946" stroke-width="4" fill="none"/> <!-- Frame -->
+    <path d="M 40 20 L 35 0" stroke="#333" stroke-width="3"/> <!-- Handlebars -->
+    <path d="M 90 20 L 90 10" stroke="#333" stroke-width="3"/> <!-- Seat post -->
+    <rect x="80" y="10" width="20" height="5" fill="#333"/> <!-- Seat -->
+    
+    <!-- Peppa on bike -->
+    <g transform="translate(70, -30)">
+       <ellipse cx="0" cy="30" rx="30" ry="35" fill="#E63946"/>
+       <ellipse cx="0" cy="-30" rx="40" ry="30" fill="#F9C6CF"/>
+       <ellipse cx="30" cy="-30" rx="15" ry="12" fill="#F9C6CF"/>
+       <circle cx="36" cy="-33" r="3" fill="#FF69B4"/>
+       <circle cx="36" cy="-27" r="3" fill="#FF69B4"/>
+       
+       <!-- Helmet -->
+       <path d="M -40 -30 Q 0 -70 40 -30 Z" fill="#FFD700"/>
+       
+       <circle cx="-5" cy="-35" r="3" fill="#333"/>
+       <circle cx="12" cy="-35" r="3" fill="#333"/>
+       
+       <!-- Arms holding handlebars -->
+       <path d="M 10 10 L -30 40" stroke="#F9C6CF" stroke-width="6"/>
+    </g>
+  </g>
+  
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+</svg>

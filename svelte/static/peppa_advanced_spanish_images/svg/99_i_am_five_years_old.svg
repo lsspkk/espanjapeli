@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background - simple plain color or gradient -->
+  <defs>
+    <linearGradient id="birthdayBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF9C4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#birthdayBg)"/>
+  
+  <!-- Peppa holding up one trotter showing five fingers -->
+  <g transform="translate(200, 280)">
+    <!-- Body -->
+    <ellipse cx="0" cy="30" rx="30" ry="36" fill="#E63946"/>
+    <!-- Legs -->
+    <rect x="-18" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <rect x="8" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-28" rx="40" ry="34" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="30" cy="-26" rx="15" ry="12" fill="#F9C6CF"/>
+    <circle cx="36" cy="-29" r="3" fill="#FF69B4"/>
+    <circle cx="36" cy="-23" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-13" cy="-60" rx="8" ry="15" fill="#F9C6CF"/>
+    <ellipse cx="13" cy="-60" rx="8" ry="15" fill="#F9C6CF"/>
+    <!-- Eyes -->
+    <ellipse cx="-5" cy="-33" rx="5" ry="7" fill="white"/>
+    <ellipse cx="7" cy="-33" rx="5" ry="7" fill="white"/>
+    <circle cx="-4" cy="-31" r="2.5" fill="#333"/>
+    <circle cx="8" cy="-31" r="2.5" fill="#333"/>
+    <!-- Proud smile -->
+    <path d="M -6 -18 Q 0 -8 8 -18" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Small birthday hat on her head -->
+    <g transform="translate(0, -70)">
+      <!-- Hat base -->
+      <ellipse cx="0" cy="0" rx="20" ry="8" fill="#E91E63"/>
+      <!-- Hat cone -->
+      <path d="M 0 -8 L -8 8 L 8 8 Z" fill="#FF6B6B"/>
+      <!-- Pom pom -->
+      <circle cx="0" cy="-8" r="4" fill="#FFD700"/>
+    </g>
+    <!-- One trotter raised clearly showing five fingers/trotters spread wide -->
+    <g transform="translate(30, -15)">
+      <ellipse cx="0" cy="0" rx="12" ry="10" fill="#F9C6CF" transform="rotate(15 0 0)"/>
+      <!-- Five fingers spread wide -->
+      <ellipse cx="-10" cy="-10" rx="3.5" ry="6" fill="#F9C6CF" transform="rotate(-35 -10 -10)"/>
+      <ellipse cx="-5" cy="-12" rx="3.5" ry="6" fill="#F9C6CF" transform="rotate(-20 -5 -12)"/>
+      <ellipse cx="0" cy="-13" rx="3.5" ry="6" fill="#F9C6CF"/>
+      <ellipse cx="5" cy="-12" rx="3.5" ry="6" fill="#F9C6CF" transform="rotate(20 5 -12)"/>
+      <ellipse cx="10" cy="-10" rx="3.5" ry="6" fill="#F9C6CF" transform="rotate(35 10 -10)"/>
+    </g>
+    <!-- Other trotter pointing to the number 5 -->
+    <g transform="translate(-25, 8)">
+      <ellipse cx="0" cy="0" rx="10" ry="8" fill="#F9C6CF" transform="rotate(-20 0 0)"/>
+      <!-- Pointing finger -->
+      <ellipse cx="8" cy="-3" rx="3" ry="5" fill="#F9C6CF" transform="rotate(30 8 -3)"/>
+    </g>
+  </g>
+  
+  <!-- Large number "5" next to her in bright, colorful text -->
+  <g transform="translate(320, 200)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#FF6F00">5</text>
+    <!-- Decorative outline -->
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="none" stroke="#FFC107" stroke-width="3">5</text>
+  </g>
+  
+  <!-- Small birthday candles floating around -->
+  <!-- Candle 1 -->
+  <g transform="translate(150, 180)">
+    <!-- Candle body -->
+    <rect x="-2" y="-15" width="4" height="15" fill="#FFF" rx="1"/>
+    <!-- Flame -->
+    <ellipse cx="0" cy="-18" rx="2" ry="4" fill="#FF6F00"/>
+    <ellipse cx="0" cy="-18" rx="1" ry="2" fill="#FFD700"/>
+  </g>
+  
+  <!-- Candle 2 -->
+  <g transform="translate(280, 160)">
+    <!-- Candle body -->
+    <rect x="-2" y="-15" width="4" height="15" fill="#FFF" rx="1"/>
+    <!-- Flame -->
+    <ellipse cx="0" cy="-18" rx="2" ry="4" fill="#FF6F00"/>
+    <ellipse cx="0" cy="-18" rx="1" ry="2" fill="#FFD700"/>
+  </g>
+  
+  <!-- Candle 3 -->
+  <g transform="translate(140, 250)">
+    <!-- Candle body -->
+    <rect x="-2" y="-15" width="4" height="15" fill="#FFF" rx="1"/>
+    <!-- Flame -->
+    <ellipse cx="0" cy="-18" rx="2" ry="4" fill="#FF6F00"/>
+    <ellipse cx="0" cy="-18" rx="1" ry="2" fill="#FFD700"/>
+  </g>
+</svg>

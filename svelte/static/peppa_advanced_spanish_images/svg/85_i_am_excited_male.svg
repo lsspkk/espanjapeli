@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background - blue sky and green ground -->
+  <defs>
+    <linearGradient id="excitedSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#excitedSky)"/>
+  
+  <!-- Green ground -->
+  <ellipse cx="200" cy="380" rx="400" ry="80" fill="#7BC043"/>
+  
+  <!-- George jumping in the air with both arms raised high -->
+  <g transform="translate(200, 280)">
+    <!-- Body - tilted slightly forward in jump - George has blue shirt -->
+    <ellipse cx="0" cy="25" rx="26" ry="30" fill="#6B9BD2" transform="rotate(-5 0 25)"/>
+    <!-- Legs - bent mid-jump -->
+    <ellipse cx="-12" y="50" rx="7" ry="10" fill="#F9C6CF" transform="rotate(-20 -12 50)"/>
+    <ellipse cx="12" y="50" rx="7" ry="10" fill="#F9C6CF" transform="rotate(20 12 50)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-30" rx="36" ry="30" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="26" cy="-28" rx="13" ry="10" fill="#F9C6CF"/>
+    <circle cx="31" cy="-31" r="2.5" fill="#FF69B4"/>
+    <circle cx="31" cy="-25" r="2.5" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-11" cy="-56" rx="7" ry="13" fill="#F9C6CF"/>
+    <ellipse cx="11" cy="-56" rx="7" ry="13" fill="#F9C6CF"/>
+    <!-- Eyes - wide with excitement -->
+    <ellipse cx="-4" cy="-32" rx="5" ry="7" fill="white"/>
+    <ellipse cx="6" cy="-32" rx="5" ry="7" fill="white"/>
+    <circle cx="-3" cy="-30" r="2.5" fill="#333"/>
+    <circle cx="7" cy="-30" r="2.5" fill="#333"/>
+    <!-- Big open smile showing excitement -->
+    <ellipse cx="6" cy="-18" rx="7" ry="9" fill="#333"/>
+    <!-- Both arms raised high above head -->
+    <ellipse cx="-28" cy="-45" rx="11" ry="9" fill="#F9C6CF" transform="rotate(-60 -28 -45)"/>
+    <ellipse cx="28" cy="-45" rx="11" ry="9" fill="#F9C6CF" transform="rotate(60 28 -45)"/>
+    <!-- Toy dinosaur in one hand -->
+    <g transform="translate(28, -50)">
+      <!-- Dinosaur body -->
+      <ellipse cx="0" cy="0" rx="8" ry="6" fill="#4CAF50"/>
+      <!-- Dinosaur head -->
+      <ellipse cx="8" cy="-2" rx="5" ry="4" fill="#66BB6A"/>
+      <!-- Dinosaur tail -->
+      <ellipse cx="-8" cy="2" rx="4" ry="3" fill="#4CAF50"/>
+      <!-- Eye -->
+      <circle cx="9" cy="-3" r="1" fill="#333"/>
+    </g>
+  </g>
+  
+  <!-- Motion lines under feet showing he's jumping -->
+  <g transform="translate(200, 330)">
+    <!-- Motion line 1 -->
+    <line x1="-25" y1="0" x2="-15" y2="0" stroke="#666" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <line x1="-20" y1="-3" x2="-20" y2="3" stroke="#666" stroke-width="2" opacity="0.6"/>
+    <!-- Motion line 2 -->
+    <line x1="15" y1="0" x2="25" y2="0" stroke="#666" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <line x1="20" y1="-3" x2="20" y2="3" stroke="#666" stroke-width="2" opacity="0.6"/>
+    <!-- Motion line 3 (center) -->
+    <line x1="-5" y1="0" x2="5" y2="0" stroke="#666" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  </g>
+  
+  <!-- Small star sparkles around George -->
+  <!-- Sparkle 1 -->
+  <g transform="translate(150, 200)">
+    <path d="M 0 -5 L 1.5 -1.5 L 5 0 L 1.5 1.5 L 0 5 L -1.5 1.5 L -5 0 L -1.5 -1.5 Z" fill="#FFD700" opacity="0.8"/>
+  </g>
+  
+  <!-- Sparkle 2 -->
+  <g transform="translate(250, 190)">
+    <path d="M 0 -6 L 1.8 -1.8 L 6 0 L 1.8 1.8 L 0 6 L -1.8 1.8 L -6 0 L -1.8 -1.8 Z" fill="#FFD700" opacity="0.75"/>
+  </g>
+  
+  <!-- Sparkle 3 -->
+  <g transform="translate(140, 250)">
+    <path d="M 0 -4 L 1.2 -1.2 L 4 0 L 1.2 1.2 L 0 4 L -1.2 1.2 L -4 0 L -1.2 -1.2 Z" fill="#FFD700" opacity="0.7"/>
+  </g>
+  
+  <!-- Sparkle 4 -->
+  <g transform="translate(260, 260)">
+    <path d="M 0 -5 L 1.5 -1.5 L 5 0 L 1.5 1.5 L 0 5 L -1.5 1.5 L -5 0 L -1.5 -1.5 Z" fill="#FFD700" opacity="0.8"/>
+  </g>
+  
+  <!-- Sparkle 5 -->
+  <g transform="translate(170, 180)">
+    <path d="M 0 -4 L 1.2 -1.2 L 4 0 L 1.2 1.2 L 0 4 L -1.2 1.2 L -4 0 L -1.2 -1.2 Z" fill="#FFD700" opacity="0.65"/>
+  </g>
+  
+  <!-- Sparkle 6 -->
+  <g transform="translate(230, 200)">
+    <path d="M 0 -5 L 1.5 -1.5 L 5 0 L 1.5 1.5 L 0 5 L -1.5 1.5 L -5 0 L -1.5 -1.5 Z" fill="#FFD700" opacity="0.7"/>
+  </g>
+</svg>

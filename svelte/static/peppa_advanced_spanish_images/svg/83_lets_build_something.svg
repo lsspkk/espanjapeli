@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background - simple floor and wall -->
+  <defs>
+    <linearGradient id="wallGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF9C4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFDE7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#wallGradient)"/>
+  
+  <!-- Floor -->
+  <ellipse cx="200" cy="380" rx="400" ry="60" fill="#D7CCC8"/>
+  
+  <!-- Peppa kneeling on ground with building blocks -->
+  <g transform="translate(200, 280)">
+    <!-- Body - kneeling position (more horizontal) -->
+    <ellipse cx="0" cy="20" rx="28" ry="32" fill="#E63946" transform="rotate(-10 0 20)"/>
+    <!-- Legs - bent in kneeling position -->
+    <ellipse cx="-15" y="45" rx="8" ry="12" fill="#F9C6CF" transform="rotate(-30 -15 45)"/>
+    <ellipse cx="15" y="45" rx="8" ry="12" fill="#F9C6CF" transform="rotate(30 15 45)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-25" rx="38" ry="32" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="28" cy="-23" rx="14" ry="11" fill="#F9C6CF"/>
+    <circle cx="33" cy="-26" r="3" fill="#FF69B4"/>
+    <circle cx="33" cy="-20" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-12" cy="-58" rx="8" ry="15" fill="#F9C6CF"/>
+    <ellipse cx="12" cy="-58" rx="8" ry="15" fill="#F9C6CF"/>
+    <!-- Eyes - focused and happy -->
+    <ellipse cx="-5" cy="-30" rx="5" ry="7" fill="white"/>
+    <ellipse cx="7" cy="-30" rx="5" ry="7" fill="white"/>
+    <circle cx="-4" cy="-28" r="2.5" fill="#333"/>
+    <circle cx="8" cy="-28" r="2.5" fill="#333"/>
+    <!-- Happy focused smile -->
+    <path d="M -5 -15 Q 0 -5 9 -15" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Left arm supporting -->
+    <ellipse cx="-30" cy="10" rx="10" ry="8" fill="#F9C6CF" transform="rotate(-45 -30 10)"/>
+    <!-- Right arm holding block about to place -->
+    <g transform="translate(25, -5)">
+      <ellipse cx="0" cy="0" rx="9" ry="7" fill="#F9C6CF" transform="rotate(20 0 0)"/>
+      <!-- Block being held -->
+      <rect x="8" y="-8" width="16" height="16" fill="#FF5722" rx="2"/>
+      <rect x="10" y="-6" width="12" height="12" fill="#FF7043" rx="1"/>
+    </g>
+  </g>
+  
+  <!-- Tower of 4-5 blocks already stacked -->
+  <g transform="translate(200, 320)">
+    <!-- Bottom block - red -->
+    <rect x="-20" y="-8" width="40" height="16" fill="#E53935" rx="2"/>
+    <rect x="-18" y="-6" width="36" height="12" fill="#FF5252" rx="1"/>
+    <!-- Second block - blue -->
+    <rect x="-18" y="-24" width="36" height="16" fill="#2196F3" rx="2"/>
+    <rect x="-16" y="-22" width="32" height="12" fill="#42A5F5" rx="1"/>
+    <!-- Third block - yellow -->
+    <rect x="-16" y="-40" width="32" height="16" fill="#FFC107" rx="2"/>
+    <rect x="-14" y="-38" width="28" height="12" fill="#FFD54F" rx="1"/>
+    <!-- Fourth block - green -->
+    <rect x="-14" y="-56" width="28" height="16" fill="#4CAF50" rx="2"/>
+    <rect x="-12" y="-54" width="24" height="12" fill="#66BB6A" rx="1"/>
+    <!-- Fifth block - red (top) -->
+    <rect x="-12" y="-72" width="24" height="14" fill="#E53935" rx="2"/>
+    <rect x="-10" y="-70" width="20" height="10" fill="#FF5252" rx="1"/>
+  </g>
+  
+  <!-- 3-4 more blocks scattered on ground -->
+  <!-- Block 1 - blue (left) -->
+  <g transform="translate(120, 340)">
+    <rect x="-10" y="-6" width="20" height="12" fill="#2196F3" rx="2" transform="rotate(15 0 0)"/>
+    <rect x="-8" y="-4" width="16" height="8" fill="#42A5F5" rx="1" transform="rotate(15 0 0)"/>
+  </g>
+  
+  <!-- Block 2 - yellow (right) -->
+  <g transform="translate(280, 345)">
+    <rect x="-8" y="-5" width="16" height="10" fill="#FFC107" rx="2" transform="rotate(-20 0 0)"/>
+    <rect x="-6" y="-3" width="12" height="6" fill="#FFD54F" rx="1" transform="rotate(-20 0 0)"/>
+  </g>
+  
+  <!-- Block 3 - green (far right) -->
+  <g transform="translate(320, 330)">
+    <rect x="-7" y="-4" width="14" height="8" fill="#4CAF50" rx="2" transform="rotate(25 0 0)"/>
+    <rect x="-5" y="-2" width="10" height="4" fill="#66BB6A" rx="1" transform="rotate(25 0 0)"/>
+  </g>
+  
+  <!-- Block 4 - red (left side) -->
+  <g transform="translate(100, 350)">
+    <rect x="-6" y="-4" width="12" height="8" fill="#E53935" rx="2" transform="rotate(-15 0 0)"/>
+    <rect x="-4" y="-2" width="8" height="4" fill="#FF5252" rx="1" transform="rotate(-15 0 0)"/>
+  </g>
+</svg>

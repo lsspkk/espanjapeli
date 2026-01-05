@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#FFFACD"/>
+  
+  <!-- Ice Cream Cart/Stand -->
+  <rect x="50" y="150" width="100" height="150" fill="#FF69B4"/>
+  <rect x="50" y="130" width="100" height="20" fill="#FFF"/> <!-- Top -->
+  <circle cx="70" cy="300" r="20" fill="#333"/> <!-- Wheel -->
+  <circle cx="130" cy="300" r="20" fill="#333"/>
+  <text x="65" y="220" font-size="40">🍦</text>
+  
+  <!-- Peppa -->
+  <g transform="translate(250, 250)">
+    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
+    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
+    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
+    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
+    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
+    <circle cx="-5" cy="-35" r="3" fill="#333"/>
+    <circle cx="12" cy="-35" r="3" fill="#333"/>
+    
+    <!-- Arm raised -->
+    <rect x="-30" y="-10" width="10" height="40" fill="#F9C6CF" transform="rotate(150 -30 -10)"/>
+  </g>
+  
+  <!-- Giant Ice Cream Cone -->
+  <g transform="translate(200, 100)">
+    <polygon points="0,50 30,50 15,100" fill="#F4A460"/>
+    <circle cx="15" cy="50" r="18" fill="#FFC0CB"/>
+  </g>
+  
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+</svg>

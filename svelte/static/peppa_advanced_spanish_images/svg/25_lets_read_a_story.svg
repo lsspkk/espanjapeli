@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background: Cozy reading corner -->
+  <defs>
+    <linearGradient id="readingBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#readingBg)"/>
+  
+  <!-- Bookshelf -->
+  <rect x="50" y="100" width="300" height="200" fill="#8D6E63"/>
+  <rect x="60" y="110" width="280" height="180" fill="#A1887F"/>
+  <!-- Shelf dividers -->
+  <line x1="200" y1="110" x2="200" y2="290" stroke="#8D6E63" stroke-width="3"/>
+  <line x1="50" y1="200" x2="350" y2="200" stroke="#8D6E63" stroke-width="3"/>
+  <!-- Books -->
+  <rect x="70" y="120" width="120" height="70" fill="#E53935"/>
+  <rect x="70" y="120" width="10" height="70" fill="#C62828"/>
+  <rect x="220" y="120" width="110" height="70" fill="#2196F3"/>
+  <rect x="220" y="120" width="10" height="70" fill="#1565C0"/>
+  <rect x="70" y="210" width="100" height="70" fill="#4CAF50"/>
+  <rect x="70" y="210" width="10" height="70" fill="#2E7D32"/>
+  <rect x="220" y="210" width="110" height="70" fill="#FFD54F"/>
+  <rect x="220" y="210" width="10" height="70" fill="#F9A825"/>
+  
+  <!-- Comfy chair -->
+  <g transform="translate(200, 320)">
+    <!-- Chair back -->
+    <rect x="-40" y="-60" width="80" height="60" rx="5" fill="#9C27B0"/>
+    <rect x="-35" y="-55" width="70" height="50" fill="#BA68C8"/>
+    <!-- Chair seat -->
+    <rect x="-50" y="0" width="100" height="30" rx="5" fill="#9C27B0"/>
+    <rect x="-45" y="5" width="90" height="20" fill="#BA68C8"/>
+    <!-- Chair legs -->
+    <rect x="-45" y="30" width="8" height="30" fill="#7B1FA2"/>
+    <rect x="37" y="30" width="8" height="30" fill="#7B1FA2"/>
+  </g>
+  
+  <!-- Open book -->
+  <g transform="translate(200, 250)">
+    <!-- Left page -->
+    <rect x="-60" y="-50" width="60" height="80" rx="2" fill="white" stroke="#333" stroke-width="2"/>
+    <!-- Right page -->
+    <rect x="0" y="-50" width="60" height="80" rx="2" fill="white" stroke="#333" stroke-width="2"/>
+    <!-- Book spine -->
+    <rect x="-5" y="-50" width="10" height="80" fill="#8D6E63"/>
+    <!-- Text lines -->
+    <g stroke="#333" stroke-width="1" opacity="0.5">
+      <line x1="-55" y1="-40" x2="-10" y2="-40"/>
+      <line x1="-55" y1="-30" x2="-10" y2="-30"/>
+      <line x1="-55" y1="-20" x2="-10" y2="-20"/>
+      <line x1="-55" y1="-10" x2="-10" y2="-10"/>
+      <line x1="5" y1="-40" x2="50" y2="-40"/>
+      <line x1="5" y1="-30" x2="50" y2="-30"/>
+      <line x1="5" y1="-20" x2="50" y2="-20"/>
+      <line x1="5" y1="-10" x2="50" y2="-10"/>
+    </g>
+    <!-- Illustration on page -->
+    <circle cx="-30" cy="10" r="15" fill="#FFD54F"/>
+    <circle cx="-30" cy="10" r="8" fill="#FF6B6B"/>
+  </g>
+  
+  <!-- Peppa reading -->
+  <g transform="translate(200, 220)">
+    <!-- Body (red dress) -->
+    <ellipse cx="0" cy="50" rx="45" ry="50" fill="#E63946"/>
+    
+    <!-- Legs (sitting) -->
+    <rect x="-25" y="90" width="12" height="30" rx="6" fill="#F9C6CF"/>
+    <rect x="13" y="90" width="12" height="30" rx="6" fill="#F9C6CF"/>
+    
+    <!-- Arms (holding book) -->
+    <path d="M -40 40 Q -60 20 -50 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="-50" cy="0" r="12" fill="#F9C6CF"/>
+    <path d="M 40 40 Q 60 20 50 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="50" cy="0" r="12" fill="#F9C6CF"/>
+    
+    <!-- Head (looking down at book) -->
+    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF" transform="rotate(10 0 -50)"/>
+    
+    <!-- Snout -->
+    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF" transform="rotate(10 50 -50)"/>
+    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
+    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF" transform="rotate(10 -18 -90)"/>
+    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF" transform="rotate(10 18 -90)"/>
+    
+    <!-- Eyes (looking down, focused) -->
+    <ellipse cx="-10" cy="-50" rx="8" ry="10" fill="white" transform="rotate(10 -10 -50)"/>
+    <ellipse cx="15" cy="-50" rx="8" ry="10" fill="white" transform="rotate(10 15 -50)"/>
+    <circle cx="-8" cy="-48" r="4" fill="#333"/>
+    <circle cx="17" cy="-48" r="4" fill="#333"/>
+    
+    <!-- Gentle smile -->
+    <path d="M -5 -30 Q 10 -25 25 -30" stroke="#333" stroke-width="3" fill="none" transform="rotate(10 10 -30)"/>
+  </g>
+  
+  <!-- Reading lamp -->
+  <g transform="translate(320, 200)">
+    <!-- Lamp base -->
+    <rect x="-6" y="0" width="12" height="50" fill="#666"/>
+    <ellipse cx="0" cy="0" rx="10" ry="4" fill="#888"/>
+    <!-- Lamp shade -->
+    <path d="M -18 -20 L -10 0 L 10 0 L 18 -20 Z" fill="#FFE4B5"/>
+    <!-- Light glow -->
+    <ellipse cx="0" cy="-10" rx="40" ry="30" fill="#FFFACD" opacity="0.3"/>
+  </g>
+  
+  <!-- Stars/magic around story -->
+  <g fill="#FFD700" opacity="0.6">
+    <polygon points="100,150 102,157 110,157 104,162 106,170 100,165 94,170 96,162 90,157 98,157"/>
+    <polygon points="300,140 302,147 310,147 304,152 306,160 300,155 294,160 296,152 290,147 298,147"/>
+  </g>
+  
+  <!-- Signature -->
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Composer 1</text>
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

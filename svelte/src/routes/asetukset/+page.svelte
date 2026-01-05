@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
+	import PeppaStatsViewer from '$lib/components/PeppaStatsViewer.svelte';
 
 	let stats = $state({
 		gamesPlayed: 0,
@@ -84,7 +85,7 @@
 
 	async function shareData() {
 		try {
-			const exportData = {
+			const sharePayload = {
 				version: '1.0',
 				exportedAt: new Date().toISOString(),
 				gameHistory: JSON.parse(localStorage.getItem('gameHistory') || '[]'),
@@ -92,7 +93,7 @@
 				preferences: JSON.parse(localStorage.getItem('preferences') || '{}')
 			};
 
-			const dataStr = JSON.stringify(exportData, null, 2);
+			const dataStr = JSON.stringify(sharePayload, null, 2);
 
 			if (navigator.share) {
 				// Use Web Share API on mobile
@@ -289,6 +290,11 @@
 					</div>
 				{/if}
 			</div>
+		</div>
+
+		<!-- Peppa Statistics Card -->
+		<div class="mb-6">
+			<PeppaStatsViewer />
 		</div>
 
 		<!-- About Card -->

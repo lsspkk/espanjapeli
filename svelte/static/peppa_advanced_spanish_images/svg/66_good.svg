@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background - very simple solid color or soft gradient -->
+  <defs>
+    <linearGradient id="goodBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8E6C9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF9C4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#goodBg)"/>
+  
+  <!-- Peppa with big smile, giving single thumbs up -->
+  <g transform="translate(200, 280)">
+    <!-- Body -->
+    <ellipse cx="0" cy="30" rx="30" ry="36" fill="#E63946"/>
+    <!-- Legs -->
+    <rect x="-18" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <rect x="8" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <!-- Head - nodding slightly -->
+    <ellipse cx="0" cy="-28" rx="40" ry="34" fill="#F9C6CF" transform="rotate(-5 0 -28)"/>
+    <!-- Snout -->
+    <ellipse cx="30" cy="-26" rx="15" ry="12" fill="#F9C6CF" transform="rotate(-5 30 -26)"/>
+    <circle cx="36" cy="-29" r="3" fill="#FF69B4"/>
+    <circle cx="36" cy="-23" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-13" cy="-60" rx="8" ry="15" fill="#F9C6CF" transform="rotate(-5 -13 -60)"/>
+    <ellipse cx="13" cy="-60" rx="8" ry="15" fill="#F9C6CF" transform="rotate(-5 13 -60)"/>
+    <!-- Eyes -->
+    <ellipse cx="-5" cy="-33" rx="5" ry="7" fill="white" transform="rotate(-5 -5 -33)"/>
+    <ellipse cx="7" cy="-33" rx="5" ry="7" fill="white" transform="rotate(-5 7 -33)"/>
+    <circle cx="-4" cy="-31" r="2.5" fill="#333"/>
+    <circle cx="8" cy="-31" r="2.5" fill="#333"/>
+    <!-- Big encouraging smile -->
+    <path d="M -7 -18 Q 0 -6 9 -18" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round" transform="rotate(-5 0 -18)"/>
+    <!-- Small motion arc near head showing nodding -->
+    <path d="M -25 -50 Q -20 -55 -15 -50" stroke="#666" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <path d="M 15 -50 Q 20 -55 25 -50" stroke="#666" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="round"/>
+    <!-- One trotter giving single thumbs up -->
+    <g transform="translate(30, 5)">
+      <ellipse cx="0" cy="0" rx="11" ry="9" fill="#F9C6CF" transform="rotate(20 0 0)"/>
+      <!-- Thumb up -->
+      <ellipse cx="8" cy="-8" rx="5" ry="4" fill="#F9C6CF" transform="rotate(45 8 -8)"/>
+    </g>
+    <!-- Other trotter -->
+    <ellipse cx="-25" cy="8" rx="10" ry="8" fill="#F9C6CF" transform="rotate(-15 -25 8)"/>
+  </g>
+  
+  <!-- Word "¡BIEN!" in bold, colorful letters above her -->
+  <g transform="translate(200, 150)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#4CAF50">¡BIEN!</text>
+    <!-- Decorative outline -->
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="none" stroke="#66BB6A" stroke-width="2">¡BIEN!</text>
+  </g>
+  
+  <!-- Large checkmark as alternative -->
+  <g transform="translate(200, 180)">
+    <path d="M -30 -10 L -10 10 L 30 -20" stroke="#4CAF50" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+  </g>
+</svg>

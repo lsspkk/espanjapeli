@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background - soft, calming colors -->
+  <defs>
+    <linearGradient id="fineBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E1F5FE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F3E5F5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#fineBg)"/>
+  
+  <!-- Small sun icon in background -->
+  <g transform="translate(320, 100)">
+    <circle cx="0" cy="0" r="25" fill="#FFD54F"/>
+    <circle cx="0" cy="0" r="20" fill="#FFEB3B"/>
+    <!-- Sun rays -->
+    <line x1="0" y1="-30" x2="0" y2="-40" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="30" x2="0" y2="40" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-30" y1="0" x2="-40" y2="0" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+    <line x1="30" y1="0" x2="40" y2="0" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-21" y1="-21" x2="-28" y2="-28" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+    <line x1="21" y1="21" x2="28" y2="28" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-21" y1="21" x2="-28" y2="28" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+    <line x1="21" y1="-21" x2="28" y2="-28" stroke="#FFC107" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Rainbow in background -->
+  <g transform="translate(200, 120)" opacity="0.6">
+    <path d="M -80 0 Q 0 -40 80 0" stroke="#FF1744" stroke-width="8" fill="none" opacity="0.8"/>
+    <path d="M -80 5 Q 0 -35 80 5" stroke="#FF6F00" stroke-width="8" fill="none" opacity="0.8"/>
+    <path d="M -80 10 Q 0 -30 80 10" stroke="#FFEB3B" stroke-width="8" fill="none" opacity="0.8"/>
+    <path d="M -80 15 Q 0 -25 80 15" stroke="#4CAF50" stroke-width="8" fill="none" opacity="0.8"/>
+    <path d="M -80 20 Q 0 -20 80 20" stroke="#2196F3" stroke-width="8" fill="none" opacity="0.8"/>
+    <path d="M -80 25 Q 0 -15 80 25" stroke="#9C27B0" stroke-width="8" fill="none" opacity="0.8"/>
+  </g>
+  
+  <!-- Peppa with both trotters spread out to sides -->
+  <g transform="translate(200, 280)">
+    <!-- Body -->
+    <ellipse cx="0" cy="30" rx="30" ry="36" fill="#E63946"/>
+    <!-- Legs -->
+    <rect x="-18" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <rect x="8" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-28" rx="40" ry="34" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="30" cy="-26" rx="15" ry="12" fill="#F9C6CF"/>
+    <circle cx="36" cy="-29" r="3" fill="#FF69B4"/>
+    <circle cx="36" cy="-23" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-13" cy="-60" rx="8" ry="15" fill="#F9C6CF"/>
+    <ellipse cx="13" cy="-60" rx="8" ry="15" fill="#F9C6CF"/>
+    <!-- Eyes -->
+    <ellipse cx="-5" cy="-33" rx="5" ry="7" fill="white"/>
+    <ellipse cx="7" cy="-33" rx="5" ry="7" fill="white"/>
+    <circle cx="-4" cy="-31" r="2.5" fill="#333"/>
+    <circle cx="8" cy="-31" r="2.5" fill="#333"/>
+    <!-- Peaceful, reassuring smile -->
+    <path d="M -6 -18 Q 0 -10 8 -18" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Both trotters spread out to sides in calming gesture -->
+    <ellipse cx="-40" cy="5" rx="12" ry="10" fill="#F9C6CF" transform="rotate(-30 -40 5)"/>
+    <ellipse cx="40" cy="5" rx="12" ry="10" fill="#F9C6CF" transform="rotate(30 40 5)"/>
+  </g>
+  
+  <!-- Small hearts around her -->
+  <!-- Heart 1 -->
+  <g transform="translate(150, 220)">
+    <path d="M 0 0 C -2 -2 -4 -2 -4 0 C -4 2 -2 4 0 6 C 2 4 4 2 4 0 C 4 -2 2 -2 0 0" fill="#FF69B4" opacity="0.7"/>
+  </g>
+  
+  <!-- Heart 2 -->
+  <g transform="translate(250, 210)">
+    <path d="M 0 0 C -2.5 -2.5 -5 -2.5 -5 0 C -5 2.5 -2.5 5 0 7.5 C 2.5 5 5 2.5 5 0 C 5 -2.5 2.5 -2.5 0 0" fill="#FF69B4" opacity="0.6"/>
+  </g>
+  
+  <!-- Heart 3 -->
+  <g transform="translate(160, 250)">
+    <path d="M 0 0 C -2 -2 -4 -2 -4 0 C -4 2 -2 4 0 6 C 2 4 4 2 4 0 C 4 -2 2 -2 0 0" fill="#FF69B4" opacity="0.65"/>
+  </g>
+  
+  <!-- Small stars around her -->
+  <!-- Star 1 -->
+  <g transform="translate(140, 200)">
+    <path d="M 0 -4 L 1.2 -1.2 L 4 0 L 1.2 1.2 L 0 4 L -1.2 1.2 L -4 0 L -1.2 -1.2 Z" fill="#FFD700" opacity="0.6"/>
+  </g>
+  
+  <!-- Star 2 -->
+  <g transform="translate(260, 230)">
+    <path d="M 0 -5 L 1.5 -1.5 L 5 0 L 1.5 1.5 L 0 5 L -1.5 1.5 L -5 0 L -1.5 -1.5 Z" fill="#FFD700" opacity="0.5"/>
+  </g>
+</svg>

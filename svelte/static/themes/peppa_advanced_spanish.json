@@ -1,0 +1,1609 @@
+{
+  "theme": "peppa_advanced_spanish",
+  "name": "🐷 Peppa Pig - Aprender Español",
+  "level": "intermediate",
+  "description": "Common phrases, sentences, and vocabulary from Peppa Pig episodes in Spanish - for learners watching the show",
+  "ageGroup": "all ages",
+  "gameMode": "text_matching",
+  "_note": "Material based on Spanish Peppa Pig episodes - Finnish translations to be added",
+  "introduction_phrases": [
+    {
+      "spanish": "Yo soy Peppa Pig.",
+      "finnish": "Olen Peppa Pig.",
+      "english": "I am Peppa Pig.",
+      "context": "Opening of every episode",
+      "image": "/peppa_advanced_spanish_images/svg/02_yo_soy_peppa.svg"
+    },
+    {
+      "spanish": "Este es mi hermano pequeño, George.",
+      "finnish": "Tämä on pikkuveljeni, George.",
+      "english": "This is my little brother, George.",
+      "context": "Opening of every episode",
+      "image": "/peppa_advanced_spanish_images/svg/26_george_little_brother.svg"
+    },
+    {
+      "spanish": "Esta es Mamá Pig.",
+      "finnish": "Tässä on Mama Pig.",
+      "english": "This is Mummy Pig.",
+      "context": "Opening of every episode",
+      "image": "/peppa_advanced_spanish_images/svg/27_mummy_pig.svg"
+    },
+    {
+      "spanish": "Y este es Papá Pig.",
+      "finnish": "Ja tässä on Papa Pig.",
+      "english": "And this is Daddy Pig.",
+      "context": "Opening of every episode",
+      "image": "/peppa_advanced_spanish_images/svg/28_daddy_pig.svg"
+    }
+  ],
+  "common_phrases": [
+    {
+      "spanish": "¡Hola a todos!",
+      "finnish": "Hei kaikille!",
+      "english": "Hello everyone!",
+      "frequency": "very common",
+      "image": "/peppa_advanced_spanish_images/svg/23_hello_everyone.svg"
+    },
+    {
+      "spanish": "¡Me encanta saltar en los charcos de barro!",
+      "finnish": "Rakastan hypätä mutalätäköissä!",
+      "english": "I love jumping in muddy puddles!",
+      "frequency": "very common",
+      "episode": "Charcos de barro",
+      "image": "/peppa_advanced_spanish_images/svg/01_muddy_puddles.svg"
+    },
+    {
+      "spanish": "¡Qué divertido!",
+      "finnish": "Kuinka hauskaa!",
+      "english": "How fun!",
+      "frequency": "very common",
+      "image": "/peppa_advanced_spanish_images/svg/60_how_fun.svg"
+    },
+    {
+      "spanish": "¡Muy bien!",
+      "finnish": "Oikein hyvin!",
+      "english": "Very good!",
+      "frequency": "very common",
+      "image": "/peppa_advanced_spanish_images/svg/59_very_good.svg"
+    },
+    {
+      "spanish": "¡Bien!",
+      "finnish": "Ei hassumpaa!",
+      "english": "Good!",
+      "frequency": "very common",
+      "image": "/peppa_advanced_spanish_images/svg/66_good.svg"
+    },
+    {
+      "spanish": "¡Feliz cumpleaños, Peppa!",
+      "finnish": "Hyvää syntymäpäivää, Peppa, olet paras!",
+      "english": "Happy birthday, Peppa!",
+      "frequency": "common",
+      "episode": "Mi fiesta de cumpleaños",
+      "image": "/peppa_advanced_spanish_images/svg/05_birthday_party.svg"
+    },
+    {
+      "spanish": "George, ¡despierta! ¡Es mi cumpleaños!",
+      "finnish": "George, herää! On syntymäpäiväni!",
+      "english": "George, wake up! It's my birthday!",
+      "frequency": "common",
+      "episode": "Mi fiesta de cumpleaños",
+      "image": "/peppa_advanced_spanish_images/svg/67_george_wake_up_its_my_birthday.svg"
+    },
+    {
+      "spanish": "¡Vamos a jugar!",
+      "finnish": "Pelataan!",
+      "english": "Let's play!",
+      "frequency": "very common",
+      "image": "/peppa_advanced_spanish_images/svg/06_lets_play.svg"
+    },
+    {
+      "spanish": "¡Hora de ir a la cama!",
+      "finnish": "Aika mennä nukkumaan!",
+      "english": "Time to go to bed!",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/03_bedtime.svg"
+    },
+    {
+      "spanish": "¡Es hora de comer!",
+      "finnish": "On aika syödä!",
+      "english": "It's time to eat!",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/10_its_time_to_eat.svg"
+    },
+    {
+      "spanish": "¡Adiós!",
+      "finnish": "Näkemiin!",
+      "english": "Goodbye!",
+      "frequency": "very common",
+      "image": "/peppa_advanced_spanish_images/svg/29_goodbye.svg"
+    },
+    {
+      "spanish": "¡Hasta luego!",
+      "finnish": "Nähdään myöhemmin!",
+      "english": "See you later!",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/30_see_you_later.svg"
+    },
+    {
+      "spanish": "¡Por favor!",
+      "finnish": "Anteeksi!",
+      "english": "Please!",
+      "frequency": "very common",
+      "image": "/peppa_advanced_spanish_images/svg/31_please.svg"
+    },
+    {
+      "spanish": "¡Gracias!",
+      "finnish": "Kiitos!",
+      "english": "Thank you!",
+      "frequency": "very common",
+      "image": "/peppa_advanced_spanish_images/svg/32_thank_you.svg"
+    },
+    {
+      "spanish": "De nada.",
+      "finnish": "Ei kestä.",
+      "english": "You're welcome.",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/33_youre_welcome.svg"
+    },
+    {
+      "spanish": "Lo siento.",
+      "finnish": "Olen pahoillani.",
+      "english": "I'm sorry.",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/34_im_sorry.svg"
+    },
+    {
+      "spanish": "¡No importa!",
+      "finnish": "Unohda koko juttu!",
+      "english": "It doesn't matter! / Never mind!",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/35_never_mind.svg"
+    },
+    {
+      "spanish": "¡Mira!",
+      "finnish": "Katso!",
+      "english": "Look!",
+      "frequency": "very common",
+      "image": "/peppa_advanced_spanish_images/svg/36_look.svg"
+    },
+    {
+      "spanish": "¿Qué es eso?",
+      "finnish": "Mikä tuo on?",
+      "english": "What is that?",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/37_what_is_that.svg"
+    },
+    {
+      "spanish": "¡Ven aquí!",
+      "finnish": "Tule tänne!",
+      "english": "Come here!",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/38_come_here.svg"
+    },
+    {
+      "spanish": "¡Espera!",
+      "finnish": "Odota!",
+      "english": "Wait!",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/39_wait.svg"
+    },
+    {
+      "spanish": "¡Vamos!",
+      "finnish": "Mennään!",
+      "english": "Let's go! / Come on!",
+      "frequency": "very common",
+      "image": "/peppa_advanced_spanish_images/svg/40_lets_go.svg"
+    },
+    {
+      "spanish": "¿Puedo ayudar?",
+      "finnish": "Voinko auttaa?",
+      "english": "Can I help?",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/41_can_i_help.svg"
+    },
+    {
+      "spanish": "¡Claro que sí!",
+      "finnish": "Tietysti!",
+      "english": "Of course! / Sure!",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/42_of_course.svg"
+    },
+    {
+      "spanish": "¿Dónde está...?",
+      "finnish": "Missä hän on...?",
+      "english": "Where is...?",
+      "frequency": "very common",
+      "image": "/peppa_advanced_spanish_images/svg/43_where_is.svg"
+    },
+    {
+      "spanish": "Aquí está.",
+      "finnish": "Tässä se on.",
+      "english": "Here it is.",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/44_here_it_is.svg"
+    },
+    {
+      "spanish": "No lo sé.",
+      "finnish": "Minä en tiedä.",
+      "english": "I don't know.",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/45_i_dont_know.svg"
+    },
+    {
+      "spanish": "¡Me gusta!",
+      "finnish": "Minä pidän siitä!",
+      "english": "I like it!",
+      "frequency": "very common",
+      "image": "/peppa_advanced_spanish_images/svg/63_i_like_it.svg"
+    },
+    {
+      "spanish": "¡Me encanta!",
+      "finnish": "Minä rakastan sitä!",
+      "english": "I love it!",
+      "frequency": "very common",
+      "image": "/peppa_advanced_spanish_images/svg/68_i_love_it.svg"
+    },
+    {
+      "spanish": "¡Qué bonito!",
+      "finnish": "Kiva!",
+      "english": "How beautiful! / How nice!",
+      "frequency": "common",
+      "image": "/peppa_advanced_spanish_images/svg/69_how_beautiful.svg"
+    }
+  ],
+  "family_phrases": [
+    {
+      "spanish": "¡Mamá! ¡Papá!",
+      "finnish": "Äiti! Isä!",
+      "english": "Mummy! Daddy!",
+      "context": "Calling parents",
+      "image": "/peppa_advanced_spanish_images/svg/70_mummy_daddy.svg"
+    },
+    {
+      "spanish": "¿Podemos ir al parque?",
+      "finnish": "Voimmeko mennä puistoon?",
+      "english": "Can we go to the park?",
+      "context": "Asking permission",
+      "image": "/peppa_advanced_spanish_images/svg/24_can_we_go_to_the_park.svg"
+    },
+    {
+      "spanish": "¿Podemos saltar en los charcos?",
+      "finnish": "Voimmeko hypätä lätäköihin?",
+      "english": "Can we jump in the puddles?",
+      "context": "Asking permission",
+      "image": "/peppa_advanced_spanish_images/svg/01_muddy_puddles.svg"
+    },
+    {
+      "spanish": "Primero tienes que ponerte las botas.",
+      "finnish": "Ensin sinun täytyy laittaa saappaat jalkaan.",
+      "english": "First you have to put on your boots.",
+      "context": "Parent instruction",
+      "image": "/peppa_advanced_spanish_images/svg/71_first_put_on_your_boots.svg"
+    },
+    {
+      "spanish": "Ten cuidado.",
+      "finnish": "Ole varovainen.",
+      "english": "Be careful.",
+      "context": "Parent warning",
+      "image": "/peppa_advanced_spanish_images/svg/57_be_careful.svg"
+    },
+    {
+      "spanish": "No te preocupes.",
+      "finnish": "Ei hätää.",
+      "english": "Don't worry.",
+      "context": "Reassurance",
+      "image": "/peppa_advanced_spanish_images/svg/58_dont_worry.svg"
+    },
+    {
+      "spanish": "Todo está bien.",
+      "finnish": "Kaikki on hyvin.",
+      "english": "Everything is fine.",
+      "context": "Reassurance",
+      "image": "/peppa_advanced_spanish_images/svg/72_everything_is_fine.svg"
+    },
+    {
+      "spanish": "Vamos a visitar a los abuelos.",
+      "finnish": "Aiomme käydä isovanhempien luona.",
+      "english": "Let's visit the grandparents.",
+      "context": "Family activity",
+      "image": "/peppa_advanced_spanish_images/svg/20_lets_visit_grandparents.svg"
+    },
+    {
+      "spanish": "¿Quién quiere helado?",
+      "finnish": "Kuka haluaa jäätelöä?",
+      "english": "Who wants ice cream?",
+      "context": "Offering food",
+      "image": "/peppa_advanced_spanish_images/svg/56_who_wants_ice_cream.svg"
+    },
+    {
+      "spanish": "¡Yo! ¡Yo!",
+      "finnish": "Minä! Minä!",
+      "english": "Me! Me!",
+      "context": "Response to offer",
+      "image": "/peppa_advanced_spanish_images/svg/73_me_me.svg"
+    }
+  ],
+  "school_phrases": [
+    {
+      "spanish": "Buenos días, Madame Gazelle.",
+      "finnish": "Hyvää huomenta, rouva Gazelle.",
+      "english": "Good morning, Madame Gazelle.",
+      "context": "Greeting teacher",
+      "image": "/peppa_advanced_spanish_images/svg/14_good_morning_madame_gazelle.svg"
+    },
+    {
+      "spanish": "¡Hola, amigos!",
+      "finnish": "Hei, ystävät!",
+      "english": "Hello, friends!",
+      "context": "Greeting classmates",
+      "image": "/peppa_advanced_spanish_images/svg/74_hello_friends.svg"
+    },
+    {
+      "spanish": "¿Qué vamos a hacer hoy?",
+      "finnish": "Mitä aiomme tehdä tänään?",
+      "english": "What are we going to do today?",
+      "context": "At school",
+      "image": "/peppa_advanced_spanish_images/svg/75_what_are_we_going_to_do_today.svg"
+    },
+    {
+      "spanish": "Es hora de pintar.",
+      "finnish": "On aika maalata.",
+      "english": "It's time to paint.",
+      "context": "Activity time",
+      "image": "/peppa_advanced_spanish_images/svg/21_its_time_to_paint.svg"
+    },
+    {
+      "spanish": "Es hora de cantar.",
+      "finnish": "On aika laulaa.",
+      "english": "It's time to sing.",
+      "context": "Activity time",
+      "image": "/peppa_advanced_spanish_images/svg/55_its_time_to_sing.svg"
+    },
+    {
+      "spanish": "Vamos a contar hasta diez.",
+      "finnish": "Lasketaan kymmeneen.",
+      "english": "Let's count to ten.",
+      "context": "Learning activity",
+      "image": "/peppa_advanced_spanish_images/svg/22_lets_count_to_ten.svg"
+    },
+    {
+      "spanish": "¡Muy bien hecho!",
+      "finnish": "Todella hyvin tehty!",
+      "english": "Very well done!",
+      "context": "Teacher praise",
+      "image": "/peppa_advanced_spanish_images/svg/76_very_well_done.svg"
+    },
+    {
+      "spanish": "Es hora del recreo.",
+      "finnish": "On välitunti.",
+      "english": "It's playtime / recess time.",
+      "context": "School schedule",
+      "image": "/peppa_advanced_spanish_images/svg/54_its_recess_time.svg"
+    },
+    {
+      "spanish": "Vamos al patio.",
+      "finnish": "Mennään sisäpihalle.",
+      "english": "Let's go to the playground.",
+      "context": "Going outside",
+      "image": "/peppa_advanced_spanish_images/svg/77_lets_go_to_the_playground.svg"
+    }
+  ],
+  "friendship_phrases": [
+    {
+      "spanish": "¿Quieres jugar conmigo?",
+      "finnish": "Haluatko leikkiä kanssani?",
+      "english": "Do you want to play with me?",
+      "context": "Invitation to play",
+      "image": "/peppa_advanced_spanish_images/svg/15_do_you_want_to_play_with_me.svg"
+    },
+    {
+      "spanish": "Sí, me encantaría.",
+      "finnish": "Kyllä, haluaisin kovasti.",
+      "english": "Yes, I'd love to.",
+      "context": "Accepting invitation",
+      "image": "/peppa_advanced_spanish_images/svg/78_yes_id_love_to.svg"
+    },
+    {
+      "spanish": "Eres mi mejor amiga.",
+      "finnish": "Olet paras ystäväni.",
+      "english": "You are my best friend. (female)",
+      "context": "Expressing friendship",
+      "image": "/peppa_advanced_spanish_images/svg/79_you_are_my_best_friend_female.svg"
+    },
+    {
+      "spanish": "Eres mi mejor amigo.",
+      "finnish": "Olet paras ystäväni.",
+      "english": "You are my best friend. (male)",
+      "context": "Expressing friendship",
+      "image": "/peppa_advanced_spanish_images/svg/80_you_are_my_best_friend_male.svg"
+    },
+    {
+      "spanish": "¡Vamos a jugar juntos!",
+      "finnish": "Pelataan yhdessä!",
+      "english": "Let's play together!",
+      "context": "Playing with friends",
+      "image": "/peppa_advanced_spanish_images/svg/81_lets_play_together.svg"
+    },
+    {
+      "spanish": "Es mi turno.",
+      "finnish": "Nyt on minun vuoroni.",
+      "english": "It's my turn.",
+      "context": "Taking turns",
+      "image": "/peppa_advanced_spanish_images/svg/65_its_my_turn.svg"
+    },
+    {
+      "spanish": "Ahora es tu turno.",
+      "finnish": "Nyt on sinun vuorosi.",
+      "english": "Now it's your turn.",
+      "context": "Taking turns",
+      "image": "/peppa_advanced_spanish_images/svg/82_now_its_your_turn.svg"
+    },
+    {
+      "spanish": "¿Puedo jugar también?",
+      "finnish": "Voinko minäkin pelata?",
+      "english": "Can I play too?",
+      "context": "Joining a game",
+      "image": "/peppa_advanced_spanish_images/svg/06_lets_play.svg"
+    },
+    {
+      "spanish": "¡Claro que sí!",
+      "finnish": "Tietysti!",
+      "english": "Of course!",
+      "context": "Welcoming someone",
+      "image": "/peppa_advanced_spanish_images/svg/42_of_course.svg"
+    }
+  ],
+  "activities_and_games": [
+    {
+      "spanish": "Vamos a jugar al escondite.",
+      "finnish": "Pelataan piilosta.",
+      "english": "Let's play hide and seek.",
+      "game": "hide and seek",
+      "image": "/peppa_advanced_spanish_images/svg/51_lets_play_hide_and_seek.svg"
+    },
+    {
+      "spanish": "Vamos a jugar a la pelota.",
+      "finnish": "Pelataan palloa.",
+      "english": "Let's play with the ball.",
+      "game": "ball games",
+      "image": "/peppa_advanced_spanish_images/svg/52_lets_play_ball.svg"
+    },
+    {
+      "spanish": "Vamos a construir algo.",
+      "finnish": "Rakennetaan jotain.",
+      "english": "Let's build something.",
+      "game": "building/construction",
+      "image": "/peppa_advanced_spanish_images/svg/83_lets_build_something.svg"
+    },
+    {
+      "spanish": "Vamos a dibujar.",
+      "finnish": "Piirretään.",
+      "english": "Let's draw.",
+      "activity": "drawing",
+      "image": "/peppa_advanced_spanish_images/svg/11_lets_draw.svg"
+    },
+    {
+      "spanish": "Vamos a pintar.",
+      "finnish": "Maalataan.",
+      "english": "Let's paint.",
+      "activity": "painting",
+      "image": "/peppa_advanced_spanish_images/svg/21_its_time_to_paint.svg"
+    },
+    {
+      "spanish": "Vamos a leer un cuento.",
+      "finnish": "Luetaan tarina.",
+      "english": "Let's read a story.",
+      "activity": "reading",
+      "image": "/peppa_advanced_spanish_images/svg/25_lets_read_a_story.svg"
+    },
+    {
+      "spanish": "Vamos a cantar una canción.",
+      "finnish": "Lauletaan laulu.",
+      "english": "Let's sing a song.",
+      "activity": "singing",
+      "image": "/peppa_advanced_spanish_images/svg/84_lets_sing_a_song.svg"
+    },
+    {
+      "spanish": "Vamos a bailar.",
+      "finnish": "Tanssitaan.",
+      "english": "Let's dance.",
+      "activity": "dancing",
+      "image": "/peppa_advanced_spanish_images/svg/13_lets_dance.svg"
+    },
+    {
+      "spanish": "Vamos de paseo.",
+      "finnish": "Mennään kävelylle.",
+      "english": "Let's go for a walk.",
+      "activity": "walking",
+      "image": "/peppa_advanced_spanish_images/svg/53_lets_go_for_a_walk.svg"
+    },
+    {
+      "spanish": "Vamos a nadar.",
+      "finnish": "Mennään uimaan.",
+      "english": "Let's swim / go swimming.",
+      "activity": "swimming",
+      "image": "/peppa_advanced_spanish_images/svg/12_lets_swim.svg"
+    },
+    {
+      "spanish": "Vamos a montar en bicicleta.",
+      "finnish": "Mennään pyörälle.",
+      "english": "Let's ride bikes.",
+      "activity": "cycling",
+      "image": "/peppa_advanced_spanish_images/svg/50_lets_ride_bikes.svg"
+    }
+  ],
+  "emotions_and_reactions": [
+    {
+      "spanish": "Estoy feliz.",
+      "finnish": "Olen iloinen.",
+      "english": "I am happy.",
+      "emotion": "happy",
+      "image": "/peppa_advanced_spanish_images/svg/07_i_am_happy.svg"
+    },
+    {
+      "spanish": "Estoy triste.",
+      "finnish": "Olen surullinen.",
+      "english": "I am sad.",
+      "emotion": "sad",
+      "image": "/peppa_advanced_spanish_images/svg/08_i_am_sad.svg"
+    },
+    {
+      "spanish": "Estoy emocionado.",
+      "finnish": "Olen innoissani.",
+      "english": "I am excited. (male)",
+      "emotion": "excited",
+      "image": "/peppa_advanced_spanish_images/svg/85_i_am_excited_male.svg"
+    },
+    {
+      "spanish": "Estoy emocionada.",
+      "finnish": "Olen innoissani.",
+      "english": "I am excited. (female)",
+      "emotion": "excited",
+      "image": "/peppa_advanced_spanish_images/svg/86_i_am_excited_female.svg"
+    },
+    {
+      "spanish": "Tengo miedo.",
+      "finnish": "Minua pelottaa.",
+      "english": "I am scared.",
+      "emotion": "scared",
+      "image": "/peppa_advanced_spanish_images/svg/61_i_am_scared.svg"
+    },
+    {
+      "spanish": "No tengas miedo.",
+      "finnish": "Älä pelkää.",
+      "english": "Don't be scared.",
+      "emotion": "reassurance",
+      "image": "/peppa_advanced_spanish_images/svg/87_dont_be_scared.svg"
+    },
+    {
+      "spanish": "Estoy cansado.",
+      "finnish": "Olen väsynyt.",
+      "english": "I am tired. (male)",
+      "emotion": "tired",
+      "image": "/peppa_advanced_spanish_images/svg/03_bedtime.svg"
+    },
+    {
+      "spanish": "Estoy cansada.",
+      "finnish": "Olen väsynyt.",
+      "english": "I am tired. (female)",
+      "emotion": "tired",
+      "image": "/peppa_advanced_spanish_images/svg/03_bedtime.svg"
+    },
+    {
+      "spanish": "Tengo hambre.",
+      "finnish": "Olen nälkäinen.",
+      "english": "I am hungry.",
+      "state": "hunger",
+      "image": "/peppa_advanced_spanish_images/svg/16_i_am_hungry.svg"
+    },
+    {
+      "spanish": "Tengo sed.",
+      "finnish": "Minulla on jano.",
+      "english": "I am thirsty.",
+      "state": "thirst",
+      "image": "/peppa_advanced_spanish_images/svg/46_i_am_thirsty.svg"
+    },
+    {
+      "spanish": "Tengo sueño.",
+      "finnish": "Olen väsynyt.",
+      "english": "I am sleepy.",
+      "state": "sleepy",
+      "image": "/peppa_advanced_spanish_images/svg/108_its_bedtime.svg"
+    },
+    {
+      "spanish": "¡Qué susto!",
+      "finnish": "Mikä pelko!",
+      "english": "What a fright!",
+      "reaction": "surprise/fright",
+      "image": "/peppa_advanced_spanish_images/svg/62_what_a_fright.svg"
+    },
+    {
+      "spanish": "¡Qué risa!",
+      "finnish": "Mikä naurettava!",
+      "english": "How funny! (lit: what laughter)",
+      "reaction": "amusement",
+      "image": "/peppa_advanced_spanish_images/svg/88_how_funny.svg"
+    },
+    {
+      "spanish": "¡Qué alegría!",
+      "finnish": "Mikä ilo!",
+      "english": "What joy! / How wonderful!",
+      "reaction": "joy",
+      "image": "/peppa_advanced_spanish_images/svg/07_i_am_happy.svg"
+    }
+  ],
+  "questions_and_answers": [
+    {
+      "spanish": "¿Qué estás haciendo?",
+      "finnish": "Mitä sinä teet?",
+      "english": "What are you doing?",
+      "type": "question",
+      "image": "/peppa_advanced_spanish_images/svg/89_what_are_you_doing.svg"
+    },
+    {
+      "spanish": "Estoy jugando.",
+      "finnish": "Minä leikin.",
+      "english": "I am playing.",
+      "type": "answer",
+      "image": "/peppa_advanced_spanish_images/svg/90_i_am_playing.svg"
+    },
+    {
+      "spanish": "¿Cómo estás?",
+      "finnish": "Mitä kuuluu?",
+      "english": "How are you?",
+      "type": "question",
+      "image": "/peppa_advanced_spanish_images/svg/91_how_are_you.svg"
+    },
+    {
+      "spanish": "Estoy bien, gracias.",
+      "finnish": "Voin hyvin kiitos.",
+      "english": "I am well, thank you.",
+      "type": "answer",
+      "image": "/peppa_advanced_spanish_images/svg/92_i_am_well_thank_you.svg"
+    },
+    {
+      "spanish": "¿Qué quieres hacer?",
+      "finnish": "Mitä haluat tehdä?",
+      "english": "What do you want to do?",
+      "type": "question",
+      "image": "/peppa_advanced_spanish_images/svg/93_what_do_you_want_to_do.svg"
+    },
+    {
+      "spanish": "Quiero jugar.",
+      "finnish": "Haluan pelata.",
+      "english": "I want to play.",
+      "type": "answer",
+      "image": "/peppa_advanced_spanish_images/svg/94_i_want_to_play.svg"
+    },
+    {
+      "spanish": "¿Te gusta...?",
+      "finnish": "Pidätkö siitä...?",
+      "english": "Do you like...?",
+      "type": "question",
+      "image": "/peppa_advanced_spanish_images/svg/95_do_you_like.svg"
+    },
+    {
+      "spanish": "Sí, me gusta mucho.",
+      "finnish": "Kyllä, pidän siitä paljon.",
+      "english": "Yes, I like it a lot.",
+      "type": "answer",
+      "image": "/peppa_advanced_spanish_images/svg/96_yes_i_like_it_a_lot.svg"
+    },
+    {
+      "spanish": "No, no me gusta.",
+      "finnish": "En pidä siitä.",
+      "english": "No, I don't like it.",
+      "type": "answer",
+      "image": "/peppa_advanced_spanish_images/svg/64_i_dont_like_it.svg"
+    },
+    {
+      "spanish": "¿Cuántos años tienes?",
+      "finnish": "Kuinka vanha olet?",
+      "english": "How old are you?",
+      "type": "question",
+      "image": "/peppa_advanced_spanish_images/svg/98_how_old_are_you.svg"
+    },
+    {
+      "spanish": "Tengo cinco años.",
+      "finnish": "Olen viisi vuotta vanha.",
+      "english": "I am five years old.",
+      "type": "answer",
+      "image": "/peppa_advanced_spanish_images/svg/99_i_am_five_years_old.svg"
+    },
+    {
+      "spanish": "¿Dónde vives?",
+      "finnish": "Missä sinä asut?",
+      "english": "Where do you live?",
+      "type": "question",
+      "image": "/peppa_advanced_spanish_images/svg/100_where_do_you_live.svg"
+    },
+    {
+      "spanish": "Vivo en una casa.",
+      "finnish": "Asun talossa.",
+      "english": "I live in a house.",
+      "type": "answer",
+      "image": "/peppa_advanced_spanish_images/svg/101_i_live_in_a_house.svg"
+    }
+  ],
+  "weather_phrases": [
+    {
+      "spanish": "Hace sol.",
+      "finnish": "On aurinkoista.",
+      "english": "It's sunny.",
+      "weather": "sunny",
+      "image": "/peppa_advanced_spanish_images/svg/04_sunny_day.svg"
+    },
+    {
+      "spanish": "Está lloviendo.",
+      "finnish": "Sataa.",
+      "english": "It's raining.",
+      "weather": "rainy",
+      "image": "/peppa_advanced_spanish_images/svg/09_its_raining.svg"
+    },
+    {
+      "spanish": "Ha dejado de llover.",
+      "finnish": "Sade on lakannut.",
+      "english": "It has stopped raining.",
+      "weather": "after rain",
+      "image": "/peppa_advanced_spanish_images/svg/102_it_has_stopped_raining.svg"
+    },
+    {
+      "spanish": "Hay charcos.",
+      "finnish": "Siellä on lätäköitä.",
+      "english": "There are puddles.",
+      "weather": "after rain",
+      "image": "/peppa_advanced_spanish_images/svg/01_muddy_puddles.svg"
+    },
+    {
+      "spanish": "Hace viento.",
+      "finnish": "On tuulista.",
+      "english": "It's windy.",
+      "weather": "windy",
+      "image": "/peppa_advanced_spanish_images/svg/49_its_windy.svg"
+    },
+    {
+      "spanish": "Hace frío.",
+      "finnish": "On kylmä.",
+      "english": "It's cold.",
+      "weather": "cold",
+      "image": "/peppa_advanced_spanish_images/svg/47_its_cold.svg"
+    },
+    {
+      "spanish": "Hace calor.",
+      "finnish": "On kuuma.",
+      "english": "It's hot.",
+      "weather": "hot",
+      "image": "/peppa_advanced_spanish_images/svg/48_its_hot.svg"
+    },
+    {
+      "spanish": "Hace buen tiempo.",
+      "finnish": "Sää on hyvä.",
+      "english": "The weather is nice.",
+      "weather": "nice",
+      "image": "/peppa_advanced_spanish_images/svg/04_sunny_day.svg"
+    },
+    {
+      "spanish": "Hace mal tiempo.",
+      "finnish": "Sää on huono.",
+      "english": "The weather is bad.",
+      "weather": "bad",
+      "image": "/peppa_advanced_spanish_images/svg/103_the_weather_is_bad.svg"
+    },
+    {
+      "spanish": "Hay un arcoíris.",
+      "finnish": "On olemassa sateenkaari.",
+      "english": "There is a rainbow.",
+      "weather": "rainbow",
+      "image": "/peppa_advanced_spanish_images/svg/17_there_is_a_rainbow.svg"
+    }
+  ],
+  "time_phrases": [
+    {
+      "spanish": "Es por la mañana.",
+      "finnish": "Se on aamulla.",
+      "english": "It's morning.",
+      "time": "morning",
+      "image": "/peppa_advanced_spanish_images/svg/104_its_morning.svg"
+    },
+    {
+      "spanish": "Es por la tarde.",
+      "finnish": "Se on iltapäivällä.",
+      "english": "It's afternoon.",
+      "time": "afternoon",
+      "image": "/peppa_advanced_spanish_images/svg/105_its_afternoon.svg"
+    },
+    {
+      "spanish": "Es por la noche.",
+      "finnish": "Se on yöllä.",
+      "english": "It's nighttime / evening.",
+      "time": "night",
+      "image": "/peppa_advanced_spanish_images/svg/106_its_nighttime.svg"
+    },
+    {
+      "spanish": "Es la hora del desayuno.",
+      "finnish": "On aamiaisaika.",
+      "english": "It's breakfast time.",
+      "time": "breakfast",
+      "image": "/peppa_advanced_spanish_images/svg/107_its_breakfast_time.svg"
+    },
+    {
+      "spanish": "Es la hora de comer.",
+      "finnish": "On lounasaika.",
+      "english": "It's lunchtime.",
+      "time": "lunch",
+      "image": "/peppa_advanced_spanish_images/svg/10_its_time_to_eat.svg"
+    },
+    {
+      "spanish": "Es la hora de la cena.",
+      "finnish": "On ruokailuaika.",
+      "english": "It's dinnertime.",
+      "time": "dinner",
+      "image": "/peppa_advanced_spanish_images/svg/10_its_time_to_eat.svg"
+    },
+    {
+      "spanish": "Es la hora de dormir.",
+      "finnish": "On nukkumaanmenoaika.",
+      "english": "It's bedtime.",
+      "time": "bedtime",
+      "image": "/peppa_advanced_spanish_images/svg/108_its_bedtime.svg"
+    },
+    {
+      "spanish": "Hoy es un día especial.",
+      "finnish": "Tänään on erityinen päivä.",
+      "english": "Today is a special day.",
+      "time": "special day",
+      "image": "/peppa_advanced_spanish_images/svg/05_birthday_party.svg"
+    },
+    {
+      "spanish": "Mañana es...",
+      "finnish": "Huomenna on...",
+      "english": "Tomorrow is...",
+      "time": "tomorrow",
+      "image": "/peppa_advanced_spanish_images/svg/109_tomorrow_is.svg"
+    },
+    {
+      "spanish": "Ayer fue...",
+      "finnish": "Eilen oli...",
+      "english": "Yesterday was...",
+      "time": "yesterday",
+      "image": "/peppa_advanced_spanish_images/svg/110_yesterday_was.svg"
+    }
+  ],
+  "food_phrases": [
+    {
+      "spanish": "¿Qué hay para comer?",
+      "finnish": "Mitä siellä on syötävää?",
+      "english": "What's for lunch/dinner?",
+      "context": "asking about food",
+      "image": "/peppa_advanced_spanish_images/svg/111_whats_for_lunch.svg"
+    },
+    {
+      "spanish": "La comida está lista.",
+      "finnish": "Ruoka on valmista.",
+      "english": "The food is ready.",
+      "context": "mealtime",
+      "image": "/peppa_advanced_spanish_images/svg/10_its_time_to_eat.svg"
+    },
+    {
+      "spanish": "¡Qué rico!",
+      "finnish": "Kuinka ihanaa!",
+      "english": "How delicious! / Yummy!",
+      "context": "tasting food",
+      "image": "/peppa_advanced_spanish_images/svg/19_how_delicious.svg"
+    },
+    {
+      "spanish": "Me gusta mucho.",
+      "finnish": "Pidän siitä paljon.",
+      "english": "I like it a lot.",
+      "context": "food preference",
+      "image": "/peppa_advanced_spanish_images/svg/112_i_like_it_a_lot.svg"
+    },
+    {
+      "spanish": "¿Quieres más?",
+      "finnish": "Haluatko lisää?",
+      "english": "Do you want more?",
+      "context": "offering food",
+      "image": "/peppa_advanced_spanish_images/svg/113_do_you_want_more.svg"
+    },
+    {
+      "spanish": "Sí, por favor.",
+      "finnish": "Kyllä, kiitos.",
+      "english": "Yes, please.",
+      "context": "accepting offer",
+      "image": "/peppa_advanced_spanish_images/svg/31_please.svg"
+    },
+    {
+      "spanish": "No, gracias. Estoy lleno.",
+      "finnish": "Ei kiitos. Olen täynnä.",
+      "english": "No, thank you. I'm full. (male)",
+      "context": "declining food",
+      "image": "/peppa_advanced_spanish_images/svg/114_no_thank_you_im_full_male.svg"
+    },
+    {
+      "spanish": "No, gracias. Estoy llena.",
+      "finnish": "Ei kiitos. Olen täynnä.",
+      "english": "No, thank you. I'm full. (female)",
+      "context": "declining food",
+      "image": "/peppa_advanced_spanish_images/svg/115_no_thank_you_im_full_female.svg"
+    },
+    {
+      "spanish": "Buen provecho.",
+      "finnish": "Nauti ateriastasi.",
+      "english": "Enjoy your meal.",
+      "context": "mealtime greeting",
+      "image": "/peppa_advanced_spanish_images/svg/116_enjoy_your_meal.svg"
+    }
+  ],
+  "places_vocabulary": [
+    {
+      "spanish": "la casa",
+      "finnish": "Talo",
+      "english": "the house",
+      "category": "places"
+    },
+    {
+      "spanish": "el jardín",
+      "finnish": "Puutarha",
+      "english": "the garden",
+      "category": "places"
+    },
+    {
+      "spanish": "la escuela",
+      "finnish": "Koulu",
+      "english": "the school",
+      "category": "places"
+    },
+    {
+      "spanish": "el parque",
+      "finnish": "Puisto",
+      "english": "the park",
+      "category": "places"
+    },
+    {
+      "spanish": "la playa",
+      "finnish": "Ranta",
+      "english": "the beach",
+      "category": "places"
+    },
+    {
+      "spanish": "el supermercado",
+      "finnish": "Supermarket",
+      "english": "the supermarket",
+      "category": "places"
+    },
+    {
+      "spanish": "la tienda",
+      "finnish": "Kauppa",
+      "english": "the shop",
+      "category": "places"
+    },
+    {
+      "spanish": "la biblioteca",
+      "finnish": "Kirjasto",
+      "english": "the library",
+      "category": "places"
+    },
+    {
+      "spanish": "el hospital",
+      "finnish": "Sairaala",
+      "english": "the hospital",
+      "category": "places"
+    },
+    {
+      "spanish": "la casa de los abuelos",
+      "finnish": "Isovanhempien talo",
+      "english": "the grandparents' house",
+      "category": "places"
+    },
+    {
+      "spanish": "el patio de recreo",
+      "finnish": "Leikkipaikka",
+      "english": "the playground",
+      "category": "places"
+    },
+    {
+      "spanish": "la piscina",
+      "finnish": "Uima-allas",
+      "english": "the pool",
+      "category": "places"
+    }
+  ],
+  "verbs_from_episodes": [
+    {
+      "spanish": "saltar",
+      "finnish": "Hyppää",
+      "english": "to jump",
+      "common_use": "saltar en los charcos"
+    },
+    {
+      "spanish": "jugar",
+      "finnish": "Peli",
+      "english": "to play",
+      "common_use": "jugar con amigos"
+    },
+    {
+      "spanish": "correr",
+      "finnish": "Juoksu",
+      "english": "to run",
+      "common_use": "correr en el jardín"
+    },
+    {
+      "spanish": "nadar",
+      "finnish": "Ui",
+      "english": "to swim",
+      "common_use": "nadar en la piscina"
+    },
+    {
+      "spanish": "comer",
+      "finnish": "Syö",
+      "english": "to eat",
+      "common_use": "comer helado"
+    },
+    {
+      "spanish": "beber",
+      "finnish": "Juominen",
+      "english": "to drink",
+      "common_use": "beber agua"
+    },
+    {
+      "spanish": "dormir",
+      "finnish": "Nukkua",
+      "english": "to sleep",
+      "common_use": "dormir en la cama"
+    },
+    {
+      "spanish": "despertar",
+      "finnish": "Herätä",
+      "english": "to wake up",
+      "common_use": "despertar por la mañana"
+    },
+    {
+      "spanish": "cantar",
+      "finnish": "Laula",
+      "english": "to sing",
+      "common_use": "cantar una canción"
+    },
+    {
+      "spanish": "bailar",
+      "finnish": "Tanssi",
+      "english": "to dance",
+      "common_use": "bailar con música"
+    },
+    {
+      "spanish": "pintar",
+      "finnish": "Maali",
+      "english": "to paint",
+      "common_use": "pintar un dibujo"
+    },
+    {
+      "spanish": "dibujar",
+      "finnish": "Arvonta",
+      "english": "to draw",
+      "common_use": "dibujar una casa"
+    },
+    {
+      "spanish": "leer",
+      "finnish": "Lue",
+      "english": "to read",
+      "common_use": "leer un cuento"
+    },
+    {
+      "spanish": "mirar",
+      "finnish": "Katsella",
+      "english": "to look at / to watch",
+      "common_use": "mirar la televisión"
+    },
+    {
+      "spanish": "escuchar",
+      "finnish": "Kuuntele",
+      "english": "to listen",
+      "common_use": "escuchar música"
+    },
+    {
+      "spanish": "reír",
+      "finnish": "nauraa",
+      "english": "to laugh",
+      "common_use": "reír con amigos"
+    },
+    {
+      "spanish": "llorar",
+      "finnish": "itke",
+      "english": "to cry",
+      "common_use": "llorar cuando estás triste"
+    },
+    {
+      "spanish": "ayudar",
+      "finnish": "Apua",
+      "english": "to help",
+      "common_use": "ayudar a mamá"
+    },
+    {
+      "spanish": "buscar",
+      "finnish": "Löytää",
+      "english": "to look for / to search",
+      "common_use": "buscar algo perdido"
+    },
+    {
+      "spanish": "encontrar",
+      "finnish": "Löydä",
+      "english": "to find",
+      "common_use": "encontrar un tesoro"
+    },
+    {
+      "spanish": "construir",
+      "finnish": "Rakenne",
+      "english": "to build",
+      "common_use": "construir con bloques"
+    },
+    {
+      "spanish": "montar",
+      "finnish": "Ajelu",
+      "english": "to ride",
+      "common_use": "montar en bicicleta"
+    },
+    {
+      "spanish": "visitar",
+      "finnish": "Vierailu",
+      "english": "to visit",
+      "common_use": "visitar a los abuelos"
+    },
+    {
+      "spanish": "ir",
+      "finnish": "Mene",
+      "english": "to go",
+      "common_use": "ir al parque"
+    },
+    {
+      "spanish": "venir",
+      "finnish": "tule",
+      "english": "to come",
+      "common_use": "venir a casa"
+    },
+    {
+      "spanish": "estar",
+      "finnish": "Olla",
+      "english": "to be (location/state)",
+      "common_use": "estar feliz"
+    },
+    {
+      "spanish": "ser",
+      "finnish": "Olla",
+      "english": "to be (identity)",
+      "common_use": "ser Peppa Pig"
+    },
+    {
+      "spanish": "tener",
+      "finnish": "on",
+      "english": "to have",
+      "common_use": "tener cinco años"
+    },
+    {
+      "spanish": "querer",
+      "finnish": "Haluta",
+      "english": "to want",
+      "common_use": "querer jugar"
+    },
+    {
+      "spanish": "poder",
+      "finnish": "Voima",
+      "english": "to be able to / can",
+      "common_use": "poder saltar"
+    }
+  ],
+  "numbers_from_show": [
+    {
+      "spanish": "uno",
+      "finnish": "Yksi",
+      "english": "one",
+      "number": 1
+    },
+    {
+      "spanish": "dos",
+      "finnish": "Kaksi",
+      "english": "two",
+      "number": 2
+    },
+    {
+      "spanish": "tres",
+      "finnish": "Kolme",
+      "english": "three",
+      "number": 3
+    },
+    {
+      "spanish": "cuatro",
+      "finnish": "Neljä",
+      "english": "four",
+      "number": 4
+    },
+    {
+      "spanish": "cinco",
+      "finnish": "Viisi",
+      "english": "five",
+      "number": 5
+    },
+    {
+      "spanish": "seis",
+      "finnish": "Kuusi",
+      "english": "six",
+      "number": 6
+    },
+    {
+      "spanish": "siete",
+      "finnish": "Seitsemän",
+      "english": "seven",
+      "number": 7
+    },
+    {
+      "spanish": "ocho",
+      "finnish": "Kahdeksan",
+      "english": "eight",
+      "number": 8
+    },
+    {
+      "spanish": "nueve",
+      "finnish": "Yhdeksän",
+      "english": "nine",
+      "number": 9
+    },
+    {
+      "spanish": "diez",
+      "finnish": "Kymmenen",
+      "english": "ten",
+      "number": 10
+    }
+  ],
+  "colors_from_show": [
+    {
+      "spanish": "rojo",
+      "finnish": "punainen",
+      "english": "red",
+      "example": "Peppa's dress"
+    },
+    {
+      "spanish": "azul",
+      "finnish": "Sininen",
+      "english": "blue",
+      "example": "George's shirt"
+    },
+    {
+      "spanish": "amarillo",
+      "finnish": "Keltainen",
+      "english": "yellow",
+      "example": "Mummy's dress"
+    },
+    {
+      "spanish": "verde",
+      "finnish": "Vihreä",
+      "english": "green",
+      "example": "grass"
+    },
+    {
+      "spanish": "rosa",
+      "finnish": "Vaaleanpunainen",
+      "english": "pink",
+      "example": "Peppa"
+    },
+    {
+      "spanish": "naranja",
+      "finnish": "Oranssi",
+      "english": "orange",
+      "example": "Daddy's shirt"
+    },
+    {
+      "spanish": "morado",
+      "finnish": "Violetti",
+      "english": "purple",
+      "example": "Suzy's dress"
+    },
+    {
+      "spanish": "marrón",
+      "finnish": "Brown",
+      "english": "brown",
+      "example": "mud"
+    },
+    {
+      "spanish": "blanco",
+      "finnish": "Valkoinen",
+      "english": "white",
+      "example": "clouds"
+    },
+    {
+      "spanish": "negro",
+      "finnish": "Musta",
+      "english": "black",
+      "example": "Danny's spots"
+    }
+  ],
+  "animals_from_show": [
+    {
+      "spanish": "el cerdo / el cerdito",
+      "finnish": "Sika / sika",
+      "english": "the pig / the little pig",
+      "character": "Peppa, George, family"
+    },
+    {
+      "spanish": "la oveja",
+      "finnish": "Lampaat",
+      "english": "the sheep",
+      "character": "Suzy Sheep"
+    },
+    {
+      "spanish": "el perro",
+      "finnish": "Koira",
+      "english": "the dog",
+      "character": "Danny Dog"
+    },
+    {
+      "spanish": "el conejo",
+      "finnish": "Kani",
+      "english": "the rabbit",
+      "character": "Rebecca Rabbit"
+    },
+    {
+      "spanish": "el poni",
+      "finnish": "Poni",
+      "english": "the pony",
+      "character": "Pedro Pony"
+    },
+    {
+      "spanish": "el elefante",
+      "finnish": "Norsu",
+      "english": "the elephant",
+      "character": "Emily Elephant"
+    },
+    {
+      "spanish": "la cebra",
+      "finnish": "Seepra",
+      "english": "the zebra",
+      "character": "Zoe Zebra"
+    },
+    {
+      "spanish": "el dinosaurio",
+      "finnish": "Dinosaurus",
+      "english": "the dinosaur",
+      "character": "George's toy"
+    },
+    {
+      "spanish": "el gato",
+      "finnish": "Kissa",
+      "english": "the cat",
+      "character": "Candy Cat"
+    },
+    {
+      "spanish": "el toro",
+      "finnish": "Härkä",
+      "english": "the bull",
+      "character": "Freddy Fox"
+    }
+  ],
+  "sentence_patterns": [
+    {
+      "spanish": "Me gusta [activity]",
+      "finnish": "Kuten [aktiviteetti]",
+      "english": "I like [activity]",
+      "pattern": "expressing likes",
+      "examples": [
+        "Me gusta jugar",
+        "Me gusta saltar",
+        "Me gusta nadar"
+      ]
+    },
+    {
+      "spanish": "Me encanta [thing]",
+      "finnish": "Rakastan [juttua]",
+      "english": "I love [thing]",
+      "pattern": "expressing strong likes",
+      "examples": [
+        "Me encanta el helado",
+        "Me encanta mi familia",
+        "Me encanta saltar en los charcos"
+      ]
+    },
+    {
+      "spanish": "Vamos a [verb]",
+      "finnish": "Tehdään [verbi]",
+      "english": "Let's [verb]",
+      "pattern": "suggesting activity",
+      "examples": [
+        "Vamos a jugar",
+        "Vamos a la playa",
+        "Vamos a casa"
+      ]
+    },
+    {
+      "spanish": "¿Quieres [verb]?",
+      "finnish": "Haluatko [verbin]?",
+      "english": "Do you want to [verb]?",
+      "pattern": "offering/asking",
+      "examples": [
+        "¿Quieres jugar?",
+        "¿Quieres helado?",
+        "¿Quieres venir?"
+      ]
+    },
+    {
+      "spanish": "Tengo [noun]",
+      "finnish": "Minulla on [substantiivi]",
+      "english": "I have [noun]",
+      "pattern": "possession",
+      "examples": [
+        "Tengo hambre",
+        "Tengo cinco años",
+        "Tengo una pelota"
+      ]
+    },
+    {
+      "spanish": "Estoy [adjective]",
+      "finnish": "Olen [adjektiivi]",
+      "english": "I am [adjective]",
+      "pattern": "describing state",
+      "examples": [
+        "Estoy feliz",
+        "Estoy cansado",
+        "Estoy listo"
+      ]
+    },
+    {
+      "spanish": "Es hora de [verb]",
+      "finnish": "On aika [verbi]",
+      "english": "It's time to [verb]",
+      "pattern": "indicating time",
+      "examples": [
+        "Es hora de comer",
+        "Es hora de dormir",
+        "Es hora de jugar"
+      ]
+    },
+    {
+      "spanish": "¿Dónde está [noun]?",
+      "finnish": "Missä on [substantiivi]?",
+      "english": "Where is [noun]?",
+      "pattern": "asking location",
+      "examples": [
+        "¿Dónde está George?",
+        "¿Dónde está mi pelota?",
+        "¿Dónde está mamá?"
+      ]
+    },
+    {
+      "spanish": "Este/Esta es [noun]",
+      "finnish": "Tämä/Tämä on [substantiivi]",
+      "english": "This is [noun]",
+      "pattern": "introducing",
+      "examples": [
+        "Este es George",
+        "Esta es Peppa",
+        "Este es mi juguete"
+      ]
+    },
+    {
+      "spanish": "Puedo [verb]",
+      "finnish": "Voin [verbi]",
+      "english": "I can [verb]",
+      "pattern": "ability",
+      "examples": [
+        "Puedo saltar",
+        "Puedo correr",
+        "Puedo ayudar"
+      ]
+    }
+  ],
+  "episode_specific_vocabulary": {
+    "charcos_de_barro": [
+      {
+        "spanish": "el charco",
+        "finnish": "Lätäkkö",
+        "english": "the puddle"
+      },
+      {
+        "spanish": "el barro",
+        "finnish": "Muta",
+        "english": "the mud"
+      },
+      {
+        "spanish": "las botas de agua",
+        "finnish": "Kumisaappaat",
+        "english": "the rain boots / wellington boots"
+      },
+      {
+        "spanish": "saltar",
+        "finnish": "Hyppää",
+        "english": "to jump"
+      },
+      {
+        "spanish": "sucio",
+        "finnish": "likainen",
+        "english": "dirty"
+      },
+      {
+        "spanish": "limpio",
+        "finnish": "puhdas",
+        "english": "clean"
+      }
+    ],
+    "ir_de_compras": [
+      {
+        "spanish": "el supermercado",
+        "finnish": "Supermarket",
+        "english": "the supermarket"
+      },
+      {
+        "spanish": "el carrito",
+        "finnish": "Kärry",
+        "english": "the shopping cart"
+      },
+      {
+        "spanish": "la lista de la compra",
+        "finnish": "Ostoslista",
+        "english": "the shopping list"
+      },
+      {
+        "spanish": "las frutas",
+        "finnish": "Hedelmät",
+        "english": "the fruits"
+      },
+      {
+        "spanish": "las verduras",
+        "finnish": "Vihannekset",
+        "english": "the vegetables"
+      },
+      {
+        "spanish": "comprar",
+        "finnish": "Osta nyt",
+        "english": "to buy"
+      }
+    ],
+    "cumpleaños": [
+      {
+        "spanish": "el cumpleaños",
+        "finnish": "Syntymäpäivä",
+        "english": "the birthday"
+      },
+      {
+        "spanish": "la tarta",
+        "finnish": "Kakku",
+        "english": "the cake"
+      },
+      {
+        "spanish": "las velas",
+        "finnish": "Kynttilät",
+        "english": "the candles"
+      },
+      {
+        "spanish": "los regalos",
+        "finnish": "Lahjat",
+        "english": "the gifts"
+      },
+      {
+        "spanish": "la fiesta",
+        "finnish": "Puolue",
+        "english": "the party"
+      },
+      {
+        "spanish": "los invitados",
+        "finnish": "Vieraat",
+        "english": "the guests"
+      },
+      {
+        "spanish": "soplar las velas",
+        "finnish": "puhaltamassa kynttilöitä",
+        "english": "to blow out the candles"
+      }
+    ]
+  },
+  "learning_notes": {
+    "about_this_material": "This material is based on common phrases and vocabulary from Spanish Peppa Pig episodes. The content is designed to help learners understand and use Spanish in the context of the show.",
+    "usage_tips": [
+      "Watch episodes in Spanish while reviewing this material",
+      "Finnish translations need to be added",
+      "Practice the sentence patterns with different words",
+      "Focus on the most common phrases first",
+      "Use the introduction phrases - they appear in every episode"
+    ],
+    "sources": [
+      "Spanish Peppa Pig episodes",
+      "Episode transcriptions from SpanishBoom.com",
+      "Common phrases from the show"
+    ]
+  }
+}

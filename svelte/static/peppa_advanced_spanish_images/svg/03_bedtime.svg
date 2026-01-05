@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background: Night sky gradient -->
+  <defs>
+    <linearGradient id="nightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="50%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#nightSky)"/>
+  
+  <!-- Stars twinkling -->
+  <g fill="#FFD700">
+    <circle cx="50" cy="40" r="2"/>
+    <circle cx="120" cy="70" r="1.5"/>
+    <circle cx="200" cy="30" r="2"/>
+    <circle cx="280" cy="55" r="1.5"/>
+    <circle cx="350" cy="35" r="2"/>
+    <circle cx="80" cy="100" r="1"/>
+    <circle cx="320" cy="90" r="1.5"/>
+    <circle cx="160" cy="50" r="1"/>
+    <circle cx="380" cy="80" r="1.5"/>
+    <circle cx="30" cy="120" r="1"/>
+  </g>
+  
+  <!-- Larger decorative stars -->
+  <g fill="#FFF8DC">
+    <polygon points="60,80 62,88 70,88 64,93 66,101 60,96 54,101 56,93 50,88 58,88"/>
+    <polygon points="340,60 342,68 350,68 344,73 346,81 340,76 334,81 336,73 330,68 338,68"/>
+  </g>
+  
+  <!-- Moon -->
+  <circle cx="330" cy="80" r="45" fill="#FFFACD"/>
+  <circle cx="350" cy="70" r="40" fill="url(#nightSky)"/>
+  <!-- Moon details -->
+  <circle cx="310" cy="65" r="5" fill="#F0E68C" opacity="0.5"/>
+  <circle cx="325" cy="90" r="3" fill="#F0E68C" opacity="0.5"/>
+  
+  <!-- Floor/Room -->
+  <rect x="0" y="280" width="400" height="120" fill="#4a4a6a"/>
+  
+  <!-- Bed -->
+  <g transform="translate(50, 200)">
+    <!-- Bed frame -->
+    <rect x="0" y="60" width="300" height="100" rx="10" fill="#8B4513"/>
+    <!-- Mattress -->
+    <rect x="10" y="40" width="280" height="50" rx="5" fill="#DEB887"/>
+    <!-- Blanket (pink for Peppa) -->
+    <rect x="10" y="45" width="280" height="60" rx="5" fill="#FFB6C1"/>
+    <!-- Blanket pattern -->
+    <rect x="30" y="55" width="240" height="40" rx="3" fill="#FF69B4" opacity="0.3"/>
+    
+    <!-- Pillow -->
+    <ellipse cx="60" cy="50" rx="45" ry="25" fill="white"/>
+    <ellipse cx="60" cy="50" rx="40" ry="20" fill="#FFFAFA"/>
+    
+    <!-- Peppa sleeping in bed -->
+    <g transform="translate(60, 30)">
+      <!-- Head on pillow -->
+      <ellipse cx="0" cy="0" rx="35" ry="28" fill="#F9C6CF"/>
+      <!-- Snout -->
+      <ellipse cx="25" cy="0" rx="12" ry="10" fill="#F9C6CF"/>
+      <circle cx="30" cy="-3" r="3" fill="#FF69B4"/>
+      <circle cx="30" cy="3" r="3" fill="#FF69B4"/>
+      <!-- Ears -->
+      <ellipse cx="-12" cy="-28" rx="8" ry="14" fill="#F9C6CF"/>
+      <ellipse cx="8" cy="-28" rx="8" ry="14" fill="#F9C6CF"/>
+      <!-- Closed eyes (sleeping) -->
+      <path d="M -12 -5 Q -6 -2 0 -5" stroke="#333" stroke-width="2" fill="none"/>
+      <path d="M 5 -5 Q 11 -2 17 -5" stroke="#333" stroke-width="2" fill="none"/>
+      <!-- Peaceful smile -->
+      <path d="M 8 8 Q 14 12 20 8" stroke="#333" stroke-width="2" fill="none"/>
+      <!-- Rosy cheek -->
+      <circle cx="-8" cy="5" r="6" fill="#FFB6C1" opacity="0.5"/>
+      <!-- Zzz -->
+    </g>
+  </g>
+  
+  <!-- ZZZ floating (sleeping) -->
+  <g fill="none" stroke="#FFFACD" stroke-width="3" font-family="Comic Sans MS, cursive">
+    <text x="180" y="180" font-size="24" fill="#FFFACD" opacity="0.9">Z</text>
+    <text x="200" y="155" font-size="28" fill="#FFFACD" opacity="0.8">Z</text>
+    <text x="225" y="125" font-size="32" fill="#FFFACD" opacity="0.7">Z</text>
+  </g>
+  
+  <!-- Bedside lamp -->
+  <g transform="translate(330, 250)">
+    <!-- Lamp base -->
+    <rect x="-8" y="30" width="16" height="50" fill="#666"/>
+    <ellipse cx="0" cy="30" rx="12" ry="5" fill="#888"/>
+    <!-- Lamp shade -->
+    <path d="M -20 0 L -12 30 L 12 30 L 20 0 Z" fill="#FFE4B5"/>
+    <!-- Light glow -->
+    <ellipse cx="0" cy="15" rx="35" ry="25" fill="#FFFACD" opacity="0.2"/>
+  </g>
+  
+  <!-- Teddy bear/dinosaur toy on bed -->
+  <g transform="translate(280, 255)">
+    <!-- George's dinosaur (simplified) -->
+    <ellipse cx="0" cy="0" rx="20" ry="15" fill="#228B22"/>
+    <circle cx="-15" cy="-10" r="10" fill="#228B22"/>
+    <circle cx="-18" cy="-12" r="2" fill="#333"/>
+    <!-- Spikes -->
+    <polygon points="-5,-15 0,-25 5,-15" fill="#228B22"/>
+    <polygon points="5,-13 10,-22 15,-13" fill="#228B22"/>
+  </g>
+  
+  <!-- Clock on wall showing bedtime -->
+  <g transform="translate(100, 120)">
+    <circle cx="0" cy="0" r="25" fill="white" stroke="#333" stroke-width="2"/>
+    <circle cx="0" cy="0" r="2" fill="#333"/>
+    <!-- Clock hands showing ~8:00 (bedtime) -->
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="0" x2="12" y2="0" stroke="#333" stroke-width="3"/>
+  </g>
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

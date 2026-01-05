@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#FFFACD"/> <!-- Warm Background -->
+  
+  <!-- Big Sun -->
+  <circle cx="350" cy="50" r="40" fill="#FFD700"/>
+  <g stroke="#FFD700" stroke-width="4">
+    <line x1="350" y1="0" x2="350" y2="-20"/>
+    <line x1="350" y1="100" x2="350" y2="120"/>
+    <line x1="300" y1="50" x2="280" y2="50"/>
+  </g>
+  
+  <!-- Peppa Sweating -->
+  <g transform="translate(200, 220)">
+    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/> 
+    
+    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
+    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
+    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
+    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
+    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <circle cx="-5" cy="-35" r="3" fill="#333"/>
+    <circle cx="12" cy="-35" r="3" fill="#333"/>
+    
+    <!-- Sweat drops -->
+    <path d="M 20 -50 Q 25 -60 30 -50" fill="#00BFFF"/>
+    <path d="M -20 -50 Q -25 -60 -30 -50" fill="#00BFFF"/>
+    
+    <!-- Fan -->
+    <path d="M 40 10 L 60 0 L 70 20 Z" fill="#FF69B4" stroke="#333"/>
+    <line x1="50" y1="15" x2="50" y2="35" stroke="#333" stroke-width="2"/>
+  </g>
+  
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+</svg>

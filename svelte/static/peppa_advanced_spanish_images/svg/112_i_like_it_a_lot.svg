@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <!-- Simple gradient background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF9C4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background - plain or simple gradient -->
+  <rect width="400" height="400" fill="url(#bgGrad)"/>
+  
+  <!-- Simple plate with food (spaghetti or pizza) -->
+  <g transform="translate(200, 280)">
+    <!-- Plate -->
+    <ellipse cx="0" cy="0" rx="50" ry="35" fill="#FFF9C4"/>
+    <ellipse cx="0" cy="0" rx="45" ry="30" fill="#FFF"/>
+    <!-- Spaghetti -->
+    <path d="M -30 -10 Q -20 0 -10 -10 Q 0 0 10 -10 Q 20 0 30 -10" stroke="#E53935" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M -30 -5 Q -20 5 -10 -5 Q 0 5 10 -5 Q 20 5 30 -5" stroke="#E53935" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M -30 0 Q -20 10 -10 0 Q 0 10 10 0 Q 20 10 30 0" stroke="#E53935" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Meatball -->
+    <circle cx="-15" cy="-5" r="6" fill="#8D6E63"/>
+    <circle cx="15" cy="0" r="6" fill="#8D6E63"/>
+  </g>
+  
+  <!-- Peppa giving big thumbs up -->
+  <g transform="translate(200, 200)">
+    <!-- Body -->
+    <ellipse cx="0" cy="30" rx="28" ry="32" fill="#E63946"/>
+    <!-- Legs -->
+    <rect x="-15" y="60" width="10" height="30" rx="5" fill="#F9C6CF"/>
+    <rect x="5" y="60" width="10" height="30" rx="5" fill="#F9C6CF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-20" rx="38" ry="32" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="28" cy="-20" rx="15" ry="12" fill="#F9C6CF"/>
+    <circle cx="32" cy="-23" r="3" fill="#FF69B4"/>
+    <circle cx="32" cy="-17" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-12" cy="-55" rx="8" ry="15" fill="#F9C6CF"/>
+    <ellipse cx="12" cy="-55" rx="8" ry="15" fill="#F9C6CF"/>
+    <!-- Eyes closed in contentment -->
+    <ellipse cx="-5" cy="-25" rx="5" ry="3" fill="#333"/>
+    <ellipse cx="10" cy="-25" rx="5" ry="3" fill="#333"/>
+    <!-- Huge happy smile -->
+    <path d="M -8 -12 Q 0 -4 8 -12" stroke="#333" stroke-width="4" fill="none"/>
+    <!-- Rosy cheeks -->
+    <ellipse cx="-18" cy="-15" rx="6" ry="5" fill="#FF69B4" opacity="0.6"/>
+    <ellipse cx="18" cy="-15" rx="6" ry="5" fill="#FF69B4" opacity="0.6"/>
+    <!-- One trotter giving big thumbs up -->
+    <ellipse cx="-25" cy="10" rx="10" ry="8" fill="#F9C6CF"/>
+    <!-- Thumb up -->
+    <ellipse cx="-30" cy="0" rx="8" ry="12" fill="#F9C6CF" transform="rotate(-20 -30 0)"/>
+    <!-- Other trotter at side -->
+    <ellipse cx="25" cy="10" rx="10" ry="8" fill="#F9C6CF"/>
+  </g>
+  
+  <!-- Sparkles or small hearts around Peppa to emphasize "mucho" (a lot) -->
+  <!-- Hearts -->
+  <g fill="#E91E63" opacity="0.8">
+    <!-- Heart 1 -->
+    <path d="M 120 120 L 125 130 L 130 120 Q 130 115 125 115 Q 120 115 120 120" fill="#E91E63"/>
+    <circle cx="125" cy="125" r="4" fill="#E91E63"/>
+    <!-- Heart 2 -->
+    <path d="M 280 120 L 285 130 L 290 120 Q 290 115 285 115 Q 280 115 280 120" fill="#E91E63"/>
+    <circle cx="285" cy="125" r="4" fill="#E91E63"/>
+    <!-- Heart 3 -->
+    <path d="M 150 80 L 155 90 L 160 80 Q 160 75 155 75 Q 150 75 150 80" fill="#E91E63"/>
+    <circle cx="155" cy="85" r="4" fill="#E91E63"/>
+    <!-- Heart 4 -->
+    <path d="M 250 80 L 255 90 L 260 80 Q 260 75 255 75 Q 250 75 250 80" fill="#E91E63"/>
+    <circle cx="255" cy="85" r="4" fill="#E91E63"/>
+  </g>
+  
+  <!-- Sparkles/stars -->
+  <g fill="#FFD54F" opacity="0.9">
+    <!-- Sparkle 1 -->
+    <path d="M 100 150 L 102 160 L 112 160 L 103 165 L 105 175 L 100 170 L 95 175 L 97 165 L 88 160 L 98 160 Z" fill="#FFD54F"/>
+    <!-- Sparkle 2 -->
+    <path d="M 300 150 L 302 160 L 312 160 L 303 165 L 305 175 L 300 170 L 295 175 L 297 165 L 288 160 L 298 160 Z" fill="#FFD54F"/>
+    <!-- Sparkle 3 -->
+    <path d="M 180 100 L 181 105 L 186 105 L 182 108 L 183 113 L 180 111 L 177 113 L 178 108 L 174 105 L 179 105 Z" fill="#FFD54F"/>
+    <!-- Sparkle 4 -->
+    <path d="M 220 100 L 221 105 L 226 105 L 222 108 L 223 113 L 220 111 L 217 113 L 218 108 L 214 105 L 219 105 Z" fill="#FFD54F"/>
+  </g>
+</svg>

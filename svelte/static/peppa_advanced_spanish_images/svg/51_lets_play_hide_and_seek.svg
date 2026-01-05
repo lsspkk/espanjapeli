@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#E0FFFF"/>
+  <rect x="0" y="300" width="400" height="100" fill="#7BC043"/>
+  
+  <!-- Tree -->
+  <g transform="translate(100, 300)">
+    <rect x="-20" y="-100" width="40" height="100" fill="#8B4513"/>
+    <circle cx="0" cy="-120" r="70" fill="#228B22"/>
+    <circle cx="-40" cy="-100" r="50" fill="#228B22"/>
+    <circle cx="40" cy="-100" r="50" fill="#228B22"/>
+  </g>
+  
+  <!-- Peppa Hiding behind tree -->
+  <g transform="translate(140, 250)">
+    <ellipse cx="0" cy="-30" rx="30" ry="35" fill="#F9C6CF"/> <!-- Head poking out -->
+    <ellipse cx="25" cy="-30" rx="12" ry="10" fill="#F9C6CF"/>
+    <circle cx="30" cy="-32" r="2" fill="#FF69B4"/>
+    <circle cx="30" cy="-28" r="2" fill="#FF69B4"/>
+    <circle cx="5" cy="-35" r="3" fill="#333"/>
+    
+    <!-- Body partially visible -->
+    <path d="M -20 0 L 20 0 L 20 40 L -20 40 Z" fill="#E63946"/>
+  </g>
+  
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+</svg>

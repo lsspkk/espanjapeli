@@ -58,6 +58,15 @@
 			scored: false,
 			route: '/peppa',
 			available: true // Phase 6 - NOW AVAILABLE! ✅
+		},
+		{
+			id: 'pipsan-maailma',
+			icon: '💬',
+			title: 'Pipsan maailma',
+			description: 'Kuuntele espanjaa → valitse oikea kuva!',
+			scored: false,
+			route: '/pipsan-maailma',
+			available: true // NEW: Image matching game ✅
 		}
 		// {
 		// 	id: 'lukeminen',

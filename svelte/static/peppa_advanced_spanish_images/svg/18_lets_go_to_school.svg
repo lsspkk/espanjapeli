@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background: School path -->
+  <defs>
+    <linearGradient id="schoolPathBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#81D4FA"/>
+      <stop offset="100%" stop-color="#BBDEFB"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#schoolPathBg)"/>
+  
+  <!-- School building in background -->
+  <g transform="translate(200, 150)">
+    <!-- Building -->
+    <rect x="-80" y="0" width="160" height="120" fill="#FFF9C4"/>
+    <!-- Roof -->
+    <path d="M -90 0 L 0 -40 L 90 0 Z" fill="#E53935"/>
+    <!-- Door -->
+    <rect x="-20" y="60" width="40" height="60" fill="#8D6E63"/>
+    <circle cx="0" cy="90" r="3" fill="#FFD54F"/>
+    <!-- Windows -->
+    <rect x="-60" y="20" width="30" height="30" fill="#4FC3F7" stroke="#333" stroke-width="2"/>
+    <rect x="30" y="20" width="30" height="30" fill="#4FC3F7" stroke="#333" stroke-width="2"/>
+    <!-- Window crosses -->
+    <line x1="-45" y1="20" x2="-45" y2="50" stroke="#333" stroke-width="2"/>
+    <line x1="-60" y1="35" x2="-30" y2="35" stroke="#333" stroke-width="2"/>
+    <line x1="45" y1="20" x2="45" y2="50" stroke="#333" stroke-width="2"/>
+    <line x1="30" y1="35" x2="60" y2="35" stroke="#333" stroke-width="2"/>
+    <!-- Bell tower -->
+    <rect x="-10" y="-60" width="20" height="60" fill="#FFF9C4"/>
+    <circle cx="0" cy="-70" r="12" fill="#FFD54F"/>
+  </g>
+  
+  <!-- Path/road -->
+  <rect x="0" y="300" width="400" height="100" fill="#9E9E9E"/>
+  <rect x="0" y="305" width="400" height="5" fill="#FFD54F"/>
+  
+  <!-- Grass -->
+  <ellipse cx="200" cy="400" rx="250" ry="50" fill="#7BC043"/>
+  
+  <!-- Peppa walking to school -->
+  <g transform="translate(200, 280)">
+    <!-- Body (red dress) -->
+    <ellipse cx="0" cy="50" rx="45" ry="50" fill="#E63946"/>
+    
+    <!-- Legs (walking) -->
+    <rect x="-25" y="90" width="12" height="50" rx="6" fill="#F9C6CF" transform="rotate(-10 -25 115)"/>
+    <rect x="13" y="90" width="12" height="50" rx="6" fill="#F9C6CF" transform="rotate(10 13 115)"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-30" cy="145" rx="15" ry="8" fill="#333" transform="rotate(-10)"/>
+    <ellipse cx="30" cy="145" rx="15" ry="8" fill="#333" transform="rotate(10)"/>
+    
+    <!-- Arms (walking motion) -->
+    <path d="M -40 40 Q -60 20 -50 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="-50" cy="0" r="12" fill="#F9C6CF"/>
+    <path d="M 40 40 Q 60 60 55 80" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="55" cy="80" r="12" fill="#F9C6CF"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
+    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
+    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
+    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
+    
+    <!-- Eyes -->
+    <ellipse cx="-10" cy="-55" rx="8" ry="10" fill="white"/>
+    <ellipse cx="15" cy="-55" rx="8" ry="10" fill="white"/>
+    <circle cx="-8" cy="-53" r="4" fill="#333"/>
+    <circle cx="17" cy="-53" r="4" fill="#333"/>
+    
+    <!-- Happy smile -->
+    <path d="M -5 -30 Q 10 -20 25 -30" stroke="#333" stroke-width="3" fill="none"/>
+    
+    <!-- Backpack -->
+    <rect x="-30" y="20" width="30" height="40" rx="3" fill="#FF6B6B"/>
+    <rect x="-25" y="25" width="20" height="25" fill="#E63946"/>
+    <circle cx="-15" cy="15" r="3" fill="#333"/>
+  </g>
+  
+  <!-- Sun -->
+  <circle cx="80" cy="80" r="30" fill="#FFEB3B"/>
+  <g stroke="#FFEB3B" stroke-width="3" stroke-linecap="round">
+    <line x1="80" y1="40" x2="80" y2="30"/>
+    <line x1="80" y1="120" x2="80" y2="130"/>
+    <line x1="40" y1="80" x2="30" y2="80"/>
+    <line x1="120" y1="80" x2="130" y2="80"/>
+  </g>
+  
+  <!-- Signature -->
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Composer 1</text>
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

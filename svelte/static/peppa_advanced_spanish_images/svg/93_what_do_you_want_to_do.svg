@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background - simple plain color -->
+  <rect width="400" height="400" fill="#FFF9C4"/>
+  
+  <!-- Peppa in center with thoughtful, questioning expression -->
+  <g transform="translate(200, 280)">
+    <!-- Body -->
+    <ellipse cx="0" cy="30" rx="30" ry="36" fill="#E63946"/>
+    <!-- Legs -->
+    <rect x="-18" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <rect x="8" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-28" rx="40" ry="34" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="30" cy="-26" rx="15" ry="12" fill="#F9C6CF"/>
+    <circle cx="36" cy="-29" r="3" fill="#FF69B4"/>
+    <circle cx="36" cy="-23" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-13" cy="-60" rx="8" ry="15" fill="#F9C6CF"/>
+    <ellipse cx="13" cy="-60" rx="8" ry="15" fill="#F9C6CF"/>
+    <!-- Eyes - thoughtful and questioning -->
+    <ellipse cx="-5" cy="-33" rx="5" ry="7" fill="white"/>
+    <ellipse cx="7" cy="-33" rx="5" ry="7" fill="white"/>
+    <circle cx="-4" cy="-31" r="2.5" fill="#333"/>
+    <circle cx="8" cy="-31" r="2.5" fill="#333"/>
+    <!-- Thoughtful expression -->
+    <path d="M -4 -18 Q 0 -12 4 -18" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- One trotter raised to chin -->
+    <ellipse cx="-28" cy="-8" rx="12" ry="10" fill="#F9C6CF" transform="rotate(-50 -28 -8)"/>
+    <!-- Other trotter -->
+    <ellipse cx="22" cy="8" rx="10" ry="8" fill="#F9C6CF" transform="rotate(15 22 8)"/>
+  </g>
+  
+  <!-- Three small thought bubbles above her head -->
+  <!-- Thought bubble 1 - red (ball/play) -->
+  <g transform="translate(120, 150)">
+    <!-- Bubble -->
+    <ellipse cx="0" cy="0" rx="35" ry="28" fill="#FF6B6B" opacity="0.9"/>
+    <path d="M -10 28 Q 0 40 10 28 L 5 35 L 0 28 Z" fill="#FF6B6B" opacity="0.9"/>
+    <!-- Ball icon -->
+    <circle cx="0" cy="0" r="12" fill="#E53935"/>
+    <circle cx="-3" cy="-3" r="3" fill="#FF5252"/>
+    <circle cx="3" cy="3" r="3" fill="#FF5252"/>
+  </g>
+  
+  <!-- Thought bubble 2 - blue (book/read) -->
+  <g transform="translate(200, 130)">
+    <!-- Bubble -->
+    <ellipse cx="0" cy="0" rx="35" ry="28" fill="#2196F3" opacity="0.9"/>
+    <path d="M -10 28 Q 0 40 10 28 L 5 35 L 0 28 Z" fill="#2196F3" opacity="0.9"/>
+    <!-- Book icon -->
+    <rect x="-10" y="-8" width="20" height="16" fill="#FFF" rx="1"/>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#333" stroke-width="1.5"/>
+    <line x1="-5" y1="-6" x2="5" y2="-6" stroke="#333" stroke-width="1"/>
+    <line x1="-5" y1="6" x2="5" y2="6" stroke="#333" stroke-width="1"/>
+  </g>
+  
+  <!-- Thought bubble 3 - yellow (paintbrush/paint) -->
+  <g transform="translate(280, 150)">
+    <!-- Bubble -->
+    <ellipse cx="0" cy="0" rx="35" ry="28" fill="#FFC107" opacity="0.9"/>
+    <path d="M -10 28 Q 0 40 10 28 L 5 35 L 0 28 Z" fill="#FFC107" opacity="0.9"/>
+    <!-- Paintbrush icon -->
+    <line x1="-8" y1="8" x2="8" y2="-8" stroke="#8D6E63" stroke-width="3" stroke-linecap="round"/>
+    <line x1="6" y1="-6" x2="10" y2="-10" stroke="#8D6E63" stroke-width="2" stroke-linecap="round"/>
+    <!-- Paint blob -->
+    <ellipse cx="8" cy="-8" rx="4" ry="5" fill="#E91E63"/>
+  </g>
+  
+  <!-- Question mark near the thought bubbles -->
+  <g transform="translate(200, 100)">
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#FF6F00">?</text>
+  </g>
+</svg>

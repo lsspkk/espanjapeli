@@ -1,0 +1,750 @@
+================================================================================
+SVG REDRAWING TODO LIST
+Peppa Pig Advanced Spanish Learning Materials
+================================================================================
+
+ROLE: You are an expert SVG vector drawing artist with extensive experience in:
+- Comic book illustration and sequential art
+- Children's picture books and educational materials
+- Character animation for TV shows and web series
+- The Peppa Pig visual style and aesthetic
+
+YOUR TASK: Replace the contents of each duplicate SVG file below with unique, 
+contextually appropriate illustrations based on the drawing ideas provided. 
+Each image must clearly represent its Spanish phrase while maintaining the 
+playful, child-friendly Peppa Pig aesthetic.
+
+DRAWING GUIDELINES (written for an AI illustrator):
+--------------------------------------
+Your job is to create **one cheerful picturebook-style scene per phrase** in a clear Peppa Pig–like aesthetic. Aim for warmth, humor, and instant readability.
+
+ART STYLE (the “Peppa” feel)
+- Use **simple, confident lines** and **rounded, friendly shapes**.
+- Keep details **minimal but meaningful** (choose a few iconic props rather than many tiny ones).
+- Characters should have **consistent, recognizable proportions** (big simple head, small body, tiny limbs).
+- Expressions must be **kind, safe, and kid-friendly** (no scary faces, no harsh drama).
+
+COMPOSITION RECIPE (do this every time)
+- Make the **main action obvious in 1 second**: one clear gesture + one clear prop/setting.
+- Use **one focal character** (often Peppa) and optionally **one supporting character** if it helps the phrase.
+- Include **1–3 context objects** that teach the meaning (e.g., calendar, lunch dish, umbrella, toys).
+- Keep the background **simple**: a soft sky/room gradient or a few big shapes (ground, wall, window).
+- Leave **breathing room** around the characters; avoid clutter and tiny decorative patterns.
+
+COLOR & MOOD
+- Use a **bright, sunny palette** (pinks, light blues, greens, warm yellows).
+- Prefer **flat colors**; use **only gentle gradients** when it adds softness (sky glow, lamp light).
+- Avoid dark/muddy colors; if you need “stormy,” keep it **storybook-safe** (soft grays + warm indoor light).
+
+CLARITY AT SMALL SIZE (educational usefulness)
+- Keep silhouettes bold and readable; props should be **instantly recognizable**.
+- If you add text (like “¡BIEN!”), make it **large and simple**; otherwise rely on visuals.
+
+MAKE EACH IMAGE DISTINCT
+- Even if multiple phrases share characters, vary **pose, props, setting, and camera angle** so each feels unique.
+
+LIGHTWEIGHT SVG (gently, without overthinking it)
+- Prefer simple shapes and grouped parts; avoid heavy filters or excessive tiny paths.
+- Keep the illustration clean so it loads quickly and scales nicely.
+
+CHARACTER COLORS (standard Peppa Pig palette):
+--------------------------------------
+- Peppa Pig: Red dress (#E63946), Pink head (#F9C6CF), Pink snout/nostrils (#FF69B4)
+- George Pig: Blue shirt (#6B9BD2), Pink head (#F9C6CF), Pink snout/nostrils (#FF69B4)
+- Mummy Pig: Orange body (#FF8A65), Lighter peach head (#FFAB91), Pink snout/nostrils (#FF69B4)
+- Daddy Pig: Orange body (#FF8A65), Lighter peach head (#FFAB91), Pink snout/nostrils (#FF69B4)
+- Suzy Sheep: White body (#FFFFFF), White head (#FFFFFF), Pink snout/nostrils (#FF69B4)
+- Danny Dog: Orange/yellow body (#FFB74D), Orange/yellow head (#FFB74D), Pink snout/nostrils (#FF69B4)
+- Madame Gazelle: Purple dress (#9C27B0), Light yellow/cream head (#FFF8E1), Pink arms/legs (#F9C6CF)
+
+================================================================================
+EXACT DUPLICATE GROUP 1: Main Duplicate Set (38 files)
+================================================================================
+
+These files ALL currently use the exact same generic image. Each needs a 
+unique, contextually appropriate illustration.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 100_where_do_you_live.svg
+PHRASE: ¿Dónde vives? (Where do you live?)
+IDEA #1: "The Neighborhood Question Scene"
+
+DRAWING INSTRUCTIONS:
+Create a charming bird's-eye view showing a colorful neighborhood with various 
+types of homes arranged in a gentle curve. Place Peppa at a crossroads, looking 
+upward with a curious expression, one trotter raised to her chin thoughtfully. 
+Above her head, add a thought bubble containing three small icons: a house, an 
+apartment building, and a farm. The background should feature a simplified 
+map-like quality with winding paths connecting different homes. Each home should 
+have distinct characteristics - one with a red roof and garden, another as a 
+tall apartment block, and a third as a countryside cottage. Use soft pastel 
+colors to create a welcoming atmosphere.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 101_i_live_in_a_house.svg
+PHRASE: Vivo en una casa. (I live in a house.)
+IDEA #2: "Peppa's House Portrait"
+
+DRAWING INSTRUCTIONS:
+Show Peppa standing proudly in front of her iconic house, positioned slightly 
+to the left of center. She should be gesturing with both trotters extended 
+toward the house in a presenting motion, with a big, proud smile. The house 
+should be rendered in warm colors - red brick with a yellow door and cheerful 
+windows. Include distinctive details: a small garden with flowers, a chimney 
+with gentle smoke curl, curtains in windows, and George's toy dinosaur peeking 
+from one window. Add a mailbox with the Pig family name and a welcome mat. 
+The sky should be gentle blue with one or two fluffy clouds.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 102_it_has_stopped_raining.svg
+PHRASE: Ha dejado de llover. (It has stopped raining.)
+IDEA #3: "The Rainbow Moment"
+
+DRAWING INSTRUCTIONS:
+Create a transitional weather scene split subtly into two parts. On the left, 
+show the tail end of rain clouds moving away in light gray with a few final 
+raindrops. On the right, show the sun emerging from behind clouds with light 
+rays. In the center, feature a magnificent rainbow arcing across the sky. In 
+the foreground, place Peppa and George in rain boots, looking up with wonder. 
+Peppa should be pointing at the rainbow while George clutches his dinosaur. 
+Show puddles on the ground reflecting rainbow colors, with water droplets on 
+leaves and grass. Add a bird beginning to sing on a branch and a butterfly 
+emerging.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 103_the_weather_is_bad.svg
+PHRASE: Hace mal tiempo. (The weather is bad.)
+IDEA #4: "The Stormy Day Window View"
+
+DRAWING INSTRUCTIONS:
+Design an indoor-outdoor contrast scene. Show Peppa and George looking out 
+through a large window from inside their cozy home. Outside, depict dramatic 
+but not frightening bad weather: dark gray storm clouds, heavy rain falling at 
+an angle suggesting wind, leaves and twigs being blown about, and perhaps a 
+bent umbrella tumbling past. A weather vane on a distant roof spins wildly. 
+Inside, create warmth with Peppa and George pressed against the window, their 
+breath creating small fog patches on glass. Behind them, show hot chocolate 
+mugs, a cozy blanket, and soft lamp lighting. Daddy Pig visible in background 
+reading newspaper, unconcerned.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 104_its_morning.svg
+PHRASE: Es por la mañana. (It's morning.)
+IDEA #5: "The Sunrise Awakening"
+
+DRAWING INSTRUCTIONS:
+Create a warm morning scene showing Peppa's bedroom with curtains partially 
+open. Through the window, depict a beautiful sunrise with the sun just peeking 
+over the horizon, casting golden-pink rays across pale blue sky. Show a few 
+early morning birds on a tree branch outside, mid-song with musical notes. 
+Inside, show Peppa sitting up in bed, stretching with both arms raised high, 
+eyes just opened, peaceful expression. Bed should have rumpled covers. Include: 
+alarm clock showing 7:00, calendar on wall, clothes laid out on chair, teddy 
+bear beside pillow. Soft morning light streams through window creating gentle 
+shadows.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 105_its_afternoon.svg
+PHRASE: Es por la tarde. (It's afternoon.)
+IDEA #6: "The Playground Afternoon"
+
+DRAWING INSTRUCTIONS:
+Illustrate a vibrant playground scene bathed in bright afternoon sunshine. 
+Position the sun high in the sky but beginning its descent, creating shorter 
+shadows. Show Peppa and friends actively playing: Suzy Sheep on a swing at 
+mid-height, Danny Dog climbing playground equipment, and Peppa in center 
+jumping rope or playing hopscotch. Include afternoon-specific details: empty 
+lunch boxes on a picnic table, parents sitting on benches having coffee and 
+chatting, longer shadows stretching across ground, and an ice cream vendor's 
+cart in distance. Sky should be rich warm blue with golden quality light. 
+Trees cast dappled shade where some children rest.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 106_its_nighttime.svg
+PHRASE: Es por la noche. (It's nighttime.)
+IDEA #7: "The Starry Evening Scene"
+
+DRAWING INSTRUCTIONS:
+Design a peaceful nighttime scene showing Peppa's house from outside, with warm 
+yellow light glowing from windows creating cozy contrast against deep blue-
+purple night sky. Fill the sky with twinkling stars, a crescent moon, and 
+perhaps one or two visible constellations. In one window, show silhouette of 
+Pig family together, perhaps reading bedtime story. In foreground, place Peppa 
+and Daddy Pig standing in garden, both looking up at stars. Daddy Pig should 
+be pointing up at a constellation. Include nighttime details: owl perched on 
+tree branch, fireflies glowing softly in garden, street lamp casting gentle 
+pool of light, and flowers closed for night. Use cool blues and purples with 
+warm yellow accents.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 107_its_breakfast_time.svg
+PHRASE: Es la hora del desayuno. (It's breakfast time.)
+IDEA #8: "The Family Breakfast Table"
+
+DRAWING INSTRUCTIONS:
+Create a warm scene of the Pig family gathered around their breakfast table, 
+viewed from a slight angle showing both table and family members. Table should 
+be laden with breakfast items: pitcher of orange juice, bowls of cereal, toast 
+on plate, fruit (bananas, strawberries), and steaming mugs. Each family member 
+engaged in breakfast ritual: Mummy Pig pouring juice, Daddy Pig reading 
+newspaper while eating, Peppa cheerfully eating cereal, and George with milk 
+around his mouth. Include: morning sunlight streaming through window, wall 
+clock showing 8:00 AM, calendar visible in background, radio on counter. Kitchen 
+should feel lived-in with family photos on wall, fruit bowl on counter, and 
+steam rising from toaster.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 108_its_bedtime.svg
+PHRASE: Es la hora de dormir. (It's bedtime.)
+IDEA #9: "The Peaceful Bedtime Routine"
+
+DRAWING INSTRUCTIONS:
+Design a cozy bedroom scene showing Peppa in pajamas, sitting on her bed with 
+Mummy Pig beside her, reading a bedtime story from a large picture book. Room 
+should be dimly lit by warm bedside lamp creating soft golden glow. Peppa's 
+expression should be peaceful and drowsy, eyes half-closed, leaning slightly 
+against Mummy Pig who has her arm around Peppa protectively. Include bedtime 
+ritual details: glass of water on nightstand, Peppa's teddy bear already tucked 
+into bed waiting, slippers placed neatly by bedside, curtains drawn closed, and 
+night light glowing softly in shape of star or moon. Wall clock displays 8:30 
+PM. Through small gap in curtains, show dark night sky with stars. Use warm 
+oranges and soft purples.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 109_tomorrow_is.svg
+PHRASE: Mañana es... (Tomorrow is...)
+IDEA #11: "The Calendar Tomorrow"
+
+DRAWING INSTRUCTIONS:
+Show Peppa standing next to a large wall calendar. She's pointing with one 
+trotter at tomorrow's date, which is circled in red. Today's date has a big X 
+through it. Above the calendar, show a simple sun icon for "tomorrow." Peppa 
+has an excited, anticipatory expression. The calendar should be simple with 
+large numbers and only a few dates visible. Use bright colors for the calendar 
+- perhaps yellow for tomorrow's date to make it stand out clearly.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 110_yesterday_was.svg
+PHRASE: Ayer fue... (Yesterday was...)
+IDEA #12: "Looking Back at Yesterday"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa looking at a wall calendar, but this time she's pointing backward 
+over her shoulder with her thumb at yesterday's date (which is crossed out). 
+Her head is turned to look back at the calendar. Yesterday's date should have 
+a checkmark on it, showing it's completed. Use a simple three-day calendar 
+view showing yesterday, today, and tomorrow. Make yesterday's box a different 
+color (maybe gray or purple) to distinguish it from today (bright yellow).
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 111_whats_for_lunch.svg
+PHRASE: ¿Qué hay para comer? (What's for lunch?)
+IDEA #13: "The Curious Lunch Question"
+
+DRAWING INSTRUCTIONS:
+Show Peppa standing in front of a kitchen table with a covered serving dish 
+(with a dome lid). She's leaning forward curiously, both trotters reaching 
+toward the lid but not quite touching it. Her expression should be curious and 
+hopeful. Add a question mark above her head. Behind her, show a simple kitchen 
+background with a clock showing 12:00 (lunchtime). Keep the color scheme warm 
+and inviting - orange and yellow tones for the table and kitchen.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 112_i_like_it_a_lot.svg
+PHRASE: Me gusta mucho. (I like it a lot.)
+IDEA #14: "The Big Thumbs Up"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa giving a big thumbs up with one trotter, with a huge happy smile on 
+her face. Her eyes should be closed in contentment, and she could have rosy 
+cheeks. Add sparkles or small hearts around her to emphasize the "mucho" (a lot) 
+part. In front of her, place a simple plate with food (maybe spaghetti or pizza). 
+The background should be plain or have a simple gradient. Use bright, happy 
+colors - lots of pink, red, and yellow to convey enthusiasm.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 113_do_you_want_more.svg
+PHRASE: ¿Quieres más? (Do you want more?)
+IDEA #15: "The Offering Hand"
+
+DRAWING INSTRUCTIONS:
+Show Mummy Pig holding a serving spoon over a bowl or pot, looking at Peppa 
+with a kind, questioning expression. Peppa should be sitting at a table with 
+an empty plate in front of her. Mummy Pig's posture should be leaning slightly 
+forward in an offering gesture. Add a simple question mark between them. Keep 
+the scene simple - just the two characters, the table, and the serving dish. 
+Use warm kitchen colors and make sure both characters are clearly visible.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 114_no_thank_you_im_full_male.svg
+PHRASE: No, gracias. Estoy lleno. (No, thank you. I'm full - male)
+IDEA #16: "George's Full Tummy"
+
+DRAWING INSTRUCTIONS:
+Draw George sitting at a table, leaning back in his chair with both hands on 
+his round, full belly. His expression should be content and satisfied. In front 
+of him, show an empty plate with crumbs. He should have one trotter raised in 
+a polite "no thank you" gesture. Add a small thought bubble showing a full 
+tummy icon (a circle with a happy face). Keep the background simple - just the 
+table and chair. Use soft, gentle colors.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 115_no_thank_you_im_full_female.svg
+PHRASE: No, gracias. Estoy llena. (No, thank you. I'm full - female)
+IDEA #17: "Peppa's Full Tummy"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa sitting at a table, leaning back with both trotters on her round 
+belly, looking satisfied and content. Her plate in front of her should be empty 
+with just a few crumbs. She has one trotter raised in a gentle "no thank you" 
+wave. Add a small smile on her face showing she enjoyed the meal but is done. 
+The background is simple - just the dining area. Use the same color scheme as 
+George's version but with Peppa's characteristic pink dress.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 116_enjoy_your_meal.svg
+PHRASE: Buen provecho. (Enjoy your meal.)
+IDEA #18: "The Family Meal Blessing"
+
+DRAWING INSTRUCTIONS:
+Show the Pig family seated around a table with full plates of food in front of 
+them. Daddy Pig is raising his glass or fork in a toast gesture, saying "Buen 
+provecho" to everyone. All family members should be smiling and looking at each 
+other. The food should be simple and colorful - maybe roast chicken or pasta. 
+Steam lines rising from the plates show the food is hot and fresh. Keep the 
+composition balanced with all four family members visible. Use warm, appetizing 
+colors.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 77_lets_go_to_the_playground.svg
+PHRASE: Vamos al patio. (Let's go to the playground.)
+IDEA #19: "Pointing to the Playground"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa standing and pointing excitedly toward a playground visible in the 
+background. The playground should be simple - just a slide and swing set visible. 
+Peppa should be in a dynamic pose, one trotter pointing, the other on her hip, 
+with an excited expression. Her mouth should be open as if calling out. Add 
+motion lines around her pointing arm to show enthusiasm. In the far background, 
+show the playground equipment in simple shapes. Use bright outdoor colors - 
+blue sky, green grass, colorful playground equipment.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 79_you_are_my_best_friend_female.svg
+PHRASE: Eres mi mejor amiga. (You are my best friend - female)
+IDEA #20: "Peppa and Suzy Hug"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa and Suzy Sheep hugging each other, both with big smiles and closed 
+eyes showing happiness. Their arms should be around each other in a friendly 
+embrace. Add a big pink heart floating above them. The background should be 
+very simple - maybe just a soft gradient or plain color. Both characters should 
+be the same size and equally prominent. Use soft, warm colors to convey 
+friendship and affection. Keep the focus entirely on the two friends with 
+minimal background distraction.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 80_you_are_my_best_friend_male.svg
+PHRASE: Eres mi mejor amigo. (You are my best friend - male)
+IDEA #21: "Peppa and Danny Fist Bump"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa and Danny Dog doing a fist bump, both grinning widely. Their 
+trotters/paws should be touching in the center of the image with small star 
+sparkles around the contact point. Both characters should have enthusiastic, 
+happy expressions. The background is simple - just a solid color or soft 
+gradient. Add a blue heart above them (to differentiate from the female version 
+which has a pink heart). Keep both characters the same size and equally visible.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 81_lets_play_together.svg
+PHRASE: ¡Vamos a jugar juntos! (Let's play together!)
+IDEA #22: "The Invitation Circle"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa in the center with her arms spread wide in a welcoming gesture. 
+Around her in a loose circle, show 3-4 toys on the ground: a ball, some blocks, 
+and a jump rope. Her expression should be inviting and excited. Keep the 
+background simple - green grass and blue sky. The toys should be colorful and 
+clearly identifiable. Peppa should be slightly larger than the toys to show 
+she's the focus. Use bright, playful colors throughout.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 82_now_its_your_turn.svg
+PHRASE: Ahora es tu turno. (Now it's your turn.)
+IDEA #23: "Passing the Ball"
+
+DRAWING INSTRUCTIONS:
+Show Peppa holding a ball and extending it forward toward the viewer (or toward 
+another character shown partially at the edge). Her expression should be 
+encouraging and friendly. She could be smiling and gesturing with her free 
+trotter in a "go ahead" motion. Add a simple arrow pointing from Peppa toward 
+the other side to indicate direction/turn-taking. Background should be minimal - 
+maybe just a playground or park setting suggested with simple colors.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 83_lets_build_something.svg
+PHRASE: Vamos a construir algo. (Let's build something.)
+IDEA #24: "Peppa with Building Blocks"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa kneeling on the ground with colorful building blocks in front of her. 
+She should be holding one block in her trotter, about to place it on a small 
+tower she's building. Her expression should be focused and happy. Show 4-5 
+blocks already stacked, and 3-4 more blocks scattered on the ground. Use 
+primary colors for the blocks - red, blue, yellow, green. The background is 
+simple - just a floor and plain wall or gradient. Keep the composition clean 
+and uncluttered.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 84_lets_sing_a_song.svg
+PHRASE: Vamos a cantar una canción. (Let's sing a song.)
+IDEA #25: "Peppa Singing with Music Notes"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa standing with her mouth open in a singing pose, one trotter raised 
+in the air expressively. Add colorful musical notes floating around her - 
+different sizes and colors (red, blue, yellow). Her eyes should be closed or 
+looking upward, showing she's really into the song. Her expression should be 
+joyful. The background should be very simple - just a soft gradient or plain 
+color. Maybe add a few sparkles around her to show the joy of singing.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 85_i_am_excited_male.svg
+PHRASE: Estoy emocionado. (I am excited - male)
+IDEA #26: "George Jumping with Joy"
+
+DRAWING INSTRUCTIONS:
+Draw George jumping in the air with both arms raised high above his head. His 
+legs should be bent showing he's mid-jump. His mouth should be open in a big 
+smile, and his eyes wide with excitement. Add motion lines under his feet to 
+show he's jumping. Include small star sparkles around him. He should be holding 
+his toy dinosaur in one hand. The background is simple - blue sky and green 
+ground. Use bright, energetic colors to convey excitement.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 86_i_am_excited_female.svg
+PHRASE: Estoy emocionada. (I am excited - female)
+IDEA #27: "Peppa Jumping with Joy"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa jumping in the air with both arms raised high. Her legs should be 
+bent mid-jump. Her mouth is open in a huge smile with her eyes wide and happy. 
+Add motion lines beneath her feet. Include colorful sparkles and small hearts 
+around her. Her dress should be flowing slightly to show movement. The 
+background is simple - blue sky and green grass. Use the same composition as 
+George's version but with Peppa's characteristic features and pink dress.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 87_dont_be_scared.svg
+PHRASE: No tengas miedo. (Don't be scared.)
+IDEA #28: "Mummy Pig Comforting"
+
+DRAWING INSTRUCTIONS:
+Show Mummy Pig kneeling down with one arm around Peppa, who looks a bit worried. 
+Mummy Pig should have a gentle, reassuring smile and her other trotter raised 
+in a calming gesture. Peppa should be leaning into Mummy Pig slightly. Add a 
+small heart between them to show love and comfort. The background should be 
+soft and calm - maybe gentle pastel colors. Keep the focus on the two characters 
+with minimal background detail. Use warm, soothing colors.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 88_how_funny.svg
+PHRASE: ¡Qué risa! (How funny!)
+IDEA #29: "Peppa Laughing Hard"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa bent over laughing, holding her belly with both trotters. Her mouth 
+should be wide open in laughter, eyes squeezed shut. Add "HA HA HA" text in 
+colorful letters floating around her. Maybe show tears of laughter at the 
+corners of her eyes. Her whole body should be shaking with laughter - add 
+motion lines around her. The background is simple - just a plain color or 
+gradient. Use bright, cheerful colors - lots of yellows and pinks.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 89_what_are_you_doing.svg
+PHRASE: ¿Qué estás haciendo? (What are you doing?)
+IDEA #30: "Peppa Peeking Curiously"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa leaning forward with a curious expression, one trotter raised to 
+her chin in a questioning gesture. Her head should be tilted slightly to one 
+side. Add a large question mark above her head. Her eyes should be wide with 
+curiosity. The background should be simple - maybe show a doorway or corner 
+that she's peeking around, suggesting she's looking at someone. Use soft colors 
+with the question mark in bright yellow or orange to stand out.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 90_i_am_playing.svg
+PHRASE: Estoy jugando. (I am playing.)
+IDEA #31: "Peppa with Toys in Action"
+
+DRAWING INSTRUCTIONS:
+Show Peppa sitting on the ground, actively playing with toys. She should have 
+a toy car in one trotter, moving it along the ground with motion lines behind 
+it. Around her, scatter 2-3 other toys - maybe a doll, a ball, and blocks. Her 
+expression should be happy and engaged. Add a simple "vroom vroom" sound effect 
+near the car. The background is minimal - just a floor and simple wall or 
+gradient. Use playful, bright colors for all the toys.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 91_how_are_you.svg
+PHRASE: ¿Cómo estás? (How are you?)
+IDEA #32: "Peppa's Friendly Wave"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa standing and waving with one trotter raised in a friendly greeting. 
+Her other trotter should be at her side or slightly extended. She should have 
+a warm, welcoming smile. Add a simple speech bubble or question mark above her 
+to indicate she's asking a question. The background should be very simple - 
+perhaps just a soft gradient suggesting outdoors or indoors. Use warm, friendly 
+colors. Keep the composition centered on Peppa with lots of space around her.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 93_what_do_you_want_to_do.svg
+PHRASE: ¿Qué quieres hacer? (What do you want to do?)
+IDEA #34: "Peppa with Three Options"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa in the center with three small thought bubbles above her head, each 
+containing a simple icon: one with a ball (play), one with a book (read), and 
+one with a paintbrush (paint). She should have a thoughtful, questioning 
+expression with one trotter raised to her chin. Add a question mark near the 
+thought bubbles. The background is simple - plain color. Use different colors 
+for each thought bubble to make them distinct. Keep icons simple and easily 
+recognizable.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 94_i_want_to_play.svg
+PHRASE: Quiero jugar. (I want to play.)
+IDEA #35: "Peppa Reaching for Ball"
+
+DRAWING INSTRUCTIONS:
+Show Peppa reaching forward eagerly with both trotters toward a colorful ball 
+in front of her. Her expression should be eager and excited, with a big smile. 
+Her body should lean forward showing she really wants to play. The ball should 
+be bright and colorful - maybe rainbow colored or with a pattern. Add small 
+motion lines or sparkles around the ball to draw attention to it. The background 
+is minimal - just ground and sky or a simple gradient.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 95_do_you_like.svg
+PHRASE: ¿Te gusta...? (Do you like...?)
+IDEA #36: "Peppa Offering Ice Cream"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa holding an ice cream cone, extending it forward toward the viewer 
+with a questioning, hopeful expression. Add a question mark above her head. 
+The ice cream should be colorful - maybe pink or rainbow colored. Her other 
+trotter should be in a gentle offering gesture. Her expression should be 
+friendly and inviting. The background is simple - maybe just a suggestion of 
+outdoors with soft colors. Keep focus on Peppa and the ice cream.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 96_yes_i_like_it_a_lot.svg
+PHRASE: Sí, me gusta mucho. (Yes, I like it a lot.)
+IDEA #37: "Peppa Eating Ice Cream Happily"
+
+DRAWING INSTRUCTIONS:
+Show Peppa holding an ice cream cone and licking it, with her eyes closed in 
+bliss. Add small hearts floating around her head. Her free trotter should be 
+raised in a thumbs up. Maybe show a small drip of ice cream to make it more 
+playful. Add sparkles or stars around her to emphasize "mucho" (a lot). The 
+background is simple - soft pastel colors or gradient. Use warm, happy colors 
+throughout. Keep the composition focused on Peppa's happy expression.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 97_no_i_dont_like_it.svg
+PHRASE: No, no me gusta. (No, I don't like it.)
+IDEA #38: "Peppa Shaking Head"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa with her head turned to the side, one trotter raised in a "no thank 
+you" gesture. Her expression should be polite but clear - not mean, just 
+declining. Add a small "X" mark or shake lines near her head to show she's 
+saying no. In front of her, show a plate with broccoli or vegetables (something 
+kids often don't like). Her other trotter could be near her mouth in a "no 
+thanks" gesture. Background is simple - just a table suggested with minimal 
+detail.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 98_how_old_are_you.svg
+PHRASE: ¿Cuántos años tienes? (How old are you?)
+IDEA #39: "Peppa Counting on Fingers"
+
+DRAWING INSTRUCTIONS:
+Show Peppa holding up her trotters with fingers/trotters spread, as if counting. 
+Her expression should be curious and questioning. Add a large question mark 
+above her head. Maybe include small numbers (1, 2, 3, 4, 5) floating around 
+her in colorful text. Her mouth should be open as if asking the question. The 
+background is very simple - just a plain color or soft gradient. Use bright, 
+educational colors for the numbers.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 99_i_am_five_years_old.svg
+PHRASE: Tengo cinco años. (I am five years old.)
+IDEA #40: "Peppa Showing Five Fingers"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa holding up one trotter clearly showing five fingers/trotters spread 
+wide. She should have a proud smile on her face. Add a large number "5" next 
+to her in bright, colorful text. Maybe include small birthday candles or a 
+small birthday hat on her head to reinforce the age concept. Her other trotter 
+should be at her side or pointing to the number 5. Background is simple - plain 
+color or gradient. Use cheerful birthday colors.
+
+================================================================================
+EXACT DUPLICATE GROUP 2: "Good/Fine/Well" Set (4 files)
+================================================================================
+
+These files share the same generic positive image. Each needs distinct 
+illustration showing different levels of positivity.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 66_good.svg
+PHRASE: ¡Bien! (Good!)
+IDEA #41: "Peppa's Encouraging Nod"
+
+DRAWING INSTRUCTIONS:
+Show Peppa with a big smile, giving a single thumbs up with one trotter. Her 
+head should be nodding slightly (add a small motion arc near her head). Her 
+expression should be encouraging and positive. Add the word "¡BIEN!" in bold, 
+colorful letters above her, or a large checkmark. The background is very 
+simple - just a solid color or soft gradient. Use green and yellow colors to 
+suggest "good" and "positive." Keep it clean and straightforward.
+
+--------------------------------------------------------------------------------
+✓ DONE - FILE: 72_everything_is_fine.svg
+PHRASE: Todo está bien. (Everything is fine.)
+IDEA #42: "Peppa's Reassuring Gesture"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa with both trotters spread out to her sides in a calming, "everything's 
+okay" gesture. She should have a peaceful, reassuring smile. Add a small sun 
+icon and maybe a rainbow in the background to suggest everything is good. Her 
+posture should be relaxed and open. Maybe add a few small hearts or stars 
+around her. Use soft, calming colors - pastels and light blues. Keep the 
+composition balanced and peaceful.
+
+--------------------------------------------------------------------------------
+FILE: 76_very_well_done.svg
+PHRASE: ¡Muy bien hecho! (Very well done!)
+IDEA #43: "Madame Gazelle Clapping"
+
+DRAWING INSTRUCTIONS:
+Show Madame Gazelle (the teacher) clapping her hands together with a proud, 
+beaming smile. Add sparkles or stars around her hands to emphasize the clapping. 
+Her expression should be warm and encouraging. Maybe add a gold star icon 
+floating near her. The background should be simple - perhaps suggesting a 
+classroom with just a hint of a board or wall. Use warm, encouraging colors - 
+golds, yellows, and warm oranges. Keep focus on the teacher's proud expression.
+
+--------------------------------------------------------------------------------
+FILE: 92_i_am_well_thank_you.svg
+PHRASE: Estoy bien, gracias. (I am well, thank you.)
+IDEA #33: "Peppa's Thumbs Up Response"
+
+DRAWING INSTRUCTIONS:
+Show Peppa standing with one trotter giving a thumbs up, and a content smile 
+on her face. Her other trotter should be relaxed at her side. Add a small 
+smiley face icon or heart near her to reinforce the "bien" (well/good). Her 
+posture should be upright and confident. The background is simple - just a 
+plain color or soft gradient. Use cheerful colors - bright blues and pinks. 
+Keep the composition clean and straightforward.
+
+================================================================================
+EXACT DUPLICATE GROUP 3: "Love It" Set (2 files)
+================================================================================
+
+These files share the same enthusiastic love image. Each needs distinct 
+illustration showing different expressions of love/enthusiasm.
+
+--------------------------------------------------------------------------------
+FILE: 68_i_love_it.svg
+PHRASE: ¡Me encanta! (I love it!)
+IDEA #44: "Peppa with Big Heart"
+
+DRAWING INSTRUCTIONS:
+Draw Peppa hugging herself with both trotters crossed over her chest, eyes 
+closed in pure joy. Add a large red or pink heart above her head, and several 
+smaller hearts floating around her. Her expression should be blissful with a 
+huge smile. Maybe add rosy cheeks and a slight glow around her. The background 
+is simple - soft pink or purple gradient. Use lots of reds, pinks, and warm 
+colors to convey love and enthusiasm. Keep the composition centered on Peppa.
+
+--------------------------------------------------------------------------------
+FILE: 78_yes_id_love_to.svg
+PHRASE: Sí, me encantaría. (Yes, I'd love to.)
+IDEA #45: "Peppa's Enthusiastic Yes"
+
+DRAWING INSTRUCTIONS:
+Show Peppa nodding enthusiastically with both trotters raised in excitement. 
+Her mouth should be open in a big "YES!" expression. Add motion lines around 
+her head showing nodding. Include a few hearts floating around her and maybe 
+some sparkles. Her whole body should show enthusiasm - maybe she's even 
+bouncing slightly (add motion lines under feet). The background is simple - 
+just a gradient or plain color. Use bright, energetic colors - pinks, reds, 
+and yellows.
+
+================================================================================
+ADDITIONAL SIMILAR FILES (Not exact duplicates but very similar)
+================================================================================
+
+These files are very similar to others and should also be reviewed for 
+uniqueness, though they are not exact duplicates:
+
+- 29_goodbye.svg - ¡Adiós!
+- 30_see_you_later.svg - ¡Hasta luego!
+- 31_please.svg - Sí, por favor.
+- 32_thank_you.svg - ¡Gracias!
+- 36_look.svg - ¡Mira!
+- 37_what_is_that.svg - ¿Qué es eso?
+- 38_come_here.svg - ¡Ven aquí!
+- 39_wait.svg - ¡Espera!
+- 40_lets_go.svg - ¡Vamos!
+- 41_can_i_help.svg - ¿Puedo ayudar?
+- 42_of_course.svg - ¡Claro que sí!
+- 43_where_is.svg - ¿Dónde está...?
+- 63_i_like_it.svg - ¡Me gusta!
+- 64_i_dont_like_it.svg - No, no me gusta.
+- 71_first_put_on_your_boots.svg - Primero tienes que ponerte las botas.
+- 73_me_me.svg - ¡Yo! ¡Yo!
+
+These should be reviewed to ensure they have contextually appropriate, unique 
+illustrations that clearly represent their specific phrases.
+
+================================================================================
+SUMMARY
+================================================================================
+
+TOTAL FILES TO REDRAW: 47 exact duplicates
+- Group 1: 38 files (main duplicate set)
+- Group 2: 4 files (good/fine/well set)
+- Group 3: 2 files (love it set)
+- Additional: 3 files from original analysis
+
+PRIORITY: Start with Group 1 (the largest duplicate set) as these have the 
+most impact on the learning experience.
+
+QUALITY STANDARDS:
+✓ Each image must be unique and contextually appropriate
+✓ Maintain Peppa Pig visual style and character proportions
+✓ Use child-friendly colors and simple, clear compositions
+✓ Ensure images are educational and help convey phrase meaning
+✓ Optimize for scalability and fast loading
+✓ Test at multiple sizes to ensure clarity
+
+COMPLETION CHECKLIST:
+□ All 38 files from Group 1 completed
+□ All 4 files from Group 2 completed
+□ All 2 files from Group 3 completed
+□ Visual consistency check across all new images
+□ Size and optimization check
+□ Educational effectiveness review
+□ Final quality assurance
+
+================================================================================
+Created: January 5, 2026
+For: Peppa Pig Advanced Spanish Learning Materials
+Project: espanjapeli
+================================================================================

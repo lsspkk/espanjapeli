@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background: Dining room -->
+  <defs>
+    <linearGradient id="diningBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#diningBg)"/>
+  
+  <!-- Table -->
+  <rect x="50" y="280" width="300" height="20" rx="5" fill="#8D6E63"/>
+  <rect x="80" y="300" width="20" height="60" fill="#6D4C41"/>
+  <rect x="300" y="300" width="20" height="60" fill="#6D4C41"/>
+  
+  <!-- Delicious food on plate -->
+  <g transform="translate(200, 240)">
+    <!-- Plate -->
+    <ellipse cx="0" cy="0" rx="70" ry="18" fill="#E0E0E0"/>
+    <ellipse cx="0" cy="0" rx="65" ry="15" fill="white"/>
+    
+    <!-- Yummy food (colorful) -->
+    <!-- Pasta -->
+    <g stroke="#FF8A65" stroke-width="3" stroke-linecap="round">
+      <path d="M -50 -5 Q -30 5 -10 -5 Q 10 5 30 -5 Q 50 5 50 -5"/>
+      <path d="M -50 0 Q -30 10 -10 0 Q 10 10 30 0 Q 50 10 50 0"/>
+      <path d="M -50 5 Q -30 15 -10 5 Q 10 15 30 5 Q 50 15 50 5"/>
+    </g>
+    
+    <!-- Vegetables -->
+    <circle cx="-30" cy="10" r="8" fill="#4CAF50"/>
+    <circle cx="30" cy="8" r="7" fill="#FF6B6B"/>
+    <circle cx="0" cy="12" r="6" fill="#FFD54F"/>
+  </g>
+  
+  <!-- Steam (yummy!) -->
+  <g stroke="#E0E0E0" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <path d="M 160 220 Q 155 210 160 200 Q 165 210 160 220"/>
+    <path d="M 200 215 Q 195 205 200 195 Q 205 205 200 215"/>
+    <path d="M 240 220 Q 245 210 240 200 Q 235 210 240 220"/>
+  </g>
+  
+  <!-- Peppa enjoying food -->
+  <g transform="translate(200, 220)">
+    <!-- Body (red dress) -->
+    <ellipse cx="0" cy="50" rx="50" ry="55" fill="#E63946"/>
+    
+    <!-- Legs (sitting) -->
+    <rect x="-28" y="95" width="14" height="30" rx="7" fill="#F9C6CF"/>
+    <rect x="14" y="95" width="14" height="30" rx="7" fill="#F9C6CF"/>
+    
+    <!-- Arms (holding fork, excited) -->
+    <path d="M -40 40 Q -60 20 -50 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="-50" cy="0" r="12" fill="#F9C6CF"/>
+    <!-- Fork -->
+    <g transform="translate(-50, -5)">
+      <rect x="-2" y="0" width="4" height="25" fill="#B0BEC5"/>
+      <path d="M -2 0 L -6 -4 L -2 -6 L 2 -6 L 6 -4 L 2 0 Z" fill="#B0BEC5"/>
+    </g>
+    
+    <path d="M 40 40 Q 60 20 50 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="50" cy="0" r="12" fill="#F9C6CF"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="60" ry="50" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="55" cy="-50" rx="25" ry="18" fill="#F9C6CF"/>
+    <circle cx="65" cy="-55" r="5" fill="#FF69B4"/>
+    <circle cx="65" cy="-45" r="5" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-20" cy="-100" rx="14" ry="25" fill="#F9C6CF"/>
+    <ellipse cx="20" cy="-100" rx="14" ry="25" fill="#F9C6CF"/>
+    
+    <!-- Eyes (very happy, closed with joy) -->
+    <path d="M -15 -55 Q -5 -50 5 -55" stroke="#333" stroke-width="3" fill="none"/>
+    <path d="M 10 -55 Q 20 -50 30 -55" stroke="#333" stroke-width="3" fill="none"/>
+    
+    <!-- Big wide smile -->
+    <path d="M -15 -30 Q 0 -10 25 -30" stroke="#333" stroke-width="4" fill="none"/>
+    
+    <!-- Rosy cheeks -->
+    <circle cx="-25" cy="-35" r="12" fill="#FFB6C1" opacity="0.7"/>
+    <circle cx="35" cy="-35" r="12" fill="#FFB6C1" opacity="0.7"/>
+  </g>
+  
+  <!-- Yummy symbols -->
+  <g fill="#FFD700">
+    <!-- Hearts -->
+    <path d="M 80 120 C 80 110, 70 100, 60 100 C 50 100, 40 110, 40 120 C 40 130, 60 150, 60 150 C 60 150, 80 130, 80 120" fill="#FF6B6B"/>
+    <path d="M 320 140 C 320 130, 310 120, 300 120 C 290 120, 280 130, 280 140 C 280 150, 300 170, 300 170 C 300 170, 320 150, 320 140" fill="#FF6B6B"/>
+    
+    <!-- Stars -->
+    <polygon points="100,180 103,190 113,190 106,196 109,206 100,200 91,206 94,196 87,190 97,190"/>
+  </g>
+  
+  <!-- Signature -->
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Composer 1</text>
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

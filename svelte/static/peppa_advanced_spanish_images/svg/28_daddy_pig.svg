@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="This is Daddy Pig">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <style><![CDATA[
+      .ol { stroke: #222222; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .softol { stroke: #222222; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    ]]></style>
+  </defs>
+<ellipse class="ol" cx="150.5" cy="69.5" rx="14.3" ry="16.5" fill="#F9C6CF"/>
+  <ellipse class="ol" cx="249.5" cy="69.5" rx="14.3" ry="16.5" fill="#F9C6CF"/>
+  <ellipse class="ol" cx="200" cy="130" rx="71.5" ry="57.75000000000001" fill="#F9C6CF"/>
+  <ellipse class="ol" cx="233.0" cy="141.0" rx="38.5" ry="26.400000000000002" fill="#F7A8B8"/>
+  <circle cx="216.5" cy="141.0" r="5.5" fill="#222222"/>
+  <circle cx="249.5" cy="141.0" r="5.5" fill="#222222"/>
+  <circle cx="178.0" cy="119.0" r="8.8" fill="#222222"/>
+  <circle cx="211.0" cy="119.0" r="8.8" fill="#222222"/>
+  <circle cx="145.0" cy="141.0" r="6.6000000000000005" fill="#F59FB4" opacity="0.9"/>
+  <path class="softol" d="M 189.0 157.5 Q 205.5 174.0 227.5 157.5" fill="none"/>
+  <circle class="softol" cx="172.5" cy="119.0" r="16.5" fill="none"/>
+  <circle class="softol" cx="216.5" cy="119.0" r="16.5" fill="none"/>
+  <path class="softol" d="M 189.0 119.0 L 200 119.0" fill="none"/>
+  <rect class="ol" x="123.0" y="190.5" width="154.0" height="165.0" rx="44.0" fill="#ED553B"/>
+  <path class="ol" d="M 150.5 240.0 Q 112.0 262.0 134.0 289.5" fill="none"/>
+  <path class="ol" d="M 249.5 240.0 Q 288.0 262.0 266.0 289.5" fill="none"/>
+  <path class="ol" d="M 161.5 355.5 L 161.5 394.0"/>
+  <path class="ol" d="M 238.5 355.5 L 238.5 394.0"/>
+  <ellipse class="ol" cx="161.5" cy="401.7" rx="19.8" ry="8.8" fill="#000000"/>
+  <ellipse class="ol" cx="238.5" cy="401.7" rx="19.8" ry="8.8" fill="#000000"/><circle cx="160" cy="205" r="4" fill="#222222" opacity="0.5"/><circle cx="175" cy="210" r="4" fill="#222222" opacity="0.5"/><circle cx="190" cy="212" r="4" fill="#222222" opacity="0.5"/><circle cx="205" cy="212" r="4" fill="#222222" opacity="0.5"/><circle cx="220" cy="210" r="4" fill="#222222" opacity="0.5"/><circle cx="235" cy="205" r="4" fill="#222222" opacity="0.5"/>  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

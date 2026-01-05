@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background - blue sky and green grass -->
+  <defs>
+    <linearGradient id="excitedSky2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#excitedSky2)"/>
+  
+  <!-- Green grass ground -->
+  <ellipse cx="200" cy="380" rx="400" ry="80" fill="#7BC043"/>
+  
+  <!-- Peppa jumping in the air with both arms raised high -->
+  <g transform="translate(200, 280)">
+    <!-- Body - tilted slightly forward in jump, red dress -->
+    <ellipse cx="0" cy="25" rx="28" ry="32" fill="#E63946" transform="rotate(-5 0 25)"/>
+    <!-- Legs - bent mid-jump -->
+    <ellipse cx="-12" y="50" rx="7" ry="10" fill="#F9C6CF" transform="rotate(-20 -12 50)"/>
+    <ellipse cx="12" y="50" rx="7" ry="10" fill="#F9C6CF" transform="rotate(20 12 50)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-30" rx="38" ry="32" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="28" cy="-28" rx="14" ry="11" fill="#F9C6CF"/>
+    <circle cx="33" cy="-31" r="2.5" fill="#FF69B4"/>
+    <circle cx="33" cy="-25" r="2.5" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-13" cy="-58" rx="8" ry="15" fill="#F9C6CF"/>
+    <ellipse cx="13" cy="-58" rx="8" ry="15" fill="#F9C6CF"/>
+    <!-- Eyes - wide and happy -->
+    <ellipse cx="-5" cy="-32" rx="5" ry="7" fill="white"/>
+    <ellipse cx="7" cy="-32" rx="5" ry="7" fill="white"/>
+    <circle cx="-4" cy="-30" r="2.5" fill="#333"/>
+    <circle cx="8" cy="-30" r="2.5" fill="#333"/>
+    <!-- Mouth open in huge smile -->
+    <ellipse cx="6" cy="-18" rx="7" ry="9" fill="#333"/>
+    <!-- Both arms raised high above head -->
+    <ellipse cx="-28" cy="-45" rx="11" ry="9" fill="#F9C6CF" transform="rotate(-60 -28 -45)"/>
+    <ellipse cx="28" cy="-45" rx="11" ry="9" fill="#F9C6CF" transform="rotate(60 28 -45)"/>
+    <!-- Dress flowing slightly to show movement -->
+    <path d="M -20 25 Q 0 35 20 25" stroke="#E63946" stroke-width="3" fill="none" opacity="0.7"/>
+  </g>
+  
+  <!-- Motion lines beneath feet showing she's jumping -->
+  <g transform="translate(200, 330)">
+    <!-- Motion line 1 -->
+    <line x1="-25" y1="0" x2="-15" y2="0" stroke="#666" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <line x1="-20" y1="-3" x2="-20" y2="3" stroke="#666" stroke-width="2" opacity="0.6"/>
+    <!-- Motion line 2 -->
+    <line x1="15" y1="0" x2="25" y2="0" stroke="#666" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <line x1="20" y1="-3" x2="20" y2="3" stroke="#666" stroke-width="2" opacity="0.6"/>
+    <!-- Motion line 3 (center) -->
+    <line x1="-5" y1="0" x2="5" y2="0" stroke="#666" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  </g>
+  
+  <!-- Colorful sparkles around Peppa -->
+  <!-- Sparkle 1 - pink -->
+  <g transform="translate(150, 200)">
+    <path d="M 0 -5 L 1.5 -1.5 L 5 0 L 1.5 1.5 L 0 5 L -1.5 1.5 L -5 0 L -1.5 -1.5 Z" fill="#FF69B4" opacity="0.8"/>
+  </g>
+  
+  <!-- Sparkle 2 - yellow -->
+  <g transform="translate(250, 190)">
+    <path d="M 0 -6 L 1.8 -1.8 L 6 0 L 1.8 1.8 L 0 6 L -1.8 1.8 L -6 0 L -1.8 -1.8 Z" fill="#FFD700" opacity="0.75"/>
+  </g>
+  
+  <!-- Sparkle 3 - red -->
+  <g transform="translate(140, 250)">
+    <path d="M 0 -4 L 1.2 -1.2 L 4 0 L 1.2 1.2 L 0 4 L -1.2 1.2 L -4 0 L -1.2 -1.2 Z" fill="#E53935" opacity="0.7"/>
+  </g>
+  
+  <!-- Sparkle 4 - blue -->
+  <g transform="translate(260, 260)">
+    <path d="M 0 -5 L 1.5 -1.5 L 5 0 L 1.5 1.5 L 0 5 L -1.5 1.5 L -5 0 L -1.5 -1.5 Z" fill="#2196F3" opacity="0.8"/>
+  </g>
+  
+  <!-- Small hearts around Peppa -->
+  <!-- Heart 1 -->
+  <g transform="translate(170, 180)">
+    <path d="M 0 0 C -3 -3 -6 -3 -6 0 C -6 3 -3 6 0 9 C 3 6 6 3 6 0 C 6 -3 3 -3 0 0" fill="#FF69B4" opacity="0.8"/>
+  </g>
+  
+  <!-- Heart 2 -->
+  <g transform="translate(230, 200)">
+    <path d="M 0 0 C -2.5 -2.5 -5 -2.5 -5 0 C -5 2.5 -2.5 5 0 7.5 C 2.5 5 5 2.5 5 0 C 5 -2.5 2.5 -2.5 0 0" fill="#FF69B4" opacity="0.7"/>
+  </g>
+  
+  <!-- Heart 3 -->
+  <g transform="translate(160, 280)">
+    <path d="M 0 0 C -2 -2 -4 -2 -4 0 C -4 2 -2 4 0 6 C 2 4 4 2 4 0 C 4 -2 2 -2 0 0" fill="#FF69B4" opacity="0.75"/>
+  </g>
+  
+  <!-- Heart 4 -->
+  <g transform="translate(240, 300)">
+    <path d="M 0 0 C -2.5 -2.5 -5 -2.5 -5 0 C -5 2.5 -2.5 5 0 7.5 C 2.5 5 5 2.5 5 0 C 5 -2.5 2.5 -2.5 0 0" fill="#FF69B4" opacity="0.7"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="You're welcome">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <style><![CDATA[
+      .ol { stroke: #222222; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .softol { stroke: #222222; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    ]]></style>
+  </defs>
+<ellipse class="ol" cx="99.5" cy="110.5" rx="11.700000000000001" ry="13.5" fill="#F9C6CF"/>
+  <ellipse class="ol" cx="180.5" cy="110.5" rx="11.700000000000001" ry="13.5" fill="#F9C6CF"/>
+  <ellipse class="ol" cx="140" cy="160" rx="58.5" ry="47.25" fill="#F9C6CF"/>
+  <ellipse class="ol" cx="167.0" cy="169.0" rx="31.5" ry="21.6" fill="#F7A8B8"/>
+  <circle cx="153.5" cy="169.0" r="4.5" fill="#222222"/>
+  <circle cx="180.5" cy="169.0" r="4.5" fill="#222222"/>
+  <circle cx="122.0" cy="151.0" r="7.2" fill="#222222"/>
+  <circle cx="149.0" cy="151.0" r="7.2" fill="#222222"/>
+  <circle cx="95.0" cy="169.0" r="5.4" fill="#F59FB4" opacity="0.9"/>
+  <path class="softol" d="M 131.0 182.5 Q 144.5 196.0 162.5 182.5" fill="none"/>
+  <rect class="ol" x="77.0" y="209.5" width="126.0" height="135.0" rx="36.0" fill="#F9C6CF"/>
+  <path class="ol" d="M 99.5 250.0 Q 68.0 268.0 86.0 290.5" fill="none"/>
+  <path class="ol" d="M 180.5 250.0 Q 212.0 268.0 194.0 290.5" fill="none"/>
+  <path class="ol" d="M 108.5 344.5 L 108.5 376.0"/>
+  <path class="ol" d="M 171.5 344.5 L 171.5 376.0"/>
+  <ellipse class="ol" cx="108.5" cy="382.3" rx="16.2" ry="7.2" fill="#000000"/>
+  <ellipse class="ol" cx="171.5" cy="382.3" rx="16.2" ry="7.2" fill="#000000"/><rect class="ol" x="250" y="235" width="95" height="85" rx="12" fill="#8EC5FC"/><path class="ol" d="M 298 235 L 298 320" fill="none"/><path class="ol" d="M 250 275 L 345 275" fill="none"/><path class="ol" d="M 298 235 Q 285 215 270 230 Q 288 250 298 235 Z" fill="#FFB703"/><path class="ol" d="M 298 235 Q 312 215 328 230 Q 308 250 298 235 Z" fill="#FFB703"/>  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#FFF"/>
+  
+  <!-- Surprise lines -->
+  <path d="M 200 150 L 200 100" stroke="#FFA500" stroke-width="4"/>
+  <path d="M 250 160 L 290 120" stroke="#FFA500" stroke-width="4"/>
+  <path d="M 150 160 L 110 120" stroke="#FFA500" stroke-width="4"/>
+  
+  <!-- Peppa Startled -->
+  <g transform="translate(200, 250)">
+    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
+    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
+    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
+    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
+    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
+    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    
+    <!-- Wide Eyes -->
+    <circle cx="-5" cy="-35" r="5" fill="#FFF" stroke="#333" stroke-width="1"/>
+    <circle cx="12" cy="-35" r="5" fill="#FFF" stroke="#333" stroke-width="1"/>
+    <circle cx="-5" cy="-35" r="2" fill="#333"/>
+    <circle cx="12" cy="-35" r="2" fill="#333"/>
+    
+    <!-- Open Mouth -->
+    <ellipse cx="5" cy="-10" rx="10" ry="10" fill="#000"/>
+  </g>
+  
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+</svg>

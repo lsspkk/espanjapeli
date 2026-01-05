@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background: Playground -->
+  <defs>
+    <linearGradient id="playgroundBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#81D4FA"/>
+      <stop offset="100%" stop-color="#4FC3F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#playgroundBg)"/>
+  
+  <!-- Grass -->
+  <ellipse cx="200" cy="400" rx="250" ry="60" fill="#7BC043"/>
+  
+  <!-- Playground equipment -->
+  <!-- Slide -->
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="8" height="100" fill="#FF6B6B"/>
+    <path d="M 0 0 Q 30 50 60 100" stroke="#FF6B6B" stroke-width="8" fill="none"/>
+    <rect x="55" y="100" width="10" height="20" fill="#FF6B6B"/>
+  </g>
+  
+  <!-- Swing -->
+  <g transform="translate(300, 150)">
+    <line x1="0" y1="0" x2="0" y2="100" stroke="#8D6E63" stroke-width="6"/>
+    <line x1="-40" y1="0" x2="-40" y2="100" stroke="#8D6E63" stroke-width="6"/>
+    <rect x="-45" y="100" width="50" height="8" rx="2" fill="#FFEB3B"/>
+  </g>
+  
+  <!-- Peppa asking -->
+  <g transform="translate(150, 280)">
+    <!-- Body (red dress) -->
+    <ellipse cx="0" cy="50" rx="40" ry="45" fill="#E63946"/>
+    
+    <!-- Legs -->
+    <rect x="-22" y="85" width="11" height="45" rx="5" fill="#F9C6CF"/>
+    <rect x="11" y="85" width="11" height="45" rx="5" fill="#F9C6CF"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-16" cy="135" rx="13" ry="8" fill="#333"/>
+    <ellipse cx="16" cy="135" rx="13" ry="8" fill="#333"/>
+    
+    <!-- Arms (questioning gesture) -->
+    <path d="M -35 40 Q -55 20 -50 0" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <circle cx="-50" cy="0" r="11" fill="#F9C6CF"/>
+    <path d="M 35 45 Q 50 60 45 80" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <circle cx="45" cy="80" r="11" fill="#F9C6CF"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="50" ry="40" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="45" cy="-50" rx="20" ry="15" fill="#F9C6CF"/>
+    <circle cx="52" cy="-54" r="4" fill="#FF69B4"/>
+    <circle cx="52" cy="-46" r="4" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-15" cy="-85" rx="10" ry="20" fill="#F9C6CF"/>
+    <ellipse cx="15" cy="-85" rx="10" ry="20" fill="#F9C6CF"/>
+    
+    <!-- Eyes (questioning) -->
+    <ellipse cx="-8" cy="-55" rx="7" ry="9" fill="white"/>
+    <ellipse cx="12" cy="-55" rx="7" ry="9" fill="white"/>
+    <circle cx="-6" cy="-53" r="3" fill="#333"/>
+    <circle cx="14" cy="-53" r="3" fill="#333"/>
+    
+    <!-- Questioning expression -->
+    <path d="M -5 -30 Q 10 -25 25 -30" stroke="#333" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Friend (Suzy Sheep) -->
+  <g transform="translate(280, 300)">
+    <!-- Body (purple dress) -->
+    <ellipse cx="0" cy="40" rx="35" ry="40" fill="#9C27B0"/>
+    
+    <!-- Legs -->
+    <rect x="-18" y="70" width="10" height="40" rx="5" fill="#FFF8E1"/>
+    <rect x="8" y="70" width="10" height="40" rx="5" fill="#FFF8E1"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-13" cy="115" rx="12" ry="7" fill="#333"/>
+    <ellipse cx="13" cy="115" rx="12" ry="7" fill="#333"/>
+    
+    <!-- Arms (welcoming) -->
+    <path d="M -30 35 Q -45 15 -40 -5" stroke="#FFF8E1" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="-40" cy="-5" r="10" fill="#FFF8E1"/>
+    <path d="M 30 35 Q 45 15 40 -5" stroke="#FFF8E1" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="40" cy="-5" r="10" fill="#FFF8E1"/>
+    
+    <!-- Head (sheep - fluffy) -->
+    <ellipse cx="0" cy="-45" rx="40" ry="35" fill="#FFF8E1"/>
+    
+    <!-- Fluffy wool texture -->
+    <circle cx="-15" cy="-50" r="8" fill="#FFF8E1" opacity="0.8"/>
+    <circle cx="15" cy="-50" r="8" fill="#FFF8E1" opacity="0.8"/>
+    <circle cx="0" cy="-65" r="7" fill="#FFF8E1" opacity="0.8"/>
+    
+    <!-- Eyes -->
+    <ellipse cx="-8" cy="-50" rx="6" ry="8" fill="white"/>
+    <ellipse cx="8" cy="-50" rx="6" ry="8" fill="white"/>
+    <circle cx="-6" cy="-48" r="3" fill="#333"/>
+    <circle cx="10" cy="-48" r="3" fill="#333"/>
+    
+    <!-- Happy smile -->
+    <path d="M -5 -35 Q 5 -30 15 -35" stroke="#333" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Question mark in thought bubble -->
+  <g transform="translate(120, 150)">
+    <!-- Bubble -->
+    <ellipse cx="0" cy="0" rx="50" ry="40" fill="white" stroke="#333" stroke-width="2"/>
+    <path d="M -20 30 Q 0 50 20 30 L 10 50 L -10 50 Z" fill="white" stroke="#333" stroke-width="2"/>
+    <!-- Question mark -->
+    <path d="M 0 -20 Q 0 -30 0 -30 L 0 -10 M 0 5 L 0 15" stroke="#333" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="0" cy="20" r="3" fill="#333"/>
+  </g>
+  
+  <!-- Signature -->
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Composer 1</text>
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

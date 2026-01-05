@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Transitional weather scene split subtly into two parts -->
+  <defs>
+    <linearGradient id="transitionSky" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#B0BEC5;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#CFD8DC;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#E1F5FE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#81D4FA;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#FFF59D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFEB3B;stop-opacity:0.9" />
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#transitionSky)"/>
+  
+  <!-- Left side: Tail end of rain clouds moving away in light gray -->
+  <ellipse cx="80" cy="100" rx="55" ry="38" fill="#B0BEC5" opacity="0.6"/>
+  <ellipse cx="100" cy="100" rx="50" ry="35" fill="#B0BEC5" opacity="0.6"/>
+  <ellipse cx="120" cy="100" rx="45" ry="32" fill="#B0BEC5" opacity="0.6"/>
+  <!-- Few final raindrops -->
+  <line x1="70" y1="130" x2="70" y2="145" stroke="#64B5F6" stroke-width="2.5" opacity="0.7"/>
+  <line x1="85" y1="135" x2="85" y2="150" stroke="#64B5F6" stroke-width="2.5" opacity="0.7"/>
+  <line x1="100" y1="130" x2="100" y2="145" stroke="#64B5F6" stroke-width="2.5" opacity="0.7"/>
+  <line x1="115" y1="135" x2="115" y2="150" stroke="#64B5F6" stroke-width="2.5" opacity="0.7"/>
+  
+  <!-- Right side: Sun emerging from behind clouds with light rays -->
+  <ellipse cx="320" cy="90" rx="40" ry="28" fill="#E1F5FE" opacity="0.7"/>
+  <ellipse cx="340" cy="90" rx="35" ry="25" fill="#E1F5FE" opacity="0.7"/>
+  <circle cx="320" cy="90" r="38" fill="url(#sunGrad)"/>
+  <!-- Light rays -->
+  <line x1="320" y1="50" x2="320" y2="40" stroke="#FFEB3B" stroke-width="4" opacity="0.9"/>
+  <line x1="320" y1="130" x2="320" y2="140" stroke="#FFEB3B" stroke-width="4" opacity="0.9"/>
+  <line x1="280" y1="90" x2="270" y2="90" stroke="#FFEB3B" stroke-width="4" opacity="0.9"/>
+  <line x1="360" y1="90" x2="370" y2="90" stroke="#FFEB3B" stroke-width="4" opacity="0.9"/>
+  <line x1="295" y1="65" x2="288" y2="58" stroke="#FFEB3B" stroke-width="4" opacity="0.9"/>
+  <line x1="345" y1="115" x2="352" y2="122" stroke="#FFEB3B" stroke-width="4" opacity="0.9"/>
+  <line x1="295" y1="115" x2="288" y2="122" stroke="#FFEB3B" stroke-width="4" opacity="0.9"/>
+  <line x1="345" y1="65" x2="352" y2="58" stroke="#FFEB3B" stroke-width="4" opacity="0.9"/>
+  
+  <!-- Center: Magnificent rainbow arcing across sky -->
+  <path d="M 50 280 Q 200 140 350 280" stroke="#FF1744" stroke-width="10" fill="none" opacity="0.95"/>
+  <path d="M 50 285 Q 200 145 350 285" stroke="#FF6F00" stroke-width="10" fill="none" opacity="0.95"/>
+  <path d="M 50 290 Q 200 150 350 290" stroke="#FFEB3B" stroke-width="10" fill="none" opacity="0.95"/>
+  <path d="M 50 295 Q 200 155 350 295" stroke="#4CAF50" stroke-width="10" fill="none" opacity="0.95"/>
+  <path d="M 50 300 Q 200 160 350 300" stroke="#2196F3" stroke-width="10" fill="none" opacity="0.95"/>
+  <path d="M 50 305 Q 200 165 350 305" stroke="#9C27B0" stroke-width="10" fill="none" opacity="0.95"/>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="380" rx="400" ry="80" fill="#66BB6A"/>
+  
+  <!-- Puddles on ground reflecting rainbow colors -->
+  <ellipse cx="150" cy="360" rx="28" ry="10" fill="#64B5F6" opacity="0.5"/>
+  <ellipse cx="150" cy="360" rx="25" ry="8" fill="#4CAF50" opacity="0.4"/>
+  <ellipse cx="150" cy="360" rx="22" ry="6" fill="#FFEB3B" opacity="0.3"/>
+  
+  <ellipse cx="250" cy="365" rx="32" ry="12" fill="#64B5F6" opacity="0.5"/>
+  <ellipse cx="250" cy="365" rx="28" ry="10" fill="#4CAF50" opacity="0.4"/>
+  <ellipse cx="250" cy="365" rx="24" ry="8" fill="#FFEB3B" opacity="0.3"/>
+  
+  <!-- Water droplets on leaves and grass -->
+  <!-- Leaf with droplets -->
+  <ellipse cx="100" cy="340" rx="18" ry="10" fill="#4CAF50" transform="rotate(30 100 340)"/>
+  <circle cx="105" cy="338" r="2.5" fill="#64B5F6" opacity="0.8"/>
+  <circle cx="110" cy="340" r="2" fill="#64B5F6" opacity="0.8"/>
+  <circle cx="108" cy="345" r="1.5" fill="#64B5F6" opacity="0.8"/>
+  
+  <!-- More grass with droplets -->
+  <ellipse cx="300" cy="350" rx="15" ry="8" fill="#66BB6A" transform="rotate(-20 300 350)"/>
+  <circle cx="302" cy="348" r="2" fill="#64B5F6" opacity="0.8"/>
+  <circle cx="305" cy="350" r="1.5" fill="#64B5F6" opacity="0.8"/>
+  
+  <!-- Peppa in rain boots, looking up with wonder, pointing at rainbow -->
+  <g transform="translate(180, 320)">
+    <!-- Body -->
+    <ellipse cx="0" cy="25" rx="28" ry="32" fill="#E63946"/>
+    <!-- Rain boots -->
+    <rect x="-20" y="50" width="10" height="22" rx="5" fill="#E53935"/>
+    <rect x="10" y="50" width="10" height="22" rx="5" fill="#E53935"/>
+    <!-- Boot tops -->
+    <ellipse cx="-15" cy="50" rx="5" ry="3" fill="#B71C1C"/>
+    <ellipse cx="15" cy="50" rx="5" ry="3" fill="#B71C1C"/>
+    <!-- Head looking up -->
+    <ellipse cx="0" cy="-30" rx="38" ry="32" fill="#F9C6CF" transform="rotate(-10 0 -30)"/>
+    <!-- Snout -->
+    <ellipse cx="30" cy="-25" rx="15" ry="12" fill="#F9C6CF"/>
+    <circle cx="35" cy="-28" r="3" fill="#FF69B4"/>
+    <circle cx="35" cy="-22" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-12" cy="-62" rx="8" ry="15" fill="#F9C6CF"/>
+    <ellipse cx="12" cy="-62" rx="8" ry="15" fill="#F9C6CF"/>
+    <!-- Eyes looking up with wonder -->
+    <ellipse cx="-4" cy="-32" rx="5" ry="7" fill="white"/>
+    <ellipse cx="10" cy="-32" rx="5" ry="7" fill="white"/>
+    <circle cx="-3" cy="-30" r="2.5" fill="#333"/>
+    <circle cx="11" cy="-30" r="2.5" fill="#333"/>
+    <!-- Wonder expression -->
+    <ellipse cx="5" cy="-18" rx="4" ry="3" fill="#333"/>
+    <!-- One trotter pointing at rainbow -->
+    <ellipse cx="-25" cy="-10" rx="12" ry="10" fill="#F9C6CF" transform="rotate(-45 -25 -10)"/>
+  </g>
+  
+  <!-- George in rain boots, looking up with wonder, clutching dinosaur -->
+  <g transform="translate(250, 330)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="22" ry="26" fill="#E63946"/>
+    <!-- Rain boots -->
+    <rect x="-15" y="40" width="8" height="20" rx="4" fill="#E53935"/>
+    <rect x="7" y="40" width="8" height="20" rx="4" fill="#E53935"/>
+    <!-- Boot tops -->
+    <ellipse cx="-11" cy="40" rx="4" ry="2.5" fill="#B71C1C"/>
+    <ellipse cx="11" cy="40" rx="4" ry="2.5" fill="#B71C1C"/>
+    <!-- Head looking up -->
+    <ellipse cx="0" cy="-25" rx="30" ry="28" fill="#F9C6CF" transform="rotate(-8 0 -25)"/>
+    <!-- Snout -->
+    <ellipse cx="24" cy="-22" rx="12" ry="10" fill="#F9C6CF"/>
+    <circle cx="28" cy="-25" r="2.5" fill="#FF69B4"/>
+    <circle cx="28" cy="-19" r="2.5" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-10" cy="-52" rx="6" ry="12" fill="#F9C6CF"/>
+    <ellipse cx="10" cy="-52" rx="6" ry="12" fill="#F9C6CF"/>
+    <!-- Eyes looking up -->
+    <ellipse cx="-3" cy="-28" rx="4" ry="6" fill="white"/>
+    <ellipse cx="8" cy="-28" rx="4" ry="6" fill="white"/>
+    <circle cx="-2" cy="-27" r="2" fill="#333"/>
+    <circle cx="9" cy="-27" r="2" fill="#333"/>
+    <!-- George clutching dinosaur -->
+    <ellipse cx="20" cy="5" rx="9" ry="13" fill="#4CAF50"/>
+    <circle cx="22" cy="2" r="1.5" fill="#333"/>
+    <path d="M 11 10 Q 20 15 29 10" stroke="#2E7D32" stroke-width="2" fill="none"/>
+    <!-- Arms around dinosaur -->
+    <ellipse cx="15" cy="8" rx="6" ry="5" fill="#F9C6CF" opacity="0.8"/>
+  </g>
+  
+  <!-- Bird beginning to sing on branch -->
+  <line x1="320" y1="200" x2="360" y2="200" stroke="#8D6E63" stroke-width="5"/>
+  <!-- Bird -->
+  <ellipse cx="330" cy="195" rx="7" ry="6" fill="#FFC107"/>
+  <circle cx="332" cy="193" r="1.5" fill="#333"/>
+  <path d="M 337 195 Q 342 190 348 195" stroke="#333" stroke-width="2" fill="none"/>
+  <!-- Musical notes (singing) -->
+  <circle cx="345" cy="180" r="2.5" fill="#333"/>
+  <path d="M 345 177 L 345 185" stroke="#333" stroke-width="2"/>
+  <circle cx="350" cy="183" r="2" fill="#333"/>
+  <path d="M 350 181 L 350 190" stroke="#333" stroke-width="2"/>
+  <path d="M 350 190 Q 355 188 358 190" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <!-- Butterfly emerging -->
+  <g transform="translate(280, 280)">
+    <!-- Butterfly body -->
+    <ellipse cx="0" cy="0" rx="5" ry="8" fill="#E91E63"/>
+    <!-- Upper wings -->
+    <ellipse cx="-8" cy="-3" rx="6" ry="4" fill="#F06292"/>
+    <ellipse cx="8" cy="-3" rx="6" ry="4" fill="#F06292"/>
+    <!-- Lower wings -->
+    <ellipse cx="-6" cy="3" rx="5" ry="3" fill="#F06292"/>
+    <ellipse cx="6" cy="3" rx="5" ry="3" fill="#F06292"/>
+    <!-- Antennae -->
+    <line x1="-3" y1="-8" x2="-5" y2="-12" stroke="#333" stroke-width="1"/>
+    <line x1="3" y1="-8" x2="5" y2="-12" stroke="#333" stroke-width="1"/>
+    <circle cx="-5" cy="-12" r="1" fill="#333"/>
+    <circle cx="5" cy="-12" r="1" fill="#333"/>
+  </g>
+</svg>

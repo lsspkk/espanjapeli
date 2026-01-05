@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#FFF9C4"/>
+  <ellipse cx="200" cy="380" rx="220" ry="60" fill="#7BC043"/>
+    <g transform="translate(150, 280)">
+    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
+    <rect x="-20" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
+    <rect x="10" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
+    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
+    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
+    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
+    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
+    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <ellipse cx="-5" cy="-35" rx="6" ry="8" fill="white"/>
+    <ellipse cx="12" cy="-35" rx="6" ry="8" fill="white"/>
+    <circle cx="-4" cy="-34" r="3" fill="#333"/>
+    <circle cx="13" cy="-34" r="3" fill="#333"/>
+    <path d="M -5 -18 Q 10 -8 25 -18" stroke="#333" stroke-width="3" fill="none"/>
+  </g>
+    <g transform="translate(200, 280)">
+    <ellipse cx="0" cy="30" rx="38" ry="42" fill="#FFD700"/>
+    <rect x="-22" y="65" width="12" height="38" rx="6" fill="#F9C6CF"/>
+    <rect x="10" y="65" width="12" height="38" rx="6" fill="#F9C6CF"/>
+    <ellipse cx="0" cy="-30" rx="48" ry="38" fill="#F9C6CF"/>
+    <ellipse cx="38" cy="-30" rx="19" ry="15" fill="#F9C6CF"/>
+    <circle cx="45" cy="-33" r="4" fill="#FF69B4"/>
+    <circle cx="45" cy="-27" r="4" fill="#FF69B4"/>
+    <ellipse cx="-16" cy="-68" rx="11" ry="19" fill="#F9C6CF"/>
+    <ellipse cx="16" cy="-68" rx="11" ry="19" fill="#F9C6CF"/>
+    <ellipse cx="-6" cy="-36" rx="7" ry="9" fill="white"/>
+    <ellipse cx="13" cy="-36" rx="7" ry="9" fill="white"/>
+    <circle cx="-5" cy="-35" r="3.5" fill="#333"/>
+    <circle cx="14" cy="-35" r="3.5" fill="#333"/>
+    <path d="M -6 -20 Q 12 -10 30 -20" stroke="#333" stroke-width="3" fill="none"/>
+  </g>
+    <g transform="translate(250, 280)">
+    <ellipse cx="0" cy="32" rx="40" ry="45" fill="#FF8C42"/>
+    <rect x="-24" y="70" width="14" height="40" rx="7" fill="#F9C6CF"/>
+    <rect x="10" y="70" width="14" height="40" rx="7" fill="#F9C6CF"/>
+    <ellipse cx="0" cy="-28" rx="50" ry="40" fill="#F9C6CF"/>
+    <rect x="-35" y="-40" width="25" height="20" rx="12" fill="none" stroke="#333" stroke-width="3"/>
+    <rect x="10" y="-40" width="25" height="20" rx="12" fill="none" stroke="#333" stroke-width="3"/>
+    <line x1="-10" y1="-30" x2="10" y2="-30" stroke="#333" stroke-width="3"/>
+    <ellipse cx="40" cy="-28" rx="20" ry="16" fill="#F9C6CF"/>
+    <circle cx="48" cy="-31" r="4" fill="#FF69B4"/>
+    <circle cx="48" cy="-25" r="4" fill="#FF69B4"/>
+    <ellipse cx="-18" cy="-70" rx="12" ry="20" fill="#F9C6CF"/>
+    <ellipse cx="18" cy="-70" rx="12" ry="20" fill="#F9C6CF"/>
+    <ellipse cx="-18" cy="-35" rx="8" ry="10" fill="white"/>
+    <ellipse cx="18" cy="-35" rx="8" ry="10" fill="white"/>
+    <circle cx="-17" cy="-34" r="4" fill="#333"/>
+    <circle cx="19" cy="-34" r="4" fill="#333"/>
+    <path d="M -8 -18 Q 12 -8 32 -18" stroke="#333" stroke-width="3" fill="none"/>
+  </g>
+  <text x="200" y="150" text-anchor="middle" font-family="Arial" font-size="32" fill="#333" font-weight="bold">!</text>
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#5B6470" opacity="0.7">composer 1</text>
+</svg>

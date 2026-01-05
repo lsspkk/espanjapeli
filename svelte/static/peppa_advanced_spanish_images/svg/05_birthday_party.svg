@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background: Party atmosphere -->
+  <defs>
+    <linearGradient id="partyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE4EC"/>
+      <stop offset="50%" stop-color="#F3E5F5"/>
+      <stop offset="100%" stop-color="#E8EAF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#partyBg)"/>
+  
+  <!-- Confetti -->
+  <g>
+    <rect x="50" y="30" width="8" height="8" fill="#E91E63" transform="rotate(30 54 34)"/>
+    <rect x="120" y="50" width="6" height="6" fill="#2196F3" transform="rotate(-20 123 53)"/>
+    <rect x="200" y="25" width="7" height="7" fill="#4CAF50" transform="rotate(45 203 28)"/>
+    <rect x="280" y="45" width="6" height="6" fill="#FF9800" transform="rotate(15 283 48)"/>
+    <rect x="350" y="35" width="8" height="8" fill="#9C27B0" transform="rotate(-30 354 39)"/>
+    <circle cx="80" cy="60" r="4" fill="#FFEB3B"/>
+    <circle cx="160" cy="35" r="3" fill="#00BCD4"/>
+    <circle cx="240" cy="55" r="4" fill="#F44336"/>
+    <circle cx="320" cy="30" r="3" fill="#8BC34A"/>
+    <rect x="100" y="80" width="5" height="12" fill="#FF5722" transform="rotate(60 102 86)"/>
+    <rect x="300" y="70" width="5" height="12" fill="#3F51B5" transform="rotate(-45 302 76)"/>
+  </g>
+  
+  <!-- Balloons -->
+  <g>
+    <!-- Pink balloon -->
+    <g transform="translate(80, 120)">
+      <path d="M 0 80 Q -5 85 0 90" stroke="#888" stroke-width="1" fill="none"/>
+      <ellipse cx="0" cy="0" rx="35" ry="45" fill="#FF69B4"/>
+      <ellipse cx="-10" cy="-15" rx="8" ry="12" fill="white" opacity="0.4"/>
+      <polygon points="-5,45 5,45 0,55" fill="#FF1493"/>
+    </g>
+    
+    <!-- Blue balloon -->
+    <g transform="translate(140, 100)">
+      <path d="M 0 85 Q 5 90 0 95" stroke="#888" stroke-width="1" fill="none"/>
+      <ellipse cx="0" cy="0" rx="32" ry="42" fill="#64B5F6"/>
+      <ellipse cx="-8" cy="-12" rx="7" ry="10" fill="white" opacity="0.4"/>
+      <polygon points="-4,42 4,42 0,52" fill="#1976D2"/>
+    </g>
+    
+    <!-- Yellow balloon -->
+    <g transform="translate(260, 110)">
+      <path d="M 0 82 Q -5 87 0 92" stroke="#888" stroke-width="1" fill="none"/>
+      <ellipse cx="0" cy="0" rx="33" ry="43" fill="#FFEB3B"/>
+      <ellipse cx="-9" cy="-13" rx="7" ry="11" fill="white" opacity="0.4"/>
+      <polygon points="-4,43 4,43 0,53" fill="#FBC02D"/>
+    </g>
+    
+    <!-- Green balloon -->
+    <g transform="translate(320, 130)">
+      <path d="M 0 78 Q 5 83 0 88" stroke="#888" stroke-width="1" fill="none"/>
+      <ellipse cx="0" cy="0" rx="30" ry="40" fill="#81C784"/>
+      <ellipse cx="-8" cy="-12" rx="6" ry="10" fill="white" opacity="0.4"/>
+      <polygon points="-4,40 4,40 0,50" fill="#388E3C"/>
+    </g>
+  </g>
+  
+  <!-- Party banner -->
+  <g transform="translate(50, 180)">
+    <path d="M 0 0 Q 150 30 300 0" stroke="#FF4081" stroke-width="3" fill="none"/>
+    <!-- Banner flags -->
+    <polygon points="30,-5 45,20 15,20" fill="#E91E63"/>
+    <polygon points="70,-2 85,23 55,23" fill="#00BCD4"/>
+    <polygon points="110,2 125,27 95,27" fill="#FFEB3B"/>
+    <polygon points="150,5 165,30 135,30" fill="#4CAF50"/>
+    <polygon points="190,5 205,30 175,30" fill="#FF9800"/>
+    <polygon points="230,2 245,27 215,27" fill="#9C27B0"/>
+    <polygon points="270,-2 285,23 255,23" fill="#2196F3"/>
+  </g>
+  
+  <!-- Table -->
+  <rect x="50" y="320" width="300" height="15" rx="3" fill="#8D6E63"/>
+  <rect x="80" y="335" width="20" height="50" fill="#6D4C41"/>
+  <rect x="300" y="335" width="20" height="50" fill="#6D4C41"/>
+  
+  <!-- Birthday Cake -->
+  <g transform="translate(200, 260)">
+    <!-- Cake plate -->
+    <ellipse cx="0" cy="60" rx="70" ry="10" fill="#BDBDBD"/>
+    
+    <!-- Bottom tier -->
+    <rect x="-55" y="20" width="110" height="40" rx="5" fill="#FFCCBC"/>
+    <rect x="-55" y="20" width="110" height="8" fill="#FF8A65"/>
+    
+    <!-- Top tier -->
+    <rect x="-40" y="-20" width="80" height="40" rx="5" fill="#F8BBD9"/>
+    <rect x="-40" y="-20" width="80" height="8" fill="#EC407A"/>
+    
+    <!-- Frosting drips -->
+    <path d="M -50 20 Q -55 28 -50 35" stroke="#FFCCBC" stroke-width="6" fill="none"/>
+    <path d="M 50 20 Q 55 30 50 38" stroke="#FFCCBC" stroke-width="6" fill="none"/>
+    
+    <!-- Candles -->
+    <g>
+      <!-- Candle 1 -->
+      <rect x="-30" y="-50" width="8" height="30" fill="#FF69B4"/>
+      <ellipse cx="-26" cy="-50" rx="4" ry="2" fill="#FFB6C1"/>
+      <ellipse cx="-26" cy="-58" rx="4" ry="8" fill="#FF9800"/>
+      <ellipse cx="-26" cy="-60" rx="2" ry="4" fill="#FFEB3B"/>
+      
+      <!-- Candle 2 -->
+      <rect x="-6" y="-55" width="8" height="35" fill="#64B5F6"/>
+      <ellipse cx="-2" cy="-55" rx="4" ry="2" fill="#90CAF9"/>
+      <ellipse cx="-2" cy="-63" rx="4" ry="8" fill="#FF9800"/>
+      <ellipse cx="-2" cy="-65" rx="2" ry="4" fill="#FFEB3B"/>
+      
+      <!-- Candle 3 -->
+      <rect x="18" y="-50" width="8" height="30" fill="#81C784"/>
+      <ellipse cx="22" cy="-50" rx="4" ry="2" fill="#A5D6A7"/>
+      <ellipse cx="22" cy="-58" rx="4" ry="8" fill="#FF9800"/>
+      <ellipse cx="22" cy="-60" rx="2" ry="4" fill="#FFEB3B"/>
+    </g>
+    
+    <!-- Number 5 decoration -->
+    <text x="0" y="50" text-anchor="middle" font-family="Comic Sans MS, cursive" font-size="24" font-weight="bold" fill="#E91E63">5</text>
+  </g>
+  
+  <!-- Presents -->
+  <g transform="translate(90, 290)">
+    <!-- Present 1 -->
+    <rect x="0" y="0" width="40" height="35" rx="3" fill="#7E57C2"/>
+    <rect x="16" y="0" width="8" height="35" fill="#FFD54F"/>
+    <rect x="0" y="13" width="40" height="8" fill="#FFD54F"/>
+    <path d="M 20 0 Q 10 -15 20 -10 Q 30 -15 20 0" fill="#FFD54F"/>
+  </g>
+  
+  <g transform="translate(280, 285)">
+    <!-- Present 2 -->
+    <rect x="0" y="0" width="35" height="40" rx="3" fill="#26A69A"/>
+    <rect x="13" y="0" width="8" height="40" fill="#FF8A65"/>
+    <rect x="0" y="16" width="35" height="8" fill="#FF8A65"/>
+    <path d="M 17 0 Q 8 -12 17 -8 Q 26 -12 17 0" fill="#FF8A65"/>
+  </g>
+  
+  <!-- Sparkles -->
+  <g fill="#FFD700">
+    <polygon points="350,250 352,258 360,258 354,263 356,271 350,266 344,271 346,263 340,258 348,258"/>
+    <polygon points="60,240 61,246 67,246 62,250 64,256 60,252 56,256 58,250 53,246 59,246" transform="scale(0.8)"/>
+  </g>
+  
+  <!-- Party hats scattered -->
+  <g transform="translate(340, 350)">
+    <polygon points="0,-30 -15,0 15,0" fill="#FF4081"/>
+    <circle cx="0" cy="-30" r="5" fill="#FFEB3B"/>
+    <line x1="-8" y1="-15" x2="8" y2="-15" stroke="#FFF" stroke-width="2"/>
+  </g>
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

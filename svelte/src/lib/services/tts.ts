@@ -102,6 +102,49 @@ class TTSService {
 	}
 
 	/**
+	 * Speak Spanish word, then Finnish phrase sequentially
+	 * @param spanishText - Spanish text to speak first
+	 * @param finnishText - Finnish text to speak after Spanish finishes
+	 */
+	speakSpanishThenFinnish(spanishText: string, finnishText: string): void {
+		if (!this.speechSynthesis || !browser) return;
+
+		// Cancel any ongoing speech
+		this.speechSynthesis.cancel();
+
+		// Create Spanish utterance
+		const spanishUtterance = new SpeechSynthesisUtterance(spanishText);
+		spanishUtterance.lang = 'es-ES';
+		spanishUtterance.rate = 0.8;
+		spanishUtterance.pitch = 1.0;
+		spanishUtterance.volume = 1.0;
+
+		if (this.spanishVoice) {
+			spanishUtterance.voice = this.spanishVoice;
+		}
+
+		// Create Finnish utterance
+		const finnishUtterance = new SpeechSynthesisUtterance(finnishText);
+		finnishUtterance.lang = 'fi-FI';
+		finnishUtterance.rate = 0.9;
+		finnishUtterance.pitch = 1.0;
+		finnishUtterance.volume = 1.0;
+
+		if (this.finnishVoice) {
+			finnishUtterance.voice = this.finnishVoice;
+		}
+
+		// Chain: when Spanish finishes, speak Finnish
+		spanishUtterance.onend = () => {
+			console.log('🔊 Speaking in Finnish:', finnishText);
+			this.speechSynthesis!.speak(finnishUtterance);
+		};
+
+		console.log('🔊 Speaking in Spanish:', spanishText);
+		this.speechSynthesis.speak(spanishUtterance);
+	}
+
+	/**
 	 * Cancel any ongoing speech
 	 */
 	cancel(): void {

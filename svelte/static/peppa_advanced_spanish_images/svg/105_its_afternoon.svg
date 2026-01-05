@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <!-- Sky gradient - warm afternoon blue with golden quality -->
+    <linearGradient id="afternoonSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#64B5F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD54F;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="400" height="400" fill="url(#afternoonSky)"/>
+  
+  <!-- Sun high in sky but beginning descent -->
+  <circle cx="320" cy="80" r="35" fill="#FFD54F" opacity="0.9"/>
+  <circle cx="320" cy="80" r="30" fill="#FFEB3B"/>
+  
+  <!-- Ground with longer shadows -->
+  <ellipse cx="200" cy="380" rx="400" ry="80" fill="#81C784"/>
+  
+  <!-- Trees casting dappled shade -->
+  <g transform="translate(80, 300)">
+    <!-- Tree trunk -->
+    <rect x="-8" y="0" width="16" height="60" fill="#8D6E63" rx="2"/>
+    <!-- Tree foliage -->
+    <ellipse cx="0" cy="-10" rx="35" ry="40" fill="#66BB6A"/>
+    <ellipse cx="15" cy="-5" rx="25" ry="30" fill="#4CAF50"/>
+    <ellipse cx="-15" cy="-5" rx="25" ry="30" fill="#4CAF50"/>
+  </g>
+  
+  <g transform="translate(320, 310)">
+    <!-- Tree trunk -->
+    <rect x="-8" y="0" width="16" height="50" fill="#8D6E63" rx="2"/>
+    <!-- Tree foliage -->
+    <ellipse cx="0" cy="-10" rx="30" ry="35" fill="#66BB6A"/>
+    <ellipse cx="12" cy="-5" rx="22" ry="28" fill="#4CAF50"/>
+    <ellipse cx="-12" cy="-5" rx="22" ry="28" fill="#4CAF50"/>
+  </g>
+  
+  <!-- Picnic table with empty lunch boxes -->
+  <g transform="translate(100, 320)">
+    <!-- Table top -->
+    <rect x="-40" y="-5" width="80" height="8" fill="#8D6E63" rx="2"/>
+    <!-- Table legs -->
+    <rect x="-35" y="3" width="6" height="25" fill="#6D4C41" rx="1"/>
+    <rect x="29" y="3" width="6" height="25" fill="#6D4C41" rx="1"/>
+    <!-- Empty lunch boxes -->
+    <rect x="-30" y="-8" width="20" height="15" fill="#FFB74D" rx="2"/>
+    <rect x="10" y="-8" width="20" height="15" fill="#FFB74D" rx="2"/>
+  </g>
+  
+  <!-- Parents on benches having coffee -->
+  <g transform="translate(50, 340)">
+    <!-- Bench -->
+    <rect x="-25" y="0" width="50" height="6" fill="#8D6E63" rx="1"/>
+    <rect x="-20" y="6" width="5" height="8" fill="#6D4C41"/>
+    <rect x="15" y="6" width="5" height="8" fill="#6D4C41"/>
+    <!-- Parent silhouette (simplified) -->
+    <ellipse cx="0" cy="-15" rx="12" ry="15" fill="#B0BEC5"/>
+  </g>
+  
+  <!-- Ice cream vendor's cart in distance -->
+  <g transform="translate(350, 280)">
+    <!-- Cart -->
+    <rect x="-15" y="0" width="30" height="20" fill="#FFB74D" rx="2"/>
+    <rect x="-12" y="3" width="24" height="14" fill="#FFF9C4"/>
+    <!-- Umbrella -->
+    <ellipse cx="0" cy="-5" rx="18" ry="8" fill="#E91E63"/>
+    <!-- Handle -->
+    <rect x="-1" y="0" width="2" height="8" fill="#8D6E63"/>
+  </g>
+  
+  <!-- Playground equipment: Slide -->
+  <g transform="translate(280, 250)">
+    <!-- Slide structure -->
+    <rect x="-5" y="0" width="10" height="80" fill="#FF6B6B" rx="2"/>
+    <!-- Slide surface -->
+    <path d="M -5 0 Q 20 40 45 80" stroke="#FF8E53" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- Ladder -->
+    <rect x="-15" y="0" width="4" height="60" fill="#FF6B6B"/>
+    <rect x="-15" y="10" width="10" height="2" fill="#FF6B6B"/>
+    <rect x="-15" y="25" width="10" height="2" fill="#FF6B6B"/>
+    <rect x="-15" y="40" width="10" height="2" fill="#FF6B6B"/>
+  </g>
+  
+  <!-- Playground equipment: Swing set -->
+  <g transform="translate(150, 240)">
+    <!-- Swing frame -->
+    <rect x="-3" y="0" width="6" height="70" fill="#4ECDC4"/>
+    <rect x="43" y="0" width="6" height="70" fill="#4ECDC4"/>
+    <rect x="-3" y="0" width="52" height="6" fill="#4ECDC4"/>
+    <!-- Swing seat -->
+    <rect x="15" y="50" width="12" height="3" fill="#FF6B6B" rx="1"/>
+    <!-- Swing ropes -->
+    <line x1="18" y1="6" x2="18" y2="50" stroke="#8D6E63" stroke-width="2"/>
+    <line x1="24" y1="6" x2="24" y2="50" stroke="#8D6E63" stroke-width="2"/>
+  </g>
+  
+  <!-- Suzy Sheep on swing at mid-height -->
+  <g transform="translate(150, 280)">
+    <!-- Body -->
+    <ellipse cx="0" cy="10" rx="14" ry="18" fill="#FFFFFF"/>
+    <!-- Legs -->
+    <rect x="-8" y="25" width="5" height="20" rx="2" fill="#FFFFFF"/>
+    <rect x="3" y="25" width="5" height="20" rx="2" fill="#FFFFFF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-15" rx="18" ry="16" fill="#FFFFFF"/>
+    <!-- Snout -->
+    <ellipse cx="12" cy="-15" rx="8" ry="6" fill="#FFFFFF"/>
+    <!-- Ears -->
+    <ellipse cx="-8" cy="-30" rx="5" ry="10" fill="#FFFFFF"/>
+    <ellipse cx="8" cy="-30" rx="5" ry="10" fill="#FFFFFF"/>
+    <!-- Eyes -->
+    <ellipse cx="-3" cy="-18" rx="4" ry="5" fill="white"/>
+    <ellipse cx="5" cy="-18" rx="4" ry="5" fill="white"/>
+    <circle cx="-2" cy="-17" r="2" fill="#333"/>
+    <circle cx="6" cy="-17" r="2" fill="#333"/>
+    <!-- Smile -->
+    <path d="M -3 -10 Q 0 -6 3 -10" stroke="#333" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Danny Dog climbing playground equipment -->
+  <g transform="translate(280, 200)">
+    <!-- Body -->
+    <ellipse cx="0" cy="15" rx="16" ry="20" fill="#FFB74D"/>
+    <!-- Legs climbing -->
+    <rect x="-10" y="30" width="6" height="25" rx="3" fill="#FFB74D"/>
+    <rect x="4" y="30" width="6" height="25" rx="3" fill="#FFB74D"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-10" rx="20" ry="18" fill="#FFB74D"/>
+    <!-- Snout -->
+    <ellipse cx="15" cy="-10" rx="10" ry="8" fill="#FFB74D"/>
+    <!-- Ears -->
+    <ellipse cx="-10" cy="-25" rx="6" ry="12" fill="#FFB74D"/>
+    <ellipse cx="10" cy="-25" rx="6" ry="12" fill="#FFB74D"/>
+    <!-- Eyes -->
+    <ellipse cx="-4" cy="-13" rx="4" ry="5" fill="white"/>
+    <ellipse cx="6" cy="-13" rx="4" ry="5" fill="white"/>
+    <circle cx="-3" cy="-12" r="2" fill="#333"/>
+    <circle cx="7" cy="-12" r="2" fill="#333"/>
+    <!-- Smile -->
+    <path d="M -4 -5 Q 0 -1 4 -5" stroke="#333" stroke-width="2" fill="none"/>
+    <!-- Arms reaching up -->
+    <ellipse cx="-12" cy="5" rx="8" ry="6" fill="#FFB74D" transform="rotate(-45 -12 5)"/>
+    <ellipse cx="12" cy="5" rx="8" ry="6" fill="#FFB74D" transform="rotate(45 12 5)"/>
+  </g>
+  
+  <!-- Peppa in center jumping rope or playing hopscotch -->
+  <g transform="translate(200, 280)">
+    <!-- Body -->
+    <ellipse cx="0" cy="25" rx="28" ry="32" fill="#E63946"/>
+    <!-- Legs mid-jump -->
+    <rect x="-15" y="50" width="10" height="30" rx="5" fill="#F9C6CF" transform="rotate(-20 -15 50)"/>
+    <rect x="5" y="50" width="10" height="30" rx="5" fill="#F9C6CF" transform="rotate(20 5 50)"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-20" rx="38" ry="32" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="28" cy="-20" rx="15" ry="12" fill="#F9C6CF"/>
+    <circle cx="32" cy="-23" r="3" fill="#FF69B4"/>
+    <circle cx="32" cy="-17" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-12" cy="-55" rx="8" ry="15" fill="#F9C6CF"/>
+    <ellipse cx="12" cy="-55" rx="8" ry="15" fill="#F9C6CF"/>
+    <!-- Eyes -->
+    <ellipse cx="-5" cy="-25" rx="6" ry="8" fill="white"/>
+    <ellipse cx="10" cy="-25" rx="6" ry="8" fill="white"/>
+    <circle cx="-4" cy="-24" r="3" fill="#333"/>
+    <circle cx="11" cy="-24" r="3" fill="#333"/>
+    <!-- Excited smile -->
+    <path d="M -5 -12 Q 0 -6 5 -12" stroke="#333" stroke-width="3" fill="none"/>
+    <!-- Arms raised holding jump rope -->
+    <ellipse cx="-25" cy="5" rx="10" ry="8" fill="#F9C6CF" transform="rotate(-30 -25 5)"/>
+    <ellipse cx="25" cy="5" rx="10" ry="8" fill="#F9C6CF" transform="rotate(30 25 5)"/>
+    <!-- Jump rope -->
+    <path d="M -20 0 Q 0 -15 20 0" stroke="#FF6B6B" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Longer shadows stretching across ground -->
+  <ellipse cx="200" cy="380" rx="180" ry="40" fill="#66BB6A" opacity="0.3"/>
+  
+  <!-- Motion lines around Peppa -->
+  <g opacity="0.4">
+    <line x1="170" y1="280" x2="160" y2="280" stroke="#999" stroke-width="2"/>
+    <line x1="230" y1="280" x2="240" y2="280" stroke="#999" stroke-width="2"/>
+    <line x1="200" y1="250" x2="200" y2="240" stroke="#999" stroke-width="2"/>
+  </g>
+</svg>

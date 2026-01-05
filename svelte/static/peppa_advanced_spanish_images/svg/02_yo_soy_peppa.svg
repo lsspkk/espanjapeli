@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background: Simple pink gradient -->
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#FFF5F5"/>
+      <stop offset="100%" stop-color="#FFEEF0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="60" cy="80" r="20" fill="#FFB6C1" opacity="0.3"/>
+  <circle cx="340" cy="100" r="25" fill="#FFB6C1" opacity="0.3"/>
+  <circle cx="80" cy="320" r="18" fill="#FFB6C1" opacity="0.3"/>
+  <circle cx="320" cy="300" r="22" fill="#FFB6C1" opacity="0.3"/>
+  
+  <!-- Peppa standing front/center pointing to self -->
+  <g transform="translate(200, 200)">
+    <!-- Body (red dress) -->
+    <ellipse cx="0" cy="40" rx="50" ry="55" fill="#E63946"/>
+    <!-- Dress details -->
+    <path d="M -40 70 Q 0 90 40 70" stroke="#C1121F" stroke-width="3" fill="none"/>
+    
+    <!-- Legs -->
+    <rect x="-30" y="85" width="15" height="50" rx="7" fill="#F9C6CF"/>
+    <rect x="15" y="85" width="15" height="50" rx="7" fill="#F9C6CF"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-22" cy="140" rx="18" ry="10" fill="#333"/>
+    <ellipse cx="22" cy="140" rx="18" ry="10" fill="#333"/>
+    
+    <!-- Left arm pointing to chest -->
+    <path d="M -45 35 Q -70 20 -55 50" stroke="#F9C6CF" stroke-width="15" stroke-linecap="round" fill="none"/>
+    <circle cx="-50" cy="50" r="10" fill="#F9C6CF"/>
+    
+    <!-- Right arm relaxed -->
+    <path d="M 45 40 Q 75 55 70 70" stroke="#F9C6CF" stroke-width="15" stroke-linecap="round" fill="none"/>
+    <circle cx="70" cy="70" r="10" fill="#F9C6CF"/>
+    
+    <!-- Head - larger for emphasis -->
+    <ellipse cx="0" cy="-45" rx="60" ry="50" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="50" cy="-45" rx="25" ry="18" fill="#F9C6CF"/>
+    <circle cx="60" cy="-50" r="5" fill="#FF69B4"/>
+    <circle cx="60" cy="-40" r="5" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-20" cy="-95" rx="14" ry="24" fill="#F9C6CF"/>
+    <ellipse cx="20" cy="-95" rx="14" ry="24" fill="#F9C6CF"/>
+    <ellipse cx="-20" cy="-95" rx="8" ry="15" fill="#FFB6C1" opacity="0.5"/>
+    <ellipse cx="20" cy="-95" rx="8" ry="15" fill="#FFB6C1" opacity="0.5"/>
+    
+    <!-- Eyes - big and expressive -->
+    <ellipse cx="-12" cy="-55" rx="10" ry="12" fill="white"/>
+    <ellipse cx="18" cy="-55" rx="10" ry="12" fill="white"/>
+    <circle cx="-10" cy="-53" r="5" fill="#333"/>
+    <circle cx="20" cy="-53" r="5" fill="#333"/>
+    <!-- Eye shine -->
+    <circle cx="-12" cy="-56" r="2" fill="white"/>
+    <circle cx="18" cy="-56" r="2" fill="white"/>
+    
+    <!-- Eyebrows (friendly) -->
+    <path d="M -22 -70 Q -12 -75 -2 -70" stroke="#333" stroke-width="2" fill="none"/>
+    <path d="M 8 -70 Q 18 -75 28 -70" stroke="#333" stroke-width="2" fill="none"/>
+    
+    <!-- Happy smile -->
+    <path d="M 5 -30 Q 25 -18 40 -30" stroke="#333" stroke-width="3" fill="none"/>
+    
+    <!-- Rosy cheeks -->
+    <circle cx="-25" cy="-35" r="10" fill="#FFB6C1" opacity="0.5"/>
+    <circle cx="35" cy="-35" r="8" fill="#FFB6C1" opacity="0.5"/>
+  </g>
+  
+  <!-- Pointing arrow effect -->
+  <g transform="translate(120, 235)">
+    <path d="M 0 0 L 30 0 L 25 -8 M 30 0 L 25 8" stroke="#E63946" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Sparkle stars around Peppa -->
+  <g fill="#FFD700">
+    <polygon points="70,150 73,160 83,160 75,166 78,176 70,170 62,176 65,166 57,160 67,160"/>
+    <polygon points="330,180 332,187 340,187 334,191 336,198 330,194 324,198 326,191 320,187 328,187" transform="scale(0.8)"/>
+    <polygon points="90,280 92,287 100,287 94,291 96,298 90,294 84,298 86,291 80,287 88,287" transform="scale(0.7)"/>
+  </g>
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

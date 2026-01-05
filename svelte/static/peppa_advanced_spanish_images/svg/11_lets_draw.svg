@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background: Art room -->
+  <defs>
+    <linearGradient id="artBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#artBg)"/>
+  
+  <!-- Table -->
+  <rect x="50" y="300" width="300" height="25" rx="5" fill="#8D6E63"/>
+  <rect x="80" y="325" width="20" height="50" fill="#6D4C41"/>
+  <rect x="300" y="325" width="20" height="50" fill="#6D4C41"/>
+  
+  <!-- Paper on table -->
+  <rect x="120" y="250" width="160" height="120" rx="3" fill="white" stroke="#BDBDBD" stroke-width="2"/>
+  
+  <!-- Drawing on paper (simple house) -->
+  <g stroke="#333" stroke-width="2" fill="none">
+    <!-- House shape -->
+    <rect x="150" y="280" width="100" height="70"/>
+    <!-- Roof -->
+    <path d="M 140 280 L 200 240 L 260 280"/>
+    <!-- Door -->
+    <rect x="180" y="320" width="40" height="30"/>
+    <!-- Window -->
+    <circle cx="200" cy="300" r="15"/>
+  </g>
+  
+  <!-- Crayons/pencils -->
+  <g transform="translate(100, 270)">
+    <!-- Red crayon -->
+    <rect x="0" y="0" width="8" height="40" rx="2" fill="#E63946"/>
+    <ellipse cx="4" cy="0" rx="4" ry="3" fill="#FF6B6B"/>
+    <!-- Blue crayon -->
+    <rect x="15" y="0" width="8" height="40" rx="2" fill="#2196F3"/>
+    <ellipse cx="19" cy="0" rx="4" ry="3" fill="#64B5F6"/>
+    <!-- Yellow crayon -->
+    <rect x="30" y="0" width="8" height="40" rx="2" fill="#FFEB3B"/>
+    <ellipse cx="34" cy="0" rx="4" ry="3" fill="#FFF176"/>
+    <!-- Green crayon -->
+    <rect x="45" y="0" width="8" height="40" rx="2" fill="#4CAF50"/>
+    <ellipse cx="49" cy="0" rx="4" ry="3" fill="#81C784"/>
+  </g>
+  
+  <!-- Peppa drawing -->
+  <g transform="translate(200, 200)">
+    <!-- Body (red dress) -->
+    <ellipse cx="0" cy="50" rx="45" ry="50" fill="#E63946"/>
+    
+    <!-- Legs (sitting) -->
+    <rect x="-25" y="90" width="12" height="30" rx="6" fill="#F9C6CF"/>
+    <rect x="13" y="90" width="12" height="30" rx="6" fill="#F9C6CF"/>
+    
+    <!-- Right arm holding crayon -->
+    <path d="M 40 40 Q 60 20 70 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="70" cy="0" r="12" fill="#F9C6CF"/>
+    <!-- Crayon in hand -->
+    <rect x="65" y="-5" width="6" height="20" rx="2" fill="#E63946" transform="rotate(30 68 5)"/>
+    
+    <!-- Left arm on table -->
+    <path d="M -40 45 Q -50 60 -45 80" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="-45" cy="80" r="12" fill="#F9C6CF"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
+    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
+    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
+    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
+    
+    <!-- Eyes (focused on drawing) -->
+    <ellipse cx="-10" cy="-55" rx="8" ry="10" fill="white"/>
+    <ellipse cx="15" cy="-55" rx="8" ry="10" fill="white"/>
+    <circle cx="-8" cy="-53" r="4" fill="#333"/>
+    <circle cx="17" cy="-53" r="4" fill="#333"/>
+    
+    <!-- Concentrated expression -->
+    <path d="M -5 -30 Q 10 -25 25 -30" stroke="#333" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Art supplies scattered -->
+  <g transform="translate(280, 280)">
+    <!-- Paintbrush -->
+    <rect x="0" y="0" width="4" height="30" fill="#8D6E63"/>
+    <ellipse cx="2" cy="0" rx="8" ry="6" fill="#FF6B6B"/>
+  </g>
+  
+  <!-- Signature -->
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Composer 1</text>
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

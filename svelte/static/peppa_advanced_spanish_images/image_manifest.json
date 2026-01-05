@@ -1,0 +1,6298 @@
+{
+  "version": "1.1",
+  "description": "Image manifest for Peppa Pig Spanish Learning Game - maps Spanish phrases to visual content with dual display (SVG + emoji/icons)",
+  "gameMode": "audio_to_image_matching",
+  "instructions": "Player hears Spanish phrase, must select correct image. Button alternates between SVG illustration and emoji composition.",
+  "iconPacks": {
+    "installed": [
+      {
+        "name": "lucide-svelte",
+        "npm": "lucide-svelte",
+        "icons": "1400+",
+        "license": "ISC",
+        "usage": "import { Icon } from 'lucide-svelte'"
+      },
+      {
+        "name": "phosphor-svelte",
+        "npm": "phosphor-svelte",
+        "icons": "7000+",
+        "license": "MIT",
+        "usage": "import { Icon } from 'phosphor-svelte'"
+      },
+      {
+        "name": "iconify-svelte",
+        "npm": "@iconify/svelte",
+        "icons": "200000+",
+        "license": "MIT",
+        "usage": "import Icon from '@iconify/svelte'; <Icon icon='mdi:pig' />"
+      }
+    ],
+    "utf_emojis": "Standard Unicode emojis (no install needed)"
+  },
+  "images": [
+    {
+      "id": "muddy_puddles",
+      "file": "svg/01_muddy_puddles.svg",
+      "phrases": [
+        "¡Me encanta saltar en los charcos de barro!",
+        "¿Podemos saltar en los charcos?",
+        "saltar"
+      ],
+      "category": "activities",
+      "keywords": [
+        "jump",
+        "puddle",
+        "mud",
+        "splash",
+        "boots"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "💦",
+          "🟤",
+          "👢",
+          "😄"
+        ],
+        "display": "🐷💦🟤👢😄",
+        "description": "Pig + water splash + brown (mud) + boots + happy"
+      },
+      "iconTip": {
+        "lucide": [
+          "Footprints",
+          "Droplets",
+          "Smile"
+        ],
+        "phosphor": [
+          "Boot",
+          "Drop",
+          "SmileyWink"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:droplet",
+          "noto:hiking-boot"
+        ]
+      },
+      "distractorPool": [
+        "swimming",
+        "bathing",
+        "rain",
+        "sad_puddle"
+      ]
+    },
+    {
+      "id": "yo_soy_peppa",
+      "file": "svg/02_yo_soy_peppa.svg",
+      "phrases": [
+        "Yo soy Peppa Pig.",
+        "Esta es Peppa.",
+        "Soy Peppa."
+      ],
+      "category": "introduction",
+      "keywords": [
+        "peppa",
+        "identity",
+        "pig",
+        "pink",
+        "introduction"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👆",
+          "💗",
+          "✨"
+        ],
+        "display": "🐷👆💗✨",
+        "description": "Pig + pointing up (to self) + pink heart + sparkle"
+      },
+      "iconTip": {
+        "lucide": [
+          "User",
+          "Sparkles"
+        ],
+        "phosphor": [
+          "UserCircle",
+          "Sparkle"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:backhand-index-pointing-up",
+          "noto:sparkling-heart"
+        ]
+      },
+      "distractorPool": [
+        "george",
+        "mummy_pig",
+        "daddy_pig",
+        "suzy_sheep"
+      ]
+    },
+    {
+      "id": "bedtime",
+      "file": "svg/03_bedtime.svg",
+      "phrases": [
+        "¡Hora de ir a la cama!",
+        "Es la hora de dormir.",
+        "Tengo sueño.",
+        "Estoy cansado.",
+        "Estoy cansada."
+      ],
+      "category": "time_of_day",
+      "keywords": [
+        "bed",
+        "sleep",
+        "night",
+        "moon",
+        "tired",
+        "zzz"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🛏️",
+          "🌙",
+          "😴",
+          "⭐",
+          "💤"
+        ],
+        "display": "🛏️🌙😴⭐💤",
+        "description": "Bed + moon + sleeping face + star + zzz"
+      },
+      "iconTip": {
+        "lucide": [
+          "Bed",
+          "Moon",
+          "Star"
+        ],
+        "phosphor": [
+          "Bed",
+          "Moon",
+          "Star"
+        ],
+        "iconify": [
+          "noto:bed",
+          "noto:crescent-moon",
+          "noto:sleeping-face"
+        ]
+      },
+      "distractorPool": [
+        "morning",
+        "breakfast",
+        "playing",
+        "sunny_day"
+      ]
+    },
+    {
+      "id": "sunny_day",
+      "file": "svg/04_sunny_day.svg",
+      "phrases": [
+        "Hace sol.",
+        "Hace buen tiempo.",
+        "Hace calor."
+      ],
+      "category": "weather",
+      "keywords": [
+        "sun",
+        "sunny",
+        "warm",
+        "bright",
+        "flowers",
+        "butterfly"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "☀️",
+          "😎",
+          "🌸",
+          "🦋"
+        ],
+        "display": "☀️😎🌸🦋",
+        "description": "Sun + cool face + flower + butterfly"
+      },
+      "iconTip": {
+        "lucide": [
+          "Sun",
+          "Flower",
+          "Smile"
+        ],
+        "phosphor": [
+          "Sun",
+          "Flower",
+          "Butterfly"
+        ],
+        "iconify": [
+          "noto:sun",
+          "noto:smiling-face-with-sunglasses",
+          "noto:butterfly"
+        ]
+      },
+      "distractorPool": [
+        "rainy",
+        "snowy",
+        "cloudy",
+        "windy"
+      ]
+    },
+    {
+      "id": "birthday_party",
+      "file": "svg/05_birthday_party.svg",
+      "phrases": [
+        "¡Feliz cumpleaños, Peppa!",
+        "el cumpleaños",
+        "la tarta",
+        "la fiesta",
+        "Hoy es un día especial."
+      ],
+      "category": "celebrations",
+      "keywords": [
+        "birthday",
+        "cake",
+        "candles",
+        "presents",
+        "balloons",
+        "party"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🎂",
+          "🎈",
+          "🎁",
+          "🎉",
+          "🐷"
+        ],
+        "display": "🎂🎈🎁🎉🐷",
+        "description": "Cake + balloon + present + party popper + pig"
+      },
+      "iconTip": {
+        "lucide": [
+          "Cake",
+          "Gift",
+          "PartyPopper"
+        ],
+        "phosphor": [
+          "Cake",
+          "Gift",
+          "Confetti"
+        ],
+        "iconify": [
+          "noto:birthday-cake",
+          "noto:balloon",
+          "noto:wrapped-gift",
+          "noto:party-popper"
+        ]
+      },
+      "distractorPool": [
+        "school",
+        "dinner",
+        "bedtime",
+        "shopping"
+      ]
+    },
+    {
+      "id": "lets_play",
+      "file": "svg/06_lets_play.svg",
+      "phrases": [
+        "¡Vamos a jugar!",
+        "¿Quieres jugar?",
+        "jugar"
+      ],
+      "category": "activities",
+      "keywords": [
+        "play",
+        "fun",
+        "games",
+        "friends",
+        "toys"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🎮",
+          "⚽",
+          "🎲",
+          "😄"
+        ],
+        "display": "🐷🎮⚽🎲😄",
+        "description": "Pig + game controller + ball + dice + happy"
+      },
+      "iconTip": {
+        "lucide": [
+          "Gamepad2",
+          "PlayCircle",
+          "Smile"
+        ],
+        "phosphor": [
+          "GameController",
+          "SoccerBall",
+          "Dice"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:video-game",
+          "noto:soccer-ball"
+        ]
+      },
+      "distractorPool": [
+        "bedtime",
+        "eating",
+        "studying",
+        "sleeping"
+      ]
+    },
+    {
+      "id": "i_am_happy",
+      "file": "svg/07_i_am_happy.svg",
+      "phrases": [
+        "Estoy feliz.",
+        "¡Qué alegría!",
+        "Me siento feliz."
+      ],
+      "category": "emotions",
+      "keywords": [
+        "happy",
+        "joy",
+        "smile",
+        "cheerful",
+        "glad"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "😊",
+          "💖",
+          "✨",
+          "🌈"
+        ],
+        "display": "🐷😊💖✨🌈",
+        "description": "Pig + smiling face + heart + sparkle + rainbow"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart",
+          "Sparkles"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart",
+          "Sparkle"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:smiling-face-with-smiling-eyes",
+          "noto:sparkling-heart"
+        ]
+      },
+      "distractorPool": [
+        "sad",
+        "angry",
+        "scared",
+        "tired"
+      ]
+    },
+    {
+      "id": "i_am_sad",
+      "file": "svg/08_i_am_sad.svg",
+      "phrases": [
+        "Estoy triste.",
+        "Me siento triste.",
+        "Estoy un poco triste."
+      ],
+      "category": "emotions",
+      "keywords": [
+        "sad",
+        "unhappy",
+        "crying",
+        "tears",
+        "blue"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "😢",
+          "💧",
+          "☁️",
+          "💔"
+        ],
+        "display": "🐷😢💧☁️💔",
+        "description": "Pig + crying face + tear + cloud + broken heart"
+      },
+      "iconTip": {
+        "lucide": [
+          "Frown",
+          "CloudRain",
+          "Heart"
+        ],
+        "phosphor": [
+          "FaceSad",
+          "CloudRain",
+          "HeartBreak"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:crying-face",
+          "noto:broken-heart"
+        ]
+      },
+      "distractorPool": [
+        "happy",
+        "excited",
+        "laughing",
+        "joyful"
+      ]
+    },
+    {
+      "id": "its_raining",
+      "file": "svg/09_its_raining.svg",
+      "phrases": [
+        "Está lloviendo.",
+        "Llueve.",
+        "Hay charcos."
+      ],
+      "category": "weather",
+      "keywords": [
+        "rain",
+        "raining",
+        "puddles",
+        "clouds",
+        "wet",
+        "umbrella"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🌧️",
+          "☔",
+          "💧",
+          "☁️",
+          "🐷"
+        ],
+        "display": "🌧️☔💧☁️🐷",
+        "description": "Rain cloud + umbrella + droplet + cloud + pig"
+      },
+      "iconTip": {
+        "lucide": [
+          "CloudRain",
+          "Umbrella",
+          "Droplets"
+        ],
+        "phosphor": [
+          "CloudRain",
+          "Umbrella",
+          "Drop"
+        ],
+        "iconify": [
+          "noto:cloud-with-rain",
+          "noto:umbrella",
+          "noto:droplet"
+        ]
+      },
+      "distractorPool": [
+        "sunny",
+        "snowy",
+        "windy",
+        "hot"
+      ]
+    },
+    {
+      "id": "its_time_to_eat",
+      "file": "svg/10_its_time_to_eat.svg",
+      "phrases": [
+        "¡Es hora de comer!",
+        "Es la hora de comer.",
+        "La comida está lista."
+      ],
+      "category": "daily_routine",
+      "keywords": [
+        "eat",
+        "food",
+        "meal",
+        "lunch",
+        "dinner",
+        "hungry"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🍽️",
+          "🍕",
+          "🥗",
+          "😋"
+        ],
+        "display": "🐷🍽️🍕🥗😋",
+        "description": "Pig + plate + pizza + salad + yum face"
+      },
+      "iconTip": {
+        "lucide": [
+          "UtensilsCrossed",
+          "Pizza",
+          "Apple"
+        ],
+        "phosphor": [
+          "ForkKnife",
+          "Pizza",
+          "Bowl"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:fork-and-knife-with-plate",
+          "noto:pizza"
+        ]
+      },
+      "distractorPool": [
+        "bedtime",
+        "playing",
+        "bathing",
+        "reading"
+      ]
+    },
+    {
+      "id": "lets_draw",
+      "file": "svg/11_lets_draw.svg",
+      "phrases": [
+        "Vamos a dibujar.",
+        "¿Quieres dibujar?",
+        "dibujar"
+      ],
+      "category": "activities",
+      "keywords": [
+        "draw",
+        "drawing",
+        "art",
+        "crayons",
+        "paper",
+        "creative"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "✏️",
+          "🎨",
+          "📝",
+          "🖍️"
+        ],
+        "display": "🐷✏️🎨📝🖍️",
+        "description": "Pig + pencil + art palette + paper + crayon"
+      },
+      "iconTip": {
+        "lucide": [
+          "Pencil",
+          "Palette",
+          "PenTool"
+        ],
+        "phosphor": [
+          "Pencil",
+          "PaintBrush",
+          "Palette"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:pencil",
+          "noto:artist-palette"
+        ]
+      },
+      "distractorPool": [
+        "singing",
+        "dancing",
+        "sleeping",
+        "eating"
+      ]
+    },
+    {
+      "id": "lets_swim",
+      "file": "svg/12_lets_swim.svg",
+      "phrases": [
+        "Vamos a nadar.",
+        "¿Quieres nadar?",
+        "nadar"
+      ],
+      "category": "activities",
+      "keywords": [
+        "swim",
+        "swimming",
+        "pool",
+        "water",
+        "splash"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🏊",
+          "💦",
+          "🩱",
+          "🏖️"
+        ],
+        "display": "🐷🏊💦🩱🏖️",
+        "description": "Pig + swimmer + water splash + swimsuit + beach"
+      },
+      "iconTip": {
+        "lucide": [
+          "Waves",
+          "Droplets",
+          "Sun"
+        ],
+        "phosphor": [
+          "Swimmer",
+          "Waves",
+          "Drop"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:person-swimming",
+          "noto:water-wave"
+        ]
+      },
+      "distractorPool": [
+        "running",
+        "jumping",
+        "sleeping",
+        "reading"
+      ]
+    },
+    {
+      "id": "lets_dance",
+      "file": "svg/13_lets_dance.svg",
+      "phrases": [
+        "Vamos a bailar.",
+        "¿Quieres bailar?",
+        "bailar"
+      ],
+      "category": "activities",
+      "keywords": [
+        "dance",
+        "dancing",
+        "music",
+        "move",
+        "rhythm"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "💃",
+          "🎵",
+          "🎶",
+          "✨"
+        ],
+        "display": "🐷💃🎵🎶✨",
+        "description": "Pig + dancer + music note + notes + sparkle"
+      },
+      "iconTip": {
+        "lucide": [
+          "Music",
+          "Sparkles",
+          "Radio"
+        ],
+        "phosphor": [
+          "MusicNote",
+          "Dancer",
+          "Sparkle"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:woman-dancing",
+          "noto:musical-notes"
+        ]
+      },
+      "distractorPool": [
+        "sleeping",
+        "eating",
+        "studying",
+        "crying"
+      ]
+    },
+    {
+      "id": "good_morning_madame_gazelle",
+      "file": "svg/14_good_morning_madame_gazelle.svg",
+      "phrases": [
+        "Buenos días, Madame Gazelle.",
+        "Hola, Madame Gazelle.",
+        "Buenos días."
+      ],
+      "category": "school",
+      "keywords": [
+        "good morning",
+        "teacher",
+        "greeting",
+        "school",
+        "hello"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👋",
+          "👩‍🏫",
+          "🌅",
+          "🏫"
+        ],
+        "display": "🐷👋👩‍🏫🌅🏫",
+        "description": "Pig + wave + teacher + sunrise + school"
+      },
+      "iconTip": {
+        "lucide": [
+          "Sun",
+          "School",
+          "Hand"
+        ],
+        "phosphor": [
+          "HandWaving",
+          "Student",
+          "Sun"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:waving-hand",
+          "noto:woman-teacher"
+        ]
+      },
+      "distractorPool": [
+        "bedtime",
+        "goodbye",
+        "night",
+        "sleeping"
+      ]
+    },
+    {
+      "id": "do_you_want_to_play_with_me",
+      "file": "svg/15_do_you_want_to_play_with_me.svg",
+      "phrases": [
+        "¿Quieres jugar conmigo?",
+        "¿Juegas conmigo?",
+        "¿Puedo jugar también?"
+      ],
+      "category": "friendship",
+      "keywords": [
+        "play together",
+        "friends",
+        "invitation",
+        "asking",
+        "together"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🐑",
+          "🤝",
+          "🎮",
+          "❓"
+        ],
+        "display": "🐷🐑🤝🎮❓",
+        "description": "Pig + sheep + handshake + game + question"
+      },
+      "iconTip": {
+        "lucide": [
+          "Users",
+          "Gamepad2",
+          "Heart"
+        ],
+        "phosphor": [
+          "UsersThree",
+          "GameController",
+          "HandHeart"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:ewe",
+          "noto:handshake"
+        ]
+      },
+      "distractorPool": [
+        "alone",
+        "sleeping",
+        "leaving",
+        "angry"
+      ]
+    },
+    {
+      "id": "i_am_hungry",
+      "file": "svg/16_i_am_hungry.svg",
+      "phrases": [
+        "Tengo hambre.",
+        "Estoy hambriento.",
+        "Estoy hambrienta."
+      ],
+      "category": "emotions",
+      "keywords": [
+        "hungry",
+        "appetite",
+        "food",
+        "eat",
+        "tummy"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🍽️",
+          "😋",
+          "🤤",
+          "🍕"
+        ],
+        "display": "🐷🍽️😋🤤🍕",
+        "description": "Pig + plate + yum + drooling + pizza"
+      },
+      "iconTip": {
+        "lucide": [
+          "UtensilsCrossed",
+          "Pizza",
+          "Cookie"
+        ],
+        "phosphor": [
+          "ForkKnife",
+          "Hamburger",
+          "Pizza"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:drooling-face",
+          "noto:fork-and-knife-with-plate"
+        ]
+      },
+      "distractorPool": [
+        "full",
+        "thirsty",
+        "sleepy",
+        "energetic"
+      ]
+    },
+    {
+      "id": "there_is_a_rainbow",
+      "file": "svg/17_there_is_a_rainbow.svg",
+      "phrases": [
+        "Hay un arcoíris.",
+        "¡Mira el arcoíris!",
+        "el arcoíris"
+      ],
+      "category": "weather",
+      "keywords": [
+        "rainbow",
+        "colors",
+        "sky",
+        "after rain",
+        "beautiful"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🌈",
+          "☀️",
+          "🌧️",
+          "✨",
+          "🐷"
+        ],
+        "display": "🌈☀️🌧️✨🐷",
+        "description": "Rainbow + sun + rain + sparkle + pig"
+      },
+      "iconTip": {
+        "lucide": [
+          "Rainbow",
+          "Sun",
+          "Sparkles"
+        ],
+        "phosphor": [
+          "Rainbow",
+          "Sun",
+          "Sparkle"
+        ],
+        "iconify": [
+          "noto:rainbow",
+          "noto:sun-behind-rain-cloud",
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": [
+        "cloudy",
+        "night",
+        "storm",
+        "fog"
+      ]
+    },
+    {
+      "id": "lets_go_to_school",
+      "file": "svg/18_lets_go_to_school.svg",
+      "phrases": [
+        "Vamos a la escuela.",
+        "Es hora de ir a la escuela.",
+        "la escuela"
+      ],
+      "category": "school",
+      "keywords": [
+        "school",
+        "learning",
+        "education",
+        "backpack",
+        "books"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🏫",
+          "🎒",
+          "📚",
+          "✏️"
+        ],
+        "display": "🐷🏫🎒📚✏️",
+        "description": "Pig + school + backpack + books + pencil"
+      },
+      "iconTip": {
+        "lucide": [
+          "School",
+          "BookOpen",
+          "Backpack"
+        ],
+        "phosphor": [
+          "Student",
+          "Backpack",
+          "Books"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:school",
+          "noto:backpack"
+        ]
+      },
+      "distractorPool": [
+        "home",
+        "park",
+        "beach",
+        "bed"
+      ]
+    },
+    {
+      "id": "how_delicious",
+      "file": "svg/19_how_delicious.svg",
+      "phrases": [
+        "¡Qué rico!",
+        "¡Está delicioso!",
+        "¡Qué bueno!"
+      ],
+      "category": "food",
+      "keywords": [
+        "delicious",
+        "yummy",
+        "tasty",
+        "good",
+        "food"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "😋",
+          "🍰",
+          "👌",
+          "💕"
+        ],
+        "display": "🐷😋🍰👌💕",
+        "description": "Pig + yum face + cake + OK sign + hearts"
+      },
+      "iconTip": {
+        "lucide": [
+          "Cookie",
+          "Heart",
+          "Smile"
+        ],
+        "phosphor": [
+          "Cookie",
+          "Heart",
+          "SmileyWink"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:face-savoring-food",
+          "noto:shortcake"
+        ]
+      },
+      "distractorPool": [
+        "disgusting",
+        "bland",
+        "bad",
+        "yucky"
+      ]
+    },
+    {
+      "id": "lets_visit_grandparents",
+      "file": "svg/20_lets_visit_grandparents.svg",
+      "phrases": [
+        "Vamos a visitar a los abuelos.",
+        "Visitamos a los abuelos.",
+        "los abuelos"
+      ],
+      "category": "family",
+      "keywords": [
+        "grandparents",
+        "visit",
+        "family",
+        "granny",
+        "grandpa"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👵",
+          "👴",
+          "🏠",
+          "💕"
+        ],
+        "display": "🐷👵👴🏠💕",
+        "description": "Pig + grandma + grandpa + house + hearts"
+      },
+      "iconTip": {
+        "lucide": [
+          "Users",
+          "Home",
+          "Heart"
+        ],
+        "phosphor": [
+          "House",
+          "UsersThree",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:old-woman",
+          "noto:old-man"
+        ]
+      },
+      "distractorPool": [
+        "school",
+        "park",
+        "shopping",
+        "beach"
+      ]
+    },
+    {
+      "id": "its_time_to_paint",
+      "file": "svg/21_its_time_to_paint.svg",
+      "phrases": [
+        "Es hora de pintar.",
+        "Vamos a pintar.",
+        "pintar"
+      ],
+      "category": "activities",
+      "keywords": [
+        "paint",
+        "painting",
+        "art",
+        "colors",
+        "brush",
+        "creative"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🎨",
+          "🖌️",
+          "🌈",
+          "✨"
+        ],
+        "display": "🐷🎨🖌️🌈✨",
+        "description": "Pig + palette + brush + rainbow + sparkle"
+      },
+      "iconTip": {
+        "lucide": [
+          "Palette",
+          "Paintbrush",
+          "Sparkles"
+        ],
+        "phosphor": [
+          "PaintBrush",
+          "Palette",
+          "Sparkle"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:artist-palette",
+          "noto:paintbrush"
+        ]
+      },
+      "distractorPool": [
+        "reading",
+        "sleeping",
+        "eating",
+        "running"
+      ]
+    },
+    {
+      "id": "lets_count_to_ten",
+      "file": "svg/22_lets_count_to_ten.svg",
+      "phrases": [
+        "Vamos a contar hasta diez.",
+        "Contemos hasta diez.",
+        "contar"
+      ],
+      "category": "school",
+      "keywords": [
+        "count",
+        "numbers",
+        "ten",
+        "learning",
+        "math"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🔢",
+          "1️⃣",
+          "🔟",
+          "📚"
+        ],
+        "display": "🐷🔢1️⃣🔟📚",
+        "description": "Pig + numbers + one + ten + books"
+      },
+      "iconTip": {
+        "lucide": [
+          "Hash",
+          "BookOpen",
+          "Calculator"
+        ],
+        "phosphor": [
+          "NumberSquareOne",
+          "NumberSquareTen",
+          "Calculator"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:keycap-1",
+          "noto:keycap-10"
+        ]
+      },
+      "distractorPool": [
+        "singing",
+        "dancing",
+        "sleeping",
+        "playing"
+      ]
+    },
+    {
+      "id": "hello_everyone",
+      "file": "svg/23_hello_everyone.svg",
+      "phrases": [
+        "¡Hola a todos!",
+        "Hola, amigos.",
+        "¡Hola!"
+      ],
+      "category": "greetings",
+      "keywords": [
+        "hello",
+        "hi",
+        "greeting",
+        "everyone",
+        "friends",
+        "wave"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👋",
+          "😊",
+          "👥",
+          "💕"
+        ],
+        "display": "🐷👋😊👥💕",
+        "description": "Pig + wave + smile + people + hearts"
+      },
+      "iconTip": {
+        "lucide": [
+          "Hand",
+          "Users",
+          "Smile"
+        ],
+        "phosphor": [
+          "HandWaving",
+          "UsersThree",
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:waving-hand",
+          "noto:smiling-face-with-smiling-eyes"
+        ]
+      },
+      "distractorPool": [
+        "goodbye",
+        "sleeping",
+        "crying",
+        "hiding"
+      ]
+    },
+    {
+      "id": "can_we_go_to_the_park",
+      "file": "svg/24_can_we_go_to_the_park.svg",
+      "phrases": [
+        "¿Podemos ir al parque?",
+        "Vamos al parque.",
+        "el parque"
+      ],
+      "category": "places",
+      "keywords": [
+        "park",
+        "playground",
+        "outside",
+        "play",
+        "trees",
+        "grass"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🌳",
+          "🎠",
+          "⚽",
+          "🌞"
+        ],
+        "display": "🐷🌳🎠⚽🌞",
+        "description": "Pig + tree + carousel + ball + sun"
+      },
+      "iconTip": {
+        "lucide": [
+          "Trees",
+          "Sun",
+          "PlayCircle"
+        ],
+        "phosphor": [
+          "Tree",
+          "Park",
+          "SoccerBall"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:deciduous-tree",
+          "noto:playground-slide"
+        ]
+      },
+      "distractorPool": [
+        "home",
+        "school",
+        "bed",
+        "supermarket"
+      ]
+    },
+    {
+      "id": "lets_read_a_story",
+      "file": "svg/25_lets_read_a_story.svg",
+      "phrases": [
+        "Vamos a leer un cuento.",
+        "¿Leemos un cuento?",
+        "leer"
+      ],
+      "category": "activities",
+      "keywords": [
+        "read",
+        "reading",
+        "book",
+        "story",
+        "tale",
+        "quiet"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "📖",
+          "📚",
+          "🤓",
+          "✨"
+        ],
+        "display": "🐷📖📚🤓✨",
+        "description": "Pig + open book + books + nerd face + sparkle"
+      },
+      "iconTip": {
+        "lucide": [
+          "BookOpen",
+          "Book",
+          "Glasses"
+        ],
+        "phosphor": [
+          "BookOpen",
+          "Books",
+          "Glasses"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:open-book",
+          "noto:books"
+        ]
+      },
+      "distractorPool": [
+        "running",
+        "shouting",
+        "dancing",
+        "swimming"
+      ]
+    },
+    {
+      "id": "george_little_brother",
+      "file": "svg/26_george_little_brother.svg",
+      "phrases": [
+        "Este es mi hermano pequeño, George.",
+        "Este es George."
+      ],
+      "category": "introduction",
+      "keywords": [
+        "george",
+        "little brother",
+        "dinosaur",
+        "blue",
+        "family"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👶",
+          "💙",
+          "🦖",
+          "👋"
+        ],
+        "display": "🐷👶💙🦖👋",
+        "description": "Little pig + baby + blue + dinosaur + wave"
+      },
+      "iconTip": {
+        "lucide": [
+          "Baby",
+          "ToyBrick",
+          "Hand"
+        ],
+        "phosphor": [
+          "Baby",
+          "HandWaving",
+          "DiceFive"
+        ],
+        "iconify": [
+          "noto:baby",
+          "noto:blue-heart",
+          "noto:t-rex"
+        ]
+      },
+      "distractorPool": [
+        "yo_soy_peppa",
+        "mummy_pig",
+        "daddy_pig",
+        "suzy_sheep"
+      ]
+    },
+    {
+      "id": "mummy_pig",
+      "file": "svg/27_mummy_pig.svg",
+      "phrases": [
+        "Esta es Mamá Pig."
+      ],
+      "category": "introduction",
+      "keywords": [
+        "mummy",
+        "mother",
+        "family",
+        "yellow",
+        "parent"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👩",
+          "👗",
+          "💛",
+          "✨"
+        ],
+        "display": "🐷👩👗💛✨",
+        "description": "Pig + mother + dress + yellow + sparkle"
+      },
+      "iconTip": {
+        "lucide": [
+          "User",
+          "Sparkles"
+        ],
+        "phosphor": [
+          "UserCircle",
+          "Sparkle"
+        ],
+        "iconify": [
+          "noto:woman",
+          "noto:dress",
+          "noto:yellow-heart"
+        ]
+      },
+      "distractorPool": [
+        "yo_soy_peppa",
+        "daddy_pig",
+        "george",
+        "suzy_sheep"
+      ]
+    },
+    {
+      "id": "daddy_pig",
+      "file": "svg/28_daddy_pig.svg",
+      "phrases": [
+        "Y este es Papá Pig."
+      ],
+      "category": "introduction",
+      "keywords": [
+        "daddy",
+        "father",
+        "family",
+        "glasses",
+        "parent",
+        "orange"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👨",
+          "👓",
+          "🧡",
+          "✨"
+        ],
+        "display": "🐷👨👓🧡✨",
+        "description": "Pig + father + glasses + orange heart + sparkle"
+      },
+      "iconTip": {
+        "lucide": [
+          "Glasses",
+          "User",
+          "Sparkles"
+        ],
+        "phosphor": [
+          "Glasses",
+          "UserCircle",
+          "Sparkle"
+        ],
+        "iconify": [
+          "noto:glasses",
+          "noto:orange-heart",
+          "noto:man"
+        ]
+      },
+      "distractorPool": [
+        "yo_soy_peppa",
+        "mummy_pig",
+        "george",
+        "suzy_sheep"
+      ]
+    },
+    {
+      "id": "goodbye",
+      "file": "svg/29_goodbye.svg",
+      "phrases": [
+        "¡Adiós!"
+      ],
+      "category": "greetings",
+      "keywords": [
+        "goodbye",
+        "bye",
+        "wave",
+        "leaving"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "👋",
+          "🐷",
+          "🚪",
+          "💨"
+        ],
+        "display": "👋🐷🚪💨",
+        "description": "Wave + pig + door + whoosh"
+      },
+      "iconTip": {
+        "lucide": [
+          "Hand",
+          "DoorOpen",
+          "ArrowRight"
+        ],
+        "phosphor": [
+          "HandWaving",
+          "DoorOpen",
+          "ArrowRight"
+        ],
+        "iconify": [
+          "noto:waving-hand",
+          "noto:door",
+          "noto:dash"
+        ]
+      },
+      "distractorPool": [
+        "hello_everyone",
+        "good_morning_madame_gazelle",
+        "lets_play",
+        "bedtime"
+      ]
+    },
+    {
+      "id": "see_you_later",
+      "file": "svg/30_see_you_later.svg",
+      "phrases": [
+        "¡Hasta luego!"
+      ],
+      "category": "greetings",
+      "keywords": [
+        "later",
+        "see you",
+        "clock",
+        "time"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👋",
+          "🕒",
+          "➡️"
+        ],
+        "display": "🐷👋🕒➡️",
+        "description": "Pig + wave + clock + arrow"
+      },
+      "iconTip": {
+        "lucide": [
+          "Clock",
+          "Hand",
+          "ArrowRight"
+        ],
+        "phosphor": [
+          "Clock",
+          "HandWaving",
+          "ArrowRight"
+        ],
+        "iconify": [
+          "noto:clock-three-oclock",
+          "noto:waving-hand",
+          "noto:right-arrow"
+        ]
+      },
+      "distractorPool": [
+        "goodbye",
+        "hello_everyone",
+        "morning",
+        "bedtime"
+      ]
+    },
+    {
+      "id": "please",
+      "file": "svg/31_please.svg",
+      "phrases": [
+        "¡Por favor!",
+        "Sí, por favor."
+      ],
+      "category": "politeness",
+      "keywords": [
+        "please",
+        "polite",
+        "kind",
+        "request"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🙏",
+          "🐷",
+          "💖"
+        ],
+        "display": "🙏🐷💖",
+        "description": "Folded hands + pig + heart"
+      },
+      "iconTip": {
+        "lucide": [
+          "Heart",
+          "Hand"
+        ],
+        "phosphor": [
+          "HandsPraying",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:folded-hands",
+          "noto:sparkling-heart"
+        ]
+      },
+      "distractorPool": [
+        "thank_you",
+        "youre_welcome",
+        "im_sorry",
+        "hello_everyone"
+      ]
+    },
+    {
+      "id": "thank_you",
+      "file": "svg/32_thank_you.svg",
+      "phrases": [
+        "¡Gracias!"
+      ],
+      "category": "politeness",
+      "keywords": [
+        "thanks",
+        "thank you",
+        "grateful",
+        "heart"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🙏",
+          "💐",
+          "✨"
+        ],
+        "display": "🐷🙏💐✨",
+        "description": "Pig + thanks + flowers + sparkle"
+      },
+      "iconTip": {
+        "lucide": [
+          "Heart",
+          "Sparkles"
+        ],
+        "phosphor": [
+          "HandsPraying",
+          "Sparkle"
+        ],
+        "iconify": [
+          "noto:folded-hands",
+          "noto:bouquet",
+          "noto:sparkles"
+        ]
+      },
+      "distractorPool": [
+        "please",
+        "youre_welcome",
+        "im_sorry",
+        "goodbye"
+      ]
+    },
+    {
+      "id": "youre_welcome",
+      "file": "svg/33_youre_welcome.svg",
+      "phrases": [
+        "De nada."
+      ],
+      "category": "politeness",
+      "keywords": [
+        "welcome",
+        "no problem",
+        "gift",
+        "kind"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🎁",
+          "🐷",
+          "😊"
+        ],
+        "display": "🎁🐷😊",
+        "description": "Gift + pig + smile"
+      },
+      "iconTip": {
+        "lucide": [
+          "Gift",
+          "Smile"
+        ],
+        "phosphor": [
+          "Gift",
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:wrapped-gift",
+          "noto:smiling-face-with-smiling-eyes"
+        ]
+      },
+      "distractorPool": [
+        "thank_you",
+        "please",
+        "im_sorry",
+        "hello_everyone"
+      ]
+    },
+    {
+      "id": "im_sorry",
+      "file": "svg/34_im_sorry.svg",
+      "phrases": [
+        "Lo siento."
+      ],
+      "category": "politeness",
+      "keywords": [
+        "sorry",
+        "apology",
+        "tear",
+        "flower"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "😢",
+          "💐",
+          "🙏"
+        ],
+        "display": "🐷😢💐🙏",
+        "description": "Pig + sad + flowers + apology"
+      },
+      "iconTip": {
+        "lucide": [
+          "Flower",
+          "Heart"
+        ],
+        "phosphor": [
+          "Flower",
+          "HandsPraying"
+        ],
+        "iconify": [
+          "noto:crying-face",
+          "noto:bouquet",
+          "noto:folded-hands"
+        ]
+      },
+      "distractorPool": [
+        "never_mind",
+        "thank_you",
+        "please",
+        "i_am_sad"
+      ]
+    },
+    {
+      "id": "never_mind",
+      "file": "svg/35_never_mind.svg",
+      "phrases": [
+        "¡No importa!"
+      ],
+      "category": "politeness",
+      "keywords": [
+        "never mind",
+        "doesnt matter",
+        "ok",
+        "cancel"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🙅",
+          "🐷",
+          "✨"
+        ],
+        "display": "🙅🐷✨",
+        "description": "No gesture + pig + sparkle"
+      },
+      "iconTip": {
+        "lucide": [
+          "X",
+          "Sparkles"
+        ],
+        "phosphor": [
+          "XCircle",
+          "Sparkle"
+        ],
+        "iconify": [
+          "noto:person-gesturing-no",
+          "noto:sparkles"
+        ]
+      },
+      "distractorPool": [
+        "im_sorry",
+        "youre_welcome",
+        "thank_you",
+        "i_am_happy"
+      ]
+    },
+    {
+      "id": "look",
+      "file": "svg/36_look.svg",
+      "phrases": [
+        "¡Mira!"
+      ],
+      "category": "actions",
+      "keywords": [
+        "look",
+        "see",
+        "point",
+        "attention",
+        "arrow"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "👀",
+          "👉",
+          "✨"
+        ],
+        "display": "👀👉✨",
+        "description": "Eyes + pointing finger + sparkle"
+      },
+      "iconTip": {
+        "lucide": [
+          "Eye",
+          "MousePointer",
+          "Sparkles"
+        ],
+        "phosphor": [
+          "Eye",
+          "HandPointing",
+          "Sparkle"
+        ],
+        "iconify": [
+          "noto:eyes",
+          "noto:backhand-index-pointing-right",
+          "noto:sparkles"
+        ]
+      },
+      "distractorPool": [
+        "what_is_that",
+        "come_here",
+        "wait",
+        "lets_go"
+      ]
+    },
+    {
+      "id": "what_is_that",
+      "file": "svg/37_what_is_that.svg",
+      "phrases": [
+        "¿Qué es eso?"
+      ],
+      "category": "questions",
+      "keywords": [
+        "what",
+        "question",
+        "curious",
+        "unknown"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "❓",
+          "👀",
+          "👉"
+        ],
+        "display": "❓👀👉",
+        "description": "Question + eyes + pointing"
+      },
+      "iconTip": {
+        "lucide": [
+          "HelpCircle",
+          "Eye"
+        ],
+        "phosphor": [
+          "Question",
+          "Eye"
+        ],
+        "iconify": [
+          "noto:red-question-mark",
+          "noto:eyes"
+        ]
+      },
+      "distractorPool": [
+        "look",
+        "i_dont_know",
+        "where_is",
+        "here_it_is"
+      ]
+    },
+    {
+      "id": "come_here",
+      "file": "svg/38_come_here.svg",
+      "phrases": [
+        "¡Ven aquí!"
+      ],
+      "category": "actions",
+      "keywords": [
+        "come",
+        "here",
+        "call",
+        "towards",
+        "invite"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🫴",
+          "🐷",
+          "➡️"
+        ],
+        "display": "🫴🐷➡️",
+        "description": "Beckoning hand + pig + arrow"
+      },
+      "iconTip": {
+        "lucide": [
+          "Hand",
+          "ArrowLeft"
+        ],
+        "phosphor": [
+          "HandWaving",
+          "ArrowLeft"
+        ],
+        "iconify": [
+          "noto:hand-with-fingers-splayed",
+          "noto:left-arrow"
+        ]
+      },
+      "distractorPool": [
+        "wait",
+        "lets_go",
+        "look",
+        "goodbye"
+      ]
+    },
+    {
+      "id": "wait",
+      "file": "svg/39_wait.svg",
+      "phrases": [
+        "¡Espera!"
+      ],
+      "category": "actions",
+      "keywords": [
+        "wait",
+        "stop",
+        "hold on",
+        "clock"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "✋",
+          "🕒",
+          "⏳"
+        ],
+        "display": "✋🕒⏳",
+        "description": "Stop hand + clock + hourglass"
+      },
+      "iconTip": {
+        "lucide": [
+          "Hand",
+          "Clock",
+          "Hourglass"
+        ],
+        "phosphor": [
+          "Hand",
+          "Clock",
+          "Hourglass"
+        ],
+        "iconify": [
+          "noto:raised-hand",
+          "noto:clock-three-oclock",
+          "noto:hourglass-not-done"
+        ]
+      },
+      "distractorPool": [
+        "lets_go",
+        "see_you_later",
+        "bedtime",
+        "morning"
+      ]
+    },
+    {
+      "id": "lets_go",
+      "file": "svg/40_lets_go.svg",
+      "phrases": [
+        "¡Vamos!"
+      ],
+      "category": "actions",
+      "keywords": [
+        "go",
+        "come on",
+        "move",
+        "arrow"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "➡️",
+          "💨"
+        ],
+        "display": "🐷➡️💨",
+        "description": "Pig + arrow + whoosh"
+      },
+      "iconTip": {
+        "lucide": [
+          "ArrowRight",
+          "Zap"
+        ],
+        "phosphor": [
+          "ArrowRight",
+          "Lightning"
+        ],
+        "iconify": [
+          "noto:right-arrow",
+          "noto:dash"
+        ]
+      },
+      "distractorPool": [
+        "wait",
+        "goodbye",
+        "see_you_later",
+        "come_here"
+      ]
+    },
+    {
+      "id": "can_i_help",
+      "file": "svg/41_can_i_help.svg",
+      "phrases": [
+        "¿Puedo ayudar?"
+      ],
+      "category": "questions",
+      "keywords": [
+        "help",
+        "assist",
+        "question",
+        "kind"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🆘",
+          "🤝",
+          "❓"
+        ],
+        "display": "🆘🤝❓",
+        "description": "SOS + handshake + question"
+      },
+      "iconTip": {
+        "lucide": [
+          "HelpingHand",
+          "HelpCircle"
+        ],
+        "phosphor": [
+          "HandHeart",
+          "Question"
+        ],
+        "iconify": [
+          "noto:sos-button",
+          "noto:handshake",
+          "noto:red-question-mark"
+        ]
+      },
+      "distractorPool": [
+        "of_course",
+        "youre_welcome",
+        "please",
+        "im_sorry"
+      ]
+    },
+    {
+      "id": "of_course",
+      "file": "svg/42_of_course.svg",
+      "phrases": [
+        "¡Claro que sí!"
+      ],
+      "category": "politeness",
+      "keywords": [
+        "of course",
+        "sure",
+        "yes",
+        "check"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "✅",
+          "😊",
+          "👍"
+        ],
+        "display": "✅😊👍",
+        "description": "Check + smile + thumbs up"
+      },
+      "iconTip": {
+        "lucide": [
+          "CheckCircle",
+          "ThumbsUp"
+        ],
+        "phosphor": [
+          "CheckCircle",
+          "ThumbsUp"
+        ],
+        "iconify": [
+          "noto:check-mark-button",
+          "noto:thumbs-up"
+        ]
+      },
+      "distractorPool": [
+        "never_mind",
+        "i_dont_know",
+        "wait"
+      ]
+    },
+    {
+      "id": "where_is",
+      "file": "svg/43_where_is.svg",
+      "phrases": [
+        "¿Dónde está...?",
+        "¿Dónde está George?",
+        "¿Dónde está mamá?"
+      ],
+      "category": "questions",
+      "keywords": [
+        "where",
+        "search",
+        "location",
+        "map",
+        "pin"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "📍",
+          "❓",
+          "🔎"
+        ],
+        "display": "📍❓🔎",
+        "description": "Map pin + question + magnifier"
+      },
+      "iconTip": {
+        "lucide": [
+          "MapPin",
+          "Search",
+          "HelpCircle"
+        ],
+        "phosphor": [
+          "MapPin",
+          "MagnifyingGlass",
+          "Question"
+        ],
+        "iconify": [
+          "noto:round-pushpin",
+          "noto:magnifying-glass-tilted-left",
+          "noto:red-question-mark"
+        ]
+      },
+      "distractorPool": [
+        "here_it_is",
+        "i_dont_know",
+        "look",
+        "come_here"
+      ]
+    },
+    {
+      "id": "here_it_is",
+      "file": "svg/44_here_it_is.svg",
+      "phrases": [
+        "Aquí está."
+      ],
+      "category": "answers",
+      "keywords": [
+        "here",
+        "found",
+        "present",
+        "box"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "📦",
+          "👉",
+          "✨"
+        ],
+        "display": "📦👉✨",
+        "description": "Box + pointing + sparkle"
+      },
+      "iconTip": {
+        "lucide": [
+          "Box",
+          "MousePointer",
+          "Sparkles"
+        ],
+        "phosphor": [
+          "Package",
+          "HandPointing",
+          "Sparkle"
+        ],
+        "iconify": [
+          "noto:package",
+          "noto:backhand-index-pointing-right",
+          "noto:sparkles"
+        ]
+      },
+      "distractorPool": [
+        "where_is",
+        "i_dont_know",
+        "what_is_that",
+        "look"
+      ]
+    },
+    {
+      "id": "i_dont_know",
+      "file": "svg/45_i_dont_know.svg",
+      "phrases": [
+        "No lo sé."
+      ],
+      "category": "answers",
+      "keywords": [
+        "dont know",
+        "unsure",
+        "question",
+        "shrug"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🤷",
+          "❓",
+          "🐷"
+        ],
+        "display": "🤷❓🐷",
+        "description": "Shrug + question + pig"
+      },
+      "iconTip": {
+        "lucide": [
+          "HelpCircle",
+          "Shrub"
+        ],
+        "phosphor": [
+          "Question",
+          "SmileyMeh"
+        ],
+        "iconify": [
+          "noto:person-shrugging",
+          "noto:red-question-mark"
+        ]
+      },
+      "distractorPool": [
+        "here_it_is",
+        "of_course",
+        "look",
+        "what_is_that"
+      ]
+    },
+    {
+      "id": "i_am_thirsty",
+      "file": "svg/46_i_am_thirsty.svg",
+      "phrases": [
+        "Tengo sed.",
+        "Estoy sediento."
+      ],
+      "category": "emotions",
+      "keywords": [
+        "thirsty",
+        "drink",
+        "water",
+        "juice"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🥤",
+          "🥵",
+          "💧"
+        ],
+        "display": "🐷🥤🥵💧",
+        "description": "Pig + drink + hot face + droplet"
+      },
+      "iconTip": {
+        "lucide": [
+          "GlassWater",
+          "Droplets"
+        ],
+        "phosphor": [
+          "Glass",
+          "Drop"
+        ],
+        "iconify": [
+          "noto:pig-face",
+          "noto:cup-with-straw"
+        ]
+      },
+      "distractorPool": [
+        "i_am_hungry",
+        "i_am_happy",
+        "bedtime"
+      ]
+    },
+    {
+      "id": "its_cold",
+      "file": "svg/47_its_cold.svg",
+      "phrases": [
+        "Hace frío.",
+        "Tengo frío."
+      ],
+      "category": "weather",
+      "keywords": [
+        "cold",
+        "winter",
+        "snow",
+        "shiver"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "❄️",
+          "🥶",
+          "🧥",
+          "🧣"
+        ],
+        "display": "❄️🥶🧥🧣",
+        "description": "Snowflake + cold face + coat + scarf"
+      },
+      "iconTip": {
+        "lucide": [
+          "Snowflake",
+          "ThermometerSnowflake"
+        ],
+        "phosphor": [
+          "Snowflake",
+          "ThermometerCold"
+        ],
+        "iconify": [
+          "noto:snowflake",
+          "noto:cold-face"
+        ]
+      },
+      "distractorPool": [
+        "its_hot",
+        "sunny_day",
+        "bedtime"
+      ]
+    },
+    {
+      "id": "its_hot",
+      "file": "svg/48_its_hot.svg",
+      "phrases": [
+        "Hace calor.",
+        "¡Qué calor!"
+      ],
+      "category": "weather",
+      "keywords": [
+        "hot",
+        "sun",
+        "summer",
+        "sweat"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "☀️",
+          "🥵",
+          "🍦",
+          "💦"
+        ],
+        "display": "☀️🥵🍦💦",
+        "description": "Sun + hot face + ice cream + sweat"
+      },
+      "iconTip": {
+        "lucide": [
+          "Sun",
+          "ThermometerSun"
+        ],
+        "phosphor": [
+          "Sun",
+          "ThermometerHot"
+        ],
+        "iconify": [
+          "noto:sun",
+          "noto:hot-face"
+        ]
+      },
+      "distractorPool": [
+        "its_cold",
+        "its_raining",
+        "night"
+      ]
+    },
+    {
+      "id": "its_windy",
+      "file": "svg/49_its_windy.svg",
+      "phrases": [
+        "Hace viento."
+      ],
+      "category": "weather",
+      "keywords": [
+        "wind",
+        "blow",
+        "leaves",
+        "autumn"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "💨",
+          "🍃",
+          "🌬️",
+          "🍂"
+        ],
+        "display": "💨🍃🌬️🍂",
+        "description": "Wind + leaves + face blowing + leaf"
+      },
+      "iconTip": {
+        "lucide": [
+          "Wind",
+          "CloudFog"
+        ],
+        "phosphor": [
+          "Wind",
+          "Leaf"
+        ],
+        "iconify": [
+          "noto:wind-face",
+          "noto:fallen-leaf"
+        ]
+      },
+      "distractorPool": [
+        "sunny_day",
+        "rainy",
+        "hot"
+      ]
+    },
+    {
+      "id": "lets_ride_bikes",
+      "file": "svg/50_lets_ride_bikes.svg",
+      "phrases": [
+        "Vamos a montar en bicicleta.",
+        "Vamos en bici."
+      ],
+      "category": "activities",
+      "keywords": [
+        "bike",
+        "bicycle",
+        "ride",
+        "helmet"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🚲",
+          "🐷",
+          "🛣️",
+          "😄"
+        ],
+        "display": "🚲🐷🛣️😄",
+        "description": "Bike + pig + road + happy"
+      },
+      "iconTip": {
+        "lucide": [
+          "Bike",
+          "Map"
+        ],
+        "phosphor": [
+          "Bicycle",
+          "RoadHorizon"
+        ],
+        "iconify": [
+          "noto:bicycle",
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": [
+        "lets_swim",
+        "lets_draw",
+        "bedtime"
+      ]
+    },
+    {
+      "id": "lets_play_hide_and_seek",
+      "file": "svg/51_lets_play_hide_and_seek.svg",
+      "phrases": [
+        "Vamos a jugar al escondite.",
+        "Escondite."
+      ],
+      "category": "activities",
+      "keywords": [
+        "hide",
+        "seek",
+        "game",
+        "tree"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🫣",
+          "🌳",
+          "🐷",
+          "👀"
+        ],
+        "display": "🫣🌳🐷👀",
+        "description": "Peeking face + tree + pig + eyes"
+      },
+      "iconTip": {
+        "lucide": [
+          "Eye",
+          "Trees"
+        ],
+        "phosphor": [
+          "EyeClosed",
+          "Tree"
+        ],
+        "iconify": [
+          "noto:face-with-peeking-eye",
+          "noto:deciduous-tree"
+        ]
+      },
+      "distractorPool": [
+        "lets_play_ball",
+        "lets_swim",
+        "school"
+      ]
+    },
+    {
+      "id": "lets_play_ball",
+      "file": "svg/52_lets_play_ball.svg",
+      "phrases": [
+        "Vamos a jugar a la pelota.",
+        "Juguemos al balón."
+      ],
+      "category": "activities",
+      "keywords": [
+        "ball",
+        "soccer",
+        "play",
+        "kick"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "⚽",
+          "🐷",
+          "🏃",
+          "🥅"
+        ],
+        "display": "⚽🐷🏃🥅",
+        "description": "Soccer ball + pig + runner + goal"
+      },
+      "iconTip": {
+        "lucide": [
+          "Trophy",
+          "Activity"
+        ],
+        "phosphor": [
+          "SoccerBall",
+          "SneakerMove"
+        ],
+        "iconify": [
+          "noto:soccer-ball",
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": [
+        "lets_read_a_story",
+        "bedtime",
+        "eating"
+      ]
+    },
+    {
+      "id": "lets_go_for_a_walk",
+      "file": "svg/53_lets_go_for_a_walk.svg",
+      "phrases": [
+        "Vamos de paseo.",
+        "Caminamos."
+      ],
+      "category": "activities",
+      "keywords": [
+        "walk",
+        "stroll",
+        "outside",
+        "path"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🚶",
+          "🐷",
+          "🌳",
+          "☀️"
+        ],
+        "display": "🚶🐷🌳☀️",
+        "description": "Walker + pig + tree + sun"
+      },
+      "iconTip": {
+        "lucide": [
+          "Footprints",
+          "Sun"
+        ],
+        "phosphor": [
+          "Footprints",
+          "Sun"
+        ],
+        "iconify": [
+          "noto:person-walking",
+          "noto:deciduous-tree"
+        ]
+      },
+      "distractorPool": [
+        "bedtime",
+        "school",
+        "rainy"
+      ]
+    },
+    {
+      "id": "its_recess_time",
+      "file": "svg/54_its_recess_time.svg",
+      "phrases": [
+        "Es hora del recreo.",
+        "Recreo."
+      ],
+      "category": "school",
+      "keywords": [
+        "recess",
+        "play",
+        "school",
+        "break"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🔔",
+          "🏃",
+          "🤸",
+          "🏫"
+        ],
+        "display": "🔔🏃🤸🏫",
+        "description": "Bell + runner + cartwheel + school"
+      },
+      "iconTip": {
+        "lucide": [
+          "Bell",
+          "Play"
+        ],
+        "phosphor": [
+          "BellRinging",
+          "Playground"
+        ],
+        "iconify": [
+          "noto:bell",
+          "noto:school"
+        ]
+      },
+      "distractorPool": [
+        "class_time",
+        "bedtime",
+        "eating"
+      ]
+    },
+    {
+      "id": "its_time_to_sing",
+      "file": "svg/55_its_time_to_sing.svg",
+      "phrases": [
+        "Es hora de cantar.",
+        "Cantemos."
+      ],
+      "category": "activities",
+      "keywords": [
+        "sing",
+        "song",
+        "music",
+        "microphone"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🎤",
+          "🎵",
+          "🎶",
+          "🐷"
+        ],
+        "display": "🎤🎵🎶🐷",
+        "description": "Mic + music note + notes + pig"
+      },
+      "iconTip": {
+        "lucide": [
+          "Mic",
+          "Music"
+        ],
+        "phosphor": [
+          "Microphone",
+          "MusicNote"
+        ],
+        "iconify": [
+          "noto:microphone",
+          "noto:musical-note"
+        ]
+      },
+      "distractorPool": [
+        "reading",
+        "sleeping",
+        "eating"
+      ]
+    },
+    {
+      "id": "who_wants_ice_cream",
+      "file": "svg/56_who_wants_ice_cream.svg",
+      "phrases": [
+        "¿Quién quiere helado?",
+        "Helado."
+      ],
+      "category": "food",
+      "keywords": [
+        "ice cream",
+        "dessert",
+        "cone",
+        "want"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🍦",
+          "❓",
+          "😋",
+          "🐷"
+        ],
+        "display": "🍦❓😋🐷",
+        "description": "Ice cream + question + yum + pig"
+      },
+      "iconTip": {
+        "lucide": [
+          "IceCream",
+          "Smile"
+        ],
+        "phosphor": [
+          "IceCream",
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:soft-ice-cream",
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": [
+        "soup",
+        "vegetables",
+        "bedtime"
+      ]
+    },
+    {
+      "id": "be_careful",
+      "file": "svg/57_be_careful.svg",
+      "phrases": [
+        "Ten cuidado.",
+        "Cuidado."
+      ],
+      "category": "family",
+      "keywords": [
+        "careful",
+        "danger",
+        "warning",
+        "watch out"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "⚠️",
+          "👀",
+          "🐷",
+          "🛑"
+        ],
+        "display": "⚠️👀🐷🛑",
+        "description": "Warning + eyes + pig + stop"
+      },
+      "iconTip": {
+        "lucide": [
+          "AlertTriangle",
+          "Eye"
+        ],
+        "phosphor": [
+          "Warning",
+          "Eye"
+        ],
+        "iconify": [
+          "noto:warning",
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": [
+        "run_fast",
+        "jump",
+        "sleep"
+      ]
+    },
+    {
+      "id": "dont_worry",
+      "file": "svg/58_dont_worry.svg",
+      "phrases": [
+        "No te preocupes.",
+        "Tranquilo."
+      ],
+      "category": "family",
+      "keywords": [
+        "calm",
+        "okay",
+        "fine",
+        "comfort"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "😌",
+          "🐷",
+          "💖",
+          "✨"
+        ],
+        "display": "😌🐷💖✨",
+        "description": "Relieved face + pig + heart + sparkle"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:relieved-face",
+          "noto:sparkling-heart"
+        ]
+      },
+      "distractorPool": [
+        "cry",
+        "panic",
+        "scared"
+      ]
+    },
+    {
+      "id": "very_good",
+      "file": "svg/59_very_good.svg",
+      "phrases": [
+        "¡Muy bien!",
+        "¡Excelente!"
+      ],
+      "category": "common_phrases",
+      "keywords": [
+        "good",
+        "great",
+        "excellent",
+        "star"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🌟",
+          "🐷",
+          "👍",
+          "👏"
+        ],
+        "display": "🌟🐷👍👏",
+        "description": "Star + pig + thumbs up + clap"
+      },
+      "iconTip": {
+        "lucide": [
+          "Star",
+          "ThumbsUp"
+        ],
+        "phosphor": [
+          "Star",
+          "ThumbsUp"
+        ],
+        "iconify": [
+          "noto:star",
+          "noto:thumbs-up"
+        ]
+      },
+      "distractorPool": [
+        "bad",
+        "try_again",
+        "sad"
+      ]
+    },
+    {
+      "id": "how_fun",
+      "file": "svg/60_how_fun.svg",
+      "phrases": [
+        "¡Qué divertido!",
+        "Divertido."
+      ],
+      "category": "common_phrases",
+      "keywords": [
+        "fun",
+        "play",
+        "party",
+        "happy"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🎉",
+          "🐷",
+          "😄",
+          "🎈"
+        ],
+        "display": "🎉🐷😄🎈",
+        "description": "Party popper + pig + happy + balloon"
+      },
+      "iconTip": {
+        "lucide": [
+          "PartyPopper",
+          "Smile"
+        ],
+        "phosphor": [
+          "Confetti",
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:party-popper",
+          "noto:grinning-face"
+        ]
+      },
+      "distractorPool": [
+        "boring",
+        "sad",
+        "sleeping"
+      ]
+    },
+    {
+      "id": "i_am_scared",
+      "file": "svg/61_i_am_scared.svg",
+      "phrases": [
+        "Tengo miedo.",
+        "Estoy asustado."
+      ],
+      "category": "emotions",
+      "keywords": [
+        "scared",
+        "fear",
+        "ghost",
+        "hide"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "😨",
+          "🐷",
+          "👻",
+          "🫣"
+        ],
+        "display": "😨🐷👻🫣",
+        "description": "Scared face + pig + ghost + peeking"
+      },
+      "iconTip": {
+        "lucide": [
+          "Ghost",
+          "Frown"
+        ],
+        "phosphor": [
+          "Ghost",
+          "FaceScreaming"
+        ],
+        "iconify": [
+          "noto:fearful-face",
+          "noto:ghost"
+        ]
+      },
+      "distractorPool": [
+        "brave",
+        "happy",
+        "sleeping"
+      ]
+    },
+    {
+      "id": "what_a_fright",
+      "file": "svg/62_what_a_fright.svg",
+      "phrases": [
+        "¡Qué susto!"
+      ],
+      "category": "emotions",
+      "keywords": [
+        "fright",
+        "surprise",
+        "scare",
+        "jump"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "😱",
+          "🐷",
+          "‼️",
+          "💨"
+        ],
+        "display": "😱🐷‼️💨",
+        "description": "Screaming face + pig + bang + dash"
+      },
+      "iconTip": {
+        "lucide": [
+          "AlertCircle",
+          "Zap"
+        ],
+        "phosphor": [
+          "WarningCircle",
+          "Lightning"
+        ],
+        "iconify": [
+          "noto:face-screaming-in-fear",
+          "noto:red-exclamation-mark"
+        ]
+      },
+      "distractorPool": [
+        "calm",
+        "happy",
+        "sleeping"
+      ]
+    },
+    {
+      "id": "i_like_it",
+      "file": "svg/63_i_like_it.svg",
+      "phrases": [
+        "¡Me gusta!",
+        "Me gusta."
+      ],
+      "category": "common_phrases",
+      "keywords": [
+        "like",
+        "love",
+        "heart",
+        "good"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "👍",
+          "🐷",
+          "💖",
+          "😊"
+        ],
+        "display": "👍🐷💖😊",
+        "description": "Thumbs up + pig + heart + smile"
+      },
+      "iconTip": {
+        "lucide": [
+          "ThumbsUp",
+          "Heart"
+        ],
+        "phosphor": [
+          "ThumbsUp",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:thumbs-up",
+          "noto:red-heart"
+        ]
+      },
+      "distractorPool": [
+        "i_dont_like_it",
+        "sad",
+        "angry"
+      ]
+    },
+    {
+      "id": "i_dont_like_it",
+      "file": "svg/64_i_dont_like_it.svg",
+      "phrases": [
+        "No me gusta.",
+        "No me gusta nada."
+      ],
+      "category": "common_phrases",
+      "keywords": [
+        "dislike",
+        "bad",
+        "thumbs down",
+        "sad"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "👎",
+          "🐷",
+          "🤢",
+          "🙅"
+        ],
+        "display": "👎🐷🤢🙅",
+        "description": "Thumbs down + pig + nauseated + no gesture"
+      },
+      "iconTip": {
+        "lucide": [
+          "ThumbsDown",
+          "Frown"
+        ],
+        "phosphor": [
+          "ThumbsDown",
+          "SmileySad"
+        ],
+        "iconify": [
+          "noto:thumbs-down",
+          "noto:pouting-face"
+        ]
+      },
+      "distractorPool": [
+        "i_like_it",
+        "happy",
+        "delicious"
+      ]
+    },
+    {
+      "id": "its_my_turn",
+      "file": "svg/65_its_my_turn.svg",
+      "phrases": [
+        "Es mi turno.",
+        "Me toca a mí."
+      ],
+      "category": "friendship",
+      "keywords": [
+        "turn",
+        "share",
+        "game",
+        "me"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "☝️",
+          "🐷",
+          "🎲",
+          "⏱️"
+        ],
+        "display": "☝️🐷🎲⏱️",
+        "description": "Finger up + pig + dice + stopwatch"
+      },
+      "iconTip": {
+        "lucide": [
+          "User",
+          "Clock"
+        ],
+        "phosphor": [
+          "User",
+          "Timer"
+        ],
+        "iconify": [
+          "noto:index-pointing-up",
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": [
+        "your_turn",
+        "waiting",
+        "sleeping"
+      ]
+    },
+    {
+      "id": "bien",
+      "file": "svg/66_bien.svg",
+      "phrases": [
+        "¡Bien!"
+      ],
+      "category": "common_phrases",
+      "keywords": [
+        "good",
+        "okay",
+        "thumbs up"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👍",
+          "✅"
+        ],
+        "display": "🐷👍✅",
+        "description": "Visual representation of: Good!"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "george_despierta_es_mi",
+      "file": "svg/67_george_despierta_es_mi.svg",
+      "phrases": [
+        "George, ¡despierta! ¡Es mi cumpleaños!"
+      ],
+      "category": "common_phrases",
+      "keywords": [
+        "age",
+        "years old",
+        "birthday"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🎂",
+          "🕯️"
+        ],
+        "display": "🐷🎂🕯️",
+        "description": "Visual representation of: George, wake up! It's my birthday!"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "me_encanta",
+      "file": "svg/68_me_encanta.svg",
+      "phrases": [
+        "¡Me encanta!"
+      ],
+      "category": "common_phrases",
+      "keywords": [
+        "love",
+        "hearts",
+        "excited"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "💖",
+          "❤️"
+        ],
+        "display": "🐷💖❤️",
+        "description": "Visual representation of: I love it!"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "qué_bonito",
+      "file": "svg/69_qué_bonito.svg",
+      "phrases": [
+        "¡Qué bonito!"
+      ],
+      "category": "common_phrases",
+      "keywords": [
+        "beautiful",
+        "pretty",
+        "stars"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "✨",
+          "🌟"
+        ],
+        "display": "🐷✨🌟",
+        "description": "Visual representation of: How beautiful! / How nice!"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "mamá_papá",
+      "file": "svg/70_mamá_papá.svg",
+      "phrases": [
+        "¡Mamá! ¡Papá!"
+      ],
+      "category": "family",
+      "keywords": [
+        "parents",
+        "family",
+        "mummy",
+        "daddy"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👩",
+          "💛",
+          "👨",
+          "🧡"
+        ],
+        "display": "🐷👩💛👨🧡",
+        "description": "Visual representation of: Mummy! Daddy!"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "primero_tienes_que_ponerte",
+      "file": "svg/71_primero_tienes_que_ponerte.svg",
+      "phrases": [
+        "Primero tienes que ponerte las botas."
+      ],
+      "category": "family",
+      "keywords": [
+        "peppa",
+        "pig"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: First you have to put on your boots."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "todo_está_bien",
+      "file": "svg/72_todo_está_bien.svg",
+      "phrases": [
+        "Todo está bien."
+      ],
+      "category": "family",
+      "keywords": [
+        "good",
+        "okay",
+        "thumbs up"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👍",
+          "✅"
+        ],
+        "display": "🐷👍✅",
+        "description": "Visual representation of: Everything is fine."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "yo_yo",
+      "file": "svg/73_yo_yo.svg",
+      "phrases": [
+        "¡Yo! ¡Yo!"
+      ],
+      "category": "family",
+      "keywords": [
+        "peppa",
+        "pig"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: Me! Me!"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "hola_amigos",
+      "file": "svg/74_hola_amigos.svg",
+      "phrases": [
+        "¡Hola, amigos!"
+      ],
+      "category": "school",
+      "keywords": [
+        "friends",
+        "together"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👥",
+          "🤝"
+        ],
+        "display": "🐷👥🤝",
+        "description": "Visual representation of: Hello, friends!"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "qué_vamos_a_hacer",
+      "file": "svg/75_qué_vamos_a_hacer.svg",
+      "phrases": [
+        "¿Qué vamos a hacer hoy?"
+      ],
+      "category": "school",
+      "keywords": [
+        "peppa",
+        "pig"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: What are we going to do today?"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "muy_bien_hecho",
+      "file": "svg/76_muy_bien_hecho.svg",
+      "phrases": [
+        "¡Muy bien hecho!"
+      ],
+      "category": "school",
+      "keywords": [
+        "good",
+        "okay",
+        "thumbs up"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👍",
+          "✅"
+        ],
+        "display": "🐷👍✅",
+        "description": "Visual representation of: Very well done!"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "vamos_al_patio",
+      "file": "svg/77_vamos_al_patio.svg",
+      "phrases": [
+        "Vamos al patio."
+      ],
+      "category": "school",
+      "keywords": [
+        "peppa",
+        "pig"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: Let's go to the playground."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "sí_me_encantaría",
+      "file": "svg/78_sí_me_encantaría.svg",
+      "phrases": [
+        "Sí, me encantaría."
+      ],
+      "category": "friendship",
+      "keywords": [
+        "love",
+        "hearts",
+        "excited",
+        "sing",
+        "song"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "💖",
+          "❤️",
+          "🎤",
+          "🎵"
+        ],
+        "display": "🐷💖❤️🎤🎵",
+        "description": "Visual representation of: Yes, I'd love to."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "eres_mi_mejor_amiga",
+      "file": "svg/79_eres_mi_mejor_amiga.svg",
+      "phrases": [
+        "Eres mi mejor amiga."
+      ],
+      "category": "friendship",
+      "keywords": [
+        "peppa",
+        "pig"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: You are my best friend. (female)"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "eres_mi_mejor_amigo",
+      "file": "svg/80_eres_mi_mejor_amigo.svg",
+      "phrases": [
+        "Eres mi mejor amigo."
+      ],
+      "category": "friendship",
+      "keywords": [
+        "peppa",
+        "pig"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: You are my best friend. (male)"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "vamos_a_jugar_juntos",
+      "file": "svg/81_vamos_a_jugar_juntos.svg",
+      "phrases": [
+        "¡Vamos a jugar juntos!"
+      ],
+      "category": "friendship",
+      "keywords": [
+        "play",
+        "playing",
+        "game"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: Let's play together!"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "ahora_es_tu_turno",
+      "file": "svg/82_ahora_es_tu_turno.svg",
+      "phrases": [
+        "Ahora es tu turno."
+      ],
+      "category": "friendship",
+      "keywords": [
+        "turn",
+        "taking turns",
+        "game"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🔄",
+          "👆"
+        ],
+        "display": "🐷🔄👆",
+        "description": "Visual representation of: Now it's your turn."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "vamos_a_construir_algo",
+      "file": "svg/83_vamos_a_construir_algo.svg",
+      "phrases": [
+        "Vamos a construir algo."
+      ],
+      "category": "activities",
+      "keywords": [
+        "build",
+        "blocks",
+        "construction"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🧱",
+          "🏗️"
+        ],
+        "display": "🐷🧱🏗️",
+        "description": "Visual representation of: Let's build something."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "vamos_a_cantar_una",
+      "file": "svg/84_vamos_a_cantar_una.svg",
+      "phrases": [
+        "Vamos a cantar una canción."
+      ],
+      "category": "activities",
+      "keywords": [
+        "sing",
+        "song",
+        "music"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🎤",
+          "🎵"
+        ],
+        "display": "🐷🎤🎵",
+        "description": "Visual representation of: Let's sing a song."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "estoy_emocionado",
+      "file": "svg/85_estoy_emocionado.svg",
+      "phrases": [
+        "Estoy emocionado."
+      ],
+      "category": "emotions",
+      "keywords": [
+        "excited",
+        "happy",
+        "jumping"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "😄",
+          "🎉"
+        ],
+        "display": "🐷😄🎉",
+        "description": "Visual representation of: I am excited. (male)"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "estoy_emocionada",
+      "file": "svg/86_estoy_emocionada.svg",
+      "phrases": [
+        "Estoy emocionada."
+      ],
+      "category": "emotions",
+      "keywords": [
+        "peppa",
+        "pig"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: I am excited. (female)"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "no_tengas_miedo",
+      "file": "svg/87_no_tengas_miedo.svg",
+      "phrases": [
+        "No tengas miedo."
+      ],
+      "category": "emotions",
+      "keywords": [
+        "scared",
+        "fear",
+        "worried"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "😨",
+          "👻"
+        ],
+        "display": "🐷😨👻",
+        "description": "Visual representation of: Don't be scared."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "qué_risa",
+      "file": "svg/88_qué_risa.svg",
+      "phrases": [
+        "¡Qué risa!"
+      ],
+      "category": "emotions",
+      "keywords": [
+        "laugh",
+        "funny",
+        "happy"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "😂",
+          "😆"
+        ],
+        "display": "🐷😂😆",
+        "description": "Visual representation of: How funny! (lit: what laughter)"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "qué_estás_haciendo",
+      "file": "svg/89_qué_estás_haciendo.svg",
+      "phrases": [
+        "¿Qué estás haciendo?"
+      ],
+      "category": "questions",
+      "keywords": [
+        "peppa",
+        "pig"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: What are you doing?"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "estoy_jugando",
+      "file": "svg/90_estoy_jugando.svg",
+      "phrases": [
+        "Estoy jugando."
+      ],
+      "category": "questions",
+      "keywords": [
+        "play",
+        "playing",
+        "game"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🎮",
+          "⚽"
+        ],
+        "display": "🐷🎮⚽",
+        "description": "Visual representation of: I am playing."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "cómo_estás",
+      "file": "svg/91_cómo_estás.svg",
+      "phrases": [
+        "¿Cómo estás?"
+      ],
+      "category": "questions",
+      "keywords": [
+        "how are you",
+        "greeting",
+        "question"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👋",
+          "❓"
+        ],
+        "display": "🐷👋❓",
+        "description": "Visual representation of: How are you?"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "estoy_bien_gracias",
+      "file": "svg/92_estoy_bien_gracias.svg",
+      "phrases": [
+        "Estoy bien, gracias."
+      ],
+      "category": "questions",
+      "keywords": [
+        "good",
+        "okay",
+        "thumbs up",
+        "thank you",
+        "thanks"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👍",
+          "✅",
+          "🙏",
+          "💐"
+        ],
+        "display": "🐷👍✅🙏💐",
+        "description": "Visual representation of: I am well, thank you."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "qué_quieres_hacer",
+      "file": "svg/93_qué_quieres_hacer.svg",
+      "phrases": [
+        "¿Qué quieres hacer?"
+      ],
+      "category": "questions",
+      "keywords": [
+        "peppa",
+        "pig"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: What do you want to do?"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "quiero_jugar",
+      "file": "svg/94_quiero_jugar.svg",
+      "phrases": [
+        "Quiero jugar."
+      ],
+      "category": "questions",
+      "keywords": [
+        "play",
+        "playing",
+        "game"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: I want to play."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "te_gusta",
+      "file": "svg/95_te_gusta.svg",
+      "phrases": [
+        "¿Te gusta...?"
+      ],
+      "category": "questions",
+      "keywords": [
+        "like",
+        "preference"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👍",
+          "😊"
+        ],
+        "display": "🐷👍😊",
+        "description": "Visual representation of: Do you like...?"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "sí_me_gusta_mucho",
+      "file": "svg/96_sí_me_gusta_mucho.svg",
+      "phrases": [
+        "Sí, me gusta mucho."
+      ],
+      "category": "questions",
+      "keywords": [
+        "like",
+        "preference"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👍",
+          "😊"
+        ],
+        "display": "🐷👍😊",
+        "description": "Visual representation of: Yes, I like it a lot."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "no_no_me_gusta",
+      "file": "svg/97_no_no_me_gusta.svg",
+      "phrases": [
+        "No, no me gusta."
+      ],
+      "category": "questions",
+      "keywords": [
+        "like",
+        "preference"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👍",
+          "😊"
+        ],
+        "display": "🐷👍😊",
+        "description": "Visual representation of: No, I don't like it."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "cuántos_años_tienes",
+      "file": "svg/98_cuántos_años_tienes.svg",
+      "phrases": [
+        "¿Cuántos años tienes?"
+      ],
+      "category": "questions",
+      "keywords": [
+        "age",
+        "years old",
+        "birthday"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🎂",
+          "🕯️"
+        ],
+        "display": "🐷🎂🕯️",
+        "description": "Visual representation of: How old are you?"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "tengo_cinco_años",
+      "file": "svg/99_tengo_cinco_años.svg",
+      "phrases": [
+        "Tengo cinco años."
+      ],
+      "category": "questions",
+      "keywords": [
+        "age",
+        "years old",
+        "birthday"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🎂",
+          "🕯️"
+        ],
+        "display": "🐷🎂🕯️",
+        "description": "Visual representation of: I am five years old."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "dónde_vives",
+      "file": "svg/100_dónde_vives.svg",
+      "phrases": [
+        "¿Dónde vives?"
+      ],
+      "category": "questions",
+      "keywords": [
+        "peppa",
+        "pig"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: Where do you live?"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "vivo_en_una_casa",
+      "file": "svg/101_vivo_en_una_casa.svg",
+      "phrases": [
+        "Vivo en una casa."
+      ],
+      "category": "questions",
+      "keywords": [
+        "house",
+        "home",
+        "building"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🏠",
+          "🏡"
+        ],
+        "display": "🐷🏠🏡",
+        "description": "Visual representation of: I live in a house."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "ha_dejado_de_llover",
+      "file": "svg/102_ha_dejado_de_llover.svg",
+      "phrases": [
+        "Ha dejado de llover."
+      ],
+      "category": "weather",
+      "keywords": [
+        "rain",
+        "stopped",
+        "weather"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🌧️",
+          "☔"
+        ],
+        "display": "🐷🌧️☔",
+        "description": "Visual representation of: It has stopped raining."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "hace_mal_tiempo",
+      "file": "svg/103_hace_mal_tiempo.svg",
+      "phrases": [
+        "Hace mal tiempo."
+      ],
+      "category": "weather",
+      "keywords": [
+        "bad weather",
+        "cloudy",
+        "storm"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "⛈️",
+          "☁️"
+        ],
+        "display": "🐷⛈️☁️",
+        "description": "Visual representation of: The weather is bad."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "es_por_la_mañana",
+      "file": "svg/104_es_por_la_mañana.svg",
+      "phrases": [
+        "Es por la mañana."
+      ],
+      "category": "time_of_day",
+      "keywords": [
+        "morning",
+        "sunrise",
+        "breakfast"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🌅",
+          "☀️"
+        ],
+        "display": "🐷🌅☀️",
+        "description": "Visual representation of: It's morning."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "es_por_la_tarde",
+      "file": "svg/105_es_por_la_tarde.svg",
+      "phrases": [
+        "Es por la tarde."
+      ],
+      "category": "time_of_day",
+      "keywords": [
+        "afternoon",
+        "sun",
+        "day"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "☀️",
+          "🌞"
+        ],
+        "display": "🐷☀️🌞",
+        "description": "Visual representation of: It's afternoon."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "es_por_la_noche",
+      "file": "svg/106_es_por_la_noche.svg",
+      "phrases": [
+        "Es por la noche."
+      ],
+      "category": "time_of_day",
+      "keywords": [
+        "night",
+        "evening",
+        "moon",
+        "stars"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🌙",
+          "⭐"
+        ],
+        "display": "🐷🌙⭐",
+        "description": "Visual representation of: It's nighttime / evening."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "es_la_hora_del",
+      "file": "svg/107_es_la_hora_del.svg",
+      "phrases": [
+        "Es la hora del desayuno."
+      ],
+      "category": "time_of_day",
+      "keywords": [
+        "breakfast",
+        "food",
+        "morning"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🥞",
+          "☕"
+        ],
+        "display": "🐷🥞☕",
+        "description": "Visual representation of: It's breakfast time."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "es_la_hora_de",
+      "file": "svg/108_es_la_hora_de.svg",
+      "phrases": [
+        "Es la hora de la cena."
+      ],
+      "category": "time_of_day",
+      "keywords": [
+        "dinner",
+        "evening",
+        "food"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🍽️",
+          "🌙"
+        ],
+        "display": "🐷🍽️🌙",
+        "description": "Visual representation of: It's dinnertime."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "mañana_es",
+      "file": "svg/109_mañana_es.svg",
+      "phrases": [
+        "Mañana es..."
+      ],
+      "category": "time_of_day",
+      "keywords": [
+        "morning",
+        "sunrise",
+        "breakfast"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🌅",
+          "☀️"
+        ],
+        "display": "🐷🌅☀️",
+        "description": "Visual representation of: Tomorrow is..."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "ayer_fue",
+      "file": "svg/110_ayer_fue.svg",
+      "phrases": [
+        "Ayer fue..."
+      ],
+      "category": "time_of_day",
+      "keywords": [
+        "peppa",
+        "pig"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: Yesterday was..."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "qué_hay_para_comer",
+      "file": "svg/111_qué_hay_para_comer.svg",
+      "phrases": [
+        "¿Qué hay para comer?"
+      ],
+      "category": "food",
+      "keywords": [
+        "eat",
+        "food",
+        "meal"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🍽️",
+          "🍕"
+        ],
+        "display": "🐷🍽️🍕",
+        "description": "Visual representation of: What's for lunch/dinner?"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "me_gusta_mucho",
+      "file": "svg/112_me_gusta_mucho.svg",
+      "phrases": [
+        "Me gusta mucho."
+      ],
+      "category": "food",
+      "keywords": [
+        "like",
+        "preference"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👍",
+          "😊"
+        ],
+        "display": "🐷👍😊",
+        "description": "Visual representation of: I like it a lot."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "quieres_más",
+      "file": "svg/113_quieres_más.svg",
+      "phrases": [
+        "¿Quieres más?"
+      ],
+      "category": "food",
+      "keywords": [
+        "peppa",
+        "pig"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷"
+        ],
+        "display": "🐷",
+        "description": "Visual representation of: Do you want more?"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile",
+          "Heart"
+        ],
+        "phosphor": [
+          "Smiley",
+          "Heart"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "no_gracias_estoy_lleno",
+      "file": "svg/114_no_gracias_estoy_lleno.svg",
+      "phrases": [
+        "No, gracias. Estoy lleno."
+      ],
+      "category": "food",
+      "keywords": [
+        "thank you",
+        "thanks",
+        "polite",
+        "full",
+        "satisfied"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🙏",
+          "💐",
+          "😋",
+          "🤰"
+        ],
+        "display": "🐷🙏💐😋🤰",
+        "description": "Visual representation of: No, thank you. I'm full. (male)"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "no_gracias_estoy_llena",
+      "file": "svg/115_no_gracias_estoy_llena.svg",
+      "phrases": [
+        "No, gracias. Estoy llena."
+      ],
+      "category": "food",
+      "keywords": [
+        "thank you",
+        "thanks",
+        "polite"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🙏",
+          "💐"
+        ],
+        "display": "🐷🙏💐",
+        "description": "Visual representation of: No, thank you. I'm full. (female)"
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    },
+    {
+      "id": "buen_provecho",
+      "file": "svg/116_buen_provecho.svg",
+      "phrases": [
+        "Buen provecho."
+      ],
+      "category": "food",
+      "keywords": [
+        "enjoy meal",
+        "bon appetit",
+        "food"
+      ],
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🍽️",
+          "😊"
+        ],
+        "display": "🐷🍽️😊",
+        "description": "Visual representation of: Enjoy your meal."
+      },
+      "iconTip": {
+        "lucide": [
+          "Smile"
+        ],
+        "phosphor": [
+          "Smiley"
+        ],
+        "iconify": [
+          "noto:pig-face"
+        ]
+      },
+      "distractorPool": []
+    }
+  ],
+  "distractorImages": {
+    "swimming": {
+      "description": "Pig swimming in pool",
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🏊",
+          "💦",
+          "🩱"
+        ],
+        "display": "🐷🏊💦🩱"
+      },
+      "status": "emoji_ready"
+    },
+    "bathing": {
+      "description": "Pig in bathtub with bubbles",
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "🛁",
+          "🧼",
+          "🫧"
+        ],
+        "display": "🐷🛁🧼🫧"
+      },
+      "status": "emoji_ready"
+    },
+    "rain": {
+      "description": "Rain clouds and umbrella",
+      "emojiTip": {
+        "emojis": [
+          "🌧️",
+          "☔",
+          "💧",
+          "☁️"
+        ],
+        "display": "🌧️☔💧☁️"
+      },
+      "status": "emoji_ready"
+    },
+    "sad_puddle": {
+      "description": "Pig looking sadly at puddle",
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "😢",
+          "💧",
+          "🚫"
+        ],
+        "display": "🐷😢💧🚫"
+      },
+      "status": "emoji_ready"
+    },
+    "george": {
+      "description": "George with dinosaur toy",
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "💙",
+          "🦖",
+          "👶"
+        ],
+        "display": "🐷💙🦖👶"
+      },
+      "status": "emoji_ready"
+    },
+    "mummy_pig": {
+      "description": "Mummy Pig in yellow dress",
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👗",
+          "💛",
+          "👩"
+        ],
+        "display": "🐷👗💛👩"
+      },
+      "status": "emoji_ready"
+    },
+    "daddy_pig": {
+      "description": "Daddy Pig with glasses",
+      "emojiTip": {
+        "emojis": [
+          "🐷",
+          "👓",
+          "🧡",
+          "👨"
+        ],
+        "display": "🐷👓🧡👨"
+      },
+      "status": "emoji_ready"
+    },
+    "suzy_sheep": {
+      "description": "Suzy Sheep waving",
+      "emojiTip": {
+        "emojis": [
+          "🐑",
+          "👋",
+          "💜",
+          "👧"
+        ],
+        "display": "🐑👋💜👧"
+      },
+      "status": "emoji_ready"
+    },
+    "morning": {
+      "description": "Sunrise with rooster",
+      "emojiTip": {
+        "emojis": [
+          "🌅",
+          "🐓",
+          "☀️",
+          "⏰"
+        ],
+        "display": "🌅🐓☀️⏰"
+      },
+      "status": "emoji_ready"
+    },
+    "breakfast": {
+      "description": "Breakfast table with pancakes",
+      "emojiTip": {
+        "emojis": [
+          "🥞",
+          "🍳",
+          "🥛",
+          "☕"
+        ],
+        "display": "🥞🍳🥛☕"
+      },
+      "status": "emoji_ready"
+    },
+    "playing": {
+      "description": "Kids playing with ball",
+      "emojiTip": {
+        "emojis": [
+          "⚽",
+          "🏃",
+          "🎮",
+          "😄"
+        ],
+        "display": "⚽🏃🎮😄"
+      },
+      "status": "emoji_ready"
+    },
+    "rainy": {
+      "description": "Rainy day with clouds",
+      "emojiTip": {
+        "emojis": [
+          "🌧️",
+          "☁️",
+          "💧",
+          "😔"
+        ],
+        "display": "🌧️☁️💧😔"
+      },
+      "status": "emoji_ready"
+    },
+    "snowy": {
+      "description": "Snowy winter day",
+      "emojiTip": {
+        "emojis": [
+          "❄️",
+          "⛄",
+          "🌨️",
+          "🧥"
+        ],
+        "display": "❄️⛄🌨️🧥"
+      },
+      "status": "emoji_ready"
+    },
+    "cloudy": {
+      "description": "Overcast cloudy sky",
+      "emojiTip": {
+        "emojis": [
+          "☁️",
+          "🌥️",
+          "😐"
+        ],
+        "display": "☁️🌥️😐"
+      },
+      "status": "emoji_ready"
+    },
+    "windy": {
+      "description": "Windy day with leaves",
+      "emojiTip": {
+        "emojis": [
+          "💨",
+          "🍃",
+          "🌬️",
+          "🧣"
+        ],
+        "display": "💨🍃🌬️🧣"
+      },
+      "status": "emoji_ready"
+    },
+    "school": {
+      "description": "School building with children",
+      "emojiTip": {
+        "emojis": [
+          "🏫",
+          "📚",
+          "✏️",
+          "👨‍🏫"
+        ],
+        "display": "🏫📚✏️👨‍🏫"
+      },
+      "status": "emoji_ready"
+    },
+    "dinner": {
+      "description": "Family dinner table",
+      "emojiTip": {
+        "emojis": [
+          "🍽️",
+          "🍝",
+          "👨‍👩‍👧",
+          "🍷"
+        ],
+        "display": "🍽️🍝👨‍👩‍👧🍷"
+      },
+      "status": "emoji_ready"
+    },
+    "shopping": {
+      "description": "Shopping cart in supermarket",
+      "emojiTip": {
+        "emojis": [
+          "🛒",
+          "🏪",
+          "🍎",
+          "💳"
+        ],
+        "display": "🛒🏪🍎💳"
+      },
+      "status": "emoji_ready"
+    },
+    "sleeping": {
+      "description": "Sleeping",
+      "emojiTip": {
+        "emojis": [
+          "😴",
+          "🛏️"
+        ],
+        "display": "😴🛏️",
+        "description": "Sleeping"
+      },
+      "status": "emoji_ready"
+    },
+    "eating": {
+      "description": "Eating food",
+      "emojiTip": {
+        "emojis": [
+          "🍽️",
+          "🍴"
+        ],
+        "display": "🍽️🍴",
+        "description": "Eating food"
+      },
+      "status": "emoji_ready"
+    },
+    "sad": {
+      "description": "Sad",
+      "emojiTip": {
+        "emojis": [
+          "😢",
+          "😔"
+        ],
+        "display": "😢😔",
+        "description": "Sad"
+      },
+      "status": "emoji_ready"
+    },
+    "happy": {
+      "description": "Happy",
+      "emojiTip": {
+        "emojis": [
+          "😊",
+          "😄"
+        ],
+        "display": "😊😄",
+        "description": "Happy"
+      },
+      "status": "emoji_ready"
+    },
+    "studying": {
+      "description": "Studying",
+      "emojiTip": {
+        "emojis": [
+          "📚",
+          "✏️"
+        ],
+        "display": "📚✏️",
+        "description": "Studying"
+      },
+      "status": "emoji_ready"
+    },
+    "home": {
+      "description": "Home",
+      "emojiTip": {
+        "emojis": [
+          "🏠"
+        ],
+        "display": "🏠",
+        "description": "Home"
+      },
+      "status": "emoji_ready"
+    },
+    "night": {
+      "description": "Night time",
+      "emojiTip": {
+        "emojis": [
+          "🌙",
+          "⭐"
+        ],
+        "display": "🌙⭐",
+        "description": "Night time"
+      },
+      "status": "emoji_ready"
+    },
+    "hot": {
+      "description": "Hot weather",
+      "emojiTip": {
+        "emojis": [
+          "🔥",
+          "☀️"
+        ],
+        "display": "🔥☀️",
+        "description": "Hot weather"
+      },
+      "status": "emoji_ready"
+    },
+    "class_time": {
+      "description": "Class time",
+      "emojiTip": {
+        "emojis": [
+          "📚",
+          "🕐"
+        ],
+        "display": "📚🕐",
+        "description": "Class time"
+      },
+      "status": "emoji_ready"
+    },
+    "reading": {
+      "description": "Reading",
+      "emojiTip": {
+        "emojis": [
+          "📖",
+          "👓"
+        ],
+        "display": "📖👓",
+        "description": "Reading"
+      },
+      "status": "emoji_ready"
+    },
+    "soup": {
+      "description": "Soup",
+      "emojiTip": {
+        "emojis": [
+          "🍲",
+          "🥄"
+        ],
+        "display": "🍲🥄",
+        "description": "Soup"
+      },
+      "status": "emoji_ready"
+    },
+    "vegetables": {
+      "description": "Vegetables",
+      "emojiTip": {
+        "emojis": [
+          "🥕",
+          "🥦"
+        ],
+        "display": "🥕🥦",
+        "description": "Vegetables"
+      },
+      "status": "emoji_ready"
+    },
+    "run_fast": {
+      "description": "Run Fast",
+      "emojiTip": {
+        "emojis": [
+          "🏃",
+          "💨"
+        ],
+        "display": "🏃💨",
+        "description": "Run fast"
+      },
+      "status": "emoji_ready"
+    },
+    "jump": {
+      "description": "Jump",
+      "emojiTip": {
+        "emojis": [
+          "🦘",
+          "⬆️"
+        ],
+        "display": "🦘⬆️",
+        "description": "Jump"
+      },
+      "status": "emoji_ready"
+    },
+    "sleep": {
+      "description": "Sleep",
+      "emojiTip": {
+        "emojis": [
+          "😴",
+          "💤"
+        ],
+        "display": "😴💤",
+        "description": "Sleep"
+      },
+      "status": "emoji_ready"
+    },
+    "cry": {
+      "description": "Cry",
+      "emojiTip": {
+        "emojis": [
+          "😭",
+          "😢"
+        ],
+        "display": "😭😢",
+        "description": "Cry"
+      },
+      "status": "emoji_ready"
+    },
+    "panic": {
+      "description": "Panic",
+      "emojiTip": {
+        "emojis": [
+          "😱",
+          "😨"
+        ],
+        "display": "😱😨",
+        "description": "Panic"
+      },
+      "status": "emoji_ready"
+    },
+    "scared": {
+      "description": "Scared",
+      "emojiTip": {
+        "emojis": [
+          "😨",
+          "😰"
+        ],
+        "display": "😨😰",
+        "description": "Scared"
+      },
+      "status": "emoji_ready"
+    },
+    "bad": {
+      "description": "Bad",
+      "emojiTip": {
+        "emojis": [
+          "👎",
+          "❌"
+        ],
+        "display": "👎❌",
+        "description": "Bad"
+      },
+      "status": "emoji_ready"
+    },
+    "try_again": {
+      "description": "Try Again",
+      "emojiTip": {
+        "emojis": [
+          "🔄",
+          "💪"
+        ],
+        "display": "🔄💪",
+        "description": "Try again"
+      },
+      "status": "emoji_ready"
+    },
+    "boring": {
+      "description": "Boring",
+      "emojiTip": {
+        "emojis": [
+          "😴",
+          "🥱"
+        ],
+        "display": "😴🥱",
+        "description": "Boring"
+      },
+      "status": "emoji_ready"
+    },
+    "brave": {
+      "description": "Brave",
+      "emojiTip": {
+        "emojis": [
+          "💪",
+          "🦁"
+        ],
+        "display": "💪🦁",
+        "description": "Brave"
+      },
+      "status": "emoji_ready"
+    },
+    "calm": {
+      "description": "Calm",
+      "emojiTip": {
+        "emojis": [
+          "😌",
+          "🧘"
+        ],
+        "display": "😌🧘",
+        "description": "Calm"
+      },
+      "status": "emoji_ready"
+    },
+    "angry": {
+      "description": "Angry",
+      "emojiTip": {
+        "emojis": [
+          "😠",
+          "💢"
+        ],
+        "display": "😠💢",
+        "description": "Angry"
+      },
+      "status": "emoji_ready"
+    },
+    "delicious": {
+      "description": "Delicious",
+      "emojiTip": {
+        "emojis": [
+          "😋",
+          "🤤"
+        ],
+        "display": "😋🤤",
+        "description": "Delicious"
+      },
+      "status": "emoji_ready"
+    },
+    "your_turn": {
+      "description": "Your Turn",
+      "emojiTip": {
+        "emojis": [
+          "👉",
+          "🎯"
+        ],
+        "display": "👉🎯",
+        "description": "Your turn"
+      },
+      "status": "emoji_ready"
+    },
+    "waiting": {
+      "description": "Waiting",
+      "emojiTip": {
+        "emojis": [
+          "⏳",
+          "⌛"
+        ],
+        "display": "⏳⌛",
+        "description": "Waiting"
+      },
+      "status": "emoji_ready"
+    }
+  },
+  "gameSettings": {
+    "optionsPerQuestion": 4,
+    "correctPerQuestion": 1,
+    "shuffleOptions": true,
+    "showHintAfterWrong": true,
+    "audioAutoplay": true,
+    "repeatAudioOnRequest": true,
+    "feedbackDelay": 500,
+    "celebrationAnimation": true,
+    "alternateDisplay": {
+      "enabled": true,
+      "intervalMs": 2000,
+      "modes": [
+        "svg",
+        "emoji"
+      ]
+    }
+  },
+  "phraseQueue": [
+    {
+      "spanish": "¡Me encanta saltar en los charcos de barro!",
+      "finnish": "Rakastan hypätä mutalätäköissä!",
+      "english": "I love jumping in muddy puddles!",
+      "correctImage": "muddy_puddles",
+      "distractors": [
+        "swimming",
+        "bathing",
+        "rain"
+      ],
+      "difficulty": "easy",
+      "category": "iconic"
+    },
+    {
+      "spanish": "Yo soy Peppa Pig.",
+      "finnish": "Olen Peppa Pig.",
+      "english": "I am Peppa Pig.",
+      "correctImage": "yo_soy_peppa",
+      "distractors": [
+        "george",
+        "mummy_pig",
+        "daddy_pig"
+      ],
+      "difficulty": "easy",
+      "category": "introduction"
+    },
+    {
+      "spanish": "¡Hora de ir a la cama!",
+      "finnish": "Aika mennä nukkumaan!",
+      "english": "Time to go to bed!",
+      "correctImage": "bedtime",
+      "distractors": [
+        "morning",
+        "breakfast",
+        "playing"
+      ],
+      "difficulty": "easy",
+      "category": "daily_routine"
+    },
+    {
+      "spanish": "Hace sol.",
+      "finnish": "On aurinkoista.",
+      "english": "It's sunny.",
+      "correctImage": "sunny_day",
+      "distractors": [
+        "rainy",
+        "snowy",
+        "cloudy"
+      ],
+      "difficulty": "easy",
+      "category": "weather"
+    },
+    {
+      "spanish": "¡Feliz cumpleaños, Peppa!",
+      "finnish": "Hyvää syntymäpäivää, Peppa, olet paras!",
+      "english": "Happy birthday, Peppa!",
+      "correctImage": "birthday_party",
+      "distractors": [
+        "school",
+        "dinner",
+        "shopping"
+      ],
+      "difficulty": "easy",
+      "category": "celebrations"
+    },
+    {
+      "spanish": "¡Vamos a jugar!",
+      "finnish": "Pelataan!",
+      "english": "Let's play!",
+      "correctImage": "lets_play",
+      "distractors": [
+        "bedtime",
+        "eating",
+        "studying"
+      ],
+      "difficulty": "easy",
+      "category": "activities"
+    },
+    {
+      "spanish": "Estoy feliz.",
+      "finnish": "Olen iloinen.",
+      "english": "I am happy.",
+      "correctImage": "i_am_happy",
+      "distractors": [
+        "i_am_sad",
+        "i_am_hungry",
+        "bedtime"
+      ],
+      "difficulty": "easy",
+      "category": "emotions"
+    },
+    {
+      "spanish": "Estoy triste.",
+      "finnish": "Olen surullinen.",
+      "english": "I am sad.",
+      "correctImage": "i_am_sad",
+      "distractors": [
+        "i_am_happy",
+        "lets_play",
+        "birthday_party"
+      ],
+      "difficulty": "easy",
+      "category": "emotions"
+    },
+    {
+      "spanish": "Está lloviendo.",
+      "finnish": "Sataa.",
+      "english": "It's raining.",
+      "correctImage": "its_raining",
+      "distractors": [
+        "sunny_day",
+        "there_is_a_rainbow",
+        "snowy"
+      ],
+      "difficulty": "easy",
+      "category": "weather"
+    },
+    {
+      "spanish": "¡Es hora de comer!",
+      "finnish": "On aika syödä!",
+      "english": "It's time to eat!",
+      "correctImage": "its_time_to_eat",
+      "distractors": [
+        "bedtime",
+        "lets_play",
+        "lets_read_a_story"
+      ],
+      "difficulty": "easy",
+      "category": "daily_routine"
+    },
+    {
+      "spanish": "Vamos a dibujar.",
+      "finnish": "Piirretään.",
+      "english": "Let's draw.",
+      "correctImage": "lets_draw",
+      "distractors": [
+        "its_time_to_paint",
+        "lets_read_a_story",
+        "lets_count_to_ten"
+      ],
+      "difficulty": "medium",
+      "category": "activities"
+    },
+    {
+      "spanish": "Vamos a nadar.",
+      "finnish": "Mennään uimaan.",
+      "english": "Let's swim / go swimming.",
+      "correctImage": "lets_swim",
+      "distractors": [
+        "muddy_puddles",
+        "its_raining",
+        "bathing"
+      ],
+      "difficulty": "easy",
+      "category": "activities"
+    },
+    {
+      "spanish": "Vamos a bailar.",
+      "finnish": "Tanssitaan.",
+      "english": "Let's dance.",
+      "correctImage": "lets_dance",
+      "distractors": [
+        "lets_play",
+        "lets_swim",
+        "bedtime"
+      ],
+      "difficulty": "easy",
+      "category": "activities"
+    },
+    {
+      "spanish": "Buenos días, Madame Gazelle.",
+      "finnish": "Hyvää huomenta, rouva Gazelle.",
+      "english": "Good morning, Madame Gazelle.",
+      "correctImage": "good_morning_madame_gazelle",
+      "distractors": [
+        "lets_go_to_school",
+        "hello_everyone",
+        "bedtime"
+      ],
+      "difficulty": "medium",
+      "category": "school"
+    },
+    {
+      "spanish": "¿Quieres jugar conmigo?",
+      "finnish": "Haluatko leikkiä kanssani?",
+      "english": "Do you want to play with me?",
+      "correctImage": "do_you_want_to_play_with_me",
+      "distractors": [
+        "lets_play",
+        "hello_everyone",
+        "i_am_sad"
+      ],
+      "difficulty": "medium",
+      "category": "friendship"
+    },
+    {
+      "spanish": "Tengo hambre.",
+      "finnish": "Olen nälkäinen.",
+      "english": "I am hungry.",
+      "correctImage": "i_am_hungry",
+      "distractors": [
+        "its_time_to_eat",
+        "how_delicious",
+        "i_am_sad"
+      ],
+      "difficulty": "easy",
+      "category": "emotions"
+    },
+    {
+      "spanish": "Hay un arcoíris.",
+      "finnish": "On olemassa sateenkaari.",
+      "english": "There is a rainbow.",
+      "correctImage": "there_is_a_rainbow",
+      "distractors": [
+        "sunny_day",
+        "its_raining",
+        "cloudy"
+      ],
+      "difficulty": "easy",
+      "category": "weather"
+    },
+    {
+      "spanish": "Vamos a la escuela.",
+      "finnish": "Mennään kouluun.",
+      "english": "Let's go to school.",
+      "correctImage": "lets_go_to_school",
+      "distractors": [
+        "good_morning_madame_gazelle",
+        "can_we_go_to_the_park",
+        "lets_visit_grandparents"
+      ],
+      "difficulty": "easy",
+      "category": "school"
+    },
+    {
+      "spanish": "¡Qué rico!",
+      "finnish": "Kuinka ihanaa!",
+      "english": "How delicious! / Yummy!",
+      "correctImage": "how_delicious",
+      "distractors": [
+        "i_am_hungry",
+        "its_time_to_eat",
+        "i_am_happy"
+      ],
+      "difficulty": "medium",
+      "category": "food"
+    },
+    {
+      "spanish": "Vamos a visitar a los abuelos.",
+      "finnish": "Aiomme käydä isovanhempien luona.",
+      "english": "Let's visit the grandparents.",
+      "correctImage": "lets_visit_grandparents",
+      "distractors": [
+        "lets_go_to_school",
+        "can_we_go_to_the_park",
+        "home"
+      ],
+      "difficulty": "medium",
+      "category": "family"
+    },
+    {
+      "spanish": "Es hora de pintar.",
+      "finnish": "On aika maalata.",
+      "english": "It's time to paint.",
+      "correctImage": "its_time_to_paint",
+      "distractors": [
+        "lets_draw",
+        "lets_read_a_story",
+        "lets_count_to_ten"
+      ],
+      "difficulty": "medium",
+      "category": "activities"
+    },
+    {
+      "spanish": "Vamos a contar hasta diez.",
+      "finnish": "Lasketaan kymmeneen.",
+      "english": "Let's count to ten.",
+      "correctImage": "lets_count_to_ten",
+      "distractors": [
+        "lets_go_to_school",
+        "lets_read_a_story",
+        "good_morning_madame_gazelle"
+      ],
+      "difficulty": "medium",
+      "category": "school"
+    },
+    {
+      "spanish": "¡Hola a todos!",
+      "finnish": "Hei kaikille!",
+      "english": "Hello everyone!",
+      "correctImage": "hello_everyone",
+      "distractors": [
+        "good_morning_madame_gazelle",
+        "do_you_want_to_play_with_me",
+        "yo_soy_peppa"
+      ],
+      "difficulty": "easy",
+      "category": "greetings"
+    },
+    {
+      "spanish": "¿Podemos ir al parque?",
+      "finnish": "Voimmeko mennä puistoon?",
+      "english": "Can we go to the park?",
+      "correctImage": "can_we_go_to_the_park",
+      "distractors": [
+        "lets_go_to_school",
+        "lets_visit_grandparents",
+        "lets_play"
+      ],
+      "difficulty": "medium",
+      "category": "places"
+    },
+    {
+      "spanish": "Vamos a leer un cuento.",
+      "finnish": "Luetaan tarina.",
+      "english": "Let's read a story.",
+      "correctImage": "lets_read_a_story",
+      "distractors": [
+        "lets_draw",
+        "lets_count_to_ten",
+        "bedtime"
+      ],
+      "difficulty": "easy",
+      "category": "activities"
+    },
+    {
+      "spanish": "Este es mi hermano pequeño, George.",
+      "finnish": "Tämä on pikkuveljeni, George.",
+      "english": "This is my little brother, George.",
+      "correctImage": "george_little_brother",
+      "distractors": [
+        "mummy_pig",
+        "daddy_pig",
+        "suzy_sheep"
+      ],
+      "difficulty": "medium",
+      "category": "introduction"
+    },
+    {
+      "spanish": "Esta es Mamá Pig.",
+      "finnish": "Tässä on Mama Pig.",
+      "english": "This is Mummy Pig.",
+      "correctImage": "mummy_pig",
+      "distractors": [
+        "daddy_pig",
+        "george",
+        "suzy_sheep"
+      ],
+      "difficulty": "medium",
+      "category": "introduction"
+    },
+    {
+      "spanish": "Y este es Papá Pig.",
+      "finnish": "Ja tässä on Papa Pig.",
+      "english": "And this is Daddy Pig.",
+      "correctImage": "daddy_pig",
+      "distractors": [
+        "mummy_pig",
+        "george",
+        "suzy_sheep"
+      ],
+      "difficulty": "medium",
+      "category": "introduction"
+    },
+    {
+      "spanish": "¡Adiós!",
+      "finnish": "Näkemiin!",
+      "english": "Goodbye!",
+      "correctImage": "goodbye",
+      "distractors": [
+        "hello_everyone",
+        "good_morning_madame_gazelle",
+        "lets_play"
+      ],
+      "difficulty": "easy",
+      "category": "greetings"
+    },
+    {
+      "spanish": "¡Hasta luego!",
+      "finnish": "Nähdään myöhemmin!",
+      "english": "See you later!",
+      "correctImage": "see_you_later",
+      "distractors": [
+        "morning",
+        "goodbye",
+        "hello_everyone"
+      ],
+      "difficulty": "easy",
+      "category": "greetings"
+    },
+    {
+      "spanish": "¡Por favor!",
+      "finnish": "Anteeksi!",
+      "english": "Please!",
+      "correctImage": "please",
+      "distractors": [
+        "thank_you",
+        "youre_welcome",
+        "im_sorry"
+      ],
+      "difficulty": "easy",
+      "category": "politeness"
+    },
+    {
+      "spanish": "¡Gracias!",
+      "finnish": "Kiitos!",
+      "english": "Thank you!",
+      "correctImage": "thank_you",
+      "distractors": [
+        "please",
+        "youre_welcome",
+        "im_sorry"
+      ],
+      "difficulty": "easy",
+      "category": "politeness"
+    },
+    {
+      "spanish": "De nada.",
+      "finnish": "Ei kestä.",
+      "english": "You're welcome.",
+      "correctImage": "youre_welcome",
+      "distractors": [
+        "thank_you",
+        "please",
+        "im_sorry"
+      ],
+      "difficulty": "easy",
+      "category": "politeness"
+    },
+    {
+      "spanish": "Lo siento.",
+      "finnish": "Olen pahoillani.",
+      "english": "I'm sorry.",
+      "correctImage": "im_sorry",
+      "distractors": [
+        "never_mind",
+        "thank_you",
+        "please"
+      ],
+      "difficulty": "easy",
+      "category": "politeness"
+    },
+    {
+      "spanish": "¡No importa!",
+      "finnish": "Unohda koko juttu!",
+      "english": "It doesn't matter! / Never mind!",
+      "correctImage": "never_mind",
+      "distractors": [
+        "im_sorry",
+        "youre_welcome",
+        "thank_you"
+      ],
+      "difficulty": "easy",
+      "category": "politeness"
+    },
+    {
+      "spanish": "¡Mira!",
+      "finnish": "Katso!",
+      "english": "Look!",
+      "correctImage": "look",
+      "distractors": [
+        "what_is_that",
+        "come_here",
+        "wait"
+      ],
+      "difficulty": "medium",
+      "category": "actions"
+    },
+    {
+      "spanish": "¿Qué es eso?",
+      "finnish": "Mikä tuo on?",
+      "english": "What is that?",
+      "correctImage": "what_is_that",
+      "distractors": [
+        "look",
+        "i_dont_know",
+        "where_is"
+      ],
+      "difficulty": "medium",
+      "category": "questions"
+    },
+    {
+      "spanish": "¡Ven aquí!",
+      "finnish": "Tule tänne!",
+      "english": "Come here!",
+      "correctImage": "come_here",
+      "distractors": [
+        "wait",
+        "lets_go",
+        "look"
+      ],
+      "difficulty": "medium",
+      "category": "actions"
+    },
+    {
+      "spanish": "¡Espera!",
+      "finnish": "Odota!",
+      "english": "Wait!",
+      "correctImage": "wait",
+      "distractors": [
+        "morning",
+        "lets_go",
+        "see_you_later"
+      ],
+      "difficulty": "medium",
+      "category": "actions"
+    },
+    {
+      "spanish": "¡Vamos!",
+      "finnish": "Mennään!",
+      "english": "Let's go! / Come on!",
+      "correctImage": "lets_go",
+      "distractors": [
+        "wait",
+        "goodbye",
+        "see_you_later"
+      ],
+      "difficulty": "medium",
+      "category": "actions"
+    },
+    {
+      "spanish": "¿Puedo ayudar?",
+      "finnish": "Voinko auttaa?",
+      "english": "Can I help?",
+      "correctImage": "can_i_help",
+      "distractors": [
+        "of_course",
+        "youre_welcome",
+        "please"
+      ],
+      "difficulty": "medium",
+      "category": "questions"
+    },
+    {
+      "spanish": "¡Claro que sí!",
+      "finnish": "Tietysti!",
+      "english": "Of course!",
+      "correctImage": "of_course",
+      "distractors": [
+        "never_mind",
+        "i_dont_know",
+        "wait"
+      ],
+      "difficulty": "easy",
+      "category": "politeness"
+    },
+    {
+      "spanish": "¿Dónde está...?",
+      "finnish": "Missä hän on...?",
+      "english": "Where is...?",
+      "correctImage": "where_is",
+      "distractors": [
+        "here_it_is",
+        "i_dont_know",
+        "look"
+      ],
+      "difficulty": "medium",
+      "category": "questions"
+    },
+    {
+      "spanish": "Aquí está.",
+      "finnish": "Tässä se on.",
+      "english": "Here it is.",
+      "correctImage": "here_it_is",
+      "distractors": [
+        "where_is",
+        "i_dont_know",
+        "what_is_that"
+      ],
+      "difficulty": "easy",
+      "category": "answers"
+    },
+    {
+      "spanish": "No lo sé.",
+      "finnish": "Minä en tiedä.",
+      "english": "I don't know.",
+      "correctImage": "i_dont_know",
+      "distractors": [
+        "here_it_is",
+        "of_course",
+        "look"
+      ],
+      "difficulty": "easy",
+      "category": "answers"
+    },
+    {
+      "spanish": "Tengo sed.",
+      "finnish": "Minulla on jano.",
+      "english": "I am thirsty.",
+      "correctImage": "i_am_thirsty",
+      "distractors": [
+        "i_am_hungry",
+        "i_am_happy",
+        "bedtime"
+      ],
+      "difficulty": "medium",
+      "category": "emotions"
+    },
+    {
+      "spanish": "Hace frío.",
+      "finnish": "On kylmä.",
+      "english": "It's cold.",
+      "correctImage": "its_cold",
+      "distractors": [
+        "its_hot",
+        "sunny_day",
+        "bedtime"
+      ],
+      "difficulty": "medium",
+      "category": "weather"
+    },
+    {
+      "spanish": "Hace calor.",
+      "finnish": "On kuuma.",
+      "english": "It's hot.",
+      "correctImage": "its_hot",
+      "distractors": [
+        "its_cold",
+        "its_raining",
+        "night"
+      ],
+      "difficulty": "medium",
+      "category": "weather"
+    },
+    {
+      "spanish": "Hace viento.",
+      "finnish": "On tuulista.",
+      "english": "It's windy.",
+      "correctImage": "its_windy",
+      "distractors": [
+        "sunny_day",
+        "rainy",
+        "hot"
+      ],
+      "difficulty": "medium",
+      "category": "weather"
+    },
+    {
+      "spanish": "Vamos a montar en bicicleta.",
+      "finnish": "Mennään pyörälle.",
+      "english": "Let's ride bikes.",
+      "correctImage": "lets_ride_bikes",
+      "distractors": [
+        "lets_swim",
+        "lets_draw",
+        "bedtime"
+      ],
+      "difficulty": "medium",
+      "category": "activities"
+    },
+    {
+      "spanish": "Vamos a jugar al escondite.",
+      "finnish": "Pelataan piilosta.",
+      "english": "Let's play hide and seek.",
+      "correctImage": "lets_play_hide_and_seek",
+      "distractors": [
+        "lets_play_ball",
+        "lets_swim",
+        "school"
+      ],
+      "difficulty": "medium",
+      "category": "activities"
+    },
+    {
+      "spanish": "Vamos a jugar a la pelota.",
+      "finnish": "Pelataan palloa.",
+      "english": "Let's play with the ball.",
+      "correctImage": "lets_play_ball",
+      "distractors": [
+        "lets_read_a_story",
+        "bedtime",
+        "eating"
+      ],
+      "difficulty": "medium",
+      "category": "activities"
+    },
+    {
+      "spanish": "Vamos de paseo.",
+      "finnish": "Mennään kävelylle.",
+      "english": "Let's go for a walk.",
+      "correctImage": "lets_go_for_a_walk",
+      "distractors": [
+        "bedtime",
+        "school",
+        "rainy"
+      ],
+      "difficulty": "medium",
+      "category": "activities"
+    },
+    {
+      "spanish": "Es hora del recreo.",
+      "finnish": "On välitunti.",
+      "english": "It's playtime / recess time.",
+      "correctImage": "its_recess_time",
+      "distractors": [
+        "class_time",
+        "bedtime",
+        "eating"
+      ],
+      "difficulty": "medium",
+      "category": "school"
+    },
+    {
+      "spanish": "Es hora de cantar.",
+      "finnish": "On aika laulaa.",
+      "english": "It's time to sing.",
+      "correctImage": "its_time_to_sing",
+      "distractors": [
+        "reading",
+        "sleeping",
+        "eating"
+      ],
+      "difficulty": "medium",
+      "category": "activities"
+    },
+    {
+      "spanish": "¿Quién quiere helado?",
+      "finnish": "Kuka haluaa jäätelöä?",
+      "english": "Who wants ice cream?",
+      "correctImage": "who_wants_ice_cream",
+      "distractors": [
+        "soup",
+        "vegetables",
+        "bedtime"
+      ],
+      "difficulty": "medium",
+      "category": "food"
+    },
+    {
+      "spanish": "Ten cuidado.",
+      "finnish": "Ole varovainen.",
+      "english": "Be careful.",
+      "correctImage": "be_careful",
+      "distractors": [
+        "run_fast",
+        "jump",
+        "sleep"
+      ],
+      "difficulty": "medium",
+      "category": "family"
+    },
+    {
+      "spanish": "No te preocupes.",
+      "finnish": "Ei hätää.",
+      "english": "Don't worry.",
+      "correctImage": "dont_worry",
+      "distractors": [
+        "cry",
+        "panic",
+        "scared"
+      ],
+      "difficulty": "medium",
+      "category": "family"
+    },
+    {
+      "spanish": "¡Muy bien!",
+      "finnish": "Oikein hyvin!",
+      "english": "Very good!",
+      "correctImage": "very_good",
+      "distractors": [
+        "bad",
+        "try_again",
+        "sad"
+      ],
+      "difficulty": "medium",
+      "category": "common_phrases"
+    },
+    {
+      "spanish": "¡Qué divertido!",
+      "finnish": "Kuinka hauskaa!",
+      "english": "How fun!",
+      "correctImage": "how_fun",
+      "distractors": [
+        "boring",
+        "sad",
+        "sleeping"
+      ],
+      "difficulty": "medium",
+      "category": "common_phrases"
+    },
+    {
+      "spanish": "Tengo miedo.",
+      "finnish": "Minua pelottaa.",
+      "english": "I am scared.",
+      "correctImage": "i_am_scared",
+      "distractors": [
+        "brave",
+        "happy",
+        "sleeping"
+      ],
+      "difficulty": "medium",
+      "category": "emotions"
+    },
+    {
+      "spanish": "¡Qué susto!",
+      "finnish": "Mikä pelko!",
+      "english": "What a fright!",
+      "correctImage": "what_a_fright",
+      "distractors": [
+        "calm",
+        "happy",
+        "sleeping"
+      ],
+      "difficulty": "medium",
+      "category": "emotions"
+    },
+    {
+      "spanish": "¡Me gusta!",
+      "finnish": "Minä pidän siitä!",
+      "english": "I like it!",
+      "correctImage": "i_like_it",
+      "distractors": [
+        "i_dont_like_it",
+        "sad",
+        "angry"
+      ],
+      "difficulty": "medium",
+      "category": "common_phrases"
+    },
+    {
+      "spanish": "No me gusta.",
+      "finnish": "En pidä siitä.",
+      "english": "No, I don't like it.",
+      "correctImage": "i_dont_like_it",
+      "distractors": [
+        "i_like_it",
+        "happy",
+        "delicious"
+      ],
+      "difficulty": "medium",
+      "category": "common_phrases"
+    },
+    {
+      "spanish": "Es mi turno.",
+      "finnish": "Nyt on minun vuoroni.",
+      "english": "It's my turn.",
+      "correctImage": "its_my_turn",
+      "distractors": [
+        "your_turn",
+        "waiting",
+        "sleeping"
+      ],
+      "difficulty": "medium",
+      "category": "friendship"
+    }
+  ],
+  "futureExpansion": {
+    "completedCategories": [
+      "emotions",
+      "school_activities",
+      "food_and_meals",
+      "places",
+      "verbs_actions",
+      "greetings",
+      "friendship"
+    ],
+    "plannedCategories": [
+      "animals",
+      "colors",
+      "numbers",
+      "family_members_detailed",
+      "transportation",
+      "body_parts",
+      "clothing"
+    ],
+    "estimatedImagesNeeded": 50,
+    "completedPriorityPhrases": [
+      "¡Vamos a jugar!",
+      "Estoy feliz.",
+      "Estoy triste.",
+      "Tengo hambre.",
+      "Es hora de comer.",
+      "Vamos a la escuela.",
+      "¿Quieres jugar conmigo?",
+      "Está lloviendo."
+    ],
+    "nextPriorityPhrases": [
+      "Este es mi hermano pequeño, George.",
+      "Esta es Mamá Pig.",
+      "Y este es Papá Pig.",
+      "¿Dónde está...?",
+      "Tengo sed.",
+      "Hace frío.",
+      "Hace calor."
+    ]
+  }
+}

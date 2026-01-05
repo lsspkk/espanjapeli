@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Gentle blue sky -->
+  <defs>
+    <linearGradient id="gentleSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F7FA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#gentleSky)"/>
+  
+  <!-- One or two fluffy clouds -->
+  <ellipse cx="100" cy="80" rx="35" ry="22" fill="white" opacity="0.85"/>
+  <ellipse cx="120" cy="80" rx="30" ry="20" fill="white" opacity="0.85"/>
+  <ellipse cx="110" cy="75" rx="25" ry="18" fill="white" opacity="0.85"/>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="380" rx="400" ry="70" fill="#81C784"/>
+  
+  <!-- Peppa's iconic house - warm colors, red brick, yellow door, cheerful windows -->
+  <g transform="translate(250, 280)">
+    <!-- House body - red brick -->
+    <rect x="-55" y="-70" width="110" height="90" fill="#E53935" rx="4"/>
+    <!-- Brick pattern -->
+    <line x1="-55" y1="-50" x2="55" y2="-50" stroke="#B71C1C" stroke-width="1" opacity="0.3"/>
+    <line x1="-55" y1="-30" x2="55" y2="-30" stroke="#B71C1C" stroke-width="1" opacity="0.3"/>
+    <line x1="-55" y1="-10" x2="55" y2="-10" stroke="#B71C1C" stroke-width="1" opacity="0.3"/>
+    <line x1="-55" y1="10" x2="55" y2="10" stroke="#B71C1C" stroke-width="1" opacity="0.3"/>
+    <line x1="-25" y1="-70" x2="-25" y2="20" stroke="#B71C1C" stroke-width="1" opacity="0.3"/>
+    <line x1="5" y1="-70" x2="5" y2="20" stroke="#B71C1C" stroke-width="1" opacity="0.3"/>
+    <line x1="25" y1="-70" x2="25" y2="20" stroke="#B71C1C" stroke-width="1" opacity="0.3"/>
+    
+    <!-- Roof -->
+    <polygon points="-55,-70 -20,-110 15,-70" fill="#B71C1C"/>
+    
+    <!-- Yellow door -->
+    <rect x="-8" y="-20" width="16" height="35" fill="#FFD54F" rx="2"/>
+    <circle cx="0" cy="-2" r="1.5" fill="#5D4037"/>
+    
+    <!-- Cheerful windows -->
+    <rect x="-40" y="-55" width="20" height="25" fill="#81D4FA" rx="2"/>
+    <rect x="20" y="-55" width="20" height="25" fill="#81D4FA" rx="2"/>
+    <!-- Window frames -->
+    <rect x="-40" y="-55" width="20" height="25" fill="none" stroke="#5D4037" stroke-width="2" rx="2"/>
+    <rect x="20" y="-55" width="20" height="25" fill="none" stroke="#5D4037" stroke-width="2" rx="2"/>
+    <!-- Curtains in windows -->
+    <path d="M -40 -55 Q -35 -60 -30 -55" stroke="#FFB74D" stroke-width="3" fill="none"/>
+    <path d="M -20 -55 Q -15 -60 -10 -55" stroke="#FFB74D" stroke-width="3" fill="none"/>
+    <path d="M 20 -55 Q 25 -60 30 -55" stroke="#FFB74D" stroke-width="3" fill="none"/>
+    <path d="M 40 -55 Q 45 -60 50 -55" stroke="#FFB74D" stroke-width="3" fill="none"/>
+    
+    <!-- George's toy dinosaur peeking from one window -->
+    <ellipse cx="30" cy="-42" rx="8" ry="10" fill="#4CAF50"/>
+    <circle cx="32" cy="-45" r="1.5" fill="#333"/>
+    <path d="M 22 -35 Q 30 -30 38 -35" stroke="#2E7D32" stroke-width="1.5" fill="none"/>
+    
+    <!-- Chimney -->
+    <rect x="10" y="-110" width="14" height="25" fill="#8D0000"/>
+    <!-- Gentle smoke curl -->
+    <path d="M 17 -110 Q 20 -120 25 -115 Q 30 -125 35 -120" stroke="#E0E0E0" stroke-width="4" fill="none" opacity="0.7"/>
+    <ellipse cx="25" cy="-120" rx="5" ry="7" fill="#E0E0E0" opacity="0.6"/>
+    <ellipse cx="35" cy="-125" rx="4" ry="6" fill="#E0E0E0" opacity="0.5"/>
+    
+    <!-- Small garden with flowers -->
+    <circle cx="-70" cy="20" r="8" fill="#FF6F00"/>
+    <circle cx="-65" cy="15" r="6" fill="#FF6F00"/>
+    <circle cx="-60" cy="20" r="7" fill="#FF6F00"/>
+    <circle cx="60" cy="20" r="7" fill="#FF6F00"/>
+    <circle cx="65" cy="15" r="6" fill="#FF6F00"/>
+    <circle cx="70" cy="20" r="8" fill="#FF6F00"/>
+    <!-- Flower stems -->
+    <line x1="-67" y1="20" x2="-67" y2="30" stroke="#66BB6A" stroke-width="2"/>
+    <line x1="67" y1="20" x2="67" y2="30" stroke="#66BB6A" stroke-width="2"/>
+  </g>
+  
+  <!-- Mailbox with Pig family name -->
+  <g transform="translate(300, 250)">
+    <rect x="-6" y="-5" width="12" height="25" fill="#E53935"/>
+    <polygon points="-6,-5 0,-12 6,-5" fill="#B71C1C"/>
+    <text x="0" y="8" text-anchor="middle" font-family="Arial" font-size="7" fill="white" font-weight="bold">PIG</text>
+  </g>
+  
+  <!-- Welcome mat -->
+  <ellipse cx="250" cy="290" rx="30" ry="10" fill="#8D6E63"/>
+  <text x="250" y="293" text-anchor="middle" font-family="Arial" font-size="8" fill="white" font-weight="bold">WELCOME</text>
+  
+  <!-- Peppa standing proudly, positioned slightly left of center -->
+  <g transform="translate(120, 280)">
+    <!-- Body -->
+    <ellipse cx="0" cy="30" rx="30" ry="35" fill="#E63946"/>
+    <!-- Legs -->
+    <rect x="-20" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <rect x="10" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-30" rx="42" ry="38" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="32" cy="-30" rx="18" ry="15" fill="#F9C6CF"/>
+    <circle cx="38" cy="-33" r="3.5" fill="#FF69B4"/>
+    <circle cx="38" cy="-27" r="3.5" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-14" cy="-68" rx="10" ry="18" fill="#F9C6CF"/>
+    <ellipse cx="14" cy="-68" rx="10" ry="18" fill="#F9C6CF"/>
+    <!-- Eyes -->
+    <ellipse cx="-5" cy="-35" rx="6" ry="8" fill="white"/>
+    <ellipse cx="12" cy="-35" rx="6" ry="8" fill="white"/>
+    <circle cx="-4" cy="-34" r="3" fill="#333"/>
+    <circle cx="13" cy="-34" r="3" fill="#333"/>
+    <!-- Big proud smile -->
+    <path d="M -5 -18 Q 10 -5 25 -18" stroke="#333" stroke-width="3.5" fill="none"/>
+    <!-- Both trotters extended toward house in presenting motion -->
+    <ellipse cx="-35" cy="0" rx="14" ry="12" fill="#F9C6CF" transform="rotate(-30 -35 0)"/>
+    <ellipse cx="35" cy="0" rx="14" ry="12" fill="#F9C6CF" transform="rotate(30 35 0)"/>
+  </g>
+</svg>

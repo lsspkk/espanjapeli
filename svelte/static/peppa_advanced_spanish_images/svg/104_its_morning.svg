@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Room background - warm morning scene -->
+  <defs>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF9C4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFECB3;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunriseGrad" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#FFE082;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFB74D;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#FF6F00;stop-opacity:0.8" />
+    </radialGradient>
+    <linearGradient id="skyMorning" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB74D;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#FFE082;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#E1F5FE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B3E5FC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#wallGrad)"/>
+  
+  <!-- Window with curtains partially open -->
+  <rect x="200" y="60" width="180" height="200" fill="#8D6E63" rx="4"/>
+  <rect x="210" y="70" width="160" height="180" fill="url(#skyMorning)"/>
+  <!-- Window frame -->
+  <line x1="290" y1="70" x2="290" y2="270" stroke="#5D4037" stroke-width="4"/>
+  <line x1="210" y1="160" x2="370" y2="160" stroke="#5D4037" stroke-width="4"/>
+  
+  <!-- Curtains partially open -->
+  <rect x="200" y="60" width="90" height="200" fill="#E91E63" rx="3"/>
+  <rect x="310" y="60" width="90" height="200" fill="#E91E63" rx="3"/>
+  <!-- Curtain folds -->
+  <path d="M 200 60 Q 240 85 290 60" stroke="#C2185B" stroke-width="2.5" fill="none"/>
+  <path d="M 310 60 Q 350 85 400 60" stroke="#C2185B" stroke-width="2.5" fill="none"/>
+  
+  <!-- Beautiful sunrise: sun just peeking over horizon -->
+  <!-- Horizon -->
+  <ellipse cx="290" cy="250" rx="220" ry="35" fill="#66BB6A"/>
+  <!-- Sun peeking over horizon -->
+  <ellipse cx="290" cy="250" rx="45" ry="30" fill="url(#sunriseGrad)"/>
+  <!-- Golden-pink rays across pale blue sky -->
+  <line x1="245" y1="240" x2="235" y2="235" stroke="#FFE082" stroke-width="3" opacity="0.9"/>
+  <line x1="335" y1="240" x2="345" y2="235" stroke="#FFE082" stroke-width="3" opacity="0.9"/>
+  <line x1="255" y1="250" x2="245" y2="250" stroke="#FFE082" stroke-width="3" opacity="0.9"/>
+  <line x1="325" y1="250" x2="335" y2="250" stroke="#FFE082" stroke-width="3" opacity="0.9"/>
+  <line x1="265" y1="260" x2="260" y2="270" stroke="#FFB74D" stroke-width="3" opacity="0.9"/>
+  <line x1="315" y1="260" x2="320" y2="270" stroke="#FFB74D" stroke-width="3" opacity="0.9"/>
+  <line x1="250" y1="230" x2="245" y2="220" stroke="#FFB74D" stroke-width="3" opacity="0.9"/>
+  <line x1="330" y1="230" x2="335" y2="220" stroke="#FFB74D" stroke-width="3" opacity="0.9"/>
+  
+  <!-- Few early morning birds on tree branch outside, mid-song with musical notes -->
+  <line x1="320" y1="200" x2="360" y2="200" stroke="#8D6E63" stroke-width="5"/>
+  <!-- Bird 1 -->
+  <ellipse cx="330" cy="195" rx="7" ry="6" fill="#FFC107"/>
+  <circle cx="332" cy="193" r="1.5" fill="#333"/>
+  <path d="M 337 195 Q 342 190 348 195" stroke="#333" stroke-width="2" fill="none"/>
+  <!-- Bird 2 -->
+  <ellipse cx="350" cy="195" rx="7" ry="6" fill="#FFC107"/>
+  <circle cx="352" cy="193" r="1.5" fill="#333"/>
+  <path d="M 357 195 Q 362 190 368 195" stroke="#333" stroke-width="2" fill="none"/>
+  <!-- Musical notes (mid-song) -->
+  <circle cx="340" cy="180" r="2.5" fill="#333"/>
+  <path d="M 340 177 L 340 186" stroke="#333" stroke-width="2"/>
+  <circle cx="345" cy="184" r="2" fill="#333"/>
+  <path d="M 345 182 L 345 192" stroke="#333" stroke-width="2"/>
+  <path d="M 345 192 Q 350 190 353 192" stroke="#333" stroke-width="1.5" fill="none"/>
+  <circle cx="355" cy="178" r="2" fill="#333"/>
+  <path d="M 355 176 L 355 185" stroke="#333" stroke-width="2"/>
+  
+  <!-- Peppa's bed with rumpled covers -->
+  <rect x="80" y="280" width="120" height="100" fill="#8D6E63" rx="6"/>
+  <rect x="85" y="285" width="110" height="90" fill="#FFF9C4" rx="4"/>
+  <!-- Bed headboard -->
+  <rect x="75" y="280" width="12" height="100" fill="#5D4037" rx="3"/>
+  <!-- Pillow -->
+  <ellipse cx="140" cy="300" rx="28" ry="18" fill="white"/>
+  <!-- Rumpled covers -->
+  <path d="M 85 320 Q 100 315 115 320 Q 130 325 145 320 Q 160 315 175 320 Q 190 325 195 320" 
+        stroke="#E91E63" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <rect x="85" y="320" width="110" height="55" fill="#E91E63" opacity="0.85" rx="4"/>
+  <!-- More rumpling -->
+  <path d="M 90 340 Q 105 335 120 340 Q 135 345 150 340 Q 165 335 180 340" 
+        stroke="#C2185B" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Peppa sitting up in bed, stretching with both arms raised high -->
+  <g transform="translate(140, 320)">
+    <!-- Body -->
+    <ellipse cx="0" cy="25" rx="26" ry="30" fill="#E63946"/>
+    <!-- Legs under covers (just peeking) -->
+    <rect x="-18" y="48" width="9" height="18" rx="4" fill="#F9C6CF"/>
+    <rect x="9" y="48" width="9" height="18" rx="4" fill="#F9C6CF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-35" rx="36" ry="30" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="28" cy="-33" rx="14" ry="12" fill="#F9C6CF"/>
+    <circle cx="32" cy="-36" r="3" fill="#FF69B4"/>
+    <circle cx="32" cy="-30" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-12" cy="-61" rx="8" ry="14" fill="#F9C6CF"/>
+    <ellipse cx="12" cy="-61" rx="8" ry="14" fill="#F9C6CF"/>
+    <!-- Eyes just opened -->
+    <ellipse cx="-4" cy="-35" rx="5" ry="4" fill="white"/>
+    <ellipse cx="10" cy="-35" rx="5" ry="4" fill="white"/>
+    <circle cx="-3" cy="-34" r="2.5" fill="#333"/>
+    <circle cx="11" cy="-34" r="2.5" fill="#333"/>
+    <!-- Peaceful expression -->
+    <path d="M -3 -22 Q 5 -16 13 -22" stroke="#333" stroke-width="2.5" fill="none"/>
+    <!-- Both arms raised high (stretching) -->
+    <ellipse cx="-32" cy="-22" rx="12" ry="10" fill="#F9C6CF" transform="rotate(-65 -32 -22)"/>
+    <ellipse cx="32" cy="-22" rx="12" ry="10" fill="#F9C6CF" transform="rotate(65 32 -22)"/>
+  </g>
+  
+  <!-- Teddy bear beside pillow -->
+  <g transform="translate(100, 300)">
+    <!-- Body -->
+    <ellipse cx="0" cy="10" rx="13" ry="16" fill="#8D6E63"/>
+    <!-- Head -->
+    <circle cx="0" cy="-8" r="11" fill="#8D6E63"/>
+    <!-- Ears -->
+    <circle cx="-9" cy="-13" r="4.5" fill="#8D6E63"/>
+    <circle cx="9" cy="-13" r="4.5" fill="#8D6E63"/>
+    <!-- Eyes -->
+    <circle cx="-3" cy="-8" r="1.5" fill="#333"/>
+    <circle cx="3" cy="-8" r="1.5" fill="#333"/>
+    <!-- Nose -->
+    <ellipse cx="0" cy="-5" r="1.5" ry="1" fill="#333"/>
+    <!-- Mouth -->
+    <path d="M -2 -3 Q 0 -1 2 -3" stroke="#333" stroke-width="1.2" fill="none"/>
+  </g>
+  
+  <!-- Alarm clock showing 7:00 -->
+  <g transform="translate(60, 200)">
+    <!-- Clock body -->
+    <circle cx="0" cy="0" r="22" fill="#FFF9C4"/>
+    <circle cx="0" cy="0" r="20" fill="white"/>
+    <!-- Clock face -->
+    <circle cx="0" cy="0" r="17" fill="none" stroke="#333" stroke-width="1.5"/>
+    <!-- Numbers -->
+    <text x="0" y="-14" text-anchor="middle" font-family="Arial" font-size="9" fill="#333" font-weight="bold">12</text>
+    <text x="14" y="5" text-anchor="middle" font-family="Arial" font-size="9" fill="#333" font-weight="bold">3</text>
+    <text x="0" y="18" text-anchor="middle" font-family="Arial" font-size="9" fill="#333" font-weight="bold">6</text>
+    <text x="-14" y="5" text-anchor="middle" font-family="Arial" font-size="9" fill="#333" font-weight="bold">9</text>
+    <!-- Hour hand pointing to 7 -->
+    <line x1="0" y1="0" x2="9" y2="-6" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Minute hand pointing to 12 -->
+    <line x1="0" y1="0" x2="0" y2="-12" stroke="#E53935" stroke-width="2" stroke-linecap="round"/>
+    <!-- Center dot -->
+    <circle cx="0" cy="0" r="2.5" fill="#333"/>
+  </g>
+  
+  <!-- Calendar on wall -->
+  <rect x="50" y="100" width="65" height="75" fill="white" rx="4"/>
+  <rect x="52" y="102" width="61" height="18" fill="#E53935"/>
+  <text x="82.5" y="115" text-anchor="middle" font-family="Arial" font-size="11" fill="white" font-weight="bold">MONDAY</text>
+  <!-- Calendar grid -->
+  <line x1="50" y1="120" x2="115" y2="120" stroke="#BDBDBD" stroke-width="1.5"/>
+  <line x1="50" y1="140" x2="115" y2="140" stroke="#BDBDBD" stroke-width="1.5"/>
+  <line x1="50" y1="160" x2="115" y2="160" stroke="#BDBDBD" stroke-width="1.5"/>
+  <line x1="50" y1="180" x2="115" y2="180" stroke="#BDBDBD" stroke-width="1.5"/>
+  <line x1="82.5" y1="120" x2="82.5" y2="175" stroke="#BDBDBD" stroke-width="1.5"/>
+  <!-- Date numbers -->
+  <text x="66" y="135" text-anchor="middle" font-family="Arial" font-size="10" fill="#BDBDBD">28</text>
+  <text x="99" y="135" text-anchor="middle" font-family="Arial" font-size="10" fill="#BDBDBD">29</text>
+  <text x="66" y="155" text-anchor="middle" font-family="Arial" font-size="10" fill="#BDBDBD">30</text>
+  <text x="99" y="155" text-anchor="middle" font-family="Arial" font-size="13" fill="#E53935" font-weight="bold">1</text>
+  
+  <!-- Clothes laid out on chair -->
+  <rect x="250" y="280" width="45" height="55" fill="#8D6E63" rx="3"/>
+  <!-- Dress on chair -->
+  <ellipse cx="272.5" cy="300" rx="18" ry="22" fill="#E91E63"/>
+  <!-- Sleeves -->
+  <ellipse cx="255" cy="295" rx="7" ry="9" fill="#E91E63"/>
+  <ellipse cx="290" cy="295" rx="7" ry="9" fill="#E91E63"/>
+  <!-- Dress detail -->
+  <ellipse cx="272.5" cy="310" rx="12" ry="8" fill="#C2185B"/>
+  
+  <!-- Soft morning light streams through window creating gentle shadows -->
+  <ellipse cx="290" cy="350" rx="90" ry="35" fill="#FFE082" opacity="0.25"/>
+  <!-- Gentle shadows -->
+  <ellipse cx="140" cy="380" rx="60" ry="15" fill="#8D6E63" opacity="0.15"/>
+  <ellipse cx="100" cy="310" rx="20" ry="8" fill="#8D6E63" opacity="0.15"/>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background: Outdoor scene -->
+  <rect width="400" height="400" fill="#87CEEB"/>
+  <!-- Grass -->
+  <ellipse cx="200" cy="380" rx="220" ry="60" fill="#7BC043"/>
+  
+  <!-- Sun in corner -->
+  <circle cx="60" cy="60" r="40" fill="#FFD700"/>
+  <g stroke="#FFD700" stroke-width="4">
+    <line x1="60" y1="10" x2="60" y2="-10"/>
+    <line x1="110" y1="60" x2="130" y2="60"/>
+    <line x1="95" y1="25" x2="110" y2="10"/>
+    <line x1="95" y1="95" x2="110" y2="110"/>
+  </g>
+  
+  <!-- Muddy Puddle - brown irregular shape -->
+  <ellipse cx="200" cy="320" rx="120" ry="35" fill="#8B4513"/>
+  <ellipse cx="200" cy="315" rx="100" ry="25" fill="#A0522D"/>
+  
+  <!-- Water splash droplets -->
+  <g fill="#6BB3D9">
+    <ellipse cx="130" cy="260" rx="12" ry="18" transform="rotate(-20 130 260)"/>
+    <ellipse cx="270" cy="250" rx="10" ry="15" transform="rotate(25 270 250)"/>
+    <ellipse cx="160" cy="230" rx="8" ry="12" transform="rotate(-10 160 230)"/>
+    <ellipse cx="240" cy="235" rx="9" ry="14" transform="rotate(15 240 235)"/>
+    <ellipse cx="200" cy="215" rx="7" ry="11"/>
+    <circle cx="145" cy="270" r="6"/>
+    <circle cx="255" cy="265" r="7"/>
+  </g>
+  
+  <!-- Peppa Pig - simple stylized -->
+  <g transform="translate(200, 200)">
+    <!-- Body (red dress) -->
+    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
+    
+    <!-- Legs -->
+    <rect x="-20" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
+    <rect x="10" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
+    
+    <!-- Red boots -->
+    <ellipse cx="-15" cy="100" rx="12" ry="8" fill="#E63946"/>
+    <ellipse cx="15" cy="100" rx="12" ry="8" fill="#E63946"/>
+    
+    <!-- Arms raised (jumping!) -->
+    <rect x="-50" y="10" width="25" height="10" rx="5" fill="#F9C6CF" transform="rotate(-30 -50 10)"/>
+    <rect x="25" y="10" width="25" height="10" rx="5" fill="#F9C6CF" transform="rotate(30 50 10)"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
+    
+    <!-- Snout (Peppa's distinctive nose) -->
+    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
+    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
+    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    
+    <!-- Eyes (happy squinty) -->
+    <ellipse cx="-5" cy="-35" rx="6" ry="8" fill="white"/>
+    <ellipse cx="12" cy="-35" rx="6" ry="8" fill="white"/>
+    <circle cx="-4" cy="-34" r="3" fill="#333"/>
+    <circle cx="13" cy="-34" r="3" fill="#333"/>
+    
+    <!-- Big happy smile -->
+    <path d="M -5 -18 Q 10 -8 25 -18" stroke="#333" stroke-width="3" fill="none"/>
+    
+    <!-- Rosy cheeks -->
+    <circle cx="-15" cy="-22" r="8" fill="#FFB6C1" opacity="0.6"/>
+  </g>
+  
+  <!-- Action lines (jumping motion) -->
+  <g stroke="#333" stroke-width="2" opacity="0.3">
+    <path d="M 120 280 Q 100 300 120 320"/>
+    <path d="M 280 280 Q 300 300 280 320"/>
+  </g>
+  
+  <!-- Mud splash marks -->
+  <g fill="#8B4513">
+    <circle cx="100" cy="340" r="8"/>
+    <circle cx="300" cy="335" r="6"/>
+    <circle cx="150" cy="355" r="5"/>
+    <circle cx="250" cy="350" r="7"/>
+  </g>
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

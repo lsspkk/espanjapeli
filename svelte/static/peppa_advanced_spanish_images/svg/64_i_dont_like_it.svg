@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#F0F0F0"/>
+  
+  <!-- Broken Heart or Cross -->
+  <text x="300" y="100" font-size="50" fill="#000">❌</text>
+  
+  <!-- Peppa Displeased -->
+  <g transform="translate(200, 250)">
+    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
+    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
+    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
+    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
+    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
+    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <circle cx="-5" cy="-35" r="3" fill="#333"/>
+    <circle cx="12" cy="-35" r="3" fill="#333"/>
+    
+    <!-- Frown -->
+    <path d="M -5 -10 Q 10 -20 25 -10" stroke="#333" stroke-width="2" fill="none"/>
+    
+    <!-- Thumbs Down -->
+    <path d="M 30 10 L 50 20" stroke="#F9C6CF" stroke-width="6"/>
+    <circle cx="55" cy="25" r="6" fill="#F9C6CF"/>
+  </g>
+  
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+</svg>

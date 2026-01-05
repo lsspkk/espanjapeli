@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background - simple soft gradient -->
+  <defs>
+    <linearGradient id="singGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E1BEE7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8BBD9;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sparkleGrad" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#singGradient)"/>
+  
+  <!-- Peppa standing with mouth open in singing pose -->
+  <g transform="translate(200, 250)">
+    <!-- Body -->
+    <ellipse cx="0" cy="30" rx="30" ry="36" fill="#E63946"/>
+    <!-- Legs -->
+    <rect x="-18" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <rect x="8" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-28" rx="40" ry="34" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="30" cy="-26" rx="15" ry="12" fill="#F9C6CF"/>
+    <circle cx="36" cy="-29" r="3" fill="#FF69B4"/>
+    <circle cx="36" cy="-23" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-13" cy="-60" rx="8" ry="15" fill="#F9C6CF"/>
+    <ellipse cx="13" cy="-60" rx="8" ry="15" fill="#F9C6CF"/>
+    <!-- Eyes - closed or looking upward, really into the song -->
+    <ellipse cx="-5" cy="-32" rx="5" ry="7" fill="white"/>
+    <ellipse cx="7" cy="-32" rx="5" ry="7" fill="white"/>
+    <!-- Closed eyes (squinted in joy) -->
+    <path d="M -10 -32 Q -5 -28 0 -32" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 0 -32 Q 5 -28 10 -32" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Mouth open wide in singing pose -->
+    <ellipse cx="8" cy="-15" rx="8" ry="10" fill="#333"/>
+    <!-- One trotter raised in the air expressively -->
+    <ellipse cx="-35" cy="-15" rx="12" ry="10" fill="#F9C6CF" transform="rotate(-45 -35 -15)"/>
+    <!-- Other trotter -->
+    <ellipse cx="25" cy="8" rx="10" ry="8" fill="#F9C6CF" transform="rotate(20 25 8)"/>
+  </g>
+  
+  <!-- Colorful musical notes floating around Peppa -->
+  <!-- Note 1 - red, large -->
+  <g transform="translate(120, 150)">
+    <!-- Note head -->
+    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#E53935"/>
+    <!-- Note stem -->
+    <rect x="6" y="-6" width="3" height="20" fill="#E53935"/>
+    <!-- Flag -->
+    <path d="M 9 -6 L 9 -20 L 18 -15 Z" fill="#E53935"/>
+  </g>
+  
+  <!-- Note 2 - blue, medium -->
+  <g transform="translate(280, 180)">
+    <!-- Note head -->
+    <ellipse cx="0" cy="0" rx="7" ry="5" fill="#2196F3"/>
+    <!-- Note stem -->
+    <rect x="5" y="-5" width="2.5" height="18" fill="#2196F3"/>
+    <!-- Flag -->
+    <path d="M 7.5 -5 L 7.5 -18 L 15 -13 Z" fill="#2196F3"/>
+  </g>
+  
+  <!-- Note 3 - yellow, small -->
+  <g transform="translate(100, 220)">
+    <!-- Note head -->
+    <ellipse cx="0" cy="0" rx="6" ry="4" fill="#FFC107"/>
+    <!-- Note stem -->
+    <rect x="4" y="-4" width="2" height="15" fill="#FFC107"/>
+    <!-- Flag -->
+    <path d="M 6 -4 L 6 -16 L 12 -12 Z" fill="#FFC107"/>
+  </g>
+  
+  <!-- Note 4 - green, medium -->
+  <g transform="translate(300, 240)">
+    <!-- Note head -->
+    <ellipse cx="0" cy="0" rx="7" ry="5" fill="#4CAF50"/>
+    <!-- Note stem -->
+    <rect x="5" y="-5" width="2.5" height="18" fill="#4CAF50"/>
+    <!-- Flag -->
+    <path d="M 7.5 -5 L 7.5 -18 L 15 -13 Z" fill="#4CAF50"/>
+  </g>
+  
+  <!-- Note 5 - pink, large -->
+  <g transform="translate(130, 300)">
+    <!-- Note head -->
+    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#E91E63"/>
+    <!-- Note stem -->
+    <rect x="6" y="-6" width="3" height="20" fill="#E91E63"/>
+    <!-- Flag -->
+    <path d="M 9 -6 L 9 -20 L 18 -15 Z" fill="#E91E63"/>
+  </g>
+  
+  <!-- Note 6 - purple, small -->
+  <g transform="translate(270, 320)">
+    <!-- Note head -->
+    <ellipse cx="0" cy="0" rx="6" ry="4" fill="#9C27B0"/>
+    <!-- Note stem -->
+    <rect x="4" y="-4" width="2" height="15" fill="#9C27B0"/>
+    <!-- Flag -->
+    <path d="M 6 -4 L 6 -16 L 12 -12 Z" fill="#9C27B0"/>
+  </g>
+  
+  <!-- Sparkles around Peppa to show joy of singing -->
+  <!-- Sparkle 1 -->
+  <g transform="translate(150, 180)">
+    <path d="M 0 -8 L 2 -2 L 8 0 L 2 2 L 0 8 L -2 2 L -8 0 L -2 -2 Z" fill="#FFD700" opacity="0.8"/>
+  </g>
+  
+  <!-- Sparkle 2 -->
+  <g transform="translate(250, 160)">
+    <path d="M 0 -6 L 1.5 -1.5 L 6 0 L 1.5 1.5 L 0 6 L -1.5 1.5 L -6 0 L -1.5 -1.5 Z" fill="#FFD700" opacity="0.7"/>
+  </g>
+  
+  <!-- Sparkle 3 -->
+  <g transform="translate(160, 280)">
+    <path d="M 0 -7 L 1.8 -1.8 L 7 0 L 1.8 1.8 L 0 7 L -1.8 1.8 L -7 0 L -1.8 -1.8 Z" fill="#FFD700" opacity="0.75"/>
+  </g>
+  
+  <!-- Sparkle 4 -->
+  <g transform="translate(240, 300)">
+    <path d="M 0 -5 L 1.2 -1.2 L 5 0 L 1.2 1.2 L 0 5 L -1.2 1.2 L -5 0 L -1.2 -1.2 Z" fill="#FFD700" opacity="0.6"/>
+  </g>
+</svg>

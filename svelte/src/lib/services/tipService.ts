@@ -197,10 +197,11 @@ export async function generateTip(
  */
 export async function getAllTips(finnishWord: string, spanishWord?: string): Promise<Tip[]> {
 	const difficulties: TipDifficulty[] = ['Vaikea', 'Keskivaikea', 'Helppo'];
-	const tips = await Promise.all(
+	const tipsArrays = await Promise.all(
 		difficulties.map(diff => generateTip(finnishWord, diff, spanishWord))
 	);
-	return tips;
+	// Flatten the array of arrays into a single array
+	return tipsArrays.flat();
 }
 
 /**

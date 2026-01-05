@@ -618,7 +618,7 @@ Phase 1: Setup
 Phase 2: Shared Services
          Move TTS logic → src/lib/services/tts.ts
          Move storage logic → src/lib/stores/progress.ts
-         Move theme JSON files → static/themes/
+         Theme JSON files are in → svelte/static/themes/
 
 Phase 3: Word Game Migration
          Convert current game to Svelte component
@@ -650,17 +650,18 @@ Phase 6: Cleanup
 words.js → { spanish, english, finnish }  // 400+ vocabulary words
 ```
 
-**Themed content (all in `docs/themes/`):**
+**Themed content (all in `svelte/static/themes/`):**
 
 ```
-docs/themes/
-├── basics_travel.json       ← 🌍 BASICS! (150+ phrases in 14 categories)
-│                               Based on CEFR A1-A2, Babbel, Lingvist
-│                               See recommendations.md for research
+svelte/static/themes/
+├── basics_travel.json           ← 🌍 BASICS! (150+ phrases in 14 categories)
+│                                   Based on CEFR A1-A2, Babbel, Lingvist
+│                                   See recommendations.md for research
 │
-├── music_concerts.json      ← 🎻 Your hobby! (26 words + 15 phrases)
-├── outdoor_nature.json      ← 🏕️ Your hobby! (30 words + 20 phrases)
-├── peppa_pig_kids.json      ← 🐷 For children! (12 characters + 30 words)
+├── music_concerts.json          ← 🎻 Your hobby! (26 words + 15 phrases)
+├── outdoor_nature.json          ← 🏕️ Your hobby! (30 words + 20 phrases)
+├── peppa_pig_kids.json          ← 🐷 For children! (12 characters + 30 words)
+├── peppa_advanced_spanish.json  ← 🐷 Advanced Peppa Pig phrases with translations
 └── (future additions...)
     ├── web_book_stories.json    ← Imported content
     └── custom_phrases.json      ← User-added

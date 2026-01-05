@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background - minimal ground and sky -->
+  <defs>
+    <linearGradient id="playSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#playSky)"/>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="380" rx="400" ry="80" fill="#7BC043"/>
+  
+  <!-- Colorful ball in front of Peppa -->
+  <g transform="translate(280, 280)">
+    <!-- Rainbow colored ball -->
+    <circle cx="0" cy="0" r="30" fill="#FF6B6B"/>
+    <!-- Rainbow stripes -->
+    <path d="M -30 0 A 30 30 0 0 1 30 0" fill="#FFC107" opacity="0.8"/>
+    <path d="M -30 0 A 30 30 0 0 1 30 0" fill="#4CAF50" opacity="0.6" transform="translate(0, 5)"/>
+    <path d="M -30 0 A 30 30 0 0 1 30 0" fill="#2196F3" opacity="0.7" transform="translate(0, -5)"/>
+    <!-- Highlights -->
+    <circle cx="-8" cy="-8" r="6" fill="#FF8E8E"/>
+    <circle cx="8" cy="8" r="6" fill="#FF5252"/>
+    <!-- Sparkles around ball -->
+    <path d="M 0 -35 L 1.5 -32 L 4 -35 L 1.5 -38 Z" fill="#FFD700" opacity="0.8"/>
+    <path d="M 35 0 L 32.5 1.5 L 35 4 L 38 1.5 Z" fill="#FFD700" opacity="0.8"/>
+    <path d="M 0 35 L -1.5 32 L -4 35 L -1.5 38 Z" fill="#FFD700" opacity="0.8"/>
+    <path d="M -35 0 L -32.5 -1.5 L -35 -4 L -38 -1.5 Z" fill="#FFD700" opacity="0.8"/>
+  </g>
+  
+  <!-- Motion lines around ball -->
+  <g transform="translate(280, 280)">
+    <line x1="-40" y1="0" x2="-35" y2="0" stroke="#666" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+    <line x1="35" y1="0" x2="40" y2="0" stroke="#666" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+    <line x1="0" y1="-40" x2="0" y2="-35" stroke="#666" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+    <line x1="0" y1="35" x2="0" y2="40" stroke="#666" stroke-width="3" opacity="0.6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Peppa reaching forward eagerly with both trotters -->
+  <g transform="translate(200, 300)">
+    <!-- Body - leaning forward showing she really wants to play -->
+    <ellipse cx="0" cy="30" rx="28" ry="32" fill="#E63946" transform="rotate(-8 0 30)"/>
+    <!-- Legs -->
+    <rect x="-15" y="58" width="9" height="30" rx="4" fill="#F9C6CF"/>
+    <rect x="6" y="58" width="9" height="30" rx="4" fill="#F9C6CF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-25" rx="38" ry="32" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="28" cy="-23" rx="14" ry="11" fill="#F9C6CF"/>
+    <circle cx="32" cy="-26" r="2.5" fill="#FF69B4"/>
+    <circle cx="32" cy="-20" r="2.5" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-13" cy="-55" rx="8" ry="15" fill="#F9C6CF"/>
+    <ellipse cx="13" cy="-55" rx="8" ry="15" fill="#F9C6CF"/>
+    <!-- Eyes - eager and excited -->
+    <ellipse cx="-5" cy="-30" rx="5" ry="7" fill="white"/>
+    <ellipse cx="7" cy="-30" rx="5" ry="7" fill="white"/>
+    <circle cx="-4" cy="-28" r="2.5" fill="#333"/>
+    <circle cx="8" cy="-28" r="2.5" fill="#333"/>
+    <!-- Big eager smile -->
+    <path d="M -6 -18 Q 0 -8 8 -18" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Both trotters reaching forward eagerly -->
+    <ellipse cx="25" cy="5" rx="11" ry="9" fill="#F9C6CF" transform="rotate(20 25 5)"/>
+    <ellipse cx="30" cy="-5" rx="11" ry="9" fill="#F9C6CF" transform="rotate(30 30 -5)"/>
+  </g>
+</svg>

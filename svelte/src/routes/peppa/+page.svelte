@@ -311,10 +311,13 @@
 			correctAnswers++;
 			celebrate();
 		} else {
-			// Wrong answer - speak correct answer in Finnish if audio is on
+			// Wrong answer - speak Spanish word, then "on suomeksi" + Finnish word
 			if (autoPlayAudio && currentWord) {
 				setTimeout(() => {
-					tts.speakFinnish(`Oikea vastaus oli ${currentWord!.finnish}`);
+					tts.speakSpanishThenFinnish(
+						currentWord!.spanish,
+						`on suomeksi ${currentWord!.finnish}`
+					);
 				}, 500);
 			}
 		}
@@ -328,7 +331,7 @@
 		// Move to next question after delay
 		setTimeout(() => {
 			nextQuestion();
-		}, isCorrect ? 2500 : 3500);
+		}, isCorrect ? 2500 : 5000); // Longer delay for wrong answers to allow Spanish + Finnish speech to finish
 	}
 
 	function celebrate() {

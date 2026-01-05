@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="This is Mummy Pig">
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+  <defs>
+    <style><![CDATA[
+      .ol { stroke: #222222; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .softol { stroke: #222222; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    ]]></style>
+  </defs>
+<ellipse class="ol" cx="152.75" cy="72.25" rx="13.65" ry="15.75" fill="#F9C6CF"/>
+  <ellipse class="ol" cx="247.25" cy="72.25" rx="13.65" ry="15.75" fill="#F9C6CF"/>
+  <ellipse class="ol" cx="200" cy="130" rx="68.25" ry="55.125" fill="#F9C6CF"/>
+  <ellipse class="ol" cx="231.5" cy="140.5" rx="36.75" ry="25.200000000000003" fill="#F7A8B8"/>
+  <circle cx="215.75" cy="140.5" r="5.25" fill="#222222"/>
+  <circle cx="247.25" cy="140.5" r="5.25" fill="#222222"/>
+  <circle cx="179.0" cy="119.5" r="8.4" fill="#222222"/>
+  <circle cx="210.5" cy="119.5" r="8.4" fill="#222222"/>
+  <circle cx="147.5" cy="140.5" r="6.300000000000001" fill="#F59FB4" opacity="0.9"/>
+  <path class="softol" d="M 189.5 156.25 Q 205.25 172.0 226.25 156.25" fill="none"/>
+  <rect class="ol" x="126.5" y="187.75" width="147.0" height="157.5" rx="42.0" fill="#F6D55C"/>
+  <path class="ol" d="M 152.75 235.0 Q 116.0 256.0 137.0 282.25" fill="none"/>
+  <path class="ol" d="M 247.25 235.0 Q 284.0 256.0 263.0 282.25" fill="none"/>
+  <path class="ol" d="M 163.25 345.25 L 163.25 382.0"/>
+  <path class="ol" d="M 236.75 345.25 L 236.75 382.0"/>
+  <ellipse class="ol" cx="163.25" cy="389.35" rx="18.900000000000002" ry="8.4" fill="#000000"/>
+  <ellipse class="ol" cx="236.75" cy="389.35" rx="18.900000000000002" ry="8.4" fill="#000000"/><path class="ol" d="M 140 320 Q 200 275 260 320" fill="none"/><path d="M 90 101.0 L 92.7 107.3 L 99.0 110 L 92.7 112.7 L 90 119.0 L 87.3 112.7 L 81.0 110 L 87.3 107.3 Z" fill="#FFB703" stroke="#222222" stroke-width="3" stroke-linejoin="round"/><path d="M 310 101.0 L 312.7 107.3 L 319.0 110 L 312.7 112.7 L 310 119.0 L 307.3 112.7 L 301.0 110 L 307.3 107.3 Z" fill="#FFB703" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+</svg>

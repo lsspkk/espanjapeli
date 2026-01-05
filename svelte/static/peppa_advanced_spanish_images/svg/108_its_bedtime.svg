@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <!-- Warm lamp glow -->
+    <radialGradient id="lampGlow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#FFD54F;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#FFD54F;stop-opacity:0" />
+    </radialGradient>
+    <!-- Night sky gradient through window -->
+    <linearGradient id="nightWindow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A237E;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#4A148C;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Bedroom background - dimly lit -->
+  <rect width="400" height="400" fill="#3E2723"/>
+  
+  <!-- Wall -->
+  <rect x="0" y="0" width="400" height="300" fill="#5D4037"/>
+  
+  <!-- Window with curtains drawn closed -->
+  <g transform="translate(320, 100)">
+    <!-- Window frame -->
+    <rect x="-40" y="-50" width="80" height="100" fill="#8D6E63" rx="2"/>
+    <!-- Curtains -->
+    <rect x="-40" y="-50" width="40" height="100" fill="#6D4C41"/>
+    <rect x="0" y="-50" width="40" height="100" fill="#6D4C41"/>
+    <!-- Small gap in curtains showing dark night sky with stars -->
+    <rect x="-5" y="-45" width="10" height="90" fill="url(#nightWindow)"/>
+    <!-- Stars visible through gap -->
+    <circle cx="-2" cy="-30" r="1.5" fill="#FFF" opacity="0.8"/>
+    <circle cx="2" cy="-10" r="1.5" fill="#FFF" opacity="0.8"/>
+    <circle cx="-2" cy="10" r="1.5" fill="#FFF" opacity="0.8"/>
+    <circle cx="2" cy="30" r="1.5" fill="#FFF" opacity="0.8"/>
+  </g>
+  
+  <!-- Wall clock displaying 8:30 PM -->
+  <g transform="translate(80, 100)">
+    <!-- Clock face -->
+    <circle cx="0" cy="0" r="22" fill="#FFF" stroke="#8D6E63" stroke-width="2"/>
+    <!-- Clock numbers (simplified) -->
+    <text x="0" y="-16" text-anchor="middle" font-family="Arial" font-size="7" fill="#333">12</text>
+    <text x="16" y="4" text-anchor="middle" font-family="Arial" font-size="7" fill="#333">3</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial" font-size="7" fill="#333">6</text>
+    <text x="-16" y="4" text-anchor="middle" font-family="Arial" font-size="7" fill="#333">9</text>
+    <!-- Hour hand pointing between 8 and 9 -->
+    <line x1="0" y1="0" x2="0" y2="-10" stroke="#333" stroke-width="2" stroke-linecap="round" transform="rotate(-45 0 0)"/>
+    <!-- Minute hand pointing to 6 -->
+    <line x1="0" y1="0" x2="0" y2="15" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+    <!-- Center dot -->
+    <circle cx="0" cy="0" r="2" fill="#333"/>
+  </g>
+  
+  <!-- Bed -->
+  <g transform="translate(200, 280)">
+    <!-- Bed frame -->
+    <rect x="-100" y="0" width="200" height="120" fill="#8D6E63" rx="3"/>
+    <!-- Mattress -->
+    <rect x="-95" y="5" width="190" height="50" fill="#FFF9C4" rx="2"/>
+    <!-- Pillows -->
+    <ellipse cx="-60" cy="10" rx="35" ry="20" fill="#E1BEE7"/>
+    <ellipse cx="60" cy="10" rx="35" ry="20" fill="#E1BEE7"/>
+    <!-- Rumpled covers -->
+    <path d="M -95 55 Q -50 50 -20 60 Q 10 55 40 58 Q 70 60 95 55" stroke="#CE93D8" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M -95 55 Q -30 65 0 70 Q 30 65 95 55" stroke="#BA68C8" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Peppa's teddy bear already tucked into bed waiting -->
+  <g transform="translate(240, 250)">
+    <!-- Teddy body -->
+    <ellipse cx="0" cy="10" rx="12" ry="15" fill="#8D6E63"/>
+    <!-- Teddy head -->
+    <circle cx="0" cy="-8" r="10" fill="#8D6E63"/>
+    <!-- Teddy ears -->
+    <circle cx="-8" cy="-12" r="4" fill="#8D6E63"/>
+    <circle cx="8" cy="-12" r="4" fill="#8D6E63"/>
+    <!-- Teddy eyes -->
+    <circle cx="-3" cy="-10" r="2" fill="#333"/>
+    <circle cx="3" cy="-10" r="2" fill="#333"/>
+    <!-- Teddy nose -->
+    <ellipse cx="0" cy="-6" rx="2" ry="1.5" fill="#FF69B4"/>
+  </g>
+  
+  <!-- Nightstand -->
+  <g transform="translate(100, 280)">
+    <!-- Table top -->
+    <rect x="-15" y="0" width="30" height="6" fill="#8D6E63" rx="1"/>
+    <!-- Table leg -->
+    <rect x="-2" y="6" width="4" height="40" fill="#6D4C41"/>
+    <!-- Glass of water on nightstand -->
+    <ellipse cx="0" cy="-5" rx="8" ry="6" fill="#E3F2FD" opacity="0.7"/>
+    <ellipse cx="0" cy="-5" rx="6" ry="4" fill="#BBDEFB"/>
+  </g>
+  
+  <!-- Bedside lamp creating soft golden glow -->
+  <g transform="translate(100, 250)">
+    <!-- Lamp base -->
+    <ellipse cx="0" cy="0" rx="8" ry="12" fill="#8D6E63"/>
+    <!-- Lamp shade -->
+    <ellipse cx="0" cy="-15" rx="18" ry="12" fill="#FFF9C4" opacity="0.9"/>
+    <ellipse cx="0" cy="-12" rx="15" ry="10" fill="#FFD54F" opacity="0.8"/>
+    <!-- Lamp glow effect -->
+    <ellipse cx="0" cy="-15" rx="40" ry="30" fill="url(#lampGlow)"/>
+  </g>
+  
+  <!-- Night light glowing softly in shape of star -->
+  <g transform="translate(300, 300)">
+    <!-- Star shape -->
+    <path d="M 0 -8 L 2 -2 L 8 -2 L 3 1 L 5 7 L 0 4 L -5 7 L -3 1 L -8 -2 L -2 -2 Z" fill="#FFF9C4" opacity="0.6"/>
+    <!-- Glow -->
+    <circle cx="0" cy="0" r="12" fill="#FFF9C4" opacity="0.2"/>
+  </g>
+  
+  <!-- Slippers placed neatly by bedside -->
+  <g transform="translate(120, 330)">
+    <!-- Slipper 1 -->
+    <ellipse cx="-8" cy="0" rx="12" ry="6" fill="#E91E63"/>
+    <ellipse cx="-8" cy="-3" rx="8" ry="5" fill="#F06292"/>
+    <!-- Slipper 2 -->
+    <ellipse cx="8" cy="0" rx="12" ry="6" fill="#E91E63"/>
+    <ellipse cx="8" cy="-3" rx="8" ry="5" fill="#F06292"/>
+  </g>
+  
+  <!-- Clothes laid out on chair (simplified) -->
+  <g transform="translate(50, 250)">
+    <!-- Chair back -->
+    <rect x="-8" y="-30" width="16" height="30" fill="#8D6E63" rx="1"/>
+    <!-- Chair seat -->
+    <rect x="-10" y="0" width="20" height="6" fill="#8D6E63" rx="1"/>
+    <!-- Clothes on chair (simplified as folded fabric) -->
+    <rect x="-8" y="-25" width="16" height="20" fill="#E91E63" rx="2"/>
+  </g>
+  
+  <!-- Peppa in pajamas, sitting on bed -->
+  <g transform="translate(200, 280)">
+    <!-- Body in pajamas -->
+    <ellipse cx="0" cy="15" rx="26" ry="30" fill="#E91E63"/>
+    <!-- Pajama top -->
+    <rect x="-20" y="-5" width="40" height="25" fill="#F06292" rx="3"/>
+    <!-- Legs -->
+    <rect x="-12" y="40" width="8" height="25" rx="4" fill="#F06292"/>
+    <rect x="4" y="40" width="8" height="25" rx="4" fill="#F06292"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-25" rx="36" ry="30" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="26" cy="-25" rx="14" ry="11" fill="#F9C6CF"/>
+    <circle cx="30" cy="-28" r="2.5" fill="#FF69B4"/>
+    <circle cx="30" cy="-22" r="2.5" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-11" cy="-58" rx="7" ry="14" fill="#F9C6CF"/>
+    <ellipse cx="11" cy="-58" rx="7" ry="14" fill="#F9C6CF"/>
+    <!-- Eyes half-closed, peaceful and drowsy -->
+    <ellipse cx="-4" cy="-28" rx="5" ry="3" fill="#333"/>
+    <ellipse cx="9" cy="-28" rx="5" ry="3" fill="#333"/>
+    <!-- Peaceful expression -->
+    <ellipse cx="4" cy="-18" rx="3" ry="2" fill="#333"/>
+    <!-- Leaning slightly against Mummy Pig -->
+    <ellipse cx="-20" cy="5" rx="9" ry="7" fill="#F9C6CF"/>
+  </g>
+  
+  <!-- Mummy Pig beside Peppa, reading bedtime story -->
+  <g transform="translate(150, 280)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="30" ry="35" fill="#FF8A65"/>
+    <!-- Legs -->
+    <rect x="-16" y="50" width="12" height="35" rx="6" fill="#FFAB91"/>
+    <rect x="4" y="50" width="12" height="35" rx="6" fill="#FFAB91"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-18" rx="38" ry="32" fill="#FFAB91"/>
+    <!-- Snout -->
+    <ellipse cx="28" cy="-18" rx="17" ry="13" fill="#FFAB91"/>
+    <circle cx="33" cy="-21" r="3.5" fill="#FF69B4"/>
+    <circle cx="33" cy="-15" r="3.5" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-14" cy="-54" rx="9" ry="17" fill="#FFAB91"/>
+    <ellipse cx="14" cy="-54" rx="9" ry="17" fill="#FFAB91"/>
+    <!-- Eyes -->
+    <ellipse cx="-5" cy="-23" rx="6" ry="8" fill="white"/>
+    <ellipse cx="10" cy="-23" rx="6" ry="8" fill="white"/>
+    <circle cx="-4" cy="-22" r="3" fill="#333"/>
+    <circle cx="11" cy="-22" r="3" fill="#333"/>
+    <!-- Gentle smile -->
+    <path d="M -5 -13 Q 0 -7 5 -13" stroke="#333" stroke-width="3" fill="none"/>
+    <!-- Arm around Peppa protectively -->
+    <ellipse cx="25" cy="5" rx="12" ry="9" fill="#FFAB91" transform="rotate(30 25 5)"/>
+    <!-- Other arm holding book -->
+    <ellipse cx="-28" cy="8" rx="12" ry="9" fill="#FFAB91" transform="rotate(-20 -28 8)"/>
+    <!-- Large picture book -->
+    <rect x="-35" y="0" width="25" height="20" fill="#FFF" stroke="#8D6E63" stroke-width="2" rx="1"/>
+    <line x1="-35" y1="10" x2="-10" y2="10" stroke="#8D6E63" stroke-width="1"/>
+    <!-- Book pages -->
+    <rect x="-33" y="2" width="21" height="16" fill="#FFF9C4"/>
+  </g>
+  
+  <!-- Warm lamp glow overlay -->
+  <ellipse cx="100" cy="250" rx="80" ry="60" fill="url(#lampGlow)"/>
+</svg>

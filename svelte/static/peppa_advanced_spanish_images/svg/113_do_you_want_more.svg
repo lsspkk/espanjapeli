@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <!-- Warm kitchen gradient -->
+    <linearGradient id="warmKitchen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF3E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Kitchen background -->
+  <rect width="400" height="400" fill="url(#warmKitchen)"/>
+  
+  <!-- Table -->
+  <g transform="translate(200, 280)">
+    <!-- Table top -->
+    <ellipse cx="0" cy="0" rx="100" ry="35" fill="#8D6E63"/>
+    <ellipse cx="0" cy="0" rx="95" ry="30" fill="#A1887F"/>
+  </g>
+  
+  <!-- Peppa sitting at table with empty plate -->
+  <g transform="translate(280, 320)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="26" ry="30" fill="#E63946"/>
+    <!-- Legs -->
+    <rect x="-12" y="48" width="8" height="28" rx="4" fill="#F9C6CF"/>
+    <rect x="4" y="48" width="8" height="28" rx="4" fill="#F9C6CF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-18" rx="36" ry="30" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="26" cy="-18" rx="14" ry="11" fill="#F9C6CF"/>
+    <circle cx="30" cy="-21" r="2.5" fill="#FF69B4"/>
+    <circle cx="30" cy="-15" r="2.5" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-11" cy="-55" rx="7" ry="14" fill="#F9C6CF"/>
+    <ellipse cx="11" cy="-55" rx="7" ry="14" fill="#F9C6CF"/>
+    <!-- Eyes -->
+    <ellipse cx="-4" cy="-23" rx="6" ry="8" fill="white"/>
+    <ellipse cx="9" cy="-23" rx="6" ry="8" fill="white"/>
+    <circle cx="-3" cy="-22" r="3" fill="#333"/>
+    <circle cx="10" cy="-22" r="3" fill="#333"/>
+    <!-- Expression -->
+    <ellipse cx="5" cy="-14" rx="4" ry="3" fill="#333"/>
+    <!-- Arms -->
+    <ellipse cx="-22" cy="8" rx="9" ry="7" fill="#F9C6CF"/>
+    <ellipse cx="22" cy="8" rx="9" ry="7" fill="#F9C6CF"/>
+  </g>
+  
+  <!-- Empty plate in front of Peppa -->
+  <g transform="translate(280, 280)">
+    <!-- Plate -->
+    <ellipse cx="0" cy="0" rx="25" ry="18" fill="#FFF9C4"/>
+    <ellipse cx="0" cy="0" rx="22" ry="15" fill="#FFF"/>
+  </g>
+  
+  <!-- Mummy Pig holding serving spoon over bowl or pot -->
+  <g transform="translate(150, 300)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="30" ry="35" fill="#FF8A65"/>
+    <!-- Legs -->
+    <rect x="-16" y="50" width="12" height="35" rx="6" fill="#FFAB91"/>
+    <rect x="4" y="50" width="12" height="35" rx="6" fill="#FFAB91"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-18" rx="38" ry="32" fill="#FFAB91"/>
+    <!-- Snout -->
+    <ellipse cx="28" cy="-18" rx="17" ry="13" fill="#FFAB91"/>
+    <circle cx="33" cy="-21" r="3.5" fill="#FF69B4"/>
+    <circle cx="33" cy="-15" r="3.5" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-14" cy="-54" rx="9" ry="17" fill="#FFAB91"/>
+    <ellipse cx="14" cy="-54" rx="9" ry="17" fill="#FFAB91"/>
+    <!-- Eyes - kind, questioning expression -->
+    <ellipse cx="-5" cy="-23" rx="6" ry="8" fill="white"/>
+    <ellipse cx="10" cy="-23" rx="6" ry="8" fill="white"/>
+    <circle cx="-4" cy="-22" r="3" fill="#333"/>
+    <circle cx="11" cy="-22" r="3" fill="#333"/>
+    <!-- Kind smile -->
+    <path d="M -5 -13 Q 0 -7 5 -13" stroke="#333" stroke-width="3" fill="none"/>
+    <!-- Posture leaning slightly forward in offering gesture -->
+    <!-- Arm holding serving spoon -->
+    <ellipse cx="25" cy="5" rx="12" ry="9" fill="#FFAB91" transform="rotate(15 25 5)"/>
+    <!-- Serving spoon -->
+    <ellipse cx="35" cy="8" rx="8" ry="5" fill="#8D6E63"/>
+    <line x1="40" y1="8" x2="50" y2="0" stroke="#8D6E63" stroke-width="3" stroke-linecap="round"/>
+    <!-- Other arm -->
+    <ellipse cx="-25" cy="8" rx="10" ry="8" fill="#FFAB91"/>
+  </g>
+  
+  <!-- Serving dish (bowl or pot) -->
+  <g transform="translate(120, 280)">
+    <!-- Pot/bowl -->
+    <ellipse cx="0" cy="0" rx="30" ry="20" fill="#B0BEC5"/>
+    <ellipse cx="0" cy="0" rx="27" ry="17" fill="#CFD8DC"/>
+    <!-- Pot handle -->
+    <path d="M -30 0 Q -35 -5 -35 -10 Q -35 -15 -30 -15" stroke="#8D6E63" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Question mark between them -->
+  <g transform="translate(200, 250)">
+    <!-- Question mark -->
+    <path d="M 0 -25 Q 0 -35 -5 -40 Q -10 -45 0 -45 Q 10 -45 5 -40 Q 0 -35 0 -25 L 0 -10 Q 0 0 -5 0 Q -10 0 -10 5 Q -10 10 -5 10 Q 0 10 0 5" 
+          stroke="#FFB74D" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="0" cy="15" r="4" fill="#FFB74D"/>
+  </g>
+</svg>

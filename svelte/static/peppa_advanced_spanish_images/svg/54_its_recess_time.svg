@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#E0FFFF"/>
+  <rect x="0" y="300" width="400" height="100" fill="#7BC043"/>
+  
+  <!-- School Bell -->
+  <g transform="translate(50, 50)">
+    <circle cx="0" cy="0" r="20" fill="#FFD700"/>
+    <path d="M -5 20 L 5 20 L 10 30 L -10 30 Z" fill="#333"/>
+    <path d="M 15 -15 L 25 -25 M -15 -15 L -25 -25" stroke="#333" stroke-width="2"/> <!-- Ringing lines -->
+  </g>
+  
+  <!-- Slide -->
+  <path d="M 300 200 L 380 350 L 320 350 L 260 200 Z" fill="#FF0000"/>
+  <rect x="250" y="200" width="10" height="150" fill="#333"/> <!-- Ladder pole -->
+  
+  <!-- Peppa Running -->
+  <g transform="translate(150, 300)">
+    <ellipse cx="0" cy="20" rx="30" ry="35" fill="#E63946"/>
+    <ellipse cx="0" cy="-30" rx="40" ry="30" fill="#F9C6CF"/>
+    <ellipse cx="30" cy="-30" rx="15" ry="12" fill="#F9C6CF"/>
+    <circle cx="36" cy="-33" r="3" fill="#FF69B4"/>
+    <circle cx="36" cy="-27" r="3" fill="#FF69B4"/>
+    <circle cx="-5" cy="-35" r="3" fill="#333"/>
+    <circle cx="12" cy="-35" r="3" fill="#333"/>
+    
+    <!-- Arms up -->
+    <rect x="-40" y="0" width="30" height="8" fill="#F9C6CF" transform="rotate(-45)"/>
+    <rect x="10" y="0" width="30" height="8" fill="#F9C6CF" transform="rotate(45)"/>
+  </g>
+  
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+</svg>

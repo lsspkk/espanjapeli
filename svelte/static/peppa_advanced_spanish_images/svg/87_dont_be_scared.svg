@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background - soft and calm pastel colors -->
+  <defs>
+    <linearGradient id="calmGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E1F5FE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F3E5F5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#calmGradient)"/>
+  
+  <!-- Mummy Pig kneeling down with one arm around Peppa -->
+  <g transform="translate(200, 300)">
+    <!-- Mummy Pig's body - kneeling position -->
+    <ellipse cx="0" cy="30" rx="32" ry="38" fill="#FF8A65" transform="rotate(-10 0 30)"/>
+    <!-- Mummy Pig's legs - kneeling -->
+    <ellipse cx="-15" y="60" rx="10" ry="15" fill="#FFAB91" transform="rotate(-30 -15 60)"/>
+    <ellipse cx="15" y="60" rx="10" ry="15" fill="#FFAB91" transform="rotate(30 15 60)"/>
+    <!-- Mummy Pig's head -->
+    <ellipse cx="0" cy="-25" rx="42" ry="36" fill="#FFAB91"/>
+    <!-- Mummy Pig's snout -->
+    <ellipse cx="30" cy="-23" rx="18" ry="14" fill="#FFAB91"/>
+    <circle cx="35" cy="-26" r="3.5" fill="#FF69B4"/>
+    <circle cx="35" cy="-20" r="3.5" fill="#FF69B4"/>
+    <!-- Mummy Pig's ears -->
+    <ellipse cx="-15" cy="-60" rx="10" ry="18" fill="#FFAB91"/>
+    <ellipse cx="15" cy="-60" rx="10" ry="18" fill="#FFAB91"/>
+    <!-- Mummy Pig's eyes - gentle and reassuring -->
+    <ellipse cx="-5" cy="-28" rx="6" ry="8" fill="white"/>
+    <ellipse cx="10" cy="-28" rx="6" ry="8" fill="white"/>
+    <circle cx="-4" cy="-27" r="3" fill="#333"/>
+    <circle cx="11" cy="-27" r="3" fill="#333"/>
+    <!-- Mummy Pig's gentle, reassuring smile -->
+    <path d="M -5 -18 Q 0 -12 5 -18" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- One arm around Peppa -->
+    <ellipse cx="-35" cy="5" rx="14" ry="11" fill="#FFAB91" transform="rotate(-40 -35 5)"/>
+    <!-- Other trotter raised in calming gesture -->
+    <ellipse cx="30" cy="-10" rx="12" ry="10" fill="#FFAB91" transform="rotate(30 30 -10)"/>
+  </g>
+  
+  <!-- Peppa looking a bit worried, leaning into Mummy Pig -->
+  <g transform="translate(160, 320)">
+    <!-- Peppa's body - leaning into Mummy Pig -->
+    <ellipse cx="0" cy="25" rx="26" ry="30" fill="#E63946" transform="rotate(10 0 25)"/>
+    <!-- Peppa's legs -->
+    <rect x="-12" y="50" width="8" height="28" rx="4" fill="#F9C6CF"/>
+    <rect x="4" y="50" width="8" height="28" rx="4" fill="#F9C6CF"/>
+    <!-- Peppa's head - tilted slightly toward Mummy Pig -->
+    <ellipse cx="0" cy="-28" rx="36" ry="30" fill="#F9C6CF" transform="rotate(5 0 -28)"/>
+    <!-- Peppa's snout -->
+    <ellipse cx="26" cy="-26" rx="13" ry="10" fill="#F9C6CF"/>
+    <circle cx="30" cy="-29" r="2.5" fill="#FF69B4"/>
+    <circle cx="30" cy="-23" r="2.5" fill="#FF69B4"/>
+    <!-- Peppa's ears -->
+    <ellipse cx="-11" cy="-56" rx="7" ry="13" fill="#F9C6CF"/>
+    <ellipse cx="11" cy="-56" rx="7" ry="13" fill="#F9C6CF"/>
+    <!-- Peppa's eyes - wide with slight worry -->
+    <ellipse cx="-4" cy="-30" rx="5" ry="7" fill="white"/>
+    <ellipse cx="6" cy="-30" rx="5" ry="7" fill="white"/>
+    <circle cx="-3" cy="-29" r="2.5" fill="#333"/>
+    <circle cx="7" cy="-29" r="2.5" fill="#333"/>
+    <!-- Peppa's expression - slightly worried but comforted -->
+    <path d="M -3 -18 Q 0 -14 3 -18" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Peppa's arms -->
+    <ellipse cx="-22" cy="8" rx="9" ry="7" fill="#F9C6CF" transform="rotate(-20 -22 8)"/>
+    <ellipse cx="20" cy="8" rx="9" ry="7" fill="#F9C6CF" transform="rotate(20 20 8)"/>
+  </g>
+  
+  <!-- Small heart between them showing love and comfort -->
+  <g transform="translate(180, 250)">
+    <path d="M 0 0 C -4 -4 -8 -4 -8 0 C -8 4 -4 8 0 12 C 4 8 8 4 8 0 C 8 -4 4 -4 0 0" fill="#FF69B4" opacity="0.9"/>
+  </g>
+</svg>

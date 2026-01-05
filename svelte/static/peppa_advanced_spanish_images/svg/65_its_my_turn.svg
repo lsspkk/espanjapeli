@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#FFF"/>
+  
+  <!-- Game Board / Dice -->
+  <rect x="50" y="200" width="100" height="100" fill="#FFD700" stroke="#000"/>
+  <circle cx="80" cy="230" r="5" fill="#000"/>
+  <circle cx="120" cy="270" r="5" fill="#000"/>
+  
+  <!-- Peppa Pointing to Self -->
+  <g transform="translate(250, 250)">
+    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
+    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
+    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
+    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
+    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
+    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
+    <circle cx="-5" cy="-35" r="3" fill="#333"/>
+    <circle cx="12" cy="-35" r="3" fill="#333"/>
+    
+    <!-- Hand pointing to chest -->
+    <path d="M 30 10 Q 50 10 20 20" stroke="#F9C6CF" stroke-width="6" fill="none"/>
+    <path d="M -30 10 L -40 30" stroke="#F9C6CF" stroke-width="6"/>
+  </g>
+  
+  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background - playground/park setting -->
+  <defs>
+    <linearGradient id="playgroundSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#playgroundSky)"/>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="380" rx="400" ry="80" fill="#7BC043"/>
+  
+  <!-- Peppa holding ball and extending it forward -->
+  <g transform="translate(200, 260)">
+    <!-- Body -->
+    <ellipse cx="0" cy="30" rx="30" ry="36" fill="#E63946"/>
+    <!-- Legs -->
+    <rect x="-18" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <rect x="8" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-28" rx="40" ry="34" fill="#F9C6CF"/>
+    <!-- Snout -->
+    <ellipse cx="30" cy="-26" rx="15" ry="12" fill="#F9C6CF"/>
+    <circle cx="36" cy="-29" r="3" fill="#FF69B4"/>
+    <circle cx="36" cy="-23" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-13" cy="-60" rx="8" ry="15" fill="#F9C6CF"/>
+    <ellipse cx="13" cy="-60" rx="8" ry="15" fill="#F9C6CF"/>
+    <!-- Eyes - encouraging and friendly -->
+    <ellipse cx="-5" cy="-33" rx="5" ry="7" fill="white"/>
+    <ellipse cx="7" cy="-33" rx="5" ry="7" fill="white"/>
+    <circle cx="-4" cy="-31" r="2.5" fill="#333"/>
+    <circle cx="8" cy="-31" r="2.5" fill="#333"/>
+    <!-- Friendly smile -->
+    <path d="M -6 -16 Q 0 -6 10 -16" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Left arm - gesturing "go ahead" -->
+    <ellipse cx="-35" cy="8" rx="12" ry="10" fill="#F9C6CF" transform="rotate(-20 -35 8)"/>
+    <!-- Right arm extended forward holding ball -->
+    <g transform="translate(40, 5)">
+      <ellipse cx="0" cy="0" rx="11" ry="9" fill="#F9C6CF" transform="rotate(15 0 0)"/>
+      <!-- Ball in hand -->
+      <circle cx="15" cy="-5" r="18" fill="#FF6B6B"/>
+      <circle cx="12" cy="-8" r="4" fill="#FF8E8E"/>
+      <circle cx="18" cy="-2" r="4" fill="#FF5252"/>
+    </g>
+  </g>
+  
+  <!-- Arrow pointing from Peppa toward viewer/other side -->
+  <g transform="translate(280, 200)">
+    <!-- Arrow shaft -->
+    <line x1="0" y1="0" x2="50" y2="0" stroke="#FFC107" stroke-width="6" stroke-linecap="round"/>
+    <!-- Arrowhead -->
+    <path d="M 50 0 L 40 -8 L 40 8 Z" fill="#FFC107"/>
+  </g>
+  
+  <!-- Simple playground equipment in background (suggested) -->
+  <g transform="translate(350, 300)" opacity="0.3">
+    <!-- Simple swing set -->
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#8D6E63" stroke-width="4"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#8D6E63" stroke-width="4"/>
+  </g>
+</svg>
