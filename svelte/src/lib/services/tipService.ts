@@ -54,6 +54,8 @@ const DIFFICULTY_MAP: Record<TipDifficulty, string> = {
 	'Helppo': 'easy'
 };
 
+import { base } from '$app/paths';
+
 /**
  * Load tips data from JSON file
  */
@@ -64,7 +66,7 @@ async function loadTipsData(): Promise<TipsDatabase> {
 
 	try {
 		console.log('📚 Loading tips data from words_tips_translations.json...');
-		const response = await fetch('/words_tips_translations.json');
+		const response = await fetch(`${base}/words_tips_translations.json`);
 		if (!response.ok) {
 			throw new Error(`Failed to load tips: ${response.status}`);
 		}
