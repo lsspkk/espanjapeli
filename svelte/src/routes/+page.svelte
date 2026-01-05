@@ -60,12 +60,12 @@
 			available: true // Phase 6 - NOW AVAILABLE! ✅
 		},
 		{
-			id: 'pipsan-maailma',
-			icon: '💬',
-			title: 'Pipsan maailma',
+			id: 'pipsan-ystavat',
+			icon: '👫',
+			title: 'Pipsan ystävät',
 			description: 'Kuuntele espanjaa → valitse oikea kuva!',
 			scored: false,
-			route: '/pipsan-maailma',
+			route: '/pipsan-ystavat',
 			available: true // NEW: Image matching game ✅
 		}
 		// {

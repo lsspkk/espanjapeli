@@ -566,9 +566,9 @@
 			<div class="card bg-white/95 shadow-2xl backdrop-blur">
 				<div class="card-body p-6 sm:p-8">
 					<div class="text-center mb-6">
-						<div class="text-5xl mb-4">🐷🎨🇪🇸</div>
+						<div class="text-5xl mb-4">🐷👫🇪🇸</div>
 						<h1 class="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
-							Pipsan ajatukset
+							Pipsan ystävät
 						</h1>
 						<p class="text-lg text-base-content/70 mt-2">
 							Kuuntele ja valitse oikea kuva!

@@ -3,7 +3,7 @@ import { readFileSync } from 'fs';
 import { resolve } from 'path';
 
 /**
- * Integration tests for Pipsan maailma game data integrity
+ * Integration tests for Pipsan ystävät game data integrity
  *
  * These tests verify:
  * 1. Phrases from advanced material are correctly used
@@ -77,7 +77,7 @@ beforeAll(() => {
 	advancedMaterial = JSON.parse(phrasesContent);
 });
 
-describe('Pipsan maailma Data Integrity', () => {
+describe('Pipsan ystävät Data Integrity', () => {
 	describe('1. Advanced Material Usage', () => {
 		it('should load manifest successfully', () => {
 			expect(manifest).toBeDefined();

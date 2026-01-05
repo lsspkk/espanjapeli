@@ -476,10 +476,10 @@
 				<div class="card-body p-4 sm:p-8">
 					<div class="text-center mb-4 sm:mb-6">
 						<div class="text-3xl sm:text-4xl font-bold">
-							🐷 Pipsan maailma
+							🐷 Pipsa Possu
 						</div>
 						<div class="text-xl sm:text-2xl text-base-content/70">
-							El mundo de Peppa
+							Peppa Pig
 						</div>
 					</div>
 
