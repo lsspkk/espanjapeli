@@ -51,12 +51,12 @@
 		// 	available: false // Future
 		// },
 		{
-			id: 'peppa',
+			id: 'pipsan-maailma',
 			icon: '🐷',
-			title: 'Pipsa Possu',
-			description: 'Lasten sanapeli - valitse oikea kuva!',
+			title: 'Pipsan maailma',
+			description: 'Lasten sanapeli - valitse emoji!',
 			scored: false,
-			route: '/peppa',
+			route: '/pipsan-maailma',
 			available: true // Phase 6 - NOW AVAILABLE! ✅
 		},
 		{
