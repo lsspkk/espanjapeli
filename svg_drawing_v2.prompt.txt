@@ -1,0 +1,135 @@
+================================================================================
+SVG DRAWING GENERATION PROMPT V2
+For Peppa Pig Advanced Spanish Learning Materials
+================================================================================
+
+YOU ARE: An expert SVG artist creating Peppa Pig educational illustrations.
+
+YOUR TASK: Replace SVG file contents with new drawings. MAX 10 drawings per session.
+
+================================================================================
+WORKFLOW (READ THIS FIRST)
+================================================================================
+
+**STEP 1: FIND YOUR WORK**
+- Open `svg_todo_v2.txt`
+- Look at the STATUS line of each entry (e.g., "STATUS - IDEA: DONE - IMAGE: NOT DONE - Gemini 3 Flash")
+- The last item on STATUS line = the model that created the idea
+
+**STEP 2: CHECK IF YOU CAN WORK ON IT**
+- IMAGE: DONE → SKIP (already completed)
+- IMAGE: NOT DONE + model name matches yours → YOU CAN DRAW IT
+- IMAGE: NOT DONE + different model name → SKIP (not for you)
+
+**STEP 3: SELECT FILES (up to 10)**
+- Prioritize: Category A > B > C > D (if categories are listed)
+- Otherwise: work top-to-bottom through your assigned entries
+
+**STEP 4: CREATE THE DRAWING**
+- Read the VISUAL DESCRIPTION, KEY ELEMENTS, and all details
+- Locate existing SVG at: `svelte/static/peppa_advanced_spanish_images/svg/[filename]`
+- COMPLETELY REPLACE file contents with new drawing (don't keep old elements)
+- Follow all drawing guidelines below
+- Add your model signature in bottom right corner (see format below)
+
+**STEP 5: MARK AS DONE**
+- After saving SVG, update `svg_todo_v2.txt`
+- Change STATUS line: `IMAGE: NOT DONE` → `IMAGE: DONE`
+
+================================================================================
+DRAWING GUIDELINES
+================================================================================
+
+ART STYLE (the "Peppa" feel):
+- Use **simple, confident lines** and **rounded, friendly shapes**
+- Keep details **minimal but meaningful** (choose a few iconic props rather than many tiny ones)
+- Characters should have **consistent, recognizable proportions** (big simple head, small body, tiny limbs)
+- Expressions must be **kind, safe, and kid-friendly** (no scary faces, no harsh drama)
+
+COMPOSITION RECIPE (do this every time):
+- Make the **main action obvious in 1 second**: one clear gesture + one clear prop/setting
+- Use **one focal character** (often Peppa) and optionally **one supporting character** if it helps the phrase
+- Include **1–3 context objects** that teach the meaning (e.g., calendar, lunch dish, umbrella, toys)
+- Keep the background **simple**: a soft sky/room gradient or a few big shapes (ground, wall, window)
+- Leave **breathing room** around the characters; avoid clutter and tiny decorative patterns
+
+COLOR & MOOD:
+- Use a **bright, sunny palette** (pinks, light blues, greens, warm yellows)
+- Prefer **flat colors**; use **only gentle gradients** when it adds softness (sky glow, lamp light)
+- Avoid dark/muddy colors; if you need "stormy," keep it **storybook-safe** (soft grays + warm indoor light)
+
+CLARITY AT SMALL SIZE (educational usefulness):
+- Keep silhouettes bold and readable; props should be **instantly recognizable**
+- If you add text (like "¡BIEN!"), make it **large and simple**; otherwise rely on visuals
+
+MAKE EACH IMAGE DISTINCT:
+- Even if multiple phrases share characters, vary **pose, props, setting, and camera angle** so each feels unique
+
+MODERN SVG FEATURES (use everything available):
+- Feel free to use **all modern SVG features** your model supports:
+  * Complex paths and shapes
+  * Gradients (linear, radial) for depth and atmosphere
+  * Filters (blur, drop shadows, lighting effects)
+  * Patterns and masks for texture
+  * Clipping paths for creative compositions
+  * Transformations and animations (if appropriate)
+  * Groups and layers for organization
+  * Any other SVG features that enhance the illustration
+- Modern mobile phones support all SVG features that AI models can generate
+- Don't worry about file size - focus on creating rich, detailed, beautiful illustrations
+- Use advanced features to add depth, texture, lighting, and visual interest
+
+================================================================================
+CHARACTER COLORS (CRITICAL - DO NOT DEVIATE)
+================================================================================
+
+- Peppa Pig: Red dress (#E63946), Pink head (#F9C6CF), Pink snout/nostrils (#FF69B4)
+- George Pig: Blue shirt (#6B9BD2), Pink head (#F9C6CF), Pink snout/nostrils (#FF69B4)
+- Mummy Pig: Orange body (#FF8A65), Lighter peach head (#FFAB91), Pink snout/nostrils (#FF69B4)
+- Daddy Pig: Orange body (#FF8A65), Lighter peach head (#FFAB91), Pink snout/nostrils (#FF69B4)
+- Suzy Sheep: White body (#FFFFFF), White head (#FFFFFF), Pink snout/nostrils (#FF69B4)
+- Danny Dog: Orange/yellow body (#FFB74D), Orange/yellow head (#FFB74D), Pink snout/nostrils (#FF69B4)
+- Madame Gazelle: Purple dress (#9C27B0), Light yellow/cream head (#FFF8E1), Pink arms/legs (#F9C6CF)
+
+================================================================================
+SVG FILE FORMAT REQUIREMENTS
+================================================================================
+
+1. SVG viewBox: Use `viewBox="0 0 400 400"` and `width="400" height="400"`
+
+2. Background: Start with a simple background (sky, room, or gradient)
+
+3. Follow the VISUAL DESCRIPTION from svg_todo_v2.txt closely:
+   - Include all KEY ELEMENTS mentioned
+   - Match the SETTING described
+   - Show the MAIN ACTION clearly
+   - Include the PROPS specified
+   - Capture the MOOD/ATMOSPHERE
+
+4. **REQUIRED SIGNATURE (ATTRIBUTION ONLY)**: You MUST include your AI model signature in the bottom right corner:
+   - Add a <text> element positioned at approximately x="390" y="390"
+   - Use `text-anchor="end"` for right alignment
+   - Font: `font-family="Arial, sans-serif"`
+   - Font size: `font-size="10"` to `font-size="12"`
+   - Color: `fill="#5B6470"` with `opacity="0.7"` to `opacity="0.85"`
+   - Include YOUR model name (e.g., "Composer 1", "GPT 5.2", "Gemini 3 Pro", "Claude Sonnet", etc.)
+   - Example: `<text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">YOUR_MODEL_NAME</text>`
+   - **IMPORTANT**: The signature is **not** used to determine DONE/NOT DONE. Completion status is tracked **only** in `svg_todo_v2.txt`.
+
+5. File naming: Save each SVG with the exact filename from the drawing idea (e.g., `68_i_love_it.svg`)
+
+6. File location: All SVGs are in `svelte/static/peppa_advanced_spanish_images/svg/`
+
+
+================================================================================
+IMPORTANT NOTES
+================================================================================
+
+- The SVG files already exist - you are REPLACING their contents completely with new drawings
+- Do NOT modify or keep old content - create entirely new SVG content based on the ideas in svg_todo_v2.txt
+- Focus on making each drawing unique and contextually appropriate
+- Ensure the Spanish phrase meaning is visually obvious
+- Use modern SVG features freely - create rich, detailed illustrations
+- Test that the main action is readable at small sizes
+- Maximum 10 drawings per session
+

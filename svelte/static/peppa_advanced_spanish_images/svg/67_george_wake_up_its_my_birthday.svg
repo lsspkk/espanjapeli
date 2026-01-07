@@ -1,48 +1,176 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <rect width="400" height="400" fill="#E3F2FD"/>
-  <rect x="0" y="300" width="400" height="100" fill="#8D6E63"/>
-  <rect x="50" y="280" width="120" height="80" rx="10" fill="#FFB74D"/>
-  <rect x="60" y="290" width="100" height="60" rx="5" fill="#FFF9C4"/>
-    <g transform="translate(110, 320)">
-    <ellipse cx="0" cy="25" rx="28" ry="32" fill="#4A90E2"/>
-    <rect x="-15" y="50" width="8" height="28" rx="4" fill="#F9C6CF"/>
-    <rect x="7" y="50" width="8" height="28" rx="4" fill="#F9C6CF"/>
-    <ellipse cx="0" cy="-25" rx="35" ry="28" fill="#F9C6CF"/>
-    <ellipse cx="28" cy="-25" rx="14" ry="11" fill="#F9C6CF"/>
-    <circle cx="33" cy="-27" r="3" fill="#FF69B4"/>
-    <circle cx="33" cy="-23" r="3" fill="#FF69B4"/>
-    <ellipse cx="-12" cy="-50" rx="8" ry="14" fill="#F9C6CF"/>
-    <ellipse cx="12" cy="-50" rx="8" ry="14" fill="#F9C6CF"/>
-    <ellipse cx="-4" cy="-28" rx="5" ry="6" fill="white"/>
-    <ellipse cx="10" cy="-28" rx="5" ry="6" fill="white"/>
-    <circle cx="-3" cy="-27" r="2.5" fill="#333"/>
-    <circle cx="11" cy="-27" r="2.5" fill="#333"/>
-    <path d="M -4 -15 Q 8 -8 20 -15" stroke="#333" stroke-width="2.5" fill="none"/>
+  <defs>
+    <linearGradient id="morningBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+    <radialGradient id="sunlight" cx="30%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#FFEB3B" opacity="0.4"/>
+      <stop offset="100%" stop-color="#FFEB3B" opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background bedroom -->
+  <rect width="400" height="400" fill="url(#morningBg)"/>
+  <rect width="400" height="400" fill="url(#sunlight)"/>
+  
+  <!-- Window with curtains -->
+  <rect x="50" y="50" width="100" height="120" rx="5" fill="#8D6E63"/>
+  <rect x="55" y="55" width="90" height="110" fill="#E3F2FD"/>
+  <!-- Curtains -->
+  <rect x="50" y="55" width="50" height="110" fill="#9C27B0" opacity="0.6"/>
+  <rect x="100" y="55" width="50" height="110" fill="#9C27B0" opacity="0.6"/>
+  <!-- Morning sun rays -->
+  <g stroke="#FFEB3B" stroke-width="2" opacity="0.5">
+    <line x1="100" y1="60" x2="100" y2="50"/>
+    <line x1="100" y1="160" x2="100" y2="170"/>
+    <line x1="60" y1="110" x2="50" y2="110"/>
+    <line x1="140" y1="110" x2="150" y2="110"/>
   </g>
-  <text x="140" y="250" font-family="Arial" font-size="24" fill="#90CAF9" opacity="0.7">Z</text>
-  <text x="150" y="230" font-family="Arial" font-size="20" fill="#90CAF9" opacity="0.6">Z</text>
-    <g transform="translate(280, 250)">
-    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
-    <rect x="-20" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
-    <rect x="10" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
-    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
-    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
-    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
-    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
-    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <ellipse cx="-5" cy="-35" rx="6" ry="8" fill="white"/>
-    <ellipse cx="12" cy="-35" rx="6" ry="8" fill="white"/>
-    <circle cx="-4" cy="-34" r="3" fill="#333"/>
-    <circle cx="13" cy="-34" r="3" fill="#333"/>
-    <path d="M -5 -18 Q 10 -8 25 -18" stroke="#333" stroke-width="3" fill="none"/>
+  
+  <!-- Calendar on wall -->
+  <g transform="translate(280, 80)">
+    <rect x="-40" y="-30" width="80" height="100" rx="3" fill="white" stroke="#333" stroke-width="2"/>
+    <!-- Calendar grid -->
+    <line x1="-40" y1="0" x2="40" y2="0" stroke="#333" stroke-width="1"/>
+    <line x1="-40" y1="20" x2="40" y2="20" stroke="#333" stroke-width="1"/>
+    <line x1="-40" y1="40" x2="40" y2="40" stroke="#333" stroke-width="1"/>
+    <line x1="-40" y1="60" x2="40" y2="60" stroke="#333" stroke-width="1"/>
+    <!-- Month header -->
+    <rect x="-40" y="-30" width="80" height="30" fill="#E63946"/>
+    <!-- Birthday date with red circle -->
+    <circle cx="0" cy="10" r="12" fill="#E63946" opacity="0.3"/>
+    <circle cx="0" cy="10" r="8" fill="#E63946"/>
+    <!-- Birthday cake icon -->
+    <g transform="translate(0, 10)">
+      <rect x="-6" y="-4" width="12" height="8" fill="#FFD54F"/>
+      <rect x="-4" y="-6" width="8" height="2" fill="#FF6B6B"/>
+      <circle cx="-2" cy="-7" r="1.5" fill="#FFD700"/>
+      <circle cx="0" cy="-7" r="1.5" fill="#FFD700"/>
+      <circle cx="2" cy="-7" r="1.5" fill="#FFD700"/>
+    </g>
   </g>
-  <g transform="translate(280, 320)">
-    <rect x="-20" y="-30" width="40" height="20" rx="5" fill="#FF6B9D"/>
-    <rect x="-15" y="-50" width="30" height="20" rx="5" fill="#FFB74D"/>
-    <circle cx="-10" cy="-55" r="3" fill="#FFF" opacity="0.9"/>
-    <circle cx="0" cy="-55" r="3" fill="#FFF" opacity="0.9"/>
-    <circle cx="10" cy="-55" r="3" fill="#FFF" opacity="0.9"/>
+  
+  <!-- George's bed -->
+  <g transform="translate(150, 280)">
+    <!-- Bed frame -->
+    <rect x="-60" y="0" width="120" height="80" rx="5" fill="#6B9BD2"/>
+    <!-- Bed sheets -->
+    <rect x="-55" y="5" width="110" height="70" rx="3" fill="#E3F2FD"/>
+    <!-- Pillow -->
+    <ellipse cx="-30" cy="10" rx="20" ry="15" fill="white"/>
   </g>
-  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#5B6470" opacity="0.7">composer 1</text>
+  
+  <!-- George in bed -->
+  <g transform="translate(150, 280)">
+    <!-- Body under covers (blue shirt visible) -->
+    <ellipse cx="0" cy="30" rx="35" ry="25" fill="#6B9BD2"/>
+    
+    <!-- Head peeking out -->
+    <ellipse cx="0" cy="-10" rx="32" ry="28" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="24" cy="-10" rx="12" ry="10" fill="#F9C6CF"/>
+    <circle cx="27" cy="-12" r="2.5" fill="#FF69B4"/>
+    <circle cx="27" cy="-8" r="2.5" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-10" cy="-42" rx="7" ry="12" fill="#F9C6CF"/>
+    <ellipse cx="10" cy="-42" rx="7" ry="12" fill="#F9C6CF"/>
+    
+    <!-- Eyes (sleepy, one half-open) -->
+    <ellipse cx="-4" cy="-14" rx="5" ry="7" fill="white"/>
+    <path d="M -4 -18 Q -4 -10 -4 -7" stroke="#333" stroke-width="2.5" fill="none"/>
+    <ellipse cx="8" cy="-14" rx="5" ry="7" fill="white"/>
+    <circle cx="9" cy="-13" r="2.5" fill="#333"/>
+    
+    <!-- Mouth (surprised "o") -->
+    <ellipse cx="20" cy="-5" rx="4" ry="6" fill="#333"/>
+    
+    <!-- Covers pulled up -->
+    <rect x="-40" y="-15" width="80" height="20" rx="10" fill="#E3F2FD"/>
+  </g>
+  
+  <!-- Mr. Dinosaur -->
+  <g transform="translate(120, 300)">
+    <ellipse cx="0" cy="0" rx="12" ry="18" fill="#4CAF50"/>
+    <ellipse cx="0" cy="-8" rx="8" ry="10" fill="#66BB6A"/>
+    <!-- Dinosaur spikes -->
+    <path d="M -8 -15 L 0 -25 L 8 -15" fill="#2E7D32"/>
+    <!-- Eyes -->
+    <circle cx="-3" cy="-10" r="1.5" fill="#333"/>
+    <circle cx="3" cy="-10" r="1.5" fill="#333"/>
+  </g>
+  
+  <!-- Peppa bouncing on bed edge -->
+  <g transform="translate(280, 250)">
+    <!-- Body (red dress) -->
+    <ellipse cx="0" cy="40" rx="40" ry="45" fill="#E63946" transform="rotate(-5)"/>
+    
+    <!-- Legs (bouncing pose) -->
+    <rect x="-22" y="75" width="10" height="40" rx="5" fill="#F9C6CF" transform="rotate(-10 -22 95)"/>
+    <rect x="12" y="75" width="10" height="40" rx="5" fill="#F9C6CF" transform="rotate(10 12 95)"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-25" cy="120" rx="12" ry="7" fill="#333" transform="rotate(-10)"/>
+    <ellipse cx="25" cy="120" rx="12" ry="7" fill="#333" transform="rotate(10)"/>
+    
+    <!-- Arms raised (excited) -->
+    <path d="M -35 35 Q -50 10 -45 -15" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <circle cx="-45" cy="-15" r="11" fill="#F9C6CF"/>
+    <path d="M 35 35 Q 50 10 45 -15" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <circle cx="45" cy="-15" r="11" fill="#F9C6CF"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="50" ry="40" fill="#F9C6CF" transform="rotate(-5)"/>
+    
+    <!-- Snout -->
+    <ellipse cx="45" cy="-50" rx="20" ry="15" fill="#F9C6CF" transform="rotate(-5 45 -50)"/>
+    <circle cx="52" cy="-54" r="4" fill="#FF69B4"/>
+    <circle cx="52" cy="-46" r="4" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-15" cy="-85" rx="10" ry="20" fill="#F9C6CF" transform="rotate(-5 -15 -85)"/>
+    <ellipse cx="15" cy="-85" rx="10" ry="20" fill="#F9C6CF" transform="rotate(-5 15 -85)"/>
+    
+    <!-- Eyes (very excited, wide) -->
+    <ellipse cx="-8" cy="-55" rx="7" ry="9" fill="white"/>
+    <ellipse cx="12" cy="-55" rx="7" ry="9" fill="white"/>
+    <circle cx="-6" cy="-53" r="4" fill="#333"/>
+    <circle cx="14" cy="-53" r="4" fill="#333"/>
+    
+    <!-- Big excited smile -->
+    <path d="M -8 -30 Q 5 -15 22 -30" stroke="#333" stroke-width="4" fill="none"/>
+    
+    <!-- Party hat -->
+    <g transform="translate(0, -100)">
+      <path d="M -15 0 L 0 -30 L 15 0 Z" fill="#FFEB3B"/>
+      <!-- Blue polka dots -->
+      <circle cx="-8" cy="-10" r="2" fill="#2196F3"/>
+      <circle cx="8" cy="-10" r="2" fill="#2196F3"/>
+      <circle cx="0" cy="-20" r="2" fill="#2196F3"/>
+      <!-- Pom pom -->
+      <circle cx="0" cy="-35" r="4" fill="#E63946"/>
+    </g>
+    
+    <!-- Rosy cheeks -->
+    <circle cx="-20" cy="-35" r="10" fill="#FFB6C1" opacity="0.7"/>
+    <circle cx="30" cy="-35" r="10" fill="#FFB6C1" opacity="0.7"/>
+  </g>
+  
+  <!-- Motion lines (bouncing) -->
+  <g stroke="#9C27B0" stroke-width="2" opacity="0.4">
+    <path d="M 250 320 Q 260 310 270 320"/>
+    <path d="M 290 320 Q 300 310 310 320"/>
+  </g>
+  
+  <!-- Zzz sleep symbols -->
+  <g fill="#90CAF9" opacity="0.6" font-family="Arial" font-size="24" font-weight="bold">
+    <text x="140" y="250">Z</text>
+    <text x="150" y="230">Z</text>
+    <text x="160" y="240">Z</text>
+  </g>
+  
+  <!-- Signature -->
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Composer 1</text>
 </svg>

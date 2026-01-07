@@ -1,27 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Goodbye">
-  <rect width="100%" height="100%" fill="#FFFFFF"/>
+<svg viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style><![CDATA[
-      .ol { stroke: #222222; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
-      .softol { stroke: #222222; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
-    ]]></style>
+    <linearGradient id="sunsetGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB74D;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#FF8A65;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F48FB1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="houseGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDD835;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FBC02D;stop-opacity:1" />
+    </linearGradient>
   </defs>
-<ellipse class="ol" cx="109.5" cy="100.5" rx="11.700000000000001" ry="13.5" fill="#F9C6CF"/>
-  <ellipse class="ol" cx="190.5" cy="100.5" rx="11.700000000000001" ry="13.5" fill="#F9C6CF"/>
-  <ellipse class="ol" cx="150" cy="150" rx="58.5" ry="47.25" fill="#F9C6CF"/>
-  <ellipse class="ol" cx="177.0" cy="159.0" rx="31.5" ry="21.6" fill="#F7A8B8"/>
-  <circle cx="163.5" cy="159.0" r="4.5" fill="#222222"/>
-  <circle cx="190.5" cy="159.0" r="4.5" fill="#222222"/>
-  <circle cx="132.0" cy="141.0" r="7.2" fill="#222222"/>
-  <circle cx="159.0" cy="141.0" r="7.2" fill="#222222"/>
-  <circle cx="105.0" cy="159.0" r="5.4" fill="#F59FB4" opacity="0.9"/>
-  <path class="softol" d="M 141.0 172.5 Q 154.5 186.0 172.5 172.5" fill="none"/>
-  <rect class="ol" x="87.0" y="199.5" width="126.0" height="135.0" rx="36.0" fill="#F9C6CF"/>
-  <path class="ol" d="M 109.5 240.0 Q 78.0 258.0 96.0 280.5" fill="none"/>
-  <path class="ol" d="M 190.5 240.0 Q 222.0 258.0 204.0 280.5" fill="none"/>
-  <path class="ol" d="M 118.5 334.5 L 118.5 366.0"/>
-  <path class="ol" d="M 181.5 334.5 L 181.5 366.0"/>
-  <ellipse class="ol" cx="118.5" cy="372.3" rx="16.2" ry="7.2" fill="#000000"/>
-  <ellipse class="ol" cx="181.5" cy="372.3" rx="16.2" ry="7.2" fill="#000000"/><path class="ol" d="M 250 165 Q 300 140 325 165" fill="none"/><path class="ol" d="M 260 190 Q 305 165 330 190" fill="none"/><path d="M 305 96.0 L 307.7 102.3 L 314.0 105 L 307.7 107.7 L 305 114.0 L 302.3 107.7 L 296.0 105 L 302.3 102.3 Z" fill="#FFE066" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+  
+  <!-- Warm late-afternoon/sunset sky -->
+  <rect width="400" height="400" fill="url(#sunsetGrad)"/>
+  
+  <!-- Flying birds in distance -->
+  <path d="M 320 80 Q 325 75 330 80" stroke="#424242" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M 330 80 Q 335 75 340 80" stroke="#424242" stroke-width="1.5" fill="none" opacity="0.6"/>
+  
+  <path d="M 360 100 Q 365 95 370 100" stroke="#424242" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M 370 100 Q 375 95 380 100" stroke="#424242" stroke-width="1.5" fill="none" opacity="0.5"/>
+  
+  <!-- Ground/hill -->
+  <ellipse cx="200" cy="400" rx="220" ry="50" fill="#81C784"/>
+  <rect x="0" y="280" width="400" height="120" fill="#A5D6A7"/>
+  
+  <!-- Path leading away (gently winding down the hill) -->
+  <path d="M 200 320 Q 230 340 250 360 Q 270 380 290 400" fill="#D7CCC8" opacity="0.7"/>
+  <path d="M 220 320 Q 250 340 270 360 Q 290 380 310 400" fill="#BCAAA4" opacity="0.7"/>
+  
+  <!-- Yellow house on hill (background, right side) -->
+  <rect x="280" y="160" width="90" height="80" fill="url(#houseGrad)"/>
+  <path d="M 275 160 L 325 120 L 375 160 Z" fill="#E53935"/>
+  <!-- Door -->
+  <rect x="305" y="195" width="20" height="30" fill="#8D6E63"/>
+  <!-- Windows -->
+  <rect x="290" y="175" width="18" height="18" fill="#4FC3F7"/>
+  <line x1="299" y1="175" x2="299" y2="193" stroke="#1976D2" stroke-width="2"/>
+  <line x1="290" y1="184" x2="308" y2="184" stroke="#1976D2" stroke-width="2"/>
+  <rect x="342" y="175" width="18" height="18" fill="#4FC3F7"/>
+  <line x1="351" y1="175" x2="351" y2="193" stroke="#1976D2" stroke-width="2"/>
+  <line x1="342" y1="184" x2="360" y2="184" stroke="#1976D2" stroke-width="2"/>
+  
+  <!-- Garden fence/gate (foreground left) -->
+  <rect x="45" y="260" width="6" height="50" fill="#8D6E63"/>
+  <rect x="75" y="260" width="6" height="50" fill="#8D6E63"/>
+  <rect x="105" y="260" width="6" height="50" fill="#8D6E63"/>
+  <rect x="135" y="260" width="6" height="50" fill="#8D6E63"/>
+  <!-- Horizontal rails -->
+  <rect x="45" y="275" width="96" height="5" fill="#8D6E63"/>
+  <rect x="45" y="295" width="96" height="5" fill="#8D6E63"/>
+  
+  <!-- Peppa at gate (foreground, waving enthusiastically) -->
+  <!-- Legs -->
+  <ellipse cx="80" cy="305" rx="6" ry="15" fill="#E63946"/>
+  <ellipse cx="95" cy="305" rx="6" ry="15" fill="#E63946"/>
+  <!-- Feet -->
+  <ellipse cx="80" cy="318" rx="8" ry="5" fill="#000000"/>
+  <ellipse cx="95" cy="318" rx="8" ry="5" fill="#000000"/>
+  <!-- Dress body -->
+  <ellipse cx="88" cy="275" rx="25" ry="30" fill="#E63946"/>
+  <!-- Head -->
+  <circle cx="88" cy="235" r="30" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="103" cy="240" rx="15" ry="12" fill="#FF69B4"/>
+  <ellipse cx="100" cy="238" rx="3.5" ry="5" fill="#E91E63"/>
+  <ellipse cx="106" cy="238" rx="3.5" ry="5" fill="#E91E63"/>
+  <!-- Eyes (big cheerful smile) -->
+  <path d="M 75 223 Q 78 227 81 223" stroke="#000000" stroke-width="2.5" fill="none"/>
+  <path d="M 90 223 Q 93 227 96 223" stroke="#000000" stroke-width="2.5" fill="none"/>
+  <!-- Big smile -->
+  <path d="M 83 250 Q 88 255 93 250" stroke="#000000" stroke-width="2.5" fill="none"/>
+  <!-- Ear -->
+  <ellipse cx="68" cy="220" rx="8" ry="12" fill="#F9C6CF"/>
+  <!-- Right arm raised HIGH waving -->
+  <ellipse cx="115" cy="240" rx="7" ry="22" fill="#F9C6CF" transform="rotate(45 115 240)"/>
+  <ellipse cx="132" cy="225" rx="9" ry="10" fill="#F9C6CF" transform="rotate(-10 132 225)"/>
+  <!-- Left arm holding gate -->
+  <ellipse cx="65" cy="270" rx="6" ry="18" fill="#F9C6CF" transform="rotate(-10 65 270)"/>
+  <ellipse cx="58" cy="283" rx="7" ry="8" fill="#F9C6CF"/>
+  
+  <!-- Body leaning into wave -->
+  <!-- (Already achieved by arm position and head angle)-->
+  
+  <!-- Granny and Grandpa Pig walking away on path (background, smaller) -->
+  <!-- Granny Pig -->
+  <!-- Legs -->
+  <ellipse cx="255" cy="355" rx="5" ry="12" fill="#9C27B0"/>
+  <ellipse cx="267" cy="355" rx="5" ry="12" fill="#9C27B0"/>
+  <!-- Feet -->
+  <ellipse cx="255" cy="365" rx="6" ry="4" fill="#000000"/>
+  <ellipse cx="267" cy="365" rx="6" ry="4" fill="#000000"/>
+  <!-- Dress body -->
+  <ellipse cx="261" cy="335" rx="18" ry="22" fill="#9C27B0"/>
+  <!-- Head (back view, mostly) -->
+  <circle cx="261" cy="312" r="18" fill="#FFAB91"/>
+  <!-- Ear visible -->
+  <ellipse cx="250" cy="310" rx="5" ry="9" fill="#FFAB91"/>
+  <!-- Arm raised waving back (not turned around) -->
+  <ellipse cx="275" cy="320" rx="5" ry="14" fill="#FFAB91" transform="rotate(40 275 320)"/>
+  <ellipse cx="283" cy="310" rx="6" ry="6" fill="#FFAB91"/>
+  
+  <!-- Grandpa Pig -->
+  <!-- Legs -->
+  <ellipse cx="285" cy="357" rx="5" ry="12" fill="#2196F3"/>
+  <ellipse cx="297" cy="357" rx="5" ry="12" fill="#2196F3"/>
+  <!-- Feet -->
+  <ellipse cx="285" cy="367" rx="6" ry="4" fill="#000000"/>
+  <ellipse cx="297" cy="367" rx="6" ry="4" fill="#000000"/>
+  <!-- Shirt body -->
+  <ellipse cx="291" cy="338" rx="18" ry="22" fill="#2196F3"/>
+  <!-- Head (back view) -->
+  <circle cx="291" cy="315" r="18" fill="#FFAB91"/>
+  <!-- Ear visible -->
+  <ellipse cx="280" cy="313" rx="5" ry="9" fill="#FFAB91"/>
+  <!-- Hat on head -->
+  <ellipse cx="291" cy="305" rx="15" ry="5" fill="#1976D2"/>
+  <path d="M 280 305 Q 280 298 291 296 Q 302 298 302 305 Z" fill="#1976D2"/>
+  <!-- Arm at side -->
+  <ellipse cx="273" cy="335" rx="4" ry="12" fill="#FFAB91"/>
+  
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Claude Sonnet 4.5</text>
 </svg>

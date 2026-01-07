@@ -1,38 +1,146 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <rect width="400" height="400" fill="#FFEFD5"/> <!-- Background -->
+  <defs>
+    <linearGradient id="kitchenBg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+    <linearGradient id="windowSky2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#B0E0E6"/>
+    </linearGradient>
+  </defs>
   
-  <!-- Table -->
-  <rect x="50" y="300" width="300" height="100" fill="#8B4513"/>
+  <!-- Background kitchen -->
+  <rect width="400" height="400" fill="url(#kitchenBg2)"/>
   
-  <!-- Peppa -->
-  <g transform="translate(150, 150)">
-    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/> <!-- Dress -->
-    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/> <!-- Head -->
-    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/> <!-- Snout -->
-    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
-    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
-    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/> <!-- Ears -->
-    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <circle cx="-5" cy="-35" r="3" fill="#333"/> <!-- Eyes -->
-    <circle cx="12" cy="-35" r="3" fill="#333"/>
-    <path d="M -5 -20 Q 10 -10 25 -20" stroke="#333" stroke-width="2" fill="none"/> <!-- Mouth (neutral/open) -->
+  <!-- Window -->
+  <rect x="50" y="50" width="120" height="100" rx="5" fill="#8D6E63"/>
+  <rect x="55" y="55" width="110" height="90" rx="3" fill="url(#windowSky2)"/>
+  <!-- Window frame -->
+  <line x1="110" y1="50" x2="110" y2="150" stroke="#8D6E63" stroke-width="3"/>
+  <line x1="50" y1="100" x2="170" y2="100" stroke="#8D6E63" stroke-width="3"/>
+  
+  <!-- Countertop -->
+  <rect x="0" y="200" width="400" height="30" fill="#A1887F"/>
+  <rect x="0" y="200" width="400" height="5" fill="#8D6E63"/>
+  
+  <!-- Fruit bowl -->
+  <g transform="translate(320, 180)">
+    <ellipse cx="0" cy="0" rx="25" ry="15" fill="#8D6E63"/>
+    <ellipse cx="0" cy="-5" rx="22" ry="12" fill="#A1887F"/>
+    <!-- Apples -->
+    <circle cx="-8" cy="-10" r="6" fill="#E53935"/>
+    <circle cx="8" cy="-10" r="6" fill="#FFD54F"/>
+    <!-- Orange -->
+    <circle cx="0" cy="-5" r="5" fill="#FF6F00"/>
+  </g>
+  
+  <!-- Mixing bowl and spoon -->
+  <g transform="translate(80, 180)">
+    <ellipse cx="0" cy="0" rx="20" ry="12" fill="#E0E0E0"/>
+    <ellipse cx="0" cy="-3" rx="18" ry="10" fill="white"/>
+    <!-- Wooden spoon -->
+    <rect x="15" y="-15" width="3" height="25" fill="#8D6E63"/>
+    <ellipse cx="16.5" cy="-15" rx="4" ry="3" fill="#A1887F"/>
+  </g>
+  
+  <!-- Mummy Pig holding water glass -->
+  <g transform="translate(120, 240)">
+    <!-- Body (orange dress) -->
+    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#FF8A65"/>
     
-    <!-- Arm holding glass -->
-    <path d="M 25 20 L 60 50" stroke="#F9C6CF" stroke-width="8" stroke-linecap="round"/>
+    <!-- Legs -->
+    <rect x="-18" y="60" width="9" height="40" rx="4" fill="#F9C6CF"/>
+    <rect x="9" y="60" width="9" height="40" rx="4" fill="#F9C6CF"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-13" cy="105" rx="12" ry="7" fill="#333"/>
+    <ellipse cx="13" cy="105" rx="12" ry="7" fill="#333"/>
+    
+    <!-- Arms (holding glass) -->
+    <path d="M -30 25 Q -40 10 -35 -5" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="-35" cy="-5" r="10" fill="#F9C6CF"/>
+    <path d="M 30 30 Q 40 50 35 70" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="35" cy="70" r="10" fill="#F9C6CF"/>
+    
+    <!-- Water glass with ice -->
+    <g transform="translate(-40, -10)">
+      <ellipse cx="0" cy="0" rx="10" ry="15" fill="#E3F2FD" opacity="0.6"/>
+      <ellipse cx="0" cy="0" rx="9" ry="13" fill="#BBDEFB"/>
+      <rect x="-9" y="-13" width="18" height="26" fill="none" stroke="#8D6E63" stroke-width="1.5"/>
+      <!-- Ice cubes -->
+      <rect x="-5" y="-8" width="4" height="4" rx="1" fill="white" opacity="0.8"/>
+      <rect x="2" y="-5" width="4" height="4" rx="1" fill="white" opacity="0.8"/>
+    </g>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-30" rx="38" ry="32" fill="#FFAB91"/>
+    
+    <!-- Snout -->
+    <ellipse cx="28" cy="-30" rx="14" ry="11" fill="#FFAB91"/>
+    <circle cx="32" cy="-32" r="2.5" fill="#FF69B4"/>
+    <circle cx="32" cy="-28" r="2.5" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-12" cy="-58" rx="9" ry="14" fill="#FFAB91"/>
+    <ellipse cx="12" cy="-58" rx="9" ry="14" fill="#FFAB91"/>
+    
+    <!-- Eyes (caring, understanding) -->
+    <ellipse cx="-5" cy="-35" rx="6" ry="8" fill="white"/>
+    <ellipse cx="8" cy="-35" rx="6" ry="8" fill="white"/>
+    <circle cx="-4" cy="-34" r="3" fill="#333"/>
+    <circle cx="9" cy="-34" r="3" fill="#333"/>
+    
+    <!-- Caring smile -->
+    <path d="M -5 -20 Q 0 -15 5 -20" stroke="#333" stroke-width="2" fill="none"/>
   </g>
   
-  <!-- Glass of juice -->
-  <g transform="translate(220, 200)">
-     <path d="M 0 0 L 10 50 L 40 50 L 50 0 Z" fill="#ADD8E6" stroke="#333" stroke-width="2"/>
-     <path d="M 5 5 L 12 45 L 38 45 L 45 5 Z" fill="#FFA500"/> <!-- Juice -->
-     <line x1="25" y1="0" x2="35" y2="-20" stroke="#FFF" stroke-width="3"/> <!-- Straw -->
+  <!-- Peppa indicating thirst (center) -->
+  <g transform="translate(200, 280)">
+    <!-- Body (red dress) -->
+    <ellipse cx="0" cy="40" rx="45" ry="50" fill="#E63946"/>
+    
+    <!-- Legs -->
+    <rect x="-25" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
+    <rect x="13" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-19" cy="135" rx="15" ry="8" fill="#333"/>
+    <ellipse cx="19" cy="135" rx="15" ry="8" fill="#333"/>
+    
+    <!-- Left arm pointing to throat -->
+    <path d="M -40 35 Q -50 20 -45 5 Q -40 -10 -30 -5" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="-30" cy="-5" r="12" fill="#F9C6CF"/>
+    
+    <!-- Right arm at side -->
+    <path d="M 40 40 Q 50 60 45 80" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="45" cy="80" r="12" fill="#F9C6CF"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
+    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
+    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
+    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
+    
+    <!-- Eyes (hopeful, looking at Mummy) -->
+    <ellipse cx="-10" cy="-55" rx="8" ry="10" fill="white"/>
+    <ellipse cx="15" cy="-55" rx="8" ry="10" fill="white"/>
+    <circle cx="-8" cy="-53" r="4" fill="#333"/>
+    <circle cx="17" cy="-53" r="4" fill="#333"/>
+    
+    <!-- Mouth slightly open (thirsty) -->
+    <ellipse cx="25" cy="-25" rx="5" ry="7" fill="#333"/>
+    
+    <!-- Hopeful expression -->
+    <path d="M -5 -30 Q 10 -25 25 -30" stroke="#333" stroke-width="3" fill="none"/>
   </g>
   
-  <!-- Thought bubble with water drop -->
-  <ellipse cx="300" cy="100" rx="40" ry="30" fill="white" stroke="#333"/>
-  <circle cx="270" cy="140" r="5" fill="white" stroke="#333"/>
-  <circle cx="260" cy="150" r="3" fill="white" stroke="#333"/>
-  <path d="M 300 80 Q 290 100 300 115 Q 310 100 300 80" fill="#00BFFF" transform="translate(0, 5)"/>
-  
-  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+  <!-- Signature -->
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Composer 1</text>
 </svg>

@@ -1,95 +1,180 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <!-- Background: Pool scene -->
   <defs>
-    <linearGradient id="poolBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#81D4FA"/>
-      <stop offset="60%" stop-color="#4FC3F7"/>
-      <stop offset="100%" stop-color="#29B6F6"/>
+    <linearGradient id="sky12" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#CFEFFF"/>
+      <stop offset="70%" stop-color="#A8D9FF"/>
+      <stop offset="100%" stop-color="#E9F7FF"/>
     </linearGradient>
+    <linearGradient id="water12" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="55%" stop-color="#29B6F6"/>
+      <stop offset="100%" stop-color="#039BE5"/>
+    </linearGradient>
+    <linearGradient id="deck12" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E0E0E0"/>
+      <stop offset="100%" stop-color="#BDBDBD"/>
+    </linearGradient>
+    <filter id="shadow12" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#223" flood-opacity="0.22"/>
+    </filter>
+    <clipPath id="poolClip12">
+      <rect x="45" y="195" width="310" height="175" rx="18"/>
+    </clipPath>
   </defs>
-  <rect width="400" height="400" fill="url(#poolBg)"/>
-  
-  <!-- Sun -->
-  <circle cx="80" cy="80" r="40" fill="#FFEB3B"/>
-  <g stroke="#FFEB3B" stroke-width="4" stroke-linecap="round">
-    <line x1="80" y1="30" x2="80" y2="20"/>
-    <line x1="80" y1="130" x2="80" y2="140"/>
-    <line x1="30" y1="80" x2="20" y2="80"/>
-    <line x1="130" y1="80" x2="140" y2="80"/>
-    <line x1="50" y1="50" x2="40" y2="40"/>
-    <line x1="110" y1="50" x2="120" y2="40"/>
-    <line x1="50" y1="110" x2="40" y2="120"/>
-    <line x1="110" y1="110" x2="120" y2="120"/>
+
+  <!-- Background sky -->
+  <rect width="400" height="400" fill="url(#sky12)"/>
+
+  <!-- One fluffy cloud -->
+  <g opacity="0.85" fill="#FFFFFF" transform="translate(265 55)">
+    <circle cx="0" cy="12" r="16"/>
+    <circle cx="16" cy="4" r="20"/>
+    <circle cx="34" cy="12" r="16"/>
+    <circle cx="16" cy="18" r="14"/>
   </g>
-  
-  <!-- Pool water -->
-  <rect x="50" y="200" width="300" height="180" fill="#29B6F6"/>
-  <rect x="50" y="200" width="300" height="180" fill="url(#poolBg)" opacity="0.5"/>
-  
-  <!-- Pool edge -->
-  <rect x="45" y="195" width="310" height="10" rx="5" fill="#B0BEC5"/>
-  
-  <!-- Water ripples -->
-  <g stroke="#4FC3F7" stroke-width="2" fill="none" opacity="0.6">
-    <ellipse cx="150" cy="250" rx="30" ry="15"/>
-    <ellipse cx="250" cy="280" rx="25" ry="12"/>
-    <ellipse cx="200" cy="320" rx="35" ry="18"/>
+
+  <!-- Pool deck and pool -->
+  <g filter="url(#shadow12)">
+    <rect x="0" y="175" width="400" height="225" fill="#FFE9C8" opacity="0.9"/>
+    <rect x="40" y="190" width="320" height="185" rx="22" fill="url(#deck12)" stroke="#2B2B2B" stroke-width="3"/>
+    <rect x="45" y="195" width="310" height="175" rx="18" fill="url(#water12)" stroke="#2B2B2B" stroke-width="3"/>
   </g>
-  
-  <!-- Peppa swimming -->
-  <g transform="translate(200, 280)">
-    <!-- Body (swimsuit - blue) -->
-    <ellipse cx="0" cy="20" rx="40" ry="45" fill="#2196F3"/>
-    
-    <!-- Legs (kicking) -->
-    <rect x="-20" y="55" width="10" height="40" rx="5" fill="#F9C6CF" transform="rotate(-20 -20 75)"/>
-    <rect x="10" y="55" width="10" height="40" rx="5" fill="#F9C6CF" transform="rotate(20 10 75)"/>
-    
-    <!-- Arms (swimming strokes) -->
-    <path d="M -40 15 Q -60 -10 -50 -30" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
-    <circle cx="-50" cy="-30" r="10" fill="#F9C6CF"/>
-    <path d="M 40 15 Q 60 -10 50 -30" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
-    <circle cx="50" cy="-30" r="10" fill="#F9C6CF"/>
-    
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="50" ry="40" fill="#F9C6CF"/>
-    
-    <!-- Snout -->
-    <ellipse cx="45" cy="-50" rx="20" ry="15" fill="#F9C6CF"/>
-    <circle cx="52" cy="-54" r="4" fill="#FF69B4"/>
-    <circle cx="52" cy="-46" r="4" fill="#FF69B4"/>
-    
-    <!-- Ears -->
-    <ellipse cx="-15" cy="-85" rx="10" ry="20" fill="#F9C6CF"/>
-    <ellipse cx="15" cy="-85" rx="10" ry="20" fill="#F9C6CF"/>
-    
-    <!-- Eyes (happy) -->
-    <ellipse cx="-8" cy="-55" rx="7" ry="9" fill="white"/>
-    <ellipse cx="12" cy="-55" rx="7" ry="9" fill="white"/>
-    <circle cx="-6" cy="-53" r="3" fill="#333"/>
-    <circle cx="14" cy="-53" r="3" fill="#333"/>
-    
-    <!-- Happy smile -->
-    <path d="M -5 -35 Q 10 -25 25 -35" stroke="#333" stroke-width="3" fill="none"/>
-    
-    <!-- Water splash around head -->
-    <g fill="#E3F2FD" opacity="0.7">
-      <circle cx="-30" cy="-60" r="4"/>
-      <circle cx="30" cy="-65" r="5"/>
-      <circle cx="-20" cy="-70" r="3"/>
-      <circle cx="25" cy="-75" r="4"/>
+
+  <!-- Water highlights -->
+  <g clip-path="url(#poolClip12)" opacity="0.7">
+    <g stroke="#B3E5FC" stroke-width="3" fill="none">
+      <path d="M 70 240 C 95 225 125 225 150 240 C 175 255 205 255 230 240 C 255 225 285 225 310 240" opacity="0.7"/>
+      <path d="M 60 290 C 90 275 125 275 155 290 C 185 305 220 305 250 290 C 280 275 315 275 345 290" opacity="0.6"/>
+      <path d="M 75 330 C 105 318 135 318 165 330 C 195 342 225 342 255 330 C 285 318 315 318 345 330" opacity="0.55"/>
+    </g>
+    <circle cx="120" cy="310" r="32" fill="#4FC3F7" opacity="0.25"/>
+    <circle cx="240" cy="330" r="38" fill="#4FC3F7" opacity="0.22"/>
+  </g>
+
+  <!-- Background: lounge chair + towel + Daddy Pig -->
+  <g transform="translate(65 110)" filter="url(#shadow12)" stroke="#2B2B2B" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Lounge chair -->
+    <g transform="translate(0 70)">
+      <rect x="0" y="0" width="130" height="18" rx="8" fill="#B0BEC5"/>
+      <rect x="12" y="-52" width="106" height="60" rx="10" fill="#CFD8DC"/>
+      <path d="M 12 -52 L 0 0" fill="none"/>
+      <path d="M 118 -52 L 130 0" fill="none"/>
+    </g>
+    <!-- Striped towel -->
+    <g transform="translate(10 165)">
+      <rect x="0" y="0" width="110" height="26" rx="10" fill="#FFFFFF"/>
+      <rect x="0" y="0" width="110" height="26" rx="10" fill="none"/>
+      <g opacity="0.85">
+        <rect x="10" y="0" width="10" height="26" fill="#E63946" stroke="none"/>
+        <rect x="30" y="0" width="10" height="26" fill="#4FC3F7" stroke="none"/>
+        <rect x="50" y="0" width="10" height="26" fill="#E63946" stroke="none"/>
+        <rect x="70" y="0" width="10" height="26" fill="#4FC3F7" stroke="none"/>
+        <rect x="90" y="0" width="10" height="26" fill="#E63946" stroke="none"/>
+      </g>
+    </g>
+
+    <!-- Daddy Pig (background) -->
+    <g transform="translate(75 70)">
+      <ellipse cx="0" cy="70" rx="48" ry="52" fill="#FF8A65"/>
+      <rect x="-20" y="110" width="11" height="38" rx="5.5" fill="#F9C6CF" stroke="none"/>
+      <rect x="9" y="110" width="11" height="38" rx="5.5" fill="#F9C6CF" stroke="none"/>
+      <ellipse cx="-14" cy="152" rx="14" ry="7.5" fill="#2B2B2B" stroke="none"/>
+      <ellipse cx="14" cy="152" rx="14" ry="7.5" fill="#2B2B2B" stroke="none"/>
+      <ellipse cx="0" cy="18" rx="56" ry="46" fill="#FFAB91"/>
+      <ellipse cx="46" cy="18" rx="24" ry="17" fill="#FFAB91"/>
+      <circle cx="53" cy="13" r="4" fill="#FF69B4" stroke="none"/>
+      <circle cx="53" cy="23" r="4" fill="#FF69B4" stroke="none"/>
+      <!-- Sunglasses -->
+      <g fill="#2B2B2B" stroke="none">
+        <rect x="-28" y="4" width="24" height="14" rx="6"/>
+        <rect x="4" y="4" width="24" height="14" rx="6"/>
+        <rect x="-4" y="9" width="8" height="4" rx="2"/>
+      </g>
+      <path d="M -10 34 Q 0 42 10 34" fill="none"/>
     </g>
   </g>
-  
-  <!-- Water splashes -->
-  <g fill="#E3F2FD" opacity="0.6">
-    <ellipse cx="120" cy="240" rx="8" ry="15" transform="rotate(-20)"/>
-    <ellipse cx="280" cy="250" rx="6" ry="12" transform="rotate(25)"/>
-    <ellipse cx="150" cy="220" rx="7" ry="13" transform="rotate(-10)"/>
-    <ellipse cx="250" cy="225" rx="9" ry="14" transform="rotate(15)"/>
+
+  <!-- Foreground: Peppa in the pool with floaties + George at edge -->
+  <g stroke="#2B2B2B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow12)">
+    <!-- Peppa (center, in water) -->
+    <g transform="translate(200 285)">
+      <!-- Upper body (red swimsuit/dress color) -->
+      <ellipse cx="0" cy="40" rx="48" ry="52" fill="#E63946"/>
+
+      <!-- Arms splashing -->
+      <path d="M -42 34 Q -64 16 -60 -6" fill="none" stroke="#F9C6CF" stroke-width="18"/>
+      <circle cx="-60" cy="-10" r="10.5" fill="#F9C6CF" stroke="none"/>
+      <path d="M 42 34 Q 66 18 60 -4" fill="none" stroke="#F9C6CF" stroke-width="18"/>
+      <circle cx="60" cy="-8" r="10.5" fill="#F9C6CF" stroke="none"/>
+
+      <!-- Yellow arm floaties -->
+      <ellipse cx="-54" cy="18" rx="18" ry="14" fill="#FFEB3B"/>
+      <ellipse cx="54" cy="18" rx="18" ry="14" fill="#FFEB3B"/>
+
+      <!-- Head -->
+      <ellipse cx="0" cy="-28" rx="60" ry="50" fill="#F9C6CF"/>
+      <ellipse cx="50" cy="-28" rx="25" ry="18" fill="#F9C6CF"/>
+      <circle cx="57" cy="-33" r="4.2" fill="#FF69B4" stroke="none"/>
+      <circle cx="57" cy="-23" r="4.2" fill="#FF69B4" stroke="none"/>
+      <ellipse cx="-18" cy="-72" rx="12" ry="22" fill="#F9C6CF"/>
+      <ellipse cx="18" cy="-72" rx="12" ry="22" fill="#F9C6CF"/>
+
+      <circle cx="-16" cy="-42" r="6.5" fill="#FFFFFF" stroke="none"/>
+      <circle cx="8" cy="-42" r="6.5" fill="#FFFFFF" stroke="none"/>
+      <circle cx="-16" cy="-42" r="3.2" fill="#2B2B2B" stroke="none"/>
+      <circle cx="8" cy="-42" r="3.2" fill="#2B2B2B" stroke="none"/>
+      <path d="M -10 -22 Q 0 -10 10 -22" fill="none"/>
+      <circle cx="-28" cy="-30" r="8.5" fill="#FF69B4" opacity="0.25" stroke="none"/>
+      <circle cx="15" cy="-30" r="8.5" fill="#FF69B4" opacity="0.25" stroke="none"/>
+
+      <!-- Splashes -->
+      <g fill="#FFFFFF" opacity="0.95" stroke="none">
+        <path d="M -92 28 C -78 10 -64 10 -54 24 C -62 30 -76 36 -92 28 Z"/>
+        <path d="M 92 28 C 78 10 64 10 54 24 C 62 30 76 36 92 28 Z"/>
+        <path d="M -10 70 C 0 55 12 55 22 70 C 10 78 2 78 -10 70 Z" opacity="0.8"/>
+      </g>
+    </g>
+
+    <!-- George at pool edge (right) -->
+    <g transform="translate(322 235)">
+      <!-- Body / trunks (blue) -->
+      <ellipse cx="0" cy="62" rx="44" ry="50" fill="#6B9BD2"/>
+      <rect x="-20" y="102" width="11" height="46" rx="5.5" fill="#F9C6CF" stroke="none"/>
+      <rect x="9" y="102" width="11" height="46" rx="5.5" fill="#F9C6CF" stroke="none"/>
+      <ellipse cx="-14" cy="153" rx="13" ry="7.2" fill="#2B2B2B" stroke="none"/>
+      <ellipse cx="14" cy="153" rx="13" ry="7.2" fill="#2B2B2B" stroke="none"/>
+
+      <!-- Arms holding ring -->
+      <path d="M -36 58 Q -58 66 -64 84" fill="none" stroke="#F9C6CF" stroke-width="16"/>
+      <circle cx="-66" cy="88" r="9.5" fill="#F9C6CF" stroke="none"/>
+      <path d="M 36 58 Q 52 74 54 92" fill="none" stroke="#F9C6CF" stroke-width="16"/>
+      <circle cx="56" cy="96" r="9.5" fill="#F9C6CF" stroke="none"/>
+
+      <!-- Head -->
+      <ellipse cx="0" cy="10" rx="54" ry="44" fill="#F9C6CF"/>
+      <ellipse cx="45" cy="10" rx="22" ry="16" fill="#F9C6CF"/>
+      <circle cx="52" cy="6" r="4" fill="#FF69B4" stroke="none"/>
+      <circle cx="52" cy="14" r="4" fill="#FF69B4" stroke="none"/>
+      <ellipse cx="-16" cy="-26" rx="11" ry="20" fill="#F9C6CF"/>
+      <ellipse cx="16" cy="-26" rx="11" ry="20" fill="#F9C6CF"/>
+      <circle cx="-14" cy="-2" r="6.2" fill="#FFFFFF" stroke="none"/>
+      <circle cx="8" cy="-2" r="6.2" fill="#FFFFFF" stroke="none"/>
+      <circle cx="-14" cy="-2" r="3.1" fill="#2B2B2B" stroke="none"/>
+      <circle cx="8" cy="-2" r="3.1" fill="#2B2B2B" stroke="none"/>
+      <path d="M -8 18 Q 0 28 8 18" fill="none"/>
+
+      <!-- Green dino inflatable ring -->
+      <g transform="translate(-55 125)">
+        <ellipse cx="0" cy="0" rx="44" ry="24" fill="#4CAF50"/>
+        <ellipse cx="0" cy="0" rx="28" ry="13" fill="#B9F6CA" opacity="0.55" stroke="none"/>
+        <!-- Dino head bump -->
+        <path d="M 34 -8 C 44 -14 54 -10 56 0 C 54 10 44 12 34 6 Z" fill="#4CAF50"/>
+        <circle cx="48" cy="-2" r="2.5" fill="#2B2B2B" stroke="none"/>
+        <path d="M 40 4 L 46 8 L 38 10 Z" fill="#2B2B2B" stroke="none" opacity="0.5"/>
+      </g>
+    </g>
   </g>
-  
+
   <!-- Signature -->
-  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Composer 1</text>
   <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
 </svg>

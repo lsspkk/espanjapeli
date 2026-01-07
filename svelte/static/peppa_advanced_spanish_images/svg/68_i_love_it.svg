@@ -1,26 +1,104 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <rect width="400" height="400" fill="#FFF0F5"/>
-  <ellipse cx="200" cy="380" rx="220" ry="60" fill="#7BC043"/>
-    <g transform="translate(200, 220)">
-    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
-    <rect x="-20" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
-    <rect x="10" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
-    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
-    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
-    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
-    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
-    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <ellipse cx="-5" cy="-35" rx="6" ry="8" fill="white"/>
-    <ellipse cx="12" cy="-35" rx="6" ry="8" fill="white"/>
-    <circle cx="-4" cy="-34" r="3" fill="#333"/>
-    <circle cx="13" cy="-34" r="3" fill="#333"/>
-    <path d="M -5 -18 Q 10 -8 25 -18" stroke="#333" stroke-width="3" fill="none"/>
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#B0E0E6"/>
+    </linearGradient>
+    <radialGradient id="heartGrad1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF69B4"/>
+      <stop offset="100%" stop-color="#E63946"/>
+    </radialGradient>
+    <radialGradient id="heartGrad2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFB6C1"/>
+      <stop offset="100%" stop-color="#FF69B4"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background sky -->
+  <rect width="400" height="400" fill="url(#skyGrad)"/>
+  
+  <!-- Clouds -->
+  <g fill="white" opacity="0.8">
+    <circle cx="80" cy="60" r="25"/>
+    <circle cx="100" cy="55" r="30"/>
+    <circle cx="120" cy="60" r="25"/>
+    <circle cx="300" cy="80" r="20"/>
+    <circle cx="315" cy="75" r="25"/>
+    <circle cx="330" cy="80" r="20"/>
   </g>
-  <g fill="#FF1493">
-    <path d="M 200 100 L 210 130 L 240 130 L 215 150 L 220 180 L 200 160 L 180 180 L 185 150 L 160 130 L 190 130 Z"/>
-    <path d="M 120 150 L 125 170 L 145 170 L 130 185 L 135 205 L 120 190 L 105 205 L 110 185 L 95 170 L 115 170 Z"/>
-    <path d="M 280 150 L 285 170 L 305 170 L 290 185 L 295 205 L 280 190 L 265 205 L 270 185 L 255 170 L 275 170 Z"/>
+  
+  <!-- Grass -->
+  <ellipse cx="200" cy="400" rx="250" ry="60" fill="#7BC043"/>
+  
+  <!-- Peppa hugging herself -->
+  <g transform="translate(200, 250)">
+    <!-- Body (red dress) -->
+    <ellipse cx="0" cy="40" rx="45" ry="50" fill="#E63946"/>
+    
+    <!-- Legs -->
+    <rect x="-25" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
+    <rect x="13" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-19" cy="135" rx="15" ry="8" fill="#333"/>
+    <ellipse cx="19" cy="135" rx="15" ry="8" fill="#333"/>
+    
+    <!-- Arms crossed over chest (hugging) -->
+    <path d="M -40 35 Q -50 20 -45 5 Q -40 -5 -30 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="-30" cy="0" r="12" fill="#F9C6CF"/>
+    <path d="M 40 35 Q 50 20 45 5 Q 40 -5 30 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <circle cx="30" cy="0" r="12" fill="#F9C6CF"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
+    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
+    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
+    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
+    
+    <!-- Eyes closed (blissful) -->
+    <path d="M -15 -55 Q -5 -50 5 -55" stroke="#333" stroke-width="3" fill="none"/>
+    <path d="M 10 -55 Q 20 -50 30 -55" stroke="#333" stroke-width="3" fill="none"/>
+    
+    <!-- Wide contented smile -->
+    <path d="M -10 -30 Q 0 -15 20 -30" stroke="#333" stroke-width="4" fill="none"/>
+    
+    <!-- Rosy cheeks -->
+    <circle cx="-25" cy="-35" r="12" fill="#FFB6C1" opacity="0.7"/>
+    <circle cx="35" cy="-35" r="12" fill="#FFB6C1" opacity="0.7"/>
   </g>
-  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#5B6470" opacity="0.7">composer 1</text>
+  
+  <!-- Floating hearts -->
+  <g>
+    <!-- Large heart center -->
+    <path d="M 200 120 C 200 100, 180 90, 160 100 C 140 90, 120 100, 120 120 C 120 140, 160 170, 160 170 C 160 170, 200 140, 200 120" fill="url(#heartGrad1)" opacity="0.9"/>
+    
+    <!-- Medium heart left -->
+    <path d="M 100 150 C 100 135, 85 128, 70 135 C 55 128, 40 135, 40 150 C 40 165, 70 185, 70 185 C 70 185, 100 165, 100 150" fill="url(#heartGrad2)" opacity="0.85"/>
+    
+    <!-- Medium heart right -->
+    <path d="M 300 140 C 300 125, 315 118, 330 125 C 345 118, 360 125, 360 140 C 360 155, 330 175, 330 175 C 330 175, 300 155, 300 140" fill="url(#heartGrad1)" opacity="0.85"/>
+    
+    <!-- Small heart top left -->
+    <path d="M 120 80 C 120 72, 110 68, 100 72 C 90 68, 80 72, 80 80 C 80 88, 100 100, 100 100 C 100 100, 120 88, 120 80" fill="#FF69B4" opacity="0.8"/>
+    
+    <!-- Small heart top right -->
+    <path d="M 280 90 C 280 82, 290 78, 300 82 C 310 78, 320 82, 320 90 C 320 98, 300 110, 300 110 C 300 110, 280 98, 280 90" fill="#FFB6C1" opacity="0.8"/>
+  </g>
+  
+  <!-- Sparkles around hearts -->
+  <g fill="#FFD700" opacity="0.7">
+    <polygon points="150,100 152,107 160,107 154,112 156,120 150,115 144,120 146,112 140,107 148,107"/>
+    <polygon points="250,110 252,117 260,117 254,122 256,130 250,125 244,130 246,122 240,117 248,117"/>
+    <polygon points="80,160 81,165 86,165 83,169 84,174 80,171 76,174 77,169 74,165 79,165"/>
+    <polygon points="320,170 321,175 326,175 323,179 324,184 320,181 316,184 317,179 314,175 319,175"/>
+  </g>
+  
+  <!-- Signature -->
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Composer 1</text>
 </svg>

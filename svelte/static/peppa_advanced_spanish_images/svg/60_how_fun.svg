@@ -1,28 +1,127 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <rect width="400" height="400" fill="#FFC0CB"/>
+<svg viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E3F2FD;stop-opacity:1" />
+    </linearGradient>
+  </defs>
   
-  <!-- Confetti -->
-  <circle cx="50" cy="50" r="5" fill="red"/>
-  <circle cx="350" cy="80" r="5" fill="blue"/>
-  <rect x="100" y="100" width="5" height="10" fill="green" transform="rotate(45)"/>
-  <rect x="300" y="50" width="5" height="10" fill="yellow" transform="rotate(-45)"/>
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#skyGrad)"/>
   
-  <!-- Peppa Jumping -->
-  <g transform="translate(200, 250)">
-    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
-    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
-    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
-    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
-    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
-    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <circle cx="-5" cy="-35" r="3" fill="#333"/>
-    <circle cx="12" cy="-35" r="3" fill="#333"/>
-    
-    <!-- Arms Up -->
-    <path d="M -30 10 L -50 -20" stroke="#F9C6CF" stroke-width="6"/>
-    <path d="M 30 10 L 50 -20" stroke="#F9C6CF" stroke-width="6"/>
-  </g>
+  <!-- Clouds -->
+  <ellipse cx="100" cy="80" rx="35" ry="20" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="120" cy="75" rx="30" ry="18" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="140" cy="80" rx="25" ry="16" fill="#FFFFFF" opacity="0.9"/>
   
-  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+  <ellipse cx="300" cy="100" rx="40" ry="22" fill="#FFFFFF" opacity="0.85"/>
+  <ellipse cx="330" cy="95" rx="35" ry="20" fill="#FFFFFF" opacity="0.85"/>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="380" rx="200" ry="40" fill="#81C784"/>
+  <rect x="0" y="320" width="400" height="80" fill="#A5D6A7"/>
+  
+  <!-- Small flowers scattered -->
+  <circle cx="80" cy="345" r="4" fill="#FFEB3B"/>
+  <circle cx="78" cy="342" r="2" fill="#FFF59D"/>
+  <circle cx="150" cy="350" r="4" fill="#F48FB1"/>
+  <circle cx="148" cy="347" r="2" fill="#FCE4EC"/>
+  <circle cx="350" cy="355" r="4" fill="#FFEB3B"/>
+  <circle cx="348" cy="352" r="2" fill="#FFF59D"/>
+  
+  <!-- Swing set frame (red) -->
+  <rect x="165" y="100" width="8" height="180" fill="#E53935"/>
+  <rect x="267" y="100" width="8" height="180" fill="#E53935"/>
+  <rect x="165" y="100" width="110" height="8" fill="#E53935"/>
+  
+  <!-- Swing chains -->
+  <line x1="195" y1="105" x2="180" y2="180" stroke="#757575" stroke-width="3"/>
+  <line x1="245" y1="105" x2="260" y2="180" stroke="#757575" stroke-width="3"/>
+  
+  <!-- Swing seat (blue) -->
+  <rect x="180" y="180" width="80" height="12" fill="#2196F3" rx="2"/>
+  
+  <!-- Motion lines behind swing -->
+  <path d="M 150 160 Q 160 150 170 160" stroke="#B3E5FC" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M 270 160 Q 280 150 290 160" stroke="#B3E5FC" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M 140 190 Q 150 180 160 190" stroke="#B3E5FC" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Peppa on swing (at peak of arc, high in air) -->
+  <!-- Legs kicked forward -->
+  <ellipse cx="200" cy="215" rx="6" ry="16" fill="#E63946" transform="rotate(-30 200 215)"/>
+  <ellipse cx="220" cy="215" rx="6" ry="16" fill="#E63946" transform="rotate(-30 220 215)"/>
+  <!-- Feet -->
+  <ellipse cx="195" cy="228" rx="8" ry="5" fill="#000000" transform="rotate(-30 195 228)"/>
+  <ellipse cx="215" cy="228" rx="8" ry="5" fill="#000000" transform="rotate(-30 215 228)"/>
+  <!-- Dress (fluttering with motion) -->
+  <ellipse cx="220" cy="175" rx="25" ry="30" fill="#E63946"/>
+  <path d="M 240 170 Q 255 165 260 175 Q 255 170 240 173 Z" fill="#E63946"/>
+  <!-- Head -->
+  <circle cx="220" cy="145" r="30" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="235" cy="150" rx="15" ry="12" fill="#FF69B4"/>
+  <ellipse cx="232" cy="148" rx="3.5" ry="5" fill="#E91E63"/>
+  <ellipse cx="238" cy="148" rx="3.5" ry="5" fill="#E91E63"/>
+  <!-- Eyes (squeezed shut with joy) -->
+  <path d="M 207 135 Q 210 140 213 135" stroke="#000000" stroke-width="3" fill="none"/>
+  <path d="M 222 135 Q 225 140 228 135" stroke="#000000" stroke-width="3" fill="none"/>
+  <!-- Mouth (huge laugh) -->
+  <ellipse cx="220" cy="161" rx="8" ry="10" fill="#000000" opacity="0.8"/>
+  <path d="M 212 161 Q 220 167 228 161" stroke="#000000" stroke-width="2" fill="none"/>
+  <!-- Ear -->
+  <ellipse cx="200" cy="130" rx="8" ry="12" fill="#F9C6CF"/>
+  <!-- Arms gripping chains -->
+  <ellipse cx="195" cy="160" rx="6" ry="18" fill="#F9C6CF" transform="rotate(-45 195 160)"/>
+  <ellipse cx="245" cy="160" rx="6" ry="18" fill="#F9C6CF" transform="rotate(45 245 160)"/>
+  <!-- Hands gripping chains -->
+  <ellipse cx="183" cy="150" rx="7" ry="8" fill="#F9C6CF" transform="rotate(-20 183 150)"/>
+  <ellipse cx="257" cy="150" rx="7" ry="8" fill="#F9C6CF" transform="rotate(20 257 150)"/>
+  
+  <!-- Suzy Sheep below (watching excitedly) -->
+  <!-- Legs -->
+  <ellipse cx="90" cy="315" rx="5" ry="14" fill="#FFFFFF"/>
+  <ellipse cx="103" cy="315" rx="5" ry="14" fill="#FFFFFF"/>
+  <!-- Feet -->
+  <ellipse cx="90" cy="327" rx="7" ry="4" fill="#000000"/>
+  <ellipse cx="103" cy="327" rx="7" ry="4" fill="#000000"/>
+  <!-- Body -->
+  <ellipse cx="96" cy="285" rx="20" ry="28" fill="#FFFFFF"/>
+  <!-- Fluffy wool texture -->
+  <circle cx="85" cy="280" r="8" fill="#F5F5F5" opacity="0.8"/>
+  <circle cx="107" cy="280" r="8" fill="#F5F5F5" opacity="0.8"/>
+  <circle cx="96" cy="295" r="9" fill="#F5F5F5" opacity="0.8"/>
+  <!-- Head -->
+  <ellipse cx="96" cy="255" rx="18" ry="22" fill="#FFFFFF"/>
+  <!-- Fluffy head texture -->
+  <circle cx="85" cy="250" r="7" fill="#F5F5F5" opacity="0.8"/>
+  <circle cx="107" cy="250" r="7" fill="#F5F5F5" opacity="0.8"/>
+  <!-- Snout -->
+  <ellipse cx="105" cy="260" rx="10" ry="8" fill="#FFD6E8"/>
+  <ellipse cx="103" cy="258" rx="2.5" ry="3.5" fill="#FF69B4"/>
+  <ellipse cx="107" cy="258" rx="2.5" ry="3.5" fill="#FF69B4"/>
+  <!-- Eyes (excited) -->
+  <circle cx="88" cy="248" r="3" fill="#000000"/>
+  <circle cx="89" cy="247" r="1" fill="#FFFFFF"/>
+  <circle cx="100" cy="248" r="3" fill="#000000"/>
+  <circle cx="101" cy="247" r="1" fill="#FFFFFF"/>
+  <!-- Smile -->
+  <path d="M 93 266 Q 96 269 99 266" stroke="#000000" stroke-width="1.5" fill="none"/>
+  <!-- Ears -->
+  <ellipse cx="82" cy="245" rx="5" ry="10" fill="#FFFFFF"/>
+  <ellipse cx="110" cy="245" rx="5" ry="10" fill="#FFFFFF"/>
+  <!-- Arm raised waving -->
+  <ellipse cx="115" cy="275" rx="5" ry="15" fill="#FFFFFF" transform="rotate(40 115 275)"/>
+  <ellipse cx="127" cy="263" rx="6" ry="7" fill="#FFFFFF" transform="rotate(-10 127 263)"/>
+  <!-- Other arm -->
+  <ellipse cx="77" cy="285" rx="5" ry="14" fill="#FFFFFF"/>
+  
+  <!-- Slide and seesaw in background (simple shapes) -->
+  <!-- Slide (blue) -->
+  <path d="M 340 240 L 360 240 L 370 320 L 355 320 Z" fill="#42A5F5" opacity="0.7"/>
+  <rect x="338" y="240" width="6" height="80" fill="#E53935" opacity="0.7"/>
+  <!-- Seesaw -->
+  <rect x="305" y="305" width="60" height="8" fill="#FF9800" transform="rotate(-15 335 309)"/>
+  <rect x="332" y="295" width="6" height="25" fill="#757575"/>
+  
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Claude Sonnet 4.5</text>
 </svg>

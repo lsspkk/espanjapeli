@@ -1,120 +1,115 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <!-- Background: Playground -->
   <defs>
-    <linearGradient id="playgroundBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#81D4FA"/>
-      <stop offset="100%" stop-color="#4FC3F7"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8FD9FF"/>
+      <stop offset="1" stop-color="#EAF9FF"/>
     </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#98E6A7"/>
+      <stop offset="1" stop-color="#59C56B"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
   </defs>
-  <rect width="400" height="400" fill="url(#playgroundBg)"/>
-  
-  <!-- Grass -->
-  <ellipse cx="200" cy="400" rx="250" ry="60" fill="#7BC043"/>
-  
-  <!-- Playground equipment -->
-  <!-- Slide -->
-  <g transform="translate(100, 200)">
-    <rect x="0" y="0" width="8" height="100" fill="#FF6B6B"/>
-    <path d="M 0 0 Q 30 50 60 100" stroke="#FF6B6B" stroke-width="8" fill="none"/>
-    <rect x="55" y="100" width="10" height="20" fill="#FF6B6B"/>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <path d="M0,275 Q200,245 400,280 L400,400 L0,400 Z" fill="url(#grass)"/>
+
+  <!-- Playground props: slide + swing frame -->
+  <g opacity="0.95" filter="url(#shadow)">
+    <!-- swing frame (red outline) -->
+    <path d="M70,260 L110,160 L150,260" fill="none" stroke="#E63946" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M250,260 L290,160 L330,260" fill="none" stroke="#E63946" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M110,160 H290" fill="none" stroke="#E63946" stroke-width="6" stroke-linecap="round"/>
+    <path d="M170,170 V220" stroke="#E63946" stroke-width="4" stroke-linecap="round"/>
+    <path d="M230,170 V220" stroke="#E63946" stroke-width="4" stroke-linecap="round"/>
+    <rect x="176" y="220" width="48" height="16" rx="8" fill="#FFD54F" stroke="#333" stroke-width="2"/>
+
+    <!-- slide (blue) -->
+    <g transform="translate(260 215)">
+      <path d="M0,0 h38 v-60 h-38 z" fill="#4FC3F7" stroke="#333" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M38,-60 c34,22 42,64 40,102 h-16 c2,-30 -4,-58 -24,-76 l-20,10z" fill="#3AA9E6" stroke="#333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8,-52 v-18" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+      <path d="M22,-52 v-18" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    </g>
   </g>
-  
-  <!-- Swing -->
-  <g transform="translate(300, 150)">
-    <line x1="0" y1="0" x2="0" y2="100" stroke="#8D6E63" stroke-width="6"/>
-    <line x1="-40" y1="0" x2="-40" y2="100" stroke="#8D6E63" stroke-width="6"/>
-    <rect x="-45" y="100" width="50" height="8" rx="2" fill="#FFEB3B"/>
+
+  <!-- Flowers -->
+  <g opacity="0.85">
+    <g transform="translate(60 330)">
+      <circle cx="0" cy="0" r="4" fill="#FF6FB1"/>
+      <circle cx="10" cy="-2" r="4" fill="#FFD54F"/>
+      <circle cx="18" cy="6" r="4" fill="#7E57C2"/>
+      <path d="M10,10 v18" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(340 335)">
+      <circle cx="0" cy="0" r="4" fill="#FF6FB1"/>
+      <circle cx="12" cy="2" r="4" fill="#FFD54F"/>
+      <path d="M6,10 v18" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
+    </g>
   </g>
-  
-  <!-- Peppa asking -->
-  <g transform="translate(150, 280)">
-    <!-- Body (red dress) -->
-    <ellipse cx="0" cy="50" rx="40" ry="45" fill="#E63946"/>
-    
-    <!-- Legs -->
-    <rect x="-22" y="85" width="11" height="45" rx="5" fill="#F9C6CF"/>
-    <rect x="11" y="85" width="11" height="45" rx="5" fill="#F9C6CF"/>
-    
-    <!-- Shoes -->
-    <ellipse cx="-16" cy="135" rx="13" ry="8" fill="#333"/>
-    <ellipse cx="16" cy="135" rx="13" ry="8" fill="#333"/>
-    
-    <!-- Arms (questioning gesture) -->
-    <path d="M -35 40 Q -55 20 -50 0" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
-    <circle cx="-50" cy="0" r="11" fill="#F9C6CF"/>
-    <path d="M 35 45 Q 50 60 45 80" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
-    <circle cx="45" cy="80" r="11" fill="#F9C6CF"/>
-    
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="50" ry="40" fill="#F9C6CF"/>
-    
-    <!-- Snout -->
-    <ellipse cx="45" cy="-50" rx="20" ry="15" fill="#F9C6CF"/>
-    <circle cx="52" cy="-54" r="4" fill="#FF69B4"/>
-    <circle cx="52" cy="-46" r="4" fill="#FF69B4"/>
-    
-    <!-- Ears -->
-    <ellipse cx="-15" cy="-85" rx="10" ry="20" fill="#F9C6CF"/>
-    <ellipse cx="15" cy="-85" rx="10" ry="20" fill="#F9C6CF"/>
-    
-    <!-- Eyes (questioning) -->
-    <ellipse cx="-8" cy="-55" rx="7" ry="9" fill="white"/>
-    <ellipse cx="12" cy="-55" rx="7" ry="9" fill="white"/>
-    <circle cx="-6" cy="-53" r="3" fill="#333"/>
-    <circle cx="14" cy="-53" r="3" fill="#333"/>
-    
-    <!-- Questioning expression -->
-    <path d="M -5 -30 Q 10 -25 25 -30" stroke="#333" stroke-width="3" fill="none"/>
+
+  <!-- Peppa offering ball (center) -->
+  <g transform="translate(195 275)" filter="url(#shadow)">
+    <!-- dress/body -->
+    <ellipse cx="0" cy="58" rx="54" ry="58" fill="#E63946"/>
+    <!-- legs -->
+    <rect x="-22" y="106" width="12" height="48" rx="6" fill="#F9C6CF"/>
+    <rect x="10" y="106" width="12" height="48" rx="6" fill="#F9C6CF"/>
+    <ellipse cx="-16" cy="158" rx="14" ry="8" fill="#333"/>
+    <ellipse cx="16" cy="158" rx="14" ry="8" fill="#333"/>
+
+    <!-- arms extended forward holding ball -->
+    <path d="M-46,48 Q-88,54 -102,78" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M46,48 Q88,54 102,78" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="-102" cy="78" r="9" fill="#F9C6CF"/>
+    <circle cx="102" cy="78" r="9" fill="#F9C6CF"/>
+    <circle cx="0" cy="86" r="22" fill="#E63946" stroke="#333" stroke-width="3"/>
+    <path d="M-10,78 Q0,70 10,78" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- head -->
+    <ellipse cx="0" cy="-12" rx="58" ry="44" fill="#F9C6CF"/>
+    <ellipse cx="52" cy="-12" rx="20" ry="15" fill="#F9C6CF"/>
+    <circle cx="60" cy="-16" r="4" fill="#FF69B4"/>
+    <circle cx="60" cy="-8" r="4" fill="#FF69B4"/>
+    <ellipse cx="-18" cy="-48" rx="11" ry="19" fill="#F9C6CF"/>
+    <ellipse cx="18" cy="-48" rx="11" ry="19" fill="#F9C6CF"/>
+    <ellipse cx="-12" cy="-20" rx="7" ry="9" fill="#FFFFFF"/>
+    <ellipse cx="14" cy="-20" rx="7" ry="9" fill="#FFFFFF"/>
+    <circle cx="-10" cy="-18" r="3.2" fill="#333"/>
+    <circle cx="16" cy="-18" r="3.2" fill="#333"/>
+    <!-- hopeful smile -->
+    <path d="M6,0 Q18,14 34,2" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="-30" cy="2" r="9" fill="#FF9DB0" opacity="0.55"/>
   </g>
-  
-  <!-- Friend (Suzy Sheep) -->
-  <g transform="translate(280, 300)">
-    <!-- Body (purple dress) -->
-    <ellipse cx="0" cy="40" rx="35" ry="40" fill="#9C27B0"/>
-    
-    <!-- Legs -->
-    <rect x="-18" y="70" width="10" height="40" rx="5" fill="#FFF8E1"/>
-    <rect x="8" y="70" width="10" height="40" rx="5" fill="#FFF8E1"/>
-    
-    <!-- Shoes -->
-    <ellipse cx="-13" cy="115" rx="12" ry="7" fill="#333"/>
-    <ellipse cx="13" cy="115" rx="12" ry="7" fill="#333"/>
-    
-    <!-- Arms (welcoming) -->
-    <path d="M -30 35 Q -45 15 -40 -5" stroke="#FFF8E1" stroke-width="14" stroke-linecap="round" fill="none"/>
-    <circle cx="-40" cy="-5" r="10" fill="#FFF8E1"/>
-    <path d="M 30 35 Q 45 15 40 -5" stroke="#FFF8E1" stroke-width="14" stroke-linecap="round" fill="none"/>
-    <circle cx="40" cy="-5" r="10" fill="#FFF8E1"/>
-    
-    <!-- Head (sheep - fluffy) -->
-    <ellipse cx="0" cy="-45" rx="40" ry="35" fill="#FFF8E1"/>
-    
-    <!-- Fluffy wool texture -->
-    <circle cx="-15" cy="-50" r="8" fill="#FFF8E1" opacity="0.8"/>
-    <circle cx="15" cy="-50" r="8" fill="#FFF8E1" opacity="0.8"/>
-    <circle cx="0" cy="-65" r="7" fill="#FFF8E1" opacity="0.8"/>
-    
-    <!-- Eyes -->
-    <ellipse cx="-8" cy="-50" rx="6" ry="8" fill="white"/>
-    <ellipse cx="8" cy="-50" rx="6" ry="8" fill="white"/>
-    <circle cx="-6" cy="-48" r="3" fill="#333"/>
-    <circle cx="10" cy="-48" r="3" fill="#333"/>
-    
-    <!-- Happy smile -->
-    <path d="M -5 -35 Q 5 -30 15 -35" stroke="#333" stroke-width="2" fill="none"/>
+
+  <!-- Suzy Sheep responding (right) -->
+  <g transform="translate(312 285)" filter="url(#shadow)">
+    <!-- body -->
+    <ellipse cx="0" cy="58" rx="44" ry="52" fill="#FFFFFF" stroke="#333" stroke-width="3"/>
+    <!-- legs -->
+    <rect x="-16" y="100" width="10" height="44" rx="5" fill="#F9C6CF"/>
+    <rect x="6" y="100" width="10" height="44" rx="5" fill="#F9C6CF"/>
+    <ellipse cx="-11" cy="148" rx="12" ry="7" fill="#333"/>
+    <ellipse cx="11" cy="148" rx="12" ry="7" fill="#333"/>
+    <!-- lifted hoof -->
+    <path d="M-28,52 Q-54,42 -50,18" stroke="#F9C6CF" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <circle cx="-50" cy="18" r="8" fill="#F9C6CF"/>
+    <!-- head -->
+    <ellipse cx="0" cy="-10" rx="42" ry="34" fill="#FFFFFF" stroke="#333" stroke-width="3"/>
+    <!-- snout (pink as per spec) -->
+    <ellipse cx="30" cy="-6" rx="16" ry="12" fill="#FF69B4" stroke="#333" stroke-width="2"/>
+    <circle cx="24" cy="-8" r="2.8" fill="#E75480"/>
+    <circle cx="34" cy="-4" r="2.8" fill="#E75480"/>
+    <!-- eyes surprised-happy -->
+    <ellipse cx="-10" cy="-16" rx="6" ry="8" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+    <ellipse cx="6" cy="-16" rx="6" ry="8" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+    <circle cx="-10" cy="-15" r="3" fill="#333"/>
+    <circle cx="6" cy="-15" r="3" fill="#333"/>
+    <path d="M-2,4 Q10,10 22,2" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
   </g>
-  
-  <!-- Question mark in thought bubble -->
-  <g transform="translate(120, 150)">
-    <!-- Bubble -->
-    <ellipse cx="0" cy="0" rx="50" ry="40" fill="white" stroke="#333" stroke-width="2"/>
-    <path d="M -20 30 Q 0 50 20 30 L 10 50 L -10 50 Z" fill="white" stroke="#333" stroke-width="2"/>
-    <!-- Question mark -->
-    <path d="M 0 -20 Q 0 -30 0 -30 L 0 -10 M 0 5 L 0 15" stroke="#333" stroke-width="4" fill="none" stroke-linecap="round"/>
-    <circle cx="0" cy="20" r="3" fill="#333"/>
-  </g>
-  
-  <!-- Signature -->
-  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Composer 1</text>
-  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.84">GPT 5.2</text>
 </svg>

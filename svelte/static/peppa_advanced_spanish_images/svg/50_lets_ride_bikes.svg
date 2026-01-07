@@ -1,35 +1,226 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <rect width="400" height="400" fill="#E0FFFF"/>
-  <rect x="0" y="300" width="400" height="100" fill="#7BC043"/> <!-- Grass -->
-  <rect x="0" y="320" width="400" height="20" fill="#808080"/> <!-- Road -->
+  <defs>
+    <linearGradient id="parkBg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#BBDEFB"/>
+    </linearGradient>
+  </defs>
   
-  <!-- Bike -->
-  <g transform="translate(150, 260)">
-    <circle cx="0" cy="50" r="25" stroke="#333" stroke-width="3" fill="none"/> <!-- Wheel 1 -->
-    <circle cx="100" cy="50" r="25" stroke="#333" stroke-width="3" fill="none"/> <!-- Wheel 2 -->
-    <path d="M 0 50 L 40 20 L 90 20 L 100 50" stroke="#E63946" stroke-width="4" fill="none"/> <!-- Frame -->
-    <path d="M 40 20 L 35 0" stroke="#333" stroke-width="3"/> <!-- Handlebars -->
-    <path d="M 90 20 L 90 10" stroke="#333" stroke-width="3"/> <!-- Seat post -->
-    <rect x="80" y="10" width="20" height="5" fill="#333"/> <!-- Seat -->
+  <!-- Background park -->
+  <rect width="400" height="400" fill="url(#parkBg2)"/>
+  
+  <!-- Sky with clouds -->
+  <g fill="white" opacity="0.8">
+    <circle cx="80" cy="60" r="20"/>
+    <circle cx="95" cy="55" r="25"/>
+    <circle cx="110" cy="60" r="20"/>
+    <circle cx="320" cy="70" r="18"/>
+    <circle cx="335" cy="65" r="22"/>
+    <circle cx="350" cy="70" r="18"/>
+  </g>
+  
+  <!-- Trees -->
+  <g transform="translate(100, 200)">
+    <!-- Tree trunk -->
+    <rect x="-8" y="0" width="16" height="80" fill="#8D6E63"/>
+    <!-- Tree top -->
+    <ellipse cx="0" cy="0" rx="40" ry="50" fill="#4CAF50"/>
+    <ellipse cx="-15" cy="-10" rx="25" ry="30" fill="#66BB6A"/>
+    <ellipse cx="15" cy="-10" rx="25" ry="30" fill="#66BB6A"/>
+  </g>
+  
+  <g transform="translate(300, 180)">
+    <!-- Tree trunk -->
+    <rect x="-8" y="0" width="16" height="90" fill="#8D6E63"/>
+    <!-- Tree top -->
+    <ellipse cx="0" cy="0" rx="45" ry="55" fill="#4CAF50"/>
+    <ellipse cx="-18" cy="-12" rx="28" ry="35" fill="#66BB6A"/>
+    <ellipse cx="18" cy="-12" rx="28" ry="35" fill="#66BB6A"/>
+  </g>
+  
+  <!-- Bike path -->
+  <path d="M 0 320 Q 100 300 200 320 Q 300 340 400 320" stroke="#9E9E9E" stroke-width="50" fill="none"/>
+  <path d="M 0 320 Q 100 300 200 320 Q 300 340 400 320" stroke="#FFD54F" stroke-width="5" fill="none"/>
+  
+  <!-- Grass -->
+  <ellipse cx="200" cy="400" rx="250" ry="60" fill="#7BC043"/>
+  
+  <!-- Peppa on bicycle (center) -->
+  <g transform="translate(200, 280)">
+    <!-- Bicycle -->
+    <g transform="translate(0, 40)">
+      <!-- Wheels -->
+      <circle cx="-30" cy="0" r="25" fill="none" stroke="#333" stroke-width="3"/>
+      <circle cx="30" cy="0" r="25" fill="none" stroke="#333" stroke-width="3"/>
+      <!-- Wheel spokes -->
+      <line x1="-30" y1="0" x2="-30" y2="0" stroke="#333" stroke-width="1"/>
+      <line x1="-30" y1="0" x2="-30" y2="0" stroke="#333" stroke-width="1" transform="rotate(90 -30 0)"/>
+      <line x1="30" y1="0" x2="30" y2="0" stroke="#333" stroke-width="1"/>
+      <line x1="30" y1="0" x2="30" y2="0" stroke="#333" stroke-width="1" transform="rotate(90 30 0)"/>
+      <!-- Frame -->
+      <path d="M -30 0 L 0 -30 L 25 -30 L 30 0" stroke="#E63946" stroke-width="4" fill="none"/>
+      <!-- Handlebars -->
+      <path d="M 0 -30 L -15 -40" stroke="#333" stroke-width="3"/>
+      <path d="M 0 -30 L 15 -40" stroke="#333" stroke-width="3"/>
+      <line x1="-15" y1="-40" x2="-20" y2="-40" stroke="#333" stroke-width="3"/>
+      <line x1="15" y1="-40" x2="20" y2="-40" stroke="#333" stroke-width="3"/>
+      <!-- Seat -->
+      <rect x="20" y="-35" width="12" height="6" rx="2" fill="#333"/>
+      <!-- Training wheels -->
+      <circle cx="-35" cy="5" r="8" fill="none" stroke="#333" stroke-width="2"/>
+      <circle cx="35" cy="5" r="8" fill="none" stroke="#333" stroke-width="2"/>
+      <!-- Pedals -->
+      <circle cx="0" cy="-10" r="5" fill="#333"/>
+    </g>
     
     <!-- Peppa on bike -->
-    <g transform="translate(70, -30)">
-       <ellipse cx="0" cy="30" rx="30" ry="35" fill="#E63946"/>
-       <ellipse cx="0" cy="-30" rx="40" ry="30" fill="#F9C6CF"/>
-       <ellipse cx="30" cy="-30" rx="15" ry="12" fill="#F9C6CF"/>
-       <circle cx="36" cy="-33" r="3" fill="#FF69B4"/>
-       <circle cx="36" cy="-27" r="3" fill="#FF69B4"/>
-       
-       <!-- Helmet -->
-       <path d="M -40 -30 Q 0 -70 40 -30 Z" fill="#FFD700"/>
-       
-       <circle cx="-5" cy="-35" r="3" fill="#333"/>
-       <circle cx="12" cy="-35" r="3" fill="#333"/>
-       
-       <!-- Arms holding handlebars -->
-       <path d="M 10 10 L -30 40" stroke="#F9C6CF" stroke-width="6"/>
+    <g transform="translate(0, -20)">
+      <!-- Body (red dress) -->
+      <ellipse cx="0" cy="50" rx="40" ry="45" fill="#E63946"/>
+      
+      <!-- Legs (on pedals) -->
+      <rect x="-20" y="85" width="10" height="40" rx="5" fill="#F9C6CF" transform="rotate(-20 -20 105)"/>
+      <rect x="10" y="85" width="10" height="40" rx="5" fill="#F9C6CF" transform="rotate(20 10 105)"/>
+      
+      <!-- Shoes -->
+      <ellipse cx="-25" cy="130" rx="12" ry="7" fill="#333" transform="rotate(-20)"/>
+      <ellipse cx="25" cy="130" rx="12" ry="7" fill="#333" transform="rotate(20)"/>
+      
+      <!-- Arms (gripping handlebars) -->
+      <path d="M -35 45 Q -40 25 -30 5" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
+      <circle cx="-30" cy="5" r="11" fill="#F9C6CF"/>
+      <path d="M 35 45 Q 40 25 30 5" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
+      <circle cx="30" cy="5" r="11" fill="#F9C6CF"/>
+      
+      <!-- Head -->
+      <ellipse cx="0" cy="-40" rx="50" ry="40" fill="#F9C6CF"/>
+      
+      <!-- Snout -->
+      <ellipse cx="45" cy="-40" rx="20" ry="15" fill="#F9C6CF"/>
+      <circle cx="52" cy="-45" r="4" fill="#FF69B4"/>
+      <circle cx="52" cy="-35" r="4" fill="#FF69B4"/>
+      
+      <!-- Ears -->
+      <ellipse cx="-15" cy="-75" rx="10" ry="20" fill="#F9C6CF"/>
+      <ellipse cx="15" cy="-75" rx="10" ry="20" fill="#F9C6CF"/>
+      
+      <!-- Eyes (excited, determined) -->
+      <ellipse cx="-8" cy="-45" rx="7" ry="9" fill="white"/>
+      <ellipse cx="12" cy="-45" rx="7" ry="9" fill="white"/>
+      <circle cx="-6" cy="-43" r="4" fill="#333"/>
+      <circle cx="14" cy="-43" r="4" fill="#333"/>
+      
+      <!-- Big excited smile -->
+      <path d="M -5 -25 Q 10 -15 25 -25" stroke="#333" stroke-width="3" fill="none"/>
+      
+      <!-- Blue helmet -->
+      <path d="M -40 -50 Q 0 -80 40 -50 Z" fill="#2196F3"/>
+      <path d="M -35 -50 Q 0 -75 35 -50" stroke="#1976D2" stroke-width="2" fill="none"/>
+      
+      <!-- Rosy cheeks -->
+      <circle cx="-18" cy="-30" r="10" fill="#FFB6C1" opacity="0.7"/>
+      <circle cx="28" cy="-30" r="10" fill="#FFB6C1" opacity="0.7"/>
     </g>
   </g>
   
-  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+  <!-- Daddy Pig (left, holding larger bike) -->
+  <g transform="translate(100, 300)">
+    <!-- Body (orange shirt) -->
+    <ellipse cx="0" cy="30" rx="38" ry="42" fill="#FF8A65"/>
+    
+    <!-- Legs -->
+    <rect x="-20" y="65" width="10" height="40" rx="5" fill="#F9C6CF"/>
+    <rect x="10" y="65" width="10" height="40" rx="5" fill="#F9C6CF"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="-15" cy="110" rx="12" ry="7" fill="#333"/>
+    <ellipse cx="15" cy="110" rx="12" ry="7" fill="#333"/>
+    
+    <!-- Arms (holding bike) -->
+    <path d="M -35 25 Q -45 10 -40 -5" stroke="#F9C6CF" stroke-width="15" stroke-linecap="round" fill="none"/>
+    <circle cx="-40" cy="-5" r="10" fill="#F9C6CF"/>
+    <path d="M 35 30 Q 45 50 40 70" stroke="#F9C6CF" stroke-width="15" stroke-linecap="round" fill="none"/>
+    <circle cx="40" cy="70" r="10" fill="#F9C6CF"/>
+    
+    <!-- Larger bicycle -->
+    <g transform="translate(-50, -10)">
+      <circle cx="0" cy="0" r="30" fill="none" stroke="#333" stroke-width="3"/>
+      <circle cx="60" cy="0" r="30" fill="none" stroke="#333" stroke-width="3"/>
+      <path d="M 0 0 L 30 -25 L 55 -25 L 60 0" stroke="#8D6E63" stroke-width="4" fill="none"/>
+    </g>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-28" rx="40" ry="35" fill="#FFAB91"/>
+    
+    <!-- Snout -->
+    <ellipse cx="-30" cy="-28" rx="14" ry="11" fill="#FFAB91"/>
+    <circle cx="-35" cy="-30" r="2.5" fill="#FF69B4"/>
+    <circle cx="-35" cy="-26" r="2.5" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-12" cy="-60" rx="9" ry="14" fill="#FFAB91"/>
+    <ellipse cx="12" cy="-60" rx="9" ry="14" fill="#FFAB91"/>
+    
+    <!-- Eyes (big smile) -->
+    <ellipse cx="-10" cy="-33" rx="6" ry="8" fill="white"/>
+    <ellipse cx="5" cy="-33" rx="6" ry="8" fill="white"/>
+    <circle cx="-8" cy="-32" r="3" fill="#333"/>
+    <circle cx="7" cy="-32" r="3" fill="#333"/>
+    
+    <!-- Big smile -->
+    <path d="M -10 -18 Q 0 -13 10 -18" stroke="#333" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- George on tricycle (right) -->
+  <g transform="translate(320, 300)">
+    <!-- Tricycle -->
+    <g transform="translate(0, 20)">
+      <!-- Wheels -->
+      <circle cx="-20" cy="0" r="15" fill="none" stroke="#333" stroke-width="2"/>
+      <circle cx="0" cy="0" r="15" fill="none" stroke="#333" stroke-width="2"/>
+      <circle cx="20" cy="0" r="15" fill="none" stroke="#333" stroke-width="2"/>
+      <!-- Frame -->
+      <path d="M -20 0 L 0 -20 L 20 0" stroke="#6B9BD2" stroke-width="3" fill="none"/>
+      <!-- Handlebars -->
+      <path d="M 0 -20 L -10 -30" stroke="#333" stroke-width="2"/>
+      <path d="M 0 -20 L 10 -30" stroke="#333" stroke-width="2"/>
+    </g>
+    
+    <!-- George on tricycle -->
+    <g transform="translate(0, -10)">
+      <!-- Body (blue shirt) -->
+      <ellipse cx="0" cy="25" rx="25" ry="28" fill="#6B9BD2"/>
+      
+      <!-- Legs -->
+      <rect x="-12" y="50" width="6" height="30" rx="3" fill="#F9C6CF"/>
+      <rect x="6" y="50" width="6" height="30" rx="3" fill="#F9C6CF"/>
+      
+      <!-- Head -->
+      <ellipse cx="0" cy="-20" rx="28" ry="25" fill="#F9C6CF"/>
+      
+      <!-- Snout -->
+      <ellipse cx="20" cy="-20" rx="10" ry="8" fill="#F9C6CF"/>
+      <circle cx="23" cy="-22" r="2" fill="#FF69B4"/>
+      <circle cx="23" cy="-18" r="2" fill="#FF69B4"/>
+      
+      <!-- Ears -->
+      <ellipse cx="-8" cy="-42" rx="6" ry="10" fill="#F9C6CF"/>
+      <ellipse cx="8" cy="-42" rx="6" ry="10" fill="#F9C6CF"/>
+      
+      <!-- Eyes (excited) -->
+      <ellipse cx="-4" cy="-24" rx="4" ry="6" fill="white"/>
+      <ellipse cx="6" cy="-24" rx="4" ry="6" fill="white"/>
+      <circle cx="-3" cy="-23" r="2" fill="#333"/>
+      <circle cx="7" cy="-23" r="2" fill="#333"/>
+      
+      <!-- Excited smile -->
+      <path d="M -3 -12 Q 0 -8 3 -12" stroke="#333" stroke-width="2" fill="none"/>
+      
+      <!-- Blue helmet -->
+      <path d="M -25 -30 Q 0 -50 25 -30 Z" fill="#2196F3"/>
+    </g>
+  </g>
+  
+  <!-- Signature -->
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Composer 1</text>
 </svg>

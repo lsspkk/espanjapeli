@@ -1,23 +1,165 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <rect width="400" height="400" fill="#FFF9C4"/>
-  <ellipse cx="200" cy="380" rx="220" ry="60" fill="#7BC043"/>
-    <g transform="translate(200, 250)">
-    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
-    <rect x="-20" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
-    <rect x="10" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
-    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
-    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
-    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
-    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
-    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <ellipse cx="-5" cy="-35" rx="6" ry="8" fill="white"/>
-    <ellipse cx="12" cy="-35" rx="6" ry="8" fill="white"/>
-    <circle cx="-4" cy="-34" r="3" fill="#333"/>
-    <circle cx="13" cy="-34" r="3" fill="#333"/>
-    <path d="M -5 -18 Q 10 -8 25 -18" stroke="#333" stroke-width="3" fill="none"/>
-  </g>
-  <ellipse cx="200" cy="120" rx="50" ry="50" fill="#FFD700" opacity="0.5"/>
-  <text x="200" y="130" text-anchor="middle" font-family="Arial" font-size="48" fill="#FF8C00" font-weight="bold">YO</text>
-  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#5B6470" opacity="0.7">composer 1</text>
+<svg viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF9C4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFECB3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background - classroom wall -->
+  <rect width="400" height="400" fill="url(#wallGrad)"/>
+  
+  <!-- Window -->
+  <rect x="290" y="50" width="80" height="90" fill="#87CEEB" stroke="#8D6E63" stroke-width="3"/>
+  <line x1="330" y1="50" x2="330" y2="140" stroke="#8D6E63" stroke-width="3"/>
+  <line x1="290" y1="95" x2="370" y2="95" stroke="#8D6E63" stroke-width="3"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="320" width="400" height="80" fill="#D7CCC8"/>
+  
+  <!-- Alphabet chart on wall -->
+  <rect x="50" y="60" width="60" height="50" fill="#FFFFFF" stroke="#757575" stroke-width="2"/>
+  <!-- Letters on chart -->
+  <text x="80" y="85" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#E53935">ABC</text>
+  <text x="75" y="105" font-family="Arial, sans-serif" font-size="14" fill="#1976D2">DEF</text>
+  
+  <!-- Small desks/cushions (sitting area) -->
+  <ellipse cx="200" cy="315" rx="50" ry="15" fill="#FF9800" opacity="0.4"/>
+  <ellipse cx="280" cy="320" rx="45" ry="12" fill="#4CAF50" opacity="0.4"/>
+  <ellipse cx="320" cy="325" rx="40" ry="10" fill="#2196F3" opacity="0.4"/>
+  
+  <!-- Madame Gazelle (left side, holding book) -->
+  <!-- Legs -->
+  <ellipse cx="80" cy="290" rx="6" ry="16" fill="#F9C6CF"/>
+  <ellipse cx="94" cy="290" rx="6" ry="16" fill="#F9C6CF"/>
+  <!-- Feet -->
+  <ellipse cx="80" cy="304" rx="8" ry="5" fill="#000000"/>
+  <ellipse cx="94" cy="304" rx="8" ry="5" fill="#000000"/>
+  <!-- Dress -->
+  <ellipse cx="87" cy="255" rx="25" ry="35" fill="#9C27B0"/>
+  <!-- Head -->
+  <ellipse cx="87" cy="210" rx="22" ry="28" fill="#FFF8E1"/>
+  <!-- Snout -->
+  <ellipse cx="100" cy="218" rx="12" ry="9" fill="#FFE0B2"/>
+  <ellipse cx="98" cy="216" rx="2.5" ry="3.5" fill="#E91E63"/>
+  <ellipse cx="102" cy="216" rx="2.5" ry="3.5" fill="#E91E63"/>
+  <!-- Eyes -->
+  <circle cx="80" cy="203" r="3.5" fill="#000000"/>
+  <circle cx="81" cy="202" r="1.2" fill="#FFFFFF"/>
+  <circle cx="92" cy="203" r="3.5" fill="#000000"/>
+  <circle cx="93" cy="202" r="1.2" fill="#FFFFFF"/>
+  <!-- Smile -->
+  <path d="M 82 226 Q 87 230 92 226" stroke="#000000" stroke-width="1.5" fill="none"/>
+  <!-- Ears -->
+  <ellipse cx="70" cy="205" rx="6" ry="10" fill="#FFF8E1"/>
+  <ellipse cx="104" cy="205" rx="6" ry="10" fill="#FFF8E1"/>
+  <!-- Arms holding book -->
+  <ellipse cx="110" cy="245" rx="6" ry="18" fill="#F9C6CF"/>
+  <!-- Book (colorful picture book) -->
+  <rect x="105" y="230" width="35" height="28" fill="#FF5722" rx="2"/>
+  <rect x="107" y="232" width="31" height="24" fill="#FFF9C4"/>
+  <!-- Simple picture on book page -->
+  <circle cx="115" cy="242" r="5" fill="#FFEB3B"/>
+  <rect x="125" y="237" width="8" height="10" fill="#2196F3"/>
+  
+  <!-- Peppa (center front, hand raised HIGH, very eager) -->
+  <!-- Legs (sitting/bouncing) -->
+  <ellipse cx="190" cy="305" rx="6" ry="13" fill="#E63946"/>
+  <ellipse cx="205" cy="305" rx="6" ry="13" fill="#E63946"/>
+  <!-- Feet -->
+  <ellipse cx="190" cy="316" rx="8" ry="5" fill="#000000"/>
+  <ellipse cx="205" cy="316" rx="8" ry="5" fill="#000000"/>
+  <!-- Dress body -->
+  <ellipse cx="198" cy="275" rx="24" ry="30" fill="#E63946"/>
+  <!-- Head -->
+  <circle cx="198" cy="235" r="30" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="213" cy="240" rx="15" ry="12" fill="#FF69B4"/>
+  <ellipse cx="210" cy="238" rx="3.5" ry="5" fill="#E91E63"/>
+  <ellipse cx="216" cy="238" rx="3.5" ry="5" fill="#E91E63"/>
+  <!-- Eyes (extremely eager) -->
+  <circle cx="188" cy="225" r="5" fill="#000000"/>
+  <circle cx="189" cy="224" r="2" fill="#FFFFFF"/>
+  <circle cx="203" cy="225" r="5" fill="#000000"/>
+  <circle cx="204" cy="224" r="2" fill="#FFFFFF"/>
+  <!-- Mouth open calling out -->
+  <ellipse cx="198" cy="252" rx="6" ry="8" fill="#000000" opacity="0.8"/>
+  <!-- Ear -->
+  <ellipse cx="178" cy="220" rx="8" ry="12" fill="#F9C6CF"/>
+  <!-- Right arm STRETCHED HIGH -->
+  <ellipse cx="205" cy="225" rx="7" ry="30" fill="#F9C6CF" transform="rotate(-75 205 225)"/>
+  <ellipse cx="210" cy="190" rx="8" ry="9" fill="#F9C6CF"/>
+  <!-- Hand raised high -->
+  <ellipse cx="212" cy="175" rx="7" ry="10" fill="#F9C6CF" transform="rotate(10 212 175)"/>
+  <!-- Left arm also raised for emphasis -->
+  <ellipse cx="185" cy="235" rx="6" ry="20" fill="#F9C6CF" transform="rotate(-60 185 235)"/>
+  
+  <!-- Motion lines showing bouncing energy -->
+  <path d="M 185 290 L 187 295" stroke="#E63946" stroke-width="2" opacity="0.4"/>
+  <path d="M 210 290 L 208 295" stroke="#E63946" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Suzy Sheep (right side, sitting calmly) -->
+  <!-- Legs -->
+  <ellipse cx="285" cy="312" rx="5" ry="12" fill="#FFFFFF"/>
+  <ellipse cx="298" cy="312" rx="5" ry="12" fill="#FFFFFF"/>
+  <!-- Feet -->
+  <ellipse cx="285" cy="322" rx="7" ry="4" fill="#000000"/>
+  <ellipse cx="298" cy="322" rx="7" ry="4" fill="#000000"/>
+  <!-- Body -->
+  <ellipse cx="291" cy="285" rx="18" ry="25" fill="#FFFFFF"/>
+  <!-- Fluffy texture -->
+  <circle cx="281" cy="280" r="7" fill="#F5F5F5" opacity="0.8"/>
+  <circle cx="301" cy="280" r="7" fill="#F5F5F5" opacity="0.8"/>
+  <!-- Head -->
+  <ellipse cx="291" cy="258" rx="16" ry="20" fill="#FFFFFF"/>
+  <circle cx="281" cy="253" r="6" fill="#F5F5F5" opacity="0.8"/>
+  <circle cx="301" cy="253" r="6" fill="#F5F5F5" opacity="0.8"/>
+  <!-- Snout -->
+  <ellipse cx="299" cy="263" rx="9" ry="7" fill="#FFD6E8"/>
+  <ellipse cx="297" cy="261" rx="2" ry="3" fill="#FF69B4"/>
+  <ellipse cx="301" cy="261" rx="2" ry="3" fill="#FF69B4"/>
+  <!-- Eyes -->
+  <circle cx="285" cy="252" r="2.5" fill="#000000"/>
+  <circle cx="286" cy="251" r="0.8" fill="#FFFFFF"/>
+  <circle cx="295" cy="252" r="2.5" fill="#000000"/>
+  <circle cx="296" cy="251" r="0.8" fill="#FFFFFF"/>
+  <!-- Small smile -->
+  <path d="M 289 268 Q 291 270 293 268" stroke="#000000" stroke-width="1.2" fill="none"/>
+  <!-- Ears -->
+  <ellipse cx="279" cy="250" rx="4" ry="8" fill="#FFFFFF"/>
+  <ellipse cx="303" cy="250" rx="4" ry="8" fill="#FFFFFF"/>
+  <!-- Arms resting -->
+  <ellipse cx="274" cy="285" rx="4" ry="12" fill="#FFFFFF"/>
+  <ellipse cx="308" cy="285" rx="4" ry="12" fill="#FFFFFF"/>
+  
+  <!-- Danny Dog (far right, also sitting calmly) -->
+  <!-- Legs -->
+  <ellipse cx="325" cy="316" rx="5" ry="11" fill="#FFB74D"/>
+  <ellipse cx="337" cy="316" rx="5" ry="11" fill="#FFB74D"/>
+  <!-- Feet -->
+  <ellipse cx="325" cy="325" rx="7" ry="4" fill="#000000"/>
+  <ellipse cx="337" cy="325" rx="7" ry="4" fill="#000000"/>
+  <!-- Body -->
+  <ellipse cx="331" cy="290" rx="17" ry="24" fill="#FFB74D"/>
+  <!-- Head -->
+  <circle cx="331" cy="262" r="18" fill="#FFB74D"/>
+  <!-- Snout -->
+  <ellipse cx="340" cy="267" rx="10" ry="8" fill="#FF8A65"/>
+  <ellipse cx="338" cy="265" rx="2.3" ry="3.2" fill="#424242"/>
+  <ellipse cx="342" cy="265" rx="2.3" ry="3.2" fill="#424242"/>
+  <!-- Eyes -->
+  <circle cx="324" cy="256" r="2.8" fill="#000000"/>
+  <circle cx="325" cy="255" r="1" fill="#FFFFFF"/>
+  <circle cx="335" cy="256" r="2.8" fill="#000000"/>
+  <circle cx="336" cy="255" r="1" fill="#FFFFFF"/>
+  <!-- Smile -->
+  <path d="M 328 272 Q 331 274 334 272" stroke="#000000" stroke-width="1.2" fill="none"/>
+  <!-- Ears (floppy) -->
+  <ellipse cx="318" cy="258" rx="5" ry="11" fill="#FF8A65" transform="rotate(-20 318 258)"/>
+  <ellipse cx="344" cy="258" rx="5" ry="11" fill="#FF8A65" transform="rotate(20 344 258)"/>
+  <!-- Arms -->
+  <ellipse cx="316" cy="290" rx="4" ry="12" fill="#FFB74D"/>
+  <ellipse cx="346" cy="290" rx="4" ry="12" fill="#FFB74D"/>
+  
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Claude Sonnet 4.5</text>
 </svg>

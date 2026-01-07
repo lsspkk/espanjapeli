@@ -1,34 +1,125 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <rect width="400" height="400" fill="#E6E6FA"/>
+  <defs>
+    <linearGradient id="livingRoomBg3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+  </defs>
   
-  <!-- Mummy Pig comforting Peppa -->
+  <!-- Background living room -->
+  <rect width="400" height="400" fill="url(#livingRoomBg3)"/>
   
-  <!-- Mummy Pig -->
-  <g transform="translate(150, 250) scale(1.2)">
-    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#F6D55C"/> <!-- Yellow Dress -->
-    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
-    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
-    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
-    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
-    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <circle cx="-5" cy="-35" r="3" fill="#333"/>
-    <circle cx="12" cy="-35" r="3" fill="#333"/>
+  <!-- Window -->
+  <rect x="50" y="50" width="100" height="120" rx="5" fill="#8D6E63"/>
+  <rect x="55" y="55" width="90" height="110" fill="#E3F2FD"/>
+  <!-- Window frame -->
+  <line x1="100" y1="55" x2="100" y2="165" stroke="#8D6E63" stroke-width="3"/>
+  <line x1="55" y1="110" x2="145" y2="110" stroke="#8D6E63" stroke-width="3"/>
+  
+  <!-- Sofa in background -->
+  <g transform="translate(320, 200)">
+    <!-- Sofa back -->
+    <rect x="-50" y="-40" width="100" height="40" rx="5" fill="#9C27B0"/>
+    <!-- Sofa seat -->
+    <rect x="-50" y="0" width="100" height="30" rx="5" fill="#BA68C8"/>
+  </g>
+  
+  <!-- Carpet -->
+  <ellipse cx="200" cy="350" rx="180" ry="40" fill="#A1887F"/>
+  
+  <!-- Broken toy/torn picture on floor -->
+  <g transform="translate(280, 320)">
+    <!-- Broken toy -->
+    <rect x="0" y="0" width="25" height="15" rx="2" fill="#FF6B6B"/>
+    <!-- Crack line -->
+    <line x1="12.5" y1="0" x2="12.5" y2="15" stroke="#333" stroke-width="2"/>
+  </g>
+  
+  <!-- George sitting worried (foreground) -->
+  <g transform="translate(280, 300)">
+    <!-- Body (blue shirt) -->
+    <ellipse cx="0" cy="25" rx="28" ry="32" fill="#6B9BD2"/>
     
-    <!-- Arm around Peppa -->
-    <path d="M 30 10 Q 50 10 70 30" stroke="#F9C6CF" stroke-width="6" fill="none"/>
+    <!-- Legs (sitting) -->
+    <rect x="-14" y="50" width="7" height="30" rx="3" fill="#F9C6CF"/>
+    <rect x="7" y="50" width="7" height="30" rx="3" fill="#F9C6CF"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-20" rx="32" ry="28" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="24" cy="-20" rx="12" ry="10" fill="#F9C6CF"/>
+    <circle cx="27" cy="-22" r="2.5" fill="#FF69B4"/>
+    <circle cx="27" cy="-18" r="2.5" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-10" cy="-48" rx="7" ry="12" fill="#F9C6CF"/>
+    <ellipse cx="10" cy="-48" rx="7" ry="12" fill="#F9C6CF"/>
+    
+    <!-- Eyes (worried, uncertain) -->
+    <ellipse cx="-4" cy="-24" rx="5" ry="7" fill="white"/>
+    <ellipse cx="8" cy="-24" rx="5" ry="7" fill="white"/>
+    <circle cx="-3" cy="-22" r="2.5" fill="#333"/>
+    <circle cx="9" cy="-22" r="2.5" fill="#333"/>
+    
+    <!-- Eyebrows (worried) -->
+    <path d="M -8 -30 Q -4 -32 0 -30" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M 0 -30 Q 4 -32 8 -30" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <!-- Mouth (turned down slightly) -->
+    <path d="M -4 -12 Q 0 -15 4 -12" stroke="#333" stroke-width="2" fill="none"/>
+    
+    <!-- Holding Mr. Dinosaur close -->
+    <g transform="translate(-15, 10)">
+      <ellipse cx="0" cy="0" rx="10" ry="15" fill="#4CAF50"/>
+      <ellipse cx="0" cy="-8" rx="6" ry="8" fill="#66BB6A"/>
+      <!-- Dinosaur spikes -->
+      <path d="M -6 -15 L 0 -25 L 6 -15" fill="#2E7D32"/>
+      <!-- Eyes -->
+      <circle cx="-3" cy="-10" r="1.5" fill="#333"/>
+      <circle cx="3" cy="-10" r="1.5" fill="#333"/>
+    </g>
   </g>
   
-  <!-- Peppa (Small) -->
-  <g transform="translate(250, 280) scale(0.8)">
-    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
-    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
-    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
-    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
-    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
-    <circle cx="-5" cy="-35" r="3" fill="#333"/>
-    <circle cx="12" cy="-35" r="3" fill="#333"/>
+  <!-- Mummy Pig kneeling, comforting (center-left) -->
+  <g transform="translate(150, 280)">
+    <!-- Body (orange dress) -->
+    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#FF8A65"/>
+    
+    <!-- Legs (kneeling) -->
+    <rect x="-18" y="60" width="9" height="30" rx="4" fill="#F9C6CF"/>
+    <rect x="9" y="60" width="9" height="30" rx="4" fill="#F9C6CF"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-30" rx="38" ry="32" fill="#FFAB91"/>
+    
+    <!-- Snout -->
+    <ellipse cx="28" cy="-30" rx="14" ry="11" fill="#FFAB91"/>
+    <circle cx="32" cy="-32" r="2.5" fill="#FF69B4"/>
+    <circle cx="32" cy="-28" r="2.5" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-12" cy="-58" rx="9" ry="14" fill="#FFAB91"/>
+    <ellipse cx="12" cy="-58" rx="9" ry="14" fill="#FFAB91"/>
+    
+    <!-- Eyes (warm, reassuring) -->
+    <ellipse cx="-5" cy="-35" rx="6" ry="8" fill="white"/>
+    <ellipse cx="8" cy="-35" rx="6" ry="8" fill="white"/>
+    <circle cx="-4" cy="-34" r="3" fill="#333"/>
+    <circle cx="9" cy="-34" r="3" fill="#333"/>
+    
+    <!-- Warm, reassuring smile -->
+    <path d="M -5 -20 Q 0 -15 5 -20" stroke="#333" stroke-width="2" fill="none"/>
+    
+    <!-- Left arm patting George's shoulder -->
+    <path d="M -30 25 Q -40 10 -35 -5 Q -30 -15 -20 -10" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="-20" cy="-10" r="10" fill="#F9C6CF"/>
+    
+    <!-- Right arm (gentle "it's okay" gesture) -->
+    <path d="M 30 30 Q 45 50 50 70" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="50" cy="70" r="10" fill="#F9C6CF"/>
   </g>
   
-  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+  <!-- Signature -->
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Composer 1</text>
 </svg>

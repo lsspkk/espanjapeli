@@ -1,102 +1,189 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <!-- Background: Warm kitchen -->
   <defs>
-    <linearGradient id="kitchenBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFF3E0"/>
-      <stop offset="100%" stop-color="#FFE0B2"/>
+    <linearGradient id="kitchenBg10" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6E6"/>
+      <stop offset="60%" stop-color="#FFE7C8"/>
+      <stop offset="100%" stop-color="#FFFDF8"/>
     </linearGradient>
+    <linearGradient id="counter10" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C7A07E"/>
+      <stop offset="100%" stop-color="#9C6E4D"/>
+    </linearGradient>
+    <linearGradient id="windowSky10" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#CFEFFF"/>
+      <stop offset="100%" stop-color="#A8D9FF"/>
+    </linearGradient>
+    <filter id="shadow10" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#223" flood-opacity="0.22"/>
+    </filter>
+    <filter id="steam10" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
   </defs>
-  <rect width="400" height="400" fill="url(#kitchenBg)"/>
-  
-  <!-- Table -->
-  <rect x="50" y="280" width="300" height="20" rx="5" fill="#8D6E63"/>
-  <rect x="80" y="300" width="20" height="60" fill="#6D4C41"/>
-  <rect x="300" y="300" width="20" height="60" fill="#6D4C41"/>
-  
-  <!-- Plate with food -->
-  <g transform="translate(200, 250)">
-    <!-- Plate -->
-    <ellipse cx="0" cy="0" rx="60" ry="15" fill="#E0E0E0"/>
-    <ellipse cx="0" cy="0" rx="55" ry="12" fill="white"/>
-    
-    <!-- Food (spaghetti/pasta) -->
-    <g stroke="#FF8A65" stroke-width="3" stroke-linecap="round">
-      <path d="M -40 -5 Q -20 5 0 -5 Q 20 5 40 -5"/>
-      <path d="M -40 0 Q -20 10 0 0 Q 20 10 40 0"/>
-      <path d="M -40 5 Q -20 15 0 5 Q 20 15 40 5"/>
-    </g>
-    
-    <!-- Fork -->
-    <g transform="translate(-80, -20)">
-      <rect x="-2" y="0" width="4" height="40" fill="#B0BEC5"/>
-      <path d="M -2 0 L -8 -5 L -2 -8 L 2 -8 L 8 -5 L 2 0 Z" fill="#B0BEC5"/>
-    </g>
-    
-    <!-- Spoon -->
-    <g transform="translate(80, -15)">
-      <rect x="-2" y="0" width="4" height="35" fill="#B0BEC5"/>
-      <ellipse cx="0" cy="-5" rx="8" ry="6" fill="#B0BEC5"/>
-    </g>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#kitchenBg10)"/>
+
+  <!-- Simple window with daylight -->
+  <g transform="translate(35 55)" filter="url(#shadow10)">
+    <rect x="0" y="0" width="110" height="120" rx="10" fill="#8D6E63" stroke="#2B2B2B" stroke-width="3"/>
+    <rect x="10" y="10" width="90" height="100" rx="8" fill="url(#windowSky10)" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="55" y1="10" x2="55" y2="110" stroke="#8D6E63" stroke-width="5"/>
+    <line x1="10" y1="60" x2="100" y2="60" stroke="#8D6E63" stroke-width="5"/>
   </g>
-  
+
   <!-- Clock showing mealtime -->
-  <g transform="translate(320, 100)">
-    <circle cx="0" cy="0" r="35" fill="white" stroke="#333" stroke-width="3"/>
-    <circle cx="0" cy="0" r="3" fill="#333"/>
-    <!-- Clock hands showing ~12:00 (lunchtime) -->
-    <line x1="0" y1="0" x2="0" y2="-25" stroke="#333" stroke-width="3"/>
-    <line x1="0" y1="0" x2="20" y2="0" stroke="#333" stroke-width="4"/>
+  <g transform="translate(320 90)" filter="url(#shadow10)">
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="3"/>
+    <circle cx="0" cy="0" r="3.2" fill="#2B2B2B" stroke="none"/>
+    <line x1="0" y1="0" x2="0" y2="-22" stroke="#2B2B2B" stroke-width="4" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="0" y2="0" stroke="#2B2B2B" stroke-width="4" stroke-linecap="round"/>
+    <g stroke="#2B2B2B" stroke-width="2" opacity="0.5">
+      <line x1="0" y1="-30" x2="0" y2="-26"/>
+      <line x1="0" y1="30" x2="0" y2="26"/>
+      <line x1="-30" y1="0" x2="-26" y2="0"/>
+      <line x1="30" y1="0" x2="26" y2="0"/>
+    </g>
   </g>
-  
-  <!-- Peppa at table -->
-  <g transform="translate(200, 220)">
-    <!-- Body (red dress) -->
-    <ellipse cx="0" cy="50" rx="45" ry="50" fill="#E63946"/>
-    
-    <!-- Legs (sitting) -->
-    <rect x="-25" y="90" width="12" height="30" rx="6" fill="#F9C6CF"/>
-    <rect x="13" y="90" width="12" height="30" rx="6" fill="#F9C6CF"/>
-    
-    <!-- Arms reaching for food -->
-    <path d="M -40 40 Q -60 20 -50 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="-50" cy="0" r="12" fill="#F9C6CF"/>
-    <path d="M 40 40 Q 60 20 50 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="50" cy="0" r="12" fill="#F9C6CF"/>
-    
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
-    
-    <!-- Snout -->
-    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
-    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
-    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
-    
-    <!-- Ears -->
-    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    
-    <!-- Eyes (excited about food) -->
-    <ellipse cx="-10" cy="-55" rx="8" ry="10" fill="white"/>
-    <ellipse cx="15" cy="-55" rx="8" ry="10" fill="white"/>
-    <circle cx="-8" cy="-53" r="4" fill="#333"/>
-    <circle cx="17" cy="-53" r="4" fill="#333"/>
-    
-    <!-- Happy smile -->
-    <path d="M -5 -30 Q 10 -20 25 -30" stroke="#333" stroke-width="3" fill="none"/>
-    
-    <!-- Rosy cheeks -->
-    <circle cx="-20" cy="-35" r="10" fill="#FFB6C1" opacity="0.6"/>
-    <circle cx="30" cy="-35" r="10" fill="#FFB6C1" opacity="0.6"/>
+
+  <!-- Table -->
+  <g filter="url(#shadow10)">
+    <rect x="40" y="260" width="320" height="22" rx="8" fill="url(#counter10)" stroke="#2B2B2B" stroke-width="3"/>
+    <rect x="70" y="282" width="22" height="80" rx="8" fill="#7A543A" stroke="#2B2B2B" stroke-width="3"/>
+    <rect x="308" y="282" width="22" height="80" rx="8" fill="#7A543A" stroke="#2B2B2B" stroke-width="3"/>
   </g>
-  
-  <!-- Steam from food -->
-  <g stroke="#E0E0E0" stroke-width="3" stroke-linecap="round" opacity="0.6">
-    <path d="M 160 230 Q 155 220 160 210"/>
-    <path d="M 200 225 Q 195 215 200 205"/>
-    <path d="M 240 230 Q 245 220 240 210"/>
+
+  <!-- Tableware: plate, bowl, glass -->
+  <g transform="translate(180 255)" filter="url(#shadow10)">
+    <ellipse cx="0" cy="0" rx="62" ry="16" fill="#E0E0E0" stroke="#2B2B2B" stroke-width="3"/>
+    <ellipse cx="0" cy="-2" rx="52" ry="12" fill="#FFFFFF" stroke="none"/>
+    <g transform="translate(90 -2)">
+      <ellipse cx="0" cy="2" rx="22" ry="10" fill="#E0E0E0" stroke="#2B2B2B" stroke-width="3"/>
+      <ellipse cx="0" cy="0" rx="18" ry="7" fill="#FFFFFF" stroke="none"/>
+    </g>
+    <g transform="translate(132 -18)">
+      <rect x="-10" y="0" width="20" height="30" rx="6" fill="#B3E5FC" opacity="0.85" stroke="#2B2B2B" stroke-width="3"/>
+      <rect x="-7" y="4" width="14" height="22" rx="5" fill="#E1F5FE" opacity="0.85" stroke="none"/>
+    </g>
   </g>
-  
+
+  <!-- Characters -->
+  <g stroke="#2B2B2B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow10)">
+    <!-- Mummy Pig behind table holding serving dish -->
+    <g transform="translate(205 170)">
+      <!-- Body (orange) -->
+      <ellipse cx="0" cy="75" rx="58" ry="62" fill="#FF8A65"/>
+      <!-- Arms holding dish -->
+      <path d="M -40 72 Q -68 80 -80 98" fill="none" stroke="#F9C6CF" stroke-width="18"/>
+      <circle cx="-82" cy="100" r="10.5" fill="#F9C6CF" stroke="none"/>
+      <path d="M 40 72 Q 68 80 80 98" fill="none" stroke="#F9C6CF" stroke-width="18"/>
+      <circle cx="82" cy="100" r="10.5" fill="#F9C6CF" stroke="none"/>
+
+      <!-- Head (lighter peach) -->
+      <ellipse cx="0" cy="10" rx="62" ry="50" fill="#FFAB91"/>
+      <ellipse cx="52" cy="10" rx="26" ry="18" fill="#FFAB91"/>
+      <circle cx="60" cy="5" r="4.2" fill="#FF69B4" stroke="none"/>
+      <circle cx="60" cy="15" r="4.2" fill="#FF69B4" stroke="none"/>
+      <ellipse cx="-18" cy="-34" rx="12" ry="22" fill="#FFAB91"/>
+      <ellipse cx="18" cy="-34" rx="12" ry="22" fill="#FFAB91"/>
+
+      <!-- Eyes and smile -->
+      <circle cx="-16" cy="-2" r="6.5" fill="#FFFFFF" stroke="none"/>
+      <circle cx="8" cy="-2" r="6.5" fill="#FFFFFF" stroke="none"/>
+      <circle cx="-16" cy="-2" r="3.2" fill="#2B2B2B" stroke="none"/>
+      <circle cx="8" cy="-2" r="3.2" fill="#2B2B2B" stroke="none"/>
+      <path d="M -10 18 Q 0 28 10 18" fill="none"/>
+
+      <!-- Serving dish -->
+      <g transform="translate(0 120)">
+        <ellipse cx="0" cy="8" rx="70" ry="18" fill="#DADFE6" stroke="#2B2B2B" stroke-width="3"/>
+        <ellipse cx="0" cy="6" rx="58" ry="12" fill="#FFFFFF" opacity="0.9" stroke="none"/>
+        <!-- Lid slightly lifted -->
+        <g transform="translate(10 -18) rotate(-10)">
+          <ellipse cx="0" cy="10" rx="60" ry="16" fill="#C7CED8" stroke="#2B2B2B" stroke-width="3"/>
+          <ellipse cx="0" cy="8" rx="48" ry="11" fill="#EFF3F7" stroke="none" opacity="0.85"/>
+          <circle cx="0" cy="-2" r="6" fill="#FFD54F" stroke="#2B2B2B" stroke-width="3"/>
+        </g>
+      </g>
+
+      <!-- Steam curls -->
+      <g transform="translate(10 90)" opacity="0.8" filter="url(#steam10)" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round">
+        <path d="M -35 40 C -50 20 -25 15 -40 -5"/>
+        <path d="M 0 40 C -15 20 10 15 -5 -5"/>
+        <path d="M 35 40 C 20 20 45 15 30 -5"/>
+      </g>
+    </g>
+
+    <!-- Peppa eager with fork (front, center-left) -->
+    <g transform="translate(150 250)">
+      <ellipse cx="0" cy="55" rx="50" ry="58" fill="#E63946"/>
+      <rect x="-26" y="102" width="13" height="48" rx="6.5" fill="#F9C6CF" stroke="none"/>
+      <rect x="13" y="102" width="13" height="48" rx="6.5" fill="#F9C6CF" stroke="none"/>
+      <ellipse cx="-20" cy="155" rx="16" ry="8.5" fill="#2B2B2B" stroke="none"/>
+      <ellipse cx="20" cy="155" rx="16" ry="8.5" fill="#2B2B2B" stroke="none"/>
+
+      <!-- Arms (holding fork) -->
+      <path d="M -44 48 Q -70 55 -84 72" fill="none" stroke="#F9C6CF" stroke-width="18"/>
+      <circle cx="-86" cy="74" r="10.5" fill="#F9C6CF" stroke="none"/>
+      <path d="M 44 48 Q 62 64 70 82" fill="none" stroke="#F9C6CF" stroke-width="18"/>
+      <circle cx="72" cy="84" r="10.5" fill="#F9C6CF" stroke="none"/>
+
+      <!-- Fork -->
+      <g transform="translate(82 66) rotate(15)">
+        <rect x="-2" y="-28" width="4" height="44" rx="2" fill="#B0BEC5" stroke="#2B2B2B" stroke-width="2"/>
+        <path d="M -8 -30 L -8 -38 M -3 -30 L -3 -40 M 2 -30 L 2 -40 M 7 -30 L 7 -38" stroke="#2B2B2B" stroke-width="2" stroke-linecap="round"/>
+      </g>
+
+      <ellipse cx="0" cy="-4" rx="60" ry="50" fill="#F9C6CF"/>
+      <ellipse cx="50" cy="-4" rx="25" ry="18" fill="#F9C6CF"/>
+      <circle cx="57" cy="-9" r="4.2" fill="#FF69B4" stroke="none"/>
+      <circle cx="57" cy="1" r="4.2" fill="#FF69B4" stroke="none"/>
+      <ellipse cx="-18" cy="-48" rx="12" ry="22" fill="#F9C6CF"/>
+      <ellipse cx="18" cy="-48" rx="12" ry="22" fill="#F9C6CF"/>
+
+      <circle cx="-16" cy="-18" r="6.5" fill="#FFFFFF" stroke="none"/>
+      <circle cx="8" cy="-18" r="6.5" fill="#FFFFFF" stroke="none"/>
+      <circle cx="-16" cy="-18" r="3.2" fill="#2B2B2B" stroke="none"/>
+      <circle cx="8" cy="-18" r="3.2" fill="#2B2B2B" stroke="none"/>
+      <!-- Excited open mouth -->
+      <ellipse cx="0" cy="6" rx="10" ry="8" fill="#2B2B2B" stroke="none"/>
+      <ellipse cx="0" cy="6" rx="6" ry="4" fill="#FF69B4" opacity="0.35" stroke="none"/>
+    </g>
+
+    <!-- Daddy Pig ready to eat (right) -->
+    <g transform="translate(310 265)">
+      <!-- Body -->
+      <ellipse cx="0" cy="55" rx="56" ry="60" fill="#FF8A65"/>
+      <!-- Napkin tucked in -->
+      <path d="M -18 15 L 18 15 L 10 55 L -10 55 Z" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="3"/>
+
+      <rect x="-24" y="102" width="13" height="48" rx="6.5" fill="#F9C6CF" stroke="none"/>
+      <rect x="11" y="102" width="13" height="48" rx="6.5" fill="#F9C6CF" stroke="none"/>
+      <ellipse cx="-18" cy="155" rx="16" ry="8.5" fill="#2B2B2B" stroke="none"/>
+      <ellipse cx="18" cy="155" rx="16" ry="8.5" fill="#2B2B2B" stroke="none"/>
+
+      <!-- Head -->
+      <ellipse cx="0" cy="-2" rx="62" ry="50" fill="#FFAB91"/>
+      <ellipse cx="52" cy="-2" rx="26" ry="18" fill="#FFAB91"/>
+      <circle cx="60" cy="-7" r="4.2" fill="#FF69B4" stroke="none"/>
+      <circle cx="60" cy="3" r="4.2" fill="#FF69B4" stroke="none"/>
+      <ellipse cx="-18" cy="-46" rx="12" ry="22" fill="#FFAB91"/>
+      <ellipse cx="18" cy="-46" rx="12" ry="22" fill="#FFAB91"/>
+
+      <!-- Eyes + smile -->
+      <circle cx="-16" cy="-14" r="6.5" fill="#FFFFFF" stroke="none"/>
+      <circle cx="8" cy="-14" r="6.5" fill="#FFFFFF" stroke="none"/>
+      <circle cx="-16" cy="-14" r="3.2" fill="#2B2B2B" stroke="none"/>
+      <circle cx="8" cy="-14" r="3.2" fill="#2B2B2B" stroke="none"/>
+      <path d="M -10 6 Q 0 18 10 6" fill="none"/>
+
+      <!-- Glasses (Daddy Pig vibe) -->
+      <circle cx="-16" cy="-14" r="12" fill="none" stroke="#2B2B2B" stroke-width="3"/>
+      <circle cx="8" cy="-14" r="12" fill="none" stroke="#2B2B2B" stroke-width="3"/>
+      <line x1="-4" y1="-14" x2="-3" y2="-14" stroke="#2B2B2B" stroke-width="3"/>
+    </g>
+  </g>
+
   <!-- Signature -->
-  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Composer 1</text>
   <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
 </svg>

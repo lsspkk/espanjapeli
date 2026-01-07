@@ -1,112 +1,127 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <!-- Background: Art classroom -->
   <defs>
-    <linearGradient id="paintBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#E8F5E9"/>
-      <stop offset="100%" stop-color="#C8E6C9"/>
+    <linearGradient id="classWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#FFF2F6"/>
     </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E6F4FF"/>
+      <stop offset="1" stop-color="#CFE8FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
   </defs>
-  <rect width="400" height="400" fill="url(#paintBg)"/>
-  
-  <!-- Easel with canvas -->
-  <g transform="translate(200, 180)">
-    <!-- Easel legs -->
-    <line x1="-40" y1="0" x2="-20" y2="120" stroke="#8D6E63" stroke-width="4"/>
-    <line x1="40" y1="0" x2="20" y2="120" stroke="#8D6E63" stroke-width="4"/>
-    <line x1="0" y1="0" x2="0" y2="120" stroke="#8D6E63" stroke-width="4"/>
-    <!-- Canvas -->
-    <rect x="-50" y="-80" width="100" height="80" fill="white" stroke="#333" stroke-width="3"/>
-    <!-- Painting on canvas (colorful) -->
-    <rect x="-45" y="-75" width="90" height="70" fill="#E3F2FD"/>
-    <!-- Sun -->
-    <circle cx="-20" cy="-50" r="15" fill="#FFEB3B"/>
-    <!-- Grass -->
-    <rect x="-45" y="-10" width="90" height="10" fill="#4CAF50"/>
-    <!-- House -->
-    <rect x="10" y="-30" width="30" height="25" fill="#FF6B6B"/>
-    <path d="M 5 -30 L 25 -45 L 45 -30" fill="#E53935"/>
+
+  <!-- Background: playgroup classroom -->
+  <rect width="400" height="400" fill="url(#classWall)"/>
+  <rect x="0" y="265" width="400" height="135" fill="url(#floor)"/>
+
+  <!-- Window -->
+  <g transform="translate(265 55)" filter="url(#shadow)">
+    <rect x="0" y="0" width="110" height="85" rx="12" fill="#FFFFFF" opacity="0.92"/>
+    <rect x="8" y="8" width="94" height="69" rx="10" fill="#BFEAFF"/>
+    <line x1="55" y1="8" x2="55" y2="77" stroke="#FFFFFF" stroke-width="3" opacity="0.9"/>
+    <line x1="8" y1="42" x2="102" y2="42" stroke="#FFFFFF" stroke-width="3" opacity="0.9"/>
   </g>
-  
-  <!-- Paint palette -->
-  <g transform="translate(120, 280)">
-    <!-- Palette shape -->
-    <ellipse cx="0" cy="0" rx="40" ry="25" fill="#8D6E63"/>
-    <ellipse cx="0" cy="0" rx="35" ry="20" fill="#FFF8E1"/>
-    <!-- Thumb hole -->
-    <ellipse cx="-25" cy="-5" rx="8" ry="12" fill="#8D6E63"/>
-    <!-- Paint colors -->
-    <circle cx="-15" cy="-5" r="8" fill="#E53935"/>
-    <circle cx="5" cy="-5" r="8" fill="#2196F3"/>
-    <circle cx="-5" cy="5" r="8" fill="#FFEB3B"/>
-    <circle cx="15" cy="5" r="8" fill="#4CAF50"/>
+
+  <!-- Easel + paper with rainbow-in-progress -->
+  <g transform="translate(165 165)" filter="url(#shadow)">
+    <path d="M-40,170 L0,20 L40,170" fill="none" stroke="#8D6E63" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-16,170 L0,120 L16,170" fill="none" stroke="#8D6E63" stroke-width="8" stroke-linecap="round"/>
+    <rect x="-48" y="44" width="96" height="112" rx="12" fill="#FFFFFF" stroke="#333" stroke-width="3"/>
+    <!-- rainbow strokes -->
+    <path d="M-34,132 C-22,84 22,84 34,132" fill="none" stroke="#E53935" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-30,132 C-20,92 20,92 30,132" fill="none" stroke="#FB8C00" stroke-width="9" stroke-linecap="round"/>
+    <path d="M-26,132 C-18,100 18,100 26,132" fill="none" stroke="#FDD835" stroke-width="8" stroke-linecap="round"/>
+    <path d="M-22,132 C-16,108 16,108 22,132" fill="none" stroke="#43A047" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-18,132 C-14,116 14,116 18,132" fill="none" stroke="#1E88E5" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-14,132 C-12,124 12,124 14,132" fill="none" stroke="#8E24AA" stroke-width="5" stroke-linecap="round"/>
+    <!-- tray -->
+    <rect x="-52" y="156" width="104" height="16" rx="8" fill="#C8B08A" stroke="#333" stroke-width="2"/>
   </g>
-  
-  <!-- Paint brushes -->
-  <g transform="translate(280, 270)">
-    <!-- Brush 1 -->
-    <rect x="0" y="0" width="4" height="30" fill="#8D6E63"/>
-    <ellipse cx="2" cy="0" rx="10" ry="8" fill="#E53935"/>
-    <!-- Brush 2 -->
-    <rect x="15" y="0" width="4" height="30" fill="#8D6E63"/>
-    <ellipse cx="17" cy="0" rx="10" ry="8" fill="#2196F3"/>
+
+  <!-- Small side table with water cup + paint pot -->
+  <g transform="translate(235 255)" filter="url(#shadow)">
+    <rect x="-20" y="0" width="90" height="14" rx="7" fill="#8D6E63"/>
+    <rect x="-8" y="14" width="14" height="70" rx="7" fill="#8D6E63"/>
+    <rect x="58" y="14" width="14" height="70" rx="7" fill="#8D6E63"/>
+    <!-- water cup -->
+    <g transform="translate(10 -10)">
+      <ellipse cx="0" cy="8" rx="14" ry="6" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+      <path d="M-14,8 c2,22 10,32 14,32 c4,0 12,-10 14,-32" fill="#FFFFFF" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+      <path d="M-12,18 c3,12 8,18 12,18 c4,0 9,-6 12,-18" fill="#7EC8FF" opacity="0.5"/>
+    </g>
+    <!-- paint pot -->
+    <g transform="translate(46 -6)">
+      <ellipse cx="0" cy="8" rx="14" ry="6" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+      <path d="M-14,8 c2,22 10,30 14,30 c4,0 12,-8 14,-30" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+      <ellipse cx="0" cy="8" rx="10" ry="4" fill="#3A86FF" opacity="0.9"/>
+    </g>
   </g>
-  
-  <!-- Peppa painting -->
-  <g transform="translate(200, 280)">
-    <!-- Body (red dress) -->
-    <ellipse cx="0" cy="50" rx="45" ry="50" fill="#E63946"/>
-    
-    <!-- Legs (standing) -->
-    <rect x="-25" y="90" width="12" height="50" rx="6" fill="#F9C6CF"/>
-    <rect x="13" y="90" width="12" height="50" rx="6" fill="#F9C6CF"/>
-    
-    <!-- Shoes -->
-    <ellipse cx="-19" cy="145" rx="15" ry="8" fill="#333"/>
-    <ellipse cx="19" cy="145" rx="15" ry="8" fill="#333"/>
-    
-    <!-- Right arm holding brush -->
-    <path d="M 40 40 Q 60 20 70 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="70" cy="0" r="12" fill="#F9C6CF"/>
-    <!-- Brush in hand -->
-    <rect x="65" y="-5" width="4" height="20" fill="#8D6E63" transform="rotate(30 67 5)"/>
-    <ellipse cx="67" cy="-8" rx="8" ry="6" fill="#2196F3" transform="rotate(30)"/>
-    
-    <!-- Left arm holding palette -->
-    <path d="M -40 45 Q -50 60 -45 80" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="-45" cy="80" r="12" fill="#F9C6CF"/>
-    
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
-    
-    <!-- Snout -->
-    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
-    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
-    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
-    
-    <!-- Ears -->
-    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    
-    <!-- Eyes (focused) -->
-    <ellipse cx="-10" cy="-55" rx="8" ry="10" fill="white"/>
-    <ellipse cx="15" cy="-55" rx="8" ry="10" fill="white"/>
-    <circle cx="-8" cy="-53" r="4" fill="#333"/>
-    <circle cx="17" cy="-53" r="4" fill="#333"/>
-    
-    <!-- Concentrated expression -->
-    <path d="M -5 -30 Q 10 -25 25 -30" stroke="#333" stroke-width="3" fill="none"/>
-    
-    <!-- Paint smudge on cheek -->
-    <circle cx="30" cy="-35" r="6" fill="#2196F3" opacity="0.6"/>
+
+  <!-- Madame Gazelle with palette (right) -->
+  <g transform="translate(320 285)" filter="url(#shadow)">
+    <ellipse cx="0" cy="58" rx="40" ry="52" fill="#9C27B0"/>
+    <rect x="-18" y="98" width="10" height="44" rx="5" fill="#F9C6CF"/>
+    <rect x="8" y="98" width="10" height="44" rx="5" fill="#F9C6CF"/>
+    <ellipse cx="-13" cy="148" rx="12" ry="7" fill="#333"/>
+    <ellipse cx="13" cy="148" rx="12" ry="7" fill="#333"/>
+    <!-- head -->
+    <ellipse cx="0" cy="-10" rx="34" ry="38" fill="#FFF8E1"/>
+    <path d="M-10,-44 Q-16,-66 -6,-72" stroke="#8D6E63" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M10,-44 Q16,-66 6,-72" stroke="#8D6E63" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-8" cy="-18" rx="6" ry="8" fill="#FFFFFF"/>
+    <ellipse cx="10" cy="-18" rx="6" ry="8" fill="#FFFFFF"/>
+    <circle cx="-6" cy="-16" r="3" fill="#333"/>
+    <circle cx="12" cy="-16" r="3" fill="#333"/>
+    <path d="M2,-4 Q12,0 22,-4" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- holding palette -->
+    <path d="M-26,40 Q-54,54 -50,80" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="-50" cy="80" r="9" fill="#F9C6CF"/>
+    <g transform="translate(-84 96)">
+      <path d="M0,0 c20,-14 48,-10 56,10 c8,20 -10,40 -34,38 c-20,-2 -32,-20 -22,-34z"
+            fill="#FFF8E1" stroke="#333" stroke-width="2.5"/>
+      <circle cx="18" cy="14" r="7" fill="#E53935"/>
+      <circle cx="34" cy="10" r="7" fill="#FDD835"/>
+      <circle cx="36" cy="28" r="7" fill="#1E88E5"/>
+    </g>
   </g>
-  
-  <!-- Paint drops -->
-  <g fill="#2196F3" opacity="0.6">
-    <circle cx="150" cy="200" r="4"/>
-    <circle cx="250" cy="210" r="3"/>
+
+  <!-- Peppa painting with blue-tipped brush (center) -->
+  <g transform="translate(120 285)" filter="url(#shadow)">
+    <ellipse cx="0" cy="58" rx="54" ry="58" fill="#E63946"/>
+    <rect x="-22" y="106" width="12" height="50" rx="6" fill="#F9C6CF"/>
+    <rect x="10" y="106" width="12" height="50" rx="6" fill="#F9C6CF"/>
+    <ellipse cx="-16" cy="160" rx="14" ry="8" fill="#333"/>
+    <ellipse cx="16" cy="160" rx="14" ry="8" fill="#333"/>
+    <!-- arms: one holding brush -->
+    <path d="M40,54 Q62,66 72,86" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="72" cy="86" r="9" fill="#F9C6CF"/>
+    <g transform="translate(92 82) rotate(-18)">
+      <rect x="-18" y="-4" width="36" height="8" rx="4" fill="#8D6E63" stroke="#333" stroke-width="2"/>
+      <rect x="10" y="-5" width="10" height="10" rx="4" fill="#3A86FF" stroke="#333" stroke-width="2"/>
+    </g>
+    <!-- other arm -->
+    <path d="M-40,54 Q-56,76 -48,96" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="-48" cy="96" r="9" fill="#F9C6CF"/>
+    <!-- head -->
+    <ellipse cx="0" cy="-12" rx="58" ry="44" fill="#F9C6CF"/>
+    <ellipse cx="52" cy="-12" rx="20" ry="15" fill="#F9C6CF"/>
+    <circle cx="60" cy="-16" r="4" fill="#FF69B4"/>
+    <circle cx="60" cy="-8" r="4" fill="#FF69B4"/>
+    <ellipse cx="-18" cy="-48" rx="11" ry="19" fill="#F9C6CF"/>
+    <ellipse cx="18" cy="-48" rx="11" ry="19" fill="#F9C6CF"/>
+    <!-- focused eyes -->
+    <ellipse cx="-12" cy="-20" rx="7" ry="9" fill="#FFFFFF"/>
+    <ellipse cx="14" cy="-20" rx="7" ry="9" fill="#FFFFFF"/>
+    <circle cx="-10" cy="-18" r="3.2" fill="#333"/>
+    <circle cx="16" cy="-18" r="3.2" fill="#333"/>
+    <path d="M6,0 Q18,14 34,2" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- tiny tongue-out line -->
+    <path d="M30,6 q6,6 10,0" stroke="#E53935" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="-30" cy="2" r="9" fill="#FF9DB0" opacity="0.55"/>
   </g>
-  
-  <!-- Signature -->
-  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Composer 1</text>
-  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.84">GPT 5.2</text>
 </svg>

@@ -1,29 +1,182 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <rect width="400" height="400" fill="#FFF9C4"/>
-  <ellipse cx="200" cy="380" rx="220" ry="60" fill="#7BC043"/>
-    <g transform="translate(200, 280)">
-    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
-    <rect x="-20" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
-    <rect x="10" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
-    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
-    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
-    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
-    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
-    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <ellipse cx="-5" cy="-35" rx="6" ry="8" fill="white"/>
-    <ellipse cx="12" cy="-35" rx="6" ry="8" fill="white"/>
-    <circle cx="-4" cy="-34" r="3" fill="#333"/>
-    <circle cx="13" cy="-34" r="3" fill="#333"/>
-    <path d="M -5 -18 Q 10 -8 25 -18" stroke="#333" stroke-width="3" fill="none"/>
+  <defs>
+    <linearGradient id="roomBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8E1"/>
+      <stop offset="100%" stop-color="#FFECB3"/>
+    </linearGradient>
+    <radialGradient id="sunBeam" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="100%" stop-color="#FFF9C4" opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background living room with sunlight -->
+  <rect width="400" height="400" fill="url(#roomBg)"/>
+  <circle cx="120" cy="80" r="60" fill="url(#sunBeam)" opacity="0.4"/>
+
+  <!-- Window with streaming sunlight -->
+  <rect x="60" y="60" width="120" height="100" rx="8" fill="#8D6E63"/>
+  <rect x="68" y="68" width="104" height="84" fill="#E3F2FD"/>
+  <rect x="60" y="110" width="120" height="8" fill="#8D6E63"/>
+
+  <!-- Sunlight rays through window -->
+  <g stroke="#FFF9C4" stroke-width="2" opacity="0.6">
+    <line x1="120" y1="160" x2="120" y2="200"/>
+    <line x1="100" y1="160" x2="90" y2="200"/>
+    <line x1="140" y1="160" x2="150" y2="200"/>
   </g>
-  <circle cx="200" cy="120" r="35" fill="#FFD700"/>
-  <text x="200" y="130" text-anchor="middle" font-family="Arial" font-size="24" fill="#333">?</text>
-  <g fill="#FF6B9D">
-    <circle cx="100" cy="150" r="15"/>
-    <circle cx="300" cy="150" r="15"/>
-    <rect x="85" y="170" width="30" height="20" rx="5"/>
-    <rect x="285" y="170" width="30" height="20" rx="5"/>
+
+  <!-- Sofa in background -->
+  <g transform="translate(320, 220)">
+    <rect x="-45" y="-35" width="90" height="35" rx="5" fill="#7B1FA2"/>
+    <rect x="-45" y="0" width="90" height="25" rx="5" fill="#BA68C8"/>
   </g>
-  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#5B6470" opacity="0.7">composer 1</text>
+
+  <!-- Toys scattered on floor -->
+  <circle cx="280" cy="350" r="12" fill="#FF5722"/>
+  <rect x="320" y="340" width="10" height="10" fill="#03A9F4"/>
+  <rect x="335" y="340" width="10" height="10" fill="#FFC107"/>
+  <rect x="350" y="340" width="10" height="10" fill="#4CAF50"/>
+
+  <!-- Table -->
+  <ellipse cx="200" cy="280" rx="70" ry="25" fill="#8D6E63"/>
+  <ellipse cx="200" cy="275" rx="65" ry="22" fill="#A1887F"/>
+
+  <!-- Activity pictures on table -->
+  <g transform="translate(200, 260)">
+    <!-- Bicycle icon -->
+    <g transform="translate(-40, 0)">
+      <circle cx="0" cy="0" r="6" fill="none" stroke="#333" stroke-width="1.5"/>
+      <circle cx="12" cy="0" r="6" fill="none" stroke="#333" stroke-width="1.5"/>
+      <path d="M 0 0 L 12 0 M 6 -4 L 6 4" stroke="#333" stroke-width="1.5" fill="none"/>
+    </g>
+
+    <!-- Picnic basket icon -->
+    <g transform="translate(-10, 0)">
+      <ellipse cx="0" cy="0" rx="8" ry="6" fill="#8D6E63"/>
+      <ellipse cx="0" cy="-2" rx="6" ry="4" fill="#FFF9C4"/>
+      <path d="M -6 -2 Q 0 -6 6 -2" stroke="#8D6E63" stroke-width="1" fill="none"/>
+    </g>
+
+    <!-- Paintbrush icon -->
+    <g transform="translate(20, 0)">
+      <rect x="-1" y="-6" width="2" height="10" fill="#8D6E63"/>
+      <ellipse cx="0" cy="-8" rx="4" ry="3" fill="#2196F3"/>
+    </g>
+
+    <!-- Ball icon -->
+    <circle cx="45" cy="0" r="5" fill="#F44336"/>
+  </g>
+
+  <!-- Mummy Pig holding calendar book and pointing -->
+  <g transform="translate(120, 250)">
+    <!-- Body (orange dress) -->
+    <ellipse cx="0" cy="20" rx="30" ry="35" fill="#FF8A65"/>
+
+    <!-- Legs -->
+    <rect x="-15" y="45" width="8" height="35" rx="4" fill="#FFAB91"/>
+    <rect x="7" y="45" width="8" height="35" rx="4" fill="#FFAB91"/>
+
+    <!-- Shoes -->
+    <ellipse cx="-11" cy="85" rx="10" ry="6" fill="#424242"/>
+    <ellipse cx="11" cy="85" rx="10" ry="6" fill="#424242"/>
+
+    <!-- Left arm holding calendar book -->
+    <path d="M -25 15 Q -35 5 -30 -10" stroke="#FFAB91" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <circle cx="-30" cy="-10" r="9" fill="#FFAB91"/>
+
+    <!-- Calendar book in left hand -->
+    <rect x="-38" y="-18" width="16" height="24" rx="2" fill="#8D6E63"/>
+    <rect x="-36" y="-16" width="12" height="20" fill="#FFF9C4"/>
+    <line x1="-36" y1="-6" x2="-24" y2="-6" stroke="#333" stroke-width="0.5"/>
+    <line x1="-30" y1="-16" x2="-30" y2="4" stroke="#333" stroke-width="0.5"/>
+
+    <!-- Right arm pointing -->
+    <path d="M 25 20 Q 40 35 45 50" stroke="#FFAB91" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <circle cx="45" cy="50" r="9" fill="#FFAB91"/>
+    <!-- Pointing finger -->
+    <ellipse cx="50" cy="55" rx="3" ry="8" fill="#FFAB91"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-35" rx="32" ry="28" fill="#FFAB91"/>
+
+    <!-- Snout -->
+    <ellipse cx="24" cy="-35" rx="12" ry="9" fill="#FFAB91"/>
+    <circle cx="27" cy="-37" r="2" fill="#FF69B4"/>
+    <circle cx="27" cy="-33" r="2" fill="#FF69B4"/>
+
+    <!-- Ears -->
+    <ellipse cx="-10" cy="-55" rx="7" ry="12" fill="#FFAB91"/>
+    <ellipse cx="10" cy="-55" rx="7" ry="12" fill="#FFAB91"/>
+
+    <!-- Eyes -->
+    <ellipse cx="-4" cy="-38" rx="5" ry="7" fill="white"/>
+    <ellipse cx="8" cy="-38" rx="5" ry="7" fill="white"/>
+    <circle cx="-3" cy="-37" r="2.5" fill="#424242"/>
+    <circle cx="9" cy="-37" r="2.5" fill="#424242"/>
+
+    <!-- Planning smile -->
+    <path d="M -4 -25 Q 0 -22 4 -25" stroke="#424242" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Peppa at table with curious questioning expression -->
+  <g transform="translate(200, 280)">
+    <!-- Body (red dress) -->
+    <ellipse cx="0" cy="30" rx="38" ry="42" fill="#E63946"/>
+
+    <!-- Legs (sitting) -->
+    <rect x="-20" y="60" width="10" height="25" rx="5" fill="#F9C6CF"/>
+    <rect x="10" y="60" width="10" height="25" rx="5" fill="#F9C6CF"/>
+
+    <!-- Shoes -->
+    <ellipse cx="-15" cy="90" rx="12" ry="7" fill="#424242"/>
+    <ellipse cx="15" cy="90" rx="12" ry="7" fill="#424242"/>
+
+    <!-- Arms resting on table -->
+    <path d="M -28 25 Q -35 15 -30 5" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="-30" cy="5" r="10" fill="#F9C6CF"/>
+    <path d="M 28 25 Q 35 15 30 5" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="30" cy="5" r="10" fill="#F9C6CF"/>
+
+    <!-- Head (tilted thoughtfully) -->
+    <ellipse cx="0" cy="-55" rx="45" ry="38" fill="#F9C6CF" transform="rotate(-8 0 -55)"/>
+
+    <!-- Snout -->
+    <ellipse cx="38" cy="-55" rx="18" ry="13" fill="#F9C6CF" transform="rotate(-8 38 -55)"/>
+    <circle cx="45" cy="-58" r="3" fill="#FF69B4"/>
+    <circle cx="45" cy="-52" r="3" fill="#FF69B4"/>
+
+    <!-- Ears -->
+    <ellipse cx="-15" cy="-85" rx="10" ry="18" fill="#F9C6CF" transform="rotate(-8 -15 -85)"/>
+    <ellipse cx="15" cy="-85" rx="10" ry="18" fill="#F9C6CF" transform="rotate(-8 15 -85)"/>
+
+    <!-- Eyes (wide, curious, excited) -->
+    <ellipse cx="-8" cy="-58" rx="7" ry="9" fill="white" transform="rotate(-8 -8 -58)"/>
+    <ellipse cx="14" cy="-58" rx="7" ry="9" fill="white" transform="rotate(-8 14 -58)"/>
+    <circle cx="-6" cy="-57" r="3.5" fill="#424242"/>
+    <circle cx="16" cy="-57" r="3.5" fill="#424242"/>
+    <!-- Eyebrows raised in question -->
+    <path d="M -12 -65 Q -6 -68 -2 -65" stroke="#424242" stroke-width="2" fill="none" transform="rotate(-8 -7 -65)"/>
+    <path d="M 10 -65 Q 16 -68 20 -65" stroke="#424242" stroke-width="2" fill="none" transform="rotate(-8 15 -65)"/>
+
+    <!-- Mouth open (asking question) -->
+    <ellipse cx="26" cy="-35" rx="5" ry="7" fill="#424242" transform="rotate(-8 26 -35)"/>
+  </g>
+
+  <!-- Question marks floating around Peppa -->
+  <g fill="#FF6F00" opacity="0.7" font-size="16" font-family="Arial, sans-serif" font-weight="bold">
+    <text x="170" y="190">?</text>
+    <text x="230" y="185">?</text>
+    <text x="200" y="175">?</text>
+  </g>
+
+  <!-- Signature -->
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Grok</text>
 </svg>

@@ -1,27 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="This is Mummy Pig">
-  <rect width="100%" height="100%" fill="#FFFFFF"/>
+<svg viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style><![CDATA[
-      .ol { stroke: #222222; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
-      .softol { stroke: #222222; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
-    ]]></style>
+    <linearGradient id="lightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF9C4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFECB3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE082;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="warmLight">
+      <stop offset="0%" style="stop-color:#FFF59D;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FFECB3;stop-opacity:0" />
+    </radialGradient>
   </defs>
-<ellipse class="ol" cx="152.75" cy="72.25" rx="13.65" ry="15.75" fill="#F9C6CF"/>
-  <ellipse class="ol" cx="247.25" cy="72.25" rx="13.65" ry="15.75" fill="#F9C6CF"/>
-  <ellipse class="ol" cx="200" cy="130" rx="68.25" ry="55.125" fill="#F9C6CF"/>
-  <ellipse class="ol" cx="231.5" cy="140.5" rx="36.75" ry="25.200000000000003" fill="#F7A8B8"/>
-  <circle cx="215.75" cy="140.5" r="5.25" fill="#222222"/>
-  <circle cx="247.25" cy="140.5" r="5.25" fill="#222222"/>
-  <circle cx="179.0" cy="119.5" r="8.4" fill="#222222"/>
-  <circle cx="210.5" cy="119.5" r="8.4" fill="#222222"/>
-  <circle cx="147.5" cy="140.5" r="6.300000000000001" fill="#F59FB4" opacity="0.9"/>
-  <path class="softol" d="M 189.5 156.25 Q 205.25 172.0 226.25 156.25" fill="none"/>
-  <rect class="ol" x="126.5" y="187.75" width="147.0" height="157.5" rx="42.0" fill="#F6D55C"/>
-  <path class="ol" d="M 152.75 235.0 Q 116.0 256.0 137.0 282.25" fill="none"/>
-  <path class="ol" d="M 247.25 235.0 Q 284.0 256.0 263.0 282.25" fill="none"/>
-  <path class="ol" d="M 163.25 345.25 L 163.25 382.0"/>
-  <path class="ol" d="M 236.75 345.25 L 236.75 382.0"/>
-  <ellipse class="ol" cx="163.25" cy="389.35" rx="18.900000000000002" ry="8.4" fill="#000000"/>
-  <ellipse class="ol" cx="236.75" cy="389.35" rx="18.900000000000002" ry="8.4" fill="#000000"/><path class="ol" d="M 140 320 Q 200 275 260 320" fill="none"/><path d="M 90 101.0 L 92.7 107.3 L 99.0 110 L 92.7 112.7 L 90 119.0 L 87.3 112.7 L 81.0 110 L 87.3 107.3 Z" fill="#FFB703" stroke="#222222" stroke-width="3" stroke-linejoin="round"/><path d="M 310 101.0 L 312.7 107.3 L 319.0 110 L 312.7 112.7 L 310 119.0 L 307.3 112.7 L 301.0 110 L 307.3 107.3 Z" fill="#FFB703" stroke="#222222" stroke-width="3" stroke-linejoin="round"/>  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+  
+  <!-- Warm golden afternoon light -->
+  <rect width="400" height="400" fill="url(#lightGrad)"/>
+  <circle cx="250" cy="200" r="180" fill="url(#warmLight)"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="320" width="400" height="80" fill="#D7CCC8"/>
+  
+  <!-- Doorway frame (foreground) -->
+  <rect x="30" y="100" width="150" height="250" fill="#FFF3E0"/>
+  <rect x="30" y="100" width="12" height="250" fill="#8D6E63"/>
+  <rect x="168" y="100" width="12" height="250" fill="#8D6E63"/>
+  <rect x="30" y="100" width="150" height="12" fill="#8D6E63"/>
+  
+  <!-- Kitchen view through doorway -->
+  <!-- Kitchen wall -->
+  <rect x="180" y="100" width="220" height="250" fill="#FFF8E0"/>
+  
+  <!-- Window in kitchen showing garden -->
+  <rect x="290" y="130" width="80" height="80" fill="#A5D6A7" stroke="#8D6E63" stroke-width="3"/>
+  <line x1="330" y1="130" x2="330" y2="210" stroke="#8D6E63" stroke-width="3"/>
+  <line x1="290" y1="170" x2="370" y2="170" stroke="#8D6E63" stroke-width="3"/>
+  <!-- Simple tree visible through window -->
+  <circle cx="315" cy="175" r="15" fill="#66BB6A" opacity="0.7"/>
+  <rect x="312" y="185" width="6" height="20" fill="#8D6E63" opacity="0.7"/>
+  
+  <!-- Kitchen counter -->
+  <rect x="200" y="260" width="180" height="15" fill="#BCAAA4"/>
+  <rect x="200" y="275" width="180" height="75" fill="#A1887F"/>
+  
+  <!-- Mixing bowl on counter -->
+  <ellipse cx="250" cy="255" rx="22" ry="8" fill="#E3F2FD"/>
+  <path d="M 228 255 Q 228 240 250 238 Q 272 240 272 255 Z" fill="#BBDEFB" stroke="#90CAF9" stroke-width="1.5"/>
+  
+  <!-- Wooden spoon in bowl -->
+  <ellipse cx="260" cy="245" rx="4" ry="5" fill="#8D6E63"/>
+  <rect x="259" y="230" width="2" height="18" fill="#A1887F" transform="rotate(-15 260 240)"/>
+  
+  <!-- Small vase with flowers on counter -->
+  <ellipse cx="320" cy="258" rx="8" ry="3" fill="#FF9800"/>
+  <path d="M 312 258 Q 312 250 320 248 Q 328 250 328 258 Z" fill="#FFB74D"/>
+  <!-- Flowers -->
+  <circle cx="316" cy="242" r="3" fill="#F48FB1"/>
+  <circle cx="320" cy="240" r="3" fill="#FFEB3B"/>
+  <circle cx="324" cy="242" r="3" fill="#CE93D8"/>
+  <line x1="316" y1="245" x2="316" y2="250" stroke="#4CAF50" stroke-width="1.5"/>
+  <line x1="320" y1="243" x2="320" y2="250" stroke="#4CAF50" stroke-width="1.5"/>
+  <line x1="324" y1="245" x2="324" y2="250" stroke="#4CAF50" stroke-width="1.5"/>
+  
+  <!-- Mummy Pig in kitchen (turning toward Peppa, welcoming) -->
+  <!-- Legs -->
+  <ellipse cx="270" cy="315" rx="8" ry="18" fill="#FF8A65"/>
+  <ellipse cx="288" cy="315" rx="8" ry="18" fill="#FF8A65"/>
+  <!-- Feet -->
+  <ellipse cx="270" cy="331" rx="10" ry="6" fill="#000000"/>
+  <ellipse cx="288" cy="331" rx="10" ry="6" fill="#000000"/>
+  <!-- Dress body -->
+  <ellipse cx="279" cy="280" rx="28" ry="38" fill="#FF8A65"/>
+  <!-- Head -->
+  <circle cx="279" cy="235" r="30" fill="#FFAB91"/>
+  <!-- Snout -->
+  <ellipse cx="294" cy="240" rx="15" ry="12" fill="#FF69B4"/>
+  <ellipse cx="291" cy="238" rx="3.5" ry="5" fill="#E91E63"/>
+  <ellipse cx="297" cy="238" rx="3.5" ry="5" fill="#E91E63"/>
+  <!-- Eyes (warm and welcoming) -->
+  <circle cx="269" cy="225" r="4" fill="#000000"/>
+  <circle cx="270" cy="224" r="1.5" fill="#FFFFFF"/>
+  <circle cx="284" cy="225" r="4" fill="#000000"/>
+  <circle cx="285" cy="224" r="1.5" fill="#FFFFFF"/>
+  <!-- Warm smile -->
+  <path d="M 274 248 Q 279 253 284 248" stroke="#000000" stroke-width="2" fill="none"/>
+  <!-- Ear -->
+  <ellipse cx="259" cy="220" rx="8" ry="13" fill="#FFAB91"/>
+  <!-- Arms (slightly open in welcoming gesture) -->
+  <ellipse cx="255" cy="275" rx="7" ry="20" fill="#FFAB91" transform="rotate(-20 255 275)"/>
+  <ellipse cx="303" cy="275" rx="7" ry="20" fill="#FFAB91" transform="rotate(20 303 275)"/>
+  
+  <!-- Peppa in doorway (calling out) -->
+  <!-- Legs -->
+  <ellipse cx="90" cy="300" rx="6" ry="15" fill="#E63946"/>
+  <ellipse cx="105" cy="300" rx="6" ry="15" fill="#E63946"/>
+  <!-- Feet -->
+  <ellipse cx="90" cy="313" rx="8" ry="5" fill="#000000"/>
+  <ellipse cx="105" cy="313" rx="8" ry="5" fill="#000000"/>
+  <!-- Dress body -->
+  <ellipse cx="98" cy="270" rx="25" ry="30" fill="#E63946"/>
+  <!-- Head -->
+  <circle cx="98" cy="230" r="30" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="113" cy="235" rx="15" ry="12" fill="#FF69B4"/>
+  <ellipse cx="110" cy="233" rx="3.5" ry="5" fill="#E91E63"/>
+  <ellipse cx="116" cy="233" rx="3.5" ry="5" fill="#E91E63"/>
+  <!-- Eyes (sweet and seeking) -->
+  <circle cx="88" cy="220" r="4" fill="#000000"/>
+  <circle cx="89" cy="219" r="1.5" fill="#FFFFFF"/>
+  <circle cx="103" cy="220" r="4" fill="#000000"/>
+  <circle cx="104" cy="219" r="1.5" fill="#FFFFFF"/>
+  <!-- Mouth (calling) -->
+  <ellipse cx="98" cy="247" rx="5" ry="6" fill="#000000" opacity="0.7"/>
+  <!-- Ear -->
+  <ellipse cx="78" cy="215" rx="8" ry="12" fill="#F9C6CF"/>
+  <!-- One arm raised to mouth (calling gesture) -->
+  <ellipse cx="78" cy="245" rx="6" ry="18" fill="#F9C6CF" transform="rotate(-40 78 245)"/>
+  <ellipse cx="68" cy="232" rx="7" ry="8" fill="#F9C6CF"/>
+  <!-- Other arm at side -->
+  <ellipse cx="118" cy="265" rx="6" ry="17" fill="#F9C6CF"/>
+  
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Claude Sonnet 4.5</text>
 </svg>

@@ -1,57 +1,146 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <rect width="400" height="400" fill="#FFF9C4"/>
-  <ellipse cx="200" cy="380" rx="220" ry="60" fill="#7BC043"/>
-    <g transform="translate(150, 280)">
-    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
-    <rect x="-20" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
-    <rect x="10" y="60" width="10" height="35" rx="5" fill="#F9C6CF"/>
-    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
-    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
-    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
-    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
-    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <ellipse cx="-5" cy="-35" rx="6" ry="8" fill="white"/>
-    <ellipse cx="12" cy="-35" rx="6" ry="8" fill="white"/>
-    <circle cx="-4" cy="-34" r="3" fill="#333"/>
-    <circle cx="13" cy="-34" r="3" fill="#333"/>
-    <path d="M -5 -18 Q 10 -8 25 -18" stroke="#333" stroke-width="3" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="room70" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF9C4"/>
+      <stop offset="1" stop-color="#FFE0B2"/>
+    </linearGradient>
+    <linearGradient id="windowSky70" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#90D6FF"/>
+      <stop offset="1" stop-color="#DDF3FF"/>
+    </linearGradient>
+    <filter id="shadow70" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#22313F" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Living room -->
+  <rect width="400" height="400" fill="url(#room70)"/>
+  <rect y="290" width="400" height="110" fill="#D7B08B" opacity="0.65"/>
+
+  <!-- Window -->
+  <g transform="translate(40 55)" filter="url(#shadow70)">
+    <rect x="0" y="0" width="110" height="120" rx="10" fill="#8D6E63"/>
+    <rect x="8" y="8" width="94" height="104" rx="8" fill="url(#windowSky70)"/>
+    <line x1="55" y1="8" x2="55" y2="112" stroke="#8D6E63" stroke-width="4"/>
+    <line x1="8" y1="60" x2="102" y2="60" stroke="#8D6E63" stroke-width="4"/>
+    <g fill="#FFFFFF" opacity="0.85" transform="translate(18 22)">
+      <circle cx="0" cy="12" r="10"/><circle cx="14" cy="8" r="14"/><circle cx="30" cy="12" r="10"/><rect x="0" y="12" width="34" height="12" rx="6"/>
+    </g>
   </g>
-    <g transform="translate(200, 280)">
-    <ellipse cx="0" cy="30" rx="38" ry="42" fill="#FFD700"/>
-    <rect x="-22" y="65" width="12" height="38" rx="6" fill="#F9C6CF"/>
-    <rect x="10" y="65" width="12" height="38" rx="6" fill="#F9C6CF"/>
-    <ellipse cx="0" cy="-30" rx="48" ry="38" fill="#F9C6CF"/>
-    <ellipse cx="38" cy="-30" rx="19" ry="15" fill="#F9C6CF"/>
-    <circle cx="45" cy="-33" r="4" fill="#FF69B4"/>
-    <circle cx="45" cy="-27" r="4" fill="#FF69B4"/>
-    <ellipse cx="-16" cy="-68" rx="11" ry="19" fill="#F9C6CF"/>
-    <ellipse cx="16" cy="-68" rx="11" ry="19" fill="#F9C6CF"/>
-    <ellipse cx="-6" cy="-36" rx="7" ry="9" fill="white"/>
-    <ellipse cx="13" cy="-36" rx="7" ry="9" fill="white"/>
-    <circle cx="-5" cy="-35" r="3.5" fill="#333"/>
-    <circle cx="14" cy="-35" r="3.5" fill="#333"/>
-    <path d="M -6 -20 Q 12 -10 30 -20" stroke="#333" stroke-width="3" fill="none"/>
+
+  <!-- Side table + plant -->
+  <g transform="translate(330 210)" filter="url(#shadow70)">
+    <rect x="-28" y="30" width="56" height="12" rx="6" fill="#8D6E63"/>
+    <rect x="-24" y="42" width="48" height="58" rx="10" fill="#A1887F"/>
+    <ellipse cx="0" cy="20" rx="18" ry="14" fill="#8D6E63"/>
+    <ellipse cx="0" cy="20" rx="14" ry="10" fill="#A1887F"/>
+    <ellipse cx="-6" cy="8" rx="10" ry="16" fill="#4CAF50"/>
+    <ellipse cx="6" cy="8" rx="10" ry="16" fill="#4CAF50"/>
+    <ellipse cx="0" cy="2" rx="8" ry="14" fill="#66BB6A"/>
   </g>
-    <g transform="translate(250, 280)">
-    <ellipse cx="0" cy="32" rx="40" ry="45" fill="#FF8C42"/>
-    <rect x="-24" y="70" width="14" height="40" rx="7" fill="#F9C6CF"/>
-    <rect x="10" y="70" width="14" height="40" rx="7" fill="#F9C6CF"/>
-    <ellipse cx="0" cy="-28" rx="50" ry="40" fill="#F9C6CF"/>
-    <rect x="-35" y="-40" width="25" height="20" rx="12" fill="none" stroke="#333" stroke-width="3"/>
-    <rect x="10" y="-40" width="25" height="20" rx="12" fill="none" stroke="#333" stroke-width="3"/>
-    <line x1="-10" y1="-30" x2="10" y2="-30" stroke="#333" stroke-width="3"/>
-    <ellipse cx="40" cy="-28" rx="20" ry="16" fill="#F9C6CF"/>
-    <circle cx="48" cy="-31" r="4" fill="#FF69B4"/>
-    <circle cx="48" cy="-25" r="4" fill="#FF69B4"/>
-    <ellipse cx="-18" cy="-70" rx="12" ry="20" fill="#F9C6CF"/>
-    <ellipse cx="18" cy="-70" rx="12" ry="20" fill="#F9C6CF"/>
-    <ellipse cx="-18" cy="-35" rx="8" ry="10" fill="white"/>
-    <ellipse cx="18" cy="-35" rx="8" ry="10" fill="white"/>
-    <circle cx="-17" cy="-34" r="4" fill="#333"/>
-    <circle cx="19" cy="-34" r="4" fill="#333"/>
-    <path d="M -8 -18 Q 12 -8 32 -18" stroke="#333" stroke-width="3" fill="none"/>
+
+  <!-- Doorway backdrop -->
+  <g opacity="0.35">
+    <rect x="135" y="145" width="130" height="210" rx="18" fill="#8D6E63"/>
+    <rect x="148" y="158" width="104" height="184" rx="14" fill="#C58A56"/>
   </g>
-  <text x="200" y="150" text-anchor="middle" font-family="Arial" font-size="32" fill="#333" font-weight="bold">!</text>
-  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#5B6470" opacity="0.7">composer 1</text>
+
+  <!-- Peppa calling (center) -->
+  <g transform="translate(200 275)" filter="url(#shadow70)">
+    <rect x="-22" y="100" width="12" height="46" rx="6" fill="#F9C6CF"/>
+    <rect x="10" y="100" width="12" height="46" rx="6" fill="#F9C6CF"/>
+    <ellipse cx="-16" cy="148" rx="16" ry="8" fill="#2C2C2C"/>
+    <ellipse cx="16" cy="148" rx="16" ry="8" fill="#2C2C2C"/>
+    <ellipse cx="0" cy="74" rx="46" ry="54" fill="#E63946"/>
+    <!-- Arms cupped -->
+    <path d="M-36 66 C-56 48 -62 32 -56 16" fill="none" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="-56" cy="16" r="10" fill="#F9C6CF"/>
+    <path d="M36 66 C56 48 62 32 56 16" fill="none" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="56" cy="16" r="10" fill="#F9C6CF"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="10" rx="54" ry="44" fill="#F9C6CF"/>
+    <ellipse cx="50" cy="12" rx="22" ry="16" fill="#F9C6CF"/>
+    <circle cx="58" cy="8" r="4" fill="#FF69B4"/>
+    <circle cx="58" cy="16" r="4" fill="#FF69B4"/>
+    <ellipse cx="-18" cy="-32" rx="12" ry="22" fill="#F9C6CF"/>
+    <ellipse cx="18" cy="-32" rx="12" ry="22" fill="#F9C6CF"/>
+    <ellipse cx="-10" cy="5" rx="8" ry="10" fill="#FFFFFF"/>
+    <ellipse cx="16" cy="5" rx="8" ry="10" fill="#FFFFFF"/>
+    <circle cx="-8" cy="7" r="4" fill="#2C2C2C"/>
+    <circle cx="18" cy="7" r="4" fill="#2C2C2C"/>
+    <ellipse cx="28" cy="30" rx="7" ry="10" fill="#2C2C2C"/>
+    <path d="M-6 28 C6 40 26 38 34 28" fill="none" stroke="#2C2C2C" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Call lines -->
+  <g stroke="#9C27B0" stroke-width="3" opacity="0.5" fill="none" stroke-linecap="round">
+    <path d="M200 210 Q182 190 160 180"/>
+    <path d="M200 210 Q218 190 240 180"/>
+    <path d="M200 214 Q186 204 170 198"/>
+    <path d="M200 214 Q214 204 230 198"/>
+  </g>
+
+  <!-- Mummy Pig (left, with book) -->
+  <g transform="translate(105 250)" filter="url(#shadow70)">
+    <rect x="-18" y="92" width="10" height="42" rx="5" fill="#F9C6CF"/>
+    <rect x="8" y="92" width="10" height="42" rx="5" fill="#F9C6CF"/>
+    <ellipse cx="-13" cy="137" rx="14" ry="7" fill="#2C2C2C"/>
+    <ellipse cx="13" cy="137" rx="14" ry="7" fill="#2C2C2C"/>
+    <ellipse cx="0" cy="66" rx="42" ry="50" fill="#FF8A65"/>
+    <path d="M-30 60 C-44 48 -54 36 -58 20" fill="none" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="-58" cy="20" r="8" fill="#F9C6CF"/>
+    <path d="M30 62 C44 74 52 88 54 104" fill="none" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="54" cy="104" r="8" fill="#F9C6CF"/>
+    <!-- Book -->
+    <g transform="translate(-68 10) rotate(-8)">
+      <rect x="-10" y="-18" width="26" height="34" rx="4" fill="#8D6E63"/>
+      <rect x="-6" y="-14" width="18" height="26" rx="2" fill="#FFF9C4"/>
+      <line x1="-4" y1="-6" x2="10" y2="-6" stroke="#5B6470" stroke-width="2" opacity="0.35"/>
+      <line x1="-4" y1="2" x2="10" y2="2" stroke="#5B6470" stroke-width="2" opacity="0.35"/>
+    </g>
+    <ellipse cx="0" cy="10" rx="46" ry="38" fill="#FFAB91"/>
+    <ellipse cx="42" cy="12" rx="18" ry="13" fill="#FFAB91"/>
+    <circle cx="48" cy="9" r="3.5" fill="#FF69B4"/>
+    <circle cx="48" cy="15" r="3.5" fill="#FF69B4"/>
+    <ellipse cx="-16" cy="-22" rx="10" ry="18" fill="#FFAB91"/>
+    <ellipse cx="16" cy="-22" rx="10" ry="18" fill="#FFAB91"/>
+    <circle cx="-8" cy="10" r="3.2" fill="#2C2C2C"/>
+    <circle cx="14" cy="10" r="3.2" fill="#2C2C2C"/>
+    <path d="M-6 28 C4 38 22 36 28 28" fill="none" stroke="#2C2C2C" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Daddy Pig (right, with blueprint) -->
+  <g transform="translate(305 250)" filter="url(#shadow70)">
+    <rect x="-20" y="92" width="10" height="42" rx="5" fill="#F9C6CF"/>
+    <rect x="10" y="92" width="10" height="42" rx="5" fill="#F9C6CF"/>
+    <ellipse cx="-15" cy="137" rx="14" ry="7" fill="#2C2C2C"/>
+    <ellipse cx="15" cy="137" rx="14" ry="7" fill="#2C2C2C"/>
+    <ellipse cx="0" cy="66" rx="46" ry="54" fill="#FF8A65"/>
+    <path d="M-34 60 C-50 48 -62 34 -68 18" fill="none" stroke="#F9C6CF" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="-68" cy="18" r="9" fill="#F9C6CF"/>
+    <!-- Blueprint -->
+    <g transform="translate(-88 12) rotate(12)">
+      <rect x="-8" y="-20" width="20" height="42" rx="9" fill="#E0E0E0" stroke="#5B6470" stroke-width="2"/>
+      <path d="M-2 -14 H6 M-2 -4 H6 M-2 6 H6" stroke="#5B6470" stroke-width="2" opacity="0.45" stroke-linecap="round"/>
+    </g>
+    <path d="M34 62 C50 74 58 88 60 104" fill="none" stroke="#F9C6CF" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="60" cy="104" r="9" fill="#F9C6CF"/>
+    <ellipse cx="0" cy="10" rx="50" ry="40" fill="#FFAB91"/>
+    <ellipse cx="-44" cy="12" rx="18" ry="13" fill="#FFAB91"/>
+    <circle cx="-50" cy="9" r="3.5" fill="#FF69B4"/>
+    <circle cx="-50" cy="15" r="3.5" fill="#FF69B4"/>
+    <ellipse cx="-16" cy="-22" rx="10" ry="18" fill="#FFAB91"/>
+    <ellipse cx="16" cy="-22" rx="10" ry="18" fill="#FFAB91"/>
+    <g fill="none" stroke="#2C2C2C" stroke-width="3" opacity="0.85">
+      <circle cx="-10" cy="8" r="10"/>
+      <circle cx="14" cy="8" r="10"/>
+      <path d="M0 8 L4 8"/>
+    </g>
+    <circle cx="-10" cy="10" r="3.2" fill="#2C2C2C"/>
+    <circle cx="14" cy="10" r="3.2" fill="#2C2C2C"/>
+    <path d="M-6 28 C6 40 26 36 34 26" fill="none" stroke="#2C2C2C" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Signature -->
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT-5.2</text>
 </svg>

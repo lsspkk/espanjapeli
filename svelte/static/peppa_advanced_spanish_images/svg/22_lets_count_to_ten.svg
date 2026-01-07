@@ -1,111 +1,136 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <!-- Background: Classroom -->
   <defs>
-    <linearGradient id="countBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFF9C4"/>
-      <stop offset="100%" stop-color="#FFF59D"/>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#FFF2F6"/>
     </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0F8FF"/>
+      <stop offset="1" stop-color="#D9ECFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
   </defs>
-  <rect width="400" height="400" fill="url(#countBg)"/>
-  
-  <!-- Numbers displayed -->
-  <g font-family="Arial, sans-serif" font-weight="bold" fill="#333">
-    <text x="80" y="120" font-size="48" fill="#E53935">1</text>
-    <text x="140" y="120" font-size="48" fill="#FF6F00">2</text>
-    <text x="200" y="120" font-size="48" fill="#FFEB3B">3</text>
-    <text x="260" y="120" font-size="48" fill="#4CAF50">4</text>
-    <text x="320" y="120" font-size="48" fill="#2196F3">5</text>
-    <text x="80" y="200" font-size="48" fill="#3F51B5">6</text>
-    <text x="140" y="200" font-size="48" fill="#9C27B0">7</text>
-    <text x="200" y="200" font-size="48" fill="#E91E63">8</text>
-    <text x="260" y="200" font-size="48" fill="#FF5722">9</text>
-    <text x="320" y="200" font-size="48" fill="#00BCD4">10</text>
+
+  <!-- Background: classroom -->
+  <rect width="400" height="400" fill="url(#wall)"/>
+  <rect x="0" y="265" width="400" height="135" fill="url(#floor)"/>
+
+  <!-- Simple star poster -->
+  <g transform="translate(52 70)" filter="url(#shadow)">
+    <rect x="0" y="0" width="76" height="60" rx="12" fill="#FFFFFF" opacity="0.9"/>
+    <path d="M38,8 l8,16 l18,2 l-13,12 l4,18 l-17,-9 l-17,9 l4,-18 l-13,-12 l18,-2z"
+          fill="#FFD54F" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
   </g>
-  
-  <!-- Counting objects -->
-  <!-- 1 apple -->
-  <g transform="translate(80, 250)">
-    <circle cx="0" cy="0" r="20" fill="#E53935"/>
-    <path d="M 0 -20 L -5 -30 L 5 -30 Z" fill="#4CAF50"/>
+
+  <!-- Number cards 1–10 row -->
+  <g transform="translate(40 270)" filter="url(#shadow)">
+    <!-- cards (bright colors) -->
+    <g font-family="Arial, sans-serif" font-weight="700" font-size="20" fill="#111">
+      <g transform="translate(0 0)"><rect x="0" y="0" width="32" height="42" rx="8" fill="#FFCC80" stroke="#333" stroke-width="2"/><text x="16" y="28" text-anchor="middle">1</text></g>
+      <g transform="translate(36 0)"><rect x="0" y="0" width="32" height="42" rx="8" fill="#90CAF9" stroke="#333" stroke-width="2"/><text x="16" y="28" text-anchor="middle">2</text></g>
+      <g transform="translate(72 0)"><rect x="0" y="0" width="32" height="42" rx="8" fill="#A5D6A7" stroke="#333" stroke-width="2"/><text x="16" y="28" text-anchor="middle">3</text></g>
+      <g transform="translate(108 0)"><rect x="0" y="0" width="32" height="42" rx="8" fill="#CE93D8" stroke="#333" stroke-width="2"/><text x="16" y="28" text-anchor="middle">4</text></g>
+      <g transform="translate(144 0)"><rect x="0" y="0" width="32" height="42" rx="8" fill="#FFF59D" stroke="#333" stroke-width="2"/><text x="16" y="28" text-anchor="middle">5</text></g>
+      <g transform="translate(180 0)"><rect x="0" y="0" width="32" height="42" rx="8" fill="#FFAB91" stroke="#333" stroke-width="2"/><text x="16" y="28" text-anchor="middle">6</text></g>
+      <g transform="translate(216 0)"><rect x="0" y="0" width="32" height="42" rx="8" fill="#80DEEA" stroke="#333" stroke-width="2"/><text x="16" y="28" text-anchor="middle">7</text></g>
+      <g transform="translate(252 0)"><rect x="0" y="0" width="32" height="42" rx="8" fill="#B39DDB" stroke="#333" stroke-width="2"/><text x="16" y="28" text-anchor="middle">8</text></g>
+      <g transform="translate(288 0)"><rect x="0" y="0" width="32" height="42" rx="8" fill="#9FA8DA" stroke="#333" stroke-width="2"/><text x="16" y="28" text-anchor="middle">9</text></g>
+      <g transform="translate(324 0)"><rect x="0" y="0" width="36" height="42" rx="8" fill="#FFD180" stroke="#333" stroke-width="2"/><text x="18" y="28" text-anchor="middle">10</text></g>
+    </g>
   </g>
-  
-  <!-- 2 stars -->
-  <g fill="#FFD700" transform="translate(140, 250)">
-    <polygon points="0,-15 2,-10 7,-10 3,-6 5,0 0,-3 -5,0 -3,-6 -7,-10 -2,-10"/>
-    <polygon points="15,-10 16,-6 19,-6 17,-4 18,-1 15,-2 12,-1 13,-4 11,-6 14,-6"/>
+
+  <!-- Madame Gazelle holding big "10" card (left) -->
+  <g transform="translate(105 205)" filter="url(#shadow)">
+    <ellipse cx="0" cy="70" rx="40" ry="52" fill="#9C27B0"/>
+    <rect x="-18" y="110" width="10" height="44" rx="5" fill="#F9C6CF"/>
+    <rect x="8" y="110" width="10" height="44" rx="5" fill="#F9C6CF"/>
+    <ellipse cx="-13" cy="160" rx="12" ry="7" fill="#333"/>
+    <ellipse cx="13" cy="160" rx="12" ry="7" fill="#333"/>
+    <!-- arm holding card -->
+    <path d="M28,56 Q58,52 72,40" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="72" cy="40" r="9" fill="#F9C6CF"/>
+    <g transform="translate(106 18)">
+      <rect x="-32" y="0" width="64" height="74" rx="12" fill="#FFFFFF" stroke="#333" stroke-width="3"/>
+      <text x="0" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="32" fill="#111">10</text>
+    </g>
+    <!-- head -->
+    <ellipse cx="0" cy="2" rx="34" ry="38" fill="#FFF8E1"/>
+    <path d="M-10,-32 Q-16,-54 -6,-60" stroke="#8D6E63" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M10,-32 Q16,-54 6,-60" stroke="#8D6E63" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-8" cy="-6" rx="6" ry="8" fill="#FFFFFF"/>
+    <ellipse cx="10" cy="-6" rx="6" ry="8" fill="#FFFFFF"/>
+    <circle cx="-6" cy="-4" r="3" fill="#333"/>
+    <circle cx="12" cy="-4" r="3" fill="#333"/>
+    <path d="M2,8 Q12,12 22,8" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
   </g>
-  
-  <!-- 3 hearts -->
-  <g fill="#FF6B6B" transform="translate(200, 250)">
-    <path d="M -20 0 C -20 -10, -10 -15, 0 -10 C 10 -15, 20 -10, 20 0 C 20 10, 0 20, 0 20 C 0 20, -20 10, -20 0" opacity="0.8"/>
-    <path d="M 0 0 C 0 -10, 10 -15, 20 -10 C 30 -15, 40 -10, 40 0 C 40 10, 20 20, 20 20 C 20 20, 0 10, 0 0" opacity="0.8"/>
-    <path d="M 20 0 C 20 -10, 30 -15, 40 -10 C 50 -15, 60 -10, 60 0 C 60 10, 40 20, 40 20 C 40 20, 20 10, 20 0" opacity="0.8"/>
+
+  <!-- Peppa pointing at row (center) -->
+  <g transform="translate(210 235)" filter="url(#shadow)">
+    <ellipse cx="0" cy="58" rx="54" ry="58" fill="#E63946"/>
+    <rect x="-22" y="106" width="12" height="50" rx="6" fill="#F9C6CF"/>
+    <rect x="10" y="106" width="12" height="50" rx="6" fill="#F9C6CF"/>
+    <ellipse cx="-16" cy="160" rx="14" ry="8" fill="#333"/>
+    <ellipse cx="16" cy="160" rx="14" ry="8" fill="#333"/>
+    <!-- pointing arm toward cards -->
+    <path d="M40,54 Q78,70 100,90" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="100" cy="90" r="9" fill="#F9C6CF"/>
+    <path d="M-40,54 Q-56,76 -48,96" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <circle cx="-48" cy="96" r="9" fill="#F9C6CF"/>
+    <!-- head -->
+    <ellipse cx="0" cy="-12" rx="58" ry="44" fill="#F9C6CF"/>
+    <ellipse cx="52" cy="-12" rx="20" ry="15" fill="#F9C6CF"/>
+    <circle cx="60" cy="-16" r="4" fill="#FF69B4"/>
+    <circle cx="60" cy="-8" r="4" fill="#FF69B4"/>
+    <ellipse cx="-18" cy="-48" rx="11" ry="19" fill="#F9C6CF"/>
+    <ellipse cx="18" cy="-48" rx="11" ry="19" fill="#F9C6CF"/>
+    <ellipse cx="-12" cy="-20" rx="7" ry="9" fill="#FFFFFF"/>
+    <ellipse cx="14" cy="-20" rx="7" ry="9" fill="#FFFFFF"/>
+    <circle cx="-10" cy="-18" r="3.2" fill="#333"/>
+    <circle cx="16" cy="-18" r="3.2" fill="#333"/>
+    <path d="M6,0 Q18,14 34,2" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="-30" cy="2" r="9" fill="#FF9DB0" opacity="0.55"/>
   </g>
-  
-  <!-- 4 circles -->
-  <g transform="translate(260, 250)">
-    <circle cx="-15" cy="-10" r="12" fill="#4CAF50"/>
-    <circle cx="15" cy="-10" r="12" fill="#4CAF50"/>
-    <circle cx="-15" cy="10" r="12" fill="#4CAF50"/>
-    <circle cx="15" cy="10" r="12" fill="#4CAF50"/>
+
+  <!-- George with ten finger marks (right) -->
+  <g transform="translate(320 250)" filter="url(#shadow)">
+    <ellipse cx="0" cy="35" rx="32" ry="38" fill="#6B9BD2"/>
+    <rect x="-16" y="62" width="10" height="38" rx="5" fill="#F9C6CF"/>
+    <rect x="6" y="62" width="10" height="38" rx="5" fill="#F9C6CF"/>
+    <ellipse cx="-11" cy="104" rx="12" ry="7" fill="#333"/>
+    <ellipse cx="11" cy="104" rx="12" ry="7" fill="#333"/>
+    <!-- hands up with finger marks -->
+    <path d="M-22,30 Q-40,18 -36,0" stroke="#F9C6CF" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <path d="M22,30 Q40,18 36,0" stroke="#F9C6CF" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <circle cx="-36" cy="0" r="7" fill="#F9C6CF"/>
+    <circle cx="36" cy="0" r="7" fill="#F9C6CF"/>
+    <g stroke="#333" stroke-width="2.5" stroke-linecap="round" opacity="0.6">
+      <!-- 10 short finger marks above hands -->
+      <line x1="-54" y1="-22" x2="-54" y2="-34"/>
+      <line x1="-46" y1="-22" x2="-46" y2="-34"/>
+      <line x1="-38" y1="-22" x2="-38" y2="-34"/>
+      <line x1="-30" y1="-22" x2="-30" y2="-34"/>
+      <line x1="-22" y1="-22" x2="-22" y2="-34"/>
+      <line x1="22" y1="-22" x2="22" y2="-34"/>
+      <line x1="30" y1="-22" x2="30" y2="-34"/>
+      <line x1="38" y1="-22" x2="38" y2="-34"/>
+      <line x1="46" y1="-22" x2="46" y2="-34"/>
+      <line x1="54" y1="-22" x2="54" y2="-34"/>
+    </g>
+    <!-- head -->
+    <ellipse cx="0" cy="-10" rx="36" ry="30" fill="#F9C6CF"/>
+    <ellipse cx="26" cy="-10" rx="12" ry="10" fill="#F9C6CF"/>
+    <circle cx="29" cy="-13" r="2.6" fill="#FF69B4"/>
+    <circle cx="29" cy="-7" r="2.6" fill="#FF69B4"/>
+    <ellipse cx="-12" cy="-36" rx="7" ry="13" fill="#F9C6CF"/>
+    <ellipse cx="12" cy="-36" rx="7" ry="13" fill="#F9C6CF"/>
+    <ellipse cx="-8" cy="-14" rx="6" ry="8" fill="#FFFFFF"/>
+    <ellipse cx="10" cy="-14" rx="6" ry="8" fill="#FFFFFF"/>
+    <circle cx="-8" cy="-14" r="3" fill="#333"/>
+    <circle cx="10" cy="-14" r="3" fill="#333"/>
+    <path d="M-2,-2 Q4,2 10,-2" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
   </g>
-  
-  <!-- 5 triangles -->
-  <g fill="#2196F3" transform="translate(320, 250)">
-    <polygon points="0,-15 -10,5 10,5"/>
-    <polygon points="-20,-5 -30,15 -10,15"/>
-    <polygon points="20,-5 10,15 30,15"/>
-    <polygon points="-10,10 -15,25 -5,25"/>
-    <polygon points="10,10 5,25 15,25"/>
-  </g>
-  
-  <!-- Peppa counting -->
-  <g transform="translate(200, 320)">
-    <!-- Body (red dress) -->
-    <ellipse cx="0" cy="40" rx="45" ry="50" fill="#E63946"/>
-    
-    <!-- Legs (sitting) -->
-    <rect x="-25" y="80" width="12" height="30" rx="6" fill="#F9C6CF"/>
-    <rect x="13" y="80" width="12" height="30" rx="6" fill="#F9C6CF"/>
-    
-    <!-- Arms (pointing/counting) -->
-    <path d="M -40 35 Q -60 15 -50 -5" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="-50" cy="-5" r="12" fill="#F9C6CF"/>
-    <path d="M 40 40 Q 55 60 50 80" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="50" cy="80" r="12" fill="#F9C6CF"/>
-    
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
-    
-    <!-- Snout -->
-    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
-    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
-    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
-    
-    <!-- Ears -->
-    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    
-    <!-- Eyes (looking at numbers) -->
-    <ellipse cx="-10" cy="-55" rx="8" ry="10" fill="white"/>
-    <ellipse cx="15" cy="-55" rx="8" ry="10" fill="white"/>
-    <circle cx="-8" cy="-53" r="4" fill="#333"/>
-    <circle cx="17" cy="-53" r="4" fill="#333"/>
-    
-    <!-- Happy smile -->
-    <path d="M -5 -30 Q 10 -20 25 -30" stroke="#333" stroke-width="3" fill="none"/>
-    
-    <!-- Rosy cheeks -->
-    <circle cx="-20" cy="-35" r="10" fill="#FFB6C1" opacity="0.6"/>
-    <circle cx="30" cy="-35" r="10" fill="#FFB6C1" opacity="0.6"/>
-  </g>
-  
-  <!-- Finger pointing at numbers -->
-  <g stroke="#333" stroke-width="3" fill="none" opacity="0.5">
-    <path d="M 200 280 Q 100 200 80 250"/>
-  </g>
-  
-  <!-- Signature -->
-  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Composer 1</text>
-  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.84">GPT 5.2</text>
 </svg>

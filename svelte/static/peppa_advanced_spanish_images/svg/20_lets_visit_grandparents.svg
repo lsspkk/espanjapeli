@@ -1,119 +1,211 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <!-- Background: Grandparents' house -->
   <defs>
-    <linearGradient id="grandparentsBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#81D4FA"/>
-      <stop offset="100%" stop-color="#BBDEFB"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8FD9FF"/>
+      <stop offset="1" stop-color="#F2FDFF"/>
     </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9BE7A7"/>
+      <stop offset="1" stop-color="#57C66C"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
   </defs>
-  <rect width="400" height="400" fill="url(#grandparentsBg)"/>
-  
-  <!-- Grandparents' house -->
-  <g transform="translate(200, 200)">
-    <!-- Building -->
-    <rect x="-100" y="0" width="200" height="150" fill="#FFF9C4"/>
-    <!-- Roof -->
-    <path d="M -110 0 L 0 -60 L 110 0 Z" fill="#E53935"/>
-    <!-- Chimney -->
-    <rect x="60" y="-50" width="25" height="50" fill="#8D6E63"/>
-    <!-- Smoke -->
-    <g fill="#B0BEC5" opacity="0.6">
-      <circle cx="72" cy="-60" r="8"/>
-      <circle cx="75" cy="-75" r="10"/>
-      <circle cx="78" cy="-90" r="7"/>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <path d="M0,285 Q200,250 400,290 L400,400 L0,400 Z" fill="url(#grass)"/>
+
+  <!-- Garden fence + gate -->
+  <g transform="translate(40 210)" filter="url(#shadow)">
+    <rect x="0" y="38" width="320" height="110" rx="18" fill="#E8F5E9" stroke="#333" stroke-width="3"/>
+    <path d="M0,80 H320" stroke="#333" stroke-width="2" opacity="0.35"/>
+    <!-- gate opening (center) -->
+    <rect x="136" y="38" width="72" height="110" rx="14" fill="#C8E6C9" stroke="#333" stroke-width="3"/>
+    <circle cx="200" cy="96" r="5" fill="#333"/>
+    <!-- gate posts -->
+    <rect x="126" y="28" width="10" height="130" rx="5" fill="#8D6E63"/>
+    <rect x="208" y="28" width="10" height="130" rx="5" fill="#8D6E63"/>
+  </g>
+
+  <!-- Vegetables big shapes (right garden) -->
+  <g transform="translate(240 260)" filter="url(#shadow)" opacity="0.98">
+    <!-- carrot row -->
+    <g transform="translate(0 40)">
+      <path d="M0,30 c10,-22 18,-22 28,0 c-6,16 -22,16 -28,0z" fill="#FB8C00" stroke="#333" stroke-width="2"/>
+      <path d="M14,0 c-6,6 -10,10 -12,16 c8,0 16,0 24,0 c-2,-6 -6,-10 -12,-16z" fill="#43A047" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
     </g>
-    <!-- Door -->
-    <rect x="-30" y="80" width="60" height="70" fill="#8D6E63"/>
-    <circle cx="0" cy="115" r="5" fill="#FFD54F"/>
-    <!-- Windows -->
-    <rect x="-80" y="30" width="40" height="40" fill="#4FC3F7" stroke="#333" stroke-width="2"/>
-    <rect x="40" y="30" width="40" height="40" fill="#4FC3F7" stroke="#333" stroke-width="2"/>
-    <!-- Window crosses -->
-    <line x1="-60" y1="30" x2="-60" y2="70" stroke="#333" stroke-width="2"/>
-    <line x1="-80" y1="50" x2="-40" y2="50" stroke="#333" stroke-width="2"/>
-    <line x1="60" y1="30" x2="60" y2="70" stroke="#333" stroke-width="2"/>
-    <line x1="40" y1="50" x2="80" y2="50" stroke="#333" stroke-width="2"/>
-    <!-- Flower boxes -->
-    <rect x="-85" y="70" width="50" height="15" fill="#4CAF50"/>
-    <rect x="35" y="70" width="50" height="15" fill="#4CAF50"/>
-    <!-- Flowers -->
-    <circle cx="-70" cy="65" r="5" fill="#FF6B6B"/>
-    <circle cx="-60" cy="65" r="5" fill="#FFD54F"/>
-    <circle cx="-50" cy="65" r="5" fill="#FF6B6B"/>
-    <circle cx="50" cy="65" r="5" fill="#FF6B6B"/>
-    <circle cx="60" cy="65" r="5" fill="#FFD54F"/>
-    <circle cx="70" cy="65" r="5" fill="#FF6B6B"/>
+    <g transform="translate(52 40)">
+      <path d="M0,30 c10,-22 18,-22 28,0 c-6,16 -22,16 -28,0z" fill="#FB8C00" stroke="#333" stroke-width="2"/>
+      <path d="M14,0 c-6,6 -10,10 -12,16 c8,0 16,0 24,0 c-2,-6 -6,-10 -12,-16z" fill="#43A047" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+    </g>
+    <!-- pumpkin patch -->
+    <g transform="translate(0 0)">
+      <ellipse cx="44" cy="22" rx="40" ry="26" fill="#FFB74D" stroke="#333" stroke-width="3"/>
+      <path d="M20,22 c0,-18 12,-24 12,0 c0,18 -12,24 -12,0z" fill="#FFA726" opacity="0.8"/>
+      <path d="M44,20 c0,-22 16,-26 16,0 c0,22 -16,26 -16,0z" fill="#FFA726" opacity="0.8"/>
+      <path d="M68,22 c0,-18 12,-24 12,0 c0,18 -12,24 -12,0z" fill="#FFA726" opacity="0.8"/>
+      <path d="M44,-4 c0,-12 10,-12 10,0" stroke="#2E7D32" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <!-- watering can -->
+    <g transform="translate(110 30)">
+      <path d="M0,30 h40 v28 c0,10 -8,18 -18,18 h-10 c-8,0 -12,-6 -12,-14z" fill="#90CAF9" stroke="#333" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M40,40 h22 l-6,10 h-16z" fill="#90CAF9" stroke="#333" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M8,30 c0,-18 24,-18 24,0" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="52" cy="54" r="3" fill="#333"/>
+      <circle cx="58" cy="58" r="3" fill="#333" opacity="0.8"/>
+    </g>
   </g>
-  
-  <!-- Grass -->
-  <ellipse cx="200" cy="400" rx="250" ry="60" fill="#7BC043"/>
-  
-  <!-- Path to house -->
-  <path d="M 200 400 Q 200 350 200 300 Q 200 250 200 200" stroke="#9E9E9E" stroke-width="40" fill="none"/>
-  <path d="M 200 400 Q 200 350 200 300 Q 200 250 200 200" stroke="#FFD54F" stroke-width="5" fill="none"/>
-  
-  <!-- Peppa walking to house -->
-  <g transform="translate(200, 320)">
-    <!-- Body (red dress) -->
-    <ellipse cx="0" cy="50" rx="45" ry="50" fill="#E63946"/>
-    
-    <!-- Legs (walking) -->
-    <rect x="-25" y="90" width="12" height="50" rx="6" fill="#F9C6CF" transform="rotate(-10 -25 115)"/>
-    <rect x="13" y="90" width="12" height="50" rx="6" fill="#F9C6CF" transform="rotate(10 13 115)"/>
-    
-    <!-- Shoes -->
-    <ellipse cx="-30" cy="145" rx="15" ry="8" fill="#333" transform="rotate(-10)"/>
-    <ellipse cx="30" cy="145" rx="15" ry="8" fill="#333" transform="rotate(10)"/>
-    
-    <!-- Arms (walking) -->
-    <path d="M -40 40 Q -60 20 -50 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="-50" cy="0" r="12" fill="#F9C6CF"/>
-    <path d="M 40 40 Q 60 60 55 80" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="55" cy="80" r="12" fill="#F9C6CF"/>
-    
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
-    
-    <!-- Snout -->
-    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
-    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
-    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
-    
-    <!-- Ears -->
-    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    
-    <!-- Eyes (happy) -->
-    <ellipse cx="-10" cy="-55" rx="8" ry="10" fill="white"/>
-    <ellipse cx="15" cy="-55" rx="8" ry="10" fill="white"/>
-    <circle cx="-8" cy="-53" r="4" fill="#333"/>
-    <circle cx="17" cy="-53" r="4" fill="#333"/>
-    
-    <!-- Happy smile -->
-    <path d="M -5 -30 Q 10 -20 25 -30" stroke="#333" stroke-width="3" fill="none"/>
-    
-    <!-- Rosy cheeks -->
-    <circle cx="-20" cy="-35" r="10" fill="#FFB6C1" opacity="0.6"/>
-    <circle cx="30" cy="-35" r="10" fill="#FFB6C1" opacity="0.6"/>
+
+  <!-- Granny & Grandpa waving (right, inside garden) -->
+  <g transform="translate(305 305)" filter="url(#shadow)">
+    <!-- Grandpa (slightly back) -->
+    <g transform="translate(-40 -6)" opacity="0.98">
+      <ellipse cx="0" cy="58" rx="44" ry="54" fill="#FF8A65"/>
+      <rect x="-18" y="98" width="10" height="44" rx="5" fill="#F9C6CF"/>
+      <rect x="8" y="98" width="10" height="44" rx="5" fill="#F9C6CF"/>
+      <ellipse cx="-13" cy="146" rx="12" ry="7" fill="#333"/>
+      <ellipse cx="13" cy="146" rx="12" ry="7" fill="#333"/>
+      <!-- waving arm -->
+      <path d="M-28,40 Q-54,24 -46,2" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+      <circle cx="-46" cy="2" r="9" fill="#F9C6CF"/>
+      <!-- head -->
+      <ellipse cx="0" cy="-8" rx="44" ry="34" fill="#FFAB91"/>
+      <ellipse cx="38" cy="-8" rx="16" ry="12" fill="#FFAB91"/>
+      <circle cx="44" cy="-12" r="3.2" fill="#FF69B4"/>
+      <circle cx="44" cy="-4" r="3.2" fill="#FF69B4"/>
+      <ellipse cx="-14" cy="-38" rx="9" ry="16" fill="#FFAB91"/>
+      <ellipse cx="14" cy="-38" rx="9" ry="16" fill="#FFAB91"/>
+      <ellipse cx="-10" cy="-14" rx="7" ry="9" fill="#FFFFFF"/>
+      <ellipse cx="10" cy="-14" rx="7" ry="9" fill="#FFFFFF"/>
+      <circle cx="-10" cy="-13" r="3" fill="#333"/>
+      <circle cx="10" cy="-13" r="3" fill="#333"/>
+      <path d="M-2,6 Q10,14 22,6" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <!-- glasses -->
+      <circle cx="-8" cy="-14" r="10" fill="none" stroke="#333" stroke-width="2"/>
+      <circle cx="12" cy="-14" r="10" fill="none" stroke="#333" stroke-width="2"/>
+      <path d="M2,-14 h2" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <!-- Granny (front) -->
+    <g transform="translate(18 8)">
+      <ellipse cx="0" cy="58" rx="44" ry="54" fill="#FF8A65"/>
+      <rect x="-18" y="98" width="10" height="44" rx="5" fill="#F9C6CF"/>
+      <rect x="8" y="98" width="10" height="44" rx="5" fill="#F9C6CF"/>
+      <ellipse cx="-13" cy="146" rx="12" ry="7" fill="#333"/>
+      <ellipse cx="13" cy="146" rx="12" ry="7" fill="#333"/>
+      <!-- waving arm -->
+      <path d="M28,40 Q54,24 46,2" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+      <circle cx="46" cy="2" r="9" fill="#F9C6CF"/>
+      <!-- head -->
+      <ellipse cx="0" cy="-8" rx="44" ry="34" fill="#FFAB91"/>
+      <ellipse cx="38" cy="-8" rx="16" ry="12" fill="#FFAB91"/>
+      <circle cx="44" cy="-12" r="3.2" fill="#FF69B4"/>
+      <circle cx="44" cy="-4" r="3.2" fill="#FF69B4"/>
+      <ellipse cx="-14" cy="-38" rx="9" ry="16" fill="#FFAB91"/>
+      <ellipse cx="14" cy="-38" rx="9" ry="16" fill="#FFAB91"/>
+      <ellipse cx="-10" cy="-14" rx="7" ry="9" fill="#FFFFFF"/>
+      <ellipse cx="10" cy="-14" rx="7" ry="9" fill="#FFFFFF"/>
+      <circle cx="-10" cy="-13" r="3" fill="#333"/>
+      <circle cx="10" cy="-13" r="3" fill="#333"/>
+      <path d="M-2,6 Q10,14 22,6" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <!-- little eyelashes -->
+      <g stroke="#333" stroke-width="2" opacity="0.5">
+        <path d="M-20,-22 l-8,-6"/>
+        <path d="M-20,-18 l-10,-2"/>
+      </g>
+    </g>
   </g>
-  
-  <!-- Grandparents in window (simplified) -->
-  <g transform="translate(200, 230)">
-    <!-- Grandma -->
-    <circle cx="-40" cy="0" r="15" fill="#FFF8E1"/>
-    <ellipse cx="-40" cy="20" rx="12" ry="15" fill="#9C27B0"/>
-    <!-- Grandpa -->
-    <circle cx="40" cy="0" r="15" fill="#FFF8E1"/>
-    <ellipse cx="40" cy="20" rx="12" ry="15" fill="#8D6E63"/>
-    <!-- Glasses -->
-    <circle cx="-40" cy="0" r="8" fill="none" stroke="#333" stroke-width="1"/>
-    <circle cx="40" cy="0" r="8" fill="none" stroke="#333" stroke-width="1"/>
+
+  <!-- Visitors arriving (left): Mummy with gift, Peppa waving, George with dino -->
+  <g transform="translate(110 320)" filter="url(#shadow)">
+    <!-- Mummy (back/left) -->
+    <g transform="translate(-40 -12)" opacity="0.98">
+      <ellipse cx="0" cy="58" rx="44" ry="54" fill="#FF8A65"/>
+      <!-- arms -->
+      <path d="M-26,40 Q-56,54 -52,82" stroke="#F9C6CF" stroke-width="12" stroke-linecap="round" fill="none"/>
+      <path d="M26,40 Q52,54 48,82" stroke="#F9C6CF" stroke-width="12" stroke-linecap="round" fill="none"/>
+      <circle cx="-52" cy="82" r="8" fill="#F9C6CF"/>
+      <circle cx="48" cy="82" r="8" fill="#F9C6CF"/>
+      <!-- gift/pie box -->
+      <g transform="translate(58 78)">
+        <rect x="-20" y="-16" width="40" height="30" rx="8" fill="#FFCC80" stroke="#333" stroke-width="2"/>
+        <path d="M-20,-6 h40" stroke="#333" stroke-width="2" opacity="0.35"/>
+        <path d="M0,-16 v30" stroke="#E63946" stroke-width="3" opacity="0.7"/>
+        <path d="M-10,-16 c4,-10 16,-10 20,0" stroke="#E63946" stroke-width="3" fill="none"/>
+      </g>
+      <!-- head -->
+      <ellipse cx="0" cy="-8" rx="44" ry="34" fill="#FFAB91"/>
+      <ellipse cx="38" cy="-8" rx="16" ry="12" fill="#FFAB91"/>
+      <circle cx="44" cy="-12" r="3.2" fill="#FF69B4"/>
+      <circle cx="44" cy="-4" r="3.2" fill="#FF69B4"/>
+      <ellipse cx="-14" cy="-38" rx="9" ry="16" fill="#FFAB91"/>
+      <ellipse cx="14" cy="-38" rx="9" ry="16" fill="#FFAB91"/>
+      <ellipse cx="-10" cy="-14" rx="7" ry="9" fill="#FFFFFF"/>
+      <ellipse cx="10" cy="-14" rx="7" ry="9" fill="#FFFFFF"/>
+      <circle cx="-10" cy="-13" r="3" fill="#333"/>
+      <circle cx="10" cy="-13" r="3" fill="#333"/>
+      <path d="M-2,6 Q10,14 22,6" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <!-- Peppa waving -->
+    <g transform="translate(28 0)">
+      <ellipse cx="0" cy="58" rx="54" ry="58" fill="#E63946"/>
+      <rect x="-22" y="106" width="12" height="44" rx="6" fill="#F9C6CF"/>
+      <rect x="10" y="106" width="12" height="44" rx="6" fill="#F9C6CF"/>
+      <ellipse cx="-16" cy="150" rx="14" ry="8" fill="#333"/>
+      <ellipse cx="16" cy="150" rx="14" ry="8" fill="#333"/>
+      <!-- wave arm -->
+      <path d="M-38,40 Q-64,24 -56,2" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
+      <circle cx="-56" cy="2" r="9" fill="#F9C6CF"/>
+      <g stroke="#333" stroke-width="2" opacity="0.4">
+        <path d="M-78,-8 Q-70,-4 -78,0" fill="none"/>
+        <path d="M-80,8 Q-72,12 -80,16" fill="none"/>
+      </g>
+      <!-- head -->
+      <ellipse cx="0" cy="-12" rx="58" ry="44" fill="#F9C6CF"/>
+      <ellipse cx="52" cy="-12" rx="20" ry="15" fill="#F9C6CF"/>
+      <circle cx="60" cy="-16" r="4" fill="#FF69B4"/>
+      <circle cx="60" cy="-8" r="4" fill="#FF69B4"/>
+      <ellipse cx="-18" cy="-48" rx="11" ry="19" fill="#F9C6CF"/>
+      <ellipse cx="18" cy="-48" rx="11" ry="19" fill="#F9C6CF"/>
+      <ellipse cx="-12" cy="-20" rx="7" ry="9" fill="#FFFFFF"/>
+      <ellipse cx="14" cy="-20" rx="7" ry="9" fill="#FFFFFF"/>
+      <circle cx="-10" cy="-18" r="3.2" fill="#333"/>
+      <circle cx="16" cy="-18" r="3.2" fill="#333"/>
+      <path d="M6,0 Q18,14 34,2" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <circle cx="-30" cy="2" r="9" fill="#FF9DB0" opacity="0.55"/>
+    </g>
+
+    <!-- George with dino -->
+    <g transform="translate(106 16)">
+      <ellipse cx="0" cy="35" rx="32" ry="38" fill="#6B9BD2"/>
+      <rect x="-16" y="62" width="10" height="38" rx="5" fill="#F9C6CF"/>
+      <rect x="6" y="62" width="10" height="38" rx="5" fill="#F9C6CF"/>
+      <ellipse cx="-11" cy="104" rx="12" ry="7" fill="#333"/>
+      <ellipse cx="11" cy="104" rx="12" ry="7" fill="#333"/>
+      <path d="M22,30 Q40,22 44,6" stroke="#F9C6CF" stroke-width="12" stroke-linecap="round" fill="none"/>
+      <circle cx="44" cy="6" r="7" fill="#F9C6CF"/>
+      <g transform="translate(56 10)">
+        <ellipse cx="0" cy="0" rx="12" ry="16" fill="#4CAF50"/>
+        <ellipse cx="0" cy="-10" rx="8" ry="9" fill="#66BB6A"/>
+        <path d="M-7,-16 L0,-26 L7,-16" fill="#2E7D32"/>
+        <circle cx="-3" cy="-12" r="1.7" fill="#333"/>
+        <circle cx="3" cy="-12" r="1.7" fill="#333"/>
+      </g>
+      <ellipse cx="0" cy="-10" rx="36" ry="30" fill="#F9C6CF"/>
+      <ellipse cx="26" cy="-10" rx="12" ry="10" fill="#F9C6CF"/>
+      <circle cx="29" cy="-13" r="2.6" fill="#FF69B4"/>
+      <circle cx="29" cy="-7" r="2.6" fill="#FF69B4"/>
+      <ellipse cx="-12" cy="-36" rx="7" ry="13" fill="#F9C6CF"/>
+      <ellipse cx="12" cy="-36" rx="7" ry="13" fill="#F9C6CF"/>
+      <ellipse cx="-8" cy="-14" rx="6" ry="8" fill="#FFFFFF"/>
+      <ellipse cx="10" cy="-14" rx="6" ry="8" fill="#FFFFFF"/>
+      <circle cx="-8" cy="-14" r="3" fill="#333"/>
+      <circle cx="10" cy="-14" r="3" fill="#333"/>
+      <path d="M-2,-2 Q4,2 10,-2" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    </g>
   </g>
-  
-  <!-- Sun -->
-  <circle cx="80" cy="80" r="30" fill="#FFEB3B"/>
-  
-  <!-- Signature -->
-  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Composer 1</text>
-  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.84">GPT 5.2</text>
 </svg>

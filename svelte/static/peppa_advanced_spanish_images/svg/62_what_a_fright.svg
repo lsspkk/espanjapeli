@@ -1,30 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <rect width="400" height="400" fill="#FFF"/>
+<svg viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF9C4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE082;stop-opacity:1" />
+    </linearGradient>
+  </defs>
   
-  <!-- Surprise lines -->
-  <path d="M 200 150 L 200 100" stroke="#FFA500" stroke-width="4"/>
-  <path d="M 250 160 L 290 120" stroke="#FFA500" stroke-width="4"/>
-  <path d="M 150 160 L 110 120" stroke="#FFA500" stroke-width="4"/>
+  <!-- Background - warm living room -->
+  <rect width="400" height="400" fill="#FFF3E0"/>
   
-  <!-- Peppa Startled -->
-  <g transform="translate(200, 250)">
-    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#E63946"/>
-    <ellipse cx="0" cy="-30" rx="45" ry="35" fill="#F9C6CF"/>
-    <ellipse cx="35" cy="-30" rx="18" ry="14" fill="#F9C6CF"/>
-    <circle cx="42" cy="-33" r="4" fill="#FF69B4"/>
-    <circle cx="42" cy="-27" r="4" fill="#FF69B4"/>
-    <ellipse cx="-15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    <ellipse cx="15" cy="-65" rx="10" ry="18" fill="#F9C6CF"/>
-    
-    <!-- Wide Eyes -->
-    <circle cx="-5" cy="-35" r="5" fill="#FFF" stroke="#333" stroke-width="1"/>
-    <circle cx="12" cy="-35" r="5" fill="#FFF" stroke="#333" stroke-width="1"/>
-    <circle cx="-5" cy="-35" r="2" fill="#333"/>
-    <circle cx="12" cy="-35" r="2" fill="#333"/>
-    
-    <!-- Open Mouth -->
-    <ellipse cx="5" cy="-10" rx="10" ry="10" fill="#000"/>
-  </g>
+  <!-- Window with daylight -->
+  <rect x="280" y="60" width="90" height="100" fill="#87CEEB" stroke="#8D6E63" stroke-width="4"/>
+  <line x1="325" y1="60" x2="325" y2="160" stroke="#8D6E63" stroke-width="4"/>
+  <line x1="280" y1="110" x2="370" y2="110" stroke="#8D6E63" stroke-width="4"/>
+  <!-- Sun in window -->
+  <circle cx="310" cy="90" r="15" fill="#FFEB3B" opacity="0.8"/>
   
-  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Pro</text>
+  <!-- Floor -->
+  <rect x="0" y="300" width="400" height="100" fill="#FFCC80"/>
+  
+  <!-- Sofa (orange, on right side) -->
+  <rect x="290" y="230" width="100" height="70" fill="#FF9800" rx="8"/>
+  <rect x="290" y="230" width="100" height="20" fill="#FB8C00" rx="8"/>
+  <!-- Sofa arm -->
+  <rect x="375" y="220" width="20" height="80" fill="#FF9800" rx="5"/>
+  
+  <!-- Mr. Dinosaur on floor (between them) -->
+  <ellipse cx="220" cy="305" rx="10" ry="7" fill="#4CAF50"/>
+  <circle cx="220" cy="295" r="8" fill="#66BB6A"/>
+  <ellipse cx="218" cy="293" rx="1.5" ry="1.5" fill="#000000"/>
+  <ellipse cx="222" cy="293" rx="1.5" ry="1.5" fill="#000000"/>
+  <path d="M 220 297 Q 220 298 220 297" stroke="#000000" stroke-width="1" fill="none"/>
+  <!-- Tail -->
+  <path d="M 210 300 Q 205 302 208 305" fill="#4CAF50"/>
+  
+  <!-- Peppa Pig (center, surprised pose) -->
+  <!-- Legs -->
+  <ellipse cx="170" cy="285" rx="6" ry="15" fill="#E63946"/>
+  <ellipse cx="185" cy="285" rx="6" ry="15" fill="#E63946"/>
+  <!-- Feet -->
+  <ellipse cx="170" cy="298" rx="8" ry="5" fill="#000000"/>
+  <ellipse cx="185" cy="298" rx="8" ry="5" fill="#000000"/>
+  <!-- Dress body -->
+  <ellipse cx="178" cy="255" rx="25" ry="30" fill="#E63946"/>
+  <!-- Head -->
+  <circle cx="178" cy="210" r="32" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="193" cy="215" rx="15" ry="12" fill="#FF69B4"/>
+  <ellipse cx="190" cy="213" rx="3.5" ry="5" fill="#E91E63"/>
+  <ellipse cx="196" cy="213" rx="3.5" ry="5" fill="#E91E63"/>
+  <!-- Eyes (wide with surprise) -->
+  <circle cx="168" cy="200" r="6" fill="#000000"/>
+  <circle cx="169" cy="199" r="2" fill="#FFFFFF"/>
+  <circle cx="183" cy="200" r="6" fill="#000000"/>
+  <circle cx="184" cy="199" r="2" fill="#FFFFFF"/>
+  <!-- Mouth (perfect O of surprise) -->
+  <ellipse cx="178" cy="227" rx="6" ry="8" fill="#000000" opacity="0.7"/>
+  <!-- Ear -->
+  <ellipse cx="158" cy="195" rx="8" ry="12" fill="#F9C6CF"/>
+  <!-- Arms raised to cheeks in surprise -->
+  <ellipse cx="155" cy="215" rx="6" ry="18" fill="#F9C6CF" transform="rotate(-45 155 215)"/>
+  <ellipse cx="201" cy="215" rx="6" ry="18" fill="#F9C6CF" transform="rotate(45 201 215)"/>
+  <!-- Hands on cheeks -->
+  <ellipse cx="148" cy="205" rx="8" ry="7" fill="#F9C6CF"/>
+  <ellipse cx="208" cy="205" rx="8" ry="7" fill="#F9C6CF"/>
+  
+  <!-- George peeking from behind sofa (right side, grinning) -->
+  <!-- Part of head visible -->
+  <ellipse cx="310" cy="265" rx="20" ry="25" fill="#F9C6CF"/>
+  <!-- Part of snout -->
+  <ellipse cx="322" cy="270" rx="10" ry="8" fill="#FF69B4"/>
+  <ellipse cx="320" cy="268" rx="2.5" ry="3.5" fill="#E91E63"/>
+  <ellipse cx="324" cy="268" rx="2.5" ry="3.5" fill="#E91E63"/>
+  <!-- One eye visible (playful) -->
+  <circle cx="305" cy="258" r="4" fill="#000000"/>
+  <circle cx="306" cy="257" r="1.5" fill="#FFFFFF"/>
+  <!-- Big grin -->
+  <path d="M 302 275 Q 310 280 318 275" stroke="#000000" stroke-width="2" fill="none"/>
+  <!-- Part of blue shirt -->
+  <path d="M 295 280 Q 305 285 315 280 L 315 300 L 295 300 Z" fill="#6B9BD2"/>
+  <!-- One arm visible -->
+  <ellipse cx="295" cy="290" rx="5" ry="14" fill="#F9C6CF"/>
+  
+  <!-- Motion lines near George (showing recent movement) -->
+  <path d="M 285 255 Q 290 258 295 255" stroke="#B3E5FC" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 280 270 Q 285 273 290 270" stroke="#B3E5FC" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Claude Sonnet 4.5</text>
 </svg>

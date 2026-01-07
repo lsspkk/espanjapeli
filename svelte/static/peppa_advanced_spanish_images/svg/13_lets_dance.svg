@@ -1,95 +1,112 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <!-- Background: Party/dance floor -->
   <defs>
-    <radialGradient id="danceBg" cx="50%" cy="50%" r="70%">
-      <stop offset="0%" stop-color="#F3E5F5"/>
-      <stop offset="100%" stop-color="#E1BEE7"/>
-    </radialGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6E9FF"/>
+      <stop offset="1" stop-color="#EAD6FF"/>
+    </linearGradient>
+    <linearGradient id="rug" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A7E4A0"/>
+      <stop offset="1" stop-color="#73C86B"/>
+    </linearGradient>
   </defs>
-  <rect width="400" height="400" fill="url(#danceBg)"/>
-  
-  <!-- Dance floor pattern -->
-  <g opacity="0.3">
-    <rect x="0" y="250" width="400" height="150" fill="#9C27B0"/>
-    <rect x="0" y="250" width="200" height="150" fill="#7B1FA2"/>
+
+  <rect width="400" height="400" fill="url(#wall)"/>
+  <rect x="0" y="255" width="400" height="145" fill="#F2E6D8"/>
+
+  <!-- window -->
+  <g>
+    <rect x="265" y="55" width="105" height="85" rx="10" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="272" y="62" width="91" height="71" rx="8" fill="#BFEAFF"/>
+    <line x1="318" y1="62" x2="318" y2="133" stroke="#FFFFFF" stroke-width="3" opacity="0.9"/>
+    <line x1="272" y1="98" x2="363" y2="98" stroke="#FFFFFF" stroke-width="3" opacity="0.9"/>
+    <g fill="#FFFFFF" opacity="0.75">
+      <circle cx="302" cy="82" r="9"/>
+      <circle cx="315" cy="80" r="12"/>
+      <circle cx="330" cy="82" r="9"/>
+    </g>
   </g>
-  
-  <!-- Music notes floating -->
-  <g fill="#9C27B0" opacity="0.5">
-    <!-- Note 1 -->
-    <ellipse cx="80" cy="100" rx="8" ry="12"/>
-    <line x1="88" y1="100" x2="88" y2="60" stroke="#9C27B0" stroke-width="3"/>
-    <path d="M 88 60 Q 100 50 110 60" stroke="#9C27B0" stroke-width="3" fill="none"/>
-    
-    <!-- Note 2 -->
-    <ellipse cx="320" cy="120" rx="7" ry="10"/>
-    <line x1="327" y1="120" x2="327" y2="80" stroke="#9C27B0" stroke-width="3"/>
-    <path d="M 327 80 Q 340 70 350 80" stroke="#9C27B0" stroke-width="3" fill="none"/>
-    
-    <!-- Note 3 -->
-    <ellipse cx="150" cy="80" rx="6" ry="9"/>
-    <line x1="156" y1="80" x2="156" y2="50" stroke="#9C27B0" stroke-width="2"/>
-    <path d="M 156 50 Q 165 45 172 50" stroke="#9C27B0" stroke-width="2" fill="none"/>
+
+  <ellipse cx="205" cy="325" rx="170" ry="70" fill="url(#rug)" opacity="0.9"/>
+
+  <!-- speaker -->
+  <g transform="translate(200 295)">
+    <rect x="-22" y="-16" width="44" height="46" rx="8" fill="#2D6CDF"/>
+    <circle cx="0" cy="6" r="10" fill="#1A4AA6"/>
+    <circle cx="0" cy="6" r="6" fill="#89B5FF" opacity="0.8"/>
+    <circle cx="0" cy="-8" r="4" fill="#89B5FF" opacity="0.9"/>
   </g>
-  
-  <!-- Peppa dancing -->
-  <g transform="translate(200, 280)">
-    <!-- Body (red dress) -->
-    <ellipse cx="0" cy="40" rx="45" ry="50" fill="#E63946"/>
-    
-    <!-- Legs (dancing pose) -->
-    <rect x="-25" y="80" width="12" height="50" rx="6" fill="#F9C6CF" transform="rotate(-15 -25 105)"/>
-    <rect x="13" y="80" width="12" height="50" rx="6" fill="#F9C6CF" transform="rotate(15 13 105)"/>
-    
-    <!-- Shoes -->
-    <ellipse cx="-30" cy="135" rx="15" ry="8" fill="#333" transform="rotate(-15)"/>
-    <ellipse cx="30" cy="135" rx="15" ry="8" fill="#333" transform="rotate(15)"/>
-    
-    <!-- Arms (dancing) -->
-    <path d="M -40 30 Q -70 0 -60 -20" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="-60" cy="-20" r="12" fill="#F9C6CF"/>
-    <path d="M 40 30 Q 70 0 60 -20" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="60" cy="-20" r="12" fill="#F9C6CF"/>
-    
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
-    
-    <!-- Snout -->
-    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
-    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
-    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
-    
-    <!-- Ears -->
-    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    
-    <!-- Eyes (happy) -->
-    <ellipse cx="-10" cy="-55" rx="8" ry="10" fill="white"/>
-    <ellipse cx="15" cy="-55" rx="8" ry="10" fill="white"/>
-    <circle cx="-8" cy="-53" r="4" fill="#333"/>
-    <circle cx="17" cy="-53" r="4" fill="#333"/>
-    
-    <!-- Big smile -->
-    <path d="M -5 -30 Q 10 -15 25 -30" stroke="#333" stroke-width="3" fill="none"/>
-    
-    <!-- Rosy cheeks -->
-    <circle cx="-20" cy="-35" r="10" fill="#FFB6C1" opacity="0.6"/>
-    <circle cx="30" cy="-35" r="10" fill="#FFB6C1" opacity="0.6"/>
+
+  <!-- notes -->
+  <g opacity="0.9">
+    <g transform="translate(220 210)">
+      <ellipse cx="0" cy="40" rx="9" ry="7" fill="#E63946"/>
+      <rect x="6" y="0" width="6" height="40" fill="#E63946"/>
+      <path d="M 12 0 Q 30 2 32 14" stroke="#E63946" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(170 225)">
+      <ellipse cx="0" cy="32" rx="8" ry="6" fill="#333" opacity="0.85"/>
+      <rect x="5" y="-2" width="5" height="34" fill="#333" opacity="0.85"/>
+    </g>
   </g>
-  
-  <!-- Motion lines -->
-  <g stroke="#9C27B0" stroke-width="2" opacity="0.3">
-    <path d="M 120 300 Q 140 280 160 300"/>
-    <path d="M 240 300 Q 260 280 280 300"/>
+
+  <!-- Peppa dancing (left) -->
+  <g transform="translate(140 285)">
+    <ellipse cx="0" cy="58" rx="52" ry="56" fill="#E63946"/>
+    <rect x="-28" y="102" width="12" height="48" rx="6" fill="#F9C6CF" transform="rotate(-12 -28 122)"/>
+    <rect x="16" y="88" width="12" height="48" rx="6" fill="#F9C6CF" transform="rotate(28 16 108)"/>
+    <ellipse cx="-32" cy="152" rx="14" ry="8" fill="#333" transform="rotate(-12 -32 152)"/>
+    <ellipse cx="42" cy="140" rx="14" ry="8" fill="#333" transform="rotate(28 42 140)"/>
+
+    <path d="M -45 50 Q -70 22 -56 0" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <circle cx="-56" cy="0" r="10" fill="#F9C6CF"/>
+    <path d="M 45 50 Q 70 22 56 0" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <circle cx="56" cy="0" r="10" fill="#F9C6CF"/>
+
+    <ellipse cx="0" cy="-10" rx="56" ry="42" fill="#F9C6CF"/>
+    <ellipse cx="50" cy="-10" rx="20" ry="15" fill="#F9C6CF"/>
+    <circle cx="58" cy="-14" r="4" fill="#FF69B4"/>
+    <circle cx="58" cy="-6" r="4" fill="#FF69B4"/>
+    <ellipse cx="-18" cy="-44" rx="11" ry="19" fill="#F9C6CF"/>
+    <ellipse cx="18" cy="-44" rx="11" ry="19" fill="#F9C6CF"/>
+
+    <path d="M -18 -16 Q -10 -24 -2 -16" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 6 -16 Q 14 -24 22 -16" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 0 4 Q 14 18 28 4" stroke="#333" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <path d="M -42 72 Q -56 78 -50 92" stroke="#333" stroke-width="2" fill="none" opacity="0.35"/>
+    <path d="M 42 72 Q 56 78 50 92" stroke="#333" stroke-width="2" fill="none" opacity="0.35"/>
   </g>
-  
-  <!-- Sparkles -->
-  <g fill="#FFD700">
-    <polygon points="100,200 102,207 110,207 104,212 106,220 100,215 94,220 96,212 90,207 98,207"/>
-    <polygon points="300,180 302,187 310,187 304,192 306,200 300,195 294,200 296,192 290,187 298,187"/>
+
+  <!-- George dancing (right) holding Mr. Dinosaur -->
+  <g transform="translate(285 300)">
+    <ellipse cx="0" cy="35" rx="30" ry="36" fill="#6B9BD2"/>
+    <rect x="-14" y="62" width="9" height="38" rx="4" fill="#F9C6CF" transform="rotate(-8 -14 78)"/>
+    <rect x="6" y="62" width="9" height="38" rx="4" fill="#F9C6CF" transform="rotate(12 6 78)"/>
+    <ellipse cx="-16" cy="104" rx="12" ry="7" fill="#333"/>
+    <ellipse cx="16" cy="104" rx="12" ry="7" fill="#333"/>
+
+    <ellipse cx="0" cy="-10" rx="34" ry="28" fill="#F9C6CF"/>
+    <ellipse cx="26" cy="-10" rx="12" ry="10" fill="#F9C6CF"/>
+    <circle cx="29" cy="-13" r="2.6" fill="#FF69B4"/>
+    <circle cx="29" cy="-7" r="2.6" fill="#FF69B4"/>
+    <ellipse cx="-12" cy="-36" rx="7" ry="13" fill="#F9C6CF"/>
+    <ellipse cx="12" cy="-36" rx="7" ry="13" fill="#F9C6CF"/>
+
+    <circle cx="-6" cy="-14" r="3" fill="#333"/>
+    <circle cx="10" cy="-14" r="3" fill="#333"/>
+    <path d="M -2 -2 Q 3 2 8 -2" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <path d="M 22 30 Q 40 22 44 6" stroke="#F9C6CF" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <circle cx="44" cy="6" r="7" fill="#F9C6CF"/>
+
+    <g transform="translate(56 10)">
+      <ellipse cx="0" cy="0" rx="12" ry="16" fill="#4CAF50"/>
+      <ellipse cx="0" cy="-10" rx="8" ry="9" fill="#66BB6A"/>
+      <path d="M -7 -16 L 0 -26 L 7 -16" fill="#2E7D32"/>
+      <circle cx="-3" cy="-12" r="1.7" fill="#333"/>
+      <circle cx="3" cy="-12" r="1.7" fill="#333"/>
+    </g>
   </g>
-  
-  <!-- Signature -->
-  <text x="380" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#666">Composer 1</text>
-  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+
+   <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.82">GPT 5.2</text>
 </svg>

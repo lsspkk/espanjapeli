@@ -24,3 +24,6 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+
+# Generated preview files
+svg_preview.html
