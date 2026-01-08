@@ -1,30 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="This is Daddy Pig">
-  <rect width="100%" height="100%" fill="#FFFFFF"/>
-  <defs>
-    <style><![CDATA[
-      .ol { stroke: #222222; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
-      .softol { stroke: #222222; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
-    ]]></style>
-  </defs>
-<ellipse class="ol" cx="150.5" cy="69.5" rx="14.3" ry="16.5" fill="#F9C6CF"/>
-  <ellipse class="ol" cx="249.5" cy="69.5" rx="14.3" ry="16.5" fill="#F9C6CF"/>
-  <ellipse class="ol" cx="200" cy="130" rx="71.5" ry="57.75000000000001" fill="#F9C6CF"/>
-  <ellipse class="ol" cx="233.0" cy="141.0" rx="38.5" ry="26.400000000000002" fill="#F7A8B8"/>
-  <circle cx="216.5" cy="141.0" r="5.5" fill="#222222"/>
-  <circle cx="249.5" cy="141.0" r="5.5" fill="#222222"/>
-  <circle cx="178.0" cy="119.0" r="8.8" fill="#222222"/>
-  <circle cx="211.0" cy="119.0" r="8.8" fill="#222222"/>
-  <circle cx="145.0" cy="141.0" r="6.6000000000000005" fill="#F59FB4" opacity="0.9"/>
-  <path class="softol" d="M 189.0 157.5 Q 205.5 174.0 227.5 157.5" fill="none"/>
-  <circle class="softol" cx="172.5" cy="119.0" r="16.5" fill="none"/>
-  <circle class="softol" cx="216.5" cy="119.0" r="16.5" fill="none"/>
-  <path class="softol" d="M 189.0 119.0 L 200 119.0" fill="none"/>
-  <rect class="ol" x="123.0" y="190.5" width="154.0" height="165.0" rx="44.0" fill="#ED553B"/>
-  <path class="ol" d="M 150.5 240.0 Q 112.0 262.0 134.0 289.5" fill="none"/>
-  <path class="ol" d="M 249.5 240.0 Q 288.0 262.0 266.0 289.5" fill="none"/>
-  <path class="ol" d="M 161.5 355.5 L 161.5 394.0"/>
-  <path class="ol" d="M 238.5 355.5 L 238.5 394.0"/>
-  <ellipse class="ol" cx="161.5" cy="401.7" rx="19.8" ry="8.8" fill="#000000"/>
-  <ellipse class="ol" cx="238.5" cy="401.7" rx="19.8" ry="8.8" fill="#000000"/><circle cx="160" cy="205" r="4" fill="#222222" opacity="0.5"/><circle cx="175" cy="210" r="4" fill="#222222" opacity="0.5"/><circle cx="190" cy="212" r="4" fill="#222222" opacity="0.5"/><circle cx="205" cy="212" r="4" fill="#222222" opacity="0.5"/><circle cx="220" cy="210" r="4" fill="#222222" opacity="0.5"/><circle cx="235" cy="205" r="4" fill="#222222" opacity="0.5"/>  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Y este es Papá Pig (And this is Daddy Pig)">
+  <!-- Background: Simple study with light-green wall -->
+  <rect width="400" height="300" fill="#E8F5E9"/>
+  <!-- Wooden floor -->
+  <rect y="300" width="400" height="100" fill="#D7CCC8"/>
+
+  <!-- Small wooden table -->
+  <g transform="translate(280, 260)">
+    <rect x="0" y="0" width="100" height="10" rx="2" fill="#8D6E63" stroke="#222222" stroke-width="2"/>
+    <rect x="10" y="10" width="10" height="60" fill="#8D6E63" stroke="#222222" stroke-width="2"/>
+    <rect x="80" y="10" width="10" height="60" fill="#8D6E63" stroke="#222222" stroke-width="2"/>
+    
+    <!-- Model House on table -->
+    <g transform="translate(20, -60) scale(0.6)">
+      <!-- Hill -->
+      <path d="M -20 100 Q 50 80 120 100" fill="#81C784" stroke="#222222" stroke-width="3"/>
+      <!-- House -->
+      <rect x="25" y="30" width="50" height="60" fill="#FFF176" stroke="#222222" stroke-width="3"/>
+      <path d="M 20 35 L 50 5 L 80 35 Z" fill="#E63946" stroke="#222222" stroke-width="3"/>
+      <rect x="40" y="70" width="15" height="20" fill="#8D6E63" stroke="#222222" stroke-width="2"/>
+      <rect x="35" y="45" width="10" height="10" fill="#BBDEFB" stroke="#222222" stroke-width="2"/>
+      <rect x="55" y="45" width="10" height="10" fill="#BBDEFB" stroke="#222222" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Daddy Pig -->
+  <g transform="translate(180, 100)">
+    <!-- Body (Shirt) -->
+    <ellipse cx="0" cy="150" rx="75" ry="90" fill="#78C5E7" stroke="#222222" stroke-width="4"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="20" rx="70" ry="60" fill="#FFAB91" stroke="#222222" stroke-width="4"/>
+    <!-- Snout -->
+    <path d="M 40 10 Q 75 10 75 40 Q 75 70 40 70" fill="#FFAB91" stroke="#222222" stroke-width="4"/>
+    <circle cx="60" cy="30" r="4" fill="#FF69B4"/>
+    <circle cx="60" cy="50" r="4" fill="#FF69B4"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-20" cy="-35" rx="15" ry="25" fill="#F9C6CF" stroke="#222222" stroke-width="4"/>
+    <ellipse cx="25" cy="-35" rx="15" ry="25" fill="#F9C6CF" stroke="#222222" stroke-width="4"/>
+    
+    <!-- Glasses -->
+    <circle cx="-15" cy="20" r="22" fill="none" stroke="#222222" stroke-width="3"/>
+    <circle cx="35" cy="20" r="22" fill="none" stroke="#222222" stroke-width="3"/>
+    <line x1="7" y1="20" x2="13" y2="20" stroke="#222222" stroke-width="3"/>
+    
+    <!-- Eyes -->
+    <circle cx="-15" cy="20" r="4" fill="#222222"/>
+    <circle cx="35" cy="20" r="4" fill="#222222"/>
+    
+    <!-- Stubble -->
+    <g fill="#5B6470" opacity="0.6">
+      <circle cx="20" cy="75" r="1.5"/>
+      <circle cx="35" cy="80" r="1.5"/>
+      <circle cx="50" cy="78" r="1.5"/>
+      <circle cx="65" cy="72" r="1.5"/>
+      <circle cx="10" cy="82" r="1.5"/>
+      <circle cx="-5" cy="78" r="1.5"/>
+      <circle cx="-20" cy="72" r="1.5"/>
+    </g>
+    
+    <!-- Smile -->
+    <path d="M -15 50 Q 15 75 45 50" fill="none" stroke="#222222" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Waving Right Arm -->
+    <path d="M 70 140 Q 110 120 120 70" fill="none" stroke="#F9C6CF" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="120" cy="70" r="12" fill="#F9C6CF"/>
+    
+    <!-- Left Arm holding Blueprints -->
+    <path d="M -70 140 Q -100 160 -80 200" fill="none" stroke="#F9C6CF" stroke-width="15" stroke-linecap="round"/>
+    <g transform="translate(-115, 160) rotate(15)">
+      <rect x="0" y="0" width="80" height="30" rx="5" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+      <line x1="10" y1="5" x2="70" y2="5" stroke="#BBDEFB" stroke-width="1.5"/>
+      <line x1="10" y1="15" x2="70" y2="15" stroke="#BBDEFB" stroke-width="1.5"/>
+      <line x1="10" y1="25" x2="70" y2="25" stroke="#BBDEFB" stroke-width="1.5"/>
+    </g>
+    
+    <!-- Legs -->
+    <rect x="-35" y="235" width="12" height="45" fill="#F9C6CF" stroke="#222222" stroke-width="3"/>
+    <rect x="15" y="235" width="12" height="45" fill="#F9C6CF" stroke="#222222" stroke-width="3"/>
+    <!-- Shoes -->
+    <ellipse cx="-35" cy="285" rx="20" ry="10" fill="#222222"/>
+    <ellipse cx="21" cy="285" rx="20" ry="10" fill="#222222"/>
+  </g>
+
+  <!-- Signature -->
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Flash</text>
 </svg>

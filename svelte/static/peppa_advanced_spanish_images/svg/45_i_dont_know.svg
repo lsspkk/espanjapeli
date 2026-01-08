@@ -1,134 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <defs>
-    <linearGradient id="classroomBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFF3E0"/>
-      <stop offset="100%" stop-color="#FFE0B2"/>
-    </linearGradient>
-    <radialGradient id="windowLight" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFFDE7"/>
-      <stop offset="100%" stop-color="#FFFDE7" opacity="0"/>
-    </radialGradient>
-  </defs>
-
-  <!-- Classroom background -->
-  <rect width="400" height="400" fill="url(#classroomBg)"/>
-  <circle cx="300" cy="80" r="35" fill="url(#windowLight)" opacity="0.6"/>
-
-  <!-- Window -->
-  <rect x="250" y="60" width="100" height="80" rx="5" fill="#8D6E63"/>
-  <rect x="260" y="70" width="80" height="60" fill="#E3F2FD"/>
-  <rect x="250" y="110" width="100" height="8" fill="#8D6E63"/>
-
-  <!-- Colorful posters on walls -->
-  <rect x="50" y="100" width="40" height="30" fill="#FF5722"/>
-  <rect x="100" y="100" width="40" height="30" fill="#2196F3"/>
-  <rect x="150" y="100" width="40" height="30" fill="#4CAF50"/>
-
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Classroom -->
+  <rect width="400" height="400" fill="#FFF8E1"/>
   <!-- Table -->
-  <ellipse cx="200" cy="280" rx="70" ry="25" fill="#8D6E63"/>
-  <ellipse cx="200" cy="275" rx="65" ry="22" fill="#A1887F"/>
-
-  <!-- Other children in background -->
-  <g opacity="0.5">
-    <circle cx="80" cy="250" r="12" fill="#FFF9C4"/>
-    <circle cx="350" cy="260" r="10" fill="#F8BBD9"/>
-  </g>
-
-  <!-- Madame Gazelle holding picture book -->
-  <g transform="translate(120, 240)">
-    <!-- Body (purple dress) -->
-    <ellipse cx="0" cy="20" rx="25" ry="28" fill="#9C27B0"/>
-
-    <!-- Legs -->
-    <rect x="-12" y="40" width="6" height="30" rx="3" fill="#F9C6CF"/>
-    <rect x="6" y="40" width="6" height="30" rx="3" fill="#F9C6CF"/>
-
-    <!-- Shoes -->
-    <ellipse cx="-9" cy="75" rx="8" ry="4" fill="#424242"/>
-    <ellipse cx="9" cy="75" rx="8" ry="4" fill="#424242"/>
-
-    <!-- Arms holding book -->
-    <path d="M -18 15 Q -25 5 -22 -5" stroke="#F9C6CF" stroke-width="8" stroke-linecap="round" fill="none"/>
-    <circle cx="-22" cy="-5" r="6" fill="#F9C6CF"/>
-    <path d="M 18 15 Q 25 5 22 -5" stroke="#F9C6CF" stroke-width="8" stroke-linecap="round" fill="none"/>
-    <circle cx="22" cy="-5" r="6" fill="#F9C6CF"/>
-
-    <!-- Picture book -->
-    <rect x="-15" y="-12" width="30" height="35" rx="2" fill="#FFF9C4"/>
-    <rect x="-13" y="-10" width="26" height="31" fill="#FFC107"/>
-    <!-- Simple picture on book -->
-    <circle cx="0" cy="-2" r="8" fill="#4CAF50"/>
-    <rect x="-3" y="2" width="6" height="8" fill="#8D6E63"/>
-
-    <!-- Head (light yellow/cream) -->
-    <ellipse cx="0" cy="-30" rx="28" ry="24" fill="#FFF8E1"/>
-
-    <!-- Eyes -->
-    <ellipse cx="-3" cy="-33" rx="4" ry="6" fill="white"/>
-    <ellipse cx="7" cy="-33" rx="4" ry="6" fill="white"/>
-    <circle cx="-2" cy="-32" r="2" fill="#424242"/>
-    <circle cx="8" cy="-32" r="2" fill="#424242"/>
-
-    <!-- Gentle smile -->
-    <path d="M -3 -23 Q 0 -20 3 -23" stroke="#424242" stroke-width="1.5" fill="none"/>
-  </g>
-
-  <!-- Peppa shrugging with uncertain expression -->
-  <g transform="translate(200, 280)">
-    <!-- Body (red dress) -->
-    <ellipse cx="0" cy="25" rx="28" ry="32" fill="#E63946"/>
-
-    <!-- Legs -->
-    <rect x="-14" y="45" width="7" height="30" rx="3" fill="#F9C6CF"/>
-    <rect x="7" y="45" width="7" height="30" rx="3" fill="#F9C6CF"/>
-
-    <!-- Shoes -->
-    <ellipse cx="-10" cy="80" rx="9" ry="5" fill="#424242"/>
-    <ellipse cx="10" cy="80" rx="9" ry="5" fill="#424242"/>
-
-    <!-- Arms shrugging (palms up) -->
-    <path d="M -20 20 Q -30 10 -28 0" stroke="#F9C6CF" stroke-width="10" stroke-linecap="round" fill="none"/>
-    <circle cx="-28" cy="0" r="7" fill="#F9C6CF"/>
-    <!-- Palm up -->
-    <ellipse cx="-32" cy="5" rx="6" ry="8" fill="#F9C6CF" transform="rotate(20 -32 5)"/>
-
-    <path d="M 20 20 Q 30 10 28 0" stroke="#F9C6CF" stroke-width="10" stroke-linecap="round" fill="none"/>
-    <circle cx="28" cy="0" r="7" fill="#F9C6CF"/>
-    <!-- Palm up -->
-    <ellipse cx="32" cy="5" rx="6" ry="8" fill="#F9C6CF" transform="rotate(-20 32 5)"/>
-
-    <!-- Head -->
-    <ellipse cx="0" cy="-30" rx="35" ry="30" fill="#F9C6CF"/>
-
-    <!-- Snout -->
-    <ellipse cx="26" cy="-30" rx="13" ry="10" fill="#F9C6CF"/>
-    <circle cx="30" cy="-32" r="2" fill="#FF69B4"/>
-    <circle cx="30" cy="-28" r="2" fill="#FF69B4"/>
-
-    <!-- Ears -->
-    <ellipse cx="-11" cy="-55" rx="7" ry="13" fill="#F9C6CF"/>
-    <ellipse cx="11" cy="-55" rx="7" ry="13" fill="#F9C6CF"/>
-
-    <!-- Eyes (looking up uncertainly) -->
-    <ellipse cx="-4" cy="-33" rx="5" ry="7" fill="white"/>
-    <ellipse cx="8" cy="-33" rx="5" ry="7" fill="white"/>
-    <circle cx="-3" cy="-32" r="2.5" fill="#424242"/>
-    <circle cx="9" cy="-32" r="2.5" fill="#424242"/>
-    <!-- Eyebrows raised -->
-    <path d="M -8 -38 Q -4 -40 0 -38" stroke="#424242" stroke-width="2" fill="none"/>
-    <path d="M 4 -38 Q 8 -40 12 -38" stroke="#424242" stroke-width="2" fill="none"/>
-
-    <!-- Mouth forming "O" of uncertainty -->
-    <ellipse cx="15" cy="-22" rx="4" ry="6" fill="#424242"/>
-  </g>
-
-  <!-- Question marks floating around -->
-  <g fill="#FF9800" opacity="0.7" font-size="20" font-family="Arial, sans-serif" font-weight="bold">
-    <text x="170" y="230">?</text>
-    <text x="210" y="225">?</text>
-    <text x="190" y="215">?</text>
-  </g>
-
+  <rect x="100" y="250" width="200" height="20" fill="#8D6E63"/>
+  <!-- Window -->
+  <rect x="300" y="50" width="80" height="60" fill="#87CEEB"/>
+  <!-- Posters -->
+  <rect x="20" y="50" width="40" height="60" fill="#FF5722"/>
+  <text x="40" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#FFF">ABC</text>
+  <!-- Peppa sitting -->
+  <!-- Body -->
+  <ellipse cx="200" cy="280" rx="25" ry="35" fill="#E63946"/>
+  <!-- Head -->
+  <circle cx="200" cy="230" r="30" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="200" cy="240" rx="8" ry="5" fill="#FF69B4"/>
+  <!-- Eyes looking up -->
+  <circle cx="190" cy="220" r="4" fill="#000"/>
+  <circle cx="210" cy="220" r="4" fill="#000"/>
+  <!-- Mouth small O -->
+  <ellipse cx="200" cy="250" rx="4" ry="3" fill="#000"/>
+  <!-- Arms shrugging -->
+  <ellipse cx="180" cy="270" rx="8" ry="15" fill="#F9C6CF" transform="rotate(-30 180 270)"/>
+  <ellipse cx="220" cy="270" rx="8" ry="15" fill="#F9C6CF" transform="rotate(30 220 270)"/>
+  <!-- Legs -->
+  <ellipse cx="190" cy="320" rx="8" ry="20" fill="#F9C6CF"/>
+  <ellipse cx="210" cy="320" rx="8" ry="20" fill="#F9C6CF"/>
+  <!-- Madame Gazelle -->
+  <!-- Body -->
+  <ellipse cx="50" cy="250" rx="20" ry="35" fill="#9C27B0"/>
+  <!-- Head -->
+  <circle cx="50" cy="200" r="25" fill="#FFF8E1"/>
+  <!-- Snout -->
+  <ellipse cx="50" cy="210" rx="6" ry="4" fill="#FF69B4"/>
+  <!-- Eyes -->
+  <circle cx="42" cy="190" r="3" fill="#000"/>
+  <circle cx="58" cy="190" r="3" fill="#000"/>
+  <!-- Gentle smile -->
+  <path d="M42 215 Q50 220 58 215" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Arms holding book -->
+  <ellipse cx="30" cy="240" rx="6" ry="15" fill="#F9C6CF"/>
+  <ellipse cx="70" cy="240" rx="6" ry="15" fill="#F9C6CF"/>
+  <!-- Legs -->
+  <ellipse cx="40" cy="300" rx="6" ry="20" fill="#F9C6CF"/>
+  <ellipse cx="60" cy="300" rx="6" ry="20" fill="#F9C6CF"/>
+  <!-- Picture book -->
+  <rect x="25" y="240" width="15" height="20" fill="#FFC107"/>
+  <rect x="40" y="245" width="10" height="15" fill="#FFF"/>
   <!-- Signature -->
   <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Grok</text>
 </svg>

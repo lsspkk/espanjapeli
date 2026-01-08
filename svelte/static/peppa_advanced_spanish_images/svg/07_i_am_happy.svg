@@ -1,121 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <defs>
-    <linearGradient id="gardenSky" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#E3F2FD"/>
-      <stop offset="100%" stop-color="#F3E5F5"/>
-    </linearGradient>
-    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFF9C4"/>
-      <stop offset="100%" stop-color="#FFEB3B"/>
-    </radialGradient>
-    <filter id="joyGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-
-  <!-- Sky background -->
-  <rect width="400" height="400" fill="url(#gardenSky)"/>
-
-  <!-- Bright sun -->
-  <circle cx="320" cy="60" r="25" fill="url(#sunGlow)"/>
-  <g stroke="#FFF9C4" stroke-width="2" opacity="0.7">
-    <line x1="320" y1="35" x2="320" y2="25"/>
-    <line x1="345" y1="60" x2="355" y2="60"/>
-    <line x1="320" y1="85" x2="320" y2="95"/>
-    <line x1="295" y1="60" x2="285" y2="60"/>
-    <line x1="337" y1="43" x2="345" y2="35"/>
-    <line x1="345" y1="77" x2="353" y2="85"/>
-    <line x1="303" y1="77" x2="295" y2="85"/>
-    <line x1="303" y1="43" x2="295" y2="35"/>
-  </g>
-
-  <!-- Grass ground -->
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Sunny garden -->
+  <rect width="400" height="400" fill="#E8F5E8"/>
+  <!-- Grass -->
   <rect x="0" y="300" width="400" height="100" fill="#4CAF50"/>
-
-  <!-- Yellow house in background -->
-  <rect x="280" y="150" width="80" height="60" rx="5" fill="#FFEB3B"/>
-  <rect x="290" y="160" width="20" height="40" fill="#795548"/>
-  <rect x="320" y="165" width="15" height="25" fill="#E3F2FD"/>
-  <rect x="340" y="165" width="15" height="25" fill="#E3F2FD"/>
-
-  <!-- Bright flowers -->
-  <circle cx="80" cy="320" r="8" fill="#E91E63"/>
-  <circle cx="80" cy="315" r="4" fill="#FFEB3B"/>
-  <circle cx="130" cy="325" r="6" fill="#9C27B0"/>
-  <circle cx="130" cy="320" r="3" fill="#FFF9C4"/>
-  <circle cx="180" cy="330" r="7" fill="#FF5722"/>
-  <circle cx="180" cy="325" r="3.5" fill="#4CAF50"/>
-  <circle cx="230" cy="335" r="5" fill="#2196F3"/>
-  <circle cx="230" cy="330" r="2.5" fill="#FFC107"/>
-
-  <!-- Peppa celebrating with arms raised -->
-  <g transform="translate(200, 270)" filter="url(#joyGlow)">
-    <!-- Body (red dress) -->
-    <ellipse cx="0" cy="25" rx="30" ry="35" fill="#E63946"/>
-
-    <!-- Legs (jumping slightly) -->
-    <rect x="-15" y="45" width="8" height="32" rx="4" fill="#F9C6CF"/>
-    <rect x="7" y="45" width="8" height="32" rx="4" fill="#F9C6CF"/>
-
-    <!-- Shoes -->
-    <ellipse cx="-11" cy="82" rx="10" ry="6" fill="#424242"/>
-    <ellipse cx="11" cy="82" rx="10" ry="6" fill="#424242"/>
-
-    <!-- Arms raised high in celebration -->
-    <path d="M -22 20 Q -35 5 -32 -15 Q -28 -30 -18 -25" stroke="#F9C6CF" stroke-width="12" stroke-linecap="round" fill="none"/>
-    <circle cx="-18" cy="-25" r="8" fill="#F9C6CF"/>
-    <path d="M 22 20 Q 35 5 32 -15 Q 28 -30 18 -25" stroke="#F9C6CF" stroke-width="12" stroke-linecap="round" fill="none"/>
-    <circle cx="18" cy="-25" r="8" fill="#F9C6CF"/>
-
-    <!-- Head -->
-    <ellipse cx="0" cy="-35" rx="38" ry="32" fill="#F9C6CF"/>
-
-    <!-- Snout -->
-    <ellipse cx="28" cy="-35" rx="14" ry="11" fill="#F9C6CF"/>
-    <circle cx="33" cy="-37" r="2.5" fill="#FF69B4"/>
-    <circle cx="33" cy="-33" r="2.5" fill="#FF69B4"/>
-
-    <!-- Ears -->
-    <ellipse cx="-12" cy="-60" rx="8" ry="14" fill="#F9C6CF"/>
-    <ellipse cx="12" cy="-60" rx="8" ry="14" fill="#F9C6CF"/>
-
-    <!-- Eyes squeezed shut with joy -->
-    <path d="M -8 -38 Q -3 -35 2 -38" stroke="#424242" stroke-width="3" fill="none"/>
-    <path d="M 6 -38 Q 11 -35 16 -38" stroke="#424242" stroke-width="3" fill="none"/>
-
-    <!-- Huge grin -->
-    <path d="M -6 -20 Q 0 -10 12 -20" stroke="#424242" stroke-width="4" fill="none" stroke-linecap="round"/>
-
-    <!-- Rosy cheeks -->
-    <circle cx="-15" cy="-28" r="8" fill="#FFB3BA" opacity="0.8"/>
-    <circle cx="25" cy="-28" r="8" fill="#FFB3BA" opacity="0.8"/>
-  </g>
-
-  <!-- Floating stars and hearts around Peppa -->
-  <g fill="#FFC107" opacity="0.8">
-    <!-- Stars -->
-    <polygon points="160,200 162,207 170,207 164,212 166,220 160,215 154,220 156,212 150,207 158,207"/>
-    <polygon points="230,190 232,197 240,197 234,202 236,210 230,205 224,210 226,202 220,197 228,197"/>
-    <polygon points="180,175 182,182 190,182 184,187 186,195 180,190 174,195 176,187 170,182 178,182"/>
-  </g>
-
-  <g fill="#E91E63" opacity="0.9">
-    <!-- Hearts -->
-    <path d="M 130 210 C 130 200, 120 195, 110 200 C 100 195, 90 200, 90 210 C 90 220, 110 235, 110 235 C 110 235, 130 220, 130 210"/>
-    <path d="M 270 200 C 270 190, 260 185, 250 190 C 240 185, 230 190, 230 200 C 230 210, 250 225, 250 225 C 250 225, 270 210, 270 200"/>
-  </g>
-
-  <!-- Motion lines showing jumping energy -->
-  <g stroke="#FF6F00" stroke-width="2" opacity="0.6">
-    <path d="M 185 275 Q 175 265 180 255"/>
-    <path d="M 195 280 Q 205 270 200 260"/>
-    <path d="M 210 275 Q 220 265 215 255"/>
-  </g>
-
+  <!-- Yellow house -->
+  <rect x="300" y="150" width="80" height="100" fill="#FFC107"/>
+  <!-- Flowers -->
+  <circle cx="50" cy="320" r="8" fill="#E91E63"/>
+  <circle cx="70" cy="330" r="8" fill="#FFEB3B"/>
+  <circle cx="90" cy="325" r="8" fill="#2196F3"/>
+  <!-- Sun -->
+  <circle cx="350" cy="50" r="20" fill="#FFC107"/>
+  <path d="M350 30 L350 10 M350 70 L350 90 M330 50 L310 50 M370 50 L390 50 M335 35 L320 20 M365 35 L380 20 M335 65 L320 80 M365 65 L380 80" stroke="#FFC107" stroke-width="3"/>
+  <!-- Peppa -->
+  <!-- Body -->
+  <ellipse cx="200" cy="250" rx="25" ry="35" fill="#E63946"/>
+  <!-- Head -->
+  <circle cx="200" cy="200" r="30" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="200" cy="210" rx="8" ry="5" fill="#FF69B4"/>
+  <!-- Eyes squeezed shut -->
+  <path d="M185 190 Q195 185 205 190" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M195 190 Q205 185 215 190" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Mouth wide open -->
+  <ellipse cx="200" cy="220" rx="8" ry="5" fill="#000"/>
+  <!-- Arms raised high -->
+  <ellipse cx="180" cy="220" rx="8" ry="15" fill="#F9C6CF" transform="rotate(-90 180 220)"/>
+  <ellipse cx="220" cy="220" rx="8" ry="15" fill="#F9C6CF" transform="rotate(90 220 220)"/>
+  <!-- Legs jumping -->
+  <ellipse cx="190" cy="290" rx="8" ry="20" fill="#F9C6CF"/>
+  <ellipse cx="210" cy="290" rx="8" ry="20" fill="#F9C6CF"/>
+  <!-- Floating stars and hearts -->
+  <path d="M150 150 L152 158 L160 158 L155 163 L157 171 L150 166 L143 171 L145 163 L140 158 L148 158 Z" fill="#FFC107"/>
+  <path d="M250 140 Q255 135 260 140 Q265 135 270 140 Q275 145 270 150 Q265 155 260 150 Q255 155 250 150 Q245 145 250 140" fill="#E91E63"/>
+  <circle cx="120" cy="170" r="3" fill="#2196F3"/>
+  <circle cx="280" cy="160" r="3" fill="#4CAF50"/>
+  <!-- Motion lines -->
+  <path d="M180 240 L175 235" stroke="#000" stroke-width="2"/>
+  <path d="M220 240 L225 235" stroke="#000" stroke-width="2"/>
   <!-- Signature -->
   <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Grok</text>
 </svg>

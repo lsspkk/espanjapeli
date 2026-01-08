@@ -1,126 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <!-- Background - simple soft gradient -->
-  <defs>
-    <linearGradient id="singGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#E1BEE7;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#F8BBD9;stop-opacity:1" />
-    </linearGradient>
-    <radialGradient id="sparkleGrad" cx="50%" cy="50%">
-      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:0.8" />
-      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:0" />
-    </radialGradient>
-  </defs>
-  <rect width="400" height="400" fill="url(#singGradient)"/>
-  
-  <!-- Peppa standing with mouth open in singing pose -->
-  <g transform="translate(200, 250)">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Vamos a cantar una canción (Let's sing a song)">
+  <!-- Background: Bright blue sky and green hill (Outdoor Concert) -->
+  <rect width="400" height="400" fill="#4DA3FF"/>
+  <path d="M 0 320 Q 200 280 400 320 L 400 400 L 0 400 Z" fill="#76C447"/>
+
+  <!-- Peppa (Singing joyfully) -->
+  <g transform="translate(200, 180)">
     <!-- Body -->
-    <ellipse cx="0" cy="30" rx="30" ry="36" fill="#E63946"/>
-    <!-- Legs -->
-    <rect x="-18" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
-    <rect x="8" y="58" width="10" height="32" rx="5" fill="#F9C6CF"/>
+    <ellipse cx="0" cy="110" rx="55" ry="65" fill="#E63946" stroke="#222222" stroke-width="4"/>
+    
     <!-- Head -->
-    <ellipse cx="0" cy="-28" rx="40" ry="34" fill="#F9C6CF"/>
+    <ellipse cx="0" cy="20" rx="65" ry="55" fill="#F9C6CF" stroke="#222222" stroke-width="4"/>
     <!-- Snout -->
-    <ellipse cx="30" cy="-26" rx="15" ry="12" fill="#F9C6CF"/>
-    <circle cx="36" cy="-29" r="3" fill="#FF69B4"/>
-    <circle cx="36" cy="-23" r="3" fill="#FF69B4"/>
+    <path d="M 35 15 Q 70 15 70 40 Q 70 65 35 65" fill="#F9C6CF" stroke="#222222" stroke-width="4"/>
+    <circle cx="58" cy="30" r="4" fill="#FF69B4"/>
+    <circle cx="58" cy="50" r="4" fill="#FF69B4"/>
+    
     <!-- Ears -->
-    <ellipse cx="-13" cy="-60" rx="8" ry="15" fill="#F9C6CF"/>
-    <ellipse cx="13" cy="-60" rx="8" ry="15" fill="#F9C6CF"/>
-    <!-- Eyes - closed or looking upward, really into the song -->
-    <ellipse cx="-5" cy="-32" rx="5" ry="7" fill="white"/>
-    <ellipse cx="7" cy="-32" rx="5" ry="7" fill="white"/>
-    <!-- Closed eyes (squinted in joy) -->
-    <path d="M -10 -32 Q -5 -28 0 -32" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-    <path d="M 0 -32 Q 5 -28 10 -32" stroke="#333" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-    <!-- Mouth open wide in singing pose -->
-    <ellipse cx="8" cy="-15" rx="8" ry="10" fill="#333"/>
-    <!-- One trotter raised in the air expressively -->
-    <ellipse cx="-35" cy="-15" rx="12" ry="10" fill="#F9C6CF" transform="rotate(-45 -35 -15)"/>
-    <!-- Other trotter -->
-    <ellipse cx="25" cy="8" rx="10" ry="8" fill="#F9C6CF" transform="rotate(20 25 8)"/>
+    <ellipse cx="-20" cy="-30" rx="15" ry="25" fill="#F9C6CF" stroke="#222222" stroke-width="4"/>
+    <ellipse cx="25" cy="-30" rx="15" ry="25" fill="#F9C6CF" stroke="#222222" stroke-width="4"/>
+    
+    <!-- Eyes (Joyfully closed in song) -->
+    <path d="M -25 20 Q -15 10 -5 20" fill="none" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 5 20 Q 15 10 25 20" fill="none" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Mouth (Open wide in a singing "O") -->
+    <ellipse cx="10" cy="55" rx="12" ry="15" fill="#333333"/>
+    
+    <!-- Arms (Raised in excitement) -->
+    <path d="M -50 100 Q -80 80 -90 40" fill="none" stroke="#F9C6CF" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="-90" cy="40" r="10" fill="#F9C6CF"/>
+    
+    <path d="M 50 100 Q 80 80 95 120" fill="none" stroke="#F9C6CF" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="95" cy="120" r="10" fill="#F9C6CF"/>
+    
+    <!-- Legs -->
+    <rect x="-25" y="170" width="12" height="40" fill="#F9C6CF" stroke="#222222" stroke-width="3"/>
+    <rect x="13" y="170" width="12" height="40" fill="#F9C6CF" stroke="#222222" stroke-width="3"/>
+    <!-- Shoes -->
+    <ellipse cx="-25" cy="215" rx="18" ry="8" fill="#222222"/>
+    <ellipse cx="19" cy="215" rx="18" ry="8" fill="#222222"/>
+  </g>
+
+  <!-- Floating musical notes -->
+  <g transform="translate(80, 80) rotate(-15)">
+    <circle cx="0" cy="0" r="8" fill="#E63946"/>
+    <line x1="8" y1="0" x2="8" y2="-25" stroke="#E63946" stroke-width="3"/>
+    <path d="M 8 -25 Q 15 -20 20 -25" fill="none" stroke="#E63946" stroke-width="3" stroke-linecap="round"/>
   </g>
   
-  <!-- Colorful musical notes floating around Peppa -->
-  <!-- Note 1 - red, large -->
-  <g transform="translate(120, 150)">
-    <!-- Note head -->
-    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#E53935"/>
-    <!-- Note stem -->
-    <rect x="6" y="-6" width="3" height="20" fill="#E53935"/>
-    <!-- Flag -->
-    <path d="M 9 -6 L 9 -20 L 18 -15 Z" fill="#E53935"/>
+  <g transform="translate(320, 100) rotate(10)">
+    <circle cx="0" cy="0" r="10" fill="#FFEB3B"/>
+    <line x1="10" y1="0" x2="10" y2="-30" stroke="#FFEB3B" stroke-width="3"/>
+    <path d="M 10 -30 Q 20 -25 25 -35" fill="none" stroke="#FFEB3B" stroke-width="3" stroke-linecap="round"/>
   </g>
   
-  <!-- Note 2 - blue, medium -->
-  <g transform="translate(280, 180)">
-    <!-- Note head -->
-    <ellipse cx="0" cy="0" rx="7" ry="5" fill="#2196F3"/>
-    <!-- Note stem -->
-    <rect x="5" y="-5" width="2.5" height="18" fill="#2196F3"/>
-    <!-- Flag -->
-    <path d="M 7.5 -5 L 7.5 -18 L 15 -13 Z" fill="#2196F3"/>
+  <g transform="translate(300, 250) rotate(-20)">
+    <circle cx="0" cy="0" r="7" fill="#FFFFFF"/>
+    <line x1="7" y1="0" x2="7" y2="-20" stroke="#FFFFFF" stroke-width="2.5"/>
+    <path d="M 7 -20 Q 12 -15 15 -20" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
   </g>
-  
-  <!-- Note 3 - yellow, small -->
-  <g transform="translate(100, 220)">
-    <!-- Note head -->
-    <ellipse cx="0" cy="0" rx="6" ry="4" fill="#FFC107"/>
-    <!-- Note stem -->
-    <rect x="4" y="-4" width="2" height="15" fill="#FFC107"/>
-    <!-- Flag -->
-    <path d="M 6 -4 L 6 -16 L 12 -12 Z" fill="#FFC107"/>
-  </g>
-  
-  <!-- Note 4 - green, medium -->
-  <g transform="translate(300, 240)">
-    <!-- Note head -->
-    <ellipse cx="0" cy="0" rx="7" ry="5" fill="#4CAF50"/>
-    <!-- Note stem -->
-    <rect x="5" y="-5" width="2.5" height="18" fill="#4CAF50"/>
-    <!-- Flag -->
-    <path d="M 7.5 -5 L 7.5 -18 L 15 -13 Z" fill="#4CAF50"/>
-  </g>
-  
-  <!-- Note 5 - pink, large -->
-  <g transform="translate(130, 300)">
-    <!-- Note head -->
-    <ellipse cx="0" cy="0" rx="8" ry="6" fill="#E91E63"/>
-    <!-- Note stem -->
-    <rect x="6" y="-6" width="3" height="20" fill="#E91E63"/>
-    <!-- Flag -->
-    <path d="M 9 -6 L 9 -20 L 18 -15 Z" fill="#E91E63"/>
-  </g>
-  
-  <!-- Note 6 - purple, small -->
-  <g transform="translate(270, 320)">
-    <!-- Note head -->
-    <ellipse cx="0" cy="0" rx="6" ry="4" fill="#9C27B0"/>
-    <!-- Note stem -->
-    <rect x="4" y="-4" width="2" height="15" fill="#9C27B0"/>
-    <!-- Flag -->
-    <path d="M 6 -4 L 6 -16 L 12 -12 Z" fill="#9C27B0"/>
-  </g>
-  
-  <!-- Sparkles around Peppa to show joy of singing -->
-  <!-- Sparkle 1 -->
-  <g transform="translate(150, 180)">
-    <path d="M 0 -8 L 2 -2 L 8 0 L 2 2 L 0 8 L -2 2 L -8 0 L -2 -2 Z" fill="#FFD700" opacity="0.8"/>
-  </g>
-  
-  <!-- Sparkle 2 -->
-  <g transform="translate(250, 160)">
-    <path d="M 0 -6 L 1.5 -1.5 L 6 0 L 1.5 1.5 L 0 6 L -1.5 1.5 L -6 0 L -1.5 -1.5 Z" fill="#FFD700" opacity="0.7"/>
-  </g>
-  
-  <!-- Sparkle 3 -->
-  <g transform="translate(160, 280)">
-    <path d="M 0 -7 L 1.8 -1.8 L 7 0 L 1.8 1.8 L 0 7 L -1.8 1.8 L -7 0 L -1.8 -1.8 Z" fill="#FFD700" opacity="0.75"/>
-  </g>
-  
-  <!-- Sparkle 4 -->
-  <g transform="translate(240, 300)">
-    <path d="M 0 -5 L 1.2 -1.2 L 5 0 L 1.2 1.2 L 0 5 L -1.2 1.2 L -5 0 L -1.2 -1.2 Z" fill="#FFD700" opacity="0.6"/>
-  </g>
+
+  <!-- Sparkles -->
+  <path d="M 120 150 L 125 145 L 130 150 L 125 155 Z" fill="#FFFFFF"/>
+  <path d="M 280 180 L 285 175 L 290 180 L 285 185 Z" fill="#FFFFFF"/>
+
+  <!-- Signature -->
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Flash</text>
 </svg>

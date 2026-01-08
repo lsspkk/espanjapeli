@@ -1,143 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <defs>
-    <linearGradient id="gardenBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#E8F5E8"/>
-      <stop offset="100%" stop-color="#F1F8E9"/>
-    </linearGradient>
-    <radialGradient id="sunLight" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFF8E1"/>
-      <stop offset="100%" stop-color="#FFF8E1" opacity="0"/>
-    </radialGradient>
-  </defs>
-
-  <!-- Garden background -->
-  <rect width="400" height="400" fill="url(#gardenBg)"/>
-  <circle cx="300" cy="80" r="40" fill="url(#sunLight)"/>
-
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Sunny garden -->
+  <rect width="400" height="400" fill="#FFF8E1"/>
   <!-- Grass -->
   <rect x="0" y="300" width="400" height="100" fill="#4CAF50"/>
-
-  <!-- Yellow house in background -->
-  <rect x="280" y="150" width="80" height="60" rx="5" fill="#FFEB3B"/>
-  <rect x="290" y="160" width="20" height="40" fill="#795548"/>
-  <rect x="320" y="165" width="15" height="25" fill="#E3F2FD"/>
-  <rect x="340" y="165" width="15" height="25" fill="#E3F2FD"/>
-
-  <!-- Flowers scattered around -->
-  <g>
-    <!-- Flower 1 -->
-    <circle cx="100" cy="320" r="8" fill="#E91E63"/>
-    <circle cx="100" cy="315" r="4" fill="#FF9800"/>
-    <!-- Flower 2 -->
-    <circle cx="150" cy="325" r="6" fill="#9C27B0"/>
-    <circle cx="150" cy="320" r="3" fill="#FFEB3B"/>
-    <!-- Flower 3 -->
-    <circle cx="50" cy="335" r="7" fill="#F44336"/>
-    <circle cx="50" cy="330" r="3.5" fill="#4CAF50"/>
-  </g>
-
-  <!-- Other children playing in background -->
-  <g opacity="0.5">
-    <circle cx="80" cy="280" r="12" fill="#FFF9C4"/>
-    <circle cx="350" cy="290" r="10" fill="#F8BBD9"/>
-  </g>
-
-  <!-- Suzy Sheep on the right holding flower -->
-  <g transform="translate(280, 270)">
-    <!-- Body (white) -->
-    <ellipse cx="0" cy="25" rx="22" ry="28" fill="#FFFFFF"/>
-    <ellipse cx="0" cy="20" rx="18" ry="24" fill="#F5F5F5"/>
-
-    <!-- Legs -->
-    <rect x="-10" y="40" width="5" height="25" rx="2" fill="#F5F5F5"/>
-    <rect x="5" y="40" width="5" height="25" rx="2" fill="#F5F5F5"/>
-
-    <!-- Head -->
-    <ellipse cx="0" cy="-25" rx="25" ry="22" fill="#F5F5F5"/>
-
-    <!-- Snout -->
-    <ellipse cx="18" cy="-25" rx="10" ry="8" fill="#F5F5F5"/>
-    <circle cx="21" cy="-27" r="2" fill="#FF69B4"/>
-    <circle cx="21" cy="-23" r="2" fill="#FF69B4"/>
-
-    <!-- Wool curls -->
-    <circle cx="-8" cy="-35" r="6" fill="#F5F5F5"/>
-    <circle cx="8" cy="-35" r="6" fill="#F5F5F5"/>
-    <circle cx="-12" cy="-45" r="5" fill="#F5F5F5"/>
-    <circle cx="12" cy="-45" r="5" fill="#F5F5F5"/>
-
-    <!-- Eyes -->
-    <ellipse cx="-3" cy="-28" rx="4" ry="5" fill="white"/>
-    <ellipse cx="7" cy="-28" rx="4" ry="5" fill="white"/>
-    <circle cx="-2" cy="-27" r="2" fill="#424242"/>
-    <circle cx="8" cy="-27" r="2" fill="#424242"/>
-
-    <!-- Grateful smile -->
-    <path d="M -3 -18 Q 0 -15 3 -18" stroke="#424242" stroke-width="2" fill="none"/>
-
-    <!-- Arms holding flower -->
-    <path d="M -15 20 Q -20 10 -18 0" stroke="#F5F5F5" stroke-width="8" stroke-linecap="round" fill="none"/>
-    <circle cx="-18" cy="0" r="6" fill="#F5F5F5"/>
-    <path d="M 15 20 Q 20 10 18 0" stroke="#F5F5F5" stroke-width="8" stroke-linecap="round" fill="none"/>
-    <circle cx="18" cy="0" r="6" fill="#F5F5F5"/>
-
-    <!-- Flower being held -->
-    <circle cx="0" cy="-5" r="8" fill="#E91E63"/>
-    <circle cx="0" cy="-8" r="3" fill="#FFEB3B"/>
-  </g>
-
-  <!-- Peppa in center with gracious gesture -->
-  <g transform="translate(180, 270)">
-    <!-- Body (red dress) -->
-    <ellipse cx="0" cy="25" rx="28" ry="32" fill="#E63946"/>
-
-    <!-- Legs -->
-    <rect x="-14" y="45" width="7" height="30" rx="3" fill="#F9C6CF"/>
-    <rect x="7" y="45" width="7" height="30" rx="3" fill="#F9C6CF"/>
-
-    <!-- Shoes -->
-    <ellipse cx="-10" cy="80" rx="9" ry="5" fill="#424242"/>
-    <ellipse cx="10" cy="80" rx="9" ry="5" fill="#424242"/>
-
-    <!-- Arms - one raised in gracious gesture -->
-    <path d="M -20 20 Q -28 8 -25 -5" stroke="#F9C6CF" stroke-width="10" stroke-linecap="round" fill="none"/>
-    <circle cx="-25" cy="-5" r="7" fill="#F9C6CF"/>
-    <!-- Raised hand with palm outward -->
-    <ellipse cx="-30" cy="-10" rx="8" ry="12" fill="#F9C6CF" transform="rotate(-15 -30 -10)"/>
-    <rect x="-33" y="-15" width="6" height="10" rx="2" fill="#F9C6CF" transform="rotate(-15 -30 -10)"/>
-
-    <path d="M 20 20 Q 28 8 25 -5" stroke="#F9C6CF" stroke-width="10" stroke-linecap="round" fill="none"/>
-    <circle cx="25" cy="-5" r="7" fill="#F9C6CF"/>
-
-    <!-- Head -->
-    <ellipse cx="0" cy="-30" rx="35" ry="30" fill="#F9C6CF"/>
-
-    <!-- Snout -->
-    <ellipse cx="26" cy="-30" rx="13" ry="10" fill="#F9C6CF"/>
-    <circle cx="30" cy="-32" r="2.5" fill="#FF69B4"/>
-    <circle cx="30" cy="-28" r="2.5" fill="#FF69B4"/>
-
-    <!-- Ears -->
-    <ellipse cx="-11" cy="-55" rx="7" ry="13" fill="#F9C6CF"/>
-    <ellipse cx="11" cy="-55" rx="7" ry="13" fill="#F9C6CF"/>
-
-    <!-- Eyes (soft and welcoming) -->
-    <ellipse cx="-4" cy="-33" rx="5" ry="7" fill="white"/>
-    <ellipse cx="8" cy="-33" rx="5" ry="7" fill="white"/>
-    <circle cx="-3" cy="-32" r="2.5" fill="#424242"/>
-    <circle cx="9" cy="-32" r="2.5" fill="#424242"/>
-
-    <!-- Kind, polite smile -->
-    <path d="M -4 -22 Q 0 -18 6 -22" stroke="#424242" stroke-width="2" fill="none"/>
-  </g>
-
-  <!-- Polite gesture sparkle effects -->
-  <g fill="#FFD54F" opacity="0.6">
-    <circle cx="155" cy="240" r="3"/>
-    <circle cx="170" cy="235" r="2"/>
-    <circle cx="145" cy="250" r="2.5"/>
-  </g>
-
+  <!-- Yellow house -->
+  <rect x="300" y="150" width="80" height="100" fill="#FFC107"/>
+  <rect x="310" y="170" width="15" height="20" fill="#87CEEB"/>
+  <!-- Flowers -->
+  <circle cx="50" cy="320" r="8" fill="#E91E63"/>
+  <circle cx="70" cy="330" r="8" fill="#FFEB3B"/>
+  <circle cx="90" cy="325" r="8" fill="#4CAF50"/>
+  <!-- Peppa Pig -->
+  <!-- Body -->
+  <ellipse cx="120" cy="250" rx="25" ry="35" fill="#E63946"/>
+  <!-- Head -->
+  <circle cx="120" cy="200" r="30" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="120" cy="210" rx="8" ry="5" fill="#FF69B4"/>
+  <!-- Eyes -->
+  <circle cx="110" cy="190" r="4" fill="#000"/>
+  <circle cx="130" cy="190" r="4" fill="#000"/>
+  <!-- Gentle smile -->
+  <path d="M110 220 Q120 225 130 220" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Arms: one raised in gesture -->
+  <ellipse cx="100" cy="240" rx="8" ry="15" fill="#F9C6CF"/>
+  <ellipse cx="140" cy="220" rx="8" ry="15" fill="#F9C6CF" transform="rotate(30 140 220)"/>
+  <!-- Legs -->
+  <ellipse cx="110" cy="290" rx="8" ry="20" fill="#F9C6CF"/>
+  <ellipse cx="130" cy="290" rx="8" ry="20" fill="#F9C6CF"/>
+  <!-- Suzy Sheep -->
+  <!-- Body -->
+  <ellipse cx="280" cy="260" rx="20" ry="30" fill="#FFFFFF"/>
+  <!-- Head -->
+  <circle cx="280" cy="210" r="25" fill="#FFFFFF"/>
+  <!-- Snout -->
+  <ellipse cx="280" cy="220" rx="6" ry="4" fill="#FF69B4"/>
+  <!-- Eyes -->
+  <circle cx="270" cy="200" r="3" fill="#000"/>
+  <circle cx="290" cy="200" r="3" fill="#000"/>
+  <!-- Smile -->
+  <path d="M270 225 Q280 235 290 225" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Arms -->
+  <ellipse cx="260" cy="250" rx="6" ry="12" fill="#FFFFFF"/>
+  <ellipse cx="300" cy="250" rx="6" ry="12" fill="#FFFFFF"/>
+  <!-- Legs -->
+  <ellipse cx="270" cy="300" rx="6" ry="15" fill="#FFFFFF"/>
+  <ellipse cx="290" cy="300" rx="6" ry="15" fill="#FFFFFF"/>
+  <!-- Flower in hand -->
+  <circle cx="300" cy="245" r="5" fill="#E91E63"/>
+  <rect x="299" y="240" width="2" height="10" fill="#4CAF50"/>
   <!-- Signature -->
   <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Grok</text>
 </svg>

@@ -1,133 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Look">
-  <defs>
-    <linearGradient id="skyGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#87CEEB"/>
-      <stop offset="100%" stop-color="#B0E0E6"/>
-    </linearGradient>
-    <linearGradient id="rainbowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF0000"/>
-      <stop offset="16.66%" stop-color="#FF7F00"/>
-      <stop offset="33.33%" stop-color="#FFFF00"/>
-      <stop offset="50%" stop-color="#00FF00"/>
-      <stop offset="66.66%" stop-color="#0000FF"/>
-      <stop offset="83.33%" stop-color="#4B0082"/>
-      <stop offset="100%" stop-color="#9400D3"/>
-    </linearGradient>
-  </defs>
-  
-  <!-- Sky background -->
-  <rect width="400" height="400" fill="url(#skyGrad2)"/>
-  
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Garden with sky -->
+  <rect width="400" height="400" fill="#E8F5E8"/>
+  <!-- Sky -->
+  <rect x="0" y="0" width="400" height="250" fill="#87CEEB"/>
   <!-- Clouds clearing -->
-  <ellipse cx="100" cy="80" rx="35" ry="20" fill="#FFFFFF" opacity="0.7"/>
-  <ellipse cx="300" cy="70" rx="30" ry="18" fill="#FFFFFF" opacity="0.7"/>
-  
-  <!-- Rainbow arching across sky -->
-  <path d="M 50 180 Q 200 80 350 180" stroke="url(#rainbowGrad)" stroke-width="25" stroke-linecap="round" fill="none" opacity="0.9"/>
-  <path d="M 55 185 Q 200 90 345 185" stroke="#FF0000" stroke-width="4" fill="none" opacity="0.8"/>
-  <path d="M 60 190 Q 200 100 340 190" stroke="#FF7F00" stroke-width="4" fill="none" opacity="0.8"/>
-  <path d="M 65 195 Q 200 110 335 195" stroke="#FFFF00" stroke-width="4" fill="none" opacity="0.8"/>
-  <path d="M 70 200 Q 200 120 330 200" stroke="#00FF00" stroke-width="4" fill="none" opacity="0.8"/>
-  <path d="M 75 205 Q 200 130 325 205" stroke="#0000FF" stroke-width="4" fill="none" opacity="0.8"/>
-  <path d="M 80 210 Q 200 140 320 210" stroke="#4B0082" stroke-width="4" fill="none" opacity="0.8"/>
-  
-  <!-- Raindrops still falling -->
-  <line x1="120" y1="100" x2="125" y2="110" stroke="#87CEEB" stroke-width="2" opacity="0.6"/>
-  <line x1="140" y1="95" x2="145" y2="105" stroke="#87CEEB" stroke-width="2" opacity="0.6"/>
-  <line x1="160" y1="105" x2="165" y2="115" stroke="#87CEEB" stroke-width="2" opacity="0.6"/>
-  
-  <!-- Yellow house in background -->
-  <rect x="180" y="200" width="120" height="100" fill="#FFD54F"/>
-  <polygon points="180,200 240,160 300,200" fill="#FFB300"/>
-  <!-- Door -->
-  <rect x="230" y="250" width="30" height="50" fill="#8D6E63"/>
-  <circle cx="255" cy="275" r="2" fill="#FFD54F"/>
-  <!-- Windows -->
-  <rect x="195" y="220" width="20" height="20" fill="#87CEEB"/>
-  <rect x="265" y="220" width="20" height="20" fill="#87CEEB"/>
-  
-  <!-- Ground/grass -->
-  <rect x="0" y="300" width="400" height="100" fill="#7CB342"/>
-  
-  <!-- Puddles from recent rain -->
-  <ellipse cx="120" cy="310" rx="25" ry="15" fill="#64B5F6" opacity="0.6"/>
-  <ellipse cx="280" cy="315" rx="20" ry="12" fill="#64B5F6" opacity="0.6"/>
-  
-  <!-- George (right) -->
-  <g transform="translate(280, 280)">
-    <!-- Body (blue shirt) -->
-    <ellipse cx="0" cy="40" rx="40" ry="45" fill="#6B9BD2"/>
-    <!-- Legs -->
-    <rect x="-22" y="75" width="10" height="45" rx="5" fill="#F9C6CF"/>
-    <rect x="12" y="75" width="10" height="45" rx="5" fill="#F9C6CF"/>
-    <!-- Shoes -->
-    <ellipse cx="-17" cy="125" rx="13" ry="7" fill="#333"/>
-    <ellipse cx="17" cy="125" rx="13" ry="7" fill="#333"/>
-    <!-- Arms holding Mr. Dinosaur -->
-    <path d="M -30 35 Q -40 15 -35 -5" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
-    <circle cx="-35" cy="-5" r="10" fill="#F9C6CF"/>
-    <path d="M 30 40 Q 40 60 35 80" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
-    <circle cx="35" cy="80" r="10" fill="#F9C6CF"/>
-    <!-- Mr. Dinosaur -->
-    <g transform="translate(-35, -5)">
-      <ellipse cx="0" cy="0" rx="12" ry="8" fill="#66BB6A"/>
-      <circle cx="-5" cy="-3" r="2" fill="#333"/>
-      <circle cx="5" cy="-3" r="2" fill="#333"/>
-      <path d="M -8 5 Q 0 8 8 5" stroke="#333" stroke-width="1.5" fill="none"/>
-    </g>
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="48" ry="40" fill="#F9C6CF"/>
-    <!-- Snout -->
-    <ellipse cx="45" cy="-50" rx="20" ry="14" fill="#F9C6CF"/>
-    <circle cx="52" cy="-55" r="3.5" fill="#FF69B4"/>
-    <circle cx="52" cy="-45" r="3.5" fill="#FF69B4"/>
-    <!-- Ears -->
-    <ellipse cx="-16" cy="-85" rx="10" ry="20" fill="#F9C6CF"/>
-    <ellipse cx="16" cy="-85" rx="10" ry="20" fill="#F9C6CF"/>
-    <!-- Eyes (wide in wonder) -->
-    <ellipse cx="-8" cy="-52" rx="7" ry="9" fill="white"/>
-    <ellipse cx="12" cy="-52" rx="7" ry="9" fill="white"/>
-    <circle cx="-6" cy="-50" r="3.5" fill="#333"/>
-    <circle cx="14" cy="-50" r="3.5" fill="#333"/>
-    <!-- Small smile -->
-    <path d="M -4 -35 Q 0 -30 4 -35" stroke="#333" stroke-width="2" fill="none"/>
-  </g>
-  
-  <!-- Peppa (center-left) pointing excitedly -->
-  <g transform="translate(150, 280)">
-    <!-- Body (red dress) -->
-    <ellipse cx="0" cy="40" rx="45" ry="50" fill="#E63946"/>
-    <!-- Legs -->
-    <rect x="-25" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
-    <rect x="13" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
-    <!-- Shoes -->
-    <ellipse cx="-19" cy="135" rx="15" ry="8" fill="#333"/>
-    <ellipse cx="19" cy="135" rx="15" ry="8" fill="#333"/>
-    <!-- Right arm pointing up toward rainbow -->
-    <path d="M 40 35 Q 50 10 45 -20 Q 40 -50 30 -40" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="30" cy="-40" r="12" fill="#F9C6CF"/>
-    <!-- Left arm raised slightly for balance -->
-    <path d="M -40 40 Q -50 20 -45 0" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="-45" cy="0" r="12" fill="#F9C6CF"/>
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
-    <!-- Snout -->
-    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
-    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
-    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
-    <!-- Ears -->
-    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    <!-- Eyes (excited, alert, wide) -->
-    <ellipse cx="-10" cy="-55" rx="9" ry="11" fill="white"/>
-    <ellipse cx="15" cy="-55" rx="9" ry="11" fill="white"/>
-    <circle cx="-8" cy="-53" r="4.5" fill="#333"/>
-    <circle cx="17" cy="-53" r="4.5" fill="#333"/>
-    <!-- Mouth open in delighted "O" -->
-    <ellipse cx="25" cy="-25" rx="6" ry="8" fill="#333"/>
-  </g>
-  
+  <ellipse cx="100" cy="60" rx="25" ry="18" fill="#FFFFFF" opacity="0.6"/>
+  <ellipse cx="120" cy="60" rx="20" ry="15" fill="#FFFFFF" opacity="0.6"/>
+  <!-- Rainbow -->
+  <path d="M50 200 Q200 50 350 200" stroke="#FF0000" stroke-width="8" fill="none"/>
+  <path d="M50 205 Q200 55 350 205" stroke="#FF8C00" stroke-width="8" fill="none"/>
+  <path d="M50 210 Q200 60 350 210" stroke="#FFD700" stroke-width="8" fill="none"/>
+  <path d="M50 215 Q200 65 350 215" stroke="#00FF00" stroke-width="8" fill="none"/>
+  <path d="M50 220 Q200 70 350 220" stroke="#0000FF" stroke-width="8" fill="none"/>
+  <path d="M50 225 Q200 75 350 225" stroke="#8B00FF" stroke-width="8" fill="none"/>
+  <!-- Raindrops -->
+  <line x1="80" y1="100" x2="85" y2="110" stroke="#87CEEB" stroke-width="2"/>
+  <line x1="120" y1="90" x2="125" y2="100" stroke="#87CEEB" stroke-width="2"/>
+  <line x1="160" y1="110" x2="165" y2="120" stroke="#87CEEB" stroke-width="2"/>
+  <!-- Grass -->
+  <rect x="0" y="250" width="400" height="150" fill="#4CAF50"/>
+  <!-- Puddles -->
+  <ellipse cx="100" cy="280" rx="25" ry="8" fill="#2196F3" opacity="0.6"/>
+  <ellipse cx="250" cy="290" rx="30" ry="10" fill="#2196F3" opacity="0.6"/>
+  <!-- Yellow house -->
+  <rect x="280" y="150" width="100" height="100" fill="#FFC107"/>
+  <rect x="290" y="170" width="20" height="25" fill="#87CEEB"/>
+  <rect x="320" y="170" width="20" height="25" fill="#87CEEB"/>
+  <polygon points="280,150 330,100 380,150" fill="#D32F2F"/>
+  <!-- Peppa Pig -->
+  <!-- Body -->
+  <ellipse cx="150" cy="280" rx="25" ry="35" fill="#E63946"/>
+  <!-- Head -->
+  <circle cx="150" cy="230" r="30" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="150" cy="240" rx="8" ry="5" fill="#FF69B4"/>
+  <!-- Eyes wide -->
+  <circle cx="140" cy="220" r="4" fill="#000"/>
+  <circle cx="160" cy="220" r="4" fill="#000"/>
+  <!-- Mouth open in O shape -->
+  <ellipse cx="150" cy="250" rx="6" ry="4" fill="#000"/>
+  <!-- Arms: one pointing -->
+  <ellipse cx="130" cy="270" rx="8" ry="15" fill="#F9C6CF"/>
+  <ellipse cx="170" cy="250" rx="8" ry="20" fill="#F9C6CF" transform="rotate(45 170 250)"/>
+  <!-- Legs -->
+  <ellipse cx="140" cy="320" rx="8" ry="20" fill="#F9C6CF"/>
+  <ellipse cx="160" cy="320" rx="8" ry="20" fill="#F9C6CF"/>
+  <!-- George Pig -->
+  <!-- Body -->
+  <ellipse cx="220" cy="290" rx="20" ry="30" fill="#6B9BD2"/>
+  <!-- Head -->
+  <circle cx="220" cy="240" r="25" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="220" cy="250" rx="6" ry="4" fill="#FF69B4"/>
+  <!-- Eyes wide in wonder -->
+  <circle cx="210" cy="230" r="3" fill="#000"/>
+  <circle cx="230" cy="230" r="3" fill="#000"/>
+  <!-- Small smile -->
+  <path d="M210 255 Q220 265 230 255" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Arms -->
+  <ellipse cx="200" cy="280" rx="6" ry="12" fill="#F9C6CF"/>
+  <ellipse cx="240" cy="280" rx="6" ry="12" fill="#F9C6CF"/>
+  <!-- Legs -->
+  <ellipse cx="210" cy="330" rx="6" ry="15" fill="#F9C6CF"/>
+  <ellipse cx="230" cy="330" rx="6" ry="15" fill="#F9C6CF"/>
+  <!-- Mr. Dinosaur -->
+  <circle cx="240" cy="280" r="8" fill="#4CAF50"/>
   <!-- Signature -->
   <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Composer 1</text>
 </svg>

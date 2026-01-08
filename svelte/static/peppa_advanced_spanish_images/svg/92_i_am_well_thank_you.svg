@@ -1,99 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <defs>
-    <linearGradient id="gardenBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#E3F2FD"/>
-      <stop offset="100%" stop-color="#BBDEFB"/>
-    </linearGradient>
-  </defs>
-  
-  <!-- Background garden -->
-  <rect width="400" height="400" fill="url(#gardenBg)"/>
-  
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Sunny garden with flowers -->
+  <rect width="400" height="400" fill="#E8F5E8"/>
+  <rect width="400" height="250" fill="#87CEEB"/>
   <!-- Sun -->
-  <circle cx="80" cy="80" r="35" fill="#FFEB3B"/>
-  <g stroke="#FFEB3B" stroke-width="3" stroke-linecap="round">
-    <line x1="80" y1="35" x2="80" y2="25"/>
-    <line x1="80" y1="125" x2="80" y2="135"/>
-    <line x1="35" y1="80" x2="25" y2="80"/>
-    <line x1="125" y1="80" x2="135" y2="80"/>
-    <line x1="55" y1="55" x2="48" y2="48"/>
-    <line x1="105" y1="55" x2="112" y2="48"/>
-    <line x1="55" y1="105" x2="48" y2="112"/>
-    <line x1="105" y1="105" x2="112" y2="112"/>
-  </g>
-  
+  <circle cx="50" cy="50" r="25" fill="#FFC107"/>
+  <path d="M50 20 L50 15 M70 30 L75 25 M80 50 L85 50 M70 70 L75 75 M50 80 L50 85" stroke="#FFC107" stroke-width="2"/>
   <!-- Grass -->
-  <ellipse cx="200" cy="400" rx="250" ry="60" fill="#7BC043"/>
-  
+  <rect x="0" y="250" width="400" height="150" fill="#4CAF50"/>
   <!-- Flowers -->
-  <g>
-    <!-- Yellow flower -->
-    <circle cx="100" cy="370" r="6" fill="#FFD54F"/>
-    <circle cx="100" cy="370" r="3" fill="#FF6B6B"/>
-    <ellipse cx="100" cy="370" rx="8" ry="4" fill="#FFD54F" transform="rotate(0 100 370)"/>
-    <ellipse cx="100" cy="370" rx="8" ry="4" fill="#FFD54F" transform="rotate(45 100 370)"/>
-    <ellipse cx="100" cy="370" rx="8" ry="4" fill="#FFD54F" transform="rotate(90 100 370)"/>
-    <ellipse cx="100" cy="370" rx="8" ry="4" fill="#FFD54F" transform="rotate(135 100 370)"/>
-    <rect x="99" y="370" width="2" height="15" fill="#4CAF50"/>
-    
-    <!-- Blue flower -->
-    <circle cx="300" cy="375" r="5" fill="#2196F3"/>
-    <circle cx="300" cy="375" r="2.5" fill="#FFD54F"/>
-    <ellipse cx="300" cy="375" rx="7" ry="3" fill="#2196F3" transform="rotate(0 300 375)"/>
-    <ellipse cx="300" cy="375" rx="7" ry="3" fill="#2196F3" transform="rotate(60 300 375)"/>
-    <ellipse cx="300" cy="375" rx="7" ry="3" fill="#2196F3" transform="rotate(120 300 375)"/>
-    <rect x="299" y="375" width="2" height="12" fill="#4CAF50"/>
-  </g>
-  
-  <!-- Peppa giving thumbs-up -->
-  <g transform="translate(200, 250)">
-    <!-- Body (red dress) -->
-    <ellipse cx="0" cy="40" rx="45" ry="50" fill="#E63946"/>
-    
-    <!-- Legs -->
-    <rect x="-25" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
-    <rect x="13" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
-    
-    <!-- Shoes -->
-    <ellipse cx="-19" cy="135" rx="15" ry="8" fill="#333"/>
-    <ellipse cx="19" cy="135" rx="15" ry="8" fill="#333"/>
-    
-    <!-- Left arm at side -->
-    <path d="M -40 40 Q -50 60 -45 80" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="-45" cy="80" r="12" fill="#F9C6CF"/>
-    
-    <!-- Right arm giving thumbs-up -->
-    <path d="M 40 35 Q 50 15 45 -5 Q 40 -20 30 -15" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="30" cy="-15" r="12" fill="#F9C6CF"/>
-    <!-- Thumb -->
-    <ellipse cx="35" cy="-25" rx="6" ry="10" fill="#F9C6CF" transform="rotate(30 35 -25)"/>
-    
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
-    
-    <!-- Snout -->
-    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
-    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
-    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
-    
-    <!-- Ears -->
-    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    
-    <!-- Eyes (healthy, friendly) -->
-    <ellipse cx="-10" cy="-55" rx="8" ry="10" fill="white"/>
-    <ellipse cx="15" cy="-55" rx="8" ry="10" fill="white"/>
-    <circle cx="-8" cy="-53" r="4" fill="#333"/>
-    <circle cx="17" cy="-53" r="4" fill="#333"/>
-    
-    <!-- Pleasant, friendly smile -->
-    <path d="M -5 -30 Q 10 -20 25 -30" stroke="#333" stroke-width="3" fill="none"/>
-    
-    <!-- Rosy cheeks -->
-    <circle cx="-20" cy="-35" r="12" fill="#FFB6C1" opacity="0.7"/>
-    <circle cx="30" cy="-35" r="12" fill="#FFB6C1" opacity="0.7"/>
-  </g>
-  
+  <circle cx="300" cy="320" r="8" fill="#FFEB3B"/>
+  <rect x="299" y="328" width="2" height="15" fill="#388E3C"/>
+  <circle cx="340" cy="330" r="8" fill="#2196F3"/>
+  <rect x="339" y="338" width="2" height="15" fill="#388E3C"/>
+  <!-- Peppa Pig giving thumbs-up -->
+  <!-- Body -->
+  <ellipse cx="200" cy="280" rx="25" ry="35" fill="#E63946"/>
+  <!-- Head -->
+  <circle cx="200" cy="230" r="30" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="200" cy="240" rx="8" ry="5" fill="#FF69B4"/>
+  <!-- Eyes -->
+  <circle cx="190" cy="220" r="4" fill="#000"/>
+  <circle cx="210" cy="220" r="4" fill="#000"/>
+  <!-- Pleasant friendly smile -->
+  <path d="M190 245 Q200 255 210 245" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Arms: one relaxed, one thumbs-up -->
+  <ellipse cx="170" cy="270" rx="8" ry="15" fill="#F9C6CF"/>
+  <ellipse cx="230" cy="250" rx="8" ry="15" fill="#F9C6CF" transform="rotate(90 230 250)"/>
+  <!-- Thumb -->
+  <circle cx="230" cy="235" r="5" fill="#F9C6CF"/>
+  <!-- Legs -->
+  <ellipse cx="190" cy="320" rx="8" ry="20" fill="#F9C6CF"/>
+  <ellipse cx="210" cy="320" rx="8" ry="20" fill="#F9C6CF"/>
   <!-- Signature -->
-  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Composer 1</text>
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Flash</text>
 </svg>

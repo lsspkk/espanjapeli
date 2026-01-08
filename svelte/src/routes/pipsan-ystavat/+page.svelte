@@ -3,6 +3,7 @@
 	import { base } from '$app/paths';
 	import { tts } from '$lib/services/tts';
 	import { peppaStats } from '$lib/services/peppaStatistics';
+	import { selectGamePhrases, recordGameCompletion } from '$lib/services/phraseSelection';
 
 	interface EmojiTip {
 		emojis: string[];
@@ -62,7 +63,7 @@
 	let gameEnded = false;
 	let currentQuestion: GameQuestion | null = null;
 	let questionNumber = 0;
-	let totalQuestions = 5;
+	let totalQuestions = 10; // Changed from 5 to 10
 	let correctAnswers = 0;
 	let consecutiveCorrect = 0; // Track consecutive correct answers
 	let selectedAnswer: string | null = null;
@@ -72,6 +73,11 @@
 	let showToggleBonus = false;
 	let toggleBonusAmount = 0;
 	let autoPlayAudio = true; // Audio toggle setting
+	
+	// Phrase preview state
+	let showPhrasePreview = false;
+	let upcomingPhrases: GameQuestion[] = [];
+	let previousGames: GameQuestion[][] = [];
 	
 	// Feedback state for showing wrong/correct answer images
 	let showFeedback = false;
@@ -109,6 +115,9 @@
 			if (savedAudioSetting !== null) {
 				autoPlayAudio = savedAudioSetting === 'true';
 			}
+
+			// Prepare phrases for the next game
+			prepareNextGamePhrases();
 
 			loading = false;
 		} catch (error) {
@@ -150,6 +159,81 @@
 	 */
 	function saveAudioSetting() {
 		localStorage.setItem('peppaKuvatAudioEnabled', autoPlayAudio.toString());
+	}
+
+	/**
+	 * Prepare phrases for the next game using intelligent selection
+	 */
+	function prepareNextGamePhrases() {
+		if (!manifest) return;
+		
+		// Use the phrase selection service to get 10 phrases
+		upcomingPhrases = selectGamePhrases(manifest.phraseQueue);
+	}
+
+	/**
+	 * Toggle phrase preview modal
+	 */
+	function togglePhrasePreview() {
+		showPhrasePreview = !showPhrasePreview;
+		
+		// Load previous games when opening the modal
+		if (showPhrasePreview && manifest) {
+			loadPreviousGames();
+		}
+	}
+
+	/**
+	 * Load previous games from localStorage
+	 */
+	function loadPreviousGames() {
+		if (!manifest) return;
+		
+		try {
+			const stored = localStorage.getItem('pipsan_ystavat_history');
+			if (stored) {
+				const history = JSON.parse(stored);
+				previousGames = [];
+				
+				// Get last 3 games (in reverse order, most recent first)
+				const recentGames = history.games.slice(-3).reverse();
+				
+				for (const gamePhrasesIds of recentGames) {
+					const gamePhrases: GameQuestion[] = [];
+					for (const phraseId of gamePhrasesIds) {
+						const phrase = manifest.phraseQueue.find(p => p.spanish === phraseId);
+						if (phrase) {
+							gamePhrases.push(phrase);
+						}
+					}
+					if (gamePhrases.length > 0) {
+						previousGames.push(gamePhrases);
+					}
+				}
+			}
+		} catch (error) {
+			console.error('Error loading previous games:', error);
+		}
+	}
+
+	/**
+	 * Speak a phrase in Spanish and Finnish using TTS
+	 */
+	function speakPhrase(spanish: string, finnish: string) {
+		// Speak Spanish first
+		const spanishUtterance = new SpeechSynthesisUtterance(spanish);
+		spanishUtterance.lang = 'es-ES';
+		spanishUtterance.rate = 0.8;
+		
+		spanishUtterance.onend = () => {
+			// Then speak Finnish
+			const finnishUtterance = new SpeechSynthesisUtterance(finnish);
+			finnishUtterance.lang = 'fi-FI';
+			finnishUtterance.rate = 0.9;
+			window.speechSynthesis.speak(finnishUtterance);
+		};
+		
+		window.speechSynthesis.speak(spanishUtterance);
 	}
 
 	function shuffleArray<T>(array: T[]): T[] {
@@ -229,9 +313,9 @@
 		displayMode = 'svg'; // Start with SVG mode
 		togglesRemaining = 3; // Reset toggles
 
-		// Shuffle and prepare question queue
-		questionQueue = shuffleArray([...manifest.phraseQueue]);
-		totalQuestions = Math.min(questionQueue.length, 5);
+		// Use the prepared upcoming phrases (already selected with smart logic)
+		questionQueue = shuffleArray([...upcomingPhrases]);
+		totalQuestions = questionQueue.length; // Should be 10
 
 		// Start statistics session
 		currentSessionId = peppaStats.startSession('peppa_advanced_spanish', totalQuestions);
@@ -320,13 +404,13 @@
 			// Show celebration feedback
 			showCorrectAnswerFeedback();
 		} else {
-			// Wrong answer: add 3 toggles
-			togglesRemaining += 3;
+			// Wrong answer: add 1 toggle
+			togglesRemaining += 1;
 			consecutiveCorrect = 0; // Reset consecutive counter
 			
 			// Show bonus notification
 			showToggleBonus = true;
-			toggleBonusAmount = 3;
+			toggleBonusAmount = 1;
 			setTimeout(() => {
 				showToggleBonus = false;
 			}, 2000);
@@ -488,6 +572,12 @@
 		gameEnded = true;
 		gameStarted = false;
 
+		// Record game completion in phrase selection history
+		recordGameCompletion(upcomingPhrases);
+
+		// Prepare phrases for the next game
+		prepareNextGamePhrases();
+
 		// End statistics session
 		if (currentSessionId) {
 			peppaStats.endSession(currentSessionId);
@@ -545,10 +635,10 @@
 </script>
 
 <div class="min-h-screen bg-gradient-to-br from-pink-300 via-purple-300 to-blue-300">
-	<div class="container mx-auto px-4 max-w-5xl py-4">
+	<div class="container mx-auto px-2 max-w-5xl py-2">
 		<!-- Header -->
 		{#if !gameStarted && !gameEnded}
-			<div class="mb-4">
+			<div class="mb-2">
 				<a href="{base}/" class="btn btn-ghost btn-sm bg-white/80 backdrop-blur">← Takaisin</a>
 			</div>
 		{/if}
@@ -563,74 +653,85 @@
 			</div>
 		{:else if !gameStarted && !gameEnded}
 			<!-- Start Screen -->
-			<div class="card bg-white/95 shadow-2xl backdrop-blur">
-				<div class="card-body p-6 sm:p-8">
-					<div class="text-center mb-6">
-						<div class="text-5xl mb-4">🐷👫🇪🇸</div>
-						<h1 class="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
-							Pipsan ystävät
-						</h1>
-						<p class="text-lg text-base-content/70 mt-2">
-							Kuuntele ja valitse oikea kuva!
-						</p>
-						<p class="text-sm text-base-content/50 mt-1">
-							Escucha y elige la imagen correcta
-						</p>
-					</div>
+			<div class="card bg-white/95 shadow-2xl backdrop-blur min-h-[calc(100vh-5rem)] sm:min-h-0 flex flex-col">
+				<div class="card-body px-6 py-6 sm:p-8 flex-1 flex flex-col justify-between">
+					<div>
+						<div class="text-center mb-3">
+							<div class="text-5xl mb-2">🐷👫🇪🇸</div>
+							<h1 class="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent leading-tight">
+								Pipsan ystävät
+							</h1>
+							<p class="text-lg text-base-content/70 mt-1 leading-tight">
+								Kuuntele ja valitse oikea kuva!
+							</p>
+							<p class="text-sm text-base-content/50 mt-0.5 leading-tight">
+								Escucha y elige la imagen correcta
+							</p>
+						</div>
 
-
-					<!-- Preview: Toggle between modes -->
-					<div class="bg-gradient-to-r from-blue-100 to-purple-100 rounded-xl p-2 sm:p-4 mb-4">
-						<p class="text-center text-sm font-bold mb-2">
-							Vaihda näkymää painikkeella!
-						</p>
-						<div class="grid grid-cols-2 gap-2 sm:gap-4">
-							<div>
-								<p class="text-xs font-bold text-center mb-2">🖼️ Kuvatila:</p>
-								<div class="grid grid-cols-2 gap-1 sm:gap-2">
-									<div class="aspect-square rounded-lg overflow-hidden shadow-lg border-2 border-pink-300">
-										<img src="{base}/peppa_advanced_spanish_images/svg/01_muddy_puddles.svg" alt="Muddy puddles" class="w-full h-full object-cover" />
-									</div>
-									<div class="aspect-square rounded-lg overflow-hidden shadow-lg border-2 border-blue-300">
-										<img src="{base}/peppa_advanced_spanish_images/svg/02_yo_soy_peppa.svg" alt="Yo soy Peppa" class="w-full h-full object-cover" />
+						<!-- Preview: Toggle between modes -->
+						<div class="bg-gradient-to-r from-blue-100 to-purple-100 rounded-xl p-2 sm:p-4 mb-3">
+							<div class="grid grid-cols-2 gap-2 sm:gap-4">
+								<div>
+									<p class="text-xs font-bold text-center mb-2">🖼️ Kuvavinkki</p>
+									<div class="grid grid-cols-2 gap-1 sm:gap-2">
+										<div class="aspect-square rounded-lg overflow-hidden shadow-lg border-2 border-pink-300">
+											<img src="{base}/peppa_advanced_spanish_images/svg/01_muddy_puddles.svg" alt="Muddy puddles" class="w-full h-full object-cover" />
+										</div>
+										<div class="aspect-square rounded-lg overflow-hidden shadow-lg border-2 border-blue-300">
+											<img src="{base}/peppa_advanced_spanish_images/svg/02_yo_soy_peppa.svg" alt="Yo soy Peppa" class="w-full h-full object-cover" />
+										</div>
 									</div>
 								</div>
-							</div>
-							<div>
-								<p class="text-xs font-bold text-center mb-2">😀 Emojitila:</p>
-								<div class="grid grid-cols-2 gap-2">
-									<div class="aspect-square rounded-lg overflow-hidden shadow-lg border-2 border-pink-300 bg-gradient-to-br from-pink-50 to-purple-50 flex items-center justify-center">
-										<span class="text-3xl sm:text-xl">🐷💦🟤👢😄</span>
-									</div>
-									<div class="aspect-square rounded-lg overflow-hidden shadow-lg border-2 border-blue-300 bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center">
-										<span class="text-3xl sm:text-xl">🐷👆💗✨</span>
+								<div>
+									<p class="text-xs font-bold text-center mb-2">😀 Emoji-vinkki</p>
+									<div class="grid grid-cols-2 gap-2">
+										<div class="aspect-square rounded-lg overflow-hidden shadow-lg border-2 border-pink-300 bg-gradient-to-br from-pink-50 to-purple-50 flex items-center justify-center">
+											<span class="text-3xl sm:text-xl">🐷💦🟤👢😄</span>
+										</div>
+										<div class="aspect-square rounded-lg overflow-hidden shadow-lg border-2 border-blue-300 bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center">
+											<span class="text-3xl sm:text-xl">🐷👆💗✨</span>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+
+						<!-- Audio Toggle -->
+						<div class="form-control mb-3">
+							<label class="label cursor-pointer bg-base-200 rounded-lg p-2 w-full">
+								<div class="flex items-center gap-2">
+									<span class="text-2xl sm:text-3xl">🔊</span>
+									<span class="text-base sm:text-lg font-bold">Ääni päälle</span>
+								</div>
+								<input
+									type="checkbox"
+									bind:checked={autoPlayAudio}
+									onchange={saveAudioSetting}
+									class="toggle toggle-secondary toggle-sm sm:toggle-md ml-auto"
+								/>
+							</label>
+						</div>
 					</div>
 
-					<!-- Audio Toggle -->
-					<div class="form-control mb-4">
-						<label class="label cursor-pointer justify-center gap-3 bg-base-200 rounded-lg p-3">
-							<span class="text-3xl sm:text-4xl">🔊</span>
-							<span class="text-lg sm:text-xl font-bold">Ääni päälle</span>
-							<input
-								type="checkbox"
-								bind:checked={autoPlayAudio}
-								onchange={saveAudioSetting}
-								class="toggle toggle-secondary toggle-md sm:toggle-lg"
-							/>
-						</label>
-					</div>
+					<!-- Action Buttons Row -->
+					<div class="flex gap-3 items-stretch">
+						<button 
+							class="btn btn-lg flex-shrink-0 bg-pink-200 hover:bg-pink-300 border-pink-300 text-base-content"
+							onclick={togglePhrasePreview}
+						>
+							<span class="text-2xl">📖</span>
+							Sanakirja
+						</button>
 
-					<button 
-						class="btn btn-primary btn-lg w-full text-2xl h-20"
-						onclick={startGame}
-					>
-						<span class="text-4xl">🎮</span>
-						Aloita peli!
-					</button>
+						<button 
+							class="btn btn-primary btn-lg flex-1 text-xl"
+							onclick={startGame}
+						>
+							<span class="text-3xl">🎮</span>
+							Aloita
+						</button>
+					</div>
 				</div>
 			</div>
 		{:else if gameStarted && currentQuestion}
@@ -656,58 +757,57 @@
 					</div>
 				</div>
 
-				<!-- Audio Card with Toggle -->
-				<div class="card bg-gradient-to-br from-yellow-100 to-orange-100 shadow-lg border-2 border-yellow-400">
-					<div class="card-body p-3">
-						<h2 class="text-base font-bold mb-2 text-center">
-							{#if autoPlayAudio}
-								Kuuntele ja arvaa!
-							{:else}
-								Lue ja arvaa!
-							{/if}
-						</h2>
-						
-						<div class="grid grid-cols-2 gap-3">
-							<!-- Left: Audio Replay -->
-							<div class="flex flex-col items-center gap-1">
-								<button 
-									class="btn btn-circle btn-md bg-white hover:bg-yellow-50 border-2 border-primary shadow-lg {autoPlayAudio ? 'animate-pulse' : ''}"
-									onclick={replayAudio}
-									disabled={!autoPlayAudio}
-								>
-									<span class="text-3xl">🔊</span>
-								</button>
-								<p class="text-xs text-base-content/70">Kuuntele</p>
-							</div>
-							
-							<!-- Right: Display Mode Toggle -->
-							<div class="flex flex-col items-center gap-1">
-								<button
-									class="btn btn-circle btn-md border-2 shadow-lg transition-all duration-300
-										{togglesRemaining > 0 
-											? 'bg-gradient-to-br from-blue-400 to-purple-400 hover:from-blue-500 hover:to-purple-500 border-blue-600' 
-											: 'bg-gray-300 border-gray-400 cursor-not-allowed opacity-50'}"
-									onclick={toggleDisplayMode}
-									disabled={togglesRemaining <= 0}
-									title={togglesRemaining > 0 ? 'Vaihda tilaa' : 'Ei vaihtoja'}
-								>
-									<span class="text-2xl">{displayMode === 'svg' ? '🖼️' : '😀'}</span>
-								</button>
-								<div class="badge badge-sm gap-1 {togglesRemaining > 0 ? 'badge-primary' : 'badge-ghost'}">
-									<span class="text-xs">🔄</span>
-									<span class="font-bold text-xs">{togglesRemaining}</span>
+				<!-- Audio Card with Toggle (hidden during feedback) -->
+				{#if !showFeedback}
+					<div class="card bg-gradient-to-br from-yellow-100 to-orange-100 shadow-lg border-2 border-yellow-400">
+						<div class="card-body p-3">
+							<div class="grid grid-cols-2 gap-3 items-center">
+								<!-- Left: Audio Replay -->
+								<div class="flex flex-col items-center gap-1 border border-base-content/20 rounded-lg p-2 bg-white/30">
+									<button 
+										class="btn btn-circle btn-md bg-white hover:bg-yellow-50 border-2 border-primary shadow-lg {autoPlayAudio ? 'animate-pulse' : ''}"
+										onclick={replayAudio}
+										disabled={!autoPlayAudio}
+									>
+										<span class="text-3xl">🔊</span>
+									</button>
+									<p class="text-xs text-base-content/70">Kuuntele</p>
+								</div>
+								
+								<!-- Right: Display Mode Selector -->
+								<div class="flex flex-col items-center gap-1 border border-base-content/20 rounded-lg p-2 bg-white/30">
+									<p class="text-[8px] font-bold text-base-content/60 mb-1">Tyyli</p>
+									<div class="text-center mb-1">
+										<span class="text-xs font-bold {togglesRemaining > 0 ? 'text-primary' : 'text-base-content/50'}">
+											{togglesRemaining} {togglesRemaining === 1 ? 'vaihto' : 'vaihtoa'}
+										</span>
+									</div>
+									<button
+										class="badge badge-sm {displayMode === 'svg' ? 'badge-primary' : 'badge-ghost'} transition-all cursor-pointer hover:scale-110 w-full"
+										onclick={toggleDisplayMode}
+										disabled={togglesRemaining <= 0}
+									>
+										🖼️ Kuva
+									</button>
+									<button
+										class="badge badge-sm {displayMode === 'emoji' ? 'badge-primary' : 'badge-ghost'} transition-all cursor-pointer hover:scale-110 w-full"
+										onclick={toggleDisplayMode}
+										disabled={togglesRemaining <= 0}
+									>
+										😀 Emoji
+									</button>
 								</div>
 							</div>
+							
+							<!-- Show Spanish text when audio is off -->
+							{#if !autoPlayAudio && currentQuestion}
+								<div class="mt-2 text-center">
+									<p class="text-2xl font-bold text-primary">{currentQuestion.spanish}</p>
+								</div>
+							{/if}
 						</div>
-						
-						<!-- Show Spanish text when audio is off -->
-						{#if !autoPlayAudio && currentQuestion}
-							<div class="mt-2 text-center">
-								<p class="text-2xl font-bold text-primary">{currentQuestion.spanish}</p>
-							</div>
-						{/if}
 					</div>
-				</div>
+				{/if}
 
 				<!-- Image Options Grid OR Feedback Area -->
 				{#if showFeedback}
@@ -825,27 +925,15 @@
 								onclick={() => selectAnswer(option.id)}
 							>
 								<!-- Display mode: SVG or Emoji -->
-								{#if displayMode === 'svg' && option.file}
+								{#if displayMode === 'svg'}
 									<!-- SVG Image Mode -->
 									<img 
 										src={option.file} 
 									alt=""
 									class="w-full h-full object-cover bg-white transition-all duration-500"
-									onerror={(e) => {
-										console.error(`❌ Failed to load: ${option.file} for ${option.id}`);
-										const target = e.currentTarget as HTMLImageElement;
-										target.style.display = 'none';
-										const parent = target.parentElement;
-										if (parent) {
-											const div = document.createElement('div');
-											div.className = 'w-full h-full bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 flex items-center justify-center';
-											div.innerHTML = `<span class="text-5xl sm:text-6xl">${option.emojiDisplay}</span>`;
-											parent.appendChild(div);
-										}
-									}}
 									/>
 								{:else}
-									<!-- Emoji Mode (or fallback when no SVG) -->
+									<!-- Emoji Mode -->
 									<div class="w-full h-full bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 flex items-center justify-center transition-all duration-500">
 										<span class="text-5xl sm:text-6xl tracking-wider">{option.emojiDisplay}</span>
 									</div>
@@ -855,17 +943,6 @@
 					</div>
 				{/if}
 
-				<!-- Display mode indicator -->
-				{#if !showFeedback}
-					<div class="flex justify-center gap-2">
-						<span class="badge badge-sm {displayMode === 'svg' ? 'badge-primary' : 'badge-ghost'} transition-all">
-							🖼️ Kuva
-						</span>
-						<span class="badge badge-sm {displayMode === 'emoji' ? 'badge-primary' : 'badge-ghost'} transition-all">
-							😀 Emoji
-						</span>
-					</div>
-				{/if}
 
 				<!-- Toggle Bonus Notification -->
 				{#if showToggleBonus}
@@ -932,6 +1009,100 @@
 						>
 							🏠 Kotiin
 						</a>
+					</div>
+				</div>
+			</div>
+		{/if}
+
+		<!-- Phrase Preview Modal -->
+		{#if showPhrasePreview}
+			<div class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 sm:flex sm:items-center sm:justify-center sm:p-2" onclick={togglePhrasePreview} role="button" tabindex="0" onkeydown={(e) => e.key === 'Escape' && togglePhrasePreview()}>
+				<div class="bg-white sm:rounded-2xl shadow-2xl sm:max-w-2xl w-full h-full sm:h-auto sm:max-h-[95vh] overflow-hidden" onclick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" onkeydown={(e) => e.stopPropagation()}>
+					<!-- Modal Header -->
+					<div class="bg-gradient-to-r from-pink-500 to-purple-500 text-white p-3 flex items-center justify-between">
+						<div class="flex items-center gap-2">
+							<span class="text-2xl">📖</span>
+							<h2 class="text-xl font-bold">Sanakirja</h2>
+						</div>
+						<button class="btn btn-circle btn-sm btn-ghost text-white" onclick={togglePhrasePreview}>
+							✕
+						</button>
+					</div>
+
+					<!-- Modal Content -->
+					<div class="overflow-y-auto h-[calc(100vh-60px)] sm:h-auto sm:max-h-[calc(95vh-60px)] p-2">
+						<!-- Upcoming Game Phrases -->
+						<div class="space-y-1 mb-4">
+							{#each upcomingPhrases as phrase}
+								<div class="bg-gradient-to-br from-pink-50 to-purple-50 rounded-lg p-2 border border-pink-200">
+									<div class="flex items-center gap-2">
+										<!-- Phrase content -->
+										<div class="flex-1 min-w-0">
+											<div class="text-sm font-bold text-gray-700 truncate">
+												{phrase.spanish}
+											</div>
+											<div class="text-xs text-base-content/70 truncate">
+												{findFinnishTranslation(phrase.spanish) || phrase.finnish || ''}
+											</div>
+										</div>
+
+										<!-- TTS Button -->
+										<button 
+											class="btn btn-circle btn-xs bg-white hover:bg-pink-100 border border-pink-300 flex-shrink-0"
+											onclick={() => speakPhrase(phrase.spanish, findFinnishTranslation(phrase.spanish) || phrase.finnish || '')}
+											title="Kuuntele"
+										>
+											<span class="text-sm">🔊</span>
+										</button>
+									</div>
+								</div>
+							{/each}
+						</div>
+
+						<!-- Previous Games -->
+						{#each previousGames as gamePhrases, gameIndex}
+							<!-- Separator -->
+							<div class="bg-base-200 rounded-lg p-2 mb-2 mt-4">
+								<p class="text-xs font-semibold text-center text-base-content/70">
+									{gameIndex === 0 ? 'Edellisen pelin sanat' : `${gameIndex + 1}. viimeisen pelin sanat`}
+								</p>
+							</div>
+
+							<!-- Game Phrases -->
+							<div class="space-y-1 mb-4">
+								{#each gamePhrases as phrase}
+									<div class="bg-base-100 rounded-lg p-2 border border-base-300">
+										<div class="flex items-center gap-2">
+											<!-- Phrase content -->
+											<div class="flex-1 min-w-0">
+												<div class="text-sm font-bold text-gray-700 truncate">
+													{phrase.spanish}
+												</div>
+												<div class="text-xs text-base-content/60 truncate">
+													{findFinnishTranslation(phrase.spanish) || phrase.finnish || ''}
+												</div>
+											</div>
+
+											<!-- TTS Button -->
+											<button 
+												class="btn btn-circle btn-xs bg-white hover:bg-base-200 border border-base-300 flex-shrink-0"
+												onclick={() => speakPhrase(phrase.spanish, findFinnishTranslation(phrase.spanish) || phrase.finnish || '')}
+												title="Kuuntele"
+											>
+												<span class="text-sm">🔊</span>
+											</button>
+										</div>
+									</div>
+								{/each}
+							</div>
+						{/each}
+
+						<!-- Close button at bottom -->
+						<div class="mt-4 mb-2 text-center">
+							<button class="btn btn-primary btn-sm btn-wide" onclick={togglePhrasePreview}>
+								Sulje
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>

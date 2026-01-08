@@ -1,125 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <defs>
-    <linearGradient id="livingRoomBg3" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFF3E0"/>
-      <stop offset="100%" stop-color="#FFE0B2"/>
-    </linearGradient>
-  </defs>
-  
-  <!-- Background living room -->
-  <rect width="400" height="400" fill="url(#livingRoomBg3)"/>
-  
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Cozy living room -->
+  <rect width="400" height="400" fill="#FFF8E1"/>
+  <!-- Floor/carpet -->
+  <rect x="0" y="300" width="400" height="100" fill="#FCE4EC"/>
+  <!-- Sofa -->
+  <rect x="250" y="200" width="120" height="80" fill="#8D6E63"/>
   <!-- Window -->
-  <rect x="50" y="50" width="100" height="120" rx="5" fill="#8D6E63"/>
-  <rect x="55" y="55" width="90" height="110" fill="#E3F2FD"/>
-  <!-- Window frame -->
-  <line x1="100" y1="55" x2="100" y2="165" stroke="#8D6E63" stroke-width="3"/>
-  <line x1="55" y1="110" x2="145" y2="110" stroke="#8D6E63" stroke-width="3"/>
-  
-  <!-- Sofa in background -->
-  <g transform="translate(320, 200)">
-    <!-- Sofa back -->
-    <rect x="-50" y="-40" width="100" height="40" rx="5" fill="#9C27B0"/>
-    <!-- Sofa seat -->
-    <rect x="-50" y="0" width="100" height="30" rx="5" fill="#BA68C8"/>
-  </g>
-  
-  <!-- Carpet -->
-  <ellipse cx="200" cy="350" rx="180" ry="40" fill="#A1887F"/>
-  
-  <!-- Broken toy/torn picture on floor -->
-  <g transform="translate(280, 320)">
-    <!-- Broken toy -->
-    <rect x="0" y="0" width="25" height="15" rx="2" fill="#FF6B6B"/>
-    <!-- Crack line -->
-    <line x1="12.5" y1="0" x2="12.5" y2="15" stroke="#333" stroke-width="2"/>
-  </g>
-  
-  <!-- George sitting worried (foreground) -->
-  <g transform="translate(280, 300)">
-    <!-- Body (blue shirt) -->
-    <ellipse cx="0" cy="25" rx="28" ry="32" fill="#6B9BD2"/>
-    
-    <!-- Legs (sitting) -->
-    <rect x="-14" y="50" width="7" height="30" rx="3" fill="#F9C6CF"/>
-    <rect x="7" y="50" width="7" height="30" rx="3" fill="#F9C6CF"/>
-    
-    <!-- Head -->
-    <ellipse cx="0" cy="-20" rx="32" ry="28" fill="#F9C6CF"/>
-    
-    <!-- Snout -->
-    <ellipse cx="24" cy="-20" rx="12" ry="10" fill="#F9C6CF"/>
-    <circle cx="27" cy="-22" r="2.5" fill="#FF69B4"/>
-    <circle cx="27" cy="-18" r="2.5" fill="#FF69B4"/>
-    
-    <!-- Ears -->
-    <ellipse cx="-10" cy="-48" rx="7" ry="12" fill="#F9C6CF"/>
-    <ellipse cx="10" cy="-48" rx="7" ry="12" fill="#F9C6CF"/>
-    
-    <!-- Eyes (worried, uncertain) -->
-    <ellipse cx="-4" cy="-24" rx="5" ry="7" fill="white"/>
-    <ellipse cx="8" cy="-24" rx="5" ry="7" fill="white"/>
-    <circle cx="-3" cy="-22" r="2.5" fill="#333"/>
-    <circle cx="9" cy="-22" r="2.5" fill="#333"/>
-    
-    <!-- Eyebrows (worried) -->
-    <path d="M -8 -30 Q -4 -32 0 -30" stroke="#333" stroke-width="1.5" fill="none"/>
-    <path d="M 0 -30 Q 4 -32 8 -30" stroke="#333" stroke-width="1.5" fill="none"/>
-    
-    <!-- Mouth (turned down slightly) -->
-    <path d="M -4 -12 Q 0 -15 4 -12" stroke="#333" stroke-width="2" fill="none"/>
-    
-    <!-- Holding Mr. Dinosaur close -->
-    <g transform="translate(-15, 10)">
-      <ellipse cx="0" cy="0" rx="10" ry="15" fill="#4CAF50"/>
-      <ellipse cx="0" cy="-8" rx="6" ry="8" fill="#66BB6A"/>
-      <!-- Dinosaur spikes -->
-      <path d="M -6 -15 L 0 -25 L 6 -15" fill="#2E7D32"/>
-      <!-- Eyes -->
-      <circle cx="-3" cy="-10" r="1.5" fill="#333"/>
-      <circle cx="3" cy="-10" r="1.5" fill="#333"/>
-    </g>
-  </g>
-  
-  <!-- Mummy Pig kneeling, comforting (center-left) -->
-  <g transform="translate(150, 280)">
-    <!-- Body (orange dress) -->
-    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#FF8A65"/>
-    
-    <!-- Legs (kneeling) -->
-    <rect x="-18" y="60" width="9" height="30" rx="4" fill="#F9C6CF"/>
-    <rect x="9" y="60" width="9" height="30" rx="4" fill="#F9C6CF"/>
-    
-    <!-- Head -->
-    <ellipse cx="0" cy="-30" rx="38" ry="32" fill="#FFAB91"/>
-    
-    <!-- Snout -->
-    <ellipse cx="28" cy="-30" rx="14" ry="11" fill="#FFAB91"/>
-    <circle cx="32" cy="-32" r="2.5" fill="#FF69B4"/>
-    <circle cx="32" cy="-28" r="2.5" fill="#FF69B4"/>
-    
-    <!-- Ears -->
-    <ellipse cx="-12" cy="-58" rx="9" ry="14" fill="#FFAB91"/>
-    <ellipse cx="12" cy="-58" rx="9" ry="14" fill="#FFAB91"/>
-    
-    <!-- Eyes (warm, reassuring) -->
-    <ellipse cx="-5" cy="-35" rx="6" ry="8" fill="white"/>
-    <ellipse cx="8" cy="-35" rx="6" ry="8" fill="white"/>
-    <circle cx="-4" cy="-34" r="3" fill="#333"/>
-    <circle cx="9" cy="-34" r="3" fill="#333"/>
-    
-    <!-- Warm, reassuring smile -->
-    <path d="M -5 -20 Q 0 -15 5 -20" stroke="#333" stroke-width="2" fill="none"/>
-    
-    <!-- Left arm patting George's shoulder -->
-    <path d="M -30 25 Q -40 10 -35 -5 Q -30 -15 -20 -10" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
-    <circle cx="-20" cy="-10" r="10" fill="#F9C6CF"/>
-    
-    <!-- Right arm (gentle "it's okay" gesture) -->
-    <path d="M 30 30 Q 45 50 50 70" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
-    <circle cx="50" cy="70" r="10" fill="#F9C6CF"/>
-  </g>
-  
+  <rect x="300" y="50" width="80" height="60" fill="#87CEEB"/>
+  <!-- Broken toy/picture -->
+  <rect x="150" y="320" width="30" height="20" fill="#FF5722"/>
+  <line x1="150" y1="330" x2="180" y2="330" stroke="#000" stroke-width="2"/>
+  <!-- George Pig sitting -->
+  <!-- Body -->
+  <ellipse cx="150" cy="320" rx="20" ry="30" fill="#6B9BD2"/>
+  <!-- Head -->
+  <circle cx="150" cy="270" r="25" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="150" cy="280" rx="6" ry="4" fill="#FF69B4"/>
+  <!-- Eyes uncertain -->
+  <circle cx="140" cy="260" r="3" fill="#000"/>
+  <circle cx="160" cy="260" r="3" fill="#000"/>
+  <!-- Mouth turned down -->
+  <path d="M140 285 Q150 280 160 285" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Arms holding Mr. Dinosaur -->
+  <ellipse cx="135" cy="310" rx="6" ry="12" fill="#F9C6CF"/>
+  <ellipse cx="165" cy="310" rx="6" ry="12" fill="#F9C6CF"/>
+  <!-- Legs sitting -->
+  <ellipse cx="142" cy="350" rx="6" ry="15" fill="#F9C6CF"/>
+  <ellipse cx="158" cy="350" rx="6" ry="15" fill="#F9C6CF"/>
+  <!-- Mr. Dinosaur -->
+  <circle cx="150" cy="310" r="10" fill="#4CAF50"/>
+  <!-- Mummy Pig kneeling -->
+  <!-- Body -->
+  <ellipse cx="200" cy="300" rx="25" ry="40" fill="#FF8A65"/>
+  <!-- Head -->
+  <circle cx="200" cy="240" r="30" fill="#FFAB91"/>
+  <!-- Snout -->
+  <ellipse cx="200" cy="250" rx="8" ry="5" fill="#FF69B4"/>
+  <!-- Eyes -->
+  <circle cx="190" cy="230" r="4" fill="#000"/>
+  <circle cx="210" cy="230" r="4" fill="#000"/>
+  <!-- Warm reassuring smile -->
+  <path d="M185 255 Q200 265 215 255" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Arms: one patting shoulder, one gesturing -->
+  <ellipse cx="180" cy="290" rx="8" ry="18" fill="#FFAB91" transform="rotate(-30 180 290)"/>
+  <ellipse cx="220" cy="280" rx="8" ry="18" fill="#FFAB91" transform="rotate(30 220 280)"/>
+  <!-- Legs kneeling -->
+  <ellipse cx="190" cy="350" rx="8" ry="20" fill="#FFAB91"/>
+  <ellipse cx="210" cy="350" rx="8" ry="20" fill="#FFAB91"/>
   <!-- Signature -->
   <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Composer 1</text>
 </svg>

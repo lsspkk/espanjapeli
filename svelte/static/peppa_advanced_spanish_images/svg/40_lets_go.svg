@@ -1,202 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Let's go">
-  <defs>
-    <linearGradient id="doorwaySky" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#87CEEB"/>
-      <stop offset="100%" stop-color="#B0E0E6"/>
-    </linearGradient>
-  </defs>
-  
-  <!-- Sky background -->
-  <rect width="400" height="400" fill="url(#doorwaySky)"/>
-  
-  <!-- Clouds -->
-  <ellipse cx="100" cy="60" rx="35" ry="20" fill="#FFFFFF" opacity="0.9"/>
-  <ellipse cx="300" cy="80" rx="30" ry="18" fill="#FFFFFF" opacity="0.9"/>
-  
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Front door scene -->
+  <rect width="400" height="400" fill="#FFF8E1"/>
   <!-- Yellow house -->
-  <rect x="100" y="150" width="200" height="150" fill="#FFD54F"/>
-  <polygon points="100,150 200,100 300,150" fill="#FFB300"/>
-  <!-- Windows -->
-  <rect x="130" y="180" width="30" height="30" fill="#87CEEB"/>
-  <rect x="240" y="180" width="30" height="30" fill="#87CEEB"/>
-  
-  <!-- Open front door -->
-  <rect x="180" y="200" width="40" height="100" fill="#8D6E63"/>
-  <rect x="185" y="205" width="30" height="90" fill="#654321"/>
-  <!-- Door handle -->
-  <circle cx="210" cy="250" r="3" fill="#FFD54F"/>
-  
-  <!-- Path leading away -->
-  <rect x="220" y="300" width="180" height="100" fill="#A1887F"/>
-  <rect x="220" y="300" width="180" height="5" fill="#8D6E63"/>
-  
+  <rect x="150" y="100" width="200" height="200" fill="#FFC107"/>
+  <polygon points="150,100 250,50 350,100" fill="#D32F2F"/>
+  <!-- Door -->
+  <rect x="220" y="200" width="60" height="100" fill="#8D6E63"/>
+  <circle cx="270" cy="250" r="3" fill="#5D4037"/>
+  <!-- Window -->
+  <rect x="170" y="130" width="30" height="40" fill="#87CEEB"/>
+  <rect x="320" y="130" width="30" height="40" fill="#87CEEB"/>
+  <!-- Sunny day outside -->
+  <rect x="0" y="0" width="150" height="400" fill="#E8F5E8"/>
+  <rect x="0" y="300" width="150" height="100" fill="#4CAF50"/>
+  <!-- Path -->
+  <rect x="0" y="320" width="150" height="20" fill="#D7CCC8"/>
   <!-- Car in driveway -->
-  <g transform="translate(320, 320)">
-    <rect x="0" y="0" width="50" height="30" rx="5" fill="#E53935"/>
-    <rect x="5" y="5" width="40" height="20" fill="#FF5252"/>
-    <!-- Wheels -->
-    <circle cx="10" cy="30" r="8" fill="#333"/>
-    <circle cx="40" cy="30" r="8" fill="#333"/>
-    <!-- Windows -->
-    <rect x="10" y="8" width="12" height="10" fill="#87CEEB"/>
-    <rect x="28" y="8" width="12" height="10" fill="#87CEEB"/>
-  </g>
-  
-  <!-- Mummy Pig in doorway (holding picnic basket) -->
-  <g transform="translate(200, 250)">
-    <!-- Body (orange dress) -->
-    <ellipse cx="0" cy="30" rx="35" ry="40" fill="#FF8A65"/>
-    <!-- Legs -->
-    <rect x="-18" y="60" width="9" height="40" rx="4" fill="#F9C6CF"/>
-    <rect x="9" y="60" width="9" height="40" rx="4" fill="#F9C6CF"/>
-    <!-- Shoes -->
-    <ellipse cx="-13" cy="105" rx="12" ry="7" fill="#333"/>
-    <ellipse cx="13" cy="105" rx="12" ry="7" fill="#333"/>
-    <!-- Left arm holding picnic basket -->
-    <path d="M -30 25 Q -40 10 -35 -5" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
-    <circle cx="-35" cy="-5" r="10" fill="#F9C6CF"/>
-    <!-- Picnic basket -->
-    <g transform="translate(-40, -10)">
-      <ellipse cx="0" cy="0" rx="15" ry="10" fill="#8D6E63"/>
-      <ellipse cx="0" cy="-2" rx="13" ry="8" fill="#A1887F"/>
-      <rect x="-2" y="-10" width="4" height="8" fill="#8D6E63"/>
-      <ellipse cx="0" cy="-10" rx="3" ry="2" fill="#A1887F"/>
-    </g>
-    <!-- Right arm -->
-    <path d="M 30 30 Q 40 50 35 70" stroke="#F9C6CF" stroke-width="14" stroke-linecap="round" fill="none"/>
-    <circle cx="35" cy="70" r="10" fill="#F9C6CF"/>
-    <!-- Head -->
-    <ellipse cx="0" cy="-30" rx="38" ry="32" fill="#FFAB91"/>
-    <!-- Snout -->
-    <ellipse cx="28" cy="-30" rx="14" ry="11" fill="#FFAB91"/>
-    <circle cx="32" cy="-32" r="2.5" fill="#FF69B4"/>
-    <circle cx="32" cy="-28" r="2.5" fill="#FF69B4"/>
-    <!-- Ears -->
-    <ellipse cx="-12" cy="-58" rx="9" ry="14" fill="#FFAB91"/>
-    <ellipse cx="12" cy="-58" rx="9" ry="14" fill="#FFAB91"/>
-    <!-- Eyes (warm smile) -->
-    <ellipse cx="-5" cy="-35" rx="6" ry="8" fill="white"/>
-    <ellipse cx="8" cy="-35" rx="6" ry="8" fill="white"/>
-    <circle cx="-4" cy="-34" r="3" fill="#333"/>
-    <circle cx="9" cy="-34" r="3" fill="#333"/>
-    <!-- Warm smile -->
-    <path d="M -5 -20 Q 0 -15 5 -20" stroke="#333" stroke-width="2" fill="none"/>
-  </g>
-  
-  <!-- George (right, ready with backpack) -->
-  <g transform="translate(280, 280)">
-    <!-- Body (blue shirt) -->
-    <ellipse cx="0" cy="40" rx="40" ry="45" fill="#6B9BD2"/>
-    <!-- Legs -->
-    <rect x="-22" y="75" width="10" height="45" rx="5" fill="#F9C6CF"/>
-    <rect x="12" y="75" width="10" height="45" rx="5" fill="#F9C6CF"/>
-    <!-- Shoes -->
-    <ellipse cx="-17" cy="125" rx="13" ry="7" fill="#333"/>
-    <ellipse cx="17" cy="125" rx="13" ry="7" fill="#333"/>
-    <!-- Backpack -->
-    <rect x="-15" y="10" width="30" height="35" rx="3" fill="#4CAF50"/>
-    <rect x="-13" y="12" width="26" height="30" fill="#66BB6A"/>
-    <rect x="-5" y="10" width="10" height="8" fill="#2E7D32"/>
-    <!-- Arms -->
-    <path d="M -30 35 Q -40 15 -35 -5" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
-    <circle cx="-35" cy="-5" r="10" fill="#F9C6CF"/>
-    <!-- Mr. Dinosaur -->
-    <g transform="translate(-35, -5)">
-      <ellipse cx="0" cy="0" rx="12" ry="8" fill="#66BB6A"/>
-      <circle cx="-5" cy="-3" r="2" fill="#333"/>
-      <circle cx="5" cy="-3" r="2" fill="#333"/>
-      <path d="M -8 5 Q 0 8 8 5" stroke="#333" stroke-width="1.5" fill="none"/>
-    </g>
-    <path d="M 30 40 Q 40 60 35 80" stroke="#F9C6CF" stroke-width="16" stroke-linecap="round" fill="none"/>
-    <circle cx="35" cy="80" r="10" fill="#F9C6CF"/>
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="48" ry="40" fill="#F9C6CF"/>
-    <!-- Snout -->
-    <ellipse cx="45" cy="-50" rx="20" ry="14" fill="#F9C6CF"/>
-    <circle cx="52" cy="-55" r="3.5" fill="#FF69B4"/>
-    <circle cx="52" cy="-45" r="3.5" fill="#FF69B4"/>
-    <!-- Ears -->
-    <ellipse cx="-16" cy="-85" rx="10" ry="20" fill="#F9C6CF"/>
-    <ellipse cx="16" cy="-85" rx="10" ry="20" fill="#F9C6CF"/>
-    <!-- Eyes (excited, ready) -->
-    <ellipse cx="-8" cy="-52" rx="7" ry="9" fill="white"/>
-    <ellipse cx="12" cy="-52" rx="7" ry="9" fill="white"/>
-    <circle cx="-6" cy="-50" r="3.5" fill="#333"/>
-    <circle cx="14" cy="-50" r="3.5" fill="#333"/>
-    <!-- Excited smile -->
-    <path d="M -6 -35 Q 0 -28 6 -35" stroke="#333" stroke-width="2.5" fill="none"/>
-  </g>
-  
-  <!-- Daddy Pig (left, putting on coat) -->
-  <g transform="translate(100, 280)">
-    <!-- Body (orange) -->
-    <ellipse cx="0" cy="40" rx="45" ry="50" fill="#FF8A65"/>
-    <!-- Coat being put on -->
-    <ellipse cx="0" cy="40" rx="50" ry="55" fill="#5D4037" opacity="0.7"/>
-    <!-- Legs -->
-    <rect x="-25" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
-    <rect x="13" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
-    <!-- Shoes -->
-    <ellipse cx="-19" cy="135" rx="15" ry="8" fill="#333"/>
-    <ellipse cx="19" cy="135" rx="15" ry="8" fill="#333"/>
-    <!-- Arms (putting on coat) -->
-    <path d="M -40 35 Q -50 15 -45 -5 Q -40 -25 -25 -20" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="-25" cy="-20" r="12" fill="#F9C6CF"/>
-    <path d="M 40 40 Q 50 20 45 0 Q 40 -20 25 -15" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="25" cy="-15" r="12" fill="#F9C6CF"/>
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#FFAB91"/>
-    <!-- Snout -->
-    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#FFAB91"/>
-    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
-    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
-    <!-- Ears -->
-    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#FFAB91"/>
-    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#FFAB91"/>
-    <!-- Eyes -->
-    <ellipse cx="-10" cy="-55" rx="8" ry="10" fill="white"/>
-    <ellipse cx="15" cy="-55" rx="8" ry="10" fill="white"/>
-    <circle cx="-8" cy="-53" r="4" fill="#333"/>
-    <circle cx="17" cy="-53" r="4" fill="#333"/>
-    <!-- Smile -->
-    <path d="M -5 -30 Q 10 -20 25 -30" stroke="#333" stroke-width="3" fill="none"/>
-  </g>
-  
-  <!-- Peppa (center, pointing forward excitedly) -->
-  <g transform="translate(200, 280)">
-    <!-- Body (red dress) -->
-    <ellipse cx="0" cy="40" rx="45" ry="50" fill="#E63946"/>
-    <!-- Legs -->
-    <rect x="-25" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
-    <rect x="13" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
-    <!-- Shoes -->
-    <ellipse cx="-19" cy="135" rx="15" ry="8" fill="#333"/>
-    <ellipse cx="19" cy="135" rx="15" ry="8" fill="#333"/>
-    <!-- Right arm raised high, pointing forward -->
-    <path d="M 40 35 Q 50 5 45 -30 Q 40 -65 30 -50" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="30" cy="-50" r="12" fill="#F9C6CF"/>
-    <!-- Left arm -->
-    <path d="M -40 40 Q -50 60 -45 80" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="-45" cy="80" r="12" fill="#F9C6CF"/>
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
-    <!-- Snout -->
-    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
-    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
-    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
-    <!-- Ears -->
-    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    <!-- Eyes (bright, excited) -->
-    <ellipse cx="-10" cy="-55" rx="8" ry="10" fill="white"/>
-    <ellipse cx="15" cy="-55" rx="8" ry="10" fill="white"/>
-    <circle cx="-8" cy="-53" r="4" fill="#333"/>
-    <circle cx="17" cy="-53" r="4" fill="#333"/>
-    <!-- Enthusiastic smile, mouth open -->
-    <ellipse cx="25" cy="-25" rx="6" ry="8" fill="#333"/>
-  </g>
-  
+  <rect x="20" y="280" width="50" height="30" fill="#2196F3"/>
+  <rect x="25" y="275" width="40" height="10" fill="#1976D2"/>
+  <circle cx="35" cy="310" r="8" fill="#212121"/>
+  <circle cx="55" cy="310" r="8" fill="#212121"/>
+  <!-- Sun -->
+  <circle cx="50" cy="50" r="20" fill="#FFC107"/>
+  <!-- Peppa Pig -->
+  <!-- Body -->
+  <ellipse cx="200" cy="280" rx="25" ry="35" fill="#E63946"/>
+  <!-- Head -->
+  <circle cx="200" cy="230" r="30" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="200" cy="240" rx="8" ry="5" fill="#FF69B4"/>
+  <!-- Eyes bright -->
+  <circle cx="190" cy="220" r="4" fill="#000"/>
+  <circle cx="210" cy="220" r="4" fill="#000"/>
+  <!-- Enthusiastic smile -->
+  <path d="M185 245 Q200 260 215 245" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Arms: one pointing forward -->
+  <ellipse cx="180" cy="270" rx="8" ry="15" fill="#F9C6CF"/>
+  <ellipse cx="220" cy="240" rx="8" ry="20" fill="#F9C6CF" transform="rotate(45 220 240)"/>
+  <!-- Legs -->
+  <ellipse cx="190" cy="320" rx="8" ry="20" fill="#F9C6CF"/>
+  <ellipse cx="210" cy="320" rx="8" ry="20" fill="#F9C6CF"/>
+  <!-- Daddy Pig putting on coat -->
+  <!-- Body -->
+  <ellipse cx="280" cy="280" rx="25" ry="40" fill="#FF8A65"/>
+  <!-- Head -->
+  <circle cx="280" cy="220" r="30" fill="#FFAB91"/>
+  <!-- Snout -->
+  <ellipse cx="280" cy="230" rx="8" ry="5" fill="#FF69B4"/>
+  <!-- Eyes -->
+  <circle cx="270" cy="210" r="4" fill="#000"/>
+  <circle cx="290" cy="210" r="4" fill="#000"/>
+  <!-- Smile -->
+  <path d="M270 235 Q280 245 290 235" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Arms putting on coat -->
+  <ellipse cx="265" cy="270" rx="8" ry="18" fill="#FFAB91"/>
+  <ellipse cx="295" cy="270" rx="8" ry="18" fill="#FFAB91"/>
+  <!-- Coat -->
+  <rect x="255" y="240" width="50" height="60" fill="#424242" opacity="0.7"/>
+  <!-- Legs -->
+  <ellipse cx="270" cy="330" rx="8" ry="25" fill="#FFAB91"/>
+  <ellipse cx="290" cy="330" rx="8" ry="25" fill="#FFAB91"/>
+  <!-- George with backpack -->
+  <!-- Body -->
+  <ellipse cx="320" cy="300" rx="20" ry="30" fill="#6B9BD2"/>
+  <!-- Head -->
+  <circle cx="320" cy="250" r="25" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="320" cy="260" rx="6" ry="4" fill="#FF69B4"/>
+  <!-- Eyes -->
+  <circle cx="310" cy="240" r="3" fill="#000"/>
+  <circle cx="330" cy="240" r="3" fill="#000"/>
+  <!-- Smile -->
+  <path d="M310 265 Q320 275 330 265" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Arms -->
+  <ellipse cx="305" cy="290" rx="6" ry="12" fill="#F9C6CF"/>
+  <ellipse cx="335" cy="290" rx="6" ry="12" fill="#F9C6CF"/>
+  <!-- Legs -->
+  <ellipse cx="312" cy="340" rx="6" ry="15" fill="#F9C6CF"/>
+  <ellipse cx="328" cy="340" rx="6" ry="15" fill="#F9C6CF"/>
+  <!-- Backpack -->
+  <rect x="315" y="260" width="15" height="20" fill="#4CAF50"/>
+  <!-- Mr. Dinosaur -->
+  <circle cx="335" cy="290" r="8" fill="#4CAF50"/>
+  <!-- Mummy Pig with picnic basket -->
+  <!-- Body -->
+  <ellipse cx="250" cy="300" rx="20" ry="35" fill="#FF8A65"/>
+  <!-- Head -->
+  <circle cx="250" cy="240" r="25" fill="#FFAB91"/>
+  <!-- Snout -->
+  <ellipse cx="250" cy="250" rx="6" ry="4" fill="#FF69B4"/>
+  <!-- Eyes -->
+  <circle cx="242" cy="230" r="3" fill="#000"/>
+  <circle cx="258" cy="230" r="3" fill="#000"/>
+  <!-- Warm smile -->
+  <path d="M242 255 Q250 265 258 255" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Arms holding basket -->
+  <ellipse cx="235" cy="290" rx="6" ry="15" fill="#FFAB91"/>
+  <ellipse cx="265" cy="290" rx="6" ry="15" fill="#FFAB91"/>
+  <!-- Legs -->
+  <ellipse cx="243" cy="340" rx="6" ry="20" fill="#FFAB91"/>
+  <ellipse cx="257" cy="340" rx="6" ry="20" fill="#FFAB91"/>
+  <!-- Picnic basket -->
+  <ellipse cx="250" cy="285" rx="20" ry="15" fill="#8D6E63"/>
+  <rect x="230" y="270" width="40" height="20" fill="#795548"/>
   <!-- Signature -->
   <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Composer 1</text>
 </svg>

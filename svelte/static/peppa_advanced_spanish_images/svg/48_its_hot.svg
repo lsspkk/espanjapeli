@@ -1,111 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <defs>
-    <linearGradient id="hotGardenBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFF3E0"/>
-      <stop offset="100%" stop-color="#FFE0B2"/>
-    </linearGradient>
-    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFEB3B"/>
-      <stop offset="100%" stop-color="#FFD54F"/>
-    </radialGradient>
-  </defs>
-  
-  <!-- Background hot garden -->
-  <rect width="400" height="400" fill="url(#hotGardenBg)"/>
-  
-  <!-- Large bright sun -->
-  <circle cx="320" cy="60" r="50" fill="url(#sunGrad)"/>
-  <!-- Strong sun rays -->
-  <g stroke="#FFEB3B" stroke-width="5" stroke-linecap="round">
-    <line x1="320" y1="0" x2="320" y2="-10"/>
-    <line x1="320" y1="120" x2="320" y2="130"/>
-    <line x1="260" y1="60" x2="250" y2="60"/>
-    <line x1="380" y1="60" x2="390" y2="60"/>
-    <line x1="280" y1="30" x2="270" y2="20"/>
-    <line x1="360" y1="30" x2="370" y2="20"/>
-    <line x1="280" y1="90" x2="270" y2="100"/>
-    <line x1="360" y1="90" x2="370" y2="100"/>
-  </g>
-  
-  <!-- Yellow house in background -->
-  <g transform="translate(200, 320)">
-    <!-- House body -->
-    <rect x="-60" y="0" width="120" height="80" fill="#FFEB3B"/>
-    <!-- Roof -->
-    <path d="M -70 0 L 0 -40 L 70 0 Z" fill="#E53935"/>
-    <!-- Door -->
-    <rect x="-15" y="40" width="30" height="40" fill="#8D6E63"/>
-  </g>
-  
-  <!-- Small pool/paddling pool -->
-  <g transform="translate(100, 340)">
-    <ellipse cx="0" cy="0" rx="40" ry="15" fill="#2196F3" opacity="0.6"/>
-    <ellipse cx="0" cy="0" rx="38" ry="13" fill="#64B5F6"/>
-    <!-- Pool edge -->
-    <ellipse cx="0" cy="0" rx="40" ry="15" fill="none" stroke="#1976D2" stroke-width="2"/>
-  </g>
-  
-  <!-- Grass (dry and warm) -->
-  <ellipse cx="200" cy="400" rx="250" ry="60" fill="#7BC043"/>
-  
-  <!-- Peppa fanning herself (center) -->
-  <g transform="translate(200, 280)">
-    <!-- Body (red dress) -->
-    <ellipse cx="0" cy="40" rx="45" ry="50" fill="#E63946"/>
-    
-    <!-- Legs -->
-    <rect x="-25" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
-    <rect x="13" y="80" width="12" height="50" rx="6" fill="#F9C6CF"/>
-    
-    <!-- Shoes -->
-    <ellipse cx="-19" cy="135" rx="15" ry="8" fill="#333"/>
-    <ellipse cx="19" cy="135" rx="15" ry="8" fill="#333"/>
-    
-    <!-- Right arm holding fan -->
-    <path d="M 40 35 Q 50 15 45 -5 Q 40 -20 30 -15" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="30" cy="-15" r="12" fill="#F9C6CF"/>
-    <!-- Fan -->
-    <g transform="translate(35, -20)">
-      <path d="M 0 0 L 20 -10 L 25 5 L 5 10 Z" fill="#FF69B4"/>
-      <path d="M 0 0 L 20 -10 L 25 5 L 5 10 Z" fill="none" stroke="#333" stroke-width="1.5"/>
-      <!-- Fan lines -->
-      <line x1="0" y1="0" x2="20" y2="-10" stroke="#333" stroke-width="1"/>
-      <line x1="0" y1="0" x2="25" y2="5" stroke="#333" stroke-width="1"/>
-    </g>
-    
-    <!-- Left arm wiping forehead -->
-    <path d="M -40 35 Q -50 20 -45 5 Q -40 -10 -30 -5" stroke="#F9C6CF" stroke-width="18" stroke-linecap="round" fill="none"/>
-    <circle cx="-30" cy="-5" r="12" fill="#F9C6CF"/>
-    
-    <!-- Head -->
-    <ellipse cx="0" cy="-50" rx="55" ry="45" fill="#F9C6CF"/>
-    
-    <!-- Snout -->
-    <ellipse cx="50" cy="-50" rx="22" ry="16" fill="#F9C6CF"/>
-    <circle cx="58" cy="-55" r="4" fill="#FF69B4"/>
-    <circle cx="58" cy="-45" r="4" fill="#FF69B4"/>
-    
-    <!-- Ears -->
-    <ellipse cx="-18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    <ellipse cx="18" cy="-90" rx="12" ry="22" fill="#F9C6CF"/>
-    
-    <!-- Eyes (mild discomfort from heat) -->
-    <ellipse cx="-10" cy="-55" rx="8" ry="10" fill="white"/>
-    <ellipse cx="15" cy="-55" rx="8" ry="10" fill="white"/>
-    <circle cx="-8" cy="-53" r="4" fill="#333"/>
-    <circle cx="17" cy="-53" r="4" fill="#333"/>
-    
-    <!-- Mouth slightly open (warm) -->
-    <ellipse cx="25" cy="-25" rx="5" ry="7" fill="#333"/>
-    
-    <!-- Warm expression -->
-    <path d="M -5 -30 Q 10 -25 25 -30" stroke="#333" stroke-width="3" fill="none"/>
-    
-    <!-- Sweat beads -->
-    <ellipse cx="20" cy="-60" rx="3" ry="6" fill="#64B5F6" opacity="0.8"/>
-    <ellipse cx="-20" cy="-60" rx="3" ry="6" fill="#64B5F6" opacity="0.8"/>
-  </g>
-  
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Sunny garden -->
+  <rect width="400" height="400" fill="#E8F5E8"/>
+  <!-- Sky bright blue -->
+  <rect x="0" y="0" width="400" height="250" fill="#87CEEB"/>
+  <!-- Large sun -->
+  <circle cx="200" cy="80" r="50" fill="#FFC107"/>
+  <!-- Sun rays -->
+  <path d="M200 20 L200 10 M200 150 L200 160 M120 80 L110 80 M280 80 L290 80 M150 40 L140 25 M250 40 L260 25 M150 120 L140 135 M250 120 L260 135" stroke="#FFC107" stroke-width="4"/>
+  <!-- Grass dry and warm -->
+  <rect x="0" y="250" width="400" height="150" fill="#8BC34A"/>
+  <!-- Yellow house -->
+  <rect x="280" y="150" width="100" height="100" fill="#FFC107"/>
+  <!-- Small pool -->
+  <ellipse cx="100" cy="320" rx="40" ry="20" fill="#2196F3"/>
+  <ellipse cx="100" cy="315" rx="35" ry="18" fill="#64B5F6"/>
+  <!-- Peppa Pig -->
+  <!-- Body -->
+  <ellipse cx="200" cy="280" rx="25" ry="35" fill="#E63946"/>
+  <!-- Head -->
+  <circle cx="200" cy="230" r="30" fill="#F9C6CF"/>
+  <!-- Snout -->
+  <ellipse cx="200" cy="240" rx="8" ry="5" fill="#FF69B4"/>
+  <!-- Eyes -->
+  <circle cx="190" cy="220" r="4" fill="#000"/>
+  <circle cx="210" cy="220" r="4" fill="#000"/>
+  <!-- Mouth slightly open -->
+  <ellipse cx="200" cy="250" rx="5" ry="3" fill="#000"/>
+  <!-- Arms: one wiping forehead, one holding fan -->
+  <ellipse cx="180" cy="270" rx="8" ry="15" fill="#F9C6CF" transform="rotate(45 180 270)"/>
+  <ellipse cx="220" cy="250" rx="8" ry="15" fill="#F9C6CF"/>
+  <!-- Fan -->
+  <ellipse cx="230" cy="245" rx="15" ry="8" fill="#E91E63"/>
+  <ellipse cx="230" cy="245" rx="12" ry="6" fill="#FFC107"/>
+  <!-- Sweat beads -->
+  <circle cx="195" cy="215" r="2" fill="#87CEEB"/>
+  <circle cx="205" cy="213" r="2" fill="#87CEEB"/>
+  <!-- Legs -->
+  <ellipse cx="190" cy="320" rx="8" ry="20" fill="#F9C6CF"/>
+  <ellipse cx="210" cy="320" rx="8" ry="20" fill="#F9C6CF"/>
   <!-- Signature -->
   <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Composer 1</text>
 </svg>

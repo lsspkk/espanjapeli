@@ -1,27 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="I'm sorry">
-  <rect width="100%" height="100%" fill="#FFFFFF"/>
-  <defs>
-    <style><![CDATA[
-      .ol { stroke: #222222; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
-      .softol { stroke: #222222; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
-    ]]></style>
-  </defs>
-<ellipse class="ol" cx="127.25" cy="97.75" rx="12.35" ry="14.25" fill="#F9C6CF"/>
-  <ellipse class="ol" cx="212.75" cy="97.75" rx="12.35" ry="14.25" fill="#F9C6CF"/>
-  <ellipse class="ol" cx="170" cy="150" rx="61.75" ry="49.875" fill="#F9C6CF"/>
-  <ellipse class="ol" cx="198.5" cy="159.5" rx="33.25" ry="22.799999999999997" fill="#F7A8B8"/>
-  <circle cx="184.25" cy="159.5" r="4.75" fill="#222222"/>
-  <circle cx="212.75" cy="159.5" r="4.75" fill="#222222"/>
-  <circle cx="151.0" cy="140.5" r="7.6" fill="#222222"/>
-  <circle cx="179.5" cy="140.5" r="7.6" fill="#222222"/>
-  <circle cx="122.5" cy="159.5" r="5.699999999999999" fill="#F59FB4" opacity="0.9"/>
-  <path class="softol" d="M 160.5 173.75 Q 174.75 188.0 193.75 173.75" fill="none"/>
-  <rect class="ol" x="103.5" y="202.25" width="133.0" height="142.5" rx="38.0" fill="#F9C6CF"/>
-  <path class="ol" d="M 127.25 245.0 Q 94.0 264.0 113.0 287.75" fill="none"/>
-  <path class="ol" d="M 212.75 245.0 Q 246.0 264.0 227.0 287.75" fill="none"/>
-  <path class="ol" d="M 136.75 344.75 L 136.75 378.0"/>
-  <path class="ol" d="M 203.25 344.75 L 203.25 378.0"/>
-  <ellipse class="ol" cx="136.75" cy="384.65" rx="17.099999999999998" ry="7.6" fill="#000000"/>
-  <ellipse class="ol" cx="203.25" cy="384.65" rx="17.099999999999998" ry="7.6" fill="#000000"/><path d="M 165 150 C 155 170 155 180 165 190 C 175 180 175 170 165 150 Z" fill="#4DA3FF" stroke="#222222" stroke-width="3"/><circle cx="295" cy="270" r="18" fill="#FFD166" stroke="#222222" stroke-width="3"/><ellipse cx="323.0" cy="270.0" rx="14" ry="10" fill="#FF8FAB" stroke="#222222" stroke-width="3"/><ellipse cx="309.0" cy="294.24871130596426" rx="14" ry="10" fill="#FF8FAB" stroke="#222222" stroke-width="3"/><ellipse cx="281.0" cy="294.24871130596426" rx="14" ry="10" fill="#FF8FAB" stroke="#222222" stroke-width="3"/><ellipse cx="267.0" cy="270.0" rx="14" ry="10" fill="#FF8FAB" stroke="#222222" stroke-width="3"/><ellipse cx="281.0" cy="245.75128869403574" rx="14" ry="10" fill="#FF8FAB" stroke="#222222" stroke-width="3"/><ellipse cx="309.0" cy="245.7512886940357" rx="14" ry="10" fill="#FF8FAB" stroke="#222222" stroke-width="3"/><rect x="290" y="290" width="10" height="60" rx="5" fill="#3BB273" stroke="#222222" stroke-width="3"/>  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">GPT 5.2</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Lo siento (I'm sorry)">
+  <!-- Background: Warm yellow wall of the playroom -->
+  <rect width="400" height="400" fill="#FFF9C4"/>
+  
+  <!-- Window showing a sunny day -->
+  <g transform="translate(250, 40)">
+    <rect x="0" y="0" width="100" height="100" fill="#FFFFFF" stroke="#8D6E63" stroke-width="4"/>
+    <rect x="5" y="5" width="90" height="90" fill="#87CEEB"/>
+    <!-- Cloud -->
+    <path d="M 20 60 Q 20 40 40 40 Q 50 25 70 40 Q 90 40 90 60 Z" fill="#FFFFFF" opacity="0.9"/>
+    <!-- Window panes -->
+    <line x1="50" y1="5" x2="50" y2="95" stroke="#8D6E63" stroke-width="2"/>
+    <line x1="5" y1="50" x2="95" y2="50" stroke="#8D6E63" stroke-width="2"/>
+  </g>
+
+  <!-- Blue rug -->
+  <ellipse cx="200" cy="340" rx="160" ry="60" fill="#BBDEFB" stroke="#90CAF9" stroke-width="2"/>
+
+  <!-- Scattered blocks -->
+  <g transform="translate(180, 310)">
+    <rect x="0" y="0" width="30" height="30" rx="5" fill="#E63946" stroke="#222222" stroke-width="2" transform="rotate(15)"/>
+    <rect x="40" y="10" width="30" height="30" rx="5" fill="#FFEB3B" stroke="#222222" stroke-width="2" transform="rotate(-10)"/>
+    <rect x="15" y="30" width="30" height="30" rx="5" fill="#4CAF50" stroke="#222222" stroke-width="2" transform="rotate(45)"/>
+    <rect x="60" y="25" width="30" height="30" rx="5" fill="#E63946" stroke="#222222" stroke-width="2" transform="rotate(-20)"/>
+  </g>
+
+  <!-- George (Sad, on the right) -->
+  <g transform="translate(280, 240)">
+    <!-- Body -->
+    <ellipse cx="0" cy="80" rx="35" ry="45" fill="#6B9BD2" stroke="#222222" stroke-width="3"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="20" rx="45" ry="38" fill="#F9C6CF" stroke="#222222" stroke-width="3"/>
+    <!-- Snout -->
+    <path d="M 25 15 Q 45 15 45 35 Q 45 55 25 55" fill="#F9C6CF" stroke="#222222" stroke-width="3"/>
+    <circle cx="38" cy="28" r="3" fill="#FF69B4"/>
+    <circle cx="38" cy="42" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-15" cy="-15" rx="10" ry="18" fill="#F9C6CF" stroke="#222222" stroke-width="3"/>
+    <ellipse cx="15" cy="-15" rx="10" ry="18" fill="#F9C6CF" stroke="#222222" stroke-width="3"/>
+    <!-- Eyes (Looking down, sad) -->
+    <circle cx="-5" cy="15" r="5" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+    <circle cx="15" cy="15" r="5" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+    <circle cx="-4" cy="17" r="2.5" fill="#222222"/>
+    <circle cx="16" cy="17" r="2.5" fill="#222222"/>
+    <!-- Mouth (Sad tremble) -->
+    <path d="M 5 45 Q 15 50 25 45" fill="none" stroke="#222222" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Mr. Dinosaur -->
+    <g transform="translate(-25, 60) rotate(-10)">
+      <path d="M 0 0 Q 15 -10 30 0 Q 35 20 20 40 L 0 40 Z" fill="#4CAF50" stroke="#222222" stroke-width="2"/>
+      <circle cx="10" cy="10" r="2.5" fill="#222222"/>
+      <path d="M 5 25 L 15 25" fill="none" stroke="#222222" stroke-width="1.5"/>
+    </g>
+    <!-- Arms -->
+    <path d="M -30 75 Q -45 90 -25 105" fill="none" stroke="#F9C6CF" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 30 75 Q 45 90 25 105" fill="none" stroke="#F9C6CF" stroke-width="10" stroke-linecap="round"/>
+    <!-- Legs -->
+    <rect x="-15" y="115" width="8" height="25" fill="#F9C6CF" stroke="#222222" stroke-width="2.5"/>
+    <rect x="7" y="115" width="8" height="25" fill="#F9C6CF" stroke="#222222" stroke-width="2.5"/>
+    <!-- Shoes -->
+    <ellipse cx="-15" cy="140" rx="12" ry="6" fill="#222222"/>
+    <ellipse cx="11" cy="140" rx="12" ry="6" fill="#222222"/>
+  </g>
+
+  <!-- Peppa (Apologetic, on the left) -->
+  <g transform="translate(100, 220)">
+    <!-- Body -->
+    <ellipse cx="0" cy="90" rx="40" ry="50" fill="#E63946" stroke="#222222" stroke-width="3"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="20" rx="50" ry="42" fill="#F9C6CF" stroke="#222222" stroke-width="3"/>
+    <!-- Snout -->
+    <path d="M 30 15 Q 55 15 55 35 Q 55 55 30 55" fill="#F9C6CF" stroke="#222222" stroke-width="3"/>
+    <circle cx="45" cy="28" r="3" fill="#FF69B4"/>
+    <circle cx="45" cy="42" r="3" fill="#FF69B4"/>
+    <!-- Ears -->
+    <ellipse cx="-15" cy="-20" rx="12" ry="20" fill="#F9C6CF" stroke="#222222" stroke-width="3"/>
+    <ellipse cx="15" cy="-20" rx="12" ry="20" fill="#F9C6CF" stroke="#222222" stroke-width="3"/>
+    <!-- Eyes (Worried, eyebrows up) -->
+    <g transform="translate(0, 10)">
+      <path d="M -20 -10 Q -10 -15 0 -10" fill="none" stroke="#222222" stroke-width="2" stroke-linecap="round"/>
+      <path d="M 5 -10 Q 15 -15 25 -10" fill="none" stroke="#222222" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="-10" cy="5" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+      <circle cx="15" cy="5" r="6" fill="#FFFFFF" stroke="#222222" stroke-width="2"/>
+      <circle cx="-9" cy="5" r="3" fill="#222222"/>
+      <circle cx="16" cy="5" r="3" fill="#222222"/>
+    </g>
+    <!-- Mouth (Sad/Downturned) -->
+    <path d="M 0 55 Q 15 48 30 55" fill="none" stroke="#222222" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Arms (Clutched near chest) -->
+    <path d="M -35 85 Q -10 100 10 90" fill="none" stroke="#F9C6CF" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 35 85 Q 10 100 -10 90" fill="none" stroke="#F9C6CF" stroke-width="12" stroke-linecap="round"/>
+    <!-- Legs -->
+    <rect x="-18" y="130" width="10" height="30" fill="#F9C6CF" stroke="#222222" stroke-width="2.5"/>
+    <rect x="8" y="130" width="10" height="30" fill="#F9C6CF" stroke="#222222" stroke-width="2.5"/>
+    <!-- Shoes -->
+    <ellipse cx="-18" cy="160" rx="14" ry="7" fill="#222222"/>
+    <ellipse cx="13" cy="160" rx="14" ry="7" fill="#222222"/>
+  </g>
+
+  <!-- Signature -->
+  <text x="390" y="390" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#5B6470" opacity="0.85">Gemini 3 Flash</text>
 </svg>
