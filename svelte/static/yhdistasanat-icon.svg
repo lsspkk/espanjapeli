@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Diagonal clip paths -->
+  <defs>
+    <clipPath id="topLeft">
+      <polygon points="0,0 100,0 0,100"/>
+    </clipPath>
+    <clipPath id="bottomRight">
+      <polygon points="100,0 100,100 0,100"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Finnish flag (top-left half) -->
+  <g clip-path="url(#topLeft)">
+    <!-- White background -->
+    <rect x="5" y="5" width="90" height="90" fill="white"/>
+    <!-- Blue cross -->
+    <rect x="5" y="38" width="90" height="24" fill="#003580"/>
+    <rect x="30" y="5" width="24" height="90" fill="#003580"/>
+  </g>
+  
+  <!-- Spanish flag (bottom-right half) -->
+  <g clip-path="url(#bottomRight)">
+    <!-- Red stripe top -->
+    <rect x="5" y="5" width="90" height="22.5" fill="#c60b1e"/>
+    <!-- Yellow stripe middle -->
+    <rect x="5" y="27.5" width="90" height="45" fill="#ffc400"/>
+    <!-- Red stripe bottom -->
+    <rect x="5" y="72.5" width="90" height="22.5" fill="#c60b1e"/>
+  </g>
+  
+  <!-- Diagonal line separator -->
+  <line x1="5" y1="95" x2="95" y2="5" stroke="#333" stroke-width="3"/>
+  
+  <!-- Border -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#333" stroke-width="2"/>
+</svg>

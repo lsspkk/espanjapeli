@@ -20,18 +20,18 @@
 			description: 'Espanjan sana → kirjoita suomeksi',
 			scored: true,
 			route: '/sanapeli',
-			available: true // Phase 5 - NOW AVAILABLE! ✅
+			available: true 
+		},
+		{
+			id: 'yhdistasanat',
+			icon: '🔗',
+			title: 'Yhdistä sanat',
+			description: 'Valitse oikea käännös – 3 yritystä',
+			scored: true,
+			route: '/yhdistasanat',
+			available: true 
 		},
 		// Hidden for now - keep in code for future
-		// {
-		// 	id: 'muisti',
-		// 	icon: '🇫🇮→🇪🇸',
-		// 	title: 'Muisti',
-		// 	description: 'Suomen sana → muista espanjaksi',
-		// 	scored: false,
-		// 	route: '/muisti',
-		// 	available: false // Future
-		// },
 		// {
 		// 	id: 'kuuntelu',
 		// 	icon: '👂',
@@ -119,12 +119,12 @@
 </script>
 
 <div class="min-h-screen bg-base-200">
-	<div class="container mx-auto px-4 py-8">
+	<div class="container mx-auto px-4 py-4 md:py-8">
 	<!-- Header -->
-	<div class="mb-8 text-center">
-		<h1 class="mb-2 text-5xl font-bold">Espanjapeli</h1>
-		<p class="text-lg text-base-content/70">Hauskaa ja tehokasta opiskelua</p>
-		<a href="{base}/kielten-oppiminen" class="btn btn-ghost btn-sm mt-2">
+	<div class="mb-4 md:mb-8 text-center">
+		<h1 class="mb-1 md:mb-2 text-3xl md:text-5xl font-bold">Espanjapeli</h1>
+		<p class="text-base md:text-lg text-base-content/70">Hauskaa ja tehokasta opiskelua</p>
+		<a href="{base}/kielten-oppiminen" class="btn btn-ghost btn-sm mt-1 md:mt-2 text-base underline">
 			📖 Kielten oppiminen
 		</a>
 	</div>
@@ -150,7 +150,7 @@
 		{/if}
 
 		<!-- Game Mode Grid -->
-		<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+		<div class="grid gap-2 sm:gap-4 sm:grid-cols-2 lg:grid-cols-3">
 			{#each gameModes as mode}
 				<button
 					class="card bg-base-100 shadow-xl transition-all hover:shadow-2xl {mode.available
@@ -186,8 +186,8 @@
 		</div>
 
 		<!-- Settings Link -->
-		<div class="mt-8 text-center">
-			<a href="{base}/asetukset" class="btn btn-ghost btn-sm">
+		<div class="mt-4 md:mt-8 text-center">
+			<a href="{base}/asetukset" class="btn btn-ghost btn-sm text-base underline">
 				⚙️ Asetukset & Tietojen vienti
 			</a>
 		</div>
