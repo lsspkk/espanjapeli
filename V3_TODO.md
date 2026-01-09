@@ -119,6 +119,79 @@ Source: yhdistasanat lines 1424-1438
 - [x] Button states: outline, disabled+error, opacity
 
 --------------------------------------------------------------------------------
+1.9.1 Create Integration Test Setup for Yhdistäsanat
+- [x] Create `tests/integration/` directory structure
+- [x] Create `tests/integration/yhdistasanat.test.ts`
+- [x] Set up test utilities for mocking user knowledge data
+- [x] Create mock word data fixtures from actual game data
+- [x] Configure test environment with proper Svelte testing library setup
+- [x] Add helper functions for simulating user interactions
+
+--------------------------------------------------------------------------------
+1.9.2 Integration Test: Main Display (Home Screen)
+- [x] Test that home screen data integration works correctly:
+  - [x] Game configuration data (length options, directions)
+  - [x] Language direction switch (ES→FI / FI→ES)
+  - [x] Game length selector (10, 21, 42 questions)
+  - [x] Category picker data structure
+  - [x] Word selection and validation
+  - [x] Sanakirja data preparation
+- [x] Test category picker data:
+  - [x] "All words" option support
+  - [x] Tier-grouped categories with metadata
+  - [x] Category ordering by learning priority
+  - [x] Category-specific word selection
+- [x] Test Sanakirja data preparation:
+  - [x] Upcoming words section data
+  - [x] Word pair integrity (spanish-finnish mapping)
+  - [x] Multiple category support
+- [x] Test state persistence (selected category, direction, length)
+
+--------------------------------------------------------------------------------
+1.9.3 Integration Test: Question Display (Playing State)
+- [x] Test that question display renders all expected UX blocks:
+  - [x] GameHeader with current question number, score, and tries
+  - [x] TriesIndicator with colored dots
+  - [x] PossiblePoints display (+10, +3, +1, or 0)
+  - [x] QuestionCard with the question text
+  - [x] TTS speaker button (if applicable)
+  - [x] OptionButtons grid with all answer options
+  - [x] Quit button functionality
+- [x] Test interaction flow:
+  - [x] Selecting correct answer shows success feedback
+  - [x] Selecting wrong answer shows error feedback and LineAnimation
+  - [x] Disabled options after wrong answers
+  - [x] Tries decrement correctly
+  - [x] Score updates based on tries remaining
+- [x] Test FeedbackOverlay displays:
+  - [x] Correct answer celebration with word pair
+  - [x] Wrong answer feedback with continue button
+  - [x] Proper animations (popIn, slideDown, etc.)
+  - [x] Auto-close for correct answers
+- [x] Test progression to next question after feedback
+
+--------------------------------------------------------------------------------
+1.9.4 Integration Test: Game Result Display (Report Screen)
+- [x] Test that game report renders all expected UX blocks:
+  - [x] Report title ("🎉 Peli päättyi!")
+  - [x] Game time display
+  - [x] 2x2 grid with try counts:
+    - [x] First try count (green)
+    - [x] Second try count (yellow)
+    - [x] Third try count (orange)
+    - [x] Failed count (red)
+  - [x] Total score and max score with percentage
+  - [x] WrongAnswersList component with all failed words
+  - [x] "Takaisin alkuun" (Home) button
+  - [x] "Pelaa uudelleen" (Play again) button (if applicable)
+- [x] Test button functionality:
+  - [x] Home button returns to main display
+  - [x] Play again button starts new game with same settings
+- [x] Test with different game outcomes:
+  - [x] Perfect score (all first try)
+  - [x] Mixed performance
+  - [x] Poor performance with multiple wrong answers
+
 1.10 Extract LineAnimation Component
 Source: yhdistasanat lines 1363-1376
 - [x] Create `lib/components/basic/feedback/LineAnimation.svelte`
@@ -271,15 +344,15 @@ PHASE 1B: KIDS COMPONENTS (from pipsan-ystavat)
 --------------------------------------------------------------------------------
 1.20 Extract KidsGameHeader Component
 Source: pipsan-ystavat lines 741-758
-- [ ] Create `lib/components/kids/core/KidsGameHeader.svelte`
-- [ ] Props:
+- [x] Create `lib/components/kids/core/KidsGameHeader.svelte`
+- [x] Props:
   - `currentQuestion: number`
   - `totalQuestions: number`
   - `correctCount: number`
   - `onClose: () => void`
-- [ ] Simpler display: "Kysymys 3/10" + "✅ 2"
-- [ ] Progress bar (not dots)
-- [ ] Small close button (✕)
+- [x] Simpler display: "Kysymys 3/10" + "✅ 2"
+- [x] Progress bar (not dots)
+- [x] Small close button (✕)
 
 --------------------------------------------------------------------------------
 1.21 Extract KidsAudioControl Component
@@ -300,64 +373,64 @@ Source: pipsan-ystavat lines 762-809
 --------------------------------------------------------------------------------
 1.22 Extract KidsImageOptions Component
 Source: pipsan-ystavat lines 912-943
-- [ ] Create `lib/components/kids/input/KidsImageOptions.svelte`
-- [ ] Props:
+- [x] Create `lib/components/kids/input/KidsImageOptions.svelte`
+- [x] Props:
   - `options: Array<{ id, file, emojiDisplay, isCorrect }>`
   - `selectedAnswer: string | null`
   - `displayMode: 'svg' | 'emoji'`
   - `onSelect: (id: string) => void`
-- [ ] 2x2 grid of large buttons
-- [ ] Aspect-square sizing
-- [ ] Selection states:
+- [x] 2x2 grid of large buttons
+- [x] Aspect-square sizing
+- [x] Selection states:
   - Correct: green border + ring + scale
   - Wrong: red border + ring + opacity
   - Reveal correct: green + animate-pulse
-- [ ] SVG image or emoji display based on mode
+- [x] SVG image or emoji display based on mode
 
 --------------------------------------------------------------------------------
 1.23 Extract KidsCelebration Component
 Source: pipsan-ystavat lines 876-906
-- [ ] Create `lib/components/kids/feedback/KidsCelebration.svelte`
-- [ ] Props:
+- [x] Create `lib/components/kids/feedback/KidsCelebration.svelte`
+- [x] Props:
   - `emoji: string` (celebration emoji)
   - `spanishPhrase: string`
   - `finnishPhrase: string`
   - `imageFile?: string`
   - `emojiDisplay?: string`
   - `displayMode: 'svg' | 'emoji'`
-- [ ] Large bouncing emoji (🎉, ⭐, 🌟, 🏆, 🎊)
-- [ ] "¡Muy bien!" text
-- [ ] Image or emoji of correct answer
-- [ ] Spanish = Finnish display
+- [x] Large bouncing emoji (🎉, ⭐, 🌟, 🏆, 🎊)
+- [x] "¡Muy bien!" text
+- [x] Image or emoji of correct answer
+- [x] Spanish = Finnish display
 
 --------------------------------------------------------------------------------
 1.24 Extract KidsWrongFeedback Component
 Source: pipsan-ystavat lines 817-844
-- [ ] Create `lib/components/kids/feedback/KidsWrongFeedback.svelte`
-- [ ] Props:
+- [x] Create `lib/components/kids/feedback/KidsWrongFeedback.svelte`
+- [x] Props:
   - `wrongImageId: string`
   - `wrongText: string`
   - `imageFile?: string`
   - `emojiDisplay: string`
   - `displayMode: 'svg' | 'emoji'`
-- [ ] Large ❌ emoji
-- [ ] Wrong answer image/emoji
-- [ ] Explanation text in Finnish
-- [ ] Gentle, non-discouraging styling
+- [x] Large ❌ emoji
+- [x] Wrong answer image/emoji
+- [x] Explanation text in Finnish
+- [x] Gentle, non-discouraging styling
 
 ### 1.25 Extract KidsCorrectReveal Component
 Source: pipsan-ystavat lines 845-874
-- [ ] Create `lib/components/kids/feedback/KidsCorrectReveal.svelte`
-- [ ] Props:
+- [x] Create `lib/components/kids/feedback/KidsCorrectReveal.svelte`
+- [x] Props:
   - `spanishPhrase: string`
   - `finnishPhrase: string`
   - `imageFile: string`
   - `emojiDisplay: string`
   - `displayMode: 'svg' | 'emoji'`
-- [ ] Large ✅ emoji
-- [ ] Correct answer image with green border
-- [ ] Spanish = Finnish display
-- [ ] fade-in animation
+- [x] Large ✅ emoji
+- [x] Correct answer image with green border
+- [x] Spanish = Finnish display
+- [x] fade-in animation
 
 ### 1.26 Extract KidsToggleBonus Component
 Source: pipsan-ystavat lines 949-957
@@ -372,8 +445,8 @@ Source: pipsan-ystavat lines 949-957
 
 ### 1.27 Extract KidsStartScreen Component
 Source: pipsan-ystavat lines 655-736
-- [ ] Create `lib/components/kids/home/KidsStartScreen.svelte`
-- [ ] Props:
+- [x] Create `lib/components/kids/home/KidsStartScreen.svelte`
+- [x] Props:
   - `title: string`
   - `subtitle: string`
   - `subtitleSpanish: string`
@@ -382,50 +455,51 @@ Source: pipsan-ystavat lines 655-736
   - `onToggleAudio: (enabled: boolean) => void`
   - `onStart: () => void`
   - `onOpenSanakirja: () => void`
-- [ ] Large emoji header (🐷👫🇪🇸)
-- [ ] Gradient title
-- [ ] Preview grid showing SVG vs Emoji modes
-- [ ] Audio toggle
-- [ ] Start and Sanakirja buttons
+- [x] Large emoji header (🐷👫🇪🇸)
+- [x] Gradient title
+- [x] Preview grid showing SVG vs Emoji modes
+- [x] Audio toggle
+- [x] Start and Sanakirja buttons
 
 ### 1.28 Extract KidsEndScreen Component
 Source: pipsan-ystavat lines 959-1015
-- [ ] Create `lib/components/kids/home/KidsEndScreen.svelte`
-- [ ] Props:
+- [x] Create `lib/components/kids/home/KidsEndScreen.svelte`
+- [x] Props:
   - `correctCount: number`
   - `totalQuestions: number`
   - `onPlayAgain: () => void`
   - `onHome: () => void`
-- [ ] Performance-based emoji (🏆 ≥80%, ⭐ ≥50%, 💪 <50%)
-- [ ] Performance-based message
-- [ ] Large score display "7 / 10"
-- [ ] Decorative bouncing emojis (🐷🌈🎨⭐)
-- [ ] Play again + Home buttons
+- [x] Performance-based emoji (🏆 ≥80%, ⭐ ≥50%, 💪 <50%)
+- [x] Performance-based message
+- [x] Large score display "7 / 10"
+- [x] Decorative bouncing emojis (🐷🌈🎨⭐)
+- [x] Play again + Home buttons
 
 ### 1.29 Extract KidsSanakirja Component
 Source: pipsan-ystavat lines 1018-1109
-- [ ] Create `lib/components/kids/modals/KidsSanakirja.svelte`
-- [ ] Props:
+- [x] Create `lib/components/kids/modals/KidsSanakirja.svelte`
+- [x] Props:
   - `isOpen: boolean`
   - `upcomingPhrases: GameQuestion[]`
   - `previousGames: GameQuestion[][]`
   - `onClose: () => void`
   - `onSpeak: (spanish: string, finnish: string) => void`
-- [ ] Pink/purple gradient header
-- [ ] Phrase cards with rounded corners
-- [ ] Pink-themed upcoming section
-- [ ] Neutral previous games section
-- [ ] Small TTS buttons
-- [ ] Close button at bottom
+- [x] Pink/purple gradient header
+- [x] Phrase cards with rounded corners
+- [x] Pink-themed upcoming section
+- [x] Neutral previous games section
+- [x] Small TTS buttons
+- [x] Close button at bottom
 
 ### 1.30 Test & Integrate Kids Components
-- [ ] Create test file for KidsGameHeader
-- [ ] Create test file for KidsCelebration
-- [ ] Create test file for KidsImageOptions
+Look at existing similar tests for guidance.
+- [ ] Create integration test for pipsan-ystavat game main display
+- [ ] Create integration test for pipsan-ystavat question display
+- [ ] Create integration test for pipsan-ystavat game result display
 - [ ] Integrate components into pipsan-ystavat
-- [ ] Verify all functionality works
-- [ ] Test on mobile devices
 - [ ] Compare line count before/after
+- [ ] Verify all functionality works (user does this manually)
+- [ ] Test on mobile devices (user does this manually)
 
 ---
 
@@ -718,6 +792,33 @@ Expand story content and add polish.
 | Phase 5: Content Expansion | 5 tasks | ⬜ Not started |
 
 **Total: ~81 tasks**
+
+
+## Extra test tasks
+
+--------------------------------------------------------------------------------
+6.1 Integration Test: Full Game Flow for Yhdistäsanat
+- [ ] Test complete game flow from start to finish:
+  - [ ] Start from home screen
+  - [ ] Configure game settings (category, direction, length)
+  - [ ] Start game and verify transition to playing state
+  - [ ] Answer all questions (mix of correct/wrong)
+  - [ ] Verify knowledge tracking updates
+  - [ ] Complete game and verify report screen
+  - [ ] Return to home and verify state reset
+- [ ] Test edge cases:
+  - [ ] Quitting mid-game
+  - [ ] Running out of tries on a question
+  - [ ] Completing game with all correct answers
+  - [ ] Completing game with all wrong answers
+- [ ] Test with mocked user knowledge data:
+  - [ ] New user (no previous knowledge)
+  - [ ] Experienced user (some words known)
+  - [ ] Expert user (most words known)
+
+--------------------------------------------------------------------------------
+
+
 
 ---
 

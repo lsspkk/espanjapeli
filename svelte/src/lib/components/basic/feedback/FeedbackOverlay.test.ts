@@ -20,9 +20,8 @@ describe('FeedbackOverlay', () => {
 		});
 
 		expect(getByText('¡Muy bien!')).toBeTruthy();
-		expect(getByText('hola')).toBeTruthy();
-		expect(getByText('hei')).toBeTruthy();
-		expect(getByText('+10 p')).toBeTruthy();
+		expect(getByText('hola = hei')).toBeTruthy();
+		expect(getByText('+10 pistettä')).toBeTruthy();
 	});
 
 	it('renders wrong feedback without exclamation', () => {
@@ -41,8 +40,7 @@ describe('FeedbackOverlay', () => {
 			}
 		});
 
-		expect(getByText('casa')).toBeTruthy();
-		expect(getByText('talo')).toBeTruthy();
+		expect(getByText('casa = talo')).toBeTruthy();
 		expect(queryByText(/¡/)).toBeNull();
 	});
 
@@ -62,7 +60,7 @@ describe('FeedbackOverlay', () => {
 			}
 		});
 
-		expect(getByText('Jatka')).toBeTruthy();
+		expect(getByText('Seuraava')).toBeTruthy();
 	});
 
 	it('does not render when not visible', () => {

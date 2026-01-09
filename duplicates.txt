@@ -1,0 +1,63 @@
+DUPLICATE ANALYSIS FOR ESPANJAPELI GAME DATA
+======================================================================
+
+Analysis Date: 2026-01-09
+Purpose: Identify duplicate word/phrase pairs across all game modes
+
+======================================================================
+
+1. WORDS.TS - Yhdistasanat & Sanapeli Games
+----------------------------------------------------------------------
+Total word pairs: 404
+Unique pairs: 401
+Duplicate pairs: 3
+
+DUPLICATES FOUND:
+  • libro = kirja (appears 2 times)
+  • feliz = onnellinen (appears 2 times)
+  • triste = surullinen (appears 2 times)
+
+IMPACT: These duplicates may cause the same word to appear multiple
+times in a single game session, reducing vocabulary variety.
+
+
+2. PEPPA_ADVANCED_SPANISH.JSON - Pipsan ystävät Game
+----------------------------------------------------------------------
+Total phrases: 211
+Unique phrases: 210
+Duplicate phrases: 1
+
+DUPLICATES FOUND:
+  • ¡Claro que sí! = Tietysti! (appears 2 times)
+    Categories: common_phrases, friendship_phrasesl
+
+IMPACT: Phrase appears in multiple categories, which may be
+intentional for learning reinforcement across contexts.
+
+
+3. IMAGE_MANIFEST.JSON - Pipsan ystävät Phrase Queue
+----------------------------------------------------------------------
+Total phrases in queue: 65
+Unique phrases: 65
+Duplicate phrases: 0
+
+No duplicates found.
+
+IMPACT: The phrase queue for the game has no duplicates,
+ensuring variety in gameplay.
+
+
+======================================================================
+SUMMARY
+======================================================================
+
+• words.ts: 3 duplicate pairs (libro, feliz, triste)
+• peppa_advanced_spanish.json: 1 duplicate phrase (¡Claro que sí!)
+• image_manifest.json: 0 duplicates
+
+RECOMMENDATION:
+The duplicates are minimal and may be intentional for spaced repetition
+learning. However, if unintentional, they should be removed to maximize
+vocabulary variety. The word selection algorithm should handle these
+gracefully by deduplicating during game session generation.
+

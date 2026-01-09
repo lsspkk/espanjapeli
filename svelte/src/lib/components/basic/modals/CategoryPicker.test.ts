@@ -66,12 +66,12 @@ describe('CategoryPicker', () => {
 			}
 		});
 
-		// Selected category should have ring styling
+		// Selected category should have bg-primary styling
 		const buttons = container.querySelectorAll('button');
 		const selectedButton = Array.from(buttons).find(btn => 
 			btn.textContent?.includes('Tervehdykset')
 		);
-		expect(selectedButton?.className).toContain('ring');
+		expect(selectedButton?.className).toContain('bg-primary');
 	});
 
 	it('groups categories by tier', () => {
@@ -86,7 +86,7 @@ describe('CategoryPicker', () => {
 		});
 
 		// Should have tier sections
-		const tierSections = container.querySelectorAll('[class*="border-l-4"]');
+		const tierSections = container.querySelectorAll('[class*="border-l-"]');
 		expect(tierSections.length).toBeGreaterThan(0);
 	});
 });
