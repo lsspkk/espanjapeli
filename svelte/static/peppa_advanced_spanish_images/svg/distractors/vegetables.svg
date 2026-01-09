@@ -40,5 +40,4 @@
   <!-- Grandpa in background -->
   <circle cx="350" cy="200" r="15" fill="#FFD2C2"/>
   <ellipse cx="350" cy="220" rx="12" ry="20" fill="#E07A6A"/>
-</svg></content>
-<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/vegetables.svg
+</svg>

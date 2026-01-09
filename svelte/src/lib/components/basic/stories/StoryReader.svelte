@@ -111,7 +111,7 @@
 			<!-- Only "Takaisin" button when vocabulary is shown -->
 			<div class="flex justify-end">
 				<button 
-					class="btn btn-primary"
+					class="btn btn-sm md:btn-md btn-primary"
 					on:click={closeVocabulary}
 				>
 					Takaisin
@@ -120,9 +120,9 @@
 		{:else}
 			<!-- Three buttons when dialogue is shown -->
 			<div class="flex justify-between items-center">
-				<div class="flex gap-3">
+				<div class="flex gap-2 md:gap-3">
 					<button 
-						class="btn"
+						class="btn btn-sm md:btn-md"
 						class:btn-primary={showTranslation}
 						class:btn-outline={!showTranslation}
 						on:click={toggleTranslation}
@@ -130,14 +130,14 @@
 						{showTranslation ? 'Käännös' : 'Käännös'}
 					</button>
 					<button 
-						class="btn btn-outline"
+						class="btn btn-sm md:btn-md btn-outline"
 						on:click={toggleVocabulary}
 					>
 						Sanasto
 					</button>
 				</div>
 				<button 
-					class="btn btn-primary"
+					class="btn btn-sm md:btn-md btn-primary"
 					on:click={onContinue}
 				>
 					Kysymyksiin

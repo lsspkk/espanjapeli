@@ -48,5 +48,4 @@
   <circle cx="300" cy="240" r="15" fill="#0000FF" clip-path="polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)"/>
   <circle cx="300" cy="240" r="15" fill="#FFFF00" clip-path="polygon(0% 0%, 50% 50%, 100% 0%, 50% 0%)"/>
   <circle cx="300" cy="240" r="15" fill="#00FF00" clip-path="polygon(0% 100%, 50% 50%, 100% 100%, 50% 100%)"/>
-</svg></content>
-<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/swimming.svg
+</svg>

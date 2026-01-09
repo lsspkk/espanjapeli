@@ -43,5 +43,4 @@
   <!-- George in cart seat -->
   <circle cx="230" cy="270" r="10" fill="#F9C6CF"/>
   <ellipse cx="230" cy="280" rx="8" ry="12" fill="#6B9BD2"/>
-</svg></content>
-<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/shopping.svg
+</svg>

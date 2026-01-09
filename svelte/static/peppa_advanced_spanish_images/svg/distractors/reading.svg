@@ -73,5 +73,4 @@
   <!-- Lamp -->
   <line x1="300" y1="300" x2="300" y2="250" stroke="#8B4513" stroke-width="4"/>
   <ellipse cx="300" cy="240" rx="15" ry="10" fill="#FFF9C4"/>
-</svg></content>
-<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/reading.svg
+</svg>

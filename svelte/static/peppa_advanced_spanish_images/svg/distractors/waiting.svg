@@ -58,5 +58,4 @@
   <!-- Motion lines for swinging legs -->
   <path d="M 185 295 Q 180 300 185 305" stroke="#E0E0E0" stroke-width="2" fill="none"/>
   <path d="M 215 295 Q 220 300 215 305" stroke="#E0E0E0" stroke-width="2" fill="none"/>
-</svg></content>
-<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/waiting.svg
+</svg>
