@@ -76,8 +76,6 @@
 	let isCorrect = false;
 	let showCelebration = false;
 	let celebrationEmoji = '';
-	let showToggleBonus = false;
-	let toggleBonusAmount = 0;
 	let autoPlayAudio = true; // Audio toggle setting
 	
 	// Phrase preview state
@@ -91,10 +89,8 @@
 	let wrongAnswerImageId: string | null = null;
 	let wrongAnswerText: string = '';
 
-	// Display mode (svg vs emoji) - now manual toggle instead of automatic
+	// Display mode (svg vs emoji) - manual toggle, no limitations
 	let displayMode: 'svg' | 'emoji' = 'svg';
-	let togglesRemaining = 3; // Starts at 3
-	let displayInterval: ReturnType<typeof setInterval> | null = null;
 
 	// Statistics tracking
 	let currentSessionId: string | null = null;
@@ -133,9 +129,6 @@
 	});
 
 	onDestroy(() => {
-		if (displayInterval) {
-			clearInterval(displayInterval);
-		}
 		// End session if still active
 		if (currentSessionId && gameStarted) {
 			peppaStats.endSession(currentSessionId);
@@ -146,10 +139,7 @@
 	 * Toggle between SVG and emoji display modes
 	 */
 	function toggleDisplayMode() {
-		if (togglesRemaining <= 0) return;
-		
 		displayMode = displayMode === 'svg' ? 'emoji' : 'svg';
-		togglesRemaining--;
 		
 		// Track toggle usage in statistics
 		if (currentSessionId) {
@@ -328,7 +318,6 @@
 		consecutiveCorrect = 0;
 		selectedAnswer = null;
 		displayMode = 'svg'; // Start with SVG mode
-		togglesRemaining = 3; // Reset toggles
 
 		// Use the prepared upcoming phrases (already selected with smart logic)
 		questionQueue = shuffleArray([...upcomingPhrases]);
@@ -405,32 +394,10 @@
 			correctAnswers++;
 			consecutiveCorrect++;
 			
-			// After 2 correct answers in a row, add 1 toggle
-			if (consecutiveCorrect >= 2) {
-				togglesRemaining += 1;
-				consecutiveCorrect = 0; // Reset counter
-				
-				// Show bonus notification
-				showToggleBonus = true;
-				toggleBonusAmount = 1;
-				setTimeout(() => {
-					showToggleBonus = false;
-				}, 2000);
-			}
-			
 			// Show celebration feedback
 			showCorrectAnswerFeedback();
 		} else {
-			// Wrong answer: add 1 toggle
-			togglesRemaining += 1;
 			consecutiveCorrect = 0; // Reset consecutive counter
-			
-			// Show bonus notification
-			showToggleBonus = true;
-			toggleBonusAmount = 1;
-			setTimeout(() => {
-				showToggleBonus = false;
-			}, 2000);
 			
 			// Show wrong answer feedback
 			showWrongAnswerFeedback(optionId);
@@ -528,16 +495,15 @@
 		wrongAnswerText = wrongFinnish || wrongImageId.replace(/_/g, ' ');
 
 		if (autoPlayAudio) {
-			// Read the wrong answer in Finnish
+			// Read the wrong answer in Finnish, then the correct answer
 			setTimeout(() => {
 				const wrongUtterance = new SpeechSynthesisUtterance(wrongAnswerText);
 				wrongUtterance.lang = 'fi-FI';
 				wrongUtterance.rate = 0.9;
 				
 				wrongUtterance.onend = () => {
-					// After wrong answer audio, wait a bit then show correct answer
+					// After wrong answer audio, wait a bit then speak correct answer
 					setTimeout(() => {
-						feedbackStage = 'correct';
 						const finnish = findFinnishTranslation(currentQuestion!.spanish) || currentQuestion!.finnish || '';
 						
 						// Speak: Spanish phrase, then "on suomeksi", then Finnish
@@ -571,17 +537,13 @@
 				window.speechSynthesis.speak(wrongUtterance);
 			}, 500);
 		} else {
-			// No audio, use fixed timings
-			setTimeout(() => {
-				feedbackStage = 'correct';
-			}, 2500);
-
+			// No audio, show both wrong and correct answers together, then move on
 			setTimeout(() => {
 				showFeedback = false;
 				feedbackStage = null;
 				wrongAnswerImageId = null;
 				nextQuestion();
-			}, 5000);
+			}, 4500);
 		}
 	}
 
@@ -717,22 +679,15 @@
 								<!-- Right: Display Mode Selector -->
 								<div class="flex flex-col items-center gap-1 border border-base-content/20 rounded-lg p-2 bg-white/30">
 									<p class="text-[8px] font-bold text-base-content/60 mb-1">Tyyli</p>
-									<div class="text-center mb-1">
-										<span class="text-xs font-bold {togglesRemaining > 0 ? 'text-primary' : 'text-base-content/50'}">
-											{togglesRemaining} {togglesRemaining === 1 ? 'vaihto' : 'vaihtoa'}
-										</span>
-									</div>
 									<button
 										class="badge badge-sm {displayMode === 'svg' ? 'badge-primary' : 'badge-ghost'} transition-all cursor-pointer hover:scale-110 w-full"
 										onclick={toggleDisplayMode}
-										disabled={togglesRemaining <= 0}
 									>
 										🖼️ Kuva
 									</button>
 									<button
 										class="badge badge-sm {displayMode === 'emoji' ? 'badge-primary' : 'badge-ghost'} transition-all cursor-pointer hover:scale-110 w-full"
 										onclick={toggleDisplayMode}
-										disabled={togglesRemaining <= 0}
 									>
 										😀 Emoji
 									</button>
@@ -752,98 +707,132 @@
 				<!-- Image Options Grid OR Feedback Area -->
 				{#if showFeedback}
 					<!-- Feedback Area (replaces image grid) -->
-					<div class="flex-1 min-h-0 flex items-center justify-center bg-white rounded-2xl shadow-xl p-4">
-						{#if feedbackStage === 'wrong' && wrongAnswerImageId}
-							<!-- Show wrong answer -->
-							<div class="text-center animate-fade-in">
-								<div class="text-6xl mb-4">❌</div>
-								
-								<!-- Wrong answer image -->
-								{#if displayMode === 'svg' && getImageFile(wrongAnswerImageId)}
-									<div class="mb-4 max-w-md mx-auto">
-										<img 
-											src={getImageFile(wrongAnswerImageId)} 
-											alt="Wrong answer"
-											class="w-full h-auto rounded-xl shadow-lg"
-										/>
+					<div class="flex-1 min-h-0 flex items-center justify-center bg-white rounded-2xl shadow-xl p-4 overflow-y-auto">
+						{#if feedbackStage === 'wrong' && wrongAnswerImageId && currentQuestion}
+							<!-- Show wrong answer first, then correct answer -->
+							<div class="w-full max-w-2xl space-y-3 md:space-y-6 animate-fade-in">
+								<!-- Wrong Answer Row -->
+								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 bg-red-50 rounded-xl border-2 border-red-300">
+									<!-- Left: Image/Emoji -->
+									<div class="flex-shrink-0 w-20 h-20 md:w-32 md:h-32 flex items-center justify-center">
+										{#if displayMode === 'svg' && getImageFile(wrongAnswerImageId)}
+											<img 
+												src={getImageFile(wrongAnswerImageId)} 
+												alt="Wrong answer"
+												class="w-full h-full object-contain rounded-lg"
+											/>
+										{:else}
+											<div class="text-5xl md:text-7xl">{getEmojiDisplay(wrongAnswerImageId)}</div>
+										{/if}
 									</div>
-								{:else}
-									<div class="text-8xl mb-4">{getEmojiDisplay(wrongAnswerImageId)}</div>
-								{/if}
-								
-								<!-- Wrong answer text -->
-								<div class="text-3xl font-bold text-red-600 mb-2">
-									{wrongAnswerText}
+									
+									<!-- Right: Text and Icon -->
+									<div class="flex-1 flex flex-col items-center justify-center text-center">
+										<div class="text-sm md:text-xl font-bold text-red-600 mb-1 md:mb-2">
+											{wrongAnswerText}
+										</div>
+										<div class="text-4xl md:text-6xl">❌</div>
+									</div>
 								</div>
-								{#if !autoPlayAudio}
-									<div class="text-lg text-base-content/70">
-										(Tämä oli väärä vastaus)
+
+								<!-- Separator Arrow -->
+								<div class="text-center">
+									<div class="text-2xl md:text-4xl">👇</div>
+								</div>
+
+								<!-- Correct Answer Row -->
+								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 bg-green-50 rounded-xl border-2 border-green-300">
+									<!-- Left: Image/Emoji -->
+									<div class="flex-shrink-0 w-20 h-20 md:w-32 md:h-32 flex items-center justify-center">
+										{#if displayMode === 'svg' && getImageFile(currentQuestion.correctImage)}
+											<img 
+												src={getImageFile(currentQuestion.correctImage)} 
+												alt="Correct answer"
+												class="w-full h-full object-contain rounded-lg"
+											/>
+										{:else}
+											<div class="text-5xl md:text-7xl">{getEmojiDisplay(currentQuestion.correctImage)}</div>
+										{/if}
 									</div>
-								{/if}
+									
+									<!-- Right: Text and Icon -->
+									<div class="flex-1 flex flex-col items-center justify-center text-center">
+										<div class="text-sm md:text-xl font-bold text-primary mb-1">
+											{currentQuestion.spanish}
+										</div>
+										<div class="text-xs md:text-lg text-green-600 font-bold mb-1 md:mb-2">
+											= {findFinnishTranslation(currentQuestion.spanish) || currentQuestion.finnish || ''}
+										</div>
+										<div class="text-4xl md:text-6xl">✅</div>
+									</div>
+								</div>
 							</div>
 						{:else if feedbackStage === 'correct' && currentQuestion}
-							<!-- Show correct answer -->
-							<div class="text-center animate-fade-in">
-								<div class="text-6xl mb-4">✅</div>
-								
-								<!-- Correct answer image -->
-								{#if displayMode === 'svg' && getImageFile(currentQuestion.correctImage)}
-									<div class="mb-4 max-w-md mx-auto">
-										<img 
-											src={getImageFile(currentQuestion.correctImage)} 
-											alt="Correct answer"
-											class="w-full h-auto rounded-xl shadow-lg border-4 border-green-500"
-										/>
+							<!-- Show correct answer (fallback case, shouldn't be used with new logic) -->
+							<div class="w-full max-w-2xl animate-fade-in">
+								<!-- Correct Answer Row -->
+								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 bg-green-50 rounded-xl border-2 border-green-300">
+									<!-- Left: Image/Emoji -->
+									<div class="flex-shrink-0 w-20 h-20 md:w-32 md:h-32 flex items-center justify-center">
+										{#if displayMode === 'svg' && getImageFile(currentQuestion.correctImage)}
+											<img 
+												src={getImageFile(currentQuestion.correctImage)} 
+												alt="Correct answer"
+												class="w-full h-full object-contain rounded-lg"
+											/>
+										{:else}
+											<div class="text-5xl md:text-7xl">{getEmojiDisplay(currentQuestion.correctImage)}</div>
+										{/if}
 									</div>
-								{:else}
-									<div class="text-8xl mb-4">{getEmojiDisplay(currentQuestion.correctImage)}</div>
-								{/if}
-								
-								<!-- Correct answer text -->
-								<div class="text-3xl font-bold text-primary mb-2">
-									{currentQuestion.spanish}
-								</div>
-								<div class="text-2xl text-green-600 font-bold">
-									= {findFinnishTranslation(currentQuestion.spanish) || currentQuestion.finnish || ''}
-								</div>
-								{#if !autoPlayAudio}
-									<div class="text-lg text-base-content/70 mt-2">
-										(Oikea vastaus)
+									
+									<!-- Right: Text and Icon -->
+									<div class="flex-1 flex flex-col items-center justify-center text-center">
+										<div class="text-sm md:text-xl font-bold text-primary mb-1">
+											{currentQuestion.spanish}
+										</div>
+										<div class="text-xs md:text-lg text-green-600 font-bold mb-1 md:mb-2">
+											= {findFinnishTranslation(currentQuestion.spanish) || currentQuestion.finnish || ''}
+										</div>
+										<div class="text-4xl md:text-6xl">✅</div>
 									</div>
-								{/if}
+								</div>
 							</div>
 						{:else if feedbackStage === 'celebration' && currentQuestion}
-							<!-- Show celebration for correct answer -->
-							<div class="text-center animate-bounce">
-								<div class="text-9xl mb-4">{celebrationEmoji}</div>
-								<div class="text-4xl font-bold text-green-600 mb-4">
-									¡Muy bien!
+							<!-- Show celebration for correct answer (user got it right on first try) -->
+							<div class="w-full max-w-2xl animate-bounce">
+								<div class="text-center mb-2 md:mb-4">
+									<div class="text-6xl md:text-8xl mb-1 md:mb-2">{celebrationEmoji}</div>
+									<div class="text-2xl md:text-3xl font-bold text-green-600">
+										¡Muy bien!
+									</div>
 								</div>
 								
-								<!-- Correct answer image -->
-								{#if displayMode === 'svg' && getImageFile(currentQuestion.correctImage)}
-									<div class="mb-4 max-w-md mx-auto">
-										<img 
-											src={getImageFile(currentQuestion.correctImage)} 
-											alt="Correct answer"
-											class="w-full h-auto rounded-xl shadow-lg border-4 border-green-500"
-										/>
+								<!-- Correct Answer Row -->
+								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 bg-green-50 rounded-xl border-2 border-green-300">
+									<!-- Left: Image/Emoji -->
+									<div class="flex-shrink-0 w-20 h-20 md:w-32 md:h-32 flex items-center justify-center">
+										{#if displayMode === 'svg' && getImageFile(currentQuestion.correctImage)}
+											<img 
+												src={getImageFile(currentQuestion.correctImage)} 
+												alt="Correct answer"
+												class="w-full h-full object-contain rounded-lg"
+											/>
+										{:else}
+											<div class="text-5xl md:text-7xl">{getEmojiDisplay(currentQuestion.correctImage)}</div>
+										{/if}
 									</div>
-								{:else}
-									<div class="text-8xl mb-4">{getEmojiDisplay(currentQuestion.correctImage)}</div>
-								{/if}
-								
-								<div class="text-3xl font-bold text-primary mb-2">
-									{currentQuestion.spanish}
-								</div>
-								<div class="text-2xl text-green-600 font-bold">
-									= {findFinnishTranslation(currentQuestion.spanish) || currentQuestion.finnish || ''}
-								</div>
-								{#if !autoPlayAudio}
-									<div class="text-lg text-base-content/70 mt-2">
-										(Oikein!)
+									
+									<!-- Right: Text and Icon -->
+									<div class="flex-1 flex flex-col items-center justify-center text-center">
+										<div class="text-sm md:text-xl font-bold text-primary mb-1">
+											{currentQuestion.spanish}
+										</div>
+										<div class="text-xs md:text-lg text-green-600 font-bold mb-1 md:mb-2">
+											= {findFinnishTranslation(currentQuestion.spanish) || currentQuestion.finnish || ''}
+										</div>
+										<div class="text-4xl md:text-6xl">✅</div>
 									</div>
-								{/if}
+								</div>
 							</div>
 						{/if}
 					</div>
@@ -856,19 +845,6 @@
 						onSelect={selectAnswer}
 						showDebugLabels={true}
 					/>
-				{/if}
-
-
-				<!-- Toggle Bonus Notification -->
-				{#if showToggleBonus}
-					<div class="fixed top-24 left-1/2 -translate-x-1/2 pointer-events-none z-50 animate-bounce">
-						<div class="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-4 rounded-2xl shadow-2xl border-4 border-white">
-							<div class="text-center">
-								<div class="text-4xl mb-2">🔄</div>
-								<div class="text-2xl font-bold">+{toggleBonusAmount} vaihtoa!</div>
-							</div>
-						</div>
-					</div>
 				{/if}
 			</div>
 		{:else if gameEnded}
