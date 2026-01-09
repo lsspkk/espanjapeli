@@ -33,6 +33,16 @@
 	} from '$lib/stores/wordKnowledge';
 	import OsaaminenModal from '$lib/components/OsaaminenModal.svelte';
 	import GameHeader from '$lib/components/basic/core/GameHeader.svelte';
+	import QuestionCard from '$lib/components/basic/core/QuestionCard.svelte';
+	import PossiblePoints from '$lib/components/basic/core/PossiblePoints.svelte';
+	import OptionButtons from '$lib/components/basic/input/OptionButtons.svelte';
+	import LineAnimation from '$lib/components/basic/feedback/LineAnimation.svelte';
+	import FeedbackOverlay from '$lib/components/basic/feedback/FeedbackOverlay.svelte';
+	import CategoryPicker from '$lib/components/basic/modals/CategoryPicker.svelte';
+	import Sanakirja from '$lib/components/basic/modals/Sanakirja.svelte';
+	import LanguageDirectionSwitch from '$lib/components/basic/input/LanguageDirectionSwitch.svelte';
+	import GameLengthSelector from '$lib/components/basic/input/GameLengthSelector.svelte';
+	import GameReport from '$lib/components/basic/report/GameReport.svelte';
 
 	// Game states
 	type GameState = 'home' | 'playing' | 'feedback' | 'report';
@@ -797,35 +807,11 @@
 						<span>Yhdistä sanat</span>
 					</h1>
 
-				<!-- Question Language Switch -->
-				<div class="form-control mb-6">
-					<div class="flex items-center justify-center gap-2 p-2 bg-base-200 rounded-lg">
-						<button 
-							class="btn btn-sm gap-2 flex-1"
-							class:btn-primary={questionLanguage === 'spanish'}
-							class:btn-ghost={questionLanguage !== 'spanish'}
-							on:click={() => handleQuestionLanguageChange('spanish')}
-						>
-							<span class="text-xl">🇪🇸</span>
-							<span>Espanja</span>
-						</button>
-						<div class="divider divider-horizontal mx-0">→</div>
-						<button 
-							class="btn btn-sm gap-2 flex-1"
-							class:btn-primary={questionLanguage === 'finnish'}
-							class:btn-ghost={questionLanguage !== 'finnish'}
-							on:click={() => handleQuestionLanguageChange('finnish')}
-						>
-							<span class="text-xl">🇫🇮</span>
-							<span>Suomi</span>
-						</button>
-					</div>
-					<p class="text-xs text-center text-base-content/50 mt-1">
-						{questionLanguage === 'spanish' 
-							? 'Näet espanjankielisen sanan, valitse suomenkielinen käännös'
-							: 'Näet suomenkielisen sanan, valitse espanjankielinen käännös'}
-					</p>
-				</div>
+			<!-- Question Language Switch -->
+			<LanguageDirectionSwitch
+				direction={questionLanguage}
+				onChange={handleQuestionLanguageChange}
+			/>
 
 				<!-- Category Selection -->
 				<div class="form-control mb-4">
@@ -844,47 +830,11 @@
 					</button>
 				</div>
 
-				<!-- Game Length -->
-				<div class="form-control mb-4">
-					<span class="label">
-						<span class="label-text font-semibold text-lg">Kysymyksiä:</span>
-					</span>
-					<div class="flex gap-4">
-						<label class="label cursor-pointer gap-2">
-							<input 
-								type="radio" 
-								name="game-length" 
-								value="10" 
-								class="radio radio-primary"
-								checked={selectedGameLength === 10}
-								on:change={handleGameLengthChange}
-							/>
-							<span class="label-text text-base">10</span>
-						</label>
-						<label class="label cursor-pointer gap-2">
-							<input 
-								type="radio" 
-								name="game-length" 
-								value="21" 
-								class="radio radio-primary"
-								checked={selectedGameLength === 21}
-								on:change={handleGameLengthChange}
-							/>
-							<span class="label-text text-base">21</span>
-						</label>
-						<label class="label cursor-pointer gap-2">
-							<input 
-								type="radio" 
-								name="game-length" 
-								value="42" 
-								class="radio radio-primary"
-								checked={selectedGameLength === 42}
-								on:change={handleGameLengthChange}
-							/>
-							<span class="label-text text-base">42</span>
-						</label>
-					</div>
-				</div>
+			<!-- Game Length -->
+			<GameLengthSelector
+				value={selectedGameLength}
+				onChange={handleGameLengthChange}
+			/>
 
 				<!-- Auto-speak -->
 				<div class="form-control mb-4">
@@ -949,219 +899,22 @@
 	<OsaaminenModal isOpen={showOsaaminen} on:close={() => showOsaaminen = false} />
 
 	<!-- Sanakirja Modal -->
-	{#if showSanakirja}
-		<div 
-			class="fixed inset-0 bg-neutral/50 z-50" 
-			on:click={toggleSanakirja}
-			on:keydown={(e) => e.key === 'Escape' && toggleSanakirja()}
-			role="button"
-			tabindex="0"
-		>
-			<div 
-				class="bg-base-100 w-full h-full sm:absolute sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-full sm:max-w-2xl sm:h-auto sm:max-h-[90vh] sm:rounded-lg sm:shadow-xl overflow-hidden"
-				on:click|stopPropagation
-				on:keydown|stopPropagation
-				role="dialog"
-				aria-modal="true"
-				tabindex="-1"
-			>
-				<div class="bg-primary text-primary-content p-4 flex items-center justify-between">
-					<h2 class="text-xl font-bold">📖 Sanakirja</h2>
-					<button class="btn btn-ghost btn-sm btn-circle text-primary-content" on:click={toggleSanakirja}>✕</button>
-				</div>
-
-				<div class="overflow-y-auto h-[calc(100vh-64px)] sm:h-auto sm:max-h-[calc(90vh-64px)] p-4">
-					<div class="bg-secondary/20 border border-secondary/30 rounded p-2 mb-3">
-						<p class="text-sm font-medium text-center text-secondary">
-							Seuraavan pelin sanat ({upcomingWords.length})
-						</p>
-					</div>
-
-					{#if upcomingWords.length > 0}
-						<div class="space-y-1 mb-4">
-							{#each upcomingWords as word}
-								<div class="flex items-center gap-2 p-2 bg-base-200 hover:bg-base-300 rounded transition-colors">
-									<span class="font-bold text-primary w-1/2 truncate">{word.spanish}</span>
-									<span class="text-base-content/70 w-1/2 truncate">{word.finnish}</span>
-									<button
-										class="btn btn-ghost btn-xs btn-circle flex-shrink-0"
-										on:click={() => speakWord(word.spanish, word.finnish)}
-										title="Kuuntele"
-									>
-										🔊
-									</button>
-								</div>
-							{/each}
-						</div>
-					{/if}
-
-					{#each previousGames as gameWords, gameIndex}
-						<div class="bg-base-300 rounded p-2 mb-3 mt-4">
-							<p class="text-sm font-medium text-center text-base-content/70">
-								{gameIndex === 0 ? 'Edellisen pelin sanat' : `${gameIndex + 1}. viimeisen pelin sanat`}
-							</p>
-						</div>
-
-						<div class="space-y-1 mb-4">
-							{#each gameWords as word}
-								<div class="flex items-center gap-2 p-2 bg-base-200 hover:bg-base-300 rounded transition-colors">
-									<span class="font-bold text-primary w-1/2 truncate">{word.spanish}</span>
-									<span class="text-base-content/70 w-1/2 truncate">{word.finnish}</span>
-									<button
-										class="btn btn-ghost btn-xs btn-circle flex-shrink-0"
-										on:click={() => speakWord(word.spanish, word.finnish)}
-										title="Kuuntele"
-									>
-										🔊
-									</button>
-								</div>
-							{/each}
-						</div>
-					{/each}
-
-					<div class="fixed bottom-4 right-4">
-						<button class="btn btn-primary btn-lg" on:click={toggleSanakirja}>
-							Sulje
-						</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	{/if}
+	<Sanakirja
+		isOpen={showSanakirja}
+		{upcomingWords}
+		{previousGames}
+		onClose={toggleSanakirja}
+		onSpeak={speakWord}
+	/>
 
 	<!-- Category Picker Modal -->
-	{#if showCategoryPicker}
-		<div 
-			class="fixed inset-0 bg-neutral/50 z-50" 
-			on:click={toggleCategoryPicker}
-			on:keydown={(e) => e.key === 'Escape' && toggleCategoryPicker()}
-			role="button"
-			tabindex="0"
-		>
-			<div 
-				class="bg-base-100 w-full h-full sm:absolute sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-full sm:max-w-md sm:h-auto sm:max-h-[90vh] sm:rounded-lg sm:shadow-xl overflow-hidden"
-				on:click|stopPropagation
-				on:keydown|stopPropagation
-				role="dialog"
-				aria-modal="true"
-				tabindex="-1"
-			>
-				<div class="bg-primary text-primary-content px-3 py-2 flex items-center justify-between">
-					<h2 class="text-base font-bold">Valitse kategoria</h2>
-					<button class="btn btn-ghost btn-xs btn-circle text-primary-content" on:click={toggleCategoryPicker}>✕</button>
-				</div>
-
-				<div class="overflow-y-auto h-[calc(100vh-44px)] sm:h-auto sm:max-h-[calc(90vh-44px)] p-2">
-					<button
-						class="w-full text-left px-2 py-1.5 rounded mb-2 flex items-center gap-2 transition-colors text-sm"
-						class:bg-primary={selectedCategory === 'all'}
-						class:text-primary-content={selectedCategory === 'all'}
-						class:bg-base-200={selectedCategory !== 'all'}
-						class:hover:bg-base-300={selectedCategory !== 'all'}
-						on:click={() => selectCategory('all')}
-					>
-						<span>📚</span>
-						<span class="font-medium">Kaikki sanat</span>
-					</button>
-
-					<!-- Tier 1: Foundation -->
-					<div class="border-l-[3px] border-red-500 pl-2 mb-2">
-						<div class="text-[10px] text-base-content/50 mb-0.5">Perusta</div>
-						<div class="grid grid-cols-2 gap-1">
-							{#each categories.filter(c => c.tier === 1) as cat}
-								<button
-									class="text-left px-2 py-1 rounded text-sm transition-colors"
-									class:bg-primary={selectedCategory === cat.key}
-									class:text-primary-content={selectedCategory === cat.key}
-									class:bg-base-200={selectedCategory !== cat.key}
-									class:hover:bg-base-300={selectedCategory !== cat.key}
-									on:click={() => selectCategory(cat.key)}
-								>
-									{cat.name}
-								</button>
-							{/each}
-						</div>
-					</div>
-
-					<!-- Tier 2: Concrete Basics -->
-					<div class="border-l-[3px] border-yellow-500 pl-2 mb-2">
-						<div class="text-[10px] text-base-content/50 mb-0.5">Perusasiat</div>
-						<div class="grid grid-cols-2 gap-1">
-							{#each categories.filter(c => c.tier === 2) as cat}
-								<button
-									class="text-left px-2 py-1 rounded text-sm transition-colors"
-									class:bg-primary={selectedCategory === cat.key}
-									class:text-primary-content={selectedCategory === cat.key}
-									class:bg-base-200={selectedCategory !== cat.key}
-									class:hover:bg-base-300={selectedCategory !== cat.key}
-									on:click={() => selectCategory(cat.key)}
-								>
-									{cat.name}
-								</button>
-							{/each}
-						</div>
-					</div>
-
-					<!-- Tier 3: Everyday Topics -->
-					<div class="border-l-[3px] border-green-500 pl-2 mb-2">
-						<div class="text-[10px] text-base-content/50 mb-0.5">Arkiaiheet</div>
-						<div class="grid grid-cols-2 gap-1">
-							{#each categories.filter(c => c.tier === 3) as cat}
-								<button
-									class="text-left px-2 py-1 rounded text-sm transition-colors"
-									class:bg-primary={selectedCategory === cat.key}
-									class:text-primary-content={selectedCategory === cat.key}
-									class:bg-base-200={selectedCategory !== cat.key}
-									class:hover:bg-base-300={selectedCategory !== cat.key}
-									on:click={() => selectCategory(cat.key)}
-								>
-									{cat.name}
-								</button>
-							{/each}
-						</div>
-					</div>
-
-					<!-- Tier 4: Practical Skills -->
-					<div class="border-l-[3px] border-blue-500 pl-2 mb-2">
-						<div class="text-[10px] text-base-content/50 mb-0.5">Käytäntö</div>
-						<div class="grid grid-cols-2 gap-1">
-							{#each categories.filter(c => c.tier === 4) as cat}
-								<button
-									class="text-left px-2 py-1 rounded text-sm transition-colors"
-									class:bg-primary={selectedCategory === cat.key}
-									class:text-primary-content={selectedCategory === cat.key}
-									class:bg-base-200={selectedCategory !== cat.key}
-									class:hover:bg-base-300={selectedCategory !== cat.key}
-									on:click={() => selectCategory(cat.key)}
-								>
-									{cat.name}
-								</button>
-							{/each}
-						</div>
-					</div>
-
-					<!-- Tier 5: Specialized -->
-					<div class="border-l-[3px] border-purple-500 pl-2 mb-2">
-						<div class="text-[10px] text-base-content/50 mb-0.5">Erikois</div>
-						<div class="grid grid-cols-2 gap-1">
-							{#each categories.filter(c => c.tier === 5) as cat}
-								<button
-									class="text-left px-2 py-1 rounded text-sm transition-colors"
-									class:bg-primary={selectedCategory === cat.key}
-									class:text-primary-content={selectedCategory === cat.key}
-									class:bg-base-200={selectedCategory !== cat.key}
-									class:hover:bg-base-300={selectedCategory !== cat.key}
-									on:click={() => selectCategory(cat.key)}
-								>
-									{cat.name}
-								</button>
-							{/each}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	{/if}
+	<CategoryPicker
+		isOpen={showCategoryPicker}
+		{selectedCategory}
+		{categories}
+		onSelect={selectCategory}
+		onClose={toggleCategoryPicker}
+	/>
 {/if}
 
 <!-- PLAYING STATE & FEEDBACK STATE -->
@@ -1182,19 +935,12 @@
 			<!-- Main Game Area - Two Column Layout -->
 			<div class="flex flex-row flex-1 min-h-0 relative" bind:this={gameAreaRef}>
 				<!-- SVG Line Animation Overlay -->
-				{#if showLine && lineStart && lineEnd}
-					<svg class="absolute inset-0 w-full h-full pointer-events-none z-10">
-						<line 
-							x1={lineStart.x} 
-							y1={lineStart.y} 
-							x2={lineEnd.x} 
-							y2={lineEnd.y}
-							class="{lineColor} animate-line"
-							stroke-width="3"
-							stroke-linecap="round"
-						/>
-					</svg>
-				{/if}
+				<LineAnimation 
+					start={lineStart}
+					end={lineEnd}
+					visible={showLine}
+					color={lineColor === 'stroke-success' ? 'success' : 'error'}
+				/>
 
 				<!-- Left Column: Question Word -->
 				<div class="w-1/2 flex flex-col items-center bg-base-200/50 py-4 md:py-6">
@@ -1204,193 +950,61 @@
 					</div>
 					
 					<!-- Current question score -->
-					<div class="text-3xl md:text-4xl font-bold mb-4 md:mb-6"
-						class:text-success={triesRemaining === 3}
-						class:text-warning={triesRemaining === 2}
-						class:text-error={triesRemaining === 1}
-					>
-						{#if triesRemaining === 3}
-							+10
-						{:else if triesRemaining === 2}
-							+3
-						{:else if triesRemaining === 1}
-							+1
-						{:else}
-							0
-						{/if}
-					</div>
+					<PossiblePoints points={triesRemaining === 3 ? 10 : triesRemaining === 2 ? 3 : triesRemaining === 1 ? 1 : 0} {triesRemaining} />
 
 					<!-- Question word (centered in remaining space) -->
-					<div class="flex-1 flex flex-col items-center justify-center" bind:this={questionWordRef}>
-						<div 
-							class="bg-primary text-primary-content rounded-xl p-3 md:p-4 text-center shadow-lg w-full h-auto mx-3 md:mx-6"
-							bind:this={questionWordCardRef}
-						>
-							<div class="text-sm md:text-base lg:text-lg font-medium break-words leading-tight">
-								{currentWord ? getQuestionText(currentWord) : ''}
-							</div>
+					<div bind:this={questionWordRef}>
+						<div bind:this={questionWordCardRef}>
+							<QuestionCard 
+								text={currentWord ? getQuestionText(currentWord) : ''}
+								onSpeak={speakCurrentWord}
+							/>
 						</div>
-						<button 
-							class="text-4xl mt-8 hover:scale-110 transition-transform cursor-pointer" 
-							on:click={speakCurrentWord} 
-							title="Kuuntele"
-						>
-							🔊
-						</button>
 					</div>
 				</div>
 
 				<!-- Right Column: Answer Options -->
 				<div class="w-1/2 flex flex-col p-3 md:p-6 overflow-y-auto">
-					<div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-3 flex-1 content-center">
-						{#each answerOptions as option}
-							<button
-								class="btn h-auto min-h-[2.5rem] md:min-h-[3.5rem] py-2 md:py-3 px-3 md:px-4 text-sm md:text-base lg:text-lg font-medium normal-case whitespace-normal break-words leading-tight transition-all"
-								class:btn-outline={!wrongClicks.has(option.spanish)}
-								class:btn-disabled={wrongClicks.has(option.spanish)}
-								class:btn-error={wrongClicks.has(option.spanish)}
-								class:opacity-40={wrongClicks.has(option.spanish)}
-								disabled={wrongClicks.has(option.spanish) || triesRemaining <= 0 || showFeedback}
-								on:click={(e) => handleAnswerClick(option, e)}
-							>
-								{getAnswerText(option)}
-							</button>
-						{/each}
-					</div>
+					<OptionButtons 
+						options={answerOptions.map(opt => ({ id: opt.spanish, text: getAnswerText(opt) }))}
+						disabledIds={wrongClicks}
+						onSelect={(id, e) => {
+							const selectedWord = answerOptions.find(opt => opt.spanish === id);
+							if (selectedWord) handleAnswerClick(selectedWord, e);
+						}}
+						disabled={triesRemaining <= 0 || showFeedback}
+					/>
 				</div>
 			</div>
 
-			<!-- Feedback Overlay -->
-			{#if showFeedback}
-				<div class="absolute inset-0 bg-black/60 flex items-center justify-center z-20">
-					<div 
-						class="bg-base-100 rounded-lg shadow-lg p-6 md:p-8 max-w-md mx-4 text-center"
-						class:animate-pop-in={!feedbackClosing && feedbackAnimationIn === 'animate-pop-in'}
-						class:animate-slide-down={!feedbackClosing && feedbackAnimationIn === 'animate-slide-down'}
-						class:animate-slide-up={!feedbackClosing && feedbackAnimationIn === 'animate-slide-up'}
-						class:animate-fade-in={!feedbackClosing && feedbackAnimationIn === 'animate-fade-in'}
-						class:animate-rotate-in={!feedbackClosing && feedbackAnimationIn === 'animate-rotate-in'}
-						class:animate-pop-out={feedbackClosing && feedbackAnimationOut === 'animate-pop-out'}
-						class:animate-slide-down-out={feedbackClosing && feedbackAnimationOut === 'animate-slide-down-out'}
-						class:animate-slide-up-out={feedbackClosing && feedbackAnimationOut === 'animate-slide-up-out'}
-						class:animate-fade-out={feedbackClosing && feedbackAnimationOut === 'animate-fade-out'}
-						class:animate-rotate-out={feedbackClosing && feedbackAnimationOut === 'animate-rotate-out'}
-					>
-						{#if feedbackIsCorrect}
-							<!-- Correct answer feedback -->
-							<div class="text-4xl md:text-5xl font-bold text-success mb-4 animate-slide-down">
-								{feedbackExclamation}
-							</div>
-
-							<!-- Word pair based on question language -->
-							<div class="text-2xl md:text-3xl font-bold text-base-content mb-6">
-								{#if questionLanguage === 'spanish'}
-									{feedbackSpanish} = {feedbackFinnish}
-								{:else}
-									{feedbackFinnish} = {feedbackSpanish}
-								{/if}
-							</div>
-
-							<!-- Points earned -->
-							<div class="text-lg font-semibold text-success">
-								+{pointsEarned} pistettä
-							</div>
-						{:else}
-							<!-- Wrong answer feedback - just show the word pair -->
-							<div class="text-2xl md:text-3xl font-bold text-base-content mb-6">
-								{#if questionLanguage === 'spanish'}
-									{feedbackSpanish} = {feedbackFinnish}
-								{:else}
-									{feedbackFinnish} = {feedbackSpanish}
-								{/if}
-							</div>
-
-							<!-- Continue button (only for wrong answers) -->
-							<button 
-								class="btn btn-lg w-full btn-primary"
-								on:click={continueToNext}
-							>
-								Seuraava
-							</button>
-						{/if}
-					</div>
-				</div>
-			{/if}
+		<!-- Feedback Overlay -->
+		<FeedbackOverlay
+			visible={showFeedback}
+			isCorrect={feedbackIsCorrect}
+			exclamation={feedbackExclamation}
+			primaryWord={questionLanguage === 'spanish' ? feedbackSpanish : feedbackFinnish}
+			secondaryWord={questionLanguage === 'spanish' ? feedbackFinnish : feedbackSpanish}
+			{pointsEarned}
+			animationIn={feedbackAnimationIn}
+			animationOut={feedbackAnimationOut}
+			closing={feedbackClosing}
+			onContinue={continueToNext}
+		/>
 		</div>
 	</div>
 {/if}
 
 <!-- REPORT STATE -->
 {#if gameState === 'report'}
-	<div class="min-h-screen bg-base-200 flex items-center justify-center p-4">
-		<div class="card bg-base-100 shadow-xl w-full max-w-2xl">
-			<div class="card-body p-4 md:p-6">
-				<h2 class="card-title text-2xl md:text-3xl justify-center mb-4 text-primary">🎉 Peli päättyi!</h2>
-
-				<!-- Game Time -->
-				<div class="text-center mb-4">
-					<div class="text-lg font-semibold text-base-content/70">
-						Aika: {gameTimeFormatted}
-					</div>
-				</div>
-
-				<!-- Answers by Try Count -->
-				<div class="grid grid-cols-2 gap-3 mb-4">
-					<div class="bg-success/10 border border-success/30 rounded-lg p-3 text-center">
-						<div class="text-2xl font-bold text-success">{reportFirstTryCount}</div>
-						<div class="text-sm text-base-content/70">1. yrityksellä</div>
-					</div>
-					<div class="bg-warning/10 border border-warning/30 rounded-lg p-3 text-center">
-						<div class="text-2xl font-bold text-warning">{reportSecondTryCount}</div>
-						<div class="text-sm text-base-content/70">2. yrityksellä</div>
-					</div>
-					<div class="bg-error/10 border border-error/30 rounded-lg p-3 text-center">
-						<div class="text-2xl font-bold text-error">{reportThirdTryCount}</div>
-						<div class="text-sm text-base-content/70">3. yrityksellä</div>
-					</div>
-					<div class="bg-base-300 border border-base-content/20 rounded-lg p-3 text-center">
-						<div class="text-2xl font-bold text-base-content">{reportFailedCount}</div>
-						<div class="text-sm text-base-content/70">Ei löytynyt</div>
-					</div>
-				</div>
-
-				<!-- Score Summary -->
-				<div class="bg-primary/10 border border-primary/30 rounded-lg p-4 mb-4">
-					<div class="text-center w-full">
-						<div class="text-2xl font-bold text-primary">
-							Pisteet: {totalScore} / {maxPossibleScore}
-						</div>
-						<div class="text-lg text-base-content/70">
-							({scorePercentage}%)
-						</div>
-					</div>
-				</div>
-
-				<!-- Wrong Answers -->
-				{#if wrongAnswers.length > 0}
-					<div class="mb-4">
-						<h3 class="text-lg font-bold mb-2 text-error">Väärät vastaukset:</h3>
-						<div class="space-y-2">
-							{#each wrongAnswers as wrong}
-								<div class="bg-base-200 border-l-4 border-error rounded-r-lg p-2">
-									<div class="flex-1">
-										<div class="font-bold text-base">
-											<span class="text-primary">{wrong.spanish}</span> = <span class="text-secondary">{wrong.finnish}</span>
-										</div>
-									</div>
-								</div>
-							{/each}
-						</div>
-					</div>
-				{/if}
-
-				<!-- Action Button -->
-				<div class="flex justify-center">
-					<button class="btn btn-primary btn-lg" on:click={goHome}>
-						Alkuun
-					</button>
-				</div>
-			</div>
-		</div>
-	</div>
+	<GameReport
+		gameTime={gameTimeFormatted}
+		firstTryCount={reportFirstTryCount}
+		secondTryCount={reportSecondTryCount}
+		thirdTryCount={reportThirdTryCount}
+		failedCount={reportFailedCount}
+		{totalScore}
+		maxScore={maxPossibleScore}
+		{wrongAnswers}
+		onHome={goHome}
+	/>
 {/if}

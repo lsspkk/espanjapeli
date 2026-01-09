@@ -81,60 +81,60 @@ Source: yhdistasanat lines 1336-1359
 --------------------------------------------------------------------------------
 1.6 Extract TriesIndicator Component
 Source: yhdistasanat lines 1344-1352
-- [ ] Create `lib/components/basic/core/TriesIndicator.svelte`
-- [ ] Props: `remaining: number`, `max: number = 3`
-- [ ] Display colored dots (success when remaining, base-300 when used)
-- [ ] Smooth transition animations
+- [x] Create `lib/components/basic/core/TriesIndicator.svelte`
+- [x] Props: `remaining: number`, `max: number = 3`
+- [x] Display colored dots (success when remaining, base-300 when used)
+- [x] Smooth transition animations
 
 --------------------------------------------------------------------------------
 1.7 Extract QuestionCard Component
 Source: yhdistasanat lines 1403-1419
-- [ ] Create `lib/components/basic/core/QuestionCard.svelte`
-- [ ] Props:
+- [x] Create `lib/components/basic/core/QuestionCard.svelte`
+- [x] Props:
   - `text: string`
   - `onSpeak?: () => void`
   - `showSpeaker?: boolean`
-- [ ] Primary colored card with centered text
-- [ ] Speaker button (🔊) below card
-- [ ] Responsive text sizing
+- [x] Primary colored card with centered text
+- [x] Speaker button (🔊) below card
+- [x] Responsive text sizing
 
 --------------------------------------------------------------------------------
 1.8 Extract PossiblePoints Component
 Source: yhdistasanat lines 1386-1400
-- [ ] Create `lib/components/basic/core/PossiblePoints.svelte`
-- [ ] Props: `points: number`, `triesRemaining: number`
-- [ ] Large "+10" / "+3" / "+1" / "0" display
-- [ ] Color coding: success/warning/error based on tries
+- [x] Create `lib/components/basic/core/PossiblePoints.svelte`
+- [x] Props: `points: number`, `triesRemaining: number`
+- [x] Large "+10" / "+3" / "+1" / "0" display
+- [x] Color coding: success/warning/error based on tries
 
 --------------------------------------------------------------------------------
 1.9 Extract OptionButtons Component
 Source: yhdistasanat lines 1424-1438
-- [ ] Create `lib/components/basic/input/OptionButtons.svelte`
-- [ ] Props:
+- [x] Create `lib/components/basic/input/OptionButtons.svelte`
+- [x] Props:
   - `options: Array<{ id: string; text: string }>`
   - `disabledIds: Set<string>`
   - `onSelect: (id: string, event: MouseEvent) => void`
   - `disabled: boolean`
-- [ ] Grid layout (1-col mobile, 2-col desktop)
-- [ ] Button states: outline, disabled+error, opacity
+- [x] Grid layout (1-col mobile, 2-col desktop)
+- [x] Button states: outline, disabled+error, opacity
 
 --------------------------------------------------------------------------------
 1.10 Extract LineAnimation Component
 Source: yhdistasanat lines 1363-1376
-- [ ] Create `lib/components/basic/feedback/LineAnimation.svelte`
-- [ ] Props:
+- [x] Create `lib/components/basic/feedback/LineAnimation.svelte`
+- [x] Props:
   - `start: { x: number; y: number } | null`
   - `end: { x: number; y: number } | null`
   - `visible: boolean`
   - `color: 'success' | 'error'`
-- [ ] SVG overlay with animated line drawing
-- [ ] Include drawLine animation CSS
+- [x] SVG overlay with animated line drawing
+- [x] Include drawLine animation CSS
 
 --------------------------------------------------------------------------------
 1.11 Extract FeedbackOverlay Component
 Source: yhdistasanat lines 1443-1497
-- [ ] Create `lib/components/basic/feedback/FeedbackOverlay.svelte`
-- [ ] Props:
+- [x] Create `lib/components/basic/feedback/FeedbackOverlay.svelte`
+- [x] Props:
   - `visible: boolean`
   - `isCorrect: boolean`
   - `exclamation: string` (e.g., "¡Muy bien!")
@@ -145,77 +145,77 @@ Source: yhdistasanat lines 1443-1497
   - `animationOut: string`
   - `closing: boolean`
   - `onContinue: () => void`
-- [ ] Dark backdrop (bg-black/60)
-- [ ] Animated card with word pair display
-- [ ] Continue button for wrong answers
-- [ ] Auto-close support for correct answers
+- [x] Dark backdrop (bg-black/60)
+- [x] Animated card with word pair display
+- [x] Continue button for wrong answers
+- [x] Auto-close support for correct answers
 
 --------------------------------------------------------------------------------
 1.12 Extract CategoryPicker Component
 Source: yhdistasanat lines 1195-1326
-- [ ] Create `lib/components/basic/modals/CategoryPicker.svelte`
-- [ ] Props:
+- [x] Create `lib/components/basic/modals/CategoryPicker.svelte`
+- [x] Props:
   - `isOpen: boolean`
   - `selectedCategory: string`
   - `categories: Array<{ key, name, tier }>`
   - `onSelect: (key: string) => void`
   - `onClose: () => void`
-- [ ] Full-screen on mobile, centered modal on desktop
-- [ ] "All words" option at top
-- [ ] Tier grouping with colored left borders:
+- [x] Full-screen on mobile, centered modal on desktop
+- [x] "All words" option at top
+- [x] Tier grouping with colored left borders:
   - Tier 1: red (Perusta)
   - Tier 2: yellow (Perusasiat)
   - Tier 3: green (Arkiaiheet)
   - Tier 4: blue (Käytäntö)
   - Tier 5: purple (Erikois)
-- [ ] 2-column grid within each tier
-- [ ] Selected state highlighting
+- [x] 2-column grid within each tier
+- [x] Selected state highlighting
 
 --------------------------------------------------------------------------------
 1.13 Extract Sanakirja Component
 Source: yhdistasanat lines 1114-1192
-- [ ] Create `lib/components/basic/modals/Sanakirja.svelte`
-- [ ] Props:
+- [x] Create `lib/components/basic/modals/Sanakirja.svelte`
+- [x] Props:
   - `isOpen: boolean`
   - `upcomingWords: Word[]`
   - `previousGames: Word[][]`
   - `onClose: () => void`
   - `onSpeak: (spanish: string, finnish: string) => void`
-- [ ] Header with title and close button
-- [ ] Sections:
+- [x] Header with title and close button
+- [x] Sections:
   - "Seuraavan pelin sanat" with secondary highlight
   - Previous games with neutral styling
-- [ ] Word rows: Spanish | Finnish | 🔊 button
-- [ ] Scrollable content area
-- [ ] Fixed close button at bottom
+- [x] Word rows: Spanish | Finnish | 🔊 button
+- [x] Scrollable content area
+- [x] Fixed close button at bottom
 
 --------------------------------------------------------------------------------
 1.14 Extract LanguageDirectionSwitch Component
 Source: yhdistasanat lines 963-990
-- [ ] Create `lib/components/basic/input/LanguageDirectionSwitch.svelte`
-- [ ] Props:
+- [x] Create `lib/components/basic/input/LanguageDirectionSwitch.svelte`
+- [x] Props:
   - `direction: 'spanish' | 'finnish'`
   - `onChange: (direction) => void`
-- [ ] Two buttons with flags (🇪🇸, 🇫🇮)
-- [ ] Arrow divider between buttons
-- [ ] Helper text below explaining current mode
+- [x] Two buttons with flags (🇪🇸, 🇫🇮)
+- [x] Arrow divider between buttons
+- [x] Helper text below explaining current mode
 
 --------------------------------------------------------------------------------
 1.15 Extract GameLengthSelector Component
 Source: yhdistasanat lines 1009-1049
-- [ ] Create `lib/components/basic/input/GameLengthSelector.svelte`
-- [ ] Props:
+- [x] Create `lib/components/basic/input/GameLengthSelector.svelte`
+- [x] Props:
   - `value: number`
   - `options: number[]` (default [10, 21, 42])
   - `onChange: (length: number) => void`
-- [ ] Radio button group
-- [ ] Horizontal layout with labels
+- [x] Radio button group
+- [x] Horizontal layout with labels
 
 --------------------------------------------------------------------------------
 1.16 Extract GameReport Component
 Source: yhdistasanat lines 1503-1575
-- [ ] Create `lib/components/basic/report/GameReport.svelte`
-- [ ] Props:
+- [x] Create `lib/components/basic/report/GameReport.svelte`
+- [x] Props:
   - `title: string` (default "🎉 Peli päättyi!")
   - `gameTime: string`
   - `firstTryCount: number`
@@ -227,42 +227,42 @@ Source: yhdistasanat lines 1503-1575
   - `wrongAnswers: QuestionResult[]`
   - `onHome: () => void`
   - `onPlayAgain?: () => void`
-- [ ] Time display
-- [ ] 2x2 grid with try counts (colored boxes)
-- [ ] Score summary with percentage
-- [ ] Wrong answers list
-- [ ] Action buttons
+- [x] Time display
+- [x] 2x2 grid with try counts (colored boxes)
+- [x] Score summary with percentage
+- [x] Wrong answers list
+- [x] Action buttons
 
 --------------------------------------------------------------------------------
 1.17 Extract WrongAnswersList Component
 Source: yhdistasanat lines 1549-1564
-- [ ] Create `lib/components/basic/report/WrongAnswersList.svelte`
-- [ ] Props: `answers: Array<{ spanish, finnish, userAnswer? }>`
-- [ ] Error-bordered cards
-- [ ] "Spanish = Finnish" format
-- [ ] Optional user answer display
+- [x] Create `lib/components/basic/report/WrongAnswersList.svelte`
+- [x] Props: `answers: Array<{ spanish, finnish, userAnswer? }>`
+- [x] Error-bordered cards
+- [x] "Spanish = Finnish" format
+- [x] Optional user answer display
 
 --------------------------------------------------------------------------------
 1.18 Extract TTSButton Component
 Source: yhdistasanat lines 1412-1418, 1148-1154
-- [ ] Create `lib/components/shared/TTSButton.svelte`
-- [ ] Props:
+- [x] Create `lib/components/shared/TTSButton.svelte`
+- [x] Props:
   - `text: string`
   - `language: 'spanish' | 'finnish'`
   - `size: 'xs' | 'sm' | 'md' | 'lg'`
   - `variant: 'ghost' | 'circle' | 'plain'`
-- [ ] Uses tts service
-- [ ] Speaker emoji (🔊)
+- [x] Uses tts service
+- [x] Speaker emoji (🔊)
 
 --------------------------------------------------------------------------------
 1.19 Test & Integrate Basic Components
-- [ ] Create test file for GameHeader
-- [ ] Create test file for FeedbackOverlay
-- [ ] Create test file for CategoryPicker
-- [ ] Integrate components into yhdistasanat
-- [ ] Verify all functionality works
-- [ ] Check mobile responsiveness
-- [ ] Compare line count before/after
+- [x] Create test file for GameHeader
+- [x] Create test file for FeedbackOverlay
+- [x] Create test file for CategoryPicker
+- [x] Integrate components into yhdistasanat
+- [x] Verify all functionality works
+- [x] Check mobile responsiveness
+- [x] Compare line count before/after
 
 ================================================================================
 

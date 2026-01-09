@@ -1,4 +1,6 @@
 <script lang="ts">
+	import TriesIndicator from './TriesIndicator.svelte';
+
 	export let currentQuestion: number;
 	export let totalQuestions: number;
 	export let score: number;
@@ -15,16 +17,7 @@
 	</div>
 	<div class="flex items-center gap-2">
 		{#if triesRemaining !== undefined}
-			<!-- Tries remaining indicator -->
-			<div class="flex gap-1">
-				{#each Array(maxTries) as _, i}
-					<div 
-						class="w-3 h-3 md:w-4 md:h-4 rounded-full transition-all"
-						class:bg-success={i < triesRemaining}
-						class:bg-base-300={i >= triesRemaining}
-					></div>
-				{/each}
-			</div>
+			<TriesIndicator remaining={triesRemaining} max={maxTries} />
 		{/if}
 		<button 
 			on:click={onQuit} 
