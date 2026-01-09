@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background - kitchen floor -->
+  <rect width="400" height="400" fill="#FFF8E7"/>
+  
+  <!-- Floor tiles -->
+  <rect y="280" width="400" height="120" fill="#F5E6D3"/>
+  <line x1="0" y1="280" x2="400" y2="280" stroke="#E0D0B8" stroke-width="2"/>
+  
+  <!-- George Pig -->
+  <g id="george">
+    <!-- Body/Shirt -->
+    <ellipse cx="200" cy="240" rx="45" ry="55" fill="#6B9BD2"/>
+    
+    <!-- Head -->
+    <circle cx="200" cy="150" r="55" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="220" cy="160" rx="24" ry="18" fill="#FF69B4"/>
+    <circle cx="214" cy="156" r="2.5" fill="#000000"/>
+    <circle cx="226" cy="156" r="2.5" fill="#000000"/>
+    
+    <!-- Eyes (guilty, looking down) -->
+    <circle cx="180" cy="140" r="11" fill="#FFFFFF"/>
+    <circle cx="180" cy="143" r="6" fill="#000000"/>
+    
+    <!-- Guilty eyebrows -->
+    <path d="M 168 132 Q 180 136 192 132" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Mouth (sad frown) -->
+    <path d="M 212 172 Q 220 168 228 172" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Ears -->
+    <circle cx="165" cy="110" r="14" fill="#F9C6CF"/>
+    <circle cx="235" cy="110" r="14" fill="#F9C6CF"/>
+    
+    <!-- Arms (hanging at sides) -->
+    <ellipse cx="160" cy="230" rx="11" ry="28" fill="#F9C6CF"/>
+    <ellipse cx="240" cy="230" rx="11" ry="28" fill="#F9C6CF"/>
+    
+    <!-- Legs -->
+    <rect x="182" y="285" width="14" height="38" rx="7" fill="#F9C6CF"/>
+    <rect x="204" y="285" width="14" height="38" rx="7" fill="#F9C6CF"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="189" cy="323" rx="11" ry="7" fill="#000000"/>
+    <ellipse cx="211" cy="323" rx="11" ry="7" fill="#000000"/>
+  </g>
+  
+  <!-- Broken cookie jar -->
+  <g id="jar">
+    <!-- Jar pieces -->
+    <path d="M 140 310 L 160 300 L 155 320 Z" fill="#87CEEB" stroke="#5A9FBF" stroke-width="2"/>
+    <path d="M 165 315 L 180 305 L 175 325 Z" fill="#87CEEB" stroke="#5A9FBF" stroke-width="2"/>
+    <path d="M 145 325 L 155 335 L 140 340 Z" fill="#87CEEB" stroke="#5A9FBF" stroke-width="2"/>
+  </g>
+  
+  <!-- Cookie pieces scattered -->
+  <circle cx="150" cy="330" r="8" fill="#D2691E"/>
+  <circle cx="170" cy="335" r="7" fill="#D2691E"/>
+  <circle cx="135" cy="345" r="6" fill="#D2691E"/>
+  <ellipse cx="155" cy="350" rx="9" ry="6" fill="#D2691E"/>
+  
+  <!-- Cookie crumbs -->
+  <circle cx="145" cy="340" r="2" fill="#8B4513"/>
+  <circle cx="160" cy="343" r="2" fill="#8B4513"/>
+  <circle cx="152" cy="348" r="2" fill="#8B4513"/>
+  
+  <!-- Mr. Dinosaur lying on ground -->
+  <g id="dinosaur" transform="translate(260, 320) rotate(30)">
+    <ellipse cx="0" cy="0" rx="18" ry="12" fill="#6FBF73"/>
+    <circle cx="-8" cy="-5" r="10" fill="#6FBF73"/>
+    <circle cx="-10" cy="-8" r="3" fill="#000000"/>
+    <path d="M -6 -2 L -2 -2" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+</svg>

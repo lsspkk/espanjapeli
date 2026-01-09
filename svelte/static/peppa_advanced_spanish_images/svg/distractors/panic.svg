@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="neutralGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Simple neutral background -->
+  <rect width="400" height="400" fill="url(#neutralGradient)"/>
+  
+  <!-- Peppa Pig - PANIC! -->
+  <g id="peppa-panic">
+    <!-- Shadow -->
+    <ellipse cx="200" cy="355" rx="40" ry="8" fill="#000000" opacity="0.1"/>
+    
+    <!-- Legs -->
+    <rect x="183" y="305" width="15" height="45" rx="7" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    <rect x="208" y="305" width="15" height="45" rx="7" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="190" cy="350" rx="11" ry="7" fill="#8B4513" stroke="#000000" stroke-width="2"/>
+    <ellipse cx="215" cy="350" rx="11" ry="7" fill="#8B4513" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Body/Dress -->
+    <ellipse cx="200" cy="250" rx="50" ry="63" fill="#E63946" stroke="#000000" stroke-width="2.5"/>
+    
+    <!-- Body leaning back slightly -->
+    <ellipse cx="198" cy="250" rx="50" ry="63" fill="#E63946" stroke="#000000" stroke-width="2.5"/>
+    
+    <!-- Arms raised up near face in panic -->
+    <ellipse cx="155" cy="200" rx="13" ry="30" fill="#F9C6CF" stroke="#000000" stroke-width="2" transform="rotate(-40 155 200)"/>
+    <ellipse cx="245" cy="200" rx="13" ry="30" fill="#F9C6CF" stroke="#000000" stroke-width="2" transform="rotate(40 245 200)"/>
+    
+    <!-- Hands spread in "what do I do?!" gesture -->
+    <ellipse cx="135" cy="175" rx="10" ry="8" fill="#F9C6CF" stroke="#000000" stroke-width="2" transform="rotate(-20 135 175)"/>
+    <ellipse cx="265" cy="175" rx="10" ry="8" fill="#F9C6CF" stroke="#000000" stroke-width="2" transform="rotate(20 265 175)"/>
+    
+    <!-- Head -->
+    <circle cx="200" cy="160" r="62" fill="#F9C6CF" stroke="#000000" stroke-width="2.5"/>
+    
+    <!-- Ears -->
+    <circle cx="165" cy="115" r="18" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    <circle cx="235" cy="115" r="18" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Snout -->
+    <ellipse cx="225" cy="165" rx="28" ry="22" fill="#FF69B4" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Nostrils -->
+    <circle cx="218" cy="161" r="4" fill="#000000"/>
+    <circle cx="232" cy="161" r="4" fill="#000000"/>
+    
+    <!-- Eyes - WIDE OPEN in shock -->
+    <circle cx="175" cy="140" r="18" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+    <circle cx="175" cy="140" r="6" fill="#000000"/>
+    <circle cx="177" cy="137" r="2" fill="#FFFFFF"/>
+    
+    <circle cx="210" cy="140" r="18" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+    <circle cx="210" cy="140" r="6" fill="#000000"/>
+    <circle cx="212" cy="137" r="2" fill="#FFFFFF"/>
+    
+    <!-- Eyebrows raised HIGH -->
+    <path d="M 160 125 Q 170 120 180 125" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 195 125 Q 205 120 215 125" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Mouth open in "O" of surprise -->
+    <ellipse cx="195" cy="185" rx="12" ry="15" fill="#000000" opacity="0.6"/>
+    <ellipse cx="195" cy="185" rx="10" ry="13" fill="#FF69B4" opacity="0.3"/>
+    
+    <!-- Tail -->
+    <path d="M 248 265 Q 268 270 265 255" fill="none" stroke="#F9C6CF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 248 265 Q 268 270 265 255" fill="none" stroke="#000000" stroke-width="2"/>
+  </g>
+  
+  <!-- Motion lines around head showing shaking/alarm -->
+  <path d="M 140 150 L 135 155" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 145 130 L 140 125" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 260 150 L 265 155" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 255 130 L 260 125" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- Sweat drops from panic -->
+  <ellipse cx="150" cy="135" rx="4" ry="7" fill="#B3E5FC" opacity="0.7"/>
+  <ellipse cx="250" cy="135" rx="4" ry="7" fill="#B3E5FC" opacity="0.7"/>
+  <ellipse cx="160" cy="155" rx="3" ry="6" fill="#B3E5FC" opacity="0.7"/>
+</svg>

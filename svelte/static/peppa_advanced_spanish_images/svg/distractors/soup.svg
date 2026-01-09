@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background walls -->
+  <rect width="400" height="400" fill="#FFF8E7"/>
+  
+  <!-- Table -->
+  <rect y="250" width="400" height="150" fill="#C19A6B"/>
+  
+  <!-- Bowl of soup -->
+  <ellipse cx="200" cy="300" rx="50" ry="20" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <ellipse cx="200" cy="290" rx="45" ry="15" fill="#FF6B35"/>
+  
+  <!-- Steam -->
+  <path d="M 180 270 Q 185 260 190 270" stroke="#E0E0E0" stroke-width="3" fill="none"/>
+  <path d="M 200 265 Q 205 255 210 265" stroke="#E0E0E0" stroke-width="3" fill="none"/>
+  <path d="M 220 270 Q 225 260 230 270" stroke="#E0E0E0" stroke-width="3" fill="none"/>
+  
+  <!-- Spoon -->
+  <ellipse cx="180" cy="310" rx="20" ry="5" fill="#BDBDBD"/>
+  <rect x="160" y="305" width="20" height="3" fill="#BDBDBD"/>
+  
+  <!-- Hands -->
+  <ellipse cx="160" cy="320" rx="8" ry="12" fill="#F9C6CF"/>
+  <ellipse cx="200" cy="320" rx="8" ry="12" fill="#F9C6CF"/>
+  
+  <!-- Crackers -->
+  <rect x="250" y="280" width="30" height="10" fill="#D2B48C"/>
+  <rect x="250" y="295" width="30" height="10" fill="#D2B48C"/>
+</svg></content>
+<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/soup.svg

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="sunlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF9C4;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background - warm kitchen -->
+  <rect width="400" height="400" fill="#FFF8E7"/>
+  
+  <!-- Window with morning light -->
+  <rect x="280" y="40" width="90" height="100" fill="#FFE082" rx="5"/>
+  <rect x="280" y="40" width="90" height="100" fill="none" stroke="#FFD54F" stroke-width="3" rx="5"/>
+  <line x1="325" y1="40" x2="325" y2="140" stroke="#FFD54F" stroke-width="3"/>
+  <line x1="280" y1="90" x2="370" y2="90" stroke="#FFD54F" stroke-width="3"/>
+  
+  <!-- Sunlight beam -->
+  <rect x="250" y="100" width="80" height="150" fill="url(#sunlight)" transform="rotate(-20 290 175)"/>
+  
+  <!-- Wooden table -->
+  <ellipse cx="200" cy="280" rx="140" ry="35" fill="#C19A6B"/>
+  <rect x="60" y="220" width="280" height="60" fill="#D4A574"/>
+  <ellipse cx="200" cy="220" rx="140" ry="30" fill="#E8D4B8"/>
+  
+  <!-- Checkered tablecloth pattern -->
+  <rect x="80" y="210" width="30" height="30" fill="#E63946" opacity="0.3"/>
+  <rect x="140" y="210" width="30" height="30" fill="#E63946" opacity="0.3"/>
+  <rect x="200" y="210" width="30" height="30" fill="#E63946" opacity="0.3"/>
+  <rect x="260" y="210" width="30" height="30" fill="#E63946" opacity="0.3"/>
+  <rect x="110" y="240" width="30" height="30" fill="#E63946" opacity="0.3"/>
+  <rect x="170" y="240" width="30" height="30" fill="#E63946" opacity="0.3"/>
+  <rect x="230" y="240" width="30" height="30" fill="#E63946" opacity="0.3"/>
+  <rect x="290" y="240" width="30" height="30" fill="#E63946" opacity="0.3"/>
+  
+  <!-- Blue plate -->
+  <ellipse cx="200" cy="200" rx="55" ry="12" fill="#4A90E2"/>
+  <ellipse cx="200" cy="195" rx="55" ry="10" fill="#64B5F6"/>
+  <ellipse cx="200" cy="192" rx="50" ry="8" fill="#90CAF9"/>
+  
+  <!-- Stack of golden pancakes -->
+  <ellipse cx="200" cy="185" rx="42" ry="10" fill="#8B6914"/>
+  <ellipse cx="200" cy="180" rx="42" ry="8" fill="#DAA520"/>
+  <ellipse cx="200" cy="170" rx="40" ry="10" fill="#8B6914"/>
+  <ellipse cx="200" cy="165" rx="40" ry="8" fill="#DAA520"/>
+  <ellipse cx="200" cy="155" rx="38" ry="10" fill="#8B6914"/>
+  <ellipse cx="200" cy="150" rx="38" ry="8" fill="#DAA520"/>
+  <ellipse cx="200" cy="140" rx="36" ry="10" fill="#8B6914"/>
+  <ellipse cx="200" cy="135" rx="36" ry="8" fill="#FFD966"/>
+  
+  <!-- Syrup drizzle -->
+  <path d="M 200 135 Q 205 145 203 155 Q 201 165 205 175 Q 208 185 206 195" 
+        stroke="#8B4513" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M 190 138 Q 185 148 187 158 Q 189 168 185 178" 
+        stroke="#8B4513" stroke-width="2.5" fill="none" opacity="0.7"/>
+  <path d="M 210 140 Q 215 150 213 160 Q 211 170 215 180" 
+        stroke="#8B4513" stroke-width="2.5" fill="none" opacity="0.7"/>
+  
+  <!-- Glass of orange juice -->
+  <g id="juice">
+    <rect x="280" y="180" width="45" height="60" rx="3" fill="#FFA726" opacity="0.8"/>
+    <ellipse cx="302.5" cy="180" rx="22.5" ry="8" fill="#FFB74D"/>
+    <rect x="280" y="175" width="45" height="8" fill="#E0E0E0" opacity="0.3"/>
+    <ellipse cx="302.5" cy="175" rx="22.5" ry="6" fill="#FFFFFF" opacity="0.4"/>
+  </g>
+  
+  <!-- Bowl of strawberries -->
+  <g id="strawberries">
+    <ellipse cx="100" cy="210" rx="35" ry="10" fill="#64B5F6"/>
+    <ellipse cx="100" cy="205" rx="35" ry="8" fill="#90CAF9"/>
+    
+    <!-- Strawberries in bowl -->
+    <ellipse cx="95" cy="195" rx="8" ry="10" fill="#E63946"/>
+    <path d="M 95 188 L 92 185 L 95 183 L 98 185 Z" fill="#66BB6A"/>
+    
+    <ellipse cx="108" cy="198" rx="8" ry="10" fill="#E63946"/>
+    <path d="M 108 191 L 105 188 L 108 186 L 111 188 Z" fill="#66BB6A"/>
+    
+    <ellipse cx="100" cy="203" rx="7" ry="9" fill="#E63946"/>
+    <path d="M 100 196 L 97 193 L 100 191 L 103 193 Z" fill="#66BB6A"/>
+    
+    <!-- Strawberry seeds -->
+    <circle cx="93" cy="197" r="0.8" fill="#FFD966"/>
+    <circle cx="97" cy="199" r="0.8" fill="#FFD966"/>
+    <circle cx="106" cy="200" r="0.8" fill="#FFD966"/>
+    <circle cx="110" cy="202" r="0.8" fill="#FFD966"/>
+  </g>
+  
+  <!-- Butter pat on top pancake -->
+  <ellipse cx="195" cy="132" rx="8" ry="3" fill="#FFE082"/>
+  <ellipse cx="195" cy="130" rx="8" ry="2" fill="#FFF9C4"/>
+</svg>

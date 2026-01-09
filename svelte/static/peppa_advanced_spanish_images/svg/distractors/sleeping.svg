@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background walls -->
+  <rect width="400" height="400" fill="#FFF8E7"/>
+  
+  <!-- Floor -->
+  <rect y="300" width="400" height="100" fill="#D4A574"/>
+  
+  <!-- Window with sunlight -->
+  <rect x="250" y="50" width="120" height="80" fill="#FFFFFF"/>
+  <line x1="310" y1="50" x2="310" y2="130" stroke="#8B4513" stroke-width="3"/>
+  <!-- Sunbeam -->
+  <polygon points="310,90 400,60 400,120" fill="#FFF9C4" opacity="0.5"/>
+  
+  <!-- Couch -->
+  <ellipse cx="200" cy="280" rx="80" ry="40" fill="#81D4FA"/>
+  <ellipse cx="200" cy="320" rx="70" ry="30" fill="#81D4FA"/>
+  
+  <!-- George sleeping -->
+  <!-- Body curled -->
+  <ellipse cx="200" cy="270" rx="25" ry="35" fill="#6B9BD2"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="230" r="25" fill="#F9C6CF"/>
+  <!-- Eyes closed -->
+  <path d="M 185 220 Q 190 225 195 220" stroke="#000000" stroke-width="1" fill="none"/>
+  <path d="M 205 220 Q 210 225 215 220" stroke="#000000" stroke-width="1" fill="none"/>
+  <!-- Mouth open -->
+  <ellipse cx="200" cy="235" rx="3" ry="2" fill="#000000"/>
+  
+  <!-- Arms hugging Mr. Dinosaur -->
+  <ellipse cx="180" cy="250" rx="5" ry="15" fill="#F9C6CF"/>
+  <ellipse cx="220" cy="250" rx="5" ry="15" fill="#F9C6CF"/>
+  
+  <!-- Mr. Dinosaur -->
+  <ellipse cx="200" cy="250" rx="12" ry="15" fill="#6FBF73"/>
+  <circle cx="200" cy="235" r="6" fill="#6FBF73"/>
+  <circle cx="195" cy="230" r="1.5" fill="#FFFFFF"/>
+  <circle cx="205" cy="230" r="1.5" fill="#FFFFFF"/>
+  <polygon points="200,245 195,255 205,255" fill="#E8F5E9"/>
+</svg></content>
+<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/sleeping.svg

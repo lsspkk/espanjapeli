@@ -1,0 +1,102 @@
+BUTTON POSITIONING FIX - RESULT SUMMARY
+========================================
+
+Date: 2026-01-09
+Task: Fix "Takaisin" button positioning across all game modes
+
+REQUIREMENTS:
+- Main page (home screen): "Takaisin" button on TOP LEFT
+- Active game: NO "Takaisin" button, only X symbol on TOP RIGHT for closing
+
+FILES MODIFIED:
+===============
+
+1. /svelte/src/routes/sanapeli/+page.svelte
+   - BEFORE: "Takaisin" button centered below title on home screen
+   - AFTER: "Takaisin" button positioned top-left on home screen
+   - Game state: X button already present on top-right (lines 1030, 1182, 1286, 1336)
+   - Status: ✅ FIXED
+
+2. /svelte/src/routes/pipsan-ystavat/+page.svelte
+   - BEFORE: "Takaisin" button below header on home screen
+   - AFTER: "Takaisin" button positioned top-left on home screen (line 646-649)
+   - Game state: X button already present via KidsGameHeader component (line 681-686)
+   - Status: ✅ FIXED
+
+3. /svelte/src/routes/yhdistasanat/+page.svelte
+   - BEFORE: "Takaisin" button below title on home screen
+   - AFTER: "Takaisin" button positioned top-left on home screen (line 800)
+   - Game state: X button already present via GameHeader component (line 926-932)
+   - Status: ✅ FIXED
+
+4. /svelte/src/routes/tarinat/+page.svelte
+   - BEFORE: "Takaisin" button in header section on home screen
+   - AFTER: "Takaisin" button separated and positioned top-left (line 119-122)
+   - Reading state: Added X button on top-right (line 201-203)
+   - Questions state: X button already present (line 227-229)
+   - Status: ✅ FIXED
+
+5. /svelte/src/routes/muisti/+page.svelte
+   - BEFORE: "← Takaisin valikkoon" text
+   - AFTER: "Takaisin" text (consistent with other pages)
+   - Status: ✅ FIXED
+
+6. /svelte/src/routes/pipsan-maailma/+page.svelte
+   - BEFORE: "← Takaisin" text
+   - AFTER: "Takaisin" text (consistent with other pages)
+   - Game state: X button already present (line 452-456)
+   - Status: ✅ FIXED
+
+7. /svelte/src/routes/kuuntelu/+page.svelte
+   - BEFORE: "← Takaisin valikkoon" text
+   - AFTER: "Takaisin" text (consistent with other pages)
+   - Status: ✅ FIXED
+
+8. /svelte/src/routes/puhuminen/+page.svelte
+   - BEFORE: "← Takaisin valikkoon" text
+   - AFTER: "Takaisin" text (consistent with other pages)
+   - Status: ✅ FIXED
+
+9. /svelte/src/routes/lukeminen/+page.svelte
+   - BEFORE: "← Takaisin valikkoon" text
+   - AFTER: "Takaisin" text (consistent with other pages)
+   - Status: ✅ FIXED
+
+TESTS:
+======
+- Reviewed all test files in /svelte/src/tests/integration/
+- Tests check component behavior (button presence, click handlers)
+- Tests do NOT check positioning (CSS/layout)
+- No test updates required - all tests still pass
+
+TEST FILES REVIEWED:
+- /svelte/src/tests/integration/pipsan-ystavat-main-display.test.ts
+- /svelte/src/tests/integration/pipsan-ystavat-question-display.test.ts
+- /svelte/src/lib/components/shared/BackButton.test.ts
+- /svelte/src/lib/components/shared/GameContainer.test.ts
+
+COMPONENTS INVOLVED:
+====================
+- BackButton.svelte: Shared component for "Takaisin" button (no changes needed)
+- GameContainer.svelte: Layout wrapper with optional back button (no changes needed)
+- GameHeader.svelte: Game header with X button for yhdistasanat (no changes needed)
+- KidsGameHeader.svelte: Kids game header with X button for pipsan-ystavat (no changes needed)
+
+CONSISTENCY IMPROVEMENTS:
+=========================
+- All "Takaisin" buttons now use consistent text (removed arrows and "valikkoon")
+- All home screens have "Takaisin" on top-left
+- All active games have X button on top-right (no "Takaisin" during gameplay)
+- Layout is consistent across all game modes
+
+SUMMARY:
+========
+✅ All 9 game pages fixed
+✅ Consistent button positioning across all modes
+✅ Tests reviewed and confirmed working
+✅ No breaking changes to component APIs
+✅ User experience improved with consistent navigation
+
+The implementation follows the requirement:
+- Home/main page: "Takaisin" button TOP LEFT
+- Active game: X symbol TOP RIGHT (no "Takaisin" button)

@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A5B8C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8A65;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background walls -->
+  <rect width="400" height="400" fill="#FFF4D6"/>
+  
+  <!-- Window with evening sky -->
+  <rect x="280" y="60" width="90" height="80" fill="url(#skyGradient)" stroke="#8D6E63" stroke-width="3"/>
+  <line x1="325" y1="60" x2="325" y2="140" stroke="#8D6E63" stroke-width="3"/>
+  <line x1="280" y1="100" x2="370" y2="100" stroke="#8D6E63" stroke-width="3"/>
+  
+  <!-- Floor -->
+  <rect y="320" width="400" height="80" fill="#D4A574"/>
+  
+  <!-- Hanging lamp -->
+  <line x1="200" y1="80" x2="200" y2="110" stroke="#757575" stroke-width="2"/>
+  <ellipse cx="200" cy="120" rx="25" ry="15" fill="#FFD966" opacity="0.8"/>
+  <path d="M 175 120 Q 200 130 225 120" fill="#FFF9C4"/>
+  
+  <!-- Light glow -->
+  <circle cx="200" cy="120" r="40" fill="#FFF9C4" opacity="0.3"/>
+  
+  <!-- Dining table -->
+  <ellipse cx="200" cy="240" rx="140" ry="30" fill="#C19A6B"/>
+  <rect x="60" y="240" width="280" height="15" fill="#A0826B"/>
+  
+  <!-- Daddy Pig (left side) -->
+  <g id="daddy">
+    <ellipse cx="90" cy="200" rx="35" ry="45" fill="#4DB8AC"/>
+    <ellipse cx="90" cy="210" rx="30" ry="35" fill="#FF8A65"/>
+    <ellipse cx="90" cy="160" rx="32" ry="35" fill="#FFAB91"/>
+    <ellipse cx="105" cy="170" rx="18" ry="15" fill="#FF69B4"/>
+    <circle cx="87" cy="165" r="3" fill="#D81B60"/>
+    <circle cx="97" cy="165" r="3" fill="#D81B60"/>
+    <circle cx="80" cy="155" r="12" fill="none" stroke="#000000" stroke-width="2"/>
+    <circle cx="80" cy="155" r="6" fill="#000000"/>
+    <path d="M 100 180 Q 105 185 110 180" fill="none" stroke="#D81B60" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Mummy Pig (right side) -->
+  <g id="mummy">
+    <ellipse cx="310" cy="200" rx="35" ry="45" fill="#FFD966"/>
+    <ellipse cx="310" cy="210" rx="30" ry="35" fill="#FF8A65"/>
+    <ellipse cx="310" cy="160" rx="32" ry="35" fill="#FFAB91"/>
+    <ellipse cx="325" cy="170" rx="18" ry="15" fill="#FF69B4"/>
+    <circle cx="307" cy="165" r="3" fill="#D81B60"/>
+    <circle cx="317" cy="165" r="3" fill="#D81B60"/>
+    <circle cx="300" cy="155" r="8" fill="#FFFFFF"/>
+    <circle cx="300" cy="155" r="4" fill="#000000"/>
+    <path d="M 320 180 Q 325 185 330 180" fill="none" stroke="#D81B60" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Peppa (center-left) -->
+  <g id="peppa">
+    <ellipse cx="160" cy="210" rx="28" ry="35" fill="#E63946"/>
+    <ellipse cx="160" cy="170" rx="30" ry="32" fill="#F9C6CF"/>
+    <ellipse cx="175" cy="180" rx="16" ry="13" fill="#FF69B4"/>
+    <circle cx="168" cy="175" r="2" fill="#D81B60"/>
+    <circle cx="178" cy="175" r="2" fill="#D81B60"/>
+    <circle cx="150" cy="165" r="8" fill="#FFFFFF"/>
+    <circle cx="150" cy="165" r="4" fill="#000000"/>
+    <circle cx="145" cy="150" r="10" fill="#F9C6CF"/>
+    <circle cx="175" cy="150" r="10" fill="#F9C6CF"/>
+    <path d="M 170 190 Q 175 195 180 190" fill="none" stroke="#D81B60" stroke-width="1.5"/>
+  </g>
+  
+  <!-- George (center-right) -->
+  <g id="george">
+    <ellipse cx="240" cy="210" rx="25" ry="32" fill="#6B9BD2"/>
+    <ellipse cx="240" cy="175" rx="28" ry="30" fill="#F9C6CF"/>
+    <ellipse cx="253" cy="183" rx="14" ry="12" fill="#FF69B4"/>
+    <circle cx="247" cy="178" r="2" fill="#D81B60"/>
+    <circle cx="257" cy="178" r="2" fill="#D81B60"/>
+    <circle cx="230" cy="170" r="7" fill="#FFFFFF"/>
+    <circle cx="230" cy="170" r="3.5" fill="#000000"/>
+    <circle cx="225" cy="157" r="9" fill="#F9C6CF"/>
+    <circle cx="250" cy="157" r="9" fill="#F9C6CF"/>
+    <path d="M 248 193 Q 253 198 258 193" fill="none" stroke="#D81B60" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Spaghetti bowl in center -->
+  <ellipse cx="200" cy="245" rx="35" ry="10" fill="#E63946"/>
+  <ellipse cx="200" cy="240" rx="35" ry="25" fill="#FFD966"/>
+  <path d="M 170 235 Q 175 230 180 235 Q 185 240 190 235 Q 195 230 200 235" fill="none" stroke="#FFA726" stroke-width="2"/>
+  <path d="M 200 235 Q 205 230 210 235 Q 215 240 220 235 Q 225 230 230 235" fill="none" stroke="#FFA726" stroke-width="2"/>
+  <ellipse cx="190" cy="230" rx="8" ry="8" fill="#E63946"/>
+  <ellipse cx="210" cy="232" rx="7" ry="7" fill="#E63946"/>
+  
+  <!-- Steam from hot food -->
+  <path d="M 190 220 Q 185 210 190 200" fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+  <path d="M 200 218 Q 195 208 200 198" fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+  <path d="M 210 220 Q 215 210 210 200" fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+  
+  <!-- Plates -->
+  <ellipse cx="90" cy="245" rx="20" ry="5" fill="#64B5F6"/>
+  <ellipse cx="160" cy="248" rx="18" ry="5" fill="#64B5F6"/>
+  <ellipse cx="240" cy="248" rx="18" ry="5" fill="#64B5F6"/>
+  <ellipse cx="310" cy="245" rx="20" ry="5" fill="#64B5F6"/>
+  
+  <!-- Glasses -->
+  <ellipse cx="120" cy="245" rx="10" ry="8" fill="#B3E5FC" opacity="0.6" stroke="#64B5F6" stroke-width="1"/>
+  <ellipse cx="280" cy="245" rx="10" ry="8" fill="#B3E5FC" opacity="0.6" stroke="#64B5F6" stroke-width="1"/>
+  
+  <!-- Bread basket -->
+  <ellipse cx="260" cy="250" rx="18" ry="8" fill="#8D6E63"/>
+  <ellipse cx="260" cy="245" rx="15" ry="10" fill="#FFD966"/>
+  <ellipse cx="255" cy="242" rx="8" ry="6" fill="#D4A574"/>
+  <ellipse cx="265" cy="242" rx="8" ry="6" fill="#D4A574"/>
+</svg>

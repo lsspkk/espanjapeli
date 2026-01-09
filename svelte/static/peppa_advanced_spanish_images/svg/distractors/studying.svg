@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background walls -->
+  <rect width="400" height="400" fill="#FFF8E7"/>
+  
+  <!-- Floor -->
+  <rect y="300" width="400" height="100" fill="#D4A574"/>
+  
+  <!-- Desk -->
+  <rect x="100" y="200" width="200" height="20" fill="#C19A6B"/>
+  <rect x="100" y="220" width="200" height="80" fill="#C19A6B"/>
+  
+  <!-- Chair -->
+  <ellipse cx="200" cy="320" rx="30" ry="20" fill="#8B4513"/>
+  <ellipse cx="200" cy="340" rx="25" ry="15" fill="#8B4513"/>
+  
+  <!-- Bookshelf -->
+  <rect x="20" y="100" width="60" height="120" fill="#8B4513"/>
+  <rect x="25" y="105" width="50" height="15" fill="#FF0000"/>
+  <rect x="25" y="125" width="50" height="15" fill="#0000FF"/>
+  <rect x="25" y="145" width="50" height="15" fill="#00FF00"/>
+  <rect x="25" y="165" width="50" height="15" fill="#FFFF00"/>
+  <rect x="25" y="185" width="50" height="15" fill="#FF00FF"/>
+  
+  <!-- Lamp -->
+  <line x1="280" y1="200" x2="280" y2="150" stroke="#8B4513" stroke-width="4"/>
+  <ellipse cx="280" cy="145" rx="15" ry="10" fill="#FFF9C4"/>
+  
+  <!-- Peppa -->
+  <!-- Body/Dress -->
+  <ellipse cx="200" cy="270" rx="30" ry="40" fill="#E63946"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="210" r="35" fill="#F9C6CF"/>
+  
+  <!-- Snout -->
+  <ellipse cx="210" cy="220" rx="12" ry="10" fill="#FF69B4"/>
+  <circle cx="205" cy="215" r="2" fill="#000000"/>
+  <circle cx="215" cy="215" r="2" fill="#000000"/>
+  
+  <!-- Eyes focused -->
+  <circle cx="185" cy="200" r="6" fill="#FFFFFF"/>
+  <circle cx="185" cy="200" r="3" fill="#000000"/>
+  <circle cx="195" cy="195" r="6" fill="#FFFFFF"/>
+  <circle cx="195" cy="195" r="3" fill="#000000"/>
+  <!-- Furrowed brows -->
+  <path d="M 178 190 Q 185 185 192 190" stroke="#000000" stroke-width="1" fill="none"/>
+  <path d="M 188 188 Q 195 183 202 188" stroke="#000000" stroke-width="1" fill="none"/>
+  
+  <!-- Mouth concentrated -->
+  <ellipse cx="200" cy="225" rx="3" ry="2" fill="#000000"/>
+  
+  <!-- Ears -->
+  <circle cx="175" cy="180" r="8" fill="#F9C6CF"/>
+  <circle cx="225" cy="180" r="8" fill="#F9C6CF"/>
+  
+  <!-- Arms -->
+  <ellipse cx="170" cy="250" rx="6" ry="20" fill="#F9C6CF"/>
+  <ellipse cx="230" cy="250" rx="6" ry="20" fill="#F9C6CF"/>
+  
+  <!-- Legs -->
+  <ellipse cx="185" cy="320" rx="8" ry="15" fill="#F9C6CF"/>
+  <ellipse cx="215" cy="320" rx="8" ry="15" fill="#F9C6CF"/>
+  
+  <!-- Open book -->
+  <rect x="150" y="240" width="40" height="30" fill="#0000FF" stroke="#000000" stroke-width="1"/>
+  <rect x="155" y="245" width="30" height="20" fill="#FFFFFF"/>
+  <!-- Simple text -->
+  <text x="170" y="255" text-anchor="middle" font-size="6" fill="#000000">ABC</text>
+  
+  <!-- Notebook -->
+  <rect x="200" y="240" width="30" height="25" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <line x1="205" y1="250" x2="225" y2="250" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Pencil -->
+  <line x1="230" y1="245" x2="240" y2="235" stroke="#FFD966" stroke-width="3"/>
+  
+  <!-- Pencil case -->
+  <rect x="250" y="230" width="20" height="15" fill="#64B5F6"/>
+</svg></content>
+<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/studying.svg

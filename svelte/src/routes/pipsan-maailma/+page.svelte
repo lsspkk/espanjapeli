@@ -456,9 +456,9 @@
 				</button>
 			</div>
 		{:else if !gameEnded}
-			<!-- Back button on start screen -->
+			<!-- Back button on start screen - Top Left -->
 			<div class="mb-4">
-				<a href="{base}/" class="btn btn-ghost btn-xs sm:btn-sm bg-white/80 backdrop-blur">← Takaisin</a>
+				<a href="{base}/" class="btn btn-ghost btn-xs sm:btn-sm bg-white/80 backdrop-blur">Takaisin</a>
 			</div>
 		{/if}
 

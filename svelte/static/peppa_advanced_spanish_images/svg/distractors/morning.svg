@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="sunriseGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B8E6F7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFB6D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF9800;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sunrise sky background -->
+  <rect width="400" height="400" fill="url(#sunriseGradient)"/>
+  
+  <!-- Rising sun on horizon -->
+  <circle cx="320" cy="300" r="55" fill="#FFD54F" opacity="0.9"/>
+  <circle cx="320" cy="300" r="45" fill="#FFF176"/>
+  
+  <!-- Sun rays -->
+  <line x1="320" y1="245" x2="320" y2="220" stroke="#FFD54F" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <line x1="265" y1="300" x2="240" y2="300" stroke="#FFD54F" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <line x1="375" y1="300" x2="400" y2="300" stroke="#FFD54F" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <line x1="280" y1="260" x2="260" y2="240" stroke="#FFD54F" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <line x1="360" y1="260" x2="380" y2="240" stroke="#FFD54F" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <line x1="280" y1="340" x2="260" y2="360" stroke="#FFD54F" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <line x1="360" y1="340" x2="380" y2="360" stroke="#FFD54F" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Rolling hills -->
+  <ellipse cx="200" cy="380" rx="220" ry="60" fill="#7BC043"/>
+  <ellipse cx="350" cy="400" rx="140" ry="50" fill="#8BC653"/>
+  <ellipse cx="50" cy="400" rx="120" ry="45" fill="#8BC653"/>
+  
+  <!-- Morning mist -->
+  <ellipse cx="100" cy="340" rx="80" ry="15" fill="#E0E0E0" opacity="0.4"/>
+  <ellipse cx="280" cy="350" rx="90" ry="18" fill="#E0E0E0" opacity="0.4"/>
+  
+  <!-- Red barn in distance -->
+  <rect x="50" y="280" width="45" height="40" fill="#D32F2F" stroke="#000000" stroke-width="1.5"/>
+  <path d="M 45 280 L 72.5 260 L 100 280 Z" fill="#B71C1C" stroke="#000000" stroke-width="1.5"/>
+  <rect x="65" y="295" width="12" height="15" fill="#8D6E63"/>
+  
+  <!-- Wooden fence post -->
+  <rect x="165" y="240" width="20" height="100" fill="#8D6E63" stroke="#000000" stroke-width="2"/>
+  <rect x="155" y="250" width="40" height="8" fill="#8D6E63" stroke="#000000" stroke-width="2"/>
+  <rect x="155" y="275" width="40" height="8" fill="#8D6E63" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Rooster on fence post - CROWING! -->
+  <g id="rooster">
+    <!-- Body -->
+    <ellipse cx="175" cy="210" rx="22" ry="28" fill="#FF8A65" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Neck -->
+    <ellipse cx="175" cy="185" rx="12" ry="18" fill="#FF8A65" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Head tilted back -->
+    <ellipse cx="175" cy="165" rx="14" ry="16" fill="#FF8A65" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Comb (red) -->
+    <path d="M 170 155 Q 172 145 174 155 Q 176 145 178 155 Q 180 145 182 155" fill="#E63946" stroke="#000000" stroke-width="1.5"/>
+    
+    <!-- Wattle (under beak) -->
+    <ellipse cx="175" cy="172" rx="4" ry="6" fill="#E63946" stroke="#000000" stroke-width="1"/>
+    
+    <!-- Beak open - crowing! -->
+    <path d="M 182 165 L 195 163 L 182 168 Z" fill="#FFD966" stroke="#000000" stroke-width="1.5"/>
+    
+    <!-- Eye -->
+    <circle cx="172" cy="162" r="3" fill="#000000"/>
+    
+    <!-- Wing -->
+    <ellipse cx="185" cy="215" rx="15" ry="20" fill="#C86A37" stroke="#000000" stroke-width="1.5" transform="rotate(20 185 215)"/>
+    
+    <!-- Tail feathers (colorful and fanned) -->
+    <ellipse cx="160" cy="205" rx="8" ry="25" fill="#4DB8AC" stroke="#000000" stroke-width="1.5" transform="rotate(-30 160 205)"/>
+    <ellipse cx="158" cy="210" rx="8" ry="28" fill="#66BB6A" stroke="#000000" stroke-width="1.5" transform="rotate(-40 158 210)"/>
+    <ellipse cx="156" cy="215" rx="8" ry="26" fill="#FFD966" stroke="#000000" stroke-width="1.5" transform="rotate(-50 156 215)"/>
+    
+    <!-- Legs -->
+    <line x1="170" y1="238" x2="168" y2="250" stroke="#FFD966" stroke-width="3"/>
+    <line x1="180" y1="238" x2="182" y2="250" stroke="#FFD966" stroke-width="3"/>
+    
+    <!-- Feet -->
+    <path d="M 168 250 L 165 252 M 168 250 L 171 252 M 168 250 L 168 252" stroke="#FFD966" stroke-width="2"/>
+    <path d="M 182 250 L 179 252 M 182 250 L 185 252 M 182 250 L 182 252" stroke="#FFD966" stroke-width="2"/>
+  </g>
+  
+  <!-- Sound waves from crowing -->
+  <path d="M 200 160 Q 210 155 220 160" fill="none" stroke="#000000" stroke-width="2" opacity="0.4"/>
+  <path d="M 205 165 Q 218 160 230 165" fill="none" stroke="#000000" stroke-width="2" opacity="0.3"/>
+  <path d="M 210 170 Q 225 165 240 170" fill="none" stroke="#000000" stroke-width="2" opacity="0.2"/>
+  
+  <!-- Musical notes -->
+  <circle cx="215" cy="155" r="4" fill="#000000" opacity="0.5"/>
+  <line x1="219" y1="155" x2="219" y2="140" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  
+  <circle cx="235" cy="150" r="4" fill="#000000" opacity="0.5"/>
+  <line x1="239" y1="150" x2="239" y2="135" stroke="#000000" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Small hay/nest at base of post -->
+  <ellipse cx="175" cy="250" rx="18" ry="8" fill="#FFD966" opacity="0.6"/>
+  <path d="M 160 248 L 165 245 M 170 250 L 172 246 M 180 249 L 183 246" stroke="#D4A574" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background sky -->
+  <rect width="400" height="400" fill="#B8E6F7"/>
+  
+  <!-- Pool water -->
+  <rect y="200" width="400" height="200" fill="#4FC3F7"/>
+  <!-- Ripples -->
+  <ellipse cx="100" cy="250" rx="30" ry="10" fill="#81D4FA" opacity="0.3"/>
+  <ellipse cx="200" cy="280" rx="40" ry="15" fill="#81D4FA" opacity="0.3"/>
+  <ellipse cx="300" cy="260" rx="35" ry="12" fill="#81D4FA" opacity="0.3"/>
+  
+  <!-- Pool tiles -->
+  <rect y="190" width="400" height="20" fill="#81D4FA"/>
+  
+  <!-- Peppa swimming -->
+  <!-- Head above water -->
+  <circle cx="200" cy="220" r="30" fill="#F9C6CF"/>
+  
+  <!-- Goggles -->
+  <ellipse cx="200" cy="210" rx="15" ry="8" fill="#64B5F6"/>
+  <circle cx="190" cy="208" r="3" fill="#FFFFFF"/>
+  <circle cx="210" cy="208" r="3" fill="#FFFFFF"/>
+  
+  <!-- Eyes -->
+  <circle cx="185" cy="215" r="5" fill="#FFFFFF"/>
+  <circle cx="185" cy="215" r="2" fill="#000000"/>
+  <circle cx="195" cy="210" r="5" fill="#FFFFFF"/>
+  <circle cx="195" cy="210" r="2" fill="#000000"/>
+  
+  <!-- Smile -->
+  <path d="M 190 225 Q 195 230 200 225" stroke="#000000" stroke-width="1" fill="none"/>
+  
+  <!-- Arms swimming -->
+  <ellipse cx="170" cy="240" rx="6" ry="20" fill="#F9C6CF"/>
+  <ellipse cx="230" cy="240" rx="6" ry="20" fill="#F9C6CF"/>
+  
+  <!-- Arm bands -->
+  <ellipse cx="175" cy="235" rx="8" ry="5" fill="#FF8A65"/>
+  <ellipse cx="225" cy="235" rx="8" ry="5" fill="#FF8A65"/>
+  
+  <!-- Water droplets -->
+  <circle cx="180" cy="215" r="2" fill="#B3E5FC"/>
+  <circle cx="220" cy="218" r="2" fill="#B3E5FC"/>
+  <circle cx="200" cy="225" r="2" fill="#B3E5FC"/>
+  
+  <!-- Beach ball -->
+  <circle cx="300" cy="240" r="15" fill="#FF0000"/>
+  <circle cx="300" cy="240" r="15" fill="#0000FF" clip-path="polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)"/>
+  <circle cx="300" cy="240" r="15" fill="#FFFF00" clip-path="polygon(0% 0%, 50% 50%, 100% 0%, 50% 0%)"/>
+  <circle cx="300" cy="240" r="15" fill="#00FF00" clip-path="polygon(0% 100%, 50% 50%, 100% 100%, 50% 100%)"/>
+</svg></content>
+<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/swimming.svg

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF9C4;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B8E6F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7BC043;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background sky -->
+  <rect width="400" height="400" fill="url(#skyGradient)"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="80" cy="60" rx="35" ry="25" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="110" cy="55" rx="30" ry="20" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="320" cy="80" rx="40" ry="28" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="350" cy="75" rx="35" ry="23" fill="#FFFFFF" opacity="0.9"/>
+  
+  <!-- Rainbow (faint) -->
+  <path d="M 50 200 Q 200 80 350 200" fill="none" stroke="#FF69B4" stroke-width="8" opacity="0.3"/>
+  <path d="M 50 210 Q 200 90 350 210" fill="none" stroke="#FFD966" stroke-width="8" opacity="0.3"/>
+  <path d="M 50 220 Q 200 100 350 220" fill="none" stroke="#7BC043" stroke-width="8" opacity="0.3"/>
+  <path d="M 50 230 Q 200 110 350 230" fill="none" stroke="#64B5F6" stroke-width="8" opacity="0.3"/>
+  
+  <!-- Ground -->
+  <rect y="320" width="400" height="80" fill="#7BC043"/>
+  
+  <!-- Small flowers -->
+  <circle cx="80" cy="335" r="5" fill="#FFD966"/>
+  <circle cx="150" cy="340" r="5" fill="#FF69B4"/>
+  <circle cx="280" cy="338" r="5" fill="#FFD966"/>
+  <circle cx="340" cy="342" r="5" fill="#FF69B4"/>
+  
+  <!-- Peppa Pig - HAPPY! -->
+  <g id="peppa">
+    <!-- Shadow -->
+    <ellipse cx="200" cy="355" rx="45" ry="8" fill="#000000" opacity="0.1"/>
+    
+    <!-- Legs -->
+    <rect x="180" y="300" width="16" height="45" rx="8" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    <rect x="210" y="300" width="16" height="45" rx="8" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="188" cy="345" rx="12" ry="8" fill="#8B4513" stroke="#000000" stroke-width="2"/>
+    <ellipse cx="218" cy="345" rx="12" ry="8" fill="#8B4513" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Body/Dress -->
+    <ellipse cx="200" cy="250" rx="52" ry="65" fill="#E63946" stroke="#000000" stroke-width="2.5"/>
+    
+    <!-- Arms - spread wide! -->
+    <ellipse cx="140" cy="240" rx="13" ry="35" fill="#F9C6CF" stroke="#000000" stroke-width="2" transform="rotate(-25 140 240)"/>
+    <ellipse cx="260" cy="240" rx="13" ry="35" fill="#F9C6CF" stroke="#000000" stroke-width="2" transform="rotate(25 260 240)"/>
+    
+    <!-- Head -->
+    <circle cx="200" cy="160" r="62" fill="#F9C6CF" stroke="#000000" stroke-width="2.5"/>
+    
+    <!-- Ears -->
+    <circle cx="165" cy="115" r="18" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    <circle cx="235" cy="115" r="18" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Snout -->
+    <ellipse cx="225" cy="165" rx="28" ry="22" fill="#FF69B4" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Nostrils -->
+    <circle cx="218" cy="160" r="4" fill="#000000"/>
+    <circle cx="232" cy="160" r="4" fill="#000000"/>
+    
+    <!-- Eyes - wide and sparkling -->
+    <circle cx="175" cy="145" r="14" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+    <circle cx="175" cy="145" r="7" fill="#000000"/>
+    <circle cx="178" cy="142" r="3" fill="#FFFFFF"/>
+    
+    <circle cx="210" cy="145" r="14" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+    <circle cx="210" cy="145" r="7" fill="#000000"/>
+    <circle cx="213" cy="142" r="3" fill="#FFFFFF"/>
+    
+    <!-- Big happy smile -->
+    <path d="M 170 175 Q 192 190 215 175" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Rosy cheeks -->
+    <circle cx="155" cy="170" r="12" fill="#FF8FAB" opacity="0.5"/>
+    <circle cx="245" cy="170" r="12" fill="#FF8FAB" opacity="0.5"/>
+    
+    <!-- Tail -->
+    <path d="M 248 270 Q 270 275 268 255" fill="none" stroke="#F9C6CF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 248 270 Q 270 275 268 255" fill="none" stroke="#000000" stroke-width="2"/>
+  </g>
+  
+  <!-- Hearts floating near head -->
+  <path d="M 270 130 Q 270 120 280 120 Q 290 120 290 130 Q 290 140 280 150 Q 270 140 270 130 Z" fill="#FF69B4" opacity="0.6"/>
+  <path d="M 120 140 Q 120 132 128 132 Q 136 132 136 140 Q 136 148 128 156 Q 120 148 120 140 Z" fill="#FF69B4" opacity="0.6"/>
+  
+  <!-- Motion lines suggesting bouncing energy -->
+  <path d="M 160 310 Q 165 315 170 310" fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0.5"/>
+  <path d="M 230 310 Q 235 315 240 310" fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0.5"/>
+</svg>

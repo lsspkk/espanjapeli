@@ -43,6 +43,8 @@
 	import LanguageDirectionSwitch from '$lib/components/basic/input/LanguageDirectionSwitch.svelte';
 	import GameLengthSelector from '$lib/components/basic/input/GameLengthSelector.svelte';
 	import GameReport from '$lib/components/basic/report/GameReport.svelte';
+	import GameContainer from '$lib/components/shared/GameContainer.svelte';
+	import BackButton from '$lib/components/shared/BackButton.svelte';
 
 	// Game states
 	type GameState = 'home' | 'playing' | 'feedback' | 'report';
@@ -794,9 +796,9 @@
 {#if gameState === 'home'}
 	<div class="min-h-screen bg-base-200">
 		<div class="container mx-auto px-2 max-w-2xl py-2">
-			<!-- Back Button -->
+			<!-- Back Button - Top Left -->
 			<div class="mb-2">
-				<a href="{base}/" class="btn btn-ghost btn-sm">← Takaisin</a>
+				<BackButton />
 			</div>
 
 			<!-- Game Card -->
@@ -919,10 +921,7 @@
 
 <!-- PLAYING STATE & FEEDBACK STATE -->
 {#if gameState === 'playing' || gameState === 'feedback'}
-	<div class="h-screen bg-base-200 flex flex-col md:items-center md:justify-center p-0 md:p-4">
-		<div 
-			class="card bg-base-100 shadow-xl w-full md:max-w-5xl h-full md:h-auto md:max-h-[90vh] flex flex-col relative overflow-hidden"
-		>
+	<GameContainer showBackButton={false}>
 		<!-- Header Row -->
 		<GameHeader 
 			currentQuestion={currentQuestionNumber}
@@ -932,50 +931,50 @@
 			triesRemaining={triesRemaining}
 		/>
 
-			<!-- Main Game Area - Two Column Layout -->
-			<div class="flex flex-row flex-1 min-h-0 relative" bind:this={gameAreaRef}>
-				<!-- SVG Line Animation Overlay -->
-				<LineAnimation 
-					start={lineStart}
-					end={lineEnd}
-					visible={showLine}
-					color={lineColor === 'stroke-success' ? 'success' : 'error'}
-				/>
+		<!-- Main Game Area - Two Column Layout -->
+		<div class="flex flex-row flex-1 min-h-0 relative" bind:this={gameAreaRef}>
+			<!-- SVG Line Animation Overlay -->
+			<LineAnimation 
+				start={lineStart}
+				end={lineEnd}
+				visible={showLine}
+				color={lineColor === 'stroke-success' ? 'success' : 'error'}
+			/>
 
-				<!-- Left Column: Question Word -->
-				<div class="w-1/2 flex flex-col items-center bg-base-200/50 py-4 md:py-6">
-					<!-- Instruction text -->
-					<div class="text-xs md:text-sm text-center text-base-content/50 mb-2">
-						Valitse oikea sana
-					</div>
-					
-					<!-- Current question score -->
-					<PossiblePoints points={triesRemaining === 3 ? 10 : triesRemaining === 2 ? 3 : triesRemaining === 1 ? 1 : 0} {triesRemaining} />
-
-					<!-- Question word (centered in remaining space) -->
-					<div bind:this={questionWordRef}>
-						<div bind:this={questionWordCardRef}>
-							<QuestionCard 
-								text={currentWord ? getQuestionText(currentWord) : ''}
-								onSpeak={speakCurrentWord}
-							/>
-						</div>
-					</div>
+			<!-- Left Column: Question Word -->
+			<div class="w-1/2 flex flex-col items-center bg-base-200/50 py-4 md:py-6">
+				<!-- Instruction text -->
+				<div class="text-xs md:text-sm text-center text-base-content/50 mb-2">
+					Valitse oikea sana
 				</div>
+				
+				<!-- Current question score -->
+				<PossiblePoints points={triesRemaining === 3 ? 10 : triesRemaining === 2 ? 3 : triesRemaining === 1 ? 1 : 0} {triesRemaining} />
 
-				<!-- Right Column: Answer Options -->
-				<div class="w-1/2 flex flex-col p-3 md:p-6 overflow-y-auto">
-					<OptionButtons 
-						options={answerOptions.map(opt => ({ id: opt.spanish, text: getAnswerText(opt) }))}
-						disabledIds={wrongClicks}
-						onSelect={(id, e) => {
-							const selectedWord = answerOptions.find(opt => opt.spanish === id);
-							if (selectedWord) handleAnswerClick(selectedWord, e);
-						}}
-						disabled={triesRemaining <= 0 || showFeedback}
-					/>
+				<!-- Question word (centered in remaining space) -->
+				<div bind:this={questionWordRef}>
+					<div bind:this={questionWordCardRef}>
+						<QuestionCard 
+							text={currentWord ? getQuestionText(currentWord) : ''}
+							onSpeak={speakCurrentWord}
+						/>
+					</div>
 				</div>
 			</div>
+
+			<!-- Right Column: Answer Options -->
+			<div class="w-1/2 flex flex-col p-3 md:p-6 overflow-y-auto">
+				<OptionButtons 
+					options={answerOptions.map(opt => ({ id: opt.spanish, text: getAnswerText(opt) }))}
+					disabledIds={wrongClicks}
+					onSelect={(id, e) => {
+						const selectedWord = answerOptions.find(opt => opt.spanish === id);
+						if (selectedWord) handleAnswerClick(selectedWord, e);
+					}}
+					disabled={triesRemaining <= 0 || showFeedback}
+				/>
+			</div>
+		</div>
 
 		<!-- Feedback Overlay -->
 		<FeedbackOverlay
@@ -990,8 +989,7 @@
 			closing={feedbackClosing}
 			onContinue={continueToNext}
 		/>
-		</div>
-	</div>
+	</GameContainer>
 {/if}
 
 <!-- REPORT STATE -->

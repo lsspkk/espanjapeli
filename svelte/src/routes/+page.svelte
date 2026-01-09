@@ -67,16 +67,16 @@
 			scored: false,
 			route: '/pipsan-ystavat',
 			available: true // NEW: Image matching game ✅
+		},
+		{
+			id: 'tarinat',
+			icon: '📖',
+			title: 'Tarinat',
+			description: 'Lue dialogeja espanjaksi ja vastaa kysymyksiin',
+			scored: true,
+			route: '/tarinat',
+			available: true // NEW: Story reading game ✅
 		}
-		// {
-		// 	id: 'lukeminen',
-		// 	icon: '📖',
-		// 	title: 'Lukeminen',
-		// 	description: 'Lue kertomuksia + sanastoja',
-		// 	scored: false,
-		// 	route: '/lukeminen',
-		// 	available: false // Future
-		// }
 	];
 
 	let stats = $state({ gamesPlayed: 0, phrasesLearned: 0, categoriesMastered: 0 });

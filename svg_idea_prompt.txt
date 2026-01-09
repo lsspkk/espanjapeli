@@ -1,19 +1,82 @@
 ================================================================================
-SVG IDEA GENERATION PROMPT
+SVG IDEA GENERATION PROMPT - DISTRACTOR IMAGES
 For Peppa Pig Advanced Spanish Learning Materials
 ================================================================================
 
-ROLE: You are an imaginative children's book author and visual storyteller who 
-specializes in creating vivid, playful scene descriptions for educational 
-picture books. Your expertise includes:
-- The Peppa Pig universe (characters, settings, visual style, recurring themes)
-- Child psychology and what captures children's attention (ages 3-7)
-- Visual storytelling that teaches language concepts through clear imagery
-- Colorful, joyful, and safe-for-kids scene design
+YOUR TASK: Generate detailed visual ideas for 45 distractor images (wrong answer options).
 
-YOUR TASK: Generate detailed textual descriptions for SVG illustrations that 
-will be drawn by another AI agent. Each description should be so precise and 
-vivid that an illustrator can faithfully recreate the scene without ambiguity.
+IMPORTANT CONSTRAINTS:
+- Use MAX 5 characters per image (prefer less characters when possible)
+- Available characters: Peppa Pig, George, Mummy Pig, Daddy Pig, Suzy Sheep
+- Follow the EXACT format from svg_todo_v2.txt (see below)
+- Keep scenes simple, clear, and instantly recognizable
+- Each image must be visually distinct from all other images
+
+================================================================================
+REQUIRED FORMAT FOR EACH DISTRACTOR IMAGE
+================================================================================
+
+- [ ] image done into file [filename].svg
+
+- BACKGROUND:
+    [1-2 paragraphs describing the background/setting in detail. Include colors, 
+    lighting, time of day, indoor/outdoor, specific location elements, weather if 
+    relevant. Use exact hex colors from the character color guide where applicable.]
+
+- MAIN CHARACTER(S):
+    [1-2 paragraphs describing the main character(s). Include exact pose, facial 
+    expression, body language, what they're wearing, exact colors with hex codes. 
+    Describe their position in the scene (center, left, right, foreground, etc.).]
+
+- ACTION & PROPS:
+    [1 paragraph describing what is happening in the scene. What action is being 
+    performed? What props are involved? How do the props relate to the characters?
+    Include colors and sizes of props.]
+
+- MOOD & ATMOSPHERE:
+    [1 paragraph describing the overall feeling. What emotion should this image 
+    evoke? How do all elements work together to convey the concept?]
+
+--------------------------------------------------------------------------------
+
+================================================================================
+CHARACTER COLORS (USE THESE EXACTLY)
+================================================================================
+
+- Peppa Pig: Red dress (#E63946), Pink head (#F9C6CF), Pink snout/nostrils (#FF69B4)
+- George Pig: Blue shirt (#6B9BD2), Pink head (#F9C6CF), Pink snout/nostrils (#FF69B4)
+- Mummy Pig: Orange body (#FF8A65), Lighter peach head (#FFAB91), Pink snout/nostrils (#FF69B4)
+- Daddy Pig: Orange body (#FF8A65), Lighter peach head (#FFAB91), Pink snout/nostrils (#FF69B4)
+- Suzy Sheep: White body (#FFFFFF), White head (#FFFFFF), Pink snout/nostrils (#FF69B4)
+- Danny Dog: Brown body (#C86A37), Lighter head (#F4C9B6), Nose accent (#8B4B2F)
+- Rebecca Rabbit: White body (#FFFFFF), White head (#FFFFFF), Nose accent (#FFB6C1)
+- Pedro Pony: Light brown body (#C9A07A), Lighter head (#F4D7C3), Glasses/mane accent (#6B9BD2)
+- Candy Cat: Yellow-orange body (#FFD166), Light head (#FFE6A7), Nose accent (#FF8DAA)
+- Emily Elephant: Light blue-gray body (#BFC9D6), Head (#BFC9D6), Trunk tip accent (#9FB0C6)
+- Zoë Zebra: White body (#FFFFFF), White head (#FFFFFF), Stripe accent (#1F2937)
+- Madame Gazelle: Warm beige body (#F6D365), Lighter head (#FBE9D7), Scarf accent (#D97706)
+- Mr. Fox: Orange-red body (#FF9F1C), Light head (#FFCF9B), Nose accent (#CC6B00)
+- Miss Rabbit: Tan body (#D3A27A), Light head (#F6D4C0), Nose accent (#B06B49)
+- Mr. Bull: Slate-gray body (#9CA3AF), Light head (#D1D5DB), Horn accent (#6B7280)
+- Grandpa Pig: Muted pink body (#E07A6A), Lighter head (#FFD2C2), Snout (#FF69B4)
+- Granny Pig: Warm coral body (#F4A261), Light head (#FFD6BA), Snout (#FF69B4)
+- Wendy Wolf: Dusky brown body (#B98B7F), Light head (#E9CFC6), Nose accent (#8B5A44)
+- Gerald Giraffe: Golden body (#F0C987), Lighter head (#F7DEB6), Spots accent (#C6862E)
+- Mr. Elephant: Dusty blue body (#B0C0CC), Light head (#C9D6DE), Trunk tip (#8AA0B3)
+- Mr. Dinosaur (toy): Green body (#6FBF73), Head (#6FBF73), Teeth accent (#E8F5E9)
+
+================================================================================
+ART STYLE GUIDELINES
+================================================================================
+
+- Simple, confident lines and rounded, friendly shapes
+- Minimal but meaningful details
+- Kind, safe, kid-friendly expressions (no scary faces)
+- Bright, sunny palette (pinks, light blues, greens, warm yellows)
+- One focal character + 1-3 context objects
+- Simple backgrounds (soft sky/room gradient)
+- Make the main action obvious in 1 second
+
 
 ================================================================================
 PEPPA PIG WORLD - ELEMENTS TO DRAW FROM
@@ -89,235 +152,55 @@ ACTIVITIES KIDS LOVE TO SEE:
 - Having birthday parties
 
 ================================================================================
-SCENE DESCRIPTION GUIDELINES
+DISTRACTOR IMAGES TO GENERATE (45 total)
 ================================================================================
 
-FORMAT FOR EACH IDEA:
+WORKFLOW:
+1. Read svg_todo.txt to see the list of 45 distractor images
+2. For each distractor image, generate a detailed visual idea following the format above
+3. UPDATE svg_todo.txt by adding the detailed idea AFTER each numbered item
+4. Keep the original numbered list intact, just add the detailed description below each item
 
+EXAMPLE OF HOW TO UPDATE svg_todo.txt:
+
+BEFORE:
 ```
-FILE: [filename].svg
-PHRASE: [Spanish phrase] ([English translation])
-
-SCENE TITLE: "[A catchy, descriptive title]"
-
-VISUAL DESCRIPTION:
-[2-3 paragraphs describing the scene in detail]
-
-KEY ELEMENTS:
-- Character(s): [Who is in the scene, their poses, expressions]
-- Setting: [Where the scene takes place]
-- Main Action: [What is happening - this should be OBVIOUS in 1 second]
-- Props: [1-3 specific objects that reinforce the phrase meaning]
-- Mood/Atmosphere: [Colors, lighting, emotional tone]
-
-EDUCATIONAL CLARITY:
-[1-2 sentences explaining how this image teaches the Spanish phrase]
-
-SIGNATURE:
-[Note: The finished SVG must include a small AI model signature in the bottom 
-right corner (e.g., "Composer 1", "Gemini 3 Pro", etc.) - this will be added 
-by the illustrator, not described in detail here]
+1. angry - Angry
 ```
 
-DESCRIPTION WRITING RULES:
+AFTER:
+```
+1. angry - Angry
+- [ ] image done into file angry.svg
 
-1. BE SPECIFIC & VISUAL
-   BAD: "Peppa looks happy"
-   GOOD: "Peppa has her eyes squeezed shut in joy, mouth wide open in a huge grin,
-          with rosy pink cheeks and both trotters thrown up in the air"
+- BACKGROUND:
+    Simple indoor setting with a soft gradient background transitioning from light blue (#E0F4FF) 
+    at the top to warm cream (#FFF8E7) at the bottom. The floor is suggested by a simple tan line. 
+    No distracting elements - the focus is entirely on the character and their emotion. Soft, 
+    diffused lighting from above creates a neutral but slightly warm atmosphere.
 
-2. ONE CLEAR STORY IN ONE SECOND
-   - A child should understand the scene instantly
-   - One main action, not multiple competing activities
-   - The phrase meaning should be visually obvious
+- MAIN CHARACTER(S):
+    Peppa Pig stands dead center in the image, taking up about 60% of the vertical space. She 
+    wears her signature red dress (#E63946). Her pink head (#F9C6CF) is tilted slightly down. 
+    Her eyebrows are furrowed sharply downward in a V-shape, eyes narrowed with determination. 
+    Her mouth is a firm, tight pout turned downward at the corners. Her arms are crossed tightly 
+    over her chest, hooves gripping her upper arms. Her stance is wide and planted firmly, 
+    showing she won't budge. Her cheeks have a slightly deeper pink tint (#FF8FAB) to show 
+    the flush of frustration.
 
-3. USE THE PEPPA PIG AESTHETIC
-   - Simple, rounded shapes
-   - Bright, cheerful colors
-   - Characters facing slightly to the side (the classic Peppa pose)
-   - Big heads, small bodies
-   - Expressive faces with minimal features
+- ACTION & PROPS:
+    The main action is Peppa displaying anger through her body language - no movement, just a 
+    strong static pose of frustration. No props are needed as the focus is entirely on the 
+    emotion. Her crossed arms and planted stance tell the whole story. The simplicity makes 
+    the emotion instantly readable.
 
-4. MAKE IT KID-DELIGHTFUL
-   - Include elements children love (muddy puddles, dinosaurs, birthday cake)
-   - Show friendship, family warmth, simple joys
-   - Keep it safe and gentle (no scary elements)
-   - Add small delightful details (a butterfly, a rainbow, sparkles)
-
-5. KEEP BACKGROUNDS SIMPLE
-   - One or two large shapes (sky, grass, floor, wall)
-   - Soft gradients or solid colors
-   - Don't overload with tiny details
-   - Leave breathing room around characters
-
-6. DESCRIBE COLORS EXPLICITLY
-   - "A bright red ball" not just "a ball"
-   - "Soft blue sky with fluffy white clouds"
-   - "Warm golden sunlight streaming through the window"
-
-7. INDICATE RELATIVE POSITIONS
-   - "Peppa stands in the center, slightly left"
-   - "George peeks from behind a tree on the right"
-   - "A rainbow arcs across the upper portion of the scene"
-
-================================================================================
-CHARACTER COLOR REFERENCE (CRITICAL - DO NOT DEVIATE)
-================================================================================
-
-PEPPA PIG:
-- Dress: Bright red (#E63946)
-- Head/Body skin: Soft pink (#F9C6CF)
-- Snout/Nostrils: Hot pink (#FF69B4)
-
-GEORGE PIG:
-- Shirt: Soft blue (#6B9BD2)
-- Head/Body skin: Soft pink (#F9C6CF)
-- Snout/Nostrils: Hot pink (#FF69B4)
-
-MUMMY PIG:
-- Dress/Body: Warm orange (#FF8A65)
-- Head: Lighter peach (#FFAB91)
-- Snout/Nostrils: Hot pink (#FF69B4)
-
-DADDY PIG:
-- Shirt/Body: Warm orange (#FF8A65)
-- Head: Lighter peach (#FFAB91)
-- Snout/Nostrils: Hot pink (#FF69B4)
-
-SUZY SHEEP:
-- Body/Fleece: White (#FFFFFF)
-- Dress: Pink
-- Face: White with pink blush
-
-DANNY DOG:
-- Body/Head: Orange-brown (#FFB74D)
-- Shirt: Often pirate-themed
-
-MADAME GAZELLE:
-- Dress: Purple (#9C27B0)
-- Head: Light cream/yellow (#FFF8E1)
-
-================================================================================
-EXAMPLE SCENE DESCRIPTIONS
-================================================================================
-
-EXAMPLE 1 - TIME/DAILY ROUTINE:
---------------------------------------------------------------------------------
-FILE: 104_its_morning.svg
-PHRASE: Es por la mañana. (It's morning.)
-
-SCENE TITLE: "The Sunrise Awakening"
-
-VISUAL DESCRIPTION:
-A cozy bedroom scene with warm morning light streaming through partially open
-curtains. Through the window, we see a beautiful sunrise - the sun is a soft
-orange-yellow circle just peeking over gentle hills, with the sky transitioning
-from peachy-pink near the horizon to soft blue above. Two little birds sit on
-a tree branch outside, with small musical notes floating near them to show
-they're singing the morning chorus.
-
-Inside, Peppa sits up in her bed with rumpled pink covers, her arms stretching
-high above her head in a big morning stretch. Her eyes are just opening (drawn
-as happy curved lines), and she has a peaceful, content expression. On her
-nightstand, an alarm clock shows 7:00, and her teddy bear "Teddy" lies beside
-her pillow. A fuzzy pair of slippers waits neatly by the bed.
-
-KEY ELEMENTS:
-- Character(s): Peppa sitting up in bed, stretching with arms raised, sleepy smile
-- Setting: Peppa's bedroom with window view of sunrise
-- Main Action: Peppa waking up and stretching
-- Props: Alarm clock (7:00), teddy bear, morning birds outside, slippers
-- Mood/Atmosphere: Warm golden-pink morning light, peaceful and fresh
-
-EDUCATIONAL CLARITY:
-The sunrise, alarm clock time, and stretching Peppa clearly convey "morning"
-to young learners - this is unmistakably an early-day scene.
+- MOOD & ATMOSPHERE:
+    Frustrated and stubborn, but still completely kid-safe and not scary. This is the kind of 
+    anger a 4-year-old shows when they don't get their way - pouty and determined rather than 
+    threatening. The warm background softens the emotion while still making it clear Peppa is 
+    not happy about something.
 
 --------------------------------------------------------------------------------
+```
 
-EXAMPLE 2 - EMOTION/EXPRESSION:
---------------------------------------------------------------------------------
-FILE: 88_how_funny.svg
-PHRASE: ¡Qué risa! (How funny!)
-
-SCENE TITLE: "Peppa's Giggle Fit"
-
-VISUAL DESCRIPTION:
-Peppa is caught mid-laugh, doubled over with both trotters clutching her belly.
-Her whole body shakes with laughter - indicated by small motion lines around
-her. Her eyes are squeezed completely shut, and her mouth is wide open showing
-pure joy. Tiny tears of laughter appear at the corners of her eyes (just small
-sparkle shapes).
-
-Around her head, colorful text reads "JA JA JA" in playful bubble letters -
-red, yellow, and blue. The background is a simple, cheerful yellow-to-orange
-gradient that radiates the warmth of laughter. Small star sparkles float
-around Peppa to emphasize the joy of the moment.
-
-KEY ELEMENTS:
-- Character(s): Peppa bent over laughing, holding belly, eyes shut, mouth wide
-- Setting: Simple warm gradient background (no specific location needed)
-- Main Action: Peppa laughing uncontrollably
-- Props: "JA JA JA" text, sparkle stars, motion lines
-- Mood/Atmosphere: Bright, warm yellows and oranges, pure joy
-
-EDUCATIONAL CLARITY:
-The exaggerated laughing pose and "JA JA JA" text immediately communicate
-"funny/laughter" - perfect for teaching this expression.
-
---------------------------------------------------------------------------------
-
-EXAMPLE 3 - ACTIVITY/INVITATION:
---------------------------------------------------------------------------------
-FILE: 81_lets_play_together.svg
-PHRASE: ¡Vamos a jugar juntos! (Let's play together!)
-
-SCENE TITLE: "The Invitation to Play"
-
-VISUAL DESCRIPTION:
-Peppa stands in the center of a sunny playground, her arms spread wide open
-in a welcoming gesture. Her face beams with an excited, inviting smile. She's
-positioned as if she's just called out to friends to come join her.
-
-Arranged in a loose semicircle around her feet are several colorful toys: a
-bright red bouncy ball, a jump rope with blue and yellow handles, and a stack
-of rainbow-colored building blocks. The playground behind her shows simple
-shapes suggesting a slide (in cheerful blue) and swing set.
-
-The sky is bright blue with two puffy white clouds. Soft green grass covers
-the ground with a few tiny flowers dotted about.
-
-KEY ELEMENTS:
-- Character(s): Peppa with arms wide open, inviting expression, standing central
-- Setting: Sunny playground with slide and swings in background
-- Main Action: Peppa inviting others to play (welcoming gesture)
-- Props: Ball, jump rope, building blocks - variety suggests "play"
-- Mood/Atmosphere: Bright, sunny, welcoming, energetic
-
-EDUCATIONAL CLARITY:
-The open-armed invitation pose combined with scattered toys clearly shows
-"let's play together" - Peppa is welcoming friends to join in play.
-
-================================================================================
-NOTES FOR THE AI ILLUSTRATOR
-================================================================================
-
-When these descriptions are passed to the drawing agent, remind them:
-1. Maintain Peppa Pig visual style (simple shapes, friendly faces)
-2. Use the exact character colors from the reference
-3. Keep SVGs lightweight (prefer simple shapes over complex paths)
-4. Test readability at small sizes
-5. Make the main action obvious at a glance
-6. Use gentle gradients sparingly, prefer flat colors
-7. Include the phrase context visually without needing text labels
-8. **REQUIRED: Add AI model signature in bottom right corner** - Include a small 
-   text element in the bottom right corner (around x="390" y="390") with the 
-   AI model name used to create the image, for example "Composer 1", "Gemini 3 Pro", 
-   or "GPT 5.2". Use small font size (10-12px), right-aligned text, and subtle 
-   color (#5B6470 with opacity 0.7-0.85) so it doesn't distract from the main image.
-
-================================================================================
-Created: January 7, 2026
-For: Peppa Pig Advanced Spanish Learning Materials
-Project: espanjapeli
-================================================================================
+Generate detailed ideas for all 45 distractor images and update svg_todo.txt accordingly.

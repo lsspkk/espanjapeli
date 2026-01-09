@@ -32,15 +32,15 @@
 			onclick={() => onSelect(option.id)}
 		>
 			<!-- Display mode: SVG or Emoji -->
-			{#if displayMode === 'svg'}
-				<!-- SVG Image Mode -->
+			{#if displayMode === 'svg' && option.file}
+				<!-- SVG Image Mode (only if file exists) -->
 				<img 
 					src={option.file} 
-					alt=""
+					alt={option.id}
 					class="w-full h-full object-cover bg-white transition-all duration-500"
 				/>
 			{:else}
-				<!-- Emoji Mode -->
+				<!-- Emoji Mode (fallback when no SVG or when in emoji mode) -->
 				<div class="w-full h-full bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 flex items-center justify-center transition-all duration-500">
 					<span class="text-5xl sm:text-6xl tracking-wider">{option.emojiDisplay}</span>
 				</div>

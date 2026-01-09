@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B8E6F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8F4F8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background - peaceful sky -->
+  <rect width="400" height="400" fill="url(#skyGrad)"/>
+  
+  <!-- Fluffy clouds -->
+  <g opacity="0.8">
+    <ellipse cx="80" cy="60" rx="30" ry="18" fill="#FFFFFF"/>
+    <ellipse cx="105" cy="65" rx="25" ry="15" fill="#FFFFFF"/>
+    <ellipse cx="60" cy="68" rx="22" ry="14" fill="#FFFFFF"/>
+    
+    <ellipse cx="320" cy="80" rx="35" ry="20" fill="#FFFFFF"/>
+    <ellipse cx="350" cy="85" rx="28" ry="16" fill="#FFFFFF"/>
+    <ellipse cx="295" cy="88" rx="25" ry="15" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Grass meadow -->
+  <ellipse cx="200" cy="380" rx="220" ry="60" fill="#7BC043"/>
+  <rect y="320" width="400" height="80" fill="#7BC043"/>
+  
+  <!-- Soft flowers -->
+  <g id="flowers">
+    <!-- Pink flowers -->
+    <circle cx="80" cy="330" r="6" fill="#FFB6D9"/>
+    <circle cx="76" cy="327" r="3" fill="#FF69B4"/>
+    <circle cx="84" cy="327" r="3" fill="#FF69B4"/>
+    <circle cx="80" cy="323" r="3" fill="#FF69B4"/>
+    <circle cx="80" cy="333" r="3" fill="#FF69B4"/>
+    <rect x="79" y="330" width="2" height="15" fill="#66BB6A"/>
+    
+    <circle cx="320" cy="340" r="6" fill="#FFB6D9"/>
+    <circle cx="316" cy="337" r="3" fill="#FF69B4"/>
+    <circle cx="324" cy="337" r="3" fill="#FF69B4"/>
+    <circle cx="320" cy="333" r="3" fill="#FF69B4"/>
+    <circle cx="320" cy="343" r="3" fill="#FF69B4"/>
+    <rect x="319" y="340" width="2" height="15" fill="#66BB6A"/>
+    
+    <!-- Yellow flowers -->
+    <circle cx="130" cy="345" r="5" fill="#FFD966"/>
+    <circle cx="127" cy="343" r="2.5" fill="#FFF9C4"/>
+    <circle cx="133" cy="343" r="2.5" fill="#FFF9C4"/>
+    <circle cx="130" cy="340" r="2.5" fill="#FFF9C4"/>
+    <circle cx="130" cy="348" r="2.5" fill="#FFF9C4"/>
+    <rect x="129" y="345" width="2" height="12" fill="#66BB6A"/>
+    
+    <circle cx="280" cy="335" r="5" fill="#FFD966"/>
+    <circle cx="277" cy="333" r="2.5" fill="#FFF9C4"/>
+    <circle cx="283" cy="333" r="2.5" fill="#FFF9C4"/>
+    <circle cx="280" cy="330" r="2.5" fill="#FFF9C4"/>
+    <circle cx="280" cy="338" r="2.5" fill="#FFF9C4"/>
+    <rect x="279" y="335" width="2" height="12" fill="#66BB6A"/>
+  </g>
+  
+  <!-- Peppa meditating -->
+  <g id="peppa">
+    <!-- Body/Dress (sitting cross-legged) -->
+    <ellipse cx="200" cy="240" rx="58" ry="65" fill="#E63946"/>
+    
+    <!-- Legs crossed -->
+    <ellipse cx="170" cy="280" rx="25" ry="15" fill="#F9C6CF" transform="rotate(-10 170 280)"/>
+    <ellipse cx="230" cy="280" rx="25" ry="15" fill="#F9C6CF" transform="rotate(10 230 280)"/>
+    
+    <!-- Head -->
+    <circle cx="200" cy="170" r="60" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="222" cy="180" rx="25" ry="19" fill="#FF69B4"/>
+    <circle cx="216" cy="176" r="2.5" fill="#000000"/>
+    <circle cx="228" cy="176" r="2.5" fill="#000000"/>
+    
+    <!-- Eyes (gently closed) -->
+    <path d="M 165 155 Q 175 158 185 155" stroke="#000000" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Peaceful smile -->
+    <path d="M 212 192 Q 222 196 232 192" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Eyelashes -->
+    <path d="M 168 154 L 165 150" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 175 157 L 175 152" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 182 154 L 185 150" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
+    
+    <!-- Ears -->
+    <circle cx="160" cy="125" r="15" fill="#F9C6CF"/>
+    <circle cx="240" cy="125" r="15" fill="#F9C6CF"/>
+    
+    <!-- Arms resting on knees (meditation pose) -->
+    <ellipse cx="155" cy="260" rx="12" ry="28" fill="#F9C6CF" transform="rotate(-35 155 260)"/>
+    <ellipse cx="245" cy="260" rx="12" ry="28" fill="#F9C6CF" transform="rotate(35 245 260)"/>
+    
+    <!-- Hooves on knees -->
+    <circle cx="145" cy="275" r="8" fill="#F9C6CF"/>
+    <circle cx="255" cy="275" r="8" fill="#F9C6CF"/>
+  </g>
+  
+  <!-- Butterflies -->
+  <g id="butterfly1" transform="translate(120, 180)">
+    <!-- Pink butterfly -->
+    <ellipse cx="-3" cy="0" rx="8" ry="12" fill="#FFB6D9" transform="rotate(-20 -3 0)"/>
+    <ellipse cx="3" cy="0" rx="8" ry="12" fill="#FFB6D9" transform="rotate(20 3 0)"/>
+    <ellipse cx="0" cy="0" rx="2" ry="6" fill="#8B4513"/>
+    <circle cx="0" cy="-4" r="2" fill="#8B4513"/>
+  </g>
+  
+  <g id="butterfly2" transform="translate(290, 200)">
+    <!-- Yellow butterfly -->
+    <ellipse cx="-3" cy="0" rx="7" ry="11" fill="#FFD966" transform="rotate(-25 -3 0)"/>
+    <ellipse cx="3" cy="0" rx="7" ry="11" fill="#FFD966" transform="rotate(25 3 0)"/>
+    <ellipse cx="0" cy="0" rx="2" ry="5" fill="#8B4513"/>
+    <circle cx="0" cy="-3" r="1.5" fill="#8B4513"/>
+  </g>
+  
+  <g id="butterfly3" transform="translate(250, 140)">
+    <!-- Pink butterfly -->
+    <ellipse cx="-3" cy="0" rx="6" ry="10" fill="#FFB6D9" transform="rotate(-15 -3 0)"/>
+    <ellipse cx="3" cy="0" rx="6" ry="10" fill="#FFB6D9" transform="rotate(15 3 0)"/>
+    <ellipse cx="0" cy="0" rx="1.5" ry="5" fill="#8B4513"/>
+    <circle cx="0" cy="-3" r="1.5" fill="#8B4513"/>
+  </g>
+</svg>

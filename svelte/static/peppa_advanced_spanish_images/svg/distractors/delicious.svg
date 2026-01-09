@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF9E6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFBF0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Table surface -->
+  <rect y="280" width="400" height="120" fill="#C19A6B"/>
+  
+  <!-- Peppa Pig -->
+  <g id="peppa">
+    <!-- Body/Dress -->
+    <ellipse cx="200" cy="320" rx="50" ry="45" fill="#E63946"/>
+    
+    <!-- Head tilted back slightly -->
+    <ellipse cx="200" cy="200" rx="58" ry="62" fill="#F9C6CF"/>
+    
+    <!-- Ears -->
+    <circle cx="165" cy="160" r="16" fill="#F9C6CF"/>
+    <circle cx="235" cy="160" r="16" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="220" cy="215" rx="26" ry="21" fill="#FF69B4"/>
+    
+    <!-- Nostrils -->
+    <circle cx="213" cy="210" r="3" fill="#D81B60"/>
+    <circle cx="227" cy="210" r="3" fill="#D81B60"/>
+    
+    <!-- Eyes closed in bliss -->
+    <path d="M 165 185 Q 175 190 185 185" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 205 185 Q 215 190 225 185" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Rosy cheeks -->
+    <circle cx="160" cy="210" r="15" fill="#FF8FAB" opacity="0.5"/>
+    <circle cx="240" cy="210" r="15" fill="#FF8FAB" opacity="0.5"/>
+    
+    <!-- Big delighted smile -->
+    <path d="M 205 230 Q 220 245 235 230" fill="none" stroke="#D81B60" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="220" cy="238" rx="12" ry="8" fill="#FF69B4"/>
+    
+    <!-- Arm raised to cheek in delight -->
+    <ellipse cx="140" cy="240" rx="12" ry="32" fill="#F9C6CF" transform="rotate(-20 140 240)"/>
+    
+    <!-- Other arm -->
+    <ellipse cx="260" cy="280" rx="12" ry="35" fill="#F9C6CF"/>
+  </g>
+  
+  <!-- Chocolate cake on plate -->
+  <g id="cake">
+    <!-- Plate -->
+    <ellipse cx="200" cy="340" rx="55" ry="12" fill="#64B5F6"/>
+    <ellipse cx="200" cy="338" rx="55" ry="10" fill="#90CAF9"/>
+    
+    <!-- Cake slice -->
+    <path d="M 180 340 L 160 310 L 180 280 L 220 280 L 240 310 L 220 340 Z" fill="#8B4513"/>
+    
+    <!-- Pink frosting -->
+    <path d="M 180 280 Q 200 275 220 280 L 215 290 Q 200 285 185 290 Z" fill="#FFB6D9"/>
+    
+    <!-- Chocolate layers -->
+    <line x1="170" y1="310" x2="230" y2="310" stroke="#6B3410" stroke-width="2"/>
+    <line x1="175" y1="295" x2="225" y2="295" stroke="#6B3410" stroke-width="2"/>
+    
+    <!-- Fork on plate -->
+    <rect x="230" y="330" width="3" height="25" fill="#BDBDBD"/>
+    <line x1="228" y1="330" x2="236" y2="330" stroke="#BDBDBD" stroke-width="2"/>
+    <line x1="228" y1="327" x2="228" y2="330" stroke="#BDBDBD" stroke-width="1.5"/>
+    <line x1="231" y1="327" x2="231" y2="330" stroke="#BDBDBD" stroke-width="1.5"/>
+    <line x1="234" y1="327" x2="234" y2="330" stroke="#BDBDBD" stroke-width="1.5"/>
+    <line x1="237" y1="327" x2="237" y2="330" stroke="#BDBDBD" stroke-width="1.5"/>
+  </g>
+  
+  <!-- "Mmmmm" effect lines -->
+  <path d="M 240 170 Q 260 160 270 150" fill="none" stroke="#FFB6D9" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 250 165 Q 270 155 285 145" fill="none" stroke="#FFB6D9" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+</svg>

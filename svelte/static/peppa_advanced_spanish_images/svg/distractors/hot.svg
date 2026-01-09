@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="hotSkyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF176;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE0B2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Hot sky background -->
+  <rect width="400" height="400" fill="url(#hotSkyGradient)"/>
+  
+  <!-- Intense sun -->
+  <circle cx="330" cy="70" r="45" fill="#FFEB3B" opacity="0.9"/>
+  <circle cx="330" cy="70" r="35" fill="#FFF176"/>
+  
+  <!-- Sun rays -->
+  <line x1="330" y1="25" x2="330" y2="5" stroke="#FFEB3B" stroke-width="4" stroke-linecap="round"/>
+  <line x1="330" y1="115" x2="330" y2="135" stroke="#FFEB3B" stroke-width="4" stroke-linecap="round"/>
+  <line x1="285" y1="70" x2="265" y2="70" stroke="#FFEB3B" stroke-width="4" stroke-linecap="round"/>
+  <line x1="375" y1="70" x2="395" y2="70" stroke="#FFEB3B" stroke-width="4" stroke-linecap="round"/>
+  <line x1="295" y1="35" x2="280" y2="20" stroke="#FFEB3B" stroke-width="4" stroke-linecap="round"/>
+  <line x1="365" y1="105" x2="380" y2="120" stroke="#FFEB3B" stroke-width="4" stroke-linecap="round"/>
+  <line x1="365" y1="35" x2="380" y2="20" stroke="#FFEB3B" stroke-width="4" stroke-linecap="round"/>
+  <line x1="295" y1="105" x2="280" y2="120" stroke="#FFEB3B" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Heat waves rising from ground -->
+  <path d="M 50 320 Q 60 310 70 320 Q 80 330 90 320" fill="none" stroke="#FFE0B2" stroke-width="2" opacity="0.6"/>
+  <path d="M 120 325 Q 130 315 140 325 Q 150 335 160 325" fill="none" stroke="#FFE0B2" stroke-width="2" opacity="0.6"/>
+  <path d="M 240 320 Q 250 310 260 320 Q 270 330 280 320" fill="none" stroke="#FFE0B2" stroke-width="2" opacity="0.6"/>
+  <path d="M 310 325 Q 320 315 330 325 Q 340 335 350 325" fill="none" stroke="#FFE0B2" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Dry ground -->
+  <rect y="300" width="400" height="100" fill="#C4B454"/>
+  
+  <!-- Wilted flowers -->
+  <ellipse cx="80" cy="315" rx="3" ry="2" fill="#D4A574" opacity="0.7"/>
+  <line x1="80" y1="315" x2="78" y2="325" stroke="#8B7355" stroke-width="1.5"/>
+  <ellipse cx="320" cy="318" rx="3" ry="2" fill="#D4A574" opacity="0.7"/>
+  <line x1="320" y1="318" x2="318" y2="328" stroke="#8B7355" stroke-width="1.5"/>
+  
+  <!-- Peppa Pig - overheated -->
+  <g id="peppa-hot">
+    <!-- Shadow -->
+    <ellipse cx="200" cy="355" rx="40" ry="8" fill="#000000" opacity="0.15"/>
+    
+    <!-- Legs -->
+    <rect x="183" y="300" width="15" height="42" rx="7" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    <rect x="208" y="300" width="15" height="42" rx="7" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="190" cy="342" rx="11" ry="7" fill="#8B4513" stroke="#000000" stroke-width="2"/>
+    <ellipse cx="215" cy="342" rx="11" ry="7" fill="#8B4513" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Body/Dress (droopy) -->
+    <ellipse cx="200" cy="250" rx="48" ry="62" fill="#E63946" stroke="#000000" stroke-width="2.5"/>
+    
+    <!-- Arms hanging limply -->
+    <ellipse cx="155" cy="250" rx="12" ry="32" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    <ellipse cx="245" cy="250" rx="12" ry="32" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Head -->
+    <circle cx="200" cy="165" r="60" fill="#F9C6CF" stroke="#000000" stroke-width="2.5"/>
+    
+    <!-- Ears -->
+    <circle cx="167" cy="120" r="17" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    <circle cx="233" cy="120" r="17" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Snout -->
+    <ellipse cx="223" cy="170" rx="26" ry="20" fill="#FF69B4" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Nostrils -->
+    <circle cx="217" cy="166" r="3.5" fill="#000000"/>
+    <circle cx="229" cy="166" r="3.5" fill="#000000"/>
+    
+    <!-- Eyes - tired, half-closed -->
+    <ellipse cx="177" cy="150" rx="13" ry="10" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+    <ellipse cx="177" cy="150" rx="6" ry="5" fill="#000000"/>
+    
+    <ellipse cx="208" cy="150" rx="13" ry="10" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+    <ellipse cx="208" cy="150" rx="6" ry="5" fill="#000000"/>
+    
+    <!-- Mouth slightly open, panting -->
+    <ellipse cx="195" cy="185" rx="8" ry="6" fill="#000000" opacity="0.3"/>
+    
+    <!-- Flushed cheeks -->
+    <circle cx="157" cy="175" r="14" fill="#FF8FAB" opacity="0.7"/>
+    <circle cx="243" cy="175" r="14" fill="#FF8FAB" opacity="0.7"/>
+    
+    <!-- Sweat drops -->
+    <ellipse cx="150" cy="140" rx="4" ry="7" fill="#B3E5FC" opacity="0.8"/>
+    <ellipse cx="165" cy="155" rx="3" ry="6" fill="#B3E5FC" opacity="0.8"/>
+    <ellipse cx="235" cy="145" rx="4" ry="7" fill="#B3E5FC" opacity="0.8"/>
+    <ellipse cx="248" cy="160" rx="3" ry="6" fill="#B3E5FC" opacity="0.8"/>
+    
+    <!-- Tail drooping -->
+    <path d="M 245 265 Q 260 270 255 280" fill="none" stroke="#F9C6CF" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 245 265 Q 260 270 255 280" fill="none" stroke="#000000" stroke-width="2"/>
+  </g>
+  
+  <!-- Hand fan (weak attempt to cool down) -->
+  <g id="fan">
+    <path d="M 250 240 L 265 235 Q 270 235 270 240 Q 270 245 265 245 Z" fill="#FFB6D9" stroke="#000000" stroke-width="1.5"/>
+    <path d="M 250 240 L 265 245 Q 270 245 270 240 Q 270 235 265 235 Z" fill="#FFD6E8" stroke="#000000" stroke-width="1.5"/>
+    <line x1="250" y1="240" x2="245" y2="245" stroke="#D4A574" stroke-width="2"/>
+  </g>
+  
+  <!-- Empty water bottle on ground -->
+  <rect x="160" y="335" width="12" height="25" rx="2" fill="#64B5F6" opacity="0.3" stroke="#64B5F6" stroke-width="1.5"/>
+  <rect x="160" y="335" width="12" height="4" rx="1" fill="#64B5F6" opacity="0.5"/>
+</svg>

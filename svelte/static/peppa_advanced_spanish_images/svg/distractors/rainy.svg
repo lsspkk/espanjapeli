@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background sky -->
+  <rect width="400" height="400" fill="#90A4AE"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="80" cy="60" rx="70" ry="45" fill="#616161"/>
+  <ellipse cx="200" cy="80" rx="80" ry="50" fill="#616161"/>
+  <ellipse cx="320" cy="70" rx="65" ry="40" fill="#616161"/>
+  
+  <!-- Rain streaks -->
+  <line x1="50" y1="120" x2="50" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="70" y1="140" x2="70" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="90" y1="110" x2="90" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="110" y1="130" x2="110" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="130" y1="100" x2="130" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="150" y1="120" x2="150" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="170" y1="140" x2="170" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="190" y1="110" x2="190" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="210" y1="130" x2="210" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="230" y1="100" x2="230" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="250" y1="120" x2="250" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="270" y1="140" x2="270" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="290" y1="110" x2="290" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="310" y1="130" x2="310" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="330" y1="100" x2="330" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  <line x1="350" y1="120" x2="350" y2="400" stroke="#B3E5FC" stroke-width="2"/>
+  
+  <!-- Ground -->
+  <rect y="300" width="400" height="100" fill="#5D7A4D"/>
+  
+  <!-- Puddles -->
+  <ellipse cx="100" cy="350" rx="25" ry="8" fill="#424242"/>
+  <ellipse cx="200" cy="360" rx="30" ry="10" fill="#424242"/>
+  <ellipse cx="300" cy="340" rx="20" ry="6" fill="#424242"/>
+  
+  <!-- Distant house -->
+  <rect x="320" y="280" width="30" height="20" fill="#FFD966"/>
+  <polygon points="320,280 335,270 350,280" fill="#E63946"/>
+  
+  <!-- Small Peppa silhouette -->
+  <circle cx="50" cy="320" r="8" fill="#000000"/>
+  <ellipse cx="50" cy="340" rx="6" ry="12" fill="#000000"/>
+  <ellipse cx="45" cy="335" rx="3" ry="8" fill="#000000"/>
+  <ellipse cx="55" cy="335" rx="3" ry="8" fill="#000000"/>
+</svg></content>
+<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/rainy.svg

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F4F8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF8E7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Floor -->
+  <rect y="300" width="400" height="100" fill="#F5F5F5"/>
+  
+  <!-- Peppa -->
+  <!-- Body/Dress -->
+  <ellipse cx="200" cy="250" rx="35" ry="45" fill="#E63946"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="180" r="40" fill="#F9C6CF"/>
+  
+  <!-- Snout -->
+  <ellipse cx="210" cy="190" rx="15" ry="12" fill="#FF69B4"/>
+  <circle cx="205" cy="185" r="2" fill="#000000"/>
+  <circle cx="215" cy="185" r="2" fill="#000000"/>
+  
+  <!-- Eyes determined -->
+  <circle cx="185" cy="170" r="8" fill="#FFFFFF"/>
+  <circle cx="185" cy="170" r="4" fill="#000000"/>
+  <circle cx="195" cy="165" r="8" fill="#FFFFFF"/>
+  <circle cx="195" cy="165" r="4" fill="#000000"/>
+  <!-- Furrowed brows -->
+  <path d="M 178 160 Q 185 155 192 160" stroke="#000000" stroke-width="2" fill="none"/>
+  <path d="M 188 158 Q 195 153 202 158" stroke="#000000" stroke-width="2" fill="none"/>
+  
+  <!-- Mouth determined -->
+  <line x1="200" y1="195" x2="210" y2="195" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Ears -->
+  <circle cx="170" cy="150" r="10" fill="#F9C6CF"/>
+  <circle cx="230" cy="150" r="10" fill="#F9C6CF"/>
+  
+  <!-- Arms on hips -->
+  <ellipse cx="160" cy="240" rx="8" ry="25" fill="#F9C6CF"/>
+  <ellipse cx="240" cy="240" rx="8" ry="25" fill="#F9C6CF"/>
+  
+  <!-- Legs -->
+  <ellipse cx="185" cy="300" rx="10" ry="20" fill="#F9C6CF"/>
+  <ellipse cx="215" cy="300" rx="10" ry="20" fill="#F9C6CF"/>
+  
+  <!-- Puzzle pieces scattered -->
+  <rect x="50" y="320" width="15" height="15" fill="#FF0000"/>
+  <rect x="70" y="325" width="15" height="15" fill="#0000FF"/>
+  <rect x="90" y="315" width="15" height="15" fill="#00FF00"/>
+  
+  <!-- Thought bubble -->
+  <ellipse cx="250" cy="150" rx="30" ry="20" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <ellipse cx="270" cy="130" rx="15" ry="10" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <!-- Check mark -->
+  <path d="M 260 145 L 265 150 L 275 135" stroke="#00FF00" stroke-width="3" fill="none"/>
+</svg></content>
+<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/try_again.svg

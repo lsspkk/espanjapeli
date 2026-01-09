@@ -4,6 +4,11 @@
 	import { tts } from '$lib/services/tts';
 	import { peppaStats } from '$lib/services/peppaStatistics';
 	import { selectGamePhrases, recordGameCompletion } from '$lib/services/phraseSelection';
+	import KidsStartScreen from '$lib/components/kids/home/KidsStartScreen.svelte';
+	import KidsEndScreen from '$lib/components/kids/home/KidsEndScreen.svelte';
+	import KidsGameHeader from '$lib/components/kids/core/KidsGameHeader.svelte';
+	import KidsImageOptions from '$lib/components/kids/input/KidsImageOptions.svelte';
+	import BackButton from '$lib/components/shared/BackButton.svelte';
 
 	interface EmojiTip {
 		emojis: string[];
@@ -25,6 +30,7 @@
 		description: string;
 		emojiTip?: EmojiTip;
 		status: string;
+		file?: string;
 	}
 
 	interface GameQuestion {
@@ -275,12 +281,23 @@
 
 	function getImageFile(imageId: string): string {
 		if (!manifest) return '';
+		
+		// Check main images first
 		const img = manifest.images.find(i => i.id === imageId);
-		const filePath = img ? `${base}/peppa_advanced_spanish_images/${img.file}` : '';
-		if (!img) {
-			console.warn(`⚠️ No image file found for ID: "${imageId}"`);
+		if (img) {
+			return `${base}/peppa_advanced_spanish_images/${img.file}`;
 		}
-		return filePath;
+		
+		// Check distractor images
+		if (manifest.distractorImages && manifest.distractorImages[imageId]) {
+			const distractor = manifest.distractorImages[imageId];
+			if (distractor.file) {
+				return `${base}/peppa_advanced_spanish_images/${distractor.file}`;
+			}
+		}
+		
+		console.warn(`⚠️ No image file found for ID: "${imageId}"`);
+		return '';
 	}
 
 	function getEmojiDisplay(imageId: string): string {
@@ -636,10 +653,10 @@
 
 <div class="min-h-screen bg-gradient-to-br from-pink-300 via-purple-300 to-blue-300">
 	<div class="container mx-auto px-2 max-w-5xl py-2">
-		<!-- Header -->
+		<!-- Back Button - Top Left (only on home screen) -->
 		{#if !gameStarted && !gameEnded}
 			<div class="mb-2">
-				<a href="{base}/" class="btn btn-ghost btn-sm bg-white/80 backdrop-blur">← Takaisin</a>
+				<BackButton />
 			</div>
 		{/if}
 
@@ -653,109 +670,32 @@
 			</div>
 		{:else if !gameStarted && !gameEnded}
 			<!-- Start Screen -->
-			<div class="card bg-white/95 shadow-2xl backdrop-blur min-h-[calc(100vh-5rem)] sm:min-h-0 flex flex-col">
-				<div class="card-body px-6 py-6 sm:p-8 flex-1 flex flex-col justify-between">
-					<div>
-						<div class="text-center mb-3">
-							<div class="text-5xl mb-2">🐷👫🇪🇸</div>
-							<h1 class="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent leading-tight">
-								Pipsan ystävät
-							</h1>
-							<p class="text-lg text-base-content/70 mt-1 leading-tight">
-								Kuuntele ja valitse oikea kuva!
-							</p>
-							<p class="text-sm text-base-content/50 mt-0.5 leading-tight">
-								Escucha y elige la imagen correcta
-							</p>
-						</div>
-
-						<!-- Preview: Toggle between modes -->
-						<div class="bg-gradient-to-r from-blue-100 to-purple-100 rounded-xl p-2 sm:p-4 mb-3">
-							<div class="grid grid-cols-2 gap-2 sm:gap-4">
-								<div>
-									<p class="text-xs font-bold text-center mb-2">🖼️ Kuvavinkki</p>
-									<div class="grid grid-cols-2 gap-1 sm:gap-2">
-										<div class="aspect-square rounded-lg overflow-hidden shadow-lg border-2 border-pink-300">
-											<img src="{base}/peppa_advanced_spanish_images/svg/01_muddy_puddles.svg" alt="Muddy puddles" class="w-full h-full object-cover" />
-										</div>
-										<div class="aspect-square rounded-lg overflow-hidden shadow-lg border-2 border-blue-300">
-											<img src="{base}/peppa_advanced_spanish_images/svg/02_yo_soy_peppa.svg" alt="Yo soy Peppa" class="w-full h-full object-cover" />
-										</div>
-									</div>
-								</div>
-								<div>
-									<p class="text-xs font-bold text-center mb-2">😀 Emoji-vinkki</p>
-									<div class="grid grid-cols-2 gap-2">
-										<div class="aspect-square rounded-lg overflow-hidden shadow-lg border-2 border-pink-300 bg-gradient-to-br from-pink-50 to-purple-50 flex items-center justify-center">
-											<span class="text-3xl sm:text-xl">🐷💦🟤👢😄</span>
-										</div>
-										<div class="aspect-square rounded-lg overflow-hidden shadow-lg border-2 border-blue-300 bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center">
-											<span class="text-3xl sm:text-xl">🐷👆💗✨</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Audio Toggle -->
-						<div class="form-control mb-3">
-							<label class="label cursor-pointer bg-base-200 rounded-lg p-2 w-full">
-								<div class="flex items-center gap-2">
-									<span class="text-2xl sm:text-3xl">🔊</span>
-									<span class="text-base sm:text-lg font-bold">Ääni päälle</span>
-								</div>
-								<input
-									type="checkbox"
-									bind:checked={autoPlayAudio}
-									onchange={saveAudioSetting}
-									class="toggle toggle-secondary toggle-sm sm:toggle-md ml-auto"
-								/>
-							</label>
-						</div>
-					</div>
-
-					<!-- Action Buttons Row -->
-					<div class="flex gap-3 items-stretch">
-						<button 
-							class="btn btn-lg flex-shrink-0 bg-pink-200 hover:bg-pink-300 border-pink-300 text-base-content"
-							onclick={togglePhrasePreview}
-						>
-							<span class="text-2xl">📖</span>
-							Sanakirja
-						</button>
-
-						<button 
-							class="btn btn-primary btn-lg flex-1 text-xl"
-							onclick={startGame}
-						>
-							<span class="text-3xl">🎮</span>
-							Aloita
-						</button>
-					</div>
-				</div>
-			</div>
+			<KidsStartScreen
+				title="Pipsan ystävät"
+				subtitle="Kuuntele ja valitse oikea kuva!"
+				subtitleSpanish="Escucha y elige la imagen correcta"
+				previewImages={[
+					`${base}/peppa_advanced_spanish_images/svg/01_muddy_puddles.svg`,
+					`${base}/peppa_advanced_spanish_images/svg/02_yo_soy_peppa.svg`
+				]}
+				{autoPlayAudio}
+				onToggleAudio={(enabled) => {
+					autoPlayAudio = enabled;
+					saveAudioSetting();
+				}}
+				onStart={startGame}
+				onOpenSanakirja={togglePhrasePreview}
+			/>
 		{:else if gameStarted && currentQuestion}
 			<!-- Game Screen -->
 			<div class="flex flex-col gap-2 max-h-screen overflow-hidden">
 				<!-- Progress with integrated close button -->
-				<div class="card bg-white/90 shadow-lg">
-					<div class="card-body p-2">
-						<div class="flex items-center justify-between text-sm">
-							<span class="font-bold text-base">Kysymys {questionNumber}/{totalQuestions}</span>
-							<div class="flex items-center gap-2">
-								<span class="font-bold text-base text-success">✅ {correctAnswers}</span>
-								<button onclick={resetGame} class="btn btn-ghost btn-xs" title="Sulje peli">
-									✕
-								</button>
-							</div>
-						</div>
-						<progress 
-							class="progress progress-primary w-full h-2" 
-							value={questionNumber} 
-							max={totalQuestions}
-						></progress>
-					</div>
-				</div>
+				<KidsGameHeader
+					currentQuestion={questionNumber}
+					{totalQuestions}
+					correctCount={correctAnswers}
+					onClose={resetGame}
+				/>
 
 				<!-- Audio Card with Toggle (hidden during feedback) -->
 				{#if !showFeedback}
@@ -909,38 +849,13 @@
 					</div>
 				{:else}
 					<!-- Image Options Grid -->
-					<div class="grid grid-cols-2 gap-2 flex-1 min-h-0">
-						{#each currentOptions as option}
-							<button
-								class="aspect-square rounded-2xl overflow-hidden shadow-xl transition-all duration-500 border-4
-									{selectedAnswer === option.id 
-										? option.isCorrect 
-											? 'border-green-500 ring-4 ring-green-300 scale-105' 
-											: 'border-red-500 ring-4 ring-red-300 opacity-70'
-										: selectedAnswer !== null && option.isCorrect
-											? 'border-green-500 ring-4 ring-green-300 animate-pulse'
-											: 'border-white/50 hover:border-primary hover:scale-105 hover:shadow-2xl'
-									}"
-								disabled={selectedAnswer !== null}
-								onclick={() => selectAnswer(option.id)}
-							>
-								<!-- Display mode: SVG or Emoji -->
-								{#if displayMode === 'svg'}
-									<!-- SVG Image Mode -->
-									<img 
-										src={option.file} 
-									alt=""
-									class="w-full h-full object-cover bg-white transition-all duration-500"
-									/>
-								{:else}
-									<!-- Emoji Mode -->
-									<div class="w-full h-full bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 flex items-center justify-center transition-all duration-500">
-										<span class="text-5xl sm:text-6xl tracking-wider">{option.emojiDisplay}</span>
-									</div>
-								{/if}
-							</button>
-						{/each}
-					</div>
+					<KidsImageOptions
+						options={currentOptions}
+						{displayMode}
+						{selectedAnswer}
+						onSelect={selectAnswer}
+						showDebugLabels={true}
+					/>
 				{/if}
 
 
@@ -958,60 +873,12 @@
 			</div>
 		{:else if gameEnded}
 			<!-- End Screen -->
-			<div class="card bg-white/95 shadow-2xl backdrop-blur">
-				<div class="card-body items-center text-center p-8">
-					<div class="text-8xl mb-4">
-						{#if correctAnswers / totalQuestions >= 0.8}
-							🏆
-						{:else if correctAnswers / totalQuestions >= 0.5}
-							⭐
-						{:else}
-							💪
-						{/if}
-					</div>
-
-					<h2 class="text-3xl font-bold mb-2">
-						{#if correctAnswers / totalQuestions >= 0.8}
-							Loistavaa! 🎉
-						{:else if correctAnswers / totalQuestions >= 0.5}
-							Hyvä työ! 🌟
-						{:else}
-							Hyvä yritys! 💪
-						{/if}
-					</h2>
-
-					<div class="text-6xl font-bold text-primary my-4">
-						{correctAnswers} / {totalQuestions}
-					</div>
-
-					<div class="text-xl text-base-content/70 mb-6">
-						oikein
-					</div>
-
-					<!-- Decorations -->
-					<div class="flex gap-4 text-4xl mb-6">
-						<span class="animate-bounce delay-100">🐷</span>
-						<span class="animate-bounce delay-200">🌈</span>
-						<span class="animate-bounce delay-300">🎨</span>
-						<span class="animate-bounce delay-400">⭐</span>
-					</div>
-
-					<div class="flex flex-col sm:flex-row gap-3 w-full max-w-md">
-						<button 
-							class="btn btn-primary btn-lg flex-1 text-xl"
-							onclick={startGame}
-						>
-							🔄 Pelaa uudelleen
-						</button>
-						<a 
-							href="{base}/"
-							class="btn btn-outline btn-lg flex-1 text-xl"
-						>
-							🏠 Kotiin
-						</a>
-					</div>
-				</div>
-			</div>
+			<KidsEndScreen
+				correctCount={correctAnswers}
+				{totalQuestions}
+				onPlayAgain={startGame}
+				onHome={() => window.location.href = `${base}/`}
+			/>
 		{/if}
 
 		<!-- Phrase Preview Modal -->

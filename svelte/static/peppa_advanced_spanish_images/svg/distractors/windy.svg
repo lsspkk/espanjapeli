@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background sky -->
+  <rect width="400" height="400" fill="#B8E6F7"/>
+  
+  <!-- Ground -->
+  <rect y="300" width="400" height="100" fill="#7BC043"/>
+  
+  <!-- Fallen leaves -->
+  <ellipse cx="50" cy="320" rx="8" ry="5" fill="#FF8A65"/>
+  <ellipse cx="100" cy="330" rx="6" ry="4" fill="#FFD966"/>
+  <ellipse cx="150" cy="315" rx="7" ry="4" fill="#E63946"/>
+  <ellipse cx="200" cy="325" rx="5" ry="3" fill="#66BB6A"/>
+  
+  <!-- Trees bending -->
+  <line x1="50" y1="300" x2="30" y2="200" stroke="#8B4513" stroke-width="6"/>
+  <line x1="45" y1="200" x2="20" y2="180" stroke="#8B4513" stroke-width="3"/>
+  <line x1="55" y1="200" x2="40" y2="180" stroke="#8B4513" stroke-width="3"/>
+  
+  <line x1="350" y1="300" x2="370" y2="200" stroke="#8B4513" stroke-width="6"/>
+  <line x1="355" y1="200" x2="380" y2="180" stroke="#8B4513" stroke-width="3"/>
+  <line x1="345" y1="200" x2="360" y2="180" stroke="#8B4513" stroke-width="3"/>
+  
+  <!-- Peppa against wind -->
+  <!-- Body/Dress billowing -->
+  <ellipse cx="200" cy="250" rx="35" ry="45" fill="#E63946" transform="rotate(-15 200 250)"/>
+  
+  <!-- Head tilted -->
+  <circle cx="200" cy="180" r="40" fill="#F9C6CF"/>
+  
+  <!-- Snout -->
+  <ellipse cx="210" cy="190" rx="15" ry="12" fill="#FF69B4"/>
+  <circle cx="205" cy="185" r="2" fill="#000000"/>
+  <circle cx="215" cy="185" r="2" fill="#000000"/>
+  
+  <!-- Eyes squinted -->
+  <ellipse cx="185" cy="170" rx="8" ry="4" fill="#FFFFFF"/>
+  <ellipse cx="185" cy="170" rx="4" ry="2" fill="#000000"/>
+  <ellipse cx="195" cy="165" rx="8" ry="4" fill="#FFFFFF"/>
+  <ellipse cx="195" cy="165" rx="4" ry="2" fill="#000000"/>
+  
+  <!-- Mouth effort -->
+  <ellipse cx="200" cy="195" rx="5" ry="3" fill="#000000"/>
+  
+  <!-- Ears -->
+  <circle cx="170" cy="150" r="10" fill="#F9C6CF"/>
+  <circle cx="230" cy="150" r="10" fill="#F9C6CF"/>
+  
+  <!-- Arms for balance -->
+  <ellipse cx="160" cy="240" rx="8" ry="25" fill="#F9C6CF" transform="rotate(20 160 240)"/>
+  <ellipse cx="240" cy="240" rx="8" ry="25" fill="#F9C6CF" transform="rotate(-20 240 240)"/>
+  
+  <!-- Legs -->
+  <ellipse cx="185" cy="300" rx="10" ry="20" fill="#F9C6CF"/>
+  <ellipse cx="215" cy="300" rx="10" ry="20" fill="#F9C6CF"/>
+  
+  <!-- Wind lines -->
+  <line x1="100" y1="150" x2="50" y2="150" stroke="#E0E0E0" stroke-width="3"/>
+  <line x1="110" y1="170" x2="60" y2="170" stroke="#E0E0E0" stroke-width="3"/>
+  <line x1="120" y1="190" x2="70" y2="190" stroke="#E0E0E0" stroke-width="3"/>
+  <line x1="300" y1="160" x2="350" y2="160" stroke="#E0E0E0" stroke-width="3"/>
+  <line x1="290" y1="180" x2="340" y2="180" stroke="#E0E0E0" stroke-width="3"/>
+</svg></content>
+<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/windy.svg

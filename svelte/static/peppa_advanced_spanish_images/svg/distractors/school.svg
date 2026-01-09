@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background sky -->
+  <rect width="400" height="400" fill="#B8E6F7"/>
+  
+  <!-- Ground -->
+  <rect y="300" width="400" height="100" fill="#7BC043"/>
+  
+  <!-- School building -->
+  <rect x="150" y="150" width="150" height="100" fill="#FFD966" stroke="#000000" stroke-width="2"/>
+  <!-- Roof -->
+  <polygon points="140,150 160,130 290,130 310,150" fill="#E63946"/>
+  <!-- Windows -->
+  <rect x="170" y="170" width="30" height="30" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <rect x="210" y="170" width="30" height="30" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <rect x="250" y="170" width="30" height="30" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <!-- Door -->
+  <rect x="200" y="210" width="40" height="40" fill="#8B4513"/>
+  
+  <!-- School bell -->
+  <circle cx="240" cy="125" r="8" fill="#FFD700"/>
+  <rect x="238" y="133" width="4" height="10" fill="#FFD700"/>
+  
+  <!-- Sign -->
+  <rect x="180" y="140" width="40" height="15" fill="#FFFFFF" stroke="#000000" stroke-width="1"/>
+  <text x="200" y="150" text-anchor="middle" font-size="8" fill="#000000">ABC</text>
+  
+  <!-- Playground -->
+  <!-- Swing -->
+  <line x1="50" y1="250" x2="50" y2="300" stroke="#8B4513" stroke-width="4"/>
+  <line x1="30" y1="250" x2="70" y2="250" stroke="#8B4513" stroke-width="4"/>
+  <ellipse cx="40" cy="300" rx="8" ry="5" fill="#FFFFFF"/>
+  <ellipse cx="60" cy="300" rx="8" ry="5" fill="#FFFFFF"/>
+  <!-- Slide -->
+  <rect x="80" y="250" width="20" height="50" fill="#FF0000"/>
+  <polygon points="80,250 100,250 90,300" fill="#FF0000"/>
+  
+  <!-- Path -->
+  <rect x="180" y="250" width="40" height="50" fill="#D2B48C"/>
+  
+  <!-- Madame Gazelle -->
+  <circle cx="220" cy="260" r="15" fill="#F6D365"/>
+  <ellipse cx="220" cy="275" rx="12" ry="20" fill="#F6D365"/>
+  
+  <!-- Peppa -->
+  <circle cx="160" cy="280" r="10" fill="#F9C6CF"/>
+  <ellipse cx="160" cy="290" rx="8" ry="12" fill="#E63946"/>
+  <!-- Backpack -->
+  <rect x="155" y="285" width="10" height="8" fill="#0000FF"/>
+  
+  <!-- George -->
+  <circle cx="140" cy="285" r="8" fill="#F9C6CF"/>
+  <ellipse cx="140" cy="292" rx="6" ry="10" fill="#6B9BD2"/>
+  
+  <!-- Suzy -->
+  <circle cx="180" cy="285" r="8" fill="#FFFFFF"/>
+  <ellipse cx="180" cy="292" rx="6" ry="10" fill="#FFFFFF"/>
+  
+  <!-- Danny -->
+  <circle cx="200" cy="285" r="8" fill="#F4C9B6"/>
+  <ellipse cx="200" cy="292" rx="6" ry="10" fill="#C86A37"/>
+</svg></content>
+<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/school.svg

@@ -4844,7 +4844,8 @@
         ],
         "display": "🐷🏊💦🩱"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/swimming.svg"
     },
     "bathing": {
       "description": "Pig in bathtub with bubbles",
@@ -4857,7 +4858,8 @@
         ],
         "display": "🐷🛁🧼🫧"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/bathing.svg"
     },
     "rain": {
       "description": "Rain clouds and umbrella",
@@ -4870,7 +4872,8 @@
         ],
         "display": "🌧️☔💧☁️"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/rain.svg"
     },
     "sad_puddle": {
       "description": "Pig looking sadly at puddle",
@@ -4883,7 +4886,8 @@
         ],
         "display": "🐷😢💧🚫"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/sad_puddle.svg"
     },
     "george": {
       "description": "George with dinosaur toy",
@@ -4896,7 +4900,8 @@
         ],
         "display": "🐷💙🦖👶"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/george.svg"
     },
     "mummy_pig": {
       "description": "Mummy Pig in yellow dress",
@@ -4909,7 +4914,8 @@
         ],
         "display": "🐷👗💛👩"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/mummy_pig.svg"
     },
     "daddy_pig": {
       "description": "Daddy Pig with glasses",
@@ -4922,7 +4928,8 @@
         ],
         "display": "🐷👓🧡👨"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/daddy_pig.svg"
     },
     "suzy_sheep": {
       "description": "Suzy Sheep waving",
@@ -4935,7 +4942,8 @@
         ],
         "display": "🐑👋💜👧"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/suzy_sheep.svg"
     },
     "morning": {
       "description": "Sunrise with rooster",
@@ -4948,7 +4956,8 @@
         ],
         "display": "🌅🐓☀️⏰"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/morning.svg"
     },
     "breakfast": {
       "description": "Breakfast table with pancakes",
@@ -4961,7 +4970,8 @@
         ],
         "display": "🥞🍳🥛☕"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/breakfast.svg"
     },
     "playing": {
       "description": "Kids playing with ball",
@@ -4974,7 +4984,8 @@
         ],
         "display": "⚽🏃🎮😄"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/playing.svg"
     },
     "rainy": {
       "description": "Rainy day with clouds",
@@ -4987,7 +4998,8 @@
         ],
         "display": "🌧️☁️💧😔"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/rainy.svg"
     },
     "snowy": {
       "description": "Snowy winter day",
@@ -5000,7 +5012,8 @@
         ],
         "display": "❄️⛄🌨️🧥"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/snowy.svg"
     },
     "cloudy": {
       "description": "Overcast cloudy sky",
@@ -5012,7 +5025,8 @@
         ],
         "display": "☁️🌥️😐"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/cloudy.svg"
     },
     "windy": {
       "description": "Windy day with leaves",
@@ -5025,7 +5039,8 @@
         ],
         "display": "💨🍃🌬️🧣"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/windy.svg"
     },
     "school": {
       "description": "School building with children",
@@ -5038,7 +5053,8 @@
         ],
         "display": "🏫📚✏️👨‍🏫"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/school.svg"
     },
     "dinner": {
       "description": "Family dinner table",
@@ -5051,7 +5067,8 @@
         ],
         "display": "🍽️🍝👨‍👩‍👧🍷"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/dinner.svg"
     },
     "shopping": {
       "description": "Shopping cart in supermarket",
@@ -5064,7 +5081,8 @@
         ],
         "display": "🛒🏪🍎💳"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/shopping.svg"
     },
     "sleeping": {
       "description": "Sleeping",
@@ -5076,7 +5094,8 @@
         "display": "😴🛏️",
         "description": "Sleeping"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/sleeping.svg"
     },
     "eating": {
       "description": "Eating food",
@@ -5088,7 +5107,8 @@
         "display": "🍽️🍴",
         "description": "Eating food"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/eating.svg"
     },
     "sad": {
       "description": "Sad",
@@ -5100,7 +5120,8 @@
         "display": "😢😔",
         "description": "Sad"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/sad.svg"
     },
     "happy": {
       "description": "Happy",
@@ -5112,7 +5133,8 @@
         "display": "😊😄",
         "description": "Happy"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/happy.svg"
     },
     "studying": {
       "description": "Studying",
@@ -5124,7 +5146,8 @@
         "display": "📚✏️",
         "description": "Studying"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/studying.svg"
     },
     "home": {
       "description": "Home",
@@ -5135,7 +5158,8 @@
         "display": "🏠",
         "description": "Home"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/home.svg"
     },
     "night": {
       "description": "Night time",
@@ -5147,7 +5171,8 @@
         "display": "🌙⭐",
         "description": "Night time"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/night.svg"
     },
     "hot": {
       "description": "Hot weather",
@@ -5159,7 +5184,8 @@
         "display": "🔥☀️",
         "description": "Hot weather"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/hot.svg"
     },
     "class_time": {
       "description": "Class time",
@@ -5171,7 +5197,8 @@
         "display": "📚🕐",
         "description": "Class time"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/class_time.svg"
     },
     "reading": {
       "description": "Reading",
@@ -5183,7 +5210,8 @@
         "display": "📖👓",
         "description": "Reading"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/reading.svg"
     },
     "soup": {
       "description": "Soup",
@@ -5195,7 +5223,8 @@
         "display": "🍲🥄",
         "description": "Soup"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/soup.svg"
     },
     "vegetables": {
       "description": "Vegetables",
@@ -5207,7 +5236,8 @@
         "display": "🥕🥦",
         "description": "Vegetables"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/vegetables.svg"
     },
     "run_fast": {
       "description": "Run Fast",
@@ -5219,7 +5249,8 @@
         "display": "🏃💨",
         "description": "Run fast"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/run_fast.svg"
     },
     "jump": {
       "description": "Jump",
@@ -5231,7 +5262,8 @@
         "display": "🦘⬆️",
         "description": "Jump"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/jump.svg"
     },
     "sleep": {
       "description": "Sleep",
@@ -5243,7 +5275,8 @@
         "display": "😴💤",
         "description": "Sleep"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/sleep.svg"
     },
     "cry": {
       "description": "Cry",
@@ -5255,7 +5288,8 @@
         "display": "😭😢",
         "description": "Cry"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/cry.svg"
     },
     "panic": {
       "description": "Panic",
@@ -5267,7 +5301,8 @@
         "display": "😱😨",
         "description": "Panic"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/panic.svg"
     },
     "scared": {
       "description": "Scared",
@@ -5279,7 +5314,8 @@
         "display": "😨😰",
         "description": "Scared"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/scared.svg"
     },
     "bad": {
       "description": "Bad",
@@ -5291,7 +5327,8 @@
         "display": "👎❌",
         "description": "Bad"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/bad.svg"
     },
     "try_again": {
       "description": "Try Again",
@@ -5303,7 +5340,8 @@
         "display": "🔄💪",
         "description": "Try again"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/try_again.svg"
     },
     "boring": {
       "description": "Boring",
@@ -5315,7 +5353,8 @@
         "display": "😴🥱",
         "description": "Boring"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/boring.svg"
     },
     "brave": {
       "description": "Brave",
@@ -5327,7 +5366,8 @@
         "display": "💪🦁",
         "description": "Brave"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/brave.svg"
     },
     "calm": {
       "description": "Calm",
@@ -5339,7 +5379,8 @@
         "display": "😌🧘",
         "description": "Calm"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/calm.svg"
     },
     "angry": {
       "description": "Angry",
@@ -5351,7 +5392,8 @@
         "display": "😠💢",
         "description": "Angry"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/angry.svg"
     },
     "delicious": {
       "description": "Delicious",
@@ -5363,7 +5405,8 @@
         "display": "😋🤤",
         "description": "Delicious"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/delicious.svg"
     },
     "your_turn": {
       "description": "Your Turn",
@@ -5375,7 +5418,8 @@
         "display": "👉🎯",
         "description": "Your turn"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/your_turn.svg"
     },
     "waiting": {
       "description": "Waiting",
@@ -5387,7 +5431,8 @@
         "display": "⏳⌛",
         "description": "Waiting"
       },
-      "status": "emoji_ready"
+      "status": "svg_ready",
+      "file": "svg/distractors/waiting.svg"
     }
   },
   "gameSettings": {

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background - classroom -->
+  <rect width="400" height="400" fill="#FFF8E7"/>
+  
+  <!-- Wall -->
+  <rect y="0" width="400" height="280" fill="#FFE5D9"/>
+  
+  <!-- Floor -->
+  <rect y="280" width="400" height="120" fill="#D4A574"/>
+  
+  <!-- Green chalkboard -->
+  <rect x="220" y="50" width="140" height="100" fill="#2D5016" rx="3"/>
+  <rect x="220" y="50" width="140" height="100" fill="none" stroke="#8D6E63" stroke-width="4" rx="3"/>
+  
+  <!-- ABC letters on chalkboard -->
+  <text x="250" y="90" font-family="Arial" font-size="24" fill="#FFFFFF" font-weight="bold">ABC</text>
+  <text x="245" y="125" font-family="Arial" font-size="20" fill="#FFFFFF">123</text>
+  
+  <!-- Simple ABC as shapes instead -->
+  <g id="chalkboard-letters">
+    <!-- A -->
+    <path d="M 245 75 L 255 95 M 265 75 L 255 95 M 248 87 L 262 87" stroke="#FFFFFF" stroke-width="3" fill="none"/>
+    <!-- B -->
+    <path d="M 275 75 L 275 95 M 275 75 Q 285 75 285 82 Q 285 85 275 85 M 275 85 Q 287 85 287 92 Q 287 95 275 95" stroke="#FFFFFF" stroke-width="3" fill="none"/>
+    <!-- C -->
+    <path d="M 305 75 Q 295 75 295 85 Q 295 95 305 95" stroke="#FFFFFF" stroke-width="3" fill="none"/>
+    
+    <!-- 123 -->
+    <path d="M 245 110 L 255 110 L 245 120 L 255 120" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+    <path d="M 265 110 Q 275 110 275 115 Q 275 120 265 120" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+    <path d="M 285 110 Q 295 110 295 115 M 295 115 Q 295 120 285 120" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+  </g>
+  
+  <!-- Clock on wall -->
+  <circle cx="100" cy="100" r="30" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <circle cx="100" cy="100" r="3" fill="#000000"/>
+  <line x1="100" y1="100" x2="100" y2="80" stroke="#000000" stroke-width="2.5"/>
+  <line x1="100" y1="100" x2="115" y2="105" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Wall decorations (colorful drawings) -->
+  <rect x="30" y="60" width="40" height="35" fill="#FFB6D9" opacity="0.6" rx="2"/>
+  <circle cx="50" cy="75" r="8" fill="#FFD966"/>
+  <path d="M 35 85 L 40 90 L 45 85 L 50 90 L 55 85 L 60 90 L 65 85" stroke="#66BB6A" stroke-width="2" fill="none"/>
+  
+  <!-- Madame Gazelle at chalkboard -->
+  <g id="madame_gazelle" transform="translate(310, 180)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="25" ry="35" fill="#F6D365"/>
+    
+    <!-- Head -->
+    <ellipse cx="0" cy="-15" rx="20" ry="25" fill="#FBE9D7"/>
+    
+    <!-- Snout -->
+    <ellipse cx="8" cy="-10" rx="10" ry="8" fill="#FFB6D9"/>
+    <circle cx="5" cy="-12" r="1.5" fill="#000000"/>
+    <circle cx="11" cy="-12" r="1.5" fill="#000000"/>
+    
+    <!-- Eye -->
+    <circle cx="-5" cy="-18" r="5" fill="#FFFFFF"/>
+    <circle cx="-5" cy="-18" r="3" fill="#000000"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-12" cy="-30" rx="6" ry="12" fill="#FBE9D7"/>
+    <ellipse cx="12" cy="-30" rx="6" ry="12" fill="#FBE9D7"/>
+    
+    <!-- Scarf -->
+    <rect x="-15" y="5" width="30" height="8" fill="#D97706" rx="2"/>
+    
+    <!-- Arm holding pointer -->
+    <ellipse cx="-20" cy="10" rx="6" ry="18" fill="#F6D365" transform="rotate(-40 -20 10)"/>
+    
+    <!-- Pointer stick -->
+    <line x1="-25" y1="0" x2="30" y2="-35" stroke="#8D6E63" stroke-width="2"/>
+  </g>
+  
+  <!-- Student desks -->
+  <!-- Peppa's desk -->
+  <rect x="80" y="240" width="50" height="8" fill="#8D6E63" rx="2"/>
+  <rect x="85" y="248" width="6" height="35" fill="#8D6E63"/>
+  <rect x="119" y="248" width="6" height="35" fill="#8D6E63"/>
+  
+  <!-- Suzy's desk -->
+  <rect x="150" y="240" width="50" height="8" fill="#8D6E63" rx="2"/>
+  <rect x="155" y="248" width="6" height="35" fill="#8D6E63"/>
+  <rect x="189" y="248" width="6" height="35" fill="#8D6E63"/>
+  
+  <!-- Peppa sitting at desk -->
+  <g id="peppa" transform="translate(105, 210)">
+    <!-- Body/Dress -->
+    <ellipse cx="0" cy="15" rx="20" ry="25" fill="#E63946"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="25" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="10" cy="-5" rx="10" ry="7" fill="#FF69B4"/>
+    <circle cx="7" cy="-7" r="1.5" fill="#000000"/>
+    <circle cx="13" cy="-7" r="1.5" fill="#000000"/>
+    
+    <!-- Eye (attentive) -->
+    <circle cx="-6" cy="-14" r="5" fill="#FFFFFF"/>
+    <circle cx="-6" cy="-14" r="3" fill="#000000"/>
+    
+    <!-- Ears -->
+    <circle cx="-15" cy="-25" r="7" fill="#F9C6CF"/>
+    <circle cx="15" cy="-25" r="7" fill="#F9C6CF"/>
+  </g>
+  
+  <!-- Suzy Sheep sitting at desk -->
+  <g id="suzy" transform="translate(175, 210)">
+    <!-- Body (fluffy white) -->
+    <ellipse cx="0" cy="15" rx="22" ry="26" fill="#FFFFFF"/>
+    <circle cx="-8" cy="10" r="8" fill="#FFFFFF"/>
+    <circle cx="8" cy="10" r="8" fill="#FFFFFF"/>
+    <circle cx="-5" cy="25" r="7" fill="#FFFFFF"/>
+    <circle cx="5" cy="25" r="7" fill="#FFFFFF"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="24" fill="#FFFFFF"/>
+    <circle cx="-10" cy="-12" r="10" fill="#FFFFFF"/>
+    <circle cx="10" cy="-8" r="9" fill="#FFFFFF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="10" cy="-5" rx="9" ry="7" fill="#FFB6D9"/>
+    <circle cx="7" cy="-7" r="1.5" fill="#000000"/>
+    <circle cx="13" cy="-7" r="1.5" fill="#000000"/>
+    
+    <!-- Eye -->
+    <circle cx="-6" cy="-14" r="5" fill="#FFFFFF"/>
+    <circle cx="-6" cy="-14" r="3" fill="#000000"/>
+    
+    <!-- Ears -->
+    <ellipse cx="-14" cy="-24" rx="5" ry="10" fill="#FFFFFF"/>
+    <ellipse cx="14" cy="-24" rx="5" ry="10" fill="#FFFFFF"/>
+  </g>
+</svg>

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F4F8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF8E7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Table surface -->
+  <rect y="260" width="400" height="140" fill="#E8D4B8"/>
+  
+  <!-- George Pig -->
+  <g id="george">
+    <!-- Body/Shirt -->
+    <ellipse cx="200" cy="280" rx="45" ry="50" fill="#6B9BD2"/>
+    
+    <!-- Arms -->
+    <ellipse cx="155" cy="270" rx="12" ry="30" fill="#F9C6CF"/>
+    <ellipse cx="245" cy="270" rx="12" ry="30" fill="#F9C6CF"/>
+    
+    <!-- Right arm holding spoon -->
+    <ellipse cx="250" cy="240" rx="12" ry="28" fill="#F9C6CF" transform="rotate(-45 250 240)"/>
+    
+    <!-- Head -->
+    <ellipse cx="200" cy="180" rx="48" ry="52" fill="#F9C6CF"/>
+    
+    <!-- Ears -->
+    <circle cx="165" cy="145" r="14" fill="#F9C6CF"/>
+    <circle cx="235" cy="145" r="14" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="218" cy="195" rx="22" ry="18" fill="#FF69B4"/>
+    
+    <!-- Nostrils -->
+    <circle cx="212" cy="190" r="3" fill="#D81B60"/>
+    <circle cx="224" cy="190" r="3" fill="#D81B60"/>
+    
+    <!-- Eyes looking down at food -->
+    <circle cx="180" cy="170" r="11" fill="#FFFFFF"/>
+    <circle cx="182" cy="174" r="6" fill="#000000"/>
+    <circle cx="215" cy="170" r="11" fill="#FFFFFF"/>
+    <circle cx="217" cy="174" r="6" fill="#000000"/>
+    
+    <!-- Mouth open mid-bite -->
+    <ellipse cx="218" cy="205" rx="8" ry="10" fill="#FF69B4"/>
+    <path d="M 210 205 Q 218 212 226 205" fill="none" stroke="#D81B60" stroke-width="2"/>
+  </g>
+  
+  <!-- Bowl of food -->
+  <g id="bowl">
+    <!-- Bowl -->
+    <ellipse cx="200" cy="320" rx="45" ry="12" fill="#C62828"/>
+    <ellipse cx="200" cy="310" rx="45" ry="30" fill="#E63946"/>
+    
+    <!-- Food inside (cereal/pasta) -->
+    <ellipse cx="190" cy="305" rx="8" ry="8" fill="#FFD966"/>
+    <ellipse cx="210" cy="303" rx="9" ry="9" fill="#FFD966"/>
+    <ellipse cx="200" cy="310" rx="7" ry="7" fill="#FFD966"/>
+    <ellipse cx="185" cy="312" rx="8" ry="8" fill="#FFD966"/>
+    <ellipse cx="215" cy="311" rx="8" ry="8" fill="#FFD966"/>
+    <ellipse cx="195" cy="298" rx="7" ry="7" fill="#FFD966"/>
+    <ellipse cx="205" cy="297" rx="8" ry="8" fill="#FFD966"/>
+  </g>
+  
+  <!-- Spoon going to mouth -->
+  <g id="spoon">
+    <!-- Spoon handle -->
+    <rect x="265" y="215" width="4" height="50" rx="2" fill="#BDBDBD" transform="rotate(-45 267 240)"/>
+    
+    <!-- Spoon bowl -->
+    <ellipse cx="280" cy="200" rx="10" ry="14" fill="#BDBDBD" transform="rotate(-45 280 200)"/>
+    <ellipse cx="280" cy="200" rx="8" ry="12" fill="#E0E0E0" transform="rotate(-45 280 200)"/>
+    
+    <!-- Food on spoon -->
+    <ellipse cx="278" cy="200" rx="5" ry="6" fill="#FFD966" transform="rotate(-45 278 200)"/>
+    <ellipse cx="282" cy="202" rx="4" ry="5" fill="#FFD966" transform="rotate(-45 282 202)"/>
+  </g>
+  
+  <!-- Mr. Dinosaur watching -->
+  <g id="mrDinosaur">
+    <!-- Body -->
+    <ellipse cx="120" cy="310" rx="20" ry="25" fill="#6FBF73"/>
+    
+    <!-- Head -->
+    <ellipse cx="120" cy="285" rx="18" ry="20" fill="#6FBF73"/>
+    
+    <!-- Eyes -->
+    <circle cx="115" cy="283" r="4" fill="#FFFFFF"/>
+    <circle cx="115" cy="283" r="2" fill="#000000"/>
+    <circle cx="125" cy="283" r="4" fill="#FFFFFF"/>
+    <circle cx="125" cy="283" r="2" fill="#000000"/>
+    
+    <!-- Smile -->
+    <path d="M 113 290 Q 120 294 127 290" fill="none" stroke="#4A7C4E" stroke-width="1.5"/>
+    
+    <!-- Teeth -->
+    <rect x="118" y="288" width="2" height="3" fill="#FFFFFF"/>
+    <rect x="121" y="288" width="2" height="3" fill="#FFFFFF"/>
+    
+    <!-- Tail -->
+    <ellipse cx="105" cy="315" rx="8" ry="12" fill="#6FBF73" transform="rotate(-30 105 315)"/>
+    
+    <!-- Spikes -->
+    <circle cx="120" cy="273" r="4" fill="#5DA95F"/>
+    <circle cx="120" cy="280" r="4" fill="#5DA95F"/>
+    <circle cx="120" cy="295" r="4" fill="#5DA95F"/>
+  </g>
+  
+  <!-- Glass of milk -->
+  <ellipse cx="280" cy="320" rx="18" ry="8" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="262" y="290" width="36" height="30" fill="#FFFFFF" opacity="0.8"/>
+  <ellipse cx="280" cy="290" rx="18" ry="8" fill="#FFFFFF"/>
+  <rect x="264" y="292" width="32" height="26" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+</svg>

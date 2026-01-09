@@ -5,8 +5,9 @@
 
 <div class="min-h-screen bg-base-200">
 	<div class="container mx-auto px-4 py-8">
+		<!-- Back Button - Top Left -->
 		<div class="mb-4">
-			<a href="{base}/" class="btn btn-ghost btn-sm">← Takaisin valikkoon</a>
+			<a href="{base}/" class="btn btn-ghost btn-sm">Takaisin</a>
 		</div>
 
 		<div class="card bg-base-100 shadow-xl">

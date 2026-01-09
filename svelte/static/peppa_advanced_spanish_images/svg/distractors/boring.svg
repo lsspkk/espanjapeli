@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background - indoor room -->
+  <rect width="400" height="400" fill="#E8E8E8"/>
+  
+  <!-- Wall -->
+  <rect y="0" width="400" height="300" fill="#D5D5D5"/>
+  
+  <!-- Floor -->
+  <rect y="300" width="400" height="100" fill="#C8B8A8"/>
+  
+  <!-- Window showing grey day -->
+  <rect x="260" y="60" width="100" height="120" fill="#9E9E9E" rx="5"/>
+  <rect x="260" y="60" width="100" height="120" fill="none" stroke="#BDBDBD" stroke-width="3" rx="5"/>
+  <line x1="310" y1="60" x2="310" y2="180" stroke="#BDBDBD" stroke-width="3"/>
+  <line x1="260" y1="120" x2="360" y2="120" stroke="#BDBDBD" stroke-width="3"/>
+  
+  <!-- Grey clouds in window -->
+  <ellipse cx="290" cy="100" rx="15" ry="10" fill="#757575" opacity="0.6"/>
+  <ellipse cx="305" cy="105" rx="12" ry="8" fill="#757575" opacity="0.6"/>
+  <ellipse cx="330" cy="95" rx="18" ry="12" fill="#757575" opacity="0.6"/>
+  
+  <!-- Simple chair -->
+  <rect x="140" y="260" width="120" height="15" fill="#8D6E63" rx="3"/>
+  <rect x="155" y="275" width="15" height="80" fill="#8D6E63" rx="3"/>
+  <rect x="230" y="275" width="15" height="80" fill="#8D6E63" rx="3"/>
+  <rect x="140" y="340" width="120" height="15" fill="#8D6E63" rx="3"/>
+  
+  <!-- Peppa sitting on chair -->
+  <g id="peppa">
+    <!-- Body/Dress -->
+    <ellipse cx="200" cy="250" rx="50" ry="60" fill="#E63946"/>
+    
+    <!-- Head tilted, resting on hoof -->
+    <circle cx="200" cy="170" r="60" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="220" cy="180" rx="25" ry="19" fill="#FF69B4"/>
+    <circle cx="214" cy="176" r="2.5" fill="#000000"/>
+    <circle cx="226" cy="176" r="2.5" fill="#000000"/>
+    
+    <!-- Eyes (half-closed, bored) -->
+    <ellipse cx="175" cy="160" rx="12" ry="7" fill="#FFFFFF"/>
+    <ellipse cx="175" cy="162" rx="6" ry="4" fill="#000000"/>
+    
+    <!-- Flat mouth line (bored expression) -->
+    <line x1="210" y1="190" x2="230" y2="190" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Ears -->
+    <circle cx="160" cy="125" r="15" fill="#F9C6CF"/>
+    <circle cx="240" cy="125" r="15" fill="#F9C6CF"/>
+    
+    <!-- Arm supporting head -->
+    <ellipse cx="160" cy="180" rx="12" ry="30" fill="#F9C6CF" transform="rotate(-30 160 180)"/>
+    
+    <!-- Other arm hanging -->
+    <ellipse cx="240" cy="240" rx="12" ry="28" fill="#F9C6CF"/>
+    
+    <!-- Legs (slouched) -->
+    <rect x="175" y="300" width="15" height="40" rx="7" fill="#F9C6CF"/>
+    <rect x="210" y="300" width="15" height="40" rx="7" fill="#F9C6CF"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="182" cy="340" rx="11" ry="7" fill="#000000"/>
+    <ellipse cx="217" cy="340" rx="11" ry="7" fill="#000000"/>
+  </g>
+</svg>

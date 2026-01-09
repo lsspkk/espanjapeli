@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F4F8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF9E6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Floor -->
+  <rect y="300" width="400" height="100" fill="#F5F5F5"/>
+  
+  <!-- Game board -->
+  <rect x="50" y="250" width="80" height="50" fill="#FFD966" stroke="#000000" stroke-width="2"/>
+  <rect x="55" y="255" width="15" height="15" fill="#FF0000"/>
+  <rect x="75" y="255" width="15" height="15" fill="#0000FF"/>
+  <rect x="95" y="255" width="15" height="15" fill="#00FF00"/>
+  <rect x="55" y="275" width="15" height="15" fill="#FFFF00"/>
+  <rect x="75" y="275" width="15" height="15" fill="#FF00FF"/>
+  <rect x="95" y="275" width="15" height="15" fill="#00FFFF"/>
+  
+  <!-- Peppa -->
+  <!-- Body/Dress -->
+  <ellipse cx="250" cy="250" rx="35" ry="45" fill="#E63946"/>
+  
+  <!-- Head -->
+  <circle cx="250" cy="180" r="40" fill="#F9C6CF"/>
+  
+  <!-- Snout -->
+  <ellipse cx="260" cy="190" rx="15" ry="12" fill="#FF69B4"/>
+  <circle cx="255" cy="185" r="2" fill="#000000"/>
+  <circle cx="265" cy="185" r="2" fill="#000000"/>
+  
+  <!-- Eyes wide and friendly -->
+  <circle cx="235" cy="170" r="8" fill="#FFFFFF"/>
+  <circle cx="235" cy="170" r="4" fill="#000000"/>
+  <circle cx="245" cy="165" r="8" fill="#FFFFFF"/>
+  <circle cx="245" cy="165" r="4" fill="#000000"/>
+  
+  <!-- Big smile -->
+  <path d="M 250 195 Q 255 205 260 195" stroke="#000000" stroke-width="2" fill="none"/>
+  
+  <!-- Ears -->
+  <circle cx="220" cy="150" r="10" fill="#F9C6CF"/>
+  <circle cx="280" cy="150" r="10" fill="#F9C6CF"/>
+  
+  <!-- Arms -->
+  <!-- One extended invitingly -->
+  <ellipse cx="210" cy="240" rx="8" ry="25" fill="#F9C6CF" transform="rotate(30 210 240)"/>
+  <!-- Other gesturing -->
+  <ellipse cx="290" cy="240" rx="8" ry="25" fill="#F9C6CF" transform="rotate(-20 290 240)"/>
+  
+  <!-- Legs -->
+  <ellipse cx="235" cy="300" rx="10" ry="20" fill="#F9C6CF"/>
+  <ellipse cx="265" cy="300" rx="10" ry="20" fill="#F9C6CF"/>
+</svg></content>
+<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/your_turn.svg

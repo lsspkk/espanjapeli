@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4E9F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFF8E7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Floor -->
+  <rect y="320" width="400" height="80" fill="#E8D4B8"/>
+  
+  <!-- Toy blocks in background -->
+  <rect x="80" y="290" width="25" height="25" fill="#E63946" stroke="#C62828" stroke-width="2"/>
+  <rect x="320" y="295" width="22" height="22" fill="#6B9BD2" stroke="#5A8BC0" stroke-width="2"/>
+  <rect x="350" y="300" width="20" height="20" fill="#FFD966" stroke="#E6C255" stroke-width="2"/>
+  
+  <!-- George Pig -->
+  <g id="george">
+    <!-- Legs -->
+    <rect x="180" y="280" width="16" height="40" rx="8" fill="#F9C6CF"/>
+    <rect x="204" y="280" width="16" height="40" rx="8" fill="#F9C6CF"/>
+    
+    <!-- Feet -->
+    <ellipse cx="188" cy="318" rx="12" ry="7" fill="#FF69B4"/>
+    <ellipse cx="212" cy="318" rx="12" ry="7" fill="#FF69B4"/>
+    
+    <!-- Body/Shirt -->
+    <ellipse cx="200" cy="230" rx="48" ry="60" fill="#6B9BD2"/>
+    
+    <!-- Arms holding dinosaur -->
+    <ellipse cx="155" cy="230" rx="13" ry="32" fill="#F9C6CF"/>
+    <ellipse cx="245" cy="230" rx="13" ry="32" fill="#F9C6CF"/>
+    
+    <!-- Hands positioned to hold dinosaur -->
+    <ellipse cx="160" cy="210" rx="10" ry="12" fill="#F9C6CF" transform="rotate(-20 160 210)"/>
+    <ellipse cx="240" cy="210" rx="10" ry="12" fill="#F9C6CF" transform="rotate(20 240 210)"/>
+    
+    <!-- Head -->
+    <ellipse cx="200" cy="150" rx="52" ry="56" fill="#F9C6CF"/>
+    
+    <!-- Ears -->
+    <circle cx="160" cy="115" r="16" fill="#F9C6CF"/>
+    <circle cx="240" cy="115" r="16" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="220" cy="165" rx="24" ry="20" fill="#FF69B4"/>
+    
+    <!-- Nostrils -->
+    <circle cx="213" cy="160" r="3" fill="#D81B60"/>
+    <circle cx="227" cy="160" r="3" fill="#D81B60"/>
+    
+    <!-- Eyes - wide and joyful -->
+    <circle cx="175" cy="140" r="13" fill="#FFFFFF"/>
+    <circle cx="175" cy="140" r="7" fill="#000000"/>
+    <circle cx="177" cy="137" r="3" fill="#FFFFFF"/>
+    
+    <circle cx="215" cy="140" r="13" fill="#FFFFFF"/>
+    <circle cx="215" cy="140" r="7" fill="#000000"/>
+    <circle cx="217" cy="137" r="3" fill="#FFFFFF"/>
+    
+    <!-- Big happy smile -->
+    <path d="M 205 180 Q 220 190 235 180" fill="none" stroke="#D81B60" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Mr. Dinosaur toy -->
+  <g id="mrDinosaur">
+    <!-- Body -->
+    <ellipse cx="200" cy="210" rx="28" ry="35" fill="#6FBF73"/>
+    
+    <!-- Head -->
+    <ellipse cx="200" cy="175" rx="25" ry="28" fill="#6FBF73"/>
+    
+    <!-- Spikes on back -->
+    <circle cx="200" cy="160" r="6" fill="#5DA95F"/>
+    <circle cx="200" cy="170" r="6" fill="#5DA95F"/>
+    <circle cx="200" cy="180" r="7" fill="#5DA95F"/>
+    <circle cx="200" cy="192" r="7" fill="#5DA95F"/>
+    <circle cx="200" cy="205" r="6" fill="#5DA95F"/>
+    
+    <!-- Tail -->
+    <ellipse cx="185" cy="235" rx="12" ry="18" fill="#6FBF73" transform="rotate(-40 185 235)"/>
+    <circle cx="178" cy="242" r="5" fill="#5DA95F"/>
+    
+    <!-- Arms -->
+    <ellipse cx="178" cy="200" rx="8" ry="18" fill="#6FBF73"/>
+    <ellipse cx="222" cy="200" rx="8" ry="18" fill="#6FBF73"/>
+    
+    <!-- Legs -->
+    <ellipse cx="188" cy="238" rx="10" ry="15" fill="#6FBF73"/>
+    <ellipse cx="212" cy="238" rx="10" ry="15" fill="#6FBF73"/>
+    
+    <!-- Eyes -->
+    <circle cx="192" cy="172" r="5" fill="#FFFFFF"/>
+    <circle cx="192" cy="172" r="3" fill="#000000"/>
+    <circle cx="208" cy="172" r="5" fill="#FFFFFF"/>
+    <circle cx="208" cy="172" r="3" fill="#000000"/>
+    
+    <!-- Friendly smile -->
+    <path d="M 190 183 Q 200 188 210 183" fill="none" stroke="#4A7C4E" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Teeth -->
+    <rect x="197" y="181" width="3" height="4" fill="#E8F5E9"/>
+    <rect x="201" y="181" width="3" height="4" fill="#E8F5E9"/>
+  </g>
+</svg>

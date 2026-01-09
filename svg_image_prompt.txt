@@ -1,0 +1,271 @@
+Your ROLE: You are vector graphics designer who has drawn many picture books and comics for kids.
+YOUR TASK: Create SVG files for 5 next distractor images in the todo list that are not done.
+(wrong answer options) based on the detailed descriptions in @svg_todo.txt
+Be very short about what you respond to agent progress to the user, say like this: image 1. done,   image 2. done etc.
+
+
+WORKFLOW:
+1. Read @svg_todo.txt to see all 45 distractor image descriptions
+2. For each image, create an SVG file following the detailed visual description
+3. Save each SVG to: svelte/static/peppa_advanced_spanish_images/svg/distractors/[filename].svg
+4. Mark the checkbox as done in @svg_todo.txt after creating each file
+
+================================================================================
+SVG TECHNICAL REQUIREMENTS
+================================================================================
+
+- File format: Clean, hand-coded SVG (not exported from design tools)
+- ViewBox: 0 0 400 400 (square format)
+- Style: Simple, flat design with minimal details
+- Use exact hex colors from the character color guide in this file
+- Use all shapes, for example: <circle>, <ellipse>, <rect>, <path>, <polygon>
+- You may use complex filters and gradients 
+- <text> elements are allowed, but only few words text
+
+================================================================================
+CHARACTER PROPORTION examples (Peppa Pig Style)
+================================================================================
+
+PEPPA PIG:
+- Head: Large circle/ellipse (pink #F9C6CF)
+- Snout: Extended oval with two nostrils (pink #FF69B4)
+- Eyes: Two white circles with black pupils (simple dots)
+- Dress: Simple trapezoid shape (red #E63946)
+- Arms/legs: Simple rounded rectangles or ovals
+- Ears: Two small circles on top of head
+
+GEORGE PIG:
+- Similar to Peppa but smaller
+- Blue shirt instead of red dress (#6B9BD2)
+- Slightly rounder proportions (toddler)
+
+MUMMY & DADDY PIG:
+- Larger, taller proportions
+- Orange body (#FF8A65), lighter head (#FFAB91)
+- Daddy: Teal/cyan shirt (#4DB8AC), Glasses (simple black circles)
+- Mummy: Yellow dress (#FFD966)
+
+SUZY SHEEP:
+- White fluffy body (use multiple circles for texture)
+- Similar face structure to Peppa
+- Slightly smaller than Peppa
+
+================================================================================
+ART STYLE GUIDELINES
+================================================================================
+
+✓ Simple, confident lines (stroke-width: 2-3)
+✓ Rounded, friendly shapes (no sharp angles on characters)
+✓ Minimal but meaningful details
+✓ Kind, safe expressions (large eyes, simple smiles)
+✓ Bright, cheerful colors
+✓ One focal character + 1-3 simple props
+✓ Simple backgrounds (solid colors or simple gradients)
+✓ Make the main concept obvious at first glance
+
+✗ No complex shading or realistic details
+✗ No scary or threatening expressions
+✗ No tiny details that won't be visible at small sizes
+✗ No complex patterns or textures
+
+================================================================================
+EXAMPLE SVG STRUCTURE
+================================================================================
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B8E6F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#skyGradient)"/>
+  
+  <!-- Ground -->
+  <rect y="300" width="400" height="100" fill="#7BC043"/>
+  
+  <!-- Character (Peppa) -->
+  <g id="peppa">
+    <!-- Body/Dress -->
+    <ellipse cx="200" cy="250" rx="50" ry="60" fill="#E63946"/>
+    
+    <!-- Head -->
+    <circle cx="200" cy="150" r="60" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="220" cy="160" rx="25" ry="20" fill="#FF69B4"/>
+    <circle cx="215" cy="155" r="3" fill="#000000"/>
+    <circle cx="225" cy="155" r="3" fill="#000000"/>
+    
+    <!-- Eyes -->
+    <circle cx="180" cy="140" r="12" fill="#FFFFFF"/>
+    <circle cx="180" cy="140" r="6" fill="#000000"/>
+    
+    <!-- Ears -->
+    <circle cx="170" cy="110" r="15" fill="#F9C6CF"/>
+    <circle cx="230" cy="110" r="15" fill="#F9C6CF"/>
+    
+    <!-- Arms -->
+    <ellipse cx="150" cy="240" rx="12" ry="30" fill="#F9C6CF"/>
+    <ellipse cx="250" cy="240" rx="12" ry="30" fill="#F9C6CF"/>
+    
+    <!-- Legs -->
+    <rect x="180" y="300" width="15" height="40" rx="7" fill="#F9C6CF"/>
+    <rect x="205" y="300" width="15" height="40" rx="7" fill="#F9C6CF"/>
+  </g>
+</svg>
+```
+
+================================================================================
+QUALITY CHECKLIST (Before Saving Each SVG)
+================================================================================
+
+□ File saved to correct location: svelte/static/peppa_advanced_spanish_images/svg/distractors/
+□ Filename matches the description (e.g., angry.svg, happy.svg)
+□ ViewBox is 0 0 400 400
+□ Colors match the character color guide exactly
+□ Character proportions look like Peppa Pig style
+□ Main concept is immediately recognizable
+□ No scary or inappropriate elements
+□ File size is reasonable (<50KB)
+□ SVG validates (no syntax errors)
+□ Checkbox marked as done in @svg_todo.txt
+
+================================================================================
+CREATION ORDER
+================================================================================
+
+Start with the simplest images first to establish the style:
+1. Single character emotions (angry, happy, sad, calm, brave)
+2. Single character actions (jump, run_fast, reading, sleeping)
+3. Character pairs (playing, dinner, class_time)
+4. Environment/weather scenes (cloudy, rainy, snowy, windy)
+5. Object-focused scenes (breakfast, soup, vegetables)
+
+Work systematically through @svg_todo.txt from top to bottom.
+
+================================================================================
+REMEMBER
+================================================================================
+
+- Each image is a DISTRACTOR (wrong answer option) for the game
+- Images must be visually distinct from each other
+- Keep it simple - kids need to recognize concepts quickly
+- Follow the Peppa Pig art style consistently
+- Use the detailed descriptions in @svg_todo.txt as your guide
+- Have fun! These are for kids learning Spanish 🎨
+
+================================================================================
+CHARACTER COLORS (USE THESE EXACTLY)
+================================================================================
+
+- Peppa Pig: Red dress (#E63946), Pink head (#F9C6CF), Pink snout/nostrils (#FF69B4)
+- George Pig: Blue shirt (#6B9BD2), Pink head (#F9C6CF), Pink snout/nostrils (#FF69B4)
+- Mummy Pig: Yellow dress (#FFD966), Orange body (#FF8A65), Lighter peach head (#FFAB91), Pink snout/nostrils (#FF69B4)
+- Daddy Pig: Teal shirt (#4DB8AC), Orange body (#FF8A65), Lighter peach head (#FFAB91), Pink snout/nostrils (#FF69B4), Black glasses
+- Suzy Sheep: White body (#FFFFFF), White head (#FFFFFF), Pink snout/nostrils (#FF69B4)
+- Danny Dog: Brown body (#C86A37), Lighter head (#F4C9B6), Nose accent (#8B4B2F)
+- Rebecca Rabbit: White body (#FFFFFF), White head (#FFFFFF), Nose accent (#FFB6C1)
+- Pedro Pony: Light brown body (#C9A07A), Lighter head (#F4D7C3), Glasses/mane accent (#6B9BD2)
+- Candy Cat: Yellow-orange body (#FFD166), Light head (#FFE6A7), Nose accent (#FF8DAA)
+- Emily Elephant: Light blue-gray body (#BFC9D6), Head (#BFC9D6), Trunk tip accent (#9FB0C6)
+- Zoë Zebra: White body (#FFFFFF), White head (#FFFFFF), Stripe accent (#1F2937)
+- Madame Gazelle: Warm beige body (#F6D365), Lighter head (#FBE9D7), Scarf accent (#D97706)
+- Mr. Fox: Orange-red body (#FF9F1C), Light head (#FFCF9B), Nose accent (#CC6B00)
+- Miss Rabbit: Tan body (#D3A27A), Light head (#F6D4C0), Nose accent (#B06B49)
+- Mr. Bull: Slate-gray body (#9CA3AF), Light head (#D1D5DB), Horn accent (#6B7280)
+- Grandpa Pig: Muted pink body (#E07A6A), Lighter head (#FFD2C2), Snout (#FF69B4)
+- Granny Pig: Warm coral body (#F4A261), Light head (#FFD6BA), Snout (#FF69B4)
+- Wendy Wolf: Dusky brown body (#B98B7F), Light head (#E9CFC6), Nose accent (#8B5A44)
+- Gerald Giraffe: Golden body (#F0C987), Lighter head (#F7DEB6), Spots accent (#C6862E)
+- Mr. Elephant: Dusty blue body (#B0C0CC), Light head (#C9D6DE), Trunk tip (#8AA0B3)
+- Mr. Dinosaur (toy): Green body (#6FBF73), Head (#6FBF73), Teeth accent (#E8F5E9)
+
+================================================================================
+ART STYLE GUIDELINES
+================================================================================
+
+- Simple, confident lines and rounded, friendly shapes
+- Minimal but meaningful details
+- Kind, safe, kid-friendly expressions (no scary faces)
+- Bright, sunny palette (pinks, light blues, greens, warm yellows)
+- One focal character + 1-3 context objects
+- Simple backgrounds (soft sky/room gradient)
+- Make the main action obvious in 1 second
+
+
+================================================================================
+PEPPA PIG WORLD - ELEMENTS TO DRAW FROM
+================================================================================
+
+CORE CHARACTERS (use frequently):
+- Peppa Pig (age 4): Cheerful, adventurous, loves muddy puddles
+- George Pig (age 2): Peppa's little brother, carries his toy dinosaur "Mr. Dinosaur"
+- Mummy Pig (works from home): Gentle, patient, often cooking or reading
+- Daddy Pig (architect/builder): Cheerful, slightly clumsy, loves his family
+
+FRIENDS & EXTENDED CAST:
+- Suzy Sheep: Peppa's best friend, white fleece, loves playing dress-up
+- Danny Dog: Peppa's friend, brown/orange fur, likes pirates
+- Rebecca Rabbit: Peppa's friend, has many siblings
+- Pedro Pony: Wears glasses, sometimes forgetful
+- Candy Cat: Peppa's friend, loves singing
+- Emily Elephant: Peppa's friend, excellent memory
+- Zoë Zebra: Peppa's friend, wears striped dress
+- Madame Gazelle: The school teacher, kind and musical
+
+BELOVED LOCATIONS:
+- Peppa's House: Tall yellow house on a hill with red roof
+- Playgroup/School: Where Madame Gazelle teaches
+- The Playground: Swings, slide, climbing frame, seesaw
+- Grandpa and Granny Pig's House: Garden with vegetables
+- The Supermarket: Where Mr. Fox works
+- The Beach: Sandy with shells and sandcastles
+- Muddy Puddles: Peppa's FAVORITE thing in the world!
+- The Park: Trees, ducks in pond, picnic areas
+
+ICONIC PROPS & OBJECTS (kids love these):
+- George's dinosaur "Mr. Dinosaur" (always green)
+- Wellington boots (rubber boots for puddle jumping!)
+- Peppa's teddy bear "Teddy"
+- Balls (red, rainbow, or striped)
+- Bicycles and tricycles
+- Umbrellas (colorful)
+- Balloons (birthday parties)
+- Ice cream cones
+- Birthday cakes with candles
+- Picnic baskets
+- Watering cans
+- Garden vegetables
+- Books and storybooks
+- Musical instruments (xylophone, drums, recorder)
+- Toy boats for bath time
+
+WEATHER & TIME OF DAY (great for mood):
+- Sunny days with puffy clouds
+- Rainy days (perfect for muddy puddles!)
+- Rainbow after rain
+- Starry nights with crescent moon
+- Golden sunset/sunrise
+- Windy autumn with falling leaves
+- Snowy winter wonderland
+
+ACTIVITIES KIDS LOVE TO SEE:
+- Jumping in muddy puddles (THE classic Peppa activity)
+- Playing hide and seek
+- Having picnics
+- Going on adventures
+- Playing with toys
+- Baking/cooking together
+- Reading bedtime stories
+- Playing musical instruments
+- Swimming/splashing
+- Drawing and painting
+- Playing ball games
+- Building sandcastles
+- Riding bikes
+- Visiting grandparents
+- Having birthday parties

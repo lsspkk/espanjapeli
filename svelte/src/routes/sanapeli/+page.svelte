@@ -32,6 +32,7 @@
 		getTierEmoji,
 		type CategoryWithKey 
 	} from '$lib/data/categoryConfig';
+	import BackButton from '$lib/components/shared/BackButton.svelte';
 	import { 
 		selectGameWords, 
 		recordGameCompletion, 
@@ -655,11 +656,16 @@
 
 <!-- HOME STATE -->
 {#if gameState === 'home'}
-	<div class="min-h-screen bg-base-200 flex items-center justify-center p-0 md:p-4">
-		<div class="card bg-base-100 shadow-xl w-full md:max-w-2xl min-h-screen md:min-h-0">
-			<div class="card-body p-4 md:p-8">
-				<h1 class="text-3xl font-bold text-center text-primary mb-3">🇪🇸 Espanjapeli 🇫🇮</h1>
-				<a href="{base}/" class="btn btn-ghost btn-md self-center mb-4">← Takaisin</a>
+	<div class="min-h-screen bg-base-200 flex flex-col p-0 md:p-4">
+		<!-- Back Button - Top Left -->
+		<div class="md:container md:mx-auto md:max-w-2xl p-2 md:p-0 md:mb-2">
+			<BackButton />
+		</div>
+		
+		<div class="flex-1 flex items-center justify-center">
+			<div class="card bg-base-100 shadow-xl w-full md:max-w-2xl min-h-screen md:min-h-0">
+				<div class="card-body p-4 md:p-8">
+					<h1 class="text-3xl font-bold text-center text-primary mb-6">🇪🇸 Espanjapeli 🇫🇮</h1>
 
 				<!-- Category Selection -->
 				<div class="form-control mb-4">
@@ -871,15 +877,15 @@
 						</div>
 					{/each}
 
-					<!-- Close button -->
-					<div class="fixed bottom-4 right-4">
-						<button class="btn btn-primary btn-lg" on:click={toggleSanakirja}>
-							Sulje
-						</button>
-					</div>
+				<!-- Close button -->
+				<div class="fixed bottom-4 right-4">
+					<button class="btn btn-primary btn-lg" on:click={toggleSanakirja}>
+						Sulje
+					</button>
 				</div>
 			</div>
 		</div>
+	</div>
 	{/if}
 
 	<!-- Category Picker Modal -->
@@ -1017,12 +1023,13 @@
 			</div>
 		</div>
 	{/if}
+</div>
 {/if}
 
 <!-- PLAYING STATE - Normal Mode -->
 <!-- PLAYING STATE - Normal Mode -->
 {#if gameState === 'playing' && !isCompactModeEnabled}
-	<div class="min-h-screen bg-base-200 flex items-center justify-center p-0 md:p-4">
+	<div class="min-h-screen bg-base-200 flex flex-col md:items-center md:justify-start p-0 md:p-4">
 		<div class="card bg-base-100 shadow-xl w-full md:max-w-2xl min-h-screen md:min-h-0 relative">
 			<button on:click={goHome} class="btn btn-ghost btn-circle btn-sm absolute top-2 right-2 text-2xl" title="Lopeta peli">✕</button>
 			
@@ -1278,7 +1285,7 @@
 
 <!-- ANSWERED STATE - Normal Mode -->
 {#if gameState === 'answered' && !isCompactModeEnabled}
-	<div class="min-h-screen bg-base-200 flex items-center justify-center p-4">
+	<div class="min-h-screen bg-base-200 flex flex-col md:items-center md:justify-start p-0 md:p-4">
 		<div class="card bg-base-100 shadow-xl w-full max-w-2xl relative">
 			<button on:click={goHome} class="btn btn-ghost btn-circle btn-sm absolute top-2 right-2 text-2xl" title="Lopeta peli">✕</button>
 			
@@ -1376,7 +1383,7 @@
 
 <!-- REPORT STATE -->
 {#if gameState === 'report'}
-	<div class="min-h-screen bg-base-200 flex items-center justify-center p-4">
+	<div class="min-h-screen bg-base-200 flex flex-col md:items-center md:justify-start p-0 md:p-4">
 		<div class="card bg-base-100 shadow-xl w-full max-w-2xl">
 			<div class="card-body">
 				<h2 class="card-title text-3xl justify-center mb-6 text-primary">🎉 Peli päättyi!</h2>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B8E6F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Peppa Pig -->
+  <g id="peppa">
+    <!-- Body/Dress -->
+    <ellipse cx="200" cy="260" rx="55" ry="70" fill="#E63946"/>
+    
+    <!-- Arms crossed -->
+    <ellipse cx="160" cy="250" rx="14" ry="35" fill="#F9C6CF" transform="rotate(-20 160 250)"/>
+    <ellipse cx="240" cy="250" rx="14" ry="35" fill="#F9C6CF" transform="rotate(20 240 250)"/>
+    
+    <!-- Head -->
+    <circle cx="200" cy="160" r="65" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="225" cy="170" rx="28" ry="22" fill="#FF69B4"/>
+    <circle cx="218" cy="165" r="3" fill="#000000"/>
+    <circle cx="232" cy="165" r="3" fill="#000000"/>
+    
+    <!-- Eyes (angry expression) -->
+    <circle cx="175" cy="145" r="13" fill="#FFFFFF"/>
+    <circle cx="175" cy="145" r="7" fill="#000000"/>
+    
+    <!-- Angry eyebrows (furrowed V-shape) -->
+    <path d="M 160 135 L 175 142 L 190 135" stroke="#000000" stroke-width="3" fill="none" stroke-linecap="round"/>
+    
+    <!-- Mouth (firm pout) -->
+    <path d="M 215 185 L 235 185" stroke="#000000" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Ears -->
+    <circle cx="160" cy="115" r="16" fill="#F9C6CF"/>
+    <circle cx="240" cy="115" r="16" fill="#F9C6CF"/>
+    
+    <!-- Flushed cheeks -->
+    <ellipse cx="165" cy="165" rx="12" ry="8" fill="#FF8FAB" opacity="0.6"/>
+    
+    <!-- Legs -->
+    <rect x="180" y="320" width="16" height="45" rx="8" fill="#F9C6CF"/>
+    <rect x="204" y="320" width="16" height="45" rx="8" fill="#F9C6CF"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="188" cy="365" rx="12" ry="8" fill="#000000"/>
+    <ellipse cx="212" cy="365" rx="12" ry="8" fill="#000000"/>
+  </g>
+</svg>

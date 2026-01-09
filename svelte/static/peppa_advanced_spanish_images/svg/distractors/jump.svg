@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B8E6F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="400" height="400" fill="url(#skyGradient)"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="90" cy="70" rx="38" ry="24" fill="#FFFFFF" opacity="0.7"/>
+  <ellipse cx="115" cy="65" rx="32" ry="20" fill="#FFFFFF" opacity="0.7"/>
+  <ellipse cx="310" cy="90" rx="42" ry="26" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Ground -->
+  <rect y="320" width="400" height="80" fill="#7BC043"/>
+  
+  <!-- Grass tufts where she jumped from -->
+  <ellipse cx="180" cy="325" rx="15" ry="8" fill="#66BB6A"/>
+  <ellipse cx="220" cy="325" rx="15" ry="8" fill="#66BB6A"/>
+  
+  <!-- Small dust clouds at takeoff point -->
+  <ellipse cx="170" cy="328" rx="12" ry="6" fill="#E0E0E0" opacity="0.5"/>
+  <ellipse cx="230" cy="328" rx="12" ry="6" fill="#E0E0E0" opacity="0.5"/>
+  
+  <!-- Motion arc lines showing jump trajectory -->
+  <path d="M 160 300 Q 180 220 200 180" fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0.4" stroke-dasharray="5,5"/>
+  <path d="M 240 300 Q 220 220 200 180" fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0.4" stroke-dasharray="5,5"/>
+  
+  <!-- Peppa Pig - MID-JUMP! -->
+  <g id="peppa-jumping">
+    <!-- Legs bent, feet off ground -->
+    <rect x="175" y="240" width="16" height="40" rx="8" fill="#F9C6CF" stroke="#000000" stroke-width="2" transform="rotate(-15 183 260)"/>
+    <rect x="210" y="240" width="16" height="40" rx="8" fill="#F9C6CF" stroke="#000000" stroke-width="2" transform="rotate(15 218 260)"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="180" cy="280" rx="12" ry="8" fill="#8B4513" stroke="#000000" stroke-width="2" transform="rotate(-15 180 280)"/>
+    <ellipse cx="225" cy="280" rx="12" ry="8" fill="#8B4513" stroke="#000000" stroke-width="2" transform="rotate(15 225 280)"/>
+    
+    <!-- Body/Dress (lifted slightly from motion) -->
+    <ellipse cx="200" cy="200" rx="52" ry="60" fill="#E63946" stroke="#000000" stroke-width="2.5"/>
+    <path d="M 155 220 Q 160 210 165 220" fill="#E63946"/>
+    <path d="M 235 220 Q 240 210 245 220" fill="#E63946"/>
+    
+    <!-- Arms spread wide for balance and joy -->
+    <ellipse cx="145" cy="190" rx="13" ry="32" fill="#F9C6CF" stroke="#000000" stroke-width="2" transform="rotate(-35 145 190)"/>
+    <ellipse cx="255" cy="190" rx="13" ry="32" fill="#F9C6CF" stroke="#000000" stroke-width="2" transform="rotate(35 255 190)"/>
+    
+    <!-- Head -->
+    <circle cx="200" cy="135" r="58" fill="#F9C6CF" stroke="#000000" stroke-width="2.5"/>
+    
+    <!-- Ears -->
+    <circle cx="168" cy="95" r="17" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    <circle cx="232" cy="95" r="17" fill="#F9C6CF" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Snout -->
+    <ellipse cx="222" cy="140" rx="27" ry="21" fill="#FF69B4" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Nostrils -->
+    <circle cx="216" cy="136" r="3.5" fill="#000000"/>
+    <circle cx="228" cy="136" r="3.5" fill="#000000"/>
+    
+    <!-- Eyes - squeezed into happy crescents -->
+    <path d="M 165 120 Q 177 128 189 120" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 200 120 Q 212 128 224 120" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Big joyful smile -->
+    <path d="M 172 155 Q 200 172 228 155" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Rosy cheeks from excitement -->
+    <circle cx="158" cy="148" r="12" fill="#FF8FAB" opacity="0.5"/>
+    <circle cx="242" cy="148" r="12" fill="#FF8FAB" opacity="0.5"/>
+    
+    <!-- Tail -->
+    <path d="M 248 215 Q 268 220 265 205" fill="none" stroke="#F9C6CF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 248 215 Q 268 220 265 205" fill="none" stroke="#000000" stroke-width="2"/>
+  </g>
+  
+  <!-- Motion lines showing upward movement -->
+  <path d="M 130 210 L 125 220" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 140 230 L 135 240" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 270 210 L 275 220" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 260 230 L 265 240" stroke="#E0E0E0" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  
+  <!-- Small muddy puddle in background (what she might be jumping toward) -->
+  <ellipse cx="200" cy="335" rx="35" ry="12" fill="#8B6F47" opacity="0.6"/>
+  <ellipse cx="200" cy="335" rx="30" ry="10" fill="#6B5637" opacity="0.4"/>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B8E6F7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background - sunny outdoor -->
+  <rect width="400" height="400" fill="url(#skyGradient)"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="60" r="35" fill="#FFD54F" opacity="0.8"/>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="400" rx="250" ry="50" fill="#7BC043"/>
+  <rect y="350" width="400" height="50" fill="#7BC043"/>
+  
+  <!-- George peeking from behind (smaller, nervous) -->
+  <g id="george">
+    <!-- Part of head visible -->
+    <ellipse cx="240" cy="240" rx="35" ry="45" fill="#F9C6CF"/>
+    
+    <!-- Eye (wide, nervous) -->
+    <circle cx="230" cy="230" r="9" fill="#FFFFFF"/>
+    <circle cx="230" cy="230" r="5" fill="#000000"/>
+    
+    <!-- Part of snout -->
+    <ellipse cx="250" cy="245" rx="15" ry="12" fill="#FF69B4"/>
+    
+    <!-- Ear -->
+    <circle cx="225" cy="210" r="12" fill="#F9C6CF"/>
+    
+    <!-- Blue shirt visible -->
+    <ellipse cx="245" cy="290" rx="30" ry="35" fill="#6B9BD2"/>
+  </g>
+  
+  <!-- Peppa standing brave (in front) -->
+  <g id="peppa">
+    <!-- Red cape flowing -->
+    <path d="M 180 200 Q 140 220 130 280 L 130 320 Q 135 310 145 300 Q 155 280 165 260 Q 175 230 180 200 Z" fill="#DC143C" opacity="0.9"/>
+    <path d="M 220 200 Q 260 220 270 280 L 270 320 Q 265 310 255 300 Q 245 280 235 260 Q 225 230 220 200 Z" fill="#DC143C" opacity="0.9"/>
+    
+    <!-- Body/Dress -->
+    <ellipse cx="200" cy="260" rx="52" ry="68" fill="#E63946"/>
+    
+    <!-- Head -->
+    <circle cx="200" cy="160" r="62" fill="#F9C6CF"/>
+    
+    <!-- Snout -->
+    <ellipse cx="223" cy="170" rx="26" ry="20" fill="#FF69B4"/>
+    <circle cx="217" cy="166" r="3" fill="#000000"/>
+    <circle cx="229" cy="166" r="3" fill="#000000"/>
+    
+    <!-- Eyes (determined, confident) -->
+    <circle cx="175" cy="145" r="12" fill="#FFFFFF"/>
+    <circle cx="175" cy="145" r="7" fill="#000000"/>
+    
+    <!-- Confident smile -->
+    <path d="M 213 185 Q 223 190 233 185" stroke="#000000" stroke-width="2.5" fill="none"/>
+    
+    <!-- Determined eyebrows -->
+    <path d="M 163 135 L 187 138" stroke="#000000" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Ears -->
+    <circle cx="160" cy="115" r="16" fill="#F9C6CF"/>
+    <circle cx="240" cy="115" r="16" fill="#F9C6CF"/>
+    
+    <!-- Arms on hips (superhero pose) -->
+    <ellipse cx="155" cy="250" rx="14" ry="30" fill="#F9C6CF" transform="rotate(-25 155 250)"/>
+    <ellipse cx="245" cy="250" rx="14" ry="30" fill="#F9C6CF" transform="rotate(25 245 250)"/>
+    
+    <!-- Hooves on hips -->
+    <ellipse cx="148" cy="265" rx="8" ry="6" fill="#F9C6CF"/>
+    <ellipse cx="252" cy="265" rx="8" ry="6" fill="#F9C6CF"/>
+    
+    <!-- Legs (standing tall) -->
+    <rect x="180" y="318" width="16" height="45" rx="8" fill="#F9C6CF"/>
+    <rect x="204" y="318" width="16" height="45" rx="8" fill="#F9C6CF"/>
+    
+    <!-- Shoes -->
+    <ellipse cx="188" cy="363" rx="12" ry="8" fill="#000000"/>
+    <ellipse cx="212" cy="363" rx="12" ry="8" fill="#000000"/>
+  </g>
+  
+  <!-- Cape attachment at shoulders -->
+  <circle cx="180" cy="200" r="5" fill="#8B0000"/>
+  <circle cx="220" cy="200" r="5" fill="#8B0000"/>
+</svg>

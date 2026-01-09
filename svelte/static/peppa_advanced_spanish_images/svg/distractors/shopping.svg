@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFFFFF"/>
+  
+  <!-- Floor -->
+  <rect y="300" width="400" height="100" fill="#F5F5F5"/>
+  
+  <!-- Shelves -->
+  <rect x="50" y="150" width="300" height="20" fill="#8B4513"/>
+  <rect x="50" y="180" width="300" height="20" fill="#8B4513"/>
+  <rect x="50" y="210" width="300" height="20" fill="#8B4513"/>
+  <!-- Products on shelves -->
+  <rect x="60" y="130" width="20" height="40" fill="#FF0000"/>
+  <rect x="90" y="130" width="20" height="40" fill="#00FF00"/>
+  <rect x="120" y="130" width="20" height="40" fill="#0000FF"/>
+  <rect x="150" y="130" width="20" height="40" fill="#FFFF00"/>
+  <rect x="180" y="130" width="20" height="40" fill="#FF00FF"/>
+  
+  <!-- Shopping cart -->
+  <rect x="200" y="250" width="60" height="40" fill="#BDBDBD" stroke="#000000" stroke-width="2"/>
+  <line x1="200" y1="270" x2="260" y2="270" stroke="#BDBDBD" stroke-width="2"/>
+  <circle cx="210" cy="290" r="5" fill="#BDBDBD"/>
+  <circle cx="250" cy="290" r="5" fill="#BDBDBD"/>
+  <!-- Groceries in cart -->
+  <ellipse cx="215" cy="260" rx="8" ry="5" fill="#00FF00"/>
+  <rect x="225" y="255" width="10" height="10" fill="#FFFFFF"/>
+  <circle cx="240" cy="260" r="6" fill="#FF0000"/>
+  <ellipse cx="250" cy="265" rx="5" ry="8" fill="#FFFF00"/>
+  
+  <!-- Mummy Pig -->
+  <circle cx="230" cy="220" r="20" fill="#FFAB91"/>
+  <ellipse cx="230" cy="240" rx="15" ry="25" fill="#FFD966"/>
+  <!-- Arms pushing cart -->
+  <ellipse cx="210" cy="235" rx="5" ry="15" fill="#FF8A65"/>
+  <ellipse cx="250" cy="235" rx="5" ry="15" fill="#FF8A65"/>
+  
+  <!-- Peppa -->
+  <circle cx="180" cy="240" r="15" fill="#F9C6CF"/>
+  <ellipse cx="180" cy="255" rx="12" ry="18" fill="#E63946"/>
+  <!-- Reaching for item -->
+  <ellipse cx="165" cy="250" rx="4" ry="12" fill="#F9C6CF"/>
+  
+  <!-- George in cart seat -->
+  <circle cx="230" cy="270" r="10" fill="#F9C6CF"/>
+  <ellipse cx="230" cy="280" rx="8" ry="12" fill="#6B9BD2"/>
+</svg></content>
+<parameter name="filePath">/home/lvp/study/espanjapeli/svelte/static/peppa_advanced_spanish_images/svg/distractors/shopping.svg

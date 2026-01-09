@@ -30,6 +30,7 @@ interface DistractorItem {
 	description: string;
 	emojiTip?: EmojiTip;
 	status: string;
+	file?: string;
 }
 
 interface GameQuestion {
@@ -188,6 +189,22 @@ describe('Pipsan ystävät Data Integrity', () => {
 			}
 
 			expect(missingEmoji.length).toBe(0);
+		});
+
+		it('should have SVG file paths for all distractor images', () => {
+			const missingSvg: string[] = [];
+
+			Object.entries(manifest.distractorImages).forEach(([id, distractor]) => {
+				if (!distractor.file || !distractor.file.match(/^svg\/distractors\/.*\.svg$/)) {
+					missingSvg.push(id);
+				}
+			});
+
+			if (missingSvg.length > 0) {
+				console.warn('Distractor images missing SVG file:', missingSvg.slice(0, 10));
+			}
+
+			expect(missingSvg.length).toBe(0);
 		});
 	});
 
