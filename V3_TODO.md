@@ -16,48 +16,48 @@ without breaking functionality.
 
 --------------------------------------------------------------------------------
 1.1 Create Directory Structure
-- [ ] Create `lib/components/basic/` directory
-- [ ] Create `lib/components/basic/core/` subdirectory
-- [ ] Create `lib/components/basic/feedback/` subdirectory
-- [ ] Create `lib/components/basic/input/` subdirectory
-- [ ] Create `lib/components/basic/modals/` subdirectory
-- [ ] Create `lib/components/basic/report/` subdirectory
-- [ ] Create `lib/components/basic/home/` subdirectory
-- [ ] Create `lib/components/kids/` directory
-- [ ] Create `lib/components/kids/core/` subdirectory
-- [ ] Create `lib/components/kids/feedback/` subdirectory
-- [ ] Create `lib/components/kids/input/` subdirectory
-- [ ] Create `lib/components/kids/home/` subdirectory
-- [ ] Create `lib/components/shared/` directory
-- [ ] Create `lib/types/` directory
+- [x] Create `lib/components/basic/` directory
+- [x] Create `lib/components/basic/core/` subdirectory
+- [x] Create `lib/components/basic/feedback/` subdirectory
+- [x] Create `lib/components/basic/input/` subdirectory
+- [x] Create `lib/components/basic/modals/` subdirectory
+- [x] Create `lib/components/basic/report/` subdirectory
+- [x] Create `lib/components/basic/home/` subdirectory
+- [x] Create `lib/components/kids/` directory
+- [x] Create `lib/components/kids/core/` subdirectory
+- [x] Create `lib/components/kids/feedback/` subdirectory
+- [x] Create `lib/components/kids/input/` subdirectory
+- [x] Create `lib/components/kids/home/` subdirectory
+- [x] Create `lib/components/shared/` directory
+- [x] Create `lib/types/` directory
 
 --------------------------------------------------------------------------------
 1.2 Create Type Definitions
-- [ ] Create `lib/types/game.ts`
-- [ ] Add GameState type: `'home' | 'playing' | 'feedback' | 'report'`
-- [ ] Add GameConfig interface (gameType, questionCount, category, direction, timed)
-- [ ] Add QuestionDisplay interface (id, displayText, audioText, audioLanguage)
-- [ ] Add AnswerResult interface (correct, userAnswer, correctAnswer, pointsEarned, feedback)
-- [ ] Add GameType type: `'sanapeli' | 'yhdistasanat' | 'tarinat' | 'peppa'`
+- [x] Create `lib/types/game.ts`
+- [x] Add GameState type: `'home' | 'playing' | 'feedback' | 'report'`
+- [x] Add GameConfig interface (gameType, questionCount, category, direction, timed)
+- [x] Add QuestionDisplay interface (id, displayText, audioText, audioLanguage)
+- [x] Add AnswerResult interface (correct, userAnswer, correctAnswer, pointsEarned, feedback)
+- [x] Add GameType type: `'sanapeli' | 'yhdistasanat' | 'tarinat' | 'peppa'`
 
 --------------------------------------------------------------------------------
 1.3 Extract Shared Utilities
-- [ ] Create `lib/utils/array.ts`
-- [ ] Move `shuffleArray<T>()` function (duplicated in 4+ files)
-- [ ] Move `spreadOutDuplicates()` function (duplicated in 3+ files)
-- [ ] Add unit tests for utility functions
+- [x] Create `lib/utils/array.ts`
+- [x] Move `shuffleArray<T>()` function (duplicated in 4+ files)
+- [x] Move `spreadOutDuplicates()` function (duplicated in 3+ files)
+- [x] Add unit tests for utility functions
 
 --------------------------------------------------------------------------------
 1.4 Extract Shared Animation CSS
-- [ ] Create `lib/styles/animations.css` or add to `layout.css`
-- [ ] Extract keyframe animations from yhdistasanat:
-  - [ ] `popIn` / `popOut`
-  - [ ] `slideDown` / `slideUp` / `slideDownOut` / `slideUpOut`
-  - [ ] `fadeIn` / `fadeOut`
-  - [ ] `rotateIn` / `rotateOut`
-  - [ ] `drawLine` (for SVG line animation)
-- [ ] Extract animation classes (`animate-pop-in`, `animate-slide-down`, etc.)
-- [ ] Import in components that need animations
+- [x] Create `lib/styles/animations.css` or add to `layout.css`
+- [x] Extract keyframe animations from yhdistasanat:
+  - [x] `popIn` / `popOut`
+  - [x] `slideDown` / `slideUp` / `slideDownOut` / `slideUpOut`
+  - [x] `fadeIn` / `fadeOut`
+  - [x] `rotateIn` / `rotateOut`
+  - [x] `drawLine` (for SVG line animation)
+- [x] Extract animation classes (`animate-pop-in`, `animate-slide-down`, etc.)
+- [x] Import in components that need animations
 
 ================================================================================
 
