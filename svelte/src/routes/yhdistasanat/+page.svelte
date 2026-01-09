@@ -32,6 +32,7 @@
 		type AnswerQuality 
 	} from '$lib/stores/wordKnowledge';
 	import OsaaminenModal from '$lib/components/OsaaminenModal.svelte';
+	import GameHeader from '$lib/components/basic/core/GameHeader.svelte';
 
 	// Game states
 	type GameState = 'home' | 'playing' | 'feedback' | 'report';
@@ -1169,31 +1170,14 @@
 		<div 
 			class="card bg-base-100 shadow-xl w-full md:max-w-5xl h-full md:h-auto md:max-h-[90vh] flex flex-col relative overflow-hidden"
 		>
-			<!-- Header Row -->
-			<div class="flex items-center justify-between p-3 md:p-4 border-b border-base-200 flex-shrink-0">
-				<div class="text-sm md:text-lg font-bold">
-					<span class="text-base-content/70">{currentQuestionNumber}/{selectedGameLength}</span>
-					<span class="mx-1 md:mx-2 text-base-content/30">|</span>
-					<span class="text-primary">{totalScore} p</span>
-				</div>
-				<div class="flex items-center gap-2">
-					<!-- Tries remaining indicator -->
-					<div class="flex gap-1">
-						{#each Array(3) as _, i}
-							<div 
-								class="w-3 h-3 md:w-4 md:h-4 rounded-full transition-all"
-								class:bg-success={i < triesRemaining}
-								class:bg-base-300={i >= triesRemaining}
-							></div>
-						{/each}
-					</div>
-					<button 
-						on:click={goHome} 
-						class="btn btn-ghost btn-circle btn-sm text-xl" 
-						title="Lopeta peli"
-					>✕</button>
-				</div>
-			</div>
+		<!-- Header Row -->
+		<GameHeader 
+			currentQuestion={currentQuestionNumber}
+			totalQuestions={selectedGameLength}
+			score={totalScore}
+			onQuit={goHome}
+			triesRemaining={triesRemaining}
+		/>
 
 			<!-- Main Game Area - Two Column Layout -->
 			<div class="flex flex-row flex-1 min-h-0 relative" bind:this={gameAreaRef}>

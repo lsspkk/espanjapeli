@@ -1022,8 +1022,8 @@
 <!-- PLAYING STATE - Normal Mode -->
 <!-- PLAYING STATE - Normal Mode -->
 {#if gameState === 'playing' && !isCompactModeEnabled}
-	<div class="min-h-screen bg-base-200 flex items-center justify-center p-4">
-		<div class="card bg-base-100 shadow-xl w-full max-w-2xl relative">
+	<div class="min-h-screen bg-base-200 flex items-center justify-center p-0 md:p-4">
+		<div class="card bg-base-100 shadow-xl w-full md:max-w-2xl min-h-screen md:min-h-0 relative">
 			<button on:click={goHome} class="btn btn-ghost btn-circle btn-sm absolute top-2 right-2 text-2xl" title="Lopeta peli">✕</button>
 			
 			<div class="card-body">
@@ -1051,50 +1051,89 @@
 					Mahdolliset pisteet: <span class="font-bold text-primary">{possiblePoints}</span>
 				</div>
 
-				<!-- Tip Tabs - Always visible -->
-				<div class="tabs tabs-boxed justify-center mb-3" role="tablist">
-					{#each [0, 1, 2] as index}
-						<button 
-							class="tab"
-							class:tab-active={activeTipTab === index && shownTips.length > index}
-							on:click={() => activeTipTab = index}
-							role="tab"
-							disabled={shownTips.length <= index}
-							aria-selected={activeTipTab === index}
-						>
-							Vihje {index + 1}
-						</button>
-					{/each}
-				</div>
-
-				<!-- Tips Section - Always visible with placeholder or content -->
-				<div class="bg-base-200 border border-base-300 rounded-lg p-4 mb-4 min-h-[6rem] flex flex-col justify-center">
-					<div class="text-sm text-left text-base-content">
-						{#if shownTips.length === 0}
-							<p class="italic opacity-60 text-center">"Anna vihje" -painike tuottaa vihjeen mutta vähentää pisteitä.</p>
-						{:else}
-							<div class="space-y-3">
-								{#each shownTips as tip}
-									{#if tip.difficultyIndex === activeTipTab}
-										<div class="border-l-4 border-primary pl-3 py-1">
-											<p class="mb-1">{tip.text}</p>
-											{#if tip.fromCache && (tip.tipModel || tip.translationModel)}
-												<p class="text-xs opacity-50 font-mono">
-													{#if tip.tipModel}
-														<span>{tip.tipModel}</span>
-													{/if}
-													{#if tip.translationModel}
-														<span> | {tip.translationModel}</span>
-													{/if}
-												</p>
-											{/if}
-										</div>
-									{/if}
-								{/each}
-							</div>
-						{/if}
+			<!-- Tips Section - 3 columns on desktop, tabs on mobile -->
+			<div class="mb-4">
+				<!-- Mobile: Tabs -->
+				<div class="md:hidden">
+					<div class="tabs tabs-boxed justify-center mb-3" role="tablist">
+						{#each [0, 1, 2] as index}
+							<button 
+								class="tab"
+								class:tab-active={activeTipTab === index && shownTips.length > index}
+								on:click={() => activeTipTab = index}
+								role="tab"
+								disabled={shownTips.length <= index}
+								aria-selected={activeTipTab === index}
+							>
+								Vihje {index + 1}
+							</button>
+						{/each}
+					</div>
+					<div class="bg-base-200 border border-base-300 rounded-lg p-4 min-h-[6rem] flex flex-col justify-center">
+						<div class="text-sm text-left text-base-content">
+							{#if shownTips.length === 0}
+								<p class="italic opacity-60 text-center">"Anna vihje" -painike tuottaa vihjeen mutta vähentää pisteitä.</p>
+							{:else}
+								<div class="space-y-3">
+									{#each shownTips as tip}
+										{#if tip.difficultyIndex === activeTipTab}
+											<div class="border-l-4 border-primary pl-3 py-1">
+												<p class="mb-1">{tip.text}</p>
+												{#if tip.fromCache && (tip.tipModel || tip.translationModel)}
+													<p class="text-xs opacity-50 font-mono">
+														{#if tip.tipModel}
+															<span>{tip.tipModel}</span>
+														{/if}
+														{#if tip.translationModel}
+															<span> | {tip.translationModel}</span>
+														{/if}
+													</p>
+												{/if}
+											</div>
+										{/if}
+									{/each}
+								</div>
+							{/if}
+						</div>
 					</div>
 				</div>
+
+				<!-- Desktop: 3 Columns -->
+				<div class="hidden md:grid md:grid-cols-3 md:gap-3">
+					{#each [0, 1, 2] as index}
+						<div class="bg-base-200 border border-base-300 rounded-lg p-3 min-h-[8rem] flex flex-col">
+							<div class="font-semibold text-sm mb-2 text-center text-base-content/70">
+								Vihje {index + 1}
+							</div>
+							<div class="text-sm text-left text-base-content flex-1 flex flex-col justify-center">
+								{#if shownTips.length === 0 && index === 0}
+									<p class="italic opacity-60 text-center text-xs">"Anna vihje" -painike tuottaa vihjeen</p>
+								{:else if shownTips.length > index}
+									{#each shownTips as tip}
+										{#if tip.difficultyIndex === index}
+											<div class="border-l-4 border-primary pl-2 py-1">
+												<p class="mb-1">{tip.text}</p>
+												{#if tip.fromCache && (tip.tipModel || tip.translationModel)}
+													<p class="text-xs opacity-50 font-mono">
+														{#if tip.tipModel}
+															<span>{tip.tipModel}</span>
+														{/if}
+														{#if tip.translationModel}
+															<span> | {tip.translationModel}</span>
+														{/if}
+													</p>
+												{/if}
+											</div>
+										{/if}
+									{/each}
+								{:else}
+									<p class="italic opacity-40 text-center text-xs">Ei vielä näytetty</p>
+								{/if}
+							</div>
+						</div>
+					{/each}
+				</div>
+			</div>
 
 				<!-- Show Tip Button - Full width on mobile -->
 				<div class="mb-4">

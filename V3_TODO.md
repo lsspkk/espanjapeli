@@ -66,17 +66,17 @@ PHASE 1A: BASIC COMPONENTS (from yhdistasanat)
 --------------------------------------------------------------------------------
 1.5 Extract GameHeader Component
 Source: yhdistasanat lines 1336-1359
-- [ ] Create `lib/components/basic/core/GameHeader.svelte`
-- [ ] Props:
+- [x] Create `lib/components/basic/core/GameHeader.svelte`
+- [x] Props:
   - `currentQuestion: number`
   - `totalQuestions: number`
   - `score: number`
   - `onQuit: () => void`
   - `triesRemaining?: number` (optional, for yhdistasanat)
   - `maxTries?: number` (default 3)
-- [ ] Display: "3/10 | 45 p"
-- [ ] Tries indicator: 3 colored dots (green=remaining, gray=used)
-- [ ] Quit button (✕) with confirmation optional
+- [x] Display: "3/10 | 45 p"
+- [x] Tries indicator: 3 colored dots (green=remaining, gray=used)
+- [x] Quit button (✕) with confirmation optional
 
 --------------------------------------------------------------------------------
 1.6 Extract TriesIndicator Component
