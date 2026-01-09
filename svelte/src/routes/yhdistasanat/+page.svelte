@@ -26,6 +26,12 @@
 		recordGameCompletion, 
 		getPreviousGames 
 	} from '$lib/services/wordSelection';
+	import { 
+		wordKnowledge, 
+		type LanguageDirection, 
+		type AnswerQuality 
+	} from '$lib/stores/wordKnowledge';
+	import OsaaminenModal from '$lib/components/OsaaminenModal.svelte';
 
 	// Game states
 	type GameState = 'home' | 'playing' | 'feedback' | 'report';
@@ -47,6 +53,12 @@
 	let currentQuestionData: QuestionResult | null = null;
 	let gameStartTime: number = 0;
 	let gameEndTime: number = 0;
+	
+	// Report statistics
+	let reportFirstTryCount = 0;
+	let reportSecondTryCount = 0;
+	let reportThirdTryCount = 0;
+	let reportFailedCount = 0;
 
 	// Answer options for current question
 	let answerOptions: Word[] = [];
@@ -72,6 +84,7 @@
 
 	// Element references for line animation
 	let questionWordRef: HTMLElement | null = null;
+	let questionWordCardRef: HTMLElement | null = null;
 	let gameAreaRef: HTMLElement | null = null;
 
 	// Spanish exclamations for correct answers
@@ -93,6 +106,12 @@
 
 	// Category picker modal state
 	let showCategoryPicker = false;
+
+	// Osaaminen modal state
+	let showOsaaminen = false;
+
+	// Track word results for knowledge recording
+	let gameWordResults: Array<{ spanish: string; finnish: string; quality: AnswerQuality }> = [];
 
 	// Settings (bound to stores)
 	let selectedCategory: string;
@@ -187,7 +206,10 @@
 	 */
 	function prepareNextGameWords() {
 		const availableWords = getAvailableWords();
-		upcomingWords = selectGameWords(availableWords, selectedGameLength, selectedCategory);
+		const direction: LanguageDirection = questionLanguage === 'spanish' 
+			? 'spanish_to_finnish' 
+			: 'finnish_to_spanish';
+		upcomingWords = selectGameWords(availableWords, selectedGameLength, selectedCategory, direction);
 		console.log(`📚 Prepared ${upcomingWords.length} words for next game`);
 	}
 
@@ -206,7 +228,10 @@
 		const availableWords = getAvailableWords();
 		console.log(`   Available words in category: ${availableWords.length}`);
 		
-		const selectedWords = selectGameWords(availableWords, questionsNeeded, selectedCategory);
+		const direction: LanguageDirection = questionLanguage === 'spanish' 
+			? 'spanish_to_finnish' 
+			: 'finnish_to_spanish';
+		const selectedWords = selectGameWords(availableWords, questionsNeeded, selectedCategory, direction);
 		const finalQueue = spreadOutDuplicates(selectedWords, 5);
 		
 		console.log(`   ✅ Generated queue with ${finalQueue.length} words`);
@@ -282,7 +307,7 @@
 			return;
 		}
 		
-		let delay = 1000; // Default 1 second
+		const delay = 1000; // 1 second
 		
 		setTimeout(() => {
 			closeFeedbackAndContinue();
@@ -314,6 +339,7 @@
 		totalScore = 0;
 		currentQuestionNumber = 0;
 		gameQuestions = [];
+		gameWordResults = [];
 		gameStartTime = Date.now();
 		gameEndTime = 0;
 		
@@ -388,26 +414,26 @@
 	}
 
 	/**
-	 * Calculate line coordinates from clicked button to question word
+	 * Calculate line coordinates from center of clicked button to center of question word
 	 */
 	async function calculateLineCoordinates(clickedButton: HTMLElement) {
 		await tick();
 		
-		if (!questionWordRef || !gameAreaRef) return;
+		if (!questionWordCardRef || !gameAreaRef) return;
 		
 		const gameAreaRect = gameAreaRef.getBoundingClientRect();
 		const buttonRect = clickedButton.getBoundingClientRect();
-		const questionRect = questionWordRef.getBoundingClientRect();
+		const questionRect = questionWordCardRef.getBoundingClientRect();
 		
-		// Start from left center of clicked button
+		// Start from center of clicked button
 		lineStart = {
-			x: buttonRect.left - gameAreaRect.left,
+			x: buttonRect.left - gameAreaRect.left + buttonRect.width / 2,
 			y: buttonRect.top - gameAreaRect.top + buttonRect.height / 2
 		};
 		
-		// End at right center of question word
+		// End at center of question word card
 		lineEnd = {
-			x: questionRect.right - gameAreaRect.left,
+			x: questionRect.left - gameAreaRect.left + questionRect.width / 2,
 			y: questionRect.top - gameAreaRect.top + questionRect.height / 2
 		};
 	}
@@ -430,6 +456,27 @@
 			// Calculate points based on remaining tries
 			const pointsMap: Record<number, number> = { 3: 10, 2: 3, 1: 1 };
 			pointsEarned = pointsMap[triesRemaining] || 0;
+			
+			// Determine answer quality for knowledge tracking
+			const qualityMap: Record<number, AnswerQuality> = { 
+				3: 'first_try', 
+				2: 'second_try', 
+				1: 'third_try' 
+			};
+			const answerQuality = qualityMap[triesRemaining] || 'third_try';
+			
+			// Record word result for knowledge tracking
+			gameWordResults.push({
+				spanish: currentWord.spanish,
+				finnish: currentWord.finnish,
+				quality: answerQuality
+			});
+			
+			// Record individual answer to knowledge store
+			const direction: LanguageDirection = questionLanguage === 'spanish' 
+				? 'spanish_to_finnish' 
+				: 'finnish_to_spanish';
+			wordKnowledge.recordAnswer(currentWord.spanish, currentWord.finnish, direction, answerQuality);
 			
 			currentQuestionData.userAnswer = getAnswerText(selectedWord);
 			currentQuestionData.isCorrect = true;
@@ -477,6 +524,20 @@
 				// Out of tries - set to 0 before showing dialog
 				triesRemaining = 0;
 				pointsEarned = 0;
+				
+				// Record failed word result for knowledge tracking
+				gameWordResults.push({
+					spanish: currentWord.spanish,
+					finnish: currentWord.finnish,
+					quality: 'failed'
+				});
+				
+				// Record failed answer to knowledge store
+				const direction: LanguageDirection = questionLanguage === 'spanish' 
+					? 'spanish_to_finnish' 
+					: 'finnish_to_spanish';
+				wordKnowledge.recordAnswer(currentWord.spanish, currentWord.finnish, direction, 'failed');
+				
 				currentQuestionData.userAnswer = getAnswerText(selectedWord);
 				currentQuestionData.isCorrect = false;
 				currentQuestionData.pointsEarned = 0;
@@ -537,6 +598,18 @@
 		gameEndTime = Date.now();
 		recordGameCompletion(upcomingWords, selectedCategory);
 		prepareNextGameWords();
+
+		// Calculate report statistics
+		reportFirstTryCount = gameQuestions.filter(q => q.isCorrect && q.tipsRequested === 0).length;
+		reportSecondTryCount = gameQuestions.filter(q => q.isCorrect && q.tipsRequested === 1).length;
+		reportThirdTryCount = gameQuestions.filter(q => q.isCorrect && q.tipsRequested === 2).length;
+		reportFailedCount = gameQuestions.filter(q => !q.isCorrect).length;
+
+		// Record complete game to word knowledge store
+		const direction: LanguageDirection = questionLanguage === 'spanish' 
+			? 'spanish_to_finnish' 
+			: 'finnish_to_spanish';
+		wordKnowledge.recordGame(selectedCategory, direction, gameWordResults);
 
 		const correctCount = gameQuestions.filter(q => q.isCorrect).length;
 		const incorrectCount = gameQuestions.filter(q => !q.isCorrect).length;
@@ -691,29 +764,6 @@
 	$: accuracy = selectedGameLength > 0 ? Math.round((correctCount / selectedGameLength) * 100) : 0;
 	$: maxPossibleScore = selectedGameLength * 10;
 	$: scorePercentage = maxPossibleScore > 0 ? Math.round((totalScore / maxPossibleScore) * 100) : 0;
-	
-	// Calculate answers by try count
-	$: firstTryCount = gameQuestions.filter(q => q.isCorrect && q.tipsRequested === 0).length;
-	$: secondTryCount = gameQuestions.filter(q => q.isCorrect && q.tipsRequested === 1).length;
-	$: thirdTryCount = gameQuestions.filter(q => q.isCorrect && q.tipsRequested === 2).length;
-	$: failedCount = gameQuestions.filter(q => !q.isCorrect).length;
-	
-	// Debug logging for report screen
-	$: if (gameState === 'report') {
-		console.log('📊 Report Stats:', {
-			totalQuestions: gameQuestions.length,
-			firstTry: firstTryCount,
-			secondTry: secondTryCount,
-			thirdTry: thirdTryCount,
-			failed: failedCount,
-			questions: gameQuestions.map(q => ({
-				spanish: q.spanish,
-				isCorrect: q.isCorrect,
-				tipsRequested: q.tipsRequested,
-				pointsEarned: q.pointsEarned
-			}))
-		});
-	}
 	
 	// Format game time
 	$: gameTimeFormatted = (() => {
@@ -1031,21 +1081,34 @@
 				</div>
 
 				<!-- Action Buttons -->
-				<div class="flex gap-3">
-					<button 
-						class="btn btn-outline flex-shrink-0 btn-lg"
-						on:click={toggleSanakirja}
-					>
-						📖 Sanakirja
-					</button>
-					<button class="btn btn-primary btn-lg flex-1" on:click={startGame}>
-						Aloita
+				<div class="flex flex-col gap-3">
+					<div class="flex gap-3">
+						<button 
+							class="btn btn-outline flex-1 gap-2"
+							on:click={() => showOsaaminen = true}
+						>
+							<span>📊</span>
+							<span>Osaaminen</span>
+						</button>
+						<button 
+							class="btn btn-outline flex-1 gap-2"
+							on:click={toggleSanakirja}
+						>
+							<span>📖</span>
+							<span>Sanakirja</span>
+						</button>
+					</div>
+					<button class="btn btn-primary btn-lg w-full" on:click={startGame}>
+						Aloita peli
 					</button>
 				</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<!-- Osaaminen Modal -->
+	<OsaaminenModal isOpen={showOsaaminen} on:close={() => showOsaaminen = false} />
 
 	<!-- Sanakirja Modal -->
 	{#if showSanakirja}
@@ -1268,7 +1331,6 @@
 	<div class="h-screen bg-base-200 flex flex-col md:items-center md:justify-center p-0 md:p-4">
 		<div 
 			class="card bg-base-100 shadow-xl w-full md:max-w-5xl h-full md:h-auto md:max-h-[90vh] flex flex-col relative overflow-hidden"
-			bind:this={gameAreaRef}
 		>
 			<!-- Header Row -->
 			<div class="flex items-center justify-between p-3 md:p-4 border-b border-base-200 flex-shrink-0">
@@ -1297,7 +1359,7 @@
 			</div>
 
 			<!-- Main Game Area - Two Column Layout -->
-			<div class="flex flex-row flex-1 min-h-0 relative">
+			<div class="flex flex-row flex-1 min-h-0 relative" bind:this={gameAreaRef}>
 				<!-- SVG Line Animation Overlay -->
 				{#if showLine && lineStart && lineEnd}
 					<svg class="absolute inset-0 w-full h-full pointer-events-none z-10">
@@ -1338,10 +1400,10 @@
 					</div>
 
 					<!-- Question word (centered in remaining space) -->
-					<div class="flex-1 flex flex-col items-center justify-center">
+					<div class="flex-1 flex flex-col items-center justify-center" bind:this={questionWordRef}>
 						<div 
 							class="bg-primary text-primary-content rounded-xl p-3 md:p-4 text-center shadow-lg w-full h-auto mx-3 md:mx-6"
-							bind:this={questionWordRef}
+							bind:this={questionWordCardRef}
 						>
 							<div class="text-sm md:text-base lg:text-lg font-medium break-words leading-tight">
 								{currentWord ? getQuestionText(currentWord) : ''}
@@ -1409,7 +1471,7 @@
 							</div>
 
 							<!-- Points earned -->
-							<div class="text-lg font-semibold text-success mb-4">
+							<div class="text-lg font-semibold text-success">
 								+{pointsEarned} pistettä
 							</div>
 						{:else}
@@ -1421,17 +1483,15 @@
 									{feedbackFinnish} = {feedbackSpanish}
 								{/if}
 							</div>
-						{/if}
 
-						<!-- Continue button -->
-						<button 
-							class="btn btn-lg w-full"
-							class:btn-success={feedbackIsCorrect}
-							class:btn-primary={!feedbackIsCorrect}
-							on:click={continueToNext}
-						>
-							Seuraava
-						</button>
+							<!-- Continue button (only for wrong answers) -->
+							<button 
+								class="btn btn-lg w-full btn-primary"
+								on:click={continueToNext}
+							>
+								Seuraava
+							</button>
+						{/if}
 					</div>
 				</div>
 			{/if}
@@ -1453,29 +1513,22 @@
 					</div>
 				</div>
 
-				<!-- Debug info -->
-				<div class="text-xs text-base-content/50 mb-2 p-2 bg-base-200 rounded">
-					<div>Total: {gameQuestions.length}</div>
-					<div>Correct: {gameQuestions.filter(q => q.isCorrect).length}</div>
-					<div>Tips data: {JSON.stringify(gameQuestions.map(q => ({ tips: q.tipsRequested, ok: q.isCorrect })))}</div>
-				</div>
-
 				<!-- Answers by Try Count -->
 				<div class="grid grid-cols-2 gap-3 mb-4">
 					<div class="bg-success/10 border border-success/30 rounded-lg p-3 text-center">
-						<div class="text-2xl font-bold text-success">{firstTryCount}</div>
+						<div class="text-2xl font-bold text-success">{reportFirstTryCount}</div>
 						<div class="text-sm text-base-content/70">1. yrityksellä</div>
 					</div>
 					<div class="bg-warning/10 border border-warning/30 rounded-lg p-3 text-center">
-						<div class="text-2xl font-bold text-warning">{secondTryCount}</div>
+						<div class="text-2xl font-bold text-warning">{reportSecondTryCount}</div>
 						<div class="text-sm text-base-content/70">2. yrityksellä</div>
 					</div>
 					<div class="bg-error/10 border border-error/30 rounded-lg p-3 text-center">
-						<div class="text-2xl font-bold text-error">{thirdTryCount}</div>
+						<div class="text-2xl font-bold text-error">{reportThirdTryCount}</div>
 						<div class="text-sm text-base-content/70">3. yrityksellä</div>
 					</div>
 					<div class="bg-base-300 border border-base-content/20 rounded-lg p-3 text-center">
-						<div class="text-2xl font-bold text-base-content">{failedCount}</div>
+						<div class="text-2xl font-bold text-base-content">{reportFailedCount}</div>
 						<div class="text-sm text-base-content/70">Ei löytynyt</div>
 					</div>
 				</div>

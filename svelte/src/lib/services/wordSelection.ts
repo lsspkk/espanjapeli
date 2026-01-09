@@ -5,9 +5,12 @@
  * - Tracks last 10 games per category in localStorage
  * - Uses smart randomization for variety with strategic repetition
  * - Ensures words from recent games appear less frequently
+ * - Integrates with word knowledge tracking to prioritize weaker words
  */
 
 import type { Word } from '$lib/data/words';
+import { get } from 'svelte/store';
+import { wordKnowledge, type LanguageDirection } from '$lib/stores/wordKnowledge';
 
 interface GameHistory {
 	games: string[][]; // Array of arrays of word IDs (spanish text)
@@ -81,16 +84,19 @@ function shuffle<T>(array: T[]): T[] {
  * - 1-2 words from previous game (recent reinforcement)
  * - 1-2 words from games 2-5 ago (spaced repetition)
  * - Fills remaining slots with least recently used words
+ * - Final optimization: replaces well-known words with weaker/unpracticed words
  * 
  * @param availableWords All words available for selection
  * @param questionsNeeded Number of words needed for the game
  * @param category Category key for history tracking
+ * @param direction Language direction for knowledge tracking (optional)
  * @returns Array of selected words
  */
 export function selectGameWords(
 	availableWords: Word[], 
 	questionsNeeded: number, 
-	category: string
+	category: string,
+	direction: LanguageDirection = 'spanish_to_finnish'
 ): Word[] {
 	const history = getHistory(category);
 	
@@ -197,8 +203,128 @@ export function selectGameWords(
 		}
 	}
 	
+	// KNOWLEDGE-BASED OPTIMIZATION LAYER
+	// Replace well-known words with weaker/unpracticed words
+	const optimizedWords = optimizeWordSelectionByKnowledge(
+		selectedWords,
+		availableWords,
+		direction
+	);
+	
 	// Final shuffle to randomize order
-	return shuffle(selectedWords.slice(0, questionsNeeded));
+	return shuffle(optimizedWords.slice(0, questionsNeeded));
+}
+
+/**
+ * Optimize word selection by replacing well-known words with weaker ones
+ * 
+ * Strategy:
+ * - Identify words with high knowledge scores (>= 80) in the selection
+ * - Find words with low scores (< 40) or unpracticed words not in selection
+ * - Replace 20-30% of well-known words with weaker words
+ * 
+ * @param selectedWords Currently selected words
+ * @param availableWords All available words
+ * @param direction Language direction for knowledge lookup
+ * @returns Optimized word selection
+ */
+function optimizeWordSelectionByKnowledge(
+	selectedWords: Word[],
+	availableWords: Word[],
+	direction: LanguageDirection
+): Word[] {
+	try {
+		// Get knowledge data
+		const knowledgeData = get(wordKnowledge);
+		
+		// Categorize selected words by knowledge level
+		const wellKnownWords: Word[] = [];
+		const otherWords: Word[] = [];
+		const selectedSpanishSet = new Set(selectedWords.map(w => w.spanish));
+		
+		for (const word of selectedWords) {
+			const wordData = knowledgeData.words[word.spanish];
+			if (wordData && wordData[direction].practiceCount > 0) {
+				const score = wordData[direction].score;
+				if (score >= 80) {
+					wellKnownWords.push(word);
+				} else {
+					otherWords.push(word);
+				}
+			} else {
+				// Unpracticed words stay in selection
+				otherWords.push(word);
+			}
+		}
+		
+		// If no well-known words, return as-is
+		if (wellKnownWords.length === 0) {
+			return selectedWords;
+		}
+		
+		// Find weak/unpracticed words not in selection
+		const weakWords: Word[] = [];
+		const unpracticedWords: Word[] = [];
+		
+		for (const word of availableWords) {
+			// Skip if already selected
+			if (selectedSpanishSet.has(word.spanish)) continue;
+			
+			const wordData = knowledgeData.words[word.spanish];
+			if (!wordData || wordData[direction].practiceCount === 0) {
+				unpracticedWords.push(word);
+			} else {
+				const score = wordData[direction].score;
+				if (score < 40) {
+					weakWords.push(word);
+				}
+			}
+		}
+		
+		// Combine weak and unpracticed, prioritize weak words
+		const replacementCandidates = shuffle([...weakWords, ...unpracticedWords]);
+		
+		// If no replacement candidates, return as-is
+		if (replacementCandidates.length === 0) {
+			return selectedWords;
+		}
+		
+		// Calculate how many to replace (20-30% of well-known words, at least 1)
+		const replaceCount = Math.max(
+			1, 
+			Math.min(
+				Math.ceil(wellKnownWords.length * 0.25),
+				replacementCandidates.length
+			)
+		);
+		
+		// Shuffle well-known words to randomly select which to replace
+		const shuffledWellKnown = shuffle(wellKnownWords);
+		const toReplace = new Set(
+			shuffledWellKnown.slice(0, replaceCount).map(w => w.spanish)
+		);
+		
+		// Build final selection
+		const finalWords: Word[] = [];
+		let replacementIndex = 0;
+		
+		for (const word of selectedWords) {
+			if (toReplace.has(word.spanish) && replacementIndex < replacementCandidates.length) {
+				finalWords.push(replacementCandidates[replacementIndex]);
+				replacementIndex++;
+			} else {
+				finalWords.push(word);
+			}
+		}
+		
+		console.log(`📚 Knowledge optimization: Replaced ${replaceCount} well-known words with weaker ones`);
+		
+		return finalWords;
+	} catch (error) {
+		console.error('Error in knowledge optimization:', error);
+		// Return original selection if optimization fails
+		return selectedWords;
+	}
 }
 
 /**
