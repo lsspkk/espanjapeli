@@ -713,11 +713,11 @@
 							<div class="w-full max-w-2xl space-y-3 md:space-y-6 animate-fade-in">
 								<!-- Wrong Answer Row -->
 								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 bg-red-50 rounded-xl border-2 border-red-300">
-									<!-- Left: Image/Emoji -->
-									<div class="flex-shrink-0 w-20 h-20 md:w-32 md:h-32 flex items-center justify-center">
+									<!-- Left: Image/Emoji (50% width, max 400px) -->
+									<div class="flex items-center justify-center" style="width:50%; max-width:400px;">
 										{#if displayMode === 'svg' && getImageFile(wrongAnswerImageId)}
-											<img 
-												src={getImageFile(wrongAnswerImageId)} 
+											<img
+												src={getImageFile(wrongAnswerImageId)}
 												alt="Wrong answer"
 												class="w-full h-full object-contain rounded-lg"
 											/>
@@ -726,8 +726,8 @@
 										{/if}
 									</div>
 									
-									<!-- Right: Text and Icon -->
-									<div class="flex-1 flex flex-col items-center justify-center text-center">
+									<!-- Right: Text and Icon (50% width) -->
+									<div class="flex flex-col items-center justify-center text-center" style="width:50%;">
 										<div class="text-sm md:text-xl font-bold text-red-600 mb-1 md:mb-2">
 											{wrongAnswerText}
 										</div>
@@ -742,11 +742,11 @@
 
 								<!-- Correct Answer Row -->
 								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 bg-green-50 rounded-xl border-2 border-green-300">
-									<!-- Left: Image/Emoji -->
-									<div class="flex-shrink-0 w-20 h-20 md:w-32 md:h-32 flex items-center justify-center">
+										<!-- Left: Image/Emoji (50% width, max 400px) -->
+									<div class="flex items-center justify-center" style="width:50%; max-width:400px;">
 										{#if displayMode === 'svg' && getImageFile(currentQuestion.correctImage)}
-											<img 
-												src={getImageFile(currentQuestion.correctImage)} 
+											<img
+												src={getImageFile(currentQuestion.correctImage)}
 												alt="Correct answer"
 												class="w-full h-full object-contain rounded-lg"
 											/>
@@ -755,8 +755,8 @@
 										{/if}
 									</div>
 									
-									<!-- Right: Text and Icon -->
-									<div class="flex-1 flex flex-col items-center justify-center text-center">
+									<!-- Right: Text and Icon (50% width) -->
+									<div class="flex flex-col items-center justify-center text-center" style="width:50%;">
 										<div class="text-sm md:text-xl font-bold text-primary mb-1">
 											{currentQuestion.spanish}
 										</div>
@@ -772,11 +772,11 @@
 							<div class="w-full max-w-2xl animate-fade-in">
 								<!-- Correct Answer Row -->
 								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 bg-green-50 rounded-xl border-2 border-green-300">
-									<!-- Left: Image/Emoji -->
-									<div class="flex-shrink-0 w-20 h-20 md:w-32 md:h-32 flex items-center justify-center">
+										<!-- Left: Image/Emoji (50% width, max 400px) -->
+									<div class="flex items-center justify-center" style="width:50%; max-width:400px;">
 										{#if displayMode === 'svg' && getImageFile(currentQuestion.correctImage)}
-											<img 
-												src={getImageFile(currentQuestion.correctImage)} 
+											<img
+												src={getImageFile(currentQuestion.correctImage)}
 												alt="Correct answer"
 												class="w-full h-full object-contain rounded-lg"
 											/>
@@ -785,8 +785,8 @@
 										{/if}
 									</div>
 									
-									<!-- Right: Text and Icon -->
-									<div class="flex-1 flex flex-col items-center justify-center text-center">
+									<!-- Right: Text and Icon (50% width) -->
+									<div class="flex flex-col items-center justify-center text-center" style="width:50%;">
 										<div class="text-sm md:text-xl font-bold text-primary mb-1">
 											{currentQuestion.spanish}
 										</div>
