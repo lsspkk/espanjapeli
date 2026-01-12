@@ -29,39 +29,39 @@ export class CharacterAnimationService {
 	initialize(config: AnimationConfig): AnimationState {
 		this.config = config;
 		this.screenWidth = typeof window !== 'undefined' ? window.innerWidth : 1920;
-		
+
 		// Check if this is a multi-character animation
 		this.isMultiCharacter = !!(config.characters && config.characters.length > 0);
-		
+
 		if (this.isMultiCharacter) {
 			// Initialize multi-character state
 			const spacing = config.characterSpacing || 100;
 			this.state.characterStates = config.characters!.map((charName, index) => {
 				const charWidth = this.getCharacterWidth(charName);
 				const offset = index * spacing;
-				
+
 				let initialPosition: number;
 				if (config.direction === 'left-to-right') {
 					initialPosition = -charWidth - offset;
 				} else {
 					initialPosition = this.screenWidth + charWidth + offset;
 				}
-				
+
 				return {
 					characterName: charName,
 					currentFrame: 0,
 					position: initialPosition
 				};
 			});
-			
+
 			// Initialize frame times for each character
 			this.characterFrameTimes = config.characters!.map(() => performance.now());
-			this.characterTotalFrames = config.characters!.map(charName => 
+			this.characterTotalFrames = config.characters!.map((charName) =>
 				charName === 'daddy' ? 15 : 20
 			);
-			
+
 			// Set character width to the widest for fade-out detection
-			this.characterWidth = Math.max(...config.characters!.map(c => this.getCharacterWidth(c)));
+			this.characterWidth = Math.max(...config.characters!.map((c) => this.getCharacterWidth(c)));
 		} else {
 			// Single character mode
 			// Set character width based on character type
@@ -111,13 +111,13 @@ export class CharacterAnimationService {
 		this.state.isRunning = true;
 		this.startTime = performance.now();
 		this.lastFrameTime = this.startTime;
-		
+
 		// Start fade-in
 		return new Promise((resolve) => {
 			const fadeIn = () => {
 				const elapsed = performance.now() - this.startTime;
 				this.state.backgroundOpacity = Math.min(1, elapsed / this.fadeInDuration);
-				
+
 				if (this.state.backgroundOpacity < 1) {
 					requestAnimationFrame(fadeIn);
 				} else {
@@ -141,24 +141,24 @@ export class CharacterAnimationService {
 		// Handle fade-out
 		if (this.isFadingOut) {
 			const fadeElapsed = currentTime - this.fadeOutStartTime;
-			this.state.backgroundOpacity = Math.max(0, 1 - (fadeElapsed / this.fadeOutDuration));
+			this.state.backgroundOpacity = Math.max(0, 1 - fadeElapsed / this.fadeOutDuration);
 			return { ...this.state };
 		}
 
 		if (this.isMultiCharacter) {
 			// Update each character independently
 			const frameDuration = 1000 / this.config.frameRate;
-			
+
 			this.state.characterStates = this.state.characterStates!.map((charState, index) => {
 				const timeSinceLastFrame = currentTime - this.characterFrameTimes[index];
-				
+
 				// Update frame
 				let newFrame = charState.currentFrame;
 				if (timeSinceLastFrame >= frameDuration) {
 					newFrame = (charState.currentFrame + 1) % this.characterTotalFrames[index];
 					this.characterFrameTimes[index] = currentTime;
 				}
-				
+
 				// Update position
 				const pixelsToMove = (this.config.speed * deltaTime) / 1000;
 				let newPosition: number;
@@ -167,7 +167,7 @@ export class CharacterAnimationService {
 				} else {
 					newPosition = charState.position - pixelsToMove;
 				}
-				
+
 				return {
 					...charState,
 					currentFrame: newFrame,
@@ -179,7 +179,7 @@ export class CharacterAnimationService {
 			// Update frame based on frame rate
 			const frameDuration = 1000 / this.config.frameRate;
 			const timeSinceLastFrame = currentTime - this.lastFrameTime;
-			
+
 			if (timeSinceLastFrame >= frameDuration) {
 				this.state.currentFrame = (this.state.currentFrame + 1) % this.totalFrames;
 				this.lastFrameTime = currentTime;
@@ -220,7 +220,7 @@ export class CharacterAnimationService {
 			// Check if the last character has exited
 			const lastCharState = this.state.characterStates![this.state.characterStates!.length - 1];
 			const lastCharWidth = this.getCharacterWidth(lastCharState.characterName);
-			
+
 			if (this.config.direction === 'left-to-right') {
 				return lastCharState.position > this.screenWidth + lastCharWidth;
 			} else {
@@ -255,15 +255,15 @@ export class CharacterAnimationService {
 	 */
 	async stop(): Promise<void> {
 		this.state.isRunning = false;
-		
+
 		if (!this.isFadingOut) {
 			this.startFadeOut();
-			
+
 			return new Promise((resolve) => {
 				const fadeOut = () => {
 					const elapsed = performance.now() - this.fadeOutStartTime;
-					this.state.backgroundOpacity = Math.max(0, 1 - (elapsed / this.fadeOutDuration));
-					
+					this.state.backgroundOpacity = Math.max(0, 1 - elapsed / this.fadeOutDuration);
+
 					if (this.state.backgroundOpacity > 0) {
 						requestAnimationFrame(fadeOut);
 					} else {
@@ -290,7 +290,7 @@ export class CharacterAnimationService {
 		if (!this.isMultiCharacter || !this.state.characterStates) {
 			return this.getCurrentFramePath();
 		}
-		
+
 		const charState = this.state.characterStates[index];
 		const frameNumber = charState.currentFrame + 1;
 		return `${base}/svg/animations/one/${charState.characterName}-${frameNumber}.svg`;
