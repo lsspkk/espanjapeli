@@ -4,11 +4,15 @@
 	import { tts } from '$lib/services/tts';
 	import { peppaStats } from '$lib/services/peppaStatistics';
 	import { selectGamePhrases, recordGameCompletion } from '$lib/services/phraseSelection';
+	import { generateRandomAnimation, generateDualAnimation } from '$lib/services/animationGenerator';
+	import CharacterAnimation from '$lib/components/CharacterAnimation.svelte';
 	import KidsStartScreen from '$lib/components/kids/home/KidsStartScreen.svelte';
 	import KidsEndScreen from '$lib/components/kids/home/KidsEndScreen.svelte';
 	import KidsGameHeader from '$lib/components/kids/core/KidsGameHeader.svelte';
 	import KidsImageOptions from '$lib/components/kids/input/KidsImageOptions.svelte';
 	import BackButton from '$lib/components/shared/BackButton.svelte';
+	import GameContainer from '$lib/components/shared/GameContainer.svelte';
+	import type { AnimationConfig } from '$lib/types/animation';
 
 	interface EmojiTip {
 		emojis: string[];
@@ -62,41 +66,45 @@
 	// Game data
 	let manifest: ImageManifest | null = null;
 	let phraseData: any = null;
-	let loading = true;
+	let loading = $state(true);
 
 	// Game state
-	let gameStarted = false;
-	let gameEnded = false;
-	let currentQuestion: GameQuestion | null = null;
-	let questionNumber = 0;
-	let totalQuestions = 10; // Changed from 5 to 10
-	let correctAnswers = 0;
-	let consecutiveCorrect = 0; // Track consecutive correct answers
-	let selectedAnswer: string | null = null;
-	let isCorrect = false;
-	let showCelebration = false;
-	let celebrationEmoji = '';
-	let autoPlayAudio = true; // Audio toggle setting
+	let gameStarted = $state(false);
+	let gameEnded = $state(false);
+	let currentQuestion: GameQuestion | null = $state(null);
+	let questionNumber = $state(0);
+	let totalQuestions = $state(10); // Changed from 5 to 10
+	let correctAnswers = $state(0);
+	let consecutiveCorrect = $state(0); // Track consecutive correct answers
+	let selectedAnswer: string | null = $state(null);
+	let isCorrect = $state(false);
+	let showCelebration = $state(false);
+	let celebrationEmoji = $state('');
+	let autoPlayAudio = $state(true); // Audio toggle setting
 	
 	// Phrase preview state
-	let showPhrasePreview = false;
-	let upcomingPhrases: GameQuestion[] = [];
-	let previousGames: GameQuestion[][] = [];
+	let showPhrasePreview = $state(false);
+	let upcomingPhrases: GameQuestion[] = $state([]);
+	let previousGames: GameQuestion[][] = $state([]);
 	
 	// Feedback state for showing wrong/correct answer images
-	let showFeedback = false;
-	let feedbackStage: 'wrong' | 'correct' | 'celebration' | null = null;
-	let wrongAnswerImageId: string | null = null;
-	let wrongAnswerText: string = '';
+	let showFeedback = $state(false);
+	let feedbackStage: 'wrong' | 'correct' | 'celebration' | null = $state(null);
+	let wrongAnswerImageId: string | null = $state(null);
+	let wrongAnswerText: string = $state('');
 
 	// Display mode (svg vs emoji) - manual toggle, no limitations
-	let displayMode: 'svg' | 'emoji' = 'svg';
+	let displayMode: 'svg' | 'emoji' = $state('svg');
 
 	// Statistics tracking
 	let currentSessionId: string | null = null;
 
 	// Images for current question
-	let currentOptions: { id: string; file: string; emojiDisplay: string; isCorrect: boolean }[] = [];
+	let currentOptions: { id: string; file: string; emojiDisplay: string; isCorrect: boolean }[] = $state([]);
+	
+	// Background animations
+	let backgroundAnimations: AnimationConfig[] = $state([]);
+	let showBackgroundAnimation = $state(false);
 
 	// All available questions
 	let questionQueue: GameQuestion[] = [];
@@ -239,6 +247,19 @@
 			[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
 		}
 		return shuffled;
+	}
+	
+	function generateBackgroundAnimations() {
+		// 70% chance single animation, 30% chance dual animations
+		const useDual = Math.random() < 0.3;
+		
+		if (useDual) {
+			backgroundAnimations = generateDualAnimation();
+		} else {
+			backgroundAnimations = [generateRandomAnimation()];
+		}
+		
+		showBackgroundAnimation = true;
 	}
 
 	function findFinnishTranslation(spanish: string): string {
@@ -414,6 +435,9 @@
 		feedbackStage = 'celebration';
 		celebrationEmoji = ['🎉', '⭐', '🌟', '🏆', '🎊'][Math.floor(Math.random() * 5)];
 		
+		// Generate background animations
+		generateBackgroundAnimations();
+		
 		const celebrations = ['¡Muy bien!', '¡Excelente!', '¡Perfecto!', '¡Genial!', '¡Fantástico!', '¡Súper!'];
 		const celebration = celebrations[Math.floor(Math.random() * celebrations.length)];
 		const finnish = findFinnishTranslation(currentQuestion.spanish) || currentQuestion.finnish || '';
@@ -441,6 +465,7 @@
 						setTimeout(() => {
 							showFeedback = false;
 							feedbackStage = null;
+							showBackgroundAnimation = false;
 							nextQuestion();
 						}, 800);
 					};
@@ -457,6 +482,7 @@
 			setTimeout(() => {
 				showFeedback = false;
 				feedbackStage = null;
+				showBackgroundAnimation = false;
 				nextQuestion();
 			}, 3000);
 		}
@@ -471,6 +497,9 @@
 		showFeedback = true;
 		feedbackStage = 'wrong';
 		wrongAnswerImageId = wrongImageId;
+		
+		// Generate background animations
+		generateBackgroundAnimations();
 		
 		// Find the description of the wrong answer
 		const wrongOption = currentOptions.find(o => o.id === wrongImageId);
@@ -523,6 +552,7 @@
 									showFeedback = false;
 									feedbackStage = null;
 									wrongAnswerImageId = null;
+									showBackgroundAnimation = false;
 									nextQuestion();
 								}, 800);
 							};
@@ -542,6 +572,7 @@
 				showFeedback = false;
 				feedbackStage = null;
 				wrongAnswerImageId = null;
+				showBackgroundAnimation = false;
 				nextQuestion();
 			}, 4500);
 		}
@@ -613,14 +644,8 @@
 	}
 </script>
 
-<div class="min-h-screen bg-gradient-to-br from-pink-300 via-purple-300 to-blue-300">
-	<div class="container mx-auto px-2 max-w-5xl py-2">
-		<!-- Back Button - Top Left (only on home screen) -->
-		{#if !gameStarted && !gameEnded}
-			<div class="mb-2">
-				<BackButton />
-			</div>
-		{/if}
+<GameContainer gameType="viewport-fitted" buttonMode="kids" backgroundClass="bg-gradient-to-br from-pink-300 via-purple-300 to-blue-300" transparentCard={true} showBackButton={!gameStarted && !gameEnded} onBack={() => window.location.href = `${base}/`}>
+	<div class="flex flex-col h-full p-2">
 
 		{#if loading}
 			<!-- Loading State -->
@@ -706,15 +731,24 @@
 
 				<!-- Image Options Grid OR Feedback Area -->
 				{#if showFeedback}
+					<!-- Background Animations (behind feedback) -->
+					{#if showBackgroundAnimation}
+						<div class="fixed inset-0 pointer-events-none" style="z-index: 1;">
+							{#each backgroundAnimations as animConfig}
+								<CharacterAnimation config={animConfig} />
+							{/each}
+						</div>
+					{/if}
+				
 					<!-- Feedback Area (replaces image grid) -->
-					<div class="flex-1 min-h-0 flex items-center justify-center bg-white rounded-2xl shadow-xl p-4 overflow-y-auto">
+					<div class="flex-1 min-h-0 flex items-center justify-center pointer-events-none rounded-2xl p-4 overflow-y-auto relative" style="z-index: 10;">
 						{#if feedbackStage === 'wrong' && wrongAnswerImageId && currentQuestion}
 							<!-- Show wrong answer first, then correct answer -->
 							<div class="w-full max-w-2xl space-y-3 md:space-y-6 animate-fade-in">
 								<!-- Wrong Answer Row -->
-								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 bg-red-50 rounded-xl border-2 border-red-300">
+								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 rounded-xl">
 									<!-- Left: Image/Emoji (50% width, max 400px) -->
-									<div class="flex items-center justify-center" style="width:50%; max-width:400px;">
+									<div class="flex items-center justify-center bg-white/70 backdrop-blur-sm rounded-xl p-2 shadow-xl" style="width:50%; max-width:400px;">
 										{#if displayMode === 'svg' && getImageFile(wrongAnswerImageId)}
 											<img
 												src={getImageFile(wrongAnswerImageId)}
@@ -728,22 +762,22 @@
 									
 									<!-- Right: Text and Icon (50% width) -->
 									<div class="flex flex-col items-center justify-center text-center" style="width:50%;">
-										<div class="text-sm md:text-xl font-bold text-red-600 mb-1 md:mb-2">
+										<div class="text-sm md:text-xl font-bold text-red-600 mb-1 md:mb-2 drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">
 											{wrongAnswerText}
 										</div>
-										<div class="text-4xl md:text-6xl">❌</div>
+										<div class="text-4xl md:text-6xl drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">❌</div>
 									</div>
 								</div>
 
 								<!-- Separator Arrow -->
 								<div class="text-center">
-									<div class="text-2xl md:text-4xl">👇</div>
+									<div class="text-2xl md:text-4xl drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">👇</div>
 								</div>
 
 								<!-- Correct Answer Row -->
-								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 bg-green-50 rounded-xl border-2 border-green-300">
+								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 rounded-xl">
 										<!-- Left: Image/Emoji (50% width, max 400px) -->
-									<div class="flex items-center justify-center" style="width:50%; max-width:400px;">
+									<div class="flex items-center justify-center bg-white/70 backdrop-blur-sm rounded-xl p-2 shadow-xl" style="width:50%; max-width:400px;">
 										{#if displayMode === 'svg' && getImageFile(currentQuestion.correctImage)}
 											<img
 												src={getImageFile(currentQuestion.correctImage)}
@@ -757,13 +791,13 @@
 									
 									<!-- Right: Text and Icon (50% width) -->
 									<div class="flex flex-col items-center justify-center text-center" style="width:50%;">
-										<div class="text-sm md:text-xl font-bold text-primary mb-1">
+										<div class="text-sm md:text-xl font-bold text-primary mb-1 drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">
 											{currentQuestion.spanish}
 										</div>
-										<div class="text-xs md:text-lg text-green-600 font-bold mb-1 md:mb-2">
+										<div class="text-xs md:text-lg text-green-600 font-bold mb-1 md:mb-2 drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">
 											= {findFinnishTranslation(currentQuestion.spanish) || currentQuestion.finnish || ''}
 										</div>
-										<div class="text-4xl md:text-6xl">✅</div>
+										<div class="text-4xl md:text-6xl drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">✅</div>
 									</div>
 								</div>
 							</div>
@@ -771,9 +805,9 @@
 							<!-- Show correct answer (fallback case, shouldn't be used with new logic) -->
 							<div class="w-full max-w-2xl animate-fade-in">
 								<!-- Correct Answer Row -->
-								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 bg-green-50 rounded-xl border-2 border-green-300">
+								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 rounded-xl">
 										<!-- Left: Image/Emoji (50% width, max 400px) -->
-									<div class="flex items-center justify-center" style="width:50%; max-width:400px;">
+									<div class="flex items-center justify-center bg-white/70 backdrop-blur-sm rounded-xl p-2 shadow-xl" style="width:50%; max-width:400px;">
 										{#if displayMode === 'svg' && getImageFile(currentQuestion.correctImage)}
 											<img
 												src={getImageFile(currentQuestion.correctImage)}
@@ -787,13 +821,13 @@
 									
 									<!-- Right: Text and Icon (50% width) -->
 									<div class="flex flex-col items-center justify-center text-center" style="width:50%;">
-										<div class="text-sm md:text-xl font-bold text-primary mb-1">
+										<div class="text-sm md:text-xl font-bold text-primary mb-1 drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">
 											{currentQuestion.spanish}
 										</div>
-										<div class="text-xs md:text-lg text-green-600 font-bold mb-1 md:mb-2">
+										<div class="text-xs md:text-lg text-green-600 font-bold mb-1 md:mb-2 drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">
 											= {findFinnishTranslation(currentQuestion.spanish) || currentQuestion.finnish || ''}
 										</div>
-										<div class="text-4xl md:text-6xl">✅</div>
+										<div class="text-4xl md:text-6xl drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">✅</div>
 									</div>
 								</div>
 							</div>
@@ -801,16 +835,16 @@
 							<!-- Show celebration for correct answer (user got it right on first try) -->
 							<div class="w-full max-w-2xl animate-bounce">
 								<div class="text-center mb-2 md:mb-4">
-									<div class="text-6xl md:text-8xl mb-1 md:mb-2">{celebrationEmoji}</div>
-									<div class="text-2xl md:text-3xl font-bold text-green-600">
+									<div class="text-6xl md:text-8xl mb-1 md:mb-2 drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">{celebrationEmoji}</div>
+									<div class="text-2xl md:text-3xl font-bold text-white drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
 										¡Muy bien!
 									</div>
 								</div>
 								
 								<!-- Correct Answer Row -->
-								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 bg-green-50 rounded-xl border-2 border-green-300">
+								<div class="flex items-center gap-2 md:gap-4 p-2 md:p-4 rounded-xl">
 									<!-- Left: Image/Emoji -->
-									<div class="flex-shrink-0 w-20 h-20 md:w-32 md:h-32 flex items-center justify-center">
+									<div class="flex-shrink-0 w-20 h-20 md:w-32 md:h-32 flex items-center justify-center bg-white/70 backdrop-blur-sm rounded-xl p-2 shadow-xl">
 										{#if displayMode === 'svg' && getImageFile(currentQuestion.correctImage)}
 											<img 
 												src={getImageFile(currentQuestion.correctImage)} 
@@ -824,13 +858,13 @@
 									
 									<!-- Right: Text and Icon -->
 									<div class="flex-1 flex flex-col items-center justify-center text-center">
-										<div class="text-sm md:text-xl font-bold text-primary mb-1">
+										<div class="text-sm md:text-xl font-bold text-primary mb-1 drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">
 											{currentQuestion.spanish}
 										</div>
-										<div class="text-xs md:text-lg text-green-600 font-bold mb-1 md:mb-2">
+										<div class="text-xs md:text-lg text-green-600 font-bold mb-1 md:mb-2 drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">
 											= {findFinnishTranslation(currentQuestion.spanish) || currentQuestion.finnish || ''}
 										</div>
-										<div class="text-4xl md:text-6xl">✅</div>
+										<div class="text-4xl md:text-6xl drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">✅</div>
 									</div>
 								</div>
 							</div>
@@ -951,7 +985,7 @@
 			</div>
 		{/if}
 	</div>
-</div>
+</GameContainer>
 
 <style>
 	@keyframes fade-in {

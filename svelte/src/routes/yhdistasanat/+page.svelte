@@ -921,7 +921,7 @@
 
 <!-- PLAYING STATE & FEEDBACK STATE -->
 {#if gameState === 'playing' || gameState === 'feedback'}
-	<GameContainer showBackButton={false}>
+	<GameContainer gameType="basic" buttonMode="basic" showBackButton={false}>
 		<!-- Header Row -->
 		<GameHeader 
 			currentQuestion={currentQuestionNumber}

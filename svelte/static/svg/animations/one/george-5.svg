@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  
+  <defs>
+    <filter id="shadowBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+    </filter>
+  </defs>
+<line x1="0" y1="95" x2="80" y2="95" stroke="#2B2B2B" stroke-width="1" opacity="0.35"  filter="url(#shadowBlur)"/>
+
+  <!-- peak jump: highest + strongest lean -->
+  <g id="george" transform="translate(0 -12) rotate(12 50 60)">
+    <!-- legs -->
+    <g id="legs">
+      <!-- left leg highest -->
+      <g transform="rotate(-5 48 70)">
+        <rect x="46" y="58" width="6" height="24" rx="3" fill="#F9C6CF" />
+        <ellipse cx="44" cy="82" rx="6" ry="3.5" fill="#1A1A1A" />
+      </g>
+      <!-- right leg trailing -->
+      <g transform="rotate(40 52 70)">
+        <rect x="50" y="64" width="6" height="22" rx="3" fill="#F9C6CF" />
+        <ellipse cx="61" cy="86" rx="6" ry="3.5" fill="#1A1A1A" />
+      </g>
+    </g>
+
+    <!-- body -->
+    <ellipse cx="50" cy="60" rx="14" ry="18" fill="#6B9BD2" />
+
+    <!-- arms -->
+    <g id="arms">
+      <!-- left arm fully out for balance -->
+      <g transform="rotate(5 40 55)">
+        <rect x="36" y="50" width="5" height="22" rx="2.5" fill="#F9C6CF" />
+        <circle cx="38.5" cy="72" r="3" fill="#F9C6CF" />
+      </g>
+
+      <!-- right arm fully extended upward -->
+      <g transform="rotate(-75 58 54)">
+        <rect x="62" y="30" width="5" height="32" rx="2.5" fill="#F9C6CF" />
+        <circle cx="64.5" cy="62" r="3" fill="#F9C6CF" />
+
+        <!-- dinosaur (facing viewer): simplified front view) -->
+        <g id="dino" transform="translate(54 18)">
+          <ellipse cx="16" cy="18" rx="9" ry="6" fill="#4CAF50" />
+          <circle cx="16" cy="10" r="5" fill="#4CAF50" />
+          <circle cx="14" cy="9" r="1.1" fill="#2B2B2B" />
+          <circle cx="18" cy="9" r="1.1" fill="#2B2B2B" />
+          <path d="M14 12 Q16 14 18 12" stroke="#2B2B2B" stroke-width="1" fill="none" stroke-linecap="round" />
+          <rect x="12" y="23" width="2" height="5" rx="1" fill="#4CAF50" />
+          <rect x="18" y="23" width="2" height="5" rx="1" fill="#4CAF50" />
+          <path d="M7 20 L3 22 L7 25 Z" fill="#4CAF50" />
+        </g>
+      </g>
+    </g>
+
+    <!-- head (tilted back, looking up) -->
+    <g id="head" transform="rotate(-5 50 35)">
+      <circle cx="50" cy="35" r="15" fill="#F9C6CF" />
+      <!-- ears -->
+      <circle cx="43" cy="23" r="5" fill="#F9C6CF" />
+      <circle cx="51" cy="21" r="5" fill="#F9C6CF" />
+
+      <!-- snout -->
+      <ellipse cx="63" cy="38" rx="8" ry="6" fill="#FF69B4" />
+      <circle cx="66" cy="37" r="1.2" fill="#2B2B2B" />
+      <circle cx="69" cy="39" r="1.2" fill="#2B2B2B" />
+
+      <!-- eyes -->
+      <circle cx="46" cy="33" r="4" fill="#FFFFFF" />
+      <circle cx="47" cy="34" r="2" fill="#1A1A1A" />
+
+      <!-- mouth (open wide joy) -->
+      <path d="M58 43 Q54 52 47 44" stroke="#2B2B2B" stroke-width="2" fill="none" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>

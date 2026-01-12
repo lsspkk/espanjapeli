@@ -11,7 +11,20 @@ describe('GameContainer', () => {
 			}
 		});
 		
-		expect(getByText('Takaisin')).toBeTruthy();
+		expect(getByText('Valikko')).toBeTruthy();
+	});
+
+	it('shows kids mode button when buttonMode is kids', () => {
+		const onBack = vi.fn();
+		const { container } = render(GameContainer, {
+			props: {
+				onBack,
+				buttonMode: 'kids'
+			}
+		});
+		
+		const icon = container.querySelector('span.text-xl');
+		expect(icon?.textContent).toBe('🏠');
 	});
 
 	it('hides back button when showBackButton is false', () => {
@@ -23,7 +36,7 @@ describe('GameContainer', () => {
 			}
 		});
 		
-		expect(queryByText('Takaisin')).toBeNull();
+		expect(queryByText('Valikko')).toBeNull();
 	});
 
 	it('does not show back button when onBack is not provided', () => {
@@ -33,7 +46,7 @@ describe('GameContainer', () => {
 			}
 		});
 		
-		expect(queryByText('Takaisin')).toBeNull();
+		expect(queryByText('Valikko')).toBeNull();
 	});
 
 	it('calls onBack when back button is clicked', () => {
@@ -44,7 +57,7 @@ describe('GameContainer', () => {
 			}
 		});
 		
-		const backButton = getByText('Takaisin');
+		const backButton = getByText('Valikko');
 		backButton.click();
 		
 		expect(onBack).toHaveBeenCalledTimes(1);
@@ -63,12 +76,39 @@ describe('GameContainer', () => {
 		const outerDiv = container.querySelector('.min-h-screen.bg-base-200');
 		expect(outerDiv).toBeTruthy();
 		
-		// Check card container has correct classes
+		// Check card container has correct classes (default gameType='basic' uses max-w-4xl)
 		const cardDiv = container.querySelector('.card.bg-base-100.shadow-xl');
 		expect(cardDiv).toBeTruthy();
 		expect(cardDiv?.classList.contains('w-full')).toBe(true);
-		expect(cardDiv?.classList.contains('md:max-w-5xl')).toBe(true);
+		expect(cardDiv?.classList.contains('md:max-w-4xl')).toBe(true);
 		expect(cardDiv?.classList.contains('flex')).toBe(true);
 		expect(cardDiv?.classList.contains('flex-col')).toBe(true);
+	});
+
+	it('applies correct layout for story gameType', () => {
+		const { container } = render(GameContainer, {
+			props: {
+				gameType: 'story'
+			}
+		});
+		
+		const cardDiv = container.querySelector('.card.bg-base-100.shadow-xl');
+		expect(cardDiv?.classList.contains('md:max-w-3xl')).toBe(true);
+	});
+
+	it('applies correct layout for viewport-fitted gameType', () => {
+		const { container } = render(GameContainer, {
+			props: {
+				gameType: 'viewport-fitted'
+			}
+		});
+		
+		const outerDiv = container.querySelector('.h-screen.bg-base-200');
+		expect(outerDiv).toBeTruthy();
+		
+		const cardDiv = container.querySelector('.card.bg-base-100.shadow-xl');
+		expect(cardDiv?.classList.contains('md:max-w-4xl')).toBe(true);
+		expect(cardDiv?.classList.contains('min-h-[600px]')).toBe(true);
+		expect(cardDiv?.classList.contains('max-h-screen')).toBe(true);
 	});
 });

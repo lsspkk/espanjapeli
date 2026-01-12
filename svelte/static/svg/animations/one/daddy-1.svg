@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  
+  
+  <defs>
+    <filter id="shadowBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+    </filter>
+  </defs>
+<line x1="0" y1="95" x2="80" y2="95" stroke="#2B2B2B" stroke-width="1" opacity="0.35"  filter="url(#shadowBlur)"/>
+<!-- Daddy Pig Frame 1: Standing upright in side profile -->
+  
+  <!-- Back leg -->
+  <rect x="40" y="75" width="9" height="20" rx="4" fill="#FFAB91"/>
+  <!-- Back foot -->
+  <ellipse cx="44.5" cy="95" rx="7" ry="4" fill="#FF8A65"/>
+  
+  <!-- Body (large belly) -->
+  <ellipse cx="50" cy="60" rx="27" ry="35" fill="#FF8A65"/>
+  
+  <!-- Shirt overlay on upper body -->
+  <ellipse cx="50" cy="45" rx="25" ry="18" fill="#4DB8AC"/>
+  
+  <!-- Front leg -->
+  <rect x="52" y="75" width="9" height="20" rx="4" fill="#FFAB91"/>
+  <!-- Front foot -->
+  <ellipse cx="56.5" cy="95" rx="7" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Back arm -->
+  <rect x="35" y="50" width="7" height="20" rx="3" fill="#FFAB91"/>
+  <!-- Back hand -->
+  <circle cx="38.5" cy="70" r="5" fill="#FFAB91"/>
+  
+  <!-- Front arm -->
+  <rect x="60" y="50" width="7" height="20" rx="3" fill="#FFAB91"/>
+  <!-- Front hand -->
+  <circle cx="63.5" cy="70" r="5" fill="#FFAB91"/>
+  
+  <!-- Tail -->
+  <path d="M 25 65 Q 20 65 18 62 Q 16 59 18 56" fill="none" stroke="#FFAB91" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Head (side profile) -->
+  <ellipse cx="55" cy="30" rx="20" ry="22" fill="#FFAB91"/>
+  
+  <!-- Ear (one visible in profile) -->
+  <ellipse cx="48" cy="18" rx="8" ry="9" fill="#FFAB91"/>
+  
+  <!-- Snout extending to the right -->
+  <ellipse cx="70" cy="30" rx="13" ry="10" fill="#FFAB91"/>
+  
+  <!-- Nostrils on snout -->
+  <circle cx="76" cy="28" r="2" fill="#FF69B4"/>
+  <circle cx="76" cy="32" r="2" fill="#FF69B4"/>
+  
+  <!-- Glasses (side view, one lens visible) -->
+  <circle cx="58" cy="28" r="10" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+  <!-- Glasses bridge going to snout -->
+  <line x1="68" y1="28" x2="57" y2="28" stroke="#1A1A1A" stroke-width="1.5"/>
+  <!-- Glasses arm going back -->
+  <line x1="48" y1="28" x2="42" y2="28" stroke="#1A1A1A" stroke-width="1.5"/>
+  
+  <!-- Eye (one visible in profile) -->
+  <circle cx="58" cy="28" r="5" fill="#FFFFFF"/>
+  <circle cx="60" cy="28" r="2.5" fill="#1A1A1A"/>
+  
+  <!-- Mouth -->
+  <path d="M 70 36 Q 72 38 74 36" fill="none" stroke="#1A1A1A" stroke-width="1"/>
+</svg>

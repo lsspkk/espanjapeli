@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  
+  
+  <defs>
+    <filter id="shadowBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+    </filter>
+  </defs>
+<line x1="0" y1="95" x2="200" y2="95" stroke="#2B2B2B" stroke-width="1" opacity="0.35"  filter="url(#shadowBlur)"/>
+<!-- Peppa Frame 16: Seated upright, vertical -->
+  
+  <!-- Bicycle Back Wheel (rotated 270?) -->
+  <g transform="translate(60, 77)">
+    <circle r="18" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+    <g transform="rotate(270)">
+      <line x1="0" y1="-18" x2="0" y2="18" stroke="#1A1A1A" stroke-width="1"/>
+      <line x1="-18" y1="0" x2="18" y2="0" stroke="#1A1A1A" stroke-width="1"/>
+      <line x1="-13" y1="-13" x2="13" y2="13" stroke="#1A1A1A" stroke-width="1"/>
+      <line x1="-13" y1="13" x2="13" y2="-13" stroke="#1A1A1A" stroke-width="1"/>
+    </g>
+    <circle r="3" fill="#1A1A1A"/>
+  </g>
+  
+  <!-- Bicycle Frame -->
+  <path d="M 60 77 L 100 60 L 130 77" fill="none" stroke="#CC3333" stroke-width="3"/>
+  <path d="M 100 60 L 100 50" stroke="#CC3333" stroke-width="3"/>
+  
+  <!-- Bicycle Seat -->
+  <ellipse cx="100" cy="48" rx="8" ry="4" fill="#8B4513"/>
+  
+  <!-- Bicycle Front Wheel (rotated 270?) -->
+  <g transform="translate(130, 77)">
+    <circle r="18" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+    <g transform="rotate(270)">
+      <line x1="0" y1="-18" x2="0" y2="18" stroke="#1A1A1A" stroke-width="1"/>
+      <line x1="-18" y1="0" x2="18" y2="0" stroke="#1A1A1A" stroke-width="1"/>
+      <line x1="-13" y1="-13" x2="13" y2="13" stroke="#1A1A1A" stroke-width="1"/>
+      <line x1="-13" y1="13" x2="13" y2="-13" stroke="#1A1A1A" stroke-width="1"/>
+    </g>
+    <circle r="3" fill="#1A1A1A"/>
+  </g>
+  
+  <!-- Bicycle Handlebars -->
+  <path d="M 130 60 Q 125 55 120 53" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <line x1="118" y1="53" x2="122" y2="53" stroke="#1A1A1A" stroke-width="2"/>
+  
+  <!-- Left Pedal (at 9 o'clock - horizontal left) -->
+  <g transform="translate(95, 77)">
+    <g transform="rotate(270)">
+      <rect x="-6" y="-2" width="12" height="4" fill="#666"/>
+    </g>
+  </g>
+  
+  <!-- Right Pedal (at 3 o'clock - horizontal right) -->
+  <g transform="translate(95, 77)">
+    <g transform="rotate(90)">
+      <rect x="-6" y="-2" width="12" height="4" fill="#666"/>
+    </g>
+  </g>
+  
+  <!-- Peppa's Left Leg (bent, pedal at 9 o'clock) -->
+  <g transform="translate(95, 77) rotate(270)">
+    <rect x="-3" y="0" width="6" height="20" rx="3" fill="#F9C6CF"/>
+  </g>
+  
+  <!-- Peppa's Right Leg (extended, pedal at 3 o'clock) -->
+  <g transform="translate(95, 77) rotate(90)">
+    <rect x="-3" y="0" width="6" height="25" rx="3" fill="#F9C6CF"/>
+  </g>
+  
+  <!-- Peppa's Left Foot -->
+  <ellipse cx="75" cy="77" rx="6" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Peppa's Right Foot -->
+  <ellipse cx="120" cy="77" rx="6" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Peppa's Body (dress) -->
+  <ellipse cx="100" cy="55" rx="15" ry="20" fill="#E63946"/>
+  
+  <!-- Peppa's Head -->
+  <circle cx="100" cy="30" r="18" fill="#F9C6CF"/>
+  
+  <!-- Peppa's Snout -->
+  <ellipse cx="110" cy="30" rx="10" ry="8" fill="#FF69B4"/>
+  <circle cx="113" cy="28" r="1.5" fill="#1A1A1A"/>
+  <circle cx="113" cy="32" r="1.5" fill="#1A1A1A"/>
+  
+  <!-- Peppa's Ears -->
+  <circle cx="95" cy="18" r="6" fill="#F9C6CF"/>
+  <circle cx="105" cy="18" r="6" fill="#F9C6CF"/>
+  
+  <!-- Peppa's Left Eye -->
+  <circle cx="97" cy="28" r="5" fill="white"/>
+  <circle cx="98" cy="28" r="2" fill="#1A1A1A"/>
+  
+  <!-- Peppa's Right Eye -->
+  <circle cx="107" cy="28" r="5" fill="white"/>
+  <circle cx="108" cy="28" r="2" fill="#1A1A1A"/>
+  
+  <!-- Peppa's Mouth -->
+  <path d="M 100 35 Q 102 37 104 35" fill="none" stroke="#1A1A1A" stroke-width="1"/>
+  
+  <!-- Peppa's Left Arm -->
+  <rect x="85" y="50" width="6" height="18" rx="3" fill="#F9C6CF" transform="rotate(-20 88 50)"/>
+  <circle cx="82" cy="66" r="4" fill="#F9C6CF"/>
+  
+  <!-- Peppa's Right Arm -->
+  <rect x="109" y="50" width="6" height="18" rx="3" fill="#F9C6CF" transform="rotate(20 112 50)"/>
+  <circle cx="118" cy="66" r="4" fill="#F9C6CF"/>
+</svg>

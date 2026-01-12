@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  
+  
+  <defs>
+    <filter id="shadowBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+    </filter>
+  </defs>
+<line x1="0" y1="95" x2="80" y2="95" stroke="#2B2B2B" stroke-width="1" opacity="0.35"  filter="url(#shadowBlur)"/>
+<!-- Daddy Pig Frame 11: Rising from ground, 220° rotation (back toward upright) -->
+  <g transform="rotate(220 50 75)">
+    
+    <!-- Legs (under body, knees bent) -->
+    <rect x="38" y="72" width="9" height="16" rx="4" fill="#FFAB91"/>
+    <rect x="52" y="72" width="9" height="16" rx="4" fill="#FFAB91"/>
+    
+    <!-- Feet (on ground) -->
+    <ellipse cx="42.5" cy="88" rx="7" ry="4" fill="#FF8A65"/>
+    <ellipse cx="56.5" cy="88" rx="7" ry="4" fill="#1A1A1A"/>
+    
+    <!-- Body (crouched) -->
+    <ellipse cx="50" cy="70" rx="27" ry="32" fill="#FF8A65"/>
+    
+    <!-- Shirt -->
+    <ellipse cx="50" cy="58" rx="25" ry="16" fill="#4DB8AC"/>
+    
+    <!-- Arms (extended, hands on ground for support) -->
+    <rect x="42" y="68" width="7" height="18" rx="3" fill="#FFAB91" transform="rotate(-30 45.5 77)"/>
+    <rect x="56" y="68" width="7" height="18" rx="3" fill="#FFAB91" transform="rotate(-30 59.5 77)"/>
+    
+    <!-- Hands (on ground) -->
+    <circle cx="48" cy="85" r="5" fill="#FFAB91"/>
+    <circle cx="62" cy="85" r="5" fill="#FFAB91"/>
+    
+    <!-- Tail -->
+    <path d="M 25 72 Q 20 72 18 69 Q 16 66 18 62" fill="none" stroke="#FFAB91" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Head (up, side profile, recovering) -->
+    <ellipse cx="55" cy="48" rx="20" ry="22" fill="#FFAB91" transform="rotate(240 55 48)"/>
+    
+    <!-- Ear -->
+    <ellipse cx="50" cy="42" rx="8" ry="9" fill="#FFAB91"/>
+    
+    <!-- Snout (side profile) -->
+    <ellipse cx="68" cy="50" rx="13" ry="10" fill="#FFAB91" transform="rotate(240 68 50)"/>
+    
+    <!-- Nostrils -->
+    <circle cx="73" cy="48" r="2" fill="#FF69B4"/>
+    <circle cx="73" cy="52" r="2" fill="#FF69B4"/>
+    
+    <!-- Glasses (very crooked) -->
+    <circle cx="57" cy="46" r="10" fill="none" stroke="#1A1A1A" stroke-width="1.5" transform="rotate(30 57 46)"/>
+    <line x1="67" y1="46" x2="56" y2="46" stroke="#1A1A1A" stroke-width="1.5"/>
+    <line x1="47" y1="46" x2="41" y2="46" stroke="#1A1A1A" stroke-width="1.5"/>
+    
+    <!-- Eyes (focusing, recovering) -->
+    <circle cx="57" cy="46" r="5" fill="#FFFFFF"/>
+    <circle cx="58" cy="46" r="2.5" fill="#1A1A1A"/>
+    
+    <!-- Mouth (recovering, slight strain) -->
+    <path d="M 68 56 Q 70 57 72 56" fill="none" stroke="#1A1A1A" stroke-width="1"/>
+    
+  </g>
+</svg>

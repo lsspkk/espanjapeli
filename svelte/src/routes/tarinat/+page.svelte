@@ -113,56 +113,14 @@
 
 {#if gameState === 'home'}
 	<!-- Home screen with story list -->
-	<div class="min-h-screen bg-base-200">
-		<div class="container mx-auto px-4 py-6 max-w-4xl">
-			<!-- Back Button - Top Left -->
-			<div class="mb-4">
-				<BackButton />
-			</div>
-			
+	<GameContainer gameType="story" buttonMode="basic" onBack={goBackToMenu}>
+		<div class="card-body p-4 md:p-6">
 			<!-- Header -->
 			<div class="mb-6">
 				<h1 class="text-2xl md:text-3xl font-bold text-primary flex items-center gap-2">
 					📖 Tarinat ja dialogit
 				</h1>
 			</div>
-
-			<!-- Filters - Commented out for now, may add later -->
-			<!-- <div class="card bg-base-100 shadow-md mb-6">
-				<div class="card-body p-4">
-					<div class="flex flex-wrap gap-4">
-						<div class="form-control">
-							<label class="label py-1" for="filter-difficulty">
-								<span class="label-text text-sm">Vaikeustaso</span>
-							</label>
-							<select id="filter-difficulty" class="select select-bordered select-sm" bind:value={filterDifficulty}>
-								<option value="all">Kaikki tasot</option>
-								<option value="beginner">Aloittelija</option>
-								<option value="intermediate">Keskitaso</option>
-								<option value="advanced">Edistynyt</option>
-							</select>
-						</div>
-
-						<div class="form-control">
-							<label class="label py-1" for="filter-category">
-								<span class="label-text text-sm">Aihe</span>
-							</label>
-							<select id="filter-category" class="select select-bordered select-sm" bind:value={filterCategory}>
-								<option value="all">Kaikki aiheet</option>
-								{#each categories as cat}
-									<option value={cat}>{categoryNames[cat] || cat}</option>
-								{/each}
-							</select>
-						</div>
-
-						<div class="flex items-end ml-auto">
-							<span class="text-sm text-base-content/60">
-								{filteredStories.length} tarinaa
-							</span>
-						</div>
-					</div>
-				</div>
-			</div> -->
 
 			<!-- Stories list -->
 			{#if loading}
@@ -180,13 +138,12 @@
 					{/each}
 				</div>
 			{/if}
-
 		</div>
-	</div>
+	</GameContainer>
 
 {:else if gameState === 'reading' && selectedStory}
 	<!-- Reading mode -->
-	<GameContainer showBackButton={false}>
+	<GameContainer gameType="story" buttonMode="basic" showBackButton={false}>
 		<!-- Top bar with difficulty badge and close button -->
 		<div class="bg-base-100 border-b border-base-200 p-3 flex items-center justify-between">
 			<span class="badge {getDifficultyColor(selectedStory.difficulty)}">
@@ -211,7 +168,7 @@
 
 {:else if gameState === 'questions' && selectedStory}
 	<!-- Questions mode -->
-	<GameContainer showBackButton={false}>
+	<GameContainer gameType="story" buttonMode="basic" showBackButton={false}>
 		<!-- Top bar -->
 		<div class="bg-base-100 border-b border-base-200 p-3 flex items-center justify-between">
 			<div class="flex items-center gap-2">

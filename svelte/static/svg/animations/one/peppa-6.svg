@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  
+  <defs>
+    <filter id="shadowBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+    </filter>
+  </defs>
+<!-- Peppa Frame 6: Seated upright, vertical, pedal at 11 o'clock and 5 o'clock -->
+  
+  <!-- Bicycle Back Wheel (90? rotation) -->
+  <g transform="translate(50, 95)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+    <g transform="rotate(90)">
+      <line x1="0" y1="-18" x2="0" y2="18" stroke="#1A1A1A" stroke-width="1"/>
+      <line x1="-18" y1="0" x2="18" y2="0" stroke="#1A1A1A" stroke-width="1"/>
+      <line x1="-13" y1="-13" x2="13" y2="13" stroke="#1A1A1A" stroke-width="1"/>
+      <line x1="-13" y1="13" x2="13" y2="-13" stroke="#1A1A1A" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- Bicycle Frame -->
+  <path d="M 50 95 L 85 75 L 110 95 M 85 75 L 85 60" stroke="#CC3333" stroke-width="3" fill="none"/>
+  
+  <!-- Bicycle Seat -->
+  <ellipse cx="85" cy="58" rx="8" ry="4" fill="#8B4513"/>
+  
+  <!-- Left Pedal (at 11 o'clock, 330?) -->
+  <g transform="translate(68, 95) rotate(330)">
+    <rect x="-3" y="-8" width="6" height="4" fill="#1A1A1A"/>
+  </g>
+  
+  <!-- Right Pedal (at 5 o'clock, 150?) -->
+  <g transform="translate(68, 95) rotate(150)">
+    <rect x="-3" y="-8" width="6" height="4" fill="#1A1A1A"/>
+  </g>
+  
+  <!-- Crank -->
+  <line x1="68" y1="95" x2="68" y2="95" stroke="#333" stroke-width="2" filter="url(#shadowBlur)"/>
+  
+  <!-- Peppa Body (seated on bicycle) -->
+  <g transform="translate(85, 60)">
+    <!-- Body (dress) -->
+    <ellipse cx="0" cy="5" rx="15" ry="20" fill="#E63946"/>
+    
+    <!-- Left Leg (nearly fully extended, pedal at 11 o'clock) -->
+    <g transform="translate(-5, 15)">
+      <rect x="-3" y="0" width="6" height="23" rx="3" fill="#F9C6CF" transform="rotate(-35)"/>
+      <ellipse cx="-18" cy="30" rx="6" ry="4" fill="#1A1A1A"/>
+    </g>
+    
+    <!-- Right Leg (bending more, pedal at 5 o'clock) -->
+    <g transform="translate(5, 15)">
+      <rect x="-3" y="0" width="6" height="22" rx="3" fill="#F9C6CF" transform="rotate(25)"/>
+      <ellipse cx="13" cy="33" rx="6" ry="4" fill="#1A1A1A"/>
+    </g>
+    
+    <!-- Left Arm (bent, hand even on handlebar) -->
+    <g transform="translate(-8, -5)">
+      <rect x="-3" y="0" width="6" height="18" rx="3" fill="#F9C6CF" transform="rotate(-25)"/>
+      <circle cx="-8" cy="16" r="4" fill="#F9C6CF"/>
+    </g>
+    
+    <!-- Right Arm (bent, hand even on handlebar) -->
+    <g transform="translate(8, -5)">
+      <rect x="-3" y="0" width="6" height="18" rx="3" fill="#F9C6CF" transform="rotate(25)"/>
+      <circle cx="8" cy="16" r="4" fill="#F9C6CF"/>
+    </g>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-15" r="18" fill="#F9C6CF"/>
+    
+    <!-- Snout (facing forward and slightly down) -->
+    <ellipse cx="10" cy="-13" rx="10" ry="8" fill="#FF69B4"/>
+    <circle cx="13" cy="-15" r="1.5" fill="#1A1A1A"/>
+    <circle cx="13" cy="-11" r="1.5" fill="#1A1A1A"/>
+    
+    <!-- Eyes (looking down at path ahead) -->
+    <circle cx="3" cy="-18" r="5" fill="white"/>
+    <circle cx="3" cy="-17" r="2" fill="#1A1A1A"/>
+    
+    <!-- Ears (upright, natural position) -->
+    <circle cx="-8" cy="-28" r="6" fill="#F9C6CF"/>
+    <circle cx="8" cy="-28" r="6" fill="#F9C6CF"/>
+  </g>
+  
+  <!-- Bicycle Front Wheel (90? rotation) -->
+  <g transform="translate(110, 95)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+    <g transform="rotate(90)">
+      <line x1="0" y1="-18" x2="0" y2="18" stroke="#1A1A1A" stroke-width="1"/>
+      <line x1="-18" y1="0" x2="18" y2="0" stroke="#1A1A1A" stroke-width="1"/>
+      <line x1="-13" y1="-13" x2="13" y2="13" stroke="#1A1A1A" stroke-width="1"/>
+      <line x1="-13" y1="13" x2="13" y2="-13" stroke="#1A1A1A" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- Bicycle Handlebars -->
+  <path d="M 110 77 Q 100 70 95 70" stroke="#1A1A1A" stroke-width="2" fill="none"/>
+</svg>

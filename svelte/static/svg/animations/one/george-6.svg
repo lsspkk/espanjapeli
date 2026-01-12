@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  
+  <defs>
+    <filter id="shadowBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+    </filter>
+  </defs>
+<!-- GEORGE FRAME 6: Airborne, descending (simplified) -->
+  <rect width="100" height="100" fill="none"/>
+  <line x1="0" y1="95" x2="80" y2="95" stroke="#333" stroke-width="1" filter="url(#shadowBlur)"/>
+
+  <!-- Dinosaur toy held at head level -->
+  <g id="dino" transform="translate(52,26)">
+    <ellipse cx="0" cy="10" rx="8" ry="5" fill="#4CAF50"/>
+    <circle cx="8" cy="6" r="3" fill="#4CAF50"/>
+    <path d="M-6,14 L-12,20 L-4,16" fill="#4CAF50"/>
+  </g>
+
+  <!-- Body group -->
+  <g id="george">
+    <!-- Head -->
+    <circle cx="30" cy="28" r="15" fill="#F9C6CF"/>
+    <ellipse cx="41" cy="30" rx="8" ry="6" fill="#FF69B4"/>
+    <circle cx="44" cy="28" r="1.2" fill="#5B6470"/>
+    <circle cx="44" cy="32" r="1.2" fill="#5B6470"/>
+    <circle cx="22" cy="18" r="5" fill="#F9C6CF"/>
+    <circle cx="38" cy="18" r="5" fill="#F9C6CF"/>
+
+    <!-- Eyes -->
+    <circle cx="26" cy="26" r="4" fill="#fff"/>
+    <circle cx="26" cy="26" r="2" fill="#000"/>
+
+    <!-- Body -->
+    <ellipse cx="30" cy="56" rx="12" ry="16" fill="#6B9BD2"/>
+
+    <!-- Left arm (swinging back) -->
+    <rect x="12" y="46" width="5" height="16" rx="2" fill="#F9C6CF" transform="rotate(-30 12 46)"/>
+    <!-- Right arm (holding dino) -->
+    <rect x="34" y="40" width="5" height="16" rx="2" fill="#F9C6CF" transform="rotate(-10 34 40)"/>
+
+    <!-- Legs: left reaching down, right trailing -->
+    <rect x="22" y="66" width="5" height="20" rx="2" fill="#F9C6CF" transform="rotate(10 22 66)"/>
+    <rect x="34" y="66" width="5" height="20" rx="2" fill="#F9C6CF" transform="rotate(-25 34 66)"/>
+
+    <!-- Feet -->
+    <ellipse cx="24" cy="88" rx="5" ry="3" fill="#1A1A1A"/>
+    <ellipse cx="36" cy="86" rx="5" ry="3" fill="#1A1A1A"/>
+  </g>
+</svg>

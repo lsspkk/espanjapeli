@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Frame 15: 270° - Full Left Profile -->
+  
+  <!-- Ground line -->
+  <line x1="0" y1="95" x2="100" y2="95" stroke="#8B7355" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Left Leg (trying to jump again, profile) -->
+  <rect x="45" y="68" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Right Leg (lifting high, trying to jump, profile) -->
+  <rect x="52" y="63" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Left Foot (lifting) -->
+  <ellipse cx="49" cy="93" rx="5" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Right Foot (lifting high) -->
+  <ellipse cx="56" cy="88" rx="5" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Body (slim, lifted 2px - trying again) -->
+  <ellipse cx="50" cy="52" rx="26" ry="36" fill="#FF8A65"/>
+  
+  <!-- Skirt in motion -->
+  <path d="M 21 70 Q 21 75 19 81 L 29 81 Q 27 75 27 70 Z" fill="#FF8A65"/>
+  <path d="M 73 70 Q 73 75 75 81 L 81 81 Q 79 75 79 70 Z" fill="#FF8A65"/>
+  <path d="M 27 70 L 29 81 L 71 81 L 73 70 Z" fill="#FF8A65"/>
+  
+  <!-- Carousel lines -->
+  <path d="M 19 81 Q 16 79 14 77" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.7"/>
+  <path d="M 20 81.5 Q 17 79.5 15 77.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M 21 82 Q 18 80 16 78" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <path d="M 22 82.5 Q 19 80.5 17 78.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.4"/>
+  <path d="M 81 81 Q 84 79 86 77" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.7"/>
+  <path d="M 80 81.5 Q 83 79.5 85 77.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M 79 82 Q 82 80 84 78" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.5"/>
+  
+  <!-- Right Arm (pointing toward viewer) -->
+  <rect x="72" y="48" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(0 75.5 58)"/>
+  
+  <!-- Right Hand -->
+  <circle cx="90" cy="58" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Head - Perfect Left Profile (270°, lifted 2px) -->
+  <circle cx="50" cy="28" r="20" fill="#FFAB91"/>
+  
+  <!-- Left Ear ONLY (profile, lifted) -->
+  <circle cx="35" cy="13" r="8" fill="#FFAB91"/>
+  
+  <!-- Snout - Perfect Left Profile (lifted) -->
+  <ellipse cx="31" cy="28" rx="10" ry="8" fill="#FF69B4"/>
+  <circle cx="33" cy="28" r="1.5" fill="#1A1A1A"/>
+  
+  <!-- Left Eye ONLY (profile, lifted) -->
+  <circle cx="40" cy="26" r="4" fill="white"/>
+  <circle cx="39" cy="26" r="2" fill="#1A1A1A"/>
+  
+  <!-- Mouth (profile, slightly focused, lifted) -->
+  <path d="M 42 34 Q 44 34.5 46 34" stroke="#D84A4A" stroke-width="1" fill="none"/>
+</svg>

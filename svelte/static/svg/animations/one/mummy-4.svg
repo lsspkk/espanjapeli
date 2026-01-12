@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Frame 4: 54° - Approaching Right Profile -->
+  
+  <!-- Ground line -->
+  <line x1="0" y1="95" x2="100" y2="95" stroke="#8B7355" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Right Leg (barely touching ground, maximum jump attempt) -->
+  <rect x="48" y="68" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Left Leg (lifting high) -->
+  <rect x="38" y="67" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Right Foot (barely touching) -->
+  <ellipse cx="52" cy="93" rx="6" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Left Foot (lifting high) -->
+  <ellipse cx="42" cy="92" rx="6" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Body (slimmest, lifted 4px - maximum attempt) -->
+  <ellipse cx="50" cy="49" rx="25" ry="35" fill="#FF8A65"/>
+  
+  <!-- Skirt with rotation and carousel lines -->
+  <path d="M 25 70 Q 25 75 23 80 L 33 80 Q 31 75 31 70 Z" fill="#FF8A65"/>
+  <path d="M 69 70 Q 69 75 71 80 L 77 80 Q 75 75 75 70 Z" fill="#FF8A65"/>
+  <path d="M 31 70 L 33 80 L 67 80 L 69 70 Z" fill="#FF8A65"/>
+  
+  <!-- Carousel lines (prominent) -->
+  <path d="M 23 80 Q 20 78 18 76" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.8"/>
+  <path d="M 24 80.5 Q 21 78.5 19 76.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.7"/>
+  <path d="M 25 81 Q 22 79 20 77" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M 26 81.5 Q 23 79.5 21 77.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <path d="M 27 82 Q 24 80 22 78" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.4"/>
+  
+  <!-- Left Arm (rotated 54°) -->
+  <rect x="16" y="48" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(-75 19.5 58)"/>
+  
+  <!-- Right Arm (rotated 54°, partially visible) -->
+  <rect x="77" y="42" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(105 80.5 52)"/>
+  
+  <!-- Left Hand -->
+  <circle cx="9" cy="61" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Right Hand (partially visible) -->
+  <circle cx="91" cy="49" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Head - Strong Right Profile (lifted 4px - maximum) -->
+  <circle cx="50" cy="26" r="20" fill="#FFAB91"/>
+  
+  <!-- Right Ear (fully visible in profile, lifted) -->
+  <circle cx="63" cy="11" r="8" fill="#FFAB91"/>
+  
+  <!-- Snout - Right Profile (lifted) -->
+  <ellipse cx="67" cy="26" rx="10" ry="8" fill="#FF69B4"/>
+  <circle cx="65" cy="26" r="1.5" fill="#1A1A1A"/>
+  
+  <!-- Right Eye ONLY (profile view, lifted) -->
+  <circle cx="58" cy="24" r="4" fill="white"/>
+  <circle cx="59" cy="24" r="2" fill="#1A1A1A"/>
+  
+  <!-- Mouth (profile, lifted) -->
+  <path d="M 52 32 Q 54 33 56 32" stroke="#D84A4A" stroke-width="1" fill="none"/>
+</svg>

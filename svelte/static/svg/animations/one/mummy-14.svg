@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Frame 14: 252° - Left Profile -->
+  
+  <!-- Ground line -->
+  <line x1="0" y1="95" x2="100" y2="95" stroke="#8B7355" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Left Leg (on ground, profile) -->
+  <rect x="45" y="70" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Right Leg (lifting, profile) -->
+  <rect x="52" y="66" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Left Foot -->
+  <ellipse cx="49" cy="95" rx="5" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Right Foot (lifting) -->
+  <ellipse cx="56" cy="91" rx="5" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Body (beginning to slim) -->
+  <ellipse cx="50" cy="54" rx="27" ry="37" fill="#FF8A65"/>
+  
+  <!-- Skirt flowing -->
+  <path d="M 22 70 Q 22 75 20 80.5 L 30 80.5 Q 28 75 28 70 Z" fill="#FF8A65"/>
+  <path d="M 72 70 Q 72 75 74 80.5 L 80 80.5 Q 78 75 78 70 Z" fill="#FF8A65"/>
+  <path d="M 28 70 L 30 80.5 L 70 80.5 L 72 70 Z" fill="#FF8A65"/>
+  
+  <!-- Carousel lines -->
+  <path d="M 20 80.5 Q 17 78.5 15 76.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M 21 81 Q 18 79 16 77" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <path d="M 22 81.5 Q 19 79.5 17 77.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.4"/>
+  <path d="M 80 80.5 Q 83 78.5 85 76.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M 79 81 Q 82 79 84 77" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.5"/>
+  
+  <!-- Left Arm (profile, pointing left) -->
+  <rect x="25" y="48" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(180 28.5 58)"/>
+  
+  <!-- Left Hand -->
+  <circle cx="15" cy="58" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Head - Clear Left Profile (252°) -->
+  <circle cx="50" cy="30" r="20" fill="#FFAB91"/>
+  
+  <!-- Left Ear ONLY (profile) -->
+  <circle cx="36" cy="15" r="8" fill="#FFAB91"/>
+  
+  <!-- Snout - Full Left Profile -->
+  <ellipse cx="32" cy="30" rx="10" ry="8" fill="#FF69B4"/>
+  <circle cx="34" cy="30" r="1.5" fill="#1A1A1A"/>
+  
+  <!-- Left Eye ONLY (profile) -->
+  <circle cx="41" cy="28" r="4" fill="white"/>
+  <circle cx="40" cy="28" r="2" fill="#1A1A1A"/>
+  
+  <!-- Mouth (profile, slightly focused) -->
+  <path d="M 43 36 Q 45 36.5 47 36" stroke="#D84A4A" stroke-width="1" fill="none"/>
+</svg>

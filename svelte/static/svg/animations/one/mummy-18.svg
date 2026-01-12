@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Frame 18: 324° - Almost Complete -->
+  
+  <!-- Ground line -->
+  <line x1="0" y1="95" x2="100" y2="95" stroke="#8B7355" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Left Leg (on ground) -->
+  <rect x="43" y="70" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Right Leg (lifting) -->
+  <rect x="51" y="66" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Left Foot -->
+  <ellipse cx="47" cy="95" rx="6" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Right Foot (lifting) -->
+  <ellipse cx="55" cy="91" rx="6" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Body (relaxed) -->
+  <ellipse cx="50" cy="55" rx="28" ry="38" fill="#FF8A65"/>
+  
+  <!-- Skirt settling -->
+  <path d="M 24 70 Q 24 75 22 79 L 32 79 Q 30 75 30 70 Z" fill="#FF8A65"/>
+  <path d="M 70 70 Q 70 75 72 79 L 78 79 Q 76 75 76 70 Z" fill="#FF8A65"/>
+  <path d="M 30 70 L 32 79 L 68 79 L 70 70 Z" fill="#FF8A65"/>
+  
+  <!-- Carousel lines (very faint) -->
+  <path d="M 22 79 Q 19 77 17 75" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.3"/>
+  <path d="M 23 79.5 Q 20 77.5 18 75.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.2"/>
+  <path d="M 78 79 Q 81 77 83 75" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.3"/>
+  
+  <!-- Left Arm -->
+  <rect x="15" y="46" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(-85 18.5 56)"/>
+  
+  <!-- Right Arm -->
+  <rect x="78" y="46" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(85 81.5 56)"/>
+  
+  <!-- Left Hand -->
+  <circle cx="8" cy="57" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Right Hand -->
+  <circle cx="92" cy="57" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Head - Almost Front (324°) -->
+  <circle cx="50" cy="30" r="20" fill="#FFAB91"/>
+  
+  <!-- Left Ear -->
+  <circle cx="40" cy="15" r="8" fill="#FFAB91"/>
+  
+  <!-- Right Ear -->
+  <circle cx="60" cy="15" r="8" fill="#FFAB91"/>
+  
+  <!-- Snout - Almost Front View -->
+  <ellipse cx="62" cy="30" rx="10" ry="8" fill="#FF69B4"/>
+  <circle cx="60" cy="28" r="1.5" fill="#1A1A1A"/>
+  <circle cx="60" cy="32" r="1.5" fill="#1A1A1A"/>
+  
+  <!-- Left Eye -->
+  <circle cx="45" cy="28" r="4" fill="white"/>
+  <circle cx="46" cy="28" r="2" fill="#1A1A1A"/>
+  
+  <!-- Right Eye -->
+  <circle cx="55" cy="28" r="4" fill="white"/>
+  <circle cx="56" cy="28" r="2" fill="#1A1A1A"/>
+  
+  <!-- Mouth (peaceful) -->
+  <path d="M 48 36 Q 50 37 52 36" stroke="#D84A4A" stroke-width="1" fill="none"/>
+</svg>

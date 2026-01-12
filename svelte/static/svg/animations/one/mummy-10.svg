@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Frame 10: 180° - Full Back View -->
+  
+  <!-- Ground line -->
+  <line x1="0" y1="95" x2="100" y2="95" stroke="#8B7355" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Right Leg (on ground, back view) -->
+  <rect x="52" y="70" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Left Leg (lifting, back view) -->
+  <rect x="42" y="69" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Right Foot -->
+  <ellipse cx="56" cy="95" rx="5" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Left Foot (lifting) -->
+  <ellipse cx="46" cy="94" rx="5" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Body (slimmest at 180°, staying low) -->
+  <ellipse cx="50" cy="56" rx="25" ry="35" fill="#FF8A65"/>
+  
+  <!-- Skirt (full back view) -->
+  <path d="M 19 70 Q 19 75 17 82 L 27 82 Q 25 75 25 70 Z" fill="#FF8A65"/>
+  <path d="M 75 70 Q 75 75 77 82 L 83 82 Q 81 75 81 70 Z" fill="#FF8A65"/>
+  <path d="M 25 70 L 27 82 L 73 82 L 75 70 Z" fill="#FF8A65"/>
+  
+  <!-- Carousel lines (full effect) -->
+  <path d="M 17 82 Q 14 80 12 78" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.8"/>
+  <path d="M 18 82.5 Q 15 80.5 13 78.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.7"/>
+  <path d="M 19 83 Q 16 81 14 79" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M 20 83.5 Q 17 81.5 15 79.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <path d="M 83 82 Q 86 80 88 78" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.8"/>
+  <path d="M 82 82.5 Q 85 80.5 87 78.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.7"/>
+  <path d="M 81 83 Q 84 81 86 79" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M 80 83.5 Q 83 81.5 85 79.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.5"/>
+  
+  <!-- Right Arm (back view, to left from viewer) -->
+  <rect x="28" y="52" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(120 31.5 62)"/>
+  
+  <!-- Left Arm (back view, to right from viewer) -->
+  <rect x="65" y="52" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(240 68.5 62)"/>
+  
+  <!-- Right Hand -->
+  <circle cx="27" cy="72" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Left Hand -->
+  <circle cx="73" cy="72" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Head - Perfect Back View (180°) - NO FACIAL FEATURES (staying low) -->
+  <circle cx="50" cy="32" r="20" fill="#FFAB91"/>
+  
+  <!-- Both ears visible from back (symmetrical, low) -->
+  <circle cx="40" cy="20" r="8" fill="#FFAB91"/>
+  <circle cx="60" cy="20" r="8" fill="#FFAB91"/>
+  
+  <!-- NO snout visible -->
+  <!-- NO eyes visible -->
+  <!-- NO mouth visible -->
+</svg>

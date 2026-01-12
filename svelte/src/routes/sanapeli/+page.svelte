@@ -33,6 +33,7 @@
 		type CategoryWithKey 
 	} from '$lib/data/categoryConfig';
 	import BackButton from '$lib/components/shared/BackButton.svelte';
+	import GameContainer from '$lib/components/shared/GameContainer.svelte';
 	import CategoryPicker from '$lib/components/basic/modals/CategoryPicker.svelte';
 	import Sanakirja from '$lib/components/basic/modals/Sanakirja.svelte';
 	import GameLengthSelector from '$lib/components/basic/input/GameLengthSelector.svelte';
@@ -545,113 +546,105 @@
 
 <!-- HOME STATE -->
 {#if gameState === 'home'}
-	<div class="min-h-screen bg-base-200 flex flex-col p-0 md:p-4">
-		<!-- Back Button - Top Left -->
-		<div class="md:container md:mx-auto md:max-w-2xl p-2 md:p-0 md:mb-2">
-			<BackButton />
-		</div>
-		
-		<div class="flex-1 flex items-center justify-center">
-			<div class="card bg-base-100 shadow-xl w-full md:max-w-2xl min-h-screen md:min-h-0">
-				<div class="card-body p-4 md:p-8">
-					<h1 class="text-3xl font-bold text-center text-primary mb-6">🇪🇸 Espanjapeli 🇫🇮</h1>
+	<GameContainer gameType="basic" buttonMode="basic" onBack={() => window.location.href = `${base}/`}>
+		<div class="card-body p-4 md:p-8">
+			<h1 class="text-3xl font-bold text-center text-primary mb-6">🇪🇸 Espanjapeli 🇫🇮</h1>
 
-				<!-- Category Selection -->
-				<div class="form-control mb-4">
-					<label class="label">
-						<span class="label-text font-semibold text-lg">Valitse kategoria:</span>
-					</label>
-					<button 
-						class="btn btn-outline btn-lg w-full justify-between text-left font-normal"
-						on:click={toggleCategoryPicker}
-					>
-						<span class="flex items-center gap-2">
-							<span>{currentCategoryDisplay.emoji}</span>
-							<span>{currentCategoryDisplay.name}</span>
-						</span>
-						<span class="text-base-content/50">▼</span>
-					</button>
-				</div>
+			<!-- Category Selection -->
+			<div class="form-control mb-4">
+				<label class="label">
+					<span class="label-text font-semibold text-lg">Valitse kategoria:</span>
+				</label>
+				<button 
+					class="btn btn-outline btn-lg w-full justify-between text-left font-normal"
+					on:click={toggleCategoryPicker}
+				>
+					<span class="flex items-center gap-2">
+						<span>{currentCategoryDisplay.emoji}</span>
+						<span>{currentCategoryDisplay.name}</span>
+					</span>
+					<span class="text-base-content/50">▼</span>
+				</button>
+			</div>
 
-				<!-- Game Length -->
+			<!-- Game Length -->
 			<GameLengthSelector 
 				value={selectedGameLength}
 				options={[10, 21, 42]}
 				onChange={handleGameLengthChange}
 			/>
 
-				<!-- Auto-speak -->
-				<div class="form-control mb-2">
-					<label class="label cursor-pointer justify-start gap-3">
-						<input 
-							type="checkbox" 
-							class="checkbox checkbox-primary"
-							checked={isAutoSpeakEnabled}
-							on:change={handleAutoSpeakChange}
-						/>
-						<span class="label-text">Lue sanat ääneen automaattisesti</span>
-					</label>
-				</div>
-
-				<!-- Compact mode -->
-				<div class="form-control mb-6">
-					<label class="label cursor-pointer justify-start gap-3">
-						<input 
-							type="checkbox" 
-							class="checkbox checkbox-primary"
-							checked={isCompactModeEnabled}
-					on:change={handleCompactModeChange}
-				/>
-				<span class="label-text">Pieni näyttö (50vh)</span>
-			</label>
-		</div>
-
-		<!-- Theme Selection -->
-		<div class="form-control mb-4">
-			<label class="label" for="theme-select">
-				<span class="label-text font-semibold text-lg">Väriteema:</span>
-			</label>
-			<select 
-				id="theme-select"
-				class="select select-bordered w-full"
-				bind:value={selectedTheme}
-				on:change={handleThemeChange}
-			>
-				{#each availableThemes as themeOption}
-					<option value={themeOption.value}>
-						{themeOption.emoji} {themeOption.name}
-					</option>
-				{/each}
-			</select>
-		</div>
-
-		<!-- Action Buttons -->
-		<div class="flex gap-3">
-			<button 
-				class="btn btn-outline flex-shrink-0 btn-lg"
-				on:click={toggleSanakirja}
-			>
-				📖 Sanakirja
-			</button>
-			<button class="btn btn-primary btn-lg flex-1" on:click={startGame}>
-				Aloita
-			</button>
-		</div>
+			<!-- Auto-speak -->
+			<div class="form-control mb-2">
+				<label class="label cursor-pointer justify-start gap-3">
+					<input 
+						type="checkbox" 
+						class="checkbox checkbox-primary"
+						checked={isAutoSpeakEnabled}
+						on:change={handleAutoSpeakChange}
+					/>
+					<span class="label-text">Lue sanat ääneen automaattisesti</span>
+				</label>
 			</div>
 
-			{#if readingAll}
-				<div class="fixed inset-0 z-60 flex items-center justify-center pointer-events-none">
-					<div class="bg-base-200 p-4 rounded shadow-sm pointer-events-auto w-full max-w-sm text-center">
-						<p class="font-medium">Luetaan {readingTotal} sanaa</p>
-						<p class="text-sm mt-2">{readingProgress}/{readingTotal}</p>
-						<div class="mt-4">
-							<button class="btn btn-ghost" on:click={cancelReadAll}>Keskeytä</button>
-						</div>
+			<!-- Compact mode -->
+			<div class="form-control mb-6">
+				<label class="label cursor-pointer justify-start gap-3">
+					<input 
+						type="checkbox" 
+						class="checkbox checkbox-primary"
+						checked={isCompactModeEnabled}
+						on:change={handleCompactModeChange}
+					/>
+					<span class="label-text">Pieni näyttö (50vh)</span>
+				</label>
+			</div>
+
+			<!-- Theme Selection -->
+			<div class="form-control mb-4">
+				<label class="label" for="theme-select">
+					<span class="label-text font-semibold text-lg">Väriteema:</span>
+				</label>
+				<select 
+					id="theme-select"
+					class="select select-bordered w-full"
+					bind:value={selectedTheme}
+					on:change={handleThemeChange}
+				>
+					{#each availableThemes as themeOption}
+						<option value={themeOption.value}>
+							{themeOption.emoji} {themeOption.name}
+						</option>
+					{/each}
+				</select>
+			</div>
+
+			<!-- Action Buttons -->
+			<div class="flex gap-3">
+				<button 
+					class="btn btn-outline flex-shrink-0 btn-lg"
+					on:click={toggleSanakirja}
+				>
+					📖 Sanakirja
+				</button>
+				<button class="btn btn-primary btn-lg flex-1" on:click={startGame}>
+					Aloita
+				</button>
+			</div>
+		</div>
+
+		{#if readingAll}
+			<div class="fixed inset-0 z-60 flex items-center justify-center pointer-events-none">
+				<div class="bg-base-200 p-4 rounded shadow-sm pointer-events-auto w-full max-w-sm text-center">
+					<p class="font-medium">Luetaan {readingTotal} sanaa</p>
+					<p class="text-sm mt-2">{readingProgress}/{readingTotal}</p>
+					<div class="mt-4">
+						<button class="btn btn-ghost" on:click={cancelReadAll}>Keskeytä</button>
 					</div>
 				</div>
-			{/if}
-		</div>
-	</div>
+			</div>
+		{/if}
+	</GameContainer>
 
 	<!-- Sanakirja Modal -->
 	<Sanakirja 
@@ -674,7 +667,6 @@
 		onSelect={selectCategory}
 		onClose={toggleCategoryPicker}
 	/>
-</div>
 {/if}
 
 <!-- ============================================================================
@@ -1053,76 +1045,74 @@
 
 <!-- REPORT STATE -->
 {#if gameState === 'report'}
-	<div class="min-h-screen bg-base-200 flex flex-col md:items-center md:justify-start p-0 md:p-4">
-		<div class="card bg-base-100 shadow-xl w-full max-w-2xl">
-			<div class="card-body">
-				<h2 class="card-title text-3xl justify-center mb-6 text-primary">🎉 Peli päättyi!</h2>
+	<GameContainer gameType="basic" buttonMode="basic" showBackButton={false}>
+		<div class="card-body">
+			<h2 class="card-title text-3xl justify-center mb-6 text-primary">🎉 Peli päättyi!</h2>
 
-				<!-- Stats Grid -->
-				<div class="stats stats-vertical lg:stats-horizontal shadow mb-6 w-full">
-					<div class="stat">
-						<div class="stat-title">Kysymyksiä</div>
-						<div class="stat-value text-primary text-3xl">{selectedGameLength}</div>
-					</div>
-					<div class="stat">
-						<div class="stat-title">Oikein</div>
-						<div class="stat-value text-success text-3xl">{correctCount}</div>
-					</div>
-					<div class="stat">
-						<div class="stat-title">Väärin</div>
-						<div class="stat-value text-error text-3xl">{selectedGameLength - correctCount}</div>
-					</div>
-					<div class="stat">
-						<div class="stat-title">Tarkkuus</div>
-						<div class="stat-value text-3xl">{accuracy}%</div>
-					</div>
+			<!-- Stats Grid -->
+			<div class="stats stats-vertical lg:stats-horizontal shadow mb-6 w-full">
+				<div class="stat">
+					<div class="stat-title">Kysymyksiä</div>
+					<div class="stat-value text-primary text-3xl">{selectedGameLength}</div>
 				</div>
-
-				<!-- Score Summary -->
-				<div class="bg-primary/10 border border-primary/30 rounded-lg p-4 mb-6">
-					<div class="text-center w-full">
-						<div class="text-2xl font-bold text-primary">
-							Pisteet: {totalScore} / {maxPossibleScore}
-						</div>
-						<div class="text-lg text-base-content/70">
-							({scorePercentage}%)
-						</div>
-					</div>
+				<div class="stat">
+					<div class="stat-title">Oikein</div>
+					<div class="stat-value text-success text-3xl">{correctCount}</div>
 				</div>
-
-				<!-- Wrong Answers -->
-				{#if wrongAnswers.length > 0}
-					<div class="mb-6">
-						<h3 class="text-xl font-bold mb-3 text-error">Väärät vastaukset:</h3>
-						<div class="space-y-2">
-							{#each wrongAnswers as wrong}
-								<div class="bg-base-200 border-l-4 border-error rounded-r-lg p-3">
-									<div class="flex-1">
-										<div class="font-bold text-lg">
-											<span class="text-primary">{wrong.spanish}</span> = <span class="text-secondary">{wrong.finnish}</span>
-										</div>
-										{#if wrong.userAnswer}
-											<div class="text-sm text-base-content/70">
-												Sinun vastauksesi: <span class="text-error">{wrong.userAnswer}</span>
-											</div>
-										{/if}
-									</div>
-								</div>
-							{/each}
-						</div>
-					</div>
-				{/if}
-
-				<!-- Action Buttons -->
-				<div class="flex flex-col sm:flex-row gap-3">
-					<button class="btn btn-primary flex-1" on:click={startGame}>
-						Pelaa uudestaan
-					</button>
-					<button class="btn btn-ghost flex-1" on:click={goHome}>
-						Palaa kotiin
-					</button>
+				<div class="stat">
+					<div class="stat-title">Väärin</div>
+					<div class="stat-value text-error text-3xl">{selectedGameLength - correctCount}</div>
+				</div>
+				<div class="stat">
+					<div class="stat-title">Tarkkuus</div>
+					<div class="stat-value text-3xl">{accuracy}%</div>
 				</div>
 			</div>
+
+			<!-- Score Summary -->
+			<div class="bg-primary/10 border border-primary/30 rounded-lg p-4 mb-6">
+				<div class="text-center w-full">
+					<div class="text-2xl font-bold text-primary">
+						Pisteet: {totalScore} / {maxPossibleScore}
+					</div>
+					<div class="text-lg text-base-content/70">
+						({scorePercentage}%)
+					</div>
+				</div>
+			</div>
+
+			<!-- Wrong Answers -->
+			{#if wrongAnswers.length > 0}
+				<div class="mb-6">
+					<h3 class="text-xl font-bold mb-3 text-error">Väärät vastaukset:</h3>
+					<div class="space-y-2">
+						{#each wrongAnswers as wrong}
+							<div class="bg-base-200 border-l-4 border-error rounded-r-lg p-3">
+								<div class="flex-1">
+									<div class="font-bold text-lg">
+										<span class="text-primary">{wrong.spanish}</span> = <span class="text-secondary">{wrong.finnish}</span>
+									</div>
+									{#if wrong.userAnswer}
+										<div class="text-sm text-base-content/70">
+											Sinun vastauksesi: <span class="text-error">{wrong.userAnswer}</span>
+										</div>
+									{/if}
+								</div>
+							</div>
+						{/each}
+					</div>
+				</div>
+			{/if}
+
+			<!-- Action Buttons -->
+			<div class="flex flex-col sm:flex-row gap-3">
+				<button class="btn btn-primary flex-1" on:click={startGame}>
+					Pelaa uudestaan
+				</button>
+				<button class="btn btn-ghost flex-1" on:click={goHome}>
+					Palaa kotiin
+				</button>
+			</div>
 		</div>
-	</div>
+	</GameContainer>
 {/if}

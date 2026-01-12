@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Frame 5: 72° - Right Profile -->
+  
+  <!-- Ground line -->
+  <line x1="0" y1="95" x2="100" y2="95" stroke="#8B7355" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Right Leg (coming back down, profile) -->
+  <rect x="47" y="69" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Left Leg (coming down, profile) -->
+  <rect x="39" y="68" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Right Foot (coming down) -->
+  <ellipse cx="51" cy="94" rx="5" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Left Foot (coming down) -->
+  <ellipse cx="43" cy="93" rx="5" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Body (relaxing from slim, coming down 2px) -->
+  <ellipse cx="50" cy="52" rx="26" ry="36" fill="#FF8A65"/>
+  
+  <!-- Skirt with rotation and carousel lines -->
+  <path d="M 24 70 Q 24 75 22 80.5 L 32 80.5 Q 30 75 30 70 Z" fill="#FF8A65"/>
+  <path d="M 70 70 Q 70 75 72 80.5 L 78 80.5 Q 76 75 76 70 Z" fill="#FF8A65"/>
+  <path d="M 30 70 L 32 80.5 L 68 80.5 L 70 70 Z" fill="#FF8A65"/>
+  
+  <!-- Carousel lines (prominent) -->
+  <path d="M 22 80.5 Q 19 78.5 17 76.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.8"/>
+  <path d="M 23 81 Q 20 79 18 77" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.7"/>
+  <path d="M 24 81.5 Q 21 79.5 19 77.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M 25 82 Q 22 80 20 78" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <path d="M 26 82.5 Q 23 80.5 21 78.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.4"/>
+  <path d="M 27 83 Q 24 81 22 79" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.3"/>
+  
+  <!-- Right Arm (profile, pointing right) -->
+  <rect x="55" y="48" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(0 58.5 58)"/>
+  
+  <!-- Left Arm (profile, pointing left, behind) -->
+  <rect x="28" y="48" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(180 31.5 58)"/>
+  
+  <!-- Right Hand -->
+  <circle cx="75" cy="58" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Left Hand (behind) -->
+  <circle cx="25" cy="58" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Head - Full Right Profile (coming down 2px) -->
+  <circle cx="50" cy="28" r="20" fill="#FFAB91"/>
+  
+  <!-- Right Ear ONLY (profile, coming down) -->
+  <circle cx="64" cy="13" r="8" fill="#FFAB91"/>
+  
+  <!-- Snout - Full Right Profile (coming down) -->
+  <ellipse cx="68" cy="28" rx="10" ry="8" fill="#FF69B4"/>
+  <circle cx="66" cy="28" r="1.5" fill="#1A1A1A"/>
+  
+  <!-- Right Eye ONLY (profile, coming down) -->
+  <circle cx="59" cy="26" r="4" fill="white"/>
+  <circle cx="60" cy="26" r="2" fill="#1A1A1A"/>
+  
+  <!-- Mouth (profile, coming down) -->
+  <path d="M 53 34 Q 55 35 57 34" stroke="#D84A4A" stroke-width="1" fill="none"/>
+</svg>

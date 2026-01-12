@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  
+  
+  <defs>
+    <filter id="shadowBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+    </filter>
+  </defs>
+<line x1="0" y1="95" x2="200" y2="95" stroke="#2B2B2B" stroke-width="1" opacity="0.35"  filter="url(#shadowBlur)"/>
+<!-- Bicycle Back Wheel (36? rotation) -->
+  <g transform="translate(50, 77) rotate(36)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+    <line x1="-12" y1="-12" x2="12" y2="12" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="-12" y1="12" x2="12" y2="-12" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="#1A1A1A" stroke-width="1"/>
+  </g>
+  
+  <!-- Bicycle Frame -->
+  <path d="M 50 77 L 85 50 L 130 77" fill="none" stroke="#CC3333" stroke-width="3"/>
+  <path d="M 85 50 L 85 40" stroke="#CC3333" stroke-width="3"/>
+  
+  <!-- Bicycle Seat -->
+  <ellipse cx="85" cy="38" rx="8" ry="4" fill="#8B4513"/>
+  
+  <!-- Bicycle Handlebars -->
+  <path d="M 85 40 Q 95 35 100 35" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <line x1="95" y1="35" x2="90" y2="32" stroke="#1A1A1A" stroke-width="2"/>
+  <line x1="95" y1="35" x2="90" y2="38" stroke="#1A1A1A" stroke-width="2"/>
+  
+  <!-- Pedal Crank (60? rotation) -->
+  <g transform="translate(85, 65) rotate(60)">
+    <!-- Right Pedal at 2 o'clock -->
+    <rect x="-3" y="-18" width="6" height="4" fill="#1A1A1A"/>
+    <!-- Left Pedal at 8 o'clock -->
+    <rect x="-3" y="14" width="6" height="4" fill="#1A1A1A"/>
+  </g>
+  
+  <!-- Bicycle Front Wheel (36? rotation) -->
+  <g transform="translate(130, 77) rotate(36)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+    <line x1="-12" y1="-12" x2="12" y2="12" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="-12" y1="12" x2="12" y2="-12" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="#1A1A1A" stroke-width="1"/>
+  </g>
+  
+  <!-- Peppa's Body (Dress, leaning forward 3?, turned 5? right) -->
+  <g transform="translate(85, 55) rotate(3, 0, 0)">
+    <ellipse cx="0" cy="0" rx="15" ry="20" fill="#E63946"/>
+  </g>
+  
+  <!-- Peppa's Head (turned 5? right) -->
+  <g transform="translate(85, 30)">
+    <circle cx="2" cy="0" r="18" fill="#F9C6CF"/>
+    
+    <!-- Peppa's Snout -->
+    <ellipse cx="15" cy="0" rx="10" ry="8" fill="#FF69B4"/>
+    <circle cx="17" cy="-2" r="1.5" fill="#1A1A1A"/>
+    <circle cx="17" cy="2" r="1.5" fill="#1A1A1A"/>
+    
+    <!-- Peppa's Ears (right ear more visible) -->
+    <circle cx="-5" cy="-12" r="6" fill="#F9C6CF"/>
+    <circle cx="9" cy="-12" r="6" fill="#F9C6CF"/>
+    
+    <!-- Peppa's Eyes (looking toward viewer) -->
+    <circle cx="-1" cy="-2" r="5" fill="white"/>
+    <circle cx="0" cy="-2" r="2" fill="#1A1A1A"/>
+    <circle cx="7" cy="-2" r="5" fill="white"/>
+    <circle cx="8" cy="-2" r="2" fill="#1A1A1A"/>
+    
+    <!-- Peppa's Mouth (friendly smile) -->
+    <path d="M 2 5 Q 4 7 6 5" fill="none" stroke="#1A1A1A" stroke-width="1"/>
+  </g>
+  
+  <!-- Peppa's Left Arm (bent, gripping handlebar) -->
+  <rect x="78" y="50" width="6" height="12" rx="3" fill="#F9C6CF" transform="rotate(-30 81 50)"/>
+  <circle cx="75" cy="40" r="4" fill="#F9C6CF"/>
+  
+  <!-- Peppa's Right Arm (bent, gripping handlebar) -->
+  <rect x="92" y="50" width="6" height="12" rx="3" fill="#F9C6CF" transform="rotate(30 95 50)"/>
+  <circle cx="99" cy="40" r="4" fill="#F9C6CF"/>
+  
+  <!-- Peppa's Right Leg (more extended, pedal at 2 o'clock) -->
+  <rect x="88" y="56" width="6" height="22" rx="3" fill="#F9C6CF" transform="rotate(30 91 56)"/>
+  <ellipse cx="95" cy="56" rx="6" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Peppa's Left Leg (bending more, pedal at 8 o'clock) -->
+  <rect x="76" y="75" width="6" height="20" rx="3" fill="#F9C6CF" transform="rotate(-20 79 75)"/>
+  <ellipse cx="76" cy="85" rx="6" ry="4" fill="#1A1A1A"/>
+</svg>

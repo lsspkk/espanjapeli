@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Frame 12: 216° - Left Quarter View -->
+  
+  <!-- Ground line -->
+  <line x1="0" y1="95" x2="100" y2="95" stroke="#8B7355" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Right Leg (on ground) -->
+  <rect x="48" y="70" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Left Leg (lifting) -->
+  <rect x="46" y="65" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Right Foot -->
+  <ellipse cx="52" cy="95" rx="5" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Left Foot (lifting) -->
+  <ellipse cx="50" cy="90" rx="5" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Body (normal, staying low) -->
+  <ellipse cx="50" cy="56" rx="28" ry="38" fill="#FF8A65"/>
+  
+  <!-- Skirt creating graceful arc -->
+  <path d="M 21 70 Q 21 75 19 81 L 29 81 Q 27 75 27 70 Z" fill="#FF8A65"/>
+  <path d="M 73 70 Q 73 75 75 81 L 81 81 Q 79 75 79 70 Z" fill="#FF8A65"/>
+  <path d="M 27 70 L 29 81 L 71 81 L 73 70 Z" fill="#FF8A65"/>
+  
+  <!-- Carousel lines -->
+  <path d="M 19 81 Q 16 79 14 77" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.7"/>
+  <path d="M 20 81.5 Q 17 79.5 15 77.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M 21 82 Q 18 80 16 78" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <path d="M 81 81 Q 84 79 86 77" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.7"/>
+  <path d="M 80 81.5 Q 83 79.5 85 77.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.6"/>
+  
+  <!-- Left Arm -->
+  <rect x="32" y="51" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(90 35.5 61)"/>
+  
+  <!-- Right Arm (partially visible) -->
+  <rect x="61" y="51" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(270 64.5 61)"/>
+  
+  <!-- Left Hand -->
+  <circle cx="32" cy="71" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Right Hand -->
+  <circle cx="68" cy="71" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Head - Left Quarter View (216°) - Features Beginning to Appear (staying low) -->
+  <circle cx="50" cy="32" r="20" fill="#FFAB91"/>
+  
+  <!-- Left Ear (prominent, low) -->
+  <circle cx="36" cy="17" r="8" fill="#FFAB91"/>
+  
+  <!-- Snout beginning to appear on left side (low) -->
+  <ellipse cx="35" cy="32" rx="10" ry="8" fill="#FF69B4"/>
+  <circle cx="37" cy="32" r="1.5" fill="#1A1A1A"/>
+  
+  <!-- Left Eye beginning to appear (low) -->
+  <circle cx="42" cy="30" r="4" fill="white"/>
+  <circle cx="41" cy="30" r="2" fill="#1A1A1A"/>
+  
+  <!-- Mouth beginning to appear (low) -->
+  <path d="M 46 38 Q 48 39 50 38" stroke="#D84A4A" stroke-width="1" fill="none"/>
+</svg>

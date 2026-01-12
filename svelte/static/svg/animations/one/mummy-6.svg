@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Frame 6: 90° - Full Right Profile -->
+  
+  <!-- Ground line -->
+  <line x1="0" y1="95" x2="100" y2="95" stroke="#8B7355" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Right Leg (on ground, profile) -->
+  <rect x="47" y="70" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Left Leg (lifting high, profile) -->
+  <rect x="40" y="65" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Right Foot -->
+  <ellipse cx="51" cy="95" rx="5" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Left Foot (lifting) -->
+  <ellipse cx="44" cy="90" rx="5" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Body (normal proportions) -->
+  <ellipse cx="50" cy="55" rx="27" ry="37" fill="#FF8A65"/>
+  
+  <!-- Skirt in full spinning motion -->
+  <path d="M 23 70 Q 23 75 21 81 L 31 81 Q 29 75 29 70 Z" fill="#FF8A65"/>
+  <path d="M 71 70 Q 71 75 73 81 L 79 81 Q 77 75 77 70 Z" fill="#FF8A65"/>
+  <path d="M 29 70 L 31 81 L 69 81 L 71 70 Z" fill="#FF8A65"/>
+  
+  <!-- Carousel lines (maximum) -->
+  <path d="M 21 81 Q 18 79 16 77" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.8"/>
+  <path d="M 22 81.5 Q 19 79.5 17 77.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.7"/>
+  <path d="M 23 82 Q 20 80 18 78" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M 24 82.5 Q 21 80.5 19 78.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <path d="M 25 83 Q 22 81 20 79" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.4"/>
+  <path d="M 26 83.5 Q 23 81.5 21 79.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.3"/>
+  <path d="M 27 84 Q 24 82 22 80" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.2"/>
+  
+  <!-- Left Arm (pointing toward viewer) -->
+  <rect x="20" y="48" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(180 23.5 58)"/>
+  
+  <!-- Left Hand -->
+  <circle cx="10" cy="58" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Head - Perfect Right Profile (90°) -->
+  <circle cx="50" cy="30" r="20" fill="#FFAB91"/>
+  
+  <!-- Right Ear ONLY (profile) -->
+  <circle cx="65" cy="15" r="8" fill="#FFAB91"/>
+  
+  <!-- Snout - Perfect Right Profile -->
+  <ellipse cx="69" cy="30" rx="10" ry="8" fill="#FF69B4"/>
+  <circle cx="67" cy="30" r="1.5" fill="#1A1A1A"/>
+  
+  <!-- Right Eye ONLY (profile) -->
+  <circle cx="60" cy="28" r="4" fill="white"/>
+  <circle cx="61" cy="28" r="2" fill="#1A1A1A"/>
+  
+  <!-- Mouth (profile) -->
+  <path d="M 54 36 Q 56 37 58 36" stroke="#D84A4A" stroke-width="1" fill="none"/>
+</svg>

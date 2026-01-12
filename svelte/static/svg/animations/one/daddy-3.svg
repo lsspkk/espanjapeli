@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  
+  
+  <defs>
+    <filter id="shadowBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+    </filter>
+  </defs>
+<line x1="0" y1="95" x2="80" y2="95" stroke="#2B2B2B" stroke-width="1" opacity="0.35"  filter="url(#shadowBlur)"/>
+<!-- Daddy Pig Frame 3: Deep crouch, 15° forward tilt -->
+  <g transform="rotate(15 50 75)">
+    
+    <!-- Back leg (deeply bent) -->
+    <rect x="38" y="72" width="9" height="16" rx="4" fill="#FFAB91"/>
+    <!-- Back foot -->
+    <ellipse cx="42.5" cy="88" rx="7" ry="4" fill="#FF8A65"/>
+    
+    <!-- Body (large belly, compressed) -->
+    <ellipse cx="50" cy="65" rx="27" ry="32" fill="#FF8A65"/>
+    
+    <!-- Shirt overlay on upper body -->
+    <ellipse cx="50" cy="52" rx="25" ry="16" fill="#4DB8AC"/>
+    
+    <!-- Front leg (deeply bent) -->
+    <rect x="52" y="72" width="9" height="16" rx="4" fill="#FFAB91"/>
+    <!-- Front foot -->
+    <ellipse cx="56.5" cy="88" rx="7" ry="4" fill="#1A1A1A"/>
+    
+    <!-- Back arm (reaching to ground) -->
+    <rect x="45" y="60" width="7" height="20" rx="3" fill="#FFAB91" transform="rotate(-35 48.5 70)"/>
+    <!-- Back hand touching ground -->
+    <circle cx="52" cy="82" r="5" fill="#FFAB91"/>
+    
+    <!-- Front arm (reaching to ground) -->
+    <rect x="58" y="60" width="7" height="20" rx="3" fill="#FFAB91" transform="rotate(-35 61.5 70)"/>
+    <!-- Front hand touching ground -->
+    <circle cx="65" cy="82" r="5" fill="#FFAB91"/>
+    
+    <!-- Tail (lifting) -->
+    <path d="M 25 68 Q 20 66 18 62 Q 16 58 18 54" fill="none" stroke="#FFAB91" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Head (side profile, tucking down) -->
+    <ellipse cx="55" cy="38" rx="20" ry="22" fill="#FFAB91" transform="rotate(25 55 38)"/>
+    
+    <!-- Ear (one visible in profile) -->
+    <ellipse cx="48" cy="26" rx="8" ry="9" fill="#FFAB91"/>
+    
+    <!-- Snout extending to the right -->
+    <ellipse cx="70" cy="38" rx="13" ry="10" fill="#FFAB91" transform="rotate(25 70 38)"/>
+    
+    <!-- Nostrils on snout -->
+    <circle cx="76" cy="35" r="2" fill="#FF69B4"/>
+    <circle cx="76" cy="39" r="2" fill="#FF69B4"/>
+    
+    <!-- Glasses (side view) -->
+    <circle cx="58" cy="36" r="10" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+    <line x1="68" y1="36" x2="57" y2="36" stroke="#1A1A1A" stroke-width="1.5"/>
+    <line x1="48" y1="36" x2="42" y2="36" stroke="#1A1A1A" stroke-width="1.5"/>
+    
+    <!-- Eye (looking down at ground) -->
+    <circle cx="58" cy="36" r="5" fill="#FFFFFF"/>
+    <circle cx="58" cy="38" r="2.5" fill="#1A1A1A"/>
+    
+    <!-- Mouth (concentrating) -->
+    <path d="M 70 44 Q 72 45 74 44" fill="none" stroke="#1A1A1A" stroke-width="1"/>
+    
+  </g>
+</svg>

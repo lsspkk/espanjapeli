@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Frame 16: 288° - Coming Forward Left -->
+  
+  <!-- Ground line -->
+  <line x1="0" y1="95" x2="100" y2="95" stroke="#8B7355" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Right Leg (barely touching, maximum second jump attempt) -->
+  <rect x="50" y="68" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Left Leg (lifting high) -->
+  <rect x="44" y="67" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Right Foot (barely touching) -->
+  <ellipse cx="54" cy="93" rx="6" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Left Foot (lifting high) -->
+  <ellipse cx="48" cy="92" rx="6" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Body (relaxing from slim, lifted 3px - second maximum attempt) -->
+  <ellipse cx="50" cy="52" rx="27" ry="37" fill="#FF8A65"/>
+  
+  <!-- Skirt flowing, settling -->
+  <path d="M 22 70 Q 22 75 20 80 L 30 80 Q 28 75 28 70 Z" fill="#FF8A65"/>
+  <path d="M 72 70 Q 72 75 74 80 L 80 80 Q 78 75 78 70 Z" fill="#FF8A65"/>
+  <path d="M 28 70 L 30 80 L 70 80 L 72 70 Z" fill="#FF8A65"/>
+  
+  <!-- Carousel lines (fading) -->
+  <path d="M 20 80 Q 17 78 15 76" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <path d="M 21 80.5 Q 18 78.5 16 76.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.4"/>
+  <path d="M 22 81 Q 19 79 17 77" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.3"/>
+  <path d="M 80 80 Q 83 78 85 76" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.5"/>
+  <path d="M 79 80.5 Q 82 78.5 84 76.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.4"/>
+  
+  <!-- Left Arm -->
+  <rect x="38" y="49" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(60 41.5 59)"/>
+  
+  <!-- Right Arm -->
+  <rect x="55" y="49" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(300 58.5 59)"/>
+  
+  <!-- Left Hand -->
+  <circle cx="40" cy="67" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Right Hand -->
+  <circle cx="60" cy="67" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Head - Coming Forward Left (288°, lifted 3px - maximum second attempt) -->
+  <circle cx="50" cy="27" r="20" fill="#FFAB91"/>
+  
+  <!-- Left Ear (prominent, lifted) -->
+  <circle cx="38" cy="12" r="8" fill="#FFAB91"/>
+  
+  <!-- Right Ear (emerging, lifted) -->
+  <circle cx="62" cy="12" r="8" fill="#FFAB91"/>
+  
+  <!-- Snout - Coming to front from left (lifted) -->
+  <ellipse cx="38" cy="27" rx="10" ry="8" fill="#FF69B4"/>
+  <circle cx="40" cy="25" r="1.5" fill="#1A1A1A"/>
+  <circle cx="40" cy="29" r="1.5" fill="#1A1A1A"/>
+  
+  <!-- Left Eye (fully visible, lifted) -->
+  <circle cx="43" cy="25" r="4" fill="white"/>
+  <circle cx="42" cy="25" r="2" fill="#1A1A1A"/>
+  
+  <!-- Right Eye (emerging, lifted) -->
+  <circle cx="57" cy="25" r="4" fill="white"/>
+  <circle cx="58" cy="25" r="2" fill="#1A1A1A"/>
+  
+  <!-- Mouth (lifted) -->
+  <path d="M 46 33 Q 48 34 50 33" stroke="#D84A4A" stroke-width="1" fill="none"/>
+</svg>

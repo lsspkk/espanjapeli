@@ -27,3 +27,6 @@ Thumbs.db
 
 # Generated preview files
 svg_preview.html
+
+# Reports folder (generated or temporary reports)
+reports/

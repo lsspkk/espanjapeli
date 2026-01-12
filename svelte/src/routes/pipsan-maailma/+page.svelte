@@ -2,6 +2,10 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import { tts } from '$lib/services/tts';
+	import { generateRandomAnimation, generateDualAnimation } from '$lib/services/animationGenerator';
+	import CharacterAnimation from '$lib/components/CharacterAnimation.svelte';
+	import GameContainer from '$lib/components/shared/GameContainer.svelte';
+	import type { AnimationConfig } from '$lib/types/animation';
 
 	interface VocabItem {
 		spanish: string;
@@ -21,41 +25,45 @@
 
 	// Game state
 	let gameData: GameData | null = null;
-	let loading = true;
-	let gameStarted = false;
-	let gameEnded = false;
+	let loading = $state(true);
+	let gameStarted = $state(false);
+	let gameEnded = $state(false);
 
 	// Settings
-	let difficulty: 'easy' | 'medium' | 'hard' = 'easy';
-	let showTimer = false;
-	let autoPlayAudio = true;
+	let difficulty: 'easy' | 'medium' | 'hard' = $state('easy');
+	let showTimer = $state(false);
+	let autoPlayAudio = $state(true);
 
 	// Current question state
-	let currentWord: VocabItem | null = null;
-	let options: VocabItem[] = [];
-	let questionNumber = 0;
-	let totalQuestions = 10;
-	let correctAnswers = 0;
-	let timeLeft = 30;
+	let currentWord: VocabItem | null = $state(null);
+	let options: VocabItem[] = $state([]);
+	let questionNumber = $state(0);
+	let totalQuestions = $state(10);
+	let correctAnswers = $state(0);
+	let timeLeft = $state(30);
 	let timerInterval: number | null = null;
 
 	// Word queue to avoid repeats
-	let wordQueue: VocabItem[] = [];
+	let wordQueue: VocabItem[] = $state([]);
 
 	// Animation states
-	let showCelebration = false;
-	let celebrationText = '';
-	let celebrationTextFi = '';
-	let selectedAnswer: number | null = null;
-	let isCorrect = false;
+	let showCelebration = $state(false);
+	let celebrationText = $state('');
+	let celebrationTextFi = $state('');
+	let selectedAnswer: number | null = $state(null);
+	let isCorrect = $state(false);
+	
+	// Background animations
+	let backgroundAnimations: AnimationConfig[] = $state([]);
+	let showBackgroundAnimation = $state(false);
 
 	// Statistics
-	let totalGamesPlayed = 0;
-	let totalCorrectAnswers = 0;
-	let bestScore = 0;
+	let totalGamesPlayed = $state(0);
+	let totalCorrectAnswers = $state(0);
+	let bestScore = $state(0);
 
 	// All vocab combined
-	let allVocab: VocabItem[] = [];
+	let allVocab: VocabItem[] = $state([]);
 
 	// Load game data and settings
 	onMount(async () => {
@@ -138,6 +146,19 @@
 			[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
 		}
 		return shuffled;
+	}
+	
+	function generateBackgroundAnimations() {
+		// 70% chance single animation, 30% chance dual animations
+		const useDual = Math.random() < 0.3;
+		
+		if (useDual) {
+			backgroundAnimations = generateDualAnimation();
+		} else {
+			backgroundAnimations = [generateRandomAnimation()];
+		}
+		
+		showBackgroundAnimation = true;
 	}
 
 	/**
@@ -254,6 +275,7 @@
 		questionNumber++;
 		selectedAnswer = null;
 		showCelebration = false;
+		showBackgroundAnimation = false;
 
 		// Get next word from queue
 		currentWord = wordQueue.shift() || null;
@@ -311,13 +333,22 @@
 			correctAnswers++;
 			celebrate();
 		} else {
-			// Wrong answer - speak Spanish word, then "on suomeksi" + Finnish word
+			// Wrong answer - speak condolence, then Spanish word, then "on suomeksi" + Finnish word
 			if (autoPlayAudio && currentWord) {
 				setTimeout(() => {
-					tts.speakSpanishThenFinnish(
-						currentWord!.spanish,
-						`on suomeksi ${currentWord!.finnish}`
-					);
+					const condolences = ['¡Ánimo!', 'No pasa nada', '¡Inténtalo otra vez!', 'Casi'];
+					const condolence = condolences[Math.floor(Math.random() * condolences.length)];
+					
+					// Speak condolence first
+					tts.speakSpanish(condolence);
+					
+					// Then speak the correct answer after a delay
+					setTimeout(() => {
+						tts.speakSpanishThenFinnish(
+							currentWord!.spanish,
+							`on suomeksi ${currentWord!.finnish}`
+						);
+					}, 1500);
 				}, 500);
 			}
 		}
@@ -331,7 +362,7 @@
 		// Move to next question after delay
 		setTimeout(() => {
 			nextQuestion();
-		}, isCorrect ? 2500 : 5000); // Longer delay for wrong answers to allow Spanish + Finnish speech to finish
+		}, isCorrect ? 2500 : 6500); // Longer delay for wrong answers to allow condolence + Spanish + Finnish speech to finish
 	}
 
 	function celebrate() {
@@ -344,6 +375,9 @@
 		celebrationTextFi = finnishPhrases[Math.floor(Math.random() * finnishPhrases.length)];
 
 		showCelebration = true;
+		
+		// Generate background animations
+		generateBackgroundAnimations();
 
 		// Only speak if audio is enabled
 		if (autoPlayAudio) {
@@ -445,20 +479,14 @@
 	}
 </script>
 
-<div class="min-h-screen bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200">
-	<div class="container mx-auto px-4 max-w-4xl {gameStarted ? 'h-screen flex flex-col' : 'py-4'}">
-		<!-- Header -->
+<GameContainer gameType="viewport-fitted" buttonMode="kids" backgroundClass="bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200" transparentCard={true} showBackButton={!gameStarted && !gameEnded} onBack={() => window.location.href = `${base}/`}>
+	<div class="flex flex-col h-full p-4">
+		<!-- Header - X button during game -->
 		{#if gameStarted}
-			<!-- X button in top-right corner during game -->
-			<div class="flex justify-end py-2">
+			<div class="flex justify-end">
 				<button onclick={resetGame} class="btn btn-ghost btn-circle btn-sm text-base-content/50 hover:text-base-content">
 					✕
 				</button>
-			</div>
-		{:else if !gameEnded}
-			<!-- Back button on start screen - Top Left -->
-			<div class="mb-4">
-				<a href="{base}/" class="btn btn-ghost btn-xs sm:btn-sm bg-white/80 backdrop-blur">Takaisin</a>
 			</div>
 		{/if}
 
@@ -655,24 +683,37 @@
 					{/each}
 				</div>
 
-				<!-- Wrong Answer Overlay -->
-				{#if selectedAnswer !== null && !isCorrect && currentWord}
-					<div class="fixed inset-0 flex items-center justify-center pointer-events-none z-50 animate-fade-in">
-						<div class="text-center bg-white/95 rounded-2xl p-6 shadow-2xl max-w-md">
-							<div class="text-6xl mb-3">{currentWord.icon}</div>
-							<div class="text-2xl font-bold text-primary mb-2">
-								{currentWord.spanish}
-							</div>
-							<div class="text-xl text-base-content/70">
-								= {currentWord.finnish}
-							</div>
+			<!-- Wrong Answer Overlay -->
+			{#if selectedAnswer !== null && !isCorrect && currentWord}
+				<div class="fixed inset-0 flex items-center justify-center pointer-events-none z-50 animate-fade-in">
+					<div class="text-center rounded-2xl p-6 max-w-md">
+						<div class="text-6xl mb-3 drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">😢</div>
+						<div class="text-3xl font-bold text-white mb-4 drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
+							¡Ánimo!
+						</div>
+						<div class="text-6xl mb-3 drop-shadow-[0_3px_3px_rgba(255,255,255,0.9)]">{currentWord.icon}</div>
+						<div class="text-2xl font-bold text-white mb-2 drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
+							{currentWord.spanish}
+						</div>
+						<div class="text-xl text-white drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
+							= {currentWord.finnish}
 						</div>
 					</div>
-				{/if}
+				</div>
+			{/if}
 
 				<!-- Celebration Overlay -->
 				{#if showCelebration}
-					<div class="fixed inset-0 flex items-center justify-center pointer-events-none z-50 animate-fade-in">
+					<!-- Background Animations (behind celebration) -->
+					{#if showBackgroundAnimation}
+						<div class="fixed inset-0 pointer-events-none" style="z-index: 1;">
+							{#each backgroundAnimations as animConfig}
+								<CharacterAnimation config={animConfig} />
+							{/each}
+						</div>
+					{/if}
+				
+					<div class="fixed inset-0 flex items-center justify-center pointer-events-none animate-fade-in" style="z-index: 50;">
 						<div class="text-center animate-bounce">
 							<div class="text-7xl sm:text-9xl mb-4">⭐🎉⭐</div>
 							<div class="text-4xl sm:text-6xl font-bold text-white drop-shadow-[0_5px_5px_rgba(0,0,0,0.8)]">
@@ -738,7 +779,7 @@
 			</div>
 		{/if}
 	</div>
-</div>
+</GameContainer>
 
 <style>
 	@keyframes fade-in {

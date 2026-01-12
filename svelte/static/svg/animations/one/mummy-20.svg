@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Frame 20: 360°/0° - Complete -->
+  
+  <!-- Ground line -->
+  <line x1="0" y1="95" x2="100" y2="95" stroke="#8B7355" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Left Leg -->
+  <rect x="43" y="70" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Right Leg -->
+  <rect x="51" y="70" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Left Foot -->
+  <ellipse cx="47" cy="95" rx="6" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Right Foot -->
+  <ellipse cx="55" cy="95" rx="6" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Body -->
+  <ellipse cx="50" cy="55" rx="28" ry="38" fill="#FF8A65"/>
+  
+  <!-- Skirt settled naturally -->
+  <path d="M 22 70 Q 22 75 20 78 L 30 78 Q 28 75 28 70 Z" fill="#FF8A65"/>
+  <path d="M 72 70 Q 72 75 74 78 L 80 78 Q 78 75 78 70 Z" fill="#FF8A65"/>
+  <path d="M 28 70 L 30 78 L 70 78 L 72 70 Z" fill="#FF8A65"/>
+  
+  <!-- Left Arm -->
+  <rect x="10" y="45" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(-90 13.5 55)"/>
+  
+  <!-- Right Arm -->
+  <rect x="83" y="45" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(90 86.5 55)"/>
+  
+  <!-- Left Hand -->
+  <circle cx="3" cy="55" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Right Hand -->
+  <circle cx="97" cy="55" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Head - Perfect Front View -->
+  <circle cx="50" cy="30" r="20" fill="#FFAB91"/>
+  
+  <!-- Left Ear -->
+  <circle cx="40" cy="15" r="8" fill="#FFAB91"/>
+  
+  <!-- Right Ear -->
+  <circle cx="60" cy="15" r="8" fill="#FFAB91"/>
+  
+  <!-- Snout - Front View -->
+  <ellipse cx="62" cy="30" rx="10" ry="8" fill="#FF69B4"/>
+  <circle cx="60" cy="28" r="1.5" fill="#1A1A1A"/>
+  <circle cx="60" cy="32" r="1.5" fill="#1A1A1A"/>
+  
+  <!-- Left Eye -->
+  <circle cx="45" cy="28" r="4" fill="white"/>
+  <circle cx="46" cy="28" r="2" fill="#1A1A1A"/>
+  
+  <!-- Right Eye -->
+  <circle cx="55" cy="28" r="4" fill="white"/>
+  <circle cx="56" cy="28" r="2" fill="#1A1A1A"/>
+  
+  <!-- Mouth (satisfied smile) -->
+  <path d="M 48 36 Q 50 37 52 36" stroke="#D84A4A" stroke-width="1" fill="none"/>
+</svg>

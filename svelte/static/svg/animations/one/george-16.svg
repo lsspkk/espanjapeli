@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  
+  <defs>
+    <filter id="shadowBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+    </filter>
+  </defs>
+<!-- GEORGE FRAME 16: Airborne, descending, leaning forward -->
+  <rect width="100" height="100" fill="none"/>
+  <line x1="0" y1="95" x2="80" y2="95" stroke="#333" stroke-width="1" filter="url(#shadowBlur)"/>
+
+  <g id="dino" transform="translate(50,28)">
+    <ellipse cx="0" cy="8" rx="8" ry="5" fill="#4CAF50"/>
+    <circle cx="8" cy="5" r="3" fill="#4CAF50"/>
+  </g>
+
+  <g id="george" transform="translate(0,-8)">
+    <circle cx="30" cy="28" r="15" fill="#F9C6CF"/>
+    <ellipse cx="41" cy="30" rx="8" ry="6" fill="#FF69B4"/>
+    <circle cx="26" cy="26" r="4" fill="#fff"/>
+    <circle cx="26" cy="26" r="2" fill="#000"/>
+    <ellipse cx="30" cy="56" rx="12" ry="16" fill="#6B9BD2"/>
+
+    <rect x="12" y="40" width="5" height="16" rx="2" fill="#F9C6CF" transform="rotate(-5 12 40)"/>
+    <rect x="34" y="34" width="5" height="16" rx="2" fill="#F9C6CF" transform="rotate(5 34 34)"/>
+
+    <rect x="22" y="54" width="5" height="20" rx="2" fill="#F9C6CF" transform="rotate(10 22 54)"/>
+    <rect x="34" y="64" width="5" height="20" rx="2" fill="#F9C6CF" transform="rotate(-10 34 64)"/>
+
+    <ellipse cx="24" cy="78" rx="5" ry="3" fill="#1A1A1A"/>
+    <ellipse cx="36" cy="86" rx="5" ry="3" fill="#1A1A1A"/>
+  </g>
+</svg>

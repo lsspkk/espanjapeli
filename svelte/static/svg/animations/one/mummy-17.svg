@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Frame 17: 306° - Nearly Front -->
+  
+  <!-- Ground line -->
+  <line x1="0" y1="95" x2="100" y2="95" stroke="#8B7355" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Right Leg (coming down sadly) -->
+  <rect x="49" y="69" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Left Leg (coming down) -->
+  <rect x="45" y="68" width="8" height="25" rx="4" fill="#FFAB91"/>
+  
+  <!-- Right Foot (coming down) -->
+  <ellipse cx="53" cy="94" rx="6" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Left Foot (coming down) -->
+  <ellipse cx="49" cy="93" rx="6" ry="4" fill="#1A1A1A"/>
+  
+  <!-- Body (normal, coming down 2px - failed attempt) -->
+  <ellipse cx="50" cy="54" rx="28" ry="38" fill="#FF8A65"/>
+  
+  <!-- Skirt settling -->
+  <path d="M 23 70 Q 23 75 21 79.5 L 31 79.5 Q 29 75 29 70 Z" fill="#FF8A65"/>
+  <path d="M 71 70 Q 71 75 73 79.5 L 79 79.5 Q 77 75 77 70 Z" fill="#FF8A65"/>
+  <path d="M 29 70 L 31 79.5 L 69 79.5 L 71 70 Z" fill="#FF8A65"/>
+  
+  <!-- Carousel lines (fading) -->
+  <path d="M 21 79.5 Q 18 77.5 16 75.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.4"/>
+  <path d="M 22 80 Q 19 78 17 76" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.3"/>
+  <path d="M 23 80.5 Q 20 78.5 18 76.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.2"/>
+  <path d="M 79 79.5 Q 82 77.5 84 75.5" stroke="#CCCCCC" stroke-width="0.5" fill="none" opacity="0.4"/>
+  
+  <!-- Left Arm -->
+  <rect x="40" y="48" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(45 43.5 58)"/>
+  
+  <!-- Right Arm -->
+  <rect x="53" y="48" width="7" height="20" rx="3.5" fill="#FFAB91" transform="rotate(315 56.5 58)"/>
+  
+  <!-- Left Hand -->
+  <circle cx="43" cy="65" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Right Hand -->
+  <circle cx="57" cy="65" r="4.5" fill="#FFAB91"/>
+  
+  <!-- Head - Nearly Front (306°, coming down 2px) -->
+  <circle cx="50" cy="29" r="20" fill="#FFAB91"/>
+  
+  <!-- Left Ear (coming down) -->
+  <circle cx="39" cy="14" r="8" fill="#FFAB91"/>
+  
+  <!-- Right Ear (coming down) -->
+  <circle cx="61" cy="14" r="8" fill="#FFAB91"/>
+  
+  <!-- Snout - Nearly Front View (coming down) -->
+  <ellipse cx="62" cy="29" rx="10" ry="8" fill="#FF69B4"/>
+  <circle cx="60" cy="27" r="1.5" fill="#1A1A1A"/>
+  <circle cx="60" cy="31" r="1.5" fill="#1A1A1A"/>
+  
+  <!-- Left Eye (coming down) -->
+  <circle cx="44" cy="27" r="4" fill="white"/>
+  <circle cx="45" cy="27" r="2" fill="#1A1A1A"/>
+  
+  <!-- Right Eye (coming down) -->
+  <circle cx="56" cy="27" r="4" fill="white"/>
+  <circle cx="57" cy="27" r="2" fill="#1A1A1A"/>
+  
+  <!-- Mouth (happy, coming down) -->
+  <path d="M 48 35 Q 50 36 52 35" stroke="#D84A4A" stroke-width="1" fill="none"/>
+</svg>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  
+  <defs>
+    <filter id="shadowBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+    </filter>
+  </defs>
+<!-- Peppa Frame 12: Seated upright, minimal lean 1? -->
+  <!-- Bicycle wheels: 198? rotation -->
+  <!-- Right pedal at 11 o'clock (330?), Left pedal at 5 o'clock (150?) -->
+  
+  <!-- Bicycle Back Wheel (rotated 198?) -->
+  <g transform="translate(50, 77)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+    <!-- Spokes rotated 198? -->
+    <line x1="-15.59" y1="-9.27" x2="15.59" y2="9.27" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="-9.27" y1="15.59" x2="9.27" y2="-15.59" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="-17.36" y1="5.57" x2="17.36" y2="-5.57" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="-5.57" y1="-17.36" x2="5.57" y2="17.36" stroke="#1A1A1A" stroke-width="1"/>
+  </g>
+  
+  <!-- Bicycle Frame -->
+  <path d="M 50 77 L 100 60 L 140 77" fill="none" stroke="#CC3333" stroke-width="3"/>
+  <path d="M 100 60 L 100 50" fill="none" stroke="#CC3333" stroke-width="3"/>
+  
+  <!-- Bicycle Seat -->
+  <ellipse cx="100" cy="48" rx="8" ry="4" fill="#8B4513"/>
+  
+  <!-- Bicycle Front Wheel (rotated 198?) -->
+  <g transform="translate(140, 77)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+    <!-- Spokes rotated 198? -->
+    <line x1="-15.59" y1="-9.27" x2="15.59" y2="9.27" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="-9.27" y1="15.59" x2="9.27" y2="-15.59" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="-17.36" y1="5.57" x2="17.36" y2="-5.57" stroke="#1A1A1A" stroke-width="1"/>
+    <line x1="-5.57" y1="-17.36" x2="5.57" y2="17.36" stroke="#1A1A1A" stroke-width="1"/>
+  </g>
+  
+  <!-- Bicycle Handlebars -->
+  <path d="M 140 60 Q 135 55 130 52" fill="none" stroke="#1A1A1A" stroke-width="2"/>
+  <line x1="128" y1="52" x2="132" y2="50" stroke="#1A1A1A" stroke-width="2"/>
+  
+  <!-- Pedal Crank -->
+  <g transform="translate(95, 77)">
+    <!-- Right pedal at 330? (11 o'clock) -->
+    <rect x="-7" y="-23" width="6" height="3" fill="#333" transform="rotate(-30)"/>
+    <!-- Left pedal at 150? (5 o'clock) -->
+    <rect x="15" y="13" width="6" height="3" fill="#333" transform="rotate(150)"/>
+  </g>
+  
+  <!-- Peppa's Body (seated upright, minimal lean 1?) -->
+  <g transform="translate(100, 55) rotate(1)">
+    <!-- Body/Dress -->
+    <ellipse cx="0" cy="0" rx="15" ry="20" fill="#E63946"/>
+    
+    <!-- Head (facing forward and slightly up) -->
+    <circle cx="0" cy="-26" r="18" fill="#F9C6CF"/>
+    
+    <!-- Snout (tilted up 4?) -->
+    <ellipse cx="12" cy="-27" rx="10" ry="8" fill="#FF69B4" transform="rotate(-4, 12, -27)"/>
+    <circle cx="14" cy="-29" r="1.5" fill="#1A1A1A"/>
+    <circle cx="14" cy="-25" r="1.5" fill="#1A1A1A"/>
+    
+    <!-- Ears (upright) -->
+    <circle cx="-8" cy="-39" r="6" fill="#F9C6CF"/>
+    <circle cx="8" cy="-39" r="6" fill="#F9C6CF"/>
+    
+    <!-- Eyes (looking ahead and up) -->
+    <circle cx="3" cy="-29" r="5" fill="white"/>
+    <circle cx="4" cy="-30" r="2" fill="#1A1A1A"/>
+    <circle cx="3" cy="-21" r="5" fill="white"/>
+    <circle cx="4" cy="-22" r="2" fill="#1A1A1A"/>
+    
+    <!-- Mouth (smile, happy expression) -->
+    <path d="M 10 -18 Q 13 -16 11 -13" fill="none" stroke="#1A1A1A" stroke-width="1"/>
+  </g>
+  
+  <!-- Left Arm (bent, hand steady on handlebar) -->
+  <rect x="88" y="45" width="6" height="18" rx="3" fill="#F9C6CF" transform="rotate(-35, 91, 45)"/>
+  <circle cx="81" cy="55" r="4" fill="#F9C6CF"/>
+  
+  <!-- Right Arm (bent, hand steady on handlebar) -->
+  <rect x="108" y="48" width="6" height="16" rx="3" fill="#F9C6CF" transform="rotate(25, 111, 48)"/>
+  <circle cx="121" cy="57" r="4" fill="#F9C6CF"/>
+  
+  <!-- Left Leg (extending, pedal at 5 o'clock, leg straightening) -->
+  <g transform="translate(95, 60)">
+    <rect x="0" y="0" width="6" height="24" rx="3" fill="#F9C6CF" transform="rotate(40)"/>
+    <ellipse cx="18" cy="19" rx="6" ry="4" fill="#1A1A1A" transform="rotate(40)"/>
+  </g>
+  
+  <!-- Right Leg (nearly fully bent, pedal at 11 o'clock, knee high) -->
+  <g transform="translate(100, 60)">
+    <rect x="0" y="0" width="6" height="18" rx="3" fill="#F9C6CF" transform="rotate(-35)"/>
+    <ellipse cx="-11" cy="13" rx="6" ry="4" fill="#1A1A1A" transform="rotate(-35)"/>
+  </g>
+  
+  <!-- Ground line -->
+  <line x1="0" y1="95" x2="200" y2="95" stroke="#ccc" stroke-width="0.5" opacity="0.3" filter="url(#shadowBlur)"/>
+</svg>

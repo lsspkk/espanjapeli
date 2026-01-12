@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  
+  
+  <defs>
+    <filter id="shadowBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+    </filter>
+  </defs>
+<line x1="0" y1="95" x2="80" y2="95" stroke="#2B2B2B" stroke-width="1" opacity="0.35"  filter="url(#shadowBlur)"/>
+<!-- Daddy Pig Frame 8: Rolling through, 150° rotation, lower back on ground -->
+  <g transform="rotate(150 50 68)">
+    
+    <!-- Legs (coming over, feet descending) -->
+    <rect x="46" y="48" width="9" height="14" rx="4" fill="#FFAB91" transform="rotate(-120 50.5 55)"/>
+    <rect x="56" y="48" width="9" height="14" rx="4" fill="#FFAB91" transform="rotate(-120 60.5 55)"/>
+    
+    <!-- Feet -->
+    <ellipse cx="45" cy="56" rx="7" ry="4" fill="#FF8A65" transform="rotate(-120 45 56)"/>
+    <ellipse cx="55" cy="56" rx="7" ry="4" fill="#1A1A1A" transform="rotate(-120 55 56)"/>
+    
+    <!-- Body (still curved, lower back on ground) -->
+    <ellipse cx="50" cy="72" rx="27" ry="30" fill="#FF8A65"/>
+    <!-- Back shading -->
+    <ellipse cx="48" cy="72" rx="17" ry="30" fill="#D06848" opacity="0.3"/>
+    
+    <!-- Shirt -->
+    <ellipse cx="50" cy="62" rx="25" ry="14" fill="#4DB8AC"/>
+    <ellipse cx="48" cy="62" rx="15" ry="14" fill="#3A9688" opacity="0.3"/>
+    
+    <!-- Arms (starting to extend) -->
+    <rect x="38" y="70" width="7" height="12" rx="3" fill="#FFAB91"/>
+    <rect x="55" y="70" width="7" height="12" rx="3" fill="#FFAB91"/>
+    
+    <!-- Hands -->
+    <circle cx="41.5" cy="82" r="5" fill="#FFAB91"/>
+    <circle cx="58.5" cy="82" r="5" fill="#FFAB91"/>
+    
+    <!-- Tail (uncurling) -->
+    <path d="M 48 88 Q 52 92 56 93 Q 60 94 64 92" fill="none" stroke="#FFAB91" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Head (beginning to emerge, chin still down) -->
+    <ellipse cx="50" cy="60" rx="20" ry="22" fill="#FFAB91" transform="rotate(170 50 60)"/>
+    
+    <!-- Ear (starting to become visible) -->
+    <ellipse cx="46" cy="55" rx="8" ry="9" fill="#FFAB91"/>
+    <ellipse cx="54" cy="55" rx="8" ry="9" fill="#FFAB91"/>
+    
+    <!-- Snout (starting to show) -->
+    <ellipse cx="58" cy="68" rx="13" ry="10" fill="#FFAB91" transform="rotate(170 58 68)"/>
+    
+    <!-- Nostrils -->
+    <circle cx="62" cy="66" r="2" fill="#FF69B4"/>
+    <circle cx="62" cy="70" r="2" fill="#FF69B4"/>
+    
+    <!-- Glasses (very crooked) -->
+    <circle cx="48" cy="58" r="10" fill="none" stroke="#1A1A1A" stroke-width="1.5" transform="rotate(30 48 58)"/>
+    <circle cx="52" cy="58" r="10" fill="none" stroke="#1A1A1A" stroke-width="1.5" transform="rotate(30 52 58)"/>
+    <line x1="38" y1="60" x2="46" y2="57" stroke="#1A1A1A" stroke-width="1.5"/>
+    
+    <!-- Eyes (closed or barely opening) -->
+    <line x1="46" y1="58" x2="50" y2="58" stroke="#1A1A1A" stroke-width="2"/>
+    
+  </g>
+</svg>
