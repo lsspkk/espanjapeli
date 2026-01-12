@@ -1,0 +1,186 @@
+{
+  "version": "1.0",
+  "description": "Finnish translations of distractor image descriptions for TTS",
+  "translations": {
+    "swimming": {
+      "english": "Pig swimming in pool",
+      "finnish": "Sian uinti altaassa"
+    },
+    "bathing": {
+      "english": "Pig in bathtub with bubbles",
+      "finnish": "Sika kylpyammeessa kuplien kanssa"
+    },
+    "rain": {
+      "english": "Rain clouds and umbrella",
+      "finnish": "Sadepilvet ja sateenvarjo"
+    },
+    "sad_puddle": {
+      "english": "Pig looking sadly at puddle",
+      "finnish": "Sika katsoo surullisena lätäkköä"
+    },
+    "george": {
+      "english": "George with dinosaur toy",
+      "finnish": "George dinosauruksen lelun kanssa"
+    },
+    "mummy_pig": {
+      "english": "Mummy Pig in yellow dress",
+      "finnish": "Äitipossu keltaisessa mekossa"
+    },
+    "daddy_pig": {
+      "english": "Daddy Pig with glasses",
+      "finnish": "Isäpossu silmälaseissa"
+    },
+    "suzy_sheep": {
+      "english": "Suzy Sheep waving",
+      "finnish": "Suzy Sheep vilkuttaa"
+    },
+    "morning": {
+      "english": "Sunrise with rooster",
+      "finnish": "Auringonnousu kukon kanssa"
+    },
+    "breakfast": {
+      "english": "Breakfast table with pancakes",
+      "finnish": "Aamiaispöytä pannukakkujen kera"
+    },
+    "playing": {
+      "english": "Kids playing with ball",
+      "finnish": "Lapset leikkivät pallolla"
+    },
+    "rainy": {
+      "english": "Rainy day with clouds",
+      "finnish": "Sateinen päivä pilvineen"
+    },
+    "snowy": {
+      "english": "Snowy winter day",
+      "finnish": "Luminen talvipäivä"
+    },
+    "cloudy": {
+      "english": "Overcast cloudy sky",
+      "finnish": "Pilvinen pilvinen taivas"
+    },
+    "windy": {
+      "english": "Windy day with leaves",
+      "finnish": "Tuulinen päivä lehtineen"
+    },
+    "school": {
+      "english": "School building with children",
+      "finnish": "Koulurakennus lapsille"
+    },
+    "dinner": {
+      "english": "Family dinner table",
+      "finnish": "Perheen illallispöytä"
+    },
+    "shopping": {
+      "english": "Shopping cart in supermarket",
+      "finnish": "Ostoskärry supermarketissa"
+    },
+    "sleeping": {
+      "english": "Sleeping",
+      "finnish": "Nukkuminen"
+    },
+    "eating": {
+      "english": "Eating food",
+      "finnish": "Syöminen"
+    },
+    "sad": {
+      "english": "Sad",
+      "finnish": "Surullinen"
+    },
+    "happy": {
+      "english": "Happy",
+      "finnish": "Iloinen"
+    },
+    "studying": {
+      "english": "Studying",
+      "finnish": "Opiskelu"
+    },
+    "home": {
+      "english": "Home",
+      "finnish": "Koti"
+    },
+    "night": {
+      "english": "Night time",
+      "finnish": "Yö"
+    },
+    "hot": {
+      "english": "Hot weather",
+      "finnish": "Kuuma sää"
+    },
+    "class_time": {
+      "english": "Class time",
+      "finnish": "Tuntiaika"
+    },
+    "reading": {
+      "english": "Reading",
+      "finnish": "Lukeminen"
+    },
+    "soup": {
+      "english": "Soup",
+      "finnish": "Keitto"
+    },
+    "vegetables": {
+      "english": "Vegetables",
+      "finnish": "Vihannekset"
+    },
+    "run_fast": {
+      "english": "Run Fast",
+      "finnish": "Juokse nopeasti"
+    },
+    "jump": {
+      "english": "Jump",
+      "finnish": "Hyppää"
+    },
+    "sleep": {
+      "english": "Sleep",
+      "finnish": "Nuku"
+    },
+    "cry": {
+      "english": "Cry",
+      "finnish": "Itke"
+    },
+    "panic": {
+      "english": "Panic",
+      "finnish": "Paniikki"
+    },
+    "scared": {
+      "english": "Scared",
+      "finnish": "Peloissaan"
+    },
+    "bad": {
+      "english": "Bad",
+      "finnish": "Paha"
+    },
+    "try_again": {
+      "english": "Try Again",
+      "finnish": "Yritä uudestaan"
+    },
+    "boring": {
+      "english": "Boring",
+      "finnish": "Tylsää"
+    },
+    "brave": {
+      "english": "Brave",
+      "finnish": "Rohkea"
+    },
+    "calm": {
+      "english": "Calm",
+      "finnish": "Rauhoitu"
+    },
+    "angry": {
+      "english": "Angry",
+      "finnish": "Vihainen"
+    },
+    "delicious": {
+      "english": "Delicious",
+      "finnish": "Herkullista"
+    },
+    "your_turn": {
+      "english": "Your Turn",
+      "finnish": "Sinun vuorosi"
+    },
+    "waiting": {
+      "english": "Waiting",
+      "finnish": "Odotan"
+    }
+  }
+}

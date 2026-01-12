@@ -1,0 +1,2118 @@
+# V4 STORY MATERIAL COLLECTION
+# Espanjapeli - Spanish Learning Stories Resource Document
+# Generated: January 2026
+
+================================================================================
+PART 1: OPEN SOURCE SPANISH LEARNING RESOURCES
+================================================================================
+
+## 1.1 Primary Open Source Story Collections
+
+### News in Slow Spanish (Creative Commons Content)
+URL: https://www.newsinslowspanish.com
+License: Some content available under Creative Commons
+Level: A2-B2
+Description: Slow-paced news dialogues perfect for comprehension
+
+### Spanish Obsessed Podcast Transcripts
+URL: https://spanishobsessed.com
+License: CC BY-NC-SA for some materials
+Level: A1-B2
+Description: Natural dialogues with native Colombian speakers
+
+### Spanish with Paul (YouTube/CC)
+URL: Various platforms
+License: Educational use allowed
+Level: A1-A2
+Description: Simple dialogues for absolute beginners
+
+### Duolingo Stories (Inspiration)
+Note: Not open source, but pattern analysis useful
+Level: A1-B1
+Description: Short, engaging stories with comprehension checks
+
+### LingQ Mini Stories (CC Licensed)
+URL: https://www.lingq.com
+License: Creative Commons for community content
+Level: A1-B1
+Description: Repeated story structures with vocabulary building
+
+### SpanishPod101 (Sample Content)
+URL: https://www.spanishpod101.com
+License: Sample lessons freely available
+Level: A1-B2
+Description: Dialogue-based learning with cultural notes
+
+### Dreaming Spanish (YouTube)
+URL: https://www.dreamingspanish.com
+License: Free content available
+Level: A0-B2
+Description: Comprehensible input with visual support
+
+## 1.2 Academic & Educational Resources
+
+### Common European Framework Reference Texts
+CEFR provides sample dialogues for each level:
+- A1: Basic greetings, simple transactions
+- A2: Daily life, routine activities
+- B1: Travel, opinions, experiences
+
+### Instituto Cervantes Aula Virtual
+URL: https://cvc.cervantes.es
+License: Educational use
+Level: A1-C2
+Description: Official Spanish learning resources
+
+================================================================================
+PART 2: NEW STORY COLLECTION - ABSOLUTE BEGINNER (A1)
+================================================================================
+
+Each story follows this structure:
+- 6-8 dialogue lines (very short)
+- 8-10 vocabulary words
+- 3-4 comprehension questions
+- Focus: Present tense, simple vocabulary
+
+--------------------------------------------------------------------------------
+STORY A1-01: Meeting Someone New
+ID: meeting-new-person
+Title EN: Meeting Someone New
+Title ES: Conocer a alguien nuevo
+Category: social
+Difficulty: absolute-beginner
+Icon: 👋
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+María: Hola, me llamo María. ¿Cómo te llamas?
+      (Hello, my name is María. What is your name?)
+Juan: Hola, soy Juan. Mucho gusto.
+      (Hello, I am Juan. Nice to meet you.)
+María: ¿De dónde eres?
+      (Where are you from?)
+Juan: Soy de México. ¿Y tú?
+      (I am from Mexico. And you?)
+María: Soy de España, de Madrid.
+      (I am from Spain, from Madrid.)
+Juan: ¡Qué bien! Madrid es muy bonito.
+      (How nice! Madrid is very beautiful.)
+
+VOCABULARY:
+- llamarse = to be called
+- ser = to be
+- mucho gusto = nice to meet you
+- de dónde = from where
+- bonito/a = beautiful/nice
+- muy = very
+
+QUESTIONS:
+Q1: Where is Juan from?
+A: Mexico (Correct) / Spain / France / Italy
+
+Q2: Where is María from?
+A: Madrid (Correct) / Barcelona / Mexico / Valencia
+
+Q3: What does "mucho gusto" mean?
+A: Nice to meet you (Correct) / Goodbye / Thank you / How are you
+
+--------------------------------------------------------------------------------
+STORY A1-02: What Time Is It?
+ID: what-time
+Title EN: What Time Is It?
+Title ES: ¿Qué hora es?
+Category: everyday
+Difficulty: absolute-beginner
+Icon: 🕐
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Ana: Perdona, ¿qué hora es?
+     (Excuse me, what time is it?)
+Pedro: Son las tres de la tarde.
+       (It's three in the afternoon.)
+Ana: Gracias. ¿A qué hora cierra la tienda?
+     (Thanks. What time does the shop close?)
+Pedro: Cierra a las ocho de la noche.
+       (It closes at eight in the evening.)
+Ana: Perfecto, tengo tiempo.
+     (Perfect, I have time.)
+Pedro: Sí, tienes mucho tiempo.
+       (Yes, you have a lot of time.)
+
+VOCABULARY:
+- qué hora = what time
+- la tarde = the afternoon
+- cerrar = to close
+- la tienda = the shop
+- la noche = the evening/night
+- tiempo = time
+- perdona = excuse me
+
+QUESTIONS:
+Q1: What time is it now?
+A: 3 PM (Correct) / 8 PM / 12 PM / 5 PM
+
+Q2: When does the shop close?
+A: 8 PM (Correct) / 3 PM / 6 PM / 10 PM
+
+Q3: Does Ana have enough time?
+A: Yes (Correct) / No / Maybe / We don't know
+
+--------------------------------------------------------------------------------
+STORY A1-03: I'm Hungry
+ID: hungry
+Title EN: I'm Hungry
+Title ES: Tengo hambre
+Category: food
+Difficulty: absolute-beginner
+Icon: 🍕
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Luis: Tengo hambre. ¿Y tú?
+      (I'm hungry. And you?)
+Sara: Sí, yo también. ¿Qué quieres comer?
+      (Yes, me too. What do you want to eat?)
+Luis: Quiero pizza. ¿Te gusta la pizza?
+      (I want pizza. Do you like pizza?)
+Sara: Sí, me encanta la pizza.
+      (Yes, I love pizza.)
+Luis: Perfecto. Vamos a la pizzería.
+      (Perfect. Let's go to the pizzeria.)
+Sara: ¡Vamos!
+      (Let's go!)
+
+VOCABULARY:
+- tener hambre = to be hungry
+- también = also/too
+- querer = to want
+- comer = to eat
+- gustar = to like
+- encantar = to love (things)
+- ir = to go
+- vamos = let's go
+
+QUESTIONS:
+Q1: What does Luis want to eat?
+A: Pizza (Correct) / Pasta / Salad / Sandwich
+
+Q2: Does Sara like pizza?
+A: Yes, she loves it (Correct) / No / A little / She prefers pasta
+
+Q3: Where are they going?
+A: Pizzeria (Correct) / Home / Restaurant / Shop
+
+--------------------------------------------------------------------------------
+STORY A1-04: My Family
+ID: my-family
+Title EN: My Family
+Title ES: Mi familia
+Category: family
+Difficulty: absolute-beginner
+Icon: 👨‍👩‍👧‍👦
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Teacher: Cuéntame sobre tu familia.
+         (Tell me about your family.)
+Student: Tengo una familia pequeña.
+         (I have a small family.)
+Teacher: ¿Cuántas personas hay?
+         (How many people are there?)
+Student: Somos cuatro: mi padre, mi madre, mi hermana y yo.
+         (We are four: my father, my mother, my sister, and me.)
+Teacher: ¿Cómo se llama tu hermana?
+         (What is your sister's name?)
+Student: Se llama Elena. Tiene diez años.
+         (Her name is Elena. She is ten years old.)
+Teacher: ¡Qué bien! ¿Y tú?
+         (How nice! And you?)
+Student: Yo tengo trece años.
+         (I am thirteen years old.)
+
+VOCABULARY:
+- la familia = family
+- pequeño/a = small
+- cuántas = how many
+- el padre = father
+- la madre = mother
+- el/la hermano/a = brother/sister
+- tener ... años = to be ... years old
+- cuéntame = tell me
+
+QUESTIONS:
+Q1: How many people are in the family?
+A: 4 (Correct) / 3 / 5 / 6
+
+Q2: How old is Elena?
+A: 10 (Correct) / 13 / 8 / 15
+
+Q3: How old is the student?
+A: 13 (Correct) / 10 / 15 / 12
+
+--------------------------------------------------------------------------------
+STORY A1-05: Colors I See
+ID: colors
+Title EN: Colors I See
+Title ES: Colores que veo
+Category: everyday
+Difficulty: absolute-beginner
+Icon: 🎨
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Niño: Mamá, ¿de qué color es el sol?
+      (Mom, what color is the sun?)
+Mamá: El sol es amarillo.
+      (The sun is yellow.)
+Niño: ¿Y el cielo?
+      (And the sky?)
+Mamá: El cielo es azul.
+      (The sky is blue.)
+Niño: ¡Y la hierba es verde!
+      (And the grass is green!)
+Mamá: Muy bien. ¿De qué color es la manzana?
+      (Very good. What color is the apple?)
+Niño: La manzana es roja.
+      (The apple is red.)
+Mamá: ¡Excelente! Conoces muchos colores.
+      (Excellent! You know many colors.)
+
+VOCABULARY:
+- el color = color
+- el sol = sun
+- amarillo/a = yellow
+- el cielo = sky
+- azul = blue
+- la hierba = grass
+- verde = green
+- rojo/a = red
+- conocer = to know
+
+QUESTIONS:
+Q1: What color is the sun?
+A: Yellow (Correct) / Red / Blue / Green
+
+Q2: What color is the grass?
+A: Green (Correct) / Yellow / Blue / Red
+
+Q3: What color is the apple?
+A: Red (Correct) / Green / Yellow / Blue
+
+--------------------------------------------------------------------------------
+STORY A1-06: Days of the Week
+ID: days-week
+Title EN: Days of the Week
+Title ES: Los días de la semana
+Category: everyday
+Difficulty: absolute-beginner
+Icon: 📅
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Carlos: ¿Qué día es hoy?
+        (What day is today?)
+María: Hoy es lunes.
+       (Today is Monday.)
+Carlos: ¿Y mañana?
+        (And tomorrow?)
+María: Mañana es martes.
+       (Tomorrow is Tuesday.)
+Carlos: ¿Cuándo es tu fiesta?
+        (When is your party?)
+María: Mi fiesta es el sábado.
+       (My party is on Saturday.)
+Carlos: ¡Genial! El sábado no trabajo.
+        (Great! I don't work on Saturday.)
+
+VOCABULARY:
+- el día = day
+- hoy = today
+- mañana = tomorrow
+- lunes = Monday
+- martes = Tuesday
+- sábado = Saturday
+- la fiesta = party
+- trabajar = to work
+- cuándo = when
+
+QUESTIONS:
+Q1: What day is today?
+A: Monday (Correct) / Tuesday / Saturday / Sunday
+
+Q2: When is María's party?
+A: Saturday (Correct) / Monday / Friday / Sunday
+
+Q3: Does Carlos work on Saturday?
+A: No (Correct) / Yes / Maybe / We don't know
+
+--------------------------------------------------------------------------------
+STORY A1-07: How Are You?
+ID: how-are-you
+Title EN: How Are You?
+Title ES: ¿Cómo estás?
+Category: social
+Difficulty: absolute-beginner
+Icon: 😊
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Pedro: ¡Hola, Ana! ¿Cómo estás?
+       (Hi, Ana! How are you?)
+Ana: Hola, Pedro. Estoy bien, gracias. ¿Y tú?
+     (Hi, Pedro. I'm fine, thanks. And you?)
+Pedro: Estoy un poco cansado hoy.
+       (I'm a little tired today.)
+Ana: ¿Por qué? ¿No dormiste bien?
+     (Why? Didn't you sleep well?)
+Pedro: No, trabajé mucho ayer.
+       (No, I worked a lot yesterday.)
+Ana: Descansa hoy. Es domingo.
+     (Rest today. It's Sunday.)
+Pedro: Tienes razón. Voy a descansar.
+       (You're right. I'm going to rest.)
+
+VOCABULARY:
+- cómo = how
+- estar = to be (temporary state)
+- bien = well/fine
+- cansado/a = tired
+- dormir = to sleep
+- ayer = yesterday
+- descansar = to rest
+- tener razón = to be right
+
+QUESTIONS:
+Q1: How is Ana?
+A: Fine (Correct) / Tired / Sad / Sick
+
+Q2: Why is Pedro tired?
+A: He worked a lot (Correct) / He didn't eat / He is sick / He exercised
+
+Q3: What day is it?
+A: Sunday (Correct) / Saturday / Monday / Friday
+
+--------------------------------------------------------------------------------
+STORY A1-08: In the Classroom
+ID: classroom
+Title EN: In the Classroom
+Title ES: En la clase
+Category: education
+Difficulty: absolute-beginner
+Icon: 📚
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Profesor: Buenos días, clase.
+          (Good morning, class.)
+Estudiantes: Buenos días, profesor.
+             (Good morning, teacher.)
+Profesor: Abran sus libros en la página diez.
+          (Open your books to page ten.)
+Estudiante: Profesor, no tengo mi libro.
+            (Teacher, I don't have my book.)
+Profesor: No hay problema. Comparte con tu compañero.
+          (No problem. Share with your classmate.)
+Estudiante: Gracias, profesor.
+            (Thank you, teacher.)
+Profesor: De nada. Empezamos la lección.
+          (You're welcome. We begin the lesson.)
+
+VOCABULARY:
+- la clase = class
+- el/la profesor(a) = teacher
+- el/la estudiante = student
+- el libro = book
+- la página = page
+- compartir = to share
+- el/la compañero/a = classmate
+- la lección = lesson
+- empezar = to begin
+
+QUESTIONS:
+Q1: What page should they open?
+A: 10 (Correct) / 5 / 15 / 20
+
+Q2: What is the student's problem?
+A: No book (Correct) / No pencil / No paper / Late
+
+Q3: What does the teacher suggest?
+A: Share with classmate (Correct) / Go home / Buy a book / Borrow from library
+
+--------------------------------------------------------------------------------
+STORY A1-09: At the Market
+ID: market-fruits
+Title EN: At the Market
+Title ES: En el mercado
+Category: shopping
+Difficulty: absolute-beginner
+Icon: 🍎
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Vendedor: Buenos días. ¿Qué desea?
+          (Good morning. What would you like?)
+Cliente: Quiero manzanas, por favor.
+         (I want apples, please.)
+Vendedor: ¿Cuántas manzanas?
+          (How many apples?)
+Cliente: Cuatro manzanas rojas.
+         (Four red apples.)
+Vendedor: Aquí tiene. ¿Algo más?
+          (Here you go. Anything else?)
+Cliente: Sí, un kilo de naranjas.
+         (Yes, one kilo of oranges.)
+Vendedor: Perfecto. Son tres euros.
+          (Perfect. That's three euros.)
+Cliente: Aquí tiene. Gracias.
+         (Here you go. Thank you.)
+
+VOCABULARY:
+- el mercado = market
+- desear = to desire/want
+- la manzana = apple
+- cuántas = how many
+- la naranja = orange
+- el kilo = kilogram
+- algo más = anything else
+- aquí tiene = here you go
+
+QUESTIONS:
+Q1: How many apples does the customer want?
+A: 4 (Correct) / 2 / 6 / 1 kilo
+
+Q2: What else does the customer buy?
+A: Oranges (Correct) / Bananas / Grapes / Pears
+
+Q3: How much is the total?
+A: 3 euros (Correct) / 5 euros / 2 euros / 4 euros
+
+--------------------------------------------------------------------------------
+STORY A1-10: My Room
+ID: my-room
+Title EN: My Room
+Title ES: Mi habitación
+Category: home
+Difficulty: absolute-beginner
+Icon: 🛏️
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Madre: ¿Cómo es tu habitación nueva?
+       (What is your new room like?)
+Hijo: Es grande y tiene una ventana.
+      (It's big and has a window.)
+Madre: ¿Qué hay en la habitación?
+       (What is in the room?)
+Hijo: Hay una cama, una mesa y una silla.
+      (There's a bed, a table, and a chair.)
+Madre: ¿Tienes un armario?
+       (Do you have a wardrobe?)
+Hijo: Sí, el armario es muy grande.
+      (Yes, the wardrobe is very big.)
+Madre: ¿Te gusta tu habitación?
+       (Do you like your room?)
+Hijo: ¡Sí, me encanta!
+      (Yes, I love it!)
+
+VOCABULARY:
+- la habitación = room
+- nuevo/a = new
+- grande = big
+- la ventana = window
+- la cama = bed
+- la mesa = table
+- la silla = chair
+- el armario = wardrobe
+
+QUESTIONS:
+Q1: Is the room big or small?
+A: Big (Correct) / Small / Medium / We don't know
+
+Q2: What furniture is NOT mentioned?
+A: Sofa (Correct) / Bed / Table / Chair
+
+Q3: Does the son like his room?
+A: Yes, he loves it (Correct) / No / A little / It's okay
+
+================================================================================
+PART 3: NEW STORY COLLECTION - BEGINNER (A2)
+================================================================================
+
+Each story follows this structure:
+- 8-12 dialogue lines
+- 10-12 vocabulary words
+- 4-5 comprehension questions
+- Focus: Simple past, future, more complex sentences
+
+--------------------------------------------------------------------------------
+STORY A2-01: Weekend Plans
+ID: weekend-plans
+Title EN: Weekend Plans
+Title ES: Planes para el fin de semana
+Category: social
+Difficulty: beginner
+Icon: 🎉
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Laura: ¿Qué vas a hacer este fin de semana?
+       (What are you going to do this weekend?)
+Miguel: El sábado voy a ir al cine con mis amigos.
+        (On Saturday I'm going to go to the cinema with my friends.)
+Laura: ¿Qué película vais a ver?
+       (What movie are you going to watch?)
+Miguel: Una película de acción nueva. ¿Quieres venir?
+        (A new action movie. Do you want to come?)
+Laura: Me encantaría, pero el sábado trabajo.
+       (I would love to, but I work on Saturday.)
+Miguel: ¡Qué lástima! ¿Y el domingo?
+        (What a pity! And on Sunday?)
+Laura: El domingo estoy libre. ¿Hacemos algo?
+       (On Sunday I'm free. Shall we do something?)
+Miguel: Podemos ir al parque si hace buen tiempo.
+        (We can go to the park if the weather is nice.)
+Laura: ¡Perfecto! ¿A qué hora quedamos?
+       (Perfect! What time shall we meet?)
+Miguel: A las once de la mañana en la entrada del parque.
+        (At eleven in the morning at the park entrance.)
+Laura: Genial. ¡Hasta el domingo!
+       (Great. See you on Sunday!)
+
+VOCABULARY:
+- el fin de semana = weekend
+- ir al cine = to go to the cinema
+- la película = movie
+- de acción = action (type)
+- venir = to come
+- me encantaría = I would love to
+- qué lástima = what a pity
+- libre = free
+- quedar = to meet up
+- la entrada = entrance
+- hacer buen tiempo = to be nice weather
+
+QUESTIONS:
+Q1: What is Miguel doing on Saturday?
+A: Going to cinema (Correct) / Going to park / Working / Staying home
+
+Q2: Why can't Laura go on Saturday?
+A: She works (Correct) / She's sick / She has plans / She doesn't want to
+
+Q3: What will they do on Sunday?
+A: Go to the park (Correct) / Go to cinema / Stay home / Work
+
+Q4: What time will they meet?
+A: 11 AM (Correct) / 10 AM / 12 PM / 2 PM
+
+Q5: Where will they meet?
+A: Park entrance (Correct) / Cinema / Laura's house / Bus stop
+
+--------------------------------------------------------------------------------
+STORY A2-02: At the Doctor
+ID: doctor-visit
+Title EN: At the Doctor
+Title ES: En el médico
+Category: health
+Difficulty: beginner
+Icon: 🏥
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Doctor: Buenos días. ¿Qué le pasa?
+        (Good morning. What's wrong?)
+Paciente: Buenos días. Me siento mal desde ayer.
+          (Good morning. I've been feeling bad since yesterday.)
+Doctor: ¿Cuáles son sus síntomas?
+        (What are your symptoms?)
+Paciente: Me duele la cabeza y tengo fiebre.
+          (My head hurts and I have a fever.)
+Doctor: ¿Le duele la garganta también?
+        (Does your throat hurt too?)
+Paciente: Sí, un poco. Y estoy muy cansado.
+          (Yes, a little. And I'm very tired.)
+Doctor: Voy a examinarlo. Abra la boca, por favor.
+        (I'm going to examine you. Open your mouth, please.)
+Paciente: [Opens mouth]
+Doctor: Tiene la garganta inflamada. Es un resfriado fuerte.
+        (Your throat is inflamed. It's a strong cold.)
+Paciente: ¿Necesito medicinas?
+          (Do I need medicine?)
+Doctor: Sí, le receto estas pastillas. Tome una cada ocho horas.
+        (Yes, I'm prescribing these pills. Take one every eight hours.)
+Paciente: ¿Cuántos días tengo que tomarlas?
+          (How many days do I have to take them?)
+Doctor: Durante cinco días. Y descanse mucho.
+        (For five days. And rest a lot.)
+
+VOCABULARY:
+- el/la médico/a = doctor
+- el/la paciente = patient
+- sentirse mal = to feel bad
+- el síntoma = symptom
+- doler = to hurt
+- la cabeza = head
+- la fiebre = fever
+- la garganta = throat
+- examinar = to examine
+- el resfriado = cold
+- la medicina = medicine
+- la pastilla = pill
+- recetar = to prescribe
+
+QUESTIONS:
+Q1: What are the patient's symptoms?
+A: Headache and fever (Correct) / Stomachache / Broken arm / Cough only
+
+Q2: What is the diagnosis?
+A: A cold (Correct) / Flu / Infection / Allergy
+
+Q3: How often should the patient take the pills?
+A: Every 8 hours (Correct) / Every 4 hours / Every 12 hours / Once a day
+
+Q4: For how many days?
+A: 5 days (Correct) / 3 days / 7 days / 10 days
+
+Q5: What else should the patient do?
+A: Rest a lot (Correct) / Exercise / Go to work / Nothing
+
+--------------------------------------------------------------------------------
+STORY A2-03: Looking for an Apartment
+ID: apartment-search
+Title EN: Looking for an Apartment
+Title ES: Buscando un apartamento
+Category: housing
+Difficulty: beginner
+Icon: 🏠
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Agente: Este apartamento tiene dos dormitorios y un baño.
+        (This apartment has two bedrooms and one bathroom.)
+Cliente: ¿Cuántos metros cuadrados tiene?
+         (How many square meters does it have?)
+Agente: Tiene sesenta metros cuadrados.
+        (It has sixty square meters.)
+Cliente: ¿Está amueblado?
+         (Is it furnished?)
+Agente: Sí, viene con todos los muebles básicos.
+        (Yes, it comes with all basic furniture.)
+Cliente: ¿Cuánto es el alquiler mensual?
+         (How much is the monthly rent?)
+Agente: Son setecientos euros al mes, más los gastos.
+        (It's seven hundred euros per month, plus utilities.)
+Cliente: ¿Qué gastos hay?
+         (What utilities are there?)
+Agente: Agua, electricidad y comunidad. Unos cien euros más.
+        (Water, electricity, and community fees. About a hundred euros more.)
+Cliente: ¿Tiene calefacción central?
+         (Does it have central heating?)
+Agente: Sí, y también aire acondicionado.
+        (Yes, and also air conditioning.)
+Cliente: Me gusta. ¿Cuándo puedo mudarme?
+         (I like it. When can I move in?)
+Agente: Está disponible desde el primero del próximo mes.
+        (It's available from the first of next month.)
+
+VOCABULARY:
+- el apartamento = apartment
+- el dormitorio = bedroom
+- el metro cuadrado = square meter
+- amueblado = furnished
+- los muebles = furniture
+- el alquiler = rent
+- mensual = monthly
+- los gastos = utilities/expenses
+- la calefacción = heating
+- el aire acondicionado = air conditioning
+- mudarse = to move (house)
+- disponible = available
+
+QUESTIONS:
+Q1: How many bedrooms does the apartment have?
+A: 2 (Correct) / 1 / 3 / 4
+
+Q2: How big is the apartment?
+A: 60 m² (Correct) / 80 m² / 50 m² / 70 m²
+
+Q3: How much is the rent per month?
+A: 700€ (Correct) / 600€ / 800€ / 500€
+
+Q4: How much extra are the utilities approximately?
+A: 100€ (Correct) / 50€ / 200€ / 150€
+
+Q5: When is the apartment available?
+A: First of next month (Correct) / Immediately / Next week / Next year
+
+--------------------------------------------------------------------------------
+STORY A2-04: Job Interview
+ID: job-interview
+Title EN: Job Interview
+Title ES: La entrevista de trabajo
+Category: work
+Difficulty: beginner
+Icon: 💼
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Entrevistador: Buenos días, siéntese por favor.
+               (Good morning, please have a seat.)
+Candidato: Gracias. Buenos días.
+           (Thank you. Good morning.)
+Entrevistador: ¿Por qué quiere trabajar en nuestra empresa?
+               (Why do you want to work at our company?)
+Candidato: Porque me gusta mucho el sector tecnológico.
+           (Because I really like the technology sector.)
+Entrevistador: ¿Tiene experiencia en este campo?
+               (Do you have experience in this field?)
+Candidato: Sí, trabajé dos años en una empresa similar.
+           (Yes, I worked two years at a similar company.)
+Entrevistador: ¿Cuáles son sus fortalezas?
+               (What are your strengths?)
+Candidato: Soy muy organizado y trabajo bien en equipo.
+           (I'm very organized and work well in a team.)
+Entrevistador: ¿Puede trabajar bajo presión?
+               (Can you work under pressure?)
+Candidato: Sí, estoy acostumbrado a trabajar con plazos.
+           (Yes, I'm used to working with deadlines.)
+Entrevistador: Muy bien. Le llamaremos la próxima semana.
+               (Very good. We'll call you next week.)
+Candidato: Muchas gracias por la oportunidad.
+           (Thank you very much for the opportunity.)
+
+VOCABULARY:
+- la entrevista = interview
+- el/la candidato/a = candidate
+- la empresa = company
+- el sector = sector
+- la experiencia = experience
+- el campo = field
+- las fortalezas = strengths
+- organizado/a = organized
+- el equipo = team
+- la presión = pressure
+- el plazo = deadline
+- la oportunidad = opportunity
+
+QUESTIONS:
+Q1: What sector does the candidate like?
+A: Technology (Correct) / Finance / Healthcare / Education
+
+Q2: How many years of experience does the candidate have?
+A: 2 years (Correct) / 1 year / 3 years / 5 years
+
+Q3: What strength does the candidate mention first?
+A: Organized (Correct) / Creative / Fast / Friendly
+
+Q4: What is the candidate used to working with?
+A: Deadlines (Correct) / Computers / Teams / Clients
+
+Q5: When will they call the candidate?
+A: Next week (Correct) / Tomorrow / Next month / In two weeks
+
+--------------------------------------------------------------------------------
+STORY A2-05: Ordering Food Delivery
+ID: food-delivery
+Title EN: Ordering Food Delivery
+Title ES: Pedido de comida a domicilio
+Category: food
+Difficulty: beginner
+Icon: 🍔
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Empleado: Pizzería Mario, ¿en qué puedo ayudarle?
+          (Pizzeria Mario, how can I help you?)
+Cliente: Hola, quiero hacer un pedido a domicilio.
+         (Hello, I want to place a delivery order.)
+Empleado: Por supuesto. ¿Qué le gustaría pedir?
+          (Of course. What would you like to order?)
+Cliente: Una pizza grande de jamón y queso.
+         (A large ham and cheese pizza.)
+Empleado: ¿Quiere algún entrante o bebida?
+          (Would you like any starter or drink?)
+Cliente: Sí, una ensalada mixta y una coca-cola.
+         (Yes, a mixed salad and a coca-cola.)
+Empleado: ¿Algo de postre?
+          (Anything for dessert?)
+Cliente: No, gracias. ¿Cuánto es el total?
+         (No, thank you. How much is the total?)
+Empleado: Son dieciocho euros con cincuenta. ¿Cuál es su dirección?
+          (That's eighteen euros and fifty cents. What's your address?)
+Cliente: Calle Mayor, número quince, segundo piso.
+         (Calle Mayor, number fifteen, second floor.)
+Empleado: Perfecto. Llegará en unos treinta minutos.
+          (Perfect. It will arrive in about thirty minutes.)
+Cliente: Genial, gracias.
+         (Great, thanks.)
+
+VOCABULARY:
+- el pedido = order
+- a domicilio = delivery (to home)
+- pedir = to order
+- el jamón = ham
+- el queso = cheese
+- el entrante = starter
+- la bebida = drink
+- la ensalada = salad
+- el postre = dessert
+- la dirección = address
+- la calle = street
+- el piso = floor/apartment
+- llegar = to arrive
+
+QUESTIONS:
+Q1: What size pizza does the customer order?
+A: Large (Correct) / Medium / Small / Extra large
+
+Q2: What toppings are on the pizza?
+A: Ham and cheese (Correct) / Pepperoni / Vegetables / Mushrooms
+
+Q3: Does the customer order dessert?
+A: No (Correct) / Yes / Maybe / Not mentioned
+
+Q4: How much is the total?
+A: 18.50€ (Correct) / 15.50€ / 20€ / 12€
+
+Q5: How long until delivery?
+A: 30 minutes (Correct) / 45 minutes / 20 minutes / 1 hour
+
+--------------------------------------------------------------------------------
+STORY A2-06: At the Train Station
+ID: train-station
+Title EN: At the Train Station
+Title ES: En la estación de tren
+Category: travel
+Difficulty: beginner
+Icon: 🚂
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Viajero: Buenos días. Quiero un billete a Barcelona.
+         (Good morning. I want a ticket to Barcelona.)
+Empleada: ¿Para cuándo?
+          (For when?)
+Viajero: Para hoy, el tren de las catorce treinta.
+         (For today, the 14:30 train.)
+Empleada: ¿Ida y vuelta o solo ida?
+          (Round trip or one way?)
+Viajero: Ida y vuelta, por favor. Vuelvo el domingo.
+         (Round trip, please. I return on Sunday.)
+Empleada: ¿En qué clase? Tenemos turista y preferente.
+          (Which class? We have tourist and business.)
+Viajero: Turista está bien. ¿Cuánto cuesta?
+         (Tourist is fine. How much does it cost?)
+Empleada: Son ochenta y cinco euros. El tren sale del andén tres.
+          (It's eighty-five euros. The train leaves from platform three.)
+Viajero: ¿Cuánto dura el viaje?
+         (How long is the journey?)
+Empleada: Aproximadamente dos horas y media.
+          (Approximately two and a half hours.)
+Viajero: Perfecto. Aquí tiene el pago.
+         (Perfect. Here's the payment.)
+Empleada: Gracias. ¡Buen viaje!
+          (Thank you. Have a good trip!)
+
+VOCABULARY:
+- la estación de tren = train station
+- el billete = ticket
+- ida y vuelta = round trip
+- solo ida = one way
+- volver = to return
+- la clase = class
+- turista = tourist class
+- preferente = business class
+- el andén = platform
+- durar = to last
+- el viaje = journey/trip
+- el pago = payment
+
+QUESTIONS:
+Q1: Where is the traveler going?
+A: Barcelona (Correct) / Madrid / Valencia / Seville
+
+Q2: What time is the train?
+A: 14:30 (Correct) / 15:00 / 14:00 / 13:30
+
+Q3: What type of ticket does the traveler buy?
+A: Round trip (Correct) / One way / Monthly pass / Weekly pass
+
+Q4: How much does the ticket cost?
+A: 85€ (Correct) / 75€ / 95€ / 100€
+
+Q5: How long is the journey?
+A: 2.5 hours (Correct) / 2 hours / 3 hours / 1.5 hours
+
+--------------------------------------------------------------------------------
+STORY A2-07: At the Pharmacy
+ID: pharmacy
+Title EN: At the Pharmacy
+Title ES: En la farmacia
+Category: health
+Difficulty: beginner
+Icon: 💊
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Farmacéutico: Buenas tardes. ¿En qué puedo ayudarle?
+              (Good afternoon. How can I help you?)
+Cliente: Tengo dolor de cabeza desde esta mañana.
+         (I've had a headache since this morning.)
+Farmacéutico: ¿Es un dolor fuerte o leve?
+              (Is it a strong or mild pain?)
+Cliente: Es bastante fuerte. También tengo náuseas.
+         (It's quite strong. I also have nausea.)
+Farmacéutico: Le recomiendo este analgésico. Es muy efectivo.
+              (I recommend this painkiller. It's very effective.)
+Cliente: ¿Cuántas pastillas tomo al día?
+         (How many pills do I take per day?)
+Farmacéutico: Dos pastillas cada seis horas, máximo ocho al día.
+              (Two pills every six hours, maximum eight per day.)
+Cliente: ¿Tiene efectos secundarios?
+         (Does it have side effects?)
+Farmacéutico: Puede causar somnolencia. No conduzca después de tomarlo.
+              (It can cause drowsiness. Don't drive after taking it.)
+Cliente: Entendido. ¿Cuánto cuesta?
+         (Understood. How much does it cost?)
+Farmacéutico: Son seis euros con cincuenta.
+              (It's six euros and fifty cents.)
+Cliente: Aquí tiene. Gracias por el consejo.
+         (Here you go. Thanks for the advice.)
+
+VOCABULARY:
+- la farmacia = pharmacy
+- el/la farmacéutico/a = pharmacist
+- el dolor = pain
+- fuerte = strong
+- leve = mild
+- las náuseas = nausea
+- el analgésico = painkiller
+- efectivo/a = effective
+- el efecto secundario = side effect
+- la somnolencia = drowsiness
+- conducir = to drive
+- el consejo = advice
+
+QUESTIONS:
+Q1: What is the customer's main symptom?
+A: Headache (Correct) / Stomachache / Fever / Cough
+
+Q2: How many pills per day maximum?
+A: 8 (Correct) / 6 / 4 / 10
+
+Q3: What side effect can the medicine cause?
+A: Drowsiness (Correct) / Headache / Nausea / Fever
+
+Q4: What should the customer NOT do after taking the medicine?
+A: Drive (Correct) / Eat / Sleep / Work
+
+Q5: How much does the medicine cost?
+A: 6.50€ (Correct) / 5€ / 8€ / 10€
+
+--------------------------------------------------------------------------------
+STORY A2-08: Birthday Party
+ID: birthday-party
+Title EN: Birthday Party
+Title ES: La fiesta de cumpleaños
+Category: social
+Difficulty: beginner
+Icon: 🎂
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Invitados: ¡Sorpresa! ¡Feliz cumpleaños, Carmen!
+           (Surprise! Happy birthday, Carmen!)
+Carmen: ¡Oh! ¡No me lo esperaba! ¡Gracias a todos!
+        (Oh! I wasn't expecting this! Thank you all!)
+Luis: Cumples veintiocho años, ¿verdad?
+      (You're turning twenty-eight, right?)
+Carmen: Sí, ya soy vieja.
+        (Yes, I'm already old.)
+María: ¡Qué va! Estás en tu mejor momento.
+       (Not at all! You're at your best.)
+Carmen: Este pastel se ve delicioso. ¿Quién lo hizo?
+        (This cake looks delicious. Who made it?)
+Pedro: Lo hizo mi madre. Es de chocolate con fresas.
+       (My mother made it. It's chocolate with strawberries.)
+Carmen: Me encanta el chocolate. ¡Gracias!
+        (I love chocolate. Thank you!)
+Luis: Ahora tienes que pedir un deseo y soplar las velas.
+      (Now you have to make a wish and blow out the candles.)
+Carmen: [Blows candles] ¡Listo!
+        (Done!)
+María: ¿Qué deseaste?
+       (What did you wish for?)
+Carmen: No puedo decirlo o no se cumplirá.
+        (I can't tell or it won't come true.)
+
+VOCABULARY:
+- la fiesta = party
+- el cumpleaños = birthday
+- la sorpresa = surprise
+- cumplir años = to have a birthday
+- viejo/a = old
+- el pastel = cake
+- delicioso/a = delicious
+- el chocolate = chocolate
+- la fresa = strawberry
+- el deseo = wish
+- soplar = to blow
+- la vela = candle
+- cumplirse = to come true
+
+QUESTIONS:
+Q1: How old is Carmen turning?
+A: 28 (Correct) / 25 / 30 / 27
+
+Q2: What flavor is the cake?
+A: Chocolate with strawberries (Correct) / Vanilla / Lemon / Coffee
+
+Q3: Who made the cake?
+A: Pedro's mother (Correct) / María / Luis / The bakery
+
+Q4: Why can't Carmen say her wish?
+A: It won't come true (Correct) / She forgot / It's a secret / She doesn't want to
+
+Q5: Was Carmen expecting the party?
+A: No (Correct) / Yes / Maybe / Partially
+
+--------------------------------------------------------------------------------
+STORY A2-09: Public Transport
+ID: public-transport
+Title EN: Using Public Transport
+Title ES: Usando el transporte público
+Category: travel
+Difficulty: beginner
+Icon: 🚌
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Turista: Perdone, ¿qué autobús va al centro?
+         (Excuse me, which bus goes to the center?)
+Señora: El número doce o el veintitrés.
+        (Number twelve or twenty-three.)
+Turista: ¿Cada cuánto pasa?
+         (How often does it come?)
+Señora: Cada diez minutos aproximadamente.
+        (Every ten minutes approximately.)
+Turista: ¿Dónde puedo comprar el billete?
+         (Where can I buy the ticket?)
+Señora: Puede comprarlo en el autobús o en aquella máquina.
+        (You can buy it on the bus or at that machine.)
+Turista: ¿Es más barato en la máquina?
+         (Is it cheaper at the machine?)
+Señora: Sí, y también puede comprar un bono de diez viajes.
+        (Yes, and you can also buy a ten-trip pass.)
+Turista: ¿Cuánto cuesta el bono?
+         (How much does the pass cost?)
+Señora: Ocho euros. Los viajes sueltos son un euro cada uno.
+        (Eight euros. Single trips are one euro each.)
+Turista: Entonces el bono es mejor. Gracias por la información.
+         (Then the pass is better. Thanks for the information.)
+Señora: De nada. ¡Mire, ahí viene el doce!
+        (You're welcome. Look, there comes the twelve!)
+
+VOCABULARY:
+- el transporte público = public transport
+- el autobús = bus
+- el centro = center/downtown
+- cada cuánto = how often
+- pasar = to pass/come
+- el billete = ticket
+- la máquina = machine
+- barato/a = cheap
+- el bono = pass
+- el viaje = trip
+- suelto/a = single/loose
+- la información = information
+
+QUESTIONS:
+Q1: Which buses go to the center?
+A: 12 or 23 (Correct) / 10 or 20 / 5 or 15 / 8 or 18
+
+Q2: How often do the buses come?
+A: Every 10 minutes (Correct) / Every 15 minutes / Every 5 minutes / Every 20 minutes
+
+Q3: How much is a single trip?
+A: 1 euro (Correct) / 2 euros / 0.50 euros / 1.50 euros
+
+Q4: How much is the ten-trip pass?
+A: 8 euros (Correct) / 10 euros / 5 euros / 12 euros
+
+Q5: Where can you buy tickets?
+A: Bus or machine (Correct) / Only on bus / Only at machine / At the station
+
+--------------------------------------------------------------------------------
+STORY A2-10: Learning Spanish
+ID: learning-spanish
+Title EN: Learning Spanish
+Title ES: Aprendiendo español
+Category: education
+Difficulty: beginner
+Icon: 🇪🇸
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Ana: ¿Cuánto tiempo llevas estudiando español?
+     (How long have you been studying Spanish?)
+Tom: Unos seis meses. Todavía me cuesta mucho.
+     (About six months. It's still very hard for me.)
+Ana: ¿Qué te parece más difícil?
+     (What do you find most difficult?)
+Tom: Los verbos irregulares y el subjuntivo.
+     (Irregular verbs and the subjunctive.)
+Ana: Es normal. Son difíciles para todos los estudiantes.
+     (That's normal. They're difficult for all students.)
+Tom: ¿Tienes algún consejo para mejorar?
+     (Do you have any advice for improving?)
+Ana: Practica todos los días, aunque sean solo quince minutos.
+     (Practice every day, even if it's only fifteen minutes.)
+Tom: ¿Y para la pronunciación?
+     (And for pronunciation?)
+Ana: Escucha podcasts y repite en voz alta.
+     (Listen to podcasts and repeat out loud.)
+Tom: También me gustaría hablar con más nativos.
+     (I would also like to speak with more native speakers.)
+Ana: Puedes buscar intercambios de idiomas en internet.
+     (You can look for language exchanges on the internet.)
+Tom: ¡Buena idea! Gracias por los consejos.
+     (Good idea! Thanks for the advice.)
+
+VOCABULARY:
+- estudiar = to study
+- llevar + time = to have been (doing)
+- costar = to be difficult/cost
+- difícil = difficult
+- el verbo = verb
+- irregular = irregular
+- mejorar = to improve
+- practicar = to practice
+- la pronunciación = pronunciation
+- el podcast = podcast
+- en voz alta = out loud
+- el intercambio = exchange
+
+QUESTIONS:
+Q1: How long has Tom been studying Spanish?
+A: 6 months (Correct) / 1 year / 3 months / 2 years
+
+Q2: What does Tom find most difficult?
+A: Irregular verbs and subjunctive (Correct) / Vocabulary / Reading / Listening
+
+Q3: How much should Tom practice daily according to Ana?
+A: At least 15 minutes (Correct) / 1 hour / 30 minutes / 2 hours
+
+Q4: What should Tom listen to for pronunciation?
+A: Podcasts (Correct) / Music / Radio / News
+
+Q5: What can Tom do to speak with more natives?
+A: Language exchanges online (Correct) / Travel to Spain / Take more classes / Watch TV
+
+================================================================================
+PART 4: NEW STORY COLLECTION - INTERMEDIATE (B1)
+================================================================================
+
+Each story follows this structure:
+- 10-14 dialogue lines
+- 12-15 vocabulary words
+- 5-6 comprehension questions
+- Focus: Complex tenses, subjunctive introduction, longer sentences
+
+--------------------------------------------------------------------------------
+STORY B1-01: Climate Change Discussion
+ID: climate-change
+Title EN: Climate Change Discussion
+Title ES: Discusión sobre el cambio climático
+Category: environment
+Difficulty: intermediate
+Icon: 🌍
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Profesor: Hoy vamos a hablar sobre el cambio climático.
+          (Today we're going to talk about climate change.)
+María: Es un tema muy importante. El planeta está en peligro.
+       (It's a very important topic. The planet is in danger.)
+Carlos: ¿Cuáles son las principales causas?
+        (What are the main causes?)
+Profesor: La quema de combustibles fósiles y la deforestación.
+          (The burning of fossil fuels and deforestation.)
+Ana: ¿Qué podemos hacer nosotros para ayudar?
+     (What can we do to help?)
+Profesor: Reducir el consumo de energía y reciclar son buenos pasos.
+          (Reducing energy consumption and recycling are good steps.)
+Carlos: Mi familia ha instalado paneles solares en casa.
+        (My family has installed solar panels at home.)
+Profesor: ¡Excelente! Las energías renovables son fundamentales.
+          (Excellent! Renewable energies are fundamental.)
+María: También deberíamos usar menos el coche.
+       (We should also use the car less.)
+Ana: Yo voy en bicicleta al instituto todos los días.
+     (I go to school by bicycle every day.)
+Profesor: Cada pequeña acción cuenta. Si todos contribuimos, podemos hacer una diferencia.
+          (Every small action counts. If we all contribute, we can make a difference.)
+Carlos: ¿Es posible revertir el daño que ya hemos causado?
+        (Is it possible to reverse the damage we've already caused?)
+Profesor: Algunos efectos son irreversibles, pero podemos evitar que empeore.
+          (Some effects are irreversible, but we can prevent it from getting worse.)
+
+VOCABULARY:
+- el cambio climático = climate change
+- el peligro = danger
+- la causa = cause
+- los combustibles fósiles = fossil fuels
+- la deforestación = deforestation
+- el consumo = consumption
+- reciclar = to recycle
+- los paneles solares = solar panels
+- las energías renovables = renewable energies
+- contribuir = to contribute
+- revertir = to reverse
+- el daño = damage
+- empeorar = to get worse
+- irreversible = irreversible
+
+QUESTIONS:
+Q1: What are the main causes of climate change mentioned?
+A: Fossil fuels and deforestation (Correct) / Industry only / Cars only / Plastic
+
+Q2: What has Carlos's family installed?
+A: Solar panels (Correct) / Wind turbine / New windows / Air conditioning
+
+Q3: How does Ana get to school?
+A: By bicycle (Correct) / By car / By bus / Walking
+
+Q4: According to the teacher, can we reverse all damage?
+A: No, some effects are irreversible (Correct) / Yes, completely / Maybe / Not discussed
+
+Q5: What does the teacher say about small actions?
+A: Every action counts (Correct) / They don't matter / Only big actions help / It depends
+
+--------------------------------------------------------------------------------
+STORY B1-02: Work-Life Balance
+ID: work-life-balance
+Title EN: Work-Life Balance
+Title ES: El equilibrio entre trabajo y vida personal
+Category: work
+Difficulty: intermediate
+Icon: ⚖️
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Laura: Últimamente estoy muy estresada con el trabajo.
+       (Lately I've been very stressed with work.)
+Carlos: ¿Qué está pasando? ¿Tienes mucha carga de trabajo?
+        (What's happening? Do you have a heavy workload?)
+Laura: Sí, trabajo más de cincuenta horas a la semana.
+       (Yes, I work more than fifty hours a week.)
+Carlos: Eso no es sostenible. Tienes que poner límites.
+        (That's not sustainable. You have to set limits.)
+Laura: Lo sé, pero tengo miedo de que me vean como poco comprometida.
+       (I know, but I'm afraid they'll see me as not committed.)
+Carlos: Tu salud mental es más importante que cualquier trabajo.
+        (Your mental health is more important than any job.)
+Laura: Tienes razón. No he tomado vacaciones en dos años.
+       (You're right. I haven't taken a vacation in two years.)
+Carlos: ¿Dos años? Necesitas desconectar urgentemente.
+        (Two years? You need to disconnect urgently.)
+Laura: Es que siempre hay algo urgente que hacer.
+       (It's just that there's always something urgent to do.)
+Carlos: Las emergencias siempre existirán. Aprende a delegar.
+        (Emergencies will always exist. Learn to delegate.)
+Laura: Creo que hablaré con mi jefe sobre reducir mi horario.
+       (I think I'll talk to my boss about reducing my schedule.)
+Carlos: Es un buen primer paso. Tu bienestar es lo primero.
+        (That's a good first step. Your wellbeing comes first.)
+Laura: Gracias por escucharme. A veces necesito que me lo recuerden.
+       (Thanks for listening. Sometimes I need to be reminded.)
+
+VOCABULARY:
+- el equilibrio = balance
+- estresado/a = stressed
+- la carga de trabajo = workload
+- sostenible = sustainable
+- el límite = limit
+- comprometido/a = committed
+- la salud mental = mental health
+- desconectar = to disconnect
+- urgente = urgent
+- delegar = to delegate
+- el horario = schedule
+- el bienestar = wellbeing
+- recordar = to remind/remember
+
+QUESTIONS:
+Q1: How many hours does Laura work per week?
+A: More than 50 (Correct) / 40 / 60 / 35
+
+Q2: How long has Laura been without vacation?
+A: 2 years (Correct) / 1 year / 6 months / 3 years
+
+Q3: What is Laura afraid of?
+A: Being seen as uncommitted (Correct) / Getting fired / Making mistakes / Colleagues
+
+Q4: What does Carlos say is more important than work?
+A: Mental health (Correct) / Money / Career / Family
+
+Q5: What does Laura plan to do?
+A: Talk to her boss about reducing hours (Correct) / Quit her job / Take a vacation immediately / Find a new job
+
+Q6: What advice does Carlos give about emergencies?
+A: Learn to delegate (Correct) / Ignore them / Work faster / Hire more staff
+
+--------------------------------------------------------------------------------
+STORY B1-03: Technology in Daily Life
+ID: technology-life
+Title EN: Technology in Daily Life
+Title ES: La tecnología en la vida diaria
+Category: technology
+Difficulty: intermediate
+Icon: 📱
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Abuelo: No entiendo cómo funcionan estos teléfonos nuevos.
+        (I don't understand how these new phones work.)
+Nieta: No te preocupes, abuelo. Te enseño.
+       (Don't worry, grandpa. I'll teach you.)
+Abuelo: En mis tiempos, los teléfonos solo servían para llamar.
+        (In my time, phones were only for calling.)
+Nieta: Ahora puedes hacer videollamadas con la familia.
+       (Now you can make video calls with the family.)
+Abuelo: ¿Y cómo hago eso?
+        (And how do I do that?)
+Nieta: Mira, solo tienes que tocar aquí y seleccionar el contacto.
+       (Look, you just have to tap here and select the contact.)
+Abuelo: ¡Increíble! Puedo ver a tu tía que vive en Argentina.
+        (Incredible! I can see your aunt who lives in Argentina.)
+Nieta: También puedes enviar fotos y mensajes de voz.
+       (You can also send photos and voice messages.)
+Abuelo: ¿Y si me equivoco y rompo algo?
+        (What if I make a mistake and break something?)
+Nieta: No te preocupes, no puedes romper nada tocando la pantalla.
+       (Don't worry, you can't break anything by touching the screen.)
+Abuelo: La tecnología ha cambiado mucho desde que era joven.
+        (Technology has changed a lot since I was young.)
+Nieta: Es verdad, pero también nos ha conectado más.
+       (It's true, but it has also connected us more.)
+Abuelo: Tienes razón. Gracias por tener paciencia conmigo.
+        (You're right. Thanks for being patient with me.)
+
+VOCABULARY:
+- la tecnología = technology
+- el teléfono = phone
+- funcionar = to work/function
+- en mis tiempos = in my time
+- la videollamada = video call
+- tocar = to touch/tap
+- seleccionar = to select
+- el contacto = contact
+- enviar = to send
+- el mensaje de voz = voice message
+- equivocarse = to make a mistake
+- la pantalla = screen
+- cambiar = to change
+- la paciencia = patience
+
+QUESTIONS:
+Q1: What is the grandfather having trouble with?
+A: Using the new phone (Correct) / The TV / The computer / The radio
+
+Q2: Where does the aunt live?
+A: Argentina (Correct) / Spain / Mexico / Chile
+
+Q3: What was the grandfather afraid of?
+A: Breaking something (Correct) / Calling the wrong person / Spending money / Losing photos
+
+Q4: What can the grandfather do now besides calling?
+A: Video calls, photos, voice messages (Correct) / Only text / Only email / Nothing else
+
+Q5: According to the granddaughter, what has technology done?
+A: Connected us more (Correct) / Made us lonelier / Wasted our time / Changed nothing
+
+--------------------------------------------------------------------------------
+STORY B1-04: Healthy Eating Habits
+ID: healthy-eating
+Title EN: Healthy Eating Habits
+Title ES: Hábitos alimenticios saludables
+Category: health
+Difficulty: intermediate
+Icon: 🥗
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Nutricionista: ¿Qué suele desayunar normalmente?
+               (What do you usually have for breakfast?)
+Paciente: A veces no desayuno. Solo tomo un café con prisa.
+          (Sometimes I don't have breakfast. I just have a quick coffee.)
+Nutricionista: El desayuno es la comida más importante del día.
+               (Breakfast is the most important meal of the day.)
+Paciente: Lo sé, pero siempre tengo prisa por las mañanas.
+          (I know, but I'm always in a hurry in the mornings.)
+Nutricionista: Podría preparar algo rápido la noche anterior.
+               (You could prepare something quick the night before.)
+Paciente: ¿Como qué, por ejemplo?
+          (Like what, for example?)
+Nutricionista: Avena con frutas o un yogur con granola.
+               (Oatmeal with fruits or yogurt with granola.)
+Paciente: Eso suena fácil. ¿Qué más debería cambiar?
+          (That sounds easy. What else should I change?)
+Nutricionista: Debería reducir el consumo de comida procesada.
+               (You should reduce your consumption of processed food.)
+Paciente: ¿Y qué hay de las grasas?
+          (What about fats?)
+Nutricionista: Las grasas saludables son necesarias. El aguacate y el aceite de oliva son buenas opciones.
+               (Healthy fats are necessary. Avocado and olive oil are good options.)
+Paciente: ¿Cuánta agua debo beber al día?
+          (How much water should I drink per day?)
+Nutricionista: Al menos dos litros. Mantenerse hidratado es esencial.
+               (At least two liters. Staying hydrated is essential.)
+Paciente: Voy a intentar seguir estas recomendaciones.
+          (I'm going to try to follow these recommendations.)
+
+VOCABULARY:
+- los hábitos = habits
+- alimenticio/a = dietary
+- saludable = healthy
+- el/la nutricionista = nutritionist
+- desayunar = to have breakfast
+- la prisa = hurry
+- preparar = to prepare
+- la avena = oatmeal
+- la granola = granola
+- procesado/a = processed
+- las grasas = fats
+- el aguacate = avocado
+- el aceite de oliva = olive oil
+- hidratado/a = hydrated
+- las recomendaciones = recommendations
+
+QUESTIONS:
+Q1: What does the patient usually have for breakfast?
+A: Just coffee (Correct) / Toast / Nothing / Eggs
+
+Q2: What quick breakfast options does the nutritionist suggest?
+A: Oatmeal with fruits or yogurt with granola (Correct) / Toast and juice / Cereal / Eggs
+
+Q3: What should the patient reduce?
+A: Processed food (Correct) / All fats / Fruits / Water
+
+Q4: Which healthy fats are mentioned?
+A: Avocado and olive oil (Correct) / Butter / Coconut oil / Cheese
+
+Q5: How much water should the patient drink daily?
+A: At least 2 liters (Correct) / 1 liter / 3 liters / Half a liter
+
+Q6: What will the patient try to do?
+A: Follow the recommendations (Correct) / Ignore the advice / Find a new nutritionist / Keep the same habits
+
+--------------------------------------------------------------------------------
+STORY B1-05: Cultural Differences
+ID: cultural-differences
+Title EN: Cultural Differences
+Title ES: Diferencias culturales
+Category: culture
+Difficulty: intermediate
+Icon: 🌏
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Emma: Me resulta curioso que en España la gente cene tan tarde.
+      (I find it curious that in Spain people eat dinner so late.)
+Pablo: Es verdad, normalmente cenamos entre las nueve y las diez.
+       (It's true, we normally eat dinner between nine and ten.)
+Emma: En mi país, a esas horas ya estamos durmiendo.
+      (In my country, at those hours we're already sleeping.)
+Pablo: ¿Y a qué hora cenáis vosotros?
+       (And what time do you have dinner?)
+Emma: Alrededor de las seis de la tarde.
+      (Around six in the afternoon.)
+Pablo: ¡Eso es la hora de la merienda aquí!
+       (That's snack time here!)
+Emma: También me sorprende que las tiendas cierren al mediodía.
+      (I'm also surprised that shops close at midday.)
+Pablo: Es la siesta, una tradición muy española.
+       (It's the siesta, a very Spanish tradition.)
+Emma: ¿La gente todavía duerme la siesta?
+      (Do people still take a siesta?)
+Pablo: Menos que antes, pero en los pueblos sí se mantiene.
+       (Less than before, but in villages it's still maintained.)
+Emma: Me parece que cada cultura tiene su propio ritmo de vida.
+      (It seems to me that each culture has its own rhythm of life.)
+Pablo: Exacto. Ni mejor ni peor, simplemente diferente.
+       (Exactly. Neither better nor worse, just different.)
+Emma: Creo que adaptarse a una nueva cultura es la parte más difícil de vivir en el extranjero.
+      (I think adapting to a new culture is the hardest part of living abroad.)
+
+VOCABULARY:
+- las diferencias = differences
+- cultural = cultural
+- curioso/a = curious/interesting
+- cenar = to have dinner
+- dormir = to sleep
+- la merienda = afternoon snack
+- la siesta = siesta/nap
+- la tradición = tradition
+- mantener = to maintain
+- el ritmo = rhythm
+- adaptarse = to adapt
+- el extranjero = abroad
+- ni...ni = neither...nor
+- simplemente = simply
+
+QUESTIONS:
+Q1: What time do Spaniards typically have dinner?
+A: Between 9 and 10 PM (Correct) / 6 PM / 7 PM / 8 PM
+
+Q2: What time does Emma's country have dinner?
+A: Around 6 PM (Correct) / 9 PM / 8 PM / 10 PM
+
+Q3: What is "la merienda"?
+A: Afternoon snack (Correct) / Breakfast / Lunch / Dinner
+
+Q4: Where is the siesta tradition still maintained?
+A: In villages (Correct) / In cities / Everywhere / Nowhere
+
+Q5: According to Pablo, how should we view cultural differences?
+A: Neither better nor worse, just different (Correct) / Some are better / All the same / Unimportant
+
+Q6: What does Emma find hardest about living abroad?
+A: Adapting to a new culture (Correct) / Learning the language / Making friends / Finding work
+
+--------------------------------------------------------------------------------
+STORY B1-06: Online Shopping Experience
+ID: online-shopping
+Title EN: Online Shopping Experience
+Title ES: Experiencia de compra en línea
+Category: shopping
+Difficulty: intermediate
+Icon: 🛒
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Cliente: Hola, llamo porque tengo un problema con mi pedido.
+         (Hello, I'm calling because I have a problem with my order.)
+Agente: Por supuesto. ¿Puede darme el número de pedido?
+        (Of course. Can you give me the order number?)
+Cliente: Es el número 45892. Lo hice hace una semana.
+         (It's number 45892. I placed it a week ago.)
+Agente: Déjeme verificar... Veo que el paquete fue enviado hace cinco días.
+        (Let me check... I see the package was sent five days ago.)
+Cliente: Pero el seguimiento dice que está en una ciudad equivocada.
+         (But the tracking says it's in the wrong city.)
+Agente: Tiene razón, parece que hubo un error en la distribución.
+        (You're right, it seems there was an error in distribution.)
+Cliente: ¿Cuánto tiempo tardará en llegarme ahora?
+         (How long will it take to arrive now?)
+Agente: Calculo que unos tres o cuatro días más.
+        (I estimate about three or four more days.)
+Cliente: Eso es inaceptable. Lo necesitaba para un regalo.
+         (That's unacceptable. I needed it for a gift.)
+Agente: Entiendo su frustración. Le ofrezco un descuento del veinte por ciento.
+        (I understand your frustration. I'm offering you a twenty percent discount.)
+Cliente: También quiero el reembolso de los gastos de envío.
+         (I also want a refund of the shipping costs.)
+Agente: Hecho. Le enviaré un correo con la confirmación.
+        (Done. I'll send you an email with the confirmation.)
+Cliente: Gracias. Espero que llegue pronto.
+         (Thank you. I hope it arrives soon.)
+
+VOCABULARY:
+- la compra en línea = online shopping
+- el pedido = order
+- el número de pedido = order number
+- verificar = to verify
+- el paquete = package
+- el seguimiento = tracking
+- la distribución = distribution
+- tardar = to take (time)
+- inaceptable = unacceptable
+- el regalo = gift
+- la frustración = frustration
+- el descuento = discount
+- el reembolso = refund
+- los gastos de envío = shipping costs
+- la confirmación = confirmation
+
+QUESTIONS:
+Q1: How long ago was the order placed?
+A: A week ago (Correct) / Two weeks ago / Yesterday / Five days ago
+
+Q2: What is the problem with the package?
+A: It's in the wrong city (Correct) / It's lost / It's damaged / It was returned
+
+Q3: How many more days until delivery is estimated?
+A: 3-4 days (Correct) / 1-2 days / 5-6 days / A week
+
+Q4: Why is the customer upset about the delay?
+A: It was for a gift (Correct) / They're traveling / They need it for work / No specific reason
+
+Q5: What discount does the agent offer?
+A: 20% (Correct) / 10% / 15% / 25%
+
+Q6: What else does the customer request?
+A: Refund of shipping costs (Correct) / A new product / Store credit / Free next order
+
+--------------------------------------------------------------------------------
+STORY B1-07: Environmental Volunteering
+ID: environmental-volunteering
+Title EN: Environmental Volunteering
+Title ES: Voluntariado ambiental
+Category: environment
+Difficulty: intermediate
+Icon: 🌱
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Coordinador: Bienvenidos a la jornada de limpieza de la playa.
+             (Welcome to the beach cleanup day.)
+Voluntaria: Es la primera vez que participo en algo así.
+            (It's my first time participating in something like this.)
+Coordinador: Nos alegra tenerte. Cada voluntario hace una diferencia.
+             (We're glad to have you. Every volunteer makes a difference.)
+Voluntaria: ¿Qué tipo de residuos encontraremos?
+            (What type of waste will we find?)
+Coordinador: Principalmente plásticos: botellas, bolsas, colillas de cigarrillos.
+             (Mainly plastics: bottles, bags, cigarette butts.)
+Voluntaria: Es triste ver cómo la gente contamina el medio ambiente.
+            (It's sad to see how people pollute the environment.)
+Coordinador: Por eso la educación ambiental es tan importante.
+             (That's why environmental education is so important.)
+Voluntaria: ¿Organizáis estas actividades con frecuencia?
+            (Do you organize these activities often?)
+Coordinador: Una vez al mes, y también hacemos talleres en escuelas.
+             (Once a month, and we also do workshops in schools.)
+Voluntaria: Me encantaría involucrarme más en el futuro.
+            (I would love to get more involved in the future.)
+Coordinador: Siempre necesitamos más manos. Te enviaremos información.
+             (We always need more hands. We'll send you information.)
+Voluntaria: Perfecto. Creo que todos deberíamos hacer algo por nuestro planeta.
+            (Perfect. I think we should all do something for our planet.)
+Coordinador: Totalmente de acuerdo. Ahora, ¡manos a la obra!
+             (Totally agree. Now, let's get to work!)
+
+VOCABULARY:
+- el voluntariado = volunteering
+- la jornada = day/work session
+- la limpieza = cleanup
+- participar = to participate
+- los residuos = waste/rubbish
+- el plástico = plastic
+- la bolsa = bag
+- la colilla = cigarette butt
+- contaminar = to pollute
+- el medio ambiente = environment
+- la educación ambiental = environmental education
+- el taller = workshop
+- involucrarse = to get involved
+- manos a la obra = let's get to work
+
+QUESTIONS:
+Q1: What event are they participating in?
+A: Beach cleanup (Correct) / Tree planting / Recycling workshop / Protest
+
+Q2: What is the main type of waste they'll find?
+A: Plastics (Correct) / Paper / Metal / Glass
+
+Q3: How often do they organize these activities?
+A: Once a month (Correct) / Every week / Once a year / Twice a year
+
+Q4: What else does the organization do besides cleanups?
+A: Workshops in schools (Correct) / Nothing else / Protests / Research
+
+Q5: How does the volunteer feel about participating?
+A: She wants to get more involved (Correct) / She's not interested / She'll think about it / She's undecided
+
+--------------------------------------------------------------------------------
+STORY B1-08: Discussing a Book
+ID: discussing-book
+Title EN: Discussing a Book
+Title ES: Discutiendo un libro
+Category: culture
+Difficulty: intermediate
+Icon: 📖
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Paula: ¿Has terminado de leer el libro que te presté?
+       (Have you finished reading the book I lent you?)
+Marcos: Sí, lo acabé anoche. ¡Me encantó!
+        (Yes, I finished it last night. I loved it!)
+Paula: ¿Qué fue lo que más te gustó?
+       (What did you like most?)
+Marcos: El desarrollo de los personajes es increíble.
+        (The character development is incredible.)
+Paula: Es verdad, cada personaje tiene su propia historia.
+       (It's true, each character has their own story.)
+Marcos: El final me dejó con ganas de más.
+        (The ending left me wanting more.)
+Paula: Hay una secuela que salió el año pasado.
+       (There's a sequel that came out last year.)
+Marcos: ¡No lo sabía! Tendré que buscarla.
+        (I didn't know! I'll have to look for it.)
+Paula: ¿Qué opinas del estilo de escritura del autor?
+       (What do you think about the author's writing style?)
+Marcos: Es muy descriptivo, casi puedes visualizar cada escena.
+        (It's very descriptive, you can almost visualize each scene.)
+Paula: A mí me parece que a veces se extiende demasiado en los detalles.
+       (I think sometimes he goes on too long about details.)
+Marcos: Bueno, cada lector tiene sus preferencias.
+        (Well, each reader has their preferences.)
+Paula: Eso es lo bonito de la literatura, hay algo para todos.
+       (That's the beautiful thing about literature, there's something for everyone.)
+
+VOCABULARY:
+- el libro = book
+- prestar = to lend
+- acabar = to finish
+- el desarrollo = development
+- el personaje = character
+- la historia = story
+- el final = ending
+- la secuela = sequel
+- el estilo = style
+- la escritura = writing
+- el autor = author
+- descriptivo/a = descriptive
+- la escena = scene
+- el detalle = detail
+- la literatura = literature
+
+QUESTIONS:
+Q1: When did Marcos finish the book?
+A: Last night (Correct) / A week ago / Yesterday afternoon / This morning
+
+Q2: What did Marcos like most about the book?
+A: Character development (Correct) / The plot / The ending / The writing style
+
+Q3: Is there a sequel?
+A: Yes, from last year (Correct) / No / Not mentioned / Coming soon
+
+Q4: What does Marcos think of the writing style?
+A: Very descriptive (Correct) / Too simple / Boring / Fast-paced
+
+Q5: What criticism does Paula have?
+A: Too many details sometimes (Correct) / Bad characters / Predictable ending / Poor dialogue
+
+--------------------------------------------------------------------------------
+STORY B1-09: Planning a Trip
+ID: trip-planning
+Title EN: Planning a Trip
+Title ES: Planificando un viaje
+Category: travel
+Difficulty: intermediate
+Icon: ✈️
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Elena: Estoy pensando en ir a Perú el próximo verano.
+       (I'm thinking of going to Peru next summer.)
+Diego: ¡Qué buena idea! Es un país fascinante.
+       (What a great idea! It's a fascinating country.)
+Elena: ¿Has estado alguna vez?
+       (Have you ever been?)
+Diego: Sí, fui hace tres años. Visité Lima y Cusco.
+       (Yes, I went three years ago. I visited Lima and Cusco.)
+Elena: ¿Me recomiendas visitar Machu Picchu?
+       (Do you recommend visiting Machu Picchu?)
+Diego: Es imprescindible. Es una de las maravillas del mundo.
+       (It's essential. It's one of the wonders of the world.)
+Elena: ¿Cuántos días necesito para un viaje completo?
+       (How many days do I need for a complete trip?)
+Diego: Yo recomendaría al menos dos semanas.
+       (I would recommend at least two weeks.)
+Elena: ¿Y el presupuesto? ¿Es caro viajar allí?
+       (And the budget? Is it expensive to travel there?)
+Diego: Es bastante económico, excepto los vuelos.
+       (It's quite affordable, except for the flights.)
+Elena: ¿Hay algo que debería saber antes de ir?
+       (Is there anything I should know before going?)
+Diego: Lleva ropa para varios climas y aclimatate a la altura en Cusco.
+       (Bring clothes for various climates and acclimatize to the altitude in Cusco.)
+Elena: Gracias por los consejos. Me has convencido.
+       (Thanks for the tips. You've convinced me.)
+Diego: ¡No te arrepentirás! Es un viaje que cambia la vida.
+       (You won't regret it! It's a life-changing trip.)
+
+VOCABULARY:
+- planificar = to plan
+- el viaje = trip
+- fascinante = fascinating
+- visitar = to visit
+- imprescindible = essential/must-see
+- las maravillas = wonders
+- completo/a = complete
+- el presupuesto = budget
+- económico/a = affordable
+- el vuelo = flight
+- el clima = climate
+- aclimatarse = to acclimatize
+- la altura = altitude
+- el consejo = advice/tip
+- arrepentirse = to regret
+- convencer = to convince
+
+QUESTIONS:
+Q1: When is Elena planning to travel?
+A: Next summer (Correct) / Next winter / This fall / In spring
+
+Q2: When did Diego visit Peru?
+A: Three years ago (Correct) / Last year / Five years ago / Two years ago
+
+Q3: How long does Diego recommend for the trip?
+A: At least two weeks (Correct) / One week / A month / Ten days
+
+Q4: What is expensive about traveling to Peru?
+A: The flights (Correct) / Hotels / Food / Everything
+
+Q5: What should Elena bring for Cusco?
+A: Clothes for various climates (Correct) / Only warm clothes / Only light clothes / Beach wear
+
+Q6: What does she need to do in Cusco?
+A: Acclimatize to the altitude (Correct) / Book in advance / Learn Spanish / Nothing special
+
+--------------------------------------------------------------------------------
+STORY B1-10: Remote Work Discussion
+ID: remote-work
+Title EN: Remote Work Discussion
+Title ES: Discusión sobre el trabajo remoto
+Category: work
+Difficulty: intermediate
+Icon: 💻
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Ana: ¿Cómo te ha ido con el teletrabajo este año?
+     (How has working from home been for you this year?)
+Pedro: Al principio fue difícil adaptarme, pero ahora me encanta.
+       (At first it was hard to adapt, but now I love it.)
+Ana: ¿Cuáles son las mayores ventajas para ti?
+     (What are the biggest advantages for you?)
+Pedro: Ahorro tiempo y dinero al no tener que desplazarme.
+       (I save time and money by not having to commute.)
+Ana: ¿Y las desventajas?
+     (And the disadvantages?)
+Pedro: Echo de menos la interacción con los compañeros.
+       (I miss the interaction with colleagues.)
+Ana: ¿Cómo mantienes el equilibrio entre trabajo y vida personal?
+     (How do you maintain work-life balance?)
+Pedro: Tengo un horario estricto y una oficina separada en casa.
+       (I have a strict schedule and a separate office at home.)
+Ana: Yo tengo problemas para desconectar después del trabajo.
+     (I have trouble disconnecting after work.)
+Pedro: Eso es muy común. Intenta apagar el ordenador a una hora fija.
+       (That's very common. Try turning off the computer at a fixed time.)
+Ana: ¿Crees que las empresas seguirán ofreciendo esta opción?
+     (Do you think companies will continue offering this option?)
+Pedro: Creo que el modelo híbrido será lo más común en el futuro.
+       (I think the hybrid model will be most common in the future.)
+Ana: Estoy de acuerdo. Ofrece lo mejor de ambos mundos.
+     (I agree. It offers the best of both worlds.)
+
+VOCABULARY:
+- el teletrabajo = remote work
+- adaptarse = to adapt
+- la ventaja = advantage
+- ahorrar = to save
+- desplazarse = to commute
+- la desventaja = disadvantage
+- echar de menos = to miss
+- la interacción = interaction
+- estricto/a = strict
+- desconectar = to disconnect
+- apagar = to turn off
+- el ordenador = computer
+- fijo/a = fixed
+- el modelo híbrido = hybrid model
+- el futuro = future
+
+QUESTIONS:
+Q1: How does Pedro feel about remote work now?
+A: He loves it (Correct) / He hates it / He's indifferent / He wants to go back
+
+Q2: What does Pedro save by working remotely?
+A: Time and money (Correct) / Energy / Space / Nothing
+
+Q3: What does Pedro miss about office work?
+A: Interaction with colleagues (Correct) / The commute / The office / Meetings
+
+Q4: What problem does Ana have?
+A: Trouble disconnecting after work (Correct) / Loneliness / Technical issues / No workspace
+
+Q5: What advice does Pedro give Ana?
+A: Turn off computer at a fixed time (Correct) / Work less / Change jobs / Take breaks
+
+Q6: What model does Pedro think will be common in the future?
+A: Hybrid model (Correct) / Fully remote / Fully in office / Part-time
+
+================================================================================
+PART 5: ADDITIONAL STORY IDEAS (20 MORE CONCEPTS)
+================================================================================
+
+These can be developed into full stories following the above formats:
+
+### ABSOLUTE BEGINNER (A1) - 5 More Stories
+1. "At the Zoo" - Naming animals, simple descriptions
+2. "My Pets" - Pet vocabulary, basic descriptions
+3. "Counting to 20" - Numbers in context, shopping
+4. "The Body Parts" - Body vocabulary through doctor visit
+5. "Weather Today" - Simple weather expressions
+
+### BEGINNER (A2) - 8 More Stories
+1. "At the Gym" - Joining a gym, exercise vocabulary
+2. "The Hairdresser" - Getting a haircut, descriptions
+3. "Car Problems" - At the mechanic, vehicle vocabulary
+4. "Moving to a New City" - Change, new beginnings
+5. "The Lost Wallet" - At police station, describing items
+6. "Cooking Together" - Following a recipe, kitchen vocabulary
+7. "Sports Match" - Watching football, team vocabulary
+8. "At the Library" - Borrowing books, study vocabulary
+
+### INTERMEDIATE (B1) - 7 More Stories
+1. "University Application" - Education system discussion
+2. "Starting a Business" - Entrepreneurship vocabulary
+3. "Mental Health Awareness" - Discussing feelings, therapy
+4. "Social Media Impact" - Technology and relationships
+5. "Housing Market Crisis" - Economics, news discussion
+6. "Learning to Drive" - Driving test, rules discussion
+7. "Wedding Planning" - Cultural celebrations, traditions
+
+================================================================================
+PART 6: VOCABULARY THEMES BY CEFR LEVEL
+================================================================================
+
+## A1 LEVEL (500-700 words) - Core Vocabulary Themes
+
+1. **Greetings & Introductions**: hola, adiós, buenos días, me llamo, mucho gusto
+2. **Numbers 1-100**: uno, dos, tres... cien
+3. **Colors**: rojo, azul, verde, amarillo, negro, blanco
+4. **Family Members**: padre, madre, hermano, hermana, abuelo, abuela
+5. **Basic Foods**: pan, agua, leche, manzana, arroz, pollo
+6. **Days & Months**: lunes, martes... enero, febrero...
+7. **Common Adjectives**: grande, pequeño, bueno, malo, bonito
+8. **Basic Verbs**: ser, estar, tener, ir, comer, beber, vivir
+9. **Places**: casa, escuela, tienda, restaurante, hospital
+10. **Time Expressions**: hoy, mañana, ayer, ahora
+
+## A2 LEVEL (1000-1500 words) - Expanded Vocabulary Themes
+
+1. **Travel & Transport**: tren, avión, billete, maleta, reserva
+2. **Health & Body**: cabeza, brazo, dolor, médico, medicina
+3. **Shopping**: precio, barato, caro, talla, probador
+4. **Work & Professions**: trabajo, oficina, jefe, empleado, sueldo
+5. **Home & Furniture**: cocina, dormitorio, sofá, mesa, ventana
+6. **Hobbies & Leisure**: película, música, deporte, leer, nadar
+7. **Weather**: sol, lluvia, frío, calor, nublado
+8. **Emotions**: feliz, triste, enfadado, preocupado, contento
+9. **Past Tense Verbs**: fui, comí, hablé, visité, compré
+10. **Future Expressions**: voy a, quiero, espero, planeo
+
+## B1 LEVEL (2000-2500 words) - Intermediate Vocabulary Themes
+
+1. **Environment**: contaminación, reciclaje, clima, energía
+2. **Technology**: ordenador, internet, aplicación, pantalla
+3. **Business**: empresa, reunión, proyecto, cliente, objetivo
+4. **Politics & Society**: gobierno, elecciones, derechos, igualdad
+5. **Culture & Arts**: museo, exposición, obra, artista, cultura
+6. **Education**: universidad, carrera, examen, título, investigar
+7. **Abstract Concepts**: libertad, justicia, progreso, desarrollo
+8. **Complex Emotions**: frustración, ansiedad, esperanza, gratitud
+9. **Subjunctive Expressions**: espero que, quiero que, es importante que
+10. **Idiomatic Expressions**: echar de menos, dar igual, tener ganas
+
+================================================================================
+PART 7: CULTURAL NOTES FOR STORIES
+================================================================================
+
+Stories should include cultural context. Here are notes to integrate:
+
+## Spanish Culture Points
+
+1. **Meal Times**: 
+   - Desayuno: 7-9 AM (light)
+   - Almuerzo: 2-4 PM (main meal)
+   - Merienda: 5-7 PM (snack)
+   - Cena: 9-11 PM
+
+2. **Greetings**:
+   - Two kisses on cheeks between friends
+   - Formal "usted" with elders/strangers
+   - Informal "tú" with friends/peers
+
+3. **Siesta Culture**:
+   - Less common in cities now
+   - Shops may close 2-5 PM in small towns
+
+4. **Festivities**:
+   - La Navidad (Christmas)
+   - Semana Santa (Easter Week)
+   - Las Fallas (Valencia, March)
+   - San Fermín (Pamplona, July)
+
+5. **Social Customs**:
+   - Long meals with conversation
+   - Tapas culture - sharing small plates
+   - Café culture - sitting for hours
+
+## Latin American Variations
+
+1. **Vocabulary Differences**:
+   - Computer: ordenador (Spain) / computadora (LatAm)
+   - Car: coche (Spain) / carro (LatAm)
+   - Apartment: piso (Spain) / apartamento (LatAm)
+
+2. **Formal "Ustedes"**: Used even with friends in some countries
+
+3. **Voseo**: Use of "vos" instead of "tú" in Argentina, Uruguay, parts of Central America
+
+================================================================================
+PART 8: SOURCES AND REFERENCES
+================================================================================
+
+## Open Source Text Resources
+
+1. **Tatoeba.org** - CC-licensed sentence pairs
+2. **Wikimedia Commons** - Free educational content
+3. **Project Gutenberg Spanish** - Public domain Spanish texts
+4. **LibriVox** - Free Spanish audiobooks
+5. **SpanishDict** - Community dictionary (check licensing)
+
+## Creative Commons Audio Resources
+
+1. **Forvo.com** - Pronunciation by native speakers
+2. **RhinoSpike** - Community audio recordings
+3. **Librivox Spanish** - Public domain audiobooks
+
+## CEFR Framework Resources
+
+1. **Council of Europe CEFR** - Official framework documents
+2. **Instituto Cervantes** - Spanish proficiency standards
+3. **DELE exam preparation materials** - Level-appropriate content
+
+## Academic Papers on Language Learning
+
+1. Krashen's Comprehensible Input Theory
+2. Spaced Repetition System research
+3. Context-based vocabulary acquisition studies
+
+================================================================================
+END OF V4 MATERIAL DOCUMENT
+================================================================================
+
+Total New Stories Provided: 30 complete stories
+- Absolute Beginner (A1): 10 stories
+- Beginner (A2): 10 stories
+- Intermediate (B1): 10 stories
+
+Additional Story Concepts: 20 ideas
+
+All stories include:
+- Spanish dialogue with English translations
+- Vocabulary lists (8-15 words)
+- Comprehension questions (3-6 per story)
+- Clear difficulty categorization
+- Thematic icons for visual identification
+
+This material is designed to be converted to the existing Espanjapeli
+story format (stories.json structure) with appropriate Finnish translations
+added by translation scripts.

@@ -63,9 +63,17 @@
 		phraseQueue: GameQuestion[];
 	}
 
+	// Distractor translations interface
+	interface DistractorTranslations {
+		version: string;
+		description: string;
+		translations: Record<string, { english: string; finnish: string }>;
+	}
+
 	// Game data
 	let manifest: ImageManifest | null = null;
 	let phraseData: any = null;
+	let distractorTranslations: DistractorTranslations | null = null;
 	let loading = $state(true);
 
 	// Game state
@@ -119,6 +127,14 @@
 			// Load phrase data for Finnish translations
 			const phraseRes = await fetch(`${base}/themes/peppa_advanced_spanish.json`);
 			phraseData = await phraseRes.json();
+
+			// Load distractor translations (English -> Finnish)
+			try {
+				const distractorRes = await fetch(`${base}/peppa_advanced_spanish_images/distractor_translations.json`);
+				distractorTranslations = await distractorRes.json();
+			} catch (e) {
+				console.warn('Could not load distractor translations:', e);
+			}
 
 			// Load audio setting from localStorage
 			const savedAudioSetting = localStorage.getItem('peppaKuvatAudioEnabled');
@@ -513,7 +529,15 @@
 			wrongFinnish = findFinnishTranslation(wrongImage.phrases[0]);
 		}
 		
-		// If not found, check distractor images
+		// If not found, check distractor translations (Finnish translations file)
+		if (!wrongFinnish && distractorTranslations?.translations) {
+			const translation = distractorTranslations.translations[wrongImageId];
+			if (translation?.finnish) {
+				wrongFinnish = translation.finnish;
+			}
+		}
+		
+		// Fallback to English description from manifest if no Finnish translation
 		if (!wrongFinnish && manifest?.distractorImages) {
 			const distractor = manifest.distractorImages[wrongImageId];
 			if (distractor?.description) {
@@ -632,7 +656,15 @@
 			return findFinnishTranslation(img.phrases[0]) || img.phrases[0];
 		}
 		
-		// Check distractor images
+		// Check distractor translations (Finnish translations file)
+		if (distractorTranslations?.translations) {
+			const translation = distractorTranslations.translations[imageId];
+			if (translation?.finnish) {
+				return translation.finnish;
+			}
+		}
+		
+		// Fallback to English description from manifest
 		if (manifest.distractorImages) {
 			const distractor = manifest.distractorImages[imageId];
 			if (distractor?.description) {
