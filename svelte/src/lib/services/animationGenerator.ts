@@ -4,7 +4,9 @@ import type { AnimationConfig } from '$lib/types/animation';
  * Generate random animation configurations for background entertainment
  * @param position 'top' | 'bottom' | 'random' - where to place the animation vertically
  */
-export function generateRandomAnimation(position: 'top' | 'bottom' | 'random' = 'random'): AnimationConfig {
+export function generateRandomAnimation(
+	position: 'top' | 'bottom' | 'random' = 'random'
+): AnimationConfig {
 	const characters: Array<'peppa' | 'george' | 'mummy' | 'daddy'> = [
 		'peppa',
 		'george',
