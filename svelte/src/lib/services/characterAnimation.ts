@@ -1,4 +1,5 @@
 import type { AnimationConfig, AnimationState } from '$lib/types/animation';
+import { base } from '$app/paths';
 
 export class CharacterAnimationService {
 	private config!: AnimationConfig;
@@ -279,7 +280,7 @@ export class CharacterAnimationService {
 	 */
 	getCurrentFramePath(): string {
 		const frameNumber = this.state.currentFrame + 1; // Frames are 1-indexed in filenames
-		return `/svg/animations/one/${this.config.characterName}-${frameNumber}.svg`;
+		return `${base}/svg/animations/one/${this.config.characterName}-${frameNumber}.svg`;
 	}
 
 	/**
@@ -292,7 +293,7 @@ export class CharacterAnimationService {
 		
 		const charState = this.state.characterStates[index];
 		const frameNumber = charState.currentFrame + 1;
-		return `/svg/animations/one/${charState.characterName}-${frameNumber}.svg`;
+		return `${base}/svg/animations/one/${charState.characterName}-${frameNumber}.svg`;
 	}
 
 	/**
