@@ -11,6 +11,8 @@
 import type { Word } from '$lib/data/words';
 import { get } from 'svelte/store';
 import { wordKnowledge, type LanguageDirection } from '$lib/stores/wordKnowledge';
+import { getAllWords, getWordsFromCategory } from '$lib/data/words';
+import { shuffleArray, spreadOutDuplicates } from '$lib/utils/array';
 
 interface GameHistory {
 	games: string[][]; // Array of arrays of word IDs (spanish text)
@@ -423,4 +425,74 @@ export function clearHistory(category?: string): void {
 	} catch (error) {
 		console.error('Error clearing history:', error);
 	}
+}
+
+/**
+ * Get available words based on selected category
+ * @param category Category key ('all' for all words, or specific category)
+ * @returns Array of available words
+ */
+export function getAvailableWords(category: string): Word[] {
+	if (category === 'all') {
+		return getAllWords();
+	}
+	return getWordsFromCategory(category);
+}
+
+/**
+ * Prepare words for the next game using intelligent selection
+ * @param category Category key
+ * @param gameLength Number of words needed
+ * @param direction Language direction for knowledge tracking
+ * @returns Array of selected words for the upcoming game
+ */
+export function prepareNextGameWords(
+	category: string,
+	gameLength: number,
+	direction: LanguageDirection = 'spanish_to_finnish'
+): Word[] {
+	const availableWords = getAvailableWords(category);
+	const selectedWords = selectGameWords(availableWords, gameLength, category, direction);
+	console.log(`📚 Prepared ${selectedWords.length} words for next game`);
+	return selectedWords;
+}
+
+/**
+ * Generate a randomized queue of words for the entire game
+ * Uses spreadOutDuplicates to ensure duplicate words are at least minDistance apart
+ * 
+ * @param category Category key
+ * @param questionsNeeded Number of words needed
+ * @param upcomingWords Optional pre-prepared words (if they match questionsNeeded, they'll be used)
+ * @param minDistance Minimum distance between duplicate words (default 5)
+ * @param direction Language direction for knowledge tracking
+ * @returns Array of words with duplicates spread out
+ */
+export function generateWordQueue(
+	category: string,
+	questionsNeeded: number,
+	upcomingWords?: Word[],
+	minDistance: number = 5,
+	direction: LanguageDirection = 'spanish_to_finnish'
+): Word[] {
+	console.log(`🔀 Generating word queue for ${questionsNeeded} questions...`);
+	
+	// If upcomingWords are provided and match the needed count, use them
+	if (upcomingWords && upcomingWords.length === questionsNeeded) {
+		const queue = spreadOutDuplicates([...upcomingWords], minDistance);
+		console.log(`   ✅ Using prepared words (${queue.length} words)`);
+		return queue;
+	}
+	
+	// Otherwise, generate fresh using the word selection service
+	const availableWords = getAvailableWords(category);
+	console.log(`   Available words in category: ${availableWords.length}`);
+	
+	const selectedWords = selectGameWords(availableWords, questionsNeeded, category, direction);
+	
+	// Spread out duplicates
+	const finalQueue = spreadOutDuplicates(selectedWords, minDistance);
+	
+	console.log(`   ✅ Generated queue with ${finalQueue.length} words`);
+	return finalQueue;
 }

@@ -33,8 +33,13 @@
 		type CategoryWithKey 
 	} from '$lib/data/categoryConfig';
 	import BackButton from '$lib/components/shared/BackButton.svelte';
+	import CategoryPicker from '$lib/components/basic/modals/CategoryPicker.svelte';
+	import Sanakirja from '$lib/components/basic/modals/Sanakirja.svelte';
+	import GameLengthSelector from '$lib/components/basic/input/GameLengthSelector.svelte';
 	import { 
-		selectGameWords, 
+		getAvailableWords,
+		prepareNextGameWords,
+		generateWordQueue,
 		recordGameCompletion, 
 		getPreviousGames 
 	} from '$lib/services/wordSelection';
@@ -92,122 +97,6 @@
 	theme.subscribe(value => selectedTheme = value);
 
 	/**
-	 * Shuffle array using Fisher-Yates algorithm
-	 */
-	function shuffleArray<T>(array: T[]): T[] {
-		const shuffled = [...array];
-		for (let i = shuffled.length - 1; i > 0; i--) {
-			const j = Math.floor(Math.random() * (i + 1));
-			[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-		}
-		return shuffled;
-	}
-
-	/**
-	 * Spread out duplicate words to be at least minDistance apart
-	 */
-	function spreadOutDuplicates(words: Word[], minDistance = 5): Word[] {
-		const result = [...words];
-		const wordPositions = new Map<string, number[]>();
-		
-		// Build initial position map
-		result.forEach((word, index) => {
-			if (!wordPositions.has(word.spanish)) {
-				wordPositions.set(word.spanish, []);
-			}
-			wordPositions.get(word.spanish)!.push(index);
-		});
-		
-		// For each word that appears multiple times
-		for (const [spanish, positions] of wordPositions.entries()) {
-			if (positions.length <= 1) continue;
-			
-			// Try to spread out duplicates
-			for (let i = 1; i < positions.length; i++) {
-				const currentPos = positions[i];
-				const prevPos = positions[i - 1];
-				
-				if (currentPos - prevPos < minDistance) {
-					// Look for a swap position that's far enough from all instances
-					for (let newPos = prevPos + minDistance; newPos < result.length; newPos++) {
-						const farEnough = positions.every((pos, idx) => {
-							if (idx >= i) return true;
-							return Math.abs(newPos - pos) >= minDistance;
-						});
-						
-						const wordAtNewPos = result[newPos];
-						const newPosInstances = wordPositions.get(wordAtNewPos.spanish) || [];
-						const wouldCreateProblem = newPosInstances.some(pos => 
-							pos !== newPos && Math.abs(currentPos - pos) < minDistance
-						);
-						
-						if (farEnough && !wouldCreateProblem) {
-							[result[currentPos], result[newPos]] = [result[newPos], result[currentPos]];
-							positions[i] = newPos;
-							const otherPositions = wordPositions.get(wordAtNewPos.spanish);
-							if (otherPositions) {
-								const otherIdx = otherPositions.indexOf(newPos);
-								if (otherIdx !== -1) {
-									otherPositions[otherIdx] = currentPos;
-								}
-							}
-							break;
-						}
-					}
-				}
-			}
-		}
-		
-		return result;
-	}
-
-	/**
-	 * Get available words based on selected category
-	 */
-	function getAvailableWords(): Word[] {
-		if (selectedCategory === 'all') {
-			return getAllWords();
-		}
-		return getWordsFromCategory(selectedCategory);
-	}
-
-	/**
-	 * Prepare words for the next game using intelligent selection
-	 */
-	function prepareNextGameWords() {
-		const availableWords = getAvailableWords();
-		upcomingWords = selectGameWords(availableWords, selectedGameLength, selectedCategory);
-		console.log(`📚 Prepared ${upcomingWords.length} words for next game`);
-	}
-
-	/**
-	 * Generate a randomized queue of words for the entire game
-	 * Uses the prepared upcomingWords if available, otherwise falls back to random selection
-	 */
-	function generateWordQueue(questionsNeeded: number): Word[] {
-		console.log(`🔀 Generating word queue for ${questionsNeeded} questions...`);
-		
-		// If upcomingWords are prepared and match the needed count, use them
-		if (upcomingWords.length === questionsNeeded) {
-			const queue = spreadOutDuplicates([...upcomingWords], 5);
-			console.log(`   ✅ Using prepared words (${queue.length} words)`);
-			return queue;
-		}
-		
-		// Otherwise, generate fresh using the word selection service
-		const availableWords = getAvailableWords();
-		console.log(`   Available words in category: ${availableWords.length}`);
-		
-		const selectedWords = selectGameWords(availableWords, questionsNeeded, selectedCategory);
-		
-		// Spread out duplicates to be at least 5 questions apart
-		const finalQueue = spreadOutDuplicates(selectedWords, 5);
-		
-		console.log(`   ✅ Generated queue with ${finalQueue.length} words`);
-		return finalQueue;
-	}
-
-	/**
 	 * Start a new game
 	 */
 	function startGame() {
@@ -223,11 +112,11 @@
 		
 		// Ensure words are prepared for this game
 		if (upcomingWords.length !== selectedGameLength) {
-			prepareNextGameWords();
+			upcomingWords = prepareNextGameWords(selectedCategory, selectedGameLength);
 		}
 		
 		// Generate word queue from prepared words
-		wordQueue = generateWordQueue(selectedGameLength);
+		wordQueue = generateWordQueue(selectedCategory, selectedGameLength, upcomingWords, 5);
 		
 		// Start first question
 		nextQuestion();
@@ -423,7 +312,7 @@
 		selectedCategory = target.value;
 		category.set(selectedCategory);
 		// Re-prepare words for new category
-		prepareNextGameWords();
+		upcomingWords = prepareNextGameWords(selectedCategory, selectedGameLength);
 	}
 
 	/**
@@ -434,7 +323,7 @@
 		category.set(selectedCategory);
 		showCategoryPicker = false;
 		// Re-prepare words for new category
-		prepareNextGameWords();
+		upcomingWords = prepareNextGameWords(selectedCategory, selectedGameLength);
 	}
 
 	/**
@@ -465,7 +354,7 @@
 		selectedGameLength = parseInt(target.value);
 		gameLength.set(selectedGameLength);
 		// Re-prepare words for new game length
-		prepareNextGameWords();
+		upcomingWords = prepareNextGameWords(selectedCategory, selectedGameLength);
 	}
 
 	/**
@@ -503,7 +392,7 @@
 		
 		if (showSanakirja) {
 			// Load previous games when opening
-			const availableWords = getAvailableWords();
+			const availableWords = getAvailableWords(selectedCategory);
 			previousGames = getPreviousGames(selectedCategory, availableWords, 3);
 		}
 	}
@@ -637,7 +526,7 @@
 		];
 
 		// Prepare words for the next game
-		prepareNextGameWords();
+		upcomingWords = prepareNextGameWords(selectedCategory, selectedGameLength);
 	});
 
 	// Format message with line break
@@ -685,46 +574,11 @@
 				</div>
 
 				<!-- Game Length -->
-				<div class="form-control mb-4">
-					<label class="label">
-						<span class="label-text font-semibold text-lg">Kysymyksiä:</span>
-					</label>
-					<div class="flex gap-4">
-						<label class="label cursor-pointer gap-2">
-							<input 
-								type="radio" 
-								name="game-length" 
-								value="10" 
-								class="radio radio-primary"
-								checked={selectedGameLength === 10}
-								on:change={handleGameLengthChange}
-							/>
-							<span class="label-text text-base">10</span>
-						</label>
-						<label class="label cursor-pointer gap-2">
-							<input 
-								type="radio" 
-								name="game-length" 
-								value="21" 
-								class="radio radio-primary"
-								checked={selectedGameLength === 21}
-								on:change={handleGameLengthChange}
-							/>
-							<span class="label-text text-base">21</span>
-						</label>
-						<label class="label cursor-pointer gap-2">
-							<input 
-								type="radio" 
-								name="game-length" 
-								value="42" 
-								class="radio radio-primary"
-								checked={selectedGameLength === 42}
-								on:change={handleGameLengthChange}
-							/>
-							<span class="label-text text-base">42</span>
-						</label>
-					</div>
-				</div>
+			<GameLengthSelector 
+				value={selectedGameLength}
+				options={[10, 21, 42]}
+				onChange={handleGameLengthChange}
+			/>
 
 				<!-- Auto-speak -->
 				<div class="form-control mb-2">
@@ -800,233 +654,34 @@
 	</div>
 
 	<!-- Sanakirja Modal -->
-	{#if showSanakirja}
-		<div 
-			class="fixed inset-0 bg-neutral/50 z-50" 
-			on:click={toggleSanakirja}
-			on:keydown={(e) => e.key === 'Escape' && toggleSanakirja()}
-			role="button"
-			tabindex="0"
-		>
-			<div 
-				class="bg-base-100 w-full h-full sm:absolute sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-full sm:max-w-2xl sm:h-auto sm:max-h-[90vh] sm:rounded-lg sm:shadow-xl overflow-hidden"
-				on:click|stopPropagation
-				on:keydown|stopPropagation
-				role="dialog"
-				aria-modal="true"
-			>
-				<!-- Header -->
-				<div class="bg-primary text-primary-content p-4 flex items-center justify-between">
-					<h2 class="text-xl font-bold">📖 Sanakirja</h2>
-					<div class="flex items-center gap-2">
-						<button class="btn btn-ghost btn-sm text-primary-content" on:click={startReadAll} title="Lue kaikki">🔊</button>
-						<button class="btn btn-ghost btn-sm btn-circle text-primary-content" on:click={toggleSanakirja}>✕</button>
-					</div>
-				</div>
-
-				<!-- Content -->
-				<div class="overflow-y-auto h-[calc(100vh-64px)] sm:h-auto sm:max-h-[calc(90vh-64px)] p-4">
-					<!-- Upcoming Words Section Header -->
-					<div class="bg-secondary/20 border border-secondary/30 rounded p-2 mb-3">
-						<p class="text-sm font-medium text-center text-secondary">
-							Seuraavan pelin sanat ({upcomingWords.length})
-						</p>
-					</div>
-
-					<!-- Upcoming Words -->
-					{#if upcomingWords.length > 0}
-						<div class="space-y-1 mb-4">
-							{#each upcomingWords as word}
-								<div class="flex items-center gap-2 p-2 bg-base-200 hover:bg-base-300 rounded transition-colors">
-									<span class="font-bold text-primary w-1/2 truncate">{word.spanish}</span>
-									<span class="text-base-content/70 w-1/2 truncate">{word.finnish}</span>
-									<button
-										class="btn btn-ghost btn-xs btn-circle flex-shrink-0"
-										on:click={() => speakWord(word.spanish, word.finnish)}
-										title="Kuuntele"
-									>
-										🔊
-									</button>
-								</div>
-							{/each}
-						</div>
-					{/if}
-
-					<!-- Previous Games -->
-					{#each previousGames as gameWords, gameIndex}
-						<div class="bg-base-300 rounded p-2 mb-3 mt-4">
-							<p class="text-sm font-medium text-center text-base-content/70">
-								{gameIndex === 0 ? 'Edellisen pelin sanat' : `${gameIndex + 1}. viimeisen pelin sanat`}
-							</p>
-						</div>
-
-						<div class="space-y-1 mb-4">
-							{#each gameWords as word}
-								<div class="flex items-center gap-2 p-2 bg-base-200 hover:bg-base-300 rounded transition-colors">
-									<span class="font-bold text-primary w-1/2 truncate">{word.spanish}</span>
-									<span class="text-base-content/70 w-1/2 truncate">{word.finnish}</span>
-									<button
-										class="btn btn-ghost btn-xs btn-circle flex-shrink-0"
-										on:click={() => speakWord(word.spanish, word.finnish)}
-										title="Kuuntele"
-									>
-										🔊
-									</button>
-								</div>
-							{/each}
-						</div>
-					{/each}
-
-				<!-- Close button -->
-				<div class="fixed bottom-4 right-4">
-					<button class="btn btn-primary btn-lg" on:click={toggleSanakirja}>
-						Sulje
-					</button>
-				</div>
-			</div>
+	<Sanakirja 
+		isOpen={showSanakirja}
+		upcomingWords={upcomingWords}
+		previousGames={previousGames}
+		onClose={toggleSanakirja}
+		onSpeak={speakWord}
+	>
+		<div slot="header-actions">
+			<button class="btn btn-ghost btn-sm text-primary-content" on:click={startReadAll} title="Lue kaikki">🔊</button>
 		</div>
-	</div>
-	{/if}
+	</Sanakirja>
 
 	<!-- Category Picker Modal -->
-	{#if showCategoryPicker}
-		<div 
-			class="fixed inset-0 bg-neutral/50 z-50" 
-			on:click={toggleCategoryPicker}
-			on:keydown={(e) => e.key === 'Escape' && toggleCategoryPicker()}
-			role="button"
-			tabindex="0"
-		>
-			<div 
-				class="bg-base-100 w-full h-full sm:absolute sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 sm:w-full sm:max-w-md sm:h-auto sm:max-h-[90vh] sm:rounded-lg sm:shadow-xl overflow-hidden"
-				on:click|stopPropagation
-				on:keydown|stopPropagation
-				role="dialog"
-				aria-modal="true"
-			>
-				<!-- Header -->
-				<div class="bg-primary text-primary-content px-3 py-2 flex items-center justify-between">
-					<h2 class="text-base font-bold">Valitse kategoria</h2>
-					<button class="btn btn-ghost btn-xs btn-circle text-primary-content" on:click={toggleCategoryPicker}>✕</button>
-				</div>
-
-				<!-- Content -->
-				<div class="overflow-y-auto h-[calc(100vh-44px)] sm:h-auto sm:max-h-[calc(90vh-44px)] p-2">
-					<!-- All Words Option -->
-					<button
-						class="w-full text-left px-2 py-1.5 rounded mb-2 flex items-center gap-2 transition-colors text-sm"
-						class:bg-primary={selectedCategory === 'all'}
-						class:text-primary-content={selectedCategory === 'all'}
-						class:bg-base-200={selectedCategory !== 'all'}
-						class:hover:bg-base-300={selectedCategory !== 'all'}
-						on:click={() => selectCategory('all')}
-					>
-						<span>📚</span>
-						<span class="font-medium">Kaikki sanat</span>
-					</button>
-
-					<!-- Tier 1: Foundation -->
-					<div class="border-l-[3px] border-red-500 pl-2 mb-2">
-						<div class="text-[10px] text-base-content/50 mb-0.5">Perusta</div>
-						<div class="grid grid-cols-2 gap-1">
-							{#each categories.filter(c => c.tier === 1) as cat}
-								<button
-									class="text-left px-2 py-1 rounded text-sm transition-colors"
-									class:bg-primary={selectedCategory === cat.key}
-									class:text-primary-content={selectedCategory === cat.key}
-									class:bg-base-200={selectedCategory !== cat.key}
-									class:hover:bg-base-300={selectedCategory !== cat.key}
-									on:click={() => selectCategory(cat.key)}
-								>
-									{cat.name}
-								</button>
-							{/each}
-						</div>
-					</div>
-
-					<!-- Tier 2: Concrete Basics -->
-					<div class="border-l-[3px] border-yellow-500 pl-2 mb-2">
-						<div class="text-[10px] text-base-content/50 mb-0.5">Perusasiat</div>
-						<div class="grid grid-cols-2 gap-1">
-							{#each categories.filter(c => c.tier === 2) as cat}
-								<button
-									class="text-left px-2 py-1 rounded text-sm transition-colors"
-									class:bg-primary={selectedCategory === cat.key}
-									class:text-primary-content={selectedCategory === cat.key}
-									class:bg-base-200={selectedCategory !== cat.key}
-									class:hover:bg-base-300={selectedCategory !== cat.key}
-									on:click={() => selectCategory(cat.key)}
-								>
-									{cat.name}
-								</button>
-							{/each}
-						</div>
-					</div>
-
-					<!-- Tier 3: Everyday Topics -->
-					<div class="border-l-[3px] border-green-500 pl-2 mb-2">
-						<div class="text-[10px] text-base-content/50 mb-0.5">Arkiaiheet</div>
-						<div class="grid grid-cols-2 gap-1">
-							{#each categories.filter(c => c.tier === 3) as cat}
-								<button
-									class="text-left px-2 py-1 rounded text-sm transition-colors"
-									class:bg-primary={selectedCategory === cat.key}
-									class:text-primary-content={selectedCategory === cat.key}
-									class:bg-base-200={selectedCategory !== cat.key}
-									class:hover:bg-base-300={selectedCategory !== cat.key}
-									on:click={() => selectCategory(cat.key)}
-								>
-									{cat.name}
-								</button>
-							{/each}
-						</div>
-					</div>
-
-					<!-- Tier 4: Practical Skills -->
-					<div class="border-l-[3px] border-blue-500 pl-2 mb-2">
-						<div class="text-[10px] text-base-content/50 mb-0.5">Käytäntö</div>
-						<div class="grid grid-cols-2 gap-1">
-							{#each categories.filter(c => c.tier === 4) as cat}
-								<button
-									class="text-left px-2 py-1 rounded text-sm transition-colors"
-									class:bg-primary={selectedCategory === cat.key}
-									class:text-primary-content={selectedCategory === cat.key}
-									class:bg-base-200={selectedCategory !== cat.key}
-									class:hover:bg-base-300={selectedCategory !== cat.key}
-									on:click={() => selectCategory(cat.key)}
-								>
-									{cat.name}
-								</button>
-							{/each}
-						</div>
-					</div>
-
-					<!-- Tier 5: Specialized -->
-					<div class="border-l-[3px] border-purple-500 pl-2 mb-2">
-						<div class="text-[10px] text-base-content/50 mb-0.5">Erikois</div>
-						<div class="grid grid-cols-2 gap-1">
-							{#each categories.filter(c => c.tier === 5) as cat}
-								<button
-									class="text-left px-2 py-1 rounded text-sm transition-colors"
-									class:bg-primary={selectedCategory === cat.key}
-									class:text-primary-content={selectedCategory === cat.key}
-									class:bg-base-200={selectedCategory !== cat.key}
-									class:hover:bg-base-300={selectedCategory !== cat.key}
-									on:click={() => selectCategory(cat.key)}
-								>
-									{cat.name}
-								</button>
-							{/each}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	{/if}
+	<CategoryPicker 
+		isOpen={showCategoryPicker}
+		selectedCategory={selectedCategory}
+		categories={categories}
+		onSelect={selectCategory}
+		onClose={toggleCategoryPicker}
+	/>
 </div>
 {/if}
 
-<!-- PLAYING STATE - Normal Mode -->
+<!-- ============================================================================
+     NORMAL MODE (Mobile/Desktop): Complete standalone implementation
+     DO NOT consolidate with compact mode - visuals are fundamentally different
+     ============================================================================ -->
+
 <!-- PLAYING STATE - Normal Mode -->
 {#if gameState === 'playing' && !isCompactModeEnabled}
 	<div class="min-h-screen bg-base-200 flex flex-col md:items-center md:justify-start p-0 md:p-4">
@@ -1179,6 +834,11 @@
 	</div>
 {/if}
 
+<!-- ============================================================================
+     COMPACT MODE: Complete standalone implementation for 50vh constraint
+     DO NOT consolidate with normal mode - layout is fundamentally different
+     ============================================================================ -->
+
 <!-- PLAYING STATE - Compact Mode (50vh) -->
 {#if gameState === 'playing' && isCompactModeEnabled}
 	<div class="h-screen bg-base-200">
@@ -1283,6 +943,11 @@
 	</div>
 {/if}
 
+<!-- ============================================================================
+     NORMAL MODE (Mobile/Desktop): Answer feedback - standalone implementation
+     DO NOT consolidate with compact mode - visuals are fundamentally different
+     ============================================================================ -->
+
 <!-- ANSWERED STATE - Normal Mode -->
 {#if gameState === 'answered' && !isCompactModeEnabled}
 	<div class="min-h-screen bg-base-200 flex flex-col md:items-center md:justify-start p-0 md:p-4">
@@ -1332,6 +997,11 @@
 		</div>
 	</div>
 {/if}
+
+<!-- ============================================================================
+     COMPACT MODE: Answer feedback - standalone implementation for 50vh
+     DO NOT consolidate with normal mode - layout is fundamentally different
+     ============================================================================ -->
 
 <!-- ANSWERED STATE - Compact Mode (50vh) -->
 {#if gameState === 'answered' && isCompactModeEnabled}

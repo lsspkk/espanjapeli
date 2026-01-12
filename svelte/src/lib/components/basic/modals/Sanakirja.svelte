@@ -38,10 +38,13 @@
 			aria-modal="true"
 			tabindex="-1"
 		>
-			<div class="bg-primary text-primary-content p-4 flex items-center justify-between">
-				<h2 class="text-xl font-bold">📖 Sanakirja</h2>
+		<div class="bg-primary text-primary-content p-4 flex items-center justify-between">
+			<h2 class="text-xl font-bold">📖 Sanakirja</h2>
+			<div class="flex items-center gap-2">
+				<slot name="header-actions" />
 				<button class="btn btn-ghost btn-sm btn-circle text-primary-content" on:click={handleClose}>✕</button>
 			</div>
+		</div>
 
 			<div class="overflow-y-auto h-[calc(100vh-64px)] sm:h-auto sm:max-h-[calc(90vh-64px)] p-4">
 				<div class="bg-secondary/20 border border-secondary/30 rounded p-2 mb-3">
