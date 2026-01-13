@@ -5,6 +5,9 @@ docs/env.js
 # Cache files (in scripts folder)
 scripts/*.json
 
+# Data pipeline output (scripts/data/)
+scripts/data/
+
 # Python
 __pycache__/
 *.py[cod]
