@@ -71,23 +71,33 @@
 	"vocabulary": [
 		{
 			"spanish": "el parque natural",
-			"finnish": "luonnonpuisto"
+			"finnish": "luonnonpuisto",
+			"frequencyRank": 1646,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "la ruta",
-			"finnish": "reitti"
+			"finnish": "reitti",
+			"frequencyRank": 2736,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "el bosque",
-			"finnish": "metsä"
+			"finnish": "metsä",
+			"frequencyRank": 1385,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "el lago",
-			"finnish": "järvi"
+			"finnish": "järvi",
+			"frequencyRank": 2191,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "la montaña",
-			"finnish": "vuori"
+			"finnish": "vuori",
+			"frequencyRank": 2026,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "el pato",
@@ -103,19 +113,27 @@
 		},
 		{
 			"spanish": "el área de picnic",
-			"finnish": "piknik-alue"
+			"finnish": "piknik-alue",
+			"frequencyRank": 1680,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "nadar",
-			"finnish": "uida"
+			"finnish": "uida",
+			"frequencyRank": 3141,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "prohibido",
-			"finnish": "kielletty"
+			"finnish": "kielletty",
+			"frequencyRank": 3844,
+			"cefrLevel": "C1"
 		},
 		{
 			"spanish": "la entrada",
-			"finnish": "pääsymaksu / sisäänkäynti"
+			"finnish": "pääsymaksu / sisäänkäynti",
+			"frequencyRank": 1316,
+			"cefrLevel": "B1"
 		}
 	],
 	"questions": [
@@ -179,5 +197,7 @@
 			"correctIndex": 3,
 			"explanation": "Opas sanoi: 'Los niños menores de doce años entran gratis' (Alle 12-vuotiaat lapset pääsevät ilmaiseksi)"
 		}
-	]
+	],
+	"wordCount": 149,
+	"estimatedMinutes": 4
 }

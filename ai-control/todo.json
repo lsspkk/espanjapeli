@@ -171,14 +171,14 @@
       "title": "Migrate and Enhance Existing Stories",
       "todoTxtRef": "TASK 11: Migrate and Enhance Existing Stories (TODO.txt lines 718-748)",
       "priority": 4,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 5,
       "dependencies": [9, 10],
       "subtasks": [
-        { "id": "11.1", "title": "Migrate 8 existing stories to individual files", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "11.2", "title": "Add frequency data to story vocabulary", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "11.3", "title": "Calculate wordCount and estimatedMinutes", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "11.4", "title": "Verify TTS works with migrated stories", "status": "not-started", "deliverable": null, "testRequired": true }
+        { "id": "11.1", "title": "Migrate 8 existing stories to individual files", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "11.2", "title": "Add frequency data to story vocabulary", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "11.3", "title": "Calculate wordCount and estimatedMinutes", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "11.4", "title": "Verify TTS works with migrated stories", "status": "completed", "deliverable": null, "testRequired": true }
       ]
     },
     {

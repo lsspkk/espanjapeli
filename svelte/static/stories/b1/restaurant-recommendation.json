@@ -81,15 +81,21 @@
 	"vocabulary": [
 		{
 			"spanish": "el restaurante",
-			"finnish": "ravintola"
+			"finnish": "ravintola",
+			"frequencyRank": 1488,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "la comida",
-			"finnish": "ruoka"
+			"finnish": "ruoka",
+			"frequencyRank": 483,
+			"cefrLevel": "A1"
 		},
 		{
 			"spanish": "típico/a",
-			"finnish": "tyypillinen"
+			"finnish": "tyypillinen",
+			"frequencyRank": 4426,
+			"cefrLevel": "C1"
 		},
 		{
 			"spanish": "la paella",
@@ -97,23 +103,33 @@
 		},
 		{
 			"spanish": "caro/a",
-			"finnish": "kallis"
+			"finnish": "kallis",
+			"frequencyRank": 3034,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "razonable",
-			"finnish": "kohtuullinen"
+			"finnish": "kohtuullinen",
+			"frequencyRank": 3696,
+			"cefrLevel": "C1"
 		},
 		{
 			"spanish": "la reserva",
-			"finnish": "varaus"
+			"finnish": "varaus",
+			"frequencyRank": 3405,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "el almuerzo",
-			"finnish": "lounas"
+			"finnish": "lounas",
+			"frequencyRank": 1898,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "cenar",
-			"finnish": "syödä illallista"
+			"finnish": "syödä illallista",
+			"frequencyRank": 1100,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "vegetariano/a",
@@ -189,5 +205,7 @@
 			"correctIndex": 1,
 			"explanation": "Paikallinen sanoi: 'Gire a la izquierda en la plaza' (Kääntykää vasemmalle aukiolla)"
 		}
-	]
+	],
+	"wordCount": 131,
+	"estimatedMinutes": 3
 }

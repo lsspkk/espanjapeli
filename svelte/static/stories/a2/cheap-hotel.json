@@ -75,31 +75,45 @@
 		},
 		{
 			"spanish": "la reserva",
-			"finnish": "varaus"
+			"finnish": "varaus",
+			"frequencyRank": 3405,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "la habitación",
-			"finnish": "huone"
+			"finnish": "huone",
+			"frequencyRank": 496,
+			"cefrLevel": "A1"
 		},
 		{
 			"spanish": "doble",
-			"finnish": "kahden hengen"
+			"finnish": "kahden hengen",
+			"frequencyRank": 1317,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "el baño",
-			"finnish": "kylpyhuone"
+			"finnish": "kylpyhuone",
+			"frequencyRank": 715,
+			"cefrLevel": "A2"
 		},
 		{
 			"spanish": "la ducha",
-			"finnish": "suihku"
+			"finnish": "suihku",
+			"frequencyRank": 2822,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "el aire acondicionado",
-			"finnish": "ilmastointi"
+			"finnish": "ilmastointi",
+			"frequencyRank": 742,
+			"cefrLevel": "A2"
 		},
 		{
 			"spanish": "el desayuno",
-			"finnish": "aamiainen"
+			"finnish": "aamiainen",
+			"frequencyRank": 1953,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "el comedor",
@@ -107,15 +121,21 @@
 		},
 		{
 			"spanish": "la maleta",
-			"finnish": "matkalaukku"
+			"finnish": "matkalaukku",
+			"frequencyRank": 3226,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "la llave",
-			"finnish": "avain"
+			"finnish": "avain",
+			"frequencyRank": 1131,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "la hora de salida",
-			"finnish": "uloskirjautumisaika"
+			"finnish": "uloskirjautumisaika",
+			"frequencyRank": 245,
+			"cefrLevel": "A1"
 		}
 	],
 	"questions": [
@@ -179,5 +199,7 @@
 			"correctIndex": 2,
 			"explanation": "Vastaanottovirkailija sanoi: 'A las doce del mediodía' (Klo 12 päivällä)"
 		}
-	]
+	],
+	"wordCount": 138,
+	"estimatedMinutes": 3
 }
