@@ -28,6 +28,7 @@ describe('Navbar', () => {
 		it('renders navigation items', () => {
 			const { getByText } = render(Navbar);
 			expect(getByText('Koti')).toBeTruthy();
+			expect(getByText('Sanasto')).toBeTruthy();
 			expect(getByText('Tietoja')).toBeTruthy();
 			expect(getByText('Asetukset')).toBeTruthy();
 		});
@@ -89,6 +90,7 @@ describe('Navbar', () => {
 
 			const hrefs = Array.from(desktopLinks).map((link) => link.getAttribute('href'));
 			expect(hrefs).toContain('/');
+			expect(hrefs).toContain('/sanasto');
 			expect(hrefs).toContain('/tietoja');
 			expect(hrefs).toContain('/asetukset');
 		});
@@ -100,6 +102,7 @@ describe('Navbar', () => {
 
 			// Each icon appears twice (mobile + desktop)
 			expect(getAllByText('🏠').length).toBeGreaterThanOrEqual(1);
+			expect(getAllByText('📚').length).toBeGreaterThanOrEqual(1);
 			expect(getAllByText('ℹ️').length).toBeGreaterThanOrEqual(1);
 			expect(getAllByText('⚙️').length).toBeGreaterThanOrEqual(1);
 		});
