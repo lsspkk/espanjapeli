@@ -1,0 +1,183 @@
+{
+	"id": "bicycle-rental",
+	"title": "Polkupyörän vuokraus",
+	"titleSpanish": "Alquiler de bicicletas",
+	"description": "Elena vuokraa polkupyörän kaupungin kiertelyyn",
+	"difficulty": "beginner",
+	"category": "travel",
+	"icon": "🚲",
+	"dialogue": [
+		{
+			"speaker": "Elena",
+			"spanish": "Hola, me gustaría alquilar una bicicleta.",
+			"finnish": "Hei, haluaisin vuokrata polkupyörän."
+		},
+		{
+			"speaker": "Empleado",
+			"spanish": "Buenos días. ¿Para cuánto tiempo la necesita?",
+			"finnish": "Hyvää huomenta. Kuinka pitkäksi aikaa tarvitsette sitä?"
+		},
+		{
+			"speaker": "Elena",
+			"spanish": "Solo para hoy, unas cuatro o cinco horas.",
+			"finnish": "Vain täksi päiväksi, noin neljä tai viisi tuntia."
+		},
+		{
+			"speaker": "Empleado",
+			"spanish": "Perfecto. El alquiler por día es diez euros. Incluye el casco.",
+			"finnish": "Täydellistä. Päivävuokra on kymmenen euroa. Kypärä sisältyy hintaan."
+		},
+		{
+			"speaker": "Elena",
+			"spanish": "¿Tienen un mapa de las rutas ciclistas?",
+			"finnish": "Onko teillä pyöräilyreittien karttaa?"
+		},
+		{
+			"speaker": "Empleado",
+			"spanish": "Sí, aquí tiene. Le recomiendo la ruta por el río, es muy bonita.",
+			"finnish": "Kyllä, olkaa hyvä. Suosittelen jokireittiä, se on erittäin kaunis."
+		},
+		{
+			"speaker": "Elena",
+			"spanish": "¿Es difícil esa ruta?",
+			"finnish": "Onko tuo reitti vaikea?"
+		},
+		{
+			"speaker": "Empleado",
+			"spanish": "No, es bastante fácil. Es plana y tiene unos quince kilómetros.",
+			"finnish": "Ei, se on melko helppo. Se on tasainen ja noin viisitoista kilometriä pitkä."
+		},
+		{
+			"speaker": "Elena",
+			"spanish": "Perfecto. ¿A qué hora tengo que devolver la bicicleta?",
+			"finnish": "Täydellistä. Mihin aikaan minun täytyy palauttaa polkupyörä?"
+		},
+		{
+			"speaker": "Empleado",
+			"spanish": "Cerramos a las ocho de la tarde. Devuélvala antes de esa hora.",
+			"finnish": "Suljemme klo kahdeksalta illalla. Palauttakaa se ennen sitä."
+		},
+		{
+			"speaker": "Elena",
+			"spanish": "Entendido. ¿Necesita mi pasaporte?",
+			"finnish": "Selvä. Tarvitsetteko passini?"
+		},
+		{
+			"speaker": "Empleado",
+			"spanish": "Sí, necesito una copia. Y también un depósito de veinte euros.",
+			"finnish": "Kyllä, tarvitsen kopion. Ja myös kahdenkymmenen euron panttimaksun."
+		}
+	],
+	"vocabulary": [
+		{
+			"spanish": "alquilar",
+			"finnish": "vuokrata"
+		},
+		{
+			"spanish": "la bicicleta",
+			"finnish": "polkupyörä"
+		},
+		{
+			"spanish": "el casco",
+			"finnish": "kypärä"
+		},
+		{
+			"spanish": "el mapa",
+			"finnish": "kartta"
+		},
+		{
+			"spanish": "la ruta",
+			"finnish": "reitti"
+		},
+		{
+			"spanish": "el río",
+			"finnish": "joki"
+		},
+		{
+			"spanish": "plano/a",
+			"finnish": "tasainen"
+		},
+		{
+			"spanish": "devolver",
+			"finnish": "palauttaa"
+		},
+		{
+			"spanish": "cerrar",
+			"finnish": "sulkea"
+		},
+		{
+			"spanish": "el pasaporte",
+			"finnish": "passi"
+		},
+		{
+			"spanish": "el depósito",
+			"finnish": "panttimaksu"
+		},
+		{
+			"spanish": "la hora",
+			"finnish": "tunti / kellonaika"
+		}
+	],
+	"questions": [
+		{
+			"id": "q1",
+			"question": "Kuinka pitkäksi aikaa Elena haluaa vuokrata pyörän?",
+			"options": [
+				"2-3 tuntia",
+				"4-5 tuntia",
+				"Koko viikoksi",
+				"Kahdeksi päiväksi"
+			],
+			"correctIndex": 1,
+			"explanation": "Elena sanoi: 'Unas cuatro o cinco horas' (Noin neljä tai viisi tuntia)"
+		},
+		{
+			"id": "q2",
+			"question": "Paljonko päivävuokra maksaa?",
+			"options": [
+				"5 euroa",
+				"10 euroa",
+				"15 euroa",
+				"20 euroa"
+			],
+			"correctIndex": 1,
+			"explanation": "Työntekijä sanoi: 'El alquiler por día es diez euros' (Päivävuokra on 10 euroa)"
+		},
+		{
+			"id": "q3",
+			"question": "Kuinka pitkä suositeltu reitti on?",
+			"options": [
+				"5 km",
+				"10 km",
+				"15 km",
+				"20 km"
+			],
+			"correctIndex": 2,
+			"explanation": "Työntekijä sanoi: 'Tiene unos quince kilómetros' (Se on noin 15 km)"
+		},
+		{
+			"id": "q4",
+			"question": "Mihin aikaan pyörä pitää palauttaa?",
+			"options": [
+				"Klo 17",
+				"Klo 18",
+				"Klo 19",
+				"Klo 20"
+			],
+			"correctIndex": 3,
+			"explanation": "Työntekijä sanoi: 'Cerramos a las ocho de la tarde' (Suljemme klo 20)"
+		},
+		{
+			"id": "q5",
+			"question": "Kuinka suuri panttimaksu vaaditaan?",
+			"options": [
+				"10 euroa",
+				"15 euroa",
+				"20 euroa",
+				"30 euroa"
+			],
+			"correctIndex": 2,
+			"explanation": "Työntekijä sanoi: 'Un depósito de veinte euros' (20 euron panttimaksu)"
+		}
+	]
+}

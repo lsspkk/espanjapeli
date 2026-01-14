@@ -128,13 +128,13 @@
       "title": "Add Progress Widget to Home Page",
       "todoTxtRef": "TASK 8: Add Progress Widget to Home Page (TODO.txt lines 554-585)",
       "priority": 3,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 4,
       "dependencies": [7],
       "subtasks": [
-        { "id": "8.1", "title": "Create VocabularyProgressWidget.svelte", "status": "not-started", "deliverable": "svelte/src/lib/components/shared/VocabularyProgressWidget.svelte", "testRequired": true },
-        { "id": "8.2", "title": "Integrate with home page", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "8.3", "title": "Implement async loading", "status": "not-started", "deliverable": null, "testRequired": true }
+        { "id": "8.1", "title": "Create VocabularyProgressWidget.svelte", "status": "completed", "deliverable": "svelte/src/lib/components/shared/VocabularyProgressWidget.svelte", "testRequired": true },
+        { "id": "8.2", "title": "Integrate with home page", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "8.3", "title": "Implement async loading", "status": "completed", "deliverable": null, "testRequired": true }
       ]
     },
     {
@@ -142,14 +142,14 @@
       "title": "Restructure Story Files with Manifest",
       "todoTxtRef": "TASK 9: Restructure Story Files with Simple Manifest (TODO.txt lines 593-656)",
       "priority": 4,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 6,
       "dependencies": [2],
       "subtasks": [
-        { "id": "9.1", "title": "Create directory structure (a1/a2/b1)", "status": "not-started", "deliverable": "svelte/static/stories/", "testRequired": false },
-        { "id": "9.2", "title": "Create stories/manifest.json", "status": "not-started", "deliverable": "svelte/static/stories/manifest.json", "testRequired": true },
-        { "id": "9.3", "title": "Create migration script for existing stories", "status": "not-started", "deliverable": "scripts/migrate_stories.py", "testRequired": true },
-        { "id": "9.4", "title": "Update storyLoader.ts for lazy loading", "status": "not-started", "deliverable": "svelte/src/lib/services/storyLoader.ts", "testRequired": true }
+        { "id": "9.1", "title": "Create directory structure (a1/a2/b1)", "status": "completed", "deliverable": "svelte/static/stories/", "testRequired": false },
+        { "id": "9.2", "title": "Create stories/manifest.json", "status": "completed", "deliverable": "svelte/static/stories/manifest.json", "testRequired": true },
+        { "id": "9.3", "title": "Create migration script for existing stories", "status": "completed", "deliverable": "scripts/migrate_stories.py", "testRequired": true },
+        { "id": "9.4", "title": "Update storyLoader.ts for lazy loading", "status": "completed", "deliverable": "svelte/src/lib/services/storyLoader.ts", "testRequired": true }
       ]
     },
     {

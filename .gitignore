@@ -33,3 +33,7 @@ svg_preview.html
 
 # Reports folder (generated or temporary reports)
 reports/
+
+# Ralph iteration logs
+.ralph-iter-*.ndjson
+progress.txt

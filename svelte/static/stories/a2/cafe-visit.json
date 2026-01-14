@@ -1,0 +1,178 @@
+{
+	"id": "cafe-visit",
+	"title": "Kahvilassa",
+	"titleSpanish": "En la cafetería",
+	"description": "Carlos tilaa kahvin ja pienen välipalan kahvilassa",
+	"difficulty": "beginner",
+	"category": "cafe",
+	"icon": "☕",
+	"dialogue": [
+		{
+			"speaker": "Camarero",
+			"spanish": "¡Hola! Bienvenido. ¿Qué le puedo servir?",
+			"finnish": "Hei! Tervetuloa. Mitä saan tarjoilla?"
+		},
+		{
+			"speaker": "Carlos",
+			"spanish": "Hola. Quiero un café con leche, por favor.",
+			"finnish": "Hei. Haluan maitokahvin, kiitos."
+		},
+		{
+			"speaker": "Camarero",
+			"spanish": "¿Grande o pequeño?",
+			"finnish": "Iso vai pieni?"
+		},
+		{
+			"speaker": "Carlos",
+			"spanish": "Grande, por favor. ¿Tienen algo para comer?",
+			"finnish": "Iso, kiitos. Onko teillä jotain syötävää?"
+		},
+		{
+			"speaker": "Camarero",
+			"spanish": "Sí, tenemos croissants, tostadas y pasteles.",
+			"finnish": "Kyllä, meillä on croissanteja, paahtoleipiä ja leivoksia."
+		},
+		{
+			"speaker": "Carlos",
+			"spanish": "¿El croissant es de mantequilla?",
+			"finnish": "Onko croissant voista tehty?"
+		},
+		{
+			"speaker": "Camarero",
+			"spanish": "Sí, son de mantequilla y muy frescos.",
+			"finnish": "Kyllä, ne ovat voista tehtyjä ja erittäin tuoreita."
+		},
+		{
+			"speaker": "Carlos",
+			"spanish": "Perfecto, un croissant también. ¿Cuánto es todo?",
+			"finnish": "Täydellistä, croissant myös. Paljonko kaikki maksaa?"
+		},
+		{
+			"speaker": "Camarero",
+			"spanish": "El café grande son tres euros y el croissant dos euros. Son cinco euros en total.",
+			"finnish": "Iso kahvi on kolme euroa ja croissant kaksi euroa. Yhteensä viisi euroa."
+		},
+		{
+			"speaker": "Carlos",
+			"spanish": "Aquí tiene. ¿Puedo sentarme en la terraza?",
+			"finnish": "Olkaa hyvä. Voinko istua terassilla?"
+		},
+		{
+			"speaker": "Camarero",
+			"spanish": "Claro, la terraza está abierta. ¡Que disfrute!",
+			"finnish": "Tietenkin, terassi on auki. Nauttikaa!"
+		}
+	],
+	"vocabulary": [
+		{
+			"spanish": "la cafetería",
+			"finnish": "kahvila"
+		},
+		{
+			"spanish": "el café con leche",
+			"finnish": "maitokahvi"
+		},
+		{
+			"spanish": "el croissant",
+			"finnish": "croissant"
+		},
+		{
+			"spanish": "la tostada",
+			"finnish": "paahtoleipä"
+		},
+		{
+			"spanish": "el pastel",
+			"finnish": "leivos"
+		},
+		{
+			"spanish": "la mantequilla",
+			"finnish": "voi"
+		},
+		{
+			"spanish": "la terraza",
+			"finnish": "terassi"
+		},
+		{
+			"spanish": "grande",
+			"finnish": "iso"
+		},
+		{
+			"spanish": "pequeño/a",
+			"finnish": "pieni"
+		},
+		{
+			"spanish": "servir",
+			"finnish": "tarjoilla"
+		},
+		{
+			"spanish": "sentarse",
+			"finnish": "istua"
+		},
+		{
+			"spanish": "disfrutar",
+			"finnish": "nauttia"
+		}
+	],
+	"questions": [
+		{
+			"id": "q1",
+			"question": "Minkä kokoisen kahvin Carlos tilaa?",
+			"options": [
+				"Pienen",
+				"Keskikokoisen",
+				"Ison",
+				"Erittäin ison"
+			],
+			"correctIndex": 2,
+			"explanation": "Carlos sanoi: 'Grande, por favor' (Iso, kiitos)"
+		},
+		{
+			"id": "q2",
+			"question": "Mitä syötävää Carlos tilaa?",
+			"options": [
+				"Paahtoleivän",
+				"Croissantin",
+				"Leivoksen",
+				"Ei mitään"
+			],
+			"correctIndex": 1,
+			"explanation": "Carlos sanoi: 'Un croissant también' (Croissant myös)"
+		},
+		{
+			"id": "q3",
+			"question": "Paljonko iso kahvi maksaa?",
+			"options": [
+				"2 euroa",
+				"3 euroa",
+				"4 euroa",
+				"5 euroa"
+			],
+			"correctIndex": 1,
+			"explanation": "Tarjoilija sanoi: 'El café grande son tres euros' (Iso kahvi on kolme euroa)"
+		},
+		{
+			"id": "q4",
+			"question": "Paljonko Carlosin tilaus maksaa yhteensä?",
+			"options": [
+				"4 euroa",
+				"5 euroa",
+				"6 euroa",
+				"7 euroa"
+			],
+			"correctIndex": 1,
+			"explanation": "Tarjoilija sanoi: 'Son cinco euros en total' (Yhteensä viisi euroa)"
+		},
+		{
+			"id": "q5",
+			"question": "Minne Carlos haluaa istua?",
+			"options": [
+				"Ikkunan viereen",
+				"Baaritiskille",
+				"Terassille",
+				"Nurkkaan"
+			],
+			"correctIndex": 2,
+			"explanation": "Carlos kysyi: '¿Puedo sentarme en la terraza?' (Voinko istua terassilla?)"
+		}
+	]
+}

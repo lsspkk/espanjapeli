@@ -1,0 +1,173 @@
+{
+	"id": "grocery-shopping",
+	"title": "Ruokakaupassa",
+	"titleSpanish": "En el supermercado",
+	"description": "María käy ruokaostoksilla ja kysyy apua myyjältä",
+	"difficulty": "beginner",
+	"category": "shopping",
+	"icon": "🛒",
+	"dialogue": [
+		{
+			"speaker": "María",
+			"spanish": "Buenos días. ¿Dónde están las frutas?",
+			"finnish": "Hyvää huomenta. Missä hedelmät ovat?"
+		},
+		{
+			"speaker": "Vendedor",
+			"spanish": "Buenos días. Las frutas están al fondo, a la derecha.",
+			"finnish": "Hyvää huomenta. Hedelmät ovat perällä, oikealla."
+		},
+		{
+			"speaker": "María",
+			"spanish": "Gracias. ¿Tienen manzanas frescas?",
+			"finnish": "Kiitos. Onko teillä tuoreita omenoita?"
+		},
+		{
+			"speaker": "Vendedor",
+			"spanish": "Sí, las manzanas llegaron esta mañana. Son muy buenas.",
+			"finnish": "Kyllä, omenat tulivat tänä aamuna. Ne ovat erittäin hyviä."
+		},
+		{
+			"speaker": "María",
+			"spanish": "Perfecto. También necesito leche y pan.",
+			"finnish": "Täydellistä. Tarvitsen myös maitoa ja leipää."
+		},
+		{
+			"speaker": "Vendedor",
+			"spanish": "La leche está en el pasillo tres y el pan está cerca de la entrada.",
+			"finnish": "Maito on käytävällä kolme ja leipä on lähellä sisäänkäyntiä."
+		},
+		{
+			"speaker": "María",
+			"spanish": "¿Cuánto cuesta el kilo de manzanas?",
+			"finnish": "Paljonko maksaa kilo omenoita?"
+		},
+		{
+			"speaker": "Vendedor",
+			"spanish": "El kilo cuesta dos euros con cincuenta.",
+			"finnish": "Kilo maksaa kaksi euroa viisikymmentä senttiä."
+		},
+		{
+			"speaker": "María",
+			"spanish": "Muy bien, me llevo dos kilos. ¿Puedo pagar con tarjeta?",
+			"finnish": "Hyvä on, otan kaksi kiloa. Voinko maksaa kortilla?"
+		},
+		{
+			"speaker": "Vendedor",
+			"spanish": "Sí, aceptamos tarjeta y efectivo. La caja está por allí.",
+			"finnish": "Kyllä, hyväksymme kortin ja käteisen. Kassa on tuolla."
+		}
+	],
+	"vocabulary": [
+		{
+			"spanish": "el supermercado",
+			"finnish": "ruokakauppa"
+		},
+		{
+			"spanish": "las frutas",
+			"finnish": "hedelmät"
+		},
+		{
+			"spanish": "la manzana",
+			"finnish": "omena"
+		},
+		{
+			"spanish": "la leche",
+			"finnish": "maito"
+		},
+		{
+			"spanish": "el pan",
+			"finnish": "leipä"
+		},
+		{
+			"spanish": "el pasillo",
+			"finnish": "käytävä"
+		},
+		{
+			"spanish": "la entrada",
+			"finnish": "sisäänkäynti"
+		},
+		{
+			"spanish": "el kilo",
+			"finnish": "kilo"
+		},
+		{
+			"spanish": "la tarjeta",
+			"finnish": "kortti"
+		},
+		{
+			"spanish": "el efectivo",
+			"finnish": "käteinen"
+		},
+		{
+			"spanish": "la caja",
+			"finnish": "kassa"
+		},
+		{
+			"spanish": "fresco/a",
+			"finnish": "tuore"
+		}
+	],
+	"questions": [
+		{
+			"id": "q1",
+			"question": "Missä hedelmät ovat kaupassa?",
+			"options": [
+				"Lähellä sisäänkäyntiä",
+				"Käytävällä kolme",
+				"Perällä oikealla",
+				"Kassan vieressä"
+			],
+			"correctIndex": 2,
+			"explanation": "Myyjä sanoi: 'Las frutas están al fondo, a la derecha' (Hedelmät ovat perällä, oikealla)"
+		},
+		{
+			"id": "q2",
+			"question": "Paljonko omenat maksavat kilolta?",
+			"options": [
+				"1,50 €",
+				"2,00 €",
+				"2,50 €",
+				"3,00 €"
+			],
+			"correctIndex": 2,
+			"explanation": "Myyjä sanoi: 'El kilo cuesta dos euros con cincuenta' (Kilo maksaa 2,50 €)"
+		},
+		{
+			"id": "q3",
+			"question": "Missä leipä on kaupassa?",
+			"options": [
+				"Perällä oikealla",
+				"Käytävällä kolme",
+				"Lähellä sisäänkäyntiä",
+				"Kassan vieressä"
+			],
+			"correctIndex": 2,
+			"explanation": "Myyjä sanoi: 'El pan está cerca de la entrada' (Leipä on lähellä sisäänkäyntiä)"
+		},
+		{
+			"id": "q4",
+			"question": "Kuinka monta kiloa omenoita María ostaa?",
+			"options": [
+				"Yhden kilon",
+				"Kaksi kiloa",
+				"Kolme kiloa",
+				"Puoli kiloa"
+			],
+			"correctIndex": 1,
+			"explanation": "María sanoi: 'Me llevo dos kilos' (Otan kaksi kiloa)"
+		},
+		{
+			"id": "q5",
+			"question": "Miten María haluaa maksaa?",
+			"options": [
+				"Käteisellä",
+				"Kortilla",
+				"Puhelimella",
+				"Lahjakortilla"
+			],
+			"correctIndex": 1,
+			"explanation": "María kysyi: '¿Puedo pagar con tarjeta?' (Voinko maksaa kortilla?)"
+		}
+	]
+}

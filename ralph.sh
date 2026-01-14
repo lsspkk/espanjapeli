@@ -25,11 +25,15 @@ echo ""
 
 # 3) Main loop
 for i in {1..$MAX_ITERS}; do
-  echo "=== Iteration $i/$MAX_ITERS ==="
+  echo ""
+  echo "════════════════════════════════════════"
+  echo "🔄 ITERATION $i of $MAX_ITERS"
+  echo "════════════════════════════════════════"
   echo ""
 
   # Run cursor-agent in headless mode with structured output
   cursor-agent -p --force \
+    --model sonnet-4.5 \
     --output-format stream-json \
     "# Espanjapeli Development Task
 
@@ -40,14 +44,17 @@ Follow the Ralph Wiggum Protocol:
 
 $(if [[ -n "$TASK_ID" ]]; then echo "Focus on task $TASK_ID"; else echo "Pick the first available subtask with status 'not-started'"; fi)
 
+ITERATION: $i of $MAX_ITERS
+
 Rules:
 - ONLY WORK ON A SINGLE SUBTASK AT A TIME
 - Update todo.json status to 'in-progress' before starting
 - Task is NOT complete until tests pass (check testRequired field)
 - Append progress log to progress.txt with timestamps
 - Mark subtask 'completed' in todo.json when done
-- Make git commit after completing a subtask
-- When subtask is complete, print exactly: ${STOP_TOKEN}
+- When task and all subtasks of it are complete, do git commit
+- Check todo.json: if ANY task/subtask has status 'not-started', do NOT output stop token
+- ONLY when ALL tasks AND subtasks are 'completed', print exactly: ${STOP_TOKEN}
 
 Allowed log line formats for progress.txt:
 
@@ -60,26 +67,37 @@ HH:MM - Updated §filenames
 HH:MM - Tests pass §test_filename
 HH:MM - Tests fail §test_filename
 HH:MM - Installed package_name
+HH:MM - [Iteration N] Subtask X.Y complete
+
+IMPORTANT: After completing ONE subtask, if more work remains, end your response WITHOUT the stop token. The loop will continue.
 
 Work incrementally. Small, safe edits. Begin." \
     | tee ".ralph-iter-${i}.ndjson"
 
   echo ""
 
-  # 4) Commit any changes the agent made
-  if [[ -n "$(git status --porcelain)" ]]; then
-    git add -A
-    git commit -m "Ralph iteration $i"
-    echo "📝 Changes committed"
+  # Debug: extract result line for stop condition check
+  RESULT_LINE=$(grep '"type":"result"' ".ralph-iter-${i}.ndjson" 2>/dev/null || echo "")
+  
+  echo ""
+  echo "────────────────────────────────────────"
+  echo "🔍 DEBUG: Checking stop condition..."
+  if [[ -n "$RESULT_LINE" ]]; then
+    echo "   Result line found: ${#RESULT_LINE} chars"
+    if echo "$RESULT_LINE" | grep -q "$STOP_TOKEN"; then
+      echo "   ✓ Stop token FOUND in result"
+    else
+      echo "   ✗ Stop token NOT in result → continuing loop"
+    fi
   else
-    echo "ℹ️  No changes to commit"
+    echo "   ⚠ No result line found"
   fi
+  echo "────────────────────────────────────────"
 
-  # 5) Stop condition: check for STOP_TOKEN in result
-  if grep -q "\"type\":\"result\"" ".ralph-iter-${i}.ndjson" && \
-     grep -q "$STOP_TOKEN" ".ralph-iter-${i}.ndjson"; then
+  # Stop condition: check for STOP_TOKEN in the RESULT LINE ONLY (not whole file)
+  if [[ -n "$RESULT_LINE" ]] && echo "$RESULT_LINE" | grep -q "$STOP_TOKEN"; then
     echo ""
-    echo "✅ Stop token received. Loop complete."
+    echo "✅ Stop token received in agent result. Loop complete."
     break
   fi
 
@@ -87,6 +105,9 @@ Work incrementally. Small, safe edits. Begin." \
     echo ""
     echo "⚠️  Max iterations reached"
   fi
+  
+  echo ""
+  echo "🔄 Continuing to next iteration..."
 
   echo ""
 done

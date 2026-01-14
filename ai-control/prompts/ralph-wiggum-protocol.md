@@ -8,9 +8,9 @@ Allowed log line formats for progress.txt:
 
 ```
 HH:MM - Started Task X.Y 
-HH:MM - Task X.Y complete
+HH:MM - [Iteration N] Task X.Y complete
 HH:MM - Started Subtask X.Y 
-HH:MM - Subtask X.Y complete
+HH:MM - [Iteration N] Subtask X.Y complete
 HH:MM - Created §filenames
 HH:MM - Updated §filenames
 HH:MM - Tests pass §test_filename
@@ -46,13 +46,17 @@ DO NOT work silently. Output progress.
 ## Completion
 
 1. Mark subtask "completed" in todo.json
-2. Write to progress.txt
+2. Write to progress.txt (include iteration number if provided)
 3. Run `npm test` in svelte/ if code changed
-4. Output: `<promise>COMPLETE</promise>`
+4. Check todo.json for remaining work:
+   - If ANY task/subtask has status 'not-started' → END response (loop continues)
+   - ONLY if ALL tasks AND subtasks are 'completed' → Output: `<promise>COMPLETE</promise>`
 
-## Example
+## Example (more work remains)
 
 ```
+[Iteration 2 of 10]
+
 Planning...
 Read todo.json, selected Task 1.3
 
@@ -66,7 +70,16 @@ Tests pass.
 Marked 1.3 completed in todo.json
 Logged to progress.txt
 
-Done.
+Done. More tasks remain, ending iteration.
+```
+
+## Example (all work complete)
+
+```
+[Iteration 5 of 10]
+
+Checked todo.json - all tasks and subtasks are 'completed'.
+No more work to do.
 
 <promise>COMPLETE</promise>
 ```
