@@ -1,5 +1,5 @@
 {
-  "version": "4.1.0",
+  "version": "4.2.0",
   "lastUpdated": "2026-01-14",
   "humanReadable": "TODO.txt",
   "description": "UI/UX Polish Tasks - Mobile-First UI Polish & Finnish Language Consistency",
@@ -314,6 +314,282 @@
           "deliverable": "svelte/src/routes/pipsan-maailma/+page.svelte, svelte/src/routes/pipsan-ystavat/+page.svelte",
           "testRequired": true,
           "description": "Integrate kids widget into kids game pages"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Test Performance Analysis & Optimization Planning",
+      "todoTxtRef": "TASK 25: Test Performance Analysis & Optimization Planning (TODO.txt lines 327-449)",
+      "priority": 2,
+      "status": "pending",
+      "estimatedHours": 3.5,
+      "dependencies": [],
+      "subtasks": [
+        {
+          "id": "25.1",
+          "title": "Measure Current Test Performance",
+          "status": "pending",
+          "deliverable": "scripts/measure_test_performance.py, reports/test-performance-baseline.json, reports/test-performance-analysis.md",
+          "testRequired": false,
+          "description": "Create measurement script and establish baseline metrics"
+        },
+        {
+          "id": "25.2",
+          "title": "Analyze Test Implementation Patterns",
+          "status": "pending",
+          "deliverable": "reports/test-performance-analysis.md",
+          "testRequired": false,
+          "description": "Review vitest.config.ts and component test patterns for bottlenecks"
+        },
+        {
+          "id": "25.3",
+          "title": "Research Vitest Performance Optimization Strategies",
+          "status": "pending",
+          "deliverable": "reports/test-optimization-strategies.md",
+          "testRequired": false,
+          "description": "Research pool configuration, isolation, happy-dom vs jsdom, etc."
+        },
+        {
+          "id": "25.4",
+          "title": "Create Optimization Recommendations",
+          "status": "pending",
+          "deliverable": "reports/test-performance-analysis.md",
+          "testRequired": false,
+          "description": "Prioritized list of quick wins, medium effort, and large refactors"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Test Performance Optimization Implementation",
+      "todoTxtRef": "TASK 26: Test Performance Optimization Implementation (TODO.txt lines 452-597)",
+      "priority": 2,
+      "status": "pending",
+      "estimatedHours": 7,
+      "dependencies": [25],
+      "subtasks": [
+        {
+          "id": "26.1",
+          "title": "Implement Vitest Configuration Optimizations",
+          "status": "pending",
+          "deliverable": "svelte/vitest.config.ts, reports/test-performance-after-config.json",
+          "testRequired": true,
+          "description": "Update config with pool, isolate, maxConcurrency settings"
+        },
+        {
+          "id": "26.2",
+          "title": "Optimize Test Environment",
+          "status": "pending",
+          "deliverable": "svelte/vitest.config.ts, svelte/src/setupTests.ts, reports/test-performance-after-env.json",
+          "testRequired": true,
+          "description": "Evaluate happy-dom switch and optimize setupTests.ts"
+        },
+        {
+          "id": "26.3",
+          "title": "Refactor Slow Test Files",
+          "status": "pending",
+          "deliverable": "Multiple test files",
+          "testRequired": true,
+          "description": "Optimize slowest tests with reduced rendering and better mocks"
+        },
+        {
+          "id": "26.4",
+          "title": "Organize Test Structure",
+          "status": "pending",
+          "deliverable": "Test file organization, svelte/package.json",
+          "testRequired": true,
+          "description": "Separate unit/component/integration tests for better parallelization"
+        },
+        {
+          "id": "26.5",
+          "title": "Implement Mock Optimization",
+          "status": "pending",
+          "deliverable": "svelte/src/tests/mocks/commonMocks.ts, Multiple test files",
+          "testRequired": true,
+          "description": "Create shared mock factories to reduce recreation overhead"
+        },
+        {
+          "id": "26.6",
+          "title": "Final Performance Validation",
+          "status": "pending",
+          "deliverable": "reports/test-performance-final.json, reports/test-performance-comparison.md",
+          "testRequired": true,
+          "description": "Measure final performance and generate comparison report"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "V3 to V4 Data Model Migration Verification",
+      "todoTxtRef": "TASK 27: V3 to V4 Data Model Migration Verification (TODO.txt lines 600-816)",
+      "priority": 2,
+      "status": "pending",
+      "estimatedHours": 7,
+      "dependencies": [],
+      "subtasks": [
+        {
+          "id": "27.1",
+          "title": "Review Current Data Model Documentation",
+          "status": "pending",
+          "deliverable": "reports/v3-v4-datamodel-changes.md",
+          "testRequired": false,
+          "description": "Document V3 vs V4 differences and create validation checklist"
+        },
+        {
+          "id": "27.2",
+          "title": "Extend Story Data Validation Script",
+          "status": "pending",
+          "deliverable": "scripts/test_story_data_integrity.py, reports/story-validation-results.txt",
+          "testRequired": true,
+          "description": "Add tests for V3 legacy fields, V4 structure, vocabulary, dialogue, questions"
+        },
+        {
+          "id": "27.3",
+          "title": "Create Frequency Data Validation Script",
+          "status": "pending",
+          "deliverable": "scripts/validate_frequency_data.py, reports/frequency-validation-results.txt",
+          "testRequired": true,
+          "description": "Validate frequency JSON structure, ranks, CEFR levels, isTop* flags"
+        },
+        {
+          "id": "27.4",
+          "title": "Create Vocabulary Database Validation Script",
+          "status": "pending",
+          "deliverable": "scripts/validate_vocabulary_database.py, reports/vocabulary-validation-results.txt",
+          "testRequired": true,
+          "description": "Validate words.ts structure, cross-reference with frequency data"
+        },
+        {
+          "id": "27.5",
+          "title": "Create Story-Vocabulary Cross-Reference Validation",
+          "status": "pending",
+          "deliverable": "scripts/validate_story_vocabulary_crossref.py, reports/story-vocabulary-crossref-results.txt",
+          "testRequired": true,
+          "description": "Validate story vocabulary against dialogue and main database"
+        },
+        {
+          "id": "27.6",
+          "title": "Create Manifest Validation Script",
+          "status": "pending",
+          "deliverable": "scripts/validate_manifest.py, reports/manifest-validation-results.txt",
+          "testRequired": true,
+          "description": "Validate manifest sync with story files, check for orphans"
+        },
+        {
+          "id": "27.7",
+          "title": "Create Data Consistency Report",
+          "status": "pending",
+          "deliverable": "scripts/generate_data_consistency_report.py, reports/v4-data-consistency-report.md",
+          "testRequired": false,
+          "description": "Aggregate all validation results into single report"
+        },
+        {
+          "id": "27.8",
+          "title": "Fix Identified Issues",
+          "status": "pending",
+          "deliverable": "scripts/migrate_v3_to_v4_cleanup.py, Multiple data files",
+          "testRequired": true,
+          "description": "Fix data issues found by validation scripts"
+        },
+        {
+          "id": "27.9",
+          "title": "Update Documentation",
+          "status": "pending",
+          "deliverable": "scripts/validate_all_data.sh, scripts/README.md, ai-control/codebase.md",
+          "testRequired": false,
+          "description": "Document validation scripts and update codebase documentation"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Story Loading Performance Optimization",
+      "todoTxtRef": "TASK 28: Story Loading Performance Optimization (TODO.txt lines 818-1055)",
+      "priority": 1,
+      "status": "pending",
+      "estimatedHours": 3.5,
+      "dependencies": [],
+      "subtasks": [
+        {
+          "id": "28.1",
+          "title": "Analyze Current Loading Behavior",
+          "status": "pending",
+          "deliverable": "reports/story-loading-analysis.md",
+          "testRequired": false,
+          "description": "Document network requests, data transfer, time to interactive"
+        },
+        {
+          "id": "28.2",
+          "title": "Refactor Story List Page to Use Manifest Only",
+          "status": "pending",
+          "deliverable": "svelte/src/routes/tarinat/+page.svelte",
+          "testRequired": true,
+          "description": "Change from loadStories() to getStoryMetadata()"
+        },
+        {
+          "id": "28.3",
+          "title": "Update StoryCard Component (if needed)",
+          "status": "pending",
+          "deliverable": "svelte/src/lib/components/basic/stories/StoryCard.svelte",
+          "testRequired": true,
+          "description": "Update props to accept StoryMetadata instead of full Story"
+        },
+        {
+          "id": "28.4",
+          "title": "Implement On-Demand Story Loading",
+          "status": "pending",
+          "deliverable": "svelte/src/routes/tarinat/+page.svelte",
+          "testRequired": true,
+          "description": "Load full story when card is clicked with loading state"
+        },
+        {
+          "id": "28.5",
+          "title": "Verify Individual Story Route Still Works",
+          "status": "pending",
+          "deliverable": "svelte/src/routes/tarinat/[storyId]/+page.ts",
+          "testRequired": true,
+          "description": "Check individual story route doesn't cause performance issues"
+        },
+        {
+          "id": "28.6",
+          "title": "Remove or Update Deprecated loadStories() Function",
+          "status": "pending",
+          "deliverable": "svelte/src/lib/services/storyLoader.ts",
+          "testRequired": false,
+          "description": "Check usage and remove or update deprecation notice"
+        },
+        {
+          "id": "28.7",
+          "title": "Performance Testing and Validation",
+          "status": "pending",
+          "deliverable": "scripts/measure_story_loading_performance.py, reports/story-loading-analysis.md",
+          "testRequired": true,
+          "description": "Measure before/after performance improvements"
+        },
+        {
+          "id": "28.8",
+          "title": "Optimize Manifest Loading (Optional Enhancement)",
+          "status": "pending",
+          "deliverable": "Manifest optimization, caching headers, service worker",
+          "testRequired": false,
+          "description": "Consider manifest splitting, caching, offline support"
+        },
+        {
+          "id": "28.9",
+          "title": "Update Tests",
+          "status": "pending",
+          "deliverable": "svelte/src/routes/tarinat/tarinat.test.ts, svelte/src/lib/services/storyLoader.test.ts",
+          "testRequired": true,
+          "description": "Update tests to use getStoryMetadata() and verify lazy loading"
+        },
+        {
+          "id": "28.10",
+          "title": "Documentation and Best Practices",
+          "status": "pending",
+          "deliverable": "ai-control/codebase.md, reports/story-loading-best-practices.md",
+          "testRequired": false,
+          "description": "Document lazy loading pattern and best practices"
         }
       ]
     }

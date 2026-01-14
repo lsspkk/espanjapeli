@@ -321,3 +321,735 @@ TECHNICAL APPROACH:
    - Test kids UI on mobile devices
 
 ESTIMATED TIME: 8-12 hours (complex multi-component task)
+
+
+================================================================================
+TASK 25: Test Performance Analysis & Optimization Planning
+================================================================================
+
+DESCRIPTION:
+Analyze current Vitest test implementation to identify performance bottlenecks.
+The test suite has 59 test files with 201 describe blocks and 40 component tests
+using @testing-library/svelte. Tests are running slower than desired, especially
+individual unit tests. This task focuses on measuring current performance,
+identifying bottlenecks, and researching optimization strategies.
+
+CURRENT TEST SETUP:
+- Test runner: Vitest 4.0.16
+- Environment: jsdom (via happy-dom 20.0.11)
+- Component testing: @testing-library/svelte 5.3.1
+- Setup file: src/setupTests.ts (runs cleanup after each test)
+- Config: vitest.config.ts (no pool/thread/isolation config)
+- 40 component tests with DOM rendering
+- 20 tests using vi.mock()
+- 34 tests using beforeEach/afterEach hooks
+
+OBJECTIVES:
+
+□ SUBTASK 25.1: Measure Current Test Performance
+  - Create Python script: scripts/measure_test_performance.py
+  - Script should measure:
+    * Individual test file execution time (sample 10-15 files)
+    * Full test suite execution time
+    * Unit tests vs component tests vs integration tests separately
+    * Tests with mocks vs without mocks
+  - Run measurements 3 times and calculate average
+  - Save baseline measurements to: reports/test-performance-baseline.json
+  - Generate human-readable report: reports/test-performance-analysis.md
+  - Include in report:
+    * Slowest 10 test files
+    * Average time per test type (unit/component/integration)
+    * Total test suite time
+    * Breakdown by test category
+
+□ SUBTASK 25.2: Analyze Test Implementation Patterns
+  - Review vitest.config.ts for missing optimizations:
+    * Check if pool configuration is missing (threads/forks)
+    * Check if isolate option could help
+    * Check if fileParallelism is configured
+    * Check if maxConcurrency is set
+  - Analyze component test patterns:
+    * How many tests render full Svelte components?
+    * Are tests cleaning up properly?
+    * Are mocks being reused or recreated?
+    * Is setupTests.ts causing overhead?
+  - Review test file organization:
+    * Are integration tests mixed with unit tests?
+    * Could tests be better organized for parallel execution?
+  - Document findings in: reports/test-performance-analysis.md
+
+□ SUBTASK 25.3: Research Vitest Performance Optimization Strategies
+  - Research and document solutions for:
+    1. Vitest pool configuration (threads vs forks vs vmThreads)
+       - When to use each pool type
+       - Impact on test isolation
+       - Performance tradeoffs
+    2. Test isolation strategies
+       - isolate: true vs false
+       - Impact on test reliability
+       - When to disable isolation
+    3. Happy-dom vs jsdom performance
+       - Benchmark both environments
+       - Consider switching to happy-dom fully
+    4. Component test optimization
+       - Reduce DOM rendering overhead
+       - Mock heavy dependencies
+       - Use lightweight test utilities
+    5. Test file organization
+       - Separate fast unit tests from slow integration tests
+       - Use test.sequential() for tests that must run in order
+       - Group related tests to share setup
+    6. Vitest configuration options
+       - maxConcurrency settings
+       - fileParallelism
+       - testTimeout adjustments
+       - globals vs explicit imports
+  - Document each strategy with:
+    * Expected performance improvement
+    * Implementation complexity
+    * Potential risks/tradeoffs
+    * Recommended priority
+  - Save research to: reports/test-optimization-strategies.md
+
+□ SUBTASK 25.4: Create Optimization Recommendations
+  - Based on measurements and research, create prioritized list:
+    1. Quick wins (< 1 hour, significant impact)
+    2. Medium effort (1-3 hours, moderate impact)
+    3. Large refactors (> 3 hours, major impact)
+  - For each recommendation include:
+    * Specific configuration changes needed
+    * Expected performance improvement (% or seconds)
+    * Files that need modification
+    * Testing strategy to verify improvement
+    * Risk assessment
+  - Add recommendations to: reports/test-performance-analysis.md
+
+DELIVERABLES:
+□ scripts/measure_test_performance.py - Performance measurement script
+□ reports/test-performance-baseline.json - Baseline measurements
+□ reports/test-performance-analysis.md - Analysis report with:
+  - Current performance metrics
+  - Bottleneck identification
+  - Test implementation patterns
+  - Vitest config analysis
+□ reports/test-optimization-strategies.md - Research findings with:
+  - Vitest optimization techniques
+  - Component testing best practices
+  - Prioritized recommendations
+
+MEASUREMENT SCRIPT REQUIREMENTS:
+- Use Python 3.x with subprocess module
+- Run tests with: npm test -- --run <file>
+- Capture execution time from Vitest output
+- Handle test failures gracefully
+- Output JSON for machine parsing
+- Output markdown for human reading
+- Allow specifying which tests to measure
+
+ESTIMATED TIME: 3-4 hours
+
+
+================================================================================
+TASK 26: Test Performance Optimization Implementation
+================================================================================
+
+DESCRIPTION:
+Implement test performance optimizations based on findings from Task 25.
+This task will use the baseline measurements, analysis report, and research
+findings to make targeted improvements to test execution speed. Large test
+refactors are allowed if test setup needs fixing.
+
+PREREQUISITES:
+- Task 25 must be completed first
+- Baseline measurements available in reports/test-performance-baseline.json
+- Optimization strategies documented in reports/test-optimization-strategies.md
+
+OBJECTIVES:
+
+□ SUBTASK 26.1: Implement Vitest Configuration Optimizations
+  - Update vitest.config.ts based on Task 25 findings:
+    * Add pool configuration (threads/forks/vmThreads)
+    * Configure isolate option appropriately
+    * Set maxConcurrency based on CPU cores
+    * Enable fileParallelism if beneficial
+    * Adjust testTimeout if needed
+  - Test configuration changes:
+    * Run full test suite
+    * Verify all tests still pass
+    * Measure new execution time
+    * Compare to baseline from Task 25
+  - Document changes in git commit message
+  - Save new measurements to: reports/test-performance-after-config.json
+
+□ SUBTASK 26.2: Optimize Test Environment
+  - Evaluate switching from jsdom to happy-dom:
+    * Update vitest.config.ts environment setting
+    * Run all component tests to verify compatibility
+    * Measure performance improvement
+  - Optimize setupTests.ts:
+    * Review cleanup overhead
+    * Consider conditional cleanup
+    * Add shared test utilities if beneficial
+  - Measure impact:
+    * Run component tests specifically
+    * Compare to baseline
+    * Save to: reports/test-performance-after-env.json
+
+□ SUBTASK 26.3: Refactor Slow Test Files
+  - Based on Task 25 slowest test files list:
+    * Identify tests that can be optimized
+    * Reduce unnecessary DOM rendering
+    * Mock heavy dependencies (TTS, fetch, stores)
+    * Split large integration tests into smaller units
+    * Use test.concurrent() where appropriate
+  - For each refactored file:
+    * Measure before/after performance
+    * Ensure test coverage remains same
+    * Document changes in comments
+  - Target files (from analysis):
+    * Integration tests (likely slowest)
+    * Component tests with many mocks
+    * Tests with heavy beforeEach/afterEach
+
+□ SUBTASK 26.4: Organize Test Structure
+  - Separate test types for better parallelization:
+    * Fast unit tests (services, utils)
+    * Medium component tests (UI components)
+    * Slow integration tests (full page flows)
+  - Consider creating test categories:
+    * src/tests/unit/ - Pure function tests
+    * src/tests/component/ - Component rendering tests
+    * src/tests/integration/ - Full flow tests
+  - Update vitest.config.ts to support test filtering:
+    * Add test name patterns
+    * Allow running test categories separately
+  - Update package.json scripts:
+    * npm test:unit - Fast unit tests only
+    * npm test:component - Component tests only
+    * npm test:integration - Integration tests only
+    * npm test - All tests (existing)
+
+□ SUBTASK 26.5: Implement Mock Optimization
+  - Review vi.mock() usage (20 files identified):
+    * Move common mocks to test utilities
+    * Create shared mock factories
+    * Reduce mock recreation overhead
+  - Create: src/tests/mocks/commonMocks.ts
+    * Mock for $app/paths
+    * Mock for $app/stores
+    * Mock for TTS service
+    * Mock for vocabularyService
+    * Mock for fetch
+  - Update test files to use shared mocks
+  - Measure impact on test execution time
+
+□ SUBTASK 26.6: Final Performance Validation
+  - Run complete test suite with all optimizations
+  - Measure final performance:
+    * Individual test files (same sample as baseline)
+    * Full test suite
+    * Each test category
+  - Save final measurements to: reports/test-performance-final.json
+  - Generate comparison report: reports/test-performance-comparison.md
+    * Baseline vs final metrics
+    * Performance improvement percentage
+    * Time saved per test run
+    * Breakdown by optimization type
+  - Create summary for user:
+    * Total time improvement
+    * Most effective optimizations
+    * Remaining bottlenecks (if any)
+    * Recommendations for future improvements
+
+AFFECTED FILES:
+- svelte/vitest.config.ts (configuration)
+- svelte/src/setupTests.ts (test setup)
+- svelte/package.json (test scripts)
+- Multiple test files (refactoring)
+- svelte/src/tests/mocks/commonMocks.ts (NEW - shared mocks)
+- Test file organization (potential restructuring)
+
+MEASUREMENT REQUIREMENTS:
+- Use same measurement script from Task 25
+- Measure after each subtask
+- Compare to baseline after each change
+- Document which changes had most impact
+- Allow rollback if optimization degrades performance
+
+SUCCESS CRITERIA:
+- Full test suite runs at least 20% faster
+- Individual unit tests run at least 30% faster
+- All tests still pass
+- No reduction in test coverage
+- Test reliability maintained (no flaky tests)
+
+ROLLBACK PLAN:
+- If optimization causes test failures:
+  * Revert specific change
+  * Document why it failed
+  * Try alternative approach
+- If performance degrades:
+  * Measure which change caused regression
+  * Revert that change
+  * Document findings
+
+ESTIMATED TIME: 6-8 hours (includes measurement, implementation, validation)
+
+
+================================================================================
+TASK 27: V3 to V4 Data Model Migration Verification
+================================================================================
+
+DESCRIPTION:
+Verify all static data files are correct and match the current V4 data model.
+Between V3 and V4, significant data model changes were made to stories,
+vocabulary, and frequency data. This task ensures all JSON files are properly
+migrated, validated, and consistent with TypeScript type definitions.
+
+CONTEXT:
+- V4 introduced CEFR levels (A1, A2, B1, B2) for stories
+- V4 added frequency data integration (top 5000 Spanish words)
+- V4 enhanced vocabulary with linguistic metadata (partOfSpeech, gender)
+- V4 changed story structure (added estimatedMinutes, wordCount, etc.)
+- Some story files may still have V3 fields (difficulty, old categories)
+- Manifest must be in sync with individual story files
+
+EXISTING VALIDATION:
+- scripts/test_story_data_integrity.py (pytest-based validation)
+  * Validates story level fields
+  * Checks manifest sync with story files
+  * Validates categories
+  * Checks required fields
+
+OBJECTIVES:
+
+□ SUBTASK 27.1: Review Current Data Model Documentation
+  - Read docs/V4_DATAMODEL_IDEAS.md for V4 changes
+  - Review svelte/src/lib/types/story.ts for Story interface
+  - Review svelte/src/lib/data/words.ts for Word interface
+  - Document V3 vs V4 differences in: reports/v3-v4-datamodel-changes.md
+  - List all fields that changed:
+    * Removed fields (e.g., difficulty)
+    * Added fields (e.g., level, estimatedMinutes)
+    * Renamed fields
+    * Changed types
+  - Create checklist of what needs validation
+
+□ SUBTASK 27.2: Extend Story Data Validation Script
+  - Enhance scripts/test_story_data_integrity.py:
+    * Add test for V3 legacy fields (should not exist):
+      - difficulty field (replaced by level)
+      - Old category values not in V4 StoryCategory type
+    * Add test for V4 optional fields consistency:
+      - If estimatedMinutes exists, should be > 0
+      - If wordCount exists, should match actual dialogue word count
+      - If vocabularyCount exists in manifest, should match vocabulary array length
+      - If questionCount exists in manifest, should match questions array length
+    * Add test for vocabulary field structure:
+      - Each vocabulary item has spanish and finnish
+      - Optional fields (partOfSpeech, gender, cefrLevel) have valid values
+      - No empty strings
+    * Add test for dialogue structure:
+      - Each dialogue line has speaker, spanish, finnish
+      - No empty strings
+      - Speaker names are consistent within story
+    * Add test for questions structure:
+      - Each question has id, question, options, correctIndex
+      - options array has exactly 4 items
+      - correctIndex is 0-3
+      - No duplicate question IDs within story
+  - Run enhanced validation: pytest scripts/test_story_data_integrity.py -v
+  - Save results to: reports/story-validation-results.txt
+
+□ SUBTASK 27.3: Create Frequency Data Validation Script
+  - Create: scripts/validate_frequency_data.py
+  - Validate static/data/frequency-spanish-top5000.json:
+    * Check structure: version, source, license, words object
+    * Validate each word entry has: rank, count, cefr, isTop* flags
+    * Check rank sequence: 1 to 5000 (no gaps, no duplicates)
+    * Validate CEFR levels are valid: A1, A2, B1, B2, C1, C2
+    * Validate isTop* flags are consistent:
+      - isTop100 true only for rank 1-100
+      - isTop500 true only for rank 1-500
+      - isTop1000 true only for rank 1-1000
+      - isTop3000 true only for rank 1-3000
+      - isTop5000 true for all
+    * Check no duplicate words
+  - Validate static/data/frequency-spanish-top1000.json similarly
+  - Run with pytest: pytest scripts/validate_frequency_data.py -v
+  - Save results to: reports/frequency-validation-results.txt
+
+□ SUBTASK 27.4: Create Vocabulary Database Validation Script
+  - Create: scripts/validate_vocabulary_database.py
+  - Validate svelte/src/lib/data/words.ts structure:
+    * Parse TypeScript file to extract word data (use regex or simple parser)
+    * Alternative: Create JSON export of words.ts for validation
+  - Validate each word entry:
+    * Has required fields: spanish, english, finnish
+    * No empty strings
+    * If frequency field exists, validate structure matches FrequencyData
+    * If linguistic field exists, validate partOfSpeech and gender values
+    * Check for duplicate spanish words across all categories
+  - Cross-reference with frequency data:
+    * For words with frequency.rank, verify rank exists in frequency JSON
+    * Check if high-frequency words (top 1000) are in vocabulary database
+    * Report coverage: what % of top 1000 words are in vocabulary
+  - Run validation and save results to: reports/vocabulary-validation-results.txt
+
+□ SUBTASK 27.5: Create Story-Vocabulary Cross-Reference Validation
+  - Create: scripts/validate_story_vocabulary_crossref.py
+  - For each story file:
+    * Extract all Spanish words from dialogue
+    * Extract vocabulary list from story
+    * Check if key dialogue words are in vocabulary list
+    * Identify missing vocabulary entries (words in dialogue but not in vocab list)
+  - Cross-reference story vocabulary with main vocabulary database:
+    * Check if story vocabulary words exist in words.ts
+    * Check if frequency data is available for story vocabulary
+    * Report stories with low-frequency vocabulary (may be too hard)
+  - Validate vocabulary translations:
+    * Check if Finnish translations are consistent across stories
+    * Report conflicts (same Spanish word with different Finnish translations)
+  - Save results to: reports/story-vocabulary-crossref-results.txt
+
+□ SUBTASK 27.6: Create Manifest Validation Script
+  - Create: scripts/validate_manifest.py
+  - Validate static/stories/manifest.json:
+    * Check version and lastUpdated fields
+    * Validate stories array structure
+  - For each manifest entry:
+    * Verify corresponding story file exists at correct path
+    * Verify all metadata matches story file:
+      - id, title, titleSpanish, level, category, icon
+      - wordCount, estimatedMinutes (if present)
+      - vocabularyCount should match vocabulary array length
+      - questionCount should match questions array length
+    * Check for orphaned story files (files not in manifest)
+    * Check for missing story files (in manifest but file doesn't exist)
+  - Validate manifest completeness:
+    * All story files in static/stories/*/*.json are in manifest
+    * No duplicate story IDs
+    * Stories are organized by level folders correctly
+  - Run validation and save results to: reports/manifest-validation-results.txt
+
+□ SUBTASK 27.7: Create Data Consistency Report
+  - Create: scripts/generate_data_consistency_report.py
+  - Aggregate all validation results into single report
+  - Generate: reports/v4-data-consistency-report.md with:
+    * Summary of all validations (pass/fail counts)
+    * List of all issues found, grouped by severity:
+      - CRITICAL: Data model violations, missing required fields
+      - WARNING: Inconsistencies, missing optional fields
+      - INFO: Recommendations for improvements
+    * Statistics:
+      - Total stories by level (A1, A2, B1, B2)
+      - Total vocabulary words in database
+      - Frequency data coverage
+      - Story vocabulary coverage
+    * Action items for fixing issues
+  - If critical issues found, list them in summary
+  - If no issues found, confirm data integrity
+
+□ SUBTASK 27.8: Fix Identified Issues
+  - Based on validation reports, fix data issues:
+    * Remove V3 legacy fields from story files
+    * Fix incorrect CEFR levels
+    * Fix manifest mismatches
+    * Add missing required fields
+    * Fix vocabulary inconsistencies
+  - Create migration script if many files need fixing:
+    * scripts/migrate_v3_to_v4_cleanup.py
+    * Automate common fixes
+    * Generate backup before running
+  - Re-run all validation scripts after fixes
+  - Confirm all tests pass
+
+□ SUBTASK 27.9: Update Documentation
+  - Update ai-control/codebase.md if data model description is outdated
+  - Document validation scripts in scripts/README.md (if exists, else create)
+  - Add validation to CI/CD if applicable
+  - Document how to run validation suite:
+    * Create scripts/validate_all_data.sh
+    * Runs all validation scripts
+    * Exits with error if any validation fails
+
+AFFECTED FILES:
+- svelte/static/stories/**/*.json (all story files)
+- svelte/static/stories/manifest.json
+- svelte/static/data/frequency-spanish-*.json
+- svelte/src/lib/data/words.ts
+- scripts/test_story_data_integrity.py (enhance existing)
+- scripts/validate_frequency_data.py (NEW)
+- scripts/validate_vocabulary_database.py (NEW)
+- scripts/validate_story_vocabulary_crossref.py (NEW)
+- scripts/validate_manifest.py (NEW)
+- scripts/generate_data_consistency_report.py (NEW)
+- scripts/migrate_v3_to_v4_cleanup.py (NEW - if needed)
+- scripts/validate_all_data.sh (NEW)
+- reports/v3-v4-datamodel-changes.md (NEW)
+- reports/story-validation-results.txt (NEW)
+- reports/frequency-validation-results.txt (NEW)
+- reports/vocabulary-validation-results.txt (NEW)
+- reports/story-vocabulary-crossref-results.txt (NEW)
+- reports/manifest-validation-results.txt (NEW)
+- reports/v4-data-consistency-report.md (NEW)
+
+VALIDATION SCRIPT REQUIREMENTS:
+- Use Python 3.x with pytest framework
+- Each script should be runnable standalone
+- Use pathlib for file operations
+- Handle missing files gracefully
+- Provide clear error messages
+- Output both machine-readable (JSON) and human-readable (text) results
+- Exit with non-zero code if validation fails
+
+SUCCESS CRITERIA:
+- All validation scripts pass without errors
+- No V3 legacy fields remain in story files
+- All story files match V4 data model
+- Manifest is 100% in sync with story files
+- Frequency data is valid and consistent
+- Vocabulary database has no duplicates or invalid entries
+- Story vocabulary is properly cross-referenced
+
+ESTIMATED TIME: 6-8 hours (validation scripts + fixes)
+
+
+================================================================================
+TASK 28: Story Loading Performance Optimization
+================================================================================
+
+DESCRIPTION:
+The stories game mode (/tarinat) takes approximately 5 seconds to load on the
+home page. Network tab analysis shows that ALL individual story JSON files are
+being loaded even though only the story list is displayed. This is inefficient -
+only the manifest should be loaded for the home page, with individual stories
+loaded on-demand when selected.
+
+ROOT CAUSE ANALYSIS:
+The issue is in svelte/src/routes/tarinat/+page.svelte line 64:
+```
+stories = await loadStories();
+```
+
+The loadStories() function (storyLoader.ts lines 103-115) is marked as
+@deprecated but still being used. It loads ALL stories by:
+1. Loading manifest
+2. Iterating through all story IDs
+3. Calling loadStoryById() for EACH story
+4. This triggers 50+ individual JSON fetch requests
+
+CORRECT APPROACH:
+The home page only needs metadata (title, level, icon, description) to display
+story cards. This metadata is already in manifest.json. Individual story files
+should only be loaded when a user clicks on a story card.
+
+OBJECTIVES:
+
+□ SUBTASK 28.1: Analyze Current Loading Behavior
+  - Open browser DevTools Network tab
+  - Navigate to /tarinat route
+  - Document current behavior in: reports/story-loading-analysis.md
+    * Number of network requests
+    * Total data transferred
+    * Time to interactive
+    * Which files are loaded
+  - Take screenshot of Network tab waterfall
+  - Identify unnecessary requests
+  - Calculate potential savings if only manifest is loaded
+
+□ SUBTASK 28.2: Refactor Story List Page to Use Manifest Only
+  - Modify: svelte/src/routes/tarinat/+page.svelte
+  - Change line 64 from:
+    ```
+    stories = await loadStories();
+    ```
+    To:
+    ```
+    const metadata = await getStoryMetadata();
+    stories = metadata; // Use metadata for display
+    ```
+  - Update type declarations:
+    * Change `stories: Story[]` to `stories: StoryMetadata[]`
+    * Import StoryMetadata type from storyLoader
+  - Update StoryCard component usage:
+    * Check if StoryCard accepts StoryMetadata or requires full Story
+    * If it requires full Story, modify StoryCard to accept StoryMetadata
+  - Update filter/sort logic:
+    * Ensure filteredStories works with StoryMetadata
+    * All displayed fields (title, level, icon, description) are in metadata
+
+□ SUBTASK 28.3: Update StoryCard Component (if needed)
+  - Check: svelte/src/lib/components/basic/stories/StoryCard.svelte
+  - If component expects full Story object:
+    * Change props to accept StoryMetadata instead
+    * Verify all displayed fields are available in metadata:
+      - title, titleSpanish, level, category, icon
+      - description, wordCount, estimatedMinutes
+    * Remove dependencies on fields not in metadata:
+      - dialogue, vocabulary, questions (not needed for card display)
+  - Update TypeScript types
+  - Ensure onClick handler still works (only needs story ID)
+
+□ SUBTASK 28.4: Implement On-Demand Story Loading
+  - Modify selectStory() function in +page.svelte:
+    * Currently receives Story object
+    * Change to receive story ID or StoryMetadata
+    * Load full story when card is clicked:
+      ```
+      async function selectStory(metadata: StoryMetadata) {
+        loading = true;
+        const fullStory = await loadStoryById(metadata.id);
+        if (fullStory) {
+          selectedStory = fullStory;
+          gameState = 'reading';
+        }
+        loading = false;
+      }
+      ```
+  - Add loading state while fetching individual story
+  - Handle error if story fails to load
+  - Show loading spinner or skeleton while fetching
+
+□ SUBTASK 28.5: Verify Individual Story Route Still Works
+  - Check: svelte/src/routes/tarinat/[storyId]/+page.ts
+  - Currently imports stories.json directly (line 7)
+  - This is fine for individual story pages
+  - Verify this route doesn't cause performance issues
+  - Consider if this should also use lazy loading:
+    * Option A: Keep current approach (preload for static generation)
+    * Option B: Use loadStoryById() for dynamic loading
+    * Decision depends on deployment strategy (static vs SSR)
+
+□ SUBTASK 28.6: Remove or Update Deprecated loadStories() Function
+  - In storyLoader.ts, the loadStories() function is marked @deprecated
+  - After refactoring, check if it's still used anywhere:
+    ```bash
+    grep -r "loadStories()" svelte/src/
+    ```
+  - If only used in tests:
+    * Update tests to use getStoryMetadata() + loadStoryById()
+  - If not used anywhere:
+    * Consider removing the function
+    * Or keep with clear deprecation notice
+  - Update JSDoc comments to guide developers
+
+□ SUBTASK 28.7: Performance Testing and Validation
+  - Test the refactored code:
+    * Clear browser cache
+    * Navigate to /tarinat
+    * Measure performance in DevTools Network tab
+  - Document improvements in: reports/story-loading-analysis.md
+    * Before: Number of requests, total size, load time
+    * After: Number of requests, total size, load time
+    * Improvement: Percentage reduction in each metric
+  - Test user flow:
+    * Story list loads quickly
+    * Clicking a story card loads individual story
+    * Reading and questions work correctly
+    * Navigation between stories works
+    * Filter/sort still works
+  - Test on slow network (DevTools throttling):
+    * Slow 3G simulation
+    * Verify perceived performance improvement
+  - Create comparison measurements:
+    * Use Python script: scripts/measure_story_loading_performance.py
+    * Automate before/after measurements
+    * Generate report
+
+□ SUBTASK 28.8: Optimize Manifest Loading (Optional Enhancement)
+  - If manifest.json is large (>100KB):
+    * Consider splitting into level-specific manifests
+    * manifest-a1.json, manifest-a2.json, etc.
+    * Load only relevant manifest based on filter
+  - Add manifest caching headers:
+    * Check static file serving configuration
+    * Ensure manifest is cached by browser
+  - Consider service worker for offline support:
+    * Cache manifest for offline access
+    * Pre-cache popular stories
+
+□ SUBTASK 28.9: Update Tests
+  - Update affected tests:
+    * svelte/src/routes/tarinat/tarinat.test.ts
+    * svelte/src/lib/services/storyLoader.test.ts
+  - Mock getStoryMetadata() instead of loadStories()
+  - Ensure tests verify lazy loading behavior
+  - Add test for loading individual story on card click
+  - Verify error handling when story fails to load
+
+□ SUBTASK 28.10: Documentation and Best Practices
+  - Update ai-control/codebase.md:
+    * Document lazy loading pattern
+    * Explain manifest vs full story loading
+  - Add code comments in storyLoader.ts:
+    * Clarify when to use each function
+    * getStoryMetadata() - for lists and previews
+    * loadStoryById() - for full story content
+    * loadStories() - deprecated, avoid using
+  - Create developer guide:
+    * reports/story-loading-best-practices.md
+    * When to load manifest only
+    * When to load full stories
+    * Performance considerations
+
+AFFECTED FILES:
+- svelte/src/routes/tarinat/+page.svelte (main refactor)
+- svelte/src/lib/components/basic/stories/StoryCard.svelte (props update)
+- svelte/src/lib/services/storyLoader.ts (deprecation/removal)
+- svelte/src/routes/tarinat/tarinat.test.ts (test updates)
+- svelte/src/lib/services/storyLoader.test.ts (test updates)
+- scripts/measure_story_loading_performance.py (NEW - measurement script)
+- reports/story-loading-analysis.md (NEW - before/after analysis)
+- reports/story-loading-best-practices.md (NEW - developer guide)
+
+EXPECTED IMPROVEMENTS:
+- Network requests: 50+ requests → 1 request (manifest only)
+- Data transferred: ~500KB → ~10KB (manifest is much smaller)
+- Load time: ~5 seconds → <500ms
+- Time to interactive: Much faster
+- User experience: Instant story list display
+
+CODE CHANGES SUMMARY:
+
+**Before (slow):**
+```typescript
+// +page.svelte
+stories = await loadStories(); // Loads ALL stories
+```
+
+**After (fast):**
+```typescript
+// +page.svelte
+const metadata = await getStoryMetadata(); // Loads manifest only
+stories = metadata;
+
+async function selectStory(meta: StoryMetadata) {
+  const story = await loadStoryById(meta.id); // Load on-demand
+  if (story) {
+    selectedStory = story;
+    gameState = 'reading';
+  }
+}
+```
+
+TESTING CHECKLIST:
+□ Story list displays correctly with metadata
+□ Clicking story card loads individual story
+□ Loading spinner shows while fetching story
+□ Error handling works if story fails to load
+□ Filter by level still works
+□ Sort alphabetically still works
+□ Navigation between stories works
+□ All tests pass
+□ Network tab shows only 1 request for story list
+□ Performance improvement is measurable
+
+ROLLBACK PLAN:
+If issues occur:
+- Revert +page.svelte changes
+- Keep using loadStories() temporarily
+- Investigate why lazy loading failed
+- Fix issues and retry
+
+ESTIMATED TIME: 3-4 hours (straightforward refactor with testing)
