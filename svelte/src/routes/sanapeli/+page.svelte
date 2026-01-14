@@ -37,6 +37,7 @@
 	import CategoryPicker from '$lib/components/basic/modals/CategoryPicker.svelte';
 	import Sanakirja from '$lib/components/basic/modals/Sanakirja.svelte';
 	import GameLengthSelector from '$lib/components/basic/input/GameLengthSelector.svelte';
+	import FrequencySummary from '$lib/components/basic/report/FrequencySummary.svelte';
 	import { 
 		getAvailableWords,
 		prepareNextGameWords,
@@ -1087,6 +1088,11 @@
 					</div>
 				</div>
 			</div>
+
+			<!-- Frequency Summary -->
+			{#if upcomingWords.length > 0}
+				<FrequencySummary words={upcomingWords} />
+			{/if}
 
 			<!-- Wrong Answers -->
 			{#if wrongAnswers.length > 0}

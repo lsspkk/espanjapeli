@@ -1,5 +1,7 @@
 <script lang="ts">
 	import WrongAnswersList from './WrongAnswersList.svelte';
+	import FrequencySummary from './FrequencySummary.svelte';
+	import type { Word } from '$lib/data/words';
 
 	export let title: string = '🎉 Peli päättyi!';
 	export let gameTime: string = '';
@@ -10,6 +12,7 @@
 	export let totalScore: number = 0;
 	export let maxScore: number = 0;
 	export let wrongAnswers: Array<{ spanish: string; finnish: string; userAnswer?: string }> = [];
+	export let gameWords: Word[] = [];
 	export let onHome: () => void = () => {};
 	export let onPlayAgain: (() => void) | undefined = undefined;
 
@@ -61,6 +64,11 @@
 					</div>
 				</div>
 			</div>
+
+			<!-- Frequency Summary -->
+			{#if gameWords.length > 0}
+				<FrequencySummary words={gameWords} />
+			{/if}
 
 		<!-- Wrong Answers -->
 		<WrongAnswersList answers={wrongAnswers} />
