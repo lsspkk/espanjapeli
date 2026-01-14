@@ -957,6 +957,8 @@
 						<QuestionCard 
 							text={currentWord ? getQuestionText(currentWord) : ''}
 							onSpeak={speakCurrentWord}
+							spanishWord={currentWord?.spanish}
+							showFrequencyBadge={true}
 						/>
 					</div>
 				</div>

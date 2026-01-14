@@ -1,0 +1,181 @@
+
+---
+mode: 'agent'
+model: claude-sonnet-4.5
+description: 'Generate codebase.md - a concise overview of Espanjapeli for AI agents'
+---
+
+# Codebase Initialization
+
+## Purpose
+Analyze the Espanjapeli Svelte language learning application and generate `ai-control/codebase.md` - a concise technical reference document for AI agents working on this project.
+
+## Target Output
+Create a ~300-500 line markdown file that serves as the primary reference for understanding:
+- Project structure and architecture
+- Game modes and their implementations
+- Key components, services, and utilities
+- Data flow and state management
+- Development workflows
+
+## What to Analyze
+
+### Svelte Application (`svelte/src/`)
+**Primary focus:**
+- Game mode routes (`routes/*/+page.svelte`)
+- Component library (`lib/components/`)
+- Services (`lib/services/`)
+- Type definitions (`lib/types/`)
+- State management patterns (Svelte 5 runes)
+
+### Supporting Materials
+- **`scripts/`** - Data generation, translations, SVG utilities
+- **`docs/`** - Version plans, roadmaps, TODOs
+- **`static/`** - Assets (images, manifests, audio)
+
+## Document Structure
+
+```markdown
+# Espanjapeli - Language Learning Game Platform
+Generated: [date]
+
+## Overview
+[2-3 sentences: what this is, tech stack, purpose]
+
+## Project Structure
+[Concise tree showing key directories]
+
+## Game Modes
+| Mode | Route | Type | Description |
+[Table of all game types]
+
+## Architecture
+
+### Tech Stack
+- Svelte 5 (runes: $state, $derived, $effect)
+- TypeScript
+- Vite
+
+### Data Flow
+[Simple ASCII diagram showing: static data → services → components → UI]
+
+### Key Patterns
+- [Pattern 1]
+- [Pattern 2]
+
+## Core Components
+
+### Layout Components
+[List with 1-line descriptions]
+
+### Game Components
+[Organized by game type: kids/basic]
+
+### Feedback & UI
+[Celebration, feedback, scoring components]
+
+## Services
+
+### `[serviceName].ts`
+Purpose: [1 sentence]
+Key methods: [list]
+
+[Repeat for each service]
+
+## Key Types
+```typescript
+// Essential interfaces only
+[4-6 most important type definitions]
+```
+
+## Content Pipeline
+
+### Scripts
+- `generate_*.py` - [purpose]
+- `translate_*.py` - [purpose]
+- `svg_*.py` - [purpose]
+
+### Workflow
+[3-5 step process for adding content]
+
+## State Management
+- LocalStorage: [what's persisted]
+- Session: [what's tracked]
+- Reactive: [Svelte runes usage]
+
+## Development
+
+### Run locally
+```bash
+cd svelte
+npm install
+npm run dev
+```
+
+### Key files
+- `svelte.config.js` - [purpose]
+- `vite.config.ts` - [purpose]
+
+### Testing
+[Where tests are, how to run]
+
+## Documentation
+- `docs/V4_*` - Current version plans
+- `docs/V3_*` - Previous version
+- `ai-control/` - AI agent instructions
+
+## Technical Debt & TODOs
+[3-5 key items from docs]
+
+---
+Version: 1.0 | Generated: [date]
+```
+
+## Analysis Instructions
+
+1. **Start broad, go specific**
+   - List directories with `list_dir`
+   - Search for game routes: `file_search **/**/+page.svelte`
+   - Identify component categories: `list_dir svelte/src/lib/components`
+
+2. **Read strategically**
+   - Game mode files (understand patterns)
+   - Main services (core business logic)
+   - Key type definitions
+   - Don't read every component line-by-line
+
+3. **Extract patterns, not details**
+   - What's the component naming convention?
+   - How are props passed?
+   - What's the game loop structure?
+   - Common utility functions?
+
+4. **Keep it actionable**
+   - Focus on "what" and "why", not "how" (unless critical)
+   - Include enough detail to orient a new dev
+   - Prioritize information agents need for editing code
+
+## Version Management
+
+Before creating new `codebase.md`:
+```bash
+# If file exists, backup with version number
+if [ -f ai-control/codebase.md ]; then
+  mv ai-control/codebase.md docs/status/codebase-v$(date +%Y%m%d-%H%M%S).md
+fi
+```
+
+## Quality Checklist
+- [ ] Under 500 lines
+- [ ] All game modes identified
+- [ ] Key services explained
+- [ ] Component structure clear
+- [ ] Development workflow included
+- [ ] Links to detailed docs
+- [ ] No TODO/placeholder text
+- [ ] Concise, scannable format
+
+---
+**Prompt Version:** 2.0  
+**Updated:** 2026-01-14  
+**Model:** Similar to Claude's `/init` command output

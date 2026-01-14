@@ -55,6 +55,28 @@ vi.mock('$lib/utils/array', () => ({
 	spreadOutDuplicates: (arr: any[]) => [...arr]
 }));
 
+vi.mock('./vocabularyService', () => ({
+	getWordsMetadata: async (words: string[]) => {
+		const map = new Map();
+		words.forEach((word, index) => {
+			// Mark first 5 words as top 1000 for testing
+			const isTop1000 = index < 5;
+			map.set(word, {
+				spanish: word,
+				frequencyRank: isTop1000 ? index + 1 : index + 1000,
+				cefrLevel: isTop1000 ? 'A1' : 'B1',
+				isTop100: false,
+				isTop500: false,
+				isTop1000: isTop1000,
+				isTop3000: true,
+				isTop5000: true,
+				isInFrequencyData: true
+			});
+		});
+		return map;
+	}
+}));
+
 const mockWords: Word[] = [
 	{ spanish: 'perro', finnish: 'koira', category: 'animals' },
 	{ spanish: 'gato', finnish: 'kissa', category: 'animals' },
@@ -86,56 +108,71 @@ describe('wordSelection service', () => {
 	});
 
 	describe('prepareNextGameWords', () => {
-		it('should prepare words for next game', () => {
-			const words = prepareNextGameWords('all', 5);
+		it('should prepare words for next game', async () => {
+			const words = await prepareNextGameWords('all', 5);
 			expect(words).toHaveLength(5);
 		});
 
-		it('should use category filtering', () => {
-			const words = prepareNextGameWords('animals', 3);
+		it('should use category filtering', async () => {
+			const words = await prepareNextGameWords('animals', 3);
 			expect(words).toHaveLength(3);
+		});
+		
+		it('should allow disabling frequency prioritization', async () => {
+			const words = await prepareNextGameWords('all', 5, 'spanish_to_finnish', false);
+			expect(words).toHaveLength(5);
 		});
 	});
 
 	describe('generateWordQueue', () => {
-		it('should generate word queue without upcoming words', () => {
-			const queue = generateWordQueue('all', 5);
+		it('should generate word queue without upcoming words', async () => {
+			const queue = await generateWordQueue('all', 5);
 			expect(queue).toHaveLength(5);
 		});
 
-		it('should use upcoming words if provided and match count', () => {
+		it('should use upcoming words if provided and match count', async () => {
 			const upcomingWords = mockWords.slice(0, 5);
-			const queue = generateWordQueue('all', 5, upcomingWords);
+			const queue = await generateWordQueue('all', 5, upcomingWords);
 			expect(queue).toHaveLength(5);
 		});
 
-		it('should regenerate if upcoming words count mismatch', () => {
+		it('should regenerate if upcoming words count mismatch', async () => {
 			const upcomingWords = mockWords.slice(0, 3);
-			const queue = generateWordQueue('all', 5, upcomingWords);
+			const queue = await generateWordQueue('all', 5, upcomingWords);
 			expect(queue).toHaveLength(5);
 		});
 
-		it('should respect minDistance parameter', () => {
-			const queue = generateWordQueue('all', 5, undefined, 10);
+		it('should respect minDistance parameter', async () => {
+			const queue = await generateWordQueue('all', 5, undefined, 10);
+			expect(queue).toHaveLength(5);
+		});
+		
+		it('should allow disabling frequency prioritization', async () => {
+			const queue = await generateWordQueue('all', 5, undefined, 5, 'spanish_to_finnish', false);
 			expect(queue).toHaveLength(5);
 		});
 	});
 
 	describe('selectGameWords', () => {
-		it('should select requested number of words', () => {
-			const words = selectGameWords(mockWords, 5, 'all');
+		it('should select requested number of words', async () => {
+			const words = await selectGameWords(mockWords, 5, 'all');
 			expect(words).toHaveLength(5);
 		});
 
-		it('should handle small word pools', () => {
+		it('should handle small word pools', async () => {
 			const smallPool = mockWords.slice(0, 3);
-			const words = selectGameWords(smallPool, 5, 'test');
+			const words = await selectGameWords(smallPool, 5, 'test');
 			expect(words.length).toBeGreaterThan(0);
 		});
 
-		it('should not exceed available words without repetition', () => {
-			const words = selectGameWords(mockWords, 20, 'all');
+		it('should not exceed available words without repetition', async () => {
+			const words = await selectGameWords(mockWords, 20, 'all');
 			expect(words.length).toBeGreaterThanOrEqual(10);
+		});
+		
+		it('should allow disabling frequency prioritization', async () => {
+			const words = await selectGameWords(mockWords, 5, 'all', 'spanish_to_finnish', false);
+			expect(words).toHaveLength(5);
 		});
 	});
 
