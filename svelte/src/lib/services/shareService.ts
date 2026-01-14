@@ -47,9 +47,9 @@ function generateFinnishReport(stats: VocabularyStatistics): string {
 	
 	// Top N progress
 	lines.push('📊 Yleisimmät sanat:');
-	lines.push(`  Top 100: ${stats.topNProgress.top100.known}/100 (${stats.topNProgress.top100.percentage}%)`);
-	lines.push(`  Top 500: ${stats.topNProgress.top500.known}/500 (${stats.topNProgress.top500.percentage}%)`);
-	lines.push(`  Top 1000: ${stats.topNProgress.top1000.known}/1000 (${stats.topNProgress.top1000.percentage}%)`);
+	lines.push(`  100 yleisintä: ${stats.topNProgress.top100.known}/100 (${stats.topNProgress.top100.percentage}%)`);
+	lines.push(`  500 yleisintä: ${stats.topNProgress.top500.known}/500 (${stats.topNProgress.top500.percentage}%)`);
+	lines.push(`  1000 yleisintä: ${stats.topNProgress.top1000.known}/1000 (${stats.topNProgress.top1000.percentage}%)`);
 	lines.push('');
 	
 	// Games played

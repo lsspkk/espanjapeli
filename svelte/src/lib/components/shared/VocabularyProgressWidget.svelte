@@ -65,7 +65,7 @@
 			<div class="space-y-2">
 				<div>
 					<div class="flex justify-between text-xs mb-1">
-						<span>Top 100</span>
+						<span>100 yleisintä</span>
 						<span class="font-semibold">{stats.topNProgress.top100.known}/100</span>
 					</div>
 					<progress
@@ -77,7 +77,7 @@
 
 				<div>
 					<div class="flex justify-between text-xs mb-1">
-						<span>Top 1000</span>
+						<span>1000 yleisintä</span>
 						<span class="font-semibold">{stats.topNProgress.top1000.known}/1000</span>
 					</div>
 					<progress

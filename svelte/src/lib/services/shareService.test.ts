@@ -57,7 +57,7 @@ describe('shareService', () => {
 			expect(report.text).toContain('Sanoja opittu: 85');
 			expect(report.text).toContain('Sanoja hallittu: 42');
 			expect(report.text).toContain('Arvioitu taso: A2');
-			expect(report.text).toContain('Top 100: 45/100 (45%)');
+			expect(report.text).toContain('100 yleisintä: 45/100 (45%)');
 			expect(report.text).toContain('Pelejä pelattu: 48');
 			expect(report.text).toContain('espanjapeli.fi');
 			expect(report.stats).toEqual(mockStats);

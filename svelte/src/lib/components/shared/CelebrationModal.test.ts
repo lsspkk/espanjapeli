@@ -174,7 +174,7 @@ describe('CelebrationModal', () => {
 			}
 		});
 
-		expect(screen.getByText('Top 100 sanaa')).toBeInTheDocument();
+		expect(screen.getByText('100 yleisintä sanaa')).toBeInTheDocument();
 	});
 
 	it('should display correct label for stories_read type', () => {

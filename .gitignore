@@ -37,3 +37,6 @@ reports/
 # Ralph iteration logs
 .ralph-iter-*.ndjson
 progress.txt
+
+# Generated codebase overview
+ai-control/codebase.md

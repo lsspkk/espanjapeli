@@ -171,7 +171,7 @@
 						</div>
 						<div class="bg-base-200 rounded-lg p-3 text-center">
 							<div class="text-2xl font-bold text-success">{report.stats.topNProgress.top100.percentage}%</div>
-							<div class="text-xs text-base-content/70">Top 100</div>
+							<div class="text-xs text-base-content/70">{selectedLanguage === 'fi' ? '100 yleisintä' : 'Top 100'}</div>
 						</div>
 						<div class="bg-base-200 rounded-lg p-3 text-center">
 							<div class="text-2xl font-bold text-warning">{report.stats.totalGamesPlayed}</div>

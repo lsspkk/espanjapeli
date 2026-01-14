@@ -13,7 +13,7 @@ vi.mock('$lib/services/shareService', () => ({
 
 describe('ShareModal', () => {
 	const mockReport = {
-		text: '📚 Espanjapeli - Oppimisraportti\n\n🎯 Sanoja opittu: 50\n⭐ Sanoja hallittu: 25\n📖 Sanoja harjoiteltu: 75\n\n🌿 Arvioitu taso: A2\n\n📊 Yleisimmät sanat:\n  Top 100: 30/100 (30%)\n  Top 500: 80/500 (16%)\n  Top 1000: 120/1000 (12%)\n\n🎮 Pelejä pelattu: 20\n💯 Keskiarvo: 65%\n\nOpi espanjaa: espanjapeli.fi',
+		text: '📚 Espanjapeli - Oppimisraportti\n\n🎯 Sanoja opittu: 50\n⭐ Sanoja hallittu: 25\n📖 Sanoja harjoiteltu: 75\n\n🌿 Arvioitu taso: A2\n\n📊 Yleisimmät sanat:\n  100 yleisintä: 30/100 (30%)\n  500 yleisintä: 80/500 (16%)\n  1000 yleisintä: 120/1000 (12%)\n\n🎮 Pelejä pelattu: 20\n💯 Keskiarvo: 65%\n\nOpi espanjaa: espanjapeli.fi',
 		stats: {
 			totalPracticed: 75,
 			wordsKnown: 50,

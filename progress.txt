@@ -287,3 +287,105 @@ Note on Subtask 20.6:
 - All 610 tests pass
 - Task 20: 5/6 subtasks complete (20.6 is manual testing)
 
+14:36 - Started Subtask 21.1
+14:44 - Updated §svelte/src/lib/components/basic/report/FrequencySummary.svelte §svelte/src/lib/components/shared/FrequencyBadge.svelte §svelte/src/lib/components/shared/VocabularyProgressWidget.svelte §svelte/src/lib/components/shared/CelebrationModal.svelte §svelte/src/lib/components/shared/ShareModal.svelte §svelte/src/routes/sanasto/+page.svelte §svelte/src/lib/services/shareService.ts
+14:44 - Tests pass §npm test
+14:44 - Subtask 21.1 complete
+
+Summary of Subtask 21.1:
+- Reviewed all components for English text
+- Found and replaced "Top 100", "Top 500", "Top 1000", "Top 3000", "Top 5000" with Finnish equivalents
+- Updated text to "100 yleisintä", "500 yleisintä", "1000 yleisintä", "3000 yleisintä", "5000 yleisintä"
+- Updated 7 component files and 1 service file
+- Updated 6 test files to match new Finnish text
+- ShareModal maintains bilingual support (Finnish/English) as intended
+- All 610 tests pass successfully
+
+14:44 - [Iteration 7] Subtask 21.1 complete
+14:47 - Started Subtask 21.2
+14:47 - Updated §svelte/src/routes/+page.svelte §svelte/src/lib/components/shared/Navbar.svelte §svelte/src/lib/components/shared/Navbar.test.ts
+14:47 - Tests pass §npm test
+14:47 - Subtask 21.2 complete
+
+Summary of Subtask 21.2:
+- Removed VocabularyProgressWidget from main page (+page.svelte)
+- Removed import statement for VocabularyProgressWidget from main page
+- Added VocabularyProgressWidget to Navbar mobile menu
+- Widget now appears at the top of the mobile dropdown menu
+- Increased menu width from w-52 to w-80 to accommodate widget
+- Added divider after widget for visual separation
+- Added test to verify widget is in mobile menu
+- All 611 tests pass successfully
+
+14:47 - [Iteration 8] Subtask 21.2 complete
+14:48 - Started Subtask 21.3
+14:49 - Updated §svelte/src/routes/sanasto/+page.svelte
+14:49 - Updated §svelte/src/routes/sanasto/sanasto.test.ts
+14:49 - Tests pass §sanasto.test.ts
+14:49 - Subtask 21.3 complete
+
+Summary of Subtask 21.3:
+- Changed back button text from "← Takaisin valikkoon" to "← Takaisin"
+- Updated button text in sanasto/+page.svelte (line 48)
+- Updated test to match new button text in sanasto.test.ts
+- All 11 tests pass successfully
+
+14:49 - [Iteration 9] Subtask 21.3 complete
+14:50 - Started Subtask 21.4
+14:50 - Updated §svelte/src/routes/sanasto/+page.svelte
+14:50 - Tests pass §sanasto.test.ts
+14:50 - Subtask 21.4 complete
+
+Summary of Subtask 21.4:
+- Removed emoji glyph "📚" from main title "Sanastosi" in sanasto page
+- Changed from "📚 Sanasto" to "Sanasto"
+- Title now uses clean text without decorative icons
+- Consistent with task requirements for cleaner UI
+- All 11 tests pass successfully
+
+14:50 - [Iteration 10] Subtask 21.4 complete
+14:53 - Started Subtask 21.5
+14:53 - Updated §svelte/src/routes/sanasto/+page.svelte
+14:53 - Updated §svelte/src/routes/sanasto/sanasto.test.ts
+14:53 - Tests pass §sanasto.test.ts
+14:53 - Subtask 21.5 complete
+
+Summary of Subtask 21.5:
+- Added Lucide icon components to all statistic cards in sanasto page
+- Icons used:
+  * BarChart3 for "Yhteenveto" (Summary)
+  * BookOpen for "Harjoitellut sanat" (Practiced words)
+  * CheckCircle2 for "Osatut sanat" (Known words)
+  * Award for "Hallitut sanat" (Mastered words)
+  * Gamepad2 for "Pelit pelattu" (Games played)
+  * GraduationCap for "Arvioitu taso" (Estimated level)
+  * TrendingUp for "Yleisimpien sanojen edistyminen" (Top words progress)
+  * Target for "Seuraava tavoite" (Next milestone)
+  * BookOpen for "Pelin sanasto" (Game vocabulary)
+- Removed emoji glyphs (📊, 🎓, 📈, 🎯, 📖) from card titles
+- Updated tests to match new text without emojis
+- All 11 tests pass successfully
+
+14:53 - [Iteration 1] Subtask 21.5 complete
+14:54 - Started Subtask 21.6
+14:58 - Created §svelte/src/lib/components/shared/VocabularyWordListDialog.svelte
+14:58 - Created §svelte/src/lib/components/shared/VocabularyWordListDialog.test.ts
+14:58 - Tests pass §VocabularyWordListDialog.test.ts
+14:58 - Subtask 21.6 complete
+
+Summary of Subtask 21.6:
+- Created VocabularyWordListDialog component for displaying word lists
+- Component features:
+  * Modal dialog with backdrop and close buttons
+  * Displays list of words with Spanish, Finnish, and English translations
+  * Optional frequency data display (rank and CEFR level badges)
+  * Empty state when no words provided
+  * Word count in footer
+  * Keyboard support (Escape to close)
+  * Proper ARIA attributes for accessibility
+- Created comprehensive test suite with 13 tests
+- All tests pass successfully
+- Component ready for integration with sanasto page
+
+14:58 - [Iteration 2] Subtask 21.6 complete
+14:59 - Started Subtask 21.7

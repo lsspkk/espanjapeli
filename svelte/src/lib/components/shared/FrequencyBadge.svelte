@@ -19,11 +19,11 @@
 	});
 
 	// Determine badge text and color based on frequency
-	$: badgeText = metadata?.isTop100 ? 'Top 100' 
-		: metadata?.isTop500 ? 'Top 500' 
-		: metadata?.isTop1000 ? 'Top 1000'
-		: metadata?.isTop3000 ? 'Top 3000'
-		: metadata?.isTop5000 ? 'Top 5000'
+	$: badgeText = metadata?.isTop100 ? '100 yleisintä' 
+		: metadata?.isTop500 ? '500 yleisintä' 
+		: metadata?.isTop1000 ? '1000 yleisintä'
+		: metadata?.isTop3000 ? '3000 yleisintä'
+		: metadata?.isTop5000 ? '5000 yleisintä'
 		: null;
 
 	$: badgeColor = metadata?.isTop100 ? 'badge-success' 

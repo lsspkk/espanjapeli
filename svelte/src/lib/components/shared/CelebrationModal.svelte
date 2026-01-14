@@ -99,7 +99,7 @@
 								{#if achievement.milestone.type === 'words_known'}
 									Sanaa opittu
 								{:else if achievement.milestone.type === 'top_n_complete'}
-									Top {achievement.milestone.topN} sanaa
+									{achievement.milestone.topN} yleisintä sanaa
 								{:else if achievement.milestone.type === 'stories_read'}
 									Tarinaa luettu
 								{/if}
