@@ -13,17 +13,17 @@
       "todoTxtRef": "TASK 1: Download and Process Open-Source Frequency Datasets (TODO.txt lines 13-155)",
       "datamodelRef": "See docs/V4_DATAMODEL_IDEAS_improved.md for frequency-based learning rationale",
       "priority": 1,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 5,
       "dependencies": [],
       "subtasks": [
-        { "id": "1.1", "title": "Create download_frequency.py script", "status": "not-started", "deliverable": "scripts/data_pipeline/download_frequency.py", "testRequired": true },
-        { "id": "1.2", "title": "Download Spanish 50k frequency list", "status": "not-started", "deliverable": null, "testRequired": false },
-        { "id": "1.3", "title": "Filter to top 5000 and generate tiered files", "status": "not-started", "deliverable": "svelte/static/data/frequency-spanish-top1000.json", "testRequired": true },
-        { "id": "1.4", "title": "Generate top 5000 Spanish file", "status": "not-started", "deliverable": "svelte/static/data/frequency-spanish-top5000.json", "testRequired": true },
-        { "id": "1.5", "title": "Download and generate Finnish frequency file", "status": "not-started", "deliverable": "svelte/static/data/frequency-finnish-top5000.json", "testRequired": true },
-        { "id": "1.6", "title": "Create measure_data_size.py script", "status": "not-started", "deliverable": "scripts/data_pipeline/measure_data_size.py", "testRequired": true },
-        { "id": "1.7", "title": "Create README for data pipeline", "status": "not-started", "deliverable": "scripts/data_pipeline/README.md", "testRequired": false }
+        { "id": "1.1", "title": "Create download_frequency.py script", "status": "completed", "deliverable": "scripts/data_pipeline/download_frequency.py", "testRequired": true },
+        { "id": "1.2", "title": "Download Spanish 50k frequency list", "status": "completed", "deliverable": null, "testRequired": false },
+        { "id": "1.3", "title": "Filter to top 5000 and generate tiered files", "status": "completed", "deliverable": "svelte/static/data/frequency-spanish-top1000.json", "testRequired": true },
+        { "id": "1.4", "title": "Generate top 5000 Spanish file", "status": "completed", "deliverable": "svelte/static/data/frequency-spanish-top5000.json", "testRequired": true },
+        { "id": "1.5", "title": "Download and generate Finnish frequency file", "status": "completed", "deliverable": "svelte/static/data/frequency-finnish-top5000.json", "testRequired": true },
+        { "id": "1.6", "title": "Create measure_data_size.py script", "status": "completed", "deliverable": "scripts/data_pipeline/measure_data_size.py", "testRequired": true },
+        { "id": "1.7", "title": "Create README for data pipeline", "status": "completed", "deliverable": "scripts/data_pipeline/README.md", "testRequired": false }
       ]
     },
     {
