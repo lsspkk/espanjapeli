@@ -157,13 +157,13 @@
       "title": "Update Story Types for V4 Data Model",
       "todoTxtRef": "TASK 10: Update Story Types for V4 Data Model (TODO.txt lines 659-715)",
       "priority": 4,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 4,
       "dependencies": [2],
       "subtasks": [
-        { "id": "10.1", "title": "Update Story interface with CEFR level", "status": "not-started", "deliverable": "svelte/src/lib/types/story.ts", "testRequired": true },
-        { "id": "10.2", "title": "Add frequency/CEFR to VocabularyWord", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "10.3", "title": "Create migration utility (difficulty -> level)", "status": "not-started", "deliverable": null, "testRequired": true }
+        { "id": "10.1", "title": "Update Story interface with CEFR level", "status": "completed", "deliverable": "svelte/src/lib/types/story.ts", "testRequired": true },
+        { "id": "10.2", "title": "Add frequency/CEFR to VocabularyWord", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "10.3", "title": "Create migration utility (difficulty -> level)", "status": "completed", "deliverable": null, "testRequired": true }
       ]
     },
     {
