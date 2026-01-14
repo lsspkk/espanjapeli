@@ -19,7 +19,7 @@ describe('StoryFilterSort', () => {
 
 		// Check for sort button with title
 		const buttons = screen.getAllByRole('button');
-		const sortButton = buttons.find(btn => btn.title === 'A-Z');
+		const sortButton = buttons.find((btn) => btn.title === 'A-Z');
 		expect(sortButton).toBeTruthy();
 	});
 
@@ -52,8 +52,8 @@ describe('StoryFilterSort', () => {
 
 		// Click on sort direction button
 		const buttons = screen.getAllByRole('button');
-		const sortButton = buttons.find(btn => btn.title === 'A-Z');
-		
+		const sortButton = buttons.find((btn) => btn.title === 'A-Z');
+
 		if (sortButton) {
 			await fireEvent.click(sortButton);
 			expect(onSortDirectionChange).toHaveBeenCalledWith('desc');
@@ -94,7 +94,7 @@ describe('StoryFilterSort', () => {
 		});
 
 		const buttons = screen.getAllByRole('button');
-		const sortButton = buttons.find(btn => btn.title === 'A-Z');
+		const sortButton = buttons.find((btn) => btn.title === 'A-Z');
 		expect(sortButton).toBeTruthy();
 	});
 
@@ -106,7 +106,7 @@ describe('StoryFilterSort', () => {
 		});
 
 		const buttons = screen.getAllByRole('button');
-		const sortButton = buttons.find(btn => btn.title === 'Z-A');
+		const sortButton = buttons.find((btn) => btn.title === 'Z-A');
 		expect(sortButton).toBeTruthy();
 	});
 
