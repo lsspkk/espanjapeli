@@ -3,6 +3,7 @@ import { render, screen } from '@testing-library/svelte';
 import SanastoKidsPage from './+page.svelte';
 import type { KidsVocabularyStatistics } from '$lib/services/statisticsService';
 import * as statisticsService from '$lib/services/statisticsService';
+import { createMockKidsVocabularyStats } from '$tests/mocks/commonMocks';
 
 // Mock the statistics service
 vi.mock('$lib/services/statisticsService', async () => {
@@ -19,24 +20,7 @@ vi.mock('$app/paths', () => ({
 }));
 
 describe('Sanasto Kids Page', () => {
-	const mockStats: KidsVocabularyStatistics = {
-		totalWordsPracticed: 25,
-		wordsKnown: 15,
-		wordsMastered: 8,
-		totalGamesPlayed: 12,
-		averageScore: 72,
-		recentProgress: {
-			last7Days: 5,
-			last30Days: 18
-		},
-		encouragementMessage: 'Olet oppimassa nopeasti!',
-		nextMilestone: {
-			description: 'Opettele 30 sanaa',
-			current: 25,
-			target: 30,
-			percentage: 83.33
-		}
-	};
+	const mockStats = createMockKidsVocabularyStats();
 
 	beforeEach(() => {
 		vi.clearAllMocks();
@@ -62,125 +46,47 @@ describe('Sanasto Kids Page', () => {
 		});
 	});
 
-	it('renders page title and subtitle', async () => {
+	it('renders all main content elements with default stats', async () => {
 		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
 
 		render(SanastoKidsPage);
 
 		await vi.waitFor(() => {
+			// Page title and subtitle
 			expect(screen.getByText('Sanastosi')).toBeTruthy();
 			expect(screen.getByText('Katso kuinka paljon olet oppinut!')).toBeTruthy();
-		});
-	});
-
-	it('renders back button', async () => {
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
-
-		render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
-			const backButton = screen.getByText('← Takaisin');
-			expect(backButton).toBeTruthy();
-		});
-	});
-
-	it('displays encouragement message', async () => {
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
-
-		render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
+			
+			// Back button
+			expect(screen.getByText('← Takaisin')).toBeTruthy();
+			
+			// Encouragement message
 			expect(screen.getByText(mockStats.encouragementMessage)).toBeTruthy();
 			expect(screen.getByText('Jatka samaan malliin!')).toBeTruthy();
-		});
-	});
-
-	it('displays total words practiced', async () => {
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
-
-		render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
+			
+			// Statistics cards
 			expect(screen.getByText('Harjoitellut sanat')).toBeTruthy();
 			expect(screen.getByText('25')).toBeTruthy();
-		});
-	});
-
-	it('displays words known', async () => {
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
-
-		render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
 			expect(screen.getByText('Osaat sanoja')).toBeTruthy();
 			expect(screen.getByText('15')).toBeTruthy();
-		});
-	});
-
-	it('displays words mastered', async () => {
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
-
-		render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
 			expect(screen.getByText('Hallitset sanoja')).toBeTruthy();
 			expect(screen.getByText('8')).toBeTruthy();
-		});
-	});
-
-	it('displays total games played', async () => {
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
-
-		render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
 			expect(screen.getByText('Pelit pelattu')).toBeTruthy();
 			expect(screen.getByText('12')).toBeTruthy();
 			expect(screen.getByText('Hienoa työtä!')).toBeTruthy();
-		});
-	});
-
-	it('displays recent progress for 7 days', async () => {
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
-
-		render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
+			
+			// Recent progress
 			expect(screen.getByText('Viimeiset 7 päivää')).toBeTruthy();
 			expect(screen.getByText('5')).toBeTruthy();
-		});
-	});
-
-	it('displays recent progress for 30 days', async () => {
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
-
-		render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
 			expect(screen.getByText('Viimeiset 30 päivää')).toBeTruthy();
 			expect(screen.getByText('18')).toBeTruthy();
-		});
-	});
-
-	it('displays next milestone', async () => {
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
-
-		render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
+			
+			// Next milestone
 			expect(screen.getByText('Seuraava tavoite')).toBeTruthy();
 			expect(screen.getByText(mockStats.nextMilestone.description)).toBeTruthy();
 			expect(screen.getByText('25 / 30')).toBeTruthy();
 			expect(screen.getByText('83% valmiina!')).toBeTruthy();
-		});
-	});
-
-	it('displays average score', async () => {
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
-
-		render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
+			
+			// Average score
 			expect(screen.getByText('Keskimääräinen osaaminen')).toBeTruthy();
 			expect(screen.getByText('72%')).toBeTruthy();
 		});
@@ -229,74 +135,62 @@ describe('Sanasto Kids Page', () => {
 		});
 	});
 
-	it('displays footer message', async () => {
+	it('renders footer message and visual elements', async () => {
 		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
 
-		render(SanastoKidsPage);
+		const { container } = render(SanastoKidsPage);
 
 		await vi.waitFor(() => {
+			// Footer message
 			expect(screen.getByText(/Tilastot päivittyvät kun pelaat pelejä/i)).toBeTruthy();
-		});
-	});
-
-	it('shows trophy emoji for high mastered words (>= 50)', async () => {
-		const highMasteredStats = { ...mockStats, wordsMastered: 55 };
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(highMasteredStats);
-
-		const { container } = render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
-			expect(container.textContent).toContain('🏆');
-		});
-	});
-
-	it('shows star emoji for good known words (>= 30)', async () => {
-		const goodKnownStats = { ...mockStats, wordsKnown: 35, wordsMastered: 10 };
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(goodKnownStats);
-
-		const { container } = render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
-			expect(container.textContent).toContain('⭐');
-		});
-	});
-
-	it('shows rainbow emoji for beginner (>= 10 practiced)', async () => {
-		const beginnerStats = { 
-			...mockStats, 
-			totalWordsPracticed: 12, 
-			wordsKnown: 8, 
-			wordsMastered: 3 
-		};
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(beginnerStats);
-
-		const { container } = render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
-			expect(container.textContent).toContain('🌈');
-		});
-	});
-
-	it('renders with gradient background', async () => {
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
-
-		const { container } = render(SanastoKidsPage);
-
-		await vi.waitFor(() => {
+			
+			// Gradient background
 			const bgDiv = container.querySelector('.bg-gradient-to-b');
 			expect(bgDiv).toBeTruthy();
+			
+			// Icon components (Lucide renders as SVG)
+			const svgs = container.querySelectorAll('svg');
+			expect(svgs.length).toBeGreaterThan(0);
 		});
 	});
 
-	it('renders all icon components', async () => {
-		vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(mockStats);
+	describe('Achievement emoji display', () => {
+		it('shows trophy emoji for high mastered words (>= 50)', async () => {
+			const highMasteredStats = { ...mockStats, wordsMastered: 55 };
+			vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(highMasteredStats);
 
-		const { container } = render(SanastoKidsPage);
+			const { container } = render(SanastoKidsPage);
 
-		await vi.waitFor(() => {
-			// Check for SVG icons (Lucide components render as SVG)
-			const svgs = container.querySelectorAll('svg');
-			expect(svgs.length).toBeGreaterThan(0);
+			await vi.waitFor(() => {
+				expect(container.textContent).toContain('🏆');
+			});
+		});
+
+		it('shows star emoji for good known words (>= 30)', async () => {
+			const goodKnownStats = { ...mockStats, wordsKnown: 35, wordsMastered: 10 };
+			vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(goodKnownStats);
+
+			const { container } = render(SanastoKidsPage);
+
+			await vi.waitFor(() => {
+				expect(container.textContent).toContain('⭐');
+			});
+		});
+
+		it('shows rainbow emoji for beginner (>= 10 practiced)', async () => {
+			const beginnerStats = { 
+				...mockStats, 
+				totalWordsPracticed: 12, 
+				wordsKnown: 8, 
+				wordsMastered: 3 
+			};
+			vi.mocked(statisticsService.calculateKidsVocabularyStats).mockResolvedValue(beginnerStats);
+
+			const { container } = render(SanastoKidsPage);
+
+			await vi.waitFor(() => {
+				expect(container.textContent).toContain('🌈');
+			});
 		});
 	});
 });

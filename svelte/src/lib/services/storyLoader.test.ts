@@ -7,66 +7,20 @@ import {
 	getStoriesMetadataByLevel,
 	clearStoryCache
 } from './storyLoader';
+import { createMockManifest, createMockStory, setupFetchMock } from '$tests/mocks/commonMocks';
 
 // Mock fetch
-global.fetch = vi.fn();
+const mockFetch = setupFetchMock();
 
-const mockManifest = {
-	version: '4.0.0',
-	lastUpdated: '2026-01-14',
-	stories: [
-		{
-			id: 'test-story-1',
-			title: 'Test Story 1',
-			titleSpanish: 'Historia de Prueba 1',
-			description: 'A test story',
-			level: 'A2' as const,
-			category: 'test',
-			icon: '📖',
-			wordCount: 100,
-			estimatedMinutes: 3,
-			vocabularyCount: 10,
-			questionCount: 5
-		},
-		{
-			id: 'test-story-2',
-			title: 'Test Story 2',
-			titleSpanish: 'Historia de Prueba 2',
-			description: 'Another test story',
-			level: 'B1' as const,
-			category: 'test',
-			icon: '📚',
-			wordCount: 150,
-			estimatedMinutes: 4,
-			vocabularyCount: 15,
-			questionCount: 5
-		}
-	]
-};
-
-const mockStory1 = {
+const mockManifest = createMockManifest();
+const mockStory1 = createMockStory({
 	id: 'test-story-1',
 	title: 'Test Story 1',
 	titleSpanish: 'Historia de Prueba 1',
-	description: 'A test story',
-	level: 'A2' as const,
+	level: 'A2',
 	category: 'test',
-	icon: '📖',
-	dialogue: [
-		{ speaker: 'A', spanish: 'Hola', finnish: 'Hei' }
-	],
-	vocabulary: [
-		{ spanish: 'hola', finnish: 'hei' }
-	],
-	questions: [
-		{
-			id: 'q1',
-			question: 'Test question?',
-			options: ['A', 'B', 'C', 'D'],
-			correctIndex: 0
-		}
-	]
-};
+	icon: '📖'
+});
 
 vi.mock('$app/paths', () => ({
 	base: ''

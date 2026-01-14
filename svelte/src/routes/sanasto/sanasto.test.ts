@@ -33,26 +33,40 @@ vi.mock('$lib/stores/wordKnowledge', () => ({
 	wordKnowledge: {
 		subscribe: vi.fn((callback) => {
 			callback({
-				version: 1,
+				version: 2,
 				words: {
 					hola: {
-						spanish_to_finnish: { score: 85, practiceCount: 5 },
-						finnish_to_spanish: { score: 75, practiceCount: 3 }
+						spanish_to_finnish: {
+							basic: { score: 85, practiceCount: 5, firstTryCount: 4, secondTryCount: 1, thirdTryCount: 0, failedCount: 0, lastPracticed: '2024-01-01' }
+						},
+						finnish_to_spanish: {
+							basic: { score: 75, practiceCount: 3, firstTryCount: 2, secondTryCount: 1, thirdTryCount: 0, failedCount: 0, lastPracticed: '2024-01-01' }
+						}
 					},
 					adiós: {
-						spanish_to_finnish: { score: 65, practiceCount: 4 },
-						finnish_to_spanish: { score: 55, practiceCount: 2 }
+						spanish_to_finnish: {
+							basic: { score: 65, practiceCount: 4, firstTryCount: 2, secondTryCount: 2, thirdTryCount: 0, failedCount: 0, lastPracticed: '2024-01-01' }
+						},
+						finnish_to_spanish: {
+							basic: { score: 55, practiceCount: 2, firstTryCount: 1, secondTryCount: 1, thirdTryCount: 0, failedCount: 0, lastPracticed: '2024-01-01' }
+						}
 					},
 					gracias: {
-						spanish_to_finnish: { score: 45, practiceCount: 2 },
-						finnish_to_spanish: { score: 35, practiceCount: 1 }
+						spanish_to_finnish: {
+							basic: { score: 45, practiceCount: 2, firstTryCount: 0, secondTryCount: 2, thirdTryCount: 0, failedCount: 0, lastPracticed: '2024-01-01' }
+						},
+						finnish_to_spanish: {
+							basic: { score: 35, practiceCount: 1, firstTryCount: 0, secondTryCount: 1, thirdTryCount: 0, failedCount: 0, lastPracticed: '2024-01-01' }
+						}
 					}
 				},
 				gameHistory: [],
 				meta: {
 					createdAt: '2024-01-01',
 					updatedAt: '2024-01-01',
-					totalGamesPlayed: 0
+					totalGamesPlayed: 0,
+					basicGamesPlayed: 0,
+					kidsGamesPlayed: 0
 				}
 			});
 			return () => {};
@@ -109,107 +123,45 @@ describe('Sanasto Page', () => {
 		vi.clearAllMocks();
 	});
 
-	it('renders page title', async () => {
+	it('renders all main content sections', async () => {
 		render(SanastoPage);
+		
 		await waitFor(() => {
+			// Page title and back link
 			expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('Sanasto');
-		});
-	});
-
-	it('renders back link', async () => {
-		render(SanastoPage);
-		const backLink = screen.getByText('← Takaisin');
-		expect(backLink).toBeTruthy();
-		expect(backLink.getAttribute('href')).toBe('/');
-	});
-
-	it('displays summary section', async () => {
-		render(SanastoPage);
-		await waitFor(() => {
+			const backLink = screen.getByText('← Takaisin');
+			expect(backLink).toBeTruthy();
+			expect(backLink.getAttribute('href')).toBe('/');
+			
+			// Summary section
 			expect(screen.getByText('Yhteenveto')).toBeTruthy();
-		});
-	});
-
-	it('displays total practiced words', async () => {
-		render(SanastoPage);
-		await waitFor(() => {
-			expect(screen.getByText('50')).toBeTruthy();
-		});
-	});
-
-	it('displays words known', async () => {
-		render(SanastoPage);
-		await waitFor(() => {
-			expect(screen.getByText('35')).toBeTruthy();
-		});
-	});
-
-	it('displays CEFR level section', async () => {
-		render(SanastoPage);
-		await waitFor(() => {
+			expect(screen.getByText('50')).toBeTruthy(); // Total practiced
+			expect(screen.getByText('35')).toBeTruthy(); // Words known
+			
+			// CEFR level
 			expect(screen.getByText('Arvioitu taso')).toBeTruthy();
 			expect(screen.getByText('A2')).toBeTruthy();
-		});
-	});
-
-	it('displays progress bars section', async () => {
-		render(SanastoPage);
-		await waitFor(() => {
+			
+			// Progress bars
 			expect(screen.getByText('Yleisimpien sanojen edistyminen')).toBeTruthy();
-		});
-	});
-
-	it('displays top 100 progress', async () => {
-		render(SanastoPage);
-		await waitFor(() => {
 			expect(screen.getByText('100 yleisintä')).toBeTruthy();
 			expect(screen.getByText('25/100')).toBeTruthy();
-		});
-	});
-
-	it('displays top 500 progress', async () => {
-		render(SanastoPage);
-		await waitFor(() => {
 			expect(screen.getByText('500 yleisintä')).toBeTruthy();
 			expect(screen.getByText('50/500')).toBeTruthy();
-		});
-	});
-
-	it('displays next milestone section', async () => {
-		render(SanastoPage);
-		await waitFor(() => {
+			
+			// Milestone and coverage
 			expect(screen.getByText('Seuraava tavoite')).toBeTruthy();
-		});
-	});
-
-	it('displays vocabulary coverage section', async () => {
-		render(SanastoPage);
-		await waitFor(() => {
 			expect(screen.getByText('Pelin sanasto')).toBeTruthy();
 		});
 	});
 
-	it('makes practiced words count clickable', async () => {
+	it('makes word count buttons clickable', async () => {
 		render(SanastoPage);
+		
 		await waitFor(() => {
-			const practicedButton = screen.getByRole('button', { name: /Harjoitellut sanat/i });
-			expect(practicedButton).toBeTruthy();
-		});
-	});
-
-	it('makes known words count clickable', async () => {
-		render(SanastoPage);
-		await waitFor(() => {
-			const knownButton = screen.getByRole('button', { name: /Osatut sanat/i });
-			expect(knownButton).toBeTruthy();
-		});
-	});
-
-	it('makes mastered words count clickable', async () => {
-		render(SanastoPage);
-		await waitFor(() => {
-			const masteredButton = screen.getByRole('button', { name: /Hallitut sanat/i });
-			expect(masteredButton).toBeTruthy();
+			expect(screen.getByRole('button', { name: /Harjoitellut sanat/i })).toBeTruthy();
+			expect(screen.getByRole('button', { name: /Osatut sanat/i })).toBeTruthy();
+			expect(screen.getByRole('button', { name: /Hallitut sanat/i })).toBeTruthy();
 		});
 	});
 

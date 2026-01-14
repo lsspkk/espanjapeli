@@ -365,14 +365,14 @@
       "title": "Test Performance Optimization Implementation",
       "todoTxtRef": "TASK 26: Test Performance Optimization Implementation (TODO.txt lines 452-597)",
       "priority": 2,
-      "status": "pending",
+      "status": "completed",
       "estimatedHours": 7,
       "dependencies": [25],
       "subtasks": [
         {
           "id": "26.1",
           "title": "Implement Vitest Configuration Optimizations",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "svelte/vitest.config.ts, reports/test-performance-after-config.json",
           "testRequired": true,
           "description": "Update config with pool, isolate, maxConcurrency settings"
@@ -380,7 +380,7 @@
         {
           "id": "26.2",
           "title": "Optimize Test Environment",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "svelte/vitest.config.ts, svelte/src/setupTests.ts, reports/test-performance-after-env.json",
           "testRequired": true,
           "description": "Evaluate happy-dom switch and optimize setupTests.ts"
@@ -388,15 +388,15 @@
         {
           "id": "26.3",
           "title": "Refactor Slow Test Files",
-          "status": "pending",
-          "deliverable": "Multiple test files",
+          "status": "completed",
+          "deliverable": "svelte/src/routes/sanasto-kids/sanasto-kids.test.ts, svelte/src/routes/sanasto/sanasto.test.ts, svelte/src/routes/tarinat/tarinat.test.ts, reports/test-performance-after-refactor.json",
           "testRequired": true,
           "description": "Optimize slowest tests with reduced rendering and better mocks"
         },
         {
           "id": "26.4",
           "title": "Organize Test Structure",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "Test file organization, svelte/package.json",
           "testRequired": true,
           "description": "Separate unit/component/integration tests for better parallelization"
@@ -404,7 +404,7 @@
         {
           "id": "26.5",
           "title": "Implement Mock Optimization",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "svelte/src/tests/mocks/commonMocks.ts, Multiple test files",
           "testRequired": true,
           "description": "Create shared mock factories to reduce recreation overhead"
@@ -412,7 +412,7 @@
         {
           "id": "26.6",
           "title": "Final Performance Validation",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "reports/test-performance-final.json, reports/test-performance-comparison.md",
           "testRequired": true,
           "description": "Measure final performance and generate comparison report"
@@ -431,7 +431,7 @@
         {
           "id": "27.1",
           "title": "Review Current Data Model Documentation",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "reports/v3-v4-datamodel-changes.md",
           "testRequired": false,
           "description": "Document V3 vs V4 differences and create validation checklist"
