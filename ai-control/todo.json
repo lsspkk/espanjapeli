@@ -112,15 +112,15 @@
       "title": "Create Vocabulary Statistics Page",
       "todoTxtRef": "TASK 7: Create Vocabulary Statistics Page (TODO.txt lines 496-551)",
       "priority": 3,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 5,
       "dependencies": [3],
       "subtasks": [
-        { "id": "7.1", "title": "Create /sanasto route", "status": "not-started", "deliverable": "svelte/src/routes/sanasto/+page.svelte", "testRequired": true },
-        { "id": "7.2", "title": "Display total words learned", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "7.3", "title": "Create progress bars for top N", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "7.4", "title": "Display estimated CEFR level", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "7.5", "title": "Show next milestone", "status": "not-started", "deliverable": null, "testRequired": true }
+        { "id": "7.1", "title": "Create /sanasto route", "status": "completed", "deliverable": "svelte/src/routes/sanasto/+page.svelte", "testRequired": true },
+        { "id": "7.2", "title": "Display total words learned", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "7.3", "title": "Create progress bars for top N", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "7.4", "title": "Display estimated CEFR level", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "7.5", "title": "Show next milestone", "status": "completed", "deliverable": null, "testRequired": true }
       ]
     },
     {

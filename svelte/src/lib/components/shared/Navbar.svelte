@@ -10,6 +10,7 @@
 
 	const navItems: NavItem[] = [
 		{ href: '/', label: 'Koti', icon: '🏠' },
+		{ href: '/sanasto', label: 'Sanasto', icon: '📚' },
 		{ href: '/tietoja', label: 'Tietoja', icon: 'ℹ️' },
 		{ href: '/asetukset', label: 'Asetukset', icon: '⚙️' }
 	];
