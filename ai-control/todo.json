@@ -49,15 +49,15 @@
       "title": "Create Vocabulary and Statistics Services",
       "todoTxtRef": "TASK 3: Create Vocabulary Service and Statistics Calculation (TODO.txt lines 280-346)",
       "priority": 1,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 5,
       "dependencies": [2],
       "subtasks": [
-        { "id": "3.1", "title": "Create vocabularyService.ts", "status": "not-started", "deliverable": "svelte/src/lib/services/vocabularyService.ts", "testRequired": true },
-        { "id": "3.2", "title": "Implement frequency lookup functions", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "3.3", "title": "Create statisticsService.ts", "status": "not-started", "deliverable": "svelte/src/lib/services/statisticsService.ts", "testRequired": true },
-        { "id": "3.4", "title": "Implement progress calculations", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "3.5", "title": "Integrate with wordKnowledge store", "status": "not-started", "deliverable": null, "testRequired": true }
+        { "id": "3.1", "title": "Create vocabularyService.ts", "status": "completed", "deliverable": "svelte/src/lib/services/vocabularyService.ts", "testRequired": true },
+        { "id": "3.2", "title": "Implement frequency lookup functions", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "3.3", "title": "Create statisticsService.ts", "status": "completed", "deliverable": "svelte/src/lib/services/statisticsService.ts", "testRequired": true },
+        { "id": "3.4", "title": "Implement progress calculations", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "3.5", "title": "Integrate with wordKnowledge store", "status": "completed", "deliverable": null, "testRequired": true }
       ]
     },
     {
