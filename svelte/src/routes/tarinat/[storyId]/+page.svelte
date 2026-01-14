@@ -6,6 +6,7 @@
 	import StoryReader from '$lib/components/basic/stories/StoryReader.svelte';
 	import StoryQuestion from '$lib/components/basic/stories/StoryQuestion.svelte';
 	import StoryReport from '$lib/components/basic/stories/StoryReport.svelte';
+	import { wordKnowledge } from '$lib/stores/wordKnowledge';
 
 	export let data: {
 		story: Story;
@@ -17,18 +18,35 @@
 	let gameState: StoryGameState = 'reading';
 	let currentQuestionIndex = 0;
 	let questionResults: StoryQuestionResult[] = [];
+	let vocabularyTracked = false;
 
 	// Reset state when story changes
 	$: if (data.story) {
 		gameState = 'reading';
 		currentQuestionIndex = 0;
 		questionResults = [];
+		vocabularyTracked = false;
 	}
 
 	function startQuestions() {
+		// Track vocabulary encounters when moving to questions
+		if (!vocabularyTracked) {
+			trackVocabularyEncounters();
+			vocabularyTracked = true;
+		}
+		
 		currentQuestionIndex = 0;
 		questionResults = [];
 		gameState = 'questions';
+	}
+	
+	function trackVocabularyEncounters() {
+		// Record each vocabulary word as encountered in this story
+		for (const vocab of data.story.vocabulary) {
+			if (vocab.spanish) {
+				wordKnowledge.recordStoryEncounter(vocab.spanish, data.story.id);
+			}
+		}
 	}
 
 	function handleAnswer(selectedIndex: number, correct: boolean) {
