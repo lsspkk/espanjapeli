@@ -492,7 +492,7 @@
 			const direction: LanguageDirection = questionLanguage === 'spanish' 
 				? 'spanish_to_finnish' 
 				: 'finnish_to_spanish';
-			wordKnowledge.recordAnswer(currentWord.spanish, currentWord.finnish, direction, answerQuality);
+			wordKnowledge.recordAnswer(currentWord.spanish, currentWord.finnish, direction, answerQuality, 'basic');
 			
 			currentQuestionData.userAnswer = getAnswerText(selectedWord);
 			currentQuestionData.isCorrect = true;
@@ -552,7 +552,7 @@
 				const direction: LanguageDirection = questionLanguage === 'spanish' 
 					? 'spanish_to_finnish' 
 					: 'finnish_to_spanish';
-				wordKnowledge.recordAnswer(currentWord.spanish, currentWord.finnish, direction, 'failed');
+				wordKnowledge.recordAnswer(currentWord.spanish, currentWord.finnish, direction, 'failed', 'basic');
 				
 				currentQuestionData.userAnswer = getAnswerText(selectedWord);
 				currentQuestionData.isCorrect = false;
@@ -625,7 +625,7 @@
 		const direction: LanguageDirection = questionLanguage === 'spanish' 
 			? 'spanish_to_finnish' 
 			: 'finnish_to_spanish';
-		wordKnowledge.recordGame(selectedCategory, direction, gameWordResults);
+		wordKnowledge.recordGame(selectedCategory, direction, gameWordResults, 'basic');
 
 		const correctCount = gameQuestions.filter(q => q.isCorrect).length;
 		const incorrectCount = gameQuestions.filter(q => !q.isCorrect).length;

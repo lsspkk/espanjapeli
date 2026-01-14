@@ -198,11 +198,54 @@ describe('Tarinat Page', () => {
 		const alkeetButtons = screen.getAllByText(/Alkeet/i);
 		expect(alkeetButtons.length).toBeGreaterThan(0);
 
-		const perustasoButtons = screen.getAllByText(/Perustaso/i);
-		expect(perustasoButtons.length).toBeGreaterThan(0);
-
 		const keskitasoButtons = screen.getAllByText(/Keskitaso/i);
 		expect(keskitasoButtons.length).toBeGreaterThan(0);
+	});
+
+	it('filters stories by beginner difficulty (A1/A2)', async () => {
+		render(TarinatPage);
+
+		await waitFor(() => {
+			expect(screen.getByText('En la cafetería')).toBeInTheDocument();
+		});
+
+		// Click on Alkeet filter button
+		const alkeetButtons = screen.getAllByText(/Alkeet/i);
+		await fireEvent.click(alkeetButtons[0]);
+
+		await waitFor(() => {
+			// Should show beginner stories (difficulty: 'beginner')
+			expect(screen.getByText('En la cafetería')).toBeInTheDocument(); // A1 beginner
+			expect(screen.getByText('En el supermercado')).toBeInTheDocument(); // A2 beginner
+			expect(screen.getByText('La mañana')).toBeInTheDocument(); // A1 beginner
+
+			// Should NOT show intermediate stories
+			expect(screen.queryByText('En la estación')).not.toBeInTheDocument(); // B1 intermediate
+			expect(screen.queryByText('El museo')).not.toBeInTheDocument(); // B2 intermediate
+		});
+	});
+
+	it('filters stories by intermediate difficulty (B1/B2)', async () => {
+		render(TarinatPage);
+
+		await waitFor(() => {
+			expect(screen.getByText('En la cafetería')).toBeInTheDocument();
+		});
+
+		// Click on Keskitaso filter button
+		const keskitasoButtons = screen.getAllByText(/Keskitaso/i);
+		await fireEvent.click(keskitasoButtons[0]);
+
+		await waitFor(() => {
+			// Should show intermediate stories (difficulty: 'intermediate')
+			expect(screen.getByText('En la estación')).toBeInTheDocument(); // B1 intermediate
+			expect(screen.getByText('El museo')).toBeInTheDocument(); // B2 intermediate
+
+			// Should NOT show beginner stories
+			expect(screen.queryByText('En la cafetería')).not.toBeInTheDocument(); // A1 beginner
+			expect(screen.queryByText('En el supermercado')).not.toBeInTheDocument(); // A2 beginner
+			expect(screen.queryByText('La mañana')).not.toBeInTheDocument(); // A1 beginner
+		});
 	});
 
 	it('has sort direction toggle available', async () => {
@@ -234,16 +277,62 @@ describe('Tarinat Page', () => {
 		const elements = screen.getAllByRole('heading', { level: 3 });
 		const titles = elements.map((el) => el.textContent);
 
-		// Stories should be sorted by difficulty (A1, A2, B1) then alphabetically
-		// A1: Kahvilassa (En la cafetería)
-		// A2: Ruokakaupassa (En el supermercado)
-		// B1: Asemalla (En la estación)
-		const kahviIndex = titles.findIndex((t) => t?.includes('En la cafetería'));
-		const ruokaIndex = titles.findIndex((t) => t?.includes('En el supermercado'));
-		const asemaIndex = titles.findIndex((t) => t?.includes('En la estación'));
+		// Stories should be sorted:
+		// 1. By difficulty: beginner < intermediate
+		// 2. By level: A1 < A2 < B1 < B2
+		// 3. By title alphabetically (Finnish): Aamu, Kahvilassa, Ruokakaupassa, Asemalla, Museo
 
+		// Beginner A1: Aamu, Kahvilassa (alphabetically)
+		const aamuIndex = titles.findIndex((t) => t?.includes('La mañana'));
+		const kahviIndex = titles.findIndex((t) => t?.includes('En la cafetería'));
+		// Beginner A2: Ruokakaupassa
+		const ruokaIndex = titles.findIndex((t) => t?.includes('En el supermercado'));
+		// Intermediate B1: Asemalla
+		const asemaIndex = titles.findIndex((t) => t?.includes('En la estación'));
+		// Intermediate B2: Museo
+		const museoIndex = titles.findIndex((t) => t?.includes('El museo'));
+
+		// Verify order: Aamu < Kahvilassa < Ruokakaupassa < Asemalla < Museo
+		expect(aamuIndex).toBeLessThan(kahviIndex);
 		expect(kahviIndex).toBeLessThan(ruokaIndex);
 		expect(ruokaIndex).toBeLessThan(asemaIndex);
+		expect(asemaIndex).toBeLessThan(museoIndex);
+	});
+
+	it('reverses alphabetical order when sort direction is Z-A', async () => {
+		render(TarinatPage);
+
+		await waitFor(() => {
+			expect(screen.getByText('En la cafetería')).toBeInTheDocument();
+		});
+
+		// Get initial order
+		let elements = screen.getAllByRole('heading', { level: 3 });
+		let titles = elements.map((el) => el.textContent);
+		const initialOrder = titles.slice();
+
+		// Click sort direction toggle
+		const sortButtons = screen.getAllByRole('button');
+		const sortButton = sortButtons.find((btn) => btn.title === 'A-Z');
+		if (sortButton) {
+			await fireEvent.click(sortButton);
+		}
+
+		await waitFor(() => {
+			elements = screen.getAllByRole('heading', { level: 3 });
+			titles = elements.map((el) => el.textContent);
+
+			// Within each difficulty/level group, order should be reversed
+			// But difficulty and level order should remain the same
+			// Beginner A1: should be Kahvilassa, Aamu (Z-A alphabetically)
+			const kahviIndex = titles.findIndex((t) => t?.includes('En la cafetería'));
+			const aamuIndex = titles.findIndex((t) => t?.includes('La mañana'));
+			expect(kahviIndex).toBeLessThan(aamuIndex);
+
+			// Order between difficulty/level groups should be unchanged
+			const ruokaIndex = titles.findIndex((t) => t?.includes('En el supermercado'));
+			expect(aamuIndex).toBeLessThan(ruokaIndex);
+		});
 	});
 	it('displays all stories when no filter is applied', async () => {
 		render(TarinatPage);
@@ -257,10 +346,12 @@ describe('Tarinat Page', () => {
 			expect(screen.getByText('En la cafetería')).toBeInTheDocument();
 		});
 
-		// All three stories should be visible
+		// All five stories should be visible
 		expect(screen.getByText('En la cafetería')).toBeInTheDocument();
 		expect(screen.getByText('En el supermercado')).toBeInTheDocument();
 		expect(screen.getByText('En la estación')).toBeInTheDocument();
+		expect(screen.getByText('La mañana')).toBeInTheDocument();
+		expect(screen.getByText('El museo')).toBeInTheDocument();
 	});
 
 	it('shows empty state message when no stories available', async () => {

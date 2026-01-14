@@ -46,6 +46,11 @@
 		getPreviousGames 
 	} from '$lib/services/wordSelection';
 	import { gameSettings } from '$lib/stores/gameSettings';
+	import { 
+		wordKnowledge, 
+		type LanguageDirection, 
+		type AnswerQuality 
+	} from '$lib/stores/wordKnowledge';
 
 	// Game states
 	type GameState = 'home' | 'playing' | 'answered' | 'report';
@@ -242,6 +247,18 @@
 		currentQuestionData.isCorrect = result.isCorrect;
 		currentQuestionData.pointsEarned = earned;
 		
+		// Record answer to word knowledge store
+		const answerQuality: AnswerQuality = result.isCorrect 
+			? (tipsShown === 0 ? 'perfect' : tipsShown === 1 ? 'good' : 'okay')
+			: 'failed';
+		wordKnowledge.recordAnswer(
+			currentWord.spanish, 
+			currentWord.finnish, 
+			'spanish_to_finnish', 
+			answerQuality,
+			'basic'
+		);
+		
 		// Add to game questions
 		gameQuestions.push({ ...currentQuestionData });
 
@@ -271,6 +288,16 @@
 
 		// Record game completion for word selection history
 		recordGameCompletion(upcomingWords, selectedCategory);
+
+		// Record complete game to word knowledge store
+		const gameWordResults = gameQuestions.map(q => ({
+			spanish: q.spanish,
+			finnish: q.finnish,
+			quality: q.isCorrect 
+				? (q.tipsRequested === 0 ? 'perfect' : q.tipsRequested === 1 ? 'good' : 'okay')
+				: 'failed' as AnswerQuality
+		}));
+		wordKnowledge.recordGame(selectedCategory, 'spanish_to_finnish', gameWordResults, 'basic');
 
 		// Prepare words for next game
 		const settings = $gameSettings;

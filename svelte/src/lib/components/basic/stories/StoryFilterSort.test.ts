@@ -3,130 +3,113 @@ import { render, screen, fireEvent } from '@testing-library/svelte';
 import StoryFilterSort from './StoryFilterSort.svelte';
 
 describe('StoryFilterSort', () => {
-	it('renders mobile dropdowns on small screens', () => {
+	it('renders filter buttons', () => {
 		render(StoryFilterSort);
-		
-		// Mobile dropdowns should be visible
-		const filterLabel = screen.getByText('Suodata tasolla');
-		const sortLabel = screen.getByText('Järjestä');
-		
-		expect(filterLabel).toBeInTheDocument();
-		expect(sortLabel).toBeInTheDocument();
+
+		// Check filter buttons exist
+		expect(screen.getByText('Kaikki')).toBeInTheDocument();
+		expect(screen.getByText('Alkeet')).toBeInTheDocument();
+		expect(screen.getByText('Keskitaso')).toBeInTheDocument();
 	});
 
-	it('renders all difficulty options in mobile dropdown', () => {
+	it('renders sort direction toggle', () => {
 		render(StoryFilterSort);
-		
-		const options = screen.getAllByRole('option');
-		const filterOptions = options.filter(opt => 
-			opt.textContent?.includes('Kaikki tasot') ||
-			opt.textContent?.includes('A1 - Aloittelija') ||
-			opt.textContent?.includes('A2 - Perustaso') ||
-			opt.textContent?.includes('B1 - Keskitaso')
-		);
-		
-		expect(filterOptions.length).toBeGreaterThanOrEqual(4);
+
+		// Check for sort button with title
+		const buttons = screen.getAllByRole('button');
+		const sortButton = buttons.find(btn => btn.title === 'A-Z');
+		expect(sortButton).toBeTruthy();
 	});
 
-	it('renders sort options in mobile dropdown', () => {
-		render(StoryFilterSort);
-		
-		const options = screen.getAllByRole('option');
-		const sortOptions = options.filter(opt => 
-			opt.textContent?.includes('Aakkosjärjestys') ||
-			opt.textContent?.includes('Vaikeustaso')
-		);
-		
-		expect(sortOptions.length).toBeGreaterThanOrEqual(2);
-	});
-
-	it('calls onFilterChange when filter is changed', async () => {
+	it('calls onFilterChange when filter button is clicked', async () => {
 		const onFilterChange = vi.fn();
-		
+
 		render(StoryFilterSort, {
 			props: {
 				filterDifficulty: 'all',
 				onFilterChange
 			}
 		});
-		
-		// Find the filter select (first select)
-		const selects = screen.getAllByRole('combobox');
-		const filterSelect = selects[0];
-		
-		await fireEvent.change(filterSelect, { target: { value: 'A1' } });
-		
+
+		// Click on Alkeet button
+		const alkeetButton = screen.getByText('Alkeet');
+		await fireEvent.click(alkeetButton);
+
 		expect(onFilterChange).toHaveBeenCalledWith('A1');
 	});
 
-	it('calls onSortChange when sort is changed', async () => {
-		const onSortChange = vi.fn();
-		
+	it('calls onSortDirectionChange when sort button is clicked', async () => {
+		const onSortDirectionChange = vi.fn();
+
 		render(StoryFilterSort, {
 			props: {
-				sortBy: 'alphabet',
-				onSortChange
+				sortDirection: 'asc',
+				onSortDirectionChange
 			}
 		});
+
+		// Click on sort direction button
+		const buttons = screen.getAllByRole('button');
+		const sortButton = buttons.find(btn => btn.title === 'A-Z');
 		
-		// Find the sort select (second select)
-		const selects = screen.getAllByRole('combobox');
-		const sortSelect = selects[1];
-		
-		await fireEvent.change(sortSelect, { target: { value: 'difficulty' } });
-		
-		expect(onSortChange).toHaveBeenCalledWith('difficulty');
+		if (sortButton) {
+			await fireEvent.click(sortButton);
+			expect(onSortDirectionChange).toHaveBeenCalledWith('desc');
+		}
 	});
 
-	it('displays current filter difficulty', () => {
+	it('displays current filter with primary styling', () => {
+		const { container } = render(StoryFilterSort, {
+			props: {
+				filterDifficulty: 'A1'
+			}
+		});
+
+		// Check that Alkeet button has btn-primary class
+		const alkeetButton = screen.getByText('Alkeet');
+		expect(alkeetButton.classList.contains('btn-primary')).toBe(true);
+	});
+
+	it('displays non-active filters with ghost styling', () => {
+		const { container } = render(StoryFilterSort, {
+			props: {
+				filterDifficulty: 'A1'
+			}
+		});
+
+		// Check that Kaikki button has btn-ghost class
+		const kaikkiButton = screen.getByText('Kaikki');
+		expect(kaikkiButton.classList.contains('btn-ghost')).toBe(true);
+	});
+
+	it('shows A-Z icon when sortDirection is asc', () => {
 		render(StoryFilterSort, {
 			props: {
-				filterDifficulty: 'A2'
+				sortDirection: 'asc'
 			}
 		});
-		
-		const selects = screen.getAllByRole('combobox');
-		const filterSelect = selects[0] as HTMLSelectElement;
-		
-		expect(filterSelect.value).toBe('A2');
+
+		const buttons = screen.getAllByRole('button');
+		const sortButton = buttons.find(btn => btn.title === 'A-Z');
+		expect(sortButton).toBeTruthy();
 	});
 
-	it('displays current sort option', () => {
+	it('shows Z-A icon when sortDirection is desc', () => {
 		render(StoryFilterSort, {
 			props: {
-				sortBy: 'difficulty'
+				sortDirection: 'desc'
 			}
 		});
-		
-		const selects = screen.getAllByRole('combobox');
-		const sortSelect = selects[1] as HTMLSelectElement;
-		
-		expect(sortSelect.value).toBe('difficulty');
+
+		const buttons = screen.getAllByRole('button');
+		const sortButton = buttons.find(btn => btn.title === 'Z-A');
+		expect(sortButton).toBeTruthy();
 	});
 
-	it('defaults to "all" filter and "alphabet" sort', () => {
-		render(StoryFilterSort);
-		
-		const selects = screen.getAllByRole('combobox');
-		const filterSelect = selects[0] as HTMLSelectElement;
-		const sortSelect = selects[1] as HTMLSelectElement;
-		
-		expect(filterSelect.value).toBe('all');
-		expect(sortSelect.value).toBe('alphabet');
-	});
-
-	it('renders filter icon', () => {
+	it('renders icons', () => {
 		const { container } = render(StoryFilterSort);
-		
-		// Check for Filter icon (svg element)
-		const svgs = container.querySelectorAll('svg');
-		expect(svgs.length).toBeGreaterThan(0);
-	});
 
-	it('renders sort icon', () => {
-		const { container } = render(StoryFilterSort);
-		
-		// Check for ArrowUpDown icon (svg element)
+		// Check for SVG icons
 		const svgs = container.querySelectorAll('svg');
 		expect(svgs.length).toBeGreaterThan(0);
 	});

@@ -837,7 +837,7 @@
 							<div class="alert">
 								<div>
 									<span>
-										<h4 class="font-bold">A1-taso (Aloittelija):</h4>
+										<h4 class="font-bold">A1-taso (Alkeet):</h4>
 										<ul class="mt-2 list-inside list-disc space-y-1">
 											<li>Suositeltu sanasto: <strong>500-700 sanaa</strong></li>
 											<li>

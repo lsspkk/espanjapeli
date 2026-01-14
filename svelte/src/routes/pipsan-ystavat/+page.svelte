@@ -12,7 +12,12 @@
 	import KidsImageOptions from '$lib/components/kids/input/KidsImageOptions.svelte';
 	import BackButton from '$lib/components/shared/BackButton.svelte';
 	import GameContainer from '$lib/components/shared/GameContainer.svelte';
+	import KidsVocabularyWidget from '$lib/components/kids/KidsVocabularyWidget.svelte';
 	import type { AnimationConfig } from '$lib/types/animation';
+	import { 
+		wordKnowledge, 
+		type AnswerQuality 
+	} from '$lib/stores/wordKnowledge';
 
 	interface EmojiTip {
 		emojis: string[];
@@ -106,6 +111,9 @@
 
 	// Statistics tracking
 	let currentSessionId: string | null = null;
+	
+	// Track game results for word knowledge
+	let gameResults: Array<{ spanish: string; finnish: string; quality: AnswerQuality }> = $state([]);
 
 	// Images for current question
 	let currentOptions: { id: string; file: string; emojiDisplay: string; isCorrect: boolean }[] = $state([]);
@@ -355,6 +363,7 @@
 		consecutiveCorrect = 0;
 		selectedAnswer = null;
 		displayMode = 'svg'; // Start with SVG mode
+		gameResults = []; // Reset game results tracking
 
 		// Use the prepared upcoming phrases (already selected with smart logic)
 		questionQueue = shuffleArray([...upcomingPhrases]);
@@ -415,11 +424,29 @@
 		const selectedOption = currentOptions.find(o => o.id === optionId);
 		isCorrect = selectedOption?.isCorrect || false;
 
+		// Record answer to word knowledge store (kids mode)
+		const finnishTranslation = findFinnishTranslation(currentQuestion.spanish) || currentQuestion.finnish || '';
+		const answerQuality: AnswerQuality = isCorrect ? 'perfect' : 'failed';
+		wordKnowledge.recordAnswer(
+			currentQuestion.spanish,
+			finnishTranslation,
+			'spanish_to_finnish',
+			answerQuality,
+			'kids'
+		);
+		
+		// Track for game-level recording
+		gameResults.push({
+			spanish: currentQuestion.spanish,
+			finnish: finnishTranslation,
+			quality: answerQuality
+		});
+
 		// Record answer in statistics
 		if (currentSessionId) {
 			peppaStats.recordAnswer(currentSessionId, {
 				questionSpanish: currentQuestion.spanish,
-				questionFinnish: findFinnishTranslation(currentQuestion.spanish) || currentQuestion.finnish || '',
+				questionFinnish: finnishTranslation,
 				selectedImageId: optionId,
 				correctImageId: currentQuestion.correctImage,
 				isCorrect,
@@ -606,6 +633,9 @@
 		gameEnded = true;
 		gameStarted = false;
 
+		// Record complete game to word knowledge store (kids mode)
+		wordKnowledge.recordGame('peppa-phrases', 'spanish_to_finnish', gameResults, 'kids');
+
 		// Record game completion in phrase selection history
 		recordGameCompletion(upcomingPhrases);
 
@@ -677,6 +707,11 @@
 </script>
 
 <GameContainer gameType="viewport-fitted" buttonMode="kids" backgroundClass="bg-gradient-to-br from-pink-300 via-purple-300 to-blue-300" transparentCard={true} showBackButton={!gameStarted && !gameEnded} onBack={() => window.location.href = `${base}/`}>
+	<!-- Kids Vocabulary Widget (only on start screen) -->
+	{#if !gameStarted && !gameEnded && !loading}
+		<KidsVocabularyWidget />
+	{/if}
+	
 	<div class="flex flex-col h-full p-2">
 
 		{#if loading}

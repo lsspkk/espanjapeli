@@ -565,3 +565,296 @@ Summary of Subtask 22.1:
 
 15:50 - [Iteration 7] Subtask 22.1 complete
 15:51 - Started Subtask 23.5
+
+15:54 - [Iteration 7] Summary:
+- Completed Subtask 22.1: Research old question layout from git
+- Completed Subtask 23.5: Test all 14 themes (created 17 automated tests)
+- Completed Subtask 23.6: Document findings in comprehensive report
+- Completed Subtask 23.7: Identify root cause (not a bug - expected behavior)
+- Completed Subtask 23.8: Create fix subtasks (none needed)
+- Completed Task 23: DaisyUI Theme Usage Analysis and Fix
+- Git commit created: 27e8695
+- Files created:
+  * svelte/src/lib/stores/theme.test.ts (17 tests, all passing)
+  * reports/task-23-theme-usage-report.md (comprehensive analysis)
+- All tests pass (17 new tests for theme system)
+- Task 22 fully complete (all subtasks including 22.1)
+- Task 23 fully complete (all 8 subtasks)
+- Next task: Task 24 (Kids/Basic Knowledge Separation)
+15:56 - Started Subtask 24.1
+15:58 - Created §reports/knowledge-implementation-report.txt
+15:58 - Subtask 24.1 complete
+
+Summary of Subtask 24.1:
+- Analyzed current wordKnowledge store architecture (modified SM-2 algorithm)
+- Analyzed peppaStatistics service (session tracking only, no word knowledge)
+- Identified critical issue: Kids games don't track word knowledge
+- Identified issue: No separation between kids and basic learning modes
+- Designed solution: Add 'mode' parameter to wordKnowledge store
+- Designed data migration strategy (V1→V2)
+- Proposed updated data model with mode separation
+- Created comprehensive implementation plan for all subtasks
+- Documented risks, timeline estimates, and success criteria
+- Report: 9 parts, 400+ lines, complete architecture design
+
+Key Design Decisions:
+1. Use mode parameter ('basic' | 'kids') instead of separate stores
+2. Migrate existing data to version 2 (all existing = 'basic' mode)
+3. Default mode='basic' for backward compatibility
+4. Create /sanasto-kids page for kids statistics
+5. Create KidsVocabularyWidget component
+6. Integrate word knowledge tracking in all games (Sanapeli, Pipsan games)
+
+Next: Subtask 24.2 - Implement Knowledge Separation in Data Layer
+
+
+15:58 - [Iteration 1] Subtask 24.1 complete
+
+Task 24 Status: 1/6 subtasks complete
+- Subtask 24.1: ✓ Complete (Architecture design)
+- Subtask 24.2: Pending (Data layer implementation)
+- Subtask 24.3: Pending (Game integration)
+- Subtask 24.4: Pending (Kids vocabulary page)
+- Subtask 24.5: Pending (Kids widget)
+- Subtask 24.6: Pending (Front page integration)
+
+Deliverable: reports/knowledge-implementation-report.txt (400+ lines)
+- Complete architecture analysis
+- Data model design with mode separation
+- Migration strategy V1→V2
+- Implementation plan for all 6 subtasks
+- Risk analysis and timeline estimates
+
+15:59 - Started Subtask 24.2
+$(date +%H:%M) - Updated §svelte/src/lib/stores/wordKnowledge.ts
+$(date +%H:%M) - Updated §svelte/src/lib/services/statisticsService.ts
+$(date +%H:%M) - Created §svelte/src/lib/stores/wordKnowledge.test.ts
+$(date +%H:%M) - Updated §svelte/src/lib/services/statisticsService.test.ts
+$(date +%H:%M) - Tests pass §wordKnowledge.test.ts §statisticsService.test.ts
+$(date +%H:%M) - Subtask 24.2 complete
+
+Summary of Subtask 24.2:
+- Added GameMode type ('basic' | 'kids') to wordKnowledge store
+- Updated WordKnowledgeBidirectional interface to support mode separation
+- Implemented V1→V2 data migration (all existing data migrated to 'basic' mode)
+- Updated storage version from 1 to 2
+- Added mode parameter (default='basic') to all store methods:
+  * recordAnswer(spanish, finnish, direction, quality, mode='basic')
+  * recordGame(category, direction, words, mode='basic')
+  * getWordScore(spanish, direction, mode='basic')
+  * getCategoryKnowledge(categoryKey, words, mode='basic')
+  * getStatistics(mode?)
+  * exportData(mode?)
+- Added new methods:
+  * getWordsForMode(mode): Get all words practiced in specific mode
+- Updated metadata to track basicGamesPlayed and kidsGamesPlayed separately
+- Updated statisticsService.ts to support mode parameter:
+  * calculateVocabularyStats(mode?)
+  * calculateTopNProgress(..., mode?)
+  * getTop100Progress(mode?), getTop500Progress(mode?), getTop1000Progress(mode?)
+  * getEstimatedLevel(mode?)
+  * getNextMilestone(mode?)
+  * getProgressSummary(mode?)
+- Added calculateKidsVocabularyStats() function for kids-specific statistics
+- Created comprehensive test suite (22 tests pass):
+  * Mode separation tests
+  * V2 data structure tests
+  * Backward compatibility tests
+  * Export/import with mode filtering
+- All new tests pass (22/22)
+- Backward compatible: existing code works without mode parameter
+
+16:08 - [Iteration 2] Subtask 24.2 complete
+16:08 - Started Subtask 24.3
+$(date +%H:%M) - Updated §svelte/src/routes/yhdistasanat/+page.svelte
+$(date +%H:%M) - Updated §svelte/src/routes/sanapeli/+page.svelte
+$(date +%H:%M) - Updated §svelte/src/routes/pipsan-maailma/+page.svelte
+$(date +%H:%M) - Updated §svelte/src/routes/pipsan-ystavat/+page.svelte
+$(date +%H:%M) - Tests pass §wordKnowledge.test.ts §yhdistasanat.test.ts
+$(date +%H:%M) - Subtask 24.3 complete
+
+Summary of Subtask 24.3:
+- Integrated wordKnowledge tracking in all game modes with proper mode parameter
+- yhdistasanat: Added mode='basic' parameter to existing wordKnowledge calls
+- sanapeli: Added wordKnowledge import and tracking with mode='basic'
+  * Records individual answers with quality based on tips used
+  * Records complete game with all word results
+- pipsan-maailma: Added wordKnowledge tracking with mode='kids'
+  * Records individual answers (perfect/failed)
+  * Records complete game with category 'peppa-vocabulary'
+  * Tracks gameResults array for batch recording
+- pipsan-ystavat: Added wordKnowledge tracking with mode='kids'
+  * Records individual answers (perfect/failed)
+  * Records complete game with category 'peppa-phrases'
+  * Tracks gameResults array for batch recording
+- All games now properly track word knowledge with correct mode separation
+- Backward compatible: existing wordKnowledge calls work with default mode='basic'
+- Tests pass: wordKnowledge.test.ts (13 tests), yhdistasanat.test.ts (71 tests)
+
+
+16:16 - [Iteration 3] Subtask 24.3 complete
+
+Task 24 Status: 3/6 subtasks complete
+- Subtask 24.1: ✓ Complete (Architecture design)
+- Subtask 24.2: ✓ Complete (Data layer implementation)
+- Subtask 24.3: ✓ Complete (Game integration)
+- Subtask 24.4: Pending (Kids vocabulary page)
+- Subtask 24.5: Pending (Kids widget)
+- Subtask 24.6: Pending (Front page integration)
+
+Deliverables for Subtask 24.3:
+- Updated yhdistasanat/+page.svelte: Added mode='basic' to 3 wordKnowledge calls
+- Updated sanapeli/+page.svelte: Added wordKnowledge import and tracking (2 locations)
+- Updated pipsan-maailma/+page.svelte: Added wordKnowledge tracking with mode='kids'
+- Updated pipsan-ystavat/+page.svelte: Added wordKnowledge tracking with mode='kids'
+- All 4 game modes now track word knowledge with proper mode separation
+- Tests verified: 13 wordKnowledge tests pass, 71 yhdistasanat tests pass
+
+16:16 - Started Subtask 24.4
+16:20 - Created §svelte/src/routes/sanasto-kids/+page.svelte
+16:20 - Created §svelte/src/routes/sanasto-kids/+layout.ts
+16:20 - Created §svelte/src/routes/sanasto-kids/sanasto-kids.test.ts
+16:20 - Tests pass §sanasto-kids.test.ts
+16:20 - Subtask 24.4 complete
+
+Summary of Subtask 24.4:
+- Created kids vocabulary statistics page with kid-friendly design
+- Features:
+  * Gradient background with colorful theme
+  * Large, readable text and icons
+  * Encouraging messages based on progress
+  * Emoji badges (trophy, star, rainbow) based on achievement level
+  * Total words practiced, known, and mastered cards
+  * Games played counter with celebration message
+  * Recent progress (7 days and 30 days)
+  * Next milestone with progress bar and percentage
+  * Radial progress indicator for average score
+  * Conditional encouraging messages based on score ranges
+  * Back button to return to Pipsan maailma
+- Used Lucide icons: Star, Trophy, Sparkles, Target, Smile, TrendingUp
+- Integrated with calculateKidsVocabularyStats service
+- Created comprehensive test suite with 23 tests
+- All 23 tests pass successfully
+- Page follows kids game design patterns with celebration and encouragement
+- Responsive design works on mobile and desktop
+
+16:20 - [Iteration 4] Subtask 24.4 complete
+
+Task 24 Status Update:
+- Subtask 24.1: ✓ Complete (Architecture design)
+- Subtask 24.2: ✓ Complete (Data layer implementation)
+- Subtask 24.3: ✓ Complete (Game integration)
+- Subtask 24.4: ✓ Complete (Kids vocabulary page) [Iteration 4]
+- Subtask 24.5: Pending (Kids widget)
+- Subtask 24.6: Pending (Front page integration)
+
+Deliverables for Subtask 24.4:
+- svelte/src/routes/sanasto-kids/+page.svelte (kids vocabulary statistics page)
+- svelte/src/routes/sanasto-kids/+layout.ts (route configuration)
+- svelte/src/routes/sanasto-kids/sanasto-kids.test.ts (23 tests, all passing)
+
+Page features:
+- Kid-friendly gradient background and colorful design
+- Large text and icons for readability
+- Encouraging messages that change based on progress
+- Dynamic emoji badges (🏆 trophy, ⭐ star, 🌈 rainbow)
+- Statistics cards: practiced, known, mastered words
+- Games played counter with celebration
+- Recent progress tracking (7 and 30 days)
+- Next milestone with visual progress bar
+- Radial progress indicator for average score
+- Conditional messages for different score ranges
+- Responsive design for mobile and desktop
+- Integration with calculateKidsVocabularyStats service
+
+16:25 - Started Subtask 24.5
+16:25 - Created §svelte/src/lib/components/kids/KidsVocabularyWidget.svelte
+16:25 - Created §svelte/src/lib/components/kids/KidsVocabularyWidget.test.ts
+16:25 - Tests pass §KidsVocabularyWidget.test.ts
+16:25 - Subtask 24.5 complete
+
+Summary of Subtask 24.5:
+- Created KidsVocabularyWidget component with kid-friendly circular bubble design
+- Features:
+  * Fixed positioning in top-right corner (top-20, right-4)
+  * Circular gradient background (primary → secondary → accent)
+  * Displays number of known words with "sanaa" label
+  * Dynamic emoji badges based on progress:
+    - 🌟 Star for beginners (< 10 words practiced)
+    - 🌈 Rainbow for learners (10+ words practiced)
+    - ⭐ Star for good learners (30+ words known)
+    - 🏆 Trophy for masters (50+ words mastered)
+  * Progress ring showing milestone percentage
+  * Slow bounce animation for attention
+  * Sparkle effects on hover (✨)
+  * Links to /sanasto-kids page
+  * High z-index (z-40) to appear above content
+  * Hover effects: scale-110, shadow-3xl
+- Created comprehensive test suite with 16 tests
+- All 16 tests pass successfully
+- Component follows kids game design patterns
+- Responsive and mobile-friendly
+- Integration with calculateKidsVocabularyStats service
+- Only shows when totalWordsPracticed > 0
+
+16:25 - [Iteration 5] Subtask 24.5 complete
+
+Task 24 Status: 5/6 subtasks complete
+- Subtask 24.1: ✓ Complete (Architecture design)
+- Subtask 24.2: ✓ Complete (Data layer implementation)
+- Subtask 24.3: ✓ Complete (Game integration)
+- Subtask 24.4: ✓ Complete (Kids vocabulary page)
+- Subtask 24.5: ✓ Complete (Kids widget) [Iteration 5]
+- Subtask 24.6: Pending (Front page integration)
+
+Deliverables for Subtask 24.5:
+- svelte/src/lib/components/kids/KidsVocabularyWidget.svelte (circular bubble widget)
+- svelte/src/lib/components/kids/KidsVocabularyWidget.test.ts (16 tests, all passing)
+
+Widget features:
+- Circular bubble with gradient background
+- Shows known words count with emoji badge
+- Progress ring visualization
+- Slow bounce animation
+- Sparkle effects on hover
+- Links to kids vocabulary statistics page
+- Only appears when user has practiced words
+- Fixed positioning in top-right corner
+- High z-index for visibility
+- Kid-friendly design with large text and emojis
+
+16:30 - Started Subtask 24.6
+16:30 - Updated §svelte/src/routes/pipsan-maailma/+page.svelte
+16:30 - Updated §svelte/src/routes/pipsan-ystavat/+page.svelte
+16:30 - Tests pass §KidsVocabularyWidget.test.ts §pipsan-ystavat.test.ts
+16:30 - Subtask 24.6 complete
+
+Summary of Subtask 24.6:
+- Integrated KidsVocabularyWidget into kids game front pages
+- Added widget to pipsan-maailma/+page.svelte (Pipsan maailma)
+- Added widget to pipsan-ystavat/+page.svelte (Pipsan ystävät)
+- Widget only appears on start screen (!gameStarted && !gameEnded && !loading)
+- Widget positioned in top-right corner with fixed positioning
+- Widget shows vocabulary progress for kids mode
+- Widget links to /sanasto-kids page
+- All KidsVocabularyWidget tests pass (16 tests)
+- All pipsan-ystavat tests pass (17 tests)
+- Integration complete and functional
+
+16:30 - [Iteration 6] Subtask 24.6 complete
+
+Task 24 Status: 6/6 subtasks complete
+- Subtask 24.1: ✓ Complete (Architecture design)
+- Subtask 24.2: ✓ Complete (Data layer implementation)
+- Subtask 24.3: ✓ Complete (Game integration)
+- Subtask 24.4: ✓ Complete (Kids vocabulary page)
+- Subtask 24.5: ✓ Complete (Kids widget)
+- Subtask 24.6: ✓ Complete (Front page integration) [Iteration 6]
+
+Deliverables for Subtask 24.6:
+- Updated svelte/src/routes/pipsan-maailma/+page.svelte (added KidsVocabularyWidget import and component)
+- Updated svelte/src/routes/pipsan-ystavat/+page.svelte (added KidsVocabularyWidget import and component)
+- Widget integration complete with conditional rendering
+- Widget appears only on start screen for better UX
+- All tests pass for widget and integration
+
