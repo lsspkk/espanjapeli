@@ -95,16 +95,16 @@
       "title": "Create Settings Page and User Preferences",
       "todoTxtRef": "TASK 6: Create Settings Page and User Preferences (TODO.txt lines 447-488)",
       "priority": 2,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 5,
       "dependencies": [5],
       "subtasks": [
-        { "id": "6.1", "title": "Create /asetukset route", "status": "not-started", "deliverable": "svelte/src/routes/asetukset/+page.svelte", "testRequired": true },
-        { "id": "6.2", "title": "Add TTS settings controls", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "6.3", "title": "Add theme selection", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "6.4", "title": "Implement data export (JSON download)", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "6.5", "title": "Implement data import (file upload)", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "6.6", "title": "Add reset progress with confirmation", "status": "not-started", "deliverable": null, "testRequired": true }
+        { "id": "6.1", "title": "Create /asetukset route", "status": "completed", "deliverable": "svelte/src/routes/asetukset/+page.svelte", "testRequired": true },
+        { "id": "6.2", "title": "Add TTS settings controls", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "6.3", "title": "Add theme selection", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "6.4", "title": "Implement data export (JSON download)", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "6.5", "title": "Implement data import (file upload)", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "6.6", "title": "Add reset progress with confirmation", "status": "completed", "deliverable": null, "testRequired": true }
       ]
     },
     {
