@@ -1,0 +1,213 @@
+{
+  "id": "starting-business",
+  "title": "Starting a Business",
+  "titleSpanish": "Empezar un negocio",
+  "description": "A B1 level story about business",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "business",
+  "icon": "💼",
+  "dialogue": [
+    {
+      "speaker": "Laura",
+      "spanish": "Quiero montar mi propio negocio de repostería.",
+      "finnish": "Haluan perustaa oman leivontayrityksen."
+    },
+    {
+      "speaker": "Asesor",
+      "spanish": "Excelente idea. ¿Has hecho un plan de negocio?",
+      "finnish": "Erinomainen idea. Oletko tehnyt liiketoimintasuunnitelman?"
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Todavía no. No sé por dónde empezar.",
+      "finnish": "Ei vielä. En tiedä mistä aloittaa."
+    },
+    {
+      "speaker": "Asesor",
+      "spanish": "Primero necesitas calcular cuánto capital inicial requieres.",
+      "finnish": "Ensiksi sinun täytyy laskea, kuinka paljon alkupääomaa tarvitset."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Ya he ahorrado unos diez mil euros. ¿Es suficiente?",
+      "finnish": "Olen jo säästänyt noin kymmenen tuhatta euroa. Riittääkö?"
+    },
+    {
+      "speaker": "Asesor",
+      "spanish": "Depende de si alquilas un local o trabajas desde casa.",
+      "finnish": "Se riippuu siitä, vuokraatko paikan vai työskenteletkö kotoa käsin."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Preferiría tener un local pequeño en el centro.",
+      "finnish": "Haluaisin mieluummin pienen kaupan keskelle."
+    },
+    {
+      "speaker": "Asesor",
+      "spanish": "Entonces necesitarás más capital. También debes considerar los gastos mensuales.",
+      "finnish": "Silloin tarvitset lisää pääomaa. Sinun tulisi myös ottaa huomioon kuukausittaiset kulut."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "¿Como qué?",
+      "finnish": "Kuten mitä?"
+    },
+    {
+      "speaker": "Asesor",
+      "spanish": "Alquiler, electricidad, ingredientes, seguros y publicidad.",
+      "finnish": "Vuokra, sähkö, raaka-aineet, vakuutukset ja mainonta."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "¿Es necesario contratar empleados desde el principio?",
+      "finnish": "Täytyykö sinun palkata työntekijöitä alusta alkaen?"
+    },
+    {
+      "speaker": "Asesor",
+      "spanish": "No necesariamente. Muchos emprendedores comienzan solos.",
+      "finnish": "Ei välttämättä. Monet yrittäjät aloittavat itsenäisesti."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Eso me tranquiliza. ¿Qué más debo hacer?",
+      "finnish": "Se rauhoittaa minua. Mitä muuta minun pitäisi tehdä?"
+    },
+    {
+      "speaker": "Asesor",
+      "spanish": "Registrar la empresa, conseguir las licencias y darte de alta como autónomo.",
+      "finnish": "Rekisteröi yritys, hanki luvat ja rekisteröidy freelanceriksi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "montar",
+      "finnish": "perustaa"
+    },
+    {
+      "spanish": "el negocio",
+      "finnish": "business"
+    },
+    {
+      "spanish": "la repostería",
+      "finnish": "bakery/pastry"
+    },
+    {
+      "spanish": "el asesor",
+      "finnish": "advisor"
+    },
+    {
+      "spanish": "el capital",
+      "finnish": "capital"
+    },
+    {
+      "spanish": "ahorrar",
+      "finnish": "pelastaa"
+    },
+    {
+      "spanish": "el local",
+      "finnish": "premises"
+    },
+    {
+      "spanish": "los gastos",
+      "finnish": "expenses"
+    },
+    {
+      "spanish": "el seguro",
+      "finnish": "insurance"
+    },
+    {
+      "spanish": "la publicidad",
+      "finnish": "advertising"
+    },
+    {
+      "spanish": "contratar",
+      "finnish": "palkata"
+    },
+    {
+      "spanish": "el emprendedor",
+      "finnish": "entrepreneur"
+    },
+    {
+      "spanish": "darse de alta",
+      "finnish": "rekisteröityä"
+    },
+    {
+      "spanish": "el/la autónomo/a",
+      "finnish": "self-employed person"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Millaisen yrityksen Laura haluaa aloittaa?",
+      "options": [
+        "Leipomo",
+        "Ravintola",
+        "Kahvila",
+        "Tarjoilu"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka paljon rahaa Laura on säästänyt?",
+      "options": [
+        "10,000 euros",
+        "5,000 euros",
+        "20,000 euros",
+        "15,000 euros"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Missä Laura haluaisi pitää asiansa?",
+      "options": [
+        "Pienet kiinteistöt keskustassa",
+        "Kotona",
+        "Esikaupungeissa",
+        "Online only"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä kuukausittaisia menoja mainitaan?",
+      "options": [
+        "Vuokra, sähkö, ainekset, vakuutukset, mainonta",
+        "Only rent",
+        "Only ingredients",
+        "Vain mainonta"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Tarvitseeko Laura palkata työntekijöitä välittömästi?",
+      "options": [
+        "Ei välttämättä",
+        "Kyllä, aina",
+        "Kyllä, ainakin 3",
+        "Kyllä, mutta vain osa-aikaisesti"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä hallinnollisia toimenpiteitä Lauran täytyy tehdä?",
+      "options": [
+        "Rekisteröi yritys, hanki luvat, rekisteröidy itsenäiseksi ammatinharjoittajaksi",
+        "Rekisteröi vain yritys",
+        "Only get licenses",
+        "Ei mitään"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 106,
+  "estimatedMinutes": 3,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

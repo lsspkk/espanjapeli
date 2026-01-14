@@ -65,6 +65,14 @@ describe('StoryCard', () => {
 		expect(badge).toBeInTheDocument();
 	});
 
+	it('displays correct level for B2 stories', () => {
+		const b2Story = { ...mockStory, level: 'B2' as const };
+		render(StoryCard, { story: b2Story });
+		// Should display "Edistynyt" (short format)
+		const badge = screen.getByText('Edistynyt');
+		expect(badge).toBeInTheDocument();
+	});
+
 	it('displays dialogue count', () => {
 		render(StoryCard, { story: mockStory });
 		expect(screen.getByText('2 repliikkiä')).toBeInTheDocument();
@@ -72,7 +80,7 @@ describe('StoryCard', () => {
 
 	it('displays question count', () => {
 		render(StoryCard, { story: mockStory });
-		expect(screen.getByText('1 kysymystä')).toBeInTheDocument();
+		expect(screen.getByText(/1 kysymystä/)).toBeInTheDocument();
 	});
 
 	it('calls onSelect when clicked in button mode', async () => {
@@ -115,18 +123,16 @@ describe('StoryCard', () => {
 		expect(button).toBeTruthy();
 	});
 
-	it('has proper badge styling for level A1', () => {
+	it('has proper level styling for level A1', () => {
 		const { container } = render(StoryCard, { story: mockStory });
-		const badge = container.querySelector('.badge');
-		expect(badge?.classList.contains('bg-green-100')).toBe(true);
-		expect(badge?.classList.contains('text-green-700')).toBe(true);
+		const levelSpan = screen.getByText('Alkeet');
+		expect(levelSpan.classList.contains('text-green-600')).toBe(true);
 	});
 
-	it('has proper badge styling for level A2', () => {
+	it('has proper level styling for level A2', () => {
 		const a2Story = { ...mockStory, level: 'A2' as const };
 		const { container } = render(StoryCard, { story: a2Story });
-		const badge = container.querySelector('.badge');
-		expect(badge?.classList.contains('bg-amber-100')).toBe(true);
-		expect(badge?.classList.contains('text-amber-700')).toBe(true);
+		const levelSpan = screen.getByText('Perustaso');
+		expect(levelSpan.classList.contains('text-amber-600')).toBe(true);
 	});
 });

@@ -1,0 +1,139 @@
+{
+  "id": "my-pets",
+  "title": "My Pets",
+  "titleSpanish": "Mis mascotas",
+  "description": "A A1 level story about animals",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "animals",
+  "icon": "🐕",
+  "dialogue": [
+    {
+      "speaker": "Ana",
+      "spanish": "¿Tienes mascotas?",
+      "finnish": "Onko sinulla lemmikkejä?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Sí, tengo un perro y un gato.",
+      "finnish": "Kyllä, minulla on koira ja kissa."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "¿Cómo se llama tu perro?",
+      "finnish": "Mikä koirasi nimi on?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Se llama Max. Es muy amigable.",
+      "finnish": "Hänen nimensä on Max. Hän on hyvin ystävällinen."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "¿Y tu gato?",
+      "finnish": "Entä kissasi?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Mi gato se llama Luna. Es negra y pequeña.",
+      "finnish": "Kissani nimi on Luna. Se on musta ja pieni."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "¡Qué bonito! Yo tengo un pájaro.",
+      "finnish": "Kiva! Minulla on lintu."
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "¿De qué color es?",
+      "finnish": "Minkä värinen se on?"
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "Es azul y amarillo.",
+      "finnish": "Se on sininen ja keltainen."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la mascota",
+      "finnish": "pet"
+    },
+    {
+      "spanish": "el perro",
+      "finnish": "dog"
+    },
+    {
+      "spanish": "el gato",
+      "finnish": "cat"
+    },
+    {
+      "spanish": "el pájaro",
+      "finnish": "bird"
+    },
+    {
+      "spanish": "amigable",
+      "finnish": "friendly"
+    },
+    {
+      "spanish": "negro/a",
+      "finnish": "black"
+    },
+    {
+      "spanish": "azul",
+      "finnish": "blue"
+    },
+    {
+      "spanish": "amarillo/a",
+      "finnish": "yellow"
+    },
+    {
+      "spanish": "bonito/a",
+      "finnish": "nice/pretty"
+    },
+    {
+      "spanish": "el color",
+      "finnish": "color"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Kuinka monta lemmikkiä Pedrolla on?",
+      "options": [
+        "Two",
+        "One",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minkä värinen Anan lintu on?",
+      "options": [
+        "Sininen ja keltainen",
+        "Musta",
+        "Punainen ja vihreä",
+        "White"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Miten koiraa kuvataan?",
+      "options": [
+        "Friendly",
+        "Pieni",
+        "Musta",
+        "Blue"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 46,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

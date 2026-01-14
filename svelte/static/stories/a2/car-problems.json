@@ -1,0 +1,159 @@
+{
+  "id": "car-problems",
+  "title": "Car Problems",
+  "titleSpanish": "Problemas con el coche",
+  "description": "A A2 level story about transportation",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "transportation",
+  "icon": "🚗",
+  "dialogue": [
+    {
+      "speaker": "Conductor",
+      "spanish": "Buenos días. Mi coche no arranca.",
+      "finnish": "Hyvää huomenta. Autoni ei käynnisty."
+    },
+    {
+      "speaker": "Mecánico",
+      "spanish": "¿Desde cuándo tiene el problema?",
+      "finnish": "Kuinka kauan sinulla on ollut ongelma?"
+    },
+    {
+      "speaker": "Conductor",
+      "spanish": "Desde ayer por la mañana.",
+      "finnish": "Eilisestä aamusta lähtien."
+    },
+    {
+      "speaker": "Mecánico",
+      "spanish": "¿Hace algún ruido extraño?",
+      "finnish": "Pitääkö se outoja ääniä?"
+    },
+    {
+      "speaker": "Conductor",
+      "spanish": "Sí, hace un clic cuando giro la llave.",
+      "finnish": "Kyllä, se napsahtaa, kun käännän avainta."
+    },
+    {
+      "speaker": "Mecánico",
+      "spanish": "Probablemente es la batería. Déjeme revisarla.",
+      "finnish": "Luultavasti akku on vikana. Annanpa sen läpi."
+    },
+    {
+      "speaker": "Conductor",
+      "spanish": "¿Cuánto tiempo necesita?",
+      "finnish": "Kuinka paljon aikaa tarvitset?"
+    },
+    {
+      "speaker": "Mecánico",
+      "spanish": "Una hora más o menos.",
+      "finnish": "Tunnin verran."
+    },
+    {
+      "speaker": "Conductor",
+      "spanish": "¿Cuánto va a costar?",
+      "finnish": "Miten paljon se maksaa?"
+    },
+    {
+      "speaker": "Mecánico",
+      "spanish": "Si es solo la batería, unos 80 euros.",
+      "finnish": "Jos vika on pelkästään akusta, noin 80 euroa."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el coche",
+      "finnish": "car"
+    },
+    {
+      "spanish": "arrancar",
+      "finnish": "to start (moottori)"
+    },
+    {
+      "spanish": "el mecánico",
+      "finnish": "mechanic"
+    },
+    {
+      "spanish": "el ruido",
+      "finnish": "noise"
+    },
+    {
+      "spanish": "extraño/a",
+      "finnish": "strange"
+    },
+    {
+      "spanish": "la llave",
+      "finnish": "key"
+    },
+    {
+      "spanish": "la batería",
+      "finnish": "battery"
+    },
+    {
+      "spanish": "revisar",
+      "finnish": "tarkistettavaksi"
+    },
+    {
+      "spanish": "costar",
+      "finnish": "maksaa"
+    },
+    {
+      "spanish": "más o menos",
+      "finnish": "more or less"
+    },
+    {
+      "spanish": "girar",
+      "finnish": "kääntyä"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mikä auton ongelma on?",
+      "options": [
+        "Ei käynnisty",
+        "Rengasrikko",
+        "Broken window",
+        "Ei polttoainetta"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä ääntä auto pitää?",
+      "options": [
+        "Click",
+        "Beep",
+        "Whistle",
+        "Pam"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä mekaanikko ajattelee ongelman olevan?",
+      "options": [
+        "Akku",
+        "Engine",
+        "Tires",
+        "Jarrut"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Paljonko se maksaa suunnilleen?",
+      "options": [
+        "80 euros",
+        "100 euros",
+        "50 euros",
+        "120 euros"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 54,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

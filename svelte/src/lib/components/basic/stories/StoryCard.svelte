@@ -10,13 +10,13 @@
 	function getLevelColor(level: string): string {
 		switch (level) {
 			case 'A1':
-				return 'text-green-600';
+				return 'text-green-700/60';
 			case 'A2':
-				return 'text-amber-600';
+				return 'text-amber-700/60';
 			case 'B1':
-				return 'text-orange-600';
+				return 'text-orange-700/60';
 			case 'B2':
-				return 'text-red-600';
+				return 'text-red-700/60';
 			default:
 				return 'text-base-content/50';
 		}
@@ -30,7 +30,7 @@
 	>
 		<div class="card-body p-3">
 			<div class="flex items-start gap-2">
-				<span class="text-2xl">{story.icon}</span>
+				<span class="text-2xl saturate-50 opacity-80">{story.icon}</span>
 				<div class="flex-1 min-w-0">
 					<h3 class="card-title text-base font-semibold">{story.titleSpanish}</h3>
 					<p class="text-sm text-base-content/70 mt-0.5 line-clamp-2">{story.description}</p>
@@ -56,7 +56,7 @@
 	>
 		<div class="card-body p-3">
 			<div class="flex items-start gap-2">
-				<span class="text-2xl">{story.icon}</span>
+				<span class="text-2xl saturate-50 opacity-80">{story.icon}</span>
 				<div class="flex-1 min-w-0">
 					<h3 class="card-title text-base font-semibold">{story.titleSpanish}</h3>
 					<p class="text-sm text-base-content/70 mt-0.5 line-clamp-2">{story.description}</p>

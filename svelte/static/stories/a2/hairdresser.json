@@ -1,0 +1,159 @@
+{
+  "id": "hairdresser",
+  "title": "The Hairdresser",
+  "titleSpanish": "En la peluquería",
+  "description": "A A2 level story about services",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "services",
+  "icon": "💇",
+  "dialogue": [
+    {
+      "speaker": "Cliente",
+      "spanish": "Buenas tardes. Tengo cita a las tres.",
+      "finnish": "Hyvää iltapäivää. Minulla on tapaaminen kolmelta."
+    },
+    {
+      "speaker": "Peluquera",
+      "spanish": "Sí, pasa por aquí. ¿Qué te gustaría hacer hoy?",
+      "finnish": "Kyllä, poikkea käymään. Mitä haluaisit tehdä tänään?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Quiero cortarme el pelo y teñirlo.",
+      "finnish": "Haluan leikata hiukseni ja värjätä ne."
+    },
+    {
+      "speaker": "Peluquera",
+      "spanish": "¿Cuánto quieres cortarlo?",
+      "finnish": "Kuinka paljon haluat leikata sen?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Solo las puntas, unos cinco centímetros.",
+      "finnish": "Vain kärjet, noin viisi senttimetriä."
+    },
+    {
+      "speaker": "Peluquera",
+      "spanish": "¿Y de qué color quieres teñirlo?",
+      "finnish": "Minkä värisen haluat värjätä sen?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Me gustaría un castaño más claro.",
+      "finnish": "Haluaisin vaaleamman ruskean."
+    },
+    {
+      "speaker": "Peluquera",
+      "spanish": "Perfecto. Primero lo lavamos.",
+      "finnish": "Täydellistä. Ensin pesemme sen."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "¿Cuánto tiempo va a tardar?",
+      "finnish": "Kuinka kauan se kestää?"
+    },
+    {
+      "speaker": "Peluquera",
+      "spanish": "Aproximadamente una hora y media.",
+      "finnish": "Noin puolitoista tuntia."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la peluquería",
+      "finnish": "hairdresser's"
+    },
+    {
+      "spanish": "la cita",
+      "finnish": "appointment"
+    },
+    {
+      "spanish": "cortar",
+      "finnish": "leikata"
+    },
+    {
+      "spanish": "teñir",
+      "finnish": "värjäämään"
+    },
+    {
+      "spanish": "el pelo",
+      "finnish": "hair"
+    },
+    {
+      "spanish": "las puntas",
+      "finnish": "Loppu"
+    },
+    {
+      "spanish": "claro/a",
+      "finnish": "light"
+    },
+    {
+      "spanish": "oscuro/a",
+      "finnish": "dark"
+    },
+    {
+      "spanish": "castaño/a",
+      "finnish": "brown (hair)"
+    },
+    {
+      "spanish": "lavar",
+      "finnish": "peseytyä"
+    },
+    {
+      "spanish": "tardar",
+      "finnish": "ottaa (aikaa)"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mihin aikaan aika on?",
+      "options": [
+        "3 PM",
+        "2 PM",
+        "4 PM",
+        "5 PM"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka paljon hiuksia asiakas haluaa leikata?",
+      "options": [
+        "5 centimeters",
+        "10 centimeters",
+        "Kaiken",
+        "2 centimeters"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minkä värin asiakas haluaa?",
+      "options": [
+        "Lighter brown",
+        "Tummempi ruskea",
+        "Blonde",
+        "Musta"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka kauan huolto kestää?",
+      "options": [
+        "1.5 hours",
+        "1 hour",
+        "2 hours",
+        "30 minutes"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 57,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

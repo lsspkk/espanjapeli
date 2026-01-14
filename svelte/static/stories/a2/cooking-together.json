@@ -1,0 +1,179 @@
+{
+  "id": "cooking-together",
+  "title": "Cooking Together",
+  "titleSpanish": "Cocinando juntos",
+  "description": "A A2 level story about food",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "food",
+  "icon": "🍳",
+  "dialogue": [
+    {
+      "speaker": "Madre",
+      "spanish": "Vamos a hacer paella para la cena.",
+      "finnish": "Aiomme tehdä paellaa illalliseksi."
+    },
+    {
+      "speaker": "Hijo",
+      "spanish": "¡Qué bien! ¿Qué ingredientes necesitamos?",
+      "finnish": "Kiva juttu! Mitä ainesosia tarvitsemme?"
+    },
+    {
+      "speaker": "Madre",
+      "spanish": "Arroz, pollo, pimientos y azafrán.",
+      "finnish": "Riisiä, kanaa, paprikoita ja sahramia."
+    },
+    {
+      "speaker": "Hijo",
+      "spanish": "¿Yo qué puedo hacer?",
+      "finnish": "Mitä voin tehdä?"
+    },
+    {
+      "speaker": "Madre",
+      "spanish": "Corta los pimientos en trozos pequeños.",
+      "finnish": "Leikkaa paprikat pieniksi paloiksi."
+    },
+    {
+      "speaker": "Hijo",
+      "spanish": "¿Así está bien?",
+      "finnish": "Sopiiko?"
+    },
+    {
+      "speaker": "Madre",
+      "spanish": "Perfecto. Ahora ponlos en la sartén.",
+      "finnish": "Täydellistä. Laita ne nyt pannulle."
+    },
+    {
+      "speaker": "Hijo",
+      "spanish": "¿Cuánto tiempo tarda la paella?",
+      "finnish": "Kuinka kauan paella kestää?"
+    },
+    {
+      "speaker": "Madre",
+      "spanish": "Unos cuarenta minutos. Mientras tanto, prepara la ensalada.",
+      "finnish": "Noin neljäkymmentä minuuttia. Sillä välin valmista salaatti."
+    },
+    {
+      "speaker": "Hijo",
+      "spanish": "Me gusta cocinar contigo, mamá.",
+      "finnish": "Tykkään kokata kanssasi, äiti."
+    },
+    {
+      "speaker": "Madre",
+      "spanish": "A mí también. Es divertido.",
+      "finnish": "Niin minäkin. Se on hauskaa."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "cocinar",
+      "finnish": "kokkaamaan"
+    },
+    {
+      "spanish": "la paella",
+      "finnish": "paella (espanjalainen riisiruoka)"
+    },
+    {
+      "spanish": "el ingrediente",
+      "finnish": "ingredient"
+    },
+    {
+      "spanish": "el arroz",
+      "finnish": "rice"
+    },
+    {
+      "spanish": "el pollo",
+      "finnish": "chicken"
+    },
+    {
+      "spanish": "el pimiento",
+      "finnish": "pepper"
+    },
+    {
+      "spanish": "cortar",
+      "finnish": "leikata"
+    },
+    {
+      "spanish": "el trozo",
+      "finnish": "piece"
+    },
+    {
+      "spanish": "la sartén",
+      "finnish": "pan"
+    },
+    {
+      "spanish": "mientras tanto",
+      "finnish": "meanwhile"
+    },
+    {
+      "spanish": "la ensalada",
+      "finnish": "salad"
+    },
+    {
+      "spanish": "divertido/a",
+      "finnish": "fun"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mitä he tekevät illalliseksi?",
+      "options": [
+        "Paella",
+        "Pizza",
+        "Pasta",
+        "Soup"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä pojan pitäisi leikata?",
+      "options": [
+        "Peppers",
+        "Chicken",
+        "Onions",
+        "Tomaatit"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka kauan paellan kypsyminen kestää?",
+      "options": [
+        "40 minutes",
+        "20 minutes",
+        "1 hour",
+        "30 minutes"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä pojan tulisi valmistaa, kun paella kypsyy?",
+      "options": [
+        "Salaatti",
+        "Dessert",
+        "Leipä",
+        "Drinks"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Miltä pojasta tuntuu kokata äitinsä kanssa?",
+      "options": [
+        "He likes it",
+        "He doesn't like it",
+        "He's bored",
+        "He's tired"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 59,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

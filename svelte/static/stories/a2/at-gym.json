@@ -1,0 +1,159 @@
+{
+  "id": "at-gym",
+  "title": "At the Gym",
+  "titleSpanish": "En el gimnasio",
+  "description": "A A2 level story about fitness",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "fitness",
+  "icon": "🏋️",
+  "dialogue": [
+    {
+      "speaker": "Laura",
+      "spanish": "Hola, quiero inscribirme en el gimnasio.",
+      "finnish": "Hei, haluan liittyä salille."
+    },
+    {
+      "speaker": "Recepcionista",
+      "spanish": "Perfecto. ¿Qué tipo de membresía te interesa?",
+      "finnish": "Täydellistä. Millainen jäsenyys sinua kiinnostaa?"
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "¿Cuál es la diferencia entre mensual y anual?",
+      "finnish": "Mikä on ero kuukausittaisella ja vuosittaisella työllä?"
+    },
+    {
+      "speaker": "Recepcionista",
+      "spanish": "La mensual cuesta 40 euros, la anual 350 euros.",
+      "finnish": "Kuukausittainen maksaa 40 euroa, vuosittainen 350 euroa."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "¿Qué incluye la membresía?",
+      "finnish": "Mitä jäsenyys sisältää?"
+    },
+    {
+      "speaker": "Recepcionista",
+      "spanish": "Acceso a todas las máquinas, clases grupales y vestuarios.",
+      "finnish": "Pääsy kaikkiin koneisiin, ryhmätunteihin ja pukuhuoneisiin."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "¿Hay clases de yoga?",
+      "finnish": "Onko joogatunteja?"
+    },
+    {
+      "speaker": "Recepcionista",
+      "spanish": "Sí, hay yoga, pilates y spinning.",
+      "finnish": "Kyllä, on joogaa, pilatesta ja kehräämistä."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Me gustaría la membresía anual, por favor.",
+      "finnish": "Haluaisin vuosijäsenyyden, kiitos."
+    },
+    {
+      "speaker": "Recepcionista",
+      "spanish": "Excelente elección. Necesito tu DNI.",
+      "finnish": "Erinomainen valinta. Tarvitsen henkilöllisyystodistuksesi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el gimnasio",
+      "finnish": "gym"
+    },
+    {
+      "spanish": "inscribirse",
+      "finnish": "Ilmoittautuaksesi"
+    },
+    {
+      "spanish": "la membresía",
+      "finnish": "membership"
+    },
+    {
+      "spanish": "mensual",
+      "finnish": "monthly"
+    },
+    {
+      "spanish": "anual",
+      "finnish": "annual"
+    },
+    {
+      "spanish": "la máquina",
+      "finnish": "machine"
+    },
+    {
+      "spanish": "la clase",
+      "finnish": "class"
+    },
+    {
+      "spanish": "grupal",
+      "finnish": "group"
+    },
+    {
+      "spanish": "el vestuario",
+      "finnish": "locker room"
+    },
+    {
+      "spanish": "el DNI",
+      "finnish": "ID card"
+    },
+    {
+      "spanish": "la elección",
+      "finnish": "choice"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Paljonko kuukausijäsenyys maksaa?",
+      "options": [
+        "40 euros",
+        "350 euros",
+        "30 euros",
+        "50 euros"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minkälaisia kursseja mainitaan?",
+      "options": [
+        "Jooga, pilates, kehrääminen",
+        "Vain jooga",
+        "Swimming",
+        "Tanssi"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minkä jäsenyyden Laura valitsee?",
+      "options": [
+        "Vuosittainen",
+        "Monthly",
+        "Weekly",
+        "Päivittäinen"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä vastaanottovirkailija tarvitsee Lauralta?",
+      "options": [
+        "Henkilökortti",
+        "Luottokortti",
+        "Kuva",
+        "Phone number"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 65,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

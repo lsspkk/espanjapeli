@@ -286,7 +286,7 @@ export function getCEFRDescription(level: string): string {
 		A1: 'Alkeet',
 		A2: 'Perustaso',
 		B1: 'Keskitaso',
-		B2: 'Hyvä keskitaso',
+		B2: 'Edistynyt',
 		C1: 'Edistynyt',
 		C2: 'Taitava'
 	};

@@ -1,0 +1,134 @@
+{
+  "id": "at-zoo",
+  "title": "At the Zoo",
+  "titleSpanish": "En el zoológico",
+  "description": "A A1 level story about animals",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "animals",
+  "icon": "🦁",
+  "dialogue": [
+    {
+      "speaker": "Niño",
+      "spanish": "Mira, mamá. ¿Qué animal es este?",
+      "finnish": "Kuule, äiti. Mikä eläin tämä on?"
+    },
+    {
+      "speaker": "Mamá",
+      "spanish": "Es un león. Es muy grande.",
+      "finnish": "Hän on leijona. Se on todella iso."
+    },
+    {
+      "speaker": "Niño",
+      "spanish": "¿Y ese animal pequeño?",
+      "finnish": "Entä tuo pieni eläin?"
+    },
+    {
+      "speaker": "Mamá",
+      "spanish": "Es un mono. Los monos son divertidos.",
+      "finnish": "Hän on apina. Apinat ovat hauskoja."
+    },
+    {
+      "speaker": "Niño",
+      "spanish": "Mira, hay un elefante. Me gustan los elefantes.",
+      "finnish": "Katso, tuolla on norsu. Pidän norsuista."
+    },
+    {
+      "speaker": "Mamá",
+      "spanish": "Sí, son muy inteligentes.",
+      "finnish": "Kyllä, he ovat hyvin älykkäitä."
+    },
+    {
+      "speaker": "Niño",
+      "spanish": "¿Dónde está la jirafa?",
+      "finnish": "Missä kirahvi on?"
+    },
+    {
+      "speaker": "Mamá",
+      "spanish": "Allí, al lado del árbol.",
+      "finnish": "Tuolla, puun vieressä."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el animal",
+      "finnish": "animal"
+    },
+    {
+      "spanish": "el león",
+      "finnish": "lion"
+    },
+    {
+      "spanish": "el mono",
+      "finnish": "monkey"
+    },
+    {
+      "spanish": "el elefante",
+      "finnish": "elephant"
+    },
+    {
+      "spanish": "la jirafa",
+      "finnish": "giraffe"
+    },
+    {
+      "spanish": "grande",
+      "finnish": "big"
+    },
+    {
+      "spanish": "pequeño/a",
+      "finnish": "small"
+    },
+    {
+      "spanish": "divertido/a",
+      "finnish": "funny"
+    },
+    {
+      "spanish": "inteligente",
+      "finnish": "intelligent"
+    },
+    {
+      "spanish": "el árbol",
+      "finnish": "tree"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mikä eläin on hyvin suuri?",
+      "options": [
+        "Lion",
+        "Monkey",
+        "Kirahvi",
+        "Tree"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Miten äiti kuvailee apinoita?",
+      "options": [
+        "Funny",
+        "Big",
+        "Intelligent",
+        "Pieni"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Missä kirahvi on?",
+      "options": [
+        "Puun vieressä",
+        "Vedessä",
+        "Leijonan takana",
+        "Rakennuksen sisällä"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 44,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

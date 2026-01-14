@@ -1,0 +1,212 @@
+{
+  "id": "social-media-impact",
+  "title": "Social Media Impact",
+  "titleSpanish": "El impacto de las redes sociales",
+  "description": "A B1 level story about technology",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "technology",
+  "icon": "📱",
+  "dialogue": [
+    {
+      "speaker": "Teresa",
+      "spanish": "¿Cuánto tiempo pasas al día en las redes sociales?",
+      "finnish": "Kuinka paljon aikaa vietät päivässä sosiaalisessa mediassa?"
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "Probablemente unas tres o cuatro horas. Demasiado, lo sé.",
+      "finnish": "Luultavasti noin kolme tai neljä tuntia. Liikaa, tiedän."
+    },
+    {
+      "speaker": "Teresa",
+      "spanish": "Yo intenté reducirlo porque afectaba mi productividad.",
+      "finnish": "Yritin vähentää sitä, koska se vaikutti tuottavuuteeni."
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "¿Cómo lo conseguiste?",
+      "finnish": "Miten saavutit sen?"
+    },
+    {
+      "speaker": "Teresa",
+      "spanish": "Desactivé las notificaciones y establec límites de tiempo en las aplicaciones.",
+      "finnish": "Otin ilmoitukset pois päältä ja asetin aikarajoituksia sovelluksille."
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "¿No te resulta difícil desconectarte?",
+      "finnish": "Eikö ole vaikeaa irrottaa yhteys?"
+    },
+    {
+      "speaker": "Teresa",
+      "spanish": "Al principio sí, pero ahora me siento más presente en mi vida real.",
+      "finnish": "Aluksi tunsin, mutta nyt tunnen olevani enemmän läsnä oikeassa elämässäni."
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "Es curioso cómo algo diseñado para conectarnos puede hacernos sentir más aislados.",
+      "finnish": "On hauskaa, miten jokin, joka on suunniteltu yhdistämään meidät, voi saada meidät tuntemaan itsemme eristäytyneemmiksi."
+    },
+    {
+      "speaker": "Teresa",
+      "spanish": "Exacto. He leído estudios que relacionan el uso excesivo con la ansiedad y la depresión.",
+      "finnish": "Juuri niin. Olen lukenut tutkimuksia, jotka yhdistävät liikakäytön ahdistukseen ja masennukseen."
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "¿Crees que deberíamos abandonarlas por completo?",
+      "finnish": "Pitäisikö meidän hylätä heidät kokonaan?"
+    },
+    {
+      "speaker": "Teresa",
+      "spanish": "No necesariamente, pero sí usarlas de manera más consciente e intencional.",
+      "finnish": "Ei välttämättä, mutta käyttämällä niitä tietoisemmin ja tarkoituksellisemmin."
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "Tienes razón. Quizás debería hacer un detox digital este fin de semana.",
+      "finnish": "Olet oikeassa. Ehkä sinun pitäisi tehdä digitaalinen vieroitus tänä viikonloppuna."
+    },
+    {
+      "speaker": "Teresa",
+      "spanish": "Es una buena idea. Te sorprenderá cuánto tiempo libre descubres.",
+      "finnish": "Se on hyvä idea. Tulet yllättymään, kuinka paljon vapaa-aikaa löydät."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "las redes sociales",
+      "finnish": "social media"
+    },
+    {
+      "spanish": "el impacto",
+      "finnish": "impact"
+    },
+    {
+      "spanish": "la productividad",
+      "finnish": "productivity"
+    },
+    {
+      "spanish": "reducir",
+      "finnish": "vähentämään"
+    },
+    {
+      "spanish": "desactivar",
+      "finnish": "deaktivoida"
+    },
+    {
+      "spanish": "la notificación",
+      "finnish": "notification"
+    },
+    {
+      "spanish": "establecer",
+      "finnish": "asettaa/perustaa"
+    },
+    {
+      "spanish": "el límite",
+      "finnish": "limit"
+    },
+    {
+      "spanish": "desconectarse",
+      "finnish": "irrottautua"
+    },
+    {
+      "spanish": "aislado/a",
+      "finnish": "isolated"
+    },
+    {
+      "spanish": "excesivo/a",
+      "finnish": "excessive"
+    },
+    {
+      "spanish": "la ansiedad",
+      "finnish": "anxiety"
+    },
+    {
+      "spanish": "consciente",
+      "finnish": "conscious"
+    },
+    {
+      "spanish": "intencional",
+      "finnish": "intentional"
+    },
+    {
+      "spanish": "el detox",
+      "finnish": "detox"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Kuinka monta tuntia Miguel viettää päivittäin sosiaalisessa mediassa?",
+      "options": [
+        "3-4 hours",
+        "1-2 hours",
+        "5-6 hours",
+        "8 hours"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Why did Teresa try to reduce her social media use?",
+      "options": [
+        "Se vaikutti hänen tuottavuuteensa",
+        "Hän oli tylsistynyt",
+        "Her phone broke",
+        "Joku käski häntä tekemään niin"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä Teresa deaktivoi?",
+      "options": [
+        "Ilmoitukset",
+        "Hänen kertomuksensa",
+        "Her phone",
+        "Her computer"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Miltä Teresa nyt tuntuu verrattuna aiempaan?",
+      "options": [
+        "Enemmän läsnä oikeassa elämässä",
+        "More stressed",
+        "Eristäytyneempi",
+        "More bored"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mihin tutkimukset ovat yhdistäneet liiallisen sosiaalisen median käytön?",
+      "options": [
+        "Ahdistus ja masennus",
+        "Parempi terveys",
+        "Parantuneet suhteet",
+        "Higher intelligence"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä Miguel aikoo tehdä tänä viikonloppuna?",
+      "options": [
+        "Digitaalinen vieroitus",
+        "Käytä enemmän sosiaalista mediaa",
+        "Osta uusi puhelin",
+        "Mene lomalle"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 123,
+  "estimatedMinutes": 4,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

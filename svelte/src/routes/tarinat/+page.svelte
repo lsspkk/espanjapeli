@@ -21,50 +21,30 @@
 
 	// Filters and sorting
 	let filterDifficulty: string = 'all';
-	let sortDirection: 'asc' | 'desc' = 'asc'; // asc = easiest first (A1, A2, B1, B2)
+	let sortDirection: 'asc' | 'desc' = 'asc'; // asc = A-Z within each level
 
-	// Map UI filter values to story difficulty values
-	const difficultyMap: Record<string, string> = {
-		'A1': 'beginner',
-		'A2': 'beginner',
-		'B1': 'intermediate',
-		'B2': 'intermediate'
-	};
-
-	// Map story difficulty to sort order
-	const difficultyOrder: Record<string, number> = {
-		'beginner': 1,
-		'intermediate': 2,
-		'advanced': 3
-	};
+	// CEFR level sort order
+	const levelOrder: Record<string, number> = { 'A1': 1, 'A2': 2, 'B1': 3, 'B2': 4, 'C1': 5, 'C2': 6 };
 
 	// Filtered and sorted stories
 	$: filteredStories = (() => {
-		// First filter by difficulty
+		// First filter by level
 		let filtered = stories.filter((story) => {
 			if (filterDifficulty !== 'all') {
-				const targetDifficulty = difficultyMap[filterDifficulty];
-				if (story.difficulty !== targetDifficulty) return false;
+				if (story.level !== filterDifficulty) return false;
 			}
 			return true;
 		});
 
-		// Sort by difficulty first, then alphabetically by level, then by title
+		// Sort by CEFR level first, then alphabetically by title
 		filtered = filtered.sort((a, b) => {
-			// Primary sort: difficulty (beginner, intermediate, advanced)
-			const orderA = difficultyOrder[a.difficulty || 'beginner'] || 99;
-			const orderB = difficultyOrder[b.difficulty || 'beginner'] || 99;
-			if (orderA !== orderB) {
-				return orderA - orderB;
-			}
-			// Secondary sort: CEFR level (A1, A2, B1, B2)
-			const levelOrder: Record<string, number> = { 'A1': 1, 'A2': 2, 'B1': 3, 'B2': 4 };
+			// Primary sort: CEFR level (A1, A2, B1, B2, etc.)
 			const levelA = levelOrder[a.level] || 99;
 			const levelB = levelOrder[b.level] || 99;
 			if (levelA !== levelB) {
 				return levelA - levelB;
 			}
-			// Tertiary sort: alphabet (with direction)
+			// Secondary sort: alphabet by title (with direction)
 			const comparison = a.title.localeCompare(b.title, 'fi');
 			return sortDirection === 'asc' ? comparison : -comparison;
 		});

@@ -1,0 +1,212 @@
+{
+  "id": "learning-drive",
+  "title": "Learning to Drive",
+  "titleSpanish": "Aprendiendo a conducir",
+  "description": "A B1 level story about transportation",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "transportation",
+  "icon": "🚘",
+  "dialogue": [
+    {
+      "speaker": "Instructor",
+      "spanish": "Hoy vamos a practicar el aparcamiento en paralelo.",
+      "finnish": "Tänään harjoittelemme rinnakkaispysäköintiä."
+    },
+    {
+      "speaker": "Alumna",
+      "spanish": "Ese es mi punto débil. Siempre me cuesta mucho.",
+      "finnish": "Se on heikko kohtani. Se on minulle aina hyvin vaikeaa."
+    },
+    {
+      "speaker": "Instructor",
+      "spanish": "Con práctica se vuelve automático. Recuerda mirar bien los espejos.",
+      "finnish": "Harjoittelun myötä se muuttuu automaattiseksi. Muista katsoa peilejä tarkasti."
+    },
+    {
+      "speaker": "Alumna",
+      "spanish": "¿Cuándo cree que estaré lista para el examen?",
+      "finnish": "Milloin luulet, että olen valmis kokeeseen?"
+    },
+    {
+      "speaker": "Instructor",
+      "spanish": "Necesitas unas diez horas más de práctica. Te falta confianza en rotondas.",
+      "finnish": "Tarvitset noin kymmenen tuntia lisää harjoittelua. Sinulta puuttuu itseluottamus liikenneympyröissä."
+    },
+    {
+      "speaker": "Alumna",
+      "spanish": "Las rotondas me ponen nerviosa. Hay tanto tráfico.",
+      "finnish": "Liikenneympyrät hermostuttavat minua. Liikennettä on niin paljon."
+    },
+    {
+      "speaker": "Instructor",
+      "spanish": "Por eso es importante mantener la calma y seguir las normas.",
+      "finnish": "Siksi on tärkeää pysyä rauhallisena ja noudattaa sääntöjä."
+    },
+    {
+      "speaker": "Alumna",
+      "spanish": "¿Qué pasa si suspendo el examen?",
+      "finnish": "Mitä tapahtuu, jos epäonnistun kokeessa?"
+    },
+    {
+      "speaker": "Instructor",
+      "spanish": "Puedes repetirlo después de dos semanas. No te preocupes, la mayoría lo aprueban a la segunda.",
+      "finnish": "Voit toistaa sen kahden viikon jälkeen. Älä huoli, useimmat läpäisevät sen toisella kerralla."
+    },
+    {
+      "speaker": "Alumna",
+      "spanish": "¿Qué parte es la más difícil del examen?",
+      "finnish": "Mikä osa kokeesta on vaikein?"
+    },
+    {
+      "speaker": "Instructor",
+      "spanish": "Para muchos, circular por ciudad con tráfico intenso. Pero tú conduces bien, solo necesitas más práctica.",
+      "finnish": "Monille ajaminen kaupungissa, jossa on vilkasta liikennettä. Mutta ajat hyvin, tarvitset vain lisää harjoitusta."
+    },
+    {
+      "speaker": "Alumna",
+      "spanish": "Espero aprobar a la primera. He estudiado mucho el manual.",
+      "finnish": "Toivon pääseväni läpi ensimmäisellä kerralla. Olen opiskellut käsikirjaa paljon."
+    },
+    {
+      "speaker": "Instructor",
+      "spanish": "El manual es importante, pero la experiencia práctica es esencial. Vamos a empezar.",
+      "finnish": "Käsikirja on tärkeä, mutta käytännön kokemus on välttämätöntä. Aloitetaan."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "conducir",
+      "finnish": "ajaa"
+    },
+    {
+      "spanish": "el aparcamiento",
+      "finnish": "parking"
+    },
+    {
+      "spanish": "en paralelo",
+      "finnish": "parallel"
+    },
+    {
+      "spanish": "el punto débil",
+      "finnish": "weak point"
+    },
+    {
+      "spanish": "el espejo",
+      "finnish": "mirror"
+    },
+    {
+      "spanish": "la rotonda",
+      "finnish": "roundabout"
+    },
+    {
+      "spanish": "mantener la calma",
+      "finnish": "pysyä rauhallisena"
+    },
+    {
+      "spanish": "las normas",
+      "finnish": "rules"
+    },
+    {
+      "spanish": "suspender",
+      "finnish": "epäonnistua (koe)"
+    },
+    {
+      "spanish": "aprobar",
+      "finnish": "läpäistä (koe)"
+    },
+    {
+      "spanish": "repetir",
+      "finnish": "uusittavaksi/uusittavaksi"
+    },
+    {
+      "spanish": "circular",
+      "finnish": "ajaa/liikkua"
+    },
+    {
+      "spanish": "el tráfico",
+      "finnish": "traffic"
+    },
+    {
+      "spanish": "el manual",
+      "finnish": "manual"
+    },
+    {
+      "spanish": "esencial",
+      "finnish": "essential"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mitä he aikovat harjoitella tänään?",
+      "options": [
+        "Rinnakkainen pysäköinti",
+        "Moottoritieajo",
+        "Liikenneympyrät",
+        "Night driving"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka monta harjoitustuntia opiskelija vielä tarvitsee?",
+      "options": [
+        "10",
+        "5",
+        "20",
+        "15"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä saa opiskelijan hermostumaan?",
+      "options": [
+        "Liikenneympyrät",
+        "Pysäköinti",
+        "Moottoritie",
+        "Night driving"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka kauan opiskelijan täytyy odottaa kokeen uusimista, jos hän epäonnistuu?",
+      "options": [
+        "2 weeks",
+        "1 week",
+        "1 month",
+        "3 päivää"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä on monille kokeen vaikein osa?",
+      "options": [
+        "Ajaminen ruuhkaisessa liikenteessä",
+        "Pysäköinti",
+        "Teoria",
+        "Liikenneympyrät"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Opettajan mukaan, milloin useimmat ihmiset läpäisevät?",
+      "options": [
+        "Toisella yrittämällä",
+        "Ensimmäisellä yrittämällä",
+        "Kolmannella yrityksellä",
+        "Never"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 135,
+  "estimatedMinutes": 4,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

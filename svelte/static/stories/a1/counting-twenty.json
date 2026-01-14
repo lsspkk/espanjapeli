@@ -1,0 +1,134 @@
+{
+  "id": "counting-twenty",
+  "title": "Counting to Twenty",
+  "titleSpanish": "Contando hasta veinte",
+  "description": "A A1 level story about numbers",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "numbers",
+  "icon": "🔢",
+  "dialogue": [
+    {
+      "speaker": "Profesor",
+      "spanish": "Vamos a contar hasta veinte. Uno, dos, tres...",
+      "finnish": "Lasketaan kahteenkymmeneen. Yksi kaksi kolme..."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "Cuatro, cinco, seis, siete.",
+      "finnish": "Neljä, viisi, kuusi, seitsemän."
+    },
+    {
+      "speaker": "Profesor",
+      "spanish": "Muy bien. Ahora desde diez.",
+      "finnish": "Oikein hyvin. Nyt kymmenestä."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "Diez, once, doce, trece, catorce.",
+      "finnish": "Kymmenen, yksitoista, kaksitoista, kolmetoista, neljätoista."
+    },
+    {
+      "speaker": "Profesor",
+      "spanish": "Excelente. ¿Cuántos dedos tienes?",
+      "finnish": "Erinomaista. Kuinka monta sormea sinulla on?"
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "Tengo diez dedos.",
+      "finnish": "Minulla on kymmenen sormea."
+    },
+    {
+      "speaker": "Profesor",
+      "spanish": "Correcto. ¿Y cuántas manzanas hay aquí?",
+      "finnish": "Oikea. Ja kuinka monta omenaa täällä on?"
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "Hay cinco manzanas.",
+      "finnish": "Korttelia on viisi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "contar",
+      "finnish": "laskea"
+    },
+    {
+      "spanish": "hasta",
+      "finnish": "until/to"
+    },
+    {
+      "spanish": "uno",
+      "finnish": "one"
+    },
+    {
+      "spanish": "dos",
+      "finnish": "two"
+    },
+    {
+      "spanish": "tres",
+      "finnish": "three"
+    },
+    {
+      "spanish": "diez",
+      "finnish": "ten"
+    },
+    {
+      "spanish": "veinte",
+      "finnish": "twenty"
+    },
+    {
+      "spanish": "el dedo",
+      "finnish": "finger"
+    },
+    {
+      "spanish": "la manzana",
+      "finnish": "apple"
+    },
+    {
+      "spanish": "cuántos/as",
+      "finnish": "how many"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mitä he laskevat?",
+      "options": [
+        "Twenty",
+        "Ten",
+        "Thirty",
+        "Fifteen"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka monta sormea oppilaalla on?",
+      "options": [
+        "Ten",
+        "Five",
+        "Twenty",
+        "Eight"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka monta omenaa on?",
+      "options": [
+        "Five",
+        "Three",
+        "Ten",
+        "Seven"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 38,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

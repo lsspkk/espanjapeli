@@ -1,0 +1,212 @@
+{
+  "id": "mental-health",
+  "title": "Mental Health Awareness",
+  "titleSpanish": "Conciencia sobre la salud mental",
+  "description": "A B1 level story about health",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "health",
+  "icon": "🧠",
+  "dialogue": [
+    {
+      "speaker": "Psicóloga",
+      "spanish": "¿Qué te ha traído a consulta hoy?",
+      "finnish": "Mikä toi sinut tänään konsultaatioon?"
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Últimamente me siento muy estresado y ansioso.",
+      "finnish": "Viime aikoina olen tuntenut oloni hyvin stressaantuneeksi ja ahdistuneeksi."
+    },
+    {
+      "speaker": "Psicóloga",
+      "spanish": "¿Desde cuándo experimentas estos síntomas?",
+      "finnish": "Kuinka kauan olet kärsinyt näistä oireista?"
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Hace unos tres meses, desde que cambié de trabajo.",
+      "finnish": "Noin kolme kuukautta sitten, siitä lähtien kun vaihdoin työpaikkaa."
+    },
+    {
+      "speaker": "Psicóloga",
+      "spanish": "Es normal que los cambios importantes generen estrés. ¿Cómo afecta a tu vida diaria?",
+      "finnish": "On normaalia, että suuret muutokset johtavat stressiin. Miten se vaikuttaa päivittäiseen elämääsi?"
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Tengo problemas para dormir y me cuesta concentrarme.",
+      "finnish": "Minulla on vaikeuksia nukkua ja keskittyminen on vaikeaa."
+    },
+    {
+      "speaker": "Psicóloga",
+      "spanish": "¿Has notado cambios en tu apetito o estado de ánimo?",
+      "finnish": "Oletko huomannut muutoksia ruokahalussasi tai mielialassasi?"
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Sí, como menos y a veces me siento irritable sin motivo.",
+      "finnish": "Kyllä, syön vähemmän ja joskus tunnen ärtyneisyyttä ilman syytä."
+    },
+    {
+      "speaker": "Psicóloga",
+      "spanish": "Es importante que entiendas que buscar ayuda es un signo de fortaleza, no de debilidad.",
+      "finnish": "On tärkeää ymmärtää, että avun hakeminen on vahvuuden merkki, ei heikkouden."
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Me preocupaba que la gente pensara que no puedo manejar mis problemas.",
+      "finnish": "Olin huolissani, että ihmiset ajattelisivat, etten pysty käsittelemään ongelmiani."
+    },
+    {
+      "speaker": "Psicóloga",
+      "spanish": "La salud mental es tan importante como la física. Vamos a trabajar juntos en estrategias de manejo del estrés.",
+      "finnish": "Mielenterveys on yhtä tärkeää kuin fyysinen terveys. Kehitetään yhdessä stressinhallintastrategioita."
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "¿Cuánto tiempo suele tomar ver mejoras?",
+      "finnish": "Kuinka kauan yleensä kestää nähdä parannuksia?"
+    },
+    {
+      "speaker": "Psicóloga",
+      "spanish": "Depende de cada persona, pero con compromiso y práctica, muchos pacientes notan cambios positivos en pocas semanas.",
+      "finnish": "Se riippuu jokaisesta henkilöstä, mutta sitoutumisen ja harjoittelun myötä monet potilaat huomaavat myönteisiä muutoksia muutamassa viikossa."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la salud mental",
+      "finnish": "mental health"
+    },
+    {
+      "spanish": "la conciencia",
+      "finnish": "awareness"
+    },
+    {
+      "spanish": "el estrés",
+      "finnish": "stress"
+    },
+    {
+      "spanish": "ansioso/a",
+      "finnish": "anxious"
+    },
+    {
+      "spanish": "el síntoma",
+      "finnish": "symptom"
+    },
+    {
+      "spanish": "generar",
+      "finnish": "tuottaa"
+    },
+    {
+      "spanish": "concentrarse",
+      "finnish": "keskittyä"
+    },
+    {
+      "spanish": "el apetito",
+      "finnish": "appetite"
+    },
+    {
+      "spanish": "el estado de ánimo",
+      "finnish": "mood"
+    },
+    {
+      "spanish": "irritable",
+      "finnish": "irritable"
+    },
+    {
+      "spanish": "la fortaleza",
+      "finnish": "strength"
+    },
+    {
+      "spanish": "la debilidad",
+      "finnish": "weakness"
+    },
+    {
+      "spanish": "manejar",
+      "finnish": "hallittava/hallittavaksi"
+    },
+    {
+      "spanish": "el compromiso",
+      "finnish": "commitment"
+    },
+    {
+      "spanish": "la mejoría",
+      "finnish": "improvement"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Kuinka kauan potilas on ollut stressaantunut?",
+      "options": [
+        "3 months",
+        "1 month",
+        "6 months",
+        "1 vuosi"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä laukaisi nämä tunteet?",
+      "options": [
+        "Työpaikan vaihto",
+        "Moving house",
+        "Suhdeongelmat",
+        "Taloudelliset kysymykset"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä uneen liittyvä ongelma potilaalla on?",
+      "options": [
+        "Trouble sleeping",
+        "Nukkuu liikaa",
+        "Painajaiset",
+        "Uniapnea"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä psykologi sanoo avun hakemisesta?",
+      "options": [
+        "Se on voiman merkki",
+        "Se on heikkouden merkki",
+        "Se on tarpeetonta",
+        "On liian myöhäistä"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Psykologin mukaan, kuinka tärkeä mielenterveys on?",
+      "options": [
+        "Yhtä tärkeää kuin fyysinen terveys",
+        "Vähemmän tärkeä",
+        "Tärkeämpää",
+        "Ei kovin tärkeää"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Milloin potilas saattaa nähdä parannuksia?",
+      "options": [
+        "Muutamassa viikossa sitoutumisen kanssa",
+        "Välittömästi",
+        "Never",
+        "Vuosien jälkeen"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 140,
+  "estimatedMinutes": 4,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

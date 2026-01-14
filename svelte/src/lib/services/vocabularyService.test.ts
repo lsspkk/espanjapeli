@@ -15,23 +15,23 @@ describe('vocabularyService', () => {
 		});
 
 		it('returns correct description for A2', () => {
-			expect(getCEFRDescription('A2')).toBe('Beginner');
+			expect(getCEFRDescription('A2')).toBe('Perustaso');
 		});
 
 		it('returns correct description for B1', () => {
-			expect(getCEFRDescription('B1')).toBe('Intermediate');
+			expect(getCEFRDescription('B1')).toBe('Keskitaso');
 		});
 
 		it('returns correct description for B2', () => {
-			expect(getCEFRDescription('B2')).toBe('Upper Intermediate');
+			expect(getCEFRDescription('B2')).toBe('Edistynyt');
 		});
 
 		it('returns correct description for C1', () => {
-			expect(getCEFRDescription('C1')).toBe('Advanced');
+			expect(getCEFRDescription('C1')).toBe('Edistynyt');
 		});
 
 		it('returns correct description for C2', () => {
-			expect(getCEFRDescription('C2')).toBe('Proficient');
+			expect(getCEFRDescription('C2')).toBe('Taitava');
 		});
 
 		it('returns input for unknown level', () => {

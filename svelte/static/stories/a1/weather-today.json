@@ -1,0 +1,134 @@
+{
+  "id": "weather-today",
+  "title": "Weather Today",
+  "titleSpanish": "El tiempo hoy",
+  "description": "A A1 level story about weather",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "weather",
+  "icon": "☀️",
+  "dialogue": [
+    {
+      "speaker": "Carlos",
+      "spanish": "¿Qué tiempo hace hoy?",
+      "finnish": "Millainen sää on tänään?"
+    },
+    {
+      "speaker": "Julia",
+      "spanish": "Hace sol y hace calor.",
+      "finnish": "On aurinkoista ja kuumaa."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "¿Necesito un paraguas?",
+      "finnish": "Tarvitsenko sateenvarjon?"
+    },
+    {
+      "speaker": "Julia",
+      "spanish": "No, no va a llover.",
+      "finnish": "Ei, ei tule sadamaan."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "Perfecto. Vamos al parque.",
+      "finnish": "Täydellistä. Mennään puistoon."
+    },
+    {
+      "speaker": "Julia",
+      "spanish": "Buena idea. Hace buen tiempo.",
+      "finnish": "Hyvä idea. Sää on hyvä."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "¿Mañana también hace sol?",
+      "finnish": "Onko huomenna myös aurinkoista?"
+    },
+    {
+      "speaker": "Julia",
+      "spanish": "No, mañana va a llover.",
+      "finnish": "Ei, huomenna sataa."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el tiempo",
+      "finnish": "weather"
+    },
+    {
+      "spanish": "hacer sol",
+      "finnish": "olla aurinkoinen"
+    },
+    {
+      "spanish": "hacer calor",
+      "finnish": "olla kuuma"
+    },
+    {
+      "spanish": "hacer frío",
+      "finnish": "olla kylmä"
+    },
+    {
+      "spanish": "llover",
+      "finnish": "sataa"
+    },
+    {
+      "spanish": "el paraguas",
+      "finnish": "umbrella"
+    },
+    {
+      "spanish": "mañana",
+      "finnish": "tomorrow"
+    },
+    {
+      "spanish": "hoy",
+      "finnish": "today"
+    },
+    {
+      "spanish": "el parque",
+      "finnish": "park"
+    },
+    {
+      "spanish": "necesitar",
+      "finnish": "tarvitsemaan"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Millainen sää on tänään?",
+      "options": [
+        "Aurinkoista ja kuumaa",
+        "Rainy",
+        "Cold",
+        "Cloudy"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Tarvitseeko Carlos sateenvarjon?",
+      "options": [
+        "Ei",
+        "Kyllä",
+        "Ehkä",
+        "Emme tiedä"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Millainen sää on huomenna?",
+      "options": [
+        "Rainy",
+        "Sunny",
+        "Hot",
+        "Cold"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 35,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

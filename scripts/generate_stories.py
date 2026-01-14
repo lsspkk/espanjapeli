@@ -229,6 +229,12 @@ def save_stories(stories_by_level: Dict[str, List[Dict]], output_dir: Path):
         
         for story in stories:
             story_file = level_dir / f"{story['id']}.json"
+            
+            # Skip if file already exists
+            if story_file.exists():
+                print(f"⊘ Skipped (exists): {story_file}")
+                continue
+            
             with open(story_file, 'w', encoding='utf-8') as f:
                 json.dump(story, f, indent=2, ensure_ascii=False)
             print(f"✓ Saved: {story_file}")
