@@ -1,0 +1,121 @@
+{
+  "id": "how-are-you",
+  "title": "How Are You?",
+  "titleSpanish": "¿Cómo estás?",
+  "description": "A A1 level story about social",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "social",
+  "icon": "😊",
+  "dialogue": [
+    {
+      "speaker": "Pedro",
+      "spanish": "¡Hola, Ana! ¿Cómo estás?",
+      "finnish": "Hei, Ana! Mitä kuuluu?"
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "Hola, Pedro. Estoy bien, gracias. ¿Y tú?",
+      "finnish": "Hei, Pedro. Voin hyvin kiitos. Entä sinä?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Estoy un poco cansado hoy.",
+      "finnish": "Olen vähän väsynyt tänään."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "¿Por qué? ¿No dormiste bien?",
+      "finnish": "Miksi? Etkö nukkunut hyvin?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "No, trabajé mucho ayer.",
+      "finnish": "Ei, tein paljon töitä eilen."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "Descansa hoy. Es domingo.",
+      "finnish": "Lepää tänään. On sunnuntai."
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Tienes razón. Voy a descansar.",
+      "finnish": "Olet oikeassa. Menen lepäämään."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "cómo",
+      "finnish": "how"
+    },
+    {
+      "spanish": "estar",
+      "finnish": "olla (väliaikainen tila)"
+    },
+    {
+      "spanish": "bien",
+      "finnish": "well/fine"
+    },
+    {
+      "spanish": "cansado/a",
+      "finnish": "tired"
+    },
+    {
+      "spanish": "dormir",
+      "finnish": "nukkua"
+    },
+    {
+      "spanish": "ayer",
+      "finnish": "yesterday"
+    },
+    {
+      "spanish": "descansar",
+      "finnish": "lepäämään"
+    },
+    {
+      "spanish": "tener razón",
+      "finnish": "olla oikeassa"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Miten Ana voi?",
+      "options": [
+        "Fine",
+        "Tired",
+        "Surullinen",
+        "Sick"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Miksi Pedro on väsynyt?",
+      "options": [
+        "Hän teki paljon töitä",
+        "Hän ei syönyt",
+        "He is sick",
+        "He exercised"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä päivä tänään on?",
+      "options": [
+        "Sunnuntai",
+        "Lauantai",
+        "Maanantai",
+        "Perjantai"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 34,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

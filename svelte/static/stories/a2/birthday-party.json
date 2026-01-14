@@ -1,0 +1,188 @@
+{
+  "id": "birthday-party",
+  "title": "Birthday Party",
+  "titleSpanish": "La fiesta de cumpleaños",
+  "description": "A A2 level story about social",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "social",
+  "icon": "🎂",
+  "dialogue": [
+    {
+      "speaker": "Invitados",
+      "spanish": "¡Sorpresa! ¡Feliz cumpleaños, Carmen!",
+      "finnish": "Yllätys! Hyvää syntymäpäivää, Carmen, olet paras!"
+    },
+    {
+      "speaker": "Carmen",
+      "spanish": "¡Oh! ¡No me lo esperaba! ¡Gracias a todos!",
+      "finnish": "Oi! En odottanut sitä! Kiitos kaikille!"
+    },
+    {
+      "speaker": "Luis",
+      "spanish": "Cumples veintiocho años, ¿verdad?",
+      "finnish": "Olet kaksikymmentäkahdeksan, etkö olekin?"
+    },
+    {
+      "speaker": "Carmen",
+      "spanish": "Sí, ya soy vieja.",
+      "finnish": "Kyllä, olen nyt vanha."
+    },
+    {
+      "speaker": "María",
+      "spanish": "¡Qué va! Estás en tu mejor momento.",
+      "finnish": "Mikäs erinomainen nyt on! Olet parhaimmillasi."
+    },
+    {
+      "speaker": "Carmen",
+      "spanish": "Este pastel se ve delicioso. ¿Quién lo hizo?",
+      "finnish": "Tämä kakku näyttää herkulliselta. Kuka teki sen?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Lo hizo mi madre. Es de chocolate con fresas.",
+      "finnish": "Äitini teki niin. Se on suklaata mansikoiden kanssa."
+    },
+    {
+      "speaker": "Carmen",
+      "spanish": "Me encanta el chocolate. ¡Gracias!",
+      "finnish": "Rakastan suklaata. Kiitos!"
+    },
+    {
+      "speaker": "Luis",
+      "spanish": "Ahora tienes que pedir un deseo y soplar las velas.",
+      "finnish": "Nyt sinun täytyy toivoa ja puhaltaa kynttilät sammuksiin."
+    },
+    {
+      "speaker": "Carmen",
+      "spanish": "[Blows candles] ¡Listo!",
+      "finnish": "[Puhaltaa kynttilöitä] Valmista!"
+    },
+    {
+      "speaker": "María",
+      "spanish": "¿Qué deseaste?",
+      "finnish": "Mitä halusit?"
+    },
+    {
+      "speaker": "Carmen",
+      "spanish": "No puedo decirlo o no se cumplirá.",
+      "finnish": "En voi sanoa, muuten se ei toteutu."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la fiesta",
+      "finnish": "party"
+    },
+    {
+      "spanish": "el cumpleaños",
+      "finnish": "birthday"
+    },
+    {
+      "spanish": "la sorpresa",
+      "finnish": "surprise"
+    },
+    {
+      "spanish": "cumplir años",
+      "finnish": "Syntymäpäivä"
+    },
+    {
+      "spanish": "viejo/a",
+      "finnish": "old"
+    },
+    {
+      "spanish": "el pastel",
+      "finnish": "cake"
+    },
+    {
+      "spanish": "delicioso/a",
+      "finnish": "delicious"
+    },
+    {
+      "spanish": "el chocolate",
+      "finnish": "chocolate"
+    },
+    {
+      "spanish": "la fresa",
+      "finnish": "strawberry"
+    },
+    {
+      "spanish": "el deseo",
+      "finnish": "wish"
+    },
+    {
+      "spanish": "soplar",
+      "finnish": "puhaltaa"
+    },
+    {
+      "spanish": "la vela",
+      "finnish": "candle"
+    },
+    {
+      "spanish": "cumplirse",
+      "finnish": "toteutua"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Kuinka vanhaksi Carmen on tulossa?",
+      "options": [
+        "28",
+        "25",
+        "30",
+        "27"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minkä makuinen kakku on?",
+      "options": [
+        "Suklaa mansikoiden kanssa",
+        "Vanilla",
+        "Lemon",
+        "Coffee"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuka teki kakun?",
+      "options": [
+        "Pedron äiti",
+        "María",
+        "Luis",
+        "Leipomo"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Miksi Carmen ei voi sanoa toivettaan?",
+      "options": [
+        "It won't come true",
+        "She forgot",
+        "Se on salaisuus",
+        "Hän ei halua"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Was Carmen expecting the party?",
+      "options": [
+        "Ei",
+        "Kyllä",
+        "Ehkä",
+        "Osittain"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 71,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

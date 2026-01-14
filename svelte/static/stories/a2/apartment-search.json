@@ -1,0 +1,189 @@
+{
+  "id": "apartment-search",
+  "title": "Looking for an Apartment",
+  "titleSpanish": "Buscando un apartamento",
+  "description": "A A2 level story about housing",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "housing",
+  "icon": "🏠",
+  "dialogue": [
+    {
+      "speaker": "Agente",
+      "spanish": "Este apartamento tiene dos dormitorios y un baño.",
+      "finnish": "Tässä asunnossa on kaksi makuuhuonetta ja kylpyhuone."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "¿Cuántos metros cuadrados tiene?",
+      "finnish": "Kuinka monta neliömetriä sillä on?"
+    },
+    {
+      "speaker": "Agente",
+      "spanish": "Tiene sesenta metros cuadrados.",
+      "finnish": "Se on kuusikymmentä neliömetriä."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "¿Está amueblado?",
+      "finnish": "Onko se kalustettu?"
+    },
+    {
+      "speaker": "Agente",
+      "spanish": "Sí, viene con todos los muebles básicos.",
+      "finnish": "Kyllä, mukana tulee kaikki peruskalusteet."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "¿Cuánto es el alquiler mensual?",
+      "finnish": "Paljonko kuukausivuokra on?"
+    },
+    {
+      "speaker": "Agente",
+      "spanish": "Son setecientos euros al mes, más los gastos.",
+      "finnish": "Se on seitsemänsataa euroa kuukaudessa, plus kulut."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "¿Qué gastos hay?",
+      "finnish": "Mitkä ovat kustannukset?"
+    },
+    {
+      "speaker": "Agente",
+      "spanish": "Agua, electricidad y comunidad. Unos cien euros más.",
+      "finnish": "Vesi, sähkö ja yhteisö. Noin sata euroa lisää."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "¿Tiene calefacción central?",
+      "finnish": "Onko teillä keskuslämmitys?"
+    },
+    {
+      "speaker": "Agente",
+      "spanish": "Sí, y también aire acondicionado.",
+      "finnish": "Kyllä, ja myös ilmastointi."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Me gusta. ¿Cuándo puedo mudarme?",
+      "finnish": "Minä pidän siitä. Milloin voin muuttaa?"
+    },
+    {
+      "speaker": "Agente",
+      "spanish": "Está disponible desde el primero del próximo mes.",
+      "finnish": "Se on saatavilla ensi kuun alusta alkaen."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el apartamento",
+      "finnish": "apartment"
+    },
+    {
+      "spanish": "el dormitorio",
+      "finnish": "bedroom"
+    },
+    {
+      "spanish": "el metro cuadrado",
+      "finnish": "square meter"
+    },
+    {
+      "spanish": "amueblado",
+      "finnish": "furnished"
+    },
+    {
+      "spanish": "los muebles",
+      "finnish": "furniture"
+    },
+    {
+      "spanish": "el alquiler",
+      "finnish": "rent"
+    },
+    {
+      "spanish": "mensual",
+      "finnish": "monthly"
+    },
+    {
+      "spanish": "los gastos",
+      "finnish": "utilities/expenses"
+    },
+    {
+      "spanish": "la calefacción",
+      "finnish": "heating"
+    },
+    {
+      "spanish": "el aire acondicionado",
+      "finnish": "air conditioning"
+    },
+    {
+      "spanish": "mudarse",
+      "finnish": "to move (talo)"
+    },
+    {
+      "spanish": "disponible",
+      "finnish": "available"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Kuinka monta makuuhuonetta asunnossa on?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka iso asunto on?",
+      "options": [
+        "60 m²",
+        "80 m²",
+        "50 m²",
+        "70 m²"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Paljonko vuokra on kuukaudessa?",
+      "options": [
+        "700€",
+        "600€",
+        "800€",
+        "500€"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka paljon ylimääräisiä käyttökulut ovat suunnilleen?",
+      "options": [
+        "100€",
+        "50€",
+        "200€",
+        "150€"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Milloin asunto on vapaana?",
+      "options": [
+        "First of next month",
+        "Välittömästi",
+        "Next week",
+        "Ensi vuonna"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 70,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

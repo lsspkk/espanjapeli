@@ -1,0 +1,197 @@
+{
+  "id": "climate-change",
+  "title": "Climate Change Discussion",
+  "titleSpanish": "Discusión sobre el cambio climático",
+  "description": "A B1 level story about environment",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "environment",
+  "icon": "🌍",
+  "dialogue": [
+    {
+      "speaker": "Profesor",
+      "spanish": "Hoy vamos a hablar sobre el cambio climático.",
+      "finnish": "Tänään puhumme ilmastonmuutoksesta."
+    },
+    {
+      "speaker": "María",
+      "spanish": "Es un tema muy importante. El planeta está en peligro.",
+      "finnish": "Se on erittäin tärkeä asia. Planeetta on vaarassa."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "¿Cuáles son las principales causas?",
+      "finnish": "Mitkä ovat pääasialliset syyt?"
+    },
+    {
+      "speaker": "Profesor",
+      "spanish": "La quema de combustibles fósiles y la deforestación.",
+      "finnish": "Fossiilisten polttoaineiden polttaminen ja metsäkato."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "¿Qué podemos hacer nosotros para ayudar?",
+      "finnish": "Mitä voimme tehdä auttaaksemme?"
+    },
+    {
+      "speaker": "Profesor",
+      "spanish": "Reducir el consumo de energía y reciclar son buenos pasos.",
+      "finnish": "Energiankulutuksen ja kierrätyksen vähentäminen ovat hyviä askelia."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "Mi familia ha instalado paneles solares en casa.",
+      "finnish": "Perheeni on asentanut aurinkopaneeleja kotiin."
+    },
+    {
+      "speaker": "Profesor",
+      "spanish": "¡Excelente! Las energías renovables son fundamentales.",
+      "finnish": "Erinomaista! Uusiutuvat energiat ovat välttämättömiä."
+    },
+    {
+      "speaker": "María",
+      "spanish": "También deberíamos usar menos el coche.",
+      "finnish": "Meidän pitäisi myös käyttää autoa vähemmän."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "Yo voy en bicicleta al instituto todos los días.",
+      "finnish": "Ajan pyörällä kouluun joka päivä."
+    },
+    {
+      "speaker": "Profesor",
+      "spanish": "Cada pequeña acción cuenta. Si todos contribuimos, podemos hacer una diferencia.",
+      "finnish": "Jokainen pieni teko merkitsee. Jos kaikki osallistumme, voimme tehdä eron."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "¿Es posible revertir el daño que ya hemos causado?",
+      "finnish": "Onko mahdollista korjata jo aiheuttamamme vahingot?"
+    },
+    {
+      "speaker": "Profesor",
+      "spanish": "Algunos efectos son irreversibles, pero podemos evitar que empeore.",
+      "finnish": "Jotkut vaikutukset ovat peruuttamattomia, mutta voimme estää niiden pahenemisen."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el cambio climático",
+      "finnish": "climate change"
+    },
+    {
+      "spanish": "el peligro",
+      "finnish": "danger"
+    },
+    {
+      "spanish": "la causa",
+      "finnish": "cause"
+    },
+    {
+      "spanish": "los combustibles fósiles",
+      "finnish": "fossil fuels"
+    },
+    {
+      "spanish": "la deforestación",
+      "finnish": "deforestation"
+    },
+    {
+      "spanish": "el consumo",
+      "finnish": "consumption"
+    },
+    {
+      "spanish": "reciclar",
+      "finnish": "kierrättää"
+    },
+    {
+      "spanish": "los paneles solares",
+      "finnish": "solar panels"
+    },
+    {
+      "spanish": "las energías renovables",
+      "finnish": "renewable energies"
+    },
+    {
+      "spanish": "contribuir",
+      "finnish": "osallistua"
+    },
+    {
+      "spanish": "revertir",
+      "finnish": "kääntää"
+    },
+    {
+      "spanish": "el daño",
+      "finnish": "damage"
+    },
+    {
+      "spanish": "empeorar",
+      "finnish": "mennä huonompaan suuntaan"
+    },
+    {
+      "spanish": "irreversible",
+      "finnish": "irreversible"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mitkä ovat mainitsemat ilmastonmuutoksen pääasialliset syyt?",
+      "options": [
+        "Fossiiliset polttoaineet ja metsäkato",
+        "Industry only",
+        "Vain autot",
+        "Muovi"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä Carlosin perhe on asentanut?",
+      "options": [
+        "Aurinkopaneelit",
+        "Wind turbine",
+        "New windows",
+        "Ilmastointi"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Miten Ana pääsee kouluun?",
+      "options": [
+        "By bicycle",
+        "Autolla",
+        "By bus",
+        "Kävely"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "According to the teacher, can we reverse all damage?",
+      "options": [
+        "Ei, jotkut vaikutukset ovat peruuttamattomia",
+        "Kyllä, täysin",
+        "Ehkä",
+        "Ei keskusteltu"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä opettaja sanoo pienistä teoista?",
+      "options": [
+        "Jokainen toiminto on tärkeä",
+        "Heillä ei ole väliä",
+        "Vain suuret teot auttavat",
+        "It depends"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 105,
+  "estimatedMinutes": 3,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

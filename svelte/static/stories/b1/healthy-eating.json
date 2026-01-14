@@ -1,0 +1,217 @@
+{
+  "id": "healthy-eating",
+  "title": "Healthy Eating Habits",
+  "titleSpanish": "Hábitos alimenticios saludables",
+  "description": "A B1 level story about health",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "health",
+  "icon": "🥗",
+  "dialogue": [
+    {
+      "speaker": "Nutricionista",
+      "spanish": "¿Qué suele desayunar normalmente?",
+      "finnish": "Mitä yleensä syöt aamupalaksi?"
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "A veces no desayuno. Solo tomo un café con prisa.",
+      "finnish": "Joskus en syö aamiaista. Juon vain kahvin kiireessä."
+    },
+    {
+      "speaker": "Nutricionista",
+      "spanish": "El desayuno es la comida más importante del día.",
+      "finnish": "Aamiainen on päivän tärkein ateria."
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Lo sé, pero siempre tengo prisa por las mañanas.",
+      "finnish": "Tiedän, mutta minulla on aina kiire aamuisin."
+    },
+    {
+      "speaker": "Nutricionista",
+      "spanish": "Podría preparar algo rápido la noche anterior.",
+      "finnish": "Voisin tehdä jotain nopeasti edellisenä iltana."
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "¿Como qué, por ejemplo?",
+      "finnish": "Mitä esimerkiksi?"
+    },
+    {
+      "speaker": "Nutricionista",
+      "spanish": "Avena con frutas o un yogur con granola.",
+      "finnish": "Kaurapuuroa hedelmien kanssa tai jogurttia granolan kanssa."
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Eso suena fácil. ¿Qué más debería cambiar?",
+      "finnish": "Kuulostaa helpolta. Mitä muuta pitäisi muuttaa?"
+    },
+    {
+      "speaker": "Nutricionista",
+      "spanish": "Debería reducir el consumo de comida procesada.",
+      "finnish": "Sinun tulisi vähentää prosessoitujen ruokien kulutusta."
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "¿Y qué hay de las grasas?",
+      "finnish": "Entä rasvat?"
+    },
+    {
+      "speaker": "Nutricionista",
+      "spanish": "Las grasas saludables son necesarias. El aguacate y el aceite de oliva son buenas opciones.",
+      "finnish": "Terveelliset rasvat ovat välttämättömiä. Avokado ja oliiviöljy ovat hyviä valintoja."
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "¿Cuánta agua debo beber al día?",
+      "finnish": "Kuinka paljon vettä minun pitäisi juoda päivässä?"
+    },
+    {
+      "speaker": "Nutricionista",
+      "spanish": "Al menos dos litros. Mantenerse hidratado es esencial.",
+      "finnish": "Vähintään kaksi litraa. Nesteytys on välttämätöntä."
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Voy a intentar seguir estas recomendaciones.",
+      "finnish": "Yritän noudattaa näitä suosituksia."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "los hábitos",
+      "finnish": "habits"
+    },
+    {
+      "spanish": "alimenticio/a",
+      "finnish": "dietary"
+    },
+    {
+      "spanish": "saludable",
+      "finnish": "healthy"
+    },
+    {
+      "spanish": "el/la nutricionista",
+      "finnish": "nutritionist"
+    },
+    {
+      "spanish": "desayunar",
+      "finnish": "syömään aamiaista"
+    },
+    {
+      "spanish": "la prisa",
+      "finnish": "hurry"
+    },
+    {
+      "spanish": "preparar",
+      "finnish": "valmistautua"
+    },
+    {
+      "spanish": "la avena",
+      "finnish": "oatmeal"
+    },
+    {
+      "spanish": "la granola",
+      "finnish": "granola"
+    },
+    {
+      "spanish": "procesado/a",
+      "finnish": "processed"
+    },
+    {
+      "spanish": "las grasas",
+      "finnish": "fats"
+    },
+    {
+      "spanish": "el aguacate",
+      "finnish": "avocado"
+    },
+    {
+      "spanish": "el aceite de oliva",
+      "finnish": "olive oil"
+    },
+    {
+      "spanish": "hidratado/a",
+      "finnish": "hydrated"
+    },
+    {
+      "spanish": "las recomendaciones",
+      "finnish": "recommendations"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mitä potilas yleensä syö aamupalaksi?",
+      "options": [
+        "Just coffee",
+        "Malja",
+        "Ei mitään",
+        "Eggs"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä nopeita aamiaisvaihtoehtoja ravitsemusterapeutti suosittelee?",
+      "options": [
+        "Kaurapuuroa hedelmien kanssa tai jogurttia granolan kanssa",
+        "Paahtoleipä ja mehua",
+        "Muroja",
+        "Eggs"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä potilaan tulisi vähentää?",
+      "options": [
+        "Processed food",
+        "Kaikki rasvat",
+        "Fruits",
+        "Vesi"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitkä terveelliset rasvat mainitaan?",
+      "options": [
+        "Avokado ja oliiviöljy",
+        "Butter",
+        "Coconut oil",
+        "Cheese"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka paljon vettä potilaan tulisi juoda päivittäin?",
+      "options": [
+        "Vähintään 2 litraa",
+        "1 liter",
+        "3 liters",
+        "Puoli litraa"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä potilas yrittää tehdä?",
+      "options": [
+        "Seuraa suosituksia",
+        "Älä välitä neuvosta",
+        "Etsi uusi ravitsemusterapeutti",
+        "Pidä kiinni samoista tavoista"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 106,
+  "estimatedMinutes": 3,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

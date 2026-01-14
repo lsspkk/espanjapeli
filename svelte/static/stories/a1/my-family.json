@@ -1,0 +1,126 @@
+{
+  "id": "my-family",
+  "title": "My Family",
+  "titleSpanish": "Mi familia",
+  "description": "A A1 level story about family",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "family",
+  "icon": "👨‍👩‍👧‍👦",
+  "dialogue": [
+    {
+      "speaker": "Teacher",
+      "spanish": "Cuéntame sobre tu familia.",
+      "finnish": "Kerro minulle perheestäsi."
+    },
+    {
+      "speaker": "Student",
+      "spanish": "Tengo una familia pequeña.",
+      "finnish": "Minulla on pieni perhe."
+    },
+    {
+      "speaker": "Teacher",
+      "spanish": "¿Cuántas personas hay?",
+      "finnish": "Kuinka monta ihmistä siellä on?"
+    },
+    {
+      "speaker": "Student",
+      "spanish": "Somos cuatro: mi padre, mi madre, mi hermana y yo.",
+      "finnish": "Meitä on neljä: isäni, äitini, siskoni ja minä."
+    },
+    {
+      "speaker": "Teacher",
+      "spanish": "¿Cómo se llama tu hermana?",
+      "finnish": "Mikä siskosi nimi on?"
+    },
+    {
+      "speaker": "Student",
+      "spanish": "Se llama Elena. Tiene diez años.",
+      "finnish": "Hänen nimensä on Elena. Hän on kymmenen vuotta vanha."
+    },
+    {
+      "speaker": "Teacher",
+      "spanish": "¡Qué bien! ¿Y tú?",
+      "finnish": "Kiva juttu! Entä sinä?"
+    },
+    {
+      "speaker": "Student",
+      "spanish": "Yo tengo trece años.",
+      "finnish": "Olen kolmetoistavuotias."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la familia",
+      "finnish": "family"
+    },
+    {
+      "spanish": "pequeño/a",
+      "finnish": "small"
+    },
+    {
+      "spanish": "cuántas",
+      "finnish": "how many"
+    },
+    {
+      "spanish": "el padre",
+      "finnish": "father"
+    },
+    {
+      "spanish": "la madre",
+      "finnish": "mother"
+    },
+    {
+      "spanish": "el/la hermano/a",
+      "finnish": "brother/sister"
+    },
+    {
+      "spanish": "tener ... años",
+      "finnish": "olla ... vuosia vanha"
+    },
+    {
+      "spanish": "cuéntame",
+      "finnish": "tell me"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Kuinka monta ihmistä perheessä on?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka vanha Elena on?",
+      "options": [
+        "10",
+        "13",
+        "8",
+        "15"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka vanha oppilas on?",
+      "options": [
+        "13",
+        "10",
+        "15",
+        "12"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 40,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

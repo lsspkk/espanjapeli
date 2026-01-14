@@ -1,0 +1,221 @@
+{
+  "id": "trip-planning",
+  "title": "Planning a Trip",
+  "titleSpanish": "Planificando un viaje",
+  "description": "A B1 level story about travel",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "travel",
+  "icon": "✈️",
+  "dialogue": [
+    {
+      "speaker": "Elena",
+      "spanish": "Estoy pensando en ir a Perú el próximo verano.",
+      "finnish": "Ajattelen lähteä Peruun ensi kesänä."
+    },
+    {
+      "speaker": "Diego",
+      "spanish": "¡Qué buena idea! Es un país fascinante.",
+      "finnish": "Mikä hyvä idea! Se on kiehtova maa."
+    },
+    {
+      "speaker": "Elena",
+      "spanish": "¿Has estado alguna vez?",
+      "finnish": "Oletko koskaan käynyt?"
+    },
+    {
+      "speaker": "Diego",
+      "spanish": "Sí, fui hace tres años. Visité Lima y Cusco.",
+      "finnish": "Kyllä, kävin siellä kolme vuotta sitten. Kävin Limassa ja Cuscossa."
+    },
+    {
+      "speaker": "Elena",
+      "spanish": "¿Me recomiendas visitar Machu Picchu?",
+      "finnish": "Suositteletko minua vierailemaan Machu Picchussa?"
+    },
+    {
+      "speaker": "Diego",
+      "spanish": "Es imprescindible. Es una de las maravillas del mundo.",
+      "finnish": "Se on välttämätöntä. Se on yksi maailman ihmeistä."
+    },
+    {
+      "speaker": "Elena",
+      "spanish": "¿Cuántos días necesito para un viaje completo?",
+      "finnish": "Kuinka monta päivää tarvitsen täyteen matkaan?"
+    },
+    {
+      "speaker": "Diego",
+      "spanish": "Yo recomendaría al menos dos semanas.",
+      "finnish": "Suosittelisin vähintään kahta viikkoa."
+    },
+    {
+      "speaker": "Elena",
+      "spanish": "¿Y el presupuesto? ¿Es caro viajar allí?",
+      "finnish": "Entä budjetti? Onko sinne matkustaminen kallista?"
+    },
+    {
+      "speaker": "Diego",
+      "spanish": "Es bastante económico, excepto los vuelos.",
+      "finnish": "Se on melko halpa, paitsi lennot."
+    },
+    {
+      "speaker": "Elena",
+      "spanish": "¿Hay algo que debería saber antes de ir?",
+      "finnish": "Onko jotain, mitä minun pitäisi tietää ennen lähtöä?"
+    },
+    {
+      "speaker": "Diego",
+      "spanish": "Lleva ropa para varios climas y aclimatate a la altura en Cusco.",
+      "finnish": "Pukeudu eri ilmastoihin ja sopeudu Cuscon korkeuteen."
+    },
+    {
+      "speaker": "Elena",
+      "spanish": "Gracias por los consejos. Me has convencido.",
+      "finnish": "Kiitos vinkeistä. Olet vakuuttanut minut."
+    },
+    {
+      "speaker": "Diego",
+      "spanish": "¡No te arrepentirás! Es un viaje que cambia la vida.",
+      "finnish": "Et tule katumaan! Se on elämää muuttava matka."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "planificar",
+      "finnish": "suunnitella"
+    },
+    {
+      "spanish": "el viaje",
+      "finnish": "trip"
+    },
+    {
+      "spanish": "fascinante",
+      "finnish": "fascinating"
+    },
+    {
+      "spanish": "visitar",
+      "finnish": "vierailla"
+    },
+    {
+      "spanish": "imprescindible",
+      "finnish": "essential/must-see"
+    },
+    {
+      "spanish": "las maravillas",
+      "finnish": "wonders"
+    },
+    {
+      "spanish": "completo/a",
+      "finnish": "complete"
+    },
+    {
+      "spanish": "el presupuesto",
+      "finnish": "budget"
+    },
+    {
+      "spanish": "económico/a",
+      "finnish": "affordable"
+    },
+    {
+      "spanish": "el vuelo",
+      "finnish": "flight"
+    },
+    {
+      "spanish": "el clima",
+      "finnish": "climate"
+    },
+    {
+      "spanish": "aclimatarse",
+      "finnish": "sopeutua"
+    },
+    {
+      "spanish": "la altura",
+      "finnish": "altitude"
+    },
+    {
+      "spanish": "el consejo",
+      "finnish": "advice/tip"
+    },
+    {
+      "spanish": "arrepentirse",
+      "finnish": "katua"
+    },
+    {
+      "spanish": "convencer",
+      "finnish": "vakuuttaa"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Milloin Elena aikoo matkustaa?",
+      "options": [
+        "Next summer",
+        "Next winter",
+        "Tänä syksynä",
+        "In spring"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Milloin Diego vieraili Perussa?",
+      "options": [
+        "Kolme vuotta sitten",
+        "Viime vuonna",
+        "Viisi vuotta sitten",
+        "Kaksi vuotta sitten"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka pitkäksi aikaa Diego suosittelee matkalle?",
+      "options": [
+        "Vähintään kaksi viikkoa",
+        "One week",
+        "Kuukausi",
+        "Kymmenen päivää"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä on kallista matkustamisessa Peruun?",
+      "options": [
+        "Lennot",
+        "Hotels",
+        "Food",
+        "Everything"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä Elenan pitäisi tuoda Cuscolle?",
+      "options": [
+        "Vaatteet eri ilmastoihin",
+        "Vain lämpimiä vaatteita",
+        "Vain kevyitä vaatteita",
+        "Rantavaatetus"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä hänen täytyy tehdä Cuscossa?",
+      "options": [
+        "Sopeudu korkeuteen",
+        "Varaa etukäteen",
+        "Opettele espanjaa",
+        "Ei mitään erityistä"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 106,
+  "estimatedMinutes": 3,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

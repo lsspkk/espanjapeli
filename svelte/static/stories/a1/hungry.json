@@ -1,0 +1,116 @@
+{
+  "id": "hungry",
+  "title": "I'm Hungry",
+  "titleSpanish": "Tengo hambre",
+  "description": "A A1 level story about food",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "food",
+  "icon": "🍕",
+  "dialogue": [
+    {
+      "speaker": "Luis",
+      "spanish": "Tengo hambre. ¿Y tú?",
+      "finnish": "Olen nälkäinen. Entä sinä?"
+    },
+    {
+      "speaker": "Sara",
+      "spanish": "Sí, yo también. ¿Qué quieres comer?",
+      "finnish": "Kyllä, minäkin. Mitä haluat syödä?"
+    },
+    {
+      "speaker": "Luis",
+      "spanish": "Quiero pizza. ¿Te gusta la pizza?",
+      "finnish": "Haluan pizzaa. Pidätkö pizzasta?"
+    },
+    {
+      "speaker": "Sara",
+      "spanish": "Sí, me encanta la pizza.",
+      "finnish": "Kyllä, rakastan pizzaa."
+    },
+    {
+      "speaker": "Luis",
+      "spanish": "Perfecto. Vamos a la pizzería.",
+      "finnish": "Täydellistä. Mennään pizzeriaan."
+    },
+    {
+      "speaker": "Sara",
+      "spanish": "¡Vamos!",
+      "finnish": "Mennään!"
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "tener hambre",
+      "finnish": "olla nälkäinen"
+    },
+    {
+      "spanish": "también",
+      "finnish": "also/too"
+    },
+    {
+      "spanish": "querer",
+      "finnish": "Haluta"
+    },
+    {
+      "spanish": "comer",
+      "finnish": "syödä"
+    },
+    {
+      "spanish": "gustar",
+      "finnish": "pitää"
+    },
+    {
+      "spanish": "encantar",
+      "finnish": "rakastaa (asioita)"
+    },
+    {
+      "spanish": "ir",
+      "finnish": "Lähteä"
+    },
+    {
+      "spanish": "vamos",
+      "finnish": "let's go"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mitä Luis haluaa syödä?",
+      "options": [
+        "Pizza",
+        "Pasta",
+        "Salaatti",
+        "Sandwich"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Pitääkö Sara pizzasta?",
+      "options": [
+        "Kyllä, hän rakastaa sitä",
+        "Ei",
+        "Hieman",
+        "Hän pitää enemmän pastasta"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minne he ovat menossa?",
+      "options": [
+        "Pizzeria",
+        "Home",
+        "Ravintola",
+        "Shop"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 27,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

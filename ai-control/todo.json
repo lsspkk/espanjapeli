@@ -201,16 +201,16 @@
       "title": "Process V4_material.txt into New Stories",
       "todoTxtRef": "TASK 13: Process V4_material.txt into New Stories (TODO.txt lines 812-847)",
       "priority": 5,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 7,
       "dependencies": [11],
       "subtasks": [
-        { "id": "13.1", "title": "Create story generation script", "status": "not-started", "deliverable": "scripts/generate_stories.py", "testRequired": true },
-        { "id": "13.2", "title": "Create A1 stories (8-10)", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "13.3", "title": "Create A2 stories (8-10)", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "13.4", "title": "Create B1 stories (6-8)", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "13.5", "title": "Generate Finnish translations", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "13.6", "title": "Create questions for each story", "status": "not-started", "deliverable": null, "testRequired": true }
+        { "id": "13.1", "title": "Create story generation script", "status": "completed", "deliverable": "scripts/generate_stories.py", "testRequired": true },
+        { "id": "13.2", "title": "Create A1 stories (8-10)", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "13.3", "title": "Create A2 stories (8-10)", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "13.4", "title": "Create B1 stories (6-8)", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "13.5", "title": "Generate Finnish translations", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "13.6", "title": "Create questions for each story", "status": "completed", "deliverable": null, "testRequired": true }
       ]
     },
     {

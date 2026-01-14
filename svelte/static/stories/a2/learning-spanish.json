@@ -1,0 +1,184 @@
+{
+  "id": "learning-spanish",
+  "title": "Learning Spanish",
+  "titleSpanish": "Aprendiendo español",
+  "description": "A A2 level story about education",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "education",
+  "icon": "🇪🇸",
+  "dialogue": [
+    {
+      "speaker": "Ana",
+      "spanish": "¿Cuánto tiempo llevas estudiando español?",
+      "finnish": "Kuinka kauan olet opiskellut espanjaa?"
+    },
+    {
+      "speaker": "Tom",
+      "spanish": "Unos seis meses. Todavía me cuesta mucho.",
+      "finnish": "Noin kuusi kuukautta. Kamppailen edelleen paljon."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "¿Qué te parece más difícil?",
+      "finnish": "Mikä on sinusta vaikeampaa?"
+    },
+    {
+      "speaker": "Tom",
+      "spanish": "Los verbos irregulares y el subjuntivo.",
+      "finnish": "Epäsäännölliset verbit ja konjunktiivi."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "Es normal. Son difíciles para todos los estudiantes.",
+      "finnish": "Se on normaalia. Ne ovat vaikeita kaikille oppilaille."
+    },
+    {
+      "speaker": "Tom",
+      "spanish": "¿Tienes algún consejo para mejorar?",
+      "finnish": "Onko sinulla vinkkejä parantamiseen?"
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "Practica todos los días, aunque sean solo quince minutos.",
+      "finnish": "Harjoittele joka päivä, vaikka se kestäisi vain viisitoista minuuttia."
+    },
+    {
+      "speaker": "Tom",
+      "spanish": "¿Y para la pronunciación?",
+      "finnish": "Entä ääntäminen?"
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "Escucha podcasts y repite en voz alta.",
+      "finnish": "Kuuntele podcasteja ja toista ääneen."
+    },
+    {
+      "speaker": "Tom",
+      "spanish": "También me gustaría hablar con más nativos.",
+      "finnish": "Haluaisin myös jutella enemmän äidinkielenään puhuvien kanssa."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "Puedes buscar intercambios de idiomas en internet.",
+      "finnish": "Voit etsiä kielivaihtoja internetistä."
+    },
+    {
+      "speaker": "Tom",
+      "spanish": "¡Buena idea! Gracias por los consejos.",
+      "finnish": "Hyvä idea! Kiitos vinkeistä."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "estudiar",
+      "finnish": "opiskella"
+    },
+    {
+      "spanish": "llevar + time",
+      "finnish": "olla (tekemässä)"
+    },
+    {
+      "spanish": "costar",
+      "finnish": "olla vaikea/kustannus"
+    },
+    {
+      "spanish": "difícil",
+      "finnish": "difficult"
+    },
+    {
+      "spanish": "el verbo",
+      "finnish": "verb"
+    },
+    {
+      "spanish": "irregular",
+      "finnish": "irregular"
+    },
+    {
+      "spanish": "mejorar",
+      "finnish": "parantaa"
+    },
+    {
+      "spanish": "practicar",
+      "finnish": "harjoittaa"
+    },
+    {
+      "spanish": "la pronunciación",
+      "finnish": "pronunciation"
+    },
+    {
+      "spanish": "el podcast",
+      "finnish": "podcast"
+    },
+    {
+      "spanish": "en voz alta",
+      "finnish": "out loud"
+    },
+    {
+      "spanish": "el intercambio",
+      "finnish": "exchange"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Kuinka kauan Tom on opiskellut espanjaa?",
+      "options": [
+        "6 months",
+        "1 vuosi",
+        "3 months",
+        "2 vuotta"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä Tom kokee vaikeimmaksi?",
+      "options": [
+        "Epäsäännölliset verbit ja konjunktiivi",
+        "Sanasto",
+        "Lukeminen",
+        "Listening"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka paljon Tomin pitäisi harjoitella päivittäin Anan mukaan?",
+      "options": [
+        "Vähintään 15 minuuttia",
+        "1 hour",
+        "30 minutes",
+        "2 hours"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä Tomin pitäisi kuunnella ääntämyksessä?",
+      "options": [
+        "Podcastit",
+        "Music",
+        "Radio",
+        "News"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä Tom voi tehdä puhuakseen useammille alkuperäiskansoille?",
+      "options": [
+        "Kielivaihdot verkossa",
+        "Matka Espanjaan",
+        "Ota lisää kursseja",
+        "Katso televisiota"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 76,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

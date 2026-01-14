@@ -1,0 +1,126 @@
+{
+  "id": "market-fruits",
+  "title": "At the Market",
+  "titleSpanish": "En el mercado",
+  "description": "A A1 level story about shopping",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "shopping",
+  "icon": "🍎",
+  "dialogue": [
+    {
+      "speaker": "Vendedor",
+      "spanish": "Buenos días. ¿Qué desea?",
+      "finnish": "Hyvää huomenta. Mitä haluat?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Quiero manzanas, por favor.",
+      "finnish": "Haluan omenoita, kiitos."
+    },
+    {
+      "speaker": "Vendedor",
+      "spanish": "¿Cuántas manzanas?",
+      "finnish": "Kuinka monta omenaa?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Cuatro manzanas rojas.",
+      "finnish": "Neljä punaista omenaa."
+    },
+    {
+      "speaker": "Vendedor",
+      "spanish": "Aquí tiene. ¿Algo más?",
+      "finnish": "Ole hyvä. Oliko vielä muuta?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Sí, un kilo de naranjas.",
+      "finnish": "Kyllä, kilo appelsiineja."
+    },
+    {
+      "speaker": "Vendedor",
+      "spanish": "Perfecto. Son tres euros.",
+      "finnish": "Täydellistä. Se maksaa kolme euroa."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Aquí tiene. Gracias.",
+      "finnish": "Ole hyvä. Kiitos."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el mercado",
+      "finnish": "market"
+    },
+    {
+      "spanish": "desear",
+      "finnish": "haluta/haluta"
+    },
+    {
+      "spanish": "la manzana",
+      "finnish": "apple"
+    },
+    {
+      "spanish": "cuántas",
+      "finnish": "how many"
+    },
+    {
+      "spanish": "la naranja",
+      "finnish": "orange"
+    },
+    {
+      "spanish": "el kilo",
+      "finnish": "kilogram"
+    },
+    {
+      "spanish": "algo más",
+      "finnish": "anything else"
+    },
+    {
+      "spanish": "aquí tiene",
+      "finnish": "here you go"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Kuinka monta omenaa asiakas haluaa?",
+      "options": [
+        "4",
+        "2",
+        "6",
+        "1 kilo"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä muuta asiakas ostaa?",
+      "options": [
+        "Appelsiinit",
+        "Banaanit",
+        "Rypäleet",
+        "Päärynät"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Paljonko kokonaissumma on?",
+      "options": [
+        "3 euros",
+        "5 euros",
+        "2 euros",
+        "4 euros"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 29,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

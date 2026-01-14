@@ -1,205 +1,205 @@
 {
-	"id": "cheap-hotel",
-	"title": "Hostelliin saapuminen",
-	"titleSpanish": "Llegada al hostal",
-	"description": "Miguel saapuu edulliseen hostelliin ja tekee sisäänkirjautumisen",
-	"difficulty": "beginner",
-	"category": "travel",
-	"icon": "🏨",
-	"dialogue": [
-		{
-			"speaker": "Miguel",
-			"spanish": "Buenas tardes. Tengo una reserva a nombre de Miguel García.",
-			"finnish": "Hyvää iltapäivää. Minulla on varaus nimellä Miguel García."
-		},
-		{
-			"speaker": "Recepcionista",
-			"spanish": "Buenas tardes. Un momento, por favor... Sí, aquí está. Una habitación doble para tres noches.",
-			"finnish": "Hyvää iltapäivää. Hetkinen... Kyllä, tässä se on. Kahden hengen huone kolmeksi yöksi."
-		},
-		{
-			"speaker": "Miguel",
-			"spanish": "Exacto. ¿La habitación tiene baño privado?",
-			"finnish": "Aivan. Onko huoneessa oma kylpyhuone?"
-		},
-		{
-			"speaker": "Recepcionista",
-			"spanish": "Sí, tiene baño privado con ducha. También tiene aire acondicionado y wifi gratis.",
-			"finnish": "Kyllä, siinä on oma kylpyhuone suihkulla. Siinä on myös ilmastointi ja ilmainen wifi."
-		},
-		{
-			"speaker": "Miguel",
-			"spanish": "Perfecto. ¿A qué hora es el desayuno?",
-			"finnish": "Täydellistä. Mihin aikaan on aamiainen?"
-		},
-		{
-			"speaker": "Recepcionista",
-			"spanish": "El desayuno es de siete a diez de la mañana, en el comedor del primer piso.",
-			"finnish": "Aamiainen on klo seitsemästä kymmeneen aamulla, ensimmäisen kerroksen ruokasalissa."
-		},
-		{
-			"speaker": "Miguel",
-			"spanish": "¿El desayuno está incluido en el precio?",
-			"finnish": "Sisältyykö aamiainen hintaan?"
-		},
-		{
-			"speaker": "Recepcionista",
-			"spanish": "Sí, el desayuno continental está incluido. Son cuarenta y cinco euros por noche.",
-			"finnish": "Kyllä, mannermainen aamiainen sisältyy. Yöhinta on neljäkymmentäviisi euroa."
-		},
-		{
-			"speaker": "Miguel",
-			"spanish": "Muy bien. ¿Puedo dejar las maletas antes de la hora de entrada?",
-			"finnish": "Hyvä on. Voinko jättää matkalaukut ennen sisäänkirjautumisaikaa?"
-		},
-		{
-			"speaker": "Recepcionista",
-			"spanish": "Por supuesto. La consigna está al lado de la recepción.",
-			"finnish": "Tietenkin. Säilytystila on vastaanoton vieressä."
-		},
-		{
-			"speaker": "Miguel",
-			"spanish": "Gracias. ¿A qué hora tengo que dejar la habitación el último día?",
-			"finnish": "Kiitos. Mihin aikaan minun täytyy lähteä huoneesta viimeisenä päivänä?"
-		},
-		{
-			"speaker": "Recepcionista",
-			"spanish": "La hora de salida es a las doce del mediodía. Aquí tiene su llave, habitación doscientos tres.",
-			"finnish": "Uloskirjautumisaika on klo kaksitoista päivällä. Tässä on avaimenne, huone kaksisataakolme."
-		}
-	],
-	"vocabulary": [
-		{
-			"spanish": "el hostal",
-			"finnish": "hostelli"
-		},
-		{
-			"spanish": "la reserva",
-			"finnish": "varaus",
-			"frequencyRank": 3405,
-			"cefrLevel": "B2"
-		},
-		{
-			"spanish": "la habitación",
-			"finnish": "huone",
-			"frequencyRank": 496,
-			"cefrLevel": "A1"
-		},
-		{
-			"spanish": "doble",
-			"finnish": "kahden hengen",
-			"frequencyRank": 1317,
-			"cefrLevel": "B1"
-		},
-		{
-			"spanish": "el baño",
-			"finnish": "kylpyhuone",
-			"frequencyRank": 715,
-			"cefrLevel": "A2"
-		},
-		{
-			"spanish": "la ducha",
-			"finnish": "suihku",
-			"frequencyRank": 2822,
-			"cefrLevel": "B2"
-		},
-		{
-			"spanish": "el aire acondicionado",
-			"finnish": "ilmastointi",
-			"frequencyRank": 742,
-			"cefrLevel": "A2"
-		},
-		{
-			"spanish": "el desayuno",
-			"finnish": "aamiainen",
-			"frequencyRank": 1953,
-			"cefrLevel": "B1"
-		},
-		{
-			"spanish": "el comedor",
-			"finnish": "ruokasali"
-		},
-		{
-			"spanish": "la maleta",
-			"finnish": "matkalaukku",
-			"frequencyRank": 3226,
-			"cefrLevel": "B2"
-		},
-		{
-			"spanish": "la llave",
-			"finnish": "avain",
-			"frequencyRank": 1131,
-			"cefrLevel": "B1"
-		},
-		{
-			"spanish": "la hora de salida",
-			"finnish": "uloskirjautumisaika",
-			"frequencyRank": 245,
-			"cefrLevel": "A1"
-		}
-	],
-	"questions": [
-		{
-			"id": "q1",
-			"question": "Kuinka moneksi yöksi Miguel on varannut huoneen?",
-			"options": [
-				"Yhdeksi yöksi",
-				"Kahdeksi yöksi",
-				"Kolmeksi yöksi",
-				"Neljäksi yöksi"
-			],
-			"correctIndex": 2,
-			"explanation": "Vastaanottovirkailija sanoi: 'Para tres noches' (Kolmeksi yöksi)"
-		},
-		{
-			"id": "q2",
-			"question": "Paljonko huone maksaa yöltä?",
-			"options": [
-				"35 euroa",
-				"40 euroa",
-				"45 euroa",
-				"50 euroa"
-			],
-			"correctIndex": 2,
-			"explanation": "Vastaanottovirkailija sanoi: 'Cuarenta y cinco euros por noche' (45 euroa yö)"
-		},
-		{
-			"id": "q3",
-			"question": "Mihin aikaan aamiainen alkaa?",
-			"options": [
-				"Klo 6",
-				"Klo 7",
-				"Klo 8",
-				"Klo 9"
-			],
-			"correctIndex": 1,
-			"explanation": "Vastaanottovirkailija sanoi: 'De siete a diez' (Seitsemästä kymmeneen)"
-		},
-		{
-			"id": "q4",
-			"question": "Mikä on huoneen numero?",
-			"options": [
-				"103",
-				"203",
-				"303",
-				"213"
-			],
-			"correctIndex": 1,
-			"explanation": "Vastaanottovirkailija sanoi: 'Habitación doscientos tres' (Huone 203)"
-		},
-		{
-			"id": "q5",
-			"question": "Mihin aikaan huoneesta pitää lähteä viimeisenä päivänä?",
-			"options": [
-				"Klo 10",
-				"Klo 11",
-				"Klo 12",
-				"Klo 13"
-			],
-			"correctIndex": 2,
-			"explanation": "Vastaanottovirkailija sanoi: 'A las doce del mediodía' (Klo 12 päivällä)"
-		}
-	],
-	"wordCount": 138,
-	"estimatedMinutes": 3
+  "id": "cheap-hotel",
+  "title": "Hostelliin saapuminen",
+  "titleSpanish": "Llegada al hostal",
+  "description": "Miguel saapuu edulliseen hostelliin ja tekee sisäänkirjautumisen",
+  "difficulty": "beginner",
+  "category": "travel",
+  "icon": "🏨",
+  "dialogue": [
+    {
+      "speaker": "Miguel",
+      "spanish": "Buenas tardes. Tengo una reserva a nombre de Miguel García.",
+      "finnish": "Hyvää iltapäivää. Minulla on varaus nimellä Miguel García."
+    },
+    {
+      "speaker": "Recepcionista",
+      "spanish": "Buenas tardes. Un momento, por favor... Sí, aquí está. Una habitación doble para tres noches.",
+      "finnish": "Hyvää iltapäivää. Hetkinen... Kyllä, tässä se on. Kahden hengen huone kolmeksi yöksi."
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "Exacto. ¿La habitación tiene baño privado?",
+      "finnish": "Aivan. Onko huoneessa oma kylpyhuone?"
+    },
+    {
+      "speaker": "Recepcionista",
+      "spanish": "Sí, tiene baño privado con ducha. También tiene aire acondicionado y wifi gratis.",
+      "finnish": "Kyllä, siinä on oma kylpyhuone suihkulla. Siinä on myös ilmastointi ja ilmainen wifi."
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "Perfecto. ¿A qué hora es el desayuno?",
+      "finnish": "Täydellistä. Mihin aikaan on aamiainen?"
+    },
+    {
+      "speaker": "Recepcionista",
+      "spanish": "El desayuno es de siete a diez de la mañana, en el comedor del primer piso.",
+      "finnish": "Aamiainen on klo seitsemästä kymmeneen aamulla, ensimmäisen kerroksen ruokasalissa."
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "¿El desayuno está incluido en el precio?",
+      "finnish": "Sisältyykö aamiainen hintaan?"
+    },
+    {
+      "speaker": "Recepcionista",
+      "spanish": "Sí, el desayuno continental está incluido. Son cuarenta y cinco euros por noche.",
+      "finnish": "Kyllä, mannermainen aamiainen sisältyy. Yöhinta on neljäkymmentäviisi euroa."
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "Muy bien. ¿Puedo dejar las maletas antes de la hora de entrada?",
+      "finnish": "Hyvä on. Voinko jättää matkalaukut ennen sisäänkirjautumisaikaa?"
+    },
+    {
+      "speaker": "Recepcionista",
+      "spanish": "Por supuesto. La consigna está al lado de la recepción.",
+      "finnish": "Tietenkin. Säilytystila on vastaanoton vieressä."
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "Gracias. ¿A qué hora tengo que dejar la habitación el último día?",
+      "finnish": "Kiitos. Mihin aikaan minun täytyy lähteä huoneesta viimeisenä päivänä?"
+    },
+    {
+      "speaker": "Recepcionista",
+      "spanish": "La hora de salida es a las doce del mediodía. Aquí tiene su llave, habitación doscientos tres.",
+      "finnish": "Uloskirjautumisaika on klo kaksitoista päivällä. Tässä on avaimenne, huone kaksisataakolme."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el hostal",
+      "finnish": "hostelli"
+    },
+    {
+      "spanish": "la reserva",
+      "finnish": "varaus",
+      "frequencyRank": 3405,
+      "cefrLevel": "B2"
+    },
+    {
+      "spanish": "la habitación",
+      "finnish": "huone",
+      "frequencyRank": 496,
+      "cefrLevel": "A1"
+    },
+    {
+      "spanish": "doble",
+      "finnish": "kahden hengen",
+      "frequencyRank": 1317,
+      "cefrLevel": "B1"
+    },
+    {
+      "spanish": "el baño",
+      "finnish": "kylpyhuone",
+      "frequencyRank": 715,
+      "cefrLevel": "A2"
+    },
+    {
+      "spanish": "la ducha",
+      "finnish": "suihku",
+      "frequencyRank": 2822,
+      "cefrLevel": "B2"
+    },
+    {
+      "spanish": "el aire acondicionado",
+      "finnish": "ilmastointi",
+      "frequencyRank": 742,
+      "cefrLevel": "A2"
+    },
+    {
+      "spanish": "el desayuno",
+      "finnish": "aamiainen",
+      "frequencyRank": 1953,
+      "cefrLevel": "B1"
+    },
+    {
+      "spanish": "el comedor",
+      "finnish": "ruokasali"
+    },
+    {
+      "spanish": "la maleta",
+      "finnish": "matkalaukku",
+      "frequencyRank": 3226,
+      "cefrLevel": "B2"
+    },
+    {
+      "spanish": "la llave",
+      "finnish": "avain",
+      "frequencyRank": 1131,
+      "cefrLevel": "B1"
+    },
+    {
+      "spanish": "la hora de salida",
+      "finnish": "uloskirjautumisaika",
+      "frequencyRank": 245,
+      "cefrLevel": "A1"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Kuinka moneksi yöksi Miguel on varannut huoneen?",
+      "options": [
+        "Yhdeksi yöksi",
+        "Kahdeksi yöksi",
+        "Kolmeksi yöksi",
+        "Neljäksi yöksi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vastaanottovirkailija sanoi: 'Para tres noches' (Kolmeksi yöksi)"
+    },
+    {
+      "id": "q2",
+      "question": "Paljonko huone maksaa yöltä?",
+      "options": [
+        "35 euroa",
+        "40 euroa",
+        "45 euroa",
+        "50 euroa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vastaanottovirkailija sanoi: 'Cuarenta y cinco euros por noche' (45 euroa yö)"
+    },
+    {
+      "id": "q3",
+      "question": "Mihin aikaan aamiainen alkaa?",
+      "options": [
+        "Klo 6",
+        "Klo 7",
+        "Klo 8",
+        "Klo 9"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vastaanottovirkailija sanoi: 'De siete a diez' (Seitsemästä kymmeneen)"
+    },
+    {
+      "id": "q4",
+      "question": "Mikä on huoneen numero?",
+      "options": [
+        "103",
+        "203",
+        "303",
+        "213"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vastaanottovirkailija sanoi: 'Habitación doscientos tres' (Huone 203)"
+    },
+    {
+      "id": "q5",
+      "question": "Mihin aikaan huoneesta pitää lähteä viimeisenä päivänä?",
+      "options": [
+        "Klo 10",
+        "Klo 11",
+        "Klo 12",
+        "Klo 13"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vastaanottovirkailija sanoi: 'A las doce del mediodía' (Klo 12 päivällä)"
+    }
+  ],
+  "wordCount": 138,
+  "estimatedMinutes": 3
 }

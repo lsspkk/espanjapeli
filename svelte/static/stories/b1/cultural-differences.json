@@ -1,0 +1,208 @@
+{
+  "id": "cultural-differences",
+  "title": "Cultural Differences",
+  "titleSpanish": "Diferencias culturales",
+  "description": "A B1 level story about culture",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "culture",
+  "icon": "🌏",
+  "dialogue": [
+    {
+      "speaker": "Emma",
+      "spanish": "Me resulta curioso que en España la gente cene tan tarde.",
+      "finnish": "Minusta on outoa, että Espanjassa ihmiset syövät niin myöhään."
+    },
+    {
+      "speaker": "Pablo",
+      "spanish": "Es verdad, normalmente cenamos entre las nueve y las diez.",
+      "finnish": "On totta, että syömme yleensä yhdeksän ja kymmenen välillä."
+    },
+    {
+      "speaker": "Emma",
+      "spanish": "En mi país, a esas horas ya estamos durmiendo.",
+      "finnish": "Maassani nukuimme jo silloin."
+    },
+    {
+      "speaker": "Pablo",
+      "spanish": "¿Y a qué hora cenáis vosotros?",
+      "finnish": "Ja mihin aikaan syötte illallisen?"
+    },
+    {
+      "speaker": "Emma",
+      "spanish": "Alrededor de las seis de la tarde.",
+      "finnish": "Noin kuudelta illalla."
+    },
+    {
+      "speaker": "Pablo",
+      "spanish": "¡Eso es la hora de la merienda aquí!",
+      "finnish": "Nyt on välipala-aika!"
+    },
+    {
+      "speaker": "Emma",
+      "spanish": "También me sorprende que las tiendas cierren al mediodía.",
+      "finnish": "Olen myös yllättynyt, että kaupat sulkeutuvat keskipäivällä."
+    },
+    {
+      "speaker": "Pablo",
+      "spanish": "Es la siesta, una tradición muy española.",
+      "finnish": "Se on siesta, hyvin espanjalainen perinne."
+    },
+    {
+      "speaker": "Emma",
+      "spanish": "¿La gente todavía duerme la siesta?",
+      "finnish": "Ottavatko ihmiset vielä päiväunet?"
+    },
+    {
+      "speaker": "Pablo",
+      "spanish": "Menos que antes, pero en los pueblos sí se mantiene.",
+      "finnish": "Vähemmän kuin ennen, mutta kylissä se säilyy."
+    },
+    {
+      "speaker": "Emma",
+      "spanish": "Me parece que cada cultura tiene su propio ritmo de vida.",
+      "finnish": "Minusta tuntuu, että jokaisella kulttuurilla on oma elämänrytminsä."
+    },
+    {
+      "speaker": "Pablo",
+      "spanish": "Exacto. Ni mejor ni peor, simplemente diferente.",
+      "finnish": "Juuri niin. Ei parempi eikä huonompi, vain erilainen."
+    },
+    {
+      "speaker": "Emma",
+      "spanish": "Creo que adaptarse a una nueva cultura es la parte más difícil de vivir en el extranjero.",
+      "finnish": "Uskon, että sopeutuminen uuteen kulttuuriin on vaikein osa ulkomailla asumista."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "las diferencias",
+      "finnish": "differences"
+    },
+    {
+      "spanish": "cultural",
+      "finnish": "cultural"
+    },
+    {
+      "spanish": "curioso/a",
+      "finnish": "curious/interesting"
+    },
+    {
+      "spanish": "cenar",
+      "finnish": "syömään illallista"
+    },
+    {
+      "spanish": "dormir",
+      "finnish": "nukkua"
+    },
+    {
+      "spanish": "la merienda",
+      "finnish": "afternoon snack"
+    },
+    {
+      "spanish": "la siesta",
+      "finnish": "siesta/nap"
+    },
+    {
+      "spanish": "la tradición",
+      "finnish": "tradition"
+    },
+    {
+      "spanish": "mantener",
+      "finnish": "ylläpitää"
+    },
+    {
+      "spanish": "el ritmo",
+      "finnish": "rhythm"
+    },
+    {
+      "spanish": "adaptarse",
+      "finnish": "sopeutua"
+    },
+    {
+      "spanish": "el extranjero",
+      "finnish": "abroad"
+    },
+    {
+      "spanish": "ni...ni",
+      "finnish": "neither...nor"
+    },
+    {
+      "spanish": "simplemente",
+      "finnish": "simply"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mihin aikaan espanjalaiset yleensä syövät illallista?",
+      "options": [
+        "Klo 21–22 välillä",
+        "6 PM",
+        "7 PM",
+        "8 PM"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mihin aikaan Emman maa syö illallista?",
+      "options": [
+        "Noin klo 18",
+        "9 PM",
+        "8 PM",
+        "10 PM"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä on \"la merienda\"?",
+      "options": [
+        "Iltapäivän välipala",
+        "Aamiainen",
+        "Lunch",
+        "Dinner"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Missä siesta-perinnettä vielä yllätetään?",
+      "options": [
+        "Kylissä",
+        "In cities",
+        "Everywhere",
+        "Ei missään"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Pablon mukaan, miten meidän tulisi suhtautua kulttuurieroihin?",
+      "options": [
+        "Ei parempi eikä huonompi, vain erilainen",
+        "Jotkut ovat parempia",
+        "Kaikki sama",
+        "Merkityksetön"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä Emmalle on vaikeinta ulkomailla asumisessa?",
+      "options": [
+        "Sopeutuminen uuteen kulttuuriin",
+        "Kielen oppiminen",
+        "Ystävystyminen",
+        "Finding work"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 118,
+  "estimatedMinutes": 3,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

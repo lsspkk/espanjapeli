@@ -1,205 +1,205 @@
 {
-	"id": "camping-area",
-	"title": "Leirintäalueella",
-	"titleSpanish": "En el camping",
-	"description": "Pedro etsii paikkaa teltalle ja kysyy leirintäalueen säännöistä",
-	"difficulty": "intermediate",
-	"category": "travel",
-	"icon": "⛺",
-	"dialogue": [
-		{
-			"speaker": "Pedro",
-			"spanish": "Hola, buenas tardes. ¿Tienen sitio para una tienda de campaña?",
-			"finnish": "Hei, hyvää iltapäivää. Onko teillä paikkaa teltalle?"
-		},
-		{
-			"speaker": "Encargado",
-			"spanish": "Buenas tardes. Sí, tenemos varios sitios disponibles. ¿Para cuántas personas?",
-			"finnish": "Hyvää iltapäivää. Kyllä, meillä on useita paikkoja vapaana. Kuinka monelle hengelle?"
-		},
-		{
-			"speaker": "Pedro",
-			"spanish": "Somos dos personas con una tienda pequeña. ¿Cuánto cuesta por noche?",
-			"finnish": "Meitä on kaksi henkeä pienen teltan kanssa. Paljonko maksaa yöltä?"
-		},
-		{
-			"speaker": "Encargado",
-			"spanish": "Son ocho euros por noche, más dos euros por persona. En total doce euros por noche.",
-			"finnish": "Se on kahdeksan euroa yöltä, plus kaksi euroa henkilöltä. Yhteensä kaksitoista euroa yö."
-		},
-		{
-			"speaker": "Pedro",
-			"spanish": "Bien. ¿Dónde podemos poner la tienda?",
-			"finnish": "Hyvä. Minne voimme pystyttää teltan?"
-		},
-		{
-			"speaker": "Encargado",
-			"spanish": "Pueden elegir cualquier sitio con número verde. Los sitios cerca del río son muy tranquilos.",
-			"finnish": "Voitte valita minkä tahansa paikan vihreällä numerolla. Paikat joen lähellä ovat hyvin rauhallisia."
-		},
-		{
-			"speaker": "Pedro",
-			"spanish": "¿Hay duchas y baños?",
-			"finnish": "Onko suihkuja ja vessoja?"
-		},
-		{
-			"speaker": "Encargado",
-			"spanish": "Sí, los servicios están en el edificio azul. Las duchas son de agua caliente y están incluidas en el precio.",
-			"finnish": "Kyllä, saniteettitilat ovat sinisessä rakennuksessa. Suihkuissa on kuumaa vettä ja ne sisältyvät hintaan."
-		},
-		{
-			"speaker": "Pedro",
-			"spanish": "¿Está permitido hacer fuego?",
-			"finnish": "Onko tulen teko sallittu?"
-		},
-		{
-			"speaker": "Encargado",
-			"spanish": "No, el fuego abierto está prohibido. Pero hay barbacoas públicas que pueden usar.",
-			"finnish": "Ei, avotuli on kielletty. Mutta on julkisia grillejä, joita voitte käyttää."
-		},
-		{
-			"speaker": "Pedro",
-			"spanish": "¿A qué hora hay que mantener silencio?",
-			"finnish": "Mihin aikaan on oltava hiljaa?"
-		},
-		{
-			"speaker": "Encargado",
-			"spanish": "El horario de silencio es de las once de la noche a las siete de la mañana.",
-			"finnish": "Hiljaisuusaika on klo yhdestätoista illalla seitsemään aamulla."
-		}
-	],
-	"vocabulary": [
-		{
-			"spanish": "el camping",
-			"finnish": "leirintäalue"
-		},
-		{
-			"spanish": "la tienda de campaña",
-			"finnish": "teltta",
-			"frequencyRank": 817,
-			"cefrLevel": "A2"
-		},
-		{
-			"spanish": "el sitio",
-			"finnish": "paikka",
-			"frequencyRank": 558,
-			"cefrLevel": "A2"
-		},
-		{
-			"spanish": "el río",
-			"finnish": "joki",
-			"frequencyRank": 1259,
-			"cefrLevel": "B1"
-		},
-		{
-			"spanish": "los servicios",
-			"finnish": "saniteettitilat",
-			"frequencyRank": 2589,
-			"cefrLevel": "B2"
-		},
-		{
-			"spanish": "la ducha",
-			"finnish": "suihku",
-			"frequencyRank": 2822,
-			"cefrLevel": "B2"
-		},
-		{
-			"spanish": "el agua caliente",
-			"finnish": "kuuma vesi",
-			"frequencyRank": 358,
-			"cefrLevel": "A1"
-		},
-		{
-			"spanish": "el fuego",
-			"finnish": "tuli",
-			"frequencyRank": 603,
-			"cefrLevel": "A2"
-		},
-		{
-			"spanish": "la barbacoa",
-			"finnish": "grilli"
-		},
-		{
-			"spanish": "el silencio",
-			"finnish": "hiljaisuus",
-			"frequencyRank": 904,
-			"cefrLevel": "A2"
-		},
-		{
-			"spanish": "el horario",
-			"finnish": "aikataulu",
-			"frequencyRank": 4448,
-			"cefrLevel": "C1"
-		},
-		{
-			"spanish": "poner la tienda",
-			"finnish": "pystyttää teltta",
-			"frequencyRank": 606,
-			"cefrLevel": "A2"
-		}
-	],
-	"questions": [
-		{
-			"id": "q1",
-			"question": "Kuinka monta henkeä Pedrolla on seurassaan?",
-			"options": [
-				"1 henkilö",
-				"2 henkilöä",
-				"3 henkilöä",
-				"4 henkilöä"
-			],
-			"correctIndex": 1,
-			"explanation": "Pedro sanoi: 'Somos dos personas' (Meitä on kaksi henkeä)"
-		},
-		{
-			"id": "q2",
-			"question": "Paljonko yöpyminen maksaa yhteensä yöltä?",
-			"options": [
-				"8 euroa",
-				"10 euroa",
-				"12 euroa",
-				"14 euroa"
-			],
-			"correctIndex": 2,
-			"explanation": "Vastuuhenkilö sanoi: 'En total doce euros por noche' (Yhteensä 12 euroa yö)"
-		},
-		{
-			"id": "q3",
-			"question": "Millaiset paikat ovat rauhallisia?",
-			"options": [
-				"Päärakennuksen lähellä",
-				"Joen lähellä",
-				"Grillialueen vieressä",
-				"Sisäänkäynnin lähellä"
-			],
-			"correctIndex": 1,
-			"explanation": "Vastuuhenkilö sanoi: 'Los sitios cerca del río son muy tranquilos' (Paikat joen lähellä ovat hyvin rauhallisia)"
-		},
-		{
-			"id": "q4",
-			"question": "Onko avotuli sallittu?",
-			"options": [
-				"Kyllä, vapaasti",
-				"Kyllä, tietyillä alueilla",
-				"Ei, se on kielletty",
-				"Vain viikonloppuisin"
-			],
-			"correctIndex": 2,
-			"explanation": "Vastuuhenkilö sanoi: 'El fuego abierto está prohibido' (Avotuli on kielletty)"
-		},
-		{
-			"id": "q5",
-			"question": "Milloin hiljaisuusaika alkaa?",
-			"options": [
-				"Klo 21",
-				"Klo 22",
-				"Klo 23",
-				"Klo 24"
-			],
-			"correctIndex": 2,
-			"explanation": "Vastuuhenkilö sanoi: 'De las once de la noche' (Klo yhdestätoista illalla)"
-		}
-	],
-	"wordCount": 133,
-	"estimatedMinutes": 3
+  "id": "camping-area",
+  "title": "Leirintäalueella",
+  "titleSpanish": "En el camping",
+  "description": "Pedro etsii paikkaa teltalle ja kysyy leirintäalueen säännöistä",
+  "difficulty": "intermediate",
+  "category": "travel",
+  "icon": "⛺",
+  "dialogue": [
+    {
+      "speaker": "Pedro",
+      "spanish": "Hola, buenas tardes. ¿Tienen sitio para una tienda de campaña?",
+      "finnish": "Hei, hyvää iltapäivää. Onko teillä paikkaa teltalle?"
+    },
+    {
+      "speaker": "Encargado",
+      "spanish": "Buenas tardes. Sí, tenemos varios sitios disponibles. ¿Para cuántas personas?",
+      "finnish": "Hyvää iltapäivää. Kyllä, meillä on useita paikkoja vapaana. Kuinka monelle hengelle?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Somos dos personas con una tienda pequeña. ¿Cuánto cuesta por noche?",
+      "finnish": "Meitä on kaksi henkeä pienen teltan kanssa. Paljonko maksaa yöltä?"
+    },
+    {
+      "speaker": "Encargado",
+      "spanish": "Son ocho euros por noche, más dos euros por persona. En total doce euros por noche.",
+      "finnish": "Se on kahdeksan euroa yöltä, plus kaksi euroa henkilöltä. Yhteensä kaksitoista euroa yö."
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Bien. ¿Dónde podemos poner la tienda?",
+      "finnish": "Hyvä. Minne voimme pystyttää teltan?"
+    },
+    {
+      "speaker": "Encargado",
+      "spanish": "Pueden elegir cualquier sitio con número verde. Los sitios cerca del río son muy tranquilos.",
+      "finnish": "Voitte valita minkä tahansa paikan vihreällä numerolla. Paikat joen lähellä ovat hyvin rauhallisia."
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "¿Hay duchas y baños?",
+      "finnish": "Onko suihkuja ja vessoja?"
+    },
+    {
+      "speaker": "Encargado",
+      "spanish": "Sí, los servicios están en el edificio azul. Las duchas son de agua caliente y están incluidas en el precio.",
+      "finnish": "Kyllä, saniteettitilat ovat sinisessä rakennuksessa. Suihkuissa on kuumaa vettä ja ne sisältyvät hintaan."
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "¿Está permitido hacer fuego?",
+      "finnish": "Onko tulen teko sallittu?"
+    },
+    {
+      "speaker": "Encargado",
+      "spanish": "No, el fuego abierto está prohibido. Pero hay barbacoas públicas que pueden usar.",
+      "finnish": "Ei, avotuli on kielletty. Mutta on julkisia grillejä, joita voitte käyttää."
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "¿A qué hora hay que mantener silencio?",
+      "finnish": "Mihin aikaan on oltava hiljaa?"
+    },
+    {
+      "speaker": "Encargado",
+      "spanish": "El horario de silencio es de las once de la noche a las siete de la mañana.",
+      "finnish": "Hiljaisuusaika on klo yhdestätoista illalla seitsemään aamulla."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el camping",
+      "finnish": "leirintäalue"
+    },
+    {
+      "spanish": "la tienda de campaña",
+      "finnish": "teltta",
+      "frequencyRank": 817,
+      "cefrLevel": "A2"
+    },
+    {
+      "spanish": "el sitio",
+      "finnish": "paikka",
+      "frequencyRank": 558,
+      "cefrLevel": "A2"
+    },
+    {
+      "spanish": "el río",
+      "finnish": "joki",
+      "frequencyRank": 1259,
+      "cefrLevel": "B1"
+    },
+    {
+      "spanish": "los servicios",
+      "finnish": "saniteettitilat",
+      "frequencyRank": 2589,
+      "cefrLevel": "B2"
+    },
+    {
+      "spanish": "la ducha",
+      "finnish": "suihku",
+      "frequencyRank": 2822,
+      "cefrLevel": "B2"
+    },
+    {
+      "spanish": "el agua caliente",
+      "finnish": "kuuma vesi",
+      "frequencyRank": 358,
+      "cefrLevel": "A1"
+    },
+    {
+      "spanish": "el fuego",
+      "finnish": "tuli",
+      "frequencyRank": 603,
+      "cefrLevel": "A2"
+    },
+    {
+      "spanish": "la barbacoa",
+      "finnish": "grilli"
+    },
+    {
+      "spanish": "el silencio",
+      "finnish": "hiljaisuus",
+      "frequencyRank": 904,
+      "cefrLevel": "A2"
+    },
+    {
+      "spanish": "el horario",
+      "finnish": "aikataulu",
+      "frequencyRank": 4448,
+      "cefrLevel": "C1"
+    },
+    {
+      "spanish": "poner la tienda",
+      "finnish": "pystyttää teltta",
+      "frequencyRank": 606,
+      "cefrLevel": "A2"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Kuinka monta henkeä Pedrolla on seurassaan?",
+      "options": [
+        "1 henkilö",
+        "2 henkilöä",
+        "3 henkilöä",
+        "4 henkilöä"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pedro sanoi: 'Somos dos personas' (Meitä on kaksi henkeä)"
+    },
+    {
+      "id": "q2",
+      "question": "Paljonko yöpyminen maksaa yhteensä yöltä?",
+      "options": [
+        "8 euroa",
+        "10 euroa",
+        "12 euroa",
+        "14 euroa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vastuuhenkilö sanoi: 'En total doce euros por noche' (Yhteensä 12 euroa yö)"
+    },
+    {
+      "id": "q3",
+      "question": "Millaiset paikat ovat rauhallisia?",
+      "options": [
+        "Päärakennuksen lähellä",
+        "Joen lähellä",
+        "Grillialueen vieressä",
+        "Sisäänkäynnin lähellä"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vastuuhenkilö sanoi: 'Los sitios cerca del río son muy tranquilos' (Paikat joen lähellä ovat hyvin rauhallisia)"
+    },
+    {
+      "id": "q4",
+      "question": "Onko avotuli sallittu?",
+      "options": [
+        "Kyllä, vapaasti",
+        "Kyllä, tietyillä alueilla",
+        "Ei, se on kielletty",
+        "Vain viikonloppuisin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vastuuhenkilö sanoi: 'El fuego abierto está prohibido' (Avotuli on kielletty)"
+    },
+    {
+      "id": "q5",
+      "question": "Milloin hiljaisuusaika alkaa?",
+      "options": [
+        "Klo 21",
+        "Klo 22",
+        "Klo 23",
+        "Klo 24"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vastuuhenkilö sanoi: 'De las once de la noche' (Klo yhdestätoista illalla)"
+    }
+  ],
+  "wordCount": 133,
+  "estimatedMinutes": 3
 }
