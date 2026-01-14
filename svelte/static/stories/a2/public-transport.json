@@ -1,0 +1,184 @@
+{
+  "id": "public-transport",
+  "title": "Using Public Transport",
+  "titleSpanish": "Usando el transporte público",
+  "description": "A A2 level story about travel",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "travel",
+  "icon": "🚌",
+  "dialogue": [
+    {
+      "speaker": "Turista",
+      "spanish": "Perdone, ¿qué autobús va al centro?",
+      "finnish": "Anteeksi, mikä bussi menee keskustaan?"
+    },
+    {
+      "speaker": "Señora",
+      "spanish": "El número doce o el veintitrés.",
+      "finnish": "Numero kaksitoista tai kaksikymmentäkolme."
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "¿Cada cuánto pasa?",
+      "finnish": "Kuinka usein se tapahtuu?"
+    },
+    {
+      "speaker": "Señora",
+      "spanish": "Cada diez minutos aproximadamente.",
+      "finnish": "Noin kymmenen minuutin välein."
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "¿Dónde puedo comprar el billete?",
+      "finnish": "Mistä voin ostaa lipun?"
+    },
+    {
+      "speaker": "Señora",
+      "spanish": "Puede comprarlo en el autobús o en aquella máquina.",
+      "finnish": "Voit ostaa sen bussista tai siltä koneelta."
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "¿Es más barato en la máquina?",
+      "finnish": "Onko se halvempi koneella?"
+    },
+    {
+      "speaker": "Señora",
+      "spanish": "Sí, y también puede comprar un bono de diez viajes.",
+      "finnish": "Kyllä, ja voit myös ostaa kymmenen kyydin lipun."
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "¿Cuánto cuesta el bono?",
+      "finnish": "Paljonko kuponki maksaa?"
+    },
+    {
+      "speaker": "Señora",
+      "spanish": "Ocho euros. Los viajes sueltos son un euro cada uno.",
+      "finnish": "Kahdeksan euroa. Yksittäiset matkat maksavat yhden euron kappaleelta."
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "Entonces el bono es mejor. Gracias por la información.",
+      "finnish": "Silloin bonus on parempi. Kiitos tiedoista."
+    },
+    {
+      "speaker": "Señora",
+      "spanish": "De nada. ¡Mire, ahí viene el doce!",
+      "finnish": "Ei kestä. Katso, tässä tulee kaksitoista!"
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el transporte público",
+      "finnish": "public transport"
+    },
+    {
+      "spanish": "el autobús",
+      "finnish": "bus"
+    },
+    {
+      "spanish": "el centro",
+      "finnish": "center/downtown"
+    },
+    {
+      "spanish": "cada cuánto",
+      "finnish": "how often"
+    },
+    {
+      "spanish": "pasar",
+      "finnish": "ohittaa/tulla"
+    },
+    {
+      "spanish": "el billete",
+      "finnish": "ticket"
+    },
+    {
+      "spanish": "la máquina",
+      "finnish": "machine"
+    },
+    {
+      "spanish": "barato/a",
+      "finnish": "cheap"
+    },
+    {
+      "spanish": "el bono",
+      "finnish": "pass"
+    },
+    {
+      "spanish": "el viaje",
+      "finnish": "trip"
+    },
+    {
+      "spanish": "suelto/a",
+      "finnish": "single/loose"
+    },
+    {
+      "spanish": "la información",
+      "finnish": "information"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Which buses go to the center?",
+      "options": [
+        "12 or 23",
+        "10 or 20",
+        "5 or 15",
+        "8 or 18"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka usein bussit tulevat?",
+      "options": [
+        "Every 10 minutes",
+        "Every 15 minutes",
+        "Every 5 minutes",
+        "Every 20 minutes"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Paljonko yksi matka maksaa?",
+      "options": [
+        "1 euro",
+        "2 euros",
+        "0.50 euros",
+        "1.50 euros"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Paljonko kymmenen matkan lippu maksaa?",
+      "options": [
+        "8 euros",
+        "10 euros",
+        "5 euros",
+        "12 euros"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mistä voit ostaa lippuja?",
+      "options": [
+        "Bussi vai kone",
+        "Only on bus",
+        "Vain koneella",
+        "Asemalla"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 79,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

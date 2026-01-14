@@ -1,0 +1,193 @@
+{
+  "id": "doctor-visit",
+  "title": "At the Doctor",
+  "titleSpanish": "En el médico",
+  "description": "A A2 level story about health",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "health",
+  "icon": "🏥",
+  "dialogue": [
+    {
+      "speaker": "Doctor",
+      "spanish": "Buenos días. ¿Qué le pasa?",
+      "finnish": "Hyvää huomenta. Mikä hänellä on?"
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Buenos días. Me siento mal desde ayer.",
+      "finnish": "Hyvää huomenta. Tunnen oloni huonoksi eilisestä lähtien."
+    },
+    {
+      "speaker": "Doctor",
+      "spanish": "¿Cuáles son sus síntomas?",
+      "finnish": "Mitkä ovat sen oireet?"
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Me duele la cabeza y tengo fiebre.",
+      "finnish": "Minulla on päänsärky ja kuume."
+    },
+    {
+      "speaker": "Doctor",
+      "spanish": "¿Le duele la garganta también?",
+      "finnish": "Sattuuko kurkkusi myös?"
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Sí, un poco. Y estoy muy cansado.",
+      "finnish": "Kyllä, vähän. Ja olen todella väsynyt."
+    },
+    {
+      "speaker": "Doctor",
+      "spanish": "Voy a examinarlo. Abra la boca, por favor.",
+      "finnish": "Tutkin sitä. Avaa suusi, kiitos."
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "[Opens mouth]",
+      "finnish": "[Avaa suunsa]"
+    },
+    {
+      "speaker": "Doctor",
+      "spanish": "Tiene la garganta inflamada. Es un resfriado fuerte.",
+      "finnish": "Kurkkusi on turvonnut. Se on paha flunssa."
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "¿Necesito medicinas?",
+      "finnish": "Tarvitsenko lääkkeitä?"
+    },
+    {
+      "speaker": "Doctor",
+      "spanish": "Sí, le receto estas pastillas. Tome una cada ocho horas.",
+      "finnish": "Kyllä, määrään näitä pillereitä. Ota yksi kahdeksan tunnin välein."
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "¿Cuántos días tengo que tomarlas?",
+      "finnish": "Kuinka monta päivää minun pitää ottaa ne?"
+    },
+    {
+      "speaker": "Doctor",
+      "spanish": "Durante cinco días. Y descanse mucho.",
+      "finnish": "Viiden päivän ajan. Ja lepää hyvin."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el/la médico/a",
+      "finnish": "doctor"
+    },
+    {
+      "spanish": "el/la paciente",
+      "finnish": "patient"
+    },
+    {
+      "spanish": "sentirse mal",
+      "finnish": "Tuntea olonsa huonoksi"
+    },
+    {
+      "spanish": "el síntoma",
+      "finnish": "symptom"
+    },
+    {
+      "spanish": "doler",
+      "finnish": "satuttaa"
+    },
+    {
+      "spanish": "la cabeza",
+      "finnish": "head"
+    },
+    {
+      "spanish": "la fiebre",
+      "finnish": "fever"
+    },
+    {
+      "spanish": "la garganta",
+      "finnish": "throat"
+    },
+    {
+      "spanish": "examinar",
+      "finnish": "tutkia"
+    },
+    {
+      "spanish": "el resfriado",
+      "finnish": "cold"
+    },
+    {
+      "spanish": "la medicina",
+      "finnish": "medicine"
+    },
+    {
+      "spanish": "la pastilla",
+      "finnish": "pill"
+    },
+    {
+      "spanish": "recetar",
+      "finnish": "määrätä"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mitkä ovat potilaan oireet?",
+      "options": [
+        "Päänsärky ja kuume",
+        "Vatsakipu",
+        "Murtunut käsi",
+        "Cough only"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä on diagnoosi?",
+      "options": [
+        "Flunssa",
+        "Flu",
+        "Infection",
+        "Allergia"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka usein potilaan tulisi ottaa pillereitä?",
+      "options": [
+        "Every 8 hours",
+        "Every 4 hours",
+        "Every 12 hours",
+        "Kerran päivässä"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka monta päivää?",
+      "options": [
+        "5 päivää",
+        "3 päivää",
+        "7 päivää",
+        "10 päivää"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä muuta potilaan pitäisi tehdä?",
+      "options": [
+        "Lepää paljon",
+        "Exercise",
+        "Mene töihin",
+        "Ei mitään"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 76,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

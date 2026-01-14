@@ -1,0 +1,197 @@
+{
+  "id": "environmental-volunteering",
+  "title": "Environmental Volunteering",
+  "titleSpanish": "Voluntariado ambiental",
+  "description": "A B1 level story about environment",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "environment",
+  "icon": "🌱",
+  "dialogue": [
+    {
+      "speaker": "Coordinador",
+      "spanish": "Bienvenidos a la jornada de limpieza de la playa.",
+      "finnish": "Tervetuloa rannan siivouspäivään."
+    },
+    {
+      "speaker": "Voluntaria",
+      "spanish": "Es la primera vez que participo en algo así.",
+      "finnish": "Tämä on ensimmäinen kerta, kun osallistun tällaiseen."
+    },
+    {
+      "speaker": "Coordinador",
+      "spanish": "Nos alegra tenerte. Cada voluntario hace una diferencia.",
+      "finnish": "Olemme iloisia, että olet täällä. Jokainen vapaaehtoinen tekee eron."
+    },
+    {
+      "speaker": "Voluntaria",
+      "spanish": "¿Qué tipo de residuos encontraremos?",
+      "finnish": "Millaista jätettä löydämme?"
+    },
+    {
+      "speaker": "Coordinador",
+      "spanish": "Principalmente plásticos: botellas, bolsas, colillas de cigarrillos.",
+      "finnish": "Pääasiassa muovit: pullot, pussit, tupakantumpit."
+    },
+    {
+      "speaker": "Voluntaria",
+      "spanish": "Es triste ver cómo la gente contamina el medio ambiente.",
+      "finnish": "On surullista nähdä, miten ihmiset saastuttavat ympäristöä."
+    },
+    {
+      "speaker": "Coordinador",
+      "spanish": "Por eso la educación ambiental es tan importante.",
+      "finnish": "Siksi ympäristökasvatus on niin tärkeää."
+    },
+    {
+      "speaker": "Voluntaria",
+      "spanish": "¿Organizáis estas actividades con frecuencia?",
+      "finnish": "Järjestätkö näitä aktiviteetteja usein?"
+    },
+    {
+      "speaker": "Coordinador",
+      "spanish": "Una vez al mes, y también hacemos talleres en escuelas.",
+      "finnish": "Kerran kuukaudessa, ja pidämme myös työpajoja kouluissa."
+    },
+    {
+      "speaker": "Voluntaria",
+      "spanish": "Me encantaría involucrarme más en el futuro.",
+      "finnish": "Haluaisin osallistua enemmän tulevaisuudessa."
+    },
+    {
+      "speaker": "Coordinador",
+      "spanish": "Siempre necesitamos más manos. Te enviaremos información.",
+      "finnish": "Tarvitsemme aina lisää käsiä. Lähetämme sinulle tietoa."
+    },
+    {
+      "speaker": "Voluntaria",
+      "spanish": "Perfecto. Creo que todos deberíamos hacer algo por nuestro planeta.",
+      "finnish": "Täydellistä. Mielestäni meidän kaikkien pitäisi tehdä jotain planeettamme hyväksi."
+    },
+    {
+      "speaker": "Coordinador",
+      "spanish": "Totalmente de acuerdo. Ahora, ¡manos a la obra!",
+      "finnish": "Olen täysin samaa mieltä. Nyt ryhdytään töihin!"
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el voluntariado",
+      "finnish": "volunteering"
+    },
+    {
+      "spanish": "la jornada",
+      "finnish": "day/work session"
+    },
+    {
+      "spanish": "la limpieza",
+      "finnish": "cleanup"
+    },
+    {
+      "spanish": "participar",
+      "finnish": "osallistua"
+    },
+    {
+      "spanish": "los residuos",
+      "finnish": "waste/rubbish"
+    },
+    {
+      "spanish": "el plástico",
+      "finnish": "plastic"
+    },
+    {
+      "spanish": "la bolsa",
+      "finnish": "bag"
+    },
+    {
+      "spanish": "la colilla",
+      "finnish": "cigarette butt"
+    },
+    {
+      "spanish": "contaminar",
+      "finnish": "saastuttaa"
+    },
+    {
+      "spanish": "el medio ambiente",
+      "finnish": "environment"
+    },
+    {
+      "spanish": "la educación ambiental",
+      "finnish": "environmental education"
+    },
+    {
+      "spanish": "el taller",
+      "finnish": "workshop"
+    },
+    {
+      "spanish": "involucrarse",
+      "finnish": "osallistua"
+    },
+    {
+      "spanish": "manos a la obra",
+      "finnish": "Ryhdytään töihin"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mihin tapahtumaan he osallistuvat?",
+      "options": [
+        "Rannan siivous",
+        "Puiden istutus",
+        "Recycling workshop",
+        "Protest"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä on pääasiallinen jätetyyppi, jonka he löytävät?",
+      "options": [
+        "Muovit",
+        "Paperi",
+        "Metalli",
+        "Lasi"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka usein he järjestävät näitä aktiviteetteja?",
+      "options": [
+        "Kerran kuukaudessa",
+        "Every week",
+        "Kerran vuodessa",
+        "Kaksi kertaa vuodessa"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä muuta järjestö tekee siivouksen lisäksi?",
+      "options": [
+        "Workshops in schools",
+        "Ei mitään muuta",
+        "Protests",
+        "Tutkimus"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Miltä vapaaehtoisesta tuntuu osallistuminen?",
+      "options": [
+        "Hän haluaa osallistua enemmän",
+        "Hän ei ole kiinnostunut",
+        "Hän miettii asiaa",
+        "She's undecided"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 103,
+  "estimatedMinutes": 3,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

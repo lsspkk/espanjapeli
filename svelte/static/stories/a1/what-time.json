@@ -1,0 +1,112 @@
+{
+  "id": "what-time",
+  "title": "What Time Is It?",
+  "titleSpanish": "¿Qué hora es?",
+  "description": "A A1 level story about everyday",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "everyday",
+  "icon": "🕐",
+  "dialogue": [
+    {
+      "speaker": "Ana",
+      "spanish": "Perdona, ¿qué hora es?",
+      "finnish": "Anteeksi, paljonko kello on?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Son las tres de la tarde.",
+      "finnish": "Kello on kolme iltapäivällä."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "Gracias. ¿A qué hora cierra la tienda?",
+      "finnish": "Kiitos. Mihin aikaan kauppa sulkeutuu?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Cierra a las ocho de la noche.",
+      "finnish": "Se sulkeutuu kahdeksalta illalla."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "Perfecto, tengo tiempo.",
+      "finnish": "Täydellistä, minulla on aikaa."
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Sí, tienes mucho tiempo.",
+      "finnish": "Kyllä, sinulla on runsaasti aikaa."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "qué hora",
+      "finnish": "what time"
+    },
+    {
+      "spanish": "la tarde",
+      "finnish": "iltapäivä"
+    },
+    {
+      "spanish": "cerrar",
+      "finnish": "sulkea"
+    },
+    {
+      "spanish": "la tienda",
+      "finnish": "Kauppa"
+    },
+    {
+      "spanish": "la noche",
+      "finnish": "ilta/yö"
+    },
+    {
+      "spanish": "tiempo",
+      "finnish": "time"
+    },
+    {
+      "spanish": "perdona",
+      "finnish": "excuse me"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Paljonko kello on nyt?",
+      "options": [
+        "3 PM",
+        "8 PM",
+        "12 PM",
+        "5 PM"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Milloin kauppa suljetaan?",
+      "options": [
+        "8 PM",
+        "3 PM",
+        "6 PM",
+        "10 PM"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Onko Analla tarpeeksi aikaa?",
+      "options": [
+        "Kyllä",
+        "Ei",
+        "Ehkä",
+        "Emme tiedä"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 31,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

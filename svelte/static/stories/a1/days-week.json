@@ -1,0 +1,125 @@
+{
+  "id": "days-week",
+  "title": "Days of the Week",
+  "titleSpanish": "Los días de la semana",
+  "description": "A A1 level story about everyday",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "everyday",
+  "icon": "📅",
+  "dialogue": [
+    {
+      "speaker": "Carlos",
+      "spanish": "¿Qué día es hoy?",
+      "finnish": "Mikä päivä tänään on?"
+    },
+    {
+      "speaker": "María",
+      "spanish": "Hoy es lunes.",
+      "finnish": "Tänään on maanantai."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "¿Y mañana?",
+      "finnish": "Entä huomenna?"
+    },
+    {
+      "speaker": "María",
+      "spanish": "Mañana es martes.",
+      "finnish": "Huomenna on tiistai."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "¿Cuándo es tu fiesta?",
+      "finnish": "Milloin teidän juhlat ovat?"
+    },
+    {
+      "speaker": "María",
+      "spanish": "Mi fiesta es el sábado.",
+      "finnish": "Juhlani on lauantaina."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "¡Genial! El sábado no trabajo.",
+      "finnish": "Se on mainiota! Lauantaina en ole töissä."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el día",
+      "finnish": "day"
+    },
+    {
+      "spanish": "hoy",
+      "finnish": "today"
+    },
+    {
+      "spanish": "mañana",
+      "finnish": "tomorrow"
+    },
+    {
+      "spanish": "lunes",
+      "finnish": "Monday"
+    },
+    {
+      "spanish": "martes",
+      "finnish": "Tuesday"
+    },
+    {
+      "spanish": "sábado",
+      "finnish": "Saturday"
+    },
+    {
+      "spanish": "la fiesta",
+      "finnish": "party"
+    },
+    {
+      "spanish": "trabajar",
+      "finnish": "työskentely"
+    },
+    {
+      "spanish": "cuándo",
+      "finnish": "when"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mikä päivä tänään on?",
+      "options": [
+        "Maanantai",
+        "Tiistai",
+        "Lauantai",
+        "Sunnuntai"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Milloin Marían juhlat ovat?",
+      "options": [
+        "Lauantai",
+        "Maanantai",
+        "Perjantai",
+        "Sunnuntai"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Työskenteleekö Carlos lauantaina?",
+      "options": [
+        "Ei",
+        "Kyllä",
+        "Ehkä",
+        "Emme tiedä"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 26,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

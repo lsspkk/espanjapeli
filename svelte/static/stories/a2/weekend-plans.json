@@ -1,0 +1,175 @@
+{
+  "id": "weekend-plans",
+  "title": "Weekend Plans",
+  "titleSpanish": "Planes para el fin de semana",
+  "description": "A A2 level story about social",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "social",
+  "icon": "🎉",
+  "dialogue": [
+    {
+      "speaker": "Laura",
+      "spanish": "¿Qué vas a hacer este fin de semana?",
+      "finnish": "Mitä aiot tehdä tänä viikonloppuna?"
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "El sábado voy a ir al cine con mis amigos.",
+      "finnish": "Lauantaina menen elokuviin ystävieni kanssa."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "¿Qué película vais a ver?",
+      "finnish": "Minkä elokuvan aiot katsoa?"
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "Una película de acción nueva. ¿Quieres venir?",
+      "finnish": "Uusi toimintaleffa. Haluatko tulla mukaan?"
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Me encantaría, pero el sábado trabajo.",
+      "finnish": "Haluaisin, mutta lauantaisin teen töitä."
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "¡Qué lástima! ¿Y el domingo?",
+      "finnish": "Ikävä juttu! Entä sunnuntaina?"
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "El domingo estoy libre. ¿Hacemos algo?",
+      "finnish": "Sunnuntaina olen vapaa. Tehdäänkö jotain?"
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "Podemos ir al parque si hace buen tiempo.",
+      "finnish": "Voimme mennä puistoon, jos sää on hyvä."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "¡Perfecto! ¿A qué hora quedamos?",
+      "finnish": "Täydellistä! Mihin aikaan tapaamme?"
+    },
+    {
+      "speaker": "Miguel",
+      "spanish": "A las once de la mañana en la entrada del parque.",
+      "finnish": "Kello yksitoista aamulla puiston sisäänkäynnillä."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Genial. ¡Hasta el domingo!",
+      "finnish": "Se on mainiota. Nähdään sunnuntaina!"
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el fin de semana",
+      "finnish": "weekend"
+    },
+    {
+      "spanish": "ir al cine",
+      "finnish": "menemään elokuviin"
+    },
+    {
+      "spanish": "la película",
+      "finnish": "movie"
+    },
+    {
+      "spanish": "de acción",
+      "finnish": "action (type)"
+    },
+    {
+      "spanish": "venir",
+      "finnish": "tulevat"
+    },
+    {
+      "spanish": "me encantaría",
+      "finnish": "I would love to"
+    },
+    {
+      "spanish": "qué lástima",
+      "finnish": "Sääli"
+    },
+    {
+      "spanish": "libre",
+      "finnish": "free"
+    },
+    {
+      "spanish": "quedar",
+      "finnish": "tavata"
+    },
+    {
+      "spanish": "la entrada",
+      "finnish": "entrance"
+    },
+    {
+      "spanish": "hacer buen tiempo",
+      "finnish": "että sää olisi mukava"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mitä Miguel tekee lauantaina?",
+      "options": [
+        "Elokuvissa käynti",
+        "Menossa parkkiin",
+        "Working",
+        "Kotona pysyminen"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Why can't Laura go on Saturday?",
+      "options": [
+        "She works",
+        "She's sick",
+        "Hänellä on suunnitelmia",
+        "Hän ei halua"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä he tekevät sunnuntaina?",
+      "options": [
+        "Mene puistoon",
+        "Mene elokuviin",
+        "Pysy kotona",
+        "Work"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mihin aikaan he tapaavat?",
+      "options": [
+        "11 AM",
+        "10 AM",
+        "12 PM",
+        "2 PM"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Missä he tapaavat?",
+      "options": [
+        "Puiston sisäänkäynti",
+        "Elokuva",
+        "Lauran talo",
+        "Bussipysäkki"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 75,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

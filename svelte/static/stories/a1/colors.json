@@ -1,0 +1,130 @@
+{
+  "id": "colors",
+  "title": "Colors I See",
+  "titleSpanish": "Colores que veo",
+  "description": "A A1 level story about everyday",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "everyday",
+  "icon": "🎨",
+  "dialogue": [
+    {
+      "speaker": "Niño",
+      "spanish": "Mamá, ¿de qué color es el sol?",
+      "finnish": "Äiti, minkä värinen aurinko on?"
+    },
+    {
+      "speaker": "Mamá",
+      "spanish": "El sol es amarillo.",
+      "finnish": "Aurinko on keltainen."
+    },
+    {
+      "speaker": "Niño",
+      "spanish": "¿Y el cielo?",
+      "finnish": "Entä taivas?"
+    },
+    {
+      "speaker": "Mamá",
+      "spanish": "El cielo es azul.",
+      "finnish": "Taivas on sininen."
+    },
+    {
+      "speaker": "Niño",
+      "spanish": "¡Y la hierba es verde!",
+      "finnish": "Ja ruoho on vihreää!"
+    },
+    {
+      "speaker": "Mamá",
+      "spanish": "Muy bien. ¿De qué color es la manzana?",
+      "finnish": "Oikein hyvin. Minkä värinen omena on?"
+    },
+    {
+      "speaker": "Niño",
+      "spanish": "La manzana es roja.",
+      "finnish": "Omena on punainen."
+    },
+    {
+      "speaker": "Mamá",
+      "spanish": "¡Excelente! Conoces muchos colores.",
+      "finnish": "Erinomaista! Tiedät monia värejä."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el color",
+      "finnish": "color"
+    },
+    {
+      "spanish": "el sol",
+      "finnish": "sun"
+    },
+    {
+      "spanish": "amarillo/a",
+      "finnish": "yellow"
+    },
+    {
+      "spanish": "el cielo",
+      "finnish": "sky"
+    },
+    {
+      "spanish": "azul",
+      "finnish": "blue"
+    },
+    {
+      "spanish": "la hierba",
+      "finnish": "grass"
+    },
+    {
+      "spanish": "verde",
+      "finnish": "green"
+    },
+    {
+      "spanish": "rojo/a",
+      "finnish": "red"
+    },
+    {
+      "spanish": "conocer",
+      "finnish": "Tietää"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Minkä värinen aurinko on?",
+      "options": [
+        "Yellow",
+        "Red",
+        "Blue",
+        "Green"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minkä värinen ruoho on?",
+      "options": [
+        "Green",
+        "Yellow",
+        "Blue",
+        "Red"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minkä värinen omena on?",
+      "options": [
+        "Red",
+        "Green",
+        "Yellow",
+        "Blue"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 39,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

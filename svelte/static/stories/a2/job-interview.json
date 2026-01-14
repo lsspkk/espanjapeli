@@ -1,0 +1,184 @@
+{
+  "id": "job-interview",
+  "title": "Job Interview",
+  "titleSpanish": "La entrevista de trabajo",
+  "description": "A A2 level story about work",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "work",
+  "icon": "💼",
+  "dialogue": [
+    {
+      "speaker": "Entrevistador",
+      "spanish": "Buenos días, siéntese por favor.",
+      "finnish": "Hyvää huomenta, istukaa, olkaa hyvä."
+    },
+    {
+      "speaker": "Candidato",
+      "spanish": "Gracias. Buenos días.",
+      "finnish": "Kiitos. Hyvää huomenta."
+    },
+    {
+      "speaker": "Entrevistador",
+      "spanish": "¿Por qué quiere trabajar en nuestra empresa?",
+      "finnish": "Miksi haluat työskennellä yrityksessämme?"
+    },
+    {
+      "speaker": "Candidato",
+      "spanish": "Porque me gusta mucho el sector tecnológico.",
+      "finnish": "Koska pidän todella teknologia-alasta."
+    },
+    {
+      "speaker": "Entrevistador",
+      "spanish": "¿Tiene experiencia en este campo?",
+      "finnish": "Onko sinulla kokemusta tältä alalta?"
+    },
+    {
+      "speaker": "Candidato",
+      "spanish": "Sí, trabajé dos años en una empresa similar.",
+      "finnish": "Kyllä, työskentelin kaksi vuotta samankaltaisessa yrityksessä."
+    },
+    {
+      "speaker": "Entrevistador",
+      "spanish": "¿Cuáles son sus fortalezas?",
+      "finnish": "Mitkä ovat sen vahvuudet?"
+    },
+    {
+      "speaker": "Candidato",
+      "spanish": "Soy muy organizado y trabajo bien en equipo.",
+      "finnish": "Olen hyvin järjestelmällinen ja työskentelen hyvin tiimissä."
+    },
+    {
+      "speaker": "Entrevistador",
+      "spanish": "¿Puede trabajar bajo presión?",
+      "finnish": "Pystytkö työskentelemään paineen alla?"
+    },
+    {
+      "speaker": "Candidato",
+      "spanish": "Sí, estoy acostumbrado a trabajar con plazos.",
+      "finnish": "Kyllä, olen tottunut työskentelemään määräaikojen kanssa."
+    },
+    {
+      "speaker": "Entrevistador",
+      "spanish": "Muy bien. Le llamaremos la próxima semana.",
+      "finnish": "Oikein hyvin. Soitamme sinulle ensi viikolla."
+    },
+    {
+      "speaker": "Candidato",
+      "spanish": "Muchas gracias por la oportunidad.",
+      "finnish": "Kiitos paljon mahdollisuudesta."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la entrevista",
+      "finnish": "interview"
+    },
+    {
+      "spanish": "el/la candidato/a",
+      "finnish": "candidate"
+    },
+    {
+      "spanish": "la empresa",
+      "finnish": "company"
+    },
+    {
+      "spanish": "el sector",
+      "finnish": "sector"
+    },
+    {
+      "spanish": "la experiencia",
+      "finnish": "experience"
+    },
+    {
+      "spanish": "el campo",
+      "finnish": "field"
+    },
+    {
+      "spanish": "las fortalezas",
+      "finnish": "strengths"
+    },
+    {
+      "spanish": "organizado/a",
+      "finnish": "organized"
+    },
+    {
+      "spanish": "el equipo",
+      "finnish": "team"
+    },
+    {
+      "spanish": "la presión",
+      "finnish": "pressure"
+    },
+    {
+      "spanish": "el plazo",
+      "finnish": "deadline"
+    },
+    {
+      "spanish": "la oportunidad",
+      "finnish": "opportunity"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mistä alasta ehdokas pitää?",
+      "options": [
+        "Tekniikka",
+        "Rahoitus",
+        "Terveydenhuolto",
+        "Koulutus"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka monta vuotta kokemusta hakijalla on?",
+      "options": [
+        "2 vuotta",
+        "1 vuosi",
+        "3 vuotta",
+        "5 vuotta"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minkä vahvuuden ehdokas mainitsee ensin?",
+      "options": [
+        "Järjestäytynyt",
+        "Luova",
+        "Nopeasti",
+        "Friendly"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minkä kanssa ehdokas on tottunut työskentelemään?",
+      "options": [
+        "Määräajat",
+        "Computers",
+        "Joukkueet",
+        "Clients"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Milloin he soittavat ehdokkaalle?",
+      "options": [
+        "Next week",
+        "Huomenna",
+        "Next month",
+        "In two weeks"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 70,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

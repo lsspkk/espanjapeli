@@ -1,0 +1,197 @@
+{
+  "id": "technology-life",
+  "title": "Technology in Daily Life",
+  "titleSpanish": "La tecnología en la vida diaria",
+  "description": "A B1 level story about technology",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "technology",
+  "icon": "📱",
+  "dialogue": [
+    {
+      "speaker": "Abuelo",
+      "spanish": "No entiendo cómo funcionan estos teléfonos nuevos.",
+      "finnish": "En ymmärrä, miten nämä uudet puhelimet toimivat."
+    },
+    {
+      "speaker": "Nieta",
+      "spanish": "No te preocupes, abuelo. Te enseño.",
+      "finnish": "Älä huoli, isoisä. Näytän sinulle."
+    },
+    {
+      "speaker": "Abuelo",
+      "spanish": "En mis tiempos, los teléfonos solo servían para llamar.",
+      "finnish": "Minun aikanani puhelimet olivat hyviä vain soittamiseen."
+    },
+    {
+      "speaker": "Nieta",
+      "spanish": "Ahora puedes hacer videollamadas con la familia.",
+      "finnish": "Nyt voit soittaa videopuheluita perheen kanssa."
+    },
+    {
+      "speaker": "Abuelo",
+      "spanish": "¿Y cómo hago eso?",
+      "finnish": "Ja miten teen sen?"
+    },
+    {
+      "speaker": "Nieta",
+      "spanish": "Mira, solo tienes que tocar aquí y seleccionar el contacto.",
+      "finnish": "Katso, napauta tätä ja valitse yhteystieto."
+    },
+    {
+      "speaker": "Abuelo",
+      "spanish": "¡Increíble! Puedo ver a tu tía que vive en Argentina.",
+      "finnish": "Uskomatonta! Näen tätisi, joka asuu Argentiinassa."
+    },
+    {
+      "speaker": "Nieta",
+      "spanish": "También puedes enviar fotos y mensajes de voz.",
+      "finnish": "Voit myös lähettää valokuvia ja ääniviestejä."
+    },
+    {
+      "speaker": "Abuelo",
+      "spanish": "¿Y si me equivoco y rompo algo?",
+      "finnish": "Entä jos teen virheen ja rikon jotain?"
+    },
+    {
+      "speaker": "Nieta",
+      "spanish": "No te preocupes, no puedes romper nada tocando la pantalla.",
+      "finnish": "Älä huoli, et voi rikkoa mitään koskettamalla näyttöä."
+    },
+    {
+      "speaker": "Abuelo",
+      "spanish": "La tecnología ha cambiado mucho desde que era joven.",
+      "finnish": "Teknologia on muuttunut paljon siitä, kun olin nuori."
+    },
+    {
+      "speaker": "Nieta",
+      "spanish": "Es verdad, pero también nos ha conectado más.",
+      "finnish": "Se on totta, mutta se on myös yhdistänyt meitä entistä enemmän."
+    },
+    {
+      "speaker": "Abuelo",
+      "spanish": "Tienes razón. Gracias por tener paciencia conmigo.",
+      "finnish": "Olet oikeassa. Kiitos, että olet kärsivällinen kanssani."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la tecnología",
+      "finnish": "technology"
+    },
+    {
+      "spanish": "el teléfono",
+      "finnish": "phone"
+    },
+    {
+      "spanish": "funcionar",
+      "finnish": "Työhön/toimintaan"
+    },
+    {
+      "spanish": "en mis tiempos",
+      "finnish": "in my time"
+    },
+    {
+      "spanish": "la videollamada",
+      "finnish": "video call"
+    },
+    {
+      "spanish": "tocar",
+      "finnish": "koskettaa/napauttaa"
+    },
+    {
+      "spanish": "seleccionar",
+      "finnish": "valita"
+    },
+    {
+      "spanish": "el contacto",
+      "finnish": "contact"
+    },
+    {
+      "spanish": "enviar",
+      "finnish": "lähettää"
+    },
+    {
+      "spanish": "el mensaje de voz",
+      "finnish": "voice message"
+    },
+    {
+      "spanish": "equivocarse",
+      "finnish": "tehdä virhe"
+    },
+    {
+      "spanish": "la pantalla",
+      "finnish": "screen"
+    },
+    {
+      "spanish": "cambiar",
+      "finnish": "muuttua"
+    },
+    {
+      "spanish": "la paciencia",
+      "finnish": "patience"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mikä isoisällä on vaikeuksia?",
+      "options": [
+        "Uuden puhelimen käyttö",
+        "The TV",
+        "Tietokone",
+        "Radio"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Missä täti asuu?",
+      "options": [
+        "Argentiina",
+        "Espanja",
+        "Mexico",
+        "Chile"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä isoisä pelkäsi?",
+      "options": [
+        "Jotain rikkoo",
+        "Väärän henkilön soittaminen",
+        "Spending money",
+        "Kadonneet valokuvat"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä isoisä voi nyt tehdä muuta kuin soittaa?",
+      "options": [
+        "Videopuhelut, valokuvat, ääniviestit",
+        "Only text",
+        "Vain sähköposti",
+        "Ei mitään muuta"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Tyttärentyttären mukaan, mitä teknologia on tehnyt?",
+      "options": [
+        "Connected us more",
+        "Se teki meistä yksinäisempiä",
+        "Tuhlasimme aikaamme",
+        "Ei muuttanut mitään"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 102,
+  "estimatedMinutes": 3,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

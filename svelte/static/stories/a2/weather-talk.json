@@ -1,199 +1,199 @@
 {
-	"id": "weather-talk",
-	"title": "Keskustelua säästä",
-	"titleSpanish": "Hablando del tiempo",
-	"description": "Laura ja naapuri keskustelevat säästä ja tulevista päivistä",
-	"difficulty": "beginner",
-	"category": "everyday",
-	"icon": "🌤️",
-	"dialogue": [
-		{
-			"speaker": "Laura",
-			"spanish": "Buenos días, señora Martínez. ¡Qué buen tiempo hace hoy!",
-			"finnish": "Hyvää huomenta, rouva Martínez. Mikä hieno sää tänään!"
-		},
-		{
-			"speaker": "Sra. Martínez",
-			"spanish": "Sí, hace mucho sol. Es perfecto para pasear.",
-			"finnish": "Kyllä, on hyvin aurinkoista. Se on täydellistä kävelylle."
-		},
-		{
-			"speaker": "Laura",
-			"spanish": "¿Ha visto el pronóstico para mañana?",
-			"finnish": "Oletteko nähnyt huomisen sääennusteen?"
-		},
-		{
-			"speaker": "Sra. Martínez",
-			"spanish": "Sí, dicen que va a llover por la tarde. Mejor llevar paraguas.",
-			"finnish": "Kyllä, sanotaan että tulee satamaan iltapäivällä. Parempi ottaa sateenvarjo mukaan."
-		},
-		{
-			"speaker": "Laura",
-			"spanish": "¡Qué lástima! Tenía planes de ir a la playa.",
-			"finnish": "Harmi! Minulla oli suunnitelmia mennä rannalle."
-		},
-		{
-			"speaker": "Sra. Martínez",
-			"spanish": "Todavía puede ir por la mañana. La lluvia empieza después de las cuatro.",
-			"finnish": "Voitte vielä mennä aamulla. Sade alkaa neljän jälkeen."
-		},
-		{
-			"speaker": "Laura",
-			"spanish": "Buena idea. ¿Y el fin de semana? ¿Sabe qué tiempo hará?",
-			"finnish": "Hyvä idea. Entä viikonloppu? Tiedättekö millainen sää tulee olemaan?"
-		},
-		{
-			"speaker": "Sra. Martínez",
-			"spanish": "El sábado estará nublado pero sin lluvia. El domingo hace más frío, unos quince grados.",
-			"finnish": "Lauantaina on pilvistä mutta ei sadetta. Sunnuntaina on kylmempää, noin viisitoista astetta."
-		},
-		{
-			"speaker": "Laura",
-			"spanish": "¿Quince grados? Eso es bastante fresco para esta época del año.",
-			"finnish": "Viisitoista astetta? Se on aika viileää tähän vuodenaikaan."
-		},
-		{
-			"speaker": "Sra. Martínez",
-			"spanish": "Sí, normalmente hace más calor en junio. Pero el tiempo está muy loco últimamente.",
-			"finnish": "Kyllä, normaalisti on lämpimämpää kesäkuussa. Mutta sää on ollut hyvin hullu viime aikoina."
-		},
-		{
-			"speaker": "Laura",
-			"spanish": "Tiene razón. Bueno, voy a disfrutar del sol mientras pueda. ¡Hasta luego!",
-			"finnish": "Olette oikeassa. No, aion nauttia auringosta kun vielä voin. Näkemiin!"
-		},
-		{
-			"speaker": "Sra. Martínez",
-			"spanish": "¡Hasta luego! Y no olvide el paraguas para mañana.",
-			"finnish": "Näkemiin! Äläkä unohda sateenvarjoa huomiseksi."
-		}
-	],
-	"vocabulary": [
-		{
-			"spanish": "el tiempo",
-			"finnish": "sää",
-			"frequencyRank": 95,
-			"cefrLevel": "A1"
-		},
-		{
-			"spanish": "el sol",
-			"finnish": "aurinko",
-			"frequencyRank": 824,
-			"cefrLevel": "A2"
-		},
-		{
-			"spanish": "llover",
-			"finnish": "sataa"
-		},
-		{
-			"spanish": "la lluvia",
-			"finnish": "sade",
-			"frequencyRank": 2173,
-			"cefrLevel": "B2"
-		},
-		{
-			"spanish": "el paraguas",
-			"finnish": "sateenvarjo"
-		},
-		{
-			"spanish": "nublado",
-			"finnish": "pilvinen"
-		},
-		{
-			"spanish": "el frío",
-			"finnish": "kylmä",
-			"frequencyRank": 1044,
-			"cefrLevel": "B1"
-		},
-		{
-			"spanish": "el calor",
-			"finnish": "kuuma / lämpö",
-			"frequencyRank": 1369,
-			"cefrLevel": "B1"
-		},
-		{
-			"spanish": "el pronóstico",
-			"finnish": "sääennuste"
-		},
-		{
-			"spanish": "el grado",
-			"finnish": "aste",
-			"frequencyRank": 2545,
-			"cefrLevel": "B2"
-		},
-		{
-			"spanish": "la playa",
-			"finnish": "ranta",
-			"frequencyRank": 1619,
-			"cefrLevel": "B1"
-		},
-		{
-			"spanish": "pasear",
-			"finnish": "kävellä / ulkoilla"
-		}
-	],
-	"questions": [
-		{
-			"id": "q1",
-			"question": "Millainen sää on tänään?",
-			"options": [
-				"Sateista",
-				"Aurinkoista",
-				"Pilvistä",
-				"Tuulista"
-			],
-			"correctIndex": 1,
-			"explanation": "Rouva Martínez sanoi: 'Hace mucho sol' (On hyvin aurinkoista)"
-		},
-		{
-			"id": "q2",
-			"question": "Mitä sää tekee huomenna iltapäivällä?",
-			"options": [
-				"Paistaa aurinko",
-				"Tuulee",
-				"Sataa",
-				"On pilvistä"
-			],
-			"correctIndex": 2,
-			"explanation": "Rouva Martínez sanoi: 'Va a llover por la tarde' (Tulee satamaan iltapäivällä)"
-		},
-		{
-			"id": "q3",
-			"question": "Mihin aikaan sade alkaa huomenna?",
-			"options": [
-				"Klo 12 jälkeen",
-				"Klo 14 jälkeen",
-				"Klo 16 jälkeen",
-				"Klo 18 jälkeen"
-			],
-			"correctIndex": 2,
-			"explanation": "Rouva Martínez sanoi: 'Después de las cuatro' (Neljän jälkeen)"
-		},
-		{
-			"id": "q4",
-			"question": "Kuinka monta astetta on sunnuntaina?",
-			"options": [
-				"10 astetta",
-				"15 astetta",
-				"20 astetta",
-				"25 astetta"
-			],
-			"correctIndex": 1,
-			"explanation": "Rouva Martínez sanoi: 'Unos quince grados' (Noin 15 astetta)"
-		},
-		{
-			"id": "q5",
-			"question": "Minne Laura oli suunnitellut menevänsä?",
-			"options": [
-				"Puistoon",
-				"Kauppaan",
-				"Rannalle",
-				"Kahvilaan"
-			],
-			"correctIndex": 2,
-			"explanation": "Laura sanoi: 'Tenía planes de ir a la playa' (Minulla oli suunnitelmia mennä rannalle)"
-		}
-	],
-	"wordCount": 129,
-	"estimatedMinutes": 3
+  "id": "weather-talk",
+  "title": "Keskustelua säästä",
+  "titleSpanish": "Hablando del tiempo",
+  "description": "Laura ja naapuri keskustelevat säästä ja tulevista päivistä",
+  "difficulty": "beginner",
+  "category": "everyday",
+  "icon": "🌤️",
+  "dialogue": [
+    {
+      "speaker": "Laura",
+      "spanish": "Buenos días, señora Martínez. ¡Qué buen tiempo hace hoy!",
+      "finnish": "Hyvää huomenta, rouva Martínez. Mikä hieno sää tänään!"
+    },
+    {
+      "speaker": "Sra. Martínez",
+      "spanish": "Sí, hace mucho sol. Es perfecto para pasear.",
+      "finnish": "Kyllä, on hyvin aurinkoista. Se on täydellistä kävelylle."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "¿Ha visto el pronóstico para mañana?",
+      "finnish": "Oletteko nähnyt huomisen sääennusteen?"
+    },
+    {
+      "speaker": "Sra. Martínez",
+      "spanish": "Sí, dicen que va a llover por la tarde. Mejor llevar paraguas.",
+      "finnish": "Kyllä, sanotaan että tulee satamaan iltapäivällä. Parempi ottaa sateenvarjo mukaan."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "¡Qué lástima! Tenía planes de ir a la playa.",
+      "finnish": "Harmi! Minulla oli suunnitelmia mennä rannalle."
+    },
+    {
+      "speaker": "Sra. Martínez",
+      "spanish": "Todavía puede ir por la mañana. La lluvia empieza después de las cuatro.",
+      "finnish": "Voitte vielä mennä aamulla. Sade alkaa neljän jälkeen."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Buena idea. ¿Y el fin de semana? ¿Sabe qué tiempo hará?",
+      "finnish": "Hyvä idea. Entä viikonloppu? Tiedättekö millainen sää tulee olemaan?"
+    },
+    {
+      "speaker": "Sra. Martínez",
+      "spanish": "El sábado estará nublado pero sin lluvia. El domingo hace más frío, unos quince grados.",
+      "finnish": "Lauantaina on pilvistä mutta ei sadetta. Sunnuntaina on kylmempää, noin viisitoista astetta."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "¿Quince grados? Eso es bastante fresco para esta época del año.",
+      "finnish": "Viisitoista astetta? Se on aika viileää tähän vuodenaikaan."
+    },
+    {
+      "speaker": "Sra. Martínez",
+      "spanish": "Sí, normalmente hace más calor en junio. Pero el tiempo está muy loco últimamente.",
+      "finnish": "Kyllä, normaalisti on lämpimämpää kesäkuussa. Mutta sää on ollut hyvin hullu viime aikoina."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Tiene razón. Bueno, voy a disfrutar del sol mientras pueda. ¡Hasta luego!",
+      "finnish": "Olette oikeassa. No, aion nauttia auringosta kun vielä voin. Näkemiin!"
+    },
+    {
+      "speaker": "Sra. Martínez",
+      "spanish": "¡Hasta luego! Y no olvide el paraguas para mañana.",
+      "finnish": "Näkemiin! Äläkä unohda sateenvarjoa huomiseksi."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el tiempo",
+      "finnish": "sää",
+      "frequencyRank": 95,
+      "cefrLevel": "A1"
+    },
+    {
+      "spanish": "el sol",
+      "finnish": "aurinko",
+      "frequencyRank": 824,
+      "cefrLevel": "A2"
+    },
+    {
+      "spanish": "llover",
+      "finnish": "sataa"
+    },
+    {
+      "spanish": "la lluvia",
+      "finnish": "sade",
+      "frequencyRank": 2173,
+      "cefrLevel": "B2"
+    },
+    {
+      "spanish": "el paraguas",
+      "finnish": "sateenvarjo"
+    },
+    {
+      "spanish": "nublado",
+      "finnish": "pilvinen"
+    },
+    {
+      "spanish": "el frío",
+      "finnish": "kylmä",
+      "frequencyRank": 1044,
+      "cefrLevel": "B1"
+    },
+    {
+      "spanish": "el calor",
+      "finnish": "kuuma / lämpö",
+      "frequencyRank": 1369,
+      "cefrLevel": "B1"
+    },
+    {
+      "spanish": "el pronóstico",
+      "finnish": "sääennuste"
+    },
+    {
+      "spanish": "el grado",
+      "finnish": "aste",
+      "frequencyRank": 2545,
+      "cefrLevel": "B2"
+    },
+    {
+      "spanish": "la playa",
+      "finnish": "ranta",
+      "frequencyRank": 1619,
+      "cefrLevel": "B1"
+    },
+    {
+      "spanish": "pasear",
+      "finnish": "kävellä / ulkoilla"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Millainen sää on tänään?",
+      "options": [
+        "Sateista",
+        "Aurinkoista",
+        "Pilvistä",
+        "Tuulista"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rouva Martínez sanoi: 'Hace mucho sol' (On hyvin aurinkoista)"
+    },
+    {
+      "id": "q2",
+      "question": "Mitä sää tekee huomenna iltapäivällä?",
+      "options": [
+        "Paistaa aurinko",
+        "Tuulee",
+        "Sataa",
+        "On pilvistä"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rouva Martínez sanoi: 'Va a llover por la tarde' (Tulee satamaan iltapäivällä)"
+    },
+    {
+      "id": "q3",
+      "question": "Mihin aikaan sade alkaa huomenna?",
+      "options": [
+        "Klo 12 jälkeen",
+        "Klo 14 jälkeen",
+        "Klo 16 jälkeen",
+        "Klo 18 jälkeen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rouva Martínez sanoi: 'Después de las cuatro' (Neljän jälkeen)"
+    },
+    {
+      "id": "q4",
+      "question": "Kuinka monta astetta on sunnuntaina?",
+      "options": [
+        "10 astetta",
+        "15 astetta",
+        "20 astetta",
+        "25 Astetta"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rouva Martínez sanoi: 'Unos quince grados' (Noin 15 astetta)"
+    },
+    {
+      "id": "q5",
+      "question": "Minne Laura oli suunnitellut menevänsä?",
+      "options": [
+        "Puistoon",
+        "Kauppaan",
+        "Rannalle",
+        "Kahvilaan"
+      ],
+      "correctIndex": 2,
+      "explanation": "Laura sanoi: 'Tenía planes de ir a la playa' (Minulla oli suunnitelmia mennä rannalle)"
+    }
+  ],
+  "wordCount": 129,
+  "estimatedMinutes": 3
 }

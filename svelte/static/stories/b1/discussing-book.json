@@ -1,0 +1,201 @@
+{
+  "id": "discussing-book",
+  "title": "Discussing a Book",
+  "titleSpanish": "Discutiendo un libro",
+  "description": "A B1 level story about culture",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "culture",
+  "icon": "📖",
+  "dialogue": [
+    {
+      "speaker": "Paula",
+      "spanish": "¿Has terminado de leer el libro que te presté?",
+      "finnish": "Oletko lukenut lainaamani kirjan loppuun?"
+    },
+    {
+      "speaker": "Marcos",
+      "spanish": "Sí, lo acabé anoche. ¡Me encantó!",
+      "finnish": "Kyllä, sain sen valmiiksi viime yönä. Rakastin sitä!"
+    },
+    {
+      "speaker": "Paula",
+      "spanish": "¿Qué fue lo que más te gustó?",
+      "finnish": "Mistä pidit eniten?"
+    },
+    {
+      "speaker": "Marcos",
+      "spanish": "El desarrollo de los personajes es increíble.",
+      "finnish": "Hahmojen kehitys on uskomatonta."
+    },
+    {
+      "speaker": "Paula",
+      "spanish": "Es verdad, cada personaje tiene su propia historia.",
+      "finnish": "Se on totta, jokaisella hahmolla on oma tarinansa."
+    },
+    {
+      "speaker": "Marcos",
+      "spanish": "El final me dejó con ganas de más.",
+      "finnish": "Loppu jätti minut haluamaan lisää."
+    },
+    {
+      "speaker": "Paula",
+      "spanish": "Hay una secuela que salió el año pasado.",
+      "finnish": "Viime vuonna julkaistiin jatko-osa."
+    },
+    {
+      "speaker": "Marcos",
+      "spanish": "¡No lo sabía! Tendré que buscarla.",
+      "finnish": "En tiennyt sitä! Minun täytyy etsiä hänet."
+    },
+    {
+      "speaker": "Paula",
+      "spanish": "¿Qué opinas del estilo de escritura del autor?",
+      "finnish": "Mitä mieltä olet kirjoittajan kirjoitustyylistä?"
+    },
+    {
+      "speaker": "Marcos",
+      "spanish": "Es muy descriptivo, casi puedes visualizar cada escena.",
+      "finnish": "Se on hyvin kuvaileva, voit melkein visualisoida jokaisen kohtauksen."
+    },
+    {
+      "speaker": "Paula",
+      "spanish": "A mí me parece que a veces se extiende demasiado en los detalles.",
+      "finnish": "Minusta tuntuu, että joskus hän menee liikaa yksityiskohtiin."
+    },
+    {
+      "speaker": "Marcos",
+      "spanish": "Bueno, cada lector tiene sus preferencias.",
+      "finnish": "No, jokaisella lukijalla on oma mieltymys."
+    },
+    {
+      "speaker": "Paula",
+      "spanish": "Eso es lo bonito de la literatura, hay algo para todos.",
+      "finnish": "Siinä on kirjallisuuden kauneus, jokaiselle löytyy jotakin."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el libro",
+      "finnish": "book"
+    },
+    {
+      "spanish": "prestar",
+      "finnish": "lainata"
+    },
+    {
+      "spanish": "acabar",
+      "finnish": "loppuun"
+    },
+    {
+      "spanish": "el desarrollo",
+      "finnish": "development"
+    },
+    {
+      "spanish": "el personaje",
+      "finnish": "character"
+    },
+    {
+      "spanish": "la historia",
+      "finnish": "story"
+    },
+    {
+      "spanish": "el final",
+      "finnish": "ending"
+    },
+    {
+      "spanish": "la secuela",
+      "finnish": "sequel"
+    },
+    {
+      "spanish": "el estilo",
+      "finnish": "style"
+    },
+    {
+      "spanish": "la escritura",
+      "finnish": "writing"
+    },
+    {
+      "spanish": "el autor",
+      "finnish": "author"
+    },
+    {
+      "spanish": "descriptivo/a",
+      "finnish": "descriptive"
+    },
+    {
+      "spanish": "la escena",
+      "finnish": "scene"
+    },
+    {
+      "spanish": "el detalle",
+      "finnish": "detail"
+    },
+    {
+      "spanish": "la literatura",
+      "finnish": "literature"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Milloin Marcos sai kirjan valmiiksi?",
+      "options": [
+        "Viime yönä",
+        "Viikko sitten",
+        "Eilen iltapäivällä",
+        "This morning"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mistä Marcos piti kirjassa eniten?",
+      "options": [
+        "Hahmon kehitys",
+        "Juoni",
+        "Loppu",
+        "Kirjoitustyyli"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Onko jatko-osaa?",
+      "options": [
+        "Kyllä, viime vuodelta",
+        "Ei",
+        "Ei mainittu",
+        "Coming soon"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä Marcos ajattelee kirjoitustyylistä?",
+      "options": [
+        "Very descriptive",
+        "Liian yksinkertaista",
+        "Boring",
+        "Nopeatempoinen"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä kritiikkiä Paulalla on?",
+      "options": [
+        "Liikaa yksityiskohtia joskus",
+        "Huonot hahmot",
+        "Ennustettava loppu",
+        "Heikko dialogi"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 105,
+  "estimatedMinutes": 3,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

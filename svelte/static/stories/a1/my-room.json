@@ -1,0 +1,126 @@
+{
+  "id": "my-room",
+  "title": "My Room",
+  "titleSpanish": "Mi habitación",
+  "description": "A A1 level story about home",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "home",
+  "icon": "🛏️",
+  "dialogue": [
+    {
+      "speaker": "Madre",
+      "spanish": "¿Cómo es tu habitación nueva?",
+      "finnish": "Millainen uusi huoneesi on?"
+    },
+    {
+      "speaker": "Hijo",
+      "spanish": "Es grande y tiene una ventana.",
+      "finnish": "Se on suuri ja siinä on ikkuna."
+    },
+    {
+      "speaker": "Madre",
+      "spanish": "¿Qué hay en la habitación?",
+      "finnish": "Mitä huoneessa on?"
+    },
+    {
+      "speaker": "Hijo",
+      "spanish": "Hay una cama, una mesa y una silla.",
+      "finnish": "Siellä on sänky, pöytä ja tuoli."
+    },
+    {
+      "speaker": "Madre",
+      "spanish": "¿Tienes un armario?",
+      "finnish": "Onko sinulla vaatekaappia?"
+    },
+    {
+      "speaker": "Hijo",
+      "spanish": "Sí, el armario es muy grande.",
+      "finnish": "Kyllä, vaatekaappi on todella iso."
+    },
+    {
+      "speaker": "Madre",
+      "spanish": "¿Te gusta tu habitación?",
+      "finnish": "Pidätkö huoneestasi?"
+    },
+    {
+      "speaker": "Hijo",
+      "spanish": "¡Sí, me encanta!",
+      "finnish": "Kyllä, rakastan sitä!"
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la habitación",
+      "finnish": "room"
+    },
+    {
+      "spanish": "nuevo/a",
+      "finnish": "new"
+    },
+    {
+      "spanish": "grande",
+      "finnish": "big"
+    },
+    {
+      "spanish": "la ventana",
+      "finnish": "window"
+    },
+    {
+      "spanish": "la cama",
+      "finnish": "bed"
+    },
+    {
+      "spanish": "la mesa",
+      "finnish": "table"
+    },
+    {
+      "spanish": "la silla",
+      "finnish": "chair"
+    },
+    {
+      "spanish": "el armario",
+      "finnish": "wardrobe"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Onko huone iso vai pieni?",
+      "options": [
+        "Big",
+        "Pieni",
+        "Medium",
+        "Emme tiedä"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä huonekaluja EI mainita?",
+      "options": [
+        "Sohva",
+        "Bed",
+        "Taulukko",
+        "Puheenjohtaja"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Pitääkö poika huoneestaan?",
+      "options": [
+        "Kyllä, hän rakastaa sitä",
+        "Ei",
+        "Hieman",
+        "Se on okei"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 40,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

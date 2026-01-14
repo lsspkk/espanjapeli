@@ -1,0 +1,212 @@
+{
+  "id": "online-shopping",
+  "title": "Online Shopping Experience",
+  "titleSpanish": "Experiencia de compra en línea",
+  "description": "A B1 level story about shopping",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "shopping",
+  "icon": "🛒",
+  "dialogue": [
+    {
+      "speaker": "Cliente",
+      "spanish": "Hola, llamo porque tengo un problema con mi pedido.",
+      "finnish": "Hei, soitan, koska minulla on ongelma tilauksessani."
+    },
+    {
+      "speaker": "Agente",
+      "spanish": "Por supuesto. ¿Puede darme el número de pedido?",
+      "finnish": "Tietysti. Voitko antaa tilausnumeron?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Es el número 45892. Lo hice hace una semana.",
+      "finnish": "Se on numero 45892. Tein sen viikko sitten."
+    },
+    {
+      "speaker": "Agente",
+      "spanish": "Déjeme verificar... Veo que el paquete fue enviado hace cinco días.",
+      "finnish": "Annanpa tarkistaa... Näen, että paketti lähetettiin viisi päivää sitten."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Pero el seguimiento dice que está en una ciudad equivocada.",
+      "finnish": "Mutta jatkossa sanotaan, että hän on väärässä kaupungissa."
+    },
+    {
+      "speaker": "Agente",
+      "spanish": "Tiene razón, parece que hubo un error en la distribución.",
+      "finnish": "Olet oikeassa, näyttää siltä, että jakelussa oli virhe."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "¿Cuánto tiempo tardará en llegarme ahora?",
+      "finnish": "Kuinka kauan kestää päästä luokseni nyt?"
+    },
+    {
+      "speaker": "Agente",
+      "spanish": "Calculo que unos tres o cuatro días más.",
+      "finnish": "Arvioin noin kolme tai neljä päivää lisää."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Eso es inaceptable. Lo necesitaba para un regalo.",
+      "finnish": "Se on täysin hyväksymätöntä. Tarvitsin sitä lahjaksi."
+    },
+    {
+      "speaker": "Agente",
+      "spanish": "Entiendo su frustración. Le ofrezco un descuento del veinte por ciento.",
+      "finnish": "Ymmärrän turhautumisesi. Tarjoan sinulle kahdenkymmenen prosentin alennuksen."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "También quiero el reembolso de los gastos de envío.",
+      "finnish": "Haluan myös palautuksen toimituskuluista."
+    },
+    {
+      "speaker": "Agente",
+      "spanish": "Hecho. Le enviaré un correo con la confirmación.",
+      "finnish": "Valmista. Lähetän sinulle sähköpostin vahvistuksen kera."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Gracias. Espero que llegue pronto.",
+      "finnish": "Kiitos. Toivon, että se saapuu pian."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la compra en línea",
+      "finnish": "online shopping"
+    },
+    {
+      "spanish": "el pedido",
+      "finnish": "order"
+    },
+    {
+      "spanish": "el número de pedido",
+      "finnish": "order number"
+    },
+    {
+      "spanish": "verificar",
+      "finnish": "varmistaakseni"
+    },
+    {
+      "spanish": "el paquete",
+      "finnish": "package"
+    },
+    {
+      "spanish": "el seguimiento",
+      "finnish": "tracking"
+    },
+    {
+      "spanish": "la distribución",
+      "finnish": "distribution"
+    },
+    {
+      "spanish": "tardar",
+      "finnish": "ottaa (aikaa)"
+    },
+    {
+      "spanish": "inaceptable",
+      "finnish": "unacceptable"
+    },
+    {
+      "spanish": "el regalo",
+      "finnish": "gift"
+    },
+    {
+      "spanish": "la frustración",
+      "finnish": "frustration"
+    },
+    {
+      "spanish": "el descuento",
+      "finnish": "discount"
+    },
+    {
+      "spanish": "el reembolso",
+      "finnish": "refund"
+    },
+    {
+      "spanish": "los gastos de envío",
+      "finnish": "shipping costs"
+    },
+    {
+      "spanish": "la confirmación",
+      "finnish": "confirmation"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Kuinka kauan sitten tilaus tehtiin?",
+      "options": [
+        "Viikko sitten",
+        "Kaksi viikkoa sitten",
+        "Eilen",
+        "Viisi päivää sitten"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä on ongelma paketissa?",
+      "options": [
+        "Se on väärässä kaupungissa",
+        "It's lost",
+        "Se on vaurioitunut",
+        "Se palautettiin"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka monta päivää vielä toimitusta arvioidaan?",
+      "options": [
+        "3–4 päivää",
+        "1–2 päivää",
+        "5–6 päivää",
+        "Viikko"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Miksi asiakas on harmissaan viivästyksestä?",
+      "options": [
+        "Se oli lahjaksi",
+        "He matkustavat",
+        "He tarvitsevat sitä työhön",
+        "Ei erityistä syytä"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä alennuksia välittäjä tarjoaa?",
+      "options": [
+        "20%",
+        "10%",
+        "15%",
+        "25%"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä muuta asiakas pyytää?",
+      "options": [
+        "Refund of shipping costs",
+        "Uusi tuote",
+        "Kaupan luottotiedot",
+        "Free next order"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 112,
+  "estimatedMinutes": 3,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

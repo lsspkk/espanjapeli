@@ -1,211 +1,211 @@
 {
-	"id": "restaurant-recommendation",
-	"title": "Ravintolaehdotuksia",
-	"titleSpanish": "Recomendaciones de restaurantes",
-	"description": "Turisti kysyy paikalliselta suosituksia hyvistä ravintoloista",
-	"difficulty": "intermediate",
-	"category": "food",
-	"icon": "🍽️",
-	"dialogue": [
-		{
-			"speaker": "Turista",
-			"spanish": "Disculpe, ¿conoce algún buen restaurante por aquí?",
-			"finnish": "Anteeksi, tiedättekö jotain hyvää ravintolaa täällä lähellä?"
-		},
-		{
-			"speaker": "Local",
-			"spanish": "¡Claro! ¿Qué tipo de comida busca?",
-			"finnish": "Tietenkin! Minkälaista ruokaa etsitte?"
-		},
-		{
-			"speaker": "Turista",
-			"spanish": "Me gustaría probar comida típica española. Algo auténtico.",
-			"finnish": "Haluaisin kokeilla tyypillistä espanjalaista ruokaa. Jotain aitoa."
-		},
-		{
-			"speaker": "Local",
-			"spanish": "Entonces le recomiendo 'Casa Antonio'. Tienen la mejor paella de la ciudad.",
-			"finnish": "Sitten suosittelen 'Casa Antoniota'. Heillä on kaupungin paras paella."
-		},
-		{
-			"speaker": "Turista",
-			"spanish": "¡Perfecto! ¿Es caro?",
-			"finnish": "Täydellistä! Onko se kallis?"
-		},
-		{
-			"speaker": "Local",
-			"spanish": "No, los precios son razonables. Un plato principal cuesta entre doce y dieciocho euros.",
-			"finnish": "Ei, hinnat ovat kohtuullisia. Pääruoka maksaa kahdentoista ja kahdeksantoista euron välillä."
-		},
-		{
-			"speaker": "Turista",
-			"spanish": "¿Necesito hacer reserva?",
-			"finnish": "Tarvitsenko tehdä varauksen?"
-		},
-		{
-			"speaker": "Local",
-			"spanish": "Para cenar sí, especialmente los fines de semana. Para el almuerzo no es necesario.",
-			"finnish": "Illalliselle kyllä, erityisesti viikonloppuisin. Lounaalle ei ole tarpeellista."
-		},
-		{
-			"speaker": "Turista",
-			"spanish": "¿A qué hora abren para el almuerzo?",
-			"finnish": "Mihin aikaan he avaavat lounaalle?"
-		},
-		{
-			"speaker": "Local",
-			"spanish": "A la una del mediodía. En España se come tarde, entre la una y las tres.",
-			"finnish": "Klo yksi päivällä. Espanjassa syödään myöhään, yhden ja kolmen välillä."
-		},
-		{
-			"speaker": "Turista",
-			"spanish": "¿Hay opciones vegetarianas?",
-			"finnish": "Onko kasvisruokavaihtoehtoja?"
-		},
-		{
-			"speaker": "Local",
-			"spanish": "Sí, tienen una buena selección de tapas vegetarianas. Las berenjenas con miel son deliciosas.",
-			"finnish": "Kyllä, heillä on hyvä valikoima kasvis-tapaksia. Munakoisot hunajan kanssa ovat herkullisia."
-		},
-		{
-			"speaker": "Turista",
-			"spanish": "Suena muy bien. ¿Cómo llego allí?",
-			"finnish": "Kuulostaa todella hyvältä. Miten pääsen sinne?"
-		},
-		{
-			"speaker": "Local",
-			"spanish": "Está a cinco minutos andando. Siga recto por esta calle y gire a la izquierda en la plaza.",
-			"finnish": "Se on viiden minuutin kävelymatkan päässä. Menkää suoraan tätä katua ja kääntykää vasemmalle aukiolla."
-		}
-	],
-	"vocabulary": [
-		{
-			"spanish": "el restaurante",
-			"finnish": "ravintola",
-			"frequencyRank": 1488,
-			"cefrLevel": "B1"
-		},
-		{
-			"spanish": "la comida",
-			"finnish": "ruoka",
-			"frequencyRank": 483,
-			"cefrLevel": "A1"
-		},
-		{
-			"spanish": "típico/a",
-			"finnish": "tyypillinen",
-			"frequencyRank": 4426,
-			"cefrLevel": "C1"
-		},
-		{
-			"spanish": "la paella",
-			"finnish": "paella"
-		},
-		{
-			"spanish": "caro/a",
-			"finnish": "kallis",
-			"frequencyRank": 3034,
-			"cefrLevel": "B2"
-		},
-		{
-			"spanish": "razonable",
-			"finnish": "kohtuullinen",
-			"frequencyRank": 3696,
-			"cefrLevel": "C1"
-		},
-		{
-			"spanish": "la reserva",
-			"finnish": "varaus",
-			"frequencyRank": 3405,
-			"cefrLevel": "B2"
-		},
-		{
-			"spanish": "el almuerzo",
-			"finnish": "lounas",
-			"frequencyRank": 1898,
-			"cefrLevel": "B1"
-		},
-		{
-			"spanish": "cenar",
-			"finnish": "syödä illallista",
-			"frequencyRank": 1100,
-			"cefrLevel": "B1"
-		},
-		{
-			"spanish": "vegetariano/a",
-			"finnish": "kasvis-"
-		},
-		{
-			"spanish": "las tapas",
-			"finnish": "tapakset"
-		},
-		{
-			"spanish": "girar",
-			"finnish": "kääntyä"
-		}
-	],
-	"questions": [
-		{
-			"id": "q1",
-			"question": "Mikä ruoka on ravintolan erikoisuus?",
-			"options": [
-				"Tapakset",
-				"Paella",
-				"Gazpacho",
-				"Tortilla"
-			],
-			"correctIndex": 1,
-			"explanation": "Paikallinen sanoi: 'Tienen la mejor paella de la ciudad' (Heillä on kaupungin paras paella)"
-		},
-		{
-			"id": "q2",
-			"question": "Paljonko pääruoka maksaa?",
-			"options": [
-				"5-10 €",
-				"12-18 €",
-				"20-25 €",
-				"30-35 €"
-			],
-			"correctIndex": 1,
-			"explanation": "Paikallinen sanoi: 'Entre doce y dieciocho euros' (12-18 euron välillä)"
-		},
-		{
-			"id": "q3",
-			"question": "Milloin varaus on suositeltava?",
-			"options": [
-				"Aina",
-				"Lounaalle",
-				"Illalliselle",
-				"Arkipäivinä"
-			],
-			"correctIndex": 2,
-			"explanation": "Paikallinen sanoi: 'Para cenar sí' (Illalliselle kyllä)"
-		},
-		{
-			"id": "q4",
-			"question": "Mihin aikaan Espanjassa syödään lounasta?",
-			"options": [
-				"11-12",
-				"12-13",
-				"13-15",
-				"15-17"
-			],
-			"correctIndex": 2,
-			"explanation": "Paikallinen sanoi: 'Entre la una y las tres' (Yhden ja kolmen välillä)"
-		},
-		{
-			"id": "q5",
-			"question": "Mihin suuntaan pitää kääntyä aukiolla?",
-			"options": [
-				"Oikealle",
-				"Vasemmalle",
-				"Suoraan",
-				"Takaisin"
-			],
-			"correctIndex": 1,
-			"explanation": "Paikallinen sanoi: 'Gire a la izquierda en la plaza' (Kääntykää vasemmalle aukiolla)"
-		}
-	],
-	"wordCount": 131,
-	"estimatedMinutes": 3
+  "id": "restaurant-recommendation",
+  "title": "Ravintolaehdotuksia",
+  "titleSpanish": "Recomendaciones de restaurantes",
+  "description": "Turisti kysyy paikalliselta suosituksia hyvistä ravintoloista",
+  "difficulty": "intermediate",
+  "category": "food",
+  "icon": "🍽️",
+  "dialogue": [
+    {
+      "speaker": "Turista",
+      "spanish": "Disculpe, ¿conoce algún buen restaurante por aquí?",
+      "finnish": "Anteeksi, tiedättekö jotain hyvää ravintolaa täällä lähellä?"
+    },
+    {
+      "speaker": "Local",
+      "spanish": "¡Claro! ¿Qué tipo de comida busca?",
+      "finnish": "Tietenkin! Minkälaista ruokaa etsitte?"
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "Me gustaría probar comida típica española. Algo auténtico.",
+      "finnish": "Haluaisin kokeilla tyypillistä espanjalaista ruokaa. Jotain aitoa."
+    },
+    {
+      "speaker": "Local",
+      "spanish": "Entonces le recomiendo 'Casa Antonio'. Tienen la mejor paella de la ciudad.",
+      "finnish": "Sitten suosittelen 'Casa Antoniota'. Heillä on kaupungin paras paella."
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "¡Perfecto! ¿Es caro?",
+      "finnish": "Täydellistä! Onko se kallis?"
+    },
+    {
+      "speaker": "Local",
+      "spanish": "No, los precios son razonables. Un plato principal cuesta entre doce y dieciocho euros.",
+      "finnish": "Ei, hinnat ovat kohtuullisia. Pääruoka maksaa kahdentoista ja kahdeksantoista euron välillä."
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "¿Necesito hacer reserva?",
+      "finnish": "Tarvitsenko tehdä varauksen?"
+    },
+    {
+      "speaker": "Local",
+      "spanish": "Para cenar sí, especialmente los fines de semana. Para el almuerzo no es necesario.",
+      "finnish": "Illalliselle kyllä, erityisesti viikonloppuisin. Lounaalle ei ole tarpeellista."
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "¿A qué hora abren para el almuerzo?",
+      "finnish": "Mihin aikaan he avaavat lounaalle?"
+    },
+    {
+      "speaker": "Local",
+      "spanish": "A la una del mediodía. En España se come tarde, entre la una y las tres.",
+      "finnish": "Klo yksi päivällä. Espanjassa syödään myöhään, yhden ja kolmen välillä."
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "¿Hay opciones vegetarianas?",
+      "finnish": "Onko kasvisruokavaihtoehtoja?"
+    },
+    {
+      "speaker": "Local",
+      "spanish": "Sí, tienen una buena selección de tapas vegetarianas. Las berenjenas con miel son deliciosas.",
+      "finnish": "Kyllä, heillä on hyvä valikoima kasvis-tapaksia. Munakoisot hunajan kanssa ovat herkullisia."
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "Suena muy bien. ¿Cómo llego allí?",
+      "finnish": "Kuulostaa todella hyvältä. Miten pääsen sinne?"
+    },
+    {
+      "speaker": "Local",
+      "spanish": "Está a cinco minutos andando. Siga recto por esta calle y gire a la izquierda en la plaza.",
+      "finnish": "Se on viiden minuutin kävelymatkan päässä. Menkää suoraan tätä katua ja kääntykää vasemmalle aukiolla."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el restaurante",
+      "finnish": "ravintola",
+      "frequencyRank": 1488,
+      "cefrLevel": "B1"
+    },
+    {
+      "spanish": "la comida",
+      "finnish": "ruoka",
+      "frequencyRank": 483,
+      "cefrLevel": "A1"
+    },
+    {
+      "spanish": "típico/a",
+      "finnish": "tyypillinen",
+      "frequencyRank": 4426,
+      "cefrLevel": "C1"
+    },
+    {
+      "spanish": "la paella",
+      "finnish": "paella"
+    },
+    {
+      "spanish": "caro/a",
+      "finnish": "kallis",
+      "frequencyRank": 3034,
+      "cefrLevel": "B2"
+    },
+    {
+      "spanish": "razonable",
+      "finnish": "kohtuullinen",
+      "frequencyRank": 3696,
+      "cefrLevel": "C1"
+    },
+    {
+      "spanish": "la reserva",
+      "finnish": "varaus",
+      "frequencyRank": 3405,
+      "cefrLevel": "B2"
+    },
+    {
+      "spanish": "el almuerzo",
+      "finnish": "lounas",
+      "frequencyRank": 1898,
+      "cefrLevel": "B1"
+    },
+    {
+      "spanish": "cenar",
+      "finnish": "syödä illallista",
+      "frequencyRank": 1100,
+      "cefrLevel": "B1"
+    },
+    {
+      "spanish": "vegetariano/a",
+      "finnish": "kasvis-"
+    },
+    {
+      "spanish": "las tapas",
+      "finnish": "tapakset"
+    },
+    {
+      "spanish": "girar",
+      "finnish": "kääntyä"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Mikä ruoka on ravintolan erikoisuus?",
+      "options": [
+        "Tapakset",
+        "Paella",
+        "Gazpacho",
+        "Tortilla"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paikallinen sanoi: 'Tienen la mejor paella de la ciudad' (Heillä on kaupungin paras paella)"
+    },
+    {
+      "id": "q2",
+      "question": "Paljonko pääruoka maksaa?",
+      "options": [
+        "5-10 €",
+        "12-18 €",
+        "20-25 €",
+        "30-35 €"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paikallinen sanoi: 'Entre doce y dieciocho euros' (12-18 euron välillä)"
+    },
+    {
+      "id": "q3",
+      "question": "Milloin varaus on suositeltava?",
+      "options": [
+        "Aina",
+        "Lounaalle",
+        "Illalliselle",
+        "Arkipäivinä"
+      ],
+      "correctIndex": 2,
+      "explanation": "Paikallinen sanoi: 'Para cenar sí' (Illalliselle kyllä)"
+    },
+    {
+      "id": "q4",
+      "question": "Mihin aikaan Espanjassa syödään lounasta?",
+      "options": [
+        "11-12",
+        "12-13",
+        "13-15",
+        "15-17"
+      ],
+      "correctIndex": 2,
+      "explanation": "Paikallinen sanoi: 'Entre la una y las tres' (Yhden ja kolmen välillä)"
+    },
+    {
+      "id": "q5",
+      "question": "Mihin suuntaan pitää kääntyä aukiolla?",
+      "options": [
+        "Oikealle",
+        "Vasemmalle",
+        "Suoraan",
+        "Takaisin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paikallinen sanoi: 'Gire a la izquierda en la plaza' (Kääntykää vasemmalle aukiolla)"
+    }
+  ],
+  "wordCount": 131,
+  "estimatedMinutes": 3
 }

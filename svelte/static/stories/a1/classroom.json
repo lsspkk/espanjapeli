@@ -1,0 +1,125 @@
+{
+  "id": "classroom",
+  "title": "In the Classroom",
+  "titleSpanish": "En la clase",
+  "description": "A A1 level story about education",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "education",
+  "icon": "📚",
+  "dialogue": [
+    {
+      "speaker": "Profesor",
+      "spanish": "Buenos días, clase.",
+      "finnish": "Hyvää huomenta, luokka."
+    },
+    {
+      "speaker": "Estudiantes",
+      "spanish": "Buenos días, profesor.",
+      "finnish": "Hyvää huomenta, professori."
+    },
+    {
+      "speaker": "Profesor",
+      "spanish": "Abran sus libros en la página diez.",
+      "finnish": "Avaa kirjasi sivulle kymmenen."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "Profesor, no tengo mi libro.",
+      "finnish": "Professori, minulla ei ole kirjaani."
+    },
+    {
+      "speaker": "Profesor",
+      "spanish": "No hay problema. Comparte con tu compañero.",
+      "finnish": "Ei hätää. Jaa se kumppanisi kanssa."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "Gracias, profesor.",
+      "finnish": "Kiitos, professori."
+    },
+    {
+      "speaker": "Profesor",
+      "spanish": "De nada. Empezamos la lección.",
+      "finnish": "Ei kestä. Aloitetaan oppitunti."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la clase",
+      "finnish": "class"
+    },
+    {
+      "spanish": "el/la profesor(a)",
+      "finnish": "teacher"
+    },
+    {
+      "spanish": "el/la estudiante",
+      "finnish": "student"
+    },
+    {
+      "spanish": "el libro",
+      "finnish": "book"
+    },
+    {
+      "spanish": "la página",
+      "finnish": "page"
+    },
+    {
+      "spanish": "compartir",
+      "finnish": "jakaa"
+    },
+    {
+      "spanish": "el/la compañero/a",
+      "finnish": "classmate"
+    },
+    {
+      "spanish": "la lección",
+      "finnish": "lesson"
+    },
+    {
+      "spanish": "empezar",
+      "finnish": "aloitetaan"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mikä sivu heidän pitäisi avata?",
+      "options": [
+        "10",
+        "5",
+        "15",
+        "20"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä on opiskelijan ongelma?",
+      "options": [
+        "Ei kirjaa",
+        "Ei kynää",
+        "Ei paperia",
+        "Myöhäinen"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä opettaja ehdottaa?",
+      "options": [
+        "Jaa luokkatoverin kanssa",
+        "Go home",
+        "Osta kirja",
+        "Lainaa kirjastosta"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 32,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

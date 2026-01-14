@@ -1,0 +1,188 @@
+{
+  "id": "food-delivery",
+  "title": "Ordering Food Delivery",
+  "titleSpanish": "Pedido de comida a domicilio",
+  "description": "A A2 level story about food",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "food",
+  "icon": "🍔",
+  "dialogue": [
+    {
+      "speaker": "Empleado",
+      "spanish": "Pizzería Mario, ¿en qué puedo ayudarle?",
+      "finnish": "Pizzeria Mario, miten voin auttaa?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Hola, quiero hacer un pedido a domicilio.",
+      "finnish": "Hei, haluan tehdä kotitilauksen."
+    },
+    {
+      "speaker": "Empleado",
+      "spanish": "Por supuesto. ¿Qué le gustaría pedir?",
+      "finnish": "Tietysti. Mitä haluaisit tilata?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Una pizza grande de jamón y queso.",
+      "finnish": "Iso kinkku-juustopizza."
+    },
+    {
+      "speaker": "Empleado",
+      "spanish": "¿Quiere algún entrante o bebida?",
+      "finnish": "Haluatko alkupalaa tai juomaa?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Sí, una ensalada mixta y una coca-cola.",
+      "finnish": "Kyllä, sekoitettu salaatti ja kokis."
+    },
+    {
+      "speaker": "Empleado",
+      "spanish": "¿Algo de postre?",
+      "finnish": "Jälkiruokaa?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "No, gracias. ¿Cuánto es el total?",
+      "finnish": "Ei kiitos. Paljonko kokonaissumma on?"
+    },
+    {
+      "speaker": "Empleado",
+      "spanish": "Son dieciocho euros con cincuenta. ¿Cuál es su dirección?",
+      "finnish": "Se maksaa kahdeksantoista euroa ja viisikymmentä. Mikä on osoitteesi?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Calle Mayor, número quince, segundo piso.",
+      "finnish": "Calle Mayor, numero viisitoista, toinen kerros."
+    },
+    {
+      "speaker": "Empleado",
+      "spanish": "Perfecto. Llegará en unos treinta minutos.",
+      "finnish": "Täydellistä. Se saapuu noin puolen tunnin kuluttua."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Genial, gracias.",
+      "finnish": "Hienoa, kiitos."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el pedido",
+      "finnish": "order"
+    },
+    {
+      "spanish": "a domicilio",
+      "finnish": "Toimitus (kotiin)"
+    },
+    {
+      "spanish": "pedir",
+      "finnish": "tilaukseen"
+    },
+    {
+      "spanish": "el jamón",
+      "finnish": "ham"
+    },
+    {
+      "spanish": "el queso",
+      "finnish": "cheese"
+    },
+    {
+      "spanish": "el entrante",
+      "finnish": "starter"
+    },
+    {
+      "spanish": "la bebida",
+      "finnish": "drink"
+    },
+    {
+      "spanish": "la ensalada",
+      "finnish": "salad"
+    },
+    {
+      "spanish": "el postre",
+      "finnish": "dessert"
+    },
+    {
+      "spanish": "la dirección",
+      "finnish": "address"
+    },
+    {
+      "spanish": "la calle",
+      "finnish": "street"
+    },
+    {
+      "spanish": "el piso",
+      "finnish": "floor/apartment"
+    },
+    {
+      "spanish": "llegar",
+      "finnish": "saapua"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Minkä kokoista pizzaa asiakas tilaa?",
+      "options": [
+        "Suuri",
+        "Medium",
+        "Pieni",
+        "Extra large"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä täytteitä pizzassa on?",
+      "options": [
+        "Kinkku ja juusto",
+        "Pepperoni",
+        "Vihannekset",
+        "Mushrooms"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Tilaako asiakas jälkiruoan?",
+      "options": [
+        "Ei",
+        "Kyllä",
+        "Ehkä",
+        "Ei mainittu"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Paljonko kokonaissumma on?",
+      "options": [
+        "18.50€",
+        "15.50€",
+        "20€",
+        "12€"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka kauan toimitus kestää?",
+      "options": [
+        "30 minutes",
+        "45 minutes",
+        "20 minutes",
+        "1 hour"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 70,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

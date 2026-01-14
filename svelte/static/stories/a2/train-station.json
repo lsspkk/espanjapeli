@@ -1,0 +1,184 @@
+{
+  "id": "train-station",
+  "title": "At the Train Station",
+  "titleSpanish": "En la estación de tren",
+  "description": "A A2 level story about travel",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "travel",
+  "icon": "🚂",
+  "dialogue": [
+    {
+      "speaker": "Viajero",
+      "spanish": "Buenos días. Quiero un billete a Barcelona.",
+      "finnish": "Hyvää huomenta. Haluan lipun Barcelonaan."
+    },
+    {
+      "speaker": "Empleada",
+      "spanish": "¿Para cuándo?",
+      "finnish": "Milloin?"
+    },
+    {
+      "speaker": "Viajero",
+      "spanish": "Para hoy, el tren de las catorce treinta.",
+      "finnish": "Tänään neljätoista kolmekymmentä juna."
+    },
+    {
+      "speaker": "Empleada",
+      "spanish": "¿Ida y vuelta o solo ida?",
+      "finnish": "Meno-paluua vai yhdensuuntaista?"
+    },
+    {
+      "speaker": "Viajero",
+      "spanish": "Ida y vuelta, por favor. Vuelvo el domingo.",
+      "finnish": "Meno-paluu, kiitos. Palaan sunnuntaina."
+    },
+    {
+      "speaker": "Empleada",
+      "spanish": "¿En qué clase? Tenemos turista y preferente.",
+      "finnish": "Millä kurssilla? Meillä on turisteja ja etuoikeuksia."
+    },
+    {
+      "speaker": "Viajero",
+      "spanish": "Turista está bien. ¿Cuánto cuesta?",
+      "finnish": "Turisti käy. Miten paljon se maksaa?"
+    },
+    {
+      "speaker": "Empleada",
+      "spanish": "Son ochenta y cinco euros. El tren sale del andén tres.",
+      "finnish": "Se maksaa kahdeksankymmentäviisi euroa. Juna poistuu laiturilta kolme."
+    },
+    {
+      "speaker": "Viajero",
+      "spanish": "¿Cuánto dura el viaje?",
+      "finnish": "Kuinka kauan matka kestää?"
+    },
+    {
+      "speaker": "Empleada",
+      "spanish": "Aproximadamente dos horas y media.",
+      "finnish": "Noin kaksi ja puoli tuntia."
+    },
+    {
+      "speaker": "Viajero",
+      "spanish": "Perfecto. Aquí tiene el pago.",
+      "finnish": "Täydellistä. Tässä on maksu."
+    },
+    {
+      "speaker": "Empleada",
+      "spanish": "Gracias. ¡Buen viaje!",
+      "finnish": "Kiitos. Hyvä reissu!"
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la estación de tren",
+      "finnish": "train station"
+    },
+    {
+      "spanish": "el billete",
+      "finnish": "ticket"
+    },
+    {
+      "spanish": "ida y vuelta",
+      "finnish": "round trip"
+    },
+    {
+      "spanish": "solo ida",
+      "finnish": "one way"
+    },
+    {
+      "spanish": "volver",
+      "finnish": "palata"
+    },
+    {
+      "spanish": "la clase",
+      "finnish": "class"
+    },
+    {
+      "spanish": "turista",
+      "finnish": "tourist class"
+    },
+    {
+      "spanish": "preferente",
+      "finnish": "business class"
+    },
+    {
+      "spanish": "el andén",
+      "finnish": "platform"
+    },
+    {
+      "spanish": "durar",
+      "finnish": "Kestää"
+    },
+    {
+      "spanish": "el viaje",
+      "finnish": "journey/trip"
+    },
+    {
+      "spanish": "el pago",
+      "finnish": "payment"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Minne matkustaja on menossa?",
+      "options": [
+        "Barcelona",
+        "Madrid",
+        "Valencia",
+        "Seville"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mihin aikaan juna lähtee?",
+      "options": [
+        "14:30",
+        "15:00",
+        "14:00",
+        "13:30"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minkälaisen lipun matkustaja ostaa?",
+      "options": [
+        "Round trip",
+        "Yhteen suuntaan",
+        "Kuukausilippu",
+        "Viikkolippu"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Paljonko lippu maksaa?",
+      "options": [
+        "85€",
+        "75€",
+        "95€",
+        "100€"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka pitkä matka on?",
+      "options": [
+        "2.5 hours",
+        "2 hours",
+        "3 hours",
+        "1.5 hours"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 71,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

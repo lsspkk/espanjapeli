@@ -1,0 +1,184 @@
+{
+  "id": "pharmacy",
+  "title": "At the Pharmacy",
+  "titleSpanish": "En la farmacia",
+  "description": "A A2 level story about health",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "health",
+  "icon": "💊",
+  "dialogue": [
+    {
+      "speaker": "Farmacéutico",
+      "spanish": "Buenas tardes. ¿En qué puedo ayudarle?",
+      "finnish": "Hyvää iltapäivää. Kuinka voin olla avuksi?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Tengo dolor de cabeza desde esta mañana.",
+      "finnish": "Minulla on ollut päänsärky tästä aamusta lähtien."
+    },
+    {
+      "speaker": "Farmacéutico",
+      "spanish": "¿Es un dolor fuerte o leve?",
+      "finnish": "Onko kipu voimakas vai lievä?"
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Es bastante fuerte. También tengo náuseas.",
+      "finnish": "Se on aika vahvaa. Minulla on myös pahoinvointia."
+    },
+    {
+      "speaker": "Farmacéutico",
+      "spanish": "Le recomiendo este analgésico. Es muy efectivo.",
+      "finnish": "Suosittelen tätä kipulääkettä. Se on erittäin tehokas."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "¿Cuántas pastillas tomo al día?",
+      "finnish": "Kuinka monta pilleriä otan päivässä?"
+    },
+    {
+      "speaker": "Farmacéutico",
+      "spanish": "Dos pastillas cada seis horas, máximo ocho al día.",
+      "finnish": "Kaksi pilleriä kuuden tunnin välein, enintään kahdeksan päivässä."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "¿Tiene efectos secundarios?",
+      "finnish": "Onko sillä sivuvaikutuksia?"
+    },
+    {
+      "speaker": "Farmacéutico",
+      "spanish": "Puede causar somnolencia. No conduzca después de tomarlo.",
+      "finnish": "Se voi aiheuttaa uneliaisuutta. Älä aja sen jälkeen."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Entendido. ¿Cuánto cuesta?",
+      "finnish": "Selkis. Miten paljon se maksaa?"
+    },
+    {
+      "speaker": "Farmacéutico",
+      "spanish": "Son seis euros con cincuenta.",
+      "finnish": "Se on kuusi euroa ja viisikymmentä."
+    },
+    {
+      "speaker": "Cliente",
+      "spanish": "Aquí tiene. Gracias por el consejo.",
+      "finnish": "Ole hyvä. Kiitos vinkistä."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la farmacia",
+      "finnish": "pharmacy"
+    },
+    {
+      "spanish": "el/la farmacéutico/a",
+      "finnish": "pharmacist"
+    },
+    {
+      "spanish": "el dolor",
+      "finnish": "pain"
+    },
+    {
+      "spanish": "fuerte",
+      "finnish": "strong"
+    },
+    {
+      "spanish": "leve",
+      "finnish": "mild"
+    },
+    {
+      "spanish": "las náuseas",
+      "finnish": "nausea"
+    },
+    {
+      "spanish": "el analgésico",
+      "finnish": "painkiller"
+    },
+    {
+      "spanish": "efectivo/a",
+      "finnish": "effective"
+    },
+    {
+      "spanish": "el efecto secundario",
+      "finnish": "side effect"
+    },
+    {
+      "spanish": "la somnolencia",
+      "finnish": "drowsiness"
+    },
+    {
+      "spanish": "conducir",
+      "finnish": "ajaa"
+    },
+    {
+      "spanish": "el consejo",
+      "finnish": "advice"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mikä on asiakkaan pääasiallinen oire?",
+      "options": [
+        "Päänsärky",
+        "Vatsakipu",
+        "Fever",
+        "Cough"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka monta pilleriä päivässä maksimissaan?",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä sivuvaikutuksia lääke voi aiheuttaa?",
+      "options": [
+        "Drowsiness",
+        "Päänsärky",
+        "Pahoinvointi",
+        "Fever"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä asiakkaan EI pitäisi tehdä lääkkeen ottamisen jälkeen?",
+      "options": [
+        "Drive",
+        "Syö",
+        "Sleep",
+        "Work"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Paljonko lääke maksaa?",
+      "options": [
+        "6.50€",
+        "5€",
+        "8€",
+        "10€"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 71,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

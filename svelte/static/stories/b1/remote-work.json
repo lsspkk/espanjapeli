@@ -1,0 +1,212 @@
+{
+  "id": "remote-work",
+  "title": "Remote Work Discussion",
+  "titleSpanish": "Discusión sobre el trabajo remoto",
+  "description": "A B1 level story about work",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "work",
+  "icon": "💻",
+  "dialogue": [
+    {
+      "speaker": "Ana",
+      "spanish": "¿Cómo te ha ido con el teletrabajo este año?",
+      "finnish": "Miten etätyö on pärjännyt tänä vuonna?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Al principio fue difícil adaptarme, pero ahora me encanta.",
+      "finnish": "Aluksi sopeutuminen oli vaikeaa, mutta nyt rakastan sitä."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "¿Cuáles son las mayores ventajas para ti?",
+      "finnish": "Mitkä ovat suurimmat edut sinulle?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Ahorro tiempo y dinero al no tener que desplazarme.",
+      "finnish": "Säästän aikaa ja rahaa, kun en joudu matkustamaan."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "¿Y las desventajas?",
+      "finnish": "Entä haitat?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Echo de menos la interacción con los compañeros.",
+      "finnish": "Kaipaan vuorovaikutusta kollegoiden kanssa."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "¿Cómo mantienes el equilibrio entre trabajo y vida personal?",
+      "finnish": "Miten ylläpidät työn ja vapaa-ajan tasapainoa?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Tengo un horario estricto y una oficina separada en casa.",
+      "finnish": "Minulla on tiukka aikataulu ja erillinen kotitoimisto."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "Yo tengo problemas para desconectar después del trabajo.",
+      "finnish": "Minulla on vaikeuksia irrottaa yhteys töiden jälkeen."
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Eso es muy común. Intenta apagar el ordenador a una hora fija.",
+      "finnish": "Se on hyvin yleistä. Yritä sammuttaa tietokoneesi tiettyyn aikaan."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "¿Crees que las empresas seguirán ofreciendo esta opción?",
+      "finnish": "Uskotko, että yritykset jatkavat tämän vaihtoehdon tarjoamista?"
+    },
+    {
+      "speaker": "Pedro",
+      "spanish": "Creo que el modelo híbrido será lo más común en el futuro.",
+      "finnish": "Uskon, että hybridimalli tulee olemaan yleisin vaihtoehto tulevaisuudessa."
+    },
+    {
+      "speaker": "Ana",
+      "spanish": "Estoy de acuerdo. Ofrece lo mejor de ambos mundos.",
+      "finnish": "Olen samaa mieltä. Se tarjoaa molempien maailmojen parhaat puolet."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el teletrabajo",
+      "finnish": "remote work"
+    },
+    {
+      "spanish": "adaptarse",
+      "finnish": "sopeutua"
+    },
+    {
+      "spanish": "la ventaja",
+      "finnish": "advantage"
+    },
+    {
+      "spanish": "ahorrar",
+      "finnish": "pelastaa"
+    },
+    {
+      "spanish": "desplazarse",
+      "finnish": "pendelöidäkseen"
+    },
+    {
+      "spanish": "la desventaja",
+      "finnish": "disadvantage"
+    },
+    {
+      "spanish": "echar de menos",
+      "finnish": "Missaa"
+    },
+    {
+      "spanish": "la interacción",
+      "finnish": "interaction"
+    },
+    {
+      "spanish": "estricto/a",
+      "finnish": "strict"
+    },
+    {
+      "spanish": "desconectar",
+      "finnish": "irrottautua"
+    },
+    {
+      "spanish": "apagar",
+      "finnish": "sammuttaa"
+    },
+    {
+      "spanish": "el ordenador",
+      "finnish": "computer"
+    },
+    {
+      "spanish": "fijo/a",
+      "finnish": "fixed"
+    },
+    {
+      "spanish": "el modelo híbrido",
+      "finnish": "hybrid model"
+    },
+    {
+      "spanish": "el futuro",
+      "finnish": "future"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mitä Pedro ajattelee etätyöstä nyt?",
+      "options": [
+        "He loves it",
+        "Hän vihaa sitä",
+        "He's indifferent",
+        "Hän haluaa palata"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä Pedro säästää etätyöllä?",
+      "options": [
+        "Aika ja raha",
+        "Energy",
+        "Avaruus",
+        "Ei mitään"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä Pedro kaipaa toimistotyöstä?",
+      "options": [
+        "Vuorovaikutus kollegoiden kanssa",
+        "Työmatka",
+        "Toimisto",
+        "Meetings"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä ongelma Analla on?",
+      "options": [
+        "Ongelmia yhteyden katkeamisessa töiden jälkeen",
+        "Loneliness",
+        "Tekniset ongelmat",
+        "Ei työtilaa"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä neuvoja Pedro antaa Analle?",
+      "options": [
+        "Sammuta tietokone tiettyyn aikaan",
+        "Work less",
+        "Vaihda työpaikkaa",
+        "Pidä taukoja"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä malli Pedro uskoo olevan yleinen tulevaisuudessa?",
+      "options": [
+        "Hybrid model",
+        "Fully remote",
+        "Fully in office",
+        "Osa-aikainen"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 113,
+  "estimatedMinutes": 3,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

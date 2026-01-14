@@ -1,0 +1,204 @@
+{
+  "id": "work-life-balance",
+  "title": "Work-Life Balance",
+  "titleSpanish": "El equilibrio entre trabajo y vida personal",
+  "description": "A B1 level story about work",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "work",
+  "icon": "⚖️",
+  "dialogue": [
+    {
+      "speaker": "Laura",
+      "spanish": "Últimamente estoy muy estresada con el trabajo.",
+      "finnish": "Viime aikoina olen ollut todella stressaantunut töistä."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "¿Qué está pasando? ¿Tienes mucha carga de trabajo?",
+      "finnish": "Mitä on tekeillä? Onko sinulla raskas työmäärä?"
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Sí, trabajo más de cincuenta horas a la semana.",
+      "finnish": "Kyllä, teen töitä yli viisikymmentä tuntia viikossa."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "Eso no es sostenible. Tienes que poner límites.",
+      "finnish": "Se ei ole kestävää. Sinun täytyy asettaa rajat."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Lo sé, pero tengo miedo de que me vean como poco comprometida.",
+      "finnish": "Tiedän, mutta pelkään, että minut nähdään sitoutumattomana."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "Tu salud mental es más importante que cualquier trabajo.",
+      "finnish": "Mielenterveytesi on tärkeämpää kuin mikään työ."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Tienes razón. No he tomado vacaciones en dos años.",
+      "finnish": "Olet oikeassa. En ole pitänyt lomaa kahteen vuoteen."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "¿Dos años? Necesitas desconectar urgentemente.",
+      "finnish": "Kaksi vuotta? Sinun täytyy irrottaa yhteys kiireellisesti."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Es que siempre hay algo urgente que hacer.",
+      "finnish": "Aina on jotain kiireellistä tehtävää."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "Las emergencias siempre existirán. Aprende a delegar.",
+      "finnish": "Hätätilanteita tulee aina olemaan. Opettele delegoimaan."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Creo que hablaré con mi jefe sobre reducir mi horario.",
+      "finnish": "Ajattelin puhua pomolleni aikataulun lyhentämisestä."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "Es un buen primer paso. Tu bienestar es lo primero.",
+      "finnish": "Se on hyvä ensimmäinen askel. Hyvinvointisi on etusijalla."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Gracias por escucharme. A veces necesito que me lo recuerden.",
+      "finnish": "Kiitos, että kuuntelit. Joskus tarvitsen muistutusta siitä."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el equilibrio",
+      "finnish": "balance"
+    },
+    {
+      "spanish": "estresado/a",
+      "finnish": "stressed"
+    },
+    {
+      "spanish": "la carga de trabajo",
+      "finnish": "workload"
+    },
+    {
+      "spanish": "sostenible",
+      "finnish": "sustainable"
+    },
+    {
+      "spanish": "el límite",
+      "finnish": "limit"
+    },
+    {
+      "spanish": "comprometido/a",
+      "finnish": "committed"
+    },
+    {
+      "spanish": "la salud mental",
+      "finnish": "mental health"
+    },
+    {
+      "spanish": "desconectar",
+      "finnish": "irrottautua"
+    },
+    {
+      "spanish": "urgente",
+      "finnish": "urgent"
+    },
+    {
+      "spanish": "delegar",
+      "finnish": "delegoida"
+    },
+    {
+      "spanish": "el horario",
+      "finnish": "schedule"
+    },
+    {
+      "spanish": "el bienestar",
+      "finnish": "wellbeing"
+    },
+    {
+      "spanish": "recordar",
+      "finnish": "muistuttaa/muistaa"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Kuinka monta tuntia Laura työskentelee viikossa?",
+      "options": [
+        "More than 50",
+        "40",
+        "60",
+        "35"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka kauan Laura on ollut ilman lomaa?",
+      "options": [
+        "2 vuotta",
+        "1 vuosi",
+        "6 months",
+        "3 vuotta"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä Laura pelkää?",
+      "options": [
+        "Tulla nähdyksi sitoutumattomana",
+        "Getting fired",
+        "Virheiden tekeminen",
+        "Colleagues"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä Carlosin mukaan on tärkeämpää kuin työ?",
+      "options": [
+        "Mielenterveys",
+        "Money",
+        "Ura",
+        "Perhe"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä Laura aikoo tehdä?",
+      "options": [
+        "Keskustele hänen pomonsa kanssa tuntien vähentämisestä",
+        "Quit her job",
+        "Pidä heti lomaa",
+        "Etsi uusi työpaikka"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä neuvoja Carlos antaa hätätilanteisiin?",
+      "options": [
+        "Opettele delegoimaan",
+        "Älä välitä heistä",
+        "Työskentele nopeammin",
+        "Palkkaa lisää henkilökuntaa"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 112,
+  "estimatedMinutes": 3,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

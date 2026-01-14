@@ -1,0 +1,108 @@
+{
+  "id": "meeting-new-person",
+  "title": "Meeting Someone New",
+  "titleSpanish": "Conocer a alguien nuevo",
+  "description": "A A1 level story about social",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "social",
+  "icon": "👋",
+  "dialogue": [
+    {
+      "speaker": "María",
+      "spanish": "Hola, me llamo María. ¿Cómo te llamas?",
+      "finnish": "Hei, nimeni on Maria. Mikä sinun nimesi on?"
+    },
+    {
+      "speaker": "Juan",
+      "spanish": "Hola, soy Juan. Mucho gusto.",
+      "finnish": "Hei, olen Juan. Hauska tavata."
+    },
+    {
+      "speaker": "María",
+      "spanish": "¿De dónde eres?",
+      "finnish": "Mistä olet kotoisin?"
+    },
+    {
+      "speaker": "Juan",
+      "spanish": "Soy de México. ¿Y tú?",
+      "finnish": "Olen Meksikosta. Entä sinä?"
+    },
+    {
+      "speaker": "María",
+      "spanish": "Soy de España, de Madrid.",
+      "finnish": "Olen Espanjasta, Madridista."
+    },
+    {
+      "speaker": "Juan",
+      "spanish": "¡Qué bien! Madrid es muy bonito.",
+      "finnish": "Kiva juttu! Madrid on todella kaunis."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "llamarse",
+      "finnish": "kutsuttavaksi"
+    },
+    {
+      "spanish": "ser",
+      "finnish": "olla"
+    },
+    {
+      "spanish": "mucho gusto",
+      "finnish": "Hauska tavata"
+    },
+    {
+      "spanish": "de dónde",
+      "finnish": "from where"
+    },
+    {
+      "spanish": "bonito/a",
+      "finnish": "beautiful/nice"
+    },
+    {
+      "spanish": "muy",
+      "finnish": "very"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mistä Juan on kotoisin?",
+      "options": [
+        "Mexico",
+        "Espanja",
+        "Ranska",
+        "Italia"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mistä María on kotoisin?",
+      "options": [
+        "Madrid",
+        "Barcelona",
+        "Mexico",
+        "Valencia"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä \"mucho gusto\" tarkoittaa?",
+      "options": [
+        "Hauska tavata",
+        "Goodbye",
+        "Kiitos",
+        "Mitä kuuluu"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 31,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}
