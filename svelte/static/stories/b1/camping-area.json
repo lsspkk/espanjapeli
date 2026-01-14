@@ -75,31 +75,45 @@
 		},
 		{
 			"spanish": "la tienda de campaña",
-			"finnish": "teltta"
+			"finnish": "teltta",
+			"frequencyRank": 817,
+			"cefrLevel": "A2"
 		},
 		{
 			"spanish": "el sitio",
-			"finnish": "paikka"
+			"finnish": "paikka",
+			"frequencyRank": 558,
+			"cefrLevel": "A2"
 		},
 		{
 			"spanish": "el río",
-			"finnish": "joki"
+			"finnish": "joki",
+			"frequencyRank": 1259,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "los servicios",
-			"finnish": "saniteettitilat"
+			"finnish": "saniteettitilat",
+			"frequencyRank": 2589,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "la ducha",
-			"finnish": "suihku"
+			"finnish": "suihku",
+			"frequencyRank": 2822,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "el agua caliente",
-			"finnish": "kuuma vesi"
+			"finnish": "kuuma vesi",
+			"frequencyRank": 358,
+			"cefrLevel": "A1"
 		},
 		{
 			"spanish": "el fuego",
-			"finnish": "tuli"
+			"finnish": "tuli",
+			"frequencyRank": 603,
+			"cefrLevel": "A2"
 		},
 		{
 			"spanish": "la barbacoa",
@@ -107,15 +121,21 @@
 		},
 		{
 			"spanish": "el silencio",
-			"finnish": "hiljaisuus"
+			"finnish": "hiljaisuus",
+			"frequencyRank": 904,
+			"cefrLevel": "A2"
 		},
 		{
 			"spanish": "el horario",
-			"finnish": "aikataulu"
+			"finnish": "aikataulu",
+			"frequencyRank": 4448,
+			"cefrLevel": "C1"
 		},
 		{
 			"spanish": "poner la tienda",
-			"finnish": "pystyttää teltta"
+			"finnish": "pystyttää teltta",
+			"frequencyRank": 606,
+			"cefrLevel": "A2"
 		}
 	],
 	"questions": [
@@ -179,5 +199,7 @@
 			"correctIndex": 2,
 			"explanation": "Vastuuhenkilö sanoi: 'De las once de la noche' (Klo yhdestätoista illalla)"
 		}
-	]
+	],
+	"wordCount": 133,
+	"estimatedMinutes": 3
 }

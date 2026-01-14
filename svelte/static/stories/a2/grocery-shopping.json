@@ -69,23 +69,33 @@
 		},
 		{
 			"spanish": "la manzana",
-			"finnish": "omena"
+			"finnish": "omena",
+			"frequencyRank": 3475,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "la leche",
-			"finnish": "maito"
+			"finnish": "maito",
+			"frequencyRank": 1495,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "el pan",
-			"finnish": "leipä"
+			"finnish": "leipä",
+			"frequencyRank": 1549,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "el pasillo",
-			"finnish": "käytävä"
+			"finnish": "käytävä",
+			"frequencyRank": 2730,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "la entrada",
-			"finnish": "sisäänkäynti"
+			"finnish": "sisäänkäynti",
+			"frequencyRank": 1316,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "el kilo",
@@ -93,19 +103,27 @@
 		},
 		{
 			"spanish": "la tarjeta",
-			"finnish": "kortti"
+			"finnish": "kortti",
+			"frequencyRank": 1336,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "el efectivo",
-			"finnish": "käteinen"
+			"finnish": "käteinen",
+			"frequencyRank": 2203,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "la caja",
-			"finnish": "kassa"
+			"finnish": "kassa",
+			"frequencyRank": 803,
+			"cefrLevel": "A2"
 		},
 		{
 			"spanish": "fresco/a",
-			"finnish": "tuore"
+			"finnish": "tuore",
+			"frequencyRank": 2854,
+			"cefrLevel": "B2"
 		}
 	],
 	"questions": [
@@ -169,5 +187,7 @@
 			"correctIndex": 1,
 			"explanation": "María kysyi: '¿Puedo pagar con tarjeta?' (Voinko maksaa kortilla?)"
 		}
-	]
+	],
+	"wordCount": 83,
+	"estimatedMinutes": 2
 }

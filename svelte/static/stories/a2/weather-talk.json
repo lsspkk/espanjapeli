@@ -71,11 +71,15 @@
 	"vocabulary": [
 		{
 			"spanish": "el tiempo",
-			"finnish": "sää"
+			"finnish": "sää",
+			"frequencyRank": 95,
+			"cefrLevel": "A1"
 		},
 		{
 			"spanish": "el sol",
-			"finnish": "aurinko"
+			"finnish": "aurinko",
+			"frequencyRank": 824,
+			"cefrLevel": "A2"
 		},
 		{
 			"spanish": "llover",
@@ -83,7 +87,9 @@
 		},
 		{
 			"spanish": "la lluvia",
-			"finnish": "sade"
+			"finnish": "sade",
+			"frequencyRank": 2173,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "el paraguas",
@@ -95,11 +101,15 @@
 		},
 		{
 			"spanish": "el frío",
-			"finnish": "kylmä"
+			"finnish": "kylmä",
+			"frequencyRank": 1044,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "el calor",
-			"finnish": "kuuma / lämpö"
+			"finnish": "kuuma / lämpö",
+			"frequencyRank": 1369,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "el pronóstico",
@@ -107,11 +117,15 @@
 		},
 		{
 			"spanish": "el grado",
-			"finnish": "aste"
+			"finnish": "aste",
+			"frequencyRank": 2545,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "la playa",
-			"finnish": "ranta"
+			"finnish": "ranta",
+			"frequencyRank": 1619,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "pasear",
@@ -179,5 +193,7 @@
 			"correctIndex": 2,
 			"explanation": "Laura sanoi: 'Tenía planes de ir a la playa' (Minulla oli suunnitelmia mennä rannalle)"
 		}
-	]
+	],
+	"wordCount": 129,
+	"estimatedMinutes": 3
 }

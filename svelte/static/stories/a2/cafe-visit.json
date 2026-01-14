@@ -66,11 +66,15 @@
 	"vocabulary": [
 		{
 			"spanish": "la cafetería",
-			"finnish": "kahvila"
+			"finnish": "kahvila",
+			"frequencyRank": 4574,
+			"cefrLevel": "C1"
 		},
 		{
 			"spanish": "el café con leche",
-			"finnish": "maitokahvi"
+			"finnish": "maitokahvi",
+			"frequencyRank": 617,
+			"cefrLevel": "A2"
 		},
 		{
 			"spanish": "el croissant",
@@ -82,11 +86,15 @@
 		},
 		{
 			"spanish": "el pastel",
-			"finnish": "leivos"
+			"finnish": "leivos",
+			"frequencyRank": 1905,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "la mantequilla",
-			"finnish": "voi"
+			"finnish": "voi",
+			"frequencyRank": 4136,
+			"cefrLevel": "C1"
 		},
 		{
 			"spanish": "la terraza",
@@ -94,23 +102,33 @@
 		},
 		{
 			"spanish": "grande",
-			"finnish": "iso"
+			"finnish": "iso",
+			"frequencyRank": 398,
+			"cefrLevel": "A1"
 		},
 		{
 			"spanish": "pequeño/a",
-			"finnish": "pieni"
+			"finnish": "pieni",
+			"frequencyRank": 414,
+			"cefrLevel": "A1"
 		},
 		{
 			"spanish": "servir",
-			"finnish": "tarjoilla"
+			"finnish": "tarjoilla",
+			"frequencyRank": 2751,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "sentarse",
-			"finnish": "istua"
+			"finnish": "istua",
+			"frequencyRank": 3401,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "disfrutar",
-			"finnish": "nauttia"
+			"finnish": "nauttia",
+			"frequencyRank": 3258,
+			"cefrLevel": "B2"
 		}
 	],
 	"questions": [
@@ -174,5 +192,7 @@
 			"correctIndex": 2,
 			"explanation": "Carlos kysyi: '¿Puedo sentarme en la terraza?' (Voinko istua terassilla?)"
 		}
-	]
+	],
+	"wordCount": 79,
+	"estimatedMinutes": 2
 }

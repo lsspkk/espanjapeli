@@ -75,47 +75,69 @@
 		},
 		{
 			"spanish": "la bicicleta",
-			"finnish": "polkupyörä"
+			"finnish": "polkupyörä",
+			"frequencyRank": 3371,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "el casco",
-			"finnish": "kypärä"
+			"finnish": "kypärä",
+			"frequencyRank": 4321,
+			"cefrLevel": "C1"
 		},
 		{
 			"spanish": "el mapa",
-			"finnish": "kartta"
+			"finnish": "kartta",
+			"frequencyRank": 2241,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "la ruta",
-			"finnish": "reitti"
+			"finnish": "reitti",
+			"frequencyRank": 2736,
+			"cefrLevel": "B2"
 		},
 		{
 			"spanish": "el río",
-			"finnish": "joki"
+			"finnish": "joki",
+			"frequencyRank": 1259,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "plano/a",
-			"finnish": "tasainen"
+			"finnish": "tasainen",
+			"frequencyRank": 4713,
+			"cefrLevel": "C1"
 		},
 		{
 			"spanish": "devolver",
-			"finnish": "palauttaa"
+			"finnish": "palauttaa",
+			"frequencyRank": 3949,
+			"cefrLevel": "C1"
 		},
 		{
 			"spanish": "cerrar",
-			"finnish": "sulkea"
+			"finnish": "sulkea",
+			"frequencyRank": 1798,
+			"cefrLevel": "B1"
 		},
 		{
 			"spanish": "el pasaporte",
-			"finnish": "passi"
+			"finnish": "passi",
+			"frequencyRank": 4119,
+			"cefrLevel": "C1"
 		},
 		{
 			"spanish": "el depósito",
-			"finnish": "panttimaksu"
+			"finnish": "panttimaksu",
+			"frequencyRank": 3520,
+			"cefrLevel": "C1"
 		},
 		{
 			"spanish": "la hora",
-			"finnish": "tunti / kellonaika"
+			"finnish": "tunti / kellonaika",
+			"frequencyRank": 245,
+			"cefrLevel": "A1"
 		}
 	],
 	"questions": [
@@ -179,5 +201,7 @@
 			"correctIndex": 2,
 			"explanation": "Työntekijä sanoi: 'Un depósito de veinte euros' (20 euron panttimaksu)"
 		}
-	]
+	],
+	"wordCount": 103,
+	"estimatedMinutes": 3
 }
