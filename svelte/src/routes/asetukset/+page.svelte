@@ -3,6 +3,7 @@
 	import { base } from '$app/paths';
 	import PeppaStatsViewer from '$lib/components/PeppaStatsViewer.svelte';
 	import { ttsSettings } from '$lib/stores/ttsSettings';
+	import { gameSettings } from '$lib/stores/gameSettings';
 	import { tts } from '$lib/services/tts';
 	import { theme, availableThemes } from '$lib/stores/theme';
 
@@ -20,6 +21,15 @@
 	$effect(() => {
 		const unsubscribe = ttsSettings.subscribe((s) => {
 			currentTtsSettings = s;
+		});
+		return unsubscribe;
+	});
+
+	let currentGameSettings = $state({ prioritizeFrequency: true });
+
+	$effect(() => {
+		const unsubscribe = gameSettings.subscribe((s) => {
+			currentGameSettings = s;
 		});
 		return unsubscribe;
 	});
@@ -357,6 +367,51 @@
 					<button class="btn btn-ghost btn-sm" onclick={() => theme.reset()}>
 						Palauta oletusteema
 					</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- Game Settings Card -->
+		<div class="card mb-6 bg-base-100 shadow-xl">
+			<div class="card-body">
+				<h2 class="card-title">🎮 Pelin asetukset</h2>
+				<p class="text-sm text-base-content/70">
+					Mukauta pelikokemustasi
+				</p>
+
+				<div class="divider"></div>
+
+				<div class="space-y-4">
+					<!-- Prioritize Frequency -->
+					<div class="form-control">
+						<label class="label cursor-pointer justify-start gap-4">
+							<input
+								type="checkbox"
+								checked={currentGameSettings.prioritizeFrequency}
+								onchange={(e) => gameSettings.setPrioritizeFrequency((e.target as HTMLInputElement).checked)}
+								class="toggle toggle-primary"
+							/>
+							<div class="flex flex-col">
+								<span class="label-text font-medium">Keskity yleisimpiin sanoihin</span>
+								<span class="text-xs text-base-content/50">
+									Priorisoi top 1000 yleisintä sanaa peleissä parempaan oppimistulokseen
+								</span>
+							</div>
+						</label>
+					</div>
+
+					<div class="alert alert-info text-sm">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+						<span>
+							Kun tämä on päällä, peli valitsee useammin yleisimpiä sanoja, jotka ovat hyödyllisimpiä arkikeskusteluissa.
+						</span>
+					</div>
+
+					<div class="mt-4">
+						<button class="btn btn-ghost btn-sm" onclick={() => gameSettings.reset()}>
+							Palauta oletukset
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -44,6 +44,7 @@
 		recordGameCompletion, 
 		getPreviousGames 
 	} from '$lib/services/wordSelection';
+	import { gameSettings } from '$lib/stores/gameSettings';
 
 	// Game states
 	type GameState = 'home' | 'playing' | 'answered' | 'report';
@@ -100,7 +101,7 @@
 	/**
 	 * Start a new game
 	 */
-	function startGame() {
+	async function startGame() {
 		console.log('🎮 Starting new game');
 		
 		// Close sanakirja if open
@@ -112,12 +113,13 @@
 		gameQuestions = [];
 		
 		// Ensure words are prepared for this game
+		const settings = $gameSettings;
 		if (upcomingWords.length !== selectedGameLength) {
-			upcomingWords = prepareNextGameWords(selectedCategory, selectedGameLength);
+			upcomingWords = await prepareNextGameWords(selectedCategory, selectedGameLength, 'spanish_to_finnish', settings.prioritizeFrequency);
 		}
 		
 		// Generate word queue from prepared words
-		wordQueue = generateWordQueue(selectedCategory, selectedGameLength, upcomingWords, 5);
+		wordQueue = await generateWordQueue(selectedCategory, selectedGameLength, upcomingWords, 5, 'spanish_to_finnish', settings.prioritizeFrequency);
 		
 		// Start first question
 		nextQuestion();
@@ -263,14 +265,15 @@
 	/**
 	 * Show game report
 	 */
-	function showGameReport() {
+	async function showGameReport() {
 		gameState = 'report';
 
 		// Record game completion for word selection history
 		recordGameCompletion(upcomingWords, selectedCategory);
 
 		// Prepare words for next game
-		prepareNextGameWords();
+		const settings = $gameSettings;
+		await prepareNextGameWords(selectedCategory, selectedGameLength, 'spanish_to_finnish', settings.prioritizeFrequency);
 
 		// Calculate statistics
 		const correctCount = gameQuestions.filter(q => q.isCorrect).length;
@@ -308,23 +311,25 @@
 	/**
 	 * Handle category change
 	 */
-	function handleCategoryChange(event: Event) {
+	async function handleCategoryChange(event: Event) {
 		const target = event.target as HTMLSelectElement;
 		selectedCategory = target.value;
 		category.set(selectedCategory);
 		// Re-prepare words for new category
-		upcomingWords = prepareNextGameWords(selectedCategory, selectedGameLength);
+		const settings = $gameSettings;
+		upcomingWords = await prepareNextGameWords(selectedCategory, selectedGameLength, 'spanish_to_finnish', settings.prioritizeFrequency);
 	}
 
 	/**
 	 * Select a category from the picker modal
 	 */
-	function selectCategory(categoryKey: string) {
+	async function selectCategory(categoryKey: string) {
 		selectedCategory = categoryKey;
 		category.set(selectedCategory);
 		showCategoryPicker = false;
 		// Re-prepare words for new category
-		upcomingWords = prepareNextGameWords(selectedCategory, selectedGameLength);
+		const settings = $gameSettings;
+		upcomingWords = await prepareNextGameWords(selectedCategory, selectedGameLength, 'spanish_to_finnish', settings.prioritizeFrequency);
 	}
 
 	/**
@@ -350,12 +355,13 @@
 	/**
 	 * Handle game length change
 	 */
-	function handleGameLengthChange(event: Event) {
+	async function handleGameLengthChange(event: Event) {
 		const target = event.target as HTMLInputElement;
 		selectedGameLength = parseInt(target.value);
 		gameLength.set(selectedGameLength);
 		// Re-prepare words for new game length
-		upcomingWords = prepareNextGameWords(selectedCategory, selectedGameLength);
+		const settings = $gameSettings;
+		upcomingWords = await prepareNextGameWords(selectedCategory, selectedGameLength, 'spanish_to_finnish', settings.prioritizeFrequency);
 	}
 
 	/**
@@ -513,7 +519,7 @@
 
 	// Get categories for dropdown (sorted by learning order)
 	let categories: { key: string; name: string; emoji: string; tooltip: string; tier: number }[] = [];
-	onMount(() => {
+	onMount(async () => {
 		const orderedCategories = getCategoriesByLearningOrder();
 		categories = [
 			{ key: 'all', name: 'Kaikki sanat', emoji: '📚', tooltip: 'Kaikki sanat kaikista kategorioista', tier: 0 },
@@ -527,7 +533,8 @@
 		];
 
 		// Prepare words for the next game
-		upcomingWords = prepareNextGameWords(selectedCategory, selectedGameLength);
+		const settings = $gameSettings;
+		upcomingWords = await prepareNextGameWords(selectedCategory, selectedGameLength, 'spanish_to_finnish', settings.prioritizeFrequency);
 	});
 
 	// Format message with line break
