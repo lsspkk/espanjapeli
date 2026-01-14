@@ -81,21 +81,16 @@ describe('Navbar', () => {
 			expect(hamburger.getAttribute('aria-expanded')).toBe('true');
 		});
 
-		it('includes VocabularyProgressWidget in mobile menu', async () => {
+		it('mobile menu has standard width', async () => {
 			const { container, getByLabelText } = render(Navbar);
 			const hamburger = getByLabelText('Avaa valikko');
 
 			// Open mobile menu
 			await fireEvent.click(hamburger);
 
-			// Check that the menu is wider to accommodate the widget (w-80 instead of w-52)
+			// Check that the menu has standard width (w-52)
 			const dropdownMenu = container.querySelector('.dropdown-content');
-			expect(dropdownMenu?.classList.contains('w-80')).toBe(true);
-
-			// The widget should be present in the menu
-			// (Note: VocabularyProgressWidget may not render content in test environment
-			// due to localStorage dependencies, but the component should be mounted)
-			expect(dropdownMenu).toBeTruthy();
+			expect(dropdownMenu?.classList.contains('w-52')).toBe(true);
 		});
 	});
 
@@ -130,6 +125,16 @@ describe('Navbar', () => {
 			expect(svgIcons.length).toBeGreaterThanOrEqual(6);
 		});
 
+		it('desktop icons have 50% opacity', () => {
+			const { container } = render(Navbar);
+			const desktopMenu = container.querySelector('.navbar-end');
+			const icons = desktopMenu?.querySelectorAll('svg');
+			
+			icons?.forEach((icon) => {
+				expect(icon.classList.contains('opacity-50')).toBe(true);
+			});
+		});
+
 		it('renders more icons when mobile menu is opened', async () => {
 			const { container, getByLabelText } = render(Navbar);
 			const hamburger = getByLabelText('Avaa valikko');
@@ -145,6 +150,21 @@ describe('Navbar', () => {
 			
 			// Should have 5 additional nav item icons in mobile menu
 			expect(iconsAfter).toBeGreaterThan(iconsBefore);
+		});
+
+		it('mobile menu icons have 50% opacity', async () => {
+			const { container, getByLabelText } = render(Navbar);
+			const hamburger = getByLabelText('Avaa valikko');
+			
+			// Open mobile menu
+			await fireEvent.click(hamburger);
+			
+			const mobileMenu = container.querySelector('.dropdown-content');
+			const icons = mobileMenu?.querySelectorAll('svg');
+			
+			icons?.forEach((icon) => {
+				expect(icon.classList.contains('opacity-50')).toBe(true);
+			});
 		});
 	});
 

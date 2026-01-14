@@ -57,8 +57,8 @@
 			{/if}
 		</div>
 
-		<!-- Answer options -->
-		<div class="space-y-3">
+		<!-- Answer options - Two column layout on desktop -->
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-3">
 			{#each question.options as option, index}
 				<button
 					class="btn btn-outline hover:btn-primary w-full justify-start text-left h-auto py-4 px-5 text-base"

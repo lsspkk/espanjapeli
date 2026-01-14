@@ -270,12 +270,12 @@ export function isFrequencyDataLoaded(): boolean {
  */
 export function getCEFRDescription(level: string): string {
 	const descriptions: Record<string, string> = {
-		'A1': 'Absolute Beginner',
-		'A2': 'Beginner',
-		'B1': 'Intermediate',
-		'B2': 'Upper Intermediate',
-		'C1': 'Advanced',
-		'C2': 'Proficient'
+		'A1': 'Aloittelija',
+		'A2': 'Perustaso',
+		'B1': 'Keskitaso',
+		'B2': 'Hyvä keskitaso',
+		'C1': 'Edistynyt',
+		'C2': 'Taitava'
 	};
 	return descriptions[level] || level;
 }

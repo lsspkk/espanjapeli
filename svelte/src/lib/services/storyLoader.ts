@@ -28,7 +28,7 @@ interface StoryManifest {
 }
 
 let cachedManifest: StoryManifest | null = null;
-let cachedStories: Map<string, Story> = new Map();
+const cachedStories: Map<string, Story> = new Map();
 
 /**
  * Load story manifest (lightweight metadata for all stories)
@@ -69,8 +69,8 @@ export async function loadStoryById(id: string): Promise<Story | null> {
 
 	// Get story metadata from manifest
 	const manifest = await loadManifest();
-	const metadata = manifest.stories.find(s => s.id === id);
-	
+	const metadata = manifest.stories.find((s) => s.id === id);
+
 	if (!metadata) {
 		console.error(`Story not found in manifest: ${id}`);
 		return null;
@@ -86,10 +86,10 @@ export async function loadStoryById(id: string): Promise<Story | null> {
 			throw new Error(`Failed to load story: ${response.status}`);
 		}
 		const story: Story = await response.json();
-		
+
 		// Cache the loaded story
 		cachedStories.set(id, story);
-		
+
 		return story;
 	} catch (error) {
 		console.error(`Error loading story ${id}:`, error);
@@ -157,12 +157,12 @@ export async function getStoriesByDifficulty(
 ): Promise<Story[]> {
 	const metadata = await getStoriesMetadataByDifficulty(difficulty);
 	const stories: Story[] = [];
-	
+
 	for (const meta of metadata) {
 		const story = await loadStoryById(meta.id);
 		if (story) stories.push(story);
 	}
-	
+
 	return stories;
 }
 
@@ -173,12 +173,12 @@ export async function getStoriesByCategory(category: string): Promise<Story[]> {
 	const manifest = await loadManifest();
 	const metadata = manifest.stories.filter((story) => story.category === category);
 	const stories: Story[] = [];
-	
+
 	for (const meta of metadata) {
 		const story = await loadStoryById(meta.id);
 		if (story) stories.push(story);
 	}
-	
+
 	return stories;
 }
 
@@ -215,7 +215,7 @@ export const categoryNames: Record<string, string> = {
  * Difficulty display names in Finnish
  */
 export const difficultyNames: Record<string, string> = {
-	beginner: 'Aloittelija',
+	beginner: 'Alkeet',
 	intermediate: 'Keskitaso',
 	advanced: 'Edistynyt'
 };

@@ -58,7 +58,7 @@ describe('Asetukset Page', () => {
 
 	it('renders back to menu link', () => {
 		render(AsetuksetPage);
-		const backLink = screen.getByText('← Takaisin valikkoon');
+		const backLink = screen.getByText('← Takaisin');
 		expect(backLink).toBeTruthy();
 		expect(backLink.getAttribute('href')).toBe('/');
 	});

@@ -6,7 +6,7 @@
 <div class="min-h-screen bg-base-200">
 	<div class="container mx-auto max-w-2xl px-4 py-8">
 		<div class="mb-4">
-			<a href="{base}/" class="btn btn-ghost btn-sm">← Takaisin valikkoon</a>
+			<a href="{base}/" class="btn btn-ghost btn-sm">← Takaisin</a>
 		</div>
 
 		<h1 class="mb-6 text-4xl font-bold">ℹ️ Tietoja</h1>

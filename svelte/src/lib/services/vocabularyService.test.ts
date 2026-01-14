@@ -11,7 +11,7 @@ import { getCEFRDescription } from './vocabularyService';
 describe('vocabularyService', () => {
 	describe('getCEFRDescription', () => {
 		it('returns correct description for A1', () => {
-			expect(getCEFRDescription('A1')).toBe('Absolute Beginner');
+			expect(getCEFRDescription('A1')).toBe('Aloittelija');
 		});
 
 		it('returns correct description for A2', () => {

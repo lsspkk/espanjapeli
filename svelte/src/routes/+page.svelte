@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
+	import VocabularyProgressWidget from '$lib/components/shared/VocabularyProgressWidget.svelte';
 
 	interface GameMode {
 		id: string;
@@ -117,6 +118,8 @@
 		}
 	}
 </script>
+
+<VocabularyProgressWidget />
 
 <div class="min-h-screen bg-base-200">
 	<div class="container mx-auto px-4 py-4 md:py-8">

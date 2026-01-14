@@ -80,6 +80,10 @@ describe('VocabularyWordListDialog', () => {
 		expect(screen.getByText('kissa')).toBeInTheDocument();
 		expect(screen.getByText('casa')).toBeInTheDocument();
 		expect(screen.getByText('talo')).toBeInTheDocument();
+
+		// Check table headers
+		expect(screen.getByText('Espanja')).toBeInTheDocument();
+		expect(screen.getByText('Suomi')).toBeInTheDocument();
 	});
 
 	it('should display English translations when available', () => {
@@ -91,9 +95,9 @@ describe('VocabularyWordListDialog', () => {
 			}
 		});
 
-		expect(screen.getByText('dog')).toBeInTheDocument();
-		expect(screen.getByText('cat')).toBeInTheDocument();
-		expect(screen.getByText('house')).toBeInTheDocument();
+		expect(screen.getByText(/dog/)).toBeInTheDocument();
+		expect(screen.getByText(/cat/)).toBeInTheDocument();
+		expect(screen.getByText(/house/)).toBeInTheDocument();
 	});
 
 	it('should show frequency data when showFrequency is true', () => {
@@ -109,6 +113,7 @@ describe('VocabularyWordListDialog', () => {
 		expect(screen.getByText('#150')).toBeInTheDocument();
 		expect(screen.getByText('#200')).toBeInTheDocument();
 		expect(screen.getAllByText('A1')).toHaveLength(2);
+		expect(screen.getByText('Taso')).toBeInTheDocument(); // Column header
 	});
 
 	it('should not show frequency data when showFrequency is false', () => {
@@ -123,6 +128,7 @@ describe('VocabularyWordListDialog', () => {
 
 		expect(screen.queryByText('#150')).not.toBeInTheDocument();
 		expect(screen.queryByText('#200')).not.toBeInTheDocument();
+		expect(screen.queryByText('Taso')).not.toBeInTheDocument(); // Column should not exist
 	});
 
 	it('should display word count in footer', () => {
@@ -161,10 +167,10 @@ describe('VocabularyWordListDialog', () => {
 
 		const closeButtons = screen.getAllByRole('button', { name: /sulje/i });
 		expect(closeButtons.length).toBeGreaterThan(0);
-		
+
 		// Button should be clickable
 		await fireEvent.click(closeButtons[0]);
-		
+
 		// Modal should still be in DOM (parent handles actual closing)
 		expect(closeButtons[0]).toBeInTheDocument();
 	});
@@ -181,12 +187,12 @@ describe('VocabularyWordListDialog', () => {
 		// Find the X button in the header (has btn-circle class)
 		const xButton = container.querySelector('.btn-circle');
 		expect(xButton).toBeInTheDocument();
-		
+
 		// Button should be clickable
 		if (xButton) {
 			await fireEvent.click(xButton);
 		}
-		
+
 		// Modal should still be in DOM (parent handles actual closing)
 		expect(xButton).toBeInTheDocument();
 	});
@@ -202,11 +208,11 @@ describe('VocabularyWordListDialog', () => {
 
 		const backdrop = container.querySelector('.fixed.inset-0');
 		expect(backdrop).toBeInTheDocument();
-		
+
 		if (backdrop) {
 			await fireEvent.click(backdrop);
 		}
-		
+
 		// Modal should still be in DOM (parent handles actual closing)
 		expect(backdrop).toBeInTheDocument();
 	});
@@ -245,7 +251,106 @@ describe('VocabularyWordListDialog', () => {
 
 		expect(screen.getByText('ejemplo')).toBeInTheDocument();
 		expect(screen.getByText('esimerkki')).toBeInTheDocument();
-		expect(screen.getByText('example')).toBeInTheDocument();
-		// Should not crash when frequency data is missing
+		expect(screen.getByText(/example/)).toBeInTheDocument();
+	});
+
+	it('should sort by Spanish column when clicked', async () => {
+		const { container } = render(VocabularyWordListDialog, {
+			props: {
+				isOpen: true,
+				title: 'Test Words',
+				words: mockWords
+			}
+		});
+
+		const spanishHeader = screen.getByText('Espanja').closest('th');
+		const sortButton = spanishHeader?.querySelector('button');
+		expect(sortButton).toBeInTheDocument();
+
+		if (sortButton) {
+			await fireEvent.click(sortButton);
+		}
+
+		// Words should be sorted: casa, gato, perro
+		const rows = container.querySelectorAll('tbody tr');
+		expect(rows[0]).toHaveTextContent('casa');
+		expect(rows[1]).toHaveTextContent('gato');
+		expect(rows[2]).toHaveTextContent('perro');
+	});
+
+	it('should reverse sort when clicking same column twice', async () => {
+		const { container } = render(VocabularyWordListDialog, {
+			props: {
+				isOpen: true,
+				title: 'Test Words',
+				words: mockWords
+			}
+		});
+
+		const spanishHeader = screen.getByText('Espanja').closest('th');
+		const sortButton = spanishHeader?.querySelector('button');
+
+		if (sortButton) {
+			// First click: ascending
+			await fireEvent.click(sortButton);
+			let rows = container.querySelectorAll('tbody tr');
+			expect(rows[0]).toHaveTextContent('casa');
+
+			// Second click: descending
+			await fireEvent.click(sortButton);
+			rows = container.querySelectorAll('tbody tr');
+			expect(rows[0]).toHaveTextContent('perro');
+		}
+	});
+
+	it('should sort by Finnish column when clicked', async () => {
+		const { container } = render(VocabularyWordListDialog, {
+			props: {
+				isOpen: true,
+				title: 'Test Words',
+				words: mockWords
+			}
+		});
+
+		const finnishHeader = screen.getByText('Suomi').closest('th');
+		const sortButton = finnishHeader?.querySelector('button');
+		expect(sortButton).toBeInTheDocument();
+
+		if (sortButton) {
+			await fireEvent.click(sortButton);
+		}
+
+		// Words should be sorted: kissa, koira, talo
+		const rows = container.querySelectorAll('tbody tr');
+		expect(rows[0]).toHaveTextContent('kissa');
+		expect(rows[1]).toHaveTextContent('koira');
+		expect(rows[2]).toHaveTextContent('talo');
+	});
+
+	it('should switch sorting column when clicking different column', async () => {
+		const { container } = render(VocabularyWordListDialog, {
+			props: {
+				isOpen: true,
+				title: 'Test Words',
+				words: mockWords
+			}
+		});
+
+		const spanishHeader = screen.getByText('Espanja').closest('th');
+		const spanishButton = spanishHeader?.querySelector('button');
+		const finnishHeader = screen.getByText('Suomi').closest('th');
+		const finnishButton = finnishHeader?.querySelector('button');
+
+		if (spanishButton && finnishButton) {
+			// First sort by Spanish
+			await fireEvent.click(spanishButton);
+			let rows = container.querySelectorAll('tbody tr');
+			expect(rows[0]).toHaveTextContent('casa');
+
+			// Then sort by Finnish (should reset to ascending)
+			await fireEvent.click(finnishButton);
+			rows = container.querySelectorAll('tbody tr');
+			expect(rows[0]).toHaveTextContent('kissa');
+		}
 	});
 });

@@ -3,7 +3,6 @@
 	import { page } from '$app/stores';
 	import { Home, BookOpen, BookMarked, Info, Settings } from 'lucide-svelte';
 	import type { ComponentType } from 'svelte';
-	import VocabularyProgressWidget from './VocabularyProgressWidget.svelte';
 
 	interface NavItem {
 		href: string;
@@ -85,13 +84,8 @@
 				<!-- svelte-ignore a11y_click_events_have_key_events -->
 				<div class="fixed inset-0 z-40" onclick={closeMenu}></div>
 				<ul
-					class="menu dropdown-content menu-sm z-50 mt-3 w-80 rounded-box bg-base-100 p-2 shadow"
+					class="menu dropdown-content menu-sm z-50 mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
 				>
-					<!-- Vocabulary Progress Widget in menu -->
-					<li class="px-2 py-2">
-						<VocabularyProgressWidget />
-					</li>
-					<li class="divider my-0"></li>
 					{#each navItems as item}
 						{@const Icon = item.icon}
 						<li>
@@ -100,7 +94,7 @@
 								class={isActive(item.href) ? 'active' : ''}
 								onclick={closeMenu}
 							>
-								<Icon size={20} />
+								<Icon size={20} class="opacity-50 mr-1 md:-mr-1" />
 								{item.label}
 							</a>
 						</li>
@@ -115,7 +109,7 @@
 
 	<!-- Desktop menu -->
 	<div class="navbar-end hidden lg:flex">
-		<ul class="menu menu-horizontal px-1">
+		<ul class="menu menu-horizontal px-1 gap-4">
 			{#each navItems as item}
 				{@const Icon = item.icon}
 				<li>
@@ -123,7 +117,7 @@
 						href="{base}{item.href}"
 						class={isActive(item.href) ? 'active' : ''}
 					>
-						<Icon size={20} />
+						<Icon size={20} class="opacity-50 -mr-1" />
 						{item.label}
 					</a>
 				</li>

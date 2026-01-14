@@ -7,6 +7,7 @@
 	import StoryQuestion from '$lib/components/basic/stories/StoryQuestion.svelte';
 	import StoryCard from '$lib/components/basic/stories/StoryCard.svelte';
 	import StoryReport from '$lib/components/basic/stories/StoryReport.svelte';
+	import StoryFilterSort from '$lib/components/basic/stories/StoryFilterSort.svelte';
 	import GameContainer from '$lib/components/shared/GameContainer.svelte';
 	import BackButton from '$lib/components/shared/BackButton.svelte';
 
@@ -18,19 +19,45 @@
 	let questionResults: StoryQuestionResult[] = [];
 	let loading = true;
 
-	// Filters
+	// Filters and sorting
 	let filterDifficulty: string = 'all';
 	let filterCategory: string = 'all';
+	let sortBy: 'alphabet' | 'difficulty' = 'alphabet';
 
-	// Filtered stories
-	$: filteredStories = stories.filter((story) => {
-		if (filterDifficulty !== 'all' && story.difficulty !== filterDifficulty) return false;
-		if (filterCategory !== 'all' && story.category !== filterCategory) return false;
-		return true;
-	});
+	// Filtered and sorted stories
+	$: filteredStories = (() => {
+		// First filter
+		let filtered = stories.filter((story) => {
+			if (filterDifficulty !== 'all' && story.difficulty !== filterDifficulty) return false;
+			if (filterCategory !== 'all' && story.category !== filterCategory) return false;
+			return true;
+		});
+
+		// Then sort
+		if (sortBy === 'alphabet') {
+			filtered = filtered.sort((a, b) => a.title.localeCompare(b.title, 'fi'));
+		} else if (sortBy === 'difficulty') {
+			const difficultyOrder = { 'A1': 1, 'A2': 2, 'B1': 3, 'B2': 4 };
+			filtered = filtered.sort((a, b) => {
+				const orderA = difficultyOrder[a.difficulty as keyof typeof difficultyOrder] || 99;
+				const orderB = difficultyOrder[b.difficulty as keyof typeof difficultyOrder] || 99;
+				return orderA - orderB;
+			});
+		}
+
+		return filtered;
+	})();
 
 	// Get unique categories from stories
 	$: categories = [...new Set(stories.map((s) => s.category))];
+
+	function handleFilterChange(difficulty: string) {
+		filterDifficulty = difficulty;
+	}
+
+	function handleSortChange(newSortBy: 'alphabet' | 'difficulty') {
+		sortBy = newSortBy;
+	}
 
 	onMount(async () => {
 		stories = await loadStories();
@@ -121,6 +148,18 @@
 					📖 Tarinat ja dialogit
 				</h1>
 			</div>
+
+			<!-- Filter and Sort Controls -->
+			{#if !loading && stories.length > 0}
+				<div class="mb-6">
+					<StoryFilterSort
+						filterDifficulty={filterDifficulty}
+						sortBy={sortBy}
+						onFilterChange={handleFilterChange}
+						onSortChange={handleSortChange}
+					/>
+				</div>
+			{/if}
 
 			<!-- Stories list -->
 			{#if loading}
