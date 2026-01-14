@@ -198,24 +198,5 @@ espanjapeli/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml      # Deployment automation
-├── docs/                    # Old vanilla JS version (v1)
 └── README.md
 ```
-
-## Important Notes
-
-- The deployment only includes the `svelte/build/` directory
-- The old version in `docs/` is not affected
-- Local storage data is per-domain (users will start fresh on new deployment)
-- All pages are pre-rendered for fast loading and good SEO
-- No server required - fully static site
-
-## Next Steps
-
-After successful deployment:
-
-1. Test the live site on mobile devices
-2. Update the main README.md with the new URL
-3. Consider keeping the old version accessible during migration
-4. Add a redirect from the old site to the new one when ready
-

@@ -20,6 +20,7 @@ Requirements:
 Usage: 
   ./push.py              - Full push workflow with validation and monitoring
   ./push.py --status     - Check status of last deployment only
+  ./push.py --progress   - Show current task progress from progress.txt
 """
 
 import subprocess
@@ -27,6 +28,7 @@ import sys
 import json
 import time
 from datetime import datetime, timezone
+from pathlib import Path
 
 
 def run(cmd: list[str], cwd: str = ".", check: bool = True) -> subprocess.CompletedProcess:
@@ -214,10 +216,105 @@ def check_status_only():
         print("\n⏳ Deployment still in progress...")
 
 
+def check_progress():
+    """Display current task progress from progress.txt (Ralph Wiggum Protocol)"""
+    print("=" * 50)
+    print("📋 TASK PROGRESS STATUS")
+    print("=" * 50)
+    
+    progress_file = Path("progress.txt")
+    if not progress_file.exists():
+        print("\n⚠️  No progress.txt found")
+        print("   Start a Ralph Wiggum Protocol session to create one.")
+        print("   See: ai-control/prompts/ralph-wiggum-protocol.md")
+        sys.exit(0)
+    
+    content = progress_file.read_text()
+    
+    # Extract key information
+    lines = content.split('\n')
+    current_task = None
+    status = None
+    date = None
+    completed = []
+    in_progress = []
+    next_actions = []
+    
+    in_completed_section = False
+    in_progress_section = False
+    in_next_section = False
+    
+    for line in lines:
+        if line.startswith("PROGRESS LOG -"):
+            current_task = line.split("PROGRESS LOG -")[1].strip()
+        elif line.startswith("Date:"):
+            date = line.split("Date:")[1].strip()
+        elif line.startswith("Status:"):
+            status = line.split("Status:")[1].strip()
+        elif line.startswith("COMPLETED:"):
+            in_completed_section = True
+            in_progress_section = False
+            in_next_section = False
+        elif line.startswith("IN PROGRESS:"):
+            in_completed_section = False
+            in_progress_section = True
+            in_next_section = False
+        elif line.startswith("NEXT SESSION:"):
+            in_completed_section = False
+            in_progress_section = False
+            in_next_section = True
+        elif line.startswith("FILES") or line.startswith("BLOCKED") or line.startswith("DECISIONS"):
+            in_completed_section = False
+            in_progress_section = False
+            in_next_section = False
+        elif in_completed_section and line.strip().startswith("✓"):
+            completed.append(line.strip())
+        elif in_progress_section and line.strip().startswith("○"):
+            in_progress.append(line.strip())
+        elif in_next_section and line.strip().startswith("→"):
+            next_actions.append(line.strip())
+    
+    # Display summary
+    if current_task:
+        print(f"\n📌 Current Task: {current_task}")
+    if date:
+        print(f"📅 Last Updated: {date}")
+    if status:
+        status_emoji = "🟢" if status == "COMPLETED" else "🟡" if status == "IN_PROGRESS" else "🔴"
+        print(f"{status_emoji} Status: {status}")
+    
+    if completed:
+        print(f"\n✅ Completed This Session ({len(completed)}):")
+        for item in completed[:5]:  # Show max 5
+            print(f"   {item}")
+        if len(completed) > 5:
+            print(f"   ... and {len(completed) - 5} more")
+    
+    if in_progress:
+        print(f"\n🔄 In Progress ({len(in_progress)}):")
+        for item in in_progress:
+            print(f"   {item}")
+    
+    if next_actions:
+        print(f"\n→ Next Actions ({len(next_actions)}):")
+        for item in next_actions[:3]:  # Show max 3
+            print(f"   {item}")
+    
+    print("\n" + "=" * 50)
+    print("💡 Tip: Update progress.txt after each work session")
+    print("   Protocol: ai-control/prompts/ralph-wiggum-protocol.md")
+    print("=" * 50)
+
+
 def main():
-    if len(sys.argv) > 1 and sys.argv[1] in ["--status", "-s", "status"]:
-        check_status_only()
-        return
+    if len(sys.argv) > 1:
+        arg = sys.argv[1]
+        if arg in ["--status", "-s", "status"]:
+            check_status_only()
+            return
+        elif arg in ["--progress", "-p", "progress"]:
+            check_progress()
+            return
     
     print("=" * 50)
     print("🚀 PUSH HELPER")
