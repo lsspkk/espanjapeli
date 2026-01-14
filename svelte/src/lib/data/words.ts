@@ -1,11 +1,48 @@
 // Spanish vocabulary database organized by categories
 // Ported from vanilla JS to TypeScript
 
+export type PartOfSpeech = 
+	| 'noun' 
+	| 'verb' 
+	| 'adjective' 
+	| 'adverb' 
+	| 'pronoun'
+	| 'preposition' 
+	| 'conjunction' 
+	| 'interjection'
+	| 'article'
+	| 'numeral'
+	| 'phrase';
+
+export type Gender = 'masculine' | 'feminine';
+
+export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+
+export interface FrequencyData {
+	rank: number;
+	cefrLevel: CEFRLevel;
+	isTop100?: boolean;
+	isTop500?: boolean;
+	isTop1000?: boolean;
+	isTop3000?: boolean;
+	isTop5000?: boolean;
+}
+
+export interface LinguisticData {
+	partOfSpeech: PartOfSpeech;
+	gender?: Gender;
+}
+
 export interface Word {
 	spanish: string;
 	english: string;
 	finnish: string;
 	learningTips?: string[];
+	
+	// V4 optional fields for gradual migration
+	id?: string;
+	frequency?: FrequencyData;
+	linguistic?: LinguisticData;
 }
 
 export interface WordCategory {

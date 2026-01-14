@@ -32,16 +32,16 @@
       "todoTxtRef": "TASK 2: Enhance Existing words.ts with Frequency and Metadata (TODO.txt lines 158-277)",
       "datamodelRef": "See docs/V4_DATAMODEL_IDEAS_improved.md for vocabulary metadata standards",
       "priority": 1,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 6,
       "dependencies": [1],
       "subtasks": [
-        { "id": "2.1", "title": "Extend Word interface with new optional fields", "status": "not-started", "deliverable": "svelte/src/lib/data/words.ts", "testRequired": true },
-        { "id": "2.2", "title": "Create enrich_words.py script", "status": "not-started", "deliverable": "scripts/data_pipeline/enrich_words.py", "testRequired": true },
-        { "id": "2.3", "title": "Implement spanish_to_id function", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "2.4", "title": "Match words to frequency data", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "2.5", "title": "Add part of speech for all words", "status": "not-started", "deliverable": null, "testRequired": false },
-        { "id": "2.6", "title": "Add gender for all nouns", "status": "not-started", "deliverable": null, "testRequired": false }
+        { "id": "2.1", "title": "Extend Word interface with new optional fields", "status": "completed", "deliverable": "svelte/src/lib/data/words.ts", "testRequired": true },
+        { "id": "2.2", "title": "Create enrich_words.py script", "status": "completed", "deliverable": "scripts/data_pipeline/enrich_words.py", "testRequired": true },
+        { "id": "2.3", "title": "Implement spanish_to_id function", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "2.4", "title": "Match words to frequency data", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "2.5", "title": "Add part of speech for all words", "status": "completed", "deliverable": null, "testRequired": false },
+        { "id": "2.6", "title": "Add gender for all nouns", "status": "completed", "deliverable": null, "testRequired": false }
       ]
     },
     {
