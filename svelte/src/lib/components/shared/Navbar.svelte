@@ -21,7 +21,7 @@
 	const gameModePaths = [
 		'/sanapeli',
 		'/yhdistasanat',
-		'/tarinat/',
+		'/tarinat',
 		'/muisti',
 		'/kuuntelu',
 		'/lukeminen',
@@ -54,6 +54,10 @@
 	}
 </script>
 
+<!-- 
+	Main navbar: visible on desktop always, hidden on mobile in game modes.
+	Game modes have their own back buttons via GameContainer.
+-->
 <nav class="navbar bg-base-100 shadow-sm" class:hidden={isInGameMode()} class:lg:flex={isInGameMode()}>
 	<div class="navbar-start">
 		<!-- Mobile hamburger menu -->

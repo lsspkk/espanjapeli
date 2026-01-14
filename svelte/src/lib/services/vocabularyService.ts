@@ -1,9 +1,9 @@
 /**
  * Vocabulary Service for Espanjapeli V4
- * 
+ *
  * Provides frequency-based vocabulary lookups and metadata.
  * Loads frequency data lazily on first use.
- * 
+ *
  * Key features:
  * - Frequency rank lookup for any Spanish word
  * - CEFR level inference based on frequency
@@ -65,17 +65,17 @@ async function loadFrequencyData(): Promise<FrequencyData | null> {
 	if (frequencyCache) {
 		return frequencyCache;
 	}
-	
+
 	// If already loading, wait for that promise
 	if (loadingPromise) {
 		return loadingPromise;
 	}
-	
+
 	// Only load in browser
 	if (!browser) {
 		return null;
 	}
-	
+
 	// Start loading
 	loadingPromise = (async () => {
 		try {
@@ -84,8 +84,8 @@ async function loadFrequencyData(): Promise<FrequencyData | null> {
 				console.error('Failed to load frequency data:', response.status);
 				return null;
 			}
-			
-			const data = await response.json() as FrequencyData;
+
+			const data = (await response.json()) as FrequencyData;
 			frequencyCache = data;
 			console.log(`📚 Loaded frequency data: ${data.wordCount} words`);
 			return data;
@@ -96,7 +96,7 @@ async function loadFrequencyData(): Promise<FrequencyData | null> {
 			loadingPromise = null;
 		}
 	})();
-	
+
 	return loadingPromise;
 }
 
@@ -107,11 +107,11 @@ async function loadFrequencyData(): Promise<FrequencyData | null> {
 export async function getFrequencyEntry(spanish: string): Promise<FrequencyEntry | null> {
 	const data = await loadFrequencyData();
 	if (!data) return null;
-	
+
 	// Try exact match first
 	const entry = data.words[spanish.toLowerCase()];
 	if (entry) return entry;
-	
+
 	// No match found
 	return null;
 }
@@ -140,14 +140,20 @@ export async function getCEFRLevel(spanish: string): Promise<string | null> {
 export async function isInTopN(spanish: string, n: number): Promise<boolean> {
 	const entry = await getFrequencyEntry(spanish);
 	if (!entry) return false;
-	
+
 	switch (n) {
-		case 100: return entry.isTop100;
-		case 500: return entry.isTop500;
-		case 1000: return entry.isTop1000;
-		case 3000: return entry.isTop3000;
-		case 5000: return entry.isTop5000;
-		default: return entry.rank <= n;
+		case 100:
+			return entry.isTop100;
+		case 500:
+			return entry.isTop500;
+		case 1000:
+			return entry.isTop1000;
+		case 3000:
+			return entry.isTop3000;
+		case 5000:
+			return entry.isTop5000;
+		default:
+			return entry.rank <= n;
 	}
 }
 
@@ -156,7 +162,7 @@ export async function isInTopN(spanish: string, n: number): Promise<boolean> {
  */
 export async function getWordMetadata(spanish: string): Promise<WordMetadata> {
 	const entry = await getFrequencyEntry(spanish);
-	
+
 	if (!entry) {
 		return {
 			spanish,
@@ -170,7 +176,7 @@ export async function getWordMetadata(spanish: string): Promise<WordMetadata> {
 			isInFrequencyData: false
 		};
 	}
-	
+
 	return {
 		spanish,
 		frequencyRank: entry.rank,
@@ -190,10 +196,10 @@ export async function getWordMetadata(spanish: string): Promise<WordMetadata> {
 export async function getWordsMetadata(spanishWords: string[]): Promise<Map<string, WordMetadata>> {
 	const data = await loadFrequencyData();
 	const result = new Map<string, WordMetadata>();
-	
+
 	for (const spanish of spanishWords) {
 		const entry = data?.words[spanish.toLowerCase()];
-		
+
 		if (entry) {
 			result.set(spanish, {
 				spanish,
@@ -220,7 +226,7 @@ export async function getWordsMetadata(spanishWords: string[]): Promise<Map<stri
 			});
 		}
 	}
-	
+
 	return result;
 }
 
@@ -234,10 +240,14 @@ export async function preloadFrequencyData(): Promise<void> {
 /**
  * Get the frequency data source attribution
  */
-export async function getAttribution(): Promise<{ source: string; license: string; url: string } | null> {
+export async function getAttribution(): Promise<{
+	source: string;
+	license: string;
+	url: string;
+} | null> {
 	const data = await loadFrequencyData();
 	if (!data) return null;
-	
+
 	return {
 		source: data.attribution,
 		license: data.license,
@@ -248,10 +258,13 @@ export async function getAttribution(): Promise<{ source: string; license: strin
 /**
  * Get count of words in frequency data
  */
-export async function getFrequencyDataStats(): Promise<{ wordCount: number; range: string } | null> {
+export async function getFrequencyDataStats(): Promise<{
+	wordCount: number;
+	range: string;
+} | null> {
 	const data = await loadFrequencyData();
 	if (!data) return null;
-	
+
 	return {
 		wordCount: data.wordCount,
 		range: data.range
@@ -270,12 +283,32 @@ export function isFrequencyDataLoaded(): boolean {
  */
 export function getCEFRDescription(level: string): string {
 	const descriptions: Record<string, string> = {
-		'A1': 'Aloittelija',
-		'A2': 'Perustaso',
-		'B1': 'Keskitaso',
-		'B2': 'Hyvä keskitaso',
-		'C1': 'Edistynyt',
-		'C2': 'Taitava'
+		A1: 'Alkeet',
+		A2: 'Perustaso',
+		B1: 'Keskitaso',
+		B2: 'Hyvä keskitaso',
+		C1: 'Edistynyt',
+		C2: 'Taitava'
 	};
 	return descriptions[level] || level;
+}
+
+/**
+ * Get CEFR level label in different formats
+ * @param level - CEFR level (A1, A2, B1, B2, C1, C2)
+ * @param format - Label format: 'tiny' (just level), 'short' (just description), 'full' (level - description)
+ */
+export function getCEFRLabel(level: string, format: 'tiny' | 'short' | 'full' = 'full'): string {
+	const description = getCEFRDescription(level);
+
+	switch (format) {
+		case 'tiny':
+			return level;
+		case 'short':
+			return description;
+		case 'full':
+			return `${level} - ${description}`;
+		default:
+			return level;
+	}
 }

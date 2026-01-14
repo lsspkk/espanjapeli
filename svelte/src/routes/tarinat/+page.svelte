@@ -21,7 +21,7 @@
 
 	// Filters and sorting
 	let filterDifficulty: string = 'all';
-	let sortDirection: 'asc' | 'desc' = 'asc';
+	let sortDirection: 'asc' | 'desc' = 'asc'; // asc = easiest first (A1, A2, B1, B2)
 
 	// Map UI filter values to story difficulty values
 	const difficultyMap: Record<string, string> = {

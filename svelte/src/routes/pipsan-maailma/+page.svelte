@@ -5,7 +5,12 @@
 	import { generateRandomAnimation, generateDualAnimation } from '$lib/services/animationGenerator';
 	import CharacterAnimation from '$lib/components/CharacterAnimation.svelte';
 	import GameContainer from '$lib/components/shared/GameContainer.svelte';
+	import KidsVocabularyWidget from '$lib/components/kids/KidsVocabularyWidget.svelte';
 	import type { AnimationConfig } from '$lib/types/animation';
+	import { 
+		wordKnowledge, 
+		type AnswerQuality 
+	} from '$lib/stores/wordKnowledge';
 
 	interface VocabItem {
 		spanish: string;
@@ -45,6 +50,9 @@
 
 	// Word queue to avoid repeats
 	let wordQueue: VocabItem[] = $state([]);
+	
+	// Track game results for word knowledge
+	let gameResults: Array<{ spanish: string; finnish: string; quality: AnswerQuality }> = $state([]);
 
 	// Animation states
 	let showCelebration = $state(false);
@@ -246,6 +254,7 @@
 		gameEnded = false;
 		questionNumber = 0;
 		correctAnswers = 0;
+		gameResults = []; // Reset game results tracking
 		
 		// Adjust total questions based on difficulty
 		switch (difficulty) {
@@ -328,6 +337,23 @@
 		selectedAnswer = index;
 		const selected = options[index];
 		isCorrect = selected.spanish === currentWord!.spanish;
+
+		// Record answer to word knowledge store (kids mode)
+		const answerQuality: AnswerQuality = isCorrect ? 'perfect' : 'failed';
+		wordKnowledge.recordAnswer(
+			currentWord!.spanish,
+			currentWord!.finnish,
+			'spanish_to_finnish',
+			answerQuality,
+			'kids'
+		);
+		
+		// Track for game-level recording
+		gameResults.push({
+			spanish: currentWord!.spanish,
+			finnish: currentWord!.finnish,
+			quality: answerQuality
+		});
 
 		if (isCorrect) {
 			correctAnswers++;
@@ -418,6 +444,9 @@
 			timerInterval = null;
 		}
 
+		// Record complete game to word knowledge store (kids mode)
+		wordKnowledge.recordGame('peppa-vocabulary', 'spanish_to_finnish', gameResults, 'kids');
+
 		// Update statistics
 		totalGamesPlayed++;
 		totalCorrectAnswers += correctAnswers;
@@ -480,6 +509,11 @@
 </script>
 
 <GameContainer gameType="viewport-fitted" buttonMode="kids" backgroundClass="bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200" transparentCard={true} showBackButton={!gameStarted && !gameEnded} onBack={() => window.location.href = `${base}/`}>
+	<!-- Kids Vocabulary Widget (only on start screen) -->
+	{#if !gameStarted && !gameEnded && !loading}
+		<KidsVocabularyWidget />
+	{/if}
+	
 	<div class="flex flex-col h-full p-4">
 		<!-- Header - X button during game -->
 		{#if gameStarted}

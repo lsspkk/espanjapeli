@@ -12,7 +12,7 @@
  */
 
 import { get } from 'svelte/store';
-import { wordKnowledge, type WordKnowledgeData } from '$lib/stores/wordKnowledge';
+import { wordKnowledge, type WordKnowledgeData, type GameMode } from '$lib/stores/wordKnowledge';
 import { getWordsMetadata, type WordMetadata } from './vocabularyService';
 import { getAllWords, type Word } from '$lib/data/words';
 
@@ -69,7 +69,8 @@ const WEAK_THRESHOLD = 40;
 async function calculateTopNProgress(
 	knowledgeData: WordKnowledgeData,
 	n: number,
-	wordMetadataMap: Map<string, WordMetadata>
+	wordMetadataMap: Map<string, WordMetadata>,
+	mode?: GameMode
 ): Promise<TopNProgress> {
 	let known = 0;
 	
@@ -90,9 +91,25 @@ async function calculateTopNProgress(
 		
 		if (isInTopN) {
 			// Check if user knows this word (either direction)
-			const stfScore = wordData.spanish_to_finnish.score;
-			const ftsScore = wordData.finnish_to_spanish.score;
-			const bestScore = Math.max(stfScore, ftsScore);
+			// If mode specified, only check that mode; otherwise check all modes
+			let bestScore = 0;
+			
+			if (mode) {
+				const stfData = wordData.spanish_to_finnish[mode];
+				const ftsData = wordData.finnish_to_spanish[mode];
+				const stfScore = stfData?.score || 0;
+				const ftsScore = ftsData?.score || 0;
+				bestScore = Math.max(stfScore, ftsScore);
+			} else {
+				// Check all modes
+				for (const m of ['basic', 'kids'] as GameMode[]) {
+					const stfData = wordData.spanish_to_finnish[m];
+					const ftsData = wordData.finnish_to_spanish[m];
+					const stfScore = stfData?.score || 0;
+					const ftsScore = ftsData?.score || 0;
+					bestScore = Math.max(bestScore, stfScore, ftsScore);
+				}
+			}
 			
 			if (bestScore >= KNOWN_THRESHOLD) {
 				known++;
@@ -156,7 +173,7 @@ function estimateCEFRLevel(stats: {
  * This is the main function for getting user progress data.
  * It combines wordKnowledge store data with frequency metadata.
  */
-export async function calculateVocabularyStats(): Promise<VocabularyStatistics> {
+export async function calculateVocabularyStats(mode?: GameMode): Promise<VocabularyStatistics> {
 	const knowledgeData = get(wordKnowledge);
 	const allWords = getAllWords();
 	
@@ -172,18 +189,37 @@ export async function calculateVocabularyStats(): Promise<VocabularyStatistics> 
 	let totalScore = 0;
 	
 	for (const wordData of Object.values(knowledgeData.words)) {
-		const stfPracticed = wordData.spanish_to_finnish.practiceCount > 0;
-		const ftsPracticed = wordData.finnish_to_spanish.practiceCount > 0;
+		// If mode specified, only check that mode; otherwise check all modes
+		let bestScore = 0;
+		let hasPracticed = false;
 		
-		if (stfPracticed || ftsPracticed) {
+		if (mode) {
+			const stfData = wordData.spanish_to_finnish[mode];
+			const ftsData = wordData.finnish_to_spanish[mode];
+			const stfPracticed = stfData && stfData.practiceCount > 0;
+			const ftsPracticed = ftsData && ftsData.practiceCount > 0;
+			
+			if (stfPracticed || ftsPracticed) {
+				hasPracticed = true;
+				bestScore = Math.max(stfData?.score || 0, ftsData?.score || 0);
+			}
+		} else {
+			// Check all modes
+			for (const m of ['basic', 'kids'] as GameMode[]) {
+				const stfData = wordData.spanish_to_finnish[m];
+				const ftsData = wordData.finnish_to_spanish[m];
+				const stfPracticed = stfData && stfData.practiceCount > 0;
+				const ftsPracticed = ftsData && ftsData.practiceCount > 0;
+				
+				if (stfPracticed || ftsPracticed) {
+					hasPracticed = true;
+					bestScore = Math.max(bestScore, stfData?.score || 0, ftsData?.score || 0);
+				}
+			}
+		}
+		
+		if (hasPracticed) {
 			totalPracticed++;
-			
-			// Use best score from either direction
-			const bestScore = Math.max(
-				wordData.spanish_to_finnish.score,
-				wordData.finnish_to_spanish.score
-			);
-			
 			totalScore += bestScore;
 			
 			if (bestScore >= MASTERED_THRESHOLD) {
@@ -200,10 +236,10 @@ export async function calculateVocabularyStats(): Promise<VocabularyStatistics> 
 	const averageScore = totalPracticed > 0 ? Math.round(totalScore / totalPracticed) : 0;
 	
 	// Calculate top-N progress
-	const top100 = await calculateTopNProgress(knowledgeData, 100, wordMetadataMap);
-	const top500 = await calculateTopNProgress(knowledgeData, 500, wordMetadataMap);
-	const top1000 = await calculateTopNProgress(knowledgeData, 1000, wordMetadataMap);
-	const top5000 = await calculateTopNProgress(knowledgeData, 5000, wordMetadataMap);
+	const top100 = await calculateTopNProgress(knowledgeData, 100, wordMetadataMap, mode);
+	const top500 = await calculateTopNProgress(knowledgeData, 500, wordMetadataMap, mode);
+	const top1000 = await calculateTopNProgress(knowledgeData, 1000, wordMetadataMap, mode);
+	const top5000 = await calculateTopNProgress(knowledgeData, 5000, wordMetadataMap, mode);
 	
 	// Estimate CEFR level
 	const estimatedLevel = estimateCEFRLevel({
@@ -223,6 +259,12 @@ export async function calculateVocabularyStats(): Promise<VocabularyStatistics> 
 		}
 	}
 	
+	const totalGamesPlayed = mode === 'basic'
+		? knowledgeData.meta.basicGamesPlayed
+		: mode === 'kids'
+			? knowledgeData.meta.kidsGamesPlayed
+			: knowledgeData.meta.totalGamesPlayed;
+	
 	return {
 		totalPracticed,
 		wordsKnown,
@@ -236,7 +278,7 @@ export async function calculateVocabularyStats(): Promise<VocabularyStatistics> 
 		},
 		estimatedLevel,
 		averageScore,
-		totalGamesPlayed: knowledgeData.meta.totalGamesPlayed,
+		totalGamesPlayed,
 		vocabularyCoverage: {
 			inFrequencyData,
 			total: allWords.length,
@@ -248,51 +290,51 @@ export async function calculateVocabularyStats(): Promise<VocabularyStatistics> 
 /**
  * Get progress for top 100 words
  */
-export async function getTop100Progress(): Promise<TopNProgress> {
+export async function getTop100Progress(mode?: GameMode): Promise<TopNProgress> {
 	const knowledgeData = get(wordKnowledge);
 	const practicedSpanish = Object.keys(knowledgeData.words);
 	const wordMetadataMap = await getWordsMetadata(practicedSpanish);
-	return calculateTopNProgress(knowledgeData, 100, wordMetadataMap);
+	return calculateTopNProgress(knowledgeData, 100, wordMetadataMap, mode);
 }
 
 /**
  * Get progress for top 500 words
  */
-export async function getTop500Progress(): Promise<TopNProgress> {
+export async function getTop500Progress(mode?: GameMode): Promise<TopNProgress> {
 	const knowledgeData = get(wordKnowledge);
 	const practicedSpanish = Object.keys(knowledgeData.words);
 	const wordMetadataMap = await getWordsMetadata(practicedSpanish);
-	return calculateTopNProgress(knowledgeData, 500, wordMetadataMap);
+	return calculateTopNProgress(knowledgeData, 500, wordMetadataMap, mode);
 }
 
 /**
  * Get progress for top 1000 words
  */
-export async function getTop1000Progress(): Promise<TopNProgress> {
+export async function getTop1000Progress(mode?: GameMode): Promise<TopNProgress> {
 	const knowledgeData = get(wordKnowledge);
 	const practicedSpanish = Object.keys(knowledgeData.words);
 	const wordMetadataMap = await getWordsMetadata(practicedSpanish);
-	return calculateTopNProgress(knowledgeData, 1000, wordMetadataMap);
+	return calculateTopNProgress(knowledgeData, 1000, wordMetadataMap, mode);
 }
 
 /**
  * Get estimated CEFR level
  */
-export async function getEstimatedLevel(): Promise<'A1' | 'A2' | 'B1' | 'B2' | 'C1'> {
-	const stats = await calculateVocabularyStats();
+export async function getEstimatedLevel(mode?: GameMode): Promise<'A1' | 'A2' | 'B1' | 'B2' | 'C1'> {
+	const stats = await calculateVocabularyStats(mode);
 	return stats.estimatedLevel;
 }
 
 /**
  * Get next learning milestone
  */
-export async function getNextMilestone(): Promise<{
+export async function getNextMilestone(mode?: GameMode): Promise<{
 	type: 'top100' | 'top500' | 'top1000' | 'words_known';
 	current: number;
 	target: number;
 	description: string;
 } | null> {
-	const stats = await calculateVocabularyStats();
+	const stats = await calculateVocabularyStats(mode);
 	
 	// Check milestones in order
 	if (stats.topNProgress.top100.percentage < 50) {
@@ -329,8 +371,8 @@ export async function getNextMilestone(): Promise<{
 /**
  * Get a summary message for current progress
  */
-export async function getProgressSummary(): Promise<string> {
-	const stats = await calculateVocabularyStats();
+export async function getProgressSummary(mode?: GameMode): Promise<string> {
+	const stats = await calculateVocabularyStats(mode);
 	
 	if (stats.totalPracticed === 0) {
 		return 'Start learning! Practice your first words.';
@@ -349,4 +391,98 @@ export async function getProgressSummary(): Promise<string> {
 	}
 	
 	return `Amazing! ${stats.wordsKnown} words known. Level: ${stats.estimatedLevel}. ${stats.wordsMastered} mastered!`;
+}
+
+/**
+ * Kids-specific statistics interface
+ */
+export interface KidsVocabularyStatistics {
+	totalWordsPracticed: number;
+	wordsKnown: number;
+	wordsMastered: number;
+	totalGamesPlayed: number;
+	averageScore: number;
+	recentProgress: {
+		last7Days: number;
+		last30Days: number;
+	};
+	encouragementMessage: string;
+	nextMilestone: {
+		description: string;
+		current: number;
+		target: number;
+		percentage: number;
+	};
+}
+
+/**
+ * Calculate kids-specific vocabulary statistics
+ */
+export async function calculateKidsVocabularyStats(): Promise<KidsVocabularyStatistics> {
+	const stats = await calculateVocabularyStats('kids');
+	
+	// Generate encouragement message based on progress
+	let encouragementMessage = 'Aloitetaan oppimaan!';
+	if (stats.wordsKnown >= 50) {
+		encouragementMessage = 'Mahtavaa! Olet oppinut paljon sanoja!';
+	} else if (stats.wordsKnown >= 20) {
+		encouragementMessage = 'Hienoa työtä! Jatka samaan malliin!';
+	} else if (stats.wordsKnown >= 5) {
+		encouragementMessage = 'Hyvä alku! Opit nopeasti!';
+	} else if (stats.wordsKnown > 0) {
+		encouragementMessage = 'Hienoa! Ensimmäiset sanat opittu!';
+	}
+	
+	// Calculate next milestone
+	let nextMilestone = {
+		description: 'Opi 10 ensimmäistä sanaa',
+		current: stats.wordsKnown,
+		target: 10,
+		percentage: Math.round((stats.wordsKnown / 10) * 100)
+	};
+	
+	if (stats.wordsKnown >= 10) {
+		nextMilestone = {
+			description: 'Opi 25 sanaa',
+			current: stats.wordsKnown,
+			target: 25,
+			percentage: Math.round((stats.wordsKnown / 25) * 100)
+		};
+	}
+	
+	if (stats.wordsKnown >= 25) {
+		nextMilestone = {
+			description: 'Opi 50 sanaa',
+			current: stats.wordsKnown,
+			target: 50,
+			percentage: Math.round((stats.wordsKnown / 50) * 100)
+		};
+	}
+	
+	if (stats.wordsKnown >= 50) {
+		nextMilestone = {
+			description: 'Opi 100 sanaa',
+			current: stats.wordsKnown,
+			target: 100,
+			percentage: Math.round((stats.wordsKnown / 100) * 100)
+		};
+	}
+	
+	// TODO: Calculate recent progress (requires timestamp tracking)
+	// For now, return placeholder values
+	const recentProgress = {
+		last7Days: 0,
+		last30Days: 0
+	};
+	
+	return {
+		totalWordsPracticed: stats.totalPracticed,
+		wordsKnown: stats.wordsKnown,
+		wordsMastered: stats.wordsMastered,
+		totalGamesPlayed: stats.totalGamesPlayed,
+		averageScore: stats.averageScore,
+		recentProgress,
+		encouragementMessage,
+		nextMilestone
+	};
 }

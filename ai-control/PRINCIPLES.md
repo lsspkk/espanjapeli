@@ -120,12 +120,15 @@ Keep tests simple. Prefer integration tests over unit tests. Do not aim for 100%
 Test what users do, not how code works internally.
 
 Commands:
-	npm test              - Run all tests
-	npm run test:watch    - Watch mode
-	npm run test:ui       - Visual test runner
+	npm test -- --run <file>  - Run specific test file during development (non-interactive)
+	npm test                  - Run all tests to verify task completion
+
+Interactive modes (do not use for agents):
+	npm run test:watch        - Watch mode (requires user interaction)
+	npm run test:ui           - Visual test runner (requires user interaction)
 
 
-## Python Scripts
+## Use Python venv and Scripts folder
 
 All Python scripts live in `scripts/` folder. Use the project venv:
 	source venv/bin/activate (or use existing venv in project root)

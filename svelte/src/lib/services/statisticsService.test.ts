@@ -144,3 +144,35 @@ describe('VocabularyStatistics structure', () => {
 		expect(stats).toHaveProperty('vocabularyCoverage');
 	});
 });
+
+describe('KidsVocabularyStatistics structure', () => {
+	it('has all required fields', () => {
+		const stats = {
+			totalWordsPracticed: 0,
+			wordsKnown: 0,
+			wordsMastered: 0,
+			totalGamesPlayed: 0,
+			averageScore: 0,
+			recentProgress: {
+				last7Days: 0,
+				last30Days: 0
+			},
+			encouragementMessage: '',
+			nextMilestone: {
+				description: '',
+				current: 0,
+				target: 0,
+				percentage: 0
+			}
+		};
+		
+		expect(stats).toHaveProperty('totalWordsPracticed');
+		expect(stats).toHaveProperty('wordsKnown');
+		expect(stats).toHaveProperty('wordsMastered');
+		expect(stats).toHaveProperty('totalGamesPlayed');
+		expect(stats).toHaveProperty('averageScore');
+		expect(stats).toHaveProperty('recentProgress');
+		expect(stats).toHaveProperty('encouragementMessage');
+		expect(stats).toHaveProperty('nextMilestone');
+	});
+});

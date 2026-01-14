@@ -35,15 +35,15 @@ vi.mock('$lib/stores/wordKnowledge', () => ({
 			callback({
 				version: 1,
 				words: {
-					'hola': {
+					hola: {
 						spanish_to_finnish: { score: 85, practiceCount: 5 },
 						finnish_to_spanish: { score: 75, practiceCount: 3 }
 					},
-					'adiós': {
+					adiós: {
 						spanish_to_finnish: { score: 65, practiceCount: 4 },
 						finnish_to_spanish: { score: 55, practiceCount: 2 }
 					},
-					'gracias': {
+					gracias: {
 						spanish_to_finnish: { score: 45, practiceCount: 2 },
 						finnish_to_spanish: { score: 35, practiceCount: 1 }
 					}
@@ -94,7 +94,7 @@ vi.mock('$lib/services/statisticsService', () => ({
 vi.mock('$lib/services/vocabularyService', () => ({
 	getCEFRDescription: vi.fn((level: string) => {
 		const descriptions: Record<string, string> = {
-			A1: 'Aloittelija',
+			A1: 'Alkeet',
 			A2: 'Beginner',
 			B1: 'Intermediate',
 			B2: 'Upper Intermediate',
@@ -215,15 +215,15 @@ describe('Sanasto Page', () => {
 
 	it('opens dialog when practiced words is clicked', async () => {
 		render(SanastoPage);
-		
+
 		await waitFor(() => {
 			const practicedButton = screen.getByRole('button', { name: /Harjoitellut sanat/i });
 			expect(practicedButton).toBeTruthy();
 		});
-		
+
 		const practicedButton = screen.getByRole('button', { name: /Harjoitellut sanat/i });
 		await fireEvent.click(practicedButton);
-		
+
 		await waitFor(() => {
 			expect(screen.getByRole('dialog')).toBeTruthy();
 			// Check for dialog title specifically
@@ -234,15 +234,15 @@ describe('Sanasto Page', () => {
 
 	it('opens dialog when known words is clicked', async () => {
 		render(SanastoPage);
-		
+
 		await waitFor(() => {
 			const knownButton = screen.getByRole('button', { name: /Osatut sanat/i });
 			expect(knownButton).toBeTruthy();
 		});
-		
+
 		const knownButton = screen.getByRole('button', { name: /Osatut sanat/i });
 		await fireEvent.click(knownButton);
-		
+
 		await waitFor(() => {
 			expect(screen.getByRole('dialog')).toBeTruthy();
 			// Check for dialog title specifically
@@ -253,15 +253,15 @@ describe('Sanasto Page', () => {
 
 	it('opens dialog when mastered words is clicked', async () => {
 		render(SanastoPage);
-		
+
 		await waitFor(() => {
 			const masteredButton = screen.getByRole('button', { name: /Hallitut sanat/i });
 			expect(masteredButton).toBeTruthy();
 		});
-		
+
 		const masteredButton = screen.getByRole('button', { name: /Hallitut sanat/i });
 		await fireEvent.click(masteredButton);
-		
+
 		await waitFor(() => {
 			expect(screen.getByRole('dialog')).toBeTruthy();
 			// Check for dialog title specifically
