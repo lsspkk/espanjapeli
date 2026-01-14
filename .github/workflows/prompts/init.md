@@ -48,12 +48,6 @@ For each significant component, document:
 
 **C. Services & Business Logic**
 Analyze services in `svelte/src/lib/services/`:
-- `peppaStatistics.ts` - Learning metrics tracking
-- `tts.ts` - Audio/speech synthesis
-- `animationGenerator.ts` - Character animations
-- `characterAnimation.ts` - Animation rendering
-- `storyLoader.ts` - Content loading (if relevant)
-- Any other services used by AR modes
 
 For each service:
 - Core functionality
@@ -71,8 +65,8 @@ Document interfaces and types used across AR modes:
 
 **E. Data Pipeline**
 Investigate how content is created and loaded:
-- Image generation scripts (`scripts/generate_peppa_images.py`)
-- Manifest structure (`image_manifest.json`)
+- Image generation scripts in the scripts folder
+- Manifest structures
 - Translation caching
 - Asset organization in `svelte/static/`
 
@@ -283,7 +277,7 @@ Use ASCII art for flow diagrams:
 
 Before finalizing the document, ensure:
 
-- [ ] All major AR/image game components are documented
+- [ ] All game components are documented
 - [ ] Data flow is clearly explained with diagrams
 - [ ] Key interfaces are included with full type definitions
 - [ ] Service layer is thoroughly documented
