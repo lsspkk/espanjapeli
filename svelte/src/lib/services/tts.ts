@@ -2,17 +2,23 @@
 // Ported from vanilla JS to TypeScript for Svelte
 
 import { browser } from '$app/environment';
+import { ttsSettings, type TTSSettings } from '$lib/stores/ttsSettings';
 
 class TTSService {
 	private speechSynthesis: SpeechSynthesis | null = null;
 	private spanishVoice: SpeechSynthesisVoice | null = null;
 	private finnishVoice: SpeechSynthesisVoice | null = null;
 	private initialized = false;
+	private settings: TTSSettings = { rate: 0.8, pitch: 1.0, volume: 1.0, autoSpeak: true };
 
 	constructor() {
 		if (browser) {
 			this.speechSynthesis = window.speechSynthesis;
 			this.init();
+			// Subscribe to settings changes
+			ttsSettings.subscribe((s) => {
+				this.settings = s;
+			});
 		}
 	}
 
@@ -65,9 +71,9 @@ class TTSService {
 
 		const utterance = new SpeechSynthesisUtterance(text);
 		utterance.lang = 'es-ES';
-		utterance.rate = 0.8; // Slightly slower for learning
-		utterance.pitch = 1.0;
-		utterance.volume = 1.0;
+		utterance.rate = this.settings.rate;
+		utterance.pitch = this.settings.pitch;
+		utterance.volume = this.settings.volume;
 
 		if (this.spanishVoice) {
 			utterance.voice = this.spanishVoice;
@@ -89,9 +95,9 @@ class TTSService {
 
 		const utterance = new SpeechSynthesisUtterance(text);
 		utterance.lang = 'fi-FI';
-		utterance.rate = 0.9;
-		utterance.pitch = 1.0;
-		utterance.volume = 1.0;
+		utterance.rate = this.settings.rate + 0.1; // Finnish slightly faster
+		utterance.pitch = this.settings.pitch;
+		utterance.volume = this.settings.volume;
 
 		if (this.finnishVoice) {
 			utterance.voice = this.finnishVoice;
@@ -115,9 +121,9 @@ class TTSService {
 		// Create Spanish utterance
 		const spanishUtterance = new SpeechSynthesisUtterance(spanishText);
 		spanishUtterance.lang = 'es-ES';
-		spanishUtterance.rate = 0.8;
-		spanishUtterance.pitch = 1.0;
-		spanishUtterance.volume = 1.0;
+		spanishUtterance.rate = this.settings.rate;
+		spanishUtterance.pitch = this.settings.pitch;
+		spanishUtterance.volume = this.settings.volume;
 
 		if (this.spanishVoice) {
 			spanishUtterance.voice = this.spanishVoice;
@@ -126,9 +132,9 @@ class TTSService {
 		// Create Finnish utterance
 		const finnishUtterance = new SpeechSynthesisUtterance(finnishText);
 		finnishUtterance.lang = 'fi-FI';
-		finnishUtterance.rate = 0.9;
-		finnishUtterance.pitch = 1.0;
-		finnishUtterance.volume = 1.0;
+		finnishUtterance.rate = this.settings.rate + 0.1;
+		finnishUtterance.pitch = this.settings.pitch;
+		finnishUtterance.volume = this.settings.volume;
 
 		if (this.finnishVoice) {
 			finnishUtterance.voice = this.finnishVoice;

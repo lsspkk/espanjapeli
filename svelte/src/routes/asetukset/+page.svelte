@@ -2,6 +2,31 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import PeppaStatsViewer from '$lib/components/PeppaStatsViewer.svelte';
+	import { ttsSettings } from '$lib/stores/ttsSettings';
+	import { tts } from '$lib/services/tts';
+	import { theme, availableThemes } from '$lib/stores/theme';
+
+	let currentTheme = $state('light');
+
+	$effect(() => {
+		const unsubscribe = theme.subscribe((t) => {
+			currentTheme = t;
+		});
+		return unsubscribe;
+	});
+
+	let currentTtsSettings = $state({ rate: 0.8, pitch: 1.0, volume: 1.0, autoSpeak: true });
+
+	$effect(() => {
+		const unsubscribe = ttsSettings.subscribe((s) => {
+			currentTtsSettings = s;
+		});
+		return unsubscribe;
+	});
+
+	function testTTS() {
+		tts.speakSpanish('Hola, ¿cómo estás?');
+	}
 
 	let stats = $state({
 		gamesPlayed: 0,
@@ -198,6 +223,140 @@
 						<span>Tietojen koko:</span>
 						<span class="font-bold">{stats.dataSize}</span>
 					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- TTS Settings Card -->
+		<div class="card mb-6 bg-base-100 shadow-xl">
+			<div class="card-body">
+				<h2 class="card-title">🔊 Puhesynteesi (TTS)</h2>
+				<p class="text-sm text-base-content/70">
+					Säädä tekstistä puheeksi -asetuksia
+				</p>
+
+				<div class="divider"></div>
+
+				<div class="space-y-4">
+					<!-- Speech Rate -->
+					<div class="form-control">
+						<label class="label" for="tts-rate">
+							<span class="label-text">Puhenopeus</span>
+							<span class="label-text-alt">{currentTtsSettings.rate.toFixed(1)}x</span>
+						</label>
+						<input
+							id="tts-rate"
+							type="range"
+							min="0.5"
+							max="1.5"
+							step="0.1"
+							value={currentTtsSettings.rate}
+							onchange={(e) => ttsSettings.setRate(parseFloat((e.target as HTMLInputElement).value))}
+							class="range range-primary"
+						/>
+						<div class="flex justify-between text-xs px-2 text-base-content/50">
+							<span>Hidas</span>
+							<span>Normaali</span>
+							<span>Nopea</span>
+						</div>
+					</div>
+
+					<!-- Pitch -->
+					<div class="form-control">
+						<label class="label" for="tts-pitch">
+							<span class="label-text">Äänenkorkeus</span>
+							<span class="label-text-alt">{currentTtsSettings.pitch.toFixed(1)}</span>
+						</label>
+						<input
+							id="tts-pitch"
+							type="range"
+							min="0.5"
+							max="1.5"
+							step="0.1"
+							value={currentTtsSettings.pitch}
+							onchange={(e) => ttsSettings.setPitch(parseFloat((e.target as HTMLInputElement).value))}
+							class="range range-secondary"
+						/>
+						<div class="flex justify-between text-xs px-2 text-base-content/50">
+							<span>Matala</span>
+							<span>Normaali</span>
+							<span>Korkea</span>
+						</div>
+					</div>
+
+					<!-- Volume -->
+					<div class="form-control">
+						<label class="label" for="tts-volume">
+							<span class="label-text">Äänenvoimakkuus</span>
+							<span class="label-text-alt">{Math.round(currentTtsSettings.volume * 100)}%</span>
+						</label>
+						<input
+							id="tts-volume"
+							type="range"
+							min="0"
+							max="1"
+							step="0.1"
+							value={currentTtsSettings.volume}
+							onchange={(e) => ttsSettings.setVolume(parseFloat((e.target as HTMLInputElement).value))}
+							class="range range-accent"
+						/>
+					</div>
+
+					<!-- Auto-speak toggle -->
+					<div class="form-control">
+						<label class="label cursor-pointer">
+							<span class="label-text">Automaattinen ääntäminen</span>
+							<input
+								type="checkbox"
+								checked={currentTtsSettings.autoSpeak}
+								onchange={(e) => ttsSettings.setAutoSpeak((e.target as HTMLInputElement).checked)}
+								class="toggle toggle-primary"
+							/>
+						</label>
+						<p class="text-xs text-base-content/50 ml-1">
+							Ääntää uudet sanat automaattisesti peleissä
+						</p>
+					</div>
+
+					<!-- Test button -->
+					<div class="flex gap-2 mt-4">
+						<button class="btn btn-outline btn-sm" onclick={testTTS}>
+							🔊 Testaa
+						</button>
+						<button class="btn btn-ghost btn-sm" onclick={() => ttsSettings.reset()}>
+							Palauta oletukset
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Theme Selection Card -->
+		<div class="card mb-6 bg-base-100 shadow-xl">
+			<div class="card-body">
+				<h2 class="card-title">🎨 Teema</h2>
+				<p class="text-sm text-base-content/70">
+					Valitse sovelluksen ulkoasu
+				</p>
+
+				<div class="divider"></div>
+
+				<div class="grid grid-cols-2 gap-2 sm:grid-cols-3">
+					{#each availableThemes as themeOption}
+						<button
+							class="btn btn-sm {currentTheme === themeOption.value ? 'btn-primary' : 'btn-ghost'}"
+							onclick={() => theme.set(themeOption.value)}
+						>
+							<span>{themeOption.emoji}</span>
+							<span class="text-xs">{themeOption.name}</span>
+						</button>
+					{/each}
+				</div>
+
+				<div class="mt-4">
+					<button class="btn btn-ghost btn-sm" onclick={() => theme.reset()}>
+						Palauta oletusteema
+					</button>
 				</div>
 			</div>
 		</div>
