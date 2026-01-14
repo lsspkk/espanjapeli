@@ -1064,6 +1064,28 @@ LOCALSTORAGE KEYS:
 - espanjapeli_milestones: achieved milestones
 
 ================================================================================
+AI DEVELOPMENT ASSISTANCE
+================================================================================
+
+This project uses AI assistance (Claude, GPT-4, etc.) for development planning
+and implementation. To maintain consistency and quality:
+
+PROMPT MANAGEMENT:
+- All major AI prompts are stored in ai-control/prompts/
+- Prompts include context files and specific requirements
+
+AI-CONTROL FOLDER STRUCTURE:
+ai-control/
+├── prompts/
+│   ├── whaever.md
+│   ├── task-05-navigation-bar.md
+│   └── ... (various prompts)
+├── context/
+│   ├── PRINCIPLES.md
+│   └── ROADMAP.md
+
+
+================================================================================
 END OF V4 TODO LIST
 ================================================================================
 

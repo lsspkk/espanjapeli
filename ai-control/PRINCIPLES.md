@@ -125,3 +125,25 @@ Commands:
 	npm run test:ui       - Visual test runner
 
 
+## Python Scripts
+
+All Python scripts live in `scripts/` folder. Use the project venv:
+	source venv/bin/activate (or use existing venv in project root)
+	pip install packages as needed
+
+Scripts are for data processing, not runtime. They generate static JSON files.
+Test Python scripts with pytest. Place tests in same folder as scripts.
+Name test files: test_<script_name>.py
+
+
+## Data Model and Material
+
+Static JSON files only. No backend, no database. All data bundled in svelte/static/.
+User progress stored in localStorage. Keep payload sizes reasonable (<1MB initial load).
+
+Content sources must be open source (CC-BY, CC-BY-SA). Attribute all sources on /tietoja page.
+Frequency data: top 5000 words sufficient for A1-B2 learners. Generate tiered files for lazy loading.
+
+Story content organized by CEFR level (A1, A2, B1). Manifest file lists metadata, individual stories loaded on demand.
+
+

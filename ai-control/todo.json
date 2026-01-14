@@ -1,0 +1,295 @@
+{
+  "version": "4.0.0",
+  "lastUpdated": "2026-01-14",
+  "humanReadable": "TODO.txt",
+  "datamodelDocs": [
+    "docs/V4_DATAMODEL_IDEAS_improved.md - Comprehensive datamodel analysis and recommendations",
+    "docs/V4_DATAMODEL_IDEAS.md - Original datamodel evaluation"
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Download and Process Frequency Datasets",
+      "todoTxtRef": "TASK 1: Download and Process Open-Source Frequency Datasets (TODO.txt lines 13-155)",
+      "datamodelRef": "See docs/V4_DATAMODEL_IDEAS_improved.md for frequency-based learning rationale",
+      "priority": 1,
+      "status": "not-started",
+      "estimatedHours": 5,
+      "dependencies": [],
+      "subtasks": [
+        { "id": "1.1", "title": "Create download_frequency.py script", "status": "not-started", "deliverable": "scripts/data_pipeline/download_frequency.py", "testRequired": true },
+        { "id": "1.2", "title": "Download Spanish 50k frequency list", "status": "not-started", "deliverable": null, "testRequired": false },
+        { "id": "1.3", "title": "Filter to top 5000 and generate tiered files", "status": "not-started", "deliverable": "svelte/static/data/frequency-spanish-top1000.json", "testRequired": true },
+        { "id": "1.4", "title": "Generate top 5000 Spanish file", "status": "not-started", "deliverable": "svelte/static/data/frequency-spanish-top5000.json", "testRequired": true },
+        { "id": "1.5", "title": "Download and generate Finnish frequency file", "status": "not-started", "deliverable": "svelte/static/data/frequency-finnish-top5000.json", "testRequired": true },
+        { "id": "1.6", "title": "Create measure_data_size.py script", "status": "not-started", "deliverable": "scripts/data_pipeline/measure_data_size.py", "testRequired": true },
+        { "id": "1.7", "title": "Create README for data pipeline", "status": "not-started", "deliverable": "scripts/data_pipeline/README.md", "testRequired": false }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Enhance words.ts with Frequency and Metadata",
+      "todoTxtRef": "TASK 2: Enhance Existing words.ts with Frequency and Metadata (TODO.txt lines 158-277)",
+      "datamodelRef": "See docs/V4_DATAMODEL_IDEAS_improved.md for vocabulary metadata standards",
+      "priority": 1,
+      "status": "not-started",
+      "estimatedHours": 6,
+      "dependencies": [1],
+      "subtasks": [
+        { "id": "2.1", "title": "Extend Word interface with new optional fields", "status": "not-started", "deliverable": "svelte/src/lib/data/words.ts", "testRequired": true },
+        { "id": "2.2", "title": "Create enrich_words.py script", "status": "not-started", "deliverable": "scripts/data_pipeline/enrich_words.py", "testRequired": true },
+        { "id": "2.3", "title": "Implement spanish_to_id function", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "2.4", "title": "Match words to frequency data", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "2.5", "title": "Add part of speech for all words", "status": "not-started", "deliverable": null, "testRequired": false },
+        { "id": "2.6", "title": "Add gender for all nouns", "status": "not-started", "deliverable": null, "testRequired": false }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Create Vocabulary and Statistics Services",
+      "todoTxtRef": "TASK 3: Create Vocabulary Service and Statistics Calculation (TODO.txt lines 280-346)",
+      "priority": 1,
+      "status": "not-started",
+      "estimatedHours": 5,
+      "dependencies": [2],
+      "subtasks": [
+        { "id": "3.1", "title": "Create vocabularyService.ts", "status": "not-started", "deliverable": "svelte/src/lib/services/vocabularyService.ts", "testRequired": true },
+        { "id": "3.2", "title": "Implement frequency lookup functions", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "3.3", "title": "Create statisticsService.ts", "status": "not-started", "deliverable": "svelte/src/lib/services/statisticsService.ts", "testRequired": true },
+        { "id": "3.4", "title": "Implement progress calculations", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "3.5", "title": "Integrate with wordKnowledge store", "status": "not-started", "deliverable": null, "testRequired": true }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Create Licenses Page and Data Attribution",
+      "todoTxtRef": "TASK 4: Create Licenses Page and Data Attribution (TODO.txt lines 349-390)",
+      "priority": 1,
+      "status": "not-started",
+      "estimatedHours": 4,
+      "dependencies": [],
+      "subtasks": [
+        { "id": "4.1", "title": "Create /tietoja route", "status": "not-started", "deliverable": "svelte/src/routes/tietoja/+page.svelte", "testRequired": true },
+        { "id": "4.2", "title": "Create licenses data file", "status": "not-started", "deliverable": "svelte/src/lib/data/licenses.ts", "testRequired": false },
+        { "id": "4.3", "title": "Display data source attributions", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "4.4", "title": "Display software licenses from package.json", "status": "not-started", "deliverable": null, "testRequired": true }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Implement Navigation Bar and App Menu",
+      "todoTxtRef": "TASK 5: Implement Navigation Bar and App Menu (TODO.txt lines 398-444)",
+      "priority": 2,
+      "status": "not-started",
+      "estimatedHours": 5,
+      "dependencies": [4],
+      "subtasks": [
+        { "id": "5.1", "title": "Create Navbar.svelte with DaisyUI", "status": "not-started", "deliverable": "svelte/src/lib/components/shared/Navbar.svelte", "testRequired": true },
+        { "id": "5.2", "title": "Implement mobile hamburger menu", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "5.3", "title": "Add active page highlighting", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "5.4", "title": "Integrate into +layout.svelte", "status": "not-started", "deliverable": "svelte/src/routes/+layout.svelte", "testRequired": true }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Create Settings Page and User Preferences",
+      "todoTxtRef": "TASK 6: Create Settings Page and User Preferences (TODO.txt lines 447-488)",
+      "priority": 2,
+      "status": "not-started",
+      "estimatedHours": 5,
+      "dependencies": [5],
+      "subtasks": [
+        { "id": "6.1", "title": "Create /asetukset route", "status": "not-started", "deliverable": "svelte/src/routes/asetukset/+page.svelte", "testRequired": true },
+        { "id": "6.2", "title": "Add TTS settings controls", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "6.3", "title": "Add theme selection", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "6.4", "title": "Implement data export (JSON download)", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "6.5", "title": "Implement data import (file upload)", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "6.6", "title": "Add reset progress with confirmation", "status": "not-started", "deliverable": null, "testRequired": true }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Create Vocabulary Statistics Page",
+      "todoTxtRef": "TASK 7: Create Vocabulary Statistics Page (TODO.txt lines 496-551)",
+      "priority": 3,
+      "status": "not-started",
+      "estimatedHours": 5,
+      "dependencies": [3],
+      "subtasks": [
+        { "id": "7.1", "title": "Create /sanasto route", "status": "not-started", "deliverable": "svelte/src/routes/sanasto/+page.svelte", "testRequired": true },
+        { "id": "7.2", "title": "Display total words learned", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "7.3", "title": "Create progress bars for top N", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "7.4", "title": "Display estimated CEFR level", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "7.5", "title": "Show next milestone", "status": "not-started", "deliverable": null, "testRequired": true }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Add Progress Widget to Home Page",
+      "todoTxtRef": "TASK 8: Add Progress Widget to Home Page (TODO.txt lines 554-585)",
+      "priority": 3,
+      "status": "not-started",
+      "estimatedHours": 4,
+      "dependencies": [7],
+      "subtasks": [
+        { "id": "8.1", "title": "Create VocabularyProgressWidget.svelte", "status": "not-started", "deliverable": "svelte/src/lib/components/shared/VocabularyProgressWidget.svelte", "testRequired": true },
+        { "id": "8.2", "title": "Integrate with home page", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "8.3", "title": "Implement async loading", "status": "not-started", "deliverable": null, "testRequired": true }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Restructure Story Files with Manifest",
+      "todoTxtRef": "TASK 9: Restructure Story Files with Simple Manifest (TODO.txt lines 593-656)",
+      "priority": 4,
+      "status": "not-started",
+      "estimatedHours": 6,
+      "dependencies": [2],
+      "subtasks": [
+        { "id": "9.1", "title": "Create directory structure (a1/a2/b1)", "status": "not-started", "deliverable": "svelte/static/stories/", "testRequired": false },
+        { "id": "9.2", "title": "Create stories/manifest.json", "status": "not-started", "deliverable": "svelte/static/stories/manifest.json", "testRequired": true },
+        { "id": "9.3", "title": "Create migration script for existing stories", "status": "not-started", "deliverable": "scripts/migrate_stories.py", "testRequired": true },
+        { "id": "9.4", "title": "Update storyLoader.ts for lazy loading", "status": "not-started", "deliverable": "svelte/src/lib/services/storyLoader.ts", "testRequired": true }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Update Story Types for V4 Data Model",
+      "todoTxtRef": "TASK 10: Update Story Types for V4 Data Model (TODO.txt lines 659-715)",
+      "priority": 4,
+      "status": "not-started",
+      "estimatedHours": 4,
+      "dependencies": [2],
+      "subtasks": [
+        { "id": "10.1", "title": "Update Story interface with CEFR level", "status": "not-started", "deliverable": "svelte/src/lib/types/story.ts", "testRequired": true },
+        { "id": "10.2", "title": "Add frequency/CEFR to VocabularyWord", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "10.3", "title": "Create migration utility (difficulty -> level)", "status": "not-started", "deliverable": null, "testRequired": true }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Migrate and Enhance Existing Stories",
+      "todoTxtRef": "TASK 11: Migrate and Enhance Existing Stories (TODO.txt lines 718-748)",
+      "priority": 4,
+      "status": "not-started",
+      "estimatedHours": 5,
+      "dependencies": [9, 10],
+      "subtasks": [
+        { "id": "11.1", "title": "Migrate 8 existing stories to individual files", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "11.2", "title": "Add frequency data to story vocabulary", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "11.3", "title": "Calculate wordCount and estimatedMinutes", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "11.4", "title": "Verify TTS works with migrated stories", "status": "not-started", "deliverable": null, "testRequired": true }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Create Mobile-First Story Reader",
+      "todoTxtRef": "TASK 12: Create Mobile-First Story Reader (TODO.txt lines 751-804)",
+      "priority": 4,
+      "status": "not-started",
+      "estimatedHours": 6,
+      "dependencies": [11],
+      "subtasks": [
+        { "id": "12.1", "title": "Refactor StoryReader for stacked layout", "status": "not-started", "deliverable": "svelte/src/lib/components/basic/stories/StoryReader.svelte", "testRequired": true },
+        { "id": "12.2", "title": "Create DialogueLine.svelte with expandable translation", "status": "not-started", "deliverable": "svelte/src/lib/components/basic/stories/DialogueLine.svelte", "testRequired": true },
+        { "id": "12.3", "title": "Add reading progress bar", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "12.4", "title": "Implement auto-hiding controls", "status": "not-started", "deliverable": null, "testRequired": true }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Process V4_material.txt into New Stories",
+      "todoTxtRef": "TASK 13: Process V4_material.txt into New Stories (TODO.txt lines 812-847)",
+      "priority": 5,
+      "status": "not-started",
+      "estimatedHours": 7,
+      "dependencies": [11],
+      "subtasks": [
+        { "id": "13.1", "title": "Create story generation script", "status": "not-started", "deliverable": "scripts/generate_stories.py", "testRequired": true },
+        { "id": "13.2", "title": "Create A1 stories (8-10)", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "13.3", "title": "Create A2 stories (8-10)", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "13.4", "title": "Create B1 stories (6-8)", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "13.5", "title": "Generate Finnish translations", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "13.6", "title": "Create questions for each story", "status": "not-started", "deliverable": null, "testRequired": true }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Create Story Vocabulary Linking",
+      "todoTxtRef": "TASK 14: Create Story Vocabulary Linking (TODO.txt lines 850-887)",
+      "priority": 5,
+      "status": "not-started",
+      "estimatedHours": 5,
+      "dependencies": [11],
+      "subtasks": [
+        { "id": "14.1", "title": "Create word-to-story index generator", "status": "not-started", "deliverable": "scripts/generate_vocabulary_index.py", "testRequired": true },
+        { "id": "14.2", "title": "Generate vocabulary-index.json", "status": "not-started", "deliverable": "svelte/static/stories/vocabulary-index.json", "testRequired": true },
+        { "id": "14.3", "title": "Track vocabulary encounters in stories", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "14.4", "title": "Show 'seen in X stories' in vocabulary displays", "status": "not-started", "deliverable": null, "testRequired": true }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Create Shareable Progress Reports",
+      "todoTxtRef": "TASK 15: Create Shareable Progress Reports (TODO.txt lines 895-939)",
+      "priority": 6,
+      "status": "not-started",
+      "estimatedHours": 5,
+      "dependencies": [7],
+      "subtasks": [
+        { "id": "15.1", "title": "Create progress report generation function", "status": "not-started", "deliverable": "svelte/src/lib/services/shareService.ts", "testRequired": true },
+        { "id": "15.2", "title": "Create share modal UI", "status": "not-started", "deliverable": "svelte/src/lib/components/shared/ShareModal.svelte", "testRequired": true },
+        { "id": "15.3", "title": "Implement copy to clipboard", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "15.4", "title": "Implement Web Share API with fallback", "status": "not-started", "deliverable": null, "testRequired": true }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Add Milestone Celebrations",
+      "todoTxtRef": "TASK 16: Add Milestone Celebrations (TODO.txt lines 942-979)",
+      "priority": 6,
+      "status": "not-started",
+      "estimatedHours": 5,
+      "dependencies": [15],
+      "subtasks": [
+        { "id": "16.1", "title": "Define milestones in config", "status": "not-started", "deliverable": "svelte/src/lib/config/milestones.ts", "testRequired": true },
+        { "id": "16.2", "title": "Create milestone detection logic", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "16.3", "title": "Create celebration modal component", "status": "not-started", "deliverable": "svelte/src/lib/components/shared/CelebrationModal.svelte", "testRequired": true },
+        { "id": "16.4", "title": "Add confetti animation", "status": "not-started", "deliverable": null, "testRequired": true }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Improve Game Mode Integration",
+      "todoTxtRef": "TASK 17: Improve Game Mode Integration with Frequency Data (TODO.txt lines 987-1020)",
+      "priority": 7,
+      "status": "not-started",
+      "estimatedHours": 5,
+      "dependencies": [3, 12],
+      "subtasks": [
+        { "id": "17.1", "title": "Add frequency badges to game UI", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "17.2", "title": "Implement smart word selection (prioritize top 1000)", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "17.3", "title": "Add 'focus on most common words' setting", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "17.4", "title": "Show post-game frequency summary", "status": "not-started", "deliverable": null, "testRequired": true }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Testing and Documentation",
+      "todoTxtRef": "TASK 18: Testing and Documentation (TODO.txt lines 1023-1058)",
+      "priority": 7,
+      "status": "not-started",
+      "estimatedHours": 6,
+      "dependencies": [17],
+      "subtasks": [
+        { "id": "18.1", "title": "Test on mobile (iOS Safari, Android Chrome)", "status": "not-started", "deliverable": null, "testRequired": false },
+        { "id": "18.2", "title": "Test on desktop browsers", "status": "not-started", "deliverable": null, "testRequired": false },
+        { "id": "18.3", "title": "Test localStorage persistence", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "18.4", "title": "Test data import/export", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "18.5", "title": "Fix all critical bugs", "status": "not-started", "deliverable": null, "testRequired": false },
+        { "id": "18.6", "title": "Update README.md", "status": "not-started", "deliverable": "README.md", "testRequired": false },
+        { "id": "18.7", "title": "Write release notes for V4.0.0", "status": "not-started", "deliverable": "VERSION_HISTORY.md", "testRequired": false }
+      ]
+    }
+  ]
+}
