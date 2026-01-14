@@ -1,0 +1,183 @@
+{
+	"id": "nature-park",
+	"title": "Luonnonpuistossa",
+	"titleSpanish": "En el parque natural",
+	"description": "Ana keskustelee oppaan kanssa luonnonpuiston reiteistä ja eläimistä",
+	"difficulty": "intermediate",
+	"category": "nature",
+	"icon": "🌲",
+	"dialogue": [
+		{
+			"speaker": "Ana",
+			"spanish": "Buenos días. ¿Me puede dar información sobre las rutas del parque?",
+			"finnish": "Hyvää huomenta. Voitteko antaa tietoa puiston reiteistä?"
+		},
+		{
+			"speaker": "Guía",
+			"spanish": "Buenos días. Tenemos tres rutas principales: la ruta del bosque, la ruta del lago y la ruta de la montaña.",
+			"finnish": "Hyvää huomenta. Meillä on kolme pääreittia: metsäreitti, järvireitti ja vuorireitti."
+		},
+		{
+			"speaker": "Ana",
+			"spanish": "¿Cuál es la más fácil? Vengo con mis hijos.",
+			"finnish": "Mikä on helpoin? Tulen lasteni kanssa."
+		},
+		{
+			"speaker": "Guía",
+			"spanish": "La ruta del lago es perfecta para familias. Es corta, solo tres kilómetros, y muy plana.",
+			"finnish": "Järvireitti on täydellinen perheille. Se on lyhyt, vain kolme kilometriä, ja hyvin tasainen."
+		},
+		{
+			"speaker": "Ana",
+			"spanish": "¿Se pueden ver animales en esa ruta?",
+			"finnish": "Voiko tuolla reitillä nähdä eläimiä?"
+		},
+		{
+			"speaker": "Guía",
+			"spanish": "Sí, con suerte pueden ver patos, ardillas y muchos pájaros. A veces hay ciervos por la mañana temprano.",
+			"finnish": "Kyllä, onnekkaasti voitte nähdä ankkoja, oravia ja paljon lintuja. Joskus on peuroja aikaisin aamulla."
+		},
+		{
+			"speaker": "Ana",
+			"spanish": "¡Qué bien! ¿Hay algún área de picnic?",
+			"finnish": "Hienoa! Onko piknik-aluetta?"
+		},
+		{
+			"speaker": "Guía",
+			"spanish": "Sí, hay varias áreas de picnic junto al lago. Tienen mesas y fuentes de agua potable.",
+			"finnish": "Kyllä, järven vieressä on useita piknik-alueita. Niissä on pöytiä ja juomavesilähteitä."
+		},
+		{
+			"speaker": "Ana",
+			"spanish": "¿Está permitido nadar en el lago?",
+			"finnish": "Onko järvessä uinti sallittu?"
+		},
+		{
+			"speaker": "Guía",
+			"spanish": "No, nadar está prohibido por razones de seguridad. Pero hay una playa pequeña donde los niños pueden jugar.",
+			"finnish": "Ei, uinti on kielletty turvallisuussyistä. Mutta on pieni ranta, jossa lapset voivat leikkiä."
+		},
+		{
+			"speaker": "Ana",
+			"spanish": "Entendido. ¿Cuánto cuesta la entrada al parque?",
+			"finnish": "Selvä. Paljonko pääsymaksu puistoon on?"
+		},
+		{
+			"speaker": "Guía",
+			"spanish": "Los adultos pagan cinco euros y los niños menores de doce años entran gratis.",
+			"finnish": "Aikuiset maksavat viisi euroa ja alle kaksitoistavuotiaat lapset pääsevät ilmaiseksi."
+		}
+	],
+	"vocabulary": [
+		{
+			"spanish": "el parque natural",
+			"finnish": "luonnonpuisto"
+		},
+		{
+			"spanish": "la ruta",
+			"finnish": "reitti"
+		},
+		{
+			"spanish": "el bosque",
+			"finnish": "metsä"
+		},
+		{
+			"spanish": "el lago",
+			"finnish": "järvi"
+		},
+		{
+			"spanish": "la montaña",
+			"finnish": "vuori"
+		},
+		{
+			"spanish": "el pato",
+			"finnish": "ankka"
+		},
+		{
+			"spanish": "la ardilla",
+			"finnish": "orava"
+		},
+		{
+			"spanish": "el ciervo",
+			"finnish": "peura"
+		},
+		{
+			"spanish": "el área de picnic",
+			"finnish": "piknik-alue"
+		},
+		{
+			"spanish": "nadar",
+			"finnish": "uida"
+		},
+		{
+			"spanish": "prohibido",
+			"finnish": "kielletty"
+		},
+		{
+			"spanish": "la entrada",
+			"finnish": "pääsymaksu / sisäänkäynti"
+		}
+	],
+	"questions": [
+		{
+			"id": "q1",
+			"question": "Mikä reitti sopii parhaiten perheille?",
+			"options": [
+				"Metsäreitti",
+				"Järvireitti",
+				"Vuorireitti",
+				"Jokireitti"
+			],
+			"correctIndex": 1,
+			"explanation": "Opas sanoi: 'La ruta del lago es perfecta para familias' (Järvireitti on täydellinen perheille)"
+		},
+		{
+			"id": "q2",
+			"question": "Kuinka pitkä järvireitti on?",
+			"options": [
+				"2 km",
+				"3 km",
+				"5 km",
+				"7 km"
+			],
+			"correctIndex": 1,
+			"explanation": "Opas sanoi: 'Solo tres kilómetros' (Vain kolme kilometriä)"
+		},
+		{
+			"id": "q3",
+			"question": "Mitä eläimiä voi nähdä aikaisin aamulla?",
+			"options": [
+				"Karhua",
+				"Peuroja",
+				"Kettuja",
+				"Susia"
+			],
+			"correctIndex": 1,
+			"explanation": "Opas sanoi: 'A veces hay ciervos por la mañana temprano' (Joskus on peuroja aikaisin aamulla)"
+		},
+		{
+			"id": "q4",
+			"question": "Onko järvessä uinti sallittu?",
+			"options": [
+				"Kyllä, se on sallittu",
+				"Ei, se on kielletty",
+				"Vain aikuisille",
+				"Vain kesällä"
+			],
+			"correctIndex": 1,
+			"explanation": "Opas sanoi: 'Nadar está prohibido' (Uinti on kielletty)"
+		},
+		{
+			"id": "q5",
+			"question": "Paljonko lapset maksavat pääsymaksun?",
+			"options": [
+				"2 euroa",
+				"3 euroa",
+				"5 euroa",
+				"Lapset pääsevät ilmaiseksi"
+			],
+			"correctIndex": 3,
+			"explanation": "Opas sanoi: 'Los niños menores de doce años entran gratis' (Alle 12-vuotiaat lapset pääsevät ilmaiseksi)"
+		}
+	]
+}

@@ -1,0 +1,1463 @@
+{
+	"stories": [
+		{
+			"id": "grocery-shopping",
+			"title": "Ruokakaupassa",
+			"titleSpanish": "En el supermercado",
+			"description": "María käy ruokaostoksilla ja kysyy apua myyjältä",
+			"difficulty": "beginner",
+			"category": "shopping",
+			"icon": "🛒",
+			"dialogue": [
+				{
+					"speaker": "María",
+					"spanish": "Buenos días. ¿Dónde están las frutas?",
+					"finnish": "Hyvää huomenta. Missä hedelmät ovat?"
+				},
+				{
+					"speaker": "Vendedor",
+					"spanish": "Buenos días. Las frutas están al fondo, a la derecha.",
+					"finnish": "Hyvää huomenta. Hedelmät ovat perällä, oikealla."
+				},
+				{
+					"speaker": "María",
+					"spanish": "Gracias. ¿Tienen manzanas frescas?",
+					"finnish": "Kiitos. Onko teillä tuoreita omenoita?"
+				},
+				{
+					"speaker": "Vendedor",
+					"spanish": "Sí, las manzanas llegaron esta mañana. Son muy buenas.",
+					"finnish": "Kyllä, omenat tulivat tänä aamuna. Ne ovat erittäin hyviä."
+				},
+				{
+					"speaker": "María",
+					"spanish": "Perfecto. También necesito leche y pan.",
+					"finnish": "Täydellistä. Tarvitsen myös maitoa ja leipää."
+				},
+				{
+					"speaker": "Vendedor",
+					"spanish": "La leche está en el pasillo tres y el pan está cerca de la entrada.",
+					"finnish": "Maito on käytävällä kolme ja leipä on lähellä sisäänkäyntiä."
+				},
+				{
+					"speaker": "María",
+					"spanish": "¿Cuánto cuesta el kilo de manzanas?",
+					"finnish": "Paljonko maksaa kilo omenoita?"
+				},
+				{
+					"speaker": "Vendedor",
+					"spanish": "El kilo cuesta dos euros con cincuenta.",
+					"finnish": "Kilo maksaa kaksi euroa viisikymmentä senttiä."
+				},
+				{
+					"speaker": "María",
+					"spanish": "Muy bien, me llevo dos kilos. ¿Puedo pagar con tarjeta?",
+					"finnish": "Hyvä on, otan kaksi kiloa. Voinko maksaa kortilla?"
+				},
+				{
+					"speaker": "Vendedor",
+					"spanish": "Sí, aceptamos tarjeta y efectivo. La caja está por allí.",
+					"finnish": "Kyllä, hyväksymme kortin ja käteisen. Kassa on tuolla."
+				}
+			],
+			"vocabulary": [
+				{
+					"spanish": "el supermercado",
+					"finnish": "ruokakauppa"
+				},
+				{
+					"spanish": "las frutas",
+					"finnish": "hedelmät"
+				},
+				{
+					"spanish": "la manzana",
+					"finnish": "omena"
+				},
+				{
+					"spanish": "la leche",
+					"finnish": "maito"
+				},
+				{
+					"spanish": "el pan",
+					"finnish": "leipä"
+				},
+				{
+					"spanish": "el pasillo",
+					"finnish": "käytävä"
+				},
+				{
+					"spanish": "la entrada",
+					"finnish": "sisäänkäynti"
+				},
+				{
+					"spanish": "el kilo",
+					"finnish": "kilo"
+				},
+				{
+					"spanish": "la tarjeta",
+					"finnish": "kortti"
+				},
+				{
+					"spanish": "el efectivo",
+					"finnish": "käteinen"
+				},
+				{
+					"spanish": "la caja",
+					"finnish": "kassa"
+				},
+				{
+					"spanish": "fresco/a",
+					"finnish": "tuore"
+				}
+			],
+			"questions": [
+				{
+					"id": "q1",
+					"question": "Missä hedelmät ovat kaupassa?",
+					"options": [
+						"Lähellä sisäänkäyntiä",
+						"Käytävällä kolme",
+						"Perällä oikealla",
+						"Kassan vieressä"
+					],
+					"correctIndex": 2,
+					"explanation": "Myyjä sanoi: 'Las frutas están al fondo, a la derecha' (Hedelmät ovat perällä, oikealla)"
+				},
+				{
+					"id": "q2",
+					"question": "Paljonko omenat maksavat kilolta?",
+					"options": [
+						"1,50 €",
+						"2,00 €",
+						"2,50 €",
+						"3,00 €"
+					],
+					"correctIndex": 2,
+					"explanation": "Myyjä sanoi: 'El kilo cuesta dos euros con cincuenta' (Kilo maksaa 2,50 €)"
+				},
+				{
+					"id": "q3",
+					"question": "Missä leipä on kaupassa?",
+					"options": [
+						"Perällä oikealla",
+						"Käytävällä kolme",
+						"Lähellä sisäänkäyntiä",
+						"Kassan vieressä"
+					],
+					"correctIndex": 2,
+					"explanation": "Myyjä sanoi: 'El pan está cerca de la entrada' (Leipä on lähellä sisäänkäyntiä)"
+				},
+				{
+					"id": "q4",
+					"question": "Kuinka monta kiloa omenoita María ostaa?",
+					"options": [
+						"Yhden kilon",
+						"Kaksi kiloa",
+						"Kolme kiloa",
+						"Puoli kiloa"
+					],
+					"correctIndex": 1,
+					"explanation": "María sanoi: 'Me llevo dos kilos' (Otan kaksi kiloa)"
+				},
+				{
+					"id": "q5",
+					"question": "Miten María haluaa maksaa?",
+					"options": [
+						"Käteisellä",
+						"Kortilla",
+						"Puhelimella",
+						"Lahjakortilla"
+					],
+					"correctIndex": 1,
+					"explanation": "María kysyi: '¿Puedo pagar con tarjeta?' (Voinko maksaa kortilla?)"
+				}
+			]
+		},
+		{
+			"id": "cafe-visit",
+			"title": "Kahvilassa",
+			"titleSpanish": "En la cafetería",
+			"description": "Carlos tilaa kahvin ja pienen välipalan kahvilassa",
+			"difficulty": "beginner",
+			"category": "cafe",
+			"icon": "☕",
+			"dialogue": [
+				{
+					"speaker": "Camarero",
+					"spanish": "¡Hola! Bienvenido. ¿Qué le puedo servir?",
+					"finnish": "Hei! Tervetuloa. Mitä saan tarjoilla?"
+				},
+				{
+					"speaker": "Carlos",
+					"spanish": "Hola. Quiero un café con leche, por favor.",
+					"finnish": "Hei. Haluan maitokahvin, kiitos."
+				},
+				{
+					"speaker": "Camarero",
+					"spanish": "¿Grande o pequeño?",
+					"finnish": "Iso vai pieni?"
+				},
+				{
+					"speaker": "Carlos",
+					"spanish": "Grande, por favor. ¿Tienen algo para comer?",
+					"finnish": "Iso, kiitos. Onko teillä jotain syötävää?"
+				},
+				{
+					"speaker": "Camarero",
+					"spanish": "Sí, tenemos croissants, tostadas y pasteles.",
+					"finnish": "Kyllä, meillä on croissanteja, paahtoleipiä ja leivoksia."
+				},
+				{
+					"speaker": "Carlos",
+					"spanish": "¿El croissant es de mantequilla?",
+					"finnish": "Onko croissant voista tehty?"
+				},
+				{
+					"speaker": "Camarero",
+					"spanish": "Sí, son de mantequilla y muy frescos.",
+					"finnish": "Kyllä, ne ovat voista tehtyjä ja erittäin tuoreita."
+				},
+				{
+					"speaker": "Carlos",
+					"spanish": "Perfecto, un croissant también. ¿Cuánto es todo?",
+					"finnish": "Täydellistä, croissant myös. Paljonko kaikki maksaa?"
+				},
+				{
+					"speaker": "Camarero",
+					"spanish": "El café grande son tres euros y el croissant dos euros. Son cinco euros en total.",
+					"finnish": "Iso kahvi on kolme euroa ja croissant kaksi euroa. Yhteensä viisi euroa."
+				},
+				{
+					"speaker": "Carlos",
+					"spanish": "Aquí tiene. ¿Puedo sentarme en la terraza?",
+					"finnish": "Olkaa hyvä. Voinko istua terassilla?"
+				},
+				{
+					"speaker": "Camarero",
+					"spanish": "Claro, la terraza está abierta. ¡Que disfrute!",
+					"finnish": "Tietenkin, terassi on auki. Nauttikaa!"
+				}
+			],
+			"vocabulary": [
+				{
+					"spanish": "la cafetería",
+					"finnish": "kahvila"
+				},
+				{
+					"spanish": "el café con leche",
+					"finnish": "maitokahvi"
+				},
+				{
+					"spanish": "el croissant",
+					"finnish": "croissant"
+				},
+				{
+					"spanish": "la tostada",
+					"finnish": "paahtoleipä"
+				},
+				{
+					"spanish": "el pastel",
+					"finnish": "leivos"
+				},
+				{
+					"spanish": "la mantequilla",
+					"finnish": "voi"
+				},
+				{
+					"spanish": "la terraza",
+					"finnish": "terassi"
+				},
+				{
+					"spanish": "grande",
+					"finnish": "iso"
+				},
+				{
+					"spanish": "pequeño/a",
+					"finnish": "pieni"
+				},
+				{
+					"spanish": "servir",
+					"finnish": "tarjoilla"
+				},
+				{
+					"spanish": "sentarse",
+					"finnish": "istua"
+				},
+				{
+					"spanish": "disfrutar",
+					"finnish": "nauttia"
+				}
+			],
+			"questions": [
+				{
+					"id": "q1",
+					"question": "Minkä kokoisen kahvin Carlos tilaa?",
+					"options": [
+						"Pienen",
+						"Keskikokoisen",
+						"Ison",
+						"Erittäin ison"
+					],
+					"correctIndex": 2,
+					"explanation": "Carlos sanoi: 'Grande, por favor' (Iso, kiitos)"
+				},
+				{
+					"id": "q2",
+					"question": "Mitä syötävää Carlos tilaa?",
+					"options": [
+						"Paahtoleivän",
+						"Croissantin",
+						"Leivoksen",
+						"Ei mitään"
+					],
+					"correctIndex": 1,
+					"explanation": "Carlos sanoi: 'Un croissant también' (Croissant myös)"
+				},
+				{
+					"id": "q3",
+					"question": "Paljonko iso kahvi maksaa?",
+					"options": [
+						"2 euroa",
+						"3 euroa",
+						"4 euroa",
+						"5 euroa"
+					],
+					"correctIndex": 1,
+					"explanation": "Tarjoilija sanoi: 'El café grande son tres euros' (Iso kahvi on kolme euroa)"
+				},
+				{
+					"id": "q4",
+					"question": "Paljonko Carlosin tilaus maksaa yhteensä?",
+					"options": [
+						"4 euroa",
+						"5 euroa",
+						"6 euroa",
+						"7 euroa"
+					],
+					"correctIndex": 1,
+					"explanation": "Tarjoilija sanoi: 'Son cinco euros en total' (Yhteensä viisi euroa)"
+				},
+				{
+					"id": "q5",
+					"question": "Minne Carlos haluaa istua?",
+					"options": [
+						"Ikkunan viereen",
+						"Baaritiskille",
+						"Terassille",
+						"Nurkkaan"
+					],
+					"correctIndex": 2,
+					"explanation": "Carlos kysyi: '¿Puedo sentarme en la terraza?' (Voinko istua terassilla?)"
+				}
+			]
+		},
+		{
+			"id": "bicycle-rental",
+			"title": "Polkupyörän vuokraus",
+			"titleSpanish": "Alquiler de bicicletas",
+			"description": "Elena vuokraa polkupyörän kaupungin kiertelyyn",
+			"difficulty": "beginner",
+			"category": "travel",
+			"icon": "🚲",
+			"dialogue": [
+				{
+					"speaker": "Elena",
+					"spanish": "Hola, me gustaría alquilar una bicicleta.",
+					"finnish": "Hei, haluaisin vuokrata polkupyörän."
+				},
+				{
+					"speaker": "Empleado",
+					"spanish": "Buenos días. ¿Para cuánto tiempo la necesita?",
+					"finnish": "Hyvää huomenta. Kuinka pitkäksi aikaa tarvitsette sitä?"
+				},
+				{
+					"speaker": "Elena",
+					"spanish": "Solo para hoy, unas cuatro o cinco horas.",
+					"finnish": "Vain täksi päiväksi, noin neljä tai viisi tuntia."
+				},
+				{
+					"speaker": "Empleado",
+					"spanish": "Perfecto. El alquiler por día es diez euros. Incluye el casco.",
+					"finnish": "Täydellistä. Päivävuokra on kymmenen euroa. Kypärä sisältyy hintaan."
+				},
+				{
+					"speaker": "Elena",
+					"spanish": "¿Tienen un mapa de las rutas ciclistas?",
+					"finnish": "Onko teillä pyöräilyreittien karttaa?"
+				},
+				{
+					"speaker": "Empleado",
+					"spanish": "Sí, aquí tiene. Le recomiendo la ruta por el río, es muy bonita.",
+					"finnish": "Kyllä, olkaa hyvä. Suosittelen jokireittiä, se on erittäin kaunis."
+				},
+				{
+					"speaker": "Elena",
+					"spanish": "¿Es difícil esa ruta?",
+					"finnish": "Onko tuo reitti vaikea?"
+				},
+				{
+					"speaker": "Empleado",
+					"spanish": "No, es bastante fácil. Es plana y tiene unos quince kilómetros.",
+					"finnish": "Ei, se on melko helppo. Se on tasainen ja noin viisitoista kilometriä pitkä."
+				},
+				{
+					"speaker": "Elena",
+					"spanish": "Perfecto. ¿A qué hora tengo que devolver la bicicleta?",
+					"finnish": "Täydellistä. Mihin aikaan minun täytyy palauttaa polkupyörä?"
+				},
+				{
+					"speaker": "Empleado",
+					"spanish": "Cerramos a las ocho de la tarde. Devuélvala antes de esa hora.",
+					"finnish": "Suljemme klo kahdeksalta illalla. Palauttakaa se ennen sitä."
+				},
+				{
+					"speaker": "Elena",
+					"spanish": "Entendido. ¿Necesita mi pasaporte?",
+					"finnish": "Selvä. Tarvitsetteko passini?"
+				},
+				{
+					"speaker": "Empleado",
+					"spanish": "Sí, necesito una copia. Y también un depósito de veinte euros.",
+					"finnish": "Kyllä, tarvitsen kopion. Ja myös kahdenkymmenen euron panttimaksun."
+				}
+			],
+			"vocabulary": [
+				{
+					"spanish": "alquilar",
+					"finnish": "vuokrata"
+				},
+				{
+					"spanish": "la bicicleta",
+					"finnish": "polkupyörä"
+				},
+				{
+					"spanish": "el casco",
+					"finnish": "kypärä"
+				},
+				{
+					"spanish": "el mapa",
+					"finnish": "kartta"
+				},
+				{
+					"spanish": "la ruta",
+					"finnish": "reitti"
+				},
+				{
+					"spanish": "el río",
+					"finnish": "joki"
+				},
+				{
+					"spanish": "plano/a",
+					"finnish": "tasainen"
+				},
+				{
+					"spanish": "devolver",
+					"finnish": "palauttaa"
+				},
+				{
+					"spanish": "cerrar",
+					"finnish": "sulkea"
+				},
+				{
+					"spanish": "el pasaporte",
+					"finnish": "passi"
+				},
+				{
+					"spanish": "el depósito",
+					"finnish": "panttimaksu"
+				},
+				{
+					"spanish": "la hora",
+					"finnish": "tunti / kellonaika"
+				}
+			],
+			"questions": [
+				{
+					"id": "q1",
+					"question": "Kuinka pitkäksi aikaa Elena haluaa vuokrata pyörän?",
+					"options": [
+						"2-3 tuntia",
+						"4-5 tuntia",
+						"Koko viikoksi",
+						"Kahdeksi päiväksi"
+					],
+					"correctIndex": 1,
+					"explanation": "Elena sanoi: 'Unas cuatro o cinco horas' (Noin neljä tai viisi tuntia)"
+				},
+				{
+					"id": "q2",
+					"question": "Paljonko päivävuokra maksaa?",
+					"options": [
+						"5 euroa",
+						"10 euroa",
+						"15 euroa",
+						"20 euroa"
+					],
+					"correctIndex": 1,
+					"explanation": "Työntekijä sanoi: 'El alquiler por día es diez euros' (Päivävuokra on 10 euroa)"
+				},
+				{
+					"id": "q3",
+					"question": "Kuinka pitkä suositeltu reitti on?",
+					"options": [
+						"5 km",
+						"10 km",
+						"15 km",
+						"20 km"
+					],
+					"correctIndex": 2,
+					"explanation": "Työntekijä sanoi: 'Tiene unos quince kilómetros' (Se on noin 15 km)"
+				},
+				{
+					"id": "q4",
+					"question": "Mihin aikaan pyörä pitää palauttaa?",
+					"options": [
+						"Klo 17",
+						"Klo 18",
+						"Klo 19",
+						"Klo 20"
+					],
+					"correctIndex": 3,
+					"explanation": "Työntekijä sanoi: 'Cerramos a las ocho de la tarde' (Suljemme klo 20)"
+				},
+				{
+					"id": "q5",
+					"question": "Kuinka suuri panttimaksu vaaditaan?",
+					"options": [
+						"10 euroa",
+						"15 euroa",
+						"20 euroa",
+						"30 euroa"
+					],
+					"correctIndex": 2,
+					"explanation": "Työntekijä sanoi: 'Un depósito de veinte euros' (20 euron panttimaksu)"
+				}
+			]
+		},
+		{
+			"id": "cheap-hotel",
+			"title": "Hostelliin saapuminen",
+			"titleSpanish": "Llegada al hostal",
+			"description": "Miguel saapuu edulliseen hostelliin ja tekee sisäänkirjautumisen",
+			"difficulty": "beginner",
+			"category": "travel",
+			"icon": "🏨",
+			"dialogue": [
+				{
+					"speaker": "Miguel",
+					"spanish": "Buenas tardes. Tengo una reserva a nombre de Miguel García.",
+					"finnish": "Hyvää iltapäivää. Minulla on varaus nimellä Miguel García."
+				},
+				{
+					"speaker": "Recepcionista",
+					"spanish": "Buenas tardes. Un momento, por favor... Sí, aquí está. Una habitación doble para tres noches.",
+					"finnish": "Hyvää iltapäivää. Hetkinen... Kyllä, tässä se on. Kahden hengen huone kolmeksi yöksi."
+				},
+				{
+					"speaker": "Miguel",
+					"spanish": "Exacto. ¿La habitación tiene baño privado?",
+					"finnish": "Aivan. Onko huoneessa oma kylpyhuone?"
+				},
+				{
+					"speaker": "Recepcionista",
+					"spanish": "Sí, tiene baño privado con ducha. También tiene aire acondicionado y wifi gratis.",
+					"finnish": "Kyllä, siinä on oma kylpyhuone suihkulla. Siinä on myös ilmastointi ja ilmainen wifi."
+				},
+				{
+					"speaker": "Miguel",
+					"spanish": "Perfecto. ¿A qué hora es el desayuno?",
+					"finnish": "Täydellistä. Mihin aikaan on aamiainen?"
+				},
+				{
+					"speaker": "Recepcionista",
+					"spanish": "El desayuno es de siete a diez de la mañana, en el comedor del primer piso.",
+					"finnish": "Aamiainen on klo seitsemästä kymmeneen aamulla, ensimmäisen kerroksen ruokasalissa."
+				},
+				{
+					"speaker": "Miguel",
+					"spanish": "¿El desayuno está incluido en el precio?",
+					"finnish": "Sisältyykö aamiainen hintaan?"
+				},
+				{
+					"speaker": "Recepcionista",
+					"spanish": "Sí, el desayuno continental está incluido. Son cuarenta y cinco euros por noche.",
+					"finnish": "Kyllä, mannermainen aamiainen sisältyy. Yöhinta on neljäkymmentäviisi euroa."
+				},
+				{
+					"speaker": "Miguel",
+					"spanish": "Muy bien. ¿Puedo dejar las maletas antes de la hora de entrada?",
+					"finnish": "Hyvä on. Voinko jättää matkalaukut ennen sisäänkirjautumisaikaa?"
+				},
+				{
+					"speaker": "Recepcionista",
+					"spanish": "Por supuesto. La consigna está al lado de la recepción.",
+					"finnish": "Tietenkin. Säilytystila on vastaanoton vieressä."
+				},
+				{
+					"speaker": "Miguel",
+					"spanish": "Gracias. ¿A qué hora tengo que dejar la habitación el último día?",
+					"finnish": "Kiitos. Mihin aikaan minun täytyy lähteä huoneesta viimeisenä päivänä?"
+				},
+				{
+					"speaker": "Recepcionista",
+					"spanish": "La hora de salida es a las doce del mediodía. Aquí tiene su llave, habitación doscientos tres.",
+					"finnish": "Uloskirjautumisaika on klo kaksitoista päivällä. Tässä on avaimenne, huone kaksisataakolme."
+				}
+			],
+			"vocabulary": [
+				{
+					"spanish": "el hostal",
+					"finnish": "hostelli"
+				},
+				{
+					"spanish": "la reserva",
+					"finnish": "varaus"
+				},
+				{
+					"spanish": "la habitación",
+					"finnish": "huone"
+				},
+				{
+					"spanish": "doble",
+					"finnish": "kahden hengen"
+				},
+				{
+					"spanish": "el baño",
+					"finnish": "kylpyhuone"
+				},
+				{
+					"spanish": "la ducha",
+					"finnish": "suihku"
+				},
+				{
+					"spanish": "el aire acondicionado",
+					"finnish": "ilmastointi"
+				},
+				{
+					"spanish": "el desayuno",
+					"finnish": "aamiainen"
+				},
+				{
+					"spanish": "el comedor",
+					"finnish": "ruokasali"
+				},
+				{
+					"spanish": "la maleta",
+					"finnish": "matkalaukku"
+				},
+				{
+					"spanish": "la llave",
+					"finnish": "avain"
+				},
+				{
+					"spanish": "la hora de salida",
+					"finnish": "uloskirjautumisaika"
+				}
+			],
+			"questions": [
+				{
+					"id": "q1",
+					"question": "Kuinka moneksi yöksi Miguel on varannut huoneen?",
+					"options": [
+						"Yhdeksi yöksi",
+						"Kahdeksi yöksi",
+						"Kolmeksi yöksi",
+						"Neljäksi yöksi"
+					],
+					"correctIndex": 2,
+					"explanation": "Vastaanottovirkailija sanoi: 'Para tres noches' (Kolmeksi yöksi)"
+				},
+				{
+					"id": "q2",
+					"question": "Paljonko huone maksaa yöltä?",
+					"options": [
+						"35 euroa",
+						"40 euroa",
+						"45 euroa",
+						"50 euroa"
+					],
+					"correctIndex": 2,
+					"explanation": "Vastaanottovirkailija sanoi: 'Cuarenta y cinco euros por noche' (45 euroa yö)"
+				},
+				{
+					"id": "q3",
+					"question": "Mihin aikaan aamiainen alkaa?",
+					"options": [
+						"Klo 6",
+						"Klo 7",
+						"Klo 8",
+						"Klo 9"
+					],
+					"correctIndex": 1,
+					"explanation": "Vastaanottovirkailija sanoi: 'De siete a diez' (Seitsemästä kymmeneen)"
+				},
+				{
+					"id": "q4",
+					"question": "Mikä on huoneen numero?",
+					"options": [
+						"103",
+						"203",
+						"303",
+						"213"
+					],
+					"correctIndex": 1,
+					"explanation": "Vastaanottovirkailija sanoi: 'Habitación doscientos tres' (Huone 203)"
+				},
+				{
+					"id": "q5",
+					"question": "Mihin aikaan huoneesta pitää lähteä viimeisenä päivänä?",
+					"options": [
+						"Klo 10",
+						"Klo 11",
+						"Klo 12",
+						"Klo 13"
+					],
+					"correctIndex": 2,
+					"explanation": "Vastaanottovirkailija sanoi: 'A las doce del mediodía' (Klo 12 päivällä)"
+				}
+			]
+		},
+		{
+			"id": "nature-park",
+			"title": "Luonnonpuistossa",
+			"titleSpanish": "En el parque natural",
+			"description": "Ana keskustelee oppaan kanssa luonnonpuiston reiteistä ja eläimistä",
+			"difficulty": "intermediate",
+			"category": "nature",
+			"icon": "🌲",
+			"dialogue": [
+				{
+					"speaker": "Ana",
+					"spanish": "Buenos días. ¿Me puede dar información sobre las rutas del parque?",
+					"finnish": "Hyvää huomenta. Voitteko antaa tietoa puiston reiteistä?"
+				},
+				{
+					"speaker": "Guía",
+					"spanish": "Buenos días. Tenemos tres rutas principales: la ruta del bosque, la ruta del lago y la ruta de la montaña.",
+					"finnish": "Hyvää huomenta. Meillä on kolme pääreittia: metsäreitti, järvireitti ja vuorireitti."
+				},
+				{
+					"speaker": "Ana",
+					"spanish": "¿Cuál es la más fácil? Vengo con mis hijos.",
+					"finnish": "Mikä on helpoin? Tulen lasteni kanssa."
+				},
+				{
+					"speaker": "Guía",
+					"spanish": "La ruta del lago es perfecta para familias. Es corta, solo tres kilómetros, y muy plana.",
+					"finnish": "Järvireitti on täydellinen perheille. Se on lyhyt, vain kolme kilometriä, ja hyvin tasainen."
+				},
+				{
+					"speaker": "Ana",
+					"spanish": "¿Se pueden ver animales en esa ruta?",
+					"finnish": "Voiko tuolla reitillä nähdä eläimiä?"
+				},
+				{
+					"speaker": "Guía",
+					"spanish": "Sí, con suerte pueden ver patos, ardillas y muchos pájaros. A veces hay ciervos por la mañana temprano.",
+					"finnish": "Kyllä, onnekkaasti voitte nähdä ankkoja, oravia ja paljon lintuja. Joskus on peuroja aikaisin aamulla."
+				},
+				{
+					"speaker": "Ana",
+					"spanish": "¡Qué bien! ¿Hay algún área de picnic?",
+					"finnish": "Hienoa! Onko piknik-aluetta?"
+				},
+				{
+					"speaker": "Guía",
+					"spanish": "Sí, hay varias áreas de picnic junto al lago. Tienen mesas y fuentes de agua potable.",
+					"finnish": "Kyllä, järven vieressä on useita piknik-alueita. Niissä on pöytiä ja juomavesilähteitä."
+				},
+				{
+					"speaker": "Ana",
+					"spanish": "¿Está permitido nadar en el lago?",
+					"finnish": "Onko järvessä uinti sallittu?"
+				},
+				{
+					"speaker": "Guía",
+					"spanish": "No, nadar está prohibido por razones de seguridad. Pero hay una playa pequeña donde los niños pueden jugar.",
+					"finnish": "Ei, uinti on kielletty turvallisuussyistä. Mutta on pieni ranta, jossa lapset voivat leikkiä."
+				},
+				{
+					"speaker": "Ana",
+					"spanish": "Entendido. ¿Cuánto cuesta la entrada al parque?",
+					"finnish": "Selvä. Paljonko pääsymaksu puistoon on?"
+				},
+				{
+					"speaker": "Guía",
+					"spanish": "Los adultos pagan cinco euros y los niños menores de doce años entran gratis.",
+					"finnish": "Aikuiset maksavat viisi euroa ja alle kaksitoistavuotiaat lapset pääsevät ilmaiseksi."
+				}
+			],
+			"vocabulary": [
+				{
+					"spanish": "el parque natural",
+					"finnish": "luonnonpuisto"
+				},
+				{
+					"spanish": "la ruta",
+					"finnish": "reitti"
+				},
+				{
+					"spanish": "el bosque",
+					"finnish": "metsä"
+				},
+				{
+					"spanish": "el lago",
+					"finnish": "järvi"
+				},
+				{
+					"spanish": "la montaña",
+					"finnish": "vuori"
+				},
+				{
+					"spanish": "el pato",
+					"finnish": "ankka"
+				},
+				{
+					"spanish": "la ardilla",
+					"finnish": "orava"
+				},
+				{
+					"spanish": "el ciervo",
+					"finnish": "peura"
+				},
+				{
+					"spanish": "el área de picnic",
+					"finnish": "piknik-alue"
+				},
+				{
+					"spanish": "nadar",
+					"finnish": "uida"
+				},
+				{
+					"spanish": "prohibido",
+					"finnish": "kielletty"
+				},
+				{
+					"spanish": "la entrada",
+					"finnish": "pääsymaksu / sisäänkäynti"
+				}
+			],
+			"questions": [
+				{
+					"id": "q1",
+					"question": "Mikä reitti sopii parhaiten perheille?",
+					"options": [
+						"Metsäreitti",
+						"Järvireitti",
+						"Vuorireitti",
+						"Jokireitti"
+					],
+					"correctIndex": 1,
+					"explanation": "Opas sanoi: 'La ruta del lago es perfecta para familias' (Järvireitti on täydellinen perheille)"
+				},
+				{
+					"id": "q2",
+					"question": "Kuinka pitkä järvireitti on?",
+					"options": [
+						"2 km",
+						"3 km",
+						"5 km",
+						"7 km"
+					],
+					"correctIndex": 1,
+					"explanation": "Opas sanoi: 'Solo tres kilómetros' (Vain kolme kilometriä)"
+				},
+				{
+					"id": "q3",
+					"question": "Mitä eläimiä voi nähdä aikaisin aamulla?",
+					"options": [
+						"Karhua",
+						"Peuroja",
+						"Kettuja",
+						"Susia"
+					],
+					"correctIndex": 1,
+					"explanation": "Opas sanoi: 'A veces hay ciervos por la mañana temprano' (Joskus on peuroja aikaisin aamulla)"
+				},
+				{
+					"id": "q4",
+					"question": "Onko järvessä uinti sallittu?",
+					"options": [
+						"Kyllä, se on sallittu",
+						"Ei, se on kielletty",
+						"Vain aikuisille",
+						"Vain kesällä"
+					],
+					"correctIndex": 1,
+					"explanation": "Opas sanoi: 'Nadar está prohibido' (Uinti on kielletty)"
+				},
+				{
+					"id": "q5",
+					"question": "Paljonko lapset maksavat pääsymaksun?",
+					"options": [
+						"2 euroa",
+						"3 euroa",
+						"5 euroa",
+						"Lapset pääsevät ilmaiseksi"
+					],
+					"correctIndex": 3,
+					"explanation": "Opas sanoi: 'Los niños menores de doce años entran gratis' (Alle 12-vuotiaat lapset pääsevät ilmaiseksi)"
+				}
+			]
+		},
+		{
+			"id": "camping-area",
+			"title": "Leirintäalueella",
+			"titleSpanish": "En el camping",
+			"description": "Pedro etsii paikkaa teltalle ja kysyy leirintäalueen säännöistä",
+			"difficulty": "intermediate",
+			"category": "travel",
+			"icon": "⛺",
+			"dialogue": [
+				{
+					"speaker": "Pedro",
+					"spanish": "Hola, buenas tardes. ¿Tienen sitio para una tienda de campaña?",
+					"finnish": "Hei, hyvää iltapäivää. Onko teillä paikkaa teltalle?"
+				},
+				{
+					"speaker": "Encargado",
+					"spanish": "Buenas tardes. Sí, tenemos varios sitios disponibles. ¿Para cuántas personas?",
+					"finnish": "Hyvää iltapäivää. Kyllä, meillä on useita paikkoja vapaana. Kuinka monelle hengelle?"
+				},
+				{
+					"speaker": "Pedro",
+					"spanish": "Somos dos personas con una tienda pequeña. ¿Cuánto cuesta por noche?",
+					"finnish": "Meitä on kaksi henkeä pienen teltan kanssa. Paljonko maksaa yöltä?"
+				},
+				{
+					"speaker": "Encargado",
+					"spanish": "Son ocho euros por noche, más dos euros por persona. En total doce euros por noche.",
+					"finnish": "Se on kahdeksan euroa yöltä, plus kaksi euroa henkilöltä. Yhteensä kaksitoista euroa yö."
+				},
+				{
+					"speaker": "Pedro",
+					"spanish": "Bien. ¿Dónde podemos poner la tienda?",
+					"finnish": "Hyvä. Minne voimme pystyttää teltan?"
+				},
+				{
+					"speaker": "Encargado",
+					"spanish": "Pueden elegir cualquier sitio con número verde. Los sitios cerca del río son muy tranquilos.",
+					"finnish": "Voitte valita minkä tahansa paikan vihreällä numerolla. Paikat joen lähellä ovat hyvin rauhallisia."
+				},
+				{
+					"speaker": "Pedro",
+					"spanish": "¿Hay duchas y baños?",
+					"finnish": "Onko suihkuja ja vessoja?"
+				},
+				{
+					"speaker": "Encargado",
+					"spanish": "Sí, los servicios están en el edificio azul. Las duchas son de agua caliente y están incluidas en el precio.",
+					"finnish": "Kyllä, saniteettitilat ovat sinisessä rakennuksessa. Suihkuissa on kuumaa vettä ja ne sisältyvät hintaan."
+				},
+				{
+					"speaker": "Pedro",
+					"spanish": "¿Está permitido hacer fuego?",
+					"finnish": "Onko tulen teko sallittu?"
+				},
+				{
+					"speaker": "Encargado",
+					"spanish": "No, el fuego abierto está prohibido. Pero hay barbacoas públicas que pueden usar.",
+					"finnish": "Ei, avotuli on kielletty. Mutta on julkisia grillejä, joita voitte käyttää."
+				},
+				{
+					"speaker": "Pedro",
+					"spanish": "¿A qué hora hay que mantener silencio?",
+					"finnish": "Mihin aikaan on oltava hiljaa?"
+				},
+				{
+					"speaker": "Encargado",
+					"spanish": "El horario de silencio es de las once de la noche a las siete de la mañana.",
+					"finnish": "Hiljaisuusaika on klo yhdestätoista illalla seitsemään aamulla."
+				}
+			],
+			"vocabulary": [
+				{
+					"spanish": "el camping",
+					"finnish": "leirintäalue"
+				},
+				{
+					"spanish": "la tienda de campaña",
+					"finnish": "teltta"
+				},
+				{
+					"spanish": "el sitio",
+					"finnish": "paikka"
+				},
+				{
+					"spanish": "el río",
+					"finnish": "joki"
+				},
+				{
+					"spanish": "los servicios",
+					"finnish": "saniteettitilat"
+				},
+				{
+					"spanish": "la ducha",
+					"finnish": "suihku"
+				},
+				{
+					"spanish": "el agua caliente",
+					"finnish": "kuuma vesi"
+				},
+				{
+					"spanish": "el fuego",
+					"finnish": "tuli"
+				},
+				{
+					"spanish": "la barbacoa",
+					"finnish": "grilli"
+				},
+				{
+					"spanish": "el silencio",
+					"finnish": "hiljaisuus"
+				},
+				{
+					"spanish": "el horario",
+					"finnish": "aikataulu"
+				},
+				{
+					"spanish": "poner la tienda",
+					"finnish": "pystyttää teltta"
+				}
+			],
+			"questions": [
+				{
+					"id": "q1",
+					"question": "Kuinka monta henkeä Pedrolla on seurassaan?",
+					"options": [
+						"1 henkilö",
+						"2 henkilöä",
+						"3 henkilöä",
+						"4 henkilöä"
+					],
+					"correctIndex": 1,
+					"explanation": "Pedro sanoi: 'Somos dos personas' (Meitä on kaksi henkeä)"
+				},
+				{
+					"id": "q2",
+					"question": "Paljonko yöpyminen maksaa yhteensä yöltä?",
+					"options": [
+						"8 euroa",
+						"10 euroa",
+						"12 euroa",
+						"14 euroa"
+					],
+					"correctIndex": 2,
+					"explanation": "Vastuuhenkilö sanoi: 'En total doce euros por noche' (Yhteensä 12 euroa yö)"
+				},
+				{
+					"id": "q3",
+					"question": "Millaiset paikat ovat rauhallisia?",
+					"options": [
+						"Päärakennuksen lähellä",
+						"Joen lähellä",
+						"Grillialueen vieressä",
+						"Sisäänkäynnin lähellä"
+					],
+					"correctIndex": 1,
+					"explanation": "Vastuuhenkilö sanoi: 'Los sitios cerca del río son muy tranquilos' (Paikat joen lähellä ovat hyvin rauhallisia)"
+				},
+				{
+					"id": "q4",
+					"question": "Onko avotuli sallittu?",
+					"options": [
+						"Kyllä, vapaasti",
+						"Kyllä, tietyillä alueilla",
+						"Ei, se on kielletty",
+						"Vain viikonloppuisin"
+					],
+					"correctIndex": 2,
+					"explanation": "Vastuuhenkilö sanoi: 'El fuego abierto está prohibido' (Avotuli on kielletty)"
+				},
+				{
+					"id": "q5",
+					"question": "Milloin hiljaisuusaika alkaa?",
+					"options": [
+						"Klo 21",
+						"Klo 22",
+						"Klo 23",
+						"Klo 24"
+					],
+					"correctIndex": 2,
+					"explanation": "Vastuuhenkilö sanoi: 'De las once de la noche' (Klo yhdestätoista illalla)"
+				}
+			]
+		},
+		{
+			"id": "weather-talk",
+			"title": "Keskustelua säästä",
+			"titleSpanish": "Hablando del tiempo",
+			"description": "Laura ja naapuri keskustelevat säästä ja tulevista päivistä",
+			"difficulty": "beginner",
+			"category": "everyday",
+			"icon": "🌤️",
+			"dialogue": [
+				{
+					"speaker": "Laura",
+					"spanish": "Buenos días, señora Martínez. ¡Qué buen tiempo hace hoy!",
+					"finnish": "Hyvää huomenta, rouva Martínez. Mikä hieno sää tänään!"
+				},
+				{
+					"speaker": "Sra. Martínez",
+					"spanish": "Sí, hace mucho sol. Es perfecto para pasear.",
+					"finnish": "Kyllä, on hyvin aurinkoista. Se on täydellistä kävelylle."
+				},
+				{
+					"speaker": "Laura",
+					"spanish": "¿Ha visto el pronóstico para mañana?",
+					"finnish": "Oletteko nähnyt huomisen sääennusteen?"
+				},
+				{
+					"speaker": "Sra. Martínez",
+					"spanish": "Sí, dicen que va a llover por la tarde. Mejor llevar paraguas.",
+					"finnish": "Kyllä, sanotaan että tulee satamaan iltapäivällä. Parempi ottaa sateenvarjo mukaan."
+				},
+				{
+					"speaker": "Laura",
+					"spanish": "¡Qué lástima! Tenía planes de ir a la playa.",
+					"finnish": "Harmi! Minulla oli suunnitelmia mennä rannalle."
+				},
+				{
+					"speaker": "Sra. Martínez",
+					"spanish": "Todavía puede ir por la mañana. La lluvia empieza después de las cuatro.",
+					"finnish": "Voitte vielä mennä aamulla. Sade alkaa neljän jälkeen."
+				},
+				{
+					"speaker": "Laura",
+					"spanish": "Buena idea. ¿Y el fin de semana? ¿Sabe qué tiempo hará?",
+					"finnish": "Hyvä idea. Entä viikonloppu? Tiedättekö millainen sää tulee olemaan?"
+				},
+				{
+					"speaker": "Sra. Martínez",
+					"spanish": "El sábado estará nublado pero sin lluvia. El domingo hace más frío, unos quince grados.",
+					"finnish": "Lauantaina on pilvistä mutta ei sadetta. Sunnuntaina on kylmempää, noin viisitoista astetta."
+				},
+				{
+					"speaker": "Laura",
+					"spanish": "¿Quince grados? Eso es bastante fresco para esta época del año.",
+					"finnish": "Viisitoista astetta? Se on aika viileää tähän vuodenaikaan."
+				},
+				{
+					"speaker": "Sra. Martínez",
+					"spanish": "Sí, normalmente hace más calor en junio. Pero el tiempo está muy loco últimamente.",
+					"finnish": "Kyllä, normaalisti on lämpimämpää kesäkuussa. Mutta sää on ollut hyvin hullu viime aikoina."
+				},
+				{
+					"speaker": "Laura",
+					"spanish": "Tiene razón. Bueno, voy a disfrutar del sol mientras pueda. ¡Hasta luego!",
+					"finnish": "Olette oikeassa. No, aion nauttia auringosta kun vielä voin. Näkemiin!"
+				},
+				{
+					"speaker": "Sra. Martínez",
+					"spanish": "¡Hasta luego! Y no olvide el paraguas para mañana.",
+					"finnish": "Näkemiin! Äläkä unohda sateenvarjoa huomiseksi."
+				}
+			],
+			"vocabulary": [
+				{
+					"spanish": "el tiempo",
+					"finnish": "sää"
+				},
+				{
+					"spanish": "el sol",
+					"finnish": "aurinko"
+				},
+				{
+					"spanish": "llover",
+					"finnish": "sataa"
+				},
+				{
+					"spanish": "la lluvia",
+					"finnish": "sade"
+				},
+				{
+					"spanish": "el paraguas",
+					"finnish": "sateenvarjo"
+				},
+				{
+					"spanish": "nublado",
+					"finnish": "pilvinen"
+				},
+				{
+					"spanish": "el frío",
+					"finnish": "kylmä"
+				},
+				{
+					"spanish": "el calor",
+					"finnish": "kuuma / lämpö"
+				},
+				{
+					"spanish": "el pronóstico",
+					"finnish": "sääennuste"
+				},
+				{
+					"spanish": "el grado",
+					"finnish": "aste"
+				},
+				{
+					"spanish": "la playa",
+					"finnish": "ranta"
+				},
+				{
+					"spanish": "pasear",
+					"finnish": "kävellä / ulkoilla"
+				}
+			],
+			"questions": [
+				{
+					"id": "q1",
+					"question": "Millainen sää on tänään?",
+					"options": [
+						"Sateista",
+						"Aurinkoista",
+						"Pilvistä",
+						"Tuulista"
+					],
+					"correctIndex": 1,
+					"explanation": "Rouva Martínez sanoi: 'Hace mucho sol' (On hyvin aurinkoista)"
+				},
+				{
+					"id": "q2",
+					"question": "Mitä sää tekee huomenna iltapäivällä?",
+					"options": [
+						"Paistaa aurinko",
+						"Tuulee",
+						"Sataa",
+						"On pilvistä"
+					],
+					"correctIndex": 2,
+					"explanation": "Rouva Martínez sanoi: 'Va a llover por la tarde' (Tulee satamaan iltapäivällä)"
+				},
+				{
+					"id": "q3",
+					"question": "Mihin aikaan sade alkaa huomenna?",
+					"options": [
+						"Klo 12 jälkeen",
+						"Klo 14 jälkeen",
+						"Klo 16 jälkeen",
+						"Klo 18 jälkeen"
+					],
+					"correctIndex": 2,
+					"explanation": "Rouva Martínez sanoi: 'Después de las cuatro' (Neljän jälkeen)"
+				},
+				{
+					"id": "q4",
+					"question": "Kuinka monta astetta on sunnuntaina?",
+					"options": [
+						"10 astetta",
+						"15 astetta",
+						"20 astetta",
+						"25 astetta"
+					],
+					"correctIndex": 1,
+					"explanation": "Rouva Martínez sanoi: 'Unos quince grados' (Noin 15 astetta)"
+				},
+				{
+					"id": "q5",
+					"question": "Minne Laura oli suunnitellut menevänsä?",
+					"options": [
+						"Puistoon",
+						"Kauppaan",
+						"Rannalle",
+						"Kahvilaan"
+					],
+					"correctIndex": 2,
+					"explanation": "Laura sanoi: 'Tenía planes de ir a la playa' (Minulla oli suunnitelmia mennä rannalle)"
+				}
+			]
+		},
+		{
+			"id": "restaurant-recommendation",
+			"title": "Ravintolaehdotuksia",
+			"titleSpanish": "Recomendaciones de restaurantes",
+			"description": "Turisti kysyy paikalliselta suosituksia hyvistä ravintoloista",
+			"difficulty": "intermediate",
+			"category": "food",
+			"icon": "🍽️",
+			"dialogue": [
+				{
+					"speaker": "Turista",
+					"spanish": "Disculpe, ¿conoce algún buen restaurante por aquí?",
+					"finnish": "Anteeksi, tiedättekö jotain hyvää ravintolaa täällä lähellä?"
+				},
+				{
+					"speaker": "Local",
+					"spanish": "¡Claro! ¿Qué tipo de comida busca?",
+					"finnish": "Tietenkin! Minkälaista ruokaa etsitte?"
+				},
+				{
+					"speaker": "Turista",
+					"spanish": "Me gustaría probar comida típica española. Algo auténtico.",
+					"finnish": "Haluaisin kokeilla tyypillistä espanjalaista ruokaa. Jotain aitoa."
+				},
+				{
+					"speaker": "Local",
+					"spanish": "Entonces le recomiendo 'Casa Antonio'. Tienen la mejor paella de la ciudad.",
+					"finnish": "Sitten suosittelen 'Casa Antoniota'. Heillä on kaupungin paras paella."
+				},
+				{
+					"speaker": "Turista",
+					"spanish": "¡Perfecto! ¿Es caro?",
+					"finnish": "Täydellistä! Onko se kallis?"
+				},
+				{
+					"speaker": "Local",
+					"spanish": "No, los precios son razonables. Un plato principal cuesta entre doce y dieciocho euros.",
+					"finnish": "Ei, hinnat ovat kohtuullisia. Pääruoka maksaa kahdentoista ja kahdeksantoista euron välillä."
+				},
+				{
+					"speaker": "Turista",
+					"spanish": "¿Necesito hacer reserva?",
+					"finnish": "Tarvitsenko tehdä varauksen?"
+				},
+				{
+					"speaker": "Local",
+					"spanish": "Para cenar sí, especialmente los fines de semana. Para el almuerzo no es necesario.",
+					"finnish": "Illalliselle kyllä, erityisesti viikonloppuisin. Lounaalle ei ole tarpeellista."
+				},
+				{
+					"speaker": "Turista",
+					"spanish": "¿A qué hora abren para el almuerzo?",
+					"finnish": "Mihin aikaan he avaavat lounaalle?"
+				},
+				{
+					"speaker": "Local",
+					"spanish": "A la una del mediodía. En España se come tarde, entre la una y las tres.",
+					"finnish": "Klo yksi päivällä. Espanjassa syödään myöhään, yhden ja kolmen välillä."
+				},
+				{
+					"speaker": "Turista",
+					"spanish": "¿Hay opciones vegetarianas?",
+					"finnish": "Onko kasvisruokavaihtoehtoja?"
+				},
+				{
+					"speaker": "Local",
+					"spanish": "Sí, tienen una buena selección de tapas vegetarianas. Las berenjenas con miel son deliciosas.",
+					"finnish": "Kyllä, heillä on hyvä valikoima kasvis-tapaksia. Munakoisot hunajan kanssa ovat herkullisia."
+				},
+				{
+					"speaker": "Turista",
+					"spanish": "Suena muy bien. ¿Cómo llego allí?",
+					"finnish": "Kuulostaa todella hyvältä. Miten pääsen sinne?"
+				},
+				{
+					"speaker": "Local",
+					"spanish": "Está a cinco minutos andando. Siga recto por esta calle y gire a la izquierda en la plaza.",
+					"finnish": "Se on viiden minuutin kävelymatkan päässä. Menkää suoraan tätä katua ja kääntykää vasemmalle aukiolla."
+				}
+			],
+			"vocabulary": [
+				{
+					"spanish": "el restaurante",
+					"finnish": "ravintola"
+				},
+				{
+					"spanish": "la comida",
+					"finnish": "ruoka"
+				},
+				{
+					"spanish": "típico/a",
+					"finnish": "tyypillinen"
+				},
+				{
+					"spanish": "la paella",
+					"finnish": "paella"
+				},
+				{
+					"spanish": "caro/a",
+					"finnish": "kallis"
+				},
+				{
+					"spanish": "razonable",
+					"finnish": "kohtuullinen"
+				},
+				{
+					"spanish": "la reserva",
+					"finnish": "varaus"
+				},
+				{
+					"spanish": "el almuerzo",
+					"finnish": "lounas"
+				},
+				{
+					"spanish": "cenar",
+					"finnish": "syödä illallista"
+				},
+				{
+					"spanish": "vegetariano/a",
+					"finnish": "kasvis-"
+				},
+				{
+					"spanish": "las tapas",
+					"finnish": "tapakset"
+				},
+				{
+					"spanish": "girar",
+					"finnish": "kääntyä"
+				}
+			],
+			"questions": [
+				{
+					"id": "q1",
+					"question": "Mikä ruoka on ravintolan erikoisuus?",
+					"options": [
+						"Tapakset",
+						"Paella",
+						"Gazpacho",
+						"Tortilla"
+					],
+					"correctIndex": 1,
+					"explanation": "Paikallinen sanoi: 'Tienen la mejor paella de la ciudad' (Heillä on kaupungin paras paella)"
+				},
+				{
+					"id": "q2",
+					"question": "Paljonko pääruoka maksaa?",
+					"options": [
+						"5-10 €",
+						"12-18 €",
+						"20-25 €",
+						"30-35 €"
+					],
+					"correctIndex": 1,
+					"explanation": "Paikallinen sanoi: 'Entre doce y dieciocho euros' (12-18 euron välillä)"
+				},
+				{
+					"id": "q3",
+					"question": "Milloin varaus on suositeltava?",
+					"options": [
+						"Aina",
+						"Lounaalle",
+						"Illalliselle",
+						"Arkipäivinä"
+					],
+					"correctIndex": 2,
+					"explanation": "Paikallinen sanoi: 'Para cenar sí' (Illalliselle kyllä)"
+				},
+				{
+					"id": "q4",
+					"question": "Mihin aikaan Espanjassa syödään lounasta?",
+					"options": [
+						"11-12",
+						"12-13",
+						"13-15",
+						"15-17"
+					],
+					"correctIndex": 2,
+					"explanation": "Paikallinen sanoi: 'Entre la una y las tres' (Yhden ja kolmen välillä)"
+				},
+				{
+					"id": "q5",
+					"question": "Mihin suuntaan pitää kääntyä aukiolla?",
+					"options": [
+						"Oikealle",
+						"Vasemmalle",
+						"Suoraan",
+						"Takaisin"
+					],
+					"correctIndex": 1,
+					"explanation": "Paikallinen sanoi: 'Gire a la izquierda en la plaza' (Kääntykää vasemmalle aukiolla)"
+				}
+			]
+		}
+	]
+}

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
+	import VocabularyProgressWidget from '$lib/components/shared/VocabularyProgressWidget.svelte';
 
 	interface GameMode {
 		id: string;
@@ -128,6 +129,9 @@
 			📖 Kielten oppiminen
 		</a>
 	</div>
+
+		<!-- Vocabulary Progress Widget -->
+		<VocabularyProgressWidget />
 
 		<!-- Stats Summary (if user has played) -->
 		{#if stats.gamesPlayed > 0}
