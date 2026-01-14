@@ -205,7 +205,8 @@ def main():
     
     # Load Azure credentials
     print("\n📖 Loading Azure credentials...")
-    env_vars = load_env_file()
+    script_dir = Path(__file__).parent
+    env_vars = load_env_file(script_dir / ".env")
     
     subscription_key = env_vars.get('AZURE_TRANSLATOR_KEY1') or env_vars.get('AZURE_TRANSLATOR_KEY')
     region = env_vars.get('AZURE_TRANSLATOR_REGION', 'westeurope')

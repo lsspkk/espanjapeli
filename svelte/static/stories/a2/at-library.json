@@ -1,0 +1,179 @@
+{
+  "id": "at-library",
+  "title": "At the Library",
+  "titleSpanish": "En la biblioteca",
+  "description": "A A2 level story about education",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "education",
+  "icon": "📚",
+  "dialogue": [
+    {
+      "speaker": "Estudiante",
+      "spanish": "Disculpe, ¿dónde están los libros de historia?",
+      "finnish": "Anteeksi, missä ovat historiankirjat?"
+    },
+    {
+      "speaker": "Bibliotecaria",
+      "spanish": "En la segunda planta, sección B.",
+      "finnish": "Toisessa kerroksessa, osasto B."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "¿Puedo sacar libros prestados?",
+      "finnish": "Voinko lainata kirjoja?"
+    },
+    {
+      "speaker": "Bibliotecaria",
+      "spanish": "Sí, con tu carnet de biblioteca.",
+      "finnish": "Kyllä, kirjastokorttisi kanssa."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "¿Cuántos libros puedo llevar?",
+      "finnish": "Kuinka monta kirjaa voin tuoda?"
+    },
+    {
+      "speaker": "Bibliotecaria",
+      "spanish": "Hasta cinco libros durante dos semanas.",
+      "finnish": "Enintään viisi kirjaa kahdeksi viikoksi."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "¿Y si necesito más tiempo?",
+      "finnish": "Entä jos tarvitsen lisää aikaa?"
+    },
+    {
+      "speaker": "Bibliotecaria",
+      "spanish": "Puedes renovarlos por internet o aquí.",
+      "finnish": "Voit uusia ne verkossa tai täällä."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "¿Hay ordenadores para usar?",
+      "finnish": "Onko käytössä tietokoneita?"
+    },
+    {
+      "speaker": "Bibliotecaria",
+      "spanish": "Sí, en la sala de estudio. Necesitas reservar.",
+      "finnish": "Kyllä, opiskeluhuoneessa. Sinun täytyy varata."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "Perfecto. Muchas gracias por la información.",
+      "finnish": "Täydellistä. Kiitos paljon tiedoista."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la biblioteca",
+      "finnish": "library"
+    },
+    {
+      "spanish": "el/la bibliotecario/a",
+      "finnish": "librarian"
+    },
+    {
+      "spanish": "el libro",
+      "finnish": "book"
+    },
+    {
+      "spanish": "la historia",
+      "finnish": "history"
+    },
+    {
+      "spanish": "la planta",
+      "finnish": "floor"
+    },
+    {
+      "spanish": "sacar prestado",
+      "finnish": "lainata"
+    },
+    {
+      "spanish": "el carnet",
+      "finnish": "card"
+    },
+    {
+      "spanish": "llevar",
+      "finnish": "ottaa/kantaa"
+    },
+    {
+      "spanish": "renovar",
+      "finnish": "uusia"
+    },
+    {
+      "spanish": "el ordenador",
+      "finnish": "computer"
+    },
+    {
+      "spanish": "la sala",
+      "finnish": "room"
+    },
+    {
+      "spanish": "reservar",
+      "finnish": "varattavaksi/varattavaksi"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Missä ovat historiankirjat?",
+      "options": [
+        "Second floor, section B",
+        "First floor",
+        "Third floor",
+        "Ground floor"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä opiskelija tarvitsee lainatakseen kirjoja?",
+      "options": [
+        "Kirjastokortti",
+        "Money",
+        "ID",
+        "Ei mitään"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka monta kirjaa voi lainata?",
+      "options": [
+        "5",
+        "3",
+        "10",
+        "2"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka kauan kirjoja voi lainata?",
+      "options": [
+        "2 weeks",
+        "1 week",
+        "1 month",
+        "3 weeks"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä sinun täytyy tehdä käyttääksesi tietokoneita?",
+      "options": [
+        "Reserve",
+        "Palkka",
+        "Ei mitään",
+        "Show ID"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 62,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

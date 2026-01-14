@@ -1,0 +1,139 @@
+{
+  "id": "body-parts",
+  "title": "The Body Parts",
+  "titleSpanish": "Las partes del cuerpo",
+  "description": "A A1 level story about health",
+  "level": "A1",
+  "difficulty": "absolute-beginner",
+  "category": "health",
+  "icon": "🧍",
+  "dialogue": [
+    {
+      "speaker": "Doctor",
+      "spanish": "¿Dónde te duele?",
+      "finnish": "Missä sattuu?"
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Me duele la cabeza.",
+      "finnish": "Pääni särkee."
+    },
+    {
+      "speaker": "Doctor",
+      "spanish": "Abre la boca, por favor.",
+      "finnish": "Avaa suusi, kiitos."
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Sí, doctor.",
+      "finnish": "Kyllä, tohtori."
+    },
+    {
+      "speaker": "Doctor",
+      "spanish": "Bien. ¿Te duelen los ojos?",
+      "finnish": "Ei hassumpaa. Sattuuko silmiisi?"
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "No, solo la cabeza.",
+      "finnish": "Ei, vain pään."
+    },
+    {
+      "speaker": "Doctor",
+      "spanish": "Levanta los brazos.",
+      "finnish": "Nostakaa kädet."
+    },
+    {
+      "speaker": "Paciente",
+      "spanish": "Así, ¿está bien?",
+      "finnish": "Joten, onko se ok?"
+    },
+    {
+      "speaker": "Doctor",
+      "spanish": "Perfecto. Todo está bien.",
+      "finnish": "Täydellistä. Kaikki on hyvin."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el cuerpo",
+      "finnish": "body"
+    },
+    {
+      "spanish": "doler",
+      "finnish": "satuttaa"
+    },
+    {
+      "spanish": "la cabeza",
+      "finnish": "head"
+    },
+    {
+      "spanish": "la boca",
+      "finnish": "mouth"
+    },
+    {
+      "spanish": "los ojos",
+      "finnish": "eyes"
+    },
+    {
+      "spanish": "el brazo",
+      "finnish": "arm"
+    },
+    {
+      "spanish": "levantar",
+      "finnish": "nostaa/nostaa."
+    },
+    {
+      "spanish": "abrir",
+      "finnish": "avaamaan"
+    },
+    {
+      "spanish": "el/la paciente",
+      "finnish": "patient"
+    },
+    {
+      "spanish": "todo",
+      "finnish": "everything"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mikä satuttaa potilasta?",
+      "options": [
+        "Johto",
+        "Silmät",
+        "Vaakuna",
+        "Mouth"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä lääkäri pyytää potilasta avaamaan?",
+      "options": [
+        "Mouth",
+        "Silmät",
+        "Vaakuna",
+        "Door"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Do the patient's eyes hurt?",
+      "options": [
+        "Ei",
+        "Kyllä",
+        "Hieman",
+        "Very much"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 33,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

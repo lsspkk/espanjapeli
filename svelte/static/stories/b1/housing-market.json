@@ -1,0 +1,203 @@
+{
+  "id": "housing-market",
+  "title": "Housing Market Crisis",
+  "titleSpanish": "Crisis del mercado inmobiliario",
+  "description": "A B1 level story about economy",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "economy",
+  "icon": "🏘️",
+  "dialogue": [
+    {
+      "speaker": "Periodista",
+      "spanish": "Los precios de la vivienda han aumentado un 40% en los últimos cinco años.",
+      "finnish": "Asuntojen hinnat ovat nousseet 40 % viimeisen viiden vuoden aikana."
+    },
+    {
+      "speaker": "Economista",
+      "spanish": "Es insostenible. Muchas personas jóvenes no pueden independizarse.",
+      "finnish": "Se on kestämätöntä. Monet nuoret eivät voi tulla itsenäisiksi."
+    },
+    {
+      "speaker": "Periodista",
+      "spanish": "¿Cuáles son las causas principales de esta crisis?",
+      "finnish": "Mitkä ovat tämän kriisin pääasialliset syyt?"
+    },
+    {
+      "speaker": "Economista",
+      "spanish": "La falta de construcción de vivienda pública, la especulación y los salarios estancados.",
+      "finnish": "Julkisen asuntotuotannon puute, spekulaation ja pysähtyneiden palkkojen vuoksi."
+    },
+    {
+      "speaker": "Periodista",
+      "spanish": "¿Qué proporción de ingresos gastan las familias en vivienda actualmente?",
+      "finnish": "Kuinka suuri osa tuloista perheet tällä hetkellä käyttävät asumiseen?"
+    },
+    {
+      "speaker": "Economista",
+      "spanish": "En las grandes ciudades, más del 40%, cuando lo recomendable es un máximo del 30%.",
+      "finnish": "Suurissa kaupungeissa yli 40 %, kun korkeintaan 30 % on suositeltava."
+    },
+    {
+      "speaker": "Periodista",
+      "spanish": "¿Existen soluciones a corto plazo?",
+      "finnish": "Onko olemassa lyhyen aikavälin ratkaisuja?"
+    },
+    {
+      "speaker": "Economista",
+      "spanish": "Se necesitan medidas urgentes: limitar los alquileres turísticos, construir vivienda social y regular la especulación.",
+      "finnish": "Kiireellisiä toimenpiteitä tarvitaan: turistivuokrauksen rajoittaminen, sosiaalisen asuntotuotannon rakentaminen ja spekuloinnin sääntely."
+    },
+    {
+      "speaker": "Periodista",
+      "spanish": "¿Y a largo plazo?",
+      "finnish": "Entä pitkällä aikavälillä?"
+    },
+    {
+      "speaker": "Economista",
+      "spanish": "Replantear el modelo urbano, descentralizar el empleo y mejorar el transporte público para que vivir lejos del centro sea viable.",
+      "finnish": "Mieti kaupunkimallia uudelleen, hajauta työllisyys ja paranna joukkoliikennettä niin, että kaukana keskustasta asuminen olisi mahdollista."
+    },
+    {
+      "speaker": "Periodista",
+      "spanish": "¿Cree que la situación mejorará pronto?",
+      "finnish": "Uskotko, että tilanne paranee pian?"
+    },
+    {
+      "speaker": "Economista",
+      "spanish": "No sin voluntad política real. Es uno de los mayores desafíos de nuestra generación.",
+      "finnish": "Ei ilman todellista poliittista tahtoa. Se on yksi sukupolvemme suurimmista haasteista."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el mercado inmobiliario",
+      "finnish": "housing/real estate market"
+    },
+    {
+      "spanish": "la vivienda",
+      "finnish": "housing"
+    },
+    {
+      "spanish": "aumentar",
+      "finnish": "kasvattaa"
+    },
+    {
+      "spanish": "insostenible",
+      "finnish": "unsustainable"
+    },
+    {
+      "spanish": "independizarse",
+      "finnish": "itsenäistyä"
+    },
+    {
+      "spanish": "la especulación",
+      "finnish": "speculation"
+    },
+    {
+      "spanish": "estancado/a",
+      "finnish": "stagnant"
+    },
+    {
+      "spanish": "los ingresos",
+      "finnish": "income"
+    },
+    {
+      "spanish": "el alquiler",
+      "finnish": "rent/rental"
+    },
+    {
+      "spanish": "descentralizar",
+      "finnish": "hajauttamiseen"
+    },
+    {
+      "spanish": "viable",
+      "finnish": "viable"
+    },
+    {
+      "spanish": "la voluntad política",
+      "finnish": "political will"
+    },
+    {
+      "spanish": "el desafío",
+      "finnish": "challenge"
+    },
+    {
+      "spanish": "replantear",
+      "finnish": "miettiä uudelleen"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Kuinka paljon asuntojen hinnat ovat nousseet viidessä vuodessa?",
+      "options": [
+        "40%",
+        "20%",
+        "60%",
+        "10%"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka suuren osan perheet suurissa kaupungeissa käyttävät tuloista asumiseen?",
+      "options": [
+        "Yli 40 %",
+        "30%",
+        "20%",
+        "50%"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä on suositeltu enimmäisprosenttiosuus asumiskustannuksista?",
+      "options": [
+        "30%",
+        "40%",
+        "50%",
+        "20%"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä lyhyen aikavälin toimenpiteitä mainitaan?",
+      "options": [
+        "Rajoita turistivuokrauksia, rakennetaan sosiaalinen asuntotuotanto, säädellään spekulaatiota",
+        "Alemmat verot",
+        "Palkkojen korotus",
+        "Älä tee mitään"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä pitkäaikainen ratkaisu liittyy työllistymiseen?",
+      "options": [
+        "Hajauttaminen",
+        "Palkkojen nostaminen",
+        "Reducing hours",
+        "Remote work only"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä taloustieteilijä sanoo, että parantuminen on tarpeen?",
+      "options": [
+        "Todellinen poliittinen tahto",
+        "More time",
+        "Foreign investment",
+        "Alhaisemmat korot"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 132,
+  "estimatedMinutes": 4,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

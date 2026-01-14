@@ -1,0 +1,175 @@
+{
+  "id": "lost-wallet",
+  "title": "The Lost Wallet",
+  "titleSpanish": "La cartera perdida",
+  "description": "A A2 level story about emergency",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "emergency",
+  "icon": "👛",
+  "dialogue": [
+    {
+      "speaker": "Turista",
+      "spanish": "Disculpe, perdí mi cartera.",
+      "finnish": "Anteeksi, kadotin lompakkoni."
+    },
+    {
+      "speaker": "Policía",
+      "spanish": "¿Dónde la perdió?",
+      "finnish": "Missä hän oli kadottanut sen?"
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "Creo que en el metro o en la cafetería.",
+      "finnish": "Luulen, että metrossa tai ruokasalissa."
+    },
+    {
+      "speaker": "Policía",
+      "spanish": "¿Qué había dentro?",
+      "finnish": "Mitä sisällä oli?"
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "Mi DNI, tarjetas de crédito y 50 euros.",
+      "finnish": "Henkilöllisyystodistukseni, luottokortit ja 50 euroa."
+    },
+    {
+      "speaker": "Policía",
+      "spanish": "¿De qué color era la cartera?",
+      "finnish": "Minkä värinen lompakko oli?"
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "Era marrón, de cuero.",
+      "finnish": "Se oli ruskeaa, nahkaa."
+    },
+    {
+      "speaker": "Policía",
+      "spanish": "¿Cuándo se dio cuenta que la había perdido?",
+      "finnish": "Milloin tajusit, että olit menettänyt sen?"
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "Hace una hora, cuando fui a pagar en una tienda.",
+      "finnish": "Tunti sitten, kun menin maksamaan kaupassa."
+    },
+    {
+      "speaker": "Policía",
+      "spanish": "Voy a revisar si alguien la entregó. Espere aquí.",
+      "finnish": "Aion tarkistaa, onko joku toimittanut sen. Odota tässä."
+    },
+    {
+      "speaker": "Turista",
+      "spanish": "Muchas gracias, agente.",
+      "finnish": "Kiitos paljon, konstaapeli."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la cartera",
+      "finnish": "wallet"
+    },
+    {
+      "spanish": "perder",
+      "finnish": "hävitä"
+    },
+    {
+      "spanish": "el metro",
+      "finnish": "subway"
+    },
+    {
+      "spanish": "la tarjeta",
+      "finnish": "card"
+    },
+    {
+      "spanish": "el cuero",
+      "finnish": "leather"
+    },
+    {
+      "spanish": "darse cuenta",
+      "finnish": "toteuttaa"
+    },
+    {
+      "spanish": "entregar",
+      "finnish": "luovuttamaan/toimittamaan"
+    },
+    {
+      "spanish": "el/la policía",
+      "finnish": "police officer"
+    },
+    {
+      "spanish": "hace + time",
+      "finnish": "ago"
+    },
+    {
+      "spanish": "pagar",
+      "finnish": "maksaa"
+    },
+    {
+      "spanish": "esperar",
+      "finnish": "odottaa"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Missä turisti on voinut kadottaa lompakon?",
+      "options": [
+        "Metro tai kahvila",
+        "Hotel",
+        "Ravintola",
+        "Puisto"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuinka paljon rahaa lompakossa oli?",
+      "options": [
+        "50 euros",
+        "100 euros",
+        "20 euros",
+        "Ei rahaa"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minkä värinen lompakko oli?",
+      "options": [
+        "Brown",
+        "Musta",
+        "Red",
+        "Blue"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Milloin turisti tajusi, että lompakko oli kadonnut?",
+      "options": [
+        "Tunti sitten",
+        "This morning",
+        "Eilen",
+        "Kaksi tuntia sitten"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mistä materiaalista lompakko oli tehty?",
+      "options": [
+        "Nahka",
+        "Muovi",
+        "Kangas",
+        "Metalli"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 67,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

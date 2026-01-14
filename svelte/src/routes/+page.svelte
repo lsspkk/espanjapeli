@@ -186,8 +186,10 @@
 		</div>
 
 		<!-- Footer Note -->
-		<div class="mt-12 text-center text-sm text-base-content/50">
-			<p>Espanjan opiskelua älypuhelimella · Tallentaa edistymisen laitteellesi · Ilmainen</p>
+		<div class="mt-12 text-center text-sm text-base-content/50 space-y-1">
+			<p>Espanjan opiskelua älypuhelimalla</p>
+			<p>Tallentaa edistymisen laitteellesi</p>
+			<p>Ilmainen</p>
 		</div>
 	</div>
 </div>

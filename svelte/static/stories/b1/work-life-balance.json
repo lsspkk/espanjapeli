@@ -132,7 +132,7 @@
     {
       "question": "Kuinka monta tuntia Laura työskentelee viikossa?",
       "options": [
-        "More than 50",
+        "Yli 50",
         "40",
         "60",
         "35"
@@ -157,7 +157,7 @@
         "Tulla nähdyksi sitoutumattomana",
         "Getting fired",
         "Virheiden tekeminen",
-        "Colleagues"
+        "Kollegat"
       ],
       "correctAnswer": 0,
       "explanation": ""

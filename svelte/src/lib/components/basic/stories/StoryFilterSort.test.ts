@@ -9,7 +9,9 @@ describe('StoryFilterSort', () => {
 		// Check filter buttons exist
 		expect(screen.getByText('Kaikki')).toBeInTheDocument();
 		expect(screen.getByText('Alkeet')).toBeInTheDocument();
+		expect(screen.getByText('Perustaso')).toBeInTheDocument();
 		expect(screen.getByText('Keskitaso')).toBeInTheDocument();
+		expect(screen.getByText('Edistynyt')).toBeInTheDocument();
 	});
 
 	it('renders sort direction toggle', () => {
@@ -65,9 +67,10 @@ describe('StoryFilterSort', () => {
 			}
 		});
 
-		// Check that Alkeet button has btn-primary class
-		const alkeetButton = screen.getByText('Alkeet');
-		expect(alkeetButton.classList.contains('btn-primary')).toBe(true);
+		// Check that Alkeet button (parent) has btn-primary class
+		const alkeetSpan = screen.getByText('Alkeet');
+		const alkeetButton = alkeetSpan.closest('button');
+		expect(alkeetButton?.classList.contains('btn-primary')).toBe(true);
 	});
 
 	it('displays non-active filters with ghost styling', () => {
@@ -77,9 +80,10 @@ describe('StoryFilterSort', () => {
 			}
 		});
 
-		// Check that Kaikki button has btn-ghost class
-		const kaikkiButton = screen.getByText('Kaikki');
-		expect(kaikkiButton.classList.contains('btn-ghost')).toBe(true);
+		// Check that Kaikki button (parent) has btn-ghost class
+		const kaikkiSpan = screen.getByText('Kaikki');
+		const kaikkiButton = kaikkiSpan.closest('button');
+		expect(kaikkiButton?.classList.contains('btn-ghost')).toBe(true);
 	});
 
 	it('shows A-Z icon when sortDirection is asc', () => {

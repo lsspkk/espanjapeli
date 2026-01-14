@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { ArrowDownAZ, ArrowUpZA } from 'lucide-svelte';
+	import { getCEFRLabel } from '$lib/services/vocabularyService';
 
 	interface Props {
 		filterDifficulty?: string;
@@ -17,8 +18,10 @@
 
 	const difficultyOptions = [
 		{ value: 'all', labelDesktop: 'Kaikki tasot', labelMobile: 'Kaikki' },
-		{ value: 'A1', labelDesktop: 'A1/A2 - Alkeet', labelMobile: 'Alkeet' },
-		{ value: 'B1', labelDesktop: 'B1/B2 - Keskitaso', labelMobile: 'Keskitaso' }
+		{ value: 'A1', labelDesktop: getCEFRLabel('A1', 'full'), labelMobile: getCEFRLabel('A1', 'short') },
+		{ value: 'A2', labelDesktop: getCEFRLabel('A2', 'full'), labelMobile: getCEFRLabel('A2', 'short') },
+		{ value: 'B1', labelDesktop: getCEFRLabel('B1', 'full'), labelMobile: getCEFRLabel('B1', 'short') },
+		{ value: 'B2', labelDesktop: getCEFRLabel('B2', 'full'), labelMobile: getCEFRLabel('B2', 'short') }
 	];
 
 	function handleFilterChange(value: string) {

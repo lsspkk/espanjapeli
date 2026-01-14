@@ -1,0 +1,179 @@
+{
+  "id": "sports-match",
+  "title": "Sports Match",
+  "titleSpanish": "Partido de fútbol",
+  "description": "A A2 level story about sports",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "sports",
+  "icon": "⚽",
+  "dialogue": [
+    {
+      "speaker": "Pablo",
+      "spanish": "¿Viste el partido anoche?",
+      "finnish": "Katsoitko pelin viime yönä?"
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Sí, fue emocionante. ¿Quién es tu equipo favorito?",
+      "finnish": "Kyllä, se oli jännittävää. Kuka on suosikkijoukkueesi?"
+    },
+    {
+      "speaker": "Pablo",
+      "spanish": "El Barcelona. ¿Y el tuyo?",
+      "finnish": "El Barcelona. Entä sinun?"
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "El Real Madrid. Jugaron muy bien ayer.",
+      "finnish": "El Real Madrid. He pelasivat eilen todella hyvin."
+    },
+    {
+      "speaker": "Pablo",
+      "spanish": "Sí, pero el Barcelona marcó más goles.",
+      "finnish": "Kyllä, mutta Barcelona teki enemmän maaleja."
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Cierto. El portero del Madrid falló.",
+      "finnish": "Totta. Madridin maalivahti epäonnistui."
+    },
+    {
+      "speaker": "Pablo",
+      "spanish": "¿Cuál fue el resultado final?",
+      "finnish": "Mikä oli lopputulos?"
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Tres a dos. Fue muy reñido.",
+      "finnish": "Kolme vastaan kaksi. Se oli hyvin lähellä."
+    },
+    {
+      "speaker": "Pablo",
+      "spanish": "¿Vas a ver el próximo partido?",
+      "finnish": "Aiotko katsoa seuraavan pelin?"
+    },
+    {
+      "speaker": "Laura",
+      "spanish": "Sí, es el domingo. ¿Quieres venir a mi casa?",
+      "finnish": "Kyllä, on sunnuntai. Haluatko tulla kotiini?"
+    },
+    {
+      "speaker": "Pablo",
+      "spanish": "¡Claro! Llevo las bebidas.",
+      "finnish": "Tietysti! Tuon juomat."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "el partido",
+      "finnish": "match/game"
+    },
+    {
+      "spanish": "el equipo",
+      "finnish": "team"
+    },
+    {
+      "spanish": "favorito/a",
+      "finnish": "favorite"
+    },
+    {
+      "spanish": "jugar",
+      "finnish": "pelata"
+    },
+    {
+      "spanish": "marcar",
+      "finnish": "säveltää"
+    },
+    {
+      "spanish": "el gol",
+      "finnish": "goal"
+    },
+    {
+      "spanish": "el portero",
+      "finnish": "goalkeeper"
+    },
+    {
+      "spanish": "fallar",
+      "finnish": "epäonnistua/epäonnistua"
+    },
+    {
+      "spanish": "el resultado",
+      "finnish": "result/score"
+    },
+    {
+      "spanish": "reñido/a",
+      "finnish": "close (competition)"
+    },
+    {
+      "spanish": "próximo/a",
+      "finnish": "next"
+    },
+    {
+      "spanish": "la bebida",
+      "finnish": "drink"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mitä joukkuetta Pablo tukee?",
+      "options": [
+        "Barcelona",
+        "Real Madrid",
+        "Both",
+        "Kumpikaan"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä oli lopputulos?",
+      "options": [
+        "3-2",
+        "2-1",
+        "4-3",
+        "1-0"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Milloin seuraava ottelu on?",
+      "options": [
+        "Sunnuntai",
+        "Lauantai",
+        "Maanantai",
+        "Tänään illalla"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Kuka tuo juomia?",
+      "options": [
+        "Pablo",
+        "Laura",
+        "Both",
+        "Ei kukaan"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Miten ottelu kuvattiin?",
+      "options": [
+        "Jännittävä ja läheinen",
+        "Boring",
+        "Rauhallisesti",
+        "Pettymys"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 67,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

@@ -1,0 +1,179 @@
+{
+  "id": "moving-city",
+  "title": "Moving to a New City",
+  "titleSpanish": "Mudándose a una nueva ciudad",
+  "description": "A A2 level story about life",
+  "level": "A2",
+  "difficulty": "beginner",
+  "category": "life",
+  "icon": "📦",
+  "dialogue": [
+    {
+      "speaker": "Elena",
+      "spanish": "¿Cuándo te mudas a Barcelona?",
+      "finnish": "Milloin muutat Barcelonaan?"
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "El próximo mes. Estoy muy nervioso.",
+      "finnish": "Ensi kuussa. Olen todella hermostunut."
+    },
+    {
+      "speaker": "Elena",
+      "spanish": "¿Ya encontraste apartamento?",
+      "finnish": "Oletko löytänyt asunnon?"
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "Sí, alquilé uno cerca del centro.",
+      "finnish": "Kyllä, vuokrasin yhden lähellä keskustaa."
+    },
+    {
+      "speaker": "Elena",
+      "spanish": "¿Y el trabajo nuevo?",
+      "finnish": "Entä uusi työ?"
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "Empieza el día quince. Estoy emocionado.",
+      "finnish": "Se alkaa viidestoista. Olen innoissani."
+    },
+    {
+      "speaker": "Elena",
+      "spanish": "¿Conoces a alguien en Barcelona?",
+      "finnish": "Tunnetteko jonkun Barcelonassa?"
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "Tengo un primo que vive allí.",
+      "finnish": "Minulla on serkku, joka asuu siellä."
+    },
+    {
+      "speaker": "Elena",
+      "spanish": "Qué suerte. Te va a ayudar mucho.",
+      "finnish": "Kuinka onnekasta. Se auttaa sinua paljon."
+    },
+    {
+      "speaker": "Carlos",
+      "spanish": "Sí, me va a mostrar la ciudad.",
+      "finnish": "Kyllä, hän aikoo näyttää minulle kaupunkia."
+    },
+    {
+      "speaker": "Elena",
+      "spanish": "Te voy a extrañar. Mantengamos el contacto.",
+      "finnish": "Tulen kaipaamaan sinua. Pidetään yhteyttä."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "mudarse",
+      "finnish": "muuttaa (asuinpaikka)"
+    },
+    {
+      "spanish": "nervioso/a",
+      "finnish": "nervous"
+    },
+    {
+      "spanish": "encontrar",
+      "finnish": "Löytää"
+    },
+    {
+      "spanish": "alquilar",
+      "finnish": "vuokrata"
+    },
+    {
+      "spanish": "cerca",
+      "finnish": "near"
+    },
+    {
+      "spanish": "el centro",
+      "finnish": "center/downtown"
+    },
+    {
+      "spanish": "empezar",
+      "finnish": "Aloitetaan"
+    },
+    {
+      "spanish": "emocionado/a",
+      "finnish": "excited"
+    },
+    {
+      "spanish": "el primo",
+      "finnish": "cousin"
+    },
+    {
+      "spanish": "extrañar",
+      "finnish": "missaa (jotakuta)"
+    },
+    {
+      "spanish": "mantener",
+      "finnish": "säilyttää/ylläpitää"
+    },
+    {
+      "spanish": "el contacto",
+      "finnish": "contact"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Milloin Carlos muuttaa?",
+      "options": [
+        "Next month",
+        "This week",
+        "Huomenna",
+        "In two months"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mistä Carlos vuokrasi asunnon?",
+      "options": [
+        "Lähellä keskustaa",
+        "Esikaupungeissa",
+        "Kaupungin ulkopuolella",
+        "Rannalla"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Milloin uusi työ alkaa?",
+      "options": [
+        "15. päivä",
+        "Next month",
+        "Huomenna",
+        "Ensimmäisenä päivänä"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Ketä Carlos tuntee Barcelonassa?",
+      "options": [
+        "Serkku",
+        "Ystävä",
+        "Ei kukaan",
+        "Kollega"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Miltä Carlosista tuntuu muutosta?",
+      "options": [
+        "Hermostunut ja innoissaan",
+        "Only nervous",
+        "Vain onnellinen",
+        "Vihainen"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 62,
+  "estimatedMinutes": 2,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

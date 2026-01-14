@@ -1,0 +1,216 @@
+{
+  "id": "wedding-planning",
+  "title": "Wedding Planning",
+  "titleSpanish": "Planificación de boda",
+  "description": "A B1 level story about celebration",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "celebration",
+  "icon": "💒",
+  "dialogue": [
+    {
+      "speaker": "Novia",
+      "spanish": "No sé si queremos una boda grande o algo más íntimo.",
+      "finnish": "En tiedä, haluammeko isot häät vai jotain intiimimpää."
+    },
+    {
+      "speaker": "Organizadora",
+      "spanish": "¿Cuántos invitados estáis considerando?",
+      "finnish": "Kuinka monta vierasta harkitset?"
+    },
+    {
+      "speaker": "Novia",
+      "spanish": "Entre cincuenta y cien personas. Depende del presupuesto.",
+      "finnish": "Viidenkymmenen ja sata ihmisen välillä. Se riippuu budjetista."
+    },
+    {
+      "speaker": "Organizadora",
+      "spanish": "Un presupuesto realista para cien invitados sería entre 15 y 20 mil euros.",
+      "finnish": "Realistinen budjetti sadalle vieraalle olisi 15–20 tuhatta euroa."
+    },
+    {
+      "speaker": "Novia",
+      "spanish": "Es más de lo que pensábamos. ¿Qué incluye ese precio?",
+      "finnish": "Se on enemmän kuin luulimme. Mitä tuo hinta sisältää?"
+    },
+    {
+      "speaker": "Organizadora",
+      "spanish": "Lugar, catering, fotografía, música, flores y decoración.",
+      "finnish": "Tapahtumapaikka, catering, valokuvaus, musiikki, kukat ja koristelu."
+    },
+    {
+      "speaker": "Novia",
+      "spanish": "¿Hay forma de reducir costes sin sacrificar calidad?",
+      "finnish": "Onko olemassa keinoa vähentää kustannuksia tinkimättä laadusta?"
+    },
+    {
+      "speaker": "Organizadora",
+      "spanish": "Podéis casaros fuera de temporada alta o elegir un día entre semana.",
+      "finnish": "Voit mennä naimisiin sesongin ulkopuolella tai valita arkipäivän."
+    },
+    {
+      "speaker": "Novia",
+      "spanish": "Mi pareja prefiere una ceremonia civil en lugar de religiosa.",
+      "finnish": "Kumppanini suosii siviiliseremonia uskonnollisen sijaan."
+    },
+    {
+      "speaker": "Organizadora",
+      "spanish": "Eso simplifica las cosas. ¿Habéis pensado en la luna de miel?",
+      "finnish": "Se yksinkertaistaa asioita. Oletko ajatellut häämatkaa?"
+    },
+    {
+      "speaker": "Novia",
+      "spanish": "Queremos ir a Japón, pero quizás esperemos unos meses después de la boda.",
+      "finnish": "Haluamme mennä Japaniin, mutta ehkä odotamme muutaman kuukauden häiden jälkeen."
+    },
+    {
+      "speaker": "Organizadora",
+      "spanish": "Es sensato. Así podéis ahorrar más y disfrutarlo sin el estrés de la boda recién pasada.",
+      "finnish": "Se on järkevää. Näin voit säästää enemmän ja nauttia siitä ilman häiden aiheuttamaa stressiä."
+    },
+    {
+      "speaker": "Novia",
+      "spanish": "Tienes razón. Lo importante es celebrar nuestro compromiso con las personas que queremos.",
+      "finnish": "Olet oikeassa. Tärkeintä on juhlia sitoutumistamme rakkaisiin ihmisiin."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la boda",
+      "finnish": "wedding"
+    },
+    {
+      "spanish": "íntimo/a",
+      "finnish": "intimate"
+    },
+    {
+      "spanish": "el/la invitado/a",
+      "finnish": "guest"
+    },
+    {
+      "spanish": "el presupuesto",
+      "finnish": "budget"
+    },
+    {
+      "spanish": "el catering",
+      "finnish": "catering"
+    },
+    {
+      "spanish": "la fotografía",
+      "finnish": "photography"
+    },
+    {
+      "spanish": "las flores",
+      "finnish": "flowers"
+    },
+    {
+      "spanish": "la decoración",
+      "finnish": "decoration"
+    },
+    {
+      "spanish": "reducir",
+      "finnish": "vähentämään"
+    },
+    {
+      "spanish": "sacrificar",
+      "finnish": "uhrata"
+    },
+    {
+      "spanish": "la temporada alta",
+      "finnish": "high season"
+    },
+    {
+      "spanish": "entre semana",
+      "finnish": "weekday"
+    },
+    {
+      "spanish": "civil",
+      "finnish": "civil"
+    },
+    {
+      "spanish": "la luna de miel",
+      "finnish": "honeymoon"
+    },
+    {
+      "spanish": "sensato/a",
+      "finnish": "sensible"
+    },
+    {
+      "spanish": "el compromiso",
+      "finnish": "commitment/engagement"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Kuinka monta vierasta he harkitsevat?",
+      "options": [
+        "50-100",
+        "20-50",
+        "100-200",
+        "10-30"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä on realistinen budjetti sadalle vieraalle?",
+      "options": [
+        "15,000-20,000 euros",
+        "10,000 euros",
+        "30,000 euros",
+        "5,000 euros"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minkälaista seremonia kumppani suosii?",
+      "options": [
+        "Civil",
+        "Religious",
+        "Both",
+        "Ei mitään"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Minne he haluavat mennä häämatkalleen?",
+      "options": [
+        "Japani",
+        "Pariisi",
+        "Italia",
+        "Espanja"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä on yksi tapa vähentää hääkustannuksia?",
+      "options": [
+        "Mene naimisiin sesongin ulkopuolella tai arkipäivisin",
+        "Ei vieraita",
+        "Ei musiikkia",
+        "Ei ruokaa"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Morsiamen mukaan, mikä on tärkeintä?",
+      "options": [
+        "Juhli rakkaiden kanssa",
+        "Expensive venue",
+        "Täydelliset koristeet",
+        "Big guest list"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 136,
+  "estimatedMinutes": 4,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

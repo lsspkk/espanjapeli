@@ -1,0 +1,188 @@
+{
+  "id": "university-application",
+  "title": "University Application",
+  "titleSpanish": "Solicitud universitaria",
+  "description": "A B1 level story about education",
+  "level": "B1",
+  "difficulty": "intermediate",
+  "category": "education",
+  "icon": "🎓",
+  "dialogue": [
+    {
+      "speaker": "Orientador",
+      "spanish": "¿Ya has decidido qué carrera quieres estudiar?",
+      "finnish": "Oletko jo päättänyt, mitä uraa haluat opiskella?"
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "Estoy entre ingeniería informática y matemáticas.",
+      "finnish": "Olen tietotekniikan ja matematiikan välillä."
+    },
+    {
+      "speaker": "Orientador",
+      "spanish": "Ambas son buenas opciones con muchas salidas laborales.",
+      "finnish": "Molemmat ovat hyviä vaihtoehtoja, joissa on paljon työmahdollisuuksia."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "Me preocupa que la ingeniería sea muy difícil.",
+      "finnish": "Pelottaa, että insinööritaito tulee olemaan hyvin vaikeaa."
+    },
+    {
+      "speaker": "Orientador",
+      "spanish": "Es exigente, pero si te apasiona la tecnología, vale la pena.",
+      "finnish": "Se on vaativaa, mutta jos olet intohimoinen teknologiaa kohtaan, se on sen arvoista."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "¿Qué promedio necesito para entrar?",
+      "finnish": "Mikä keskiarvo minun pitää osallistua?"
+    },
+    {
+      "speaker": "Orientador",
+      "spanish": "Depende de la universidad, pero generalmente un siete sobre diez.",
+      "finnish": "Se riippuu yliopistosta, mutta yleensä seitsemän kymmenestä."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "Creo que puedo conseguirlo. ¿Cuándo debo presentar la solicitud?",
+      "finnish": "Luulen, että pystyn siihen. Milloin minun pitäisi hakea?"
+    },
+    {
+      "speaker": "Orientador",
+      "spanish": "El plazo termina en marzo. Te recomiendo que prepares bien tu carta de motivación.",
+      "finnish": "Määräaika päättyy maaliskuussa. Suosittelen, että valmistelet motivaatiokirjeesi huolellisesti."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "¿Es importante la carta?",
+      "finnish": "Onko kirje tärkeä?"
+    },
+    {
+      "speaker": "Orientador",
+      "spanish": "Sí, especialmente si quieres optar a becas.",
+      "finnish": "Kyllä, erityisesti jos haluat hakea stipendejä."
+    },
+    {
+      "speaker": "Estudiante",
+      "spanish": "Entiendo. Empezaré a trabajar en ella esta semana.",
+      "finnish": "Ymmärrän. Aloitan sen työstämisen tällä viikolla."
+    }
+  ],
+  "vocabulary": [
+    {
+      "spanish": "la solicitud",
+      "finnish": "application"
+    },
+    {
+      "spanish": "la carrera",
+      "finnish": "degree/career"
+    },
+    {
+      "spanish": "la ingeniería",
+      "finnish": "engineering"
+    },
+    {
+      "spanish": "la salida laboral",
+      "finnish": "job opportunity"
+    },
+    {
+      "spanish": "exigente",
+      "finnish": "demanding"
+    },
+    {
+      "spanish": "valer la pena",
+      "finnish": "että se olisi sen arvoista"
+    },
+    {
+      "spanish": "el promedio",
+      "finnish": "average/GPA"
+    },
+    {
+      "spanish": "conseguir",
+      "finnish": "saavuttaa/saada"
+    },
+    {
+      "spanish": "el plazo",
+      "finnish": "deadline"
+    },
+    {
+      "spanish": "la carta de motivación",
+      "finnish": "motivation letter"
+    },
+    {
+      "spanish": "la beca",
+      "finnish": "scholarship"
+    },
+    {
+      "spanish": "optar a",
+      "finnish": "hakea"
+    }
+  ],
+  "questions": [
+    {
+      "question": "Mitä kahta tutkintoa opiskelija harkitsee?",
+      "options": [
+        "Tietotekniikka ja matematiikka",
+        "Lääketiede ja oikeustiede",
+        "Historia ja kirjallisuus",
+        "Liiketoiminta ja taloustiede"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mikä keskimääräinen arvosana yleensä tarvitaan?",
+      "options": [
+        "7",
+        "10",
+        "5",
+        "10",
+        "9",
+        "10",
+        "8",
+        "10"
+      ],
+      "correctAnswer": 1,
+      "explanation": ""
+    },
+    {
+      "question": "Milloin on hakemusten määräaika?",
+      "options": [
+        "Maaliskuu",
+        "Tammikuu",
+        "June",
+        "September"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Mitä neuvonantaja suosittelee valmistautumaan hyvin?",
+      "options": [
+        "Motivaatiokirje",
+        "Resume",
+        "Portfolio",
+        "References"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    },
+    {
+      "question": "Miksi kirje on erityisen tärkeä?",
+      "options": [
+        "Stipendejä varten",
+        "Sisäänpääsyä varten",
+        "For housing",
+        "Urheilujoukkueille"
+      ],
+      "correctAnswer": 0,
+      "explanation": ""
+    }
+  ],
+  "wordCount": 97,
+  "estimatedMinutes": 3,
+  "version": 1,
+  "createdAt": "2026-01-14",
+  "updatedAt": "2026-01-14"
+}

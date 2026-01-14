@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
-	import { Home, BookOpen, BookMarked, Info, Settings } from 'lucide-svelte';
+	import { BookOpen, BookMarked, Info, Settings } from 'lucide-svelte';
 	import type { ComponentType } from 'svelte';
 
 	interface NavItem {
@@ -11,7 +11,6 @@
 	}
 
 	const navItems: NavItem[] = [
-		{ href: '/', label: 'Koti', icon: Home },
 		{ href: '/sanasto', label: 'Sanasto', icon: BookMarked },
 		{ href: '/kielten-oppiminen', label: 'Kielten oppiminen', icon: BookOpen },
 		{ href: '/tietoja', label: 'Tietoja', icon: Info },

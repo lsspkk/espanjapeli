@@ -533,6 +533,206 @@
       "estimatedMinutes": 3,
       "vocabularyCount": 13,
       "questionCount": 6
+    },
+    {
+      "id": "at-zoo",
+      "title": "At the Zoo",
+      "titleSpanish": "En el zoológico",
+      "level": "A1",
+      "category": "animals",
+      "icon": "🦁",
+      "wordCount": 44,
+      "estimatedMinutes": 2
+    },
+    {
+      "id": "my-pets",
+      "title": "My Pets",
+      "titleSpanish": "Mis mascotas",
+      "level": "A1",
+      "category": "animals",
+      "icon": "🐕",
+      "wordCount": 46,
+      "estimatedMinutes": 2
+    },
+    {
+      "id": "counting-twenty",
+      "title": "Counting to Twenty",
+      "titleSpanish": "Contando hasta veinte",
+      "level": "A1",
+      "category": "numbers",
+      "icon": "🔢",
+      "wordCount": 38,
+      "estimatedMinutes": 2
+    },
+    {
+      "id": "body-parts",
+      "title": "The Body Parts",
+      "titleSpanish": "Las partes del cuerpo",
+      "level": "A1",
+      "category": "health",
+      "icon": "🧍",
+      "wordCount": 33,
+      "estimatedMinutes": 2
+    },
+    {
+      "id": "weather-today",
+      "title": "Weather Today",
+      "titleSpanish": "El tiempo hoy",
+      "level": "A1",
+      "category": "weather",
+      "icon": "☀️",
+      "wordCount": 35,
+      "estimatedMinutes": 2
+    },
+    {
+      "id": "at-gym",
+      "title": "At the Gym",
+      "titleSpanish": "En el gimnasio",
+      "level": "A2",
+      "category": "fitness",
+      "icon": "🏋️",
+      "wordCount": 65,
+      "estimatedMinutes": 2
+    },
+    {
+      "id": "hairdresser",
+      "title": "The Hairdresser",
+      "titleSpanish": "En la peluquería",
+      "level": "A2",
+      "category": "services",
+      "icon": "💇",
+      "wordCount": 57,
+      "estimatedMinutes": 2
+    },
+    {
+      "id": "car-problems",
+      "title": "Car Problems",
+      "titleSpanish": "Problemas con el coche",
+      "level": "A2",
+      "category": "transportation",
+      "icon": "🚗",
+      "wordCount": 54,
+      "estimatedMinutes": 2
+    },
+    {
+      "id": "moving-city",
+      "title": "Moving to a New City",
+      "titleSpanish": "Mudándose a una nueva ciudad",
+      "level": "A2",
+      "category": "life",
+      "icon": "📦",
+      "wordCount": 62,
+      "estimatedMinutes": 2
+    },
+    {
+      "id": "lost-wallet",
+      "title": "The Lost Wallet",
+      "titleSpanish": "La cartera perdida",
+      "level": "A2",
+      "category": "emergency",
+      "icon": "👛",
+      "wordCount": 67,
+      "estimatedMinutes": 2
+    },
+    {
+      "id": "cooking-together",
+      "title": "Cooking Together",
+      "titleSpanish": "Cocinando juntos",
+      "level": "A2",
+      "category": "food",
+      "icon": "🍳",
+      "wordCount": 59,
+      "estimatedMinutes": 2
+    },
+    {
+      "id": "sports-match",
+      "title": "Sports Match",
+      "titleSpanish": "Partido de fútbol",
+      "level": "A2",
+      "category": "sports",
+      "icon": "⚽",
+      "wordCount": 67,
+      "estimatedMinutes": 2
+    },
+    {
+      "id": "at-library",
+      "title": "At the Library",
+      "titleSpanish": "En la biblioteca",
+      "level": "A2",
+      "category": "education",
+      "icon": "📚",
+      "wordCount": 62,
+      "estimatedMinutes": 2
+    },
+    {
+      "id": "university-application",
+      "title": "University Application",
+      "titleSpanish": "Solicitud universitaria",
+      "level": "B1",
+      "category": "education",
+      "icon": "🎓",
+      "wordCount": 97,
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "starting-business",
+      "title": "Starting a Business",
+      "titleSpanish": "Empezar un negocio",
+      "level": "B1",
+      "category": "business",
+      "icon": "💼",
+      "wordCount": 106,
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental Health Awareness",
+      "titleSpanish": "Conciencia sobre la salud mental",
+      "level": "B1",
+      "category": "health",
+      "icon": "🧠",
+      "wordCount": 140,
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "social-media-impact",
+      "title": "Social Media Impact",
+      "titleSpanish": "El impacto de las redes sociales",
+      "level": "B1",
+      "category": "technology",
+      "icon": "📱",
+      "wordCount": 123,
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "housing-market",
+      "title": "Housing Market Crisis",
+      "titleSpanish": "Crisis del mercado inmobiliario",
+      "level": "B1",
+      "category": "economy",
+      "icon": "🏘️",
+      "wordCount": 132,
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "learning-drive",
+      "title": "Learning to Drive",
+      "titleSpanish": "Aprendiendo a conducir",
+      "level": "B1",
+      "category": "transportation",
+      "icon": "🚘",
+      "wordCount": 135,
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "wedding-planning",
+      "title": "Wedding Planning",
+      "titleSpanish": "Planificación de boda",
+      "level": "B1",
+      "category": "celebration",
+      "icon": "💒",
+      "wordCount": 136,
+      "estimatedMinutes": 4
     }
   ]
 }

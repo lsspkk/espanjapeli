@@ -355,6 +355,13 @@
 		<div class="mt-8 text-center text-sm text-base-content/50">
 			<p>Tilastot päivittyvät automaattisesti pelaamisen myötä</p>
 		</div>
+
+		<!-- Footer Note -->
+		<div class="mt-8 text-center text-sm text-base-content/50 space-y-1">
+			<p>Espanjan opiskelua älypuhelimalla</p>
+			<p>Tallentaa edistymisen laitteellesi</p>
+			<p>Ilmainen</p>
+		</div>
 	</div>
 </div>
 
