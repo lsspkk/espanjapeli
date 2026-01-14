@@ -51,10 +51,14 @@ Rules:
 - Update todo.json status to 'in-progress' before starting
 - Task is NOT complete until tests pass (check testRequired field)
 - Append progress log into file progress.txt with timestamps after each agent action, as described below
-- Mark subtask 'completed' in todo.json when done
-- When task and all subtasks of it are complete, do git commit
-- Check todo.json: if ANY task/subtask has status 'not-started', do NOT output stop token
 - ONLY when ALL tasks AND subtasks are 'completed', print exactly: ${STOP_TOKEN}
+- Check todo.json: if ANY task/subtask has status 'not-started', do NOT output stop token
+- When subtask is done
+  - mark subtask 'completed' in todo.json
+  - append to process.txt the log line, 
+    and a short (about 10 lines) summary of changes made
+  - if all subtasks of tasks are now complete, do git commit
+  - stop working: exit this agent session
 
 Actions, and log line formats for progress.txt file:
 
@@ -113,6 +117,6 @@ Work incrementally. Small, safe edits. Begin." \
 done
 
 echo ""
-echo "🏁 Ralph 2.0 complete"
+echo "🏁 Ralph 3.0 complete"
 echo "📊 Total iterations: $i"
 echo "🌿 Branch: $BRANCH"

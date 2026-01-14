@@ -96,7 +96,7 @@ describe('VocabularyProgressWidget', () => {
 		it('displays Top 100 progress bar', async () => {
 			const { getByText, container } = render(VocabularyProgressWidget);
 			await waitFor(() => {
-				expect(getByText('Top 100')).toBeTruthy();
+				expect(getByText('100 yleisintä')).toBeTruthy();
 				expect(getByText('25/100')).toBeTruthy();
 				const progressBar = container.querySelector('progress.progress-primary');
 				expect(progressBar).toBeTruthy();
@@ -107,7 +107,7 @@ describe('VocabularyProgressWidget', () => {
 		it('displays Top 1000 progress bar', async () => {
 			const { getByText, container } = render(VocabularyProgressWidget);
 			await waitFor(() => {
-				expect(getByText('Top 1000')).toBeTruthy();
+				expect(getByText('1000 yleisintä')).toBeTruthy();
 				expect(getByText('30/1000')).toBeTruthy();
 				const progressBar = container.querySelector('progress.progress-accent');
 				expect(progressBar).toBeTruthy();

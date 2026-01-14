@@ -78,7 +78,7 @@ describe('FrequencySummary', () => {
 		});
 
 		expect(screen.getByText(/Harjoittelit 2 sanaa/i)).toBeInTheDocument();
-		expect(screen.getByText('Top 100')).toBeInTheDocument();
+		expect(screen.getByText('100 yleisintä')).toBeInTheDocument();
 		expect(screen.getByText('2')).toBeInTheDocument();
 	});
 
@@ -133,8 +133,8 @@ describe('FrequencySummary', () => {
 			expect(screen.getByText(/Sanojen yleisyys/i)).toBeInTheDocument();
 		});
 
-		expect(screen.getByText('Top 100')).toBeInTheDocument();
-		expect(screen.getByText('Top 500')).toBeInTheDocument();
+		expect(screen.getByText('100 yleisintä')).toBeInTheDocument();
+		expect(screen.getByText('500 yleisintä')).toBeInTheDocument();
 		expect(screen.getByText('Muut')).toBeInTheDocument();
 	});
 

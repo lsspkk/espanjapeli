@@ -62,63 +62,63 @@
       "title": "Finnish Language Consistency & Vocabulary Stats Widget",
       "todoTxtRef": "TASK 21: Finnish Language Consistency & Vocabulary Stats Widget (TODO.txt lines 46-86)",
       "priority": 1,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 3.5,
       "dependencies": [],
       "subtasks": [
         {
           "id": "21.1",
           "title": "Review ALL components for English text and replace with Finnish",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": "Multiple component files",
           "testRequired": true
         },
         {
           "id": "21.2",
           "title": "Move Sanastosi widget to menu only",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": "svelte/src/lib/components/shared/VocabularyProgressWidget.svelte",
           "testRequired": true
         },
         {
           "id": "21.3",
           "title": "Fix button text: 'Takaisin valikkoon' → 'Takaisin'",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": "svelte/src/routes/sanasto/+page.svelte",
           "testRequired": true
         },
         {
           "id": "21.4",
           "title": "Remove glyph icon from main title 'Sanastosi'",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": "svelte/src/routes/sanasto/+page.svelte",
           "testRequired": true
         },
         {
           "id": "21.5",
           "title": "Add Svelte icon pack icons to statistic cards",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": "svelte/src/routes/sanasto/+page.svelte",
           "testRequired": true
         },
         {
           "id": "21.6",
           "title": "Create VocabularyWordListDialog.svelte component",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": "svelte/src/lib/components/shared/VocabularyWordListDialog.svelte",
           "testRequired": true
         },
         {
           "id": "21.7",
           "title": "Make word counts clickable (Harjoitellut, Osatut, etc.)",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": "svelte/src/routes/sanasto/+page.svelte",
           "testRequired": true
         },
         {
           "id": "21.8",
           "title": "Connect clickable counts to word list dialog",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": null,
           "testRequired": true
         }

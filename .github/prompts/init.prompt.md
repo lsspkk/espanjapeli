@@ -1,6 +1,6 @@
 ---
-mode: 'agent'
-model: claude-sonnet-4.5
+name: 'clauder'
+model: 'Claude Sonnet 4.5'
 description: 'Generate codebase.md - a concise overview of Espanjapeli for AI agents'
 ---
 

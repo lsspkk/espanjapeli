@@ -70,7 +70,7 @@
 		<div class="space-y-2">
 			{#if top100Count > 0}
 				<div class="flex items-center gap-2">
-					<div class="badge badge-success badge-sm">Top 100</div>
+					<div class="badge badge-success badge-sm">100 yleisintä</div>
 					<div class="flex-1 h-2 bg-base-300 rounded-full overflow-hidden">
 						<div 
 							class="h-full bg-success transition-all duration-500" 
@@ -83,7 +83,7 @@
 
 			{#if top500Count > 0}
 				<div class="flex items-center gap-2">
-					<div class="badge badge-info badge-sm">Top 500</div>
+					<div class="badge badge-info badge-sm">500 yleisintä</div>
 					<div class="flex-1 h-2 bg-base-300 rounded-full overflow-hidden">
 						<div 
 							class="h-full bg-info transition-all duration-500" 
@@ -96,7 +96,7 @@
 
 			{#if top1000Count > 0}
 				<div class="flex items-center gap-2">
-					<div class="badge badge-primary badge-sm">Top 1000</div>
+					<div class="badge badge-primary badge-sm">1000 yleisintä</div>
 					<div class="flex-1 h-2 bg-base-300 rounded-full overflow-hidden">
 						<div 
 							class="h-full bg-primary transition-all duration-500" 
@@ -109,7 +109,7 @@
 
 			{#if top3000Count > 0}
 				<div class="flex items-center gap-2">
-					<div class="badge badge-warning badge-sm">Top 3000</div>
+					<div class="badge badge-warning badge-sm">3000 yleisintä</div>
 					<div class="flex-1 h-2 bg-base-300 rounded-full overflow-hidden">
 						<div 
 							class="h-full bg-warning transition-all duration-500" 
@@ -122,7 +122,7 @@
 
 			{#if top5000Count > 0}
 				<div class="flex items-center gap-2">
-					<div class="badge badge-sm">Top 5000</div>
+					<div class="badge badge-sm">5000 yleisintä</div>
 					<div class="flex-1 h-2 bg-base-300 rounded-full overflow-hidden">
 						<div 
 							class="h-full bg-base-content/30 transition-all duration-500" 
@@ -148,7 +148,7 @@
 		</div>
 
 		<div class="mt-3 text-xs text-base-content/60">
-			💡 Yleisimmät sanat (Top 1000) ovat tärkeimpiä jokapäiväisessä viestinnässä.
+			💡 Yleisimmät sanat (1000 yleisintä) ovat tärkeimpiä jokapäiväisessä viestinnässä.
 		</div>
 	</div>
 {/if}

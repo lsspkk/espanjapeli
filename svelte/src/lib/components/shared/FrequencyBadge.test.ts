@@ -56,7 +56,7 @@ describe('FrequencyBadge', () => {
 		render(FrequencyBadge, { spanish: 'el' });
 
 		await waitFor(() => {
-			expect(screen.getByText('Top 100')).toBeInTheDocument();
+			expect(screen.getByText('100 yleisintä')).toBeInTheDocument();
 		});
 	});
 
@@ -76,7 +76,7 @@ describe('FrequencyBadge', () => {
 		render(FrequencyBadge, { spanish: 'palabra' });
 
 		await waitFor(() => {
-			expect(screen.getByText('Top 500')).toBeInTheDocument();
+			expect(screen.getByText('500 yleisintä')).toBeInTheDocument();
 		});
 	});
 
@@ -96,7 +96,7 @@ describe('FrequencyBadge', () => {
 		render(FrequencyBadge, { spanish: 'ejemplo' });
 
 		await waitFor(() => {
-			expect(screen.getByText('Top 1000')).toBeInTheDocument();
+			expect(screen.getByText('1000 yleisintä')).toBeInTheDocument();
 		});
 	});
 
@@ -116,7 +116,7 @@ describe('FrequencyBadge', () => {
 		render(FrequencyBadge, { spanish: 'palabra' });
 
 		await waitFor(() => {
-			expect(screen.getByText('Top 3000')).toBeInTheDocument();
+			expect(screen.getByText('3000 yleisintä')).toBeInTheDocument();
 		});
 	});
 
@@ -136,7 +136,7 @@ describe('FrequencyBadge', () => {
 		render(FrequencyBadge, { spanish: 'palabra' });
 
 		await waitFor(() => {
-			expect(screen.getByText('Top 5000')).toBeInTheDocument();
+			expect(screen.getByText('5000 yleisintä')).toBeInTheDocument();
 		});
 	});
 

@@ -1,1094 +1,192 @@
 ================================================================================
-ESPANJAPELI V4.0.0 - TASK LIST
+ESPANJAPELI - UI/UX FIX LIST
 ================================================================================
 
-Project: Data-First Architecture + Story Mode Excellence
-Timeline: 8 weeks (16-24 coding sessions)
-Task Size: 4-6 hours per task
-Principle: Simple, maintainable, one-developer-friendly
+Project: Mobile-First UI Polish & Finnish Language Consistency
+Created: January 14, 2026
+Priority: HIGH - User Experience Critical
+
+These are small but important fixes to improve the user experience in the
+Svelte application. Focus on mobile UX, Finnish language consistency, and
+restoring better UI layouts that were lost in V4 updates.
 
 ================================================================================
-PRIORITY 1: DATA FOUNDATION (Tasks 1-4)
-================================================================================
-These tasks MUST be completed first. The datamodel is the foundation.
-All subsequent features depend on getting this right.
-
-
-================================================================================
-TASK 1: Download and Process Open-Source Frequency Datasets
+TASK 20: Navigation Bar Mobile Improvements
 ================================================================================
 
 DESCRIPTION:
-Download Spanish and Finnish frequency data from OpenSubtitles (CC-BY-SA-4.0).
-Create simple Python scripts that fetch the data and convert to JSON format
-suitable for bundling as static files. IMPORTANT: Filter to top 5000 words only
-to keep bundle size reasonable (~1MB vs 10MB). This is the foundation for all
-vocabulary features.
+Improve mobile navigation by hiding the main navbar in game modes (only show
+"Takaisin" button), move the language learning link to main menu, and replace
+text glyphs with proper icon images from Svelte icon packs.
 
 OBJECTIVES:
-• Download Spanish 50k frequency list from hermitdave/FrequencyWords
-• Download Finnish 50k frequency list for reference
-• Parse text format into structured JSON
-• FILTER to top 5000 words only (sufficient for B2 level)
-• Add CEFR level estimates based on frequency rank
-• Create top100, top500, top1000, top3000 boolean flags
-• Split output into tiered files for lazy loading
-• Create data size measurement report
-• Output as static JSON files for the svelte app
-
-DELIVERABLES:
-□ scripts/data_pipeline/download_frequency.py
-□ svelte/static/data/frequency-spanish-top1000.json (~200KB)
-□ svelte/static/data/frequency-spanish-top5000.json (~1MB)
-□ svelte/static/data/frequency-finnish-top5000.json (reference, ~1MB)
-□ scripts/data_pipeline/measure_data_size.py (reports file sizes)
-□ README in scripts/data_pipeline/ explaining filtering rationale
-
-DATA SOURCE:
-- URL: https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/es/es_50k.txt
-- License: CC-BY-SA-4.0 (must attribute in app)
-- Format: "word count" per line, already sorted by frequency
-
-OUTPUT FORMAT (split files):
-
-frequency-spanish-top1000.json (~200KB):
-{
-  "version": "1.0.0",
-  "source": "OpenSubtitles 2018",
-  "license": "CC-BY-SA-4.0",
-  "wordCount": 1000,
-  "range": "1-1000",
-  "words": {
-    "de": { "rank": 1, "cefr": "A1", "top100": true, "top500": true, "top1000": true },
-    "que": { "rank": 2, "cefr": "A1", "top100": true, "top500": true, "top1000": true },
-    ...
-  }
-}
-
-frequency-spanish-top5000.json (~1MB):
-{
-  "version": "1.0.0",
-  "source": "OpenSubtitles 2018",
-  "license": "CC-BY-SA-4.0",
-  "wordCount": 5000,
-  "range": "1-5000",
-  "words": { /* all 5000 words */ }
-}
-
-DATA SIZE RATIONALE:
-- Full 50k words: 10.6 MB (too large for initial load)
-- Top 5k words: ~1 MB (reasonable, covers A1-B2)
-- Top 1k words: ~200 KB (instant load for beginners)
-- With gzip: 70% reduction (300KB for top 5k)
-- Coverage: Top 5000 words = ~95% of spoken Spanish
-
-FILTERING STRATEGY:
-1. Download full 50k list
-2. Keep only top 5000 (rank 1-5000)
-3. Generate separate top 1000 file for lightweight lookups
-4. Discard ranks 5001-50000 (rare words not needed for A1-B2 learners)
-
-MEASUREMENT SCRIPT:
-```python
-# scripts/data_pipeline/measure_data_size.py
-import json
-import gzip
-from pathlib import Path
-
-def measure_json_size(filepath: Path):
-    """Measure raw and gzipped JSON size."""
-    raw_size = filepath.stat().st_size
-    
-    with open(filepath, 'rb') as f_in:
-        with gzip.open(filepath.with_suffix('.json.gz'), 'wb') as f_out:
-            f_out.writelines(f_in)
-    
-    gzip_size = filepath.with_suffix('.json.gz').stat().st_size
-    
-    print(f"{filepath.name}:")
-    print(f"  Raw:    {raw_size:>10,} bytes ({raw_size/1024/1024:.2f} MB)")
-    print(f"  Gzipped: {gzip_size:>10,} bytes ({gzip_size/1024/1024:.2f} MB)")
-    print(f"  Compression: {100*(1-gzip_size/raw_size):.1f}%")
-    
-    # Load and report word count
-    with open(filepath) as f:
-        data = json.load(f)
-        print(f"  Words:   {data.get('wordCount', len(data.get('words', {})))} entries")
-    print()
-
-# Run on all generated files
-for file in Path('svelte/static/data').glob('frequency-*.json'):
-    measure_json_size(file)
-```
-
-EXPECTED OUTPUT:
-frequency-spanish-top1000.json:
-  Raw:         200,000 bytes (0.19 MB)
-  Gzipped:      60,000 bytes (0.06 MB)
-  Compression: 70.0%
-  Words:       1000 entries
-
-frequency-spanish-top5000.json:
-  Raw:       1,000,000 bytes (0.95 MB)
-  Gzipped:     300,000 bytes (0.29 MB)
-  Compression: 70.0%
-  Words:       5000 entries
-
-CEFR ESTIMATION:
-- Rank 1-500: A1
-- Rank 501-1500: A2
-- Rank 1501-3000: B1
-- Rank 3001-5000: B2
-- Rank 5001+: C1/C2 (not included - beyond scope)
-
-WEB SERVER CONFIGURATION NOTE:
-Ensure gzip compression enabled in nginx/apache/node:
-- Compresses JSON by ~70%
-- 1MB file → 300KB over wire
-- No client-side changes needed
-
-ESTIMATED TIME: 4-5 hours (including measurement script)
+□ Hide main navigation bar in game modes on mobile (only "Takaisin" visible)
+□ Move "Kielten oppiminen" link from main page to main menu
+□ Replace all text glyphs (emoji) in main menu with Svelte icon pack icons
+  - Check installed: lucide-svelte, svelte-icons, or heroicons
+  - Use consistent icon style throughout
+□ Check that Asetukset & Tietojen vienti is in the main menu, and if it matches to the one that is currently on the footer, remove the link from footer
+□ On mobile mainpage dont show Espanjapeli title, because it is already on the main navbar
 
 
-================================================================================
-TASK 2: Enhance Existing words.ts with Frequency and Metadata
-================================================================================
-
-DESCRIPTION:
-Update the existing words.ts vocabulary database to include frequency ranks,
-CEFR levels, and part-of-speech information. Match existing words against the
-downloaded frequency data. Keep it simple - extend the existing Word interface
-with optional fields for backward compatibility.
-
-OBJECTIVES:
-• Extend Word interface with new optional fields
-• Create script to match words.ts entries with frequency data
-• Add id field to each word (for cross-referencing)
-• Add partOfSpeech field (noun, verb, adjective, etc.)
-• Add gender field for nouns (masculine, feminine)
-• Add frequencyRank from downloaded data
-• Add cefrLevel based on frequency
-
-CURRENT INTERFACE (words.ts):
-interface Word {
-  spanish: string;
-  english: string;
-  finnish: string;
-  learningTips?: string[];
-}
-
-ENHANCED INTERFACE:
-interface Word {
-  // Existing
-  spanish: string;
-  english: string;
-  finnish: string;
-  learningTips?: string[];
-  
-  // NEW (all optional for gradual migration)
-  id?: string;                    // "perro", "banco_n", "banco_v"
-  frequencyRank?: number;         // 847
-  cefrLevel?: string;             // "A1"
-  partOfSpeech?: string;          // "noun"
-  gender?: string;                // "masculine"
-}
-
-WORD ID GENERATION (Python pseudocode):
-The ID should be human-readable and derived from the Spanish word itself.
-No external library needed - just normalize the word to ASCII slug.
-
-```python
-import re
-import unicodedata
-
-def spanish_to_id(word: str, pos: str = None) -> str:
-    """Convert Spanish word to stable, URL-safe ID."""
-    # 1. Normalize unicode: á→a, ñ→n, ü→u
-    normalized = unicodedata.normalize('NFKD', word.lower())
-    ascii_text = normalized.encode('ascii', 'ignore').decode('ascii')
-    
-    # 2. Replace non-alphanumeric with underscore
-    slug = re.sub(r'[^a-z0-9]+', '_', ascii_text).strip('_')
-    
-    # 3. For homonyms, append part-of-speech suffix
-    if pos:
-        suffix = {'noun': 'n', 'verb': 'v', 'adjective': 'a', 
-                  'adverb': 'adv', 'preposition': 'prep'}
-        slug = f"{slug}_{suffix.get(pos, pos[:1])}"
-    
-    return slug
-
-# Examples:
-# ("perro", None)     → "perro"
-# ("niño", None)      → "nino"
-# ("¿Cómo estás?")    → "como_estas"
-# ("banco", "noun")   → "banco_n"      (bank/bench)
-# ("banco", "verb")   → "banco_v"      (I bank)
-```
-
-COLLISION HANDLING:
-Collisions occur when same Spanish word has multiple meanings (homonyms).
-
-Strategy 1 - Part of Speech Suffix (preferred):
-  - If word has different meanings for different parts of speech, append suffix
-  - "banco" (noun: bank) → "banco_n"
-  - "banco" (verb: I bank) → "banco_v"
-  - This is how WordNet handles it: dog.n.01
-
-Strategy 2 - Numeric Suffix (fallback for same-POS homonyms):
-  - If same word, same POS, different meanings → append number
-  - "banco_n" (bank building) → "banco_n_1"
-  - "banco_n" (bench) → "banco_n_2"
-  - Keep a counter per base slug during data generation
-
-Implementation in enrich_words.py:
-```python
-seen_ids = {}  # Track used IDs
-
-def generate_unique_id(word: str, pos: str = None) -> str:
-    base_id = spanish_to_id(word, pos)
-    
-    if base_id not in seen_ids:
-        seen_ids[base_id] = 1
-        return base_id
-    
-    # Collision! Add numeric suffix
-    seen_ids[base_id] += 1
-    return f"{base_id}_{seen_ids[base_id]}"
-
-# Usage:
-# First "banco" noun  → "banco_n"
-# Second "banco" noun → "banco_n_2"
-```
-
-PRACTICAL NOTES:
-- For Espanjapeli's curated ~500 word vocabulary, collisions are rare
-- Most homonyms are already different POS (banco noun vs verb)
-- If collision detected during data pipeline, script should log warning
-- Human review recommended for homonym cases to ensure correct meaning
-
-DELIVERABLES:
-□ Updated svelte/src/lib/data/words.ts with new interface
-□ scripts/data_pipeline/enrich_words.py - matches words to frequency
-□ All ~500 existing words tagged with frequency rank
-□ Part of speech for all words (manual review needed)
-□ Gender for all nouns
-
-APPROACH:
-- Script reads words.ts, looks up each spanish word in frequency JSON
-- Outputs enriched words.ts with new fields
-- Manual review for part-of-speech (can be done incrementally)
-
-ESTIMATED TIME: 5-6 hours
-
-
-================================================================================
-TASK 3: Create Vocabulary Service and Statistics Calculation
-================================================================================
-
-DESCRIPTION:
-Create a simple vocabulary service that loads frequency data and provides
-lookup functions. Create statistics calculation that tells user their progress
-on learning the most common words. Store user's vocabulary knowledge in
-localStorage with efficient format.
-
-OBJECTIVES:
-• Create vocabularyService.ts for frequency lookups
-• Create statisticsService.ts for progress calculations
-• Load frequency JSON on first use (lazy loading)
-• Calculate: "You know X of top 1000 words"
-• Calculate estimated CEFR level
-• Track words learned over time
-• Simple localStorage format for progress
-
-DELIVERABLES:
-□ svelte/src/lib/services/vocabularyService.ts
-□ svelte/src/lib/services/statisticsService.ts
-□ VocabularyStatistics type definition
-□ Integration with existing wordKnowledge store
-
-KEY FUNCTIONS:
-// vocabularyService.ts
-getFrequencyRank(spanish: string): number
-getCEFRLevel(spanish: string): string
-isInTopN(spanish: string, n: number): boolean
-getWordMetadata(spanish: string): WordMetadata
-
-// statisticsService.ts
-calculateVocabularyStats(): VocabularyStatistics
-getTop100Progress(): { known: number, total: 100 }
-getTop500Progress(): { known: number, total: 500 }
-getTop1000Progress(): { known: number, total: 1000 }
-getEstimatedLevel(): "A1" | "A2" | "B1" | "B2"
-
-STORAGE FORMAT (efficient for localStorage):
-- Don't store huge objects
-- Store word IDs with scores, not full word data
-- Keep last 100 game records max
-- Compress timestamps to epoch seconds
-
-ESTIMATED TIME: 4-5 hours
-
-
-================================================================================
-TASK 4: Create Licenses Page and Data Attribution
-================================================================================
-
-DESCRIPTION:
-Create a proper licenses/about page that shows all data sources, their licenses,
-and required attributions. This is legally required for CC-BY-SA and CC-BY
-licensed data. Also show software licenses (SvelteKit, DaisyUI, etc.).
-
-OBJECTIVES:
-• Create /tietoja (About) route in SvelteKit
-• List all data sources with proper attribution
-• Show software licenses used
-• Create simple, readable layout
-• Add to future navbar (placeholder link for now)
-
-DATA SOURCES TO ATTRIBUTE:
-1. OpenSubtitles Frequency Data
-   - Source: hermitdave/FrequencyWords
-   - License: CC-BY-SA-4.0
-   - Attribution: "Frequency data from OpenSubtitles via FrequencyWords"
-
-2. (Future) Tatoeba Sentences
-   - License: CC-BY
-   - Attribution: "Example sentences from Tatoeba.org"
-
-3. (Future) Wiktionary Data
-   - License: CC-BY-SA-3.0
-   - Attribution: "Dictionary data from Wiktionary"
-
-SOFTWARE LICENSES:
-- SvelteKit: MIT
-- DaisyUI: MIT
-- Tailwind CSS: MIT
-- (List all from package.json)
-
-DELIVERABLES:
-□ svelte/src/routes/tietoja/+page.svelte
-□ License data JSON or TypeScript file
-□ Clean, readable UI for viewing licenses
-□ Links to original sources
-
-ESTIMATED TIME: 3-4 hours
-
-
-================================================================================
-PRIORITY 2: NAVIGATION AND STRUCTURE (Tasks 5-6)
-================================================================================
-
-
-================================================================================
-TASK 5: Implement Navigation Bar and App Menu
-================================================================================
-
-DESCRIPTION:
-Create a navigation bar using DaisyUI components. This provides consistent
-navigation across all pages. Mobile-friendly with hamburger menu. Simple
-implementation that can be extended later.
-
-OBJECTIVES:
-• Create Navbar.svelte component with DaisyUI
-• Desktop: horizontal menu with visible links
-• Mobile: hamburger menu (drawer or dropdown)
-• Add links: Koti, Tarinat, Pelit, Asetukset, Tietoja
-• Integrate into +layout.svelte
-• Highlight current page
-
-MENU ITEMS:
-- Koti (Home) → /
-- Tarinat (Stories) → /tarinat
-- Pelit (Games) → / (existing games section)
-- Sanasto (Vocabulary) → /sanasto (future statistics page)
-- Asetukset (Settings) → /asetukset
-- Tietoja (About/Licenses) → /tietoja
-
-DELIVERABLES:
-□ svelte/src/lib/components/shared/Navbar.svelte
-□ Updated svelte/src/routes/+layout.svelte
-□ Mobile hamburger menu implementation
-□ Active page highlighting
-□ Responsive design
+AFFECTED FILES:
+- svelte/src/lib/components/shared/Navbar.svelte
+- svelte/src/routes/+page.svelte (main page)
+- Game mode layouts (tarinat, yhdista-sanat, etc.)
 
 TECHNICAL APPROACH:
-- Use DaisyUI navbar component
-- Use DaisyUI drawer for mobile menu
-- Keep it simple - no complex state
-- CSS-only hamburger toggle if possible
+- Add conditional rendering: hide navbar when in game mode on mobile
+- Use CSS media queries: @media (max-width: 768px)
+- Import icons from installed Svelte icon library
+- Update menu items to use <Icon> components instead of emoji
 
-ESTIMATED TIME: 4-5 hours
-
-
-================================================================================
-TASK 6: Create Settings Page and User Preferences
-================================================================================
-
-DESCRIPTION:
-Create a settings page for user preferences. Include TTS settings, theme
-selection, and data management (export/import). Keep simple, store in
-localStorage.
-
-OBJECTIVES:
-• Create /asetukset route
-• TTS settings: speed, voice selection
-• Theme selection (existing themes)
-• Data export: download progress as JSON
-• Data import: restore from JSON file
-• Reset progress option (with confirmation)
-
-SETTINGS TO INCLUDE:
-1. TTS Settings
-   - Playback speed (0.75x, 1x, 1.25x, 1.5x)
-   - Voice selection (if multiple available)
-   
-2. Display Settings
-   - Theme selection (kids/basic themes)
-   - Font size (normal, large, extra-large)
-   
-3. Data Management
-   - Export progress (download JSON file)
-   - Import progress (upload JSON file)
-   - Reset all progress (with confirmation dialog)
-
-DELIVERABLES:
-□ svelte/src/routes/asetukset/+page.svelte
-□ Settings store (or extend existing stores)
-□ Export function (JSON download)
-□ Import function (file upload + validation)
-□ Reset function with confirmation modal
-
-ESTIMATED TIME: 4-5 hours
+ESTIMATED TIME: 2-3 hours
 
 
 ================================================================================
-PRIORITY 3: VOCABULARY STATISTICS UI (Tasks 7-8)
-================================================================================
-
-
-================================================================================
-TASK 7: Create Vocabulary Statistics Page
+TASK 21: Finnish Language Consistency & Vocabulary Stats Widget
 ================================================================================
 
 DESCRIPTION:
-Create a dedicated vocabulary statistics page (/sanasto) that shows the user
-their learning progress. Display top 1000 progress, estimated CEFR level,
-words per category, and learning history. This is where users see the value
-of the frequency data.
+Fix language inconsistencies - all UI should be in Finnish, only learning
+content in Spanish. Fix the Sanastosi widget issues: move to menu only,
+fix button text, make word statistics clickable to show word lists.
 
 OBJECTIVES:
-• Create /sanasto route
-• Show total words learned
-• Show top 100/500/1000/3000 progress bars
-• Show estimated CEFR level
-• Show words learned by category
-• Show learning velocity (words per week)
-• Show next milestone ("Learn 30 more words to reach...")
+□ Review ALL components for English text - replace with Finnish
+  - Check: buttons, labels, error messages, tooltips
+  - Document any English found in comments for tracking
+  
+□ Fix Sanastosi widget issues:
+  - Move widget to menu only (remove from main page if present)
+  - Change "Takaisin valikkoon" → "Takaisin" on back button
+  - Remove glyph icon from main title "Sanastosi"
+  - Add Svelte icon pack icons to statistic cards (not glyphs)
+  
+□ Make word counts clickable:
+  - "Harjoitellut", "Osatut", etc. should be clickable
+  - Click opens modal/dialog showing word list (sanakirja-style)
+  - Dialog shows: word in Spanish, Finnish translation
+  - Close button to return to statistics
 
-UI COMPONENTS:
-┌─────────────────────────────────────┐
-│  📊 Sanastosi                       │
-│                                      │
-│  Opittuja sanoja: 847               │
-│  Arvioitu taso: A2                  │
-│                                      │
-│  ────────────────────────────────   │
-│                                      │
-│  Top 100:  ████████████████░░░ 87%  │
-│  Top 500:  ██████████░░░░░░░░ 52%   │
-│  Top 1000: ████░░░░░░░░░░░░░░ 23%   │
-│  Top 3000: █░░░░░░░░░░░░░░░░░  8%   │
-│                                      │
-│  ────────────────────────────────   │
-│                                      │
-│  Seuraava tavoite: Top 500          │
-│  Vielä 48 sanaa!                    │
-└─────────────────────────────────────┘
+AFFECTED FILES:
+- svelte/src/lib/components/shared/VocabularyProgressWidget.svelte
+- svelte/src/routes/sanasto/+page.svelte
+- All game mode components (check for English strings)
+- Modal component for word list (create if needed)
 
-DELIVERABLES:
-□ svelte/src/routes/sanasto/+page.svelte
-□ Progress bar components (use DaisyUI progress)
-□ Statistics calculation integration
-□ Milestone display
-□ Category breakdown (optional)
-
-ESTIMATED TIME: 4-5 hours
-
-
-================================================================================
-TASK 8: Add Progress Widget to Home Page
-================================================================================
-
-DESCRIPTION:
-Add a compact vocabulary progress widget to the home page. Show quick stats
-and link to full statistics page. Motivate users with progress visualization.
-
-OBJECTIVES:
-• Create VocabularyProgressWidget.svelte component
-• Show: total words, estimated level, top 1000 progress
-• "Näytä lisää" link to /sanasto
-• Fits with existing home page layout
-• Loads async (doesn't slow down home page)
-
-WIDGET DESIGN:
-┌─────────────────────────────────────┐
-│  📊 Edistymisesi                     │
-│                                      │
-│  847 sanaa opittu • Taso: A2        │
-│  Top 1000: ████░░░░░░ 23%           │
-│                                      │
-│  [Näytä lisää →]                    │
-└─────────────────────────────────────┘
-
-DELIVERABLES:
-□ svelte/src/lib/components/shared/VocabularyProgressWidget.svelte
-□ Integration with home page (+page.svelte)
-□ Async loading (don't block page render)
-□ Link to full statistics page
+NEW COMPONENT:
+- Create: VocabularyWordListDialog.svelte
+  - Props: words[], title, onClose
+  - Shows list of words with Spanish + Finnish
+  - Scrollable if many words
+  - Mobile-friendly touch targets
 
 ESTIMATED TIME: 3-4 hours
 
 
 ================================================================================
-PRIORITY 4: STORY MODE FOUNDATION (Tasks 9-12)
-================================================================================
-
-
-================================================================================
-TASK 9: Restructure Story Files with Simple Manifest
+TASK 22: Story Mode UI Improvements
 ================================================================================
 
 DESCRIPTION:
-Split the single stories.json into individual files per story, organized by
-CEFR level. Create a lightweight manifest for listing stories without loading
-full content. Keep it simple - no complex caching, just lazy loading.
+Add filtering/sorting UI for stories, restore the better question interface
+that existed before V4 updates. The old two-column layout was much better
+than the current card-based layout.
 
 OBJECTIVES:
-• Create directory structure: static/stories/{a1,a2,b1}/
-• Create stories/manifest.json with story metadata only
-• Move each story to individual JSON file
-• Update storyLoader.ts for new structure
-• Lazy load stories on demand
-
-NEW STRUCTURE:
-svelte/static/stories/
-├── manifest.json           <- List of all stories (metadata only)
-├── a1/
-│   ├── meeting.json
-│   ├── colors.json
-│   └── ...
-├── a2/
-│   ├── cafe.json
-│   ├── restaurant.json
-│   └── ...
-└── b1/
-    ├── climate.json
-    └── ...
-
-MANIFEST FORMAT (lightweight):
-{
-  "version": "1.0.0",
-  "stories": [
-    {
-      "id": "cafe",
-      "title": "Kahvilassa",
-      "titleSpanish": "En la cafetería",
-      "level": "A2",
-      "category": "food",
-      "icon": "☕",
-      "wordCount": 120,
-      "estimatedMinutes": 3
-    },
-    ...
-  ]
-}
-
-DELIVERABLES:
-□ New directory structure with story files
-□ stories/manifest.json
-□ Updated storyLoader.ts with lazy loading
-□ Migration script for existing stories
-□ Backward compatibility (old stories still work)
-
-ESTIMATED TIME: 5-6 hours
-
-
-================================================================================
-TASK 10: Update Story Types for V4 Data Model
-================================================================================
-
-DESCRIPTION:
-Update story TypeScript interfaces to include CEFR levels, vocabulary metadata,
-and frequency information. Keep backward compatible - new fields are optional.
-
-OBJECTIVES:
-• Update Story interface with CEFR level field
-• Add frequency/CEFR data to VocabularyWord
-• Add partOfSpeech and gender to story vocabulary
-• Map old difficulty to CEFR (beginner→A2, intermediate→B1)
-• Update story.ts types file
-
-UPDATED INTERFACES:
-interface Story {
-  // Existing
-  id: string;
-  title: string;
-  titleSpanish: string;
-  description: string;
-  category: string;
-  icon: string;
-  dialogue: DialogueLine[];
-  vocabulary: VocabularyWord[];
-  questions: StoryQuestion[];
+□ Create story filtering/sorting component:
+  - Filter by difficulty (A1, A2, B1, all)
+  - Sort by: alphabet, difficulty
+  - Mobile: dropdown/select
+  - Desktop: button group or tabs
+  - All text in Finnish
   
-  // NEW
-  level: "A1" | "A2" | "B1" | "B2";  // Replaces difficulty
-  wordCount?: number;
-  estimatedMinutes?: number;
-  
-  // DEPRECATED (keep for migration)
-  difficulty?: "beginner" | "intermediate" | "advanced";
-}
+□ Restore old story question UI:
+  - Research: git diff to see old layout from main branch
+  - Old layout: two-column format (not cards)
+  - Old layout had special formatting that was better
+  - Restore that layout structure
+  - Keep V4 data model, but use old UI layout
 
-interface VocabularyWord {
-  // Existing
-  spanish: string;
-  finnish: string;
-  example?: string;
-  
-  // NEW
-  english?: string;
-  partOfSpeech?: string;
-  gender?: string;
-  frequencyRank?: number;
-  cefrLevel?: string;
-}
+AFFECTED FILES:
+- svelte/src/routes/tarinat/+page.svelte (story list)
+- svelte/src/lib/components/story/StoryReader.svelte (questions)
+- New: StoryFilterSort.svelte component
 
-DELIVERABLES:
-□ Updated svelte/src/lib/types/story.ts
-□ Migration utility for old difficulty → level
-□ Type guards for backward compatibility
-□ Documentation in code comments
-
-ESTIMATED TIME: 3-4 hours
+TECHNICAL APPROACH:
+1. Git comparison:
+   - Check main branch: svelte/src/lib/components/story/
+   - Find old StoryQuestion or StoryReader layout
+   - Document what made it better (columns, spacing, etc.)
+   
+2. Create filter/sort component:
+   - Use DaisyUI dropdown for mobile
+   - Use button group for desktop
+   - Emit events to parent for filtering
+   
+3. Restore question layout:
+   - Recreate two-column structure
+   - Apply old CSS/styling
+   - Test on mobile
 
 
 ================================================================================
-TASK 11: Migrate and Enhance Existing Stories
+TASK 23: DaisyUI Theme Usage Analysis and Fix
 ================================================================================
 
 DESCRIPTION:
-Convert existing 8 stories to V4 format. Add CEFR levels, enhance vocabulary
-with frequency data, move to new file structure. Test that everything works.
+Review and analyze the current DaisyUI theme implementation. Many users report
+that most themes appear to have dark backgrounds when they shouldn't. Analyze
+the theme configuration, usage patterns, and identify why this is happening.
+Document findings and create fix subtasks based on the analysis.
 
 OBJECTIVES:
-• Migrate 8 existing stories to individual files
-• Map difficulty to CEFR level
-• Add frequency data to story vocabulary
-• Add part of speech and gender where missing
-• Calculate wordCount and estimatedMinutes
-• Verify TTS still works
-• Update manifest with new stories
+□ Review DaisyUI theme configuration and available themes
+□ Analyze theme.ts store implementation
+□ Check how themes are applied in +layout.svelte
+□ Examine bg-base-200, bg-base-100 usage across components
+□ Test all 14 available themes (light, cupcake, bumblebee, emerald, etc.)
+□ Document why most themes show dark backgrounds
+□ Identify incorrect theme usage patterns
+□ Write findings to reports/task-23-theme-usage-report.md
 
-MIGRATION MAPPING:
-- "beginner" → "A2"
-- "intermediate" → "B1"
-- "advanced" → "B1"
+AFFECTED FILES:
+- svelte/src/lib/stores/theme.ts (theme store)
+- svelte/src/routes/+layout.svelte (theme application)
+- svelte/src/routes/asetukset/+page.svelte (theme settings)
+- All components using bg-base-* classes
+- DaisyUI configuration (if exists)
 
-EXISTING STORIES:
-1. cafe (coffee shop)
-2. market (fruit market)
-3. restaurant
-4. hotel
-5. train (train station)
-6. beach
-7. park
-8. museum
-
-DELIVERABLES:
-□ 8 migrated story JSON files in new locations
-□ Updated manifest.json
-□ Vocabulary enhanced with frequency data
-□ All stories tested and working
-□ Backup of old stories.json
-
-ESTIMATED TIME: 4-5 hours
-
-
-================================================================================
-TASK 12: Create Mobile-First Story Reader
-================================================================================
-
-DESCRIPTION:
-Refactor StoryReader for mobile-first design. Stacked layout for translations,
-better touch targets, reading progress indicator. Keep existing functionality
-working.
-
-OBJECTIVES:
-• Stacked translation layout (Spanish above, Finnish below)
-• Expandable/collapsible translations
-• Reading progress indicator
-• Better touch targets (44px minimum)
-• Auto-hiding controls during reading
-• Responsive design for tablet/desktop
-
-MOBILE LAYOUT:
-┌─────────────────────────────────┐
-│ ← Kahvilassa         3/8 ░░░█░░│
-├─────────────────────────────────┤
-│                                  │
-│  María: Buenos días, señora.    │
-│  ▼ Näytä käännös                │
-│                                  │
-│  Vendedor: ¡Buenos días!        │
-│  ─────────────────────────       │
-│  Myyjä: Hyvää huomenta!         │
-│  ▲ Piilota                       │
-│                                  │
-│  María: ¿Cuánto cuesta el café? │
-│  ▼ Näytä käännös                │
-│                                  │
-└─────────────────────────────────┘
-│  [🔊]            [Sanasto] [→]  │
-└─────────────────────────────────┘
+ANALYSIS AREAS:
+1. Theme Store Configuration:
+   - Check available themes list
+   - Verify default theme
+   - Review localStorage persistence
+   
+2. Theme Application:
+   - How data-theme attribute is set
+   - Check if themes are properly loaded
+   - Verify DaisyUI is correctly configured
+   
+3. Component Patterns:
+   - Usage of bg-base-200 (background)
+   - Usage of bg-base-100 (cards/surfaces)
+   - Usage of text-base-content
+   - Check for hardcoded colors
+   
+4. Testing Matrix:
+   - Test each theme visually
+   - Document which themes work correctly
+   - Identify themes with dark background issues
 
 DELIVERABLES:
-□ Refactored StoryReader.svelte
-□ New DialogueLine.svelte with expandable translation
-□ Reading progress bar
-□ Auto-hiding bottom controls
-□ Touch-friendly button sizes
-
-ESTIMATED TIME: 5-6 hours
-
-
-================================================================================
-PRIORITY 5: CONTENT EXPANSION (Tasks 13-14)
-================================================================================
-
-
-================================================================================
-TASK 13: Process V4_material.txt into New Stories
-================================================================================
-
-DESCRIPTION:
-Convert the story content from V4_material.txt into properly structured JSON
-files. Generate Finnish translations, extract vocabulary, create questions.
-Target: 20+ new stories across A1, A2, B1 levels.
-
-OBJECTIVES:
-• Parse V4_material.txt content
-• Create A1 stories (6-8 lines, simple present tense)
-• Create A2 stories (8-12 lines, past/future)
-• Create B1 stories (10-14 lines, complex grammar)
-• Generate Finnish translations (Azure/OpenAI API)
-• Extract vocabulary with frequency data
-• Create 4-5 questions per story
-
-STORY DISTRIBUTION:
-- A1: 8-10 stories (absolute beginner)
-- A2: 8-10 stories (beginner)
-- B1: 6-8 stories (intermediate)
-
-DELIVERABLES:
-□ Translation script (enhance existing scripts/)
-□ 20+ new story JSON files
-□ Updated manifest.json
-□ Vocabulary extracted and enriched
-□ Questions for each story
-
-ESTIMATED TIME: 6-7 hours (batch processing)
-
-
-================================================================================
-TASK 14: Create Story Vocabulary Linking
-================================================================================
-
-DESCRIPTION:
-Create a system to link story vocabulary to the main word database. When user
-reads a story, track which words they've encountered. Show "you've seen this
-word in X stories" in vocabulary displays.
-
-OBJECTIVES:
-• Create word-to-story index
-• Track vocabulary encounters in stories
-• Link story vocabulary to main words.ts
-• Update wordKnowledge when reading stories
-• Show encounter count in vocabulary displays
-
-SIMPLE INDEX FORMAT:
-{
-  "wordToStories": {
-    "hola": ["meeting", "cafe", "restaurant"],
-    "gracias": ["cafe", "hotel", "restaurant"]
-  }
-}
-
-TRACKING:
-- When user reads story, mark vocabulary as "encountered"
-- Increment encounter count per word
-- Store in localStorage with wordKnowledge data
-
-DELIVERABLES:
-□ Story vocabulary index (generated at build time)
-□ Encounter tracking in storyProgress
-□ Integration with wordKnowledge store
-□ "Seen in X stories" display in vocabulary
-
-ESTIMATED TIME: 4-5 hours
-
-
-================================================================================
-PRIORITY 6: PROGRESS SHARING (Tasks 15-16)
-================================================================================
-
-
-================================================================================
-TASK 15: Create Shareable Progress Reports
-================================================================================
-
-DESCRIPTION:
-Create a feature that generates a shareable summary of user's progress.
-User can copy text to clipboard for WhatsApp/email, or share via Web Share API
-on mobile. Fun way to boast about learning!
-
-OBJECTIVES:
-• Generate text summary of progress
-• Include: words learned, level, top 1000 progress, streak
-• Copy to clipboard button
-• Web Share API for mobile
-• Celebratory UI for milestones
-
-SHARE TEXT EXAMPLE:
-┌─────────────────────────────────────┐
-│  🎉 Espanjapeli - Edistymiseni      │
-│                                      │
-│  📚 847 sanaa opittu                │
-│  🎯 Taso: A2                         │
-│  🔥 Top 1000: 23% (230/1000)        │
-│  📖 12 tarinaa luettu               │
-│  ⭐ 14 päivän putkeen!              │
-│                                      │
-│  Opiskelen espanjaa Espanjapelillä! │
-│  https://espanjapeli.fi             │
-│                                      │
-│  [📋 Kopioi] [📤 Jaa]              │
-└─────────────────────────────────────┘
-
-DELIVERABLES:
-□ Progress report generation function
-□ Share modal/page UI
-□ Copy to clipboard functionality
-□ Web Share API integration (with fallback)
-□ Celebration animation for milestones
-
-ESTIMATED TIME: 4-5 hours
-
-
-================================================================================
-TASK 16: Add Milestone Celebrations
-================================================================================
-
-DESCRIPTION:
-Celebrate when user reaches milestones (100 words, 500 words, top 100 complete,
-etc.). Show celebratory modal with confetti, allow sharing. Motivational!
-
-OBJECTIVES:
-• Define milestones (100, 250, 500, 1000 words, etc.)
-• Detect when milestone reached
-• Show celebration modal
-• Confetti animation (CSS or simple library)
-• Option to share achievement
-• Store achieved milestones to avoid re-triggering
-
-MILESTONES:
-- 🌱 100 sanaa opittu
-- 🌿 250 sanaa opittu  
-- 🌳 500 sanaa opittu
-- 🎯 Top 100 täysi (100/100)
-- 🏆 Top 500 täysi (500/500)
-- 👑 Top 1000 täysi (1000/1000)
-- 📚 5 tarinaa luettu
-- 📖 10 tarinaa luettu
-
-DELIVERABLES:
-□ Milestone definition and tracking
-□ Celebration modal component
-□ Simple confetti animation
-□ Integration with progress tracking
-□ Share integration
-
-ESTIMATED TIME: 4-5 hours
-
-
-================================================================================
-PRIORITY 7: POLISH AND TESTING (Tasks 17-18)
-================================================================================
-
-
-================================================================================
-TASK 17: Improve Game Mode Integration with Frequency Data
-================================================================================
-
-DESCRIPTION:
-Update existing game modes (Yhdistä sanat, etc.) to use frequency data.
-Prioritize high-frequency words for learning. Show frequency badges on words.
-Make games smarter about word selection.
-
-OBJECTIVES:
-• Show word frequency/CEFR level in games
-• Prioritize top 1000 words for beginners
-• Track which top-N words are practiced
-• Add "focus on top 1000" mode option
-• Show progress toward frequency goals
-
-ENHANCEMENTS:
-- Word cards show small badge: "A1" or "Top 500"
-- Word selection prefers high-frequency unknowns
-- Settings: "Focus on most common words" toggle
-- After game: "You practiced 5 of top 1000 words"
-
-DELIVERABLES:
-□ Frequency badges in game UI
-□ Smart word selection algorithm
-□ Settings for frequency focus
-□ Post-game frequency summary
-□ Integration with statisticsService
-
-ESTIMATED TIME: 4-5 hours
-
-
-================================================================================
-TASK 18: Testing and Documentation
-================================================================================
-
-DESCRIPTION:
-Test all V4 features across devices and browsers. Fix bugs. Update documentation.
-Prepare for release.
-
-OBJECTIVES:
-• Test on mobile (iOS Safari, Android Chrome)
-• Test on desktop browsers
-• Test localStorage persistence
-• Test data import/export
-• Fix all critical bugs
-• Update user documentation
-• Write release notes
-
-TESTING CHECKLIST:
-□ Vocabulary statistics calculate correctly
-□ Frequency data loads properly
-□ Stories load lazily
-□ Progress persists in localStorage
-□ Export/import works
-□ Share functionality works on mobile
-□ Navigation works on all pages
-□ License page displays correctly
-□ All games still work
-
-DELIVERABLES:
-□ Bug fixes for issues found
-□ Updated README.md
-□ Release notes for V4.0.0
-□ Testing report
-
-ESTIMATED TIME: 5-6 hours
-
-
-================================================================================
-SUMMARY
-================================================================================
-
-Total Tasks: 18
-Estimated Total Time: 75-90 hours (approximately 8 weeks)
-Average Task Size: 4-5 hours
-
-TASK CATEGORIES:
-• Data Foundation (Tasks 1-4): ~15-19 hours - CRITICAL, DO FIRST
-• Navigation & Structure (Tasks 5-6): ~8-10 hours
-• Vocabulary Statistics UI (Tasks 7-8): ~7-9 hours
-• Story Mode Foundation (Tasks 9-12): ~17-21 hours
-• Content Expansion (Tasks 13-14): ~10-12 hours
-• Progress Sharing (Tasks 15-16): ~8-10 hours
-• Polish & Testing (Tasks 17-18): ~9-11 hours
-
-DEPENDENCIES:
-• Tasks 1-4 MUST complete before all other tasks
-• Task 1 → Task 2 → Task 3 (sequential)
-• Task 4 can run parallel with Tasks 2-3
-• Task 5 → Task 6 (sequential)
-• Tasks 5-6 can start after Task 4
-• Tasks 7-8 depend on Task 3
-• Tasks 9-12 depend on Task 2
-• Tasks 13-14 depend on Task 11
-• Tasks 15-16 depend on Task 7
-• Task 17 depends on Tasks 3 and 12
-• Task 18 is last
-
-PRIORITY ORDER:
-1. Foundation (Tasks 1-4): Data model and vocabulary
-2. Navigation (Tasks 5-6): App structure
-3. Statistics (Tasks 7-8): User-facing vocabulary progress
-4. Stories (Tasks 9-12): Reading mode improvements
-5. Content (Tasks 13-14): New story content
-6. Sharing (Tasks 15-16): Social/motivation features
-7. Polish (Tasks 17-18): Integration and testing
-
-KEY PRINCIPLES (from PRINCIPLES.md):
-• Simple is better - avoid over-engineering
-• One-developer maintainable - keep it simple
-• Frontend only - all data as static JSON
-• Mobile-first - but works on all devices
-• LocalStorage for progress - no backend
-• Open source data - proper licensing
-
-DATA FILES OVERVIEW:
-svelte/static/
-├── data/
-│   ├── frequency-spanish.json     (50k words, ~500KB)
-│   ├── frequency-finnish.json     (50k words, ~500KB)
-│   └── licenses.json              (data source attributions)
-├── stories/
-│   ├── manifest.json              (story list, ~10KB)
-│   ├── vocabulary-index.json      (word→story mapping, ~50KB)
-│   ├── a1/                        (A1 level stories)
-│   ├── a2/                        (A2 level stories)
-│   └── b1/                        (B1 level stories)
-└── ...
-
-LOCALSTORAGE KEYS:
-- yhdistasanat_word_knowledge: existing game progress
-- espanjapeli_settings: user preferences
-- espanjapeli_story_progress: story reading progress
-- espanjapeli_milestones: achieved milestones
-
-================================================================================
-AI DEVELOPMENT ASSISTANCE
-================================================================================
-
-This project uses AI assistance (Claude, GPT-4, etc.) for development planning
-and implementation. To maintain consistency and quality:
-
-PROMPT MANAGEMENT:
-- All major AI prompts are stored in ai-control/prompts/
-- Prompts include context files and specific requirements
-
-AI-CONTROL FOLDER STRUCTURE:
-ai-control/
-├── prompts/
-│   ├── whaever.md
-│   ├── task-05-navigation-bar.md
-│   └── ... (various prompts)
-├── context/
-│   ├── PRINCIPLES.md
-│   └── ROADMAP.md
-
-
-================================================================================
-END OF V4 TODO LIST
-================================================================================
-
-Created: January 12, 2026
-Based on: V4_ROADMAP.md, V4_DATAMODEL_IDEAS_improved.md, PRINCIPLES.md
-Target Release: V4.0.0 - Data-First Architecture + Story Mode Excellence
+□ reports/task-23-theme-usage-report.md with:
+  - Current theme implementation analysis
+  - List of themes and their actual appearance
+  - Root cause of dark background issue
+  - Recommendations for fixes
+□ Subtasks added to TODO.txt based on findings
+□ Priority level for fixes (if critical)
+
+ESTIMATED TIME: 2-3 hours for analysis, variable for fixes
