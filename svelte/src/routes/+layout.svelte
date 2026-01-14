@@ -2,6 +2,7 @@
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import { theme } from '$lib/stores/theme';
+	import Navbar from '$lib/components/shared/Navbar.svelte';
 
 	let { children } = $props();
 	
@@ -18,5 +19,8 @@
 
 <!-- Apply selected DaisyUI theme -->
 <div data-theme={currentTheme} class="min-h-screen">
-	{@render children()}
+	<Navbar />
+	<main>
+		{@render children()}
+	</main>
 </div>

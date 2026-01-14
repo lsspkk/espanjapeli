@@ -80,14 +80,14 @@
       "title": "Implement Navigation Bar and App Menu",
       "todoTxtRef": "TASK 5: Implement Navigation Bar and App Menu (TODO.txt lines 398-444)",
       "priority": 2,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 5,
       "dependencies": [4],
       "subtasks": [
-        { "id": "5.1", "title": "Create Navbar.svelte with DaisyUI", "status": "not-started", "deliverable": "svelte/src/lib/components/shared/Navbar.svelte", "testRequired": true },
-        { "id": "5.2", "title": "Implement mobile hamburger menu", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "5.3", "title": "Add active page highlighting", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "5.4", "title": "Integrate into +layout.svelte", "status": "not-started", "deliverable": "svelte/src/routes/+layout.svelte", "testRequired": true }
+        { "id": "5.1", "title": "Create Navbar.svelte with DaisyUI", "status": "completed", "deliverable": "svelte/src/lib/components/shared/Navbar.svelte", "testRequired": true },
+        { "id": "5.2", "title": "Implement mobile hamburger menu", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "5.3", "title": "Add active page highlighting", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "5.4", "title": "Integrate into +layout.svelte", "status": "completed", "deliverable": "svelte/src/routes/+layout.svelte", "testRequired": true }
       ]
     },
     {
