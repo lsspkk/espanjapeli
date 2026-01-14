@@ -65,14 +65,14 @@
       "title": "Create Licenses Page and Data Attribution",
       "todoTxtRef": "TASK 4: Create Licenses Page and Data Attribution (TODO.txt lines 349-390)",
       "priority": 1,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 4,
       "dependencies": [],
       "subtasks": [
-        { "id": "4.1", "title": "Create /tietoja route", "status": "not-started", "deliverable": "svelte/src/routes/tietoja/+page.svelte", "testRequired": true },
-        { "id": "4.2", "title": "Create licenses data file", "status": "not-started", "deliverable": "svelte/src/lib/data/licenses.ts", "testRequired": false },
-        { "id": "4.3", "title": "Display data source attributions", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "4.4", "title": "Display software licenses from package.json", "status": "not-started", "deliverable": null, "testRequired": true }
+        { "id": "4.1", "title": "Create /tietoja route", "status": "completed", "deliverable": "svelte/src/routes/tietoja/+page.svelte", "testRequired": true },
+        { "id": "4.2", "title": "Create licenses data file", "status": "completed", "deliverable": "svelte/src/lib/data/licenses.ts", "testRequired": false },
+        { "id": "4.3", "title": "Display data source attributions", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "4.4", "title": "Display software licenses from package.json", "status": "completed", "deliverable": null, "testRequired": true }
       ]
     },
     {
