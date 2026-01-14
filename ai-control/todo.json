@@ -218,14 +218,14 @@
       "title": "Create Story Vocabulary Linking",
       "todoTxtRef": "TASK 14: Create Story Vocabulary Linking (TODO.txt lines 850-887)",
       "priority": 5,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 5,
       "dependencies": [11],
       "subtasks": [
-        { "id": "14.1", "title": "Create word-to-story index generator", "status": "not-started", "deliverable": "scripts/generate_vocabulary_index.py", "testRequired": true },
-        { "id": "14.2", "title": "Generate vocabulary-index.json", "status": "not-started", "deliverable": "svelte/static/stories/vocabulary-index.json", "testRequired": true },
-        { "id": "14.3", "title": "Track vocabulary encounters in stories", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "14.4", "title": "Show 'seen in X stories' in vocabulary displays", "status": "not-started", "deliverable": null, "testRequired": true }
+        { "id": "14.1", "title": "Create word-to-story index generator", "status": "completed", "deliverable": "scripts/generate_vocabulary_index.py", "testRequired": true },
+        { "id": "14.2", "title": "Generate vocabulary-index.json", "status": "completed", "deliverable": "svelte/static/stories/vocabulary-index.json", "testRequired": true },
+        { "id": "14.3", "title": "Track vocabulary encounters in stories", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "14.4", "title": "Show 'seen in X stories' in vocabulary displays", "status": "completed", "deliverable": null, "testRequired": true }
       ]
     },
     {

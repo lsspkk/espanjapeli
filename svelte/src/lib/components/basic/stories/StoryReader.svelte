@@ -3,12 +3,19 @@
 	import { tts } from '$lib/services/tts';
 	import TTSPlayer from '$lib/components/shared/TTSPlayer.svelte';
 	import DialogueLineComponent from './DialogueLine.svelte';
+	import { wordKnowledge } from '$lib/stores/wordKnowledge';
 
 	export let dialogue: DialogueLine[];
 	export let vocabulary: VocabularyWord[];
 	export let title: string;
 	export let titleSpanish: string;
 	export let onContinue: () => void;
+	
+	// Get story encounter counts for vocabulary words
+	$: vocabularyWithStories = vocabulary.map(word => ({
+		...word,
+		storyCount: wordKnowledge.getWordStories(word.spanish).length
+	}));
 
 	let showAllTranslations = false;
 	let showVocabulary = false;
@@ -122,7 +129,7 @@
 			<!-- Vocabulary view - compact -->
 			<div class="space-y-2">
 				<h3 class="font-bold text-base mb-2 text-primary">📚 Sanasto</h3>
-				{#each vocabulary as word}
+				{#each vocabularyWithStories as word}
 					<div class="bg-base-100 rounded border border-base-300 px-3 py-2 flex items-center gap-2">
 						<button 
 							class="btn btn-ghost btn-circle btn-sm flex-shrink-0"
@@ -136,6 +143,11 @@
 								<span class="font-semibold text-base">{word.spanish}</span>
 								<span class="text-base-content/50 text-sm">=</span>
 								<span class="text-base text-base-content/80">{word.finnish}</span>
+								{#if word.storyCount > 0}
+									<span class="badge badge-sm badge-ghost" title="Nähty {word.storyCount} tarinassa">
+										📖 {word.storyCount}
+									</span>
+								{/if}
 							</div>
 							{#if word.example}
 								<p class="text-sm text-base-content/60 italic mt-1">{word.example}</p>

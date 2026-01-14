@@ -1,0 +1,6793 @@
+{
+  "version": "4.0.0",
+  "generated": "2026-01-14",
+  "statistics": {
+    "total_unique_words": 413,
+    "words_by_frequency": {
+      "1": 385,
+      "2": 26,
+      "3": 2
+    },
+    "words_by_level": {
+      "A1": 79,
+      "A2": 177,
+      "B1": 177
+    }
+  },
+  "index": {
+    "mercado": {
+      "stories": [
+        {
+          "id": "market-fruits",
+          "level": "A1",
+          "title": "En el mercado"
+        }
+      ],
+      "translations": [
+        "market"
+      ],
+      "original_forms": [
+        "el mercado"
+      ],
+      "count": 1
+    },
+    "desear": {
+      "stories": [
+        {
+          "id": "market-fruits",
+          "level": "A1",
+          "title": "En el mercado"
+        }
+      ],
+      "translations": [
+        "haluta/haluta"
+      ],
+      "original_forms": [
+        "desear"
+      ],
+      "count": 1
+    },
+    "manzana": {
+      "stories": [
+        {
+          "id": "market-fruits",
+          "level": "A1",
+          "title": "En el mercado"
+        },
+        {
+          "id": "grocery-shopping",
+          "level": "A2",
+          "title": "En el supermercado"
+        }
+      ],
+      "translations": [
+        "apple",
+        "omena"
+      ],
+      "original_forms": [
+        "la manzana"
+      ],
+      "count": 2
+    },
+    "cuántas": {
+      "stories": [
+        {
+          "id": "market-fruits",
+          "level": "A1",
+          "title": "En el mercado"
+        },
+        {
+          "id": "my-family",
+          "level": "A1",
+          "title": "Mi familia"
+        }
+      ],
+      "translations": [
+        "how many"
+      ],
+      "original_forms": [
+        "cuántas"
+      ],
+      "count": 2
+    },
+    "naranja": {
+      "stories": [
+        {
+          "id": "market-fruits",
+          "level": "A1",
+          "title": "En el mercado"
+        }
+      ],
+      "translations": [
+        "orange"
+      ],
+      "original_forms": [
+        "la naranja"
+      ],
+      "count": 1
+    },
+    "kilo": {
+      "stories": [
+        {
+          "id": "market-fruits",
+          "level": "A1",
+          "title": "En el mercado"
+        },
+        {
+          "id": "grocery-shopping",
+          "level": "A2",
+          "title": "En el supermercado"
+        }
+      ],
+      "translations": [
+        "kilo",
+        "kilogram"
+      ],
+      "original_forms": [
+        "el kilo"
+      ],
+      "count": 2
+    },
+    "algo más": {
+      "stories": [
+        {
+          "id": "market-fruits",
+          "level": "A1",
+          "title": "En el mercado"
+        }
+      ],
+      "translations": [
+        "anything else"
+      ],
+      "original_forms": [
+        "algo más"
+      ],
+      "count": 1
+    },
+    "aquí tiene": {
+      "stories": [
+        {
+          "id": "market-fruits",
+          "level": "A1",
+          "title": "En el mercado"
+        }
+      ],
+      "translations": [
+        "here you go"
+      ],
+      "original_forms": [
+        "aquí tiene"
+      ],
+      "count": 1
+    },
+    "color": {
+      "stories": [
+        {
+          "id": "colors",
+          "level": "A1",
+          "title": "Colores que veo"
+        }
+      ],
+      "translations": [
+        "color"
+      ],
+      "original_forms": [
+        "el color"
+      ],
+      "count": 1
+    },
+    "sol": {
+      "stories": [
+        {
+          "id": "colors",
+          "level": "A1",
+          "title": "Colores que veo"
+        },
+        {
+          "id": "weather-talk",
+          "level": "A2",
+          "title": "Hablando del tiempo"
+        }
+      ],
+      "translations": [
+        "aurinko",
+        "sun"
+      ],
+      "original_forms": [
+        "el sol"
+      ],
+      "count": 2
+    },
+    "amarillo/a": {
+      "stories": [
+        {
+          "id": "colors",
+          "level": "A1",
+          "title": "Colores que veo"
+        }
+      ],
+      "translations": [
+        "yellow"
+      ],
+      "original_forms": [
+        "amarillo/a"
+      ],
+      "count": 1
+    },
+    "cielo": {
+      "stories": [
+        {
+          "id": "colors",
+          "level": "A1",
+          "title": "Colores que veo"
+        }
+      ],
+      "translations": [
+        "sky"
+      ],
+      "original_forms": [
+        "el cielo"
+      ],
+      "count": 1
+    },
+    "azul": {
+      "stories": [
+        {
+          "id": "colors",
+          "level": "A1",
+          "title": "Colores que veo"
+        }
+      ],
+      "translations": [
+        "blue"
+      ],
+      "original_forms": [
+        "azul"
+      ],
+      "count": 1
+    },
+    "hierba": {
+      "stories": [
+        {
+          "id": "colors",
+          "level": "A1",
+          "title": "Colores que veo"
+        }
+      ],
+      "translations": [
+        "grass"
+      ],
+      "original_forms": [
+        "la hierba"
+      ],
+      "count": 1
+    },
+    "verde": {
+      "stories": [
+        {
+          "id": "colors",
+          "level": "A1",
+          "title": "Colores que veo"
+        }
+      ],
+      "translations": [
+        "green"
+      ],
+      "original_forms": [
+        "verde"
+      ],
+      "count": 1
+    },
+    "rojo/a": {
+      "stories": [
+        {
+          "id": "colors",
+          "level": "A1",
+          "title": "Colores que veo"
+        }
+      ],
+      "translations": [
+        "red"
+      ],
+      "original_forms": [
+        "rojo/a"
+      ],
+      "count": 1
+    },
+    "conocer": {
+      "stories": [
+        {
+          "id": "colors",
+          "level": "A1",
+          "title": "Colores que veo"
+        }
+      ],
+      "translations": [
+        "Tietää"
+      ],
+      "original_forms": [
+        "conocer"
+      ],
+      "count": 1
+    },
+    "qué hora": {
+      "stories": [
+        {
+          "id": "what-time",
+          "level": "A1",
+          "title": "¿Qué hora es?"
+        }
+      ],
+      "translations": [
+        "what time"
+      ],
+      "original_forms": [
+        "qué hora"
+      ],
+      "count": 1
+    },
+    "tarde": {
+      "stories": [
+        {
+          "id": "what-time",
+          "level": "A1",
+          "title": "¿Qué hora es?"
+        }
+      ],
+      "translations": [
+        "iltapäivä"
+      ],
+      "original_forms": [
+        "la tarde"
+      ],
+      "count": 1
+    },
+    "cerrar": {
+      "stories": [
+        {
+          "id": "what-time",
+          "level": "A1",
+          "title": "¿Qué hora es?"
+        },
+        {
+          "id": "bicycle-rental",
+          "level": "A2",
+          "title": "Alquiler de bicicletas"
+        }
+      ],
+      "translations": [
+        "sulkea"
+      ],
+      "original_forms": [
+        "cerrar"
+      ],
+      "count": 2
+    },
+    "tienda": {
+      "stories": [
+        {
+          "id": "what-time",
+          "level": "A1",
+          "title": "¿Qué hora es?"
+        }
+      ],
+      "translations": [
+        "Kauppa"
+      ],
+      "original_forms": [
+        "la tienda"
+      ],
+      "count": 1
+    },
+    "noche": {
+      "stories": [
+        {
+          "id": "what-time",
+          "level": "A1",
+          "title": "¿Qué hora es?"
+        }
+      ],
+      "translations": [
+        "ilta/yö"
+      ],
+      "original_forms": [
+        "la noche"
+      ],
+      "count": 1
+    },
+    "tiempo": {
+      "stories": [
+        {
+          "id": "what-time",
+          "level": "A1",
+          "title": "¿Qué hora es?"
+        },
+        {
+          "id": "weather-talk",
+          "level": "A2",
+          "title": "Hablando del tiempo"
+        }
+      ],
+      "translations": [
+        "sää",
+        "time"
+      ],
+      "original_forms": [
+        "el tiempo",
+        "tiempo"
+      ],
+      "count": 2
+    },
+    "perdona": {
+      "stories": [
+        {
+          "id": "what-time",
+          "level": "A1",
+          "title": "¿Qué hora es?"
+        }
+      ],
+      "translations": [
+        "excuse me"
+      ],
+      "original_forms": [
+        "perdona"
+      ],
+      "count": 1
+    },
+    "cómo": {
+      "stories": [
+        {
+          "id": "how-are-you",
+          "level": "A1",
+          "title": "¿Cómo estás?"
+        }
+      ],
+      "translations": [
+        "how"
+      ],
+      "original_forms": [
+        "cómo"
+      ],
+      "count": 1
+    },
+    "estar": {
+      "stories": [
+        {
+          "id": "how-are-you",
+          "level": "A1",
+          "title": "¿Cómo estás?"
+        }
+      ],
+      "translations": [
+        "olla (väliaikainen tila)"
+      ],
+      "original_forms": [
+        "estar"
+      ],
+      "count": 1
+    },
+    "bien": {
+      "stories": [
+        {
+          "id": "how-are-you",
+          "level": "A1",
+          "title": "¿Cómo estás?"
+        }
+      ],
+      "translations": [
+        "well/fine"
+      ],
+      "original_forms": [
+        "bien"
+      ],
+      "count": 1
+    },
+    "cansado/a": {
+      "stories": [
+        {
+          "id": "how-are-you",
+          "level": "A1",
+          "title": "¿Cómo estás?"
+        }
+      ],
+      "translations": [
+        "tired"
+      ],
+      "original_forms": [
+        "cansado/a"
+      ],
+      "count": 1
+    },
+    "dormir": {
+      "stories": [
+        {
+          "id": "how-are-you",
+          "level": "A1",
+          "title": "¿Cómo estás?"
+        },
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        }
+      ],
+      "translations": [
+        "nukkua"
+      ],
+      "original_forms": [
+        "dormir"
+      ],
+      "count": 2
+    },
+    "ayer": {
+      "stories": [
+        {
+          "id": "how-are-you",
+          "level": "A1",
+          "title": "¿Cómo estás?"
+        }
+      ],
+      "translations": [
+        "yesterday"
+      ],
+      "original_forms": [
+        "ayer"
+      ],
+      "count": 1
+    },
+    "descansar": {
+      "stories": [
+        {
+          "id": "how-are-you",
+          "level": "A1",
+          "title": "¿Cómo estás?"
+        }
+      ],
+      "translations": [
+        "lepäämään"
+      ],
+      "original_forms": [
+        "descansar"
+      ],
+      "count": 1
+    },
+    "tener razón": {
+      "stories": [
+        {
+          "id": "how-are-you",
+          "level": "A1",
+          "title": "¿Cómo estás?"
+        }
+      ],
+      "translations": [
+        "olla oikeassa"
+      ],
+      "original_forms": [
+        "tener razón"
+      ],
+      "count": 1
+    },
+    "habitación": {
+      "stories": [
+        {
+          "id": "my-room",
+          "level": "A1",
+          "title": "Mi habitación"
+        },
+        {
+          "id": "cheap-hotel",
+          "level": "A2",
+          "title": "Llegada al hostal"
+        }
+      ],
+      "translations": [
+        "huone",
+        "room"
+      ],
+      "original_forms": [
+        "la habitación"
+      ],
+      "count": 2
+    },
+    "nuevo/a": {
+      "stories": [
+        {
+          "id": "my-room",
+          "level": "A1",
+          "title": "Mi habitación"
+        }
+      ],
+      "translations": [
+        "new"
+      ],
+      "original_forms": [
+        "nuevo/a"
+      ],
+      "count": 1
+    },
+    "grande": {
+      "stories": [
+        {
+          "id": "my-room",
+          "level": "A1",
+          "title": "Mi habitación"
+        },
+        {
+          "id": "cafe-visit",
+          "level": "A2",
+          "title": "En la cafetería"
+        }
+      ],
+      "translations": [
+        "big",
+        "iso"
+      ],
+      "original_forms": [
+        "grande"
+      ],
+      "count": 2
+    },
+    "ventana": {
+      "stories": [
+        {
+          "id": "my-room",
+          "level": "A1",
+          "title": "Mi habitación"
+        }
+      ],
+      "translations": [
+        "window"
+      ],
+      "original_forms": [
+        "la ventana"
+      ],
+      "count": 1
+    },
+    "cama": {
+      "stories": [
+        {
+          "id": "my-room",
+          "level": "A1",
+          "title": "Mi habitación"
+        }
+      ],
+      "translations": [
+        "bed"
+      ],
+      "original_forms": [
+        "la cama"
+      ],
+      "count": 1
+    },
+    "mesa": {
+      "stories": [
+        {
+          "id": "my-room",
+          "level": "A1",
+          "title": "Mi habitación"
+        }
+      ],
+      "translations": [
+        "table"
+      ],
+      "original_forms": [
+        "la mesa"
+      ],
+      "count": 1
+    },
+    "silla": {
+      "stories": [
+        {
+          "id": "my-room",
+          "level": "A1",
+          "title": "Mi habitación"
+        }
+      ],
+      "translations": [
+        "chair"
+      ],
+      "original_forms": [
+        "la silla"
+      ],
+      "count": 1
+    },
+    "armario": {
+      "stories": [
+        {
+          "id": "my-room",
+          "level": "A1",
+          "title": "Mi habitación"
+        }
+      ],
+      "translations": [
+        "wardrobe"
+      ],
+      "original_forms": [
+        "el armario"
+      ],
+      "count": 1
+    },
+    "día": {
+      "stories": [
+        {
+          "id": "days-week",
+          "level": "A1",
+          "title": "Los días de la semana"
+        }
+      ],
+      "translations": [
+        "day"
+      ],
+      "original_forms": [
+        "el día"
+      ],
+      "count": 1
+    },
+    "hoy": {
+      "stories": [
+        {
+          "id": "days-week",
+          "level": "A1",
+          "title": "Los días de la semana"
+        }
+      ],
+      "translations": [
+        "today"
+      ],
+      "original_forms": [
+        "hoy"
+      ],
+      "count": 1
+    },
+    "mañana": {
+      "stories": [
+        {
+          "id": "days-week",
+          "level": "A1",
+          "title": "Los días de la semana"
+        }
+      ],
+      "translations": [
+        "tomorrow"
+      ],
+      "original_forms": [
+        "mañana"
+      ],
+      "count": 1
+    },
+    "lunes": {
+      "stories": [
+        {
+          "id": "days-week",
+          "level": "A1",
+          "title": "Los días de la semana"
+        }
+      ],
+      "translations": [
+        "Monday"
+      ],
+      "original_forms": [
+        "lunes"
+      ],
+      "count": 1
+    },
+    "martes": {
+      "stories": [
+        {
+          "id": "days-week",
+          "level": "A1",
+          "title": "Los días de la semana"
+        }
+      ],
+      "translations": [
+        "Tuesday"
+      ],
+      "original_forms": [
+        "martes"
+      ],
+      "count": 1
+    },
+    "sábado": {
+      "stories": [
+        {
+          "id": "days-week",
+          "level": "A1",
+          "title": "Los días de la semana"
+        }
+      ],
+      "translations": [
+        "Saturday"
+      ],
+      "original_forms": [
+        "sábado"
+      ],
+      "count": 1
+    },
+    "fiesta": {
+      "stories": [
+        {
+          "id": "days-week",
+          "level": "A1",
+          "title": "Los días de la semana"
+        },
+        {
+          "id": "birthday-party",
+          "level": "A2",
+          "title": "La fiesta de cumpleaños"
+        }
+      ],
+      "translations": [
+        "party"
+      ],
+      "original_forms": [
+        "la fiesta"
+      ],
+      "count": 2
+    },
+    "trabajar": {
+      "stories": [
+        {
+          "id": "days-week",
+          "level": "A1",
+          "title": "Los días de la semana"
+        }
+      ],
+      "translations": [
+        "työskentely"
+      ],
+      "original_forms": [
+        "trabajar"
+      ],
+      "count": 1
+    },
+    "cuándo": {
+      "stories": [
+        {
+          "id": "days-week",
+          "level": "A1",
+          "title": "Los días de la semana"
+        }
+      ],
+      "translations": [
+        "when"
+      ],
+      "original_forms": [
+        "cuándo"
+      ],
+      "count": 1
+    },
+    "clase": {
+      "stories": [
+        {
+          "id": "classroom",
+          "level": "A1",
+          "title": "En la clase"
+        },
+        {
+          "id": "train-station",
+          "level": "A2",
+          "title": "En la estación de tren"
+        }
+      ],
+      "translations": [
+        "class"
+      ],
+      "original_forms": [
+        "la clase"
+      ],
+      "count": 2
+    },
+    "el/la profesor(a)": {
+      "stories": [
+        {
+          "id": "classroom",
+          "level": "A1",
+          "title": "En la clase"
+        }
+      ],
+      "translations": [
+        "teacher"
+      ],
+      "original_forms": [
+        "el/la profesor(a)"
+      ],
+      "count": 1
+    },
+    "el/la estudiante": {
+      "stories": [
+        {
+          "id": "classroom",
+          "level": "A1",
+          "title": "En la clase"
+        }
+      ],
+      "translations": [
+        "student"
+      ],
+      "original_forms": [
+        "el/la estudiante"
+      ],
+      "count": 1
+    },
+    "libro": {
+      "stories": [
+        {
+          "id": "classroom",
+          "level": "A1",
+          "title": "En la clase"
+        },
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "book"
+      ],
+      "original_forms": [
+        "el libro"
+      ],
+      "count": 2
+    },
+    "página": {
+      "stories": [
+        {
+          "id": "classroom",
+          "level": "A1",
+          "title": "En la clase"
+        }
+      ],
+      "translations": [
+        "page"
+      ],
+      "original_forms": [
+        "la página"
+      ],
+      "count": 1
+    },
+    "compartir": {
+      "stories": [
+        {
+          "id": "classroom",
+          "level": "A1",
+          "title": "En la clase"
+        }
+      ],
+      "translations": [
+        "jakaa"
+      ],
+      "original_forms": [
+        "compartir"
+      ],
+      "count": 1
+    },
+    "el/la compañero/a": {
+      "stories": [
+        {
+          "id": "classroom",
+          "level": "A1",
+          "title": "En la clase"
+        }
+      ],
+      "translations": [
+        "classmate"
+      ],
+      "original_forms": [
+        "el/la compañero/a"
+      ],
+      "count": 1
+    },
+    "lección": {
+      "stories": [
+        {
+          "id": "classroom",
+          "level": "A1",
+          "title": "En la clase"
+        }
+      ],
+      "translations": [
+        "lesson"
+      ],
+      "original_forms": [
+        "la lección"
+      ],
+      "count": 1
+    },
+    "empezar": {
+      "stories": [
+        {
+          "id": "classroom",
+          "level": "A1",
+          "title": "En la clase"
+        }
+      ],
+      "translations": [
+        "aloitetaan"
+      ],
+      "original_forms": [
+        "empezar"
+      ],
+      "count": 1
+    },
+    "familia": {
+      "stories": [
+        {
+          "id": "my-family",
+          "level": "A1",
+          "title": "Mi familia"
+        }
+      ],
+      "translations": [
+        "family"
+      ],
+      "original_forms": [
+        "la familia"
+      ],
+      "count": 1
+    },
+    "pequeño/a": {
+      "stories": [
+        {
+          "id": "my-family",
+          "level": "A1",
+          "title": "Mi familia"
+        },
+        {
+          "id": "cafe-visit",
+          "level": "A2",
+          "title": "En la cafetería"
+        }
+      ],
+      "translations": [
+        "pieni",
+        "small"
+      ],
+      "original_forms": [
+        "pequeño/a"
+      ],
+      "count": 2
+    },
+    "padre": {
+      "stories": [
+        {
+          "id": "my-family",
+          "level": "A1",
+          "title": "Mi familia"
+        }
+      ],
+      "translations": [
+        "father"
+      ],
+      "original_forms": [
+        "el padre"
+      ],
+      "count": 1
+    },
+    "madre": {
+      "stories": [
+        {
+          "id": "my-family",
+          "level": "A1",
+          "title": "Mi familia"
+        }
+      ],
+      "translations": [
+        "mother"
+      ],
+      "original_forms": [
+        "la madre"
+      ],
+      "count": 1
+    },
+    "el/la hermano/a": {
+      "stories": [
+        {
+          "id": "my-family",
+          "level": "A1",
+          "title": "Mi familia"
+        }
+      ],
+      "translations": [
+        "brother/sister"
+      ],
+      "original_forms": [
+        "el/la hermano/a"
+      ],
+      "count": 1
+    },
+    "tener ... años": {
+      "stories": [
+        {
+          "id": "my-family",
+          "level": "A1",
+          "title": "Mi familia"
+        }
+      ],
+      "translations": [
+        "olla ... vuosia vanha"
+      ],
+      "original_forms": [
+        "tener ... años"
+      ],
+      "count": 1
+    },
+    "cuéntame": {
+      "stories": [
+        {
+          "id": "my-family",
+          "level": "A1",
+          "title": "Mi familia"
+        }
+      ],
+      "translations": [
+        "tell me"
+      ],
+      "original_forms": [
+        "cuéntame"
+      ],
+      "count": 1
+    },
+    "tener hambre": {
+      "stories": [
+        {
+          "id": "hungry",
+          "level": "A1",
+          "title": "Tengo hambre"
+        }
+      ],
+      "translations": [
+        "olla nälkäinen"
+      ],
+      "original_forms": [
+        "tener hambre"
+      ],
+      "count": 1
+    },
+    "también": {
+      "stories": [
+        {
+          "id": "hungry",
+          "level": "A1",
+          "title": "Tengo hambre"
+        }
+      ],
+      "translations": [
+        "also/too"
+      ],
+      "original_forms": [
+        "también"
+      ],
+      "count": 1
+    },
+    "querer": {
+      "stories": [
+        {
+          "id": "hungry",
+          "level": "A1",
+          "title": "Tengo hambre"
+        }
+      ],
+      "translations": [
+        "Haluta"
+      ],
+      "original_forms": [
+        "querer"
+      ],
+      "count": 1
+    },
+    "comer": {
+      "stories": [
+        {
+          "id": "hungry",
+          "level": "A1",
+          "title": "Tengo hambre"
+        }
+      ],
+      "translations": [
+        "syödä"
+      ],
+      "original_forms": [
+        "comer"
+      ],
+      "count": 1
+    },
+    "gustar": {
+      "stories": [
+        {
+          "id": "hungry",
+          "level": "A1",
+          "title": "Tengo hambre"
+        }
+      ],
+      "translations": [
+        "pitää"
+      ],
+      "original_forms": [
+        "gustar"
+      ],
+      "count": 1
+    },
+    "encantar": {
+      "stories": [
+        {
+          "id": "hungry",
+          "level": "A1",
+          "title": "Tengo hambre"
+        }
+      ],
+      "translations": [
+        "rakastaa (asioita)"
+      ],
+      "original_forms": [
+        "encantar"
+      ],
+      "count": 1
+    },
+    "ir": {
+      "stories": [
+        {
+          "id": "hungry",
+          "level": "A1",
+          "title": "Tengo hambre"
+        }
+      ],
+      "translations": [
+        "Lähteä"
+      ],
+      "original_forms": [
+        "ir"
+      ],
+      "count": 1
+    },
+    "vamos": {
+      "stories": [
+        {
+          "id": "hungry",
+          "level": "A1",
+          "title": "Tengo hambre"
+        }
+      ],
+      "translations": [
+        "let's go"
+      ],
+      "original_forms": [
+        "vamos"
+      ],
+      "count": 1
+    },
+    "llamarse": {
+      "stories": [
+        {
+          "id": "meeting-new-person",
+          "level": "A1",
+          "title": "Conocer a alguien nuevo"
+        }
+      ],
+      "translations": [
+        "kutsuttavaksi"
+      ],
+      "original_forms": [
+        "llamarse"
+      ],
+      "count": 1
+    },
+    "ser": {
+      "stories": [
+        {
+          "id": "meeting-new-person",
+          "level": "A1",
+          "title": "Conocer a alguien nuevo"
+        }
+      ],
+      "translations": [
+        "olla"
+      ],
+      "original_forms": [
+        "ser"
+      ],
+      "count": 1
+    },
+    "mucho gusto": {
+      "stories": [
+        {
+          "id": "meeting-new-person",
+          "level": "A1",
+          "title": "Conocer a alguien nuevo"
+        }
+      ],
+      "translations": [
+        "Hauska tavata"
+      ],
+      "original_forms": [
+        "mucho gusto"
+      ],
+      "count": 1
+    },
+    "de dónde": {
+      "stories": [
+        {
+          "id": "meeting-new-person",
+          "level": "A1",
+          "title": "Conocer a alguien nuevo"
+        }
+      ],
+      "translations": [
+        "from where"
+      ],
+      "original_forms": [
+        "de dónde"
+      ],
+      "count": 1
+    },
+    "bonito/a": {
+      "stories": [
+        {
+          "id": "meeting-new-person",
+          "level": "A1",
+          "title": "Conocer a alguien nuevo"
+        }
+      ],
+      "translations": [
+        "beautiful/nice"
+      ],
+      "original_forms": [
+        "bonito/a"
+      ],
+      "count": 1
+    },
+    "muy": {
+      "stories": [
+        {
+          "id": "meeting-new-person",
+          "level": "A1",
+          "title": "Conocer a alguien nuevo"
+        }
+      ],
+      "translations": [
+        "very"
+      ],
+      "original_forms": [
+        "muy"
+      ],
+      "count": 1
+    },
+    "entrevista": {
+      "stories": [
+        {
+          "id": "job-interview",
+          "level": "A2",
+          "title": "La entrevista de trabajo"
+        }
+      ],
+      "translations": [
+        "interview"
+      ],
+      "original_forms": [
+        "la entrevista"
+      ],
+      "count": 1
+    },
+    "el/la candidato/a": {
+      "stories": [
+        {
+          "id": "job-interview",
+          "level": "A2",
+          "title": "La entrevista de trabajo"
+        }
+      ],
+      "translations": [
+        "candidate"
+      ],
+      "original_forms": [
+        "el/la candidato/a"
+      ],
+      "count": 1
+    },
+    "empresa": {
+      "stories": [
+        {
+          "id": "job-interview",
+          "level": "A2",
+          "title": "La entrevista de trabajo"
+        }
+      ],
+      "translations": [
+        "company"
+      ],
+      "original_forms": [
+        "la empresa"
+      ],
+      "count": 1
+    },
+    "sector": {
+      "stories": [
+        {
+          "id": "job-interview",
+          "level": "A2",
+          "title": "La entrevista de trabajo"
+        }
+      ],
+      "translations": [
+        "sector"
+      ],
+      "original_forms": [
+        "el sector"
+      ],
+      "count": 1
+    },
+    "experiencia": {
+      "stories": [
+        {
+          "id": "job-interview",
+          "level": "A2",
+          "title": "La entrevista de trabajo"
+        }
+      ],
+      "translations": [
+        "experience"
+      ],
+      "original_forms": [
+        "la experiencia"
+      ],
+      "count": 1
+    },
+    "campo": {
+      "stories": [
+        {
+          "id": "job-interview",
+          "level": "A2",
+          "title": "La entrevista de trabajo"
+        }
+      ],
+      "translations": [
+        "field"
+      ],
+      "original_forms": [
+        "el campo"
+      ],
+      "count": 1
+    },
+    "fortalezas": {
+      "stories": [
+        {
+          "id": "job-interview",
+          "level": "A2",
+          "title": "La entrevista de trabajo"
+        }
+      ],
+      "translations": [
+        "strengths"
+      ],
+      "original_forms": [
+        "las fortalezas"
+      ],
+      "count": 1
+    },
+    "organizado/a": {
+      "stories": [
+        {
+          "id": "job-interview",
+          "level": "A2",
+          "title": "La entrevista de trabajo"
+        }
+      ],
+      "translations": [
+        "organized"
+      ],
+      "original_forms": [
+        "organizado/a"
+      ],
+      "count": 1
+    },
+    "equipo": {
+      "stories": [
+        {
+          "id": "job-interview",
+          "level": "A2",
+          "title": "La entrevista de trabajo"
+        }
+      ],
+      "translations": [
+        "team"
+      ],
+      "original_forms": [
+        "el equipo"
+      ],
+      "count": 1
+    },
+    "presión": {
+      "stories": [
+        {
+          "id": "job-interview",
+          "level": "A2",
+          "title": "La entrevista de trabajo"
+        }
+      ],
+      "translations": [
+        "pressure"
+      ],
+      "original_forms": [
+        "la presión"
+      ],
+      "count": 1
+    },
+    "plazo": {
+      "stories": [
+        {
+          "id": "job-interview",
+          "level": "A2",
+          "title": "La entrevista de trabajo"
+        }
+      ],
+      "translations": [
+        "deadline"
+      ],
+      "original_forms": [
+        "el plazo"
+      ],
+      "count": 1
+    },
+    "oportunidad": {
+      "stories": [
+        {
+          "id": "job-interview",
+          "level": "A2",
+          "title": "La entrevista de trabajo"
+        }
+      ],
+      "translations": [
+        "opportunity"
+      ],
+      "original_forms": [
+        "la oportunidad"
+      ],
+      "count": 1
+    },
+    "alquilar": {
+      "stories": [
+        {
+          "id": "bicycle-rental",
+          "level": "A2",
+          "title": "Alquiler de bicicletas"
+        }
+      ],
+      "translations": [
+        "vuokrata"
+      ],
+      "original_forms": [
+        "alquilar"
+      ],
+      "count": 1
+    },
+    "bicicleta": {
+      "stories": [
+        {
+          "id": "bicycle-rental",
+          "level": "A2",
+          "title": "Alquiler de bicicletas"
+        }
+      ],
+      "translations": [
+        "polkupyörä"
+      ],
+      "original_forms": [
+        "la bicicleta"
+      ],
+      "count": 1
+    },
+    "casco": {
+      "stories": [
+        {
+          "id": "bicycle-rental",
+          "level": "A2",
+          "title": "Alquiler de bicicletas"
+        }
+      ],
+      "translations": [
+        "kypärä"
+      ],
+      "original_forms": [
+        "el casco"
+      ],
+      "count": 1
+    },
+    "mapa": {
+      "stories": [
+        {
+          "id": "bicycle-rental",
+          "level": "A2",
+          "title": "Alquiler de bicicletas"
+        }
+      ],
+      "translations": [
+        "kartta"
+      ],
+      "original_forms": [
+        "el mapa"
+      ],
+      "count": 1
+    },
+    "ruta": {
+      "stories": [
+        {
+          "id": "bicycle-rental",
+          "level": "A2",
+          "title": "Alquiler de bicicletas"
+        },
+        {
+          "id": "nature-park",
+          "level": "B1",
+          "title": "En el parque natural"
+        }
+      ],
+      "translations": [
+        "reitti"
+      ],
+      "original_forms": [
+        "la ruta"
+      ],
+      "count": 2
+    },
+    "río": {
+      "stories": [
+        {
+          "id": "bicycle-rental",
+          "level": "A2",
+          "title": "Alquiler de bicicletas"
+        },
+        {
+          "id": "camping-area",
+          "level": "B1",
+          "title": "En el camping"
+        }
+      ],
+      "translations": [
+        "joki"
+      ],
+      "original_forms": [
+        "el río"
+      ],
+      "count": 2
+    },
+    "plano/a": {
+      "stories": [
+        {
+          "id": "bicycle-rental",
+          "level": "A2",
+          "title": "Alquiler de bicicletas"
+        }
+      ],
+      "translations": [
+        "tasainen"
+      ],
+      "original_forms": [
+        "plano/a"
+      ],
+      "count": 1
+    },
+    "devolver": {
+      "stories": [
+        {
+          "id": "bicycle-rental",
+          "level": "A2",
+          "title": "Alquiler de bicicletas"
+        }
+      ],
+      "translations": [
+        "palauttaa"
+      ],
+      "original_forms": [
+        "devolver"
+      ],
+      "count": 1
+    },
+    "pasaporte": {
+      "stories": [
+        {
+          "id": "bicycle-rental",
+          "level": "A2",
+          "title": "Alquiler de bicicletas"
+        }
+      ],
+      "translations": [
+        "passi"
+      ],
+      "original_forms": [
+        "el pasaporte"
+      ],
+      "count": 1
+    },
+    "depósito": {
+      "stories": [
+        {
+          "id": "bicycle-rental",
+          "level": "A2",
+          "title": "Alquiler de bicicletas"
+        }
+      ],
+      "translations": [
+        "panttimaksu"
+      ],
+      "original_forms": [
+        "el depósito"
+      ],
+      "count": 1
+    },
+    "hora": {
+      "stories": [
+        {
+          "id": "bicycle-rental",
+          "level": "A2",
+          "title": "Alquiler de bicicletas"
+        }
+      ],
+      "translations": [
+        "tunti / kellonaika"
+      ],
+      "original_forms": [
+        "la hora"
+      ],
+      "count": 1
+    },
+    "transporte público": {
+      "stories": [
+        {
+          "id": "public-transport",
+          "level": "A2",
+          "title": "Usando el transporte público"
+        }
+      ],
+      "translations": [
+        "public transport"
+      ],
+      "original_forms": [
+        "el transporte público"
+      ],
+      "count": 1
+    },
+    "autobús": {
+      "stories": [
+        {
+          "id": "public-transport",
+          "level": "A2",
+          "title": "Usando el transporte público"
+        }
+      ],
+      "translations": [
+        "bus"
+      ],
+      "original_forms": [
+        "el autobús"
+      ],
+      "count": 1
+    },
+    "centro": {
+      "stories": [
+        {
+          "id": "public-transport",
+          "level": "A2",
+          "title": "Usando el transporte público"
+        }
+      ],
+      "translations": [
+        "center/downtown"
+      ],
+      "original_forms": [
+        "el centro"
+      ],
+      "count": 1
+    },
+    "cada cuánto": {
+      "stories": [
+        {
+          "id": "public-transport",
+          "level": "A2",
+          "title": "Usando el transporte público"
+        }
+      ],
+      "translations": [
+        "how often"
+      ],
+      "original_forms": [
+        "cada cuánto"
+      ],
+      "count": 1
+    },
+    "pasar": {
+      "stories": [
+        {
+          "id": "public-transport",
+          "level": "A2",
+          "title": "Usando el transporte público"
+        }
+      ],
+      "translations": [
+        "ohittaa/tulla"
+      ],
+      "original_forms": [
+        "pasar"
+      ],
+      "count": 1
+    },
+    "billete": {
+      "stories": [
+        {
+          "id": "public-transport",
+          "level": "A2",
+          "title": "Usando el transporte público"
+        },
+        {
+          "id": "train-station",
+          "level": "A2",
+          "title": "En la estación de tren"
+        }
+      ],
+      "translations": [
+        "ticket"
+      ],
+      "original_forms": [
+        "el billete"
+      ],
+      "count": 2
+    },
+    "máquina": {
+      "stories": [
+        {
+          "id": "public-transport",
+          "level": "A2",
+          "title": "Usando el transporte público"
+        }
+      ],
+      "translations": [
+        "machine"
+      ],
+      "original_forms": [
+        "la máquina"
+      ],
+      "count": 1
+    },
+    "barato/a": {
+      "stories": [
+        {
+          "id": "public-transport",
+          "level": "A2",
+          "title": "Usando el transporte público"
+        }
+      ],
+      "translations": [
+        "cheap"
+      ],
+      "original_forms": [
+        "barato/a"
+      ],
+      "count": 1
+    },
+    "bono": {
+      "stories": [
+        {
+          "id": "public-transport",
+          "level": "A2",
+          "title": "Usando el transporte público"
+        }
+      ],
+      "translations": [
+        "pass"
+      ],
+      "original_forms": [
+        "el bono"
+      ],
+      "count": 1
+    },
+    "viaje": {
+      "stories": [
+        {
+          "id": "public-transport",
+          "level": "A2",
+          "title": "Usando el transporte público"
+        },
+        {
+          "id": "train-station",
+          "level": "A2",
+          "title": "En la estación de tren"
+        },
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "journey/trip",
+        "trip"
+      ],
+      "original_forms": [
+        "el viaje"
+      ],
+      "count": 3
+    },
+    "suelto/a": {
+      "stories": [
+        {
+          "id": "public-transport",
+          "level": "A2",
+          "title": "Usando el transporte público"
+        }
+      ],
+      "translations": [
+        "single/loose"
+      ],
+      "original_forms": [
+        "suelto/a"
+      ],
+      "count": 1
+    },
+    "información": {
+      "stories": [
+        {
+          "id": "public-transport",
+          "level": "A2",
+          "title": "Usando el transporte público"
+        }
+      ],
+      "translations": [
+        "information"
+      ],
+      "original_forms": [
+        "la información"
+      ],
+      "count": 1
+    },
+    "supermercado": {
+      "stories": [
+        {
+          "id": "grocery-shopping",
+          "level": "A2",
+          "title": "En el supermercado"
+        }
+      ],
+      "translations": [
+        "ruokakauppa"
+      ],
+      "original_forms": [
+        "el supermercado"
+      ],
+      "count": 1
+    },
+    "frutas": {
+      "stories": [
+        {
+          "id": "grocery-shopping",
+          "level": "A2",
+          "title": "En el supermercado"
+        }
+      ],
+      "translations": [
+        "hedelmät"
+      ],
+      "original_forms": [
+        "las frutas"
+      ],
+      "count": 1
+    },
+    "leche": {
+      "stories": [
+        {
+          "id": "grocery-shopping",
+          "level": "A2",
+          "title": "En el supermercado"
+        }
+      ],
+      "translations": [
+        "maito"
+      ],
+      "original_forms": [
+        "la leche"
+      ],
+      "count": 1
+    },
+    "pan": {
+      "stories": [
+        {
+          "id": "grocery-shopping",
+          "level": "A2",
+          "title": "En el supermercado"
+        }
+      ],
+      "translations": [
+        "leipä"
+      ],
+      "original_forms": [
+        "el pan"
+      ],
+      "count": 1
+    },
+    "pasillo": {
+      "stories": [
+        {
+          "id": "grocery-shopping",
+          "level": "A2",
+          "title": "En el supermercado"
+        }
+      ],
+      "translations": [
+        "käytävä"
+      ],
+      "original_forms": [
+        "el pasillo"
+      ],
+      "count": 1
+    },
+    "entrada": {
+      "stories": [
+        {
+          "id": "grocery-shopping",
+          "level": "A2",
+          "title": "En el supermercado"
+        },
+        {
+          "id": "weekend-plans",
+          "level": "A2",
+          "title": "Planes para el fin de semana"
+        },
+        {
+          "id": "nature-park",
+          "level": "B1",
+          "title": "En el parque natural"
+        }
+      ],
+      "translations": [
+        "entrance",
+        "pääsymaksu / sisäänkäynti",
+        "sisäänkäynti"
+      ],
+      "original_forms": [
+        "la entrada"
+      ],
+      "count": 3
+    },
+    "tarjeta": {
+      "stories": [
+        {
+          "id": "grocery-shopping",
+          "level": "A2",
+          "title": "En el supermercado"
+        }
+      ],
+      "translations": [
+        "kortti"
+      ],
+      "original_forms": [
+        "la tarjeta"
+      ],
+      "count": 1
+    },
+    "efectivo": {
+      "stories": [
+        {
+          "id": "grocery-shopping",
+          "level": "A2",
+          "title": "En el supermercado"
+        }
+      ],
+      "translations": [
+        "käteinen"
+      ],
+      "original_forms": [
+        "el efectivo"
+      ],
+      "count": 1
+    },
+    "caja": {
+      "stories": [
+        {
+          "id": "grocery-shopping",
+          "level": "A2",
+          "title": "En el supermercado"
+        }
+      ],
+      "translations": [
+        "kassa"
+      ],
+      "original_forms": [
+        "la caja"
+      ],
+      "count": 1
+    },
+    "fresco/a": {
+      "stories": [
+        {
+          "id": "grocery-shopping",
+          "level": "A2",
+          "title": "En el supermercado"
+        }
+      ],
+      "translations": [
+        "tuore"
+      ],
+      "original_forms": [
+        "fresco/a"
+      ],
+      "count": 1
+    },
+    "estudiar": {
+      "stories": [
+        {
+          "id": "learning-spanish",
+          "level": "A2",
+          "title": "Aprendiendo español"
+        }
+      ],
+      "translations": [
+        "opiskella"
+      ],
+      "original_forms": [
+        "estudiar"
+      ],
+      "count": 1
+    },
+    "llevar + time": {
+      "stories": [
+        {
+          "id": "learning-spanish",
+          "level": "A2",
+          "title": "Aprendiendo español"
+        }
+      ],
+      "translations": [
+        "olla (tekemässä)"
+      ],
+      "original_forms": [
+        "llevar + time"
+      ],
+      "count": 1
+    },
+    "costar": {
+      "stories": [
+        {
+          "id": "learning-spanish",
+          "level": "A2",
+          "title": "Aprendiendo español"
+        }
+      ],
+      "translations": [
+        "olla vaikea/kustannus"
+      ],
+      "original_forms": [
+        "costar"
+      ],
+      "count": 1
+    },
+    "difícil": {
+      "stories": [
+        {
+          "id": "learning-spanish",
+          "level": "A2",
+          "title": "Aprendiendo español"
+        }
+      ],
+      "translations": [
+        "difficult"
+      ],
+      "original_forms": [
+        "difícil"
+      ],
+      "count": 1
+    },
+    "verbo": {
+      "stories": [
+        {
+          "id": "learning-spanish",
+          "level": "A2",
+          "title": "Aprendiendo español"
+        }
+      ],
+      "translations": [
+        "verb"
+      ],
+      "original_forms": [
+        "el verbo"
+      ],
+      "count": 1
+    },
+    "irregular": {
+      "stories": [
+        {
+          "id": "learning-spanish",
+          "level": "A2",
+          "title": "Aprendiendo español"
+        }
+      ],
+      "translations": [
+        "irregular"
+      ],
+      "original_forms": [
+        "irregular"
+      ],
+      "count": 1
+    },
+    "mejorar": {
+      "stories": [
+        {
+          "id": "learning-spanish",
+          "level": "A2",
+          "title": "Aprendiendo español"
+        }
+      ],
+      "translations": [
+        "parantaa"
+      ],
+      "original_forms": [
+        "mejorar"
+      ],
+      "count": 1
+    },
+    "practicar": {
+      "stories": [
+        {
+          "id": "learning-spanish",
+          "level": "A2",
+          "title": "Aprendiendo español"
+        }
+      ],
+      "translations": [
+        "harjoittaa"
+      ],
+      "original_forms": [
+        "practicar"
+      ],
+      "count": 1
+    },
+    "pronunciación": {
+      "stories": [
+        {
+          "id": "learning-spanish",
+          "level": "A2",
+          "title": "Aprendiendo español"
+        }
+      ],
+      "translations": [
+        "pronunciation"
+      ],
+      "original_forms": [
+        "la pronunciación"
+      ],
+      "count": 1
+    },
+    "podcast": {
+      "stories": [
+        {
+          "id": "learning-spanish",
+          "level": "A2",
+          "title": "Aprendiendo español"
+        }
+      ],
+      "translations": [
+        "podcast"
+      ],
+      "original_forms": [
+        "el podcast"
+      ],
+      "count": 1
+    },
+    "en voz alta": {
+      "stories": [
+        {
+          "id": "learning-spanish",
+          "level": "A2",
+          "title": "Aprendiendo español"
+        }
+      ],
+      "translations": [
+        "out loud"
+      ],
+      "original_forms": [
+        "en voz alta"
+      ],
+      "count": 1
+    },
+    "intercambio": {
+      "stories": [
+        {
+          "id": "learning-spanish",
+          "level": "A2",
+          "title": "Aprendiendo español"
+        }
+      ],
+      "translations": [
+        "exchange"
+      ],
+      "original_forms": [
+        "el intercambio"
+      ],
+      "count": 1
+    },
+    "el/la médico/a": {
+      "stories": [
+        {
+          "id": "doctor-visit",
+          "level": "A2",
+          "title": "En el médico"
+        }
+      ],
+      "translations": [
+        "doctor"
+      ],
+      "original_forms": [
+        "el/la médico/a"
+      ],
+      "count": 1
+    },
+    "el/la paciente": {
+      "stories": [
+        {
+          "id": "doctor-visit",
+          "level": "A2",
+          "title": "En el médico"
+        }
+      ],
+      "translations": [
+        "patient"
+      ],
+      "original_forms": [
+        "el/la paciente"
+      ],
+      "count": 1
+    },
+    "sentirse mal": {
+      "stories": [
+        {
+          "id": "doctor-visit",
+          "level": "A2",
+          "title": "En el médico"
+        }
+      ],
+      "translations": [
+        "Tuntea olonsa huonoksi"
+      ],
+      "original_forms": [
+        "sentirse mal"
+      ],
+      "count": 1
+    },
+    "síntoma": {
+      "stories": [
+        {
+          "id": "doctor-visit",
+          "level": "A2",
+          "title": "En el médico"
+        }
+      ],
+      "translations": [
+        "symptom"
+      ],
+      "original_forms": [
+        "el síntoma"
+      ],
+      "count": 1
+    },
+    "doler": {
+      "stories": [
+        {
+          "id": "doctor-visit",
+          "level": "A2",
+          "title": "En el médico"
+        }
+      ],
+      "translations": [
+        "satuttaa"
+      ],
+      "original_forms": [
+        "doler"
+      ],
+      "count": 1
+    },
+    "cabeza": {
+      "stories": [
+        {
+          "id": "doctor-visit",
+          "level": "A2",
+          "title": "En el médico"
+        }
+      ],
+      "translations": [
+        "head"
+      ],
+      "original_forms": [
+        "la cabeza"
+      ],
+      "count": 1
+    },
+    "fiebre": {
+      "stories": [
+        {
+          "id": "doctor-visit",
+          "level": "A2",
+          "title": "En el médico"
+        }
+      ],
+      "translations": [
+        "fever"
+      ],
+      "original_forms": [
+        "la fiebre"
+      ],
+      "count": 1
+    },
+    "garganta": {
+      "stories": [
+        {
+          "id": "doctor-visit",
+          "level": "A2",
+          "title": "En el médico"
+        }
+      ],
+      "translations": [
+        "throat"
+      ],
+      "original_forms": [
+        "la garganta"
+      ],
+      "count": 1
+    },
+    "examinar": {
+      "stories": [
+        {
+          "id": "doctor-visit",
+          "level": "A2",
+          "title": "En el médico"
+        }
+      ],
+      "translations": [
+        "tutkia"
+      ],
+      "original_forms": [
+        "examinar"
+      ],
+      "count": 1
+    },
+    "resfriado": {
+      "stories": [
+        {
+          "id": "doctor-visit",
+          "level": "A2",
+          "title": "En el médico"
+        }
+      ],
+      "translations": [
+        "cold"
+      ],
+      "original_forms": [
+        "el resfriado"
+      ],
+      "count": 1
+    },
+    "medicina": {
+      "stories": [
+        {
+          "id": "doctor-visit",
+          "level": "A2",
+          "title": "En el médico"
+        }
+      ],
+      "translations": [
+        "medicine"
+      ],
+      "original_forms": [
+        "la medicina"
+      ],
+      "count": 1
+    },
+    "pastilla": {
+      "stories": [
+        {
+          "id": "doctor-visit",
+          "level": "A2",
+          "title": "En el médico"
+        }
+      ],
+      "translations": [
+        "pill"
+      ],
+      "original_forms": [
+        "la pastilla"
+      ],
+      "count": 1
+    },
+    "recetar": {
+      "stories": [
+        {
+          "id": "doctor-visit",
+          "level": "A2",
+          "title": "En el médico"
+        }
+      ],
+      "translations": [
+        "määrätä"
+      ],
+      "original_forms": [
+        "recetar"
+      ],
+      "count": 1
+    },
+    "estación de tren": {
+      "stories": [
+        {
+          "id": "train-station",
+          "level": "A2",
+          "title": "En la estación de tren"
+        }
+      ],
+      "translations": [
+        "train station"
+      ],
+      "original_forms": [
+        "la estación de tren"
+      ],
+      "count": 1
+    },
+    "ida y vuelta": {
+      "stories": [
+        {
+          "id": "train-station",
+          "level": "A2",
+          "title": "En la estación de tren"
+        }
+      ],
+      "translations": [
+        "round trip"
+      ],
+      "original_forms": [
+        "ida y vuelta"
+      ],
+      "count": 1
+    },
+    "solo ida": {
+      "stories": [
+        {
+          "id": "train-station",
+          "level": "A2",
+          "title": "En la estación de tren"
+        }
+      ],
+      "translations": [
+        "one way"
+      ],
+      "original_forms": [
+        "solo ida"
+      ],
+      "count": 1
+    },
+    "volver": {
+      "stories": [
+        {
+          "id": "train-station",
+          "level": "A2",
+          "title": "En la estación de tren"
+        }
+      ],
+      "translations": [
+        "palata"
+      ],
+      "original_forms": [
+        "volver"
+      ],
+      "count": 1
+    },
+    "turista": {
+      "stories": [
+        {
+          "id": "train-station",
+          "level": "A2",
+          "title": "En la estación de tren"
+        }
+      ],
+      "translations": [
+        "tourist class"
+      ],
+      "original_forms": [
+        "turista"
+      ],
+      "count": 1
+    },
+    "preferente": {
+      "stories": [
+        {
+          "id": "train-station",
+          "level": "A2",
+          "title": "En la estación de tren"
+        }
+      ],
+      "translations": [
+        "business class"
+      ],
+      "original_forms": [
+        "preferente"
+      ],
+      "count": 1
+    },
+    "andén": {
+      "stories": [
+        {
+          "id": "train-station",
+          "level": "A2",
+          "title": "En la estación de tren"
+        }
+      ],
+      "translations": [
+        "platform"
+      ],
+      "original_forms": [
+        "el andén"
+      ],
+      "count": 1
+    },
+    "durar": {
+      "stories": [
+        {
+          "id": "train-station",
+          "level": "A2",
+          "title": "En la estación de tren"
+        }
+      ],
+      "translations": [
+        "Kestää"
+      ],
+      "original_forms": [
+        "durar"
+      ],
+      "count": 1
+    },
+    "pago": {
+      "stories": [
+        {
+          "id": "train-station",
+          "level": "A2",
+          "title": "En la estación de tren"
+        }
+      ],
+      "translations": [
+        "payment"
+      ],
+      "original_forms": [
+        "el pago"
+      ],
+      "count": 1
+    },
+    "hostal": {
+      "stories": [
+        {
+          "id": "cheap-hotel",
+          "level": "A2",
+          "title": "Llegada al hostal"
+        }
+      ],
+      "translations": [
+        "hostelli"
+      ],
+      "original_forms": [
+        "el hostal"
+      ],
+      "count": 1
+    },
+    "reserva": {
+      "stories": [
+        {
+          "id": "cheap-hotel",
+          "level": "A2",
+          "title": "Llegada al hostal"
+        },
+        {
+          "id": "restaurant-recommendation",
+          "level": "B1",
+          "title": "Recomendaciones de restaurantes"
+        }
+      ],
+      "translations": [
+        "varaus"
+      ],
+      "original_forms": [
+        "la reserva"
+      ],
+      "count": 2
+    },
+    "doble": {
+      "stories": [
+        {
+          "id": "cheap-hotel",
+          "level": "A2",
+          "title": "Llegada al hostal"
+        }
+      ],
+      "translations": [
+        "kahden hengen"
+      ],
+      "original_forms": [
+        "doble"
+      ],
+      "count": 1
+    },
+    "baño": {
+      "stories": [
+        {
+          "id": "cheap-hotel",
+          "level": "A2",
+          "title": "Llegada al hostal"
+        }
+      ],
+      "translations": [
+        "kylpyhuone"
+      ],
+      "original_forms": [
+        "el baño"
+      ],
+      "count": 1
+    },
+    "ducha": {
+      "stories": [
+        {
+          "id": "cheap-hotel",
+          "level": "A2",
+          "title": "Llegada al hostal"
+        },
+        {
+          "id": "camping-area",
+          "level": "B1",
+          "title": "En el camping"
+        }
+      ],
+      "translations": [
+        "suihku"
+      ],
+      "original_forms": [
+        "la ducha"
+      ],
+      "count": 2
+    },
+    "aire acondicionado": {
+      "stories": [
+        {
+          "id": "cheap-hotel",
+          "level": "A2",
+          "title": "Llegada al hostal"
+        },
+        {
+          "id": "apartment-search",
+          "level": "A2",
+          "title": "Buscando un apartamento"
+        }
+      ],
+      "translations": [
+        "air conditioning",
+        "ilmastointi"
+      ],
+      "original_forms": [
+        "el aire acondicionado"
+      ],
+      "count": 2
+    },
+    "desayuno": {
+      "stories": [
+        {
+          "id": "cheap-hotel",
+          "level": "A2",
+          "title": "Llegada al hostal"
+        }
+      ],
+      "translations": [
+        "aamiainen"
+      ],
+      "original_forms": [
+        "el desayuno"
+      ],
+      "count": 1
+    },
+    "comedor": {
+      "stories": [
+        {
+          "id": "cheap-hotel",
+          "level": "A2",
+          "title": "Llegada al hostal"
+        }
+      ],
+      "translations": [
+        "ruokasali"
+      ],
+      "original_forms": [
+        "el comedor"
+      ],
+      "count": 1
+    },
+    "maleta": {
+      "stories": [
+        {
+          "id": "cheap-hotel",
+          "level": "A2",
+          "title": "Llegada al hostal"
+        }
+      ],
+      "translations": [
+        "matkalaukku"
+      ],
+      "original_forms": [
+        "la maleta"
+      ],
+      "count": 1
+    },
+    "llave": {
+      "stories": [
+        {
+          "id": "cheap-hotel",
+          "level": "A2",
+          "title": "Llegada al hostal"
+        }
+      ],
+      "translations": [
+        "avain"
+      ],
+      "original_forms": [
+        "la llave"
+      ],
+      "count": 1
+    },
+    "hora de salida": {
+      "stories": [
+        {
+          "id": "cheap-hotel",
+          "level": "A2",
+          "title": "Llegada al hostal"
+        }
+      ],
+      "translations": [
+        "uloskirjautumisaika"
+      ],
+      "original_forms": [
+        "la hora de salida"
+      ],
+      "count": 1
+    },
+    "cumpleaños": {
+      "stories": [
+        {
+          "id": "birthday-party",
+          "level": "A2",
+          "title": "La fiesta de cumpleaños"
+        }
+      ],
+      "translations": [
+        "birthday"
+      ],
+      "original_forms": [
+        "el cumpleaños"
+      ],
+      "count": 1
+    },
+    "sorpresa": {
+      "stories": [
+        {
+          "id": "birthday-party",
+          "level": "A2",
+          "title": "La fiesta de cumpleaños"
+        }
+      ],
+      "translations": [
+        "surprise"
+      ],
+      "original_forms": [
+        "la sorpresa"
+      ],
+      "count": 1
+    },
+    "cumplir años": {
+      "stories": [
+        {
+          "id": "birthday-party",
+          "level": "A2",
+          "title": "La fiesta de cumpleaños"
+        }
+      ],
+      "translations": [
+        "Syntymäpäivä"
+      ],
+      "original_forms": [
+        "cumplir años"
+      ],
+      "count": 1
+    },
+    "viejo/a": {
+      "stories": [
+        {
+          "id": "birthday-party",
+          "level": "A2",
+          "title": "La fiesta de cumpleaños"
+        }
+      ],
+      "translations": [
+        "old"
+      ],
+      "original_forms": [
+        "viejo/a"
+      ],
+      "count": 1
+    },
+    "pastel": {
+      "stories": [
+        {
+          "id": "birthday-party",
+          "level": "A2",
+          "title": "La fiesta de cumpleaños"
+        },
+        {
+          "id": "cafe-visit",
+          "level": "A2",
+          "title": "En la cafetería"
+        }
+      ],
+      "translations": [
+        "cake",
+        "leivos"
+      ],
+      "original_forms": [
+        "el pastel"
+      ],
+      "count": 2
+    },
+    "delicioso/a": {
+      "stories": [
+        {
+          "id": "birthday-party",
+          "level": "A2",
+          "title": "La fiesta de cumpleaños"
+        }
+      ],
+      "translations": [
+        "delicious"
+      ],
+      "original_forms": [
+        "delicioso/a"
+      ],
+      "count": 1
+    },
+    "chocolate": {
+      "stories": [
+        {
+          "id": "birthday-party",
+          "level": "A2",
+          "title": "La fiesta de cumpleaños"
+        }
+      ],
+      "translations": [
+        "chocolate"
+      ],
+      "original_forms": [
+        "el chocolate"
+      ],
+      "count": 1
+    },
+    "fresa": {
+      "stories": [
+        {
+          "id": "birthday-party",
+          "level": "A2",
+          "title": "La fiesta de cumpleaños"
+        }
+      ],
+      "translations": [
+        "strawberry"
+      ],
+      "original_forms": [
+        "la fresa"
+      ],
+      "count": 1
+    },
+    "deseo": {
+      "stories": [
+        {
+          "id": "birthday-party",
+          "level": "A2",
+          "title": "La fiesta de cumpleaños"
+        }
+      ],
+      "translations": [
+        "wish"
+      ],
+      "original_forms": [
+        "el deseo"
+      ],
+      "count": 1
+    },
+    "soplar": {
+      "stories": [
+        {
+          "id": "birthday-party",
+          "level": "A2",
+          "title": "La fiesta de cumpleaños"
+        }
+      ],
+      "translations": [
+        "puhaltaa"
+      ],
+      "original_forms": [
+        "soplar"
+      ],
+      "count": 1
+    },
+    "vela": {
+      "stories": [
+        {
+          "id": "birthday-party",
+          "level": "A2",
+          "title": "La fiesta de cumpleaños"
+        }
+      ],
+      "translations": [
+        "candle"
+      ],
+      "original_forms": [
+        "la vela"
+      ],
+      "count": 1
+    },
+    "cumplirse": {
+      "stories": [
+        {
+          "id": "birthday-party",
+          "level": "A2",
+          "title": "La fiesta de cumpleaños"
+        }
+      ],
+      "translations": [
+        "toteutua"
+      ],
+      "original_forms": [
+        "cumplirse"
+      ],
+      "count": 1
+    },
+    "fin de semana": {
+      "stories": [
+        {
+          "id": "weekend-plans",
+          "level": "A2",
+          "title": "Planes para el fin de semana"
+        }
+      ],
+      "translations": [
+        "weekend"
+      ],
+      "original_forms": [
+        "el fin de semana"
+      ],
+      "count": 1
+    },
+    "ir al cine": {
+      "stories": [
+        {
+          "id": "weekend-plans",
+          "level": "A2",
+          "title": "Planes para el fin de semana"
+        }
+      ],
+      "translations": [
+        "menemään elokuviin"
+      ],
+      "original_forms": [
+        "ir al cine"
+      ],
+      "count": 1
+    },
+    "película": {
+      "stories": [
+        {
+          "id": "weekend-plans",
+          "level": "A2",
+          "title": "Planes para el fin de semana"
+        }
+      ],
+      "translations": [
+        "movie"
+      ],
+      "original_forms": [
+        "la película"
+      ],
+      "count": 1
+    },
+    "de acción": {
+      "stories": [
+        {
+          "id": "weekend-plans",
+          "level": "A2",
+          "title": "Planes para el fin de semana"
+        }
+      ],
+      "translations": [
+        "action (type)"
+      ],
+      "original_forms": [
+        "de acción"
+      ],
+      "count": 1
+    },
+    "venir": {
+      "stories": [
+        {
+          "id": "weekend-plans",
+          "level": "A2",
+          "title": "Planes para el fin de semana"
+        }
+      ],
+      "translations": [
+        "tulevat"
+      ],
+      "original_forms": [
+        "venir"
+      ],
+      "count": 1
+    },
+    "me encantaría": {
+      "stories": [
+        {
+          "id": "weekend-plans",
+          "level": "A2",
+          "title": "Planes para el fin de semana"
+        }
+      ],
+      "translations": [
+        "I would love to"
+      ],
+      "original_forms": [
+        "me encantaría"
+      ],
+      "count": 1
+    },
+    "qué lástima": {
+      "stories": [
+        {
+          "id": "weekend-plans",
+          "level": "A2",
+          "title": "Planes para el fin de semana"
+        }
+      ],
+      "translations": [
+        "Sääli"
+      ],
+      "original_forms": [
+        "qué lástima"
+      ],
+      "count": 1
+    },
+    "libre": {
+      "stories": [
+        {
+          "id": "weekend-plans",
+          "level": "A2",
+          "title": "Planes para el fin de semana"
+        }
+      ],
+      "translations": [
+        "free"
+      ],
+      "original_forms": [
+        "libre"
+      ],
+      "count": 1
+    },
+    "quedar": {
+      "stories": [
+        {
+          "id": "weekend-plans",
+          "level": "A2",
+          "title": "Planes para el fin de semana"
+        }
+      ],
+      "translations": [
+        "tavata"
+      ],
+      "original_forms": [
+        "quedar"
+      ],
+      "count": 1
+    },
+    "hacer buen tiempo": {
+      "stories": [
+        {
+          "id": "weekend-plans",
+          "level": "A2",
+          "title": "Planes para el fin de semana"
+        }
+      ],
+      "translations": [
+        "että sää olisi mukava"
+      ],
+      "original_forms": [
+        "hacer buen tiempo"
+      ],
+      "count": 1
+    },
+    "pedido": {
+      "stories": [
+        {
+          "id": "food-delivery",
+          "level": "A2",
+          "title": "Pedido de comida a domicilio"
+        },
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "order"
+      ],
+      "original_forms": [
+        "el pedido"
+      ],
+      "count": 2
+    },
+    "a domicilio": {
+      "stories": [
+        {
+          "id": "food-delivery",
+          "level": "A2",
+          "title": "Pedido de comida a domicilio"
+        }
+      ],
+      "translations": [
+        "Toimitus (kotiin)"
+      ],
+      "original_forms": [
+        "a domicilio"
+      ],
+      "count": 1
+    },
+    "pedir": {
+      "stories": [
+        {
+          "id": "food-delivery",
+          "level": "A2",
+          "title": "Pedido de comida a domicilio"
+        }
+      ],
+      "translations": [
+        "tilaukseen"
+      ],
+      "original_forms": [
+        "pedir"
+      ],
+      "count": 1
+    },
+    "jamón": {
+      "stories": [
+        {
+          "id": "food-delivery",
+          "level": "A2",
+          "title": "Pedido de comida a domicilio"
+        }
+      ],
+      "translations": [
+        "ham"
+      ],
+      "original_forms": [
+        "el jamón"
+      ],
+      "count": 1
+    },
+    "queso": {
+      "stories": [
+        {
+          "id": "food-delivery",
+          "level": "A2",
+          "title": "Pedido de comida a domicilio"
+        }
+      ],
+      "translations": [
+        "cheese"
+      ],
+      "original_forms": [
+        "el queso"
+      ],
+      "count": 1
+    },
+    "entrante": {
+      "stories": [
+        {
+          "id": "food-delivery",
+          "level": "A2",
+          "title": "Pedido de comida a domicilio"
+        }
+      ],
+      "translations": [
+        "starter"
+      ],
+      "original_forms": [
+        "el entrante"
+      ],
+      "count": 1
+    },
+    "bebida": {
+      "stories": [
+        {
+          "id": "food-delivery",
+          "level": "A2",
+          "title": "Pedido de comida a domicilio"
+        }
+      ],
+      "translations": [
+        "drink"
+      ],
+      "original_forms": [
+        "la bebida"
+      ],
+      "count": 1
+    },
+    "ensalada": {
+      "stories": [
+        {
+          "id": "food-delivery",
+          "level": "A2",
+          "title": "Pedido de comida a domicilio"
+        }
+      ],
+      "translations": [
+        "salad"
+      ],
+      "original_forms": [
+        "la ensalada"
+      ],
+      "count": 1
+    },
+    "postre": {
+      "stories": [
+        {
+          "id": "food-delivery",
+          "level": "A2",
+          "title": "Pedido de comida a domicilio"
+        }
+      ],
+      "translations": [
+        "dessert"
+      ],
+      "original_forms": [
+        "el postre"
+      ],
+      "count": 1
+    },
+    "dirección": {
+      "stories": [
+        {
+          "id": "food-delivery",
+          "level": "A2",
+          "title": "Pedido de comida a domicilio"
+        }
+      ],
+      "translations": [
+        "address"
+      ],
+      "original_forms": [
+        "la dirección"
+      ],
+      "count": 1
+    },
+    "calle": {
+      "stories": [
+        {
+          "id": "food-delivery",
+          "level": "A2",
+          "title": "Pedido de comida a domicilio"
+        }
+      ],
+      "translations": [
+        "street"
+      ],
+      "original_forms": [
+        "la calle"
+      ],
+      "count": 1
+    },
+    "piso": {
+      "stories": [
+        {
+          "id": "food-delivery",
+          "level": "A2",
+          "title": "Pedido de comida a domicilio"
+        }
+      ],
+      "translations": [
+        "floor/apartment"
+      ],
+      "original_forms": [
+        "el piso"
+      ],
+      "count": 1
+    },
+    "llegar": {
+      "stories": [
+        {
+          "id": "food-delivery",
+          "level": "A2",
+          "title": "Pedido de comida a domicilio"
+        }
+      ],
+      "translations": [
+        "saapua"
+      ],
+      "original_forms": [
+        "llegar"
+      ],
+      "count": 1
+    },
+    "cafetería": {
+      "stories": [
+        {
+          "id": "cafe-visit",
+          "level": "A2",
+          "title": "En la cafetería"
+        }
+      ],
+      "translations": [
+        "kahvila"
+      ],
+      "original_forms": [
+        "la cafetería"
+      ],
+      "count": 1
+    },
+    "café con leche": {
+      "stories": [
+        {
+          "id": "cafe-visit",
+          "level": "A2",
+          "title": "En la cafetería"
+        }
+      ],
+      "translations": [
+        "maitokahvi"
+      ],
+      "original_forms": [
+        "el café con leche"
+      ],
+      "count": 1
+    },
+    "croissant": {
+      "stories": [
+        {
+          "id": "cafe-visit",
+          "level": "A2",
+          "title": "En la cafetería"
+        }
+      ],
+      "translations": [
+        "croissant"
+      ],
+      "original_forms": [
+        "el croissant"
+      ],
+      "count": 1
+    },
+    "tostada": {
+      "stories": [
+        {
+          "id": "cafe-visit",
+          "level": "A2",
+          "title": "En la cafetería"
+        }
+      ],
+      "translations": [
+        "paahtoleipä"
+      ],
+      "original_forms": [
+        "la tostada"
+      ],
+      "count": 1
+    },
+    "mantequilla": {
+      "stories": [
+        {
+          "id": "cafe-visit",
+          "level": "A2",
+          "title": "En la cafetería"
+        }
+      ],
+      "translations": [
+        "voi"
+      ],
+      "original_forms": [
+        "la mantequilla"
+      ],
+      "count": 1
+    },
+    "terraza": {
+      "stories": [
+        {
+          "id": "cafe-visit",
+          "level": "A2",
+          "title": "En la cafetería"
+        }
+      ],
+      "translations": [
+        "terassi"
+      ],
+      "original_forms": [
+        "la terraza"
+      ],
+      "count": 1
+    },
+    "servir": {
+      "stories": [
+        {
+          "id": "cafe-visit",
+          "level": "A2",
+          "title": "En la cafetería"
+        }
+      ],
+      "translations": [
+        "tarjoilla"
+      ],
+      "original_forms": [
+        "servir"
+      ],
+      "count": 1
+    },
+    "sentarse": {
+      "stories": [
+        {
+          "id": "cafe-visit",
+          "level": "A2",
+          "title": "En la cafetería"
+        }
+      ],
+      "translations": [
+        "istua"
+      ],
+      "original_forms": [
+        "sentarse"
+      ],
+      "count": 1
+    },
+    "disfrutar": {
+      "stories": [
+        {
+          "id": "cafe-visit",
+          "level": "A2",
+          "title": "En la cafetería"
+        }
+      ],
+      "translations": [
+        "nauttia"
+      ],
+      "original_forms": [
+        "disfrutar"
+      ],
+      "count": 1
+    },
+    "farmacia": {
+      "stories": [
+        {
+          "id": "pharmacy",
+          "level": "A2",
+          "title": "En la farmacia"
+        }
+      ],
+      "translations": [
+        "pharmacy"
+      ],
+      "original_forms": [
+        "la farmacia"
+      ],
+      "count": 1
+    },
+    "el/la farmacéutico/a": {
+      "stories": [
+        {
+          "id": "pharmacy",
+          "level": "A2",
+          "title": "En la farmacia"
+        }
+      ],
+      "translations": [
+        "pharmacist"
+      ],
+      "original_forms": [
+        "el/la farmacéutico/a"
+      ],
+      "count": 1
+    },
+    "dolor": {
+      "stories": [
+        {
+          "id": "pharmacy",
+          "level": "A2",
+          "title": "En la farmacia"
+        }
+      ],
+      "translations": [
+        "pain"
+      ],
+      "original_forms": [
+        "el dolor"
+      ],
+      "count": 1
+    },
+    "fuerte": {
+      "stories": [
+        {
+          "id": "pharmacy",
+          "level": "A2",
+          "title": "En la farmacia"
+        }
+      ],
+      "translations": [
+        "strong"
+      ],
+      "original_forms": [
+        "fuerte"
+      ],
+      "count": 1
+    },
+    "leve": {
+      "stories": [
+        {
+          "id": "pharmacy",
+          "level": "A2",
+          "title": "En la farmacia"
+        }
+      ],
+      "translations": [
+        "mild"
+      ],
+      "original_forms": [
+        "leve"
+      ],
+      "count": 1
+    },
+    "náuseas": {
+      "stories": [
+        {
+          "id": "pharmacy",
+          "level": "A2",
+          "title": "En la farmacia"
+        }
+      ],
+      "translations": [
+        "nausea"
+      ],
+      "original_forms": [
+        "las náuseas"
+      ],
+      "count": 1
+    },
+    "analgésico": {
+      "stories": [
+        {
+          "id": "pharmacy",
+          "level": "A2",
+          "title": "En la farmacia"
+        }
+      ],
+      "translations": [
+        "painkiller"
+      ],
+      "original_forms": [
+        "el analgésico"
+      ],
+      "count": 1
+    },
+    "efectivo/a": {
+      "stories": [
+        {
+          "id": "pharmacy",
+          "level": "A2",
+          "title": "En la farmacia"
+        }
+      ],
+      "translations": [
+        "effective"
+      ],
+      "original_forms": [
+        "efectivo/a"
+      ],
+      "count": 1
+    },
+    "efecto secundario": {
+      "stories": [
+        {
+          "id": "pharmacy",
+          "level": "A2",
+          "title": "En la farmacia"
+        }
+      ],
+      "translations": [
+        "side effect"
+      ],
+      "original_forms": [
+        "el efecto secundario"
+      ],
+      "count": 1
+    },
+    "somnolencia": {
+      "stories": [
+        {
+          "id": "pharmacy",
+          "level": "A2",
+          "title": "En la farmacia"
+        }
+      ],
+      "translations": [
+        "drowsiness"
+      ],
+      "original_forms": [
+        "la somnolencia"
+      ],
+      "count": 1
+    },
+    "conducir": {
+      "stories": [
+        {
+          "id": "pharmacy",
+          "level": "A2",
+          "title": "En la farmacia"
+        }
+      ],
+      "translations": [
+        "ajaa"
+      ],
+      "original_forms": [
+        "conducir"
+      ],
+      "count": 1
+    },
+    "consejo": {
+      "stories": [
+        {
+          "id": "pharmacy",
+          "level": "A2",
+          "title": "En la farmacia"
+        },
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "advice",
+        "advice/tip"
+      ],
+      "original_forms": [
+        "el consejo"
+      ],
+      "count": 2
+    },
+    "llover": {
+      "stories": [
+        {
+          "id": "weather-talk",
+          "level": "A2",
+          "title": "Hablando del tiempo"
+        }
+      ],
+      "translations": [
+        "sataa"
+      ],
+      "original_forms": [
+        "llover"
+      ],
+      "count": 1
+    },
+    "lluvia": {
+      "stories": [
+        {
+          "id": "weather-talk",
+          "level": "A2",
+          "title": "Hablando del tiempo"
+        }
+      ],
+      "translations": [
+        "sade"
+      ],
+      "original_forms": [
+        "la lluvia"
+      ],
+      "count": 1
+    },
+    "paraguas": {
+      "stories": [
+        {
+          "id": "weather-talk",
+          "level": "A2",
+          "title": "Hablando del tiempo"
+        }
+      ],
+      "translations": [
+        "sateenvarjo"
+      ],
+      "original_forms": [
+        "el paraguas"
+      ],
+      "count": 1
+    },
+    "nublado": {
+      "stories": [
+        {
+          "id": "weather-talk",
+          "level": "A2",
+          "title": "Hablando del tiempo"
+        }
+      ],
+      "translations": [
+        "pilvinen"
+      ],
+      "original_forms": [
+        "nublado"
+      ],
+      "count": 1
+    },
+    "frío": {
+      "stories": [
+        {
+          "id": "weather-talk",
+          "level": "A2",
+          "title": "Hablando del tiempo"
+        }
+      ],
+      "translations": [
+        "kylmä"
+      ],
+      "original_forms": [
+        "el frío"
+      ],
+      "count": 1
+    },
+    "calor": {
+      "stories": [
+        {
+          "id": "weather-talk",
+          "level": "A2",
+          "title": "Hablando del tiempo"
+        }
+      ],
+      "translations": [
+        "kuuma / lämpö"
+      ],
+      "original_forms": [
+        "el calor"
+      ],
+      "count": 1
+    },
+    "pronóstico": {
+      "stories": [
+        {
+          "id": "weather-talk",
+          "level": "A2",
+          "title": "Hablando del tiempo"
+        }
+      ],
+      "translations": [
+        "sääennuste"
+      ],
+      "original_forms": [
+        "el pronóstico"
+      ],
+      "count": 1
+    },
+    "grado": {
+      "stories": [
+        {
+          "id": "weather-talk",
+          "level": "A2",
+          "title": "Hablando del tiempo"
+        }
+      ],
+      "translations": [
+        "aste"
+      ],
+      "original_forms": [
+        "el grado"
+      ],
+      "count": 1
+    },
+    "playa": {
+      "stories": [
+        {
+          "id": "weather-talk",
+          "level": "A2",
+          "title": "Hablando del tiempo"
+        }
+      ],
+      "translations": [
+        "ranta"
+      ],
+      "original_forms": [
+        "la playa"
+      ],
+      "count": 1
+    },
+    "pasear": {
+      "stories": [
+        {
+          "id": "weather-talk",
+          "level": "A2",
+          "title": "Hablando del tiempo"
+        }
+      ],
+      "translations": [
+        "kävellä / ulkoilla"
+      ],
+      "original_forms": [
+        "pasear"
+      ],
+      "count": 1
+    },
+    "apartamento": {
+      "stories": [
+        {
+          "id": "apartment-search",
+          "level": "A2",
+          "title": "Buscando un apartamento"
+        }
+      ],
+      "translations": [
+        "apartment"
+      ],
+      "original_forms": [
+        "el apartamento"
+      ],
+      "count": 1
+    },
+    "dormitorio": {
+      "stories": [
+        {
+          "id": "apartment-search",
+          "level": "A2",
+          "title": "Buscando un apartamento"
+        }
+      ],
+      "translations": [
+        "bedroom"
+      ],
+      "original_forms": [
+        "el dormitorio"
+      ],
+      "count": 1
+    },
+    "metro cuadrado": {
+      "stories": [
+        {
+          "id": "apartment-search",
+          "level": "A2",
+          "title": "Buscando un apartamento"
+        }
+      ],
+      "translations": [
+        "square meter"
+      ],
+      "original_forms": [
+        "el metro cuadrado"
+      ],
+      "count": 1
+    },
+    "amueblado": {
+      "stories": [
+        {
+          "id": "apartment-search",
+          "level": "A2",
+          "title": "Buscando un apartamento"
+        }
+      ],
+      "translations": [
+        "furnished"
+      ],
+      "original_forms": [
+        "amueblado"
+      ],
+      "count": 1
+    },
+    "muebles": {
+      "stories": [
+        {
+          "id": "apartment-search",
+          "level": "A2",
+          "title": "Buscando un apartamento"
+        }
+      ],
+      "translations": [
+        "furniture"
+      ],
+      "original_forms": [
+        "los muebles"
+      ],
+      "count": 1
+    },
+    "alquiler": {
+      "stories": [
+        {
+          "id": "apartment-search",
+          "level": "A2",
+          "title": "Buscando un apartamento"
+        }
+      ],
+      "translations": [
+        "rent"
+      ],
+      "original_forms": [
+        "el alquiler"
+      ],
+      "count": 1
+    },
+    "mensual": {
+      "stories": [
+        {
+          "id": "apartment-search",
+          "level": "A2",
+          "title": "Buscando un apartamento"
+        }
+      ],
+      "translations": [
+        "monthly"
+      ],
+      "original_forms": [
+        "mensual"
+      ],
+      "count": 1
+    },
+    "gastos": {
+      "stories": [
+        {
+          "id": "apartment-search",
+          "level": "A2",
+          "title": "Buscando un apartamento"
+        }
+      ],
+      "translations": [
+        "utilities/expenses"
+      ],
+      "original_forms": [
+        "los gastos"
+      ],
+      "count": 1
+    },
+    "calefacción": {
+      "stories": [
+        {
+          "id": "apartment-search",
+          "level": "A2",
+          "title": "Buscando un apartamento"
+        }
+      ],
+      "translations": [
+        "heating"
+      ],
+      "original_forms": [
+        "la calefacción"
+      ],
+      "count": 1
+    },
+    "mudarse": {
+      "stories": [
+        {
+          "id": "apartment-search",
+          "level": "A2",
+          "title": "Buscando un apartamento"
+        }
+      ],
+      "translations": [
+        "to move (talo)"
+      ],
+      "original_forms": [
+        "mudarse"
+      ],
+      "count": 1
+    },
+    "disponible": {
+      "stories": [
+        {
+          "id": "apartment-search",
+          "level": "A2",
+          "title": "Buscando un apartamento"
+        }
+      ],
+      "translations": [
+        "available"
+      ],
+      "original_forms": [
+        "disponible"
+      ],
+      "count": 1
+    },
+    "teletrabajo": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        }
+      ],
+      "translations": [
+        "remote work"
+      ],
+      "original_forms": [
+        "el teletrabajo"
+      ],
+      "count": 1
+    },
+    "adaptarse": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        },
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        }
+      ],
+      "translations": [
+        "sopeutua"
+      ],
+      "original_forms": [
+        "adaptarse"
+      ],
+      "count": 2
+    },
+    "ventaja": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        }
+      ],
+      "translations": [
+        "advantage"
+      ],
+      "original_forms": [
+        "la ventaja"
+      ],
+      "count": 1
+    },
+    "ahorrar": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        }
+      ],
+      "translations": [
+        "pelastaa"
+      ],
+      "original_forms": [
+        "ahorrar"
+      ],
+      "count": 1
+    },
+    "desplazarse": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        }
+      ],
+      "translations": [
+        "pendelöidäkseen"
+      ],
+      "original_forms": [
+        "desplazarse"
+      ],
+      "count": 1
+    },
+    "desventaja": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        }
+      ],
+      "translations": [
+        "disadvantage"
+      ],
+      "original_forms": [
+        "la desventaja"
+      ],
+      "count": 1
+    },
+    "echar de menos": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        }
+      ],
+      "translations": [
+        "Missaa"
+      ],
+      "original_forms": [
+        "echar de menos"
+      ],
+      "count": 1
+    },
+    "interacción": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        }
+      ],
+      "translations": [
+        "interaction"
+      ],
+      "original_forms": [
+        "la interacción"
+      ],
+      "count": 1
+    },
+    "estricto/a": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        }
+      ],
+      "translations": [
+        "strict"
+      ],
+      "original_forms": [
+        "estricto/a"
+      ],
+      "count": 1
+    },
+    "desconectar": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        },
+        {
+          "id": "work-life-balance",
+          "level": "B1",
+          "title": "El equilibrio entre trabajo y vida personal"
+        }
+      ],
+      "translations": [
+        "irrottautua"
+      ],
+      "original_forms": [
+        "desconectar"
+      ],
+      "count": 2
+    },
+    "apagar": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        }
+      ],
+      "translations": [
+        "sammuttaa"
+      ],
+      "original_forms": [
+        "apagar"
+      ],
+      "count": 1
+    },
+    "ordenador": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        }
+      ],
+      "translations": [
+        "computer"
+      ],
+      "original_forms": [
+        "el ordenador"
+      ],
+      "count": 1
+    },
+    "fijo/a": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        }
+      ],
+      "translations": [
+        "fixed"
+      ],
+      "original_forms": [
+        "fijo/a"
+      ],
+      "count": 1
+    },
+    "modelo híbrido": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        }
+      ],
+      "translations": [
+        "hybrid model"
+      ],
+      "original_forms": [
+        "el modelo híbrido"
+      ],
+      "count": 1
+    },
+    "futuro": {
+      "stories": [
+        {
+          "id": "remote-work",
+          "level": "B1",
+          "title": "Discusión sobre el trabajo remoto"
+        }
+      ],
+      "translations": [
+        "future"
+      ],
+      "original_forms": [
+        "el futuro"
+      ],
+      "count": 1
+    },
+    "parque natural": {
+      "stories": [
+        {
+          "id": "nature-park",
+          "level": "B1",
+          "title": "En el parque natural"
+        }
+      ],
+      "translations": [
+        "luonnonpuisto"
+      ],
+      "original_forms": [
+        "el parque natural"
+      ],
+      "count": 1
+    },
+    "bosque": {
+      "stories": [
+        {
+          "id": "nature-park",
+          "level": "B1",
+          "title": "En el parque natural"
+        }
+      ],
+      "translations": [
+        "metsä"
+      ],
+      "original_forms": [
+        "el bosque"
+      ],
+      "count": 1
+    },
+    "lago": {
+      "stories": [
+        {
+          "id": "nature-park",
+          "level": "B1",
+          "title": "En el parque natural"
+        }
+      ],
+      "translations": [
+        "järvi"
+      ],
+      "original_forms": [
+        "el lago"
+      ],
+      "count": 1
+    },
+    "montaña": {
+      "stories": [
+        {
+          "id": "nature-park",
+          "level": "B1",
+          "title": "En el parque natural"
+        }
+      ],
+      "translations": [
+        "vuori"
+      ],
+      "original_forms": [
+        "la montaña"
+      ],
+      "count": 1
+    },
+    "pato": {
+      "stories": [
+        {
+          "id": "nature-park",
+          "level": "B1",
+          "title": "En el parque natural"
+        }
+      ],
+      "translations": [
+        "ankka"
+      ],
+      "original_forms": [
+        "el pato"
+      ],
+      "count": 1
+    },
+    "ardilla": {
+      "stories": [
+        {
+          "id": "nature-park",
+          "level": "B1",
+          "title": "En el parque natural"
+        }
+      ],
+      "translations": [
+        "orava"
+      ],
+      "original_forms": [
+        "la ardilla"
+      ],
+      "count": 1
+    },
+    "ciervo": {
+      "stories": [
+        {
+          "id": "nature-park",
+          "level": "B1",
+          "title": "En el parque natural"
+        }
+      ],
+      "translations": [
+        "peura"
+      ],
+      "original_forms": [
+        "el ciervo"
+      ],
+      "count": 1
+    },
+    "área de picnic": {
+      "stories": [
+        {
+          "id": "nature-park",
+          "level": "B1",
+          "title": "En el parque natural"
+        }
+      ],
+      "translations": [
+        "piknik-alue"
+      ],
+      "original_forms": [
+        "el área de picnic"
+      ],
+      "count": 1
+    },
+    "nadar": {
+      "stories": [
+        {
+          "id": "nature-park",
+          "level": "B1",
+          "title": "En el parque natural"
+        }
+      ],
+      "translations": [
+        "uida"
+      ],
+      "original_forms": [
+        "nadar"
+      ],
+      "count": 1
+    },
+    "prohibido": {
+      "stories": [
+        {
+          "id": "nature-park",
+          "level": "B1",
+          "title": "En el parque natural"
+        }
+      ],
+      "translations": [
+        "kielletty"
+      ],
+      "original_forms": [
+        "prohibido"
+      ],
+      "count": 1
+    },
+    "camping": {
+      "stories": [
+        {
+          "id": "camping-area",
+          "level": "B1",
+          "title": "En el camping"
+        }
+      ],
+      "translations": [
+        "leirintäalue"
+      ],
+      "original_forms": [
+        "el camping"
+      ],
+      "count": 1
+    },
+    "tienda de campaña": {
+      "stories": [
+        {
+          "id": "camping-area",
+          "level": "B1",
+          "title": "En el camping"
+        }
+      ],
+      "translations": [
+        "teltta"
+      ],
+      "original_forms": [
+        "la tienda de campaña"
+      ],
+      "count": 1
+    },
+    "sitio": {
+      "stories": [
+        {
+          "id": "camping-area",
+          "level": "B1",
+          "title": "En el camping"
+        }
+      ],
+      "translations": [
+        "paikka"
+      ],
+      "original_forms": [
+        "el sitio"
+      ],
+      "count": 1
+    },
+    "servicios": {
+      "stories": [
+        {
+          "id": "camping-area",
+          "level": "B1",
+          "title": "En el camping"
+        }
+      ],
+      "translations": [
+        "saniteettitilat"
+      ],
+      "original_forms": [
+        "los servicios"
+      ],
+      "count": 1
+    },
+    "agua caliente": {
+      "stories": [
+        {
+          "id": "camping-area",
+          "level": "B1",
+          "title": "En el camping"
+        }
+      ],
+      "translations": [
+        "kuuma vesi"
+      ],
+      "original_forms": [
+        "el agua caliente"
+      ],
+      "count": 1
+    },
+    "fuego": {
+      "stories": [
+        {
+          "id": "camping-area",
+          "level": "B1",
+          "title": "En el camping"
+        }
+      ],
+      "translations": [
+        "tuli"
+      ],
+      "original_forms": [
+        "el fuego"
+      ],
+      "count": 1
+    },
+    "barbacoa": {
+      "stories": [
+        {
+          "id": "camping-area",
+          "level": "B1",
+          "title": "En el camping"
+        }
+      ],
+      "translations": [
+        "grilli"
+      ],
+      "original_forms": [
+        "la barbacoa"
+      ],
+      "count": 1
+    },
+    "silencio": {
+      "stories": [
+        {
+          "id": "camping-area",
+          "level": "B1",
+          "title": "En el camping"
+        }
+      ],
+      "translations": [
+        "hiljaisuus"
+      ],
+      "original_forms": [
+        "el silencio"
+      ],
+      "count": 1
+    },
+    "horario": {
+      "stories": [
+        {
+          "id": "camping-area",
+          "level": "B1",
+          "title": "En el camping"
+        },
+        {
+          "id": "work-life-balance",
+          "level": "B1",
+          "title": "El equilibrio entre trabajo y vida personal"
+        }
+      ],
+      "translations": [
+        "aikataulu",
+        "schedule"
+      ],
+      "original_forms": [
+        "el horario"
+      ],
+      "count": 2
+    },
+    "poner la tienda": {
+      "stories": [
+        {
+          "id": "camping-area",
+          "level": "B1",
+          "title": "En el camping"
+        }
+      ],
+      "translations": [
+        "pystyttää teltta"
+      ],
+      "original_forms": [
+        "poner la tienda"
+      ],
+      "count": 1
+    },
+    "diferencias": {
+      "stories": [
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        }
+      ],
+      "translations": [
+        "differences"
+      ],
+      "original_forms": [
+        "las diferencias"
+      ],
+      "count": 1
+    },
+    "cultural": {
+      "stories": [
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        }
+      ],
+      "translations": [
+        "cultural"
+      ],
+      "original_forms": [
+        "cultural"
+      ],
+      "count": 1
+    },
+    "curioso/a": {
+      "stories": [
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        }
+      ],
+      "translations": [
+        "curious/interesting"
+      ],
+      "original_forms": [
+        "curioso/a"
+      ],
+      "count": 1
+    },
+    "cenar": {
+      "stories": [
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        },
+        {
+          "id": "restaurant-recommendation",
+          "level": "B1",
+          "title": "Recomendaciones de restaurantes"
+        }
+      ],
+      "translations": [
+        "syödä illallista",
+        "syömään illallista"
+      ],
+      "original_forms": [
+        "cenar"
+      ],
+      "count": 2
+    },
+    "merienda": {
+      "stories": [
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        }
+      ],
+      "translations": [
+        "afternoon snack"
+      ],
+      "original_forms": [
+        "la merienda"
+      ],
+      "count": 1
+    },
+    "siesta": {
+      "stories": [
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        }
+      ],
+      "translations": [
+        "siesta/nap"
+      ],
+      "original_forms": [
+        "la siesta"
+      ],
+      "count": 1
+    },
+    "tradición": {
+      "stories": [
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        }
+      ],
+      "translations": [
+        "tradition"
+      ],
+      "original_forms": [
+        "la tradición"
+      ],
+      "count": 1
+    },
+    "mantener": {
+      "stories": [
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        }
+      ],
+      "translations": [
+        "ylläpitää"
+      ],
+      "original_forms": [
+        "mantener"
+      ],
+      "count": 1
+    },
+    "ritmo": {
+      "stories": [
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        }
+      ],
+      "translations": [
+        "rhythm"
+      ],
+      "original_forms": [
+        "el ritmo"
+      ],
+      "count": 1
+    },
+    "extranjero": {
+      "stories": [
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        }
+      ],
+      "translations": [
+        "abroad"
+      ],
+      "original_forms": [
+        "el extranjero"
+      ],
+      "count": 1
+    },
+    "ni...ni": {
+      "stories": [
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        }
+      ],
+      "translations": [
+        "neither...nor"
+      ],
+      "original_forms": [
+        "ni...ni"
+      ],
+      "count": 1
+    },
+    "simplemente": {
+      "stories": [
+        {
+          "id": "cultural-differences",
+          "level": "B1",
+          "title": "Diferencias culturales"
+        }
+      ],
+      "translations": [
+        "simply"
+      ],
+      "original_forms": [
+        "simplemente"
+      ],
+      "count": 1
+    },
+    "cambio climático": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "climate change"
+      ],
+      "original_forms": [
+        "el cambio climático"
+      ],
+      "count": 1
+    },
+    "peligro": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "danger"
+      ],
+      "original_forms": [
+        "el peligro"
+      ],
+      "count": 1
+    },
+    "causa": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "cause"
+      ],
+      "original_forms": [
+        "la causa"
+      ],
+      "count": 1
+    },
+    "combustibles fósiles": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "fossil fuels"
+      ],
+      "original_forms": [
+        "los combustibles fósiles"
+      ],
+      "count": 1
+    },
+    "deforestación": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "deforestation"
+      ],
+      "original_forms": [
+        "la deforestación"
+      ],
+      "count": 1
+    },
+    "consumo": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "consumption"
+      ],
+      "original_forms": [
+        "el consumo"
+      ],
+      "count": 1
+    },
+    "reciclar": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "kierrättää"
+      ],
+      "original_forms": [
+        "reciclar"
+      ],
+      "count": 1
+    },
+    "paneles solares": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "solar panels"
+      ],
+      "original_forms": [
+        "los paneles solares"
+      ],
+      "count": 1
+    },
+    "energías renovables": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "renewable energies"
+      ],
+      "original_forms": [
+        "las energías renovables"
+      ],
+      "count": 1
+    },
+    "contribuir": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "osallistua"
+      ],
+      "original_forms": [
+        "contribuir"
+      ],
+      "count": 1
+    },
+    "revertir": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "kääntää"
+      ],
+      "original_forms": [
+        "revertir"
+      ],
+      "count": 1
+    },
+    "daño": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "damage"
+      ],
+      "original_forms": [
+        "el daño"
+      ],
+      "count": 1
+    },
+    "empeorar": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "mennä huonompaan suuntaan"
+      ],
+      "original_forms": [
+        "empeorar"
+      ],
+      "count": 1
+    },
+    "irreversible": {
+      "stories": [
+        {
+          "id": "climate-change",
+          "level": "B1",
+          "title": "Discusión sobre el cambio climático"
+        }
+      ],
+      "translations": [
+        "irreversible"
+      ],
+      "original_forms": [
+        "irreversible"
+      ],
+      "count": 1
+    },
+    "tecnología": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "technology"
+      ],
+      "original_forms": [
+        "la tecnología"
+      ],
+      "count": 1
+    },
+    "teléfono": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "phone"
+      ],
+      "original_forms": [
+        "el teléfono"
+      ],
+      "count": 1
+    },
+    "funcionar": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "Työhön/toimintaan"
+      ],
+      "original_forms": [
+        "funcionar"
+      ],
+      "count": 1
+    },
+    "en mis tiempos": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "in my time"
+      ],
+      "original_forms": [
+        "en mis tiempos"
+      ],
+      "count": 1
+    },
+    "videollamada": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "video call"
+      ],
+      "original_forms": [
+        "la videollamada"
+      ],
+      "count": 1
+    },
+    "tocar": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "koskettaa/napauttaa"
+      ],
+      "original_forms": [
+        "tocar"
+      ],
+      "count": 1
+    },
+    "seleccionar": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "valita"
+      ],
+      "original_forms": [
+        "seleccionar"
+      ],
+      "count": 1
+    },
+    "contacto": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "contact"
+      ],
+      "original_forms": [
+        "el contacto"
+      ],
+      "count": 1
+    },
+    "enviar": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "lähettää"
+      ],
+      "original_forms": [
+        "enviar"
+      ],
+      "count": 1
+    },
+    "mensaje de voz": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "voice message"
+      ],
+      "original_forms": [
+        "el mensaje de voz"
+      ],
+      "count": 1
+    },
+    "equivocarse": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "tehdä virhe"
+      ],
+      "original_forms": [
+        "equivocarse"
+      ],
+      "count": 1
+    },
+    "pantalla": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "screen"
+      ],
+      "original_forms": [
+        "la pantalla"
+      ],
+      "count": 1
+    },
+    "cambiar": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "muuttua"
+      ],
+      "original_forms": [
+        "cambiar"
+      ],
+      "count": 1
+    },
+    "paciencia": {
+      "stories": [
+        {
+          "id": "technology-life",
+          "level": "B1",
+          "title": "La tecnología en la vida diaria"
+        }
+      ],
+      "translations": [
+        "patience"
+      ],
+      "original_forms": [
+        "la paciencia"
+      ],
+      "count": 1
+    },
+    "compra en línea": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "online shopping"
+      ],
+      "original_forms": [
+        "la compra en línea"
+      ],
+      "count": 1
+    },
+    "número de pedido": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "order number"
+      ],
+      "original_forms": [
+        "el número de pedido"
+      ],
+      "count": 1
+    },
+    "verificar": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "varmistaakseni"
+      ],
+      "original_forms": [
+        "verificar"
+      ],
+      "count": 1
+    },
+    "paquete": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "package"
+      ],
+      "original_forms": [
+        "el paquete"
+      ],
+      "count": 1
+    },
+    "seguimiento": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "tracking"
+      ],
+      "original_forms": [
+        "el seguimiento"
+      ],
+      "count": 1
+    },
+    "distribución": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "distribution"
+      ],
+      "original_forms": [
+        "la distribución"
+      ],
+      "count": 1
+    },
+    "tardar": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "ottaa (aikaa)"
+      ],
+      "original_forms": [
+        "tardar"
+      ],
+      "count": 1
+    },
+    "inaceptable": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "unacceptable"
+      ],
+      "original_forms": [
+        "inaceptable"
+      ],
+      "count": 1
+    },
+    "regalo": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "gift"
+      ],
+      "original_forms": [
+        "el regalo"
+      ],
+      "count": 1
+    },
+    "frustración": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "frustration"
+      ],
+      "original_forms": [
+        "la frustración"
+      ],
+      "count": 1
+    },
+    "descuento": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "discount"
+      ],
+      "original_forms": [
+        "el descuento"
+      ],
+      "count": 1
+    },
+    "reembolso": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "refund"
+      ],
+      "original_forms": [
+        "el reembolso"
+      ],
+      "count": 1
+    },
+    "gastos de envío": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "shipping costs"
+      ],
+      "original_forms": [
+        "los gastos de envío"
+      ],
+      "count": 1
+    },
+    "confirmación": {
+      "stories": [
+        {
+          "id": "online-shopping",
+          "level": "B1",
+          "title": "Experiencia de compra en línea"
+        }
+      ],
+      "translations": [
+        "confirmation"
+      ],
+      "original_forms": [
+        "la confirmación"
+      ],
+      "count": 1
+    },
+    "restaurante": {
+      "stories": [
+        {
+          "id": "restaurant-recommendation",
+          "level": "B1",
+          "title": "Recomendaciones de restaurantes"
+        }
+      ],
+      "translations": [
+        "ravintola"
+      ],
+      "original_forms": [
+        "el restaurante"
+      ],
+      "count": 1
+    },
+    "comida": {
+      "stories": [
+        {
+          "id": "restaurant-recommendation",
+          "level": "B1",
+          "title": "Recomendaciones de restaurantes"
+        }
+      ],
+      "translations": [
+        "ruoka"
+      ],
+      "original_forms": [
+        "la comida"
+      ],
+      "count": 1
+    },
+    "típico/a": {
+      "stories": [
+        {
+          "id": "restaurant-recommendation",
+          "level": "B1",
+          "title": "Recomendaciones de restaurantes"
+        }
+      ],
+      "translations": [
+        "tyypillinen"
+      ],
+      "original_forms": [
+        "típico/a"
+      ],
+      "count": 1
+    },
+    "paella": {
+      "stories": [
+        {
+          "id": "restaurant-recommendation",
+          "level": "B1",
+          "title": "Recomendaciones de restaurantes"
+        }
+      ],
+      "translations": [
+        "paella"
+      ],
+      "original_forms": [
+        "la paella"
+      ],
+      "count": 1
+    },
+    "caro/a": {
+      "stories": [
+        {
+          "id": "restaurant-recommendation",
+          "level": "B1",
+          "title": "Recomendaciones de restaurantes"
+        }
+      ],
+      "translations": [
+        "kallis"
+      ],
+      "original_forms": [
+        "caro/a"
+      ],
+      "count": 1
+    },
+    "razonable": {
+      "stories": [
+        {
+          "id": "restaurant-recommendation",
+          "level": "B1",
+          "title": "Recomendaciones de restaurantes"
+        }
+      ],
+      "translations": [
+        "kohtuullinen"
+      ],
+      "original_forms": [
+        "razonable"
+      ],
+      "count": 1
+    },
+    "almuerzo": {
+      "stories": [
+        {
+          "id": "restaurant-recommendation",
+          "level": "B1",
+          "title": "Recomendaciones de restaurantes"
+        }
+      ],
+      "translations": [
+        "lounas"
+      ],
+      "original_forms": [
+        "el almuerzo"
+      ],
+      "count": 1
+    },
+    "vegetariano/a": {
+      "stories": [
+        {
+          "id": "restaurant-recommendation",
+          "level": "B1",
+          "title": "Recomendaciones de restaurantes"
+        }
+      ],
+      "translations": [
+        "kasvis-"
+      ],
+      "original_forms": [
+        "vegetariano/a"
+      ],
+      "count": 1
+    },
+    "tapas": {
+      "stories": [
+        {
+          "id": "restaurant-recommendation",
+          "level": "B1",
+          "title": "Recomendaciones de restaurantes"
+        }
+      ],
+      "translations": [
+        "tapakset"
+      ],
+      "original_forms": [
+        "las tapas"
+      ],
+      "count": 1
+    },
+    "girar": {
+      "stories": [
+        {
+          "id": "restaurant-recommendation",
+          "level": "B1",
+          "title": "Recomendaciones de restaurantes"
+        }
+      ],
+      "translations": [
+        "kääntyä"
+      ],
+      "original_forms": [
+        "girar"
+      ],
+      "count": 1
+    },
+    "planificar": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "suunnitella"
+      ],
+      "original_forms": [
+        "planificar"
+      ],
+      "count": 1
+    },
+    "fascinante": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "fascinating"
+      ],
+      "original_forms": [
+        "fascinante"
+      ],
+      "count": 1
+    },
+    "visitar": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "vierailla"
+      ],
+      "original_forms": [
+        "visitar"
+      ],
+      "count": 1
+    },
+    "imprescindible": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "essential/must-see"
+      ],
+      "original_forms": [
+        "imprescindible"
+      ],
+      "count": 1
+    },
+    "maravillas": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "wonders"
+      ],
+      "original_forms": [
+        "las maravillas"
+      ],
+      "count": 1
+    },
+    "completo/a": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "complete"
+      ],
+      "original_forms": [
+        "completo/a"
+      ],
+      "count": 1
+    },
+    "presupuesto": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "budget"
+      ],
+      "original_forms": [
+        "el presupuesto"
+      ],
+      "count": 1
+    },
+    "económico/a": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "affordable"
+      ],
+      "original_forms": [
+        "económico/a"
+      ],
+      "count": 1
+    },
+    "vuelo": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "flight"
+      ],
+      "original_forms": [
+        "el vuelo"
+      ],
+      "count": 1
+    },
+    "clima": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "climate"
+      ],
+      "original_forms": [
+        "el clima"
+      ],
+      "count": 1
+    },
+    "aclimatarse": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "sopeutua"
+      ],
+      "original_forms": [
+        "aclimatarse"
+      ],
+      "count": 1
+    },
+    "altura": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "altitude"
+      ],
+      "original_forms": [
+        "la altura"
+      ],
+      "count": 1
+    },
+    "arrepentirse": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "katua"
+      ],
+      "original_forms": [
+        "arrepentirse"
+      ],
+      "count": 1
+    },
+    "convencer": {
+      "stories": [
+        {
+          "id": "trip-planning",
+          "level": "B1",
+          "title": "Planificando un viaje"
+        }
+      ],
+      "translations": [
+        "vakuuttaa"
+      ],
+      "original_forms": [
+        "convencer"
+      ],
+      "count": 1
+    },
+    "hábitos": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "habits"
+      ],
+      "original_forms": [
+        "los hábitos"
+      ],
+      "count": 1
+    },
+    "alimenticio/a": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "dietary"
+      ],
+      "original_forms": [
+        "alimenticio/a"
+      ],
+      "count": 1
+    },
+    "saludable": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "healthy"
+      ],
+      "original_forms": [
+        "saludable"
+      ],
+      "count": 1
+    },
+    "el/la nutricionista": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "nutritionist"
+      ],
+      "original_forms": [
+        "el/la nutricionista"
+      ],
+      "count": 1
+    },
+    "desayunar": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "syömään aamiaista"
+      ],
+      "original_forms": [
+        "desayunar"
+      ],
+      "count": 1
+    },
+    "prisa": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "hurry"
+      ],
+      "original_forms": [
+        "la prisa"
+      ],
+      "count": 1
+    },
+    "preparar": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "valmistautua"
+      ],
+      "original_forms": [
+        "preparar"
+      ],
+      "count": 1
+    },
+    "avena": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "oatmeal"
+      ],
+      "original_forms": [
+        "la avena"
+      ],
+      "count": 1
+    },
+    "granola": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "granola"
+      ],
+      "original_forms": [
+        "la granola"
+      ],
+      "count": 1
+    },
+    "procesado/a": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "processed"
+      ],
+      "original_forms": [
+        "procesado/a"
+      ],
+      "count": 1
+    },
+    "grasas": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "fats"
+      ],
+      "original_forms": [
+        "las grasas"
+      ],
+      "count": 1
+    },
+    "aguacate": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "avocado"
+      ],
+      "original_forms": [
+        "el aguacate"
+      ],
+      "count": 1
+    },
+    "aceite de oliva": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "olive oil"
+      ],
+      "original_forms": [
+        "el aceite de oliva"
+      ],
+      "count": 1
+    },
+    "hidratado/a": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "hydrated"
+      ],
+      "original_forms": [
+        "hidratado/a"
+      ],
+      "count": 1
+    },
+    "recomendaciones": {
+      "stories": [
+        {
+          "id": "healthy-eating",
+          "level": "B1",
+          "title": "Hábitos alimenticios saludables"
+        }
+      ],
+      "translations": [
+        "recommendations"
+      ],
+      "original_forms": [
+        "las recomendaciones"
+      ],
+      "count": 1
+    },
+    "prestar": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "lainata"
+      ],
+      "original_forms": [
+        "prestar"
+      ],
+      "count": 1
+    },
+    "acabar": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "loppuun"
+      ],
+      "original_forms": [
+        "acabar"
+      ],
+      "count": 1
+    },
+    "desarrollo": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "development"
+      ],
+      "original_forms": [
+        "el desarrollo"
+      ],
+      "count": 1
+    },
+    "personaje": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "character"
+      ],
+      "original_forms": [
+        "el personaje"
+      ],
+      "count": 1
+    },
+    "historia": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "story"
+      ],
+      "original_forms": [
+        "la historia"
+      ],
+      "count": 1
+    },
+    "final": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "ending"
+      ],
+      "original_forms": [
+        "el final"
+      ],
+      "count": 1
+    },
+    "secuela": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "sequel"
+      ],
+      "original_forms": [
+        "la secuela"
+      ],
+      "count": 1
+    },
+    "estilo": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "style"
+      ],
+      "original_forms": [
+        "el estilo"
+      ],
+      "count": 1
+    },
+    "escritura": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "writing"
+      ],
+      "original_forms": [
+        "la escritura"
+      ],
+      "count": 1
+    },
+    "autor": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "author"
+      ],
+      "original_forms": [
+        "el autor"
+      ],
+      "count": 1
+    },
+    "descriptivo/a": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "descriptive"
+      ],
+      "original_forms": [
+        "descriptivo/a"
+      ],
+      "count": 1
+    },
+    "escena": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "scene"
+      ],
+      "original_forms": [
+        "la escena"
+      ],
+      "count": 1
+    },
+    "detalle": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "detail"
+      ],
+      "original_forms": [
+        "el detalle"
+      ],
+      "count": 1
+    },
+    "literatura": {
+      "stories": [
+        {
+          "id": "discussing-book",
+          "level": "B1",
+          "title": "Discutiendo un libro"
+        }
+      ],
+      "translations": [
+        "literature"
+      ],
+      "original_forms": [
+        "la literatura"
+      ],
+      "count": 1
+    },
+    "equilibrio": {
+      "stories": [
+        {
+          "id": "work-life-balance",
+          "level": "B1",
+          "title": "El equilibrio entre trabajo y vida personal"
+        }
+      ],
+      "translations": [
+        "balance"
+      ],
+      "original_forms": [
+        "el equilibrio"
+      ],
+      "count": 1
+    },
+    "estresado/a": {
+      "stories": [
+        {
+          "id": "work-life-balance",
+          "level": "B1",
+          "title": "El equilibrio entre trabajo y vida personal"
+        }
+      ],
+      "translations": [
+        "stressed"
+      ],
+      "original_forms": [
+        "estresado/a"
+      ],
+      "count": 1
+    },
+    "carga de trabajo": {
+      "stories": [
+        {
+          "id": "work-life-balance",
+          "level": "B1",
+          "title": "El equilibrio entre trabajo y vida personal"
+        }
+      ],
+      "translations": [
+        "workload"
+      ],
+      "original_forms": [
+        "la carga de trabajo"
+      ],
+      "count": 1
+    },
+    "sostenible": {
+      "stories": [
+        {
+          "id": "work-life-balance",
+          "level": "B1",
+          "title": "El equilibrio entre trabajo y vida personal"
+        }
+      ],
+      "translations": [
+        "sustainable"
+      ],
+      "original_forms": [
+        "sostenible"
+      ],
+      "count": 1
+    },
+    "límite": {
+      "stories": [
+        {
+          "id": "work-life-balance",
+          "level": "B1",
+          "title": "El equilibrio entre trabajo y vida personal"
+        }
+      ],
+      "translations": [
+        "limit"
+      ],
+      "original_forms": [
+        "el límite"
+      ],
+      "count": 1
+    },
+    "comprometido/a": {
+      "stories": [
+        {
+          "id": "work-life-balance",
+          "level": "B1",
+          "title": "El equilibrio entre trabajo y vida personal"
+        }
+      ],
+      "translations": [
+        "committed"
+      ],
+      "original_forms": [
+        "comprometido/a"
+      ],
+      "count": 1
+    },
+    "salud mental": {
+      "stories": [
+        {
+          "id": "work-life-balance",
+          "level": "B1",
+          "title": "El equilibrio entre trabajo y vida personal"
+        }
+      ],
+      "translations": [
+        "mental health"
+      ],
+      "original_forms": [
+        "la salud mental"
+      ],
+      "count": 1
+    },
+    "urgente": {
+      "stories": [
+        {
+          "id": "work-life-balance",
+          "level": "B1",
+          "title": "El equilibrio entre trabajo y vida personal"
+        }
+      ],
+      "translations": [
+        "urgent"
+      ],
+      "original_forms": [
+        "urgente"
+      ],
+      "count": 1
+    },
+    "delegar": {
+      "stories": [
+        {
+          "id": "work-life-balance",
+          "level": "B1",
+          "title": "El equilibrio entre trabajo y vida personal"
+        }
+      ],
+      "translations": [
+        "delegoida"
+      ],
+      "original_forms": [
+        "delegar"
+      ],
+      "count": 1
+    },
+    "bienestar": {
+      "stories": [
+        {
+          "id": "work-life-balance",
+          "level": "B1",
+          "title": "El equilibrio entre trabajo y vida personal"
+        }
+      ],
+      "translations": [
+        "wellbeing"
+      ],
+      "original_forms": [
+        "el bienestar"
+      ],
+      "count": 1
+    },
+    "recordar": {
+      "stories": [
+        {
+          "id": "work-life-balance",
+          "level": "B1",
+          "title": "El equilibrio entre trabajo y vida personal"
+        }
+      ],
+      "translations": [
+        "muistuttaa/muistaa"
+      ],
+      "original_forms": [
+        "recordar"
+      ],
+      "count": 1
+    },
+    "voluntariado": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "volunteering"
+      ],
+      "original_forms": [
+        "el voluntariado"
+      ],
+      "count": 1
+    },
+    "jornada": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "day/work session"
+      ],
+      "original_forms": [
+        "la jornada"
+      ],
+      "count": 1
+    },
+    "limpieza": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "cleanup"
+      ],
+      "original_forms": [
+        "la limpieza"
+      ],
+      "count": 1
+    },
+    "participar": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "osallistua"
+      ],
+      "original_forms": [
+        "participar"
+      ],
+      "count": 1
+    },
+    "residuos": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "waste/rubbish"
+      ],
+      "original_forms": [
+        "los residuos"
+      ],
+      "count": 1
+    },
+    "plástico": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "plastic"
+      ],
+      "original_forms": [
+        "el plástico"
+      ],
+      "count": 1
+    },
+    "bolsa": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "bag"
+      ],
+      "original_forms": [
+        "la bolsa"
+      ],
+      "count": 1
+    },
+    "colilla": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "cigarette butt"
+      ],
+      "original_forms": [
+        "la colilla"
+      ],
+      "count": 1
+    },
+    "contaminar": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "saastuttaa"
+      ],
+      "original_forms": [
+        "contaminar"
+      ],
+      "count": 1
+    },
+    "medio ambiente": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "environment"
+      ],
+      "original_forms": [
+        "el medio ambiente"
+      ],
+      "count": 1
+    },
+    "educación ambiental": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "environmental education"
+      ],
+      "original_forms": [
+        "la educación ambiental"
+      ],
+      "count": 1
+    },
+    "taller": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "workshop"
+      ],
+      "original_forms": [
+        "el taller"
+      ],
+      "count": 1
+    },
+    "involucrarse": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "osallistua"
+      ],
+      "original_forms": [
+        "involucrarse"
+      ],
+      "count": 1
+    },
+    "manos a la obra": {
+      "stories": [
+        {
+          "id": "environmental-volunteering",
+          "level": "B1",
+          "title": "Voluntariado ambiental"
+        }
+      ],
+      "translations": [
+        "Ryhdytään töihin"
+      ],
+      "original_forms": [
+        "manos a la obra"
+      ],
+      "count": 1
+    }
+  }
+}

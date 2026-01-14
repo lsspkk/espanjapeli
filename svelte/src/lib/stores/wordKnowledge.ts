@@ -45,6 +45,10 @@ export interface WordKnowledge {
 	lastPracticed: string;
 	/** Timestamp of first practice */
 	firstPracticed: string;
+	/** Story IDs where this word was encountered */
+	storiesEncountered?: string[];
+	/** Number of times encountered in stories */
+	storyEncounterCount?: number;
 }
 
 /** Knowledge data for a single word in both directions */
@@ -480,6 +484,50 @@ function createWordKnowledgeStore() {
 				strongWords,
 				weakWords
 			};
+		},
+		
+		/**
+		 * Record that a word was encountered in a story
+		 */
+		recordStoryEncounter(spanish: string, storyId: string): void {
+			update(data => {
+				// Initialize word if not exists
+				if (!data.words[spanish]) {
+					data.words[spanish] = createDefaultBidirectional();
+				}
+				
+				// Track in Spanish→Finnish direction (primary for stories)
+				const wordData = data.words[spanish].spanish_to_finnish;
+				
+				// Initialize story tracking if needed
+				if (!wordData.storiesEncountered) {
+					wordData.storiesEncountered = [];
+				}
+				if (wordData.storyEncounterCount === undefined) {
+					wordData.storyEncounterCount = 0;
+				}
+				
+				// Add story if not already tracked
+				if (!wordData.storiesEncountered.includes(storyId)) {
+					wordData.storiesEncountered.push(storyId);
+				}
+				
+				// Increment encounter count
+				wordData.storyEncounterCount++;
+				
+				saveData(data);
+				return data;
+			});
+		},
+		
+		/**
+		 * Get stories where a word was encountered
+		 */
+		getWordStories(spanish: string): string[] {
+			const data = get({ subscribe });
+			const wordData = data.words[spanish];
+			if (!wordData) return [];
+			return wordData.spanish_to_finnish.storiesEncountered || [];
 		}
 	};
 }
