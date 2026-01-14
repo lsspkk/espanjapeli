@@ -23,70 +23,52 @@
 
 	function getCEFRColor(level: string): string {
 		const colors: Record<string, string> = {
-			A1: 'badge-info',
-			A2: 'badge-success',
-			B1: 'badge-warning',
-			B2: 'badge-error',
-			C1: 'badge-primary'
+			A1: 'text-info',
+			A2: 'text-success',
+			B1: 'text-warning',
+			B2: 'text-error',
+			C1: 'text-primary'
 		};
-		return colors[level] || 'badge-neutral';
+		return colors[level] || 'text-neutral';
 	}
 </script>
 
 {#if !loading && !error && stats && stats.totalPracticed > 0}
-	<div class="card bg-gradient-to-br from-primary/10 to-secondary/10 shadow-lg mb-6">
-		<div class="card-body">
-			<div class="flex items-center justify-between">
-				<h2 class="card-title text-lg">📚 Sanastosi</h2>
-				<a href="{base}/sanasto" class="btn btn-ghost btn-sm">Näytä lisää →</a>
-			</div>
-
-			<div class="divider my-2"></div>
-
-			<div class="grid grid-cols-3 gap-2 text-center mb-3">
-				<div>
-					<div class="text-2xl font-bold text-primary">{stats.wordsKnown}</div>
-					<div class="text-xs text-base-content/70">Osatut</div>
-				</div>
-				<div>
-					<div class="text-2xl font-bold text-accent">{stats.wordsMastered}</div>
-					<div class="text-xs text-base-content/70">Hallitut</div>
-				</div>
-				<div>
-					<div class="text-2xl font-bold">
-						<span class="badge {getCEFRColor(stats.estimatedLevel)} badge-lg">
-							{stats.estimatedLevel}
-						</span>
-					</div>
-					<div class="text-xs text-base-content/70">Taso</div>
-				</div>
-			</div>
-
-			<div class="space-y-2">
-				<div>
-					<div class="flex justify-between text-xs mb-1">
-						<span>100 yleisintä</span>
-						<span class="font-semibold">{stats.topNProgress.top100.known}/100</span>
-					</div>
-					<progress
-						class="progress progress-primary w-full h-2"
-						value={stats.topNProgress.top100.percentage}
-						max="100"
-					></progress>
-				</div>
-
-				<div>
-					<div class="flex justify-between text-xs mb-1">
-						<span>1000 yleisintä</span>
-						<span class="font-semibold">{stats.topNProgress.top1000.known}/1000</span>
-					</div>
-					<progress
-						class="progress progress-accent w-full h-2"
-						value={stats.topNProgress.top1000.percentage}
-						max="100"
-					></progress>
-				</div>
-			</div>
+	<a 
+		href="{base}/sanasto" 
+		class="fixed top-20 right-4 z-40 w-16 h-16 rounded-full bg-gradient-to-br from-primary to-secondary shadow-lg hover:shadow-xl transition-all hover:scale-110 flex items-center justify-center group"
+		title="Sanasto"
+	>
+		<div class="text-center">
+			<div class="text-xl font-bold text-white">{stats.wordsKnown}</div>
+			<div class="text-[8px] text-white/80 leading-none">sanaa</div>
 		</div>
-	</div>
+		
+		<div class="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-accent flex items-center justify-center">
+			<span class="text-xs font-bold text-white {getCEFRColor(stats.estimatedLevel)}">{stats.estimatedLevel}</span>
+		</div>
+		
+		<div class="absolute top-0 left-0 w-full h-full rounded-full">
+			<svg class="w-full h-full -rotate-90">
+				<circle
+					cx="32"
+					cy="32"
+					r="28"
+					fill="none"
+					stroke="rgba(255,255,255,0.3)"
+					stroke-width="2"
+				/>
+				<circle
+					cx="32"
+					cy="32"
+					r="28"
+					fill="none"
+					stroke="white"
+					stroke-width="2"
+					stroke-dasharray="{(stats.topNProgress.top100.percentage / 100) * 176} 176"
+					stroke-linecap="round"
+				/>
+			</svg>
+		</div>
+	</a>
 {/if}

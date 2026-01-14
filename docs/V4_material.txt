@@ -1208,6 +1208,499 @@ A: Podcasts (Correct) / Music / Radio / News
 Q5: What can Tom do to speak with more natives?
 A: Language exchanges online (Correct) / Travel to Spain / Take more classes / Watch TV
 
+--------------------------------------------------------------------------------
+STORY A2-11: At the Gym
+ID: at-gym
+Title EN: At the Gym
+Title ES: En el gimnasio
+Category: fitness
+Difficulty: beginner
+Icon: 🏋️
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Laura: Hola, quiero inscribirme en el gimnasio.
+       (Hi, I want to sign up at the gym.)
+Recepcionista: Perfecto. ¿Qué tipo de membresía te interesa?
+               (Perfect. What type of membership are you interested in?)
+Laura: ¿Cuál es la diferencia entre mensual y anual?
+       (What's the difference between monthly and annual?)
+Recepcionista: La mensual cuesta 40 euros, la anual 350 euros.
+               (Monthly costs 40 euros, annual 350 euros.)
+Laura: ¿Qué incluye la membresía?
+       (What does the membership include?)
+Recepcionista: Acceso a todas las máquinas, clases grupales y vestuarios.
+               (Access to all machines, group classes, and locker rooms.)
+Laura: ¿Hay clases de yoga?
+       (Are there yoga classes?)
+Recepcionista: Sí, hay yoga, pilates y spinning.
+               (Yes, there's yoga, pilates, and spinning.)
+Laura: Me gustaría la membresía anual, por favor.
+       (I would like the annual membership, please.)
+Recepcionista: Excelente elección. Necesito tu DNI.
+               (Excellent choice. I need your ID.)
+
+VOCABULARY:
+- el gimnasio = gym
+- inscribirse = to sign up
+- la membresía = membership
+- mensual = monthly
+- anual = annual
+- la máquina = machine
+- la clase = class
+- grupal = group
+- el vestuario = locker room
+- el DNI = ID card
+- la elección = choice
+
+QUESTIONS:
+Q1: How much does the monthly membership cost?
+A: 40 euros (Correct) / 350 euros / 30 euros / 50 euros
+
+Q2: What type of classes are mentioned?
+A: Yoga, pilates, spinning (Correct) / Only yoga / Swimming / Dance
+
+Q3: What membership does Laura choose?
+A: Annual (Correct) / Monthly / Weekly / Daily
+
+Q4: What does the receptionist need from Laura?
+A: ID card (Correct) / Credit card / Photo / Phone number
+
+--------------------------------------------------------------------------------
+STORY A2-12: The Hairdresser
+ID: hairdresser
+Title EN: The Hairdresser
+Title ES: En la peluquería
+Category: services
+Difficulty: beginner
+Icon: 💇
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Cliente: Buenas tardes. Tengo cita a las tres.
+         (Good afternoon. I have an appointment at three.)
+Peluquera: Sí, pasa por aquí. ¿Qué te gustaría hacer hoy?
+           (Yes, come this way. What would you like to do today?)
+Cliente: Quiero cortarme el pelo y teñirlo.
+         (I want to cut my hair and dye it.)
+Peluquera: ¿Cuánto quieres cortarlo?
+           (How much do you want to cut it?)
+Cliente: Solo las puntas, unos cinco centímetros.
+         (Just the ends, about five centimeters.)
+Peluquera: ¿Y de qué color quieres teñirlo?
+           (And what color do you want to dye it?)
+Cliente: Me gustaría un castaño más claro.
+         (I would like a lighter brown.)
+Peluquera: Perfecto. Primero lo lavamos.
+           (Perfect. First we'll wash it.)
+Cliente: ¿Cuánto tiempo va a tardar?
+         (How long will it take?)
+Peluquera: Aproximadamente una hora y media.
+           (Approximately an hour and a half.)
+
+VOCABULARY:
+- la peluquería = hairdresser's
+- la cita = appointment
+- cortar = to cut
+- teñir = to dye
+- el pelo = hair
+- las puntas = the ends
+- claro/a = light
+- oscuro/a = dark
+- castaño/a = brown (hair)
+- lavar = to wash
+- tardar = to take (time)
+
+QUESTIONS:
+Q1: What time is the appointment?
+A: 3 PM (Correct) / 2 PM / 4 PM / 5 PM
+
+Q2: How much hair does the client want to cut?
+A: 5 centimeters (Correct) / 10 centimeters / All of it / 2 centimeters
+
+Q3: What color does the client want?
+A: Lighter brown (Correct) / Darker brown / Blonde / Black
+
+Q4: How long will the service take?
+A: 1.5 hours (Correct) / 1 hour / 2 hours / 30 minutes
+
+--------------------------------------------------------------------------------
+STORY A2-13: Car Problems
+ID: car-problems
+Title EN: Car Problems
+Title ES: Problemas con el coche
+Category: transportation
+Difficulty: beginner
+Icon: 🚗
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Conductor: Buenos días. Mi coche no arranca.
+           (Good morning. My car won't start.)
+Mecánico: ¿Desde cuándo tiene el problema?
+          (Since when have you had the problem?)
+Conductor: Desde ayer por la mañana.
+           (Since yesterday morning.)
+Mecánico: ¿Hace algún ruido extraño?
+          (Does it make any strange noise?)
+Conductor: Sí, hace un clic cuando giro la llave.
+           (Yes, it makes a click when I turn the key.)
+Mecánico: Probablemente es la batería. Déjeme revisarla.
+          (It's probably the battery. Let me check it.)
+Conductor: ¿Cuánto tiempo necesita?
+           (How much time do you need?)
+Mecánico: Una hora más o menos.
+          (About an hour.)
+Conductor: ¿Cuánto va a costar?
+           (How much will it cost?)
+Mecánico: Si es solo la batería, unos 80 euros.
+          (If it's just the battery, about 80 euros.)
+
+VOCABULARY:
+- el coche = car
+- arrancar = to start (engine)
+- el mecánico = mechanic
+- el ruido = noise
+- extraño/a = strange
+- la llave = key
+- la batería = battery
+- revisar = to check
+- costar = to cost
+- más o menos = more or less
+- girar = to turn
+
+QUESTIONS:
+Q1: What is the problem with the car?
+A: Won't start (Correct) / Flat tire / Broken window / No fuel
+
+Q2: What noise does the car make?
+A: Click (Correct) / Beep / Whistle / Bang
+
+Q3: What does the mechanic think the problem is?
+A: Battery (Correct) / Engine / Tires / Brakes
+
+Q4: How much will it cost approximately?
+A: 80 euros (Correct) / 100 euros / 50 euros / 120 euros
+
+--------------------------------------------------------------------------------
+STORY A2-14: Moving to a New City
+ID: moving-city
+Title EN: Moving to a New City
+Title ES: Mudándose a una nueva ciudad
+Category: life
+Difficulty: beginner
+Icon: 📦
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Elena: ¿Cuándo te mudas a Barcelona?
+       (When are you moving to Barcelona?)
+Carlos: El próximo mes. Estoy muy nervioso.
+        (Next month. I'm very nervous.)
+Elena: ¿Ya encontraste apartamento?
+       (Did you already find an apartment?)
+Carlos: Sí, alquilé uno cerca del centro.
+        (Yes, I rented one near the center.)
+Elena: ¿Y el trabajo nuevo?
+       (And the new job?)
+Carlos: Empieza el día quince. Estoy emocionado.
+        (It starts on the fifteenth. I'm excited.)
+Elena: ¿Conoces a alguien en Barcelona?
+       (Do you know anyone in Barcelona?)
+Carlos: Tengo un primo que vive allí.
+        (I have a cousin who lives there.)
+Elena: Qué suerte. Te va a ayudar mucho.
+       (How lucky. He will help you a lot.)
+Carlos: Sí, me va a mostrar la ciudad.
+        (Yes, he's going to show me the city.)
+Elena: Te voy a extrañar. Mantengamos el contacto.
+       (I'm going to miss you. Let's keep in touch.)
+
+VOCABULARY:
+- mudarse = to move (residence)
+- nervioso/a = nervous
+- encontrar = to find
+- alquilar = to rent
+- cerca = near
+- el centro = center/downtown
+- empezar = to start
+- emocionado/a = excited
+- el primo = cousin
+- extrañar = to miss (someone)
+- mantener = to keep/maintain
+- el contacto = contact
+
+QUESTIONS:
+Q1: When is Carlos moving?
+A: Next month (Correct) / This week / Tomorrow / In two months
+
+Q2: Where did Carlos rent an apartment?
+A: Near the center (Correct) / In the suburbs / Outside the city / At the beach
+
+Q3: When does the new job start?
+A: On the 15th (Correct) / Next month / Tomorrow / On the 1st
+
+Q4: Who does Carlos know in Barcelona?
+A: A cousin (Correct) / A friend / Nobody / A colleague
+
+Q5: How does Carlos feel about the move?
+A: Nervous and excited (Correct) / Only nervous / Only happy / Angry
+
+--------------------------------------------------------------------------------
+STORY A2-15: The Lost Wallet
+ID: lost-wallet
+Title EN: The Lost Wallet
+Title ES: La cartera perdida
+Category: emergency
+Difficulty: beginner
+Icon: 👛
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Turista: Disculpe, perdí mi cartera.
+         (Excuse me, I lost my wallet.)
+Policía: ¿Dónde la perdió?
+         (Where did you lose it?)
+Turista: Creo que en el metro o en la cafetería.
+         (I think on the metro or at the café.)
+Policía: ¿Qué había dentro?
+         (What was inside?)
+Turista: Mi DNI, tarjetas de crédito y 50 euros.
+         (My ID, credit cards, and 50 euros.)
+Policía: ¿De qué color era la cartera?
+         (What color was the wallet?)
+Turista: Era marrón, de cuero.
+         (It was brown, leather.)
+Policía: ¿Cuándo se dio cuenta que la había perdido?
+         (When did you realize you had lost it?)
+Turista: Hace una hora, cuando fui a pagar en una tienda.
+         (An hour ago, when I went to pay at a shop.)
+Policía: Voy a revisar si alguien la entregó. Espere aquí.
+         (I'm going to check if someone turned it in. Wait here.)
+Turista: Muchas gracias, agente.
+         (Thank you very much, officer.)
+
+VOCABULARY:
+- la cartera = wallet
+- perder = to lose
+- el metro = subway
+- la tarjeta = card
+- el cuero = leather
+- darse cuenta = to realize
+- entregar = to turn in/deliver
+- el/la policía = police officer
+- hace + time = ago
+- pagar = to pay
+- esperar = to wait
+
+QUESTIONS:
+Q1: Where might the tourist have lost the wallet?
+A: Metro or café (Correct) / Hotel / Restaurant / Park
+
+Q2: How much money was in the wallet?
+A: 50 euros (Correct) / 100 euros / 20 euros / No money
+
+Q3: What color was the wallet?
+A: Brown (Correct) / Black / Red / Blue
+
+Q4: When did the tourist realize the wallet was lost?
+A: An hour ago (Correct) / This morning / Yesterday / Two hours ago
+
+Q5: What material was the wallet made of?
+A: Leather (Correct) / Plastic / Fabric / Metal
+
+--------------------------------------------------------------------------------
+STORY A2-16: Cooking Together
+ID: cooking-together
+Title EN: Cooking Together
+Title ES: Cocinando juntos
+Category: food
+Difficulty: beginner
+Icon: 🍳
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Madre: Vamos a hacer paella para la cena.
+       (Let's make paella for dinner.)
+Hijo: ¡Qué bien! ¿Qué ingredientes necesitamos?
+      (Great! What ingredients do we need?)
+Madre: Arroz, pollo, pimientos y azafrán.
+       (Rice, chicken, peppers, and saffron.)
+Hijo: ¿Yo qué puedo hacer?
+      (What can I do?)
+Madre: Corta los pimientos en trozos pequeños.
+       (Cut the peppers into small pieces.)
+Hijo: ¿Así está bien?
+      (Is this okay?)
+Madre: Perfecto. Ahora ponlos en la sartén.
+       (Perfect. Now put them in the pan.)
+Hijo: ¿Cuánto tiempo tarda la paella?
+      (How long does the paella take?)
+Madre: Unos cuarenta minutos. Mientras tanto, prepara la ensalada.
+       (About forty minutes. Meanwhile, prepare the salad.)
+Hijo: Me gusta cocinar contigo, mamá.
+      (I like cooking with you, mom.)
+Madre: A mí también. Es divertido.
+       (Me too. It's fun.)
+
+VOCABULARY:
+- cocinar = to cook
+- la paella = paella (Spanish rice dish)
+- el ingrediente = ingredient
+- el arroz = rice
+- el pollo = chicken
+- el pimiento = pepper
+- cortar = to cut
+- el trozo = piece
+- la sartén = pan
+- mientras tanto = meanwhile
+- la ensalada = salad
+- divertido/a = fun
+
+QUESTIONS:
+Q1: What are they making for dinner?
+A: Paella (Correct) / Pizza / Pasta / Soup
+
+Q2: What does the son need to cut?
+A: Peppers (Correct) / Chicken / Onions / Tomatoes
+
+Q3: How long does the paella take to cook?
+A: 40 minutes (Correct) / 20 minutes / 1 hour / 30 minutes
+
+Q4: What should the son prepare while the paella cooks?
+A: Salad (Correct) / Dessert / Bread / Drinks
+
+Q5: How does the son feel about cooking with his mother?
+A: He likes it (Correct) / He doesn't like it / He's bored / He's tired
+
+--------------------------------------------------------------------------------
+STORY A2-17: Sports Match
+ID: sports-match
+Title EN: Sports Match
+Title ES: Partido de fútbol
+Category: sports
+Difficulty: beginner
+Icon: ⚽
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Pablo: ¿Viste el partido anoche?
+       (Did you watch the match last night?)
+Laura: Sí, fue emocionante. ¿Quién es tu equipo favorito?
+       (Yes, it was exciting. Who's your favorite team?)
+Pablo: El Barcelona. ¿Y el tuyo?
+       (Barcelona. And yours?)
+Laura: El Real Madrid. Jugaron muy bien ayer.
+       (Real Madrid. They played very well yesterday.)
+Pablo: Sí, pero el Barcelona marcó más goles.
+       (Yes, but Barcelona scored more goals.)
+Laura: Cierto. El portero del Madrid falló.
+       (True. Madrid's goalkeeper failed.)
+Pablo: ¿Cuál fue el resultado final?
+       (What was the final score?)
+Laura: Tres a dos. Fue muy reñido.
+       (Three to two. It was very close.)
+Pablo: ¿Vas a ver el próximo partido?
+       (Are you going to watch the next match?)
+Laura: Sí, es el domingo. ¿Quieres venir a mi casa?
+       (Yes, it's on Sunday. Do you want to come to my house?)
+Pablo: ¡Claro! Llevo las bebidas.
+       (Of course! I'll bring the drinks.)
+
+VOCABULARY:
+- el partido = match/game
+- el equipo = team
+- favorito/a = favorite
+- jugar = to play
+- marcar = to score
+- el gol = goal
+- el portero = goalkeeper
+- fallar = to fail/miss
+- el resultado = result/score
+- reñido/a = close (competition)
+- próximo/a = next
+- la bebida = drink
+
+QUESTIONS:
+Q1: Which team does Pablo support?
+A: Barcelona (Correct) / Real Madrid / Both / Neither
+
+Q2: What was the final score?
+A: 3-2 (Correct) / 2-1 / 4-3 / 1-0
+
+Q3: When is the next match?
+A: Sunday (Correct) / Saturday / Monday / Tonight
+
+Q4: Who is going to bring drinks?
+A: Pablo (Correct) / Laura / Both / Nobody
+
+Q5: How was the match described?
+A: Exciting and close (Correct) / Boring / Easy / Disappointing
+
+--------------------------------------------------------------------------------
+STORY A2-18: At the Library
+ID: at-library
+Title EN: At the Library
+Title ES: En la biblioteca
+Category: education
+Difficulty: beginner
+Icon: 📚
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Estudiante: Disculpe, ¿dónde están los libros de historia?
+            (Excuse me, where are the history books?)
+Bibliotecaria: En la segunda planta, sección B.
+               (On the second floor, section B.)
+Estudiante: ¿Puedo sacar libros prestados?
+            (Can I borrow books?)
+Bibliotecaria: Sí, con tu carnet de biblioteca.
+               (Yes, with your library card.)
+Estudiante: ¿Cuántos libros puedo llevar?
+            (How many books can I take?)
+Bibliotecaria: Hasta cinco libros durante dos semanas.
+               (Up to five books for two weeks.)
+Estudiante: ¿Y si necesito más tiempo?
+            (And if I need more time?)
+Bibliotecaria: Puedes renovarlos por internet o aquí.
+               (You can renew them online or here.)
+Estudiante: ¿Hay ordenadores para usar?
+            (Are there computers to use?)
+Bibliotecaria: Sí, en la sala de estudio. Necesitas reservar.
+               (Yes, in the study room. You need to book.)
+Estudiante: Perfecto. Muchas gracias por la información.
+            (Perfect. Thank you very much for the information.)
+
+VOCABULARY:
+- la biblioteca = library
+- el/la bibliotecario/a = librarian
+- el libro = book
+- la historia = history
+- la planta = floor
+- sacar prestado = to borrow
+- el carnet = card
+- llevar = to take/carry
+- renovar = to renew
+- el ordenador = computer
+- la sala = room
+- reservar = to book/reserve
+
+QUESTIONS:
+Q1: Where are the history books?
+A: Second floor, section B (Correct) / First floor / Third floor / Ground floor
+
+Q2: What does the student need to borrow books?
+A: Library card (Correct) / Money / ID / Nothing
+
+Q3: How many books can be borrowed?
+A: 5 (Correct) / 3 / 10 / 2
+
+Q4: For how long can books be borrowed?
+A: 2 weeks (Correct) / 1 week / 1 month / 3 weeks
+
+Q5: What do you need to do to use computers?
+A: Reserve (Correct) / Pay / Nothing / Show ID
+
 ================================================================================
 PART 4: NEW STORY COLLECTION - INTERMEDIATE (B1)
 ================================================================================
@@ -1945,6 +2438,515 @@ A: Turn off computer at a fixed time (Correct) / Work less / Change jobs / Take 
 Q6: What model does Pedro think will be common in the future?
 A: Hybrid model (Correct) / Fully remote / Fully in office / Part-time
 
+--------------------------------------------------------------------------------
+STORY B1-11: University Application
+ID: university-application
+Title EN: University Application
+Title ES: Solicitud universitaria
+Category: education
+Difficulty: intermediate
+Icon: 🎓
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Orientador: ¿Ya has decidido qué carrera quieres estudiar?
+            (Have you already decided what degree you want to study?)
+Estudiante: Estoy entre ingeniería informática y matemáticas.
+            (I'm between computer engineering and mathematics.)
+Orientador: Ambas son buenas opciones con muchas salidas laborales.
+            (Both are good options with many job opportunities.)
+Estudiante: Me preocupa que la ingeniería sea muy difícil.
+            (I'm worried that engineering might be very difficult.)
+Orientador: Es exigente, pero si te apasiona la tecnología, vale la pena.
+            (It's demanding, but if you're passionate about technology, it's worth it.)
+Estudiante: ¿Qué promedio necesito para entrar?
+            (What average do I need to get in?)
+Orientador: Depende de la universidad, pero generalmente un siete sobre diez.
+            (It depends on the university, but generally a seven out of ten.)
+Estudiante: Creo que puedo conseguirlo. ¿Cuándo debo presentar la solicitud?
+            (I think I can achieve it. When should I submit the application?)
+Orientador: El plazo termina en marzo. Te recomiendo que prepares bien tu carta de motivación.
+            (The deadline ends in March. I recommend that you prepare your motivation letter well.)
+Estudiante: ¿Es importante la carta?
+            (Is the letter important?)
+Orientador: Sí, especialmente si quieres optar a becas.
+            (Yes, especially if you want to apply for scholarships.)
+Estudiante: Entiendo. Empezaré a trabajar en ella esta semana.
+            (I understand. I'll start working on it this week.)
+
+VOCABULARY:
+- la solicitud = application
+- la carrera = degree/career
+- la ingeniería = engineering
+- la salida laboral = job opportunity
+- exigente = demanding
+- valer la pena = to be worth it
+- el promedio = average/GPA
+- conseguir = to achieve/get
+- el plazo = deadline
+- la carta de motivación = motivation letter
+- la beca = scholarship
+- optar a = to apply for
+
+QUESTIONS:
+Q1: What two degrees is the student considering?
+A: Computer engineering and mathematics (Correct) / Medicine and law / History and literature / Business and economics
+
+Q2: What average grade is generally needed?
+A: 7/10 (Correct) / 5/10 / 9/10 / 8/10
+
+Q3: When is the application deadline?
+A: March (Correct) / January / June / September
+
+Q4: What does the advisor recommend preparing well?
+A: Motivation letter (Correct) / Resume / Portfolio / References
+
+Q5: Why is the letter especially important?
+A: For scholarships (Correct) / For admission / For housing / For sports teams
+
+--------------------------------------------------------------------------------
+STORY B1-12: Starting a Business
+ID: starting-business
+Title EN: Starting a Business
+Title ES: Empezar un negocio
+Category: business
+Difficulty: intermediate
+Icon: 💼
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Laura: Quiero montar mi propio negocio de repostería.
+       (I want to set up my own bakery business.)
+Asesor: Excelente idea. ¿Has hecho un plan de negocio?
+        (Excellent idea. Have you made a business plan?)
+Laura: Todavía no. No sé por dónde empezar.
+       (Not yet. I don't know where to start.)
+Asesor: Primero necesitas calcular cuánto capital inicial requieres.
+        (First you need to calculate how much initial capital you require.)
+Laura: Ya he ahorrado unos diez mil euros. ¿Es suficiente?
+       (I've already saved about ten thousand euros. Is that enough?)
+Asesor: Depende de si alquilas un local o trabajas desde casa.
+        (It depends on whether you rent a premises or work from home.)
+Laura: Preferiría tener un local pequeño en el centro.
+       (I would prefer to have a small premises downtown.)
+Asesor: Entonces necesitarás más capital. También debes considerar los gastos mensuales.
+        (Then you'll need more capital. You should also consider monthly expenses.)
+Laura: ¿Como qué?
+       (Like what?)
+Asesor: Alquiler, electricidad, ingredientes, seguros y publicidad.
+        (Rent, electricity, ingredients, insurance, and advertising.)
+Laura: ¿Es necesario contratar empleados desde el principio?
+       (Is it necessary to hire employees from the beginning?)
+Asesor: No necesariamente. Muchos emprendedores comienzan solos.
+        (Not necessarily. Many entrepreneurs start alone.)
+Laura: Eso me tranquiliza. ¿Qué más debo hacer?
+       (That reassures me. What else should I do?)
+Asesor: Registrar la empresa, conseguir las licencias y darte de alta como autónomo.
+        (Register the company, get the licenses, and register as self-employed.)
+
+VOCABULARY:
+- montar = to set up
+- el negocio = business
+- la repostería = bakery/pastry
+- el asesor = advisor
+- el capital = capital
+- ahorrar = to save
+- el local = premises
+- los gastos = expenses
+- el seguro = insurance
+- la publicidad = advertising
+- contratar = to hire
+- el emprendedor = entrepreneur
+- darse de alta = to register
+- el/la autónomo/a = self-employed person
+
+QUESTIONS:
+Q1: What type of business does Laura want to start?
+A: Bakery (Correct) / Restaurant / Café / Catering
+
+Q2: How much money has Laura saved?
+A: 10,000 euros (Correct) / 5,000 euros / 20,000 euros / 15,000 euros
+
+Q3: Where would Laura prefer to have her business?
+A: Small premises downtown (Correct) / At home / In the suburbs / Online only
+
+Q4: What monthly expenses are mentioned?
+A: Rent, electricity, ingredients, insurance, advertising (Correct) / Only rent / Only ingredients / Only advertising
+
+Q5: Does Laura need to hire employees immediately?
+A: Not necessarily (Correct) / Yes, always / Yes, at least 3 / Yes, but only part-time
+
+Q6: What administrative steps must Laura take?
+A: Register company, get licenses, register as self-employed (Correct) / Only register company / Only get licenses / Nothing
+
+--------------------------------------------------------------------------------
+STORY B1-13: Mental Health Awareness
+ID: mental-health
+Title EN: Mental Health Awareness
+Title ES: Conciencia sobre la salud mental
+Category: health
+Difficulty: intermediate
+Icon: 🧠
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Psicóloga: ¿Qué te ha traído a consulta hoy?
+           (What brought you to consultation today?)
+Paciente: Últimamente me siento muy estresado y ansioso.
+          (Lately I've been feeling very stressed and anxious.)
+Psicóloga: ¿Desde cuándo experimentas estos síntomas?
+           (Since when have you been experiencing these symptoms?)
+Paciente: Hace unos tres meses, desde que cambié de trabajo.
+          (About three months ago, since I changed jobs.)
+Psicóloga: Es normal que los cambios importantes generen estrés. ¿Cómo afecta a tu vida diaria?
+           (It's normal for important changes to generate stress. How does it affect your daily life?)
+Paciente: Tengo problemas para dormir y me cuesta concentrarme.
+          (I have trouble sleeping and I find it hard to concentrate.)
+Psicóloga: ¿Has notado cambios en tu apetito o estado de ánimo?
+           (Have you noticed changes in your appetite or mood?)
+Paciente: Sí, como menos y a veces me siento irritable sin motivo.
+          (Yes, I eat less and sometimes I feel irritable for no reason.)
+Psicóloga: Es importante que entiendas que buscar ayuda es un signo de fortaleza, no de debilidad.
+           (It's important that you understand that seeking help is a sign of strength, not weakness.)
+Paciente: Me preocupaba que la gente pensara que no puedo manejar mis problemas.
+          (I was worried that people would think I can't handle my problems.)
+Psicóloga: La salud mental es tan importante como la física. Vamos a trabajar juntos en estrategias de manejo del estrés.
+           (Mental health is as important as physical health. We'll work together on stress management strategies.)
+Paciente: ¿Cuánto tiempo suele tomar ver mejoras?
+          (How long does it usually take to see improvements?)
+Psicóloga: Depende de cada persona, pero con compromiso y práctica, muchos pacientes notan cambios positivos en pocas semanas.
+           (It depends on each person, but with commitment and practice, many patients notice positive changes within a few weeks.)
+
+VOCABULARY:
+- la salud mental = mental health
+- la conciencia = awareness
+- el estrés = stress
+- ansioso/a = anxious
+- el síntoma = symptom
+- generar = to generate
+- concentrarse = to concentrate
+- el apetito = appetite
+- el estado de ánimo = mood
+- irritable = irritable
+- la fortaleza = strength
+- la debilidad = weakness
+- manejar = to handle/manage
+- el compromiso = commitment
+- la mejoría = improvement
+
+QUESTIONS:
+Q1: How long has the patient been feeling stressed?
+A: 3 months (Correct) / 1 month / 6 months / 1 year
+
+Q2: What triggered these feelings?
+A: Changing jobs (Correct) / Moving house / Relationship problems / Financial issues
+
+Q3: What sleep-related problem does the patient have?
+A: Trouble sleeping (Correct) / Sleeps too much / Nightmares / Sleep apnea
+
+Q4: What does the psychologist say about seeking help?
+A: It's a sign of strength (Correct) / It's a sign of weakness / It's unnecessary / It's too late
+
+Q5: According to the psychologist, how important is mental health?
+A: As important as physical health (Correct) / Less important / More important / Not very important
+
+Q6: When might the patient see improvements?
+A: Within a few weeks with commitment (Correct) / Immediately / Never / After years
+
+--------------------------------------------------------------------------------
+STORY B1-14: Social Media Impact
+ID: social-media-impact
+Title EN: Social Media Impact
+Title ES: El impacto de las redes sociales
+Category: technology
+Difficulty: intermediate
+Icon: 📱
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Teresa: ¿Cuánto tiempo pasas al día en las redes sociales?
+        (How much time do you spend per day on social media?)
+Miguel: Probablemente unas tres o cuatro horas. Demasiado, lo sé.
+        (Probably about three or four hours. Too much, I know.)
+Teresa: Yo intenté reducirlo porque afectaba mi productividad.
+        (I tried to reduce it because it affected my productivity.)
+Miguel: ¿Cómo lo conseguiste?
+        (How did you manage it?)
+Teresa: Desactivé las notificaciones y establec límites de tiempo en las aplicaciones.
+        (I deactivated notifications and set time limits on the apps.)
+Miguel: ¿No te resulta difícil desconectarte?
+        (Isn't it difficult for you to disconnect?)
+Teresa: Al principio sí, pero ahora me siento más presente en mi vida real.
+        (At first yes, but now I feel more present in my real life.)
+Miguel: Es curioso cómo algo diseñado para conectarnos puede hacernos sentir más aislados.
+        (It's curious how something designed to connect us can make us feel more isolated.)
+Teresa: Exacto. He leído estudios que relacionan el uso excesivo con la ansiedad y la depresión.
+        (Exactly. I've read studies that link excessive use with anxiety and depression.)
+Miguel: ¿Crees que deberíamos abandonarlas por completo?
+        (Do you think we should abandon them completely?)
+Teresa: No necesariamente, pero sí usarlas de manera más consciente e intencional.
+        (Not necessarily, but use them more consciously and intentionally.)
+Miguel: Tienes razón. Quizás debería hacer un detox digital este fin de semana.
+        (You're right. Maybe I should do a digital detox this weekend.)
+Teresa: Es una buena idea. Te sorprenderá cuánto tiempo libre descubres.
+        (It's a good idea. You'll be surprised how much free time you discover.)
+
+VOCABULARY:
+- las redes sociales = social media
+- el impacto = impact
+- la productividad = productivity
+- reducir = to reduce
+- desactivar = to deactivate
+- la notificación = notification
+- establecer = to set/establish
+- el límite = limit
+- desconectarse = to disconnect
+- aislado/a = isolated
+- excesivo/a = excessive
+- la ansiedad = anxiety
+- consciente = conscious
+- intencional = intentional
+- el detox = detox
+
+QUESTIONS:
+Q1: How many hours does Miguel spend on social media daily?
+A: 3-4 hours (Correct) / 1-2 hours / 5-6 hours / 8 hours
+
+Q2: Why did Teresa try to reduce her social media use?
+A: It affected her productivity (Correct) / She was bored / Her phone broke / Someone told her to
+
+Q3: What did Teresa deactivate?
+A: Notifications (Correct) / Her account / Her phone / Her computer
+
+Q4: How does Teresa feel now compared to before?
+A: More present in real life (Correct) / More stressed / More isolated / More bored
+
+Q5: What have studies linked excessive social media use with?
+A: Anxiety and depression (Correct) / Better health / Improved relationships / Higher intelligence
+
+Q6: What does Miguel plan to do this weekend?
+A: Digital detox (Correct) / Use more social media / Buy a new phone / Go on vacation
+
+--------------------------------------------------------------------------------
+STORY B1-15: Housing Market Crisis
+ID: housing-market
+Title EN: Housing Market Crisis
+Title ES: Crisis del mercado inmobiliario
+Category: economy
+Difficulty: intermediate
+Icon: 🏘️
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Periodista: Los precios de la vivienda han aumentado un 40% en los últimos cinco años.
+            (Housing prices have increased 40% in the last five years.)
+Economista: Es insostenible. Muchas personas jóvenes no pueden independizarse.
+            (It's unsustainable. Many young people can't become independent.)
+Periodista: ¿Cuáles son las causas principales de esta crisis?
+            (What are the main causes of this crisis?)
+Economista: La falta de construcción de vivienda pública, la especulación y los salarios estancados.
+            (The lack of public housing construction, speculation, and stagnant wages.)
+Periodista: ¿Qué proporción de ingresos gastan las familias en vivienda actualmente?
+            (What proportion of income do families currently spend on housing?)
+Economista: En las grandes ciudades, más del 40%, cuando lo recomendable es un máximo del 30%.
+            (In big cities, more than 40%, when the recommended maximum is 30%.)
+Periodista: ¿Existen soluciones a corto plazo?
+            (Are there short-term solutions?)
+Economista: Se necesitan medidas urgentes: limitar los alquileres turísticos, construir vivienda social y regular la especulación.
+            (Urgent measures are needed: limit tourist rentals, build social housing, and regulate speculation.)
+Periodista: ¿Y a largo plazo?
+            (And long-term?)
+Economista: Replantear el modelo urbano, descentralizar el empleo y mejorar el transporte público para que vivir lejos del centro sea viable.
+            (Rethink the urban model, decentralize employment, and improve public transport so living far from the center is viable.)
+Periodista: ¿Cree que la situación mejorará pronto?
+            (Do you think the situation will improve soon?)
+Economista: No sin voluntad política real. Es uno de los mayores desafíos de nuestra generación.
+            (Not without real political will. It's one of the biggest challenges of our generation.)
+
+VOCABULARY:
+- el mercado inmobiliario = housing/real estate market
+- la vivienda = housing
+- aumentar = to increase
+- insostenible = unsustainable
+- independizarse = to become independent
+- la especulación = speculation
+- estancado/a = stagnant
+- los ingresos = income
+- el alquiler = rent/rental
+- descentralizar = to decentralize
+- viable = viable
+- la voluntad política = political will
+- el desafío = challenge
+- replantear = to rethink
+
+QUESTIONS:
+Q1: How much have housing prices increased in 5 years?
+A: 40% (Correct) / 20% / 60% / 10%
+
+Q2: What percentage of income do families in big cities spend on housing?
+A: More than 40% (Correct) / 30% / 20% / 50%
+
+Q3: What is the recommended maximum percentage for housing costs?
+A: 30% (Correct) / 40% / 50% / 20%
+
+Q4: What short-term measures are mentioned?
+A: Limit tourist rentals, build social housing, regulate speculation (Correct) / Lower taxes / Increase wages / Do nothing
+
+Q5: What long-term solution involves employment?
+A: Decentralization (Correct) / Increasing salaries / Reducing hours / Remote work only
+
+Q6: What does the economist say is needed for improvement?
+A: Real political will (Correct) / More time / Foreign investment / Lower interest rates
+
+--------------------------------------------------------------------------------
+STORY B1-16: Learning to Drive
+ID: learning-drive
+Title EN: Learning to Drive
+Title ES: Aprendiendo a conducir
+Category: transportation
+Difficulty: intermediate
+Icon: 🚘
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Instructor: Hoy vamos a practicar el aparcamiento en paralelo.
+            (Today we're going to practice parallel parking.)
+Alumna: Ese es mi punto débil. Siempre me cuesta mucho.
+        (That's my weak point. I always find it very difficult.)
+Instructor: Con práctica se vuelve automático. Recuerda mirar bien los espejos.
+            (With practice it becomes automatic. Remember to check the mirrors well.)
+Alumna: ¿Cuándo cree que estaré lista para el examen?
+        (When do you think I'll be ready for the test?)
+Instructor: Necesitas unas diez horas más de práctica. Te falta confianza en rotondas.
+            (You need about ten more hours of practice. You lack confidence in roundabouts.)
+Alumna: Las rotondas me ponen nerviosa. Hay tanto tráfico.
+        (Roundabouts make me nervous. There's so much traffic.)
+Instructor: Por eso es importante mantener la calma y seguir las normas.
+            (That's why it's important to stay calm and follow the rules.)
+Alumna: ¿Qué pasa si suspendo el examen?
+        (What happens if I fail the test?)
+Instructor: Puedes repetirlo después de dos semanas. No te preocupes, la mayoría lo aprueban a la segunda.
+            (You can retake it after two weeks. Don't worry, most people pass on the second try.)
+Alumna: ¿Qué parte es la más difícil del examen?
+        (What part is the most difficult of the test?)
+Instructor: Para muchos, circular por ciudad con tráfico intenso. Pero tú conduces bien, solo necesitas más práctica.
+            (For many, driving through the city with heavy traffic. But you drive well, you just need more practice.)
+Alumna: Espero aprobar a la primera. He estudiado mucho el manual.
+        (I hope to pass on the first try. I've studied the manual a lot.)
+Instructor: El manual es importante, pero la experiencia práctica es esencial. Vamos a empezar.
+            (The manual is important, but practical experience is essential. Let's start.)
+
+VOCABULARY:
+- conducir = to drive
+- el aparcamiento = parking
+- en paralelo = parallel
+- el punto débil = weak point
+- el espejo = mirror
+- la rotonda = roundabout
+- mantener la calma = to stay calm
+- las normas = rules
+- suspender = to fail (exam)
+- aprobar = to pass (exam)
+- repetir = to retake/repeat
+- circular = to drive/circulate
+- el tráfico = traffic
+- el manual = manual
+- esencial = essential
+
+QUESTIONS:
+Q1: What are they going to practice today?
+A: Parallel parking (Correct) / Highway driving / Roundabouts / Night driving
+
+Q2: How many more practice hours does the student need?
+A: 10 (Correct) / 5 / 20 / 15
+
+Q3: What makes the student nervous?
+A: Roundabouts (Correct) / Parking / Highway / Night driving
+
+Q4: How long must the student wait to retake the test if she fails?
+A: 2 weeks (Correct) / 1 week / 1 month / 3 days
+
+Q5: What's the most difficult part of the test for many people?
+A: Driving in heavy traffic (Correct) / Parking / Theory / Roundabouts
+
+Q6: According to the instructor, when do most people pass?
+A: On the second try (Correct) / On the first try / On the third try / Never
+
+--------------------------------------------------------------------------------
+STORY B1-17: Wedding Planning
+ID: wedding-planning
+Title EN: Wedding Planning
+Title ES: Planificación de boda
+Category: celebration
+Difficulty: intermediate
+Icon: 💒
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Novia: No sé si queremos una boda grande o algo más íntimo.
+       (I don't know if we want a big wedding or something more intimate.)
+Organizadora: ¿Cuántos invitados estáis considerando?
+              (How many guests are you considering?)
+Novia: Entre cincuenta y cien personas. Depende del presupuesto.
+       (Between fifty and a hundred people. It depends on the budget.)
+Organizadora: Un presupuesto realista para cien invitados sería entre 15 y 20 mil euros.
+              (A realistic budget for a hundred guests would be between 15 and 20 thousand euros.)
+Novia: Es más de lo que pensábamos. ¿Qué incluye ese precio?
+       (That's more than we thought. What does that price include?)
+Organizadora: Lugar, catering, fotografía, música, flores y decoración.
+              (Venue, catering, photography, music, flowers, and decoration.)
+Novia: ¿Hay forma de reducir costes sin sacrificar calidad?
+       (Is there a way to reduce costs without sacrificing quality?)
+Organizadora: Podéis casaros fuera de temporada alta o elegir un día entre semana.
+              (You can get married outside high season or choose a weekday.)
+Novia: Mi pareja prefiere una ceremonia civil en lugar de religiosa.
+       (My partner prefers a civil ceremony instead of religious.)
+Organizadora: Eso simplifica las cosas. ¿Habéis pensado en la luna de miel?
+              (That simplifies things. Have you thought about the honeymoon?)
+Novia: Queremos ir a Japón, pero quizás esperemos unos meses después de la boda.
+       (We want to go to Japan, but maybe we'll wait a few months after the wedding.)
+Organizadora: Es sensato. Así podéis ahorrar más y disfrutarlo sin el estrés de la boda recién pasada.
+              (That's sensible. That way you can save more and enjoy it without the stress of the wedding just passed.)
+Novia: Tienes razón. Lo importante es celebrar nuestro compromiso con las personas que queremos.
+       (You're right. The important thing is to celebrate our commitment with the people we love.)
+
+VOCABULARY:
+- la boda = wedding
+- íntimo/a = intimate
+- el/la invitado/a = guest
+- el presupuesto = budget
+- el catering = catering
+- la fotografía = photography
+- las flores = flowers
+- la decoración = decoration
+- reducir = to reduce
+- sacrificar = to sacrifice
+- la temporada alta = high season
+- entre semana = weekday
+- civil = civil
+- la luna de miel = honeymoon
+- sensato/a = sensible
+- el compromiso = commitment/engagement
+
+QUESTIONS:
+Q1: How many guests are they considering?
+A: 50-100 (Correct) / 20-50 / 100-200 / 10-30
+
+Q2: What's the realistic budget for 100 guests?
+A: 15,000-20,000 euros (Correct) / 10,000 euros / 30,000 euros / 5,000 euros
+
+Q3: What type of ceremony does the partner prefer?
+A: Civil (Correct) / Religious / Both / None
+
+Q4: Where do they want to go for their honeymoon?
+A: Japan (Correct) / Paris / Italy / Spain
+
+Q5: What's one way to reduce wedding costs?
+A: Marry outside high season or on weekday (Correct) / Have no guests / No music / No food
+
+Q6: According to the bride, what's the important thing?
+A: Celebrate with loved ones (Correct) / Expensive venue / Perfect decorations / Big guest list
+
 ================================================================================
 PART 5: ADDITIONAL STORY IDEAS (20 MORE CONCEPTS)
 ================================================================================
@@ -1976,6 +2978,260 @@ These can be developed into full stories following the above formats:
 5. "Housing Market Crisis" - Economics, news discussion
 6. "Learning to Drive" - Driving test, rules discussion
 7. "Wedding Planning" - Cultural celebrations, traditions
+
+--------------------------------------------------------------------------------
+STORY A1-11: At the Zoo
+ID: at-zoo
+Title EN: At the Zoo
+Title ES: En el zoológico
+Category: animals
+Difficulty: absolute-beginner
+Icon: 🦁
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Niño: Mira, mamá. ¿Qué animal es este?
+      (Look, mom. What animal is this?)
+Mamá: Es un león. Es muy grande.
+      (It's a lion. It's very big.)
+Niño: ¿Y ese animal pequeño?
+      (And that small animal?)
+Mamá: Es un mono. Los monos son divertidos.
+      (It's a monkey. Monkeys are funny.)
+Niño: Mira, hay un elefante. Me gustan los elefantes.
+      (Look, there's an elephant. I like elephants.)
+Mamá: Sí, son muy inteligentes.
+      (Yes, they are very intelligent.)
+Niño: ¿Dónde está la jirafa?
+      (Where is the giraffe?)
+Mamá: Allí, al lado del árbol.
+      (There, next to the tree.)
+
+VOCABULARY:
+- el animal = animal
+- el león = lion
+- el mono = monkey
+- el elefante = elephant
+- la jirafa = giraffe
+- grande = big
+- pequeño/a = small
+- divertido/a = funny
+- inteligente = intelligent
+- el árbol = tree
+
+QUESTIONS:
+Q1: What animal is very big?
+A: Lion (Correct) / Monkey / Giraffe / Tree
+
+Q2: How does the mother describe monkeys?
+A: Funny (Correct) / Big / Intelligent / Small
+
+Q3: Where is the giraffe?
+A: Next to the tree (Correct) / In the water / Behind the lion / Inside the building
+
+--------------------------------------------------------------------------------
+STORY A1-12: My Pets
+ID: my-pets
+Title EN: My Pets
+Title ES: Mis mascotas
+Category: animals
+Difficulty: absolute-beginner
+Icon: 🐕
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Ana: ¿Tienes mascotas?
+     (Do you have pets?)
+Pedro: Sí, tengo un perro y un gato.
+       (Yes, I have a dog and a cat.)
+Ana: ¿Cómo se llama tu perro?
+     (What's your dog's name?)
+Pedro: Se llama Max. Es muy amigable.
+       (His name is Max. He's very friendly.)
+Ana: ¿Y tu gato?
+     (And your cat?)
+Pedro: Mi gato se llama Luna. Es negra y pequeña.
+       (My cat's name is Luna. She's black and small.)
+Ana: ¡Qué bonito! Yo tengo un pájaro.
+     (How nice! I have a bird.)
+Pedro: ¿De qué color es?
+       (What color is it?)
+Ana: Es azul y amarillo.
+     (It's blue and yellow.)
+
+VOCABULARY:
+- la mascota = pet
+- el perro = dog
+- el gato = cat
+- el pájaro = bird
+- amigable = friendly
+- negro/a = black
+- azul = blue
+- amarillo/a = yellow
+- bonito/a = nice/pretty
+- el color = color
+
+QUESTIONS:
+Q1: How many pets does Pedro have?
+A: Two (Correct) / One / Three / Four
+
+Q2: What color is Ana's bird?
+A: Blue and yellow (Correct) / Black / Red and green / White
+
+Q3: How is the dog described?
+A: Friendly (Correct) / Small / Black / Blue
+
+--------------------------------------------------------------------------------
+STORY A1-13: Counting to Twenty
+ID: counting-twenty
+Title EN: Counting to Twenty
+Title ES: Contando hasta veinte
+Category: numbers
+Difficulty: absolute-beginner
+Icon: 🔢
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Profesor: Vamos a contar hasta veinte. Uno, dos, tres...
+          (Let's count to twenty. One, two, three...)
+Estudiante: Cuatro, cinco, seis, siete.
+            (Four, five, six, seven.)
+Profesor: Muy bien. Ahora desde diez.
+          (Very good. Now from ten.)
+Estudiante: Diez, once, doce, trece, catorce.
+            (Ten, eleven, twelve, thirteen, fourteen.)
+Profesor: Excelente. ¿Cuántos dedos tienes?
+          (Excellent. How many fingers do you have?)
+Estudiante: Tengo diez dedos.
+            (I have ten fingers.)
+Profesor: Correcto. ¿Y cuántas manzanas hay aquí?
+          (Correct. And how many apples are here?)
+Estudiante: Hay cinco manzanas.
+            (There are five apples.)
+
+VOCABULARY:
+- contar = to count
+- hasta = until/to
+- uno = one
+- dos = two
+- tres = three
+- diez = ten
+- veinte = twenty
+- el dedo = finger
+- la manzana = apple
+- cuántos/as = how many
+
+QUESTIONS:
+Q1: What are they counting to?
+A: Twenty (Correct) / Ten / Thirty / Fifteen
+
+Q2: How many fingers does the student have?
+A: Ten (Correct) / Five / Twenty / Eight
+
+Q3: How many apples are there?
+A: Five (Correct) / Three / Ten / Seven
+
+--------------------------------------------------------------------------------
+STORY A1-14: The Body Parts
+ID: body-parts
+Title EN: The Body Parts
+Title ES: Las partes del cuerpo
+Category: health
+Difficulty: absolute-beginner
+Icon: 🧍
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Doctor: ¿Dónde te duele?
+        (Where does it hurt?)
+Paciente: Me duele la cabeza.
+          (My head hurts.)
+Doctor: Abre la boca, por favor.
+        (Open your mouth, please.)
+Paciente: Sí, doctor.
+          (Yes, doctor.)
+Doctor: Bien. ¿Te duelen los ojos?
+        (Good. Do your eyes hurt?)
+Paciente: No, solo la cabeza.
+          (No, only the head.)
+Doctor: Levanta los brazos.
+        (Raise your arms.)
+Paciente: Así, ¿está bien?
+          (Like this, is it okay?)
+Doctor: Perfecto. Todo está bien.
+        (Perfect. Everything is fine.)
+
+VOCABULARY:
+- el cuerpo = body
+- doler = to hurt
+- la cabeza = head
+- la boca = mouth
+- los ojos = eyes
+- el brazo = arm
+- levantar = to raise/lift
+- abrir = to open
+- el/la paciente = patient
+- todo = everything
+
+QUESTIONS:
+Q1: What hurts the patient?
+A: Head (Correct) / Eyes / Arms / Mouth
+
+Q2: What does the doctor ask the patient to open?
+A: Mouth (Correct) / Eyes / Arms / Door
+
+Q3: Do the patient's eyes hurt?
+A: No (Correct) / Yes / A little / Very much
+
+--------------------------------------------------------------------------------
+STORY A1-15: Weather Today
+ID: weather-today
+Title EN: Weather Today
+Title ES: El tiempo hoy
+Category: weather
+Difficulty: absolute-beginner
+Icon: ☀️
+--------------------------------------------------------------------------------
+
+DIALOGUE:
+Carlos: ¿Qué tiempo hace hoy?
+        (What's the weather like today?)
+Julia: Hace sol y hace calor.
+       (It's sunny and hot.)
+Carlos: ¿Necesito un paraguas?
+        (Do I need an umbrella?)
+Julia: No, no va a llover.
+       (No, it's not going to rain.)
+Carlos: Perfecto. Vamos al parque.
+        (Perfect. Let's go to the park.)
+Julia: Buena idea. Hace buen tiempo.
+       (Good idea. The weather is nice.)
+Carlos: ¿Mañana también hace sol?
+        (Tomorrow is it sunny too?)
+Julia: No, mañana va a llover.
+       (No, tomorrow it's going to rain.)
+
+VOCABULARY:
+- el tiempo = weather
+- hacer sol = to be sunny
+- hacer calor = to be hot
+- hacer frío = to be cold
+- llover = to rain
+- el paraguas = umbrella
+- mañana = tomorrow
+- hoy = today
+- el parque = park
+- necesitar = to need
+
+QUESTIONS:
+Q1: What's the weather like today?
+A: Sunny and hot (Correct) / Rainy / Cold / Cloudy
+
+Q2: Does Carlos need an umbrella?
+A: No (Correct) / Yes / Maybe / We don't know
+
+Q3: What will the weather be like tomorrow?
+A: Rainy (Correct) / Sunny / Hot / Cold
 
 ================================================================================
 PART 6: VOCABULARY THEMES BY CEFR LEVEL

@@ -389,3 +389,85 @@ Summary of Subtask 21.6:
 
 14:58 - [Iteration 2] Subtask 21.6 complete
 14:59 - Started Subtask 21.7
+
+15:03 - [Iteration 3] Task 21 complete
+
+Summary of changes in Iteration 3:
+- Completed Subtask 21.7: Made word counts clickable in sanasto page
+- Completed Subtask 21.8: Connected clickable counts to word list dialog
+- Added click handlers for "Harjoitellut sanat", "Osatut sanat", "Hallitut sanat"
+- Integrated VocabularyWordListDialog component
+- Buttons show hover effects and disabled state
+- Dialog displays words with translations and frequency data
+- Added comprehensive tests (17 tests pass)
+- Git commit created for Task 21
+
+All subtasks of Task 21 are now completed.
+Next available task: Task 22 (Story Mode UI Improvements)
+
+15:04 - Started Subtask 22.1
+15:04 - Subtask 22.1 complete
+15:29 - Started Subtask 22.2
+$(date +%H:%M) - Created §svelte/src/lib/components/basic/stories/StoryFilterSort.svelte
+$(date +%H:%M) - Created §svelte/src/lib/components/basic/stories/StoryFilterSort.test.ts
+$(date +%H:%M) - Tests pass §StoryFilterSort.test.ts
+$(date +%H:%M) - Subtask 22.2 complete
+
+Summary of Subtask 22.2:
+- Created StoryFilterSort component with filter and sort functionality
+- Filter options: Kaikki tasot, A1 - Aloittelija, A2 - Perustaso, B1 - Keskitaso
+- Sort options: Aakkosjärjestys, Vaikeustaso
+- Mobile layout: Dropdown selects with labels and icons
+- Desktop layout: Button groups with join styling
+- Used Lucide icons: Filter and ArrowUpDown
+- Component accepts props: filterDifficulty, sortBy, onFilterChange, onSortChange
+- Created comprehensive test suite with 10 tests
+- All 10 tests pass successfully
+
+15:31 - [Iteration 1] Subtask 22.2 complete
+15:38 - Started Subtask 22.6
+15:38 - Updated §svelte/src/routes/tarinat/+page.svelte
+15:38 - Created §svelte/src/routes/tarinat/tarinat.test.ts
+15:38 - Tests pass §tarinat.test.ts
+15:38 - Subtask 22.6 complete
+
+Summary of Subtask 22.6:
+- Integrated StoryFilterSort component into story list page
+- Added sortBy state and sorting logic (alphabet, difficulty)
+- Updated filteredStories to include both filtering and sorting
+- Filter by difficulty: A1, A2, B1, or all levels
+- Sort by alphabet (Finnish titles) or difficulty (A1 < A2 < B1)
+- Created comprehensive test suite with 9 tests
+- All 9 tests pass successfully
+- Component shows on both mobile (dropdowns) and desktop (button groups)
+
+15:38 - [Iteration 2] Subtask 22.6 complete
+15:40 - Started Subtask 22.7
+15:40 - Updated §svelte/src/lib/components/basic/stories/StoryQuestion.svelte
+15:40 - Created §svelte/src/lib/components/basic/stories/StoryQuestion.test.ts
+15:40 - Tests pass §StoryQuestion.test.ts
+15:40 - Subtask 22.7 complete
+
+Summary of Subtask 22.7:
+- Updated StoryQuestion component to use two-column grid layout on desktop
+- Changed from stacked layout to grid with md:grid-cols-2
+- Mobile remains single column (grid-cols-1)
+- Desktop shows 2 answer options per row for better space utilization
+- Created comprehensive test suite with 11 tests
+- All 11 tests pass successfully
+- Better UI for desktop users with more efficient use of screen space
+
+15:40 - [Iteration 2] Subtask 22.7 complete
+15:41 - Subtask 22.8 complete (automated tests already created and passing)
+15:41 - Task 22 complete
+
+Summary of Task 22 completion:
+- Subtask 22.1: Research completed (no old layout found, implemented improvement)
+- Subtask 22.2: Created StoryFilterSort component with 10 passing tests
+- Subtask 22.3-22.5: Completed as part of 22.2 (filter/sort functionality)
+- Subtask 22.6: Integrated filter/sort into story list page with 9 passing tests
+- Subtask 22.7: Updated question layout to two-column grid with 11 passing tests
+- Subtask 22.8: Testing complete (30 automated tests pass)
+- Total: 30 tests created and passing for story mode improvements
+
+15:41 - [Iteration 2] Task 22 complete

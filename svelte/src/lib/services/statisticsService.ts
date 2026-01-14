@@ -300,7 +300,7 @@ export async function getNextMilestone(): Promise<{
 			type: 'top100',
 			current: stats.topNProgress.top100.known,
 			target: 50,
-			description: 'Learn 50 of the 100 most common words'
+			description: 'Opi 50 sanaa 100 yleisimmästä'
 		};
 	}
 	
@@ -309,7 +309,7 @@ export async function getNextMilestone(): Promise<{
 			type: 'top500',
 			current: stats.topNProgress.top500.known,
 			target: 250,
-			description: 'Learn 250 of the 500 most common words'
+			description: 'Opi 250 sanaa 500 yleisimmästä'
 		};
 	}
 	
@@ -318,7 +318,7 @@ export async function getNextMilestone(): Promise<{
 			type: 'top1000',
 			current: stats.topNProgress.top1000.known,
 			target: 500,
-			description: 'Learn 500 of the 1000 most common words'
+			description: 'Opi 500 sanaa 1000 yleisimmästä'
 		};
 	}
 	

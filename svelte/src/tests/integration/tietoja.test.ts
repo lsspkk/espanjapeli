@@ -120,7 +120,7 @@ describe('Tietoja Page Integration', () => {
 			const { default: TietojaPage } = await import('../../routes/tietoja/+page.svelte');
 			const { getByText } = render(TietojaPage);
 
-			expect(getByText('← Takaisin valikkoon')).toBeTruthy();
+			expect(getByText('← Takaisin')).toBeTruthy();
 		});
 	});
 });

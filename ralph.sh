@@ -37,10 +37,11 @@ for i in {1..$MAX_ITERS}; do
     --output-format stream-json \
     "# Espanjapeli Development Task
 
-Follow the Ralph Wiggum Protocol:
-1. Read ai-control/PRINCIPLES.md for coding standards
-2. Read ai-control/ROADMAP.md for project context
-3. Read ai-control/todo.json for available tasks
+First read some info files from ai-context folder
+1. Read PRINCIPLES.md and follow its guidelines
+2. Read ROADMAP.md for project goals
+3. Read codebase.md to understand codebase 
+4. Read todo.json for available tasks
 
 $(if [[ -n "$TASK_ID" ]]; then echo "Focus on task $TASK_ID"; else echo "Pick the first available subtask with status 'not-started'"; fi)
 

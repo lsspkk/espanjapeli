@@ -129,7 +129,7 @@
       "title": "Story Mode UI Improvements",
       "todoTxtRef": "TASK 22: Story Mode UI Improvements (TODO.txt lines 89-128)",
       "priority": 1,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 4.5,
       "dependencies": [],
       "subtasks": [
@@ -143,49 +143,49 @@
         {
           "id": "22.2",
           "title": "Create StoryFilterSort.svelte component",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": "svelte/src/lib/components/story/StoryFilterSort.svelte",
           "testRequired": true
         },
         {
           "id": "22.3",
           "title": "Add filter by difficulty (A1, A2, B1, all)",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": null,
           "testRequired": true
         },
         {
           "id": "22.4",
           "title": "Add sort by alphabet and difficulty",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": null,
           "testRequired": true
         },
         {
           "id": "22.5",
           "title": "Implement mobile dropdown and desktop button group",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": null,
           "testRequired": true
         },
         {
           "id": "22.6",
           "title": "Integrate filter/sort component into story list page",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": "svelte/src/routes/tarinat/+page.svelte",
           "testRequired": true
         },
         {
           "id": "22.7",
           "title": "Restore old two-column question layout",
-          "status": "not-started",
-          "deliverable": "svelte/src/lib/components/story/StoryReader.svelte",
+          "status": "completed",
+          "deliverable": "svelte/src/lib/components/basic/stories/StoryQuestion.svelte",
           "testRequired": true
         },
         {
           "id": "22.8",
           "title": "Test story filtering and question layout on mobile and desktop",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": null,
           "testRequired": true
         }
@@ -255,6 +255,65 @@
           "status": "not-started",
           "deliverable": "ai-control/TODO.txt",
           "testRequired": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Kids/Basic Knowledge Separation & Vocabulary Progress Implementation",
+      "todoTxtRef": "TASK 24: Kids/Basic Knowledge Separation & Vocabulary Progress Implementation (TODO.txt lines 196-323)",
+      "priority": 1,
+      "status": "not-started",
+      "estimatedHours": 10,
+      "dependencies": [],
+      "subtasks": [
+        {
+          "id": "24.1",
+          "title": "Data Model Analysis & Architecture Design",
+          "status": "not-started",
+          "deliverable": "reports/knowledge-implementation-report.txt",
+          "testRequired": false,
+          "description": "Analyze current wordKnowledge usage, design kids/basic separation strategy"
+        },
+        {
+          "id": "24.2",
+          "title": "Implement Knowledge Separation in Data Layer",
+          "status": "not-started",
+          "deliverable": "svelte/src/lib/stores/wordKnowledge.ts, svelte/src/lib/services/statisticsService.ts",
+          "testRequired": true,
+          "description": "Update stores and services to support dual tracking with mode parameter"
+        },
+        {
+          "id": "24.3",
+          "title": "Integrate Progress Tracking in Games",
+          "status": "not-started",
+          "deliverable": "All game mode components",
+          "testRequired": true,
+          "description": "Ensure all games record word knowledge correctly with proper mode"
+        },
+        {
+          "id": "24.4",
+          "title": "Create Kids Vocabulary Statistics Page (sanasto-kids)",
+          "status": "not-started",
+          "deliverable": "svelte/src/routes/sanasto-kids/+page.svelte",
+          "testRequired": true,
+          "description": "Build kids-themed statistics page with encouraging messages"
+        },
+        {
+          "id": "24.5",
+          "title": "Create Kids Vocabulary Widget for Front Page",
+          "status": "not-started",
+          "deliverable": "svelte/src/lib/components/kids/KidsVocabularyWidget.svelte",
+          "testRequired": true,
+          "description": "Build circular bubble widget with kid-friendly design"
+        },
+        {
+          "id": "24.6",
+          "title": "Update Front Page with Kids Widget",
+          "status": "not-started",
+          "deliverable": "svelte/src/routes/pipsan-maailma/+page.svelte, svelte/src/routes/pipsan-ystavat/+page.svelte",
+          "testRequired": true,
+          "description": "Integrate kids widget into kids game pages"
         }
       ]
     }

@@ -86,7 +86,7 @@ vi.mock('$lib/services/statisticsService', () => ({
 		type: 'top100',
 		current: 25,
 		target: 50,
-		description: 'Learn 50 of the 100 most common words'
+		description: 'Opi 50 sanaa 100 yleisimmästä'
 	})
 }));
 
@@ -94,7 +94,7 @@ vi.mock('$lib/services/statisticsService', () => ({
 vi.mock('$lib/services/vocabularyService', () => ({
 	getCEFRDescription: vi.fn((level: string) => {
 		const descriptions: Record<string, string> = {
-			A1: 'Absolute Beginner',
+			A1: 'Aloittelija',
 			A2: 'Beginner',
 			B1: 'Intermediate',
 			B2: 'Upper Intermediate',
