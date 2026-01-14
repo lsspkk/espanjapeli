@@ -1,18 +1,33 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
+	import { Home, BookOpen, BookMarked, Info, Settings } from 'lucide-svelte';
+	import type { ComponentType } from 'svelte';
 
 	interface NavItem {
 		href: string;
 		label: string;
-		icon: string;
+		icon: ComponentType;
 	}
 
 	const navItems: NavItem[] = [
-		{ href: '/', label: 'Koti', icon: '🏠' },
-		{ href: '/sanasto', label: 'Sanasto', icon: '📚' },
-		{ href: '/tietoja', label: 'Tietoja', icon: 'ℹ️' },
-		{ href: '/asetukset', label: 'Asetukset', icon: '⚙️' }
+		{ href: '/', label: 'Koti', icon: Home },
+		{ href: '/sanasto', label: 'Sanasto', icon: BookMarked },
+		{ href: '/kielten-oppiminen', label: 'Kielten oppiminen', icon: BookOpen },
+		{ href: '/tietoja', label: 'Tietoja', icon: Info },
+		{ href: '/asetukset', label: 'Asetukset', icon: Settings }
+	];
+
+	const gameModePaths = [
+		'/sanapeli',
+		'/yhdistasanat',
+		'/tarinat/',
+		'/muisti',
+		'/kuuntelu',
+		'/lukeminen',
+		'/puhuminen',
+		'/pipsan-ystavat',
+		'/pipsan-maailma'
 	];
 
 	let isMenuOpen = $state(false);
@@ -32,9 +47,14 @@
 		}
 		return currentPath.startsWith(`${base}${href}`);
 	}
+
+	function isInGameMode(): boolean {
+		const currentPath = $page.url.pathname;
+		return gameModePaths.some(path => currentPath.includes(path));
+	}
 </script>
 
-<nav class="navbar bg-base-100 shadow-sm">
+<nav class="navbar bg-base-100 shadow-sm" class:hidden={isInGameMode()} class:lg:flex={isInGameMode()}>
 	<div class="navbar-start">
 		<!-- Mobile hamburger menu -->
 		<div class="dropdown">
@@ -67,13 +87,14 @@
 					class="menu dropdown-content menu-sm z-50 mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
 				>
 					{#each navItems as item}
+						{@const Icon = item.icon}
 						<li>
 							<a
 								href="{base}{item.href}"
 								class={isActive(item.href) ? 'active' : ''}
 								onclick={closeMenu}
 							>
-								<span>{item.icon}</span>
+								<Icon size={20} />
 								{item.label}
 							</a>
 						</li>
@@ -90,12 +111,13 @@
 	<div class="navbar-end hidden lg:flex">
 		<ul class="menu menu-horizontal px-1">
 			{#each navItems as item}
+				{@const Icon = item.icon}
 				<li>
 					<a
 						href="{base}{item.href}"
 						class={isActive(item.href) ? 'active' : ''}
 					>
-						<span>{item.icon}</span>
+						<Icon size={20} />
 						{item.label}
 					</a>
 				</li>
