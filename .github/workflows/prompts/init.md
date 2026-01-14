@@ -3,13 +3,13 @@
 name: foobar
 agent: agent
 model: GPT-4.1
-description: "Analyze codebase"
+description: "Analyze codebase and generate documentation game modes in Espanjapeli Svelte app"
 ---
 # Instructions
 
 
 ## Purpose
-This prompt instructs an AI agent to perform comprehensive code analysis of the Espanjapeli Svelte application, specifically focusing on AR-style game modes, and generate detailed technical documentation.
+This prompt instructs an AI agent to perform comprehensive code analysis of the Espanjapeli Svelte application, generate detailed technical documentation similiar to CLAUDE.md created by claude coding environment with the command /init
 
 ## Instructions for AI Agent
 
@@ -37,10 +37,6 @@ Focus primarily on visual/image-based learning games:
 Search and document all components in:
 ```
 svelte/src/lib/components/
-├── kids/          # Children's game components
-├── basic/         # Adult learner components
-├── shared/        # Shared utilities
-└── stories/       # Story mode components (if relevant)
 ```
 
 For each significant component, document:
@@ -196,7 +192,6 @@ Create `ai-control/codebase.md` with these sections:
 ```bash
 # Use these tools to discover code:
 - file_search for finding components
-- grep_search for finding patterns like "camera", "image", "AR", "display"
 - semantic_search for conceptual searches
 - read_file to examine specific files
 - list_dir to explore directory structures
@@ -384,34 +379,6 @@ Before finalizing the document, ensure:
 **Analysis Tools:** [List tools used - grep_search, semantic_search, etc.]
 ```
 
-### 10. Success Criteria
-
-The documentation is successful if:
-
-1. A new developer can understand the AR game architecture
-2. Component relationships are crystal clear
-3. Data flow is easily traceable
-4. Future enhancements are well-informed
-5. Testing approach is documented
-6. No major feature is left undocumented
-7. Code examples are accurate and helpful
-8. Accessibility and performance considerations are noted
-
----
-
-## Usage
-
-To use this prompt:
-
-1. Provide this prompt to an AI agent with access to the codebase
-2. Agent should have tools: file_search, grep_search, semantic_search, read_file, list_dir, run_in_terminal
-3. **First action:** Check if `ai-control/codebase.md` exists and backup if needed (see section 9)
-4. **Analysis:** Agent should systematically work through all sections by reading actual code
-5. **Never reference old documentation** - Always analyze current codebase directly
-6. Output should be comprehensive but focused on AR/visual game modes
-7. Result: Fresh `ai-control/codebase.md` ready for team use, with previous version safely backed up
-
----
 
 **Prompt Version:** 1.0  
 **Created:** 2026-01-14  
