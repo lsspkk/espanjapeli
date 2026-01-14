@@ -123,11 +123,8 @@
 	<div class="container mx-auto px-4 py-4 md:py-8">
 	<!-- Header -->
 	<div class="mb-4 md:mb-8 text-center">
-		<h1 class="mb-1 md:mb-2 text-3xl md:text-5xl font-bold">Espanjapeli</h1>
+		<h1 class="mb-1 md:mb-2 text-3xl md:text-5xl font-bold hidden lg:block">Espanjapeli</h1>
 		<p class="text-base md:text-lg text-base-content/70">Hauskaa ja tehokasta opiskelua</p>
-		<a href="{base}/kielten-oppiminen" class="btn btn-ghost btn-sm mt-1 md:mt-2 text-base underline">
-			📖 Kielten oppiminen
-		</a>
 	</div>
 
 		<!-- Vocabulary Progress Widget -->
@@ -187,13 +184,6 @@
 					</div>
 				</button>
 			{/each}
-		</div>
-
-		<!-- Settings Link -->
-		<div class="mt-4 md:mt-8 text-center">
-			<a href="{base}/asetukset" class="btn btn-ghost btn-sm text-base underline">
-				⚙️ Asetukset & Tietojen vienti
-			</a>
 		</div>
 
 		<!-- Footer Note -->

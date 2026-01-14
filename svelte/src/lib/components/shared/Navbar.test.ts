@@ -1,18 +1,22 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, fireEvent } from '@testing-library/svelte';
 import Navbar from './Navbar.svelte';
+import { writable } from 'svelte/store';
 
 // Mock SvelteKit modules
 vi.mock('$app/paths', () => ({
 	base: ''
 }));
 
+let mockPageStore = writable({
+	url: new URL('http://localhost/')
+});
+
 vi.mock('$app/stores', () => {
-	const { readable } = require('svelte/store');
 	return {
-		page: readable({
-			url: new URL('http://localhost/')
-		})
+		page: {
+			subscribe: (fn: any) => mockPageStore.subscribe(fn)
+		}
 	};
 });
 
@@ -29,6 +33,7 @@ describe('Navbar', () => {
 			const { getByText } = render(Navbar);
 			expect(getByText('Koti')).toBeTruthy();
 			expect(getByText('Sanasto')).toBeTruthy();
+			expect(getByText('Kielten oppiminen')).toBeTruthy();
 			expect(getByText('Tietoja')).toBeTruthy();
 			expect(getByText('Asetukset')).toBeTruthy();
 		});
@@ -91,20 +96,38 @@ describe('Navbar', () => {
 			const hrefs = Array.from(desktopLinks).map((link) => link.getAttribute('href'));
 			expect(hrefs).toContain('/');
 			expect(hrefs).toContain('/sanasto');
+			expect(hrefs).toContain('/kielten-oppiminen');
 			expect(hrefs).toContain('/tietoja');
 			expect(hrefs).toContain('/asetukset');
 		});
 	});
 
 	describe('Navigation icons', () => {
-		it('renders icons for each nav item', () => {
-			const { getAllByText } = render(Navbar);
+		it('renders icon components for each nav item', () => {
+			const { container } = render(Navbar);
 
-			// Each icon appears twice (mobile + desktop)
-			expect(getAllByText('🏠').length).toBeGreaterThanOrEqual(1);
-			expect(getAllByText('📚').length).toBeGreaterThanOrEqual(1);
-			expect(getAllByText('ℹ️').length).toBeGreaterThanOrEqual(1);
-			expect(getAllByText('⚙️').length).toBeGreaterThanOrEqual(1);
+			// Check that SVG icons are rendered (Lucide icons render as SVG)
+			const svgIcons = container.querySelectorAll('svg');
+			// Desktop menu has 5 nav items with icons + 1 hamburger icon = 6 minimum
+			// (Mobile menu icons only render when menu is opened)
+			expect(svgIcons.length).toBeGreaterThanOrEqual(6);
+		});
+
+		it('renders more icons when mobile menu is opened', async () => {
+			const { container, getByLabelText } = render(Navbar);
+			const hamburger = getByLabelText('Avaa valikko');
+			
+			// Count icons before opening menu
+			const iconsBefore = container.querySelectorAll('svg').length;
+			
+			// Open mobile menu
+			await fireEvent.click(hamburger);
+			
+			// Count icons after opening menu
+			const iconsAfter = container.querySelectorAll('svg').length;
+			
+			// Should have 5 additional nav item icons in mobile menu
+			expect(iconsAfter).toBeGreaterThan(iconsBefore);
 		});
 	});
 
@@ -125,6 +148,83 @@ describe('Navbar', () => {
 			otherLinks.forEach((link) => {
 				expect(link.classList.contains('active')).toBe(false);
 			});
+		});
+	});
+
+	describe('Game mode hiding on mobile', () => {
+		beforeEach(() => {
+			mockPageStore.set({
+				url: new URL('http://localhost/')
+			});
+		});
+
+		it('navbar is visible on home page', () => {
+			const { container } = render(Navbar);
+			const nav = container.querySelector('nav.navbar');
+			expect(nav?.classList.contains('hidden')).toBe(false);
+		});
+
+		it('navbar is hidden on mobile in sanapeli game mode', () => {
+			mockPageStore.set({
+				url: new URL('http://localhost/sanapeli')
+			});
+			const { container } = render(Navbar);
+			const nav = container.querySelector('nav.navbar');
+			expect(nav?.classList.contains('hidden')).toBe(true);
+		});
+
+		it('navbar is hidden on mobile in yhdistasanat game mode', () => {
+			mockPageStore.set({
+				url: new URL('http://localhost/yhdistasanat')
+			});
+			const { container } = render(Navbar);
+			const nav = container.querySelector('nav.navbar');
+			expect(nav?.classList.contains('hidden')).toBe(true);
+		});
+
+		it('navbar is hidden on mobile in tarinat story view', () => {
+			mockPageStore.set({
+				url: new URL('http://localhost/tarinat/story-1')
+			});
+			const { container } = render(Navbar);
+			const nav = container.querySelector('nav.navbar');
+			expect(nav?.classList.contains('hidden')).toBe(true);
+		});
+
+		it('navbar is hidden on mobile in muisti game mode', () => {
+			mockPageStore.set({
+				url: new URL('http://localhost/muisti')
+			});
+			const { container } = render(Navbar);
+			const nav = container.querySelector('nav.navbar');
+			expect(nav?.classList.contains('hidden')).toBe(true);
+		});
+
+		it('navbar is hidden on mobile in pipsan-ystavat game mode', () => {
+			mockPageStore.set({
+				url: new URL('http://localhost/pipsan-ystavat')
+			});
+			const { container } = render(Navbar);
+			const nav = container.querySelector('nav.navbar');
+			expect(nav?.classList.contains('hidden')).toBe(true);
+		});
+
+		it('navbar is visible on non-game pages like sanasto', () => {
+			mockPageStore.set({
+				url: new URL('http://localhost/sanasto')
+			});
+			const { container } = render(Navbar);
+			const nav = container.querySelector('nav.navbar');
+			expect(nav?.classList.contains('hidden')).toBe(false);
+		});
+
+		it('navbar is visible on non-game pages like asetukset', () => {
+			mockPageStore.set({
+				url: new URL('http://localhost/asetukset')
+			});
+			const { container } = render(Navbar);
+			const nav = container.querySelector('nav.navbar');
+			expect(nav?.classList.contains('hidden')).toBe(false);
 		});
 	});
 });
