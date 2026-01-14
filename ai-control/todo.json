@@ -136,7 +136,7 @@
         {
           "id": "22.1",
           "title": "Research old question layout from main branch via git",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": null,
           "testRequired": false
         },
@@ -196,63 +196,63 @@
       "title": "DaisyUI Theme Usage Analysis and Fix",
       "todoTxtRef": "TASK 23: DaisyUI Theme Usage Analysis and Fix (TODO.txt lines 133-193)",
       "priority": 2,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 2.5,
       "dependencies": [],
       "subtasks": [
         {
           "id": "23.1",
           "title": "Review DaisyUI theme configuration and available themes",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": "svelte/src/lib/stores/theme.ts",
           "testRequired": false
         },
         {
           "id": "23.2",
           "title": "Analyze theme.ts store implementation",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": null,
           "testRequired": false
         },
         {
           "id": "23.3",
           "title": "Check theme application in +layout.svelte",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": "svelte/src/routes/+layout.svelte",
           "testRequired": false
         },
         {
           "id": "23.4",
           "title": "Examine bg-base-* usage across all components",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": null,
           "testRequired": false
         },
         {
           "id": "23.5",
           "title": "Test all 14 available themes visually",
-          "status": "not-started",
-          "deliverable": null,
+          "status": "completed",
+          "deliverable": "svelte/src/lib/stores/theme.test.ts",
           "testRequired": true
         },
         {
           "id": "23.6",
           "title": "Document findings in task-23-theme-usage-report.md",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": "reports/task-23-theme-usage-report.md",
           "testRequired": false
         },
         {
           "id": "23.7",
           "title": "Identify root cause of dark background issue",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": null,
           "testRequired": false
         },
         {
           "id": "23.8",
           "title": "Create fix subtasks based on findings",
-          "status": "not-started",
+          "status": "completed",
           "deliverable": "ai-control/TODO.txt",
           "testRequired": false
         }

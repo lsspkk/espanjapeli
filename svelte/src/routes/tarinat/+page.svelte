@@ -21,42 +21,63 @@
 
 	// Filters and sorting
 	let filterDifficulty: string = 'all';
-	let filterCategory: string = 'all';
-	let sortBy: 'alphabet' | 'difficulty' = 'alphabet';
+	let sortDirection: 'asc' | 'desc' = 'asc';
+
+	// Map UI filter values to story difficulty values
+	const difficultyMap: Record<string, string> = {
+		'A1': 'beginner',
+		'A2': 'beginner',
+		'B1': 'intermediate',
+		'B2': 'intermediate'
+	};
+
+	// Map story difficulty to sort order
+	const difficultyOrder: Record<string, number> = {
+		'beginner': 1,
+		'intermediate': 2,
+		'advanced': 3
+	};
 
 	// Filtered and sorted stories
 	$: filteredStories = (() => {
-		// First filter
+		// First filter by difficulty
 		let filtered = stories.filter((story) => {
-			if (filterDifficulty !== 'all' && story.difficulty !== filterDifficulty) return false;
-			if (filterCategory !== 'all' && story.category !== filterCategory) return false;
+			if (filterDifficulty !== 'all') {
+				const targetDifficulty = difficultyMap[filterDifficulty];
+				if (story.difficulty !== targetDifficulty) return false;
+			}
 			return true;
 		});
 
-		// Then sort
-		if (sortBy === 'alphabet') {
-			filtered = filtered.sort((a, b) => a.title.localeCompare(b.title, 'fi'));
-		} else if (sortBy === 'difficulty') {
-			const difficultyOrder = { 'A1': 1, 'A2': 2, 'B1': 3, 'B2': 4 };
-			filtered = filtered.sort((a, b) => {
-				const orderA = difficultyOrder[a.difficulty as keyof typeof difficultyOrder] || 99;
-				const orderB = difficultyOrder[b.difficulty as keyof typeof difficultyOrder] || 99;
+		// Sort by difficulty first, then alphabetically by level, then by title
+		filtered = filtered.sort((a, b) => {
+			// Primary sort: difficulty (beginner, intermediate, advanced)
+			const orderA = difficultyOrder[a.difficulty || 'beginner'] || 99;
+			const orderB = difficultyOrder[b.difficulty || 'beginner'] || 99;
+			if (orderA !== orderB) {
 				return orderA - orderB;
-			});
-		}
+			}
+			// Secondary sort: CEFR level (A1, A2, B1, B2)
+			const levelOrder: Record<string, number> = { 'A1': 1, 'A2': 2, 'B1': 3, 'B2': 4 };
+			const levelA = levelOrder[a.level] || 99;
+			const levelB = levelOrder[b.level] || 99;
+			if (levelA !== levelB) {
+				return levelA - levelB;
+			}
+			// Tertiary sort: alphabet (with direction)
+			const comparison = a.title.localeCompare(b.title, 'fi');
+			return sortDirection === 'asc' ? comparison : -comparison;
+		});
 
 		return filtered;
 	})();
-
-	// Get unique categories from stories
-	$: categories = [...new Set(stories.map((s) => s.category))];
 
 	function handleFilterChange(difficulty: string) {
 		filterDifficulty = difficulty;
 	}
 
-	function handleSortChange(newSortBy: 'alphabet' | 'difficulty') {
-		sortBy = newSortBy;
+	function handleSortDirectionChange(direction: 'asc' | 'desc') {
+		sortDirection = direction;
 	}
 
 	onMount(async () => {
@@ -143,7 +164,7 @@
 	<GameContainer gameType="story" buttonMode="basic" onBack={goBackToMenu}>
 		<div class="card-body p-4 md:p-6">
 			<!-- Header -->
-			<div class="mb-6">
+			<div class="mb-3">
 				<h1 class="text-2xl md:text-3xl font-bold text-primary flex items-center gap-2">
 					📖 Tarinat ja dialogit
 				</h1>
@@ -151,12 +172,12 @@
 
 			<!-- Filter and Sort Controls -->
 			{#if !loading && stories.length > 0}
-				<div class="mb-6">
+				<div class="mb-3">
 					<StoryFilterSort
 						filterDifficulty={filterDifficulty}
-						sortBy={sortBy}
+						sortDirection={sortDirection}
 						onFilterChange={handleFilterChange}
-						onSortChange={handleSortChange}
+						onSortDirectionChange={handleSortDirectionChange}
 					/>
 				</div>
 			{/if}
