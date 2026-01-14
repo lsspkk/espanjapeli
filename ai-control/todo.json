@@ -186,14 +186,14 @@
       "title": "Create Mobile-First Story Reader",
       "todoTxtRef": "TASK 12: Create Mobile-First Story Reader (TODO.txt lines 751-804)",
       "priority": 4,
-      "status": "not-started",
+      "status": "completed",
       "estimatedHours": 6,
       "dependencies": [11],
       "subtasks": [
-        { "id": "12.1", "title": "Refactor StoryReader for stacked layout", "status": "not-started", "deliverable": "svelte/src/lib/components/basic/stories/StoryReader.svelte", "testRequired": true },
-        { "id": "12.2", "title": "Create DialogueLine.svelte with expandable translation", "status": "not-started", "deliverable": "svelte/src/lib/components/basic/stories/DialogueLine.svelte", "testRequired": true },
-        { "id": "12.3", "title": "Add reading progress bar", "status": "not-started", "deliverable": null, "testRequired": true },
-        { "id": "12.4", "title": "Implement auto-hiding controls", "status": "not-started", "deliverable": null, "testRequired": true }
+        { "id": "12.1", "title": "Refactor StoryReader for stacked layout", "status": "completed", "deliverable": "svelte/src/lib/components/basic/stories/StoryReader.svelte", "testRequired": true },
+        { "id": "12.2", "title": "Create DialogueLine.svelte with expandable translation", "status": "completed", "deliverable": "svelte/src/lib/components/basic/stories/DialogueLine.svelte", "testRequired": true },
+        { "id": "12.3", "title": "Add reading progress bar", "status": "completed", "deliverable": null, "testRequired": true },
+        { "id": "12.4", "title": "Implement auto-hiding controls", "status": "completed", "deliverable": null, "testRequired": true }
       ]
     },
     {
