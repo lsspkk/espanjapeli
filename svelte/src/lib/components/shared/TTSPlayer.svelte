@@ -17,7 +17,7 @@
 	$: progress = sentences.length > 0 ? (currentIndex / sentences.length) * 100 : 0;
 
 	function play() {
-		if (isPlaying || !browser) return;
+		if (isPlaying || !browser || !window.speechSynthesis) return;
 		
 		isPlaying = true;
 		currentIndex = 0;
@@ -25,7 +25,7 @@
 	}
 
 	function speakNext() {
-		if (!browser || currentIndex >= sentences.length) {
+		if (!browser || !window.speechSynthesis || currentIndex >= sentences.length) {
 			stop();
 			return;
 		}
@@ -61,7 +61,7 @@
 	}
 
 	function stop() {
-		if (browser) {
+		if (browser && window.speechSynthesis) {
 			window.speechSynthesis.cancel();
 		}
 		if (currentUtterance) {

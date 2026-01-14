@@ -126,13 +126,13 @@ describe('StoryCard', () => {
 	it('has proper level styling for level A1', () => {
 		const { container } = render(StoryCard, { story: mockStory });
 		const levelSpan = screen.getByText('Alkeet');
-		expect(levelSpan.classList.contains('text-green-600')).toBe(true);
+		expect(levelSpan.classList.contains('text-green-700/60')).toBe(true);
 	});
 
 	it('has proper level styling for level A2', () => {
 		const a2Story = { ...mockStory, level: 'A2' as const };
 		const { container } = render(StoryCard, { story: a2Story });
 		const levelSpan = screen.getByText('Perustaso');
-		expect(levelSpan.classList.contains('text-amber-600')).toBe(true);
+		expect(levelSpan.classList.contains('text-amber-700/60')).toBe(true);
 	});
 });
