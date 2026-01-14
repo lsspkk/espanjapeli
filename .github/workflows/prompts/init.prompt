@@ -1,14 +1,13 @@
-
 ---
 mode: 'agent'
 model: claude-sonnet-4.5
 description: 'Generate codebase.md - a concise overview of Espanjapeli for AI agents'
 ---
 
-# Codebase Initialization
-
-## Purpose
 Analyze the Espanjapeli Svelte language learning application and generate `ai-control/codebase.md` - a concise technical reference document for AI agents working on this project.
+
+Be short when explaining your workflow to user: Analyzing. Writing. Done. 
+Dont use any shell commands that need permission. Edit/copy files through you own file system access.
 
 ## Target Output
 Create a ~300-500 line markdown file that serves as the primary reference for understanding:
@@ -166,16 +165,12 @@ fi
 ```
 
 ## Quality Checklist
-- [ ] Under 500 lines
-- [ ] All game modes identified
-- [ ] Key services explained
-- [ ] Component structure clear
-- [ ] Development workflow included
-- [ ] Links to detailed docs
-- [ ] No TODO/placeholder text
-- [ ] Concise, scannable format
+- Under 500 lines
+- All game modes identified
+- Key services explained
+- Component structure clear
+- Development workflow included
+- Links to detailed docs
+- No TODO/placeholder text
+- Concise, scannable format
 
----
-**Prompt Version:** 2.0  
-**Updated:** 2026-01-14  
-**Model:** Similar to Claude's `/init` command output

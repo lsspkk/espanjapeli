@@ -31,6 +31,7 @@
 		type LanguageDirection, 
 		type AnswerQuality 
 	} from '$lib/stores/wordKnowledge';
+	import { gameSettings } from '$lib/stores/gameSettings';
 	import OsaaminenModal from '$lib/components/OsaaminenModal.svelte';
 	import GameHeader from '$lib/components/basic/core/GameHeader.svelte';
 	import QuestionCard from '$lib/components/basic/core/QuestionCard.svelte';
@@ -217,19 +218,20 @@
 	/**
 	 * Prepare words for the next game using intelligent selection
 	 */
-	function prepareNextGameWords() {
+	async function prepareNextGameWords() {
 		const availableWords = getAvailableWords();
 		const direction: LanguageDirection = questionLanguage === 'spanish' 
 			? 'spanish_to_finnish' 
 			: 'finnish_to_spanish';
-		upcomingWords = selectGameWords(availableWords, selectedGameLength, selectedCategory, direction);
+		const settings = $gameSettings;
+		upcomingWords = await selectGameWords(availableWords, selectedGameLength, selectedCategory, direction, settings.prioritizeFrequency);
 		console.log(`📚 Prepared ${upcomingWords.length} words for next game`);
 	}
 
 	/**
 	 * Generate a randomized queue of words for the entire game
 	 */
-	function generateWordQueue(questionsNeeded: number): Word[] {
+	async function generateWordQueue(questionsNeeded: number): Promise<Word[]> {
 		console.log(`🔀 Generating word queue for ${questionsNeeded} questions...`);
 		
 		if (upcomingWords.length === questionsNeeded) {
@@ -244,7 +246,8 @@
 		const direction: LanguageDirection = questionLanguage === 'spanish' 
 			? 'spanish_to_finnish' 
 			: 'finnish_to_spanish';
-		const selectedWords = selectGameWords(availableWords, questionsNeeded, selectedCategory, direction);
+		const settings = $gameSettings;
+		const selectedWords = await selectGameWords(availableWords, questionsNeeded, selectedCategory, direction, settings.prioritizeFrequency);
 		const finalQueue = spreadOutDuplicates(selectedWords, 5);
 		
 		console.log(`   ✅ Generated queue with ${finalQueue.length} words`);
@@ -345,7 +348,7 @@
 	/**
 	 * Start a new game
 	 */
-	function startGame() {
+	async function startGame() {
 		console.log('🎮 Starting new Yhdistä sanat game');
 		
 		showSanakirja = false;
@@ -357,10 +360,10 @@
 		gameEndTime = 0;
 		
 		if (upcomingWords.length !== selectedGameLength) {
-			prepareNextGameWords();
+			await prepareNextGameWords();
 		}
 		
-		wordQueue = generateWordQueue(selectedGameLength);
+		wordQueue = await generateWordQueue(selectedGameLength);
 		nextQuestion();
 	}
 
@@ -606,11 +609,11 @@
 	/**
 	 * Show game report
 	 */
-	function showGameReport() {
+	async function showGameReport() {
 		gameState = 'report';
 		gameEndTime = Date.now();
 		recordGameCompletion(upcomingWords, selectedCategory);
-		prepareNextGameWords();
+		await prepareNextGameWords();
 
 		// Calculate report statistics
 		reportFirstTryCount = gameQuestions.filter(q => q.isCorrect && q.tipsRequested === 0).length;
@@ -660,11 +663,11 @@
 	/**
 	 * Select a category from the picker modal
 	 */
-	function selectCategory(categoryKey: string) {
+	async function selectCategory(categoryKey: string) {
 		selectedCategory = categoryKey;
 		category.set(selectedCategory);
 		showCategoryPicker = false;
-		prepareNextGameWords();
+		await prepareNextGameWords();
 	}
 
 	/**
@@ -688,11 +691,11 @@
 	/**
 	 * Handle game length change
 	 */
-	function handleGameLengthChange(event: Event) {
+	async function handleGameLengthChange(event: Event) {
 		const target = event.target as HTMLInputElement;
 		selectedGameLength = parseInt(target.value);
 		gameLength.set(selectedGameLength);
-		prepareNextGameWords();
+		await prepareNextGameWords();
 	}
 
 	/**
@@ -748,7 +751,7 @@
 	// Get categories for dropdown (sorted by learning order)
 	let categories: { key: string; name: string; emoji: string; tooltip: string; tier: number }[] = [];
 	
-	onMount(() => {
+	onMount(async () => {
 		// Load question language preference
 		if (typeof localStorage !== 'undefined') {
 			const savedLang = localStorage.getItem(QUESTION_LANGUAGE_KEY);
@@ -769,7 +772,7 @@
 			}))
 		];
 
-		prepareNextGameWords();
+		await prepareNextGameWords();
 	});
 
 	$: wrongAnswers = gameQuestions.filter(q => !q.isCorrect);

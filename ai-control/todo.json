@@ -269,7 +269,7 @@
       "subtasks": [
         { "id": "17.1", "title": "Add frequency badges to game UI", "status": "completed", "deliverable": null, "testRequired": true },
         { "id": "17.2", "title": "Implement smart word selection (prioritize top 1000)", "status": "completed", "deliverable": null, "testRequired": true },
-        { "id": "17.3", "title": "Add 'focus on most common words' setting", "status": "not-started", "deliverable": null, "testRequired": true },
+        { "id": "17.3", "title": "Add 'focus on most common words' setting", "status": "completed", "deliverable": null, "testRequired": true },
         { "id": "17.4", "title": "Show post-game frequency summary", "status": "not-started", "deliverable": null, "testRequired": true }
       ]
     },
