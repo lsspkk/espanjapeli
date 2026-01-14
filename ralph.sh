@@ -3,7 +3,7 @@ setopt ERR_EXIT PIPE_FAIL NO_UNSET
 
 
 # Config
-MAX_ITERS="10"
+MAX_ITERS="50"
 STOP_TOKEN="<promise>COMPLETE</promise>"
 PROJECT_DIR="/home/lvp/study/espanjapeli"
 

@@ -2,6 +2,7 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, waitFor, fireEvent } from '@testing-library/svelte';
 import TarinatPage from './+page.svelte';
 import type { Story } from '$lib/types/story';
+import { createMockStories } from '$tests/mocks/commonMocks';
 
 // Mock the storyLoader service
 vi.mock('$lib/services/storyLoader', () => ({
@@ -9,7 +10,9 @@ vi.mock('$lib/services/storyLoader', () => ({
 	categoryNames: {
 		travel: 'Matkailu',
 		food: 'Ruoka',
-		shopping: 'Ostokset'
+		shopping: 'Ostokset',
+		everyday: 'Arkipäivä',
+		culture: 'Kulttuuri'
 	},
 	getLevelColor: vi.fn((level: string) => {
 		const colors: Record<string, string> = {
@@ -27,103 +30,7 @@ vi.mock('$app/paths', () => ({
 	base: ''
 }));
 
-const mockStories: Story[] = [
-	{
-		id: 'story-1',
-		title: 'Kahvilassa',
-		titleSpanish: 'En la cafetería',
-		description: 'Tilaa kahvia ja leivonnaisia',
-		level: 'A1',
-		category: 'food',
-		icon: '☕',
-		dialogue: [{ speaker: 'María', spanish: 'Buenos días', finnish: 'Hyvää huomenta' }],
-		vocabulary: [{ spanish: 'café', finnish: 'kahvi', english: 'coffee' }],
-		questions: [
-			{
-				id: 'q1',
-				question: 'Mitä María tilaa?',
-				options: ['Kahvi', 'Tee', 'Mehu', 'Vesi'],
-				correctIndex: 0
-			}
-		]
-	},
-	{
-		id: 'story-2',
-		title: 'Ruokakaupassa',
-		titleSpanish: 'En el supermercado',
-		description: 'Osta hedelmiä ja vihanneksia',
-		level: 'A2',
-		category: 'shopping',
-		icon: '🛒',
-		dialogue: [{ speaker: 'Juan', spanish: 'Hola', finnish: 'Hei' }],
-		vocabulary: [{ spanish: 'manzana', finnish: 'omena', english: 'apple' }],
-		questions: [
-			{
-				id: 'q1',
-				question: 'Mitä Juan ostaa?',
-				options: ['Omena', 'Banaani', 'Appelsiini', 'Päärynä'],
-				correctIndex: 0
-			}
-		]
-	},
-	{
-		id: 'story-3',
-		title: 'Asemalla',
-		titleSpanish: 'En la estación',
-		description: 'Osta junalippu',
-		level: 'B1',
-		category: 'travel',
-		icon: '🚂',
-		dialogue: [{ speaker: 'Pedro', spanish: 'Buenas tardes', finnish: 'Hyvää iltapäivää' }],
-		vocabulary: [{ spanish: 'tren', finnish: 'juna', english: 'train' }],
-		questions: [
-			{
-				id: 'q1',
-				question: 'Mihin Pedro matkustaa?',
-				options: ['Madrid', 'Barcelona', 'Valencia', 'Sevilla'],
-				correctIndex: 0
-			}
-		]
-	},
-	{
-		id: 'story-4',
-		title: 'Aamu',
-		titleSpanish: 'La mañana',
-		description: 'Aamupäivän rutiinit',
-		level: 'A1',
-		category: 'everyday',
-		icon: '☀️',
-		dialogue: [{ speaker: 'Ana', spanish: 'Buenos días', finnish: 'Hyvää huomenta' }],
-		vocabulary: [{ spanish: 'mañana', finnish: 'aamu', english: 'morning' }],
-		questions: [
-			{
-				id: 'q1',
-				question: 'Mitä Ana tekee?',
-				options: ['Nukkuu', 'Herää', 'Syö', 'Lukee'],
-				correctIndex: 1
-			}
-		]
-	},
-	{
-		id: 'story-5',
-		title: 'Museo',
-		titleSpanish: 'El museo',
-		description: 'Vierailu museossa',
-		level: 'B2',
-		category: 'culture',
-		icon: '🏛️',
-		dialogue: [{ speaker: 'Guía', spanish: 'Buenas tardes', finnish: 'Hyvää iltapäivää' }],
-		vocabulary: [{ spanish: 'museo', finnish: 'museo', english: 'museum' }],
-		questions: [
-			{
-				id: 'q1',
-				question: 'Missä he ovat?',
-				options: ['Museossa', 'Kirjastossa', 'Kaupassa', 'Kahvilassa'],
-				correctIndex: 0
-			}
-		]
-	}
-];
+const mockStories = createMockStories();
 
 describe('Tarinat Page', () => {
 	beforeEach(async () => {
@@ -140,63 +47,29 @@ describe('Tarinat Page', () => {
 		expect(spinner).toBeInTheDocument();
 	});
 
-	it('renders story list after loading', async () => {
+	it('renders story list with filter and sort controls after loading', async () => {
 		render(TarinatPage);
 
 		await waitFor(() => {
 			expect(screen.getByText(/Tarinat ja dialogit/i)).toBeInTheDocument();
-		});
-
-		// Stories are shown with Spanish titles
-		expect(screen.getByText('En la cafetería')).toBeInTheDocument();
-		expect(screen.getByText('En el supermercado')).toBeInTheDocument();
-		expect(screen.getByText('En la estación')).toBeInTheDocument();
-	});
-
-	it('renders filter and sort controls', async () => {
-		render(TarinatPage);
-
-		await waitFor(() => {
-			expect(screen.getByText(/Tarinat ja dialogit/i)).toBeInTheDocument();
-		});
-
-		// Wait for stories to load
-		await waitFor(() => {
+			// Stories are shown with Spanish titles
 			expect(screen.getByText('En la cafetería')).toBeInTheDocument();
+			expect(screen.getByText('En el supermercado')).toBeInTheDocument();
+			expect(screen.getByText('En la estación')).toBeInTheDocument();
+			
+			// Check for filter buttons
+			const kaikkiButtons = screen.getAllByText(/Kaikki/i);
+			expect(kaikkiButtons.length).toBeGreaterThan(0);
+			expect(screen.getAllByText(/Alkeet/i).length).toBeGreaterThan(0);
+			expect(screen.getAllByText(/Perustaso/i).length).toBeGreaterThan(0);
+			expect(screen.getAllByText(/Keskitaso/i).length).toBeGreaterThan(0);
+			expect(screen.getAllByText(/Edistynyt/i).length).toBeGreaterThan(0);
+			
+			// Check for sort direction button
+			const sortButtons = screen.getAllByRole('button');
+			const sortButton = sortButtons.find((btn) => btn.title === 'A-Z' || btn.title === 'Z-A');
+			expect(sortButton).toBeDefined();
 		});
-
-		// Check for filter buttons (they have both mobile and desktop labels)
-		const kaikkiButtons = screen.getAllByText(/Kaikki/i);
-		expect(kaikkiButtons.length).toBeGreaterThan(0);
-
-		// Check for sort direction button (with title A-Z or Z-A)
-		const sortButtons = screen.getAllByRole('button');
-		const sortButton = sortButtons.find((btn) => btn.title === 'A-Z' || btn.title === 'Z-A');
-		expect(sortButton).toBeDefined();
-	});
-
-	it('has filter by difficulty options available', async () => {
-		render(TarinatPage);
-
-		await waitFor(() => {
-			expect(screen.getByText('En la cafetería')).toBeInTheDocument();
-		});
-
-		// Check that filter buttons exist (they have labels visible as text content)
-		const kaikkiButtons = screen.getAllByText(/Kaikki/i);
-		expect(kaikkiButtons.length).toBeGreaterThan(0);
-
-		const alkeetButtons = screen.getAllByText(/Alkeet/i);
-		expect(alkeetButtons.length).toBeGreaterThan(0);
-
-		const perustasoButtons = screen.getAllByText(/Perustaso/i);
-		expect(perustasoButtons.length).toBeGreaterThan(0);
-
-		const keskitasoButtons = screen.getAllByText(/Keskitaso/i);
-		expect(keskitasoButtons.length).toBeGreaterThan(0);
-
-		const edistyButtons = screen.getAllByText(/Edistynyt/i);
-		expect(edistyButtons.length).toBeGreaterThan(0);
 	});
 
 	it('filters stories by A1 level', async () => {
@@ -268,27 +141,9 @@ describe('Tarinat Page', () => {
 		});
 	});
 
-	it('has sort direction toggle available', async () => {
-		render(TarinatPage);
-
-		await waitFor(() => {
-			expect(screen.getByText('En el supermercado')).toBeInTheDocument();
-		});
-
-		// Check that sort direction button exists
-		const sortButtons = screen.getAllByRole('button');
-		const sortButton = sortButtons.find((btn) => btn.title === 'A-Z' || btn.title === 'Z-A');
-		expect(sortButton).toBeDefined();
-	});
-
 	it('sorts stories by level then alphabetically by default', async () => {
 		render(TarinatPage);
 
-		await waitFor(() => {
-			expect(screen.getByText(/Tarinat ja dialogit/i)).toBeInTheDocument();
-		});
-
-		// Wait for stories to load
 		await waitFor(() => {
 			expect(screen.getByText('En la cafetería')).toBeInTheDocument();
 		});
@@ -297,18 +152,11 @@ describe('Tarinat Page', () => {
 		const elements = screen.getAllByRole('heading', { level: 3 });
 		const titles = elements.map((el) => el.textContent);
 
-		// Stories should be sorted:
-		// 1. By level: A1 < A2 < B1 < B2
-		// 2. By title alphabetically (Finnish): Aamu, Kahvilassa, Ruokakaupassa, Asemalla, Museo
-
-		// A1: Aamu, Kahvilassa (alphabetically by Finnish title)
+		// Stories should be sorted by level: A1 < A2 < B1 < B2, then alphabetically
 		const aamuIndex = titles.findIndex((t) => t?.includes('La mañana'));
 		const kahviIndex = titles.findIndex((t) => t?.includes('En la cafetería'));
-		// A2: Ruokakaupassa
 		const ruokaIndex = titles.findIndex((t) => t?.includes('En el supermercado'));
-		// B1: Asemalla
 		const asemaIndex = titles.findIndex((t) => t?.includes('En la estación'));
-		// B2: Museo
 		const museoIndex = titles.findIndex((t) => t?.includes('El museo'));
 
 		// Verify order: Aamu < Kahvilassa < Ruokakaupassa < Asemalla < Museo
@@ -316,6 +164,13 @@ describe('Tarinat Page', () => {
 		expect(kahviIndex).toBeLessThan(ruokaIndex);
 		expect(ruokaIndex).toBeLessThan(asemaIndex);
 		expect(asemaIndex).toBeLessThan(museoIndex);
+		
+		// All five stories should be visible
+		expect(screen.getByText('En la cafetería')).toBeInTheDocument();
+		expect(screen.getByText('En el supermercado')).toBeInTheDocument();
+		expect(screen.getByText('En la estación')).toBeInTheDocument();
+		expect(screen.getByText('La mañana')).toBeInTheDocument();
+		expect(screen.getByText('El museo')).toBeInTheDocument();
 	});
 
 	it('reverses alphabetical order when sort direction is Z-A', async () => {
@@ -325,11 +180,6 @@ describe('Tarinat Page', () => {
 			expect(screen.getByText('En la cafetería')).toBeInTheDocument();
 		});
 
-		// Get initial order
-		let elements = screen.getAllByRole('heading', { level: 3 });
-		let titles = elements.map((el) => el.textContent);
-		const initialOrder = titles.slice();
-
 		// Click sort direction toggle
 		const sortButtons = screen.getAllByRole('button');
 		const sortButton = sortButtons.find((btn) => btn.title === 'A-Z');
@@ -338,12 +188,10 @@ describe('Tarinat Page', () => {
 		}
 
 		await waitFor(() => {
-			elements = screen.getAllByRole('heading', { level: 3 });
-			titles = elements.map((el) => el.textContent);
+			const elements = screen.getAllByRole('heading', { level: 3 });
+			const titles = elements.map((el) => el.textContent);
 
-			// Within each level group, order should be reversed
-			// But level order should remain the same (A1, A2, B1, B2)
-			// A1: should be Kahvilassa, Aamu (Z-A alphabetically)
+			// Within each level group, order should be reversed (Z-A alphabetically)
 			const kahviIndex = titles.findIndex((t) => t?.includes('En la cafetería'));
 			const aamuIndex = titles.findIndex((t) => t?.includes('La mañana'));
 			expect(kahviIndex).toBeLessThan(aamuIndex);
@@ -352,25 +200,6 @@ describe('Tarinat Page', () => {
 			const ruokaIndex = titles.findIndex((t) => t?.includes('En el supermercado'));
 			expect(aamuIndex).toBeLessThan(ruokaIndex);
 		});
-	});
-	it('displays all stories when no filter is applied', async () => {
-		render(TarinatPage);
-
-		await waitFor(() => {
-			expect(screen.getByText(/Tarinat ja dialogit/i)).toBeInTheDocument();
-		});
-
-		// Wait for stories to load
-		await waitFor(() => {
-			expect(screen.getByText('En la cafetería')).toBeInTheDocument();
-		});
-
-		// All five stories should be visible
-		expect(screen.getByText('En la cafetería')).toBeInTheDocument();
-		expect(screen.getByText('En el supermercado')).toBeInTheDocument();
-		expect(screen.getByText('En la estación')).toBeInTheDocument();
-		expect(screen.getByText('La mañana')).toBeInTheDocument();
-		expect(screen.getByText('El museo')).toBeInTheDocument();
 	});
 
 	it('shows empty state message when no stories available', async () => {

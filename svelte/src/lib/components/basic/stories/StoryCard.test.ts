@@ -2,9 +2,10 @@ import { describe, it, expect } from 'vitest';
 import { render, screen } from '@testing-library/svelte';
 import StoryCard from './StoryCard.svelte';
 import type { Story } from '$lib/types/story';
+import { createMockStory } from '$tests/mocks/commonMocks';
 
 describe('StoryCard', () => {
-	const mockStory: Story = {
+	const mockStory = createMockStory({
 		id: 'test-story',
 		title: 'Test Story',
 		titleSpanish: 'Historia de Prueba',
@@ -15,17 +16,8 @@ describe('StoryCard', () => {
 		dialogue: [
 			{ speaker: 'A', spanish: 'Hola', finnish: 'Hei' },
 			{ speaker: 'B', spanish: 'Adiós', finnish: 'Heippa' }
-		],
-		vocabulary: [],
-		questions: [
-			{
-				question: 'Test?',
-				options: ['A', 'B', 'C', 'D'],
-				correctAnswer: 0,
-				explanation: ''
-			}
 		]
-	};
+	});
 
 	it('renders story title in Spanish', () => {
 		render(StoryCard, { story: mockStory });
