@@ -4,7 +4,6 @@ import {
 	loadStoryById,
 	getStoryById,
 	getStoryMetadata,
-	getStoriesMetadataByDifficulty,
 	getStoriesMetadataByLevel,
 	clearStoryCache
 } from './storyLoader';
@@ -21,8 +20,7 @@ const mockManifest = {
 			title: 'Test Story 1',
 			titleSpanish: 'Historia de Prueba 1',
 			description: 'A test story',
-			difficulty: 'beginner' as const,
-			level: 'A2',
+			level: 'A2' as const,
 			category: 'test',
 			icon: '📖',
 			wordCount: 100,
@@ -35,8 +33,7 @@ const mockManifest = {
 			title: 'Test Story 2',
 			titleSpanish: 'Historia de Prueba 2',
 			description: 'Another test story',
-			difficulty: 'intermediate' as const,
-			level: 'B1',
+			level: 'B1' as const,
 			category: 'test',
 			icon: '📚',
 			wordCount: 150,
@@ -52,7 +49,7 @@ const mockStory1 = {
 	title: 'Test Story 1',
 	titleSpanish: 'Historia de Prueba 1',
 	description: 'A test story',
-	difficulty: 'beginner' as const,
+	level: 'A2' as const,
 	category: 'test',
 	icon: '📖',
 	dialogue: [
@@ -209,19 +206,6 @@ describe('storyLoader', () => {
 		});
 	});
 
-	describe('getStoriesMetadataByDifficulty', () => {
-		it('filters stories by difficulty', async () => {
-			vi.mocked(fetch).mockResolvedValueOnce({
-				ok: true,
-				json: async () => mockManifest
-			} as Response);
-
-			const beginnerStories = await getStoriesMetadataByDifficulty('beginner');
-			
-			expect(beginnerStories).toHaveLength(1);
-			expect(beginnerStories[0].id).toBe('test-story-1');
-		});
-	});
 
 	describe('getStoriesMetadataByLevel', () => {
 		it('filters stories by CEFR level', async () => {

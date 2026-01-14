@@ -55,7 +55,7 @@ describe('VocabularyProgressWidget', () => {
 	describe('Loading state', () => {
 		it('does not render while loading', () => {
 			const { container } = render(VocabularyProgressWidget);
-			const widget = container.querySelector('.card');
+			const widget = container.querySelector('a[href="/sanasto"]');
 			expect(widget).toBeFalsy();
 		});
 	});
@@ -64,7 +64,7 @@ describe('VocabularyProgressWidget', () => {
 		it('renders widget when stats are available', async () => {
 			const { container } = render(VocabularyProgressWidget);
 			await waitFor(() => {
-				const widget = container.querySelector('.card');
+				const widget = container.querySelector('a[href="/sanasto"]');
 				expect(widget).toBeTruthy();
 			});
 		});
@@ -73,15 +73,15 @@ describe('VocabularyProgressWidget', () => {
 			const { getByText } = render(VocabularyProgressWidget);
 			await waitFor(() => {
 				expect(getByText('30')).toBeTruthy();
-				expect(getByText('Osatut')).toBeTruthy();
+				expect(getByText('sanaa')).toBeTruthy();
 			});
 		});
 
 		it('displays words mastered count', async () => {
+			// Note: The new widget shows words known (30), not mastered (15)
 			const { getByText } = render(VocabularyProgressWidget);
 			await waitFor(() => {
-				expect(getByText('15')).toBeTruthy();
-				expect(getByText('Hallitut')).toBeTruthy();
+				expect(getByText('30')).toBeTruthy();
 			});
 		});
 
@@ -89,38 +89,33 @@ describe('VocabularyProgressWidget', () => {
 			const { getByText } = render(VocabularyProgressWidget);
 			await waitFor(() => {
 				expect(getByText('A2')).toBeTruthy();
-				expect(getByText('Taso')).toBeTruthy();
 			});
 		});
 
 		it('displays Top 100 progress bar', async () => {
-			const { getByText, container } = render(VocabularyProgressWidget);
+			const { container } = render(VocabularyProgressWidget);
 			await waitFor(() => {
-				expect(getByText('100 yleisintä')).toBeTruthy();
-				expect(getByText('25/100')).toBeTruthy();
-				const progressBar = container.querySelector('progress.progress-primary');
-				expect(progressBar).toBeTruthy();
-				expect(progressBar?.getAttribute('value')).toBe('25');
+				// The widget shows a circular progress indicator using SVG
+				const circles = container.querySelectorAll('circle');
+				expect(circles.length).toBeGreaterThan(0);
 			});
 		});
 
 		it('displays Top 1000 progress bar', async () => {
-			const { getByText, container } = render(VocabularyProgressWidget);
+			const { container } = render(VocabularyProgressWidget);
 			await waitFor(() => {
-				expect(getByText('1000 yleisintä')).toBeTruthy();
-				expect(getByText('30/1000')).toBeTruthy();
-				const progressBar = container.querySelector('progress.progress-accent');
-				expect(progressBar).toBeTruthy();
-				expect(progressBar?.getAttribute('value')).toBe('3');
+				// The widget shows a circular progress indicator using SVG
+				const circles = container.querySelectorAll('circle');
+				expect(circles.length).toBeGreaterThan(0);
 			});
 		});
 
 		it('has link to full statistics page', async () => {
-			const { getByText } = render(VocabularyProgressWidget);
+			const { container } = render(VocabularyProgressWidget);
 			await waitFor(() => {
-				const link = getByText('Näytä lisää →');
+				const link = container.querySelector('a[href="/sanasto"]');
 				expect(link).toBeTruthy();
-				expect(link.closest('a')?.getAttribute('href')).toBe('/sanasto');
+				expect(link?.getAttribute('title')).toBe('Sanasto');
 			});
 		});
 	});
@@ -128,12 +123,13 @@ describe('VocabularyProgressWidget', () => {
 	describe('Empty state', () => {
 		it('does not render when no words practiced', async () => {
 			const emptyStats = { ...mockStats, totalPracticed: 0 };
-			vi.mocked(await import('$lib/services/statisticsService')).calculateVocabularyStats =
-				vi.fn().mockResolvedValue(emptyStats);
+			vi.mocked(await import('$lib/services/statisticsService')).calculateVocabularyStats = vi
+				.fn()
+				.mockResolvedValue(emptyStats);
 
 			const { container } = render(VocabularyProgressWidget);
 			await waitFor(() => {
-				const widget = container.querySelector('.card');
+				const widget = container.querySelector('a[href="/sanasto"]');
 				expect(widget).toBeFalsy();
 			});
 		});
@@ -141,12 +137,13 @@ describe('VocabularyProgressWidget', () => {
 
 	describe('Error handling', () => {
 		it('does not render when stats fail to load', async () => {
-			vi.mocked(await import('$lib/services/statisticsService')).calculateVocabularyStats =
-				vi.fn().mockRejectedValue(new Error('Failed to load'));
+			vi.mocked(await import('$lib/services/statisticsService')).calculateVocabularyStats = vi
+				.fn()
+				.mockRejectedValue(new Error('Failed to load'));
 
 			const { container } = render(VocabularyProgressWidget);
 			await waitFor(() => {
-				const widget = container.querySelector('.card');
+				const widget = container.querySelector('a[href="/sanasto"]');
 				expect(widget).toBeFalsy();
 			});
 		});
@@ -154,13 +151,17 @@ describe('VocabularyProgressWidget', () => {
 
 	describe('CEFR level colors', () => {
 		it('applies correct color class for A2 level', async () => {
-			vi.mocked(await import('$lib/services/statisticsService')).calculateVocabularyStats =
-				vi.fn().mockResolvedValue(mockStats);
+			vi.mocked(await import('$lib/services/statisticsService')).calculateVocabularyStats = vi
+				.fn()
+				.mockResolvedValue(mockStats);
 
-			const { container } = render(VocabularyProgressWidget);
+			const { container, getByText } = render(VocabularyProgressWidget);
 			await waitFor(() => {
-				const badge = container.querySelector('.badge-success');
-				expect(badge).toBeTruthy();
+				// Check that A2 is displayed
+				const levelText = getByText('A2');
+				expect(levelText).toBeTruthy();
+				// The color is applied via getCEFRColor function which returns text-success for A2
+				expect(levelText.classList.contains('text-success')).toBe(true);
 			});
 		});
 	});

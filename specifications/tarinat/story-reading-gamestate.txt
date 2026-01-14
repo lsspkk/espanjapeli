@@ -1,0 +1,157 @@
+SPECIFICATION: Story Reading Game State (Tarinat)
+================================================
+
+Game Mode: Tarinat (Story Reading)
+Game State: "reading"
+Component: StoryReader.svelte + DialogueLine.svelte
+Last Updated: 2026-01-14
+
+PURPOSE
+-------
+Display Spanish dialogue text with Finnish translations in a clean, readable format 
+that resembles normal text paragraphs rather than UI cards. Users can toggle 
+all translations at once using the bottom bar button.
+
+COMPONENTS
+----------
+- StoryReader.svelte: Main container, manages state, controls, vocabulary view
+- DialogueLine.svelte: Individual dialogue line display with speaker and TTS button
+
+LAYOUT STRUCTURE
+----------------
+
+1. Top Header
+   - TTS player with story title (Spanish and Finnish)
+   - When playing: Shows progress bar for audio playback
+   - When not playing: Shows story titles and action buttons
+   - Action buttons (left of TTS play button):
+     * Translation toggle button (flag icon, e.g. 🇫🇮)
+     * Toggles all translations on/off at once
+     * Similar style to TTS play button
+   - Compact design (px-2 py-1.5)
+   - Border bottom separator
+
+2. Scrollable Content Area
+   - Main reading area with dialogue lines
+   - Padding: px-3 py-3 pb-20 on mobile, md:px-4 on desktop
+   - Bottom padding (pb-20) provides space for fixed bottom bar
+   - Scroll handling for auto-hiding controls
+   - Tap/click handling to toggle control visibility
+
+3. Fixed Bottom Bar (Auto-hiding)
+   - Fixed position at bottom of screen
+   - Auto-hides when scrolling down (after 50px)
+   - Auto-shows when scrolling up or at top
+   - Auto-shows after 3 seconds of no scrolling
+   - Toggle on tap/click in content area
+   - Contains action buttons:
+     * "Käännökset" button (toggles all translations)
+     * "Sanasto" button (shows vocabulary view)
+     * "Kysymyksiin" button (proceeds to questions)
+
+4. Vocabulary View (Alternative Content)
+   - Replaces dialogue when "Sanasto" button clicked
+   - Shows story vocabulary with TTS buttons
+   - Displays word encounter counts from other stories
+   - "Takaisin" button to return to dialogue
+
+DIALOGUE LINE DISPLAY
+---------------------
+
+Visual Style:
+- Plain text paragraphs, no card styling
+- No rounded borders, shadows, or background boxes
+- Minimal spacing between lines (space-y-1 or space-y-2)
+- Reading experience resembles a book or article
+
+Line Structure (Single Row):
+- Speaker name on left
+- No individual TTS buttons per line
+- Simple, clean presentation
+
+Content Area (Flex Layout):
+- Desktop: No flex wrap
+  * Spanish text: 50% width
+  * Finnish text: 50% width (when expanded)
+  * Both texts on same row side-by-side
+- Mobile: No flex wrap
+  * Spanish text: 60% width
+  * Finnish text: 40% width (when expanded)
+  * Both texts on same row side-by-side
+  * Finnish text size: 80% of Spanish text size
+
+Speaker Name:
+- Normal font weight (not bold)
+- Extra small text size (text-xs)
+- Primary color (text-primary or similar accent color)
+- No background box or special styling
+- Positioned at start of line
+- Minimal margin below speaker name (mb-0)
+
+Spanish Text:
+- Normal paragraph text
+- Comfortable reading size (text-base or text-lg)
+- Natural line height (leading-relaxed)
+- Desktop: 50% width in flex container
+- Mobile: 100% width in flex container
+
+Finnish Translation (when expanded):
+- Same font family as Spanish text
+- Color: Same as Spanish text
+- Desktop: 50% width in flex container, same row as Spanish
+- Mobile: 100% width in flex container, wraps to next row
+- Mobile: Font size 80% of Spanish text (0.8em)
+- No padding, borders, or background colors
+- Natural text flow
+
+INTERACTION BEHAVIOR
+--------------------
+- Click/tap "Käännökset" button (bottom bar): Toggle all translations at once
+- Click/tap TTS play button (header): Read entire story
+- Scroll down (>50px): Hide bottom control bar
+- Scroll up or reach top: Show bottom control bar
+- No scroll for 3 seconds: Show bottom control bar
+- Tap/click content area: Toggle control bar visibility
+- Click/tap "Sanasto": Show vocabulary view
+- Click/tap "Kysymyksiin": Proceed to question phase
+
+STATE MANAGEMENT
+----------------
+- expandedLines: Set<number> - Tracks which lines show translation
+- showAllTranslations: boolean - "Show all" mode toggle
+- showVocabulary: boolean - Vocabulary view toggle
+- showControls: boolean - Bottom bar visibility
+- scrollTimeout: Timer for auto-showing controls
+- lastScrollY: Previous scroll position for direction detection
+- readingProgress: Percentage calculated from expandedLines.size / dialogue.length
+
+ACCESSIBILITY
+-------------
+- ARIA labels on buttons and interactive elements
+- Translation toggle icon is keyboard accessible
+- TTS functionality for audio support
+- Scroll and tap handlers with keyboard support
+- Role and tabindex attributes for interactive areas
+
+TECHNICAL IMPLEMENTATION
+------------------------
+- No card styling: No rounded-lg, border, shadow-sm, bg-base-100, bg-base-200
+- Natural text flow without card containers
+- Flex layout for content area with conditional wrap
+- Desktop: flex-nowrap, Spanish 50%, Finnish 50%
+- Mobile: flex-wrap, Spanish 100%, Finnish 100% with 0.8em size
+- Mobile breakpoint: md: prefix for desktop-specific styles
+- TypeScript types: DialogueLine, VocabularyWord from story.ts
+- Props: line, expanded, onToggle for DialogueLine component
+
+DESIGN PHILOSOPHY
+-----------------
+The reading experience should feel like reading a book or article, not interacting 
+with a UI. Cards, borders, and backgrounds create visual noise that distracts from 
+the content. The translation should feel like a natural part of the text, not a 
+separate UI component that "pops in."
+
+On mobile, space is precious. The translation should appear as a subtle subtitle 
+directly below the Spanish text, using the same visual style but smaller, so it 
+feels integrated rather than like a separate element. On desktop, side-by-side 
+layout allows efficient use of screen space for parallel reading.

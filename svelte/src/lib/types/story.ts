@@ -67,8 +67,6 @@ export interface Story {
 	titleSpanish: string; // Spanish title
 	description: string; // Short description
 	
-	// V4: CEFR level replaces difficulty (kept for backward compatibility)
-	difficulty?: 'beginner' | 'intermediate' | 'advanced'; // Deprecated, use level
 	level: 'A1' | 'A2' | 'B1' | 'B2'; // CEFR level
 	
 	category: StoryCategory; // Typed category
@@ -123,60 +121,3 @@ export interface StoryGameResult {
 	completedAt: Date;
 }
 
-/**
- * Migration utility: Convert old difficulty levels to CEFR levels
- * Maps V3 difficulty values to V4 CEFR levels
- */
-export function difficultyToLevel(difficulty: 'beginner' | 'intermediate' | 'advanced'): Story['level'] {
-	const mapping: Record<'beginner' | 'intermediate' | 'advanced', Story['level']> = {
-		'beginner': 'A2',
-		'intermediate': 'B1',
-		'advanced': 'B1'
-	};
-	return mapping[difficulty];
-}
-
-/**
- * Migration utility: Migrate a V3 story to V4 format
- * Converts difficulty to level and adds default V4 fields
- */
-export function migrateStoryToV4(oldStory: Story): Story {
-	const newStory: Story = { ...oldStory };
-	
-	// If story has difficulty, convert it to level (difficulty takes precedence)
-	if (oldStory.difficulty) {
-		newStory.level = difficultyToLevel(oldStory.difficulty);
-	}
-	
-	// Ensure level is set (fallback to A2 if missing)
-	if (!newStory.level) {
-		newStory.level = 'A2';
-	}
-	
-	// Add default V4 metadata if missing
-	if (!newStory.version) {
-		newStory.version = 1;
-	}
-	
-	if (!newStory.createdAt) {
-		newStory.createdAt = new Date().toISOString().split('T')[0];
-	}
-	
-	if (!newStory.updatedAt) {
-		newStory.updatedAt = newStory.createdAt;
-	}
-	
-	// Calculate word count if missing
-	if (!newStory.wordCount && newStory.dialogue.length > 0) {
-		newStory.wordCount = newStory.dialogue.reduce((count, line) => {
-			return count + line.spanish.split(/\s+/).length;
-		}, 0);
-	}
-	
-	// Estimate reading time if missing (assuming 150 words per minute)
-	if (!newStory.estimatedMinutes && newStory.wordCount) {
-		newStory.estimatedMinutes = Math.ceil(newStory.wordCount / 150);
-	}
-	
-	return newStory;
-}

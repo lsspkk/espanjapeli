@@ -19,32 +19,17 @@
 
 	let showAllTranslations = false;
 	let showVocabulary = false;
-	let expandedLines = new Set<number>();
 	let showControls = true;
 	let scrollTimeout: ReturnType<typeof setTimeout> | null = null;
 	let lastScrollY = 0;
 	let contentElement: HTMLDivElement;
 
-	function speakLine(text: string) {
+	function speakWord(text: string) {
 		tts.speakSpanish(text);
 	}
 
 	function toggleAllTranslations() {
 		showAllTranslations = !showAllTranslations;
-		if (showAllTranslations) {
-			expandedLines = new Set(dialogue.map((_, i) => i));
-		} else {
-			expandedLines = new Set();
-		}
-	}
-
-	function toggleLineTranslation(index: number) {
-		if (expandedLines.has(index)) {
-			expandedLines.delete(index);
-		} else {
-			expandedLines.add(index);
-		}
-		expandedLines = expandedLines;
 	}
 
 	function toggleVocabulary() {
@@ -85,33 +70,14 @@
 
 	// Prepare full story text for TTS player
 	$: fullStoryText = dialogue.map(line => line.spanish).join('. ');
-
-	// Calculate reading progress based on expanded lines
-	$: readingProgress = dialogue.length > 0 ? (expandedLines.size / dialogue.length) * 100 : 0;
 </script>
 
 <div class="flex flex-col h-full">
-	<!-- Compact Header with Progress Bar -->
+	<!-- Compact Header with TTS Player -->
 	<div class="border-b border-base-200 bg-base-100">
 		<div class="px-2 py-1.5">
 			<TTSPlayer text={fullStoryText} language="spanish" title={titleSpanish} subtitle={title} />
 		</div>
-		{#if !showVocabulary}
-			<!-- Reading Progress Bar -->
-			<div class="px-2 pb-1.5">
-				<div class="flex items-center gap-2">
-					<div class="flex-1 h-2 bg-base-300 rounded-full overflow-hidden">
-						<div 
-							class="h-full bg-primary transition-all duration-300"
-							style="width: {readingProgress}%"
-						></div>
-					</div>
-					<span class="text-xs text-base-content/60 min-w-[3rem] text-right">
-						{Math.round(readingProgress)}%
-					</span>
-				</div>
-			</div>
-		{/if}
 	</div>
 
 	<!-- Content area with bottom padding for fixed buttons -->
@@ -133,7 +99,7 @@
 					<div class="bg-base-100 rounded border border-base-300 px-3 py-2 flex items-center gap-2">
 						<button 
 							class="btn btn-ghost btn-circle btn-sm flex-shrink-0"
-							on:click={() => speakLine(word.spanish)}
+							on:click={() => speakWord(word.spanish)}
 							title="Kuuntele"
 						>
 							🔊
@@ -158,12 +124,11 @@
 			</div>
 		{:else}
 			<!-- Dialogue view - stacked layout with expandable translations -->
-			<div class="space-y-3">
-				{#each dialogue as line, index}
+			<div class="space-y-1">
+				{#each dialogue as line}
 					<DialogueLineComponent 
 						{line}
-						expanded={expandedLines.has(index)}
-						onToggle={() => toggleLineTranslation(index)}
+						expanded={showAllTranslations}
 					/>
 				{/each}
 			</div>

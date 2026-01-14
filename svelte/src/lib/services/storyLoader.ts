@@ -11,14 +11,13 @@ interface StoryMetadata {
 	title: string;
 	titleSpanish: string;
 	description: string;
-	difficulty: 'beginner' | 'intermediate' | 'advanced';
-	level: string;
+	level: 'A1' | 'A2' | 'B1' | 'B2';
 	category: string;
 	icon: string;
 	wordCount: number;
 	estimatedMinutes: number;
-	vocabularyCount: number;
-	questionCount: number;
+	vocabularyCount?: number;
+	questionCount?: number;
 }
 
 interface StoryManifest {
@@ -131,15 +130,6 @@ export async function getStoryMetadata(): Promise<StoryMetadata[]> {
 	return manifest.stories;
 }
 
-/**
- * Get stories metadata filtered by difficulty
- */
-export async function getStoriesMetadataByDifficulty(
-	difficulty: 'beginner' | 'intermediate' | 'advanced'
-): Promise<StoryMetadata[]> {
-	const manifest = await loadManifest();
-	return manifest.stories.filter((story) => story.difficulty === difficulty);
-}
 
 /**
  * Get stories metadata filtered by CEFR level
@@ -150,12 +140,12 @@ export async function getStoriesMetadataByLevel(level: string): Promise<StoryMet
 }
 
 /**
- * Get stories filtered by difficulty (loads full content)
+ * Get stories filtered by level (loads full content)
  */
-export async function getStoriesByDifficulty(
-	difficulty: 'beginner' | 'intermediate' | 'advanced'
+export async function getStoriesByLevel(
+	level: 'A1' | 'A2' | 'B1' | 'B2'
 ): Promise<Story[]> {
-	const metadata = await getStoriesMetadataByDifficulty(difficulty);
+	const metadata = await getStoriesMetadataByLevel(level);
 	const stories: Story[] = [];
 
 	for (const meta of metadata) {
@@ -212,24 +202,17 @@ export const categoryNames: Record<string, string> = {
 };
 
 /**
- * Difficulty display names in Finnish
+ * Get level color class (muted colors with subtle shading)
  */
-export const difficultyNames: Record<string, string> = {
-	beginner: 'Alkeet',
-	intermediate: 'Keskitaso',
-	advanced: 'Edistynyt'
-};
-
-/**
- * Get difficulty color class (muted colors with subtle shading)
- */
-export function getDifficultyColor(difficulty: string): string {
-	switch (difficulty) {
-		case 'beginner':
+export function getLevelColor(level: string): string {
+	switch (level) {
+		case 'A1':
 			return 'bg-green-100 text-green-700 border-green-200';
-		case 'intermediate':
+		case 'A2':
 			return 'bg-amber-100 text-amber-700 border-amber-200';
-		case 'advanced':
+		case 'B1':
+			return 'bg-orange-100 text-orange-700 border-orange-200';
+		case 'B2':
 			return 'bg-red-100 text-red-700 border-red-200';
 		default:
 			return 'badge-neutral';

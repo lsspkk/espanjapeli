@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
 	import type { Story, StoryQuestionResult, StoryGameState } from '$lib/types/story';
-	import { difficultyNames, getDifficultyColor } from '$lib/services/storyLoader';
+	import { getLevelColor } from '$lib/services/storyLoader';
 	import StoryReader from '$lib/components/basic/stories/StoryReader.svelte';
 	import StoryQuestion from '$lib/components/basic/stories/StoryQuestion.svelte';
 	import StoryReport from '$lib/components/basic/stories/StoryReport.svelte';
@@ -101,8 +101,8 @@
 			<button class="btn btn-ghost btn-sm" on:click={goHome}>
 				← Takaisin
 			</button>
-			<span class="badge {getDifficultyColor(data.story.difficulty)}">
-				{difficultyNames[data.story.difficulty]}
+			<span class="badge {getLevelColor(data.story.level)}">
+				{data.story.level}
 			</span>
 		</div>
 

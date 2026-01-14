@@ -11,18 +11,14 @@ vi.mock('$lib/services/storyLoader', () => ({
 		food: 'Ruoka',
 		shopping: 'Ostokset'
 	},
-	difficultyNames: {
-		A1: 'Alkeet',
-		A2: 'Perustaso',
-		B1: 'Keskitaso'
-	},
-	getDifficultyColor: vi.fn((difficulty: string) => {
+	getLevelColor: vi.fn((level: string) => {
 		const colors: Record<string, string> = {
 			A1: 'badge-success',
 			A2: 'badge-info',
-			B1: 'badge-warning'
+			B1: 'badge-warning',
+			B2: 'badge-error'
 		};
-		return colors[difficulty] || 'badge-neutral';
+		return colors[level] || 'badge-neutral';
 	})
 }));
 
@@ -37,7 +33,6 @@ const mockStories: Story[] = [
 		title: 'Kahvilassa',
 		titleSpanish: 'En la cafetería',
 		description: 'Tilaa kahvia ja leivonnaisia',
-		difficulty: 'beginner',
 		level: 'A1',
 		category: 'food',
 		icon: '☕',
@@ -57,7 +52,6 @@ const mockStories: Story[] = [
 		title: 'Ruokakaupassa',
 		titleSpanish: 'En el supermercado',
 		description: 'Osta hedelmiä ja vihanneksia',
-		difficulty: 'beginner',
 		level: 'A2',
 		category: 'shopping',
 		icon: '🛒',
@@ -77,7 +71,6 @@ const mockStories: Story[] = [
 		title: 'Asemalla',
 		titleSpanish: 'En la estación',
 		description: 'Osta junalippu',
-		difficulty: 'intermediate',
 		level: 'B1',
 		category: 'travel',
 		icon: '🚂',
@@ -97,7 +90,6 @@ const mockStories: Story[] = [
 		title: 'Aamu',
 		titleSpanish: 'La mañana',
 		description: 'Aamupäivän rutiinit',
-		difficulty: 'beginner',
 		level: 'A1',
 		category: 'everyday',
 		icon: '☀️',
@@ -117,7 +109,6 @@ const mockStories: Story[] = [
 		title: 'Museo',
 		titleSpanish: 'El museo',
 		description: 'Vierailu museossa',
-		difficulty: 'intermediate',
 		level: 'B2',
 		category: 'culture',
 		icon: '🏛️',

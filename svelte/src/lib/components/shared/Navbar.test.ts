@@ -31,7 +31,6 @@ describe('Navbar', () => {
 
 		it('renders navigation items', () => {
 			const { getByText } = render(Navbar);
-			expect(getByText('Koti')).toBeTruthy();
 			expect(getByText('Sanasto')).toBeTruthy();
 			expect(getByText('Kielten oppiminen')).toBeTruthy();
 			expect(getByText('Tietoja')).toBeTruthy();
@@ -106,7 +105,6 @@ describe('Navbar', () => {
 			const desktopLinks = container.querySelectorAll('.navbar-end a');
 
 			const hrefs = Array.from(desktopLinks).map((link) => link.getAttribute('href'));
-			expect(hrefs).toContain('/');
 			expect(hrefs).toContain('/sanasto');
 			expect(hrefs).toContain('/kielten-oppiminen');
 			expect(hrefs).toContain('/tietoja');
@@ -120,16 +118,16 @@ describe('Navbar', () => {
 
 			// Check that SVG icons are rendered (Lucide icons render as SVG)
 			const svgIcons = container.querySelectorAll('svg');
-			// Desktop menu has 5 nav items with icons + 1 hamburger icon = 6 minimum
+			// Desktop menu has 4 nav items with icons + 1 hamburger icon = 5 minimum
 			// (Mobile menu icons only render when menu is opened)
-			expect(svgIcons.length).toBeGreaterThanOrEqual(6);
+			expect(svgIcons.length).toBeGreaterThanOrEqual(5);
 		});
 
 		it('desktop icons have 50% opacity', () => {
 			const { container } = render(Navbar);
 			const desktopMenu = container.querySelector('.navbar-end');
 			const icons = desktopMenu?.querySelectorAll('svg');
-			
+
 			icons?.forEach((icon) => {
 				expect(icon.classList.contains('opacity-50')).toBe(true);
 			});
@@ -138,30 +136,30 @@ describe('Navbar', () => {
 		it('renders more icons when mobile menu is opened', async () => {
 			const { container, getByLabelText } = render(Navbar);
 			const hamburger = getByLabelText('Avaa valikko');
-			
+
 			// Count icons before opening menu
 			const iconsBefore = container.querySelectorAll('svg').length;
-			
+
 			// Open mobile menu
 			await fireEvent.click(hamburger);
-			
+
 			// Count icons after opening menu
 			const iconsAfter = container.querySelectorAll('svg').length;
-			
-			// Should have 5 additional nav item icons in mobile menu
+
+			// Should have 4 additional nav item icons in mobile menu
 			expect(iconsAfter).toBeGreaterThan(iconsBefore);
 		});
 
 		it('mobile menu icons have 50% opacity', async () => {
 			const { container, getByLabelText } = render(Navbar);
 			const hamburger = getByLabelText('Avaa valikko');
-			
+
 			// Open mobile menu
 			await fireEvent.click(hamburger);
-			
+
 			const mobileMenu = container.querySelector('.dropdown-content');
 			const icons = mobileMenu?.querySelectorAll('svg');
-			
+
 			icons?.forEach((icon) => {
 				expect(icon.classList.contains('opacity-50')).toBe(true);
 			});
@@ -169,22 +167,25 @@ describe('Navbar', () => {
 	});
 
 	describe('Active page highlighting', () => {
-		it('marks home link as active when on home page', () => {
+		it('does not mark any link as active when on home page', () => {
 			const { container } = render(Navbar);
 			const desktopLinks = container.querySelectorAll('.navbar-end a');
-			const homeLink = Array.from(desktopLinks).find((link) => link.getAttribute('href') === '/');
-			expect(homeLink?.classList.contains('active')).toBe(true);
-		});
-
-		it('does not mark other links as active when on home page', () => {
-			const { container } = render(Navbar);
-			const desktopLinks = container.querySelectorAll('.navbar-end a');
-			const otherLinks = Array.from(desktopLinks).filter(
-				(link) => link.getAttribute('href') !== '/'
-			);
-			otherLinks.forEach((link) => {
+			// Home is not in the navbar anymore, so no links should be active
+			Array.from(desktopLinks).forEach((link) => {
 				expect(link.classList.contains('active')).toBe(false);
 			});
+		});
+
+		it('marks sanasto link as active when on sanasto page', () => {
+			mockPageStore.set({
+				url: new URL('http://localhost/sanasto')
+			});
+			const { container } = render(Navbar);
+			const desktopLinks = container.querySelectorAll('.navbar-end a');
+			const sanastoLink = Array.from(desktopLinks).find(
+				(link) => link.getAttribute('href') === '/sanasto'
+			);
+			expect(sanastoLink?.classList.contains('active')).toBe(true);
 		});
 	});
 

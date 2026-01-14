@@ -50,25 +50,6 @@ describe('StoryReader', () => {
 		expect(screen.getByText('Pedro')).toBeInTheDocument();
 	});
 
-	it('shows translations when line is expanded', async () => {
-		render(StoryReader, {
-			dialogue: mockDialogue,
-			vocabulary: mockVocabulary,
-			title: 'Test Story',
-			titleSpanish: 'Historia de Prueba',
-			onContinue: mockOnContinue
-		});
-
-		// Initially, translations should not be visible
-		expect(screen.queryByText('Hyvää huomenta')).not.toBeInTheDocument();
-
-		// Click to expand first line translation
-		const expandButtons = screen.getAllByText('Näytä käännös');
-		await fireEvent.click(expandButtons[0]);
-
-		// Now translation should be visible
-		expect(screen.getByText('Hyvää huomenta')).toBeInTheDocument();
-	});
 
 	it('toggles all translations with button', async () => {
 		render(StoryReader, {
@@ -174,64 +155,6 @@ describe('StoryReader', () => {
 		fireEvent.click(screen.getByText('Sanasto'));
 
 		expect(screen.getByText('Buenos días, señora')).toBeInTheDocument();
-	});
-
-	it('shows reading progress bar', () => {
-		render(StoryReader, {
-			dialogue: mockDialogue,
-			vocabulary: mockVocabulary,
-			title: 'Test Story',
-			titleSpanish: 'Historia de Prueba',
-			onContinue: mockOnContinue
-		});
-
-		// Progress should start at 0%
-		expect(screen.getByText('0%')).toBeInTheDocument();
-	});
-
-	it('updates progress when lines are expanded', async () => {
-		render(StoryReader, {
-			dialogue: mockDialogue,
-			vocabulary: mockVocabulary,
-			title: 'Test Story',
-			titleSpanish: 'Historia de Prueba',
-			onContinue: mockOnContinue
-		});
-
-		// Initially 0%
-		expect(screen.getByText('0%')).toBeInTheDocument();
-
-		// Expand first line (50% of 2 lines)
-		const expandButtons = screen.getAllByText('Näytä käännös');
-		await fireEvent.click(expandButtons[0]);
-
-		// Should now show 50%
-		expect(screen.getByText('50%')).toBeInTheDocument();
-
-		// Expand second line (100%)
-		await fireEvent.click(expandButtons[1]);
-
-		// Should now show 100%
-		expect(screen.getByText('100%')).toBeInTheDocument();
-	});
-
-	it('hides progress bar when viewing vocabulary', async () => {
-		render(StoryReader, {
-			dialogue: mockDialogue,
-			vocabulary: mockVocabulary,
-			title: 'Test Story',
-			titleSpanish: 'Historia de Prueba',
-			onContinue: mockOnContinue
-		});
-
-		// Progress bar should be visible initially
-		expect(screen.getByText('0%')).toBeInTheDocument();
-
-		// Go to vocabulary
-		await fireEvent.click(screen.getByText('Sanasto'));
-
-		// Progress bar should be hidden
-		expect(screen.queryByText('0%')).not.toBeInTheDocument();
 	});
 
 	it('controls are visible by default', () => {

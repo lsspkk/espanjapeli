@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import type { Story, StoryQuestionResult, StoryGameState } from '$lib/types/story';
-	import { loadStories, categoryNames, difficultyNames, getDifficultyColor } from '$lib/services/storyLoader';
+	import { loadStories, categoryNames, getLevelColor } from '$lib/services/storyLoader';
 	import StoryReader from '$lib/components/basic/stories/StoryReader.svelte';
 	import StoryQuestion from '$lib/components/basic/stories/StoryQuestion.svelte';
 	import StoryCard from '$lib/components/basic/stories/StoryCard.svelte';
@@ -184,10 +184,10 @@
 {:else if gameState === 'reading' && selectedStory}
 	<!-- Reading mode -->
 	<GameContainer gameType="story" buttonMode="basic" showBackButton={false}>
-		<!-- Top bar with difficulty badge and close button -->
+		<!-- Top bar with level badge and close button -->
 		<div class="bg-base-100 border-b border-base-200 p-3 flex items-center justify-between">
-			<span class="badge {getDifficultyColor(selectedStory.difficulty)}">
-				{difficultyNames[selectedStory.difficulty]}
+			<span class="badge {getLevelColor(selectedStory.level)}">
+				{selectedStory.level}
 			</span>
 			<button class="btn btn-ghost btn-circle btn-sm" on:click={goHome} title="Lopeta">
 				✕
