@@ -1008,6 +1008,7 @@
 		{totalScore}
 		maxScore={maxPossibleScore}
 		{wrongAnswers}
+		gameWords={upcomingWords}
 		onHome={goHome}
 	/>
 {/if}
