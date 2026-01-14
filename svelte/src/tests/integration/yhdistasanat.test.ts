@@ -28,6 +28,29 @@ vi.mock('$lib/services/tts', () => ({
 	}
 }));
 
+// Mock vocabularyService for frequency data
+vi.mock('$lib/services/vocabularyService', () => ({
+	getWordsMetadata: async (words: string[]) => {
+		const map = new Map();
+		words.forEach((word, index) => {
+			// Mark words as top 1000 for testing
+			const isTop1000 = index < words.length * 0.7; // 70% are high frequency
+			map.set(word, {
+				spanish: word,
+				frequencyRank: isTop1000 ? index + 1 : index + 1000,
+				cefrLevel: isTop1000 ? 'A1' : 'B1',
+				isTop100: false,
+				isTop500: false,
+				isTop1000: isTop1000,
+				isTop3000: true,
+				isTop5000: true,
+				isInFrequencyData: true
+			});
+		});
+		return map;
+	}
+}));
+
 // Mock localStorage
 const localStorageMock = (() => {
 	let store: Record<string, string> = {};
@@ -104,9 +127,9 @@ describe('Yhdistäsanat Integration Tests', () => {
 			expect(localStorageMock.getItem('test_key')).toBeNull();
 		});
 
-		it('should have word selection service available', () => {
+		it('should have word selection service available', async () => {
 			const allWords = getAllWords();
-			const selectedWords = selectGameWords(allWords, 10, 'all', 'spanish_to_finnish');
+			const selectedWords = await selectGameWords(allWords, 10, 'all', 'spanish_to_finnish');
 			expect(selectedWords).toBeDefined();
 			expect(selectedWords.length).toBe(10);
 		});
@@ -119,37 +142,37 @@ describe('Yhdistäsanat Integration Tests', () => {
 
 	describe('Task 1.9.2: Main Display (Home Screen) Data Integration', () => {
 		describe('Game Configuration Data', () => {
-			it('should support all game length options (10, 21, 42)', () => {
+			it('should support all game length options (10, 21, 42)', async () => {
 				const allWords = getAllWords();
 				const gameLengths = [10, 21, 42];
 				
-				gameLengths.forEach(length => {
-					const selectedWords = selectGameWords(allWords, length, 'all', 'spanish_to_finnish');
+				for (const length of gameLengths) {
+					const selectedWords = await selectGameWords(allWords, length, 'all', 'spanish_to_finnish');
 					expect(selectedWords.length).toBe(length);
-				});
+				}
 			});
 
-			it('should support both language directions', () => {
+			it('should support both language directions', async () => {
 				const allWords = getAllWords();
 				
-				const spanishToFinnish = selectGameWords(allWords, 10, 'all', 'spanish_to_finnish');
+				const spanishToFinnish = await selectGameWords(allWords, 10, 'all', 'spanish_to_finnish');
 				expect(spanishToFinnish.length).toBe(10);
 				
-				const finnishToSpanish = selectGameWords(allWords, 10, 'all', 'finnish_to_spanish');
+				const finnishToSpanish = await selectGameWords(allWords, 10, 'all', 'finnish_to_spanish');
 				expect(finnishToSpanish.length).toBe(10);
 			});
 
-			it('should have "all" category option that includes all words', () => {
+			it('should have "all" category option that includes all words', async () => {
 				const allWords = getAllWords();
-				const selectedWords = selectGameWords(allWords, 10, 'all', 'spanish_to_finnish');
+				const selectedWords = await selectGameWords(allWords, 10, 'all', 'spanish_to_finnish');
 				expect(selectedWords.length).toBe(10);
 			});
 
-			it('should support category-specific word selection', () => {
+			it('should support category-specific word selection', async () => {
 				const categories = getCategoriesByLearningOrder();
 				const testCategory = categories[0];
 				const categoryWords = getWordsFromCategory(testCategory.key);
-				const selectedWords = selectGameWords(categoryWords, 5, testCategory.key, 'spanish_to_finnish');
+				const selectedWords = await selectGameWords(categoryWords, 5, testCategory.key, 'spanish_to_finnish');
 				
 				expect(selectedWords.length).toBeLessThanOrEqual(5);
 				expect(selectedWords.length).toBeGreaterThan(0);
@@ -200,9 +223,9 @@ describe('Yhdistäsanat Integration Tests', () => {
 		});
 
 		describe('Sanakirja (Dictionary) Data', () => {
-			it('should be able to prepare upcoming words for a game', () => {
+			it('should be able to prepare upcoming words for a game', async () => {
 				const allWords = getAllWords();
-				const upcomingWords = selectGameWords(allWords, 10, 'all', 'spanish_to_finnish');
+				const upcomingWords = await selectGameWords(allWords, 10, 'all', 'spanish_to_finnish');
 				
 				expect(upcomingWords.length).toBe(10);
 				upcomingWords.forEach(word => {
@@ -283,9 +306,9 @@ describe('Yhdistäsanat Integration Tests', () => {
 		});
 
 		describe('Word Selection Algorithm', () => {
-			it('should not return duplicate words in a single game', () => {
+			it('should not return duplicate words in a single game', async () => {
 				const allWords = getAllWords();
-				const selectedWords = selectGameWords(allWords, 10, 'all', 'spanish_to_finnish');
+				const selectedWords = await selectGameWords(allWords, 10, 'all', 'spanish_to_finnish');
 				
 				const spanishWords = selectedWords.map(w => w.spanish);
 				const uniqueSpanish = new Set(spanishWords);
@@ -294,7 +317,7 @@ describe('Yhdistäsanat Integration Tests', () => {
 				expect(uniqueSpanish.size).toBe(selectedWords.length);
 			});
 
-			it('should handle small categories gracefully', () => {
+			it('should handle small categories gracefully', async () => {
 				const categories = getCategoriesByLearningOrder();
 				
 				// Find a small category
@@ -306,7 +329,7 @@ describe('Yhdistäsanat Integration Tests', () => {
 				if (smallCategory) {
 					const categoryWords = getWordsFromCategory(smallCategory.key);
 					const requestedCount = 10;
-					const selectedWords = selectGameWords(
+					const selectedWords = await selectGameWords(
 						categoryWords,
 						requestedCount,
 						smallCategory.key,
@@ -319,11 +342,11 @@ describe('Yhdistäsanat Integration Tests', () => {
 				}
 			});
 
-			it('should select words from the correct category', () => {
+			it('should select words from the correct category', async () => {
 				const categories = getCategoriesByLearningOrder();
 				const testCategory = categories[0];
 				const categoryWords = getWordsFromCategory(testCategory.key);
-				const selectedWords = selectGameWords(
+				const selectedWords = await selectGameWords(
 					categoryWords,
 					5,
 					testCategory.key,
@@ -391,7 +414,7 @@ describe('Yhdistäsanat Integration Tests', () => {
 	});
 
 	describe('Integration: Complete Game Flow Data', () => {
-		it('should support a complete game flow from start to finish', () => {
+		it('should support a complete game flow from start to finish', async () => {
 			// 1. Select category
 			const categories = getCategoriesByLearningOrder();
 			const selectedCategory = categories[0];
@@ -403,7 +426,7 @@ describe('Yhdistäsanat Integration Tests', () => {
 			
 			// 3. Select game words
 			const gameLength = 10;
-			const gameWords = selectGameWords(
+			const gameWords = await selectGameWords(
 				categoryWords,
 				gameLength,
 				selectedCategory.key,
@@ -420,9 +443,9 @@ describe('Yhdistäsanat Integration Tests', () => {
 			});
 		});
 
-		it('should support generating answer options for each question', () => {
+		it('should support generating answer options for each question', async () => {
 			const allWords = getAllWords();
-			const gameWords = selectGameWords(allWords, 5, 'all', 'spanish_to_finnish');
+			const gameWords = await selectGameWords(allWords, 5, 'all', 'spanish_to_finnish');
 			
 			gameWords.forEach(correctWord => {
 				// Generate wrong options (simulate game logic)
@@ -496,9 +519,9 @@ describe('Yhdistäsanat Integration Tests', () => {
 		});
 
 		describe('Game State Data Flow', () => {
-			it('should generate complete question data for playing state', () => {
+			it('should generate complete question data for playing state', async () => {
 				const allWords = getAllWords();
-				const gameWords = selectGameWords(allWords, 10, 'all', 'spanish_to_finnish');
+				const gameWords = await selectGameWords(allWords, 10, 'all', 'spanish_to_finnish');
 				const currentWord = gameWords[0];
 				
 				// Simulate question data structure
@@ -530,9 +553,9 @@ describe('Yhdistäsanat Integration Tests', () => {
 				expect(pointsMap[0]).toBe(0);  // Failed
 			});
 
-			it('should generate answer options with correct and wrong answers', () => {
+			it('should generate answer options with correct and wrong answers', async () => {
 				const allWords = getAllWords();
-				const gameWords = selectGameWords(allWords, 5, 'all', 'spanish_to_finnish');
+				const gameWords = await selectGameWords(allWords, 5, 'all', 'spanish_to_finnish');
 				const correctWord = gameWords[0];
 				
 				// Simulate option generation
@@ -564,9 +587,9 @@ describe('Yhdistäsanat Integration Tests', () => {
 		});
 
 		describe('Answer Interaction Flow', () => {
-			it('should handle correct answer flow', () => {
+			it('should handle correct answer flow', async () => {
 				const allWords = getAllWords();
-				const gameWords = selectGameWords(allWords, 5, 'all', 'spanish_to_finnish');
+				const gameWords = await selectGameWords(allWords, 5, 'all', 'spanish_to_finnish');
 				const correctWord = gameWords[0];
 				
 				let triesRemaining = 3;
@@ -932,9 +955,9 @@ describe('Yhdistäsanat Integration Tests', () => {
 		});
 
 		describe('Report Data Persistence', () => {
-			it('should record game completion for knowledge tracking', () => {
+			it('should record game completion for knowledge tracking', async () => {
 				const allWords = getAllWords();
-				const gameWords = selectGameWords(allWords, 5, 'all', 'spanish_to_finnish');
+				const gameWords = await selectGameWords(allWords, 5, 'all', 'spanish_to_finnish');
 				const selectedCategory = 'all';
 				
 				// Verify game completion can be recorded (function exists and is callable)

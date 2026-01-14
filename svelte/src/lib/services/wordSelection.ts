@@ -6,6 +6,7 @@
  * - Uses smart randomization for variety with strategic repetition
  * - Ensures words from recent games appear less frequently
  * - Integrates with word knowledge tracking to prioritize weaker words
+ * - Prioritizes high-frequency words (top 1000) for better learning outcomes
  */
 
 import type { Word } from '$lib/data/words';
@@ -13,6 +14,7 @@ import { get } from 'svelte/store';
 import { wordKnowledge, type LanguageDirection } from '$lib/stores/wordKnowledge';
 import { getAllWords, getWordsFromCategory } from '$lib/data/words';
 import { shuffleArray, spreadOutDuplicates } from '$lib/utils/array';
+import { getWordsMetadata, type WordMetadata } from './vocabularyService';
 
 interface GameHistory {
 	games: string[][]; // Array of arrays of word IDs (spanish text)
@@ -87,19 +89,22 @@ function shuffle<T>(array: T[]): T[] {
  * - 1-2 words from games 2-5 ago (spaced repetition)
  * - Fills remaining slots with least recently used words
  * - Final optimization: replaces well-known words with weaker/unpracticed words
+ * - Prioritizes high-frequency words (top 1000) when available
  * 
  * @param availableWords All words available for selection
  * @param questionsNeeded Number of words needed for the game
  * @param category Category key for history tracking
  * @param direction Language direction for knowledge tracking (optional)
+ * @param prioritizeFrequency Whether to prioritize high-frequency words (default true)
  * @returns Array of selected words
  */
-export function selectGameWords(
+export async function selectGameWords(
 	availableWords: Word[], 
 	questionsNeeded: number, 
 	category: string,
-	direction: LanguageDirection = 'spanish_to_finnish'
-): Word[] {
+	direction: LanguageDirection = 'spanish_to_finnish',
+	prioritizeFrequency: boolean = true
+): Promise<Word[]> {
 	const history = getHistory(category);
 	
 	// Build sets of words from different time periods
@@ -213,8 +218,18 @@ export function selectGameWords(
 		direction
 	);
 	
+	// FREQUENCY-BASED OPTIMIZATION LAYER
+	// Prioritize high-frequency words (top 1000) when enabled
+	let finalWords = optimizedWords;
+	if (prioritizeFrequency) {
+		finalWords = await optimizeWordSelectionByFrequency(
+			optimizedWords,
+			availableWords
+		);
+	}
+	
 	// Final shuffle to randomize order
-	return shuffle(optimizedWords.slice(0, questionsNeeded));
+	return shuffle(finalWords.slice(0, questionsNeeded));
 }
 
 /**
@@ -324,6 +339,121 @@ function optimizeWordSelectionByKnowledge(
 		return finalWords;
 	} catch (error) {
 		console.error('Error in knowledge optimization:', error);
+		// Return original selection if optimization fails
+		return selectedWords;
+	}
+}
+
+/**
+ * Optimize word selection by prioritizing high-frequency words
+ * 
+ * Strategy:
+ * - Identify low-frequency words (not in top 1000) in the selection
+ * - Find high-frequency words (top 1000) not in selection
+ * - Replace 30-40% of low-frequency words with high-frequency words
+ * - Maintains learning focus on most common and useful words
+ * 
+ * @param selectedWords Currently selected words
+ * @param availableWords All available words
+ * @returns Optimized word selection with more high-frequency words
+ */
+async function optimizeWordSelectionByFrequency(
+	selectedWords: Word[],
+	availableWords: Word[]
+): Promise<Word[]> {
+	try {
+		// Get frequency metadata for all words
+		const allSpanishWords = [
+			...new Set([
+				...selectedWords.map(w => w.spanish),
+				...availableWords.map(w => w.spanish)
+			])
+		];
+		
+		const metadataMap = await getWordsMetadata(allSpanishWords);
+		
+		// Categorize selected words by frequency
+		const lowFreqWords: Word[] = [];
+		const highFreqWords: Word[] = [];
+		const selectedSpanishSet = new Set(selectedWords.map(w => w.spanish));
+		
+		for (const word of selectedWords) {
+			const metadata = metadataMap.get(word.spanish);
+			if (metadata && metadata.isTop1000) {
+				highFreqWords.push(word);
+			} else {
+				lowFreqWords.push(word);
+			}
+		}
+		
+		// If most words are already high-frequency, return as-is
+		const highFreqRatio = highFreqWords.length / selectedWords.length;
+		if (highFreqRatio >= 0.7) {
+			console.log(`📊 Frequency optimization: ${highFreqWords.length}/${selectedWords.length} already high-frequency (${Math.round(highFreqRatio * 100)}%)`);
+			return selectedWords;
+		}
+		
+		// Find high-frequency words not in selection
+		const replacementCandidates: Word[] = [];
+		for (const word of availableWords) {
+			// Skip if already selected
+			if (selectedSpanishSet.has(word.spanish)) continue;
+			
+			const metadata = metadataMap.get(word.spanish);
+			if (metadata && metadata.isTop1000) {
+				replacementCandidates.push(word);
+			}
+		}
+		
+		// If no replacement candidates, return as-is
+		if (replacementCandidates.length === 0) {
+			console.log(`📊 Frequency optimization: No high-frequency replacements available`);
+			return selectedWords;
+		}
+		
+		// Shuffle replacement candidates for variety
+		const shuffledReplacements = shuffle(replacementCandidates);
+		
+		// Calculate how many to replace (30-40% of low-frequency words)
+		const replaceCount = Math.min(
+			Math.ceil(lowFreqWords.length * 0.35),
+			shuffledReplacements.length,
+			lowFreqWords.length
+		);
+		
+		if (replaceCount === 0) {
+			return selectedWords;
+		}
+		
+		// Shuffle low-frequency words to randomly select which to replace
+		const shuffledLowFreq = shuffle(lowFreqWords);
+		const toReplace = new Set(
+			shuffledLowFreq.slice(0, replaceCount).map(w => w.spanish)
+		);
+		
+		// Build final selection
+		const finalWords: Word[] = [];
+		let replacementIndex = 0;
+		
+		for (const word of selectedWords) {
+			if (toReplace.has(word.spanish) && replacementIndex < shuffledReplacements.length) {
+				finalWords.push(shuffledReplacements[replacementIndex]);
+				replacementIndex++;
+			} else {
+				finalWords.push(word);
+			}
+		}
+		
+		const newHighFreqCount = finalWords.filter(w => {
+			const metadata = metadataMap.get(w.spanish);
+			return metadata && metadata.isTop1000;
+		}).length;
+		
+		console.log(`📊 Frequency optimization: Replaced ${replaceCount} low-frequency words. High-frequency: ${highFreqWords.length} → ${newHighFreqCount}`);
+		
+		return finalWords;
+	} catch (error) {
+		console.error('Error in frequency optimization:', error);
 		// Return original selection if optimization fails
 		return selectedWords;
 	}
@@ -444,15 +574,17 @@ export function getAvailableWords(category: string): Word[] {
  * @param category Category key
  * @param gameLength Number of words needed
  * @param direction Language direction for knowledge tracking
+ * @param prioritizeFrequency Whether to prioritize high-frequency words
  * @returns Array of selected words for the upcoming game
  */
-export function prepareNextGameWords(
+export async function prepareNextGameWords(
 	category: string,
 	gameLength: number,
-	direction: LanguageDirection = 'spanish_to_finnish'
-): Word[] {
+	direction: LanguageDirection = 'spanish_to_finnish',
+	prioritizeFrequency: boolean = true
+): Promise<Word[]> {
 	const availableWords = getAvailableWords(category);
-	const selectedWords = selectGameWords(availableWords, gameLength, category, direction);
+	const selectedWords = await selectGameWords(availableWords, gameLength, category, direction, prioritizeFrequency);
 	console.log(`📚 Prepared ${selectedWords.length} words for next game`);
 	return selectedWords;
 }
@@ -466,15 +598,17 @@ export function prepareNextGameWords(
  * @param upcomingWords Optional pre-prepared words (if they match questionsNeeded, they'll be used)
  * @param minDistance Minimum distance between duplicate words (default 5)
  * @param direction Language direction for knowledge tracking
+ * @param prioritizeFrequency Whether to prioritize high-frequency words
  * @returns Array of words with duplicates spread out
  */
-export function generateWordQueue(
+export async function generateWordQueue(
 	category: string,
 	questionsNeeded: number,
 	upcomingWords?: Word[],
 	minDistance: number = 5,
-	direction: LanguageDirection = 'spanish_to_finnish'
-): Word[] {
+	direction: LanguageDirection = 'spanish_to_finnish',
+	prioritizeFrequency: boolean = true
+): Promise<Word[]> {
 	console.log(`🔀 Generating word queue for ${questionsNeeded} questions...`);
 	
 	// If upcomingWords are provided and match the needed count, use them
@@ -488,7 +622,7 @@ export function generateWordQueue(
 	const availableWords = getAvailableWords(category);
 	console.log(`   Available words in category: ${availableWords.length}`);
 	
-	const selectedWords = selectGameWords(availableWords, questionsNeeded, category, direction);
+	const selectedWords = await selectGameWords(availableWords, questionsNeeded, category, direction, prioritizeFrequency);
 	
 	// Spread out duplicates
 	const finalQueue = spreadOutDuplicates(selectedWords, minDistance);
