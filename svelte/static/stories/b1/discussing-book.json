@@ -143,7 +143,7 @@
         "Viime yönä",
         "Viikko sitten",
         "Eilen iltapäivällä",
-        "This morning"
+        "Tänä aamuna"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -165,7 +165,7 @@
         "Kyllä, viime vuodelta",
         "Ei",
         "Ei mainittu",
-        "Coming soon"
+        "Tulossa pian"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -173,9 +173,9 @@
     {
       "question": "Mitä Marcos ajattelee kirjoitustyylistä?",
       "options": [
-        "Very descriptive",
+        "Hyvin kuvaileva",
         "Liian yksinkertaista",
-        "Boring",
+        "Tylsä",
         "Nopeatempoinen"
       ],
       "correctIndex": 0,

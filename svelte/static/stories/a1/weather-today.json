@@ -96,9 +96,9 @@
       "question": "Millainen sää on tänään?",
       "options": [
         "Aurinkoista ja kuumaa",
-        "Rainy",
-        "Cold",
-        "Cloudy"
+        "Sateinen",
+        "Kylmä",
+        "Pilvinen"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -117,10 +117,10 @@
     {
       "question": "Millainen sää on huomenna?",
       "options": [
-        "Rainy",
-        "Sunny",
-        "Hot",
-        "Cold"
+        "Sateinen",
+        "Aurinkoinen",
+        "Kuuma",
+        "Kylmä"
       ],
       "correctIndex": 0,
       "explanation": ""

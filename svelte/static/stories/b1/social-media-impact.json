@@ -140,20 +140,20 @@
     {
       "question": "Kuinka monta tuntia Miguel viettää päivittäin sosiaalisessa mediassa?",
       "options": [
-        "3-4 hours",
-        "1-2 hours",
-        "5-6 hours",
-        "8 hours"
+        "3-4 tuntia",
+        "1-2 tuntia",
+        "5-6 tuntia",
+        "8 tuntia"
       ],
       "correctIndex": 0,
       "explanation": ""
     },
     {
-      "question": "Why did Teresa try to reduce her social media use?",
+      "question": "Miksi Teresa yritti vähentää sosiaalisen median käyttöään?",
       "options": [
         "Se vaikutti hänen tuottavuuteensa",
         "Hän oli tylsistynyt",
-        "Her phone broke",
+        "Hänen puhelimensa rikkoutui",
         "Joku käski häntä tekemään niin"
       ],
       "correctIndex": 0,
@@ -164,8 +164,8 @@
       "options": [
         "Ilmoitukset",
         "Hänen kertomuksensa",
-        "Her phone",
-        "Her computer"
+        "Hänen puhelimensa",
+        "Hänen tietokoneensa"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -174,9 +174,9 @@
       "question": "Miltä Teresa nyt tuntuu verrattuna aiempaan?",
       "options": [
         "Enemmän läsnä oikeassa elämässä",
-        "More stressed",
+        "Stressaantuneempi",
         "Eristäytyneempi",
-        "More bored"
+        "Tylsistyneempi"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -187,7 +187,7 @@
         "Ahdistus ja masennus",
         "Parempi terveys",
         "Parantuneet suhteet",
-        "Higher intelligence"
+        "Korkeampi älykkyys"
       ],
       "correctIndex": 0,
       "explanation": ""

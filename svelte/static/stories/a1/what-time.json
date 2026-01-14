@@ -73,10 +73,10 @@
     {
       "question": "Paljonko kello on nyt?",
       "options": [
-        "3 PM",
-        "8 PM",
-        "12 PM",
-        "5 PM"
+        "15:00",
+        "20:00",
+        "12:00",
+        "17:00"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -84,10 +84,10 @@
     {
       "question": "Milloin kauppa suljetaan?",
       "options": [
-        "8 PM",
-        "3 PM",
-        "6 PM",
-        "10 PM"
+        "20:00",
+        "15:00",
+        "18:00",
+        "22:00"
       ],
       "correctIndex": 0,
       "explanation": ""

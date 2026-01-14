@@ -10,8 +10,8 @@ describe('GameContainer', () => {
 				onBack
 			}
 		});
-		
-		expect(getByText('Valikko')).toBeTruthy();
+
+		expect(getByText('Takaisin')).toBeTruthy();
 	});
 
 	it('shows kids mode button when buttonMode is kids', () => {
@@ -22,7 +22,7 @@ describe('GameContainer', () => {
 				buttonMode: 'kids'
 			}
 		});
-		
+
 		const icon = container.querySelector('span.text-xl');
 		expect(icon?.textContent).toBe('🏠');
 	});
@@ -35,8 +35,8 @@ describe('GameContainer', () => {
 				onBack
 			}
 		});
-		
-		expect(queryByText('Valikko')).toBeNull();
+
+		expect(queryByText('Takaisin')).toBeNull();
 	});
 
 	it('does not show back button when onBack is not provided', () => {
@@ -45,8 +45,8 @@ describe('GameContainer', () => {
 				showBackButton: true
 			}
 		});
-		
-		expect(queryByText('Valikko')).toBeNull();
+
+		expect(queryByText('Takaisin')).toBeNull();
 	});
 
 	it('calls onBack when back button is clicked', () => {
@@ -56,13 +56,12 @@ describe('GameContainer', () => {
 				onBack
 			}
 		});
-		
-		const backButton = getByText('Valikko');
+
+		const backButton = getByText('Takaisin');
 		backButton.click();
-		
+
 		expect(onBack).toHaveBeenCalledTimes(1);
 	});
-
 
 	it('has correct container structure with card classes', () => {
 		const onBack = vi.fn();
@@ -71,11 +70,11 @@ describe('GameContainer', () => {
 				onBack
 			}
 		});
-		
+
 		// Check outer container has correct classes
 		const outerDiv = container.querySelector('.min-h-screen.bg-base-200');
 		expect(outerDiv).toBeTruthy();
-		
+
 		// Check card container has correct classes (default gameType='basic' uses max-w-4xl)
 		const cardDiv = container.querySelector('.card.bg-base-100.shadow-xl');
 		expect(cardDiv).toBeTruthy();
@@ -91,7 +90,7 @@ describe('GameContainer', () => {
 				gameType: 'story'
 			}
 		});
-		
+
 		const cardDiv = container.querySelector('.card.bg-base-100.shadow-xl');
 		expect(cardDiv?.classList.contains('md:max-w-3xl')).toBe(true);
 	});
@@ -102,10 +101,10 @@ describe('GameContainer', () => {
 				gameType: 'viewport-fitted'
 			}
 		});
-		
+
 		const outerDiv = container.querySelector('.h-screen.bg-base-200');
 		expect(outerDiv).toBeTruthy();
-		
+
 		const cardDiv = container.querySelector('.card.bg-base-100.shadow-xl');
 		expect(cardDiv?.classList.contains('md:max-w-4xl')).toBe(true);
 		expect(cardDiv?.classList.contains('min-h-[600px]')).toBe(true);

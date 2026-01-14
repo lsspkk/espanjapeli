@@ -118,10 +118,10 @@
     {
       "question": "Missä ovat historiankirjat?",
       "options": [
-        "Second floor, section B",
-        "First floor",
-        "Third floor",
-        "Ground floor"
+        "Toinen kerros, osasto B",
+        "Ensimmäinen kerros",
+        "Kolmas kerros",
+        "Pohjakerros"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -130,8 +130,8 @@
       "question": "Mitä opiskelija tarvitsee lainatakseen kirjoja?",
       "options": [
         "Kirjastokortti",
-        "Money",
-        "ID",
+        "Raha",
+        "Henkilökortti",
         "Ei mitään"
       ],
       "correctIndex": 0,
@@ -151,10 +151,10 @@
     {
       "question": "Kuinka kauan kirjoja voi lainata?",
       "options": [
-        "2 weeks",
-        "1 week",
-        "1 month",
-        "3 weeks"
+        "2 viikkoa",
+        "1 viikko",
+        "1 kuukausi",
+        "3 viikkoa"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -162,10 +162,10 @@
     {
       "question": "Mitä sinun täytyy tehdä käyttääksesi tietokoneita?",
       "options": [
-        "Reserve",
+        "Varata",
         "Palkka",
         "Ei mitään",
-        "Show ID"
+        "Näyttää henkilökortti"
       ],
       "correctIndex": 0,
       "explanation": ""

@@ -111,7 +111,7 @@
       "options": [
         "Ei käynnisty",
         "Rengasrikko",
-        "Broken window",
+        "Rikkinäinen ikkuna",
         "Ei polttoainetta"
       ],
       "correctIndex": 0,
@@ -120,10 +120,10 @@
     {
       "question": "Mitä ääntä auto pitää?",
       "options": [
-        "Click",
-        "Beep",
-        "Whistle",
-        "Pam"
+        "Napsahdus",
+        "Piippaus",
+        "Vinkuna",
+        "Pamaus"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -132,8 +132,8 @@
       "question": "Mitä mekaanikko ajattelee ongelman olevan?",
       "options": [
         "Akku",
-        "Engine",
-        "Tires",
+        "Moottori",
+        "Renkaat",
         "Jarrut"
       ],
       "correctIndex": 0,
@@ -142,10 +142,10 @@
     {
       "question": "Paljonko se maksaa suunnilleen?",
       "options": [
-        "80 euros",
-        "100 euros",
-        "50 euros",
-        "120 euros"
+        "80 euroa",
+        "100 euroa",
+        "50 euroa",
+        "120 euroa"
       ],
       "correctIndex": 0,
       "explanation": ""

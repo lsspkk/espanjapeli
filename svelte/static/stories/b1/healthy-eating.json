@@ -145,10 +145,10 @@
     {
       "question": "Mitä potilas yleensä syö aamupalaksi?",
       "options": [
-        "Just coffee",
+        "Vain kahvia",
         "Malja",
         "Ei mitään",
-        "Eggs"
+        "Munia"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -159,7 +159,7 @@
         "Kaurapuuroa hedelmien kanssa tai jogurttia granolan kanssa",
         "Paahtoleipä ja mehua",
         "Muroja",
-        "Eggs"
+        "Munia"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -167,10 +167,10 @@
     {
       "question": "Mitä potilaan tulisi vähentää?",
       "options": [
-        "Processed food",
+        "Prosessoitua ruokaa",
         "Kaikki rasvat",
-        "Fruits",
-        "Vesi"
+        "Hedelmiä",
+        "Vettä"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -179,9 +179,9 @@
       "question": "Mitkä terveelliset rasvat mainitaan?",
       "options": [
         "Avokado ja oliiviöljy",
-        "Butter",
-        "Coconut oil",
-        "Cheese"
+        "Voita",
+        "Kookosöljyä",
+        "Juustoa"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -190,8 +190,8 @@
       "question": "Kuinka paljon vettä potilaan tulisi juoda päivittäin?",
       "options": [
         "Vähintään 2 litraa",
-        "1 liter",
-        "3 liters",
+        "1 litra",
+        "3 litraa",
         "Puoli litraa"
       ],
       "correctIndex": 0,

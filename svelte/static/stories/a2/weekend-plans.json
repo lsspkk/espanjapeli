@@ -116,17 +116,17 @@
       "options": [
         "Elokuvissa käynti",
         "Menossa parkkiin",
-        "Working",
+        "Työskentelee",
         "Kotona pysyminen"
       ],
       "correctIndex": 0,
       "explanation": ""
     },
     {
-      "question": "Why can't Laura go on Saturday?",
+      "question": "Miksi Laura ei voi tulla lauantaina?",
       "options": [
-        "She works",
-        "She's sick",
+        "Hän työskentelee",
+        "Hän on sairas",
         "Hänellä on suunnitelmia",
         "Hän ei halua"
       ],
@@ -139,7 +139,7 @@
         "Mene puistoon",
         "Mene elokuviin",
         "Pysy kotona",
-        "Work"
+        "Työskentelevät"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -147,10 +147,10 @@
     {
       "question": "Mihin aikaan he tapaavat?",
       "options": [
-        "11 AM",
-        "10 AM",
-        "12 PM",
-        "2 PM"
+        "11:00",
+        "10:00",
+        "12:00",
+        "14:00"
       ],
       "correctIndex": 0,
       "explanation": ""

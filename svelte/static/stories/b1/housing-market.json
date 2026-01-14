@@ -177,8 +177,8 @@
       "options": [
         "Hajauttaminen",
         "Palkkojen nostaminen",
-        "Reducing hours",
-        "Remote work only"
+        "Tuntien vähentäminen",
+        "Vain etätyö"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -187,8 +187,8 @@
       "question": "Mitä taloustieteilijä sanoo, että parantuminen on tarpeen?",
       "options": [
         "Todellinen poliittinen tahto",
-        "More time",
-        "Foreign investment",
+        "Lisää aikaa",
+        "Ulkomainen investointi",
         "Alhaisemmat korot"
       ],
       "correctIndex": 0,

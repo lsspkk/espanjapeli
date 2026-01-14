@@ -6,7 +6,7 @@ describe('BackButton', () => {
 	describe('Basic mode (default)', () => {
 		it('renders with Finnish text and arrow', () => {
 			const { getByText } = render(BackButton);
-			expect(getByText('Valikko')).toBeTruthy();
+			expect(getByText('Takaisin')).toBeTruthy();
 			expect(getByText('←')).toBeTruthy();
 		});
 
@@ -27,7 +27,7 @@ describe('BackButton', () => {
 		it('calls onClick when clicked', () => {
 			const onClick = vi.fn();
 			const { getByText } = render(BackButton, { props: { onClick } });
-			const button = getByText('Valikko');
+			const button = getByText('Takaisin');
 			button.click();
 			expect(onClick).toHaveBeenCalledTimes(1);
 		});

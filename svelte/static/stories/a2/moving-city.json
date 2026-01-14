@@ -118,10 +118,10 @@
     {
       "question": "Milloin Carlos muuttaa?",
       "options": [
-        "Next month",
-        "This week",
+        "Ensi kuussa",
+        "Tällä viikolla",
         "Huomenna",
-        "In two months"
+        "Kahden kuukauden kuluttua"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -141,7 +141,7 @@
       "question": "Milloin uusi työ alkaa?",
       "options": [
         "15. päivä",
-        "Next month",
+        "Ensi kuussa",
         "Huomenna",
         "Ensimmäisenä päivänä"
       ],
@@ -163,7 +163,7 @@
       "question": "Miltä Carlosista tuntuu muutosta?",
       "options": [
         "Hermostunut ja innoissaan",
-        "Only nervous",
+        "Vain hermostunut",
         "Vain onnellinen",
         "Vihainen"
       ],

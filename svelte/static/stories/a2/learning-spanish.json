@@ -123,9 +123,9 @@
     {
       "question": "Kuinka kauan Tom on opiskellut espanjaa?",
       "options": [
-        "6 months",
+        "6 kuukautta",
         "1 vuosi",
-        "3 months",
+        "3 kuukautta",
         "2 vuotta"
       ],
       "correctIndex": 0,
@@ -137,7 +137,7 @@
         "Epäsäännölliset verbit ja konjunktiivi",
         "Sanasto",
         "Lukeminen",
-        "Listening"
+        "Kuuntelu"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -146,9 +146,9 @@
       "question": "Kuinka paljon Tomin pitäisi harjoitella päivittäin Anan mukaan?",
       "options": [
         "Vähintään 15 minuuttia",
-        "1 hour",
-        "30 minutes",
-        "2 hours"
+        "1 tunti",
+        "30 minuuttia",
+        "2 tuntia"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -157,9 +157,9 @@
       "question": "Mitä Tomin pitäisi kuunnella ääntämyksessä?",
       "options": [
         "Podcastit",
-        "Music",
+        "Musiikki",
         "Radio",
-        "News"
+        "Uutiset"
       ],
       "correctIndex": 0,
       "explanation": ""

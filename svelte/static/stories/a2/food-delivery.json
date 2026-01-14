@@ -128,9 +128,9 @@
       "question": "Minkä kokoista pizzaa asiakas tilaa?",
       "options": [
         "Suuri",
-        "Medium",
+        "Keskikokoinen",
         "Pieni",
-        "Extra large"
+        "Erittäin suuri"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -141,7 +141,7 @@
         "Kinkku ja juusto",
         "Pepperoni",
         "Vihannekset",
-        "Mushrooms"
+        "Sienet"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -171,10 +171,10 @@
     {
       "question": "Kuinka kauan toimitus kestää?",
       "options": [
-        "30 minutes",
-        "45 minutes",
-        "20 minutes",
-        "1 hour"
+        "30 minuuttia",
+        "45 minuuttia",
+        "20 minuuttia",
+        "1 tunti"
       ],
       "correctIndex": 0,
       "explanation": ""

@@ -137,7 +137,7 @@
       "question": "Mitkä ovat mainitsemat ilmastonmuutoksen pääasialliset syyt?",
       "options": [
         "Fossiiliset polttoaineet ja metsäkato",
-        "Industry only",
+        "Vain teollisuus",
         "Vain autot",
         "Muovi"
       ],
@@ -148,8 +148,8 @@
       "question": "Mitä Carlosin perhe on asentanut?",
       "options": [
         "Aurinkopaneelit",
-        "Wind turbine",
-        "New windows",
+        "Tuuliturbiini",
+        "Uudet ikkunat",
         "Ilmastointi"
       ],
       "correctIndex": 0,
@@ -158,16 +158,16 @@
     {
       "question": "Miten Ana pääsee kouluun?",
       "options": [
-        "By bicycle",
+        "Polkupyörällä",
         "Autolla",
-        "By bus",
+        "Bussilla",
         "Kävely"
       ],
       "correctIndex": 0,
       "explanation": ""
     },
     {
-      "question": "According to the teacher, can we reverse all damage?",
+      "question": "Opettajan mukaan, voimmeko korjata kaiken vahingon?",
       "options": [
         "Ei, jotkut vaikutukset ovat peruuttamattomia",
         "Kyllä, täysin",
@@ -183,7 +183,7 @@
         "Jokainen toiminto on tärkeä",
         "Heillä ei ole väliä",
         "Vain suuret teot auttavat",
-        "It depends"
+        "Riippuu tilanteesta"
       ],
       "correctIndex": 0,
       "explanation": ""

@@ -137,7 +137,7 @@
       "question": "Mikä isoisällä on vaikeuksia?",
       "options": [
         "Uuden puhelimen käyttö",
-        "The TV",
+        "Televisio",
         "Tietokone",
         "Radio"
       ],
@@ -160,7 +160,7 @@
       "options": [
         "Jotain rikkoo",
         "Väärän henkilön soittaminen",
-        "Spending money",
+        "Rahan tuhlaaminen",
         "Kadonneet valokuvat"
       ],
       "correctIndex": 0,
@@ -170,7 +170,7 @@
       "question": "Mitä isoisä voi nyt tehdä muuta kuin soittaa?",
       "options": [
         "Videopuhelut, valokuvat, ääniviestit",
-        "Only text",
+        "Vain teksti",
         "Vain sähköposti",
         "Ei mitään muuta"
       ],
@@ -180,7 +180,7 @@
     {
       "question": "Tyttärentyttären mukaan, mitä teknologia on tehnyt?",
       "options": [
-        "Connected us more",
+        "Yhdistänyt meitä enemmän",
         "Se teki meistä yksinäisempiä",
         "Tuhlasimme aikaamme",
         "Ei muuttanut mitään"

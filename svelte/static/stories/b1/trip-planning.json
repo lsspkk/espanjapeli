@@ -149,10 +149,10 @@
     {
       "question": "Milloin Elena aikoo matkustaa?",
       "options": [
-        "Next summer",
-        "Next winter",
+        "Ensi kesänä",
+        "Ensi talvena",
         "Tänä syksynä",
-        "In spring"
+        "Keväällä"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -172,7 +172,7 @@
       "question": "Kuinka pitkäksi aikaa Diego suosittelee matkalle?",
       "options": [
         "Vähintään kaksi viikkoa",
-        "One week",
+        "Yksi viikko",
         "Kuukausi",
         "Kymmenen päivää"
       ],
@@ -183,9 +183,9 @@
       "question": "Mikä on kallista matkustamisessa Peruun?",
       "options": [
         "Lennot",
-        "Hotels",
-        "Food",
-        "Everything"
+        "Hotellit",
+        "Ruoka",
+        "Kaikki"
       ],
       "correctIndex": 0,
       "explanation": ""

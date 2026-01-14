@@ -109,10 +109,10 @@
     {
       "question": "Paljonko kokonaissumma on?",
       "options": [
-        "3 euros",
-        "5 euros",
-        "2 euros",
-        "4 euros"
+        "3 euroa",
+        "5 euroa",
+        "2 euroa",
+        "4 euroa"
       ],
       "correctIndex": 0,
       "explanation": ""

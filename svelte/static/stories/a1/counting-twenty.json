@@ -95,10 +95,10 @@
     {
       "question": "Mitä he laskevat?",
       "options": [
-        "Twenty",
-        "Ten",
-        "Thirty",
-        "Fifteen"
+        "Kaksikymmentä",
+        "Kymmenen",
+        "Kolmaskymmentä",
+        "Viisitoista"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -106,10 +106,10 @@
     {
       "question": "Kuinka monta sormea oppilaalla on?",
       "options": [
-        "Ten",
-        "Five",
-        "Twenty",
-        "Eight"
+        "Kymmenen",
+        "Viisi",
+        "Kaksikymmentä",
+        "Kahdeksan"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -117,10 +117,10 @@
     {
       "question": "Kuinka monta omenaa on?",
       "options": [
-        "Five",
-        "Three",
-        "Ten",
-        "Seven"
+        "Viisi",
+        "Kolme",
+        "Kymmenen",
+        "Seitsemän"
       ],
       "correctIndex": 0,
       "explanation": ""

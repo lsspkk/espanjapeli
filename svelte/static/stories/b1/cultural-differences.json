@@ -137,9 +137,9 @@
       "question": "Mihin aikaan espanjalaiset yleensä syövät illallista?",
       "options": [
         "Klo 21–22 välillä",
-        "6 PM",
-        "7 PM",
-        "8 PM"
+        "18:00",
+        "19:00",
+        "20:00"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -148,9 +148,9 @@
       "question": "Mihin aikaan Emman maa syö illallista?",
       "options": [
         "Noin klo 18",
-        "9 PM",
-        "8 PM",
-        "10 PM"
+        "21:00",
+        "20:00",
+        "22:00"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -160,8 +160,8 @@
       "options": [
         "Iltapäivän välipala",
         "Aamiainen",
-        "Lunch",
-        "Dinner"
+        "Lounas",
+        "Illallinen"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -170,8 +170,8 @@
       "question": "Missä siesta-perinnettä vielä yllätetään?",
       "options": [
         "Kylissä",
-        "In cities",
-        "Everywhere",
+        "Kaupungeissa",
+        "Kaikkialla",
         "Ei missään"
       ],
       "correctIndex": 0,
@@ -194,7 +194,7 @@
         "Sopeutuminen uuteen kulttuuriin",
         "Kielen oppiminen",
         "Ystävystyminen",
-        "Finding work"
+        "Työn löytäminen"
       ],
       "correctIndex": 0,
       "explanation": ""

@@ -100,10 +100,10 @@
     {
       "question": "Kuinka monta lemmikkiä Pedrolla on?",
       "options": [
-        "Two",
-        "One",
-        "Three",
-        "Four"
+        "Kaksi",
+        "Yksi",
+        "Kolme",
+        "Neljä"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -114,7 +114,7 @@
         "Sininen ja keltainen",
         "Musta",
         "Punainen ja vihreä",
-        "White"
+        "Valkoinen"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -122,10 +122,10 @@
     {
       "question": "Miten koiraa kuvataan?",
       "options": [
-        "Friendly",
+        "Ystävällinen",
         "Pieni",
         "Musta",
-        "Blue"
+        "Sininen"
       ],
       "correctIndex": 0,
       "explanation": ""

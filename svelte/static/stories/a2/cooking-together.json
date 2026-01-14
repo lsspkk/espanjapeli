@@ -121,7 +121,7 @@
         "Paella",
         "Pizza",
         "Pasta",
-        "Soup"
+        "Keitto"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -129,9 +129,9 @@
     {
       "question": "Mitä pojan pitäisi leikata?",
       "options": [
-        "Peppers",
-        "Chicken",
-        "Onions",
+        "Paprikat",
+        "Kana",
+        "Sipulit",
         "Tomaatit"
       ],
       "correctIndex": 0,
@@ -140,10 +140,10 @@
     {
       "question": "Kuinka kauan paellan kypsyminen kestää?",
       "options": [
-        "40 minutes",
-        "20 minutes",
-        "1 hour",
-        "30 minutes"
+        "40 minuuttia",
+        "20 minuuttia",
+        "1 tunti",
+        "30 minuuttia"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -152,9 +152,9 @@
       "question": "Mitä pojan tulisi valmistaa, kun paella kypsyy?",
       "options": [
         "Salaatti",
-        "Dessert",
+        "Jälkiruoka",
         "Leipä",
-        "Drinks"
+        "Juomat"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -162,10 +162,10 @@
     {
       "question": "Miltä pojasta tuntuu kokata äitinsä kanssa?",
       "options": [
-        "He likes it",
-        "He doesn't like it",
-        "He's bored",
-        "He's tired"
+        "Hän pitää siitä",
+        "Hän ei pidä siitä",
+        "Hän on tylsistynyt",
+        "Hän on väsynyt"
       ],
       "correctIndex": 0,
       "explanation": ""

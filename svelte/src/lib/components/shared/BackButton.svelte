@@ -4,7 +4,7 @@
 	/**
 	 * BackButton - Standard back button for all game modes
 	 * - Kids mode: Shows cute home icon (🏠)
-	 * - Basic mode: Shows back arrow with "Valikko" text
+	 * - Basic mode: Shows back arrow with "Takaisin" text
 	 */
 	
 	type ButtonMode = 'kids' | 'basic';
@@ -31,7 +31,7 @@
 			<span class="text-xl">🏠</span>
 		{:else}
 			<span class="text-base sm:text-lg">←</span>
-			<span class="text-xs sm:text-sm">Valikko</span>
+			<span class="text-xs sm:text-sm">Takaisin</span>
 		{/if}
 	</button>
 {:else}
@@ -40,7 +40,7 @@
 			<span class="text-xl">🏠</span>
 		{:else}
 			<span class="text-base sm:text-lg">←</span>
-			<span class="text-xs sm:text-sm">Valikko</span>
+			<span class="text-xs sm:text-sm">Takaisin</span>
 		{/if}
 	</a>
 {/if}

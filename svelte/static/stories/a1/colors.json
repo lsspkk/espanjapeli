@@ -91,10 +91,10 @@
     {
       "question": "Minkä värinen aurinko on?",
       "options": [
-        "Yellow",
-        "Red",
-        "Blue",
-        "Green"
+        "Keltainen",
+        "Punainen",
+        "Sininen",
+        "Vihreä"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -102,10 +102,10 @@
     {
       "question": "Minkä värinen ruoho on?",
       "options": [
-        "Green",
-        "Yellow",
-        "Blue",
-        "Red"
+        "Vihreä",
+        "Keltainen",
+        "Sininen",
+        "Punainen"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -113,10 +113,10 @@
     {
       "question": "Minkä värinen omena on?",
       "options": [
-        "Red",
-        "Green",
-        "Yellow",
-        "Blue"
+        "Punainen",
+        "Vihreä",
+        "Keltainen",
+        "Sininen"
       ],
       "correctIndex": 0,
       "explanation": ""

@@ -166,7 +166,7 @@
         "Pienet kiinteistöt keskustassa",
         "Kotona",
         "Esikaupungeissa",
-        "Online only"
+        "Vain verkossa"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -175,8 +175,8 @@
       "question": "Mitä kuukausittaisia menoja mainitaan?",
       "options": [
         "Vuokra, sähkö, ainekset, vakuutukset, mainonta",
-        "Only rent",
-        "Only ingredients",
+        "Vain vuokra",
+        "Vain raaka-aineet",
         "Vain mainonta"
       ],
       "correctIndex": 0,
@@ -198,7 +198,7 @@
       "options": [
         "Rekisteröi yritys, hanki luvat, rekisteröidy itsenäiseksi ammatinharjoittajaksi",
         "Rekisteröi vain yritys",
-        "Only get licenses",
+        "Hanki vain luvat",
         "Ei mitään"
       ],
       "correctIndex": 0,

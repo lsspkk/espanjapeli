@@ -87,9 +87,9 @@
     {
       "question": "Onko huone iso vai pieni?",
       "options": [
-        "Big",
+        "Iso",
         "Pieni",
-        "Medium",
+        "Keskikokoinen",
         "Emme tiedä"
       ],
       "correctIndex": 0,
@@ -99,7 +99,7 @@
       "question": "Mitä huonekaluja EI mainita?",
       "options": [
         "Sohva",
-        "Bed",
+        "Sänky",
         "Taulukko",
         "Puheenjohtaja"
       ],

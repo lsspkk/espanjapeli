@@ -138,8 +138,8 @@
       "options": [
         "Rannan siivous",
         "Puiden istutus",
-        "Recycling workshop",
-        "Protest"
+        "Kierrätyksen työpaja",
+        "Mielenosoitus"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -159,7 +159,7 @@
       "question": "Kuinka usein he järjestävät näitä aktiviteetteja?",
       "options": [
         "Kerran kuukaudessa",
-        "Every week",
+        "Joka viikko",
         "Kerran vuodessa",
         "Kaksi kertaa vuodessa"
       ],
@@ -169,9 +169,9 @@
     {
       "question": "Mitä muuta järjestö tekee siivouksen lisäksi?",
       "options": [
-        "Workshops in schools",
+        "Työpajat kouluissa",
         "Ei mitään muuta",
-        "Protests",
+        "Mielenosoitukset",
         "Tutkimus"
       ],
       "correctIndex": 0,
@@ -183,7 +183,7 @@
         "Hän haluaa osallistua enemmän",
         "Hän ei ole kiinnostunut",
         "Hän miettii asiaa",
-        "She's undecided"
+        "Hän on päättämätön"
       ],
       "correctIndex": 0,
       "explanation": ""

@@ -125,8 +125,8 @@
       "options": [
         "Päänsärky",
         "Vatsakipu",
-        "Fever",
-        "Cough"
+        "Kuume",
+        "Yskä"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -145,10 +145,10 @@
     {
       "question": "Mitä sivuvaikutuksia lääke voi aiheuttaa?",
       "options": [
-        "Drowsiness",
+        "Uneliaisuus",
         "Päänsärky",
         "Pahoinvointi",
-        "Fever"
+        "Kuume"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -156,10 +156,10 @@
     {
       "question": "Mitä asiakkaan EI pitäisi tehdä lääkkeen ottamisen jälkeen?",
       "options": [
-        "Drive",
+        "Ajaa",
         "Syö",
-        "Sleep",
-        "Work"
+        "Nukkua",
+        "Työskennellä"
       ],
       "correctIndex": 0,
       "explanation": ""

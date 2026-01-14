@@ -140,9 +140,9 @@
     {
       "question": "Mitä Pedro ajattelee etätyöstä nyt?",
       "options": [
-        "He loves it",
+        "Hän rakastaa sitä",
         "Hän vihaa sitä",
-        "He's indifferent",
+        "Hän on välinpitämätön",
         "Hän haluaa palata"
       ],
       "correctIndex": 0,
@@ -152,7 +152,7 @@
       "question": "Mitä Pedro säästää etätyöllä?",
       "options": [
         "Aika ja raha",
-        "Energy",
+        "Energiaa",
         "Avaruus",
         "Ei mitään"
       ],
@@ -165,7 +165,7 @@
         "Vuorovaikutus kollegoiden kanssa",
         "Työmatka",
         "Toimisto",
-        "Meetings"
+        "Kokoukset"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -174,7 +174,7 @@
       "question": "Mikä ongelma Analla on?",
       "options": [
         "Ongelmia yhteyden katkeamisessa töiden jälkeen",
-        "Loneliness",
+        "Yksinäisyys",
         "Tekniset ongelmat",
         "Ei työtilaa"
       ],
@@ -185,7 +185,7 @@
       "question": "Mitä neuvoja Pedro antaa Analle?",
       "options": [
         "Sammuta tietokone tiettyyn aikaan",
-        "Work less",
+        "Työskentele vähemmän",
         "Vaihda työpaikkaa",
         "Pidä taukoja"
       ],
@@ -195,9 +195,9 @@
     {
       "question": "Mikä malli Pedro uskoo olevan yleinen tulevaisuudessa?",
       "options": [
-        "Hybrid model",
-        "Fully remote",
-        "Fully in office",
+        "Hybridimalli",
+        "Täysin etätyö",
+        "Täysin toimistossa",
         "Osa-aikainen"
       ],
       "correctIndex": 0,

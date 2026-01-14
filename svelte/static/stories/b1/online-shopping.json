@@ -152,7 +152,7 @@
       "question": "Mikä on ongelma paketissa?",
       "options": [
         "Se on väärässä kaupungissa",
-        "It's lost",
+        "Se on kadonnut",
         "Se on vaurioitunut",
         "Se palautettiin"
       ],
@@ -195,10 +195,10 @@
     {
       "question": "Mitä muuta asiakas pyytää?",
       "options": [
-        "Refund of shipping costs",
+        "Palautus toimituskuluista",
         "Uusi tuote",
         "Kaupan luottotiedot",
-        "Free next order"
+        "Ilmainen seuraava tilaus"
       ],
       "correctIndex": 0,
       "explanation": ""

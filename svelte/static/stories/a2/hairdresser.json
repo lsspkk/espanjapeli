@@ -109,10 +109,10 @@
     {
       "question": "Mihin aikaan aika on?",
       "options": [
-        "3 PM",
-        "2 PM",
-        "4 PM",
-        "5 PM"
+        "15:00",
+        "14:00",
+        "16:00",
+        "17:00"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -120,10 +120,10 @@
     {
       "question": "Kuinka paljon hiuksia asiakas haluaa leikata?",
       "options": [
-        "5 centimeters",
-        "10 centimeters",
+        "5 senttimetriä",
+        "10 senttimetriä",
         "Kaiken",
-        "2 centimeters"
+        "2 senttimetriä"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -131,9 +131,9 @@
     {
       "question": "Minkä värin asiakas haluaa?",
       "options": [
-        "Lighter brown",
+        "Vaaleampi ruskea",
         "Tummempi ruskea",
-        "Blonde",
+        "Vaalea",
         "Musta"
       ],
       "correctIndex": 0,
@@ -142,10 +142,10 @@
     {
       "question": "Kuinka kauan huolto kestää?",
       "options": [
-        "1.5 hours",
-        "1 hour",
-        "2 hours",
-        "30 minutes"
+        "1,5 tuntia",
+        "1 tunti",
+        "2 tuntia",
+        "30 minuuttia"
       ],
       "correctIndex": 0,
       "explanation": ""

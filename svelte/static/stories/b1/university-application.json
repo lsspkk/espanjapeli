@@ -151,8 +151,8 @@
       "options": [
         "Maaliskuu",
         "Tammikuu",
-        "June",
-        "September"
+        "Kesäkuu",
+        "Syyskuu"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -161,9 +161,9 @@
       "question": "Mitä neuvonantaja suosittelee valmistautumaan hyvin?",
       "options": [
         "Motivaatiokirje",
-        "Resume",
+        "Ansioluettelo",
         "Portfolio",
-        "References"
+        "Suositukset"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -173,7 +173,7 @@
       "options": [
         "Stipendejä varten",
         "Sisäänpääsyä varten",
-        "For housing",
+        "Asunnon vuokrausta varten",
         "Urheilujoukkueille"
       ],
       "correctIndex": 0,

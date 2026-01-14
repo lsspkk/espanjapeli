@@ -121,12 +121,12 @@
   ],
   "questions": [
     {
-      "question": "Which buses go to the center?",
+      "question": "Mikä bussi menee keskustaan?",
       "options": [
-        "12 or 23",
-        "10 or 20",
-        "5 or 15",
-        "8 or 18"
+        "12 tai 23",
+        "10 tai 20",
+        "5 tai 15",
+        "8 tai 18"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -134,10 +134,10 @@
     {
       "question": "Kuinka usein bussit tulevat?",
       "options": [
-        "Every 10 minutes",
-        "Every 15 minutes",
-        "Every 5 minutes",
-        "Every 20 minutes"
+        "Kymmenen minuutin välein",
+        "Viidentoista minuutin välein",
+        "Viiden minuutin välein",
+        "Kahdenkymmenen minuutin välein"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -146,9 +146,9 @@
       "question": "Paljonko yksi matka maksaa?",
       "options": [
         "1 euro",
-        "2 euros",
-        "0.50 euros",
-        "1.50 euros"
+        "2 euroa",
+        "0,50 euroa",
+        "1,50 euroa"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -156,10 +156,10 @@
     {
       "question": "Paljonko kymmenen matkan lippu maksaa?",
       "options": [
-        "8 euros",
-        "10 euros",
-        "5 euros",
-        "12 euros"
+        "8 euroa",
+        "10 euroa",
+        "5 euroa",
+        "12 euroa"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -168,7 +168,7 @@
       "question": "Mistä voit ostaa lippuja?",
       "options": [
         "Bussi vai kone",
-        "Only on bus",
+        "Vain bussista",
         "Vain koneella",
         "Asemalla"
       ],

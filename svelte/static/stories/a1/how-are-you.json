@@ -82,10 +82,10 @@
     {
       "question": "Miten Ana voi?",
       "options": [
-        "Fine",
-        "Tired",
+        "Hyvin",
+        "Väsynyt",
         "Surullinen",
-        "Sick"
+        "Sairas"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -95,8 +95,8 @@
       "options": [
         "Hän teki paljon töitä",
         "Hän ei syönyt",
-        "He is sick",
-        "He exercised"
+        "Hän on sairas",
+        "Hän harjoitteli"
       ],
       "correctIndex": 0,
       "explanation": ""

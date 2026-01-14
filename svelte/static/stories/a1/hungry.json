@@ -100,9 +100,9 @@
       "question": "Minne he ovat menossa?",
       "options": [
         "Pizzeria",
-        "Home",
+        "Kotiin",
         "Ravintola",
-        "Shop"
+        "Kauppaan"
       ],
       "correctIndex": 0,
       "explanation": ""

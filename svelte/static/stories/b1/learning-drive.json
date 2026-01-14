@@ -143,7 +143,7 @@
         "Rinnakkainen pysäköinti",
         "Moottoritieajo",
         "Liikenneympyrät",
-        "Night driving"
+        "Yöajo"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -165,7 +165,7 @@
         "Liikenneympyrät",
         "Pysäköinti",
         "Moottoritie",
-        "Night driving"
+        "Yöajo"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -173,9 +173,9 @@
     {
       "question": "Kuinka kauan opiskelijan täytyy odottaa kokeen uusimista, jos hän epäonnistuu?",
       "options": [
-        "2 weeks",
-        "1 week",
-        "1 month",
+        "2 viikkoa",
+        "1 viikko",
+        "1 kuukausi",
         "3 päivää"
       ],
       "correctIndex": 0,
@@ -198,7 +198,7 @@
         "Toisella yrittämällä",
         "Ensimmäisellä yrittämällä",
         "Kolmannella yrityksellä",
-        "Never"
+        "Ei koskaan"
       ],
       "correctIndex": 0,
       "explanation": ""

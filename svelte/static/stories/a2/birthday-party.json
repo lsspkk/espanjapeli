@@ -139,9 +139,9 @@
       "question": "Minkä makuinen kakku on?",
       "options": [
         "Suklaa mansikoiden kanssa",
-        "Vanilla",
-        "Lemon",
-        "Coffee"
+        "Vanilja",
+        "Sitruuna",
+        "Kahvi"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -160,8 +160,8 @@
     {
       "question": "Miksi Carmen ei voi sanoa toivettaan?",
       "options": [
-        "It won't come true",
-        "She forgot",
+        "Se ei toteudu",
+        "Hän unohti",
         "Se on salaisuus",
         "Hän ei halua"
       ],
@@ -169,7 +169,7 @@
       "explanation": ""
     },
     {
-      "question": "Was Carmen expecting the party?",
+      "question": "Oliko Carmen odottamassa juhlia?",
       "options": [
         "Ei",
         "Kyllä",

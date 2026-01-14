@@ -69,7 +69,7 @@
     {
       "question": "Mistä Juan on kotoisin?",
       "options": [
-        "Mexico",
+        "Meksiko",
         "Espanja",
         "Ranska",
         "Italia"
@@ -82,7 +82,7 @@
       "options": [
         "Madrid",
         "Barcelona",
-        "Mexico",
+        "Meksiko",
         "Valencia"
       ],
       "correctIndex": 0,
@@ -92,7 +92,7 @@
       "question": "Mitä \"mucho gusto\" tarkoittaa?",
       "options": [
         "Hauska tavata",
-        "Goodbye",
+        "Näkemiin",
         "Kiitos",
         "Mitä kuuluu"
       ],

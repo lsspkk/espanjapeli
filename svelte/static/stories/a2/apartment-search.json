@@ -172,9 +172,9 @@
     {
       "question": "Milloin asunto on vapaana?",
       "options": [
-        "First of next month",
+        "Ensi kuun alusta",
         "Välittömästi",
-        "Next week",
+        "Ensi viikolla",
         "Ensi vuonna"
       ],
       "correctIndex": 0,

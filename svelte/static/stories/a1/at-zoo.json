@@ -95,10 +95,10 @@
     {
       "question": "Mikä eläin on hyvin suuri?",
       "options": [
-        "Lion",
-        "Monkey",
+        "Leijona",
+        "Apina",
         "Kirahvi",
-        "Tree"
+        "Puu"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -106,9 +106,9 @@
     {
       "question": "Miten äiti kuvailee apinoita?",
       "options": [
-        "Funny",
-        "Big",
-        "Intelligent",
+        "Hauska",
+        "Iso",
+        "Älykäs",
         "Pieni"
       ],
       "correctIndex": 0,

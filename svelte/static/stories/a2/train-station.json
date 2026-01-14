@@ -126,7 +126,7 @@
         "Barcelona",
         "Madrid",
         "Valencia",
-        "Seville"
+        "Sevilla"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -145,7 +145,7 @@
     {
       "question": "Minkälaisen lipun matkustaja ostaa?",
       "options": [
-        "Round trip",
+        "Meno-paluu",
         "Yhteen suuntaan",
         "Kuukausilippu",
         "Viikkolippu"
@@ -167,10 +167,10 @@
     {
       "question": "Kuinka pitkä matka on?",
       "options": [
-        "2.5 hours",
-        "2 hours",
-        "3 hours",
-        "1.5 hours"
+        "2,5 tuntia",
+        "2 tuntia",
+        "3 tuntia",
+        "1,5 tuntia"
       ],
       "correctIndex": 0,
       "explanation": ""

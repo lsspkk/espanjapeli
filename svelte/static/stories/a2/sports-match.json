@@ -120,7 +120,7 @@
       "options": [
         "Barcelona",
         "Real Madrid",
-        "Both",
+        "Molemmat",
         "Kumpikaan"
       ],
       "correctIndex": 0,
@@ -153,7 +153,7 @@
       "options": [
         "Pablo",
         "Laura",
-        "Both",
+        "Molemmat",
         "Ei kukaan"
       ],
       "correctIndex": 0,
@@ -163,7 +163,7 @@
       "question": "Miten ottelu kuvattiin?",
       "options": [
         "Jännittävä ja läheinen",
-        "Boring",
+        "Tylsä",
         "Rauhallisesti",
         "Pettymys"
       ],

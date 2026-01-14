@@ -148,7 +148,7 @@
         "Järjestäytynyt",
         "Luova",
         "Nopeasti",
-        "Friendly"
+        "Ystävällinen"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -157,9 +157,9 @@
       "question": "Minkä kanssa ehdokas on tottunut työskentelemään?",
       "options": [
         "Määräajat",
-        "Computers",
-        "Joukkueet",
-        "Clients"
+        "Tietokoneet",
+        "Tiimit",
+        "Asiakkaat"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -167,10 +167,10 @@
     {
       "question": "Milloin he soittavat ehdokkaalle?",
       "options": [
-        "Next week",
+        "Ensi viikolla",
         "Huomenna",
-        "Next month",
-        "In two weeks"
+        "Ensi kuussa",
+        "Kahden viikon kuluttua"
       ],
       "correctIndex": 0,
       "explanation": ""

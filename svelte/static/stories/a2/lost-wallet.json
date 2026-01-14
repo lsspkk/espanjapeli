@@ -115,7 +115,7 @@
       "question": "Missä turisti on voinut kadottaa lompakon?",
       "options": [
         "Metro tai kahvila",
-        "Hotel",
+        "Hotelli",
         "Ravintola",
         "Puisto"
       ],
@@ -125,9 +125,9 @@
     {
       "question": "Kuinka paljon rahaa lompakossa oli?",
       "options": [
-        "50 euros",
-        "100 euros",
-        "20 euros",
+        "50 euroa",
+        "100 euroa",
+        "20 euroa",
         "Ei rahaa"
       ],
       "correctIndex": 0,
@@ -136,10 +136,10 @@
     {
       "question": "Minkä värinen lompakko oli?",
       "options": [
-        "Brown",
+        "Ruskea",
         "Musta",
-        "Red",
-        "Blue"
+        "Punainen",
+        "Sininen"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -148,7 +148,7 @@
       "question": "Milloin turisti tajusi, että lompakko oli kadonnut?",
       "options": [
         "Tunti sitten",
-        "This morning",
+        "Tänä aamuna",
         "Eilen",
         "Kaksi tuntia sitten"
       ],

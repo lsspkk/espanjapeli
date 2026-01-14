@@ -103,7 +103,7 @@
         "Johto",
         "Silmät",
         "Vaakuna",
-        "Mouth"
+        "Suu"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -111,21 +111,21 @@
     {
       "question": "Mitä lääkäri pyytää potilasta avaamaan?",
       "options": [
-        "Mouth",
+        "Suu",
         "Silmät",
         "Vaakuna",
-        "Door"
+        "Ovi"
       ],
       "correctIndex": 0,
       "explanation": ""
     },
     {
-      "question": "Do the patient's eyes hurt?",
+      "question": "Sattuuko potilaan silmiin?",
       "options": [
         "Ei",
         "Kyllä",
         "Hieman",
-        "Very much"
+        "Hyvin paljon"
       ],
       "correctIndex": 0,
       "explanation": ""

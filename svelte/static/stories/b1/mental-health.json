@@ -140,9 +140,9 @@
     {
       "question": "Kuinka kauan potilas on ollut stressaantunut?",
       "options": [
-        "3 months",
-        "1 month",
-        "6 months",
+        "3 kuukautta",
+        "1 kuukausi",
+        "6 kuukautta",
         "1 vuosi"
       ],
       "correctIndex": 0,
@@ -152,7 +152,7 @@
       "question": "Mikä laukaisi nämä tunteet?",
       "options": [
         "Työpaikan vaihto",
-        "Moving house",
+        "Muutto",
         "Suhdeongelmat",
         "Taloudelliset kysymykset"
       ],
@@ -162,7 +162,7 @@
     {
       "question": "Mikä uneen liittyvä ongelma potilaalla on?",
       "options": [
-        "Trouble sleeping",
+        "Vaikeuksia nukkua",
         "Nukkuu liikaa",
         "Painajaiset",
         "Uniapnea"
@@ -197,7 +197,7 @@
       "options": [
         "Muutamassa viikossa sitoutumisen kanssa",
         "Välittömästi",
-        "Never",
+        "Ei koskaan",
         "Vuosien jälkeen"
       ],
       "correctIndex": 0,

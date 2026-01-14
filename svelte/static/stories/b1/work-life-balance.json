@@ -145,7 +145,7 @@
       "options": [
         "2 vuotta",
         "1 vuosi",
-        "6 months",
+        "6 kuukautta",
         "3 vuotta"
       ],
       "correctIndex": 0,
@@ -155,7 +155,7 @@
       "question": "Mitä Laura pelkää?",
       "options": [
         "Tulla nähdyksi sitoutumattomana",
-        "Getting fired",
+        "Saan potkut",
         "Virheiden tekeminen",
         "Kollegat"
       ],
@@ -166,7 +166,7 @@
       "question": "Mikä Carlosin mukaan on tärkeämpää kuin työ?",
       "options": [
         "Mielenterveys",
-        "Money",
+        "Raha",
         "Ura",
         "Perhe"
       ],
@@ -177,7 +177,7 @@
       "question": "Mitä Laura aikoo tehdä?",
       "options": [
         "Keskustele hänen pomonsa kanssa tuntien vähentämisestä",
-        "Quit her job",
+        "Lopeta työnsä",
         "Pidä heti lomaa",
         "Etsi uusi työpaikka"
       ],

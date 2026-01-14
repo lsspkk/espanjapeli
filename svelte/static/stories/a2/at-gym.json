@@ -109,10 +109,10 @@
     {
       "question": "Paljonko kuukausijäsenyys maksaa?",
       "options": [
-        "40 euros",
-        "350 euros",
-        "30 euros",
-        "50 euros"
+        "40 euroa",
+        "350 euroa",
+        "30 euroa",
+        "50 euroa"
       ],
       "correctIndex": 0,
       "explanation": ""
@@ -122,7 +122,7 @@
       "options": [
         "Jooga, pilates, kehrääminen",
         "Vain jooga",
-        "Swimming",
+        "Uinti",
         "Tanssi"
       ],
       "correctIndex": 0,
@@ -132,8 +132,8 @@
       "question": "Minkä jäsenyyden Laura valitsee?",
       "options": [
         "Vuosittainen",
-        "Monthly",
-        "Weekly",
+        "Kuukausittainen",
+        "Viikoittainen",
         "Päivittäinen"
       ],
       "correctIndex": 0,
@@ -145,7 +145,7 @@
         "Henkilökortti",
         "Luottokortti",
         "Kuva",
-        "Phone number"
+        "Puhelinnumero"
       ],
       "correctIndex": 0,
       "explanation": ""
