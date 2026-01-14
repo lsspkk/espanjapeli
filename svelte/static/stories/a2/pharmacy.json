@@ -128,7 +128,7 @@
         "Fever",
         "Cough"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -139,7 +139,7 @@
         "4",
         "10"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -150,7 +150,7 @@
         "Pahoinvointi",
         "Fever"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -161,7 +161,7 @@
         "Sleep",
         "Work"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -172,7 +172,7 @@
         "8€",
         "10€"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

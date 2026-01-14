@@ -141,7 +141,7 @@
         "Vain autot",
         "Muovi"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -152,7 +152,7 @@
         "New windows",
         "Ilmastointi"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -163,7 +163,7 @@
         "By bus",
         "Kävely"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -174,7 +174,7 @@
         "Ehkä",
         "Ei keskusteltu"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -185,7 +185,7 @@
         "Vain suuret teot auttavat",
         "It depends"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

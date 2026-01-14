@@ -128,7 +128,7 @@
         "3 months",
         "2 vuotta"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -139,7 +139,7 @@
         "Lukeminen",
         "Listening"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -150,7 +150,7 @@
         "30 minutes",
         "2 hours"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -161,7 +161,7 @@
         "Radio",
         "News"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -172,7 +172,7 @@
         "Ota lisää kursseja",
         "Katso televisiota"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

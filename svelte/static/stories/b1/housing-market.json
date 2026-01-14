@@ -136,7 +136,7 @@
         "60%",
         "10%"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -147,7 +147,7 @@
         "20%",
         "50%"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -158,7 +158,7 @@
         "50%",
         "20%"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -169,7 +169,7 @@
         "Palkkojen korotus",
         "Älä tee mitään"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -180,7 +180,7 @@
         "Reducing hours",
         "Remote work only"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -191,7 +191,7 @@
         "Foreign investment",
         "Alhaisemmat korot"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

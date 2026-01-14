@@ -114,7 +114,7 @@
         "30 euros",
         "50 euros"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -125,7 +125,7 @@
         "Swimming",
         "Tanssi"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -136,7 +136,7 @@
         "Weekly",
         "Päivittäinen"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -147,7 +147,7 @@
         "Kuva",
         "Phone number"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

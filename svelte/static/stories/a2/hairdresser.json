@@ -114,7 +114,7 @@
         "4 PM",
         "5 PM"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -125,7 +125,7 @@
         "Kaiken",
         "2 centimeters"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -136,7 +136,7 @@
         "Blonde",
         "Musta"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -147,7 +147,7 @@
         "2 hours",
         "30 minutes"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

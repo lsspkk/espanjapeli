@@ -123,7 +123,7 @@
         "Third floor",
         "Ground floor"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -134,7 +134,7 @@
         "ID",
         "Ei mitään"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -145,7 +145,7 @@
         "10",
         "2"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -156,7 +156,7 @@
         "1 month",
         "3 weeks"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -167,7 +167,7 @@
         "Ei mitään",
         "Show ID"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

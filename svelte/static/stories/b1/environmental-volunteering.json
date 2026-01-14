@@ -141,7 +141,7 @@
         "Recycling workshop",
         "Protest"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -152,7 +152,7 @@
         "Metalli",
         "Lasi"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -163,7 +163,7 @@
         "Kerran vuodessa",
         "Kaksi kertaa vuodessa"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -174,7 +174,7 @@
         "Protests",
         "Tutkimus"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -185,7 +185,7 @@
         "Hän miettii asiaa",
         "She's undecided"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

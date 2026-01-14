@@ -92,7 +92,7 @@
         "Medium",
         "Emme tiedä"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -103,7 +103,7 @@
         "Taulukko",
         "Puheenjohtaja"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -114,7 +114,7 @@
         "Hieman",
         "Se on okei"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

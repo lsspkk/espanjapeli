@@ -65,7 +65,7 @@ A: Nice to meet you (Correct) / Goodbye / Thank you / How are you
     assert len(story['questions']) == 2
     assert 'Juan from' in story['questions'][0]['question']
     assert len(story['questions'][0]['options']) == 4
-    assert story['questions'][0]['correctAnswer'] == 0
+    assert story['questions'][0]['correctIndex'] == 0
     assert story['questions'][0]['options'][0] == 'Mexico'
 
 

@@ -119,7 +119,7 @@
         "Working",
         "Kotona pysyminen"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -130,7 +130,7 @@
         "Hänellä on suunnitelmia",
         "Hän ei halua"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -141,7 +141,7 @@
         "Pysy kotona",
         "Work"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -152,7 +152,7 @@
         "12 PM",
         "2 PM"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -163,7 +163,7 @@
         "Lauran talo",
         "Bussipysäkki"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

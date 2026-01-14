@@ -92,7 +92,7 @@
         "6",
         "1 kilo"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -103,7 +103,7 @@
         "Rypäleet",
         "Päärynät"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -114,7 +114,7 @@
         "2 euros",
         "4 euros"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

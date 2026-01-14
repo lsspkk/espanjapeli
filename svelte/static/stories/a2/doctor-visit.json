@@ -137,7 +137,7 @@
         "Murtunut käsi",
         "Cough only"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -148,7 +148,7 @@
         "Infection",
         "Allergia"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -159,7 +159,7 @@
         "Every 12 hours",
         "Kerran päivässä"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -170,7 +170,7 @@
         "7 päivää",
         "10 päivää"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -181,7 +181,7 @@
         "Mene töihin",
         "Ei mitään"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

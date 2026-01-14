@@ -145,7 +145,7 @@
         "Eilen iltapäivällä",
         "This morning"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -156,7 +156,7 @@
         "Loppu",
         "Kirjoitustyyli"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -167,7 +167,7 @@
         "Ei mainittu",
         "Coming soon"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -178,7 +178,7 @@
         "Boring",
         "Nopeatempoinen"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -189,7 +189,7 @@
         "Ennustettava loppu",
         "Heikon dialogi"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

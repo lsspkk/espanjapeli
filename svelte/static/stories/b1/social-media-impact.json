@@ -145,7 +145,7 @@
         "5-6 hours",
         "8 hours"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -156,7 +156,7 @@
         "Her phone broke",
         "Joku käski häntä tekemään niin"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -167,7 +167,7 @@
         "Her phone",
         "Her computer"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -178,7 +178,7 @@
         "Eristäytyneempi",
         "More bored"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -189,7 +189,7 @@
         "Parantuneet suhteet",
         "Higher intelligence"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -200,7 +200,7 @@
         "Osta uusi puhelin",
         "Mene lomalle"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

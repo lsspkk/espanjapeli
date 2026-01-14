@@ -51,15 +51,15 @@ def validate_question(question: Dict[str, Any], story_id: str, q_num: int) -> Li
     """Validate a question."""
     errors = []
     
-    # Support both old format (id, correctIndex) and new format (correctAnswer)
+    # Official field name per TypeScript types: correctIndex
     required_fields = ['question', 'options']
     for field in required_fields:
         if field not in question:
             errors.append(f"Story {story_id}, question {q_num}: Missing '{field}' field")
     
-    # Check for either correctIndex or correctAnswer
-    if 'correctIndex' not in question and 'correctAnswer' not in question:
-        errors.append(f"Story {story_id}, question {q_num}: Missing 'correctIndex' or 'correctAnswer' field")
+    # Check for correctIndex (official field name)
+    if 'correctIndex' not in question:
+        errors.append(f"Story {story_id}, question {q_num}: Missing 'correctIndex' field")
     
     if 'options' in question:
         if not isinstance(question['options'], list):
@@ -72,12 +72,6 @@ def validate_question(question: Dict[str, Any], story_id: str, q_num: int) -> Li
             errors.append(f"Story {story_id}, question {q_num}: 'correctIndex' must be an integer")
         elif question['correctIndex'] < 0 or question['correctIndex'] > 3:
             errors.append(f"Story {story_id}, question {q_num}: 'correctIndex' must be 0-3")
-    
-    if 'correctAnswer' in question:
-        if not isinstance(question['correctAnswer'], int):
-            errors.append(f"Story {story_id}, question {q_num}: 'correctAnswer' must be an integer")
-        elif question['correctAnswer'] < 0 or question['correctAnswer'] > 3:
-            errors.append(f"Story {story_id}, question {q_num}: 'correctAnswer' must be 0-3")
     
     return errors
 

@@ -128,7 +128,7 @@
         "Historia ja kirjallisuus",
         "Liiketoiminta ja taloustiede"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -143,7 +143,7 @@
         "8",
         "10"
       ],
-      "correctAnswer": 1,
+      "correctIndex": 1,
       "explanation": ""
     },
     {
@@ -154,7 +154,7 @@
         "June",
         "September"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -165,7 +165,7 @@
         "Portfolio",
         "References"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -176,7 +176,7 @@
         "For housing",
         "Urheilujoukkueille"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

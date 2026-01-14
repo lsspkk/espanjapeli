@@ -154,7 +154,7 @@
         "Tänä syksynä",
         "In spring"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -165,7 +165,7 @@
         "Viisi vuotta sitten",
         "Kaksi vuotta sitten"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -176,7 +176,7 @@
         "Kuukausi",
         "Kymmenen päivää"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -187,7 +187,7 @@
         "Food",
         "Everything"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -198,7 +198,7 @@
         "Vain kevyitä vaatteita",
         "Rantavaatetus"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -209,7 +209,7 @@
         "Opettele espanjaa",
         "Ei mitään erityistä"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

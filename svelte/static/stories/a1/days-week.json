@@ -91,7 +91,7 @@
         "Lauantai",
         "Sunnuntai"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -102,7 +102,7 @@
         "Perjantai",
         "Sunnuntai"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -113,7 +113,7 @@
         "Ehkä",
         "Emme tiedä"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

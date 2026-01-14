@@ -87,7 +87,7 @@
         "Surullinen",
         "Sick"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -98,7 +98,7 @@
         "He is sick",
         "He exercised"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -109,7 +109,7 @@
         "Maanantai",
         "Perjantai"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

@@ -114,7 +114,7 @@
         "Broken window",
         "Ei polttoainetta"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -125,7 +125,7 @@
         "Whistle",
         "Pam"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -136,7 +136,7 @@
         "Tires",
         "Jarrut"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -147,7 +147,7 @@
         "50 euros",
         "120 euros"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

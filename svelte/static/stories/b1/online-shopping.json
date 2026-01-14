@@ -145,7 +145,7 @@
         "Eilen",
         "Viisi päivää sitten"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -156,7 +156,7 @@
         "Se on vaurioitunut",
         "Se palautettiin"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -167,7 +167,7 @@
         "5–6 päivää",
         "Viikko"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -178,7 +178,7 @@
         "He tarvitsevat sitä työhön",
         "Ei erityistä syytä"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -189,7 +189,7 @@
         "15%",
         "25%"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -200,7 +200,7 @@
         "Kaupan luottotiedot",
         "Free next order"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

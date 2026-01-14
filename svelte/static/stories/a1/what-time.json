@@ -78,7 +78,7 @@
         "12 PM",
         "5 PM"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -89,7 +89,7 @@
         "6 PM",
         "10 PM"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -100,7 +100,7 @@
         "Ehkä",
         "Emme tiedä"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

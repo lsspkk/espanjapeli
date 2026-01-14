@@ -82,7 +82,7 @@
         "Salaatti",
         "Sandwich"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -93,7 +93,7 @@
         "Hieman",
         "Hän pitää enemmän pastasta"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -104,7 +104,7 @@
         "Ravintola",
         "Shop"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

@@ -132,7 +132,7 @@
         "30",
         "27"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -143,7 +143,7 @@
         "Lemon",
         "Coffee"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -154,7 +154,7 @@
         "Luis",
         "Leipomo"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -165,7 +165,7 @@
         "Se on salaisuus",
         "Hän ei halua"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -176,7 +176,7 @@
         "Ehkä",
         "Osittain"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

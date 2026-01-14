@@ -141,7 +141,7 @@
         "Tietokone",
         "Radio"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -152,7 +152,7 @@
         "Mexico",
         "Chile"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -163,7 +163,7 @@
         "Spending money",
         "Kadonneet valokuvat"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -174,7 +174,7 @@
         "Vain sähköposti",
         "Ei mitään muuta"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -185,7 +185,7 @@
         "Tuhlasimme aikaamme",
         "Ei muuttanut mitään"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

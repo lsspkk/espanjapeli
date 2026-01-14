@@ -74,7 +74,7 @@
         "Ranska",
         "Italia"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -85,7 +85,7 @@
         "Mexico",
         "Valencia"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -96,7 +96,7 @@
         "Kiitos",
         "Mitä kuuluu"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

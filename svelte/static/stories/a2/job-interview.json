@@ -128,7 +128,7 @@
         "Terveydenhuolto",
         "Koulutus"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -139,7 +139,7 @@
         "3 vuotta",
         "5 vuotta"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -150,7 +150,7 @@
         "Nopeasti",
         "Friendly"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -161,7 +161,7 @@
         "Joukkueet",
         "Clients"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -172,7 +172,7 @@
         "Next month",
         "In two weeks"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

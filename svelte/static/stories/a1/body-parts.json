@@ -105,7 +105,7 @@
         "Vaakuna",
         "Mouth"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -116,7 +116,7 @@
         "Vaakuna",
         "Door"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -127,7 +127,7 @@
         "Hieman",
         "Very much"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

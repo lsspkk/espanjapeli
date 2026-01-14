@@ -128,7 +128,7 @@
         "Valencia",
         "Seville"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -139,7 +139,7 @@
         "14:00",
         "13:30"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -150,7 +150,7 @@
         "Kuukausilippu",
         "Viikkolippu"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -161,7 +161,7 @@
         "95€",
         "100€"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -172,7 +172,7 @@
         "3 hours",
         "1.5 hours"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

@@ -145,7 +145,7 @@
         "6 months",
         "1 vuosi"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -156,7 +156,7 @@
         "Suhdeongelmat",
         "Taloudelliset kysymykset"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -167,7 +167,7 @@
         "Painajaiset",
         "Uniapnea"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -178,7 +178,7 @@
         "Se on tarpeetonta",
         "On liian myöhäistä"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -189,7 +189,7 @@
         "Tärkeämpää",
         "Ei kovin tärkeää"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -200,7 +200,7 @@
         "Never",
         "Vuosien jälkeen"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

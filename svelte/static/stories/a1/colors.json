@@ -96,7 +96,7 @@
         "Blue",
         "Green"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -107,7 +107,7 @@
         "Blue",
         "Red"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -118,7 +118,7 @@
         "Yellow",
         "Blue"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

@@ -145,7 +145,7 @@
         "He's indifferent",
         "Hän haluaa palata"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -156,7 +156,7 @@
         "Avaruus",
         "Ei mitään"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -167,7 +167,7 @@
         "Toimisto",
         "Meetings"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -178,7 +178,7 @@
         "Tekniset ongelmat",
         "Ei työtilaa"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -189,7 +189,7 @@
         "Vaihda työpaikkaa",
         "Pidä taukoja"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -200,7 +200,7 @@
         "Fully in office",
         "Osa-aikainen"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

@@ -133,7 +133,7 @@
         "3",
         "4"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -144,7 +144,7 @@
         "50 m²",
         "70 m²"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -155,7 +155,7 @@
         "800€",
         "500€"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -166,7 +166,7 @@
         "200€",
         "150€"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -177,7 +177,7 @@
         "Next week",
         "Ensi vuonna"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

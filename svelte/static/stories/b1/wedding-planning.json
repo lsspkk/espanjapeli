@@ -149,7 +149,7 @@
         "100-200",
         "10-30"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -160,7 +160,7 @@
         "30,000 euros",
         "5,000 euros"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -171,7 +171,7 @@
         "Both",
         "Ei mitään"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -182,7 +182,7 @@
         "Italia",
         "Espanja"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -193,7 +193,7 @@
         "Ei musiikkia",
         "Ei ruokaa"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -204,7 +204,7 @@
         "Täydelliset koristeet",
         "Big guest list"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

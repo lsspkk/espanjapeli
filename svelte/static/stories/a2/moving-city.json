@@ -123,7 +123,7 @@
         "Huomenna",
         "In two months"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -134,7 +134,7 @@
         "Kaupungin ulkopuolella",
         "Rannalla"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -145,7 +145,7 @@
         "Huomenna",
         "Ensimmäisenä päivänä"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -156,7 +156,7 @@
         "Ei kukaan",
         "Kollega"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -167,7 +167,7 @@
         "Vain onnellinen",
         "Vihainen"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

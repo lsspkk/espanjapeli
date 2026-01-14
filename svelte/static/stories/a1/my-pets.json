@@ -105,7 +105,7 @@
         "Three",
         "Four"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -116,7 +116,7 @@
         "Punainen ja vihreä",
         "White"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -127,7 +127,7 @@
         "Musta",
         "Blue"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

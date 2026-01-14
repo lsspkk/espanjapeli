@@ -132,7 +132,7 @@
         "Pieni",
         "Extra large"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -143,7 +143,7 @@
         "Vihannekset",
         "Mushrooms"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -154,7 +154,7 @@
         "Ehkä",
         "Ei mainittu"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -165,7 +165,7 @@
         "20€",
         "12€"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -176,7 +176,7 @@
         "20 minutes",
         "1 hour"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

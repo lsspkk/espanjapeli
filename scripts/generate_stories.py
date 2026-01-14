@@ -136,7 +136,7 @@ def parse_story_section(text: str) -> Optional[Dict]:
                     questions.append({
                         'question': current_question,
                         'options': options,
-                        'correctAnswer': correct_idx,
+                        'correctIndex': correct_idx,
                         'explanation': ''
                     })
                 
@@ -162,7 +162,7 @@ def parse_story_section(text: str) -> Optional[Dict]:
             questions.append({
                 'question': current_question,
                 'options': options,
-                'correctAnswer': correct_idx,
+                'correctIndex': correct_idx,
                 'explanation': ''
             })
     

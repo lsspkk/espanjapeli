@@ -146,7 +146,7 @@
         "Kahvila",
         "Tarjoilu"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -157,7 +157,7 @@
         "20,000 euros",
         "15,000 euros"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -168,7 +168,7 @@
         "Esikaupungeissa",
         "Online only"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -179,7 +179,7 @@
         "Only ingredients",
         "Vain mainonta"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -190,7 +190,7 @@
         "Kyllä, ainakin 3",
         "Kyllä, mutta vain osa-aikaisesti"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -201,7 +201,7 @@
         "Only get licenses",
         "Ei mitään"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],

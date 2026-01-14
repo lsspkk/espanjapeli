@@ -15,6 +15,7 @@
 	};
 
 	// Game state
+	// The 'reading' state UX follows specification: specifications/tarinat/story-reading-gamestate.txt
 	let gameState: StoryGameState = 'reading';
 	let currentQuestionIndex = 0;
 	let questionResults: StoryQuestionResult[] = [];
@@ -118,7 +119,7 @@
 		</div>
 	</div>
 
-{:else if gameState === 'questions'}
+	{:else if gameState === 'questions'}
 	<!-- Questions mode -->
 	<div class="min-h-screen bg-base-200 flex flex-col">
 		<!-- Top bar -->
@@ -134,12 +135,14 @@
 
 		<!-- Question -->
 		<div class="flex-1 flex flex-col bg-base-100">
-			<StoryQuestion
-				question={data.story.questions[currentQuestionIndex]}
-				questionNumber={currentQuestionIndex + 1}
-				totalQuestions={data.story.questions.length}
-				onAnswer={handleAnswer}
-			/>
+			{#key currentQuestionIndex}
+				<StoryQuestion
+					question={data.story.questions[currentQuestionIndex]}
+					questionNumber={currentQuestionIndex + 1}
+					totalQuestions={data.story.questions.length}
+					onAnswer={handleAnswer}
+				/>
+			{/key}
 		</div>
 	</div>
 

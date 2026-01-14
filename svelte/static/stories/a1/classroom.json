@@ -91,7 +91,7 @@
         "15",
         "20"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -102,7 +102,7 @@
         "Ei paperia",
         "Myöhäinen"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
@@ -113,7 +113,7 @@
         "Osta kirja",
         "Lainaa kirjastosta"
       ],
-      "correctAnswer": 0,
+      "correctIndex": 0,
       "explanation": ""
     }
   ],
