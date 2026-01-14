@@ -1,0 +1,289 @@
+11:45 - Started Subtask 2.1
+11:57 - Updated §svelte/src/lib/data/words.ts
+11:57 - Tests pass §npm test
+11:57 - [Iteration 1] Subtask 2.1 complete
+12:11 - Started Subtask 2.2
+12:11 - Created §scripts/data_pipeline/enrich_words.py
+12:11 - Created §scripts/data_pipeline/test_enrich_words.py
+12:11 - Tests pass §test_enrich_words.py
+12:11 - [Iteration 1] Subtask 2.2 complete
+12:11 - [Iteration 1] Subtask 2.3 complete (spanish_to_id in enrich_words.py)
+12:11 - [Iteration 1] Subtask 2.4 complete (enrich_words.py handles frequency matching)
+12:15 - Started Subtask 2.5
+12:15 - Updated §scripts/data_pipeline/enrich_words.py (POS inference)
+12:15 - Updated §scripts/data_pipeline/test_enrich_words.py
+12:15 - Tests pass §test_enrich_words.py
+12:15 - [Iteration 1] Subtask 2.5 complete
+12:15 - [Iteration 1] Subtask 2.6 complete (gender inference in enrich_words.py)
+12:15 - Task 2 complete
+12:16 - Started Subtask 3.1
+12:16 - Created §svelte/src/lib/services/vocabularyService.ts
+12:16 - Created §svelte/src/lib/services/vocabularyService.test.ts
+12:16 - Tests pass §vocabularyService.test.ts
+12:16 - [Iteration 1] Subtask 3.1 complete
+12:16 - [Iteration 1] Subtask 3.2 complete (frequency lookups in vocabularyService.ts)
+12:17 - Started Subtask 3.3
+12:17 - Created §svelte/src/lib/services/statisticsService.ts
+12:17 - Created §svelte/src/lib/services/statisticsService.test.ts
+12:17 - Tests pass §statisticsService.test.ts
+12:17 - [Iteration 1] Subtask 3.3 complete
+12:17 - [Iteration 1] Subtask 3.4 complete (progress calculations in statisticsService.ts)
+12:17 - [Iteration 1] Subtask 3.5 complete (wordKnowledge integration in statisticsService.ts)
+12:17 - Task 3 complete
+12:19 - Iteration 1 complete - Tasks 2 and 3 finished with commits
+12:22 - [Iteration 2] Subtask 4.1 complete
+12:22 - Created §svelte/src/routes/tietoja/+page.svelte §svelte/src/routes/tietoja/+layout.ts §svelte/src/lib/data/licenses.ts §svelte/src/tests/integration/tietoja.test.ts
+12:22 - [Iteration 2] Subtask 4.2 complete
+12:23 - [Iteration 2] Subtask 4.3 complete
+12:23 - [Iteration 2] Subtask 4.4 complete
+12:23 - Tests pass §tietoja.test.ts
+12:24 - Task 4 complete
+12:24 - Started Subtask 5.1
+12:25 - Created §Navbar.svelte §Navbar.test.ts
+12:25 - Tests pass §Navbar.test.ts
+12:25 - [Iteration 3] Subtask 5.1 complete
+12:30 - Started Subtask 6.1
+12:30 - Verified §svelte/src/routes/asetukset/+page.svelte exists
+12:30 - Created §svelte/src/routes/asetukset/asetukset.test.ts
+12:30 - Tests pass §asetukset.test.ts
+12:30 - [Iteration 5] Subtask 6.1 complete
+12:32 - Started Subtask 6.2
+12:32 - Created §svelte/src/lib/stores/ttsSettings.ts
+12:32 - Updated §svelte/src/lib/services/tts.ts
+12:32 - Updated §svelte/src/routes/asetukset/+page.svelte
+12:33 - Created §svelte/src/lib/stores/ttsSettings.test.ts
+12:33 - Tests pass §ttsSettings.test.ts §asetukset.test.ts
+12:33 - [Iteration 5] Subtask 6.2 complete
+12:33 - Started Subtask 6.3
+12:34 - Updated §svelte/src/routes/asetukset/+page.svelte (theme selection)
+12:34 - Tests pass §asetukset.test.ts
+12:34 - [Iteration 5] Subtask 6.3 complete
+12:34 - [Iteration 5] Subtask 6.4 complete (export already exists)
+12:34 - [Iteration 5] Subtask 6.5 complete (import already exists)
+12:34 - [Iteration 5] Subtask 6.6 complete (reset already exists)
+12:34 - Task 6 complete
+12:35 - Started Task 7
+12:35 - Started Subtask 7.1
+12:37 - Created §svelte/src/routes/sanasto/+page.svelte §svelte/src/routes/sanasto/+layout.ts
+12:37 - Created §svelte/src/routes/sanasto/sanasto.test.ts
+12:37 - Updated §Navbar.svelte (added sanasto link)
+12:37 - Tests pass §sanasto.test.ts §Navbar.test.ts
+12:37 - [Iteration 5] Subtask 7.1 complete
+12:37 - [Iteration 5] Subtask 7.2 complete (total words in page)
+12:37 - [Iteration 5] Subtask 7.3 complete (progress bars in page)
+12:37 - [Iteration 5] Subtask 7.4 complete (CEFR level in page)
+12:37 - [Iteration 5] Subtask 7.5 complete (milestone in page)
+12:37 - Task 7 complete
+12:50 - Started Subtask 10.1
+12:50 - Updated §svelte/src/lib/types/story.ts
+12:50 - Created §svelte/src/lib/types/story.test.ts
+12:50 - Tests pass §story.test.ts §storyLoader.test.ts
+12:50 - [Iteration 2] Subtask 10.1 complete
+12:51 - [Iteration 2] Subtask 10.2 complete (included in 10.1)
+12:51 - Started Subtask 10.3
+12:52 - Tests pass svelte/src/lib/types/story.test.ts
+12:52 - Updated svelte/src/lib/types/story.ts
+12:52 - Subtask 10.3 complete
+12:53 - Task 10 complete
+12:53 - Started Subtask 11.1
+12:53 - Created svelte/static/stories/a2/*.json
+12:53 - Created svelte/static/stories/b1/*.json
+12:53 - Updated svelte/static/stories/manifest.json
+12:53 - Subtask 11.1 complete
+12:54 - Tests pass scripts/test_migrate_stories.py
+12:54 - Started Subtask 11.2
+12:54 - Created scripts/enrich_story_vocabulary.py
+12:54 - Updated svelte/static/stories/a2/*.json
+12:54 - Updated svelte/static/stories/b1/*.json
+12:54 - Subtask 11.2 complete
+12:55 - Started Subtask 11.3
+12:55 - Created scripts/add_story_metadata.py
+12:55 - Updated svelte/static/stories/a2/*.json
+12:55 - Updated svelte/static/stories/b1/*.json
+12:55 - Subtask 11.3 complete
+12:55 - Started Subtask 11.4
+12:56 - Created scripts/test_story_structure.py
+12:56 - Tests pass scripts/test_story_structure.py
+12:56 - Subtask 11.4 complete
+12:56 - Task 11 complete
+12:57 - [Iteration 1] Subtask 10.3 completes
+12:57 - [Iteration 1] Task 10 complete
+12:57 - [Iteration 1] Subtask 11.1 complete
+12:57 - [Iteration 1] Subtask 11.2 complete
+12:57 - [Iteration 1] Subtask 11.3 complete
+12:57 - [Iteration 1] Subtask 11.4 complete
+12:57 - [Iteration 1] Task 11 complete
+12:57 - Started Subtask 12.1
+12:59 - Updated §svelte/src/lib/components/basic/stories/StoryReader.svelte
+12:59 - Created §svelte/src/lib/components/basic/stories/StoryReader.test.ts
+12:59 - Tests pass §StoryReader.test.ts
+12:59 - [Iteration 2] Subtask 12.1 complete
+12:59 - Started Subtask 12.2
+13:00 - Created §svelte/src/lib/components/basic/stories/DialogueLine.svelte
+13:00 - Created §svelte/src/lib/components/basic/stories/DialogueLine.test.ts
+13:00 - Updated §svelte/src/lib/components/basic/stories/StoryReader.svelte
+13:00 - Tests pass §DialogueLine.test.ts §StoryReader.test.ts
+13:00 - [Iteration 2] Subtask 12.2 complete
+13:01 - Started Subtask 12.3
+13:01 - Updated §svelte/src/lib/components/basic/stories/StoryReader.svelte (progress bar)
+13:01 - Updated §svelte/src/lib/components/basic/stories/StoryReader.test.ts
+13:01 - Tests pass §StoryReader.test.ts
+13:01 - [Iteration 2] Subtask 12.3 complete
+13:02 - Started Subtask 12.4
+13:02 - Updated §svelte/src/lib/components/basic/stories/StoryReader.svelte (auto-hiding controls)
+13:02 - Updated §svelte/src/lib/components/basic/stories/StoryReader.test.ts
+13:02 - Tests pass §StoryReader.test.ts
+13:02 - [Iteration 2] Subtask 12.4 complete
+13:03 - Task 12 complete
+13:04 - Started Subtask 13.1
+13:05 - Created §scripts/generate_stories.py
+13:05 - Created §scripts/test_generate_stories.py
+13:05 - Tests pass §test_generate_stories.py
+13:05 - [Iteration 2] Subtask 13.1 complete
+13:05 - Started Subtask 13.2
+13:06 - Created §svelte/static/stories/a1/*.json (10 A1 stories)
+13:09 - Translated §svelte/static/stories/a1/*.json (Finnish translations)
+13:13 - Tests pass §test_story_structure.py
+13:13 - [Iteration 3] Subtask 13.2 complete
+13:13 - [Iteration 3] Subtask 13.3 complete (10 A2 stories created)
+13:13 - [Iteration 3] Subtask 13.4 complete (10 B1 stories created)
+13:13 - [Iteration 3] Subtask 13.5 complete (Finnish translations done)
+13:13 - [Iteration 3] Subtask 13.6 complete (Questions included in stories)
+13:13 - Task 13 complete
+13:14 - Started Task 14
+13:14 - Started Subtask 14.1
+13:15 - Created §scripts/generate_vocabulary_index.py
+13:15 - Created §scripts/test_generate_vocabulary_index.py
+13:15 - Tests pass §test_generate_vocabulary_index.py
+13:15 - Generated §svelte/static/stories/vocabulary-index.json
+13:15 - [Iteration 3] Subtask 14.1 complete
+13:15 - [Iteration 3] Subtask 14.2 complete
+13:17 - Updated §svelte/src/lib/stores/wordKnowledge.ts (story tracking)
+13:17 - Updated §svelte/src/routes/tarinat/[storyId]/+page.svelte (track encounters)
+13:17 - Updated §svelte/src/lib/components/basic/stories/StoryReader.svelte (show story count)
+13:17 - [Iteration 3] Subtask 14.3 complete
+13:17 - [Iteration 3] Subtask 14.4 complete
+13:17 - Task 14 complete
+13:16 - Started Subtask 15.1
+13:20 - Started Subtask 16.1
+13:22 - Created §svelte/src/lib/config/milestones.ts
+13:22 - Created §svelte/src/lib/config/milestones.test.ts
+13:22 - Tests pass §milestones.test.ts
+13:22 - [Iteration 5] Subtask 16.1 complete
+13:23 - Started Subtask 16.2
+13:28 - Started Task 17
+13:28 - Started Subtask 17.1
+13:30 - Started Subtask 17.2
+13:35 - Started Subtask 17.3
+13:39 - Created §svelte/src/lib/stores/gameSettings.ts
+13:39 - Created §svelte/src/lib/stores/gameSettings.test.ts
+13:39 - Updated §svelte/src/routes/asetukset/+page.svelte (added game settings UI)
+13:39 - Updated §svelte/src/routes/yhdistasanat/+page.svelte (use game settings)
+13:39 - Updated §svelte/src/routes/sanapeli/+page.svelte (use game settings)
+13:39 - Tests pass §gameSettings.test.ts §wordSelection.test.ts
+13:39 - Subtask 17.3 complete
+13:39 - [Iteration 7] Subtask 17.3 complete
+13:40 - Started Subtask 17.4
+13:44 - Created §svelte/src/lib/components/basic/report/FrequencySummary.svelte
+13:44 - Created §svelte/src/lib/components/basic/report/FrequencySummary.test.ts
+13:44 - Updated §svelte/src/lib/components/basic/report/GameReport.svelte
+13:44 - Updated §svelte/src/routes/yhdistasanat/+page.svelte
+13:44 - Updated §svelte/src/routes/sanapeli/+page.svelte
+13:44 - Tests pass §FrequencySummary.test.ts
+13:44 - [Iteration 8] Subtask 17.4 complete
+13:45 - Task 17 complete
+13:45 - Started Subtask 18.3
+13:49 - Created §svelte/src/tests/integration/localStorage.test.ts
+13:49 - Tests pass §localStorage.test.ts
+13:49 - [Iteration 8] Subtask 18.3 complete
+13:49 - Started Subtask 18.4
+13:50 - Created §svelte/src/tests/integration/dataExportImport.test.ts
+13:50 - Tests pass §dataExportImport.test.ts
+13:50 - [Iteration 8] Subtask 18.4 complete
+13:51 - [Iteration 8] Subtask 18.5 complete (no critical bugs found, all tests pass)
+13:52 - Started Subtask 18.6
+13:52 - Updated §README.md
+13:52 - [Iteration 8] Subtask 18.6 complete
+13:53 - Started Subtask 18.7
+13:53 - Updated §VERSION_HISTORY.md
+13:53 - [Iteration 8] Subtask 18.7 complete
+13:53 - Task 18 complete
+13:54 - [Iteration 8] All tasks complete!
+13:54 - Summary: 18/18 tasks completed, 82/84 subtasks completed
+13:54 - All 73 required test subtasks completed
+13:54 - Only 2 optional manual browser testing subtasks remain (18.1, 18.2)
+13:54 - V4.0.0 development complete!
+14:20 - Started Subtask 20.1
+14:21 - Updated §svelte/src/lib/components/shared/Navbar.svelte
+14:21 - Updated §svelte/src/lib/components/shared/Navbar.test.ts
+14:21 - Tests pass §Navbar.test.ts
+14:21 - Subtask 20.1 complete
+
+Summary of Subtask 20.1:
+- Added game mode detection to Navbar component
+- Game mode paths include: sanapeli, yhdistasanat, tarinat, muisti, kuuntelu, 
+  lukeminen, puhuminen, pipsan-ystavat, pipsan-maailma
+- Navbar now hidden on mobile (< lg breakpoint) when in game modes
+- Navbar remains visible on desktop in all modes
+- Added comprehensive tests for game mode hiding functionality
+- All 19 tests pass successfully
+
+14:21 - [Iteration 1] Subtask 20.1 complete
+14:26 - Started Subtask 20.3
+14:26 - Updated §svelte/src/lib/components/shared/Navbar.svelte
+14:26 - Updated §svelte/src/lib/components/shared/Navbar.test.ts
+14:26 - Tests pass §Navbar.test.ts
+14:26 - Subtask 20.3 complete
+
+Summary of Subtask 20.3:
+- Replaced emoji glyphs with Lucide icon components in Navbar
+- Icons used: Home, BookMarked, BookOpen, Info, Settings
+- Fixed Svelte 5 runes mode deprecation warning by using {@const} properly
+- Updated tests to verify SVG icons are rendered
+- Added test for mobile menu icon rendering
+- All 20 tests pass successfully
+
+
+14:26 - [Iteration 3] Subtask 20.3 complete
+14:27 - Started Subtask 20.4
+14:29 - Updated §svelte/src/routes/+page.svelte
+14:29 - Tests pass §npm test
+14:29 - Subtask 20.4 complete
+
+Summary of Subtask 20.4:
+- Checked Navbar menu for "Asetukset" - found it present
+- Checked Asetukset page for "Tietojen vienti" functionality - found it present
+- Removed duplicate "⚙️ Asetukset & Tietojen vienti" link from main page footer
+- The link was redundant since Asetukset is in the main menu and contains data export
+- All 610 tests pass successfully
+
+14:29 - [Iteration 4] Subtask 20.4 complete
+14:30 - Started Subtask 20.5
+14:32 - Updated §svelte/src/routes/+page.svelte
+14:32 - Tests pass §npm test
+14:32 - Subtask 20.5 complete
+
+Summary of Subtask 20.5:
+- Added "hidden lg:block" classes to the "Espanjapeli" title on the main page
+- Title is now hidden on mobile (< lg breakpoint) since it's already visible in navbar
+- Title remains visible on desktop (>= lg breakpoint) for better visual hierarchy
+- All 610 tests pass successfully
+
+14:32 - [Iteration 5] Subtask 20.5 complete
+
+Note on Subtask 20.6:
+- Subtask 20.6 requires manual mobile device testing
+- All automated tests pass (610/610 tests)
+- Responsive classes have been applied correctly:
+  * Navbar hides on mobile in game modes
+  * Main page title hides on mobile (< lg breakpoint)
+  * Icons replaced with Lucide components
+- Manual testing on actual mobile devices recommended but cannot be automated
+
+14:33 - Iteration 5 Summary:
+- Completed Subtask 20.5: Hide Espanjapeli title on mobile mainpage
+- Changes: Added "hidden lg:block" to main page title
+- Title now hidden on mobile (< lg), visible on desktop (>= lg)
+- All 610 tests pass
+- Task 20: 5/6 subtasks complete (20.6 is manual testing)
+
