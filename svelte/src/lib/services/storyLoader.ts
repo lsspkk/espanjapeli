@@ -3,28 +3,11 @@
  * V4: Supports lazy loading with manifest-based structure
  */
 
-import type { Story } from '$lib/types/story';
+import type { Story, StoryMetadata, StoryManifest } from '$lib/types/story';
 import { base } from '$app/paths';
 
-interface StoryMetadata {
-	id: string;
-	title: string;
-	titleSpanish: string;
-	description: string;
-	level: 'A1' | 'A2' | 'B1' | 'B2';
-	category: string;
-	icon: string;
-	wordCount: number;
-	estimatedMinutes: number;
-	vocabularyCount?: number;
-	questionCount?: number;
-}
-
-interface StoryManifest {
-	version: string;
-	lastUpdated: string;
-	stories: StoryMetadata[];
-}
+// Re-export types for convenience
+export type { StoryMetadata, StoryManifest };
 
 let cachedManifest: StoryManifest | null = null;
 const cachedStories: Map<string, Story> = new Map();
@@ -97,24 +80,6 @@ export async function loadStoryById(id: string): Promise<Story | null> {
 }
 
 /**
- * Load all stories from the JSON file (legacy support)
- * @deprecated Use loadManifest() and loadStoryById() for better performance
- */
-export async function loadStories(): Promise<Story[]> {
-	const manifest = await loadManifest();
-	const stories: Story[] = [];
-
-	for (const metadata of manifest.stories) {
-		const story = await loadStoryById(metadata.id);
-		if (story) {
-			stories.push(story);
-		}
-	}
-
-	return stories;
-}
-
-/**
  * Get a single story by ID
  */
 export async function getStoryById(id: string): Promise<Story | undefined> {
@@ -130,46 +95,12 @@ export async function getStoryMetadata(): Promise<StoryMetadata[]> {
 	return manifest.stories;
 }
 
-
 /**
  * Get stories metadata filtered by CEFR level
  */
 export async function getStoriesMetadataByLevel(level: string): Promise<StoryMetadata[]> {
 	const manifest = await loadManifest();
 	return manifest.stories.filter((story) => story.level === level);
-}
-
-/**
- * Get stories filtered by level (loads full content)
- */
-export async function getStoriesByLevel(
-	level: 'A1' | 'A2' | 'B1' | 'B2'
-): Promise<Story[]> {
-	const metadata = await getStoriesMetadataByLevel(level);
-	const stories: Story[] = [];
-
-	for (const meta of metadata) {
-		const story = await loadStoryById(meta.id);
-		if (story) stories.push(story);
-	}
-
-	return stories;
-}
-
-/**
- * Get stories filtered by category (loads full content)
- */
-export async function getStoriesByCategory(category: string): Promise<Story[]> {
-	const manifest = await loadManifest();
-	const metadata = manifest.stories.filter((story) => story.category === category);
-	const stories: Story[] = [];
-
-	for (const meta of metadata) {
-		const story = await loadStoryById(meta.id);
-		if (story) stories.push(story);
-	}
-
-	return stories;
 }
 
 /**

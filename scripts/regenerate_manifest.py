@@ -44,7 +44,8 @@ def regenerate_manifest():
                 'wordCount': word_count,
                 'estimatedMinutes': estimated_minutes,
                 'vocabularyCount': len(story.get('vocabulary', [])),
-                'questionCount': len(story.get('questions', []))
+                'questionCount': len(story.get('questions', [])),
+                'dialogueCount': len(story.get('dialogue', []))
             }
             manifest_entries.append(manifest_entry)
             print(f"Added: {story['id']} ({manifest_entry['level']} - {difficulty})")

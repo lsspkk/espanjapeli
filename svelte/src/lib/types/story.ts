@@ -4,6 +4,33 @@
  */
 
 /**
+ * Lightweight story metadata (for manifest/list views)
+ */
+export interface StoryMetadata {
+	id: string;
+	title: string;
+	titleSpanish: string;
+	description: string;
+	level: 'A1' | 'A2' | 'B1' | 'B2';
+	category: string;
+	icon: string;
+	wordCount: number;
+	estimatedMinutes: number;
+	vocabularyCount?: number;
+	questionCount?: number;
+	dialogueCount?: number;
+}
+
+/**
+ * Story manifest structure
+ */
+export interface StoryManifest {
+	version: string;
+	lastUpdated: string;
+	stories: StoryMetadata[];
+}
+
+/**
  * A single line of dialogue in a story
  */
 export interface DialogueLine {

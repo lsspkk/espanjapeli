@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import type { Story, StoryQuestionResult, StoryGameState } from '$lib/types/story';
-	import { loadStories, categoryNames, getLevelColor } from '$lib/services/storyLoader';
+	import { getStoryMetadata, loadStoryById, type StoryMetadata, categoryNames, getLevelColor } from '$lib/services/storyLoader';
 	import StoryReader from '$lib/components/basic/stories/StoryReader.svelte';
 	import StoryQuestion from '$lib/components/basic/stories/StoryQuestion.svelte';
 	import StoryCard from '$lib/components/basic/stories/StoryCard.svelte';
@@ -13,11 +13,12 @@
 
 	// Game state
 	let gameState: StoryGameState = 'home';
-	let stories: Story[] = [];
+	let storyMetadata: StoryMetadata[] = [];
 	let selectedStory: Story | null = null;
 	let currentQuestionIndex = 0;
 	let questionResults: StoryQuestionResult[] = [];
 	let loading = true;
+	let loadingStory = false;
 
 	// Filters and sorting
 	let filterDifficulty: string = 'all';
@@ -26,10 +27,10 @@
 	// CEFR level sort order
 	const levelOrder: Record<string, number> = { 'A1': 1, 'A2': 2, 'B1': 3, 'B2': 4, 'C1': 5, 'C2': 6 };
 
-	// Filtered and sorted stories
+	// Filtered and sorted story metadata
 	$: filteredStories = (() => {
 		// First filter by level
-		let filtered = stories.filter((story) => {
+		let filtered = storyMetadata.filter((story) => {
 			if (filterDifficulty !== 'all') {
 				if (story.level !== filterDifficulty) return false;
 			}
@@ -61,15 +62,29 @@
 	}
 
 	onMount(async () => {
-		stories = await loadStories();
+		storyMetadata = await getStoryMetadata();
 		loading = false;
 	});
 
-	function selectStory(story: Story) {
+	async function selectStory(storyOrMeta: Story | StoryMetadata) {
+		loadingStory = true;
+		
+		// If we received metadata, load the full story
+		const story = 'dialogue' in storyOrMeta 
+			? storyOrMeta 
+			: await loadStoryById(storyOrMeta.id);
+		
+		if (!story) {
+			console.error('Failed to load story');
+			loadingStory = false;
+			return;
+		}
+		
 		selectedStory = story;
 		currentQuestionIndex = 0;
 		questionResults = [];
 		gameState = 'reading';
+		loadingStory = false;
 	}
 
 	function startQuestions() {
@@ -116,7 +131,7 @@
 		gameState = 'reading';
 	}
 
-	function nextStory() {
+	async function nextStory() {
 		if (!selectedStory) return;
 		
 		// Find next story in filtered list
@@ -124,7 +139,7 @@
 		const nextIndex = (currentIndex + 1) % filteredStories.length;
 		
 		if (nextIndex !== currentIndex) {
-			selectStory(filteredStories[nextIndex]);
+			await selectStory(filteredStories[nextIndex]);
 		} else {
 			goHome();
 		}
@@ -151,7 +166,7 @@
 			</div>
 
 			<!-- Filter and Sort Controls -->
-			{#if !loading && stories.length > 0}
+			{#if !loading && storyMetadata.length > 0}
 				<div class="mb-3">
 					<StoryFilterSort
 						filterDifficulty={filterDifficulty}
@@ -166,6 +181,11 @@
 			{#if loading}
 				<div class="flex justify-center py-12">
 					<span class="loading loading-spinner loading-lg text-primary"></span>
+				</div>
+			{:else if loadingStory}
+				<div class="flex justify-center py-12">
+					<span class="loading loading-spinner loading-lg text-primary"></span>
+					<p class="ml-3 text-base-content/60">Ladataan tarinaa...</p>
 				</div>
 			{:else if filteredStories.length === 0}
 				<div class="text-center py-12">
