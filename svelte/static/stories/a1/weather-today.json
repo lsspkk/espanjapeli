@@ -4,8 +4,7 @@
   "titleSpanish": "El tiempo hoy",
   "description": "A A1 level story about weather",
   "level": "A1",
-  "difficulty": "absolute-beginner",
-  "category": "weather",
+  "category": "nature",
   "icon": "☀️",
   "dialogue": [
     {

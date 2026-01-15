@@ -424,7 +424,7 @@
       "title": "V3 to V4 Data Model Migration Verification",
       "todoTxtRef": "TASK 27: V3 to V4 Data Model Migration Verification (TODO.txt lines 600-816)",
       "priority": 2,
-      "status": "pending",
+      "status": "completed",
       "estimatedHours": 7,
       "dependencies": [],
       "subtasks": [
@@ -439,7 +439,7 @@
         {
           "id": "27.2",
           "title": "Extend Story Data Validation Script",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "scripts/test_story_data_integrity.py, reports/story-validation-results.txt",
           "testRequired": true,
           "description": "Add tests for V3 legacy fields, V4 structure, vocabulary, dialogue, questions"
@@ -447,7 +447,7 @@
         {
           "id": "27.3",
           "title": "Create Frequency Data Validation Script",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "scripts/validate_frequency_data.py, reports/frequency-validation-results.txt",
           "testRequired": true,
           "description": "Validate frequency JSON structure, ranks, CEFR levels, isTop* flags"
@@ -455,7 +455,7 @@
         {
           "id": "27.4",
           "title": "Create Vocabulary Database Validation Script",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "scripts/validate_vocabulary_database.py, reports/vocabulary-validation-results.txt",
           "testRequired": true,
           "description": "Validate words.ts structure, cross-reference with frequency data"
@@ -463,7 +463,7 @@
         {
           "id": "27.5",
           "title": "Create Story-Vocabulary Cross-Reference Validation",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "scripts/validate_story_vocabulary_crossref.py, reports/story-vocabulary-crossref-results.txt",
           "testRequired": true,
           "description": "Validate story vocabulary against dialogue and main database"
@@ -471,7 +471,7 @@
         {
           "id": "27.6",
           "title": "Create Manifest Validation Script",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "scripts/validate_manifest.py, reports/manifest-validation-results.txt",
           "testRequired": true,
           "description": "Validate manifest sync with story files, check for orphans"
@@ -479,7 +479,7 @@
         {
           "id": "27.7",
           "title": "Create Data Consistency Report",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "scripts/generate_data_consistency_report.py, reports/v4-data-consistency-report.md",
           "testRequired": false,
           "description": "Aggregate all validation results into single report"
@@ -487,15 +487,15 @@
         {
           "id": "27.8",
           "title": "Fix Identified Issues",
-          "status": "pending",
-          "deliverable": "scripts/migrate_v3_to_v4_cleanup.py, Multiple data files",
+          "status": "completed",
+          "deliverable": "scripts/fix_v4_data_issues.py, 58 story files, manifest.json",
           "testRequired": true,
           "description": "Fix data issues found by validation scripts"
         },
         {
           "id": "27.9",
           "title": "Update Documentation",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "scripts/validate_all_data.sh, scripts/README.md, ai-control/codebase.md",
           "testRequired": false,
           "description": "Document validation scripts and update codebase documentation"

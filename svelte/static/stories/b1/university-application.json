@@ -4,7 +4,6 @@
   "titleSpanish": "Solicitud universitaria",
   "description": "A B1 level story about education",
   "level": "B1",
-  "difficulty": "intermediate",
   "category": "education",
   "icon": "🎓",
   "dialogue": [
@@ -135,15 +134,11 @@
       "question": "Mikä keskimääräinen arvosana yleensä tarvitaan?",
       "options": [
         "7",
-        "10",
-        "5",
-        "10",
-        "9",
-        "10",
         "8",
+        "9",
         "10"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": ""
     },
     {
