@@ -3,6 +3,8 @@
  * Tracks game performance and stores in localStorage
  */
 
+import { DATA_MODEL_VERSION } from '$lib/config/dataModelVersion';
+
 export interface PeppaGameAnswer {
 	questionSpanish: string;
 	questionFinnish: string;
@@ -39,7 +41,7 @@ export interface PeppaStatisticsData {
 }
 
 const STORAGE_KEY = 'espanjapeli_peppa_statistics';
-const CURRENT_VERSION = '1.0.0';
+const CURRENT_VERSION = DATA_MODEL_VERSION;
 
 class PeppaStatisticsService {
 	private data: PeppaStatisticsData;

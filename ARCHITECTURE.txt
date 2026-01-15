@@ -1,7 +1,198 @@
-ESPANJAPELI ARCHITECTURE NOTES
-==============================
+ARCHITECTURE
+========================
 
-SSR & Story Loading
--------------------
-Stories use environment-aware loading: SSR/prerender uses direct JSON imports to avoid Node.js fetch() limitations with relative paths, 
-while browser runtime uses the lazy-loading service with caching. All story pages are prerendered at build time for performance and SEO.
+BUILD & DEPLOYMENT
+------------------
+- Static adapter: all pages prerendered at build time (adapter-static)
+- Base path: dev="", prod="/espanjapeli" (GitHub Pages)
+- SSR enabled globally with `prerender=true` in route +layout.ts files
+- All routes explicitly set `ssr=true` and `prerender=true` in layout files
+- No dynamic server routes; entire app is static HTML + client hydration
+
+DEV VS PROD PATHS
+-----------------
+Development:
+- npm run dev in svelte/ directory
+- http://localhost:5173
+- base path: "" (root)
+
+Production:
+- npm run build → svelte/build/
+- Deployed to GitHub Pages
+- base path: "/espanjapeli"
+- All asset paths use $app/paths base import
+
+TEXT TO SPEECH
+------------------
+- Web Speech API (speechSynthesis)
+- Spanish voice selection with fallbacks
+- src/lib/services/tts.ts: speak(), stop(), isSpeaking()
+
+
+DATA
+====
+
+Static assets
+- frequency-spanish-top5000.json: ~1MB (lazy loaded)
+- stories total: ~255KB (lazy loaded per story)
+- manifest.json: ~25KB (loaded once)
+- words_tips_translations.json: ~1.1MB (lazy loaded)
+- peppa SVGs: ~566KB (loaded on kids game)
+- themes JSON: ~82KB
+
+
+DATA MODEL
+----------
+Two distinct data sources, not unified:
+
+1. VOCABULARY DATABASE (words.ts ~39KB)
+   - TypeScript file: src/lib/data/words.ts
+   - ~470 words organized in 23 categories (animals, verbs, food, etc.)
+   - Structure: WORD_CATEGORIES Record<string, { name: string, words: Word[] }>
+   - Word interface: { spanish, english, finnish, learningTips?, id?, frequency?, linguistic? }
+   - Some words have inline frequency/linguistic metadata, most don't (gradual migration)
+   - Used by: Sanapeli, Yhdistä sanat, Sanasto browser
+
+2. STORY FILES (static/stories/ ~255KB total)
+   - JSON files organized by CEFR level: a1/, a2/, b1/ directories
+   - 58 stories total: 15 A1, 23 A2, 20 B1
+   - Manifest file (manifest.json ~25KB) contains metadata for all stories
+   - Individual story files: ~2-6KB each
+   - Story structure: { id, title, titleSpanish, level, dialogue[], vocabulary[], questions[] }
+   - Each story has 6-14 dialogue lines, 6-16 vocabulary words, 3-6 questions
+   - Used by: Tarinat (story reading game)
+
+3. FREQUENCY DATA (static/data/frequency-spanish-top5000.json ~1MB)
+   - OpenSubtitles corpus data, CC-BY-SA-4.0 license
+   - 5000 words with: { rank, count, cefr, isTop100/500/1000/3000/5000 }
+   - Loaded lazily via vocabularyService.ts on first use
+   - Used by: word selection optimization, frequency badges, CEFR level display
+
+4. KIDS GAME DATA
+   - themes/*.json (~82KB total): vocabulary with emoji/icon mappings
+   - peppa_advanced_spanish_images/: 52 SVG illustrations (~566KB) with manifest
+   - peppa_pig_kids.json, peppa_advanced_spanish.json: kids vocabulary themes
+
+5. TIPS DATA (static/words_tips_translations.json ~1.1MB)
+   - AI-generated learning tips for vocabulary words
+   - Three difficulty levels: hard, medium, easy (Finnish translations)
+   - Loaded on-demand by tipService.ts
+
+
+LOCALSTORAGE & EXPORT
+-------------------------
+All user progress stored in browser localStorage (no server-side storage). Fully offline-capable.
+
+Primary data: wordKnowledge store (yhdistasanat_word_knowledge) tracks per-word proficiency
+with bidirectional (spanish_to_finnish/finnish_to_spanish) and mode-separated (basic/kids)
+structure. Stores score (0-100), practice counts, timestamps, and story encounter tracking.
+Game history: 100 GameRecord entries (espanjapeli_game_history tracks last 20 with detailed
+question data). Settings split across stores: gameSettings, ttsSettings, theme, progress.ts.
+Export/import: exportData()/importData() methods for backup. Import validates version,
+merges data (imported wins conflicts), concatenates/trims history to 100 entries.
+
+Data Model Versioning: Central version defined in dataModelVersion.ts (currently 4.0.0).
+All stores reference this version. Major app releases require data model version bump.
+Migration functions handle old versions (V1→V2→V4.0.0). Kids stats in peppaStatistics.
+
+LOCALSTORAGE KEYS
+-----------------
+Mixed naming conventions from iterative development:
+
+espanjapeli_* prefix:
+- espanjapeli_auto_speak, espanjapeli_compact_mode
+- espanjapeli_category, espanjapeli_game_length
+- espanjapeli_game_history, espanjapeli_storage_meta
+- espanjapeli_milestones_shown
+
+espanjapeli-* prefix:
+- espanjapeli-game-settings
+- espanjapeli-tts-settings
+- espanjapeli-theme
+
+Game-specific:
+- yhdistasanat_word_knowledge: word knowledge scores (V2 format)
+- sanapeli_word_history: last 10 games per category
+- pipsan_ystavat_history: kids game phrase history
+
+Kids games (no prefix):
+- peppaGameSettings: kids game settings
+- peppaGameStats: kids game statistics
+
+STORY LOADING ARCHITECTURE
+--------------------------
+1. Manifest-first pattern: load manifest.json for lightweight metadata
+2. Lazy loading: individual story files fetched only when user opens story
+3. In-memory caching: loaded stories cached in Map<storyId, Story>
+4. Path construction: `${base}/stories/${level.toLowerCase()}/${id}.json`
+5. No SSR data fetching; all story loading is client-side via fetch()
+
+
+
+TIPS SYSTEM
+-----------
+Location: src/lib/services/tipService.ts
+
+Three difficulty levels (point penalty system):
+- Vaikea (Hard): vague hint, -5 points (10→5)
+- Keskivaikea (Medium): descriptive hint, -4 points (5→1)
+- Helppo (Easy): revealing hint, still 1 point
+
+Tip sources:
+1. Cached tips from words_tips_translations.json (AI-generated)
+2. Fallback generation: first letter, length, partial reveal
+
+
+LEARNING ALGORITHMS
+===================
+
+WORD SELECTION 
+--------------
+Location: src/lib/services/wordSelection.ts
+
+Three-layer optimization for Sanapeli game:
+
+1. RECENCY LAYER
+   - Tracks last 10 games per category in localStorage
+   - Categorizes words: not-recent (>5 games ago), from-last-1, from-games-2-5
+   - Prioritizes fresh words, includes 1-2 words for spaced repetition
+
+2. KNOWLEDGE LAYER (optimizeWordSelectionByKnowledge)
+   - Reads wordKnowledge store scores
+   - Identifies well-known words (score >= 80)
+   - Replaces ~25% (minimum 1) of well-known words with weak (score < 40) or unpracticed words
+
+3. FREQUENCY LAYER (optimizeWordSelectionByFrequency)
+   - Async call to vocabularyService for frequency metadata
+   - Identifies low-frequency words (not in top 1000)
+   - Replaces ~35% of low-frequency words with high-frequency words
+   - Ensures focus on most common/useful vocabulary
+
+WORD KNOWLEDGE TRACKING
+-----------------------
+Location: src/lib/stores/wordKnowledge.ts
+
+- localStorage key: yhdistasanat_word_knowledge
+- Bidirectional tracking: spanish_to_finnish and finnish_to_spanish
+- Mode separation: 'basic' (adult games) and 'kids' (Pipsan games)
+- Score algorithm: modified SM-2
+  - newScore = oldScore * 0.7 + performanceScore * 0.3
+  - Performance scores: first_try=100, second_try=70, third_try=40, failed=0
+- Data versioning with migration (V1 to V2 format supported)
+- Game history: last 100 games stored for export/analysis
+
+ANSWER VALIDATION
+-----------------
+Location: src/lib/services/answerChecker.ts
+
+Match types with fuzzy tolerance:
+- exact: normalized strings match
+- declension: Finnish case tolerance (±2 letters at end)
+- typo: Levenshtein distance ≤1 (single edit)
+- different-word: typo match but user wrote a valid different word (rejected)
+- wrong: no match
+- empty: no input
+
+
+
+

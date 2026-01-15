@@ -98,54 +98,66 @@ def load_links(links_path: Path) -> dict:
 
 
 def find_triples(sent_text: dict, neighbors: dict) -> list:
-    """Find all Spanish sentences that have both Finnish and English translations."""
+    """Find all Spanish sentences that have both Finnish and English translations.
+    
+    For each unique Spanish sentence, keep only one Finnish and one English translation
+    to avoid duplicates with minor variations.
+    """
     print("Finding trilingual sentence triples...")
-    results = []
+    spa_to_triple = {}
     
     # Start from Spanish sentences (our primary language)
     for spa_id, (lang, spa_txt) in sent_text.items():
         if lang != LANG_SPA:
             continue
         
+        # Skip if we already have a translation for this Spanish text
+        if spa_txt in spa_to_triple:
+            continue
+        
         linked_ids = neighbors.get(spa_id, set())
         
-        # Find Finnish and English translations
+        # Find Finnish and English translations (take first available)
         fin_ids = [sid for sid in linked_ids if sid in sent_text and sent_text[sid][0] == LANG_FIN]
         eng_ids = [sid for sid in linked_ids if sid in sent_text and sent_text[sid][0] == LANG_ENG]
         
         if not fin_ids or not eng_ids:
             continue
         
-        # Create all combinations
-        for fin_id in fin_ids:
-            for eng_id in eng_ids:
-                fin_txt = sent_text[fin_id][1]
-                eng_txt = sent_text[eng_id][1]
-                results.append({
-                    "spa_id": spa_id,
-                    "fin_id": fin_id,
-                    "eng_id": eng_id,
-                    "spa": spa_txt,
-                    "fin": fin_txt,
-                    "eng": eng_txt,
-                })
+        # Take only the first translation for each language
+        fin_id = fin_ids[0]
+        eng_id = eng_ids[0]
+        fin_txt = sent_text[fin_id][1]
+        eng_txt = sent_text[eng_id][1]
+        
+        spa_to_triple[spa_txt] = {
+            "spa_id": spa_id,
+            "fin_id": fin_id,
+            "eng_id": eng_id,
+            "spa": spa_txt,
+            "fin": fin_txt,
+            "eng": eng_txt,
+        }
     
-    print(f"  Found {len(results)} triples (before deduplication)")
+    results = list(spa_to_triple.values())
+    print(f"  Found {len(results)} unique Spanish sentences with translations")
     return results
 
 
 def deduplicate(results: list) -> list:
-    """Remove duplicate triples."""
+    """Remove any remaining duplicate triples (should be none after find_triples update)."""
     seen = set()
     deduped = []
     
     for r in results:
-        key = (r["spa_id"], r["fin_id"], r["eng_id"])
+        key = r["spa"]
         if key not in seen:
             seen.add(key)
             deduped.append(r)
     
-    print(f"  After deduplication: {len(deduped)} unique triples")
+    if len(deduped) < len(results):
+        print(f"  Removed {len(results) - len(deduped)} additional duplicates")
+    print(f"  Final count: {len(deduped)} unique triples")
     return deduped
 
 

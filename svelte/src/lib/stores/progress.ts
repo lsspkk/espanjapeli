@@ -1,13 +1,13 @@
 // Local Storage Management for Espanjapeli
 // Ported from vanilla JS to TypeScript with Svelte stores
-// Version 1.0.0
 
 import { writable, derived } from 'svelte/store';
 import { browser } from '$app/environment';
+import { DATA_MODEL_VERSION, DATA_MODEL_VERSION_NUMBER } from '$lib/config/dataModelVersion';
 
 // Constants
-export const GAME_VERSION = '1.0.0';
-export const STORAGE_VERSION = 1; // Increment this when storage schema changes
+export const GAME_VERSION = DATA_MODEL_VERSION;
+export const STORAGE_VERSION = DATA_MODEL_VERSION_NUMBER;
 
 export const STORAGE_KEYS = {
 	AUTO_SPEAK: 'espanjapeli_auto_speak',

@@ -1,9 +1,9 @@
 /**
  * Word Knowledge Store for Yhdistä sanat game
- * 
+ *
  * Tracks user's proficiency with individual words across categories.
  * Uses a modified SM-2 (SuperMemo 2) algorithm adapted for language learning games.
- * 
+ *
  * Key concepts:
  * - Each word has a knowledge score (0-100%)
  * - Score is based on performance across multiple game sessions
@@ -14,10 +14,11 @@
 
 import { writable, derived, get } from 'svelte/store';
 import { browser } from '$app/environment';
+import { DATA_MODEL_VERSION_NUMBER } from '$lib/config/dataModelVersion';
 
 // Storage key
 const STORAGE_KEY = 'yhdistasanat_word_knowledge';
-const STORAGE_VERSION = 2;
+const STORAGE_VERSION = DATA_MODEL_VERSION_NUMBER;
 
 // Types
 
@@ -173,45 +174,47 @@ function createDefaultData(): WordKnowledgeData {
 
 /**
  * Calculate new knowledge score based on answer quality
- * 
+ *
  * Algorithm (modified SM-2):
  * - First try: +15 points (capped at 100)
  * - Second try: +8 points (capped at 100)
  * - Third try: +3 points (capped at 100)
  * - Failed: -10 points (min 0)
- * 
+ *
  * The algorithm weighs recent performance more heavily:
  * - newScore = oldScore * 0.7 + performanceScore * 0.3
  */
 function calculateNewScore(currentScore: number, quality: AnswerQuality): number {
 	const qualityScores: Record<AnswerQuality, number> = {
-		'first_try': 100,
-		'second_try': 70,
-		'third_try': 40,
-		'failed': 0
+		first_try: 100,
+		second_try: 70,
+		third_try: 40,
+		failed: 0
 	};
-	
+
 	const targetScore = qualityScores[quality];
-	
+
 	// Weighted average: 70% old score, 30% new performance
 	// This creates smooth transitions and accounts for consistency
 	const newScore = currentScore * 0.7 + targetScore * 0.3;
-	
+
 	// Round to 2 decimal places
 	return Math.round(newScore * 100) / 100;
 }
 
 /**
- * Migrate V1 data to V2 format
+ * Migrate V1 data to current format
  * V1: Direct WordKnowledge objects
- * V2: Mode-separated objects (basic/kids)
+ * V2+: Mode-separated objects (basic/kids)
  */
+// @ts-ignore - Legacy data structure, type unknown
 function migrateV1toV2(oldData: any): WordKnowledgeData {
 	const now = new Date().toISOString();
 	const newWords: Record<string, WordKnowledgeBidirectional> = {};
-	
+
 	// Migrate existing words to 'basic' mode
 	for (const [spanish, oldWordData] of Object.entries(oldData.words || {})) {
+		// @ts-ignore - Legacy data structure
 		const old = oldWordData as any;
 		newWords[spanish] = {
 			spanish_to_finnish: {
@@ -222,9 +225,9 @@ function migrateV1toV2(oldData: any): WordKnowledgeData {
 			}
 		};
 	}
-	
+
 	return {
-		version: 2,
+		version: STORAGE_VERSION,
 		words: newWords,
 		gameHistory: oldData.gameHistory || [],
 		meta: {
@@ -238,22 +241,43 @@ function migrateV1toV2(oldData: any): WordKnowledgeData {
 }
 
 /**
+ * Migrate V2 data to current format (version bump only, structure unchanged)
+ */
+// @ts-ignore - Legacy data structure, type unknown
+function migrateV2toCurrent(oldData: any): WordKnowledgeData {
+	return {
+		...oldData,
+		version: STORAGE_VERSION,
+		meta: {
+			...oldData.meta,
+			updatedAt: new Date().toISOString()
+		}
+	};
+}
+
+/**
  * Load knowledge data from localStorage
  */
 function loadData(): WordKnowledgeData {
 	if (!isBrowser()) return createDefaultData();
-	
+
 	try {
 		const stored = localStorage.getItem(STORAGE_KEY);
 		if (stored) {
 			const parsed = JSON.parse(stored);
-			
+
 			// Check version and migrate if needed
 			if (parsed.version === STORAGE_VERSION) {
 				return parsed as WordKnowledgeData;
 			} else if (parsed.version === 1) {
-				console.log('📦 Migrating word knowledge from V1 to V2...');
+				console.log('📦 Migrating word knowledge from V1 to current version...');
 				const migrated = migrateV1toV2(parsed);
+				saveData(migrated);
+				console.log('✅ Migration complete');
+				return migrated;
+			} else if (parsed.version === 2 || parsed.version === 3) {
+				console.log(`📦 Migrating word knowledge from V${parsed.version} to current version...`);
+				const migrated = migrateV2toCurrent(parsed);
 				saveData(migrated);
 				console.log('✅ Migration complete');
 				return migrated;
@@ -264,7 +288,7 @@ function loadData(): WordKnowledgeData {
 	} catch (error) {
 		console.error('Error loading word knowledge:', error);
 	}
-	
+
 	return createDefaultData();
 }
 
@@ -273,7 +297,7 @@ function loadData(): WordKnowledgeData {
  */
 function saveData(data: WordKnowledgeData): void {
 	if (!isBrowser()) return;
-	
+
 	try {
 		data.meta.updatedAt = new Date().toISOString();
 		localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
@@ -286,35 +310,35 @@ function saveData(data: WordKnowledgeData): void {
 
 function createWordKnowledgeStore() {
 	const { subscribe, set, update } = writable<WordKnowledgeData>(loadData());
-	
+
 	return {
 		subscribe,
-		
+
 		/**
 		 * Record a word answer from a game
 		 */
 		recordAnswer(
-			spanish: string, 
-			finnish: string, 
-			direction: LanguageDirection, 
+			spanish: string,
+			finnish: string,
+			direction: LanguageDirection,
 			quality: AnswerQuality,
 			mode: GameMode = 'basic'
 		): void {
-			update(data => {
+			update((data) => {
 				// Initialize word if not exists
 				if (!data.words[spanish]) {
 					data.words[spanish] = createDefaultBidirectional();
 				}
-				
+
 				// Get or create mode-specific data
 				const directionData = data.words[spanish][direction];
 				if (!directionData[mode]) {
 					directionData[mode] = createDefaultWordKnowledge();
 				}
-				
+
 				const wordData = directionData[mode]!;
 				const now = new Date().toISOString();
-				
+
 				// Update counters
 				wordData.practiceCount++;
 				switch (quality) {
@@ -331,16 +355,16 @@ function createWordKnowledgeStore() {
 						wordData.failedCount++;
 						break;
 				}
-				
+
 				// Calculate new score
 				wordData.score = calculateNewScore(wordData.score, quality);
 				wordData.lastPracticed = now;
-				
+
 				saveData(data);
 				return data;
 			});
 		},
-		
+
 		/**
 		 * Record a complete game
 		 */
@@ -350,9 +374,9 @@ function createWordKnowledgeStore() {
 			words: Array<{ spanish: string; finnish: string; quality: AnswerQuality }>,
 			mode: GameMode = 'basic'
 		): void {
-			update(data => {
+			update((data) => {
 				const now = new Date().toISOString();
-				
+
 				// Create game record
 				const gameRecord: GameRecord = {
 					id: `game_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
@@ -361,24 +385,24 @@ function createWordKnowledgeStore() {
 					direction,
 					questionsCount: words.length,
 					results: {
-						firstTry: words.filter(w => w.quality === 'first_try').length,
-						secondTry: words.filter(w => w.quality === 'second_try').length,
-						thirdTry: words.filter(w => w.quality === 'third_try').length,
-						failed: words.filter(w => w.quality === 'failed').length
+						firstTry: words.filter((w) => w.quality === 'first_try').length,
+						secondTry: words.filter((w) => w.quality === 'second_try').length,
+						thirdTry: words.filter((w) => w.quality === 'third_try').length,
+						failed: words.filter((w) => w.quality === 'failed').length
 					},
-					words: words.map(w => ({
+					words: words.map((w) => ({
 						spanish: w.spanish,
 						finnish: w.finnish,
 						quality: w.quality
 					}))
 				};
-				
+
 				// Add to history (keep last 100)
 				data.gameHistory.unshift(gameRecord);
 				if (data.gameHistory.length > 100) {
 					data.gameHistory = data.gameHistory.slice(0, 100);
 				}
-				
+
 				// Update metadata
 				data.meta.totalGamesPlayed++;
 				if (mode === 'basic') {
@@ -387,12 +411,12 @@ function createWordKnowledgeStore() {
 					data.meta.kidsGamesPlayed++;
 				}
 				data.meta.updatedAt = now;
-				
+
 				saveData(data);
 				return data;
 			});
 		},
-		
+
 		/**
 		 * Get knowledge score for a specific word
 		 */
@@ -403,42 +427,42 @@ function createWordKnowledgeStore() {
 			const modeData = wordData[direction][mode];
 			return modeData?.score || 0;
 		},
-		
+
 		/**
 		 * Get category knowledge summary
 		 */
 		getCategoryKnowledge(
-			categoryKey: string, 
+			categoryKey: string,
 			categoryWords: Array<{ spanish: string }>,
 			mode: GameMode = 'basic'
 		): CategoryKnowledge {
 			const data = get({ subscribe });
-			
+
 			let spanishToFinnishTotal = 0;
 			let finnishToSpanishTotal = 0;
 			let practicedCount = 0;
 			let lastPracticed: string | null = null;
-			
+
 			for (const word of categoryWords) {
 				const wordData = data.words[word.spanish];
 				if (wordData) {
 					const stfData = wordData.spanish_to_finnish[mode];
 					const ftsData = wordData.finnish_to_spanish[mode];
-					
+
 					const stfPracticed = stfData && stfData.practiceCount > 0;
 					const ftsPracticed = ftsData && ftsData.practiceCount > 0;
-					
+
 					if (stfPracticed || ftsPracticed) {
 						practicedCount++;
 					}
-					
+
 					if (stfPracticed && stfData) {
 						spanishToFinnishTotal += stfData.score;
 						if (!lastPracticed || stfData.lastPracticed > lastPracticed) {
 							lastPracticed = stfData.lastPracticed;
 						}
 					}
-					
+
 					if (ftsPracticed && ftsData) {
 						finnishToSpanishTotal += ftsData.score;
 						if (!lastPracticed || ftsData.lastPracticed > lastPracticed) {
@@ -447,12 +471,12 @@ function createWordKnowledgeStore() {
 					}
 				}
 			}
-			
+
 			const totalWords = categoryWords.length;
 			const spanishToFinnishScore = totalWords > 0 ? spanishToFinnishTotal / totalWords : 0;
 			const finnishToSpanishScore = totalWords > 0 ? finnishToSpanishTotal / totalWords : 0;
 			const combinedScore = (spanishToFinnishScore + finnishToSpanishScore) / 2;
-			
+
 			return {
 				categoryKey,
 				spanishToFinnishScore: Math.round(spanishToFinnishScore * 10) / 10,
@@ -463,32 +487,32 @@ function createWordKnowledgeStore() {
 				lastPracticed
 			};
 		},
-		
+
 		/**
 		 * Get all words for a specific mode
 		 */
 		getWordsForMode(mode: GameMode): string[] {
 			const data = get({ subscribe });
 			const words: string[] = [];
-			
+
 			for (const [spanish, wordData] of Object.entries(data.words)) {
 				const stfData = wordData.spanish_to_finnish[mode];
 				const ftsData = wordData.finnish_to_spanish[mode];
-				
+
 				if ((stfData && stfData.practiceCount > 0) || (ftsData && ftsData.practiceCount > 0)) {
 					words.push(spanish);
 				}
 			}
-			
+
 			return words;
 		},
-		
+
 		/**
 		 * Export all knowledge data as JSON
 		 */
 		exportData(mode?: GameMode): string {
 			const data = get({ subscribe });
-			
+
 			// If mode specified, filter data for that mode only
 			if (mode) {
 				const filtered: WordKnowledgeData = {
@@ -497,15 +521,16 @@ function createWordKnowledgeStore() {
 					gameHistory: data.gameHistory,
 					meta: {
 						...data.meta,
-						totalGamesPlayed: mode === 'basic' ? data.meta.basicGamesPlayed : data.meta.kidsGamesPlayed
+						totalGamesPlayed:
+							mode === 'basic' ? data.meta.basicGamesPlayed : data.meta.kidsGamesPlayed
 					}
 				};
-				
+
 				// Filter words to only include specified mode
 				for (const [spanish, wordData] of Object.entries(data.words)) {
 					const stfData = wordData.spanish_to_finnish[mode];
 					const ftsData = wordData.finnish_to_spanish[mode];
-					
+
 					if (stfData || ftsData) {
 						filtered.words[spanish] = {
 							spanish_to_finnish: stfData ? { [mode]: stfData } : {},
@@ -513,54 +538,62 @@ function createWordKnowledgeStore() {
 						};
 					}
 				}
-				
+
 				return JSON.stringify(filtered, null, 2);
 			}
-			
+
 			return JSON.stringify(data, null, 2);
 		},
-		
+
 		/**
 		 * Import knowledge data from JSON
 		 */
 		importData(jsonString: string): { success: boolean; error?: string } {
 			try {
-				const imported = JSON.parse(jsonString) as WordKnowledgeData;
-				
+				let imported = JSON.parse(jsonString) as WordKnowledgeData;
+
 				// Validate structure
 				if (!imported.version || !imported.words || !imported.meta) {
 					return { success: false, error: 'Invalid data format' };
 				}
-				
-				if (imported.version !== STORAGE_VERSION) {
+
+				// Migrate old versions if needed
+				if (imported.version === 1) {
+					imported = migrateV1toV2(imported);
+				} else if (imported.version === 2 || imported.version === 3) {
+					imported = migrateV2toCurrent(imported);
+				} else if (imported.version !== STORAGE_VERSION) {
 					return { success: false, error: `Incompatible version: ${imported.version}` };
 				}
-				
+
 				// Merge with existing data (imported data wins for conflicts)
-				update(existing => {
+				update((existing) => {
 					const merged: WordKnowledgeData = {
 						version: STORAGE_VERSION,
 						words: { ...existing.words, ...imported.words },
 						gameHistory: [...imported.gameHistory, ...existing.gameHistory].slice(0, 100),
 						meta: {
-							createdAt: existing.meta.createdAt < imported.meta.createdAt 
-								? existing.meta.createdAt 
-								: imported.meta.createdAt,
+							createdAt:
+								existing.meta.createdAt < imported.meta.createdAt
+									? existing.meta.createdAt
+									: imported.meta.createdAt,
 							updatedAt: new Date().toISOString(),
-							totalGamesPlayed: existing.meta.totalGamesPlayed + imported.meta.totalGamesPlayed
+							totalGamesPlayed: existing.meta.totalGamesPlayed + imported.meta.totalGamesPlayed,
+							basicGamesPlayed: existing.meta.basicGamesPlayed + imported.meta.basicGamesPlayed,
+							kidsGamesPlayed: existing.meta.kidsGamesPlayed + imported.meta.kidsGamesPlayed
 						}
 					};
-					
+
 					saveData(merged);
 					return merged;
 				});
-				
+
 				return { success: true };
 			} catch (error) {
 				return { success: false, error: `Parse error: ${error}` };
 			}
 		},
-		
+
 		/**
 		 * Reset all knowledge data
 		 */
@@ -569,7 +602,7 @@ function createWordKnowledgeStore() {
 			saveData(freshData);
 			set(freshData);
 		},
-		
+
 		/**
 		 * Get statistics summary
 		 */
@@ -581,23 +614,23 @@ function createWordKnowledgeStore() {
 			weakWords: number;
 		} {
 			const data = get({ subscribe });
-			
+
 			let totalScore = 0;
 			let wordCount = 0;
 			let strongWords = 0;
 			let weakWords = 0;
-			
+
 			for (const word of Object.values(data.words)) {
 				// If mode specified, only count that mode
 				// If no mode, count all modes
 				const modes: GameMode[] = mode ? [mode] : ['basic', 'kids'];
-				
+
 				for (const m of modes) {
 					const stfData = word.spanish_to_finnish[m];
 					if (stfData && stfData.practiceCount > 0) {
 						totalScore += stfData.score;
 						wordCount++;
-						
+
 						if (stfData.score >= 80) {
 							strongWords++;
 						} else if (stfData.score < 40) {
@@ -606,13 +639,14 @@ function createWordKnowledgeStore() {
 					}
 				}
 			}
-			
-			const gamesPlayed = mode === 'basic' 
-				? data.meta.basicGamesPlayed 
-				: mode === 'kids' 
-					? data.meta.kidsGamesPlayed 
-					: data.meta.totalGamesPlayed;
-			
+
+			const gamesPlayed =
+				mode === 'basic'
+					? data.meta.basicGamesPlayed
+					: mode === 'kids'
+						? data.meta.kidsGamesPlayed
+						: data.meta.totalGamesPlayed;
+
 			return {
 				totalWordsLearned: wordCount,
 				totalGamesPlayed: gamesPlayed,
@@ -621,26 +655,26 @@ function createWordKnowledgeStore() {
 				weakWords
 			};
 		},
-		
+
 		/**
 		 * Record that a word was encountered in a story
 		 * Stories are tracked in 'basic' mode
 		 */
 		recordStoryEncounter(spanish: string, storyId: string): void {
-			update(data => {
+			update((data) => {
 				// Initialize word if not exists
 				if (!data.words[spanish]) {
 					data.words[spanish] = createDefaultBidirectional();
 				}
-				
+
 				// Get or create basic mode data for Spanish→Finnish
 				const directionData = data.words[spanish].spanish_to_finnish;
 				if (!directionData.basic) {
 					directionData.basic = createDefaultWordKnowledge();
 				}
-				
+
 				const wordData = directionData.basic;
-				
+
 				// Initialize story tracking if needed
 				if (!wordData.storiesEncountered) {
 					wordData.storiesEncountered = [];
@@ -648,20 +682,20 @@ function createWordKnowledgeStore() {
 				if (wordData.storyEncounterCount === undefined) {
 					wordData.storyEncounterCount = 0;
 				}
-				
+
 				// Add story if not already tracked
 				if (!wordData.storiesEncountered.includes(storyId)) {
 					wordData.storiesEncountered.push(storyId);
 				}
-				
+
 				// Increment encounter count
 				wordData.storyEncounterCount++;
-				
+
 				saveData(data);
 				return data;
 			});
 		},
-		
+
 		/**
 		 * Get stories where a word was encountered
 		 */

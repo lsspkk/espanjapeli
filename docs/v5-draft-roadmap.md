@@ -77,6 +77,43 @@ _(To be populated as more polysemous cases are discovered)_
 
 ---
 
+## Ideas for New Game Modes
+
+### "¿Qué dijo?" / "Mitä hän sanoi?" / "What did you say?"
+
+A new dialogue-based learning game using Tatoeba sentence pairs.
+
+**Data Source:**
+- Tatoeba trilingual corpus (CC-BY 2.0 FR)
+- 8,238 unique Spanish-Finnish-English sentence triples
+- Sentences range from 1-26 words, average 5.5 words
+- Natural, everyday conversation phrases
+
+**Game Concept:**
+- Present Spanish sentences in context
+- User practices listening/reading comprehension
+- Multiple choice or fill-in-the-blank format
+- Progressive difficulty based on sentence length
+
+**Potential Variations:**
+1. Listen and translate (Spanish → Finnish)
+2. Read and match (Spanish sentence → Finnish translation)
+3. Dialogue builder (arrange sentences into conversations)
+4. Context-based learning (group related sentences by theme)
+
+**Data Location:**
+- Raw data: `scripts/data_story_pipeline/data/tatoeba_spa_fin_eng.json`
+- Pipeline: `scripts/data_story_pipeline/download_tatoeba.py`
+
+**Next Steps:**
+- [ ] Filter sentences by difficulty/CEFR level
+- [ ] Group sentences by topic/theme
+- [ ] Create dialogue sequences from related sentences
+- [ ] Design game mechanics and UI
+- [ ] Transform data to game format
+
+---
+
 ## Next Steps
 
 - [ ] Audit vocabulary database for common polysemous words

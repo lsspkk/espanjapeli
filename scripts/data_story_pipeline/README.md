@@ -46,3 +46,17 @@ After downloading raw sentences, additional scripts can:
 - Filter by topic/theme
 - Group into dialogue-like sequences
 - Transform to story format
+
+
+  Final dataset:
+  • 8,238 unique trilingual sentence triples (down from
+    11,760 with duplicates)
+  • Each Spanish sentence appears exactly once
+  • Clean CSV and JSON output files
+
+  Length distribution:
+  • 1-3 words: 1,757 sentences (21%)
+  • 4-6 words: 4,247 sentences (52%)
+  • 7-10 words: 1,852 sentences (22%)
+  • 11+ words: 382 sentences (5%)
+  • Average: 5.5 words per sentence
