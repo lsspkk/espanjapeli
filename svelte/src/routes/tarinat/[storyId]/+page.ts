@@ -11,24 +11,28 @@ function getLevelFolder(level: string): string {
 }
 
 export const load: PageLoad = async ({ params, fetch }) => {
-	// During build/SSR, we need to load stories directly from filesystem
-	// At runtime in browser, use the service
 	let story: Story | null = null;
 	
-	try {
-		story = await loadStoryById(params.storyId);
-	} catch (e) {
-		// If service fails (e.g., during SSR), try loading directly
+	// During prerendering, use direct imports to avoid fetch() issues
+	// In browser, use the service which handles fetch properly
+	if (typeof window === 'undefined') {
+		// SSR/prerendering: use direct imports
 		const metadata = manifestData.stories.find((s) => s.id === params.storyId);
 		if (metadata) {
 			const levelFolder = getLevelFolder(metadata.level);
-			// Import story directly for SSR
 			try {
 				const storyModule = await import(`../../../../static/stories/${levelFolder}/${params.storyId}.json`);
 				story = storyModule.default;
 			} catch (importError) {
 				console.error(`Failed to import story ${params.storyId}:`, importError);
 			}
+		}
+	} else {
+		// Browser: use the service
+		try {
+			story = await loadStoryById(params.storyId);
+		} catch (e) {
+			console.error(`Failed to load story ${params.storyId}:`, e);
 		}
 	}
 

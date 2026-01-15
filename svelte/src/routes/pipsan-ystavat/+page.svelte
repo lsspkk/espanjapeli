@@ -961,7 +961,7 @@
 		<!-- Phrase Preview Modal -->
 		{#if showPhrasePreview}
 			<div class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 sm:flex sm:items-center sm:justify-center sm:p-2" onclick={togglePhrasePreview} role="button" tabindex="0" onkeydown={(e) => e.key === 'Escape' && togglePhrasePreview()}>
-				<div class="bg-white sm:rounded-2xl shadow-2xl sm:max-w-2xl w-full h-full sm:h-auto sm:max-h-[95vh] overflow-hidden" onclick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" onkeydown={(e) => e.stopPropagation()}>
+				<div class="bg-white sm:rounded-2xl shadow-2xl sm:max-w-2xl w-full h-full sm:h-auto sm:max-h-[95vh] overflow-hidden" onclick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" tabindex="-1" onkeydown={(e) => e.stopPropagation()}>
 					<!-- Modal Header -->
 					<div class="bg-gradient-to-r from-pink-500 to-purple-500 text-white p-3 flex items-center justify-between">
 						<div class="flex items-center gap-2">
@@ -1063,9 +1063,4 @@
 	.animate-fade-in {
 		animation: fade-in 0.3s ease-out;
 	}
-
-	.delay-100 { animation-delay: 100ms; }
-	.delay-200 { animation-delay: 200ms; }
-	.delay-300 { animation-delay: 300ms; }
-	.delay-400 { animation-delay: 400ms; }
 </style>

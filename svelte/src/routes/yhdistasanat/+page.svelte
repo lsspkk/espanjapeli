@@ -952,7 +952,7 @@
 				</div>
 				
 				<!-- Current question score -->
-				<PossiblePoints points={triesRemaining === 3 ? 10 : triesRemaining === 2 ? 3 : triesRemaining === 1 ? 1 : 0} {triesRemaining} />
+				<PossiblePoints {triesRemaining} />
 
 				<!-- Question word (centered in remaining space) -->
 				<div bind:this={questionWordRef}>

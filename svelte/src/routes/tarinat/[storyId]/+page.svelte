@@ -152,7 +152,5 @@
 		story={data.story}
 		results={questionResults}
 		onHome={goHome}
-		onPlayAgain={playAgain}
-		onNextStory={data.nextStoryId ? nextStory : undefined}
 	/>
 {/if}

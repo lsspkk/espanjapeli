@@ -585,12 +585,13 @@
 		<div class="card-body p-4 md:p-8">
 			<h1 class="text-3xl font-bold text-center text-primary mb-6">🇪🇸 Espanjapeli 🇫🇮</h1>
 
-			<!-- Category Selection -->
-			<div class="form-control mb-4">
-				<label class="label">
-					<span class="label-text font-semibold text-lg">Valitse kategoria:</span>
-				</label>
-				<button 
+		<!-- Category Selection -->
+		<div class="form-control mb-4">
+			<label class="label" for="category-button">
+				<span class="label-text font-semibold text-lg">Valitse kategoria:</span>
+			</label>
+			<button
+				id="category-button"
 					class="btn btn-outline btn-lg w-full justify-between text-left font-normal"
 					on:click={toggleCategoryPicker}
 				>
@@ -842,11 +843,10 @@
 				<!-- Answer Form -->
 				<form on:submit={handleSubmit} class="space-y-4">
 					<input 
-						type="text" 
-						class="input input-bordered input-lg w-full text-center text-2xl"
-						bind:value={userAnswer}
-						placeholder="Kirjoita vastaus suomeksi..."
-						autofocus
+					type="text" 
+					class="input input-bordered input-lg w-full text-center text-2xl"
+					bind:value={userAnswer}
+					placeholder="Kirjoita vastaus suomeksi..."
 					/>
 					<button 
 						type="submit"
@@ -952,10 +952,9 @@
 					type="text" 
 					class="input input-bordered h-8 min-h-8 flex-1 text-center text-sm px-2 py-0 border-base-300"
 					style="line-height: 1.5rem;"
-					bind:value={userAnswer}
-					placeholder="Vastaus..."
-					on:keypress={(e) => e.key === 'Enter' && userAnswer.trim() && submitAnswer()}
-					autofocus
+				bind:value={userAnswer}
+				placeholder="Vastaus..."
+				on:keypress={(e) => e.key === 'Enter' && userAnswer.trim() && submitAnswer()}
 				/>
 				<button 
 					type="button"
@@ -1016,8 +1015,8 @@
 					</div>
 				</div>
 
-				<!-- Next Button -->
-				<button class="btn btn-primary btn-lg w-full mt-6" on:click={nextQuestion} autofocus>
+			<!-- Next Button -->
+			<button class="btn btn-primary btn-lg w-full mt-6" on:click={nextQuestion}>
 					Seuraava
 				</button>
 			</div>
@@ -1070,8 +1069,8 @@
 				</div>
 			</div>
 
-			<!-- Next Button -->
-			<button class="btn btn-primary btn-sm flex-shrink-0 mt-2" on:click={nextQuestion} autofocus>
+		<!-- Next Button -->
+		<button class="btn btn-primary btn-sm flex-shrink-0 mt-2" on:click={nextQuestion}>
 				Seuraava
 			</button>
 		</div>

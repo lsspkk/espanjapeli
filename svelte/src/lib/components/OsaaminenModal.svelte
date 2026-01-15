@@ -394,11 +394,12 @@
 				</div>
 			{/if}
 			
-			<div class="mb-4">
-				<label class="label">
-					<span class="label-text">Valitse tiedosto tai liitä JSON:</span>
-				</label>
-				<input 
+		<div class="mb-4">
+			<label class="label" for="import-file">
+				<span class="label-text">Valitse tiedosto tai liitä JSON:</span>
+			</label>
+			<input
+				id="import-file"
 					type="file" 
 					accept=".json" 
 					class="file-input file-input-bordered w-full mb-2"
