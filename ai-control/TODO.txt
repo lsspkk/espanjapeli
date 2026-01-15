@@ -196,6 +196,22 @@ ESTIMATED TIME: 2-3 hours for analysis, variable for fixes
 TASK 24: Kids/Basic Knowledge Separation & Vocabulary Progress Implementation
 ================================================================================
 
+STATUS: ✅ COMPLETE (January 15, 2026)
+
+All subtasks implemented:
+- wordKnowledge.ts has V2 mode-separated structure (basic/kids)
+- V1→V2 migration implemented and tested
+- All games call recordAnswer() with correct mode parameter
+- statisticsService.ts supports mode filtering
+- /sanasto-kids route created with kid-friendly UI
+- KidsVocabularyWidget created and integrated in pipsan-maailma and pipsan-ystavat
+- calculateKidsVocabularyStats() implemented
+
+BUG FIX (January 15, 2026):
+- Fixed sanasto/+page.svelte showKnownWords() and showMasteredWords() 
+  to use V2 mode-separated structure (was accessing .score directly,
+  now correctly uses .basic?.score)
+
 DESCRIPTION:
 Implement separate vocabulary tracking for kids and basic game modes to support
 multiple users (kids + adults) on the same device. Analyze current data model
@@ -204,7 +220,7 @@ and create kids-specific vocabulary statistics UI with encouraging messaging.
 
 OBJECTIVES:
 
-□ SUBTASK 24.1: Data Model Analysis & Architecture Design
+☑ SUBTASK 24.1: Data Model Analysis & Architecture Design
   - Analyze current wordKnowledge store usage across ALL game modes
   - Identify which games use spanish_to_finnish vs finnish_to_spanish tracking
   - Document current localStorage structure for word knowledge

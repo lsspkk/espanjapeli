@@ -38,7 +38,7 @@ Rules:
 - ONLY WORK ON A SINGLE SUBTASK AT A TIME
 - Update todo.json status to 'in-progress' before starting
 - Task is NOT complete until tests pass (check testRequired field)
-- Append progress log into file in project root called progress.txt with timestamps after each agent action, as described below
+- APPEND (do not overwrite) progress log into file in project root called progress.txt with timestamps after each agent action, as described below
 - ONLY when ALL tasks AND subtasks are 'completed', print exactly: ${STOP_TOKEN}
 - Check todo.json: if ANY task/subtask has status 'not-started', do NOT output stop token
 - When subtask is done

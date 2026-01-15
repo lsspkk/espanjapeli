@@ -10,10 +10,13 @@ Aggregates results from all validation scripts:
 - Manifest validation
 
 Outputs a markdown report with executive summary and detailed findings.
+Also generates CSV file with detailed issue information.
 """
 
 import json
 import os
+import csv
+import re
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Any
@@ -40,6 +43,14 @@ def load_validation_results() -> Dict[str, Any]:
             loaded[key] = None
     
     return loaded
+
+
+def load_stories() -> List[Dict]:
+    """Load stories from JSON file."""
+    stories_file = Path(__file__).parent.parent / "svelte/static/stories/stories.json"
+    with open(stories_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    return data.get('stories', [])
 
 
 def parse_story_validation(content: str) -> Dict[str, Any]:
@@ -310,6 +321,146 @@ def calculate_health_score(parsed_results: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
+def generate_csv_report(stories: List[Dict], crossref_content: str) -> List[Dict[str, str]]:
+    """
+    Generate CSV data with detailed issue information.
+    
+    Returns list of dictionaries with fields:
+    - story_filename: Story file name
+    - word: The problematic word (Spanish)
+    - word_finnish: Finnish translation from story vocabulary
+    - issue_type: ORPHANED|MISSING|INCONSISTENT
+    - phrase_number: Phrase number in dialogue (if applicable)
+    - phrase_spanish: Spanish text of the phrase
+    - phrase_finnish: Finnish translation of the phrase
+    - phrase_english: English translation of the phrase
+    """
+    csv_data = []
+    
+    if not crossref_content:
+        return csv_data
+    
+    # Parse the crossref report to extract detailed information
+    current_section = None
+    current_story = None
+    current_story_title = None
+    
+    lines = crossref_content.split('\n')
+    i = 0
+    
+    while i < len(lines):
+        line = lines[i].strip()
+        
+        # Stop at RECOMMENDATIONS section
+        if "RECOMMENDATIONS" in line:
+            break
+        
+        # Detect section headers
+        if "ORPHANED VOCABULARY" in line:
+            current_section = "ORPHANED"
+        elif "VOCABULARY MISSING FROM DATABASE" in line:
+            current_section = "MISSING"
+        elif "INCONSISTENT TRANSLATIONS" in line:
+            current_section = "INCONSISTENT"
+        elif line.startswith("Story:"):
+            # Extract story ID and title
+            match = re.match(r"Story:\s+([^\s]+)\s+-\s+(.+)", line)
+            if match:
+                current_story = match.group(1)
+                current_story_title = match.group(2)
+        elif line.startswith("- ") and current_section and current_story:
+            # Extract word from the line
+            word = line[2:].strip()
+            
+            # Skip lines that are part of recommendations or sub-items
+            if any(skip_word in word.lower() for skip_word in ['standardize', 'choose', 'update', 'review', 'add', 'consider']):
+                i += 1
+                continue
+            
+            # For INCONSISTENT section, skip the "Story:" and "DB:" lines that follow
+            if current_section == "INCONSISTENT":
+                # Skip next two lines (Story: and DB:)
+                i += 2
+            
+            # Find the story data
+            story_data = next((s for s in stories if s.get('id') == current_story), None)
+            
+            if story_data:
+                # Get Finnish translation from story vocabulary
+                word_finnish = get_finnish_from_vocabulary(word, story_data.get('vocabulary', []))
+                
+                # Find phrase containing this word in dialogue
+                dialogue = story_data.get('dialogue', [])
+                phrase_info = find_word_in_dialogue(word, dialogue)
+                
+                csv_row = {
+                    'story_filename': f"{current_story}.json",
+                    'story_title': current_story_title,
+                    'word': word,
+                    'word_finnish': word_finnish,
+                    'issue_type': current_section,
+                    'phrase_number': phrase_info['phrase_number'],
+                    'phrase_spanish': phrase_info['spanish'],
+                    'phrase_finnish': phrase_info['finnish'],
+                    'phrase_english': phrase_info['english']
+                }
+                csv_data.append(csv_row)
+        
+        i += 1
+    
+    return csv_data
+
+
+def get_finnish_from_vocabulary(spanish_word: str, vocabulary: List[Dict]) -> str:
+    """
+    Get Finnish translation from story vocabulary list.
+    """
+    for vocab_entry in vocabulary:
+        if vocab_entry.get('spanish', '').lower() == spanish_word.lower():
+            return vocab_entry.get('finnish', '')
+    return ''
+
+
+def find_word_in_dialogue(word: str, dialogue: List[Dict]) -> Dict[str, str]:
+    """
+    Find a word in the dialogue and return phrase information.
+    Returns dict with phrase_number, spanish, finnish, english.
+    """
+    # Normalize word for searching (remove articles, lowercase)
+    search_word = word.lower().strip()
+    for article in ['el ', 'la ', 'los ', 'las ', 'un ', 'una ', 'unos ', 'unas ']:
+        if search_word.startswith(article):
+            search_word = search_word[len(article):]
+            break
+    
+    # Extract significant tokens from the word
+    word_tokens = re.findall(r'\b[a-záéíóúñü]+\b', search_word)
+    articles = {'el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas'}
+    significant_tokens = [t for t in word_tokens if t not in articles]
+    
+    # Search through dialogue
+    for idx, line in enumerate(dialogue, 1):
+        spanish_text = line.get('spanish', '').lower()
+        
+        # Check if any significant token appears in this line
+        for token in significant_tokens:
+            if token in spanish_text:
+                return {
+                    'phrase_number': str(idx),
+                    'spanish': line.get('spanish', ''),
+                    'finnish': line.get('finnish', ''),
+                    'english': line.get('english', '')
+                }
+    
+    # If not found in dialogue, return empty
+    return {
+        'phrase_number': 'N/A',
+        'spanish': '',
+        'finnish': '',
+        'english': ''
+    }
+
+
 def generate_markdown_report(parsed_results: Dict[str, Any], health_scores: Dict[str, Any]) -> str:
     """Generate markdown report."""
     report = []
@@ -568,13 +719,33 @@ def main():
     print("Generating markdown report...")
     markdown_report = generate_markdown_report(parsed_results, health_scores)
     
-    # Write report
+    # Write markdown report
     output_path = Path(__file__).parent.parent / "reports" / "v4-data-consistency-report.md"
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(markdown_report)
     
-    print(f"\n✅ Report generated: {output_path}")
-    print(f"Overall Health Score: {health_scores['overall']:.1f}/100")
+    print(f"\n✅ Markdown report generated: {output_path}")
+    
+    # Generate CSV report
+    print("Generating CSV report...")
+    stories = load_stories()
+    csv_data = generate_csv_report(stories, raw_results["crossref"])
+    
+    if csv_data:
+        csv_output_path = Path(__file__).parent.parent / "reports" / "v4-data-consistency-issues.csv"
+        with open(csv_output_path, 'w', encoding='utf-8', newline='') as f:
+            fieldnames = ['story_filename', 'story_title', 'word', 'word_finnish', 'issue_type', 
+                         'phrase_number', 'phrase_spanish', 'phrase_finnish', 'phrase_english']
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(csv_data)
+        
+        print(f"✅ CSV report generated: {csv_output_path}")
+        print(f"   Total issues: {len(csv_data)}")
+    else:
+        print("⚠️  No CSV data to generate (no cross-reference issues found)")
+    
+    print(f"\nOverall Health Score: {health_scores['overall']:.1f}/100")
     
     # Print summary to console
     print("\nComponent Scores:")
