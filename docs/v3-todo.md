@@ -1,6 +1,6 @@
 # V3 TODO - Espanjapeli Refactoring & New Features
 
-This is the implementation checklist extracted from V3_ROADMAP.md.
+This is the implementation checklist extracted from v3-roadmap.md.
 Check off items as they are completed.
 
 Source Games:

@@ -9,11 +9,11 @@ Claude Opus 4.5
 
 Prompt:
 
-     just got @V4_DATAMODEL_IDEAS.md done by some fellow, after you did write @V4_ROADMAP.md earlier. We are still in planning    │
+     just got @v4-datamodel-ideas.md done by some fellow, after you did write @v4-roadmap.md earlier. We are still in planning    │
  │   phase. It seems like dualingo and or memrise and anki cards are available through web. Perhaps you could analyze their       │
  │   datamodels better, or check if there is some downloadable json or xml or whatever database for example about mark davies     │
  │   corpus. and since this project is @PRINCIPLES.md svelte only frontend project, the datamodel and data that will be used      │
- │   should be open source or have proper licence. Could you do more sophisticadet V4_DATAMODEL_IDEAS_improved.md and try to      │
+ │   should be open source or have proper licence. Could you do more sophisticadet v4-datamodel-ideas-improved.md and try to      │
  │   search if there would be some ready made model and or datasets available that could be downloaded with scripts and then use  │
  │   the downloaded data to improve dictionaries etc statistics of spanish language for the game version 4. Personally I think    │
  │   now its the time to get database right. Later on this kind of refactoring will be complicated. So do many web searches,      │

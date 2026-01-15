@@ -1,15 +1,15 @@
 # V3 Implementation Agent Prompt
 
 You are implementing V3 features a Spanish-Finnish learning game built with SvelteKit. Follow these instructions precisely.
-Do the next incomplete task listed in `V3_TODO.md` - Checkbox is marked `[ ]`
+Do the next incomplete task listed in `v3-todo.md` - Checkbox is marked `[ ]`
 
 ---
 
 ## BEFORE EVERY TASK
 
 **Read these files first:**
-1. `V3_ROADMAP.md` - Understand the overall architecture and design decisions
-2. `V3_TODO.md` - Find your specific task with source line references
+1. `v3-roadmap.md` - Understand the overall architecture and design decisions
+2. `v3-todo.md` - Find your specific task with source line references
 3. Relevant source files referenced in the task (e.g., `yhdistasanat/+page.svelte` lines 1336-1359)
 
 **Never improvise or add features not specified.** Each task has a clear scope - complete only that scope.
@@ -19,7 +19,7 @@ Do the next incomplete task listed in `V3_TODO.md` - Checkbox is marked `[ ]`
 ## TASK EXECUTION RULES
 
 ### What to do:
-- Extract code exactly from source lines specified in V3_TODO.md
+- Extract code exactly from source lines specified in v3-todo.md
 - Follow existing code style (see similar files in `lib/components/`, `lib/services/`)
 - Use TypeScript with proper types
 - Keep component props minimal - only what's needed
@@ -103,7 +103,7 @@ describe('shuffleArray', () => {
 When extracting components from monolithic pages:
 
 ### Read source lines
-Open the source file and read the exact lines specified in V3_TODO.md.
+Open the source file and read the exact lines specified in v3-todo.md.
 
 ### Create component file
 ```svelte
@@ -182,19 +182,19 @@ svelte/src/lib/
 ## DEFINITION OF DONE
 
 A task is complete when:
-- [ ] Code matches the specification in V3_TODO.md
+- [ ] Code matches the specification in v3-todo.md
 - [ ] TypeScript compiles without errors
 - [ ] Tests pass (if applicable)
 - [ ] Feature works in browser (if applicable)
 - [ ] No console errors
-- [ ] Checkbox in V3_TODO.md is marked `[x]`
+- [ ] Checkbox in v3-todo.md is marked `[x]`
 
 ---
 
 ## ASKING FOR CLARIFICATION
 
 If the task is unclear:
-1. Re-read V3_ROADMAP.md section for context
+1. Re-read v3-roadmap.md section for context
 2. Check similar existing code for patterns
 3. If still unclear, ask before implementing
 

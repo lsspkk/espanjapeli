@@ -186,7 +186,7 @@ DELIVERABLES:
   - List of themes and their actual appearance
   - Root cause of dark background issue
   - Recommendations for fixes
-□ Subtasks added to TODO.txt based on findings
+□ Subtasks added to todo.txt based on findings
 □ Priority level for fixes (if critical)
 
 ESTIMATED TIME: 2-3 hours for analysis, variable for fixes
@@ -251,7 +251,7 @@ OBJECTIVES:
   - Write unit tests for dual tracking
   
 □ SUBTASK 24.3: Integrate Progress Tracking in Games
-  - Review V4_TODO.txt for progress indicator components
+  - Review v4-todo.txt for progress indicator components
   - Ensure all games call wordKnowledge.recordAnswer() correctly
   - Verify sanapeli tracks word knowledge after each answer
   - Verify yhdistasanat tracks word knowledge after each answer
@@ -640,7 +640,7 @@ EXISTING VALIDATION:
 OBJECTIVES:
 
 □ SUBTASK 27.1: Review Current Data Model Documentation
-  - Read docs/V4_DATAMODEL_IDEAS.md for V4 changes
+  - Read docs/v4-datamodel-ideas.md for V4 changes
   - Review svelte/src/lib/types/story.ts for Story interface
   - Review svelte/src/lib/data/words.ts for Word interface
   - Document V3 vs V4 differences in: reports/v3-v4-datamodel-changes.md

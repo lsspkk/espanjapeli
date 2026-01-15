@@ -4,23 +4,23 @@ First prompt for Claude Sonnet:
 
      i want you to do web searches for new open source material, a lot more stories to the tarinat game mode, there should really │
  │   be absolute beginner and beginner and intermediate discussions and vocabulary according to the                              │
- │   @svelte/src/routes/kielten-oppiminen/+page.svelte and i want you to write V4_material.txt about your findings, and then i    │
- │   want you to do a very long analyze of how you would improve the stories gamemode, and this should be focus in V4_ROADMAP.md  │
- │   that you will also create. You can check @V3_ROADMAP.md to see the format that new roadmap could have. not much pseudocode,  │
+ │   @svelte/src/routes/kielten-oppiminen/+page.svelte and i want you to write v4-material.txt about your findings, and then i    │
+ │   want you to do a very long analyze of how you would improve the stories gamemode, and this should be focus in v4-roadmap.md  │
+ │   that you will also create. You can check @v3-roadmap.md to see the format that new roadmap could have. not much pseudocode,  │
  │   but lot of top level planning for improvements of this gamemode and keeping usability nice for mobile phones, also somewhat  │
  │   ok for desktop, you can also write about new common components, or improvements about database system, because you have this │
  │    role @PRINCIPLES.md file mentions. Dont worry about doing long think and many web searches, do the best work you can for    │
  │   the next version of this game. Get lots of material, too much even, like 20-50 stories, if you find nice sources. It can be  │
  │   in spanish or in english or both, Dont worry about Finnish language.   
 
-Then Sonnet created todo list, then I asked it to consider datamodel and write V4_DATAMODEL_IDEAS.md. 
-Then I was not happy with that so I asked Opus to improve it and write V4_DATAMODEL_IDEAS_improved.md.
-Then I realized that V4_ROADMAP.md must be rewritten, so I asked Opus to do that:
+Then Sonnet created todo list, then I asked it to consider datamodel and write v4-datamodel-ideas.md. 
+Then I was not happy with that so I asked Opus to improve it and write v4-datamodel-ideas-improved.md.
+Then I realized that v4-roadmap.md must be rewritten, so I asked Opus to do that:
 
 Prompt for Claude Opus:
 
-     You are right, this file that you created is the key. You must use the new knowledge from @V4_DATAMODEL_IDEAS_improved.md    │
- │   and rewrite V4_TODO.txt so that the first tasks will be about downloading datasets and creating the new datamodel. And the   │
+     You are right, this file that you created is the key. You must use the new knowledge from @v4-datamodel-ideas-improved.md    │
+ │   and rewrite v4-todo.txt so that the first tasks will be about downloading datasets and creating the new datamodel. And the   │
  │   later tasks must be reviewed and updated so that datamodel can be used. Also because there is so much data available and we  │
  │   just do svelte with online json you need to make it so that all this data is usable in mobile browser, so that the static    │
  │   files are reasonably constructed, you mentioned manifests etc. I think we should use some intermediate solutions there,      │
@@ -31,7 +31,7 @@ Prompt for Claude Opus:
  │   produce reports perhaps with email or whatsapp message that let user boast about their learning of language. Also we need    │
  │   some kind of licences database, and a svelte page for showing that data, and all other licence related data bout this game,  │
  │   that is one task, it needs to be in the new navbar and menu that will be implemented in version 4. So... with these          │
- │   thoughts, and remembering the @PRINCIPLES.md, please rewrite the V4_TODO.txt   
+ │   thoughts, and remembering the @PRINCIPLES.md, please rewrite the v4-todo.txt   
 
 
 **Focus: Story Mode Excellence**
@@ -378,7 +378,7 @@ Process for adding new stories:
 
 1. CONTENT CREATION
    - Write dialogue in Spanish with English translations
-   - Use V4_material.txt as source (30 complete stories ready)
+   - Use v4-material.txt as source (30 complete stories ready)
    - Keep dialogue natural and conversational
 
 2. TRANSLATION
@@ -1120,10 +1120,10 @@ DESKTOP (> 1024px):
   8.1 Phase 1: Content Expansion (Weeks 1-2)
 --------------------------------------------------------------------------------
 
-GOAL: Add 30 new stories from V4_material.txt
+GOAL: Add 30 new stories from v4-material.txt
 
 TASKS:
-□ Convert V4_material.txt stories to JSON format
+□ Convert v4-material.txt stories to JSON format
 □ Run Finnish translation scripts
 □ Create story manifest structure
 □ Split stories into level folders (a1/, a2/, b1/)
@@ -1435,5 +1435,5 @@ Timeline Estimate: 7 weeks (14-20 coding sessions)
 ================================================================================
 
 Document created: January 2026
-Based on V4_material.txt story collection
-References: V3_ROADMAP.md, PRINCIPLES.md, current Tarinat implementation
+Based on v4-material.txt story collection
+References: v3-roadmap.md, PRINCIPLES.md, current Tarinat implementation

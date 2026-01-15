@@ -24,7 +24,7 @@ Prompt:
  │   stories game, and how big percentage it is of the total words, or even the percentage of words in the 1000 words that count  │
  │   for 90% of daily communication or whatever that number was? What do you think about this. Is the datamodel good enough or    │
  │   should you do some web searches about language learning datamodels, and perhaps in V4 we could move to quite advanced model? │
- │    Or perhaps not. What do you think. Evaluate this question and report about it in V4_DATAMODEL_IDEAS.md   
+ │    Or perhaps not. What do you think. Evaluate this question and report about it in v4-datamodel-ideas.md   
 ---
 
 ## Executive Summary

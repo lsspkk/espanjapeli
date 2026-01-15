@@ -769,16 +769,16 @@ PRIORITY 5: CONTENT EXPANSION (Tasks 13-14)
 
 
 ================================================================================
-TASK 13: Process V4_material.txt into New Stories
+TASK 13: Process v4-material.txt into New Stories
 ================================================================================
 
 DESCRIPTION:
-Convert the story content from V4_material.txt into properly structured JSON
+Convert the story content from v4-material.txt into properly structured JSON
 files. Generate Finnish translations, extract vocabulary, create questions.
 Target: 20+ new stories across A1, A2, B1 levels.
 
 OBJECTIVES:
-• Parse V4_material.txt content
+• Parse v4-material.txt content
 • Create A1 stories (6-8 lines, simple present tense)
 • Create A2 stories (8-12 lines, past/future)
 • Create B1 stories (10-14 lines, complex grammar)
@@ -1090,5 +1090,5 @@ END OF V4 TODO LIST
 ================================================================================
 
 Created: January 12, 2026
-Based on: V4_ROADMAP.md, V4_DATAMODEL_IDEAS_improved.md, PRINCIPLES.md
+Based on: v4-roadmap.md, v4-datamodel-ideas-improved.md, PRINCIPLES.md
 Target Release: V4.0.0 - Data-First Architecture + Story Mode Excellence

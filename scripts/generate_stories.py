@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Story Generation Script
-Converts V4_material.txt stories into JSON format for the Espanjapeli app.
+Converts v4-material.txt stories into JSON format for the Espanjapeli app.
 """
 
 import json
@@ -12,7 +12,7 @@ from typing import Dict, List, Optional
 
 
 def parse_story_section(text: str) -> Optional[Dict]:
-    """Parse a single story section from V4_material.txt"""
+    """Parse a single story section from v4-material.txt"""
     
     # Extract story metadata
     id_match = re.search(r'ID:\s*(\S+)', text)
@@ -194,7 +194,7 @@ def parse_story_section(text: str) -> Optional[Dict]:
 
 
 def extract_stories_from_material(material_file: Path) -> Dict[str, List[Dict]]:
-    """Extract all stories from V4_material.txt and group by level"""
+    """Extract all stories from v4-material.txt and group by level"""
     
     with open(material_file, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -288,7 +288,7 @@ def main():
     
     # Paths
     project_root = Path(__file__).parent.parent
-    material_file = project_root / 'docs' / 'V4_material.txt'
+    material_file = project_root / 'docs' / 'v4-material.txt'
     output_dir = project_root / 'svelte' / 'static' / 'stories'
     
     if not material_file.exists():

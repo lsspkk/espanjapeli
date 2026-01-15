@@ -1,13 +1,13 @@
 {
   "version": "4.2.0",
   "lastUpdated": "2026-01-14",
-  "humanReadable": "TODO.txt",
+  "humanReadable": "todo.txt",
   "description": "UI/UX Polish Tasks - Mobile-First UI Polish & Finnish Language Consistency",
   "tasks": [
     {
       "id": 20,
       "title": "Navigation Bar Mobile Improvements",
-      "todoTxtRef": "TASK 20: Navigation Bar Mobile Improvements (TODO.txt lines 13-43)",
+      "todoTxtRef": "TASK 20: Navigation Bar Mobile Improvements (todo.txt lines 13-43)",
       "priority": 1,
       "status": "completed",
       "estimatedHours": 2.5,
@@ -60,7 +60,7 @@
     {
       "id": 21,
       "title": "Finnish Language Consistency & Vocabulary Stats Widget",
-      "todoTxtRef": "TASK 21: Finnish Language Consistency & Vocabulary Stats Widget (TODO.txt lines 46-86)",
+      "todoTxtRef": "TASK 21: Finnish Language Consistency & Vocabulary Stats Widget (todo.txt lines 46-86)",
       "priority": 1,
       "status": "completed",
       "estimatedHours": 3.5,
@@ -127,7 +127,7 @@
     {
       "id": 22,
       "title": "Story Mode UI Improvements",
-      "todoTxtRef": "TASK 22: Story Mode UI Improvements (TODO.txt lines 89-128)",
+      "todoTxtRef": "TASK 22: Story Mode UI Improvements (todo.txt lines 89-128)",
       "priority": 1,
       "status": "completed",
       "estimatedHours": 4.5,
@@ -194,7 +194,7 @@
     {
       "id": 23,
       "title": "DaisyUI Theme Usage Analysis and Fix",
-      "todoTxtRef": "TASK 23: DaisyUI Theme Usage Analysis and Fix (TODO.txt lines 133-193)",
+      "todoTxtRef": "TASK 23: DaisyUI Theme Usage Analysis and Fix (todo.txt lines 133-193)",
       "priority": 2,
       "status": "completed",
       "estimatedHours": 2.5,
@@ -253,7 +253,7 @@
           "id": "23.8",
           "title": "Create fix subtasks based on findings",
           "status": "completed",
-          "deliverable": "ai-control/TODO.txt",
+          "deliverable": "ai-control/todo.txt",
           "testRequired": false
         }
       ]
@@ -261,7 +261,7 @@
     {
       "id": 24,
       "title": "Kids/Basic Knowledge Separation & Vocabulary Progress Implementation",
-      "todoTxtRef": "TASK 24: Kids/Basic Knowledge Separation & Vocabulary Progress Implementation (TODO.txt lines 196-323)",
+      "todoTxtRef": "TASK 24: Kids/Basic Knowledge Separation & Vocabulary Progress Implementation (todo.txt lines 196-323)",
       "priority": 1,
       "status": "completed",
       "estimatedHours": 10,
@@ -320,7 +320,7 @@
     {
       "id": 25,
       "title": "Test Performance Analysis & Optimization Planning",
-      "todoTxtRef": "TASK 25: Test Performance Analysis & Optimization Planning (TODO.txt lines 327-449)",
+      "todoTxtRef": "TASK 25: Test Performance Analysis & Optimization Planning (todo.txt lines 327-449)",
       "priority": 2,
       "status": "completed",
       "estimatedHours": 3.5,
@@ -363,7 +363,7 @@
     {
       "id": 26,
       "title": "Test Performance Optimization Implementation",
-      "todoTxtRef": "TASK 26: Test Performance Optimization Implementation (TODO.txt lines 452-597)",
+      "todoTxtRef": "TASK 26: Test Performance Optimization Implementation (todo.txt lines 452-597)",
       "priority": 2,
       "status": "completed",
       "estimatedHours": 7,
@@ -422,7 +422,7 @@
     {
       "id": 27,
       "title": "V3 to V4 Data Model Migration Verification",
-      "todoTxtRef": "TASK 27: V3 to V4 Data Model Migration Verification (TODO.txt lines 600-816)",
+      "todoTxtRef": "TASK 27: V3 to V4 Data Model Migration Verification (todo.txt lines 600-816)",
       "priority": 2,
       "status": "completed",
       "estimatedHours": 7,
@@ -505,7 +505,7 @@
     {
       "id": 28,
       "title": "Story Loading Performance Optimization",
-      "todoTxtRef": "TASK 28: Story Loading Performance Optimization (TODO.txt lines 818-1055)",
+      "todoTxtRef": "TASK 28: Story Loading Performance Optimization (todo.txt lines 818-1055)",
       "priority": 1,
       "status": "completed",
       "estimatedHours": 3.5,

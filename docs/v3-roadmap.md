@@ -950,9 +950,9 @@ export function selectGameWords(
   PART 4: IMPLEMENTATION
 ================================================================================
 
-Implementation tasks have been extracted to V3_TODO.md for detailed tracking.
+Implementation tasks have been extracted to v3-todo.md for detailed tracking.
 
-See V3_TODO.md for the complete checklist with granular tasks for:
+See v3-todo.md for the complete checklist with granular tasks for:
 - Phase 1: Component Extraction (Foundation)
 - Phase 2: Story Game Foundation
 - Phase 3: Knowledge System Expansion

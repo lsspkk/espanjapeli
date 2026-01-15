@@ -1,0 +1,17 @@
+Documentation Files Renaming Map
+=================================
+
+Old Name                           → New Name
+--------------------------------------------------------------------------------
+v2-todo.md                         → v2-todo.md
+v3-prompt.md                       → v3-prompt.md
+v3-roadmap.md                      → v3-roadmap.md
+v3-todo.md                         → v3-todo.md
+v4-datamodel-ideas-improved.md     → v4-datamodel-ideas-improved.md
+v4-datamodel-ideas.md              → v4-datamodel-ideas.md
+v4-material.txt                    → v4-material.txt
+v4-roadmap.md                      → v4-roadmap.md
+v4-todo-fixes.txt                  → v4-todo-fixes.txt
+v4-todo.txt                        → v4-todo.txt
+
+Note: v5-draft-roadmap.md already follows the new naming convention
