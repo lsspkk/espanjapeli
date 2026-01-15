@@ -1,0 +1,7 @@
+ESPANJAPELI ARCHITECTURE NOTES
+==============================
+
+SSR & Story Loading
+-------------------
+Stories use environment-aware loading: SSR/prerender uses direct JSON imports to avoid Node.js fetch() limitations with relative paths, 
+while browser runtime uses the lazy-loading service with caching. All story pages are prerendered at build time for performance and SEO.

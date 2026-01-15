@@ -4,8 +4,6 @@
 	export let story: Story;
 	export let results: StoryQuestionResult[];
 	export let onHome: () => void;
-	export let onPlayAgain: () => void;
-	export let onNextStory: (() => void) | undefined = undefined;
 
 	$: correctCount = results.filter((r) => r.correct).length;
 	$: totalQuestions = results.length;

@@ -1,5 +1,4 @@
 <script lang="ts">
-	export let points: number;
 	export let triesRemaining: number;
 </script>
 

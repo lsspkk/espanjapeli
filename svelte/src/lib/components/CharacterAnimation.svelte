@@ -97,7 +97,7 @@
 			--pattern-width: {config.background.width}px;
 			opacity: {backgroundOpacity};
 		"
-	/>
+	></div>
 {/if}
 
 {#if isMultiCharacter}
