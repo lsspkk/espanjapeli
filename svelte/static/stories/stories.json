@@ -311,7 +311,7 @@
 				{ "spanish": "cerrar", "finnish": "sulkea" },
 				{ "spanish": "el pasaporte", "finnish": "passi" },
 				{ "spanish": "el depósito", "finnish": "panttimaksu" },
-				{ "spanish": "la hora", "finnish": "tunti / kellonaika" }
+				{ "spanish": "la hora", "finnish": "tunti" }
 			],
 			"questions": [
 				{

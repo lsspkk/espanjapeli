@@ -83,8 +83,9 @@
 			const wordData = knowledgeData.words[word.spanish];
 			if (!wordData) return false;
 			
-			const stfScore = wordData.spanish_to_finnish.score;
-			const ftsScore = wordData.finnish_to_spanish.score;
+			// Check basic mode scores (sanasto page shows basic game progress)
+			const stfScore = wordData.spanish_to_finnish.basic?.score ?? 0;
+			const ftsScore = wordData.finnish_to_spanish.basic?.score ?? 0;
 			const bestScore = Math.max(stfScore, ftsScore);
 			
 			return bestScore >= KNOWN_THRESHOLD;
@@ -105,8 +106,9 @@
 			const wordData = knowledgeData.words[word.spanish];
 			if (!wordData) return false;
 			
-			const stfScore = wordData.spanish_to_finnish.score;
-			const ftsScore = wordData.finnish_to_spanish.score;
+			// Check basic mode scores (sanasto page shows basic game progress)
+			const stfScore = wordData.spanish_to_finnish.basic?.score ?? 0;
+			const ftsScore = wordData.finnish_to_spanish.basic?.score ?? 0;
 			const bestScore = Math.max(stfScore, ftsScore);
 			
 			return bestScore >= MASTERED_THRESHOLD;

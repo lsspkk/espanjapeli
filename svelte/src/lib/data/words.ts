@@ -171,6 +171,16 @@ export const WORD_CATEGORIES: Record<string, WordCategory> = {
 			{ spanish: 'café', english: 'coffee', finnish: 'kahvi' },
 			{ spanish: 'té', english: 'tea', finnish: 'tee' },
 			{ spanish: 'jugo', english: 'juice', finnish: 'mehu' }
+		,
+			{ spanish: 'las frutas', english: 'fruits', finnish: 'hedelmät' },
+			{ spanish: 'el café con leche', english: 'coffee with milk', finnish: 'maitokahvi' },
+			{ spanish: 'el croissant', english: 'croissant', finnish: 'croissant' },
+			{ spanish: 'la tostada', english: 'toast', finnish: 'paahtoleipä' },
+			{ spanish: 'el pastel', english: 'pastry', finnish: 'leivos', id: 'pastel', frequency: { rank: 1905, cefrLevel: 'B1', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } },
+			{ spanish: 'la mantequilla', english: 'butter', finnish: 'voi', id: 'mantequilla', frequency: { rank: 4136, cefrLevel: 'B2', isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'feminine' } },
+			{ spanish: 'la comida', english: 'food', finnish: 'ruoka', id: 'comida', frequency: { rank: 483, cefrLevel: 'A1', isTop500: true, isTop1000: true, isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'feminine' } },
+			{ spanish: 'la paella', english: 'paella', finnish: 'paella' },
+			{ spanish: 'las tapas', english: 'tapas', finnish: 'tapakset' }
 		]
 	},
 	
@@ -222,6 +232,18 @@ export const WORD_CATEGORIES: Record<string, WordCategory> = {
 			{ spanish: 'tierra', english: 'earth', finnish: 'maa' },
 			{ spanish: 'piedra', english: 'stone', finnish: 'kivi' },
 			{ spanish: 'fuego', english: 'fire', finnish: 'tuli' }
+		,
+			{ spanish: 'el parque natural', english: 'natural park', finnish: 'luonnonpuisto' },
+			{ spanish: 'la ardilla', english: 'squirrel', finnish: 'orava' },
+			{ spanish: 'el ciervo', english: 'deer', finnish: 'peura' },
+			{ spanish: 'el camping', english: 'campsite', finnish: 'leirintäalue' },
+			{ spanish: 'la tienda de campaña', english: 'tent', finnish: 'teltta' },
+			{ spanish: 'poner la tienda', english: 'to pitch the tent', finnish: 'pystyttää teltta' },
+			{ spanish: 'el paraguas', english: 'umbrella', finnish: 'sateenvarjo' },
+			{ spanish: 'nublado', english: 'cloudy', finnish: 'pilvinen' },
+			{ spanish: 'el calor', english: 'heat', finnish: 'kuuma / lämpö', id: 'calor', frequency: { rank: 1369, cefrLevel: 'A2', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } },
+			{ spanish: 'el pronóstico', english: 'forecast', finnish: 'sääennuste' },
+			{ spanish: 'el grado', english: 'degree', finnish: 'aste', id: 'grado', frequency: { rank: 2545, cefrLevel: 'B1', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } }
 		]
 	},
 	
@@ -298,6 +320,18 @@ export const WORD_CATEGORIES: Record<string, WordCategory> = {
 			{ spanish: 'jugar', english: 'to play', finnish: 'leikkiä' },
 			{ spanish: 'cantar', english: 'to sing', finnish: 'laulaa' },
 			{ spanish: 'bailar', english: 'to dance', finnish: 'tanssia' }
+		,
+			{ spanish: 'servir', english: 'to serve', finnish: 'tarjoilla', id: 'servir', frequency: { rank: 2751, cefrLevel: 'B1', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'verb' } },
+			{ spanish: 'sentarse', english: 'to sit down', finnish: 'istua', id: 'sentarse', frequency: { rank: 3401, cefrLevel: 'B2', isTop5000: true }, linguistic: { partOfSpeech: 'verb' } },
+			{ spanish: 'disfrutar', english: 'to enjoy', finnish: 'nauttia', id: 'disfrutar', frequency: { rank: 3258, cefrLevel: 'B2', isTop5000: true }, linguistic: { partOfSpeech: 'verb' } },
+			{ spanish: 'alquilar', english: 'to rent', finnish: 'vuokrata' },
+			{ spanish: 'devolver', english: 'to return', finnish: 'palauttaa', id: 'devolver', frequency: { rank: 3949, cefrLevel: 'B2', isTop5000: true }, linguistic: { partOfSpeech: 'verb' } },
+			{ spanish: 'cerrar', english: 'to close', finnish: 'sulkea', id: 'cerrar', frequency: { rank: 1798, cefrLevel: 'B1', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'verb' } },
+			{ spanish: 'nadar', english: 'to swim', finnish: 'uida', id: 'nadar', frequency: { rank: 3141, cefrLevel: 'B2', isTop5000: true }, linguistic: { partOfSpeech: 'verb' } },
+			{ spanish: 'llover', english: 'to rain', finnish: 'sataa' },
+			{ spanish: 'pasear', english: 'to walk', finnish: 'kävellä / ulkoilla' },
+			{ spanish: 'cenar', english: 'to have dinner', finnish: 'syödä illallista', id: 'cenar', frequency: { rank: 1100, cefrLevel: 'A2', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'verb' } },
+			{ spanish: 'girar', english: 'to turn', finnish: 'kääntyä' }
 		]
 	},
 	
@@ -349,6 +383,13 @@ export const WORD_CATEGORIES: Record<string, WordCategory> = {
 			{ spanish: 'frío', english: 'cold', finnish: 'kylmä' },
 			{ spanish: 'fácil', english: 'easy', finnish: 'helppo' },
 			{ spanish: 'difícil', english: 'difficult', finnish: 'vaikea' }
+		,
+			{ spanish: 'fresco/a', english: '[tuore]', finnish: 'tuore' },
+			{ spanish: 'pequeño/a', english: '[pieni]', finnish: 'pieni' },
+			{ spanish: 'plano/a', english: '[tasainen]', finnish: 'tasainen' },
+			{ spanish: 'típico/a', english: '[tyypillinen]', finnish: 'tyypillinen' },
+			{ spanish: 'caro/a', english: '[kallis]', finnish: 'kallis' },
+			{ spanish: 'vegetariano/a', english: '[kasvis-]', finnish: 'kasvis-' }
 		]
 	},
 	
@@ -492,6 +533,12 @@ export const WORD_CATEGORIES: Record<string, WordCategory> = {
 			{ spanish: 'biblioteca', english: 'library', finnish: 'kirjasto' },
 			{ spanish: 'oficina', english: 'office', finnish: 'toimisto' },
 			{ spanish: 'mercado', english: 'market', finnish: 'tori' }
+		,
+			{ spanish: 'el hostal', english: 'hostel', finnish: 'hostelli' },
+			{ spanish: 'la reserva', english: 'reservation', finnish: 'varaus', id: 'reserva', frequency: { rank: 3405, cefrLevel: 'B2', isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'feminine' } },
+			{ spanish: 'la ducha', english: 'shower', finnish: 'suihku', id: 'ducha', frequency: { rank: 2822, cefrLevel: 'B1', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'feminine' } },
+			{ spanish: 'el desayuno', english: 'breakfast', finnish: 'aamiainen', id: 'desayuno', frequency: { rank: 1953, cefrLevel: 'B1', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } },
+			{ spanish: 'la llave', english: 'key', finnish: 'avain', id: 'llave', frequency: { rank: 1131, cefrLevel: 'A2', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'feminine' } }
 		]
 	},
 	
@@ -582,10 +629,42 @@ export const WORD_CATEGORIES: Record<string, WordCategory> = {
 			{ spanish: 'caro', english: 'expensive', finnish: 'kallis' },
 			{ spanish: 'barato', english: 'cheap', finnish: 'halpa' },
 			{ spanish: 'gratis', english: 'free', finnish: 'ilmainen' },
-			{ spanish: 'cuenta', english: 'bill', finnish: 'lasku' },
-			{ spanish: 'tarjeta', english: 'card', finnish: 'kortti' }
+		{ spanish: 'cuenta', english: 'bill', finnish: 'lasku' },
+		{ spanish: 'tarjeta', english: 'card', finnish: 'kortti' }
+	]
+},
+	
+	stories: {
+		name: 'Tarinoista',
+		words: [
+		{ spanish: 'el pasillo', english: 'aisle', finnish: 'käytävä', id: 'pasillo', frequency: { rank: 2730, cefrLevel: 'B1', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } },
+		{ spanish: 'la entrada', english: 'entrance', finnish: 'sisäänkäynti', id: 'entrada', frequency: { rank: 1316, cefrLevel: 'A2', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'feminine' } },
+		{ spanish: 'el kilo', english: 'kilo', finnish: 'kilo' },
+		{ spanish: 'el efectivo', english: 'cash', finnish: 'käteinen', id: 'efectivo', frequency: { rank: 2203, cefrLevel: 'B1', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } },
+		{ spanish: 'la caja', english: 'cash register', finnish: 'kassa', id: 'caja', frequency: { rank: 803, cefrLevel: 'A2', isTop1000: true, isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'feminine' } },
+		{ spanish: 'la cafetería', english: 'cafeteria', finnish: 'kahvila', id: 'cafetería', frequency: { rank: 4574, cefrLevel: 'B2', isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'feminine' } },
+		{ spanish: 'la terraza', english: 'terrace', finnish: 'terassi' },
+		{ spanish: 'el casco', english: 'helmet', finnish: 'kypärä', id: 'casco', frequency: { rank: 4321, cefrLevel: 'B2', isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } },
+		{ spanish: 'el mapa', english: 'map', finnish: 'kartta', id: 'mapa', frequency: { rank: 2241, cefrLevel: 'B1', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } },
+		{ spanish: 'la ruta', english: 'route', finnish: 'reitti', id: 'ruta', frequency: { rank: 2736, cefrLevel: 'B1', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'feminine' } },
+		{ spanish: 'el depósito', english: 'deposit', finnish: 'panttimaksu', id: 'depósito', frequency: { rank: 3520, cefrLevel: 'B2', isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } },
+		{ spanish: 'doble', english: 'double', finnish: 'kahden hengen', id: 'doble', frequency: { rank: 1317, cefrLevel: 'A2', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun' } },
+		{ spanish: 'el aire acondicionado', english: 'air conditioning', finnish: 'ilmastointi' },
+		{ spanish: 'el comedor', english: 'dining room', finnish: 'ruokasali' },
+		{ spanish: 'la hora de salida', english: 'checkout time', finnish: 'uloskirjautumisaika' },
+		{ spanish: 'el área de picnic', english: 'picnic area', finnish: 'piknik-alue' },
+		{ spanish: 'prohibido', english: 'prohibited', finnish: 'kielletty', id: 'prohibido', frequency: { rank: 3844, cefrLevel: 'B2', isTop5000: true }, linguistic: { partOfSpeech: 'noun' } },
+		{ spanish: 'el sitio', english: 'place', finnish: 'paikka', id: 'sitio', frequency: { rank: 558, cefrLevel: 'A2', isTop1000: true, isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } },
+		{ spanish: 'los servicios', english: 'facilities', finnish: 'saniteettitilat', id: 'servicios', frequency: { rank: 2589, cefrLevel: 'B1', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } },
+		{ spanish: 'el agua caliente', english: 'hot water', finnish: 'kuuma vesi' },
+		{ spanish: 'la barbacoa', english: 'barbecue', finnish: 'grilli' },
+		{ spanish: 'el silencio', english: 'silence', finnish: 'hiljaisuus', id: 'silencio', frequency: { rank: 904, cefrLevel: 'A2', isTop1000: true, isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } },
+		{ spanish: 'el horario', english: 'schedule', finnish: 'aikataulu', id: 'horario', frequency: { rank: 4448, cefrLevel: 'B2', isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } },
+		{ spanish: 'razonable', english: 'reasonable', finnish: 'kohtuullinen', id: 'razonable', frequency: { rank: 3696, cefrLevel: 'B2', isTop5000: true }, linguistic: { partOfSpeech: 'noun' } },
+		{ spanish: 'el almuerzo', english: 'lunch', finnish: 'lounas', id: 'almuerzo', frequency: { rank: 1898, cefrLevel: 'B1', isTop3000: true, isTop5000: true }, linguistic: { partOfSpeech: 'noun', gender: 'masculine' } }
 		]
-	}
+	},
+	
 };
 
 // Get all words from a category

@@ -10,7 +10,7 @@
 		showFrequency?: boolean;
 	}
 
-	let { isOpen = false, title = 'Sanat', words = [], showFrequency = false }: Props = $props();
+	let { isOpen = $bindable(false), title = 'Sanat', words = [], showFrequency = false }: Props = $props();
 
 	const dispatch = createEventDispatcher<{ close: void }>();
 
@@ -23,9 +23,10 @@
 	let sortedWords = $derived.by(() => {
 		if (!sortColumn) return words;
 
+		const column = sortColumn;
 		return [...words].sort((a, b) => {
-			const aValue = a[sortColumn]?.toLowerCase() || '';
-			const bValue = b[sortColumn]?.toLowerCase() || '';
+			const aValue = a[column]?.toLowerCase() || '';
+			const bValue = b[column]?.toLowerCase() || '';
 			
 			if (sortDirection === 'asc') {
 				return aValue.localeCompare(bValue, 'fi');
