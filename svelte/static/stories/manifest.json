@@ -14,7 +14,8 @@
       "wordCount": 44,
       "estimatedMinutes": 2,
       "vocabularyCount": 10,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 8
     },
     {
       "id": "body-parts",
@@ -28,7 +29,8 @@
       "wordCount": 33,
       "estimatedMinutes": 2,
       "vocabularyCount": 10,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 9
     },
     {
       "id": "classroom",
@@ -42,7 +44,8 @@
       "wordCount": 32,
       "estimatedMinutes": 2,
       "vocabularyCount": 9,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 7
     },
     {
       "id": "colors",
@@ -56,7 +59,8 @@
       "wordCount": 39,
       "estimatedMinutes": 2,
       "vocabularyCount": 9,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 8
     },
     {
       "id": "counting-twenty",
@@ -70,7 +74,8 @@
       "wordCount": 38,
       "estimatedMinutes": 2,
       "vocabularyCount": 10,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 8
     },
     {
       "id": "days-week",
@@ -84,7 +89,8 @@
       "wordCount": 26,
       "estimatedMinutes": 2,
       "vocabularyCount": 9,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 7
     },
     {
       "id": "how-are-you",
@@ -98,7 +104,8 @@
       "wordCount": 34,
       "estimatedMinutes": 2,
       "vocabularyCount": 8,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 7
     },
     {
       "id": "hungry",
@@ -112,7 +119,8 @@
       "wordCount": 27,
       "estimatedMinutes": 2,
       "vocabularyCount": 8,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 6
     },
     {
       "id": "market-fruits",
@@ -126,7 +134,8 @@
       "wordCount": 29,
       "estimatedMinutes": 2,
       "vocabularyCount": 8,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 8
     },
     {
       "id": "meeting-new-person",
@@ -140,7 +149,8 @@
       "wordCount": 31,
       "estimatedMinutes": 2,
       "vocabularyCount": 6,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 6
     },
     {
       "id": "my-family",
@@ -154,7 +164,8 @@
       "wordCount": 40,
       "estimatedMinutes": 2,
       "vocabularyCount": 8,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 8
     },
     {
       "id": "my-pets",
@@ -168,7 +179,8 @@
       "wordCount": 46,
       "estimatedMinutes": 2,
       "vocabularyCount": 10,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 9
     },
     {
       "id": "my-room",
@@ -182,7 +194,8 @@
       "wordCount": 40,
       "estimatedMinutes": 2,
       "vocabularyCount": 8,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 8
     },
     {
       "id": "weather-today",
@@ -196,7 +209,8 @@
       "wordCount": 35,
       "estimatedMinutes": 2,
       "vocabularyCount": 10,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 8
     },
     {
       "id": "what-time",
@@ -210,7 +224,8 @@
       "wordCount": 31,
       "estimatedMinutes": 2,
       "vocabularyCount": 7,
-      "questionCount": 3
+      "questionCount": 3,
+      "dialogueCount": 6
     },
     {
       "id": "apartment-search",
@@ -224,7 +239,8 @@
       "wordCount": 70,
       "estimatedMinutes": 2,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 13
     },
     {
       "id": "at-gym",
@@ -238,7 +254,8 @@
       "wordCount": 65,
       "estimatedMinutes": 2,
       "vocabularyCount": 11,
-      "questionCount": 4
+      "questionCount": 4,
+      "dialogueCount": 10
     },
     {
       "id": "at-library",
@@ -252,7 +269,8 @@
       "wordCount": 62,
       "estimatedMinutes": 2,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 11
     },
     {
       "id": "bicycle-rental",
@@ -266,7 +284,8 @@
       "wordCount": 103,
       "estimatedMinutes": 3,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 12
     },
     {
       "id": "birthday-party",
@@ -280,7 +299,8 @@
       "wordCount": 71,
       "estimatedMinutes": 2,
       "vocabularyCount": 13,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 12
     },
     {
       "id": "cafe-visit",
@@ -294,7 +314,8 @@
       "wordCount": 79,
       "estimatedMinutes": 2,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 11
     },
     {
       "id": "car-problems",
@@ -308,7 +329,8 @@
       "wordCount": 54,
       "estimatedMinutes": 2,
       "vocabularyCount": 11,
-      "questionCount": 4
+      "questionCount": 4,
+      "dialogueCount": 10
     },
     {
       "id": "cheap-hotel",
@@ -322,7 +344,8 @@
       "wordCount": 138,
       "estimatedMinutes": 4,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 12
     },
     {
       "id": "cooking-together",
@@ -336,7 +359,8 @@
       "wordCount": 59,
       "estimatedMinutes": 2,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 11
     },
     {
       "id": "doctor-visit",
@@ -350,7 +374,8 @@
       "wordCount": 76,
       "estimatedMinutes": 2,
       "vocabularyCount": 13,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 13
     },
     {
       "id": "food-delivery",
@@ -364,7 +389,8 @@
       "wordCount": 70,
       "estimatedMinutes": 2,
       "vocabularyCount": 13,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 12
     },
     {
       "id": "grocery-shopping",
@@ -378,7 +404,8 @@
       "wordCount": 83,
       "estimatedMinutes": 2,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 10
     },
     {
       "id": "hairdresser",
@@ -392,7 +419,8 @@
       "wordCount": 57,
       "estimatedMinutes": 2,
       "vocabularyCount": 11,
-      "questionCount": 4
+      "questionCount": 4,
+      "dialogueCount": 10
     },
     {
       "id": "job-interview",
@@ -406,7 +434,8 @@
       "wordCount": 70,
       "estimatedMinutes": 2,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 12
     },
     {
       "id": "learning-spanish",
@@ -420,7 +449,8 @@
       "wordCount": 76,
       "estimatedMinutes": 2,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 12
     },
     {
       "id": "lost-wallet",
@@ -434,7 +464,8 @@
       "wordCount": 67,
       "estimatedMinutes": 2,
       "vocabularyCount": 11,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 11
     },
     {
       "id": "moving-city",
@@ -448,7 +479,8 @@
       "wordCount": 62,
       "estimatedMinutes": 2,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 11
     },
     {
       "id": "pharmacy",
@@ -462,7 +494,8 @@
       "wordCount": 71,
       "estimatedMinutes": 2,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 12
     },
     {
       "id": "public-transport",
@@ -476,7 +509,8 @@
       "wordCount": 79,
       "estimatedMinutes": 2,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 12
     },
     {
       "id": "sports-match",
@@ -490,7 +524,8 @@
       "wordCount": 67,
       "estimatedMinutes": 2,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 11
     },
     {
       "id": "train-station",
@@ -504,7 +539,8 @@
       "wordCount": 71,
       "estimatedMinutes": 2,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 12
     },
     {
       "id": "weather-talk",
@@ -518,7 +554,8 @@
       "wordCount": 129,
       "estimatedMinutes": 4,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 12
     },
     {
       "id": "weekend-plans",
@@ -532,7 +569,8 @@
       "wordCount": 75,
       "estimatedMinutes": 2,
       "vocabularyCount": 11,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 11
     },
     {
       "id": "camping-area",
@@ -546,7 +584,8 @@
       "wordCount": 133,
       "estimatedMinutes": 4,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 12
     },
     {
       "id": "climate-change",
@@ -560,7 +599,8 @@
       "wordCount": 105,
       "estimatedMinutes": 3,
       "vocabularyCount": 14,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 13
     },
     {
       "id": "cultural-differences",
@@ -574,7 +614,8 @@
       "wordCount": 118,
       "estimatedMinutes": 3,
       "vocabularyCount": 14,
-      "questionCount": 6
+      "questionCount": 6,
+      "dialogueCount": 13
     },
     {
       "id": "discussing-book",
@@ -588,7 +629,8 @@
       "wordCount": 105,
       "estimatedMinutes": 3,
       "vocabularyCount": 15,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 13
     },
     {
       "id": "environmental-volunteering",
@@ -602,7 +644,8 @@
       "wordCount": 103,
       "estimatedMinutes": 3,
       "vocabularyCount": 14,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 13
     },
     {
       "id": "healthy-eating",
@@ -616,7 +659,8 @@
       "wordCount": 106,
       "estimatedMinutes": 3,
       "vocabularyCount": 15,
-      "questionCount": 6
+      "questionCount": 6,
+      "dialogueCount": 14
     },
     {
       "id": "housing-market",
@@ -630,7 +674,8 @@
       "wordCount": 132,
       "estimatedMinutes": 4,
       "vocabularyCount": 14,
-      "questionCount": 6
+      "questionCount": 6,
+      "dialogueCount": 12
     },
     {
       "id": "learning-drive",
@@ -644,7 +689,8 @@
       "wordCount": 135,
       "estimatedMinutes": 4,
       "vocabularyCount": 15,
-      "questionCount": 6
+      "questionCount": 6,
+      "dialogueCount": 13
     },
     {
       "id": "mental-health",
@@ -658,7 +704,8 @@
       "wordCount": 140,
       "estimatedMinutes": 4,
       "vocabularyCount": 15,
-      "questionCount": 6
+      "questionCount": 6,
+      "dialogueCount": 13
     },
     {
       "id": "nature-park",
@@ -672,7 +719,8 @@
       "wordCount": 149,
       "estimatedMinutes": 4,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 12
     },
     {
       "id": "online-shopping",
@@ -686,7 +734,8 @@
       "wordCount": 112,
       "estimatedMinutes": 3,
       "vocabularyCount": 15,
-      "questionCount": 6
+      "questionCount": 6,
+      "dialogueCount": 13
     },
     {
       "id": "remote-work",
@@ -700,7 +749,8 @@
       "wordCount": 113,
       "estimatedMinutes": 3,
       "vocabularyCount": 15,
-      "questionCount": 6
+      "questionCount": 6,
+      "dialogueCount": 13
     },
     {
       "id": "restaurant-recommendation",
@@ -714,7 +764,8 @@
       "wordCount": 131,
       "estimatedMinutes": 4,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 14
     },
     {
       "id": "social-media-impact",
@@ -728,7 +779,8 @@
       "wordCount": 123,
       "estimatedMinutes": 4,
       "vocabularyCount": 15,
-      "questionCount": 6
+      "questionCount": 6,
+      "dialogueCount": 13
     },
     {
       "id": "starting-business",
@@ -742,7 +794,8 @@
       "wordCount": 106,
       "estimatedMinutes": 3,
       "vocabularyCount": 14,
-      "questionCount": 6
+      "questionCount": 6,
+      "dialogueCount": 14
     },
     {
       "id": "technology-life",
@@ -756,7 +809,8 @@
       "wordCount": 102,
       "estimatedMinutes": 3,
       "vocabularyCount": 14,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 13
     },
     {
       "id": "trip-planning",
@@ -770,7 +824,8 @@
       "wordCount": 106,
       "estimatedMinutes": 3,
       "vocabularyCount": 16,
-      "questionCount": 6
+      "questionCount": 6,
+      "dialogueCount": 14
     },
     {
       "id": "university-application",
@@ -784,7 +839,8 @@
       "wordCount": 97,
       "estimatedMinutes": 3,
       "vocabularyCount": 12,
-      "questionCount": 5
+      "questionCount": 5,
+      "dialogueCount": 12
     },
     {
       "id": "wedding-planning",
@@ -798,7 +854,8 @@
       "wordCount": 136,
       "estimatedMinutes": 4,
       "vocabularyCount": 16,
-      "questionCount": 6
+      "questionCount": 6,
+      "dialogueCount": 13
     },
     {
       "id": "work-life-balance",
@@ -812,7 +869,8 @@
       "wordCount": 112,
       "estimatedMinutes": 3,
       "vocabularyCount": 13,
-      "questionCount": 6
+      "questionCount": 6,
+      "dialogueCount": 13
     }
   ]
 }

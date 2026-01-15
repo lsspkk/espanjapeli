@@ -1,11 +1,23 @@
 <script lang="ts">
 	import type { Story } from '$lib/types/story';
+	import type { StoryMetadata } from '$lib/services/storyLoader';
 	import { getCEFRLabel } from '$lib/services/vocabularyService';
 	import { base } from '$app/paths';
 
-	export let story: Story;
-	export let onSelect: ((story: Story) => void) | undefined = undefined;
+	export let story: Story | StoryMetadata;
+	export let onSelect: ((story: Story | StoryMetadata) => void) | undefined = undefined;
 	export let useLink: boolean = false;
+	
+	// Helper to check if story has full data or just metadata
+	function isFullStory(s: Story | StoryMetadata): s is Story {
+		return 'dialogue' in s;
+	}
+	
+	// Get dialogue count (from full story or metadata)
+	$: dialogueCount = isFullStory(story) ? story.dialogue.length : (story.dialogueCount ?? 0);
+	
+	// Get question count (from full story or metadata)
+	$: questionCount = isFullStory(story) ? story.questions.length : (story.questionCount ?? 0);
 	
 	function getLevelColor(level: string): string {
 		switch (level) {
@@ -41,10 +53,10 @@
 					{getCEFRLabel(story.level, 'short')}
 				</span>
 				<span>
-					{story.dialogue.length} repliikkiä
+					{dialogueCount} repliikkiä
 				</span>
 				<span>
-					· {story.questions.length} kysymystä
+					· {questionCount} kysymystä
 				</span>
 			</div>
 		</div>
@@ -67,10 +79,10 @@
 					{getCEFRLabel(story.level, 'short')}
 				</span>
 				<span>
-					{story.dialogue.length} repliikkiä
+					{dialogueCount} repliikkiä
 				</span>
 				<span>
-					· {story.questions.length} kysymystä
+					· {questionCount} kysymystä
 				</span>
 			</div>
 		</div>

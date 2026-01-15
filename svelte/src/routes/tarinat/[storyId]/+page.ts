@@ -1,15 +1,36 @@
 import type { PageLoad, EntryGenerator } from './$types';
 import type { Story } from '$lib/types/story';
 import { error } from '@sveltejs/kit';
+import { loadStoryById, getStoryMetadata } from '$lib/services/storyLoader';
+// Import manifest directly for build-time prerendering
+import manifestData from '../../../../static/stories/manifest.json';
 
-// Import the stories data directly for build-time access
-// Using relative path from src/routes/tarinat/[storyId] to static/stories
-import storiesData from '../../../../static/stories/stories.json';
+// Helper to get level folder from CEFR level
+function getLevelFolder(level: string): string {
+	return level.toLowerCase();
+}
 
-const stories = storiesData.stories as Story[];
-
-export const load: PageLoad = async ({ params }) => {
-	const story = stories.find((s) => s.id === params.storyId);
+export const load: PageLoad = async ({ params, fetch }) => {
+	// During build/SSR, we need to load stories directly from filesystem
+	// At runtime in browser, use the service
+	let story: Story | null = null;
+	
+	try {
+		story = await loadStoryById(params.storyId);
+	} catch (e) {
+		// If service fails (e.g., during SSR), try loading directly
+		const metadata = manifestData.stories.find((s) => s.id === params.storyId);
+		if (metadata) {
+			const levelFolder = getLevelFolder(metadata.level);
+			// Import story directly for SSR
+			try {
+				const storyModule = await import(`../../../../static/stories/${levelFolder}/${params.storyId}.json`);
+				story = storyModule.default;
+			} catch (importError) {
+				console.error(`Failed to import story ${params.storyId}:`, importError);
+			}
+		}
+	}
 
 	if (!story) {
 		error(404, {
@@ -17,10 +38,11 @@ export const load: PageLoad = async ({ params }) => {
 		});
 	}
 
-	// Get navigation info
-	const currentIndex = stories.findIndex((s) => s.id === params.storyId);
-	const nextStory = currentIndex < stories.length - 1 ? stories[currentIndex + 1] : null;
-	const prevStory = currentIndex > 0 ? stories[currentIndex - 1] : null;
+	// Get navigation info from manifest
+	const allMetadata = manifestData.stories;
+	const currentIndex = allMetadata.findIndex((s) => s.id === params.storyId);
+	const nextStory = currentIndex < allMetadata.length - 1 ? allMetadata[currentIndex + 1] : null;
+	const prevStory = currentIndex > 0 ? allMetadata[currentIndex - 1] : null;
 
 	return {
 		story,
@@ -30,6 +52,7 @@ export const load: PageLoad = async ({ params }) => {
 };
 
 // Generate list of story IDs for prerendering
+// Use direct import during build to avoid fetch() issues in Node.js
 export const entries: EntryGenerator = () => {
-	return stories.map((story) => ({ storyId: story.id }));
+	return manifestData.stories.map((story) => ({ storyId: story.id }));
 };

@@ -507,14 +507,14 @@
       "title": "Story Loading Performance Optimization",
       "todoTxtRef": "TASK 28: Story Loading Performance Optimization (TODO.txt lines 818-1055)",
       "priority": 1,
-      "status": "pending",
+      "status": "completed",
       "estimatedHours": 3.5,
       "dependencies": [],
       "subtasks": [
         {
           "id": "28.1",
           "title": "Analyze Current Loading Behavior",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "reports/story-loading-analysis.md",
           "testRequired": false,
           "description": "Document network requests, data transfer, time to interactive"
@@ -522,7 +522,7 @@
         {
           "id": "28.2",
           "title": "Refactor Story List Page to Use Manifest Only",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "svelte/src/routes/tarinat/+page.svelte",
           "testRequired": true,
           "description": "Change from loadStories() to getStoryMetadata()"
@@ -530,7 +530,7 @@
         {
           "id": "28.3",
           "title": "Update StoryCard Component (if needed)",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "svelte/src/lib/components/basic/stories/StoryCard.svelte",
           "testRequired": true,
           "description": "Update props to accept StoryMetadata instead of full Story"
@@ -538,7 +538,7 @@
         {
           "id": "28.4",
           "title": "Implement On-Demand Story Loading",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "svelte/src/routes/tarinat/+page.svelte",
           "testRequired": true,
           "description": "Load full story when card is clicked with loading state"
@@ -546,7 +546,7 @@
         {
           "id": "28.5",
           "title": "Verify Individual Story Route Still Works",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "svelte/src/routes/tarinat/[storyId]/+page.ts",
           "testRequired": true,
           "description": "Check individual story route doesn't cause performance issues"
@@ -554,7 +554,7 @@
         {
           "id": "28.6",
           "title": "Remove or Update Deprecated loadStories() Function",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "svelte/src/lib/services/storyLoader.ts",
           "testRequired": false,
           "description": "Check usage and remove or update deprecation notice"
@@ -562,7 +562,7 @@
         {
           "id": "28.7",
           "title": "Performance Testing and Validation",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "scripts/measure_story_loading_performance.py, reports/story-loading-analysis.md",
           "testRequired": true,
           "description": "Measure before/after performance improvements"
@@ -578,7 +578,7 @@
         {
           "id": "28.9",
           "title": "Update Tests",
-          "status": "pending",
+          "status": "completed",
           "deliverable": "svelte/src/routes/tarinat/tarinat.test.ts, svelte/src/lib/services/storyLoader.test.ts",
           "testRequired": true,
           "description": "Update tests to use getStoryMetadata() and verify lazy loading"

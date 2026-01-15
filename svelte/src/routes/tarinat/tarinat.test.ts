@@ -2,11 +2,13 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, waitFor, fireEvent } from '@testing-library/svelte';
 import TarinatPage from './+page.svelte';
 import type { Story } from '$lib/types/story';
-import { createMockStories } from '$tests/mocks/commonMocks';
+import type { StoryMetadata } from '$lib/services/storyLoader';
+import { createMockStories, createMockStoryMetadata } from '$tests/mocks/commonMocks';
 
 // Mock the storyLoader service
 vi.mock('$lib/services/storyLoader', () => ({
-	loadStories: vi.fn(),
+	getStoryMetadata: vi.fn(),
+	loadStoryById: vi.fn(),
 	categoryNames: {
 		travel: 'Matkailu',
 		food: 'Ruoka',
@@ -32,11 +34,31 @@ vi.mock('$app/paths', () => ({
 
 const mockStories = createMockStories();
 
+// Create metadata from stories
+const mockMetadata: StoryMetadata[] = mockStories.map(story => ({
+	id: story.id,
+	title: story.title,
+	titleSpanish: story.titleSpanish,
+	description: story.description,
+	level: story.level,
+	category: story.category,
+	icon: story.icon,
+	wordCount: story.wordCount ?? 100,
+	estimatedMinutes: story.estimatedMinutes ?? 3,
+	vocabularyCount: story.vocabulary?.length ?? 10,
+	questionCount: story.questions?.length ?? 5,
+	dialogueCount: story.dialogue?.length ?? 8
+}));
+
 describe('Tarinat Page', () => {
 	beforeEach(async () => {
 		vi.clearAllMocks();
-		const { loadStories } = await import('$lib/services/storyLoader');
-		vi.mocked(loadStories).mockResolvedValue(mockStories);
+		const { getStoryMetadata, loadStoryById } = await import('$lib/services/storyLoader');
+		vi.mocked(getStoryMetadata).mockResolvedValue(mockMetadata);
+		// Mock loadStoryById to return the full story when called
+		vi.mocked(loadStoryById).mockImplementation(async (id: string) => {
+			return mockStories.find(s => s.id === id) ?? null;
+		});
 	});
 
 	it('renders loading state initially', () => {
@@ -203,8 +225,8 @@ describe('Tarinat Page', () => {
 	});
 
 	it('shows empty state message when no stories available', async () => {
-		const { loadStories } = await import('$lib/services/storyLoader');
-		vi.mocked(loadStories).mockResolvedValue([]); // No stories
+		const { getStoryMetadata } = await import('$lib/services/storyLoader');
+		vi.mocked(getStoryMetadata).mockResolvedValue([]); // No stories
 
 		render(TarinatPage);
 
