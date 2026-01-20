@@ -3,6 +3,7 @@
 	import { base } from '$app/paths';
 	import { tts } from '$lib/services/tts';
 	import { peppaStats } from '$lib/services/peppaStatistics';
+	import { pushGameState, replaceGameState, setupHistoryListener } from '$lib/services/gameNavHistory';
 	import { selectGamePhrases, recordGameCompletion } from '$lib/services/phraseSelection';
 	import { generateRandomAnimation, generateDualAnimation } from '$lib/services/animationGenerator';
 	import CharacterAnimation from '$lib/components/CharacterAnimation.svelte';
@@ -124,6 +125,8 @@
 
 	// All available questions
 	let questionQueue: GameQuestion[] = [];
+	
+	let cleanupHistory: (() => void) | null = null;
 
 	// Load game data
 	onMount(async () => {
@@ -154,6 +157,20 @@
 			prepareNextGamePhrases();
 
 			loading = false;
+			
+			// Setup history listener for browser back button
+			cleanupHistory = setupHistoryListener((state) => {
+				if (state?.gameId === 'pipsan-ystavat') {
+					// Handle back button based on stored state
+					handleHistoryBack(state.state);
+				} else if (state === null) {
+					// User went back to initial state or external page
+					resetGameDirectly();
+				}
+			});
+			
+			// Replace current state with home state
+			replaceGameState('pipsan-ystavat', 'home');
 		} catch (error) {
 			console.error('Failed to load game data:', error);
 			loading = false;
@@ -165,7 +182,35 @@
 		if (currentSessionId && gameStarted) {
 			peppaStats.endSession(currentSessionId);
 		}
+		
+		// Cleanup history listener
+		if (cleanupHistory) {
+			cleanupHistory();
+		}
 	});
+	
+	function handleHistoryBack(targetState: string) {
+		// Simple behavior: any back navigation goes to home/start screen
+		if (targetState === 'home') {
+			resetGameDirectly();
+		} else {
+			resetGameDirectly();
+		}
+	}
+	
+	function resetGameDirectly() {
+		// End session if still active
+		if (currentSessionId && gameStarted) {
+			peppaStats.endSession(currentSessionId);
+		}
+		
+		gameEnded = false;
+		gameStarted = false;
+		questionNumber = 0;
+		correctAnswers = 0;
+		consecutiveCorrect = 0;
+		currentSessionId = null;
+	}
 
 	/**
 	 * Toggle between SVG and emoji display modes
@@ -371,6 +416,9 @@
 
 		// Start statistics session
 		currentSessionId = peppaStats.startSession('peppa_advanced_spanish', totalQuestions);
+
+		// Push playing state to history
+		pushGameState('pipsan-ystavat', 'playing');
 
 		nextQuestion();
 	}
@@ -658,17 +706,8 @@
 	}
 
 	function resetGame() {
-		// End session if still active
-		if (currentSessionId && gameStarted) {
-			peppaStats.endSession(currentSessionId);
-		}
-		
-		gameEnded = false;
-		gameStarted = false;
-		questionNumber = 0;
-		correctAnswers = 0;
-		consecutiveCorrect = 0;
-		currentSessionId = null;
+		// Use browser back to go to home state
+		window.history.back();
 	}
 
 	function replayAudio() {

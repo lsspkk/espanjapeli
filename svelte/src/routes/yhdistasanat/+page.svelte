@@ -1,7 +1,8 @@
 <script lang="ts">
-	import { onMount, tick } from 'svelte';
+	import { onMount, onDestroy, tick } from 'svelte';
 	import { base } from '$app/paths';
 	import { tts } from '$lib/services/tts';
+	import { pushGameState, replaceGameState, setupHistoryListener } from '$lib/services/gameNavHistory';
 	import { 
 		category, 
 		gameLength, 
@@ -364,6 +365,10 @@
 		}
 		
 		wordQueue = await generateWordQueue(selectedGameLength);
+		
+		// Push playing state to history
+		pushGameState('yhdistasanat', 'playing');
+		
 		nextQuestion();
 	}
 
@@ -655,9 +660,8 @@
 	 * Go back to home screen
 	 */
 	function goHome() {
-		gameState = 'home';
-		showFeedback = false;
-		showLine = false;
+		// Use browser back to go to home state
+		window.history.back();
 	}
 
 	/**
@@ -751,6 +755,8 @@
 	// Get categories for dropdown (sorted by learning order)
 	let categories: { key: string; name: string; emoji: string; tooltip: string; tier: number }[] = [];
 	
+	let cleanupHistory: (() => void) | null = null;
+	
 	onMount(async () => {
 		// Load question language preference
 		if (typeof localStorage !== 'undefined') {
@@ -773,7 +779,44 @@
 		];
 
 		await prepareNextGameWords();
+		
+		// Setup history listener for browser back button
+		cleanupHistory = setupHistoryListener((state) => {
+			if (state?.gameId === 'yhdistasanat') {
+				// Handle back button based on stored state
+				handleHistoryBack(state.state as GameState);
+			} else if (state === null) {
+				// User went back to initial state or external page
+				goHomeDirectly();
+			}
+		});
+		
+		// Replace current state with home state
+		replaceGameState('yhdistasanat', 'home');
 	});
+	
+	onDestroy(() => {
+		// Cleanup history listener
+		if (cleanupHistory) {
+			cleanupHistory();
+		}
+	});
+	
+	function handleHistoryBack(targetState: GameState) {
+		// Simple behavior: any back navigation goes to home
+		if (targetState === 'home') {
+			goHomeDirectly();
+		} else {
+			// For any other state, just go home
+			goHomeDirectly();
+		}
+	}
+	
+	function goHomeDirectly() {
+		gameState = 'home';
+		showFeedback = false;
+		showLine = false;
+	}
 
 	$: wrongAnswers = gameQuestions.filter(q => !q.isCorrect);
 	$: correctCount = gameQuestions.filter(q => q.isCorrect).length;

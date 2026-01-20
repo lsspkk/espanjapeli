@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, onDestroy } from 'svelte';
 	import { base } from '$app/paths';
 	import type { Story, StoryQuestionResult, StoryGameState } from '$lib/types/story';
 	import { getStoryMetadata, loadStoryById, type StoryMetadata, categoryNames, getLevelColor } from '$lib/services/storyLoader';
@@ -10,6 +10,7 @@
 	import StoryFilterSort from '$lib/components/basic/stories/StoryFilterSort.svelte';
 	import GameContainer from '$lib/components/shared/GameContainer.svelte';
 	import BackButton from '$lib/components/shared/BackButton.svelte';
+	import { pushGameState, replaceGameState, setupHistoryListener } from '$lib/services/gameNavHistory';
 
 	// Game state
 	let gameState: StoryGameState = 'home';
@@ -61,10 +62,54 @@
 		sortDirection = direction;
 	}
 
+	let cleanupHistory: (() => void) | null = null;
+
 	onMount(async () => {
 		storyMetadata = await getStoryMetadata();
 		loading = false;
+		
+		// Setup history listener for browser back button
+		cleanupHistory = setupHistoryListener((state) => {
+			if (state?.gameId === 'tarinat') {
+				// Handle back button based on stored state
+				handleHistoryBack(state.state as StoryGameState);
+			} else if (state === null) {
+				// User went back to initial state or external page
+				goHome();
+			}
+		});
+		
+		// Replace current state with home state
+		replaceGameState('tarinat', 'home');
 	});
+	
+	onDestroy(() => {
+		// Cleanup history listener
+		if (cleanupHistory) {
+			cleanupHistory();
+		}
+	});
+	
+	function handleHistoryBack(targetState: StoryGameState) {
+		// Navigate to the target state
+		if (targetState === 'home') {
+			gameState = 'home';
+			selectedStory = null;
+			currentQuestionIndex = 0;
+			questionResults = [];
+		} else if (targetState === 'reading' && selectedStory) {
+			gameState = 'reading';
+			currentQuestionIndex = 0;
+			questionResults = [];
+		} else if (targetState === 'questions' && selectedStory) {
+			gameState = 'questions';
+		} else if (targetState === 'report' && selectedStory) {
+			gameState = 'report';
+		} else {
+			// Default to home if state is invalid
+			goHome();
+		}
+	}
 
 	async function selectStory(storyOrMeta: Story | StoryMetadata) {
 		loadingStory = true;
@@ -85,6 +130,9 @@
 		questionResults = [];
 		gameState = 'reading';
 		loadingStory = false;
+		
+		// Push reading state to history
+		pushGameState('tarinat', 'reading', { storyId: story.id });
 	}
 
 	function startQuestions() {
@@ -92,6 +140,9 @@
 		currentQuestionIndex = 0;
 		questionResults = [];
 		gameState = 'questions';
+		
+		// Push questions state to history
+		pushGameState('tarinat', 'questions');
 	}
 
 	function handleAnswer(selectedIndex: number, correct: boolean) {
@@ -114,14 +165,14 @@
 			currentQuestionIndex++;
 		} else {
 			gameState = 'report';
+			// Push report state to history
+			pushGameState('tarinat', 'report');
 		}
 	}
 
 	function goHome() {
-		gameState = 'home';
-		selectedStory = null;
-		currentQuestionIndex = 0;
-		questionResults = [];
+		// Use browser back to go to home state
+		window.history.back();
 	}
 
 	function playAgain() {
@@ -129,6 +180,9 @@
 		currentQuestionIndex = 0;
 		questionResults = [];
 		gameState = 'reading';
+		
+		// Push reading state again
+		pushGameState('tarinat', 'reading', { storyId: selectedStory.id });
 	}
 
 	async function nextStory() {
@@ -139,6 +193,7 @@
 		const nextIndex = (currentIndex + 1) % filteredStories.length;
 		
 		if (nextIndex !== currentIndex) {
+			// Load next story (selectStory will push history)
 			await selectStory(filteredStories[nextIndex]);
 		} else {
 			goHome();
@@ -257,7 +312,5 @@
 		story={selectedStory}
 		results={questionResults}
 		onHome={goHome}
-		onPlayAgain={playAgain}
-		onNextStory={filteredStories.length > 1 ? nextStory : undefined}
 	/>
 {/if}

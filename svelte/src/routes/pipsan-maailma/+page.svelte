@@ -1,8 +1,9 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, onDestroy } from 'svelte';
 	import { base } from '$app/paths';
 	import { tts } from '$lib/services/tts';
 	import { generateRandomAnimation, generateDualAnimation } from '$lib/services/animationGenerator';
+	import { pushGameState, replaceGameState, setupHistoryListener } from '$lib/services/gameNavHistory';
 	import CharacterAnimation from '$lib/components/CharacterAnimation.svelte';
 	import GameContainer from '$lib/components/shared/GameContainer.svelte';
 	import KidsVocabularyWidget from '$lib/components/kids/KidsVocabularyWidget.svelte';
@@ -72,6 +73,8 @@
 
 	// All vocab combined
 	let allVocab: VocabItem[] = $state([]);
+	
+	let cleanupHistory: (() => void) | null = null;
 
 	// Load game data and settings
 	onMount(async () => {
@@ -116,7 +119,48 @@
 			console.error('Failed to load Peppa Pig data:', error);
 			loading = false;
 		}
+		
+		// Setup history listener for browser back button
+		cleanupHistory = setupHistoryListener((state) => {
+			if (state?.gameId === 'pipsan-maailma') {
+				// Handle back button based on stored state
+				handleHistoryBack(state.state);
+			} else if (state === null) {
+				// User went back to initial state or external page
+				resetGameDirectly();
+			}
+		});
+		
+		// Replace current state with home state
+		replaceGameState('pipsan-maailma', 'home');
 	});
+	
+	onDestroy(() => {
+		// Cleanup history listener
+		if (cleanupHistory) {
+			cleanupHistory();
+		}
+	});
+	
+	function handleHistoryBack(targetState: string) {
+		// Simple behavior: any back navigation goes to home/start screen
+		if (targetState === 'home') {
+			resetGameDirectly();
+		} else {
+			resetGameDirectly();
+		}
+	}
+	
+	function resetGameDirectly() {
+		gameEnded = false;
+		gameStarted = false;
+		questionNumber = 0;
+		correctAnswers = 0;
+		if (timerInterval) {
+			clearInterval(timerInterval);
+			timerInterval = null;
+		}
+	}
 
 	// Save settings to localStorage whenever they change
 	function saveSettings() {
@@ -271,6 +315,9 @@
 		
 		// Generate word queue (avoids immediate repeats)
 		wordQueue = generateWordQueue(totalQuestions);
+		
+		// Push playing state to history
+		pushGameState('pipsan-maailma', 'playing');
 		
 		nextQuestion();
 	}
@@ -473,14 +520,8 @@
 	}
 
 	function resetGame() {
-		gameEnded = false;
-		gameStarted = false;
-		questionNumber = 0;
-		correctAnswers = 0;
-		if (timerInterval) {
-			clearInterval(timerInterval);
-			timerInterval = null;
-		}
+		// Use browser back to go to home state
+		window.history.back();
 	}
 
 	// Get button size based on difficulty

@@ -1,7 +1,8 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, onDestroy } from 'svelte';
 	import { base } from '$app/paths';
 	import { tts } from '$lib/services/tts';
+	import { pushGameState, replaceGameState, setupHistoryListener } from '$lib/services/gameNavHistory';
 	import { checkAnswer } from '$lib/services/answerChecker';
 	import { 
 		generateTip, 
@@ -126,6 +127,9 @@
 		
 		// Generate word queue from prepared words
 		wordQueue = await generateWordQueue(selectedCategory, selectedGameLength, upcomingWords, 5, 'spanish_to_finnish', settings.prioritizeFrequency);
+		
+		// Push playing state to history
+		pushGameState('sanapeli', 'playing');
 		
 		// Start first question
 		nextQuestion();
@@ -333,7 +337,8 @@
 	 * Go back to home screen
 	 */
 	function goHome() {
-		gameState = 'home';
+		// Use browser back to go to home state
+		window.history.back();
 	}
 
 	/**
@@ -547,6 +552,9 @@
 
 	// Get categories for dropdown (sorted by learning order)
 	let categories: { key: string; name: string; emoji: string; tooltip: string; tier: number }[] = [];
+	
+	let cleanupHistory: (() => void) | null = null;
+	
 	onMount(async () => {
 		const orderedCategories = getCategoriesByLearningOrder();
 		categories = [
@@ -563,7 +571,38 @@
 		// Prepare words for the next game
 		const settings = $gameSettings;
 		upcomingWords = await prepareNextGameWords(selectedCategory, selectedGameLength, 'spanish_to_finnish', settings.prioritizeFrequency);
+		
+		// Setup history listener for browser back button
+		cleanupHistory = setupHistoryListener((state) => {
+			if (state?.gameId === 'sanapeli') {
+				// Handle back button based on stored state
+				handleHistoryBack(state.state as GameState);
+			} else if (state === null) {
+				// User went back to initial state or external page
+				goHome();
+			}
+		});
+		
+		// Replace current state with home state
+		replaceGameState('sanapeli', 'home');
 	});
+	
+	onDestroy(() => {
+		// Cleanup history listener
+		if (cleanupHistory) {
+			cleanupHistory();
+		}
+	});
+	
+	function handleHistoryBack(targetState: GameState) {
+		// Simple behavior: any back navigation goes to home
+		if (targetState === 'home') {
+			gameState = 'home';
+		} else {
+			// For any other state, just go home
+			goHome();
+		}
+	}
 
 	// Format message with line break
 	function formatMessage(msg: string): { spanish: string; finnish: string } {

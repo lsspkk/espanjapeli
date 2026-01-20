@@ -3,7 +3,7 @@ import { render, screen, waitFor, fireEvent } from '@testing-library/svelte';
 import TarinatPage from './+page.svelte';
 import type { Story } from '$lib/types/story';
 import type { StoryMetadata } from '$lib/services/storyLoader';
-import { createMockStories, createMockStoryMetadata } from '$tests/mocks/commonMocks';
+import { createMockStories } from '../../tests/mocks/commonMocks';
 
 // Mock the storyLoader service
 vi.mock('$lib/services/storyLoader', () => ({
@@ -35,7 +35,7 @@ vi.mock('$app/paths', () => ({
 const mockStories = createMockStories();
 
 // Create metadata from stories
-const mockMetadata: StoryMetadata[] = mockStories.map(story => ({
+const mockMetadata: StoryMetadata[] = mockStories.map((story: Story) => ({
 	id: story.id,
 	title: story.title,
 	titleSpanish: story.titleSpanish,
@@ -57,7 +57,7 @@ describe('Tarinat Page', () => {
 		vi.mocked(getStoryMetadata).mockResolvedValue(mockMetadata);
 		// Mock loadStoryById to return the full story when called
 		vi.mocked(loadStoryById).mockImplementation(async (id: string) => {
-			return mockStories.find(s => s.id === id) ?? null;
+			return mockStories.find((s: Story) => s.id === id) ?? null;
 		});
 	});
 
@@ -78,7 +78,7 @@ describe('Tarinat Page', () => {
 			expect(screen.getByText('En la cafetería')).toBeInTheDocument();
 			expect(screen.getByText('En el supermercado')).toBeInTheDocument();
 			expect(screen.getByText('En la estación')).toBeInTheDocument();
-			
+
 			// Check for filter buttons
 			const kaikkiButtons = screen.getAllByText(/Kaikki/i);
 			expect(kaikkiButtons.length).toBeGreaterThan(0);
@@ -86,7 +86,7 @@ describe('Tarinat Page', () => {
 			expect(screen.getAllByText(/Perustaso/i).length).toBeGreaterThan(0);
 			expect(screen.getAllByText(/Keskitaso/i).length).toBeGreaterThan(0);
 			expect(screen.getAllByText(/Edistynyt/i).length).toBeGreaterThan(0);
-			
+
 			// Check for sort direction button
 			const sortButtons = screen.getAllByRole('button');
 			const sortButton = sortButtons.find((btn) => btn.title === 'A-Z' || btn.title === 'Z-A');
@@ -186,7 +186,7 @@ describe('Tarinat Page', () => {
 		expect(kahviIndex).toBeLessThan(ruokaIndex);
 		expect(ruokaIndex).toBeLessThan(asemaIndex);
 		expect(asemaIndex).toBeLessThan(museoIndex);
-		
+
 		// All five stories should be visible
 		expect(screen.getByText('En la cafetería')).toBeInTheDocument();
 		expect(screen.getByText('En el supermercado')).toBeInTheDocument();
