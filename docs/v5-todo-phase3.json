@@ -57,7 +57,8 @@
           "description": "Import TokenDelayAnimation component. Add state for revealed: boolean. Show question content immediately. Show TokenDelayAnimation during delay. Reveal image options when TokenDelayAnimation completes.",
           "files": [
             "svelte/src/routes/pipsan-maailma/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "8.2",
@@ -65,7 +66,8 @@
           "description": "Track last used theme. Select random theme different from last. Pass theme to TokenDelayAnimation.",
           "files": [
             "svelte/src/routes/pipsan-maailma/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "8.3",
@@ -73,7 +75,8 @@
           "description": "Add selector below existing settings on KidsStartScreen. Connect to stepwiseSettings store with 'pipsanMaailma' key. Show preview of selected token count.",
           "files": [
             "svelte/src/routes/pipsan-maailma/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [

@@ -7,12 +7,15 @@
 	import CharacterAnimation from '$lib/components/CharacterAnimation.svelte';
 	import GameContainer from '$lib/components/shared/GameContainer.svelte';
 	import KidsVocabularyWidget from '$lib/components/kids/KidsVocabularyWidget.svelte';
+	import TokenDelayAnimation from '$lib/components/kids/TokenDelayAnimation.svelte';
+	import TokenDelaySelector from '$lib/components/kids/TokenDelaySelector.svelte';
 	import type { AnimationConfig } from '$lib/types/animation';
 	import { getWordId } from '$lib/utils/wordId';
 	import { 
 		wordKnowledge, 
 		type AnswerQuality 
 	} from '$lib/stores/wordKnowledge';
+	import { timedAnswerSettings } from '$lib/stores/timedAnswerSettings';
 
 	interface VocabItem {
 		spanish: string;
@@ -40,6 +43,7 @@
 	let difficulty: 'easy' | 'medium' | 'hard' = $state('easy');
 	let showTimer = $state(false);
 	let autoPlayAudio = $state(true);
+	let delaySeconds = $state(0);
 
 	// Current question state
 	let currentWord: VocabItem | null = $state(null);
@@ -63,6 +67,11 @@
 	let selectedAnswer: number | null = $state(null);
 	let isCorrect = $state(false);
 	
+	// Stepwise reveal state
+	let revealed = $state(false);
+	let lastTheme = $state<string>('');
+	let currentTheme = $state<string>('dots');
+	
 	// Background animations
 	let backgroundAnimations: AnimationConfig[] = $state([]);
 	let showBackgroundAnimation = $state(false);
@@ -79,6 +88,11 @@
 
 	// Load game data and settings
 	onMount(async () => {
+		// Subscribe to delay settings
+		const unsubscribe = timedAnswerSettings.subscribe(value => {
+			delaySeconds = value.peppa;
+		});
+		
 		// Load settings from localStorage
 		try {
 			const savedSettings = localStorage.getItem('peppaGameSettings');
@@ -213,6 +227,17 @@
 		
 		showBackgroundAnimation = true;
 	}
+	
+	/**
+	 * Select a random theme different from the last one
+	 */
+	function selectRandomTheme(): string {
+		const themes = ['dots', 'eggs', 'puddles', 'raindrops', 'suns'];
+		const availableThemes = themes.filter(t => t !== lastTheme);
+		const selected = availableThemes[Math.floor(Math.random() * availableThemes.length)];
+		lastTheme = selected;
+		return selected;
+	}
 
 	/**
 	 * Spread out duplicate words to be at least minDistance apart
@@ -333,6 +358,8 @@
 		selectedAnswer = null;
 		showCelebration = false;
 		showBackgroundAnimation = false;
+		revealed = delaySeconds === 0; // Reveal immediately if no delay
+		currentTheme = selectRandomTheme();
 
 		// Get next word from queue
 		currentWord = wordQueue.shift() || null;
@@ -658,6 +685,19 @@
 								/>
 							</label>
 						</div>
+
+						<!-- Delay Selector -->
+						<div class="form-control">
+							<div class="bg-base-200 rounded-lg p-3">
+								<div class="text-center mb-2">
+									<span class="text-lg sm:text-xl font-bold">⏳ Odotusaika</span>
+								</div>
+								<TokenDelaySelector gameMode="peppa" theme={currentTheme} />
+								<div class="text-center text-xs text-base-content/70 mt-1">
+									{delaySeconds === 0 ? 'Ei odotusta' : `${delaySeconds} sekunti${delaySeconds !== 1 ? 'a' : ''}`}
+								</div>
+							</div>
+						</div>
 					</div>
 
 					<!-- Start Button -->
@@ -740,24 +780,35 @@
 					</div>
 				</div>
 
-				<!-- Options Grid -->
-				<div class="grid {getGridCols()} gap-2 sm:gap-3 flex-1 content-center">
-					{#each options as option, index}
-						<button
-							class="btn {getButtonSize()} transition-all duration-300 {selectedAnswer === index
-								? isCorrect
-									? 'btn-success animate-bounce scale-110 border-4 border-green-600'
-									: 'btn-error animate-shake border-4 border-red-600'
-								: selectedAnswer !== null && option.spanish === currentWord?.spanish
-									? 'btn-success border-4 border-green-600 animate-pulse'
-									: 'btn-outline btn-primary bg-white hover:scale-105 hover:shadow-2xl'}"
-							disabled={selectedAnswer !== null}
-							onclick={() => selectAnswer(index)}
-						>
-							<span class="drop-shadow-lg">{option.icon}</span>
-						</button>
-					{/each}
-				</div>
+				<!-- Token Delay Animation or Options Grid -->
+				{#if !revealed && delaySeconds > 0}
+					<div class="flex-1 flex items-center justify-center">
+						<TokenDelayAnimation 
+							count={delaySeconds} 
+							theme={currentTheme}
+							onComplete={() => revealed = true}
+						/>
+					</div>
+				{:else}
+					<!-- Options Grid -->
+					<div class="grid {getGridCols()} gap-2 sm:gap-3 flex-1 content-center">
+						{#each options as option, index}
+							<button
+								class="btn {getButtonSize()} transition-all duration-300 {selectedAnswer === index
+									? isCorrect
+										? 'btn-success animate-bounce scale-110 border-4 border-green-600'
+										: 'btn-error animate-shake border-4 border-red-600'
+									: selectedAnswer !== null && option.spanish === currentWord?.spanish
+										? 'btn-success border-4 border-green-600 animate-pulse'
+										: 'btn-outline btn-primary bg-white hover:scale-105 hover:shadow-2xl'}"
+								disabled={selectedAnswer !== null}
+								onclick={() => selectAnswer(index)}
+							>
+								<span class="drop-shadow-lg">{option.icon}</span>
+							</button>
+						{/each}
+					</div>
+				{/if}
 
 			<!-- Wrong Answer Overlay -->
 			{#if selectedAnswer !== null && !isCorrect && currentWord}
