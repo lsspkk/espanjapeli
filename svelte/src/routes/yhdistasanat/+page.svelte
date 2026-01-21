@@ -48,6 +48,8 @@
 	import GameReport from '$lib/components/basic/report/GameReport.svelte';
 	import GameContainer from '$lib/components/shared/GameContainer.svelte';
 	import BackButton from '$lib/components/shared/BackButton.svelte';
+	import StepwiseReveal from '$lib/components/shared/StepwiseReveal.svelte';
+	import { timedAnswerSettings } from '$lib/stores/timedAnswerSettings';
 
 	// Game states
 	type GameState = 'home' | 'playing' | 'feedback' | 'report';
@@ -97,6 +99,9 @@
 	let lineEnd: { x: number; y: number } | null = null;
 	let showLine = false;
 	let lineColor = 'stroke-success';
+	
+	// Stepwise reveal state
+	let answersRevealed = false;
 
 	// Element references for line animation
 	let questionWordRef: HTMLElement | null = null;
@@ -134,12 +139,14 @@
 	let selectedGameLength: number;
 	let selectedTheme: Theme;
 	let isAutoSpeakEnabled: boolean;
+	let delaySeconds: number;
 
 	// Subscribe to stores
 	category.subscribe(value => selectedCategory = value);
 	gameLength.subscribe(value => selectedGameLength = value);
 	theme.subscribe(value => selectedTheme = value);
 	autoSpeak.subscribe(value => isAutoSpeakEnabled = value);
+	timedAnswerSettings.subscribe(value => delaySeconds = value.yhdistasanat);
 
 	/**
 	 * Shuffle array using Fisher-Yates algorithm
@@ -401,6 +408,7 @@
 		showLine = false;
 		lineStart = null;
 		lineEnd = null;
+		answersRevealed = false;
 		
 		// Get random animations for this question
 		const animations = getRandomAnimations();
@@ -988,41 +996,54 @@
 				color={lineColor === 'stroke-success' ? 'success' : 'error'}
 			/>
 
-			<!-- Left Column: Question Word -->
-			<div class="w-1/2 flex flex-col items-center bg-base-200/50 py-4 md:py-6">
-				<!-- Instruction text -->
-				<div class="text-xs md:text-sm text-center text-base-content/50 mb-2">
-					Valitse oikea sana
-				</div>
-				
-				<!-- Current question score -->
-				<PossiblePoints {triesRemaining} />
+			<StepwiseReveal delaySeconds={delaySeconds} onReveal={() => answersRevealed = true}>
+				{#snippet children()}
+					<!-- Left Column: Question Word -->
+					<div class="w-1/2 flex flex-col items-center bg-base-200/50 py-4 md:py-6">
+						<!-- Instruction text -->
+						<div class="text-xs md:text-sm text-center text-base-content/50 mb-2">
+							Valitse oikea sana
+						</div>
+						
+						<!-- Current question score -->
+						<PossiblePoints {triesRemaining} />
 
-				<!-- Question word (centered in remaining space) -->
-				<div bind:this={questionWordRef}>
-					<div bind:this={questionWordCardRef}>
-						<QuestionCard 
-							text={currentWord ? getQuestionText(currentWord) : ''}
-							onSpeak={speakCurrentWord}
-							spanishWord={currentWord?.spanish}
-							showFrequencyBadge={true}
+						<!-- Question word (centered in remaining space) -->
+						<div bind:this={questionWordRef}>
+							<div bind:this={questionWordCardRef}>
+								<QuestionCard 
+									text={currentWord ? getQuestionText(currentWord) : ''}
+									onSpeak={speakCurrentWord}
+									spanishWord={currentWord?.spanish}
+									showFrequencyBadge={true}
+								/>
+							</div>
+						</div>
+						
+						<!-- Waiting indicator -->
+						{#if !answersRevealed && delaySeconds > 0}
+							<div class="mt-4 text-sm text-base-content/60 italic animate-pulse">
+								Muistele...
+							</div>
+						{/if}
+					</div>
+				{/snippet}
+
+				{#snippet answers()}
+					<!-- Right Column: Answer Options -->
+					<div class="w-1/2 flex flex-col p-3 md:p-6 overflow-y-auto">
+						<OptionButtons 
+							options={answerOptions.map(opt => ({ id: opt.spanish, text: getAnswerText(opt) }))}
+							disabledIds={wrongClicks}
+							onSelect={(id, e) => {
+								const selectedWord = answerOptions.find(opt => opt.spanish === id);
+								if (selectedWord) handleAnswerClick(selectedWord, e);
+							}}
+							disabled={triesRemaining <= 0 || showFeedback}
 						/>
 					</div>
-				</div>
-			</div>
-
-			<!-- Right Column: Answer Options -->
-			<div class="w-1/2 flex flex-col p-3 md:p-6 overflow-y-auto">
-				<OptionButtons 
-					options={answerOptions.map(opt => ({ id: opt.spanish, text: getAnswerText(opt) }))}
-					disabledIds={wrongClicks}
-					onSelect={(id, e) => {
-						const selectedWord = answerOptions.find(opt => opt.spanish === id);
-						if (selectedWord) handleAnswerClick(selectedWord, e);
-					}}
-					disabled={triesRemaining <= 0 || showFeedback}
-				/>
-			</div>
+				{/snippet}
+			</StepwiseReveal>
 		</div>
 
 		<!-- Feedback Overlay -->
