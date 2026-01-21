@@ -59,7 +59,8 @@
           "description": "Import getWordId from utils/wordId. Update recordAnswer() signature to accept wordId directly. Ensure words Record<string, WordKnowledgeBidirectional> uses word ID as key. Update getWordScore() to work with word IDs. Update all internal functions that access word knowledge.",
           "files": [
             "svelte/src/lib/stores/wordKnowledge.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "2.2",
@@ -67,7 +68,8 @@
           "description": "Import getWordId utility. Change recordAnswer calls from currentWord.spanish to getWordId(currentWord). Verify word selection and display still work correctly.",
           "files": [
             "svelte/src/routes/yhdistasanat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "2.3",
@@ -75,7 +77,8 @@
           "description": "Import getWordId utility. Change recordAnswer calls to use getWordId(currentWord). Verify word history and stats work correctly.",
           "files": [
             "svelte/src/routes/sanapeli/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "2.4",
@@ -83,7 +86,8 @@
           "description": "Import getWordId utility. Update recordAnswer calls for kids mode. Ensure kids vocabulary tracking uses word IDs.",
           "files": [
             "svelte/src/routes/pipsan-maailma/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "2.5",
@@ -91,7 +95,8 @@
           "description": "Import getWordId utility. Update recordAnswer calls for kids mode.",
           "files": [
             "svelte/src/routes/pipsan-ystavat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "2.6",
@@ -99,7 +104,8 @@
           "description": "Import getWordId utility. Update vocabulary tracking when story is completed. Ensure story vocabulary words use consistent IDs.",
           "files": [
             "svelte/src/routes/tarinat/[storyId]/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "2.7",
@@ -107,7 +113,8 @@
           "description": "Review and update functions that access wordKnowledge. Ensure statistics calculations work with new ID format. Update any word lookup logic.",
           "files": [
             "svelte/src/lib/services/statisticsService.ts"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
