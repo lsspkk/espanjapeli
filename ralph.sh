@@ -2,10 +2,10 @@
 setopt ERR_EXIT PIPE_FAIL NO_UNSET
 
 # Config
-MAX_ITERS="2"
+MAX_ITERS="42"
 STOP_TOKEN="RALPH_WIGGUM_COMPLETED_ALL_TASKS"
 PROJECT_DIR="/home/lvp/study/espanjapeli"
-TODO_FILE="docs/v5-todo-phase1.json"
+TODO_FILE="docs/v5-todo-phase2.json"
 INSTRUCTIONS_FILE="ai-control/instructions.md"
 
 cd "$PROJECT_DIR"

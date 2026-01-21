@@ -8,6 +8,7 @@
 	import GameContainer from '$lib/components/shared/GameContainer.svelte';
 	import KidsVocabularyWidget from '$lib/components/kids/KidsVocabularyWidget.svelte';
 	import type { AnimationConfig } from '$lib/types/animation';
+	import { getWordId } from '$lib/utils/wordId';
 	import { 
 		wordKnowledge, 
 		type AnswerQuality 

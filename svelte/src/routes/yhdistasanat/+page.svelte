@@ -17,6 +17,7 @@
 		getCategoryName,
 		type Word 
 	} from '$lib/data/words';
+	import { getWordId } from '$lib/utils/wordId';
 	import { 
 		getCategoriesByLearningOrder, 
 		getTierEmoji,
@@ -497,7 +498,7 @@
 			const direction: LanguageDirection = questionLanguage === 'spanish' 
 				? 'spanish_to_finnish' 
 				: 'finnish_to_spanish';
-			wordKnowledge.recordAnswer(currentWord.spanish, currentWord.finnish, direction, answerQuality, 'basic');
+			wordKnowledge.recordAnswer(getWordId(currentWord), currentWord.finnish, direction, answerQuality, 'basic');
 			
 			currentQuestionData.userAnswer = getAnswerText(selectedWord);
 			currentQuestionData.isCorrect = true;
@@ -557,7 +558,7 @@
 				const direction: LanguageDirection = questionLanguage === 'spanish' 
 					? 'spanish_to_finnish' 
 					: 'finnish_to_spanish';
-				wordKnowledge.recordAnswer(currentWord.spanish, currentWord.finnish, direction, 'failed', 'basic');
+				wordKnowledge.recordAnswer(getWordId(currentWord), currentWord.finnish, direction, 'failed', 'basic');
 				
 				currentQuestionData.userAnswer = getAnswerText(selectedWord);
 				currentQuestionData.isCorrect = false;
