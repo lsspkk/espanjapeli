@@ -146,7 +146,8 @@
           "description": "Add Tatoeba entry to licenses data: { name: \"Tatoeba Sentence Corpus\", source: \"https://tatoeba.org\", license: \"CC-BY 2.0 FR\", description: \"Trilingual sentence pairs for language learning\", attribution: \"Sentences from Tatoeba.org contributors\" }",
           "files": [
             "svelte/src/lib/data/licenses.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "13.2",
@@ -154,7 +155,8 @@
           "description": "Add Tatoeba section to /tietoja page. Display license information clearly. Link to original Tatoeba source. Include proper attribution text as required by CC-BY.",
           "files": [
             "svelte/src/routes/tietoja/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "13.3",
@@ -162,7 +164,8 @@
           "description": "Add Tatoeba to NOTICES file or create one. Document all third-party licenses in one place.",
           "files": [
             "NOTICES.md"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "13.4",
@@ -170,7 +173,8 @@
           "description": "Add comment at top of sentence-related files noting Tatoeba license. Files: sentenceLoader.ts, lesson-related files.",
           "files": [
             "svelte/src/lib/services/sentenceLoader.ts"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [

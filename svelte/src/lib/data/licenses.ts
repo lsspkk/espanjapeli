@@ -31,6 +31,15 @@ export const dataSources: DataSource[] = [
 		license: 'CC-BY-SA-4.0',
 		licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
 		attribution: 'Frequency data from OpenSubtitles via FrequencyWords'
+	},
+	{
+		name: 'Tatoeba Sentence Corpus',
+		description: 'Kolmikieliset lauseparit kieltenoppimiseen',
+		source: 'Tatoeba',
+		sourceUrl: 'https://tatoeba.org',
+		license: 'CC-BY 2.0 FR',
+		licenseUrl: 'https://creativecommons.org/licenses/by/2.0/fr/',
+		attribution: 'Sentences from Tatoeba.org contributors'
 	}
 ];
 

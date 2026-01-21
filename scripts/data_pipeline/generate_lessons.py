@@ -9,6 +9,10 @@ sentences per word where available.
 Output structure:
 - svelte/static/lessons/index.json (manifest of all lessons)
 - svelte/static/lessons/{category}-{tier}.json (individual lesson files)
+
+Data source: Tatoeba (https://tatoeba.org)
+License: CC-BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/)
+Attribution: Sentences from Tatoeba.org contributors
 """
 
 import json
