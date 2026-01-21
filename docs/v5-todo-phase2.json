@@ -16,7 +16,8 @@
           "description": "Create: svelte/src/lib/components/shared/StepwiseReveal.svelte. Props: delaySeconds: number (0-4, default 3), onReveal: () => void (callback when reveal happens). Slots: default slot: question content (shown immediately), answers slot: answer options (hidden until delay completes). State: revealed: boolean (false until delay passes). Use onMount / $: / effect to handle timer. Cancel timer on component destroy.",
           "files": [
             "svelte/src/lib/components/shared/StepwiseReveal.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "4.2",
@@ -24,7 +25,8 @@
           "description": "Create: svelte/src/lib/stores/timedAnswerSettings.ts. Store delay preferences per game mode in localStorage. Interface: { yhdistasanat: number, sanapeli: number, ... }. Functions: getDelay(gameMode), setDelay(gameMode, seconds). Default: 3 seconds for all modes.",
           "files": [
             "svelte/src/lib/stores/timedAnswerSettings.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "4.3",
@@ -32,7 +34,8 @@
           "description": "Test that question slot is visible immediately. Test that answers slot is hidden initially (when delay > 0). Test that answers slot appears after delay. Test that onReveal callback fires when answers appear. Test that delay=0 shows answers immediately.",
           "files": [
             "svelte/src/lib/components/shared/StepwiseReveal.test.ts"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
