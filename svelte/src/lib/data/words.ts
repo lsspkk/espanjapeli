@@ -33,14 +33,28 @@ export interface LinguisticData {
 	gender?: Gender;
 }
 
+/**
+ * Represents a Spanish vocabulary word with translations and metadata.
+ * 
+ * For polysemous words (words with multiple meanings), use both id and senseKey:
+ * - id: Unique identifier in format "{spanish}#{sense}" (e.g., "tiempo#time", "tiempo#weather")
+ * - senseKey: Human-readable disambiguator (e.g., "time", "weather", "finance")
+ * 
+ * For regular words:
+ * - id: Optional, defaults to spanish field value if not provided
+ * - senseKey: Not required
+ */
 export interface Word {
 	spanish: string;
 	english: string;
 	finnish: string;
 	learningTips?: string[];
 	
-	// V4 optional fields for gradual migration
+	// V5 fields for polysemous word support
 	id?: string;
+	senseKey?: string;
+	
+	// V4 optional fields for gradual migration
 	frequency?: FrequencyData;
 	linguistic?: LinguisticData;
 }
@@ -365,7 +379,7 @@ export const WORD_CATEGORIES: Record<string, WordCategory> = {
 			{ spanish: 'grande', english: 'big', finnish: 'iso' },
 			{ spanish: 'pequeño', english: 'small', finnish: 'pieni' },
 			{ spanish: 'alto', english: 'tall', finnish: 'korkea' },
-			{ spanish: 'bajo', english: 'short', finnish: 'lyhyt' },
+			{ spanish: 'bajo', english: 'short', finnish: 'lyhyt', id: 'bajo#short', senseKey: 'short'  },
 			{ spanish: 'largo', english: 'long', finnish: 'pitkä' },
 			{ spanish: 'corto', english: 'short', finnish: 'lyhyt' },
 			{ spanish: 'nuevo', english: 'new', finnish: 'uusi' },
@@ -375,8 +389,8 @@ export const WORD_CATEGORIES: Record<string, WordCategory> = {
 			{ spanish: 'malo', english: 'bad', finnish: 'paha' },
 			{ spanish: 'bonito', english: 'pretty', finnish: 'kaunis' },
 			{ spanish: 'feo', english: 'ugly', finnish: 'ruma' },
-			{ spanish: 'feliz', english: 'happy', finnish: 'onnellinen' },
-			{ spanish: 'triste', english: 'sad', finnish: 'surullinen' },
+			{ spanish: 'feliz', english: 'happy', finnish: 'onnellinen', id: 'feliz#adjective', senseKey: 'adjective'  },
+			{ spanish: 'triste', english: 'sad', finnish: 'surullinen', id: 'triste#adjective', senseKey: 'adjective'  },
 			{ spanish: 'rápido', english: 'fast', finnish: 'nopea' },
 			{ spanish: 'lento', english: 'slow', finnish: 'hidas' },
 			{ spanish: 'caliente', english: 'hot', finnish: 'kuuma' },
@@ -478,7 +492,7 @@ export const WORD_CATEGORIES: Record<string, WordCategory> = {
 			{ spanish: 'para', english: 'for', finnish: 'varten' },
 			{ spanish: 'por', english: 'for/by', finnish: 'kautta' },
 			{ spanish: 'sobre', english: 'about/on', finnish: 'päällä' },
-			{ spanish: 'bajo', english: 'under', finnish: 'alla' },
+			{ spanish: 'bajo', english: 'under', finnish: 'alla', id: 'bajo#under', senseKey: 'under'  },
 			{ spanish: 'entre', english: 'between', finnish: 'välissä' },
 			{ spanish: 'hasta', english: 'until', finnish: 'asti' },
 			{ spanish: 'desde', english: 'since/from', finnish: 'lähtien' },
@@ -583,8 +597,8 @@ export const WORD_CATEGORIES: Record<string, WordCategory> = {
 	emotions: {
 		name: 'Tunteet ja tilat',
 		words: [
-			{ spanish: 'feliz', english: 'happy', finnish: 'onnellinen' },
-			{ spanish: 'triste', english: 'sad', finnish: 'surullinen' },
+			{ spanish: 'feliz', english: 'happy', finnish: 'onnellinen', id: 'feliz#emotion', senseKey: 'emotion'  },
+			{ spanish: 'triste', english: 'sad', finnish: 'surullinen', id: 'triste#emotion', senseKey: 'emotion'  },
 			{ spanish: 'cansado', english: 'tired', finnish: 'väsynyt' },
 			{ spanish: 'enfermo', english: 'sick', finnish: 'sairas' },
 			{ spanish: 'sano', english: 'healthy', finnish: 'terve' },
