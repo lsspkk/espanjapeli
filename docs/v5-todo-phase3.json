@@ -97,7 +97,8 @@
           "description": "Same pattern as Pipsan maailma. Import TokenDelayAnimation, add revealed state. Show tokens during delay.",
           "files": [
             "svelte/src/routes/pipsan-ystavat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "9.2",
@@ -105,7 +106,8 @@
           "description": "Add to KidsStartScreen section. Connect to stepwiseSettings with 'pipsanYstavat' key.",
           "files": [
             "svelte/src/routes/pipsan-ystavat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
