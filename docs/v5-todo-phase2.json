@@ -54,7 +54,8 @@
           "description": "Create: svelte/src/lib/components/kids/TokenDelayAnimation.svelte. Props: count: number (1-3 tokens), theme: string (visual style: \"dots\", \"eggs\", \"puddles\", \"raindrops\", \"suns\"), onComplete: () => void (callback when all tokens shown + 200ms pause), layout: \"horizontal\" | \"vertical\" (default: horizontal). Each token appears with animation after 1 second interval. After last token, wait 200ms then call onComplete. Tokens use CSS animations for pop-in effect.",
           "files": [
             "svelte/src/lib/components/kids/TokenDelayAnimation.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "5.2",
@@ -62,7 +63,8 @@
           "description": "Define theme variants in component or separate file. Each theme has: SVG or CSS-based visual, Color scheme matching kids game palette, Micro-animation style (bounce, grow, fade-in). Themes: dots (default), eggs (Peppa style), puddles, raindrops, suns. Keep themes lightweight (no large assets).",
           "files": [
             "svelte/src/lib/components/kids/TokenDelayAnimation.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "5.3",
@@ -70,7 +72,8 @@
           "description": "Create: svelte/src/lib/components/kids/TokenDelaySelector.svelte. Props: value: number (0-3 seconds), onChange: (value: number) => void, theme: string (matches TokenDelayAnimation themes). Mobile-first horizontal layout. Each position (0-3) shows as token or empty slot. Tap to toggle tokens on/off (0-3 range). Uses same visual themes as TokenDelayAnimation for consistency.",
           "files": [
             "svelte/src/lib/components/kids/TokenDelaySelector.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "5.4",
@@ -78,7 +81,8 @@
           "description": "Test token appearance timing. Test onComplete callback fires after all tokens + 200ms. Test different themes render correctly. Test layout prop changes direction.",
           "files": [
             "svelte/src/lib/components/kids/TokenDelayAnimation.test.ts"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
