@@ -791,37 +791,37 @@
 			</div>
 		{:else if !gameStarted && !gameEnded}
 			<!-- Start Screen -->
-			<div class="space-y-2">
-				<KidsStartScreen
-					title="Pipsan ystävät"
-					subtitle="Kuuntele ja valitse oikea kuva!"
-					subtitleSpanish="Escucha y elige la imagen correcta"
-					previewImages={[
-						`${base}/peppa_advanced_spanish_images/svg/01_muddy_puddles.svg`,
-						`${base}/peppa_advanced_spanish_images/svg/02_yo_soy_peppa.svg`
-					]}
-					{autoPlayAudio}
-					onToggleAudio={(enabled) => {
-						autoPlayAudio = enabled;
-						saveAudioSetting();
-					}}
-					onStart={startGame}
-					onOpenSanakirja={togglePhrasePreview}
-				/>
-				
-				<!-- Delay Selector -->
-				<div class="card bg-white/95 shadow-xl backdrop-blur">
-					<div class="card-body p-3">
-						<div class="text-center mb-2">
-							<span class="text-lg font-bold">⏳ Odotusaika</span>
-						</div>
-						<TokenDelaySelector gameMode="peppa" theme={currentTheme} />
-						<div class="text-center text-xs text-base-content/70 mt-1">
-							{delaySeconds === 0 ? 'Ei odotusta' : `${delaySeconds} sekunti${delaySeconds !== 1 ? 'a' : ''}`}
+			<KidsStartScreen
+				title="Pipsan ystävät"
+				subtitle="Kuuntele ja valitse oikea kuva!"
+				subtitleSpanish="Escucha y elige la imagen correcta"
+				previewImages={[
+					`${base}/peppa_advanced_spanish_images/svg/01_muddy_puddles.svg`,
+					`${base}/peppa_advanced_spanish_images/svg/02_yo_soy_peppa.svg`
+				]}
+				{autoPlayAudio}
+				onToggleAudio={(enabled) => {
+					autoPlayAudio = enabled;
+					saveAudioSetting();
+				}}
+				onStart={startGame}
+				onOpenSanakirja={togglePhrasePreview}
+			>
+				{#snippet customSettings()}
+					<!-- Delay Selector -->
+					<div class="form-control mb-2">
+						<div class="bg-base-200 rounded-lg p-1.5 sm:p-2">
+							<div class="text-center mb-1">
+								<span class="text-base sm:text-lg font-bold">⏳ Odotusaika</span>
+							</div>
+							<TokenDelaySelector gameMode="peppa" theme={currentTheme} />
+							<div class="text-center text-xs text-base-content/70 mt-1">
+								{delaySeconds === 0 ? 'Ei odotusta' : `${delaySeconds} sekunti${delaySeconds !== 1 ? 'a' : ''}`}
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
+				{/snippet}
+			</KidsStartScreen>
 		{:else if gameStarted && currentQuestion}
 			<!-- Game Screen -->
 			<div class="flex flex-col gap-2 max-h-screen overflow-hidden">

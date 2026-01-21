@@ -1,4 +1,6 @@
 <script lang="ts">
+	import type { Snippet } from 'svelte';
+
 	export let title: string;
 	export let subtitle: string;
 	export let subtitleSpanish: string;
@@ -7,6 +9,7 @@
 	export let onToggleAudio: (enabled: boolean) => void;
 	export let onStart: () => void;
 	export let onOpenSanakirja: () => void;
+	export let customSettings: Snippet | undefined = undefined;
 </script>
 
 <div class="card bg-white/95 shadow-2xl backdrop-blur min-h-[calc(100vh-5rem)] sm:min-h-0 flex flex-col">
@@ -68,6 +71,11 @@
 					/>
 				</label>
 			</div>
+
+			<!-- Custom Settings Slot -->
+			{#if customSettings}
+				{@render customSettings()}
+			{/if}
 		</div>
 
 		<!-- Action Buttons Row -->
