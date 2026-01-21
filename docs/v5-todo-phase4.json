@@ -96,7 +96,8 @@
           "description": "Create: scripts/data_pipeline/generate_lessons.py. Input: vocabulary categories from words.ts, Tatoeba sentences. Output: lesson JSON files with word-sentence pairings. Lesson structure: { id: string, category: string, tier: number (1 = most common, 2 = less common), words: string[] (word IDs), phrases: string[] (sentence IDs from Tatoeba) }",
           "files": [
             "scripts/data_pipeline/generate_lessons.py"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "12.2",
@@ -104,7 +105,8 @@
           "description": "For each word in vocabulary database: Find Tatoeba sentences containing that word, Select sentences appropriate for word's CEFR level, Limit to 2-3 example sentences per word. Handle words with no matching sentences gracefully.",
           "files": [
             "scripts/data_pipeline/generate_lessons.py"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "12.3",
@@ -112,7 +114,8 @@
           "description": "Categories with >15 words split into tiers by frequency. Tier 1: most common words (first lesson). Tier 2: less common words (second lesson). Example: verbs-1.json (common verbs), verbs-2.json (less common).",
           "files": [
             "scripts/data_pipeline/generate_lessons.py"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "12.4",
@@ -121,7 +124,8 @@
           "files": [
             "svelte/static/lessons/index.json",
             "svelte/static/lessons/*.json"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [

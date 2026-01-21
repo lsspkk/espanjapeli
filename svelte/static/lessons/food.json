@@ -1,0 +1,14 @@
+{
+  "id": "food",
+  "category": "food",
+  "categoryName": "Ruoka",
+  "tier": 1,
+  "words": [
+    "pan"
+  ],
+  "phrases": [
+    "854184",
+    "1237160",
+    "3536294"
+  ]
+}
