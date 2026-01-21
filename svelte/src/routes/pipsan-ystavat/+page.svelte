@@ -11,6 +11,8 @@
 	import KidsEndScreen from '$lib/components/kids/home/KidsEndScreen.svelte';
 	import KidsGameHeader from '$lib/components/kids/core/KidsGameHeader.svelte';
 	import KidsImageOptions from '$lib/components/kids/input/KidsImageOptions.svelte';
+	import TokenDelayAnimation from '$lib/components/kids/TokenDelayAnimation.svelte';
+	import TokenDelaySelector from '$lib/components/kids/TokenDelaySelector.svelte';
 	import BackButton from '$lib/components/shared/BackButton.svelte';
 	import GameContainer from '$lib/components/shared/GameContainer.svelte';
 	import KidsVocabularyWidget from '$lib/components/kids/KidsVocabularyWidget.svelte';
@@ -20,6 +22,7 @@
 		wordKnowledge, 
 		type AnswerQuality 
 	} from '$lib/stores/wordKnowledge';
+	import { timedAnswerSettings } from '$lib/stores/timedAnswerSettings';
 
 	interface EmojiTip {
 		emojis: string[];
@@ -120,6 +123,12 @@
 	// Images for current question
 	let currentOptions: { id: string; file: string; emojiDisplay: string; isCorrect: boolean }[] = $state([]);
 	
+	// Stepwise reveal state
+	let revealed = $state(false);
+	let lastTheme = $state<string>('');
+	let currentTheme = $state<string>('dots');
+	let delaySeconds = $state(0);
+	
 	// Background animations
 	let backgroundAnimations: AnimationConfig[] = $state([]);
 	let showBackgroundAnimation = $state(false);
@@ -131,6 +140,11 @@
 
 	// Load game data
 	onMount(async () => {
+		// Subscribe to delay settings
+		const unsubscribe = timedAnswerSettings.subscribe(value => {
+			delaySeconds = value.peppa;
+		});
+		
 		try {
 			// Load image manifest
 			const manifestRes = await fetch(`${base}/peppa_advanced_spanish_images/image_manifest.json`);
@@ -233,6 +247,17 @@
 	 */
 	function saveAudioSetting() {
 		localStorage.setItem('peppaKuvatAudioEnabled', autoPlayAudio.toString());
+	}
+
+	/**
+	 * Select a random theme different from the last one
+	 */
+	function selectRandomTheme(): string {
+		const themes = ['dots', 'eggs', 'puddles', 'raindrops', 'suns'];
+		const availableThemes = themes.filter(t => t !== lastTheme);
+		const selected = availableThemes[Math.floor(Math.random() * availableThemes.length)];
+		lastTheme = selected;
+		return selected;
 	}
 
 	/**
@@ -434,6 +459,8 @@
 		selectedAnswer = null;
 		showCelebration = false;
 		isCorrect = false;
+		revealed = delaySeconds === 0; // Reveal immediately if no delay
+		currentTheme = selectRandomTheme();
 
 		currentQuestion = questionQueue.shift()!;
 		
@@ -764,22 +791,37 @@
 			</div>
 		{:else if !gameStarted && !gameEnded}
 			<!-- Start Screen -->
-			<KidsStartScreen
-				title="Pipsan ystävät"
-				subtitle="Kuuntele ja valitse oikea kuva!"
-				subtitleSpanish="Escucha y elige la imagen correcta"
-				previewImages={[
-					`${base}/peppa_advanced_spanish_images/svg/01_muddy_puddles.svg`,
-					`${base}/peppa_advanced_spanish_images/svg/02_yo_soy_peppa.svg`
-				]}
-				{autoPlayAudio}
-				onToggleAudio={(enabled) => {
-					autoPlayAudio = enabled;
-					saveAudioSetting();
-				}}
-				onStart={startGame}
-				onOpenSanakirja={togglePhrasePreview}
-			/>
+			<div class="space-y-2">
+				<KidsStartScreen
+					title="Pipsan ystävät"
+					subtitle="Kuuntele ja valitse oikea kuva!"
+					subtitleSpanish="Escucha y elige la imagen correcta"
+					previewImages={[
+						`${base}/peppa_advanced_spanish_images/svg/01_muddy_puddles.svg`,
+						`${base}/peppa_advanced_spanish_images/svg/02_yo_soy_peppa.svg`
+					]}
+					{autoPlayAudio}
+					onToggleAudio={(enabled) => {
+						autoPlayAudio = enabled;
+						saveAudioSetting();
+					}}
+					onStart={startGame}
+					onOpenSanakirja={togglePhrasePreview}
+				/>
+				
+				<!-- Delay Selector -->
+				<div class="card bg-white/95 shadow-xl backdrop-blur">
+					<div class="card-body p-3">
+						<div class="text-center mb-2">
+							<span class="text-lg font-bold">⏳ Odotusaika</span>
+						</div>
+						<TokenDelaySelector gameMode="peppa" theme={currentTheme} />
+						<div class="text-center text-xs text-base-content/70 mt-1">
+							{delaySeconds === 0 ? 'Ei odotusta' : `${delaySeconds} sekunti${delaySeconds !== 1 ? 'a' : ''}`}
+						</div>
+					</div>
+				</div>
+			</div>
 		{:else if gameStarted && currentQuestion}
 			<!-- Game Screen -->
 			<div class="flex flex-col gap-2 max-h-screen overflow-hidden">
@@ -976,6 +1018,15 @@
 								</div>
 							</div>
 						{/if}
+					</div>
+				{:else if !revealed && delaySeconds > 0}
+					<!-- Token Delay Animation -->
+					<div class="flex-1 flex items-center justify-center">
+						<TokenDelayAnimation 
+							count={delaySeconds} 
+							theme={currentTheme}
+							onComplete={() => revealed = true}
+						/>
 					</div>
 				{:else}
 					<!-- Image Options Grid -->
