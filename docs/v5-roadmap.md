@@ -216,7 +216,7 @@ Pipsan maailma and Pipsan ystävät:
 - Display animated waiting indicator (kid-friendly)
 - After delay, reveal image/emoji answer options
 
-New component: TokenCounter (dual purpose)
+New component: TokenDelayAnimation (dual purpose)
 
 As waiting animation:
 - Mobile-first, horizontal or vertical layout
@@ -247,11 +247,11 @@ lib/components/shared/
   StepwiseReveal.svelte      <- Handles delay and reveal logic
   
 lib/components/kids/
-  TokenCounter.svelte        <- Animated waiting indicator
+  TokenDelayAnimation.svelte        <- Animated waiting indicator
   TokenDelaySelector.svelte  <- Delay configuration UI
 ```
 
-TokenCounter props:
+TokenDelayAnimation props:
 - `count: number` (1-3 tokens to display)
 - `theme: string` (visual style)
 - `onComplete: () => void` (callback when done)
@@ -641,7 +641,7 @@ Tasks:
 
 Tasks:
 - Create StepwiseReveal shared component
-- Create TokenCounter kids component
+- Create TokenDelayAnimation kids component
 - Create TokenDelaySelector kids component
 - Add delay settings to localStorage
 - Test with existing quiz components
@@ -717,7 +717,7 @@ svelte/src/lib/
       StepwiseReveal.svelte          <- NEW
       
     kids/
-      TokenCounter.svelte            <- NEW
+      TokenDelayAnimation.svelte            <- NEW
       TokenDelaySelector.svelte      <- NEW
       
   config/
@@ -784,7 +784,7 @@ V5 Goals:
    - Estimated tasks: 6-8
 
 2. STEPWISE REVEAL COMPONENTS
-   - Create StepwiseReveal, TokenCounter, TokenDelaySelector components
+   - Create StepwiseReveal, TokenDelayAnimation, TokenDelaySelector components
    - Delay settings infrastructure
    - Estimated tasks: 3-4
 

@@ -97,8 +97,8 @@
     {
       "id": "task-17",
       "title": "Implement Game UI and Results",
-      "description": "Create the playing state UI, feedback overlays, and game report screen. Reuse existing components where possible.",
-      "estimatedHours": "4-5 hours",
+      "description": "Create the playing state UI, feedback overlays, game report screen, and sentence knowledge tracking. Reuse existing components where possible.",
+      "estimatedHours": "5-6 hours",
       "subtasks": [
         {
           "id": "17.1",
@@ -126,14 +126,30 @@
         },
         {
           "id": "17.4",
-          "title": "Integrate with knowledge tracking",
-          "description": "Record sentence comprehension to wordKnowledge or separate store. Consider: track by sentence ID or by words in sentence? Decision: track by sentence ID (simpler, different skill than word recall). Create sentence knowledge tracking if needed.",
+          "title": "Create sentenceKnowledge store",
+          "description": "Create: svelte/src/lib/stores/sentenceKnowledge.ts. Separate from wordKnowledge (words = recall, sentences = comprehension). Interface SentenceKnowledge: { id: string (Tatoeba sentence ID), correctCount: number, wrongCount: number, lastSeenAt: string (ISO date) }. Store in localStorage key: espanjapeli_sentence_knowledge. Functions: recordSentenceAnswer(sentenceId, correct), getSentenceScore(sentenceId), getSentenceStats() returning { total, practiced, mastered }. Mastered = correctCount >= 3 && correctCount > wrongCount * 2.",
+          "files": [
+            "svelte/src/lib/stores/sentenceKnowledge.ts"
+          ]
+        },
+        {
+          "id": "17.5",
+          "title": "Integrate sentenceKnowledge into game",
+          "description": "Import sentenceKnowledge store. Call recordSentenceAnswer after each answer. Show sentence stats in game report (practiced/mastered counts).",
           "files": [
             "svelte/src/routes/mita-sa-sanoit/+page.svelte"
           ]
         },
         {
-          "id": "17.5",
+          "id": "17.6",
+          "title": "Add sentence progress to statistics display",
+          "description": "Update statistics UI to show sentence comprehension progress. Display: sentences practiced, sentences mastered. Keep separate from word knowledge display.",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/+page.svelte"
+          ]
+        },
+        {
+          "id": "17.7",
           "title": "Add to main navigation",
           "description": "Add game link to main page game list. Add to navbar if applicable. Use appropriate icon/emoji.",
           "files": [
@@ -144,7 +160,9 @@
       "testing": [
         "Manual: Complete full game flow from start to report",
         "Verify all UI states display correctly",
-        "Verify mobile layout works"
+        "Verify mobile layout works",
+        "Verify sentenceKnowledge persists after page refresh",
+        "Verify sentence stats display in game report"
       ]
     }
   ]

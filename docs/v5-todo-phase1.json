@@ -21,7 +21,7 @@
         {
           "id": "1.2",
           "title": "Create wordId utility module",
-          "description": "Create new file: svelte/src/lib/utils/wordId.ts. Implement getWordId(word: Word): string - Returns word.id if defined, Falls back to word.spanish if id is undefined. Implement createPolysemousId(spanish: string, sense: string): string - Returns `${spanish}#${sense}` format. Implement parsePolysemousId(id: string): { spanish: string, sense?: string } - Parses id back to components. Add unit tests: svelte/src/lib/utils/wordId.test.ts",
+          "description": "Create new file: svelte/src/lib/utils/wordId.ts. Implement getWordId(word: Word): string - Returns word.id if defined, Falls back to word.spanish if id is undefined. Implement createPolysemousId(spanish: string, sense: string): string - Returns `${spanish}#${sense}` format. Add unit tests: svelte/src/lib/utils/wordId.test.ts",
           "files": [
             "svelte/src/lib/utils/wordId.ts",
             "svelte/src/lib/utils/wordId.test.ts"
@@ -41,7 +41,7 @@
       "testing": [
         "Run: npm test -- --run svelte/src/lib/utils/wordId.test.ts",
         "Verify getWordId returns correct values for regular and polysemous words",
-        "Verify parsePolysemousId correctly extracts components"
+        "Verify createPolysemousId returns correct format"
       ]
     },
     {
@@ -122,7 +122,7 @@
         {
           "id": "3.1",
           "title": "Create migration function in wordKnowledge.ts",
-          "description": "Implement migrateV4toV5(oldData: WordKnowledgeData): WordKnowledgeData. For each old key (Spanish word): Find matching Word entries in vocabulary database, If single match: map to word's ID (or keep Spanish if no ID), If multiple matches (polysemous): assign to primary sense (first match), If no match (word removed): preserve with old key. Return migrated data with version: 5",
+          "description": "Implement migrateV4toV5(oldData: WordKnowledgeData): WordKnowledgeData. For each old key (Spanish word): Find matching Word entries in vocabulary database, If single match: map to word's ID (or keep Spanish if no ID), If multiple matches (polysemous): skip migration and log warning (user will re-learn these words - safer than guessing wrong sense), If no match (word removed): skip migration and log warning. Return migrated data with version: 5",
           "files": [
             "svelte/src/lib/stores/wordKnowledge.ts"
           ]
@@ -146,7 +146,7 @@
         {
           "id": "3.4",
           "title": "Create migration test file with fixtures",
-          "description": "Create: svelte/src/lib/stores/wordKnowledge.migration.test.ts. Test cases: V4 data with simple words migrates correctly, V4 data with polysemous words assigns to primary sense, V4 data with removed words preserves old keys, Empty V4 data migrates to valid V5 structure, Existing V5 data is not re-migrated. Use realistic fixture data representing V4 localStorage contents.",
+          "description": "Create: svelte/src/lib/stores/wordKnowledge.migration.test.ts. Test cases: V4 data with simple words migrates correctly, V4 data with polysemous words is skipped (not migrated), V4 data with removed words is skipped (not migrated), Empty V4 data migrates to valid V5 structure, Existing V5 data is not re-migrated. Use realistic fixture data representing V4 localStorage contents.",
           "files": [
             "svelte/src/lib/stores/wordKnowledge.migration.test.ts"
           ]

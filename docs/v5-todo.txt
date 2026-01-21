@@ -40,8 +40,6 @@ SUBTASKS:
     - Falls back to word.spanish if id is undefined
   - Implement createPolysemousId(spanish: string, sense: string): string
     - Returns `${spanish}#${sense}` format
-  - Implement parsePolysemousId(id: string): { spanish: string, sense?: string }
-    - Parses id back to components
   - Add unit tests: svelte/src/lib/utils/wordId.test.ts
   FILES: svelte/src/lib/utils/wordId.ts, svelte/src/lib/utils/wordId.test.ts
 
@@ -64,7 +62,7 @@ SUBTASKS:
 TESTING:
 - Run: npm test -- --run svelte/src/lib/utils/wordId.test.ts
 - Verify getWordId returns correct values for regular and polysemous words
-- Verify parsePolysemousId correctly extracts components
+- Verify createPolysemousId returns correct format
 
 ESTIMATED TIME: 3-4 hours
 
@@ -147,8 +145,9 @@ SUBTASKS:
   - For each old key (Spanish word):
     * Find matching Word entries in vocabulary database
     * If single match: map to word's ID (or keep Spanish if no ID)
-    * If multiple matches (polysemous): assign to primary sense (first match)
-    * If no match (word removed): preserve with old key
+    * If multiple matches (polysemous): skip migration, log warning
+      (User will re-learn these words - safer than guessing wrong sense)
+    * If no match (word removed): skip migration, log warning
   - Return migrated data with version: 5
   FILES: svelte/src/lib/stores/wordKnowledge.ts
 
@@ -168,8 +167,8 @@ SUBTASKS:
   - Create: svelte/src/lib/stores/wordKnowledge.migration.test.ts
   - Test cases:
     * V4 data with simple words migrates correctly
-    * V4 data with polysemous words assigns to primary sense
-    * V4 data with removed words preserves old keys
+    * V4 data with polysemous words is skipped (not migrated)
+    * V4 data with removed words is skipped (not migrated)
     * Empty V4 data migrates to valid V5 structure
     * Existing V5 data is not re-migrated
   - Use realistic fixture data representing V4 localStorage contents
@@ -203,8 +202,8 @@ This is a basic component, and not to be used in kids modes.
 
 SUBTASKS:
 
-□ 4.1 Create TimedAnswerReveal component
-  - Create: svelte/src/lib/components/shared/TimedAnswerReveal.svelte
+□ 4.1 Create StepwiseReveal component
+  - Create: svelte/src/lib/components/shared/StepwiseReveal.svelte
   - Props:
     * delaySeconds: number (0-4, default 3)
     * onReveal: () => void (callback when reveal happens)
@@ -215,7 +214,7 @@ SUBTASKS:
     * revealed: boolean (false until delay passes)
   - Use onMount / $: / effect to handle timer
   - Cancel timer on component destroy
-  FILES: svelte/src/lib/components/shared/TimedAnswerReveal.svelte
+  FILES: svelte/src/lib/components/shared/StepwiseReveal.svelte
 
 □ 4.2 Create delay settings store
   - Create: svelte/src/lib/stores/timedAnswerSettings.ts
@@ -225,16 +224,16 @@ SUBTASKS:
   - Default: 3 seconds for all modes
   FILES: svelte/src/lib/stores/timedAnswerSettings.ts
 
-□ 4.3 Add unit tests for TimedAnswerReveal
+□ 4.3 Add unit tests for StepwiseReveal
   - Test that question slot is visible immediately
   - Test that answers slot is hidden initially (when delay > 0)
   - Test that answers slot appears after delay
   - Test that onReveal callback fires when answers appear
   - Test that delay=0 shows answers immediately
-  FILES: svelte/src/lib/components/shared/TimedAnswerReveal.test.ts
+  FILES: svelte/src/lib/components/shared/StepwiseReveal.test.ts
 
 TESTING:
-- Run: npm test -- --run svelte/src/lib/components/shared/TimedAnswerReveal.test.ts
+- Run: npm test -- --run svelte/src/lib/components/shared/StepwiseReveal.test.ts
 
 ESTIMATED TIME: 3-4 hours
 
@@ -242,7 +241,7 @@ ESTIMATED TIME: 3-4 hours
 
 
 --------------------------------------------------------------------------------
-TASK 5: Create Kids TokenAnimation Component
+TASK 5: Create Kids TokenDelayAnimation Component
 --------------------------------------------------------------------------------
 
 DESCRIPTION:
@@ -252,8 +251,8 @@ sequentially (one per second) while answers are hidden. Tokens are themeable
 
 SUBTASKS:
 
-□ 5.1 Create TokenAnimation component
-  - Create: svelte/src/lib/components/kids/TokenAnimation.svelte
+□ 5.1 Create TokenDelayAnimation component
+  - Create: svelte/src/lib/components/kids/TokenDelayAnimation.svelte
   - Props:
     * count: number (1-3 tokens)
     * theme: string (visual style: "dots", "eggs", "puddles", "raindrops", "suns")
@@ -262,7 +261,7 @@ SUBTASKS:
   - Each token appears with animation after 1 second interval
   - After last token, wait 200ms then call onComplete
   - Tokens use CSS animations for pop-in effect
-  FILES: svelte/src/lib/components/kids/TokenAnimation.svelte
+  FILES: svelte/src/lib/components/kids/TokenDelayAnimation.svelte
 
 □ 5.2 Create token theme definitions
   - Define theme variants in component or separate file
@@ -272,29 +271,29 @@ SUBTASKS:
     * Micro-animation style (bounce, grow, fade-in)
   - Themes: dots (default), eggs (Peppa style), puddles, raindrops, suns
   - Keep themes lightweight (no large assets)
-  FILES: svelte/src/lib/components/kids/TokenAnimation.svelte
+  FILES: svelte/src/lib/components/kids/TokenDelayAnimation.svelte
 
 □ 5.3 Create TokenDelaySelector component
   - Create: svelte/src/lib/components/kids/TokenDelaySelector.svelte
   - Props:
     * value: number (0-3 seconds)
     * onChange: (value: number) => void
-    * theme: string (matches TokenAnimation themes)
+    * theme: string (matches TokenDelayAnimation themes)
   - Mobile-first horizontal layout
   - Each position (0-3) shows as token or empty slot
   - Tap to toggle tokens on/off (0-3 range)
-  - Uses same visual themes as TokenAnimation for consistency
+  - Uses same visual themes as TokenDelayAnimation for consistency
   FILES: svelte/src/lib/components/kids/TokenDelaySelector.svelte
 
-□ 5.4 Add tests for TokenAnimation
+□ 5.4 Add tests for TokenDelayAnimation
   - Test token appearance timing
   - Test onComplete callback fires after all tokens + 200ms
   - Test different themes render correctly
   - Test layout prop changes direction
-  FILES: svelte/src/lib/components/kids/TokenAnimation.test.ts
+  FILES: svelte/src/lib/components/kids/TokenDelayAnimation.test.ts
 
 TESTING:
-- Run: npm test -- --run svelte/src/lib/components/kids/TokenAnimation.test.ts
+- Run: npm test -- --run svelte/src/lib/components/kids/TokenDelayAnimation.test.ts
 - Visual: Verify animations look good in browser
 
 ESTIMATED TIME: 4-5 hours
@@ -388,23 +387,23 @@ TASK 8: Integrate Stepwise Reveal into Pipsan maailma
 --------------------------------------------------------------------------------
 
 DESCRIPTION:
-Add stepwise reveal to Pipsan maailma with kid-friendly TokenCounter animation.
+Add stepwise reveal to Pipsan maailma with kid-friendly TokenDelayAnimation animation.
 Show question, animate tokens, then reveal image options.
 
 SUBTASKS:
 
-□ 8.1 Add TokenCounter and stepwise logic
-  - Import TokenCounter component
+□ 8.1 Add TokenDelayAnimation and stepwise logic
+  - Import TokenDelayAnimation component
   - Add state for revealed: boolean
   - Show question content immediately
-  - Show TokenCounter during delay
-  - Reveal image options when TokenAnimation completes
+  - Show TokenDelayAnimation during delay
+  - Reveal image options when TokenDelayAnimation completes
   FILES: svelte/src/routes/pipsan-maailma/+page.svelte
 
 □ 8.2 Add theme rotation logic
   - Track last used theme
   - Select random theme different from last
-  - Pass theme to TokenAnimation
+  - Pass theme to TokenDelayAnimation
   FILES: svelte/src/routes/pipsan-maailma/+page.svelte
 
 □ 8.3 Add TokenDelaySelector to start screen
@@ -414,7 +413,7 @@ SUBTASKS:
   FILES: svelte/src/routes/pipsan-maailma/+page.svelte
 
 TESTING:
-- Manual: Verify TokenAnimation animation plays correctly
+- Manual: Verify TokenDelayAnimation animation plays correctly
 - Manual: Verify different themes appear
 - Verify delay setting persists
 
@@ -430,9 +429,9 @@ Same as Task 8 but for Pipsan ystävät game. Reuse same components and patterns
 
 SUBTASKS:
 
-□ 9.1 Add TokenAnimation and stepwise logic
+□ 9.1 Add TokenDelayAnimation and stepwise logic
   - Same pattern as Pipsan maailma
-  - Import TokenAnimation, add revealed state
+  - Import TokenDelayAnimation, add revealed state
   - Show tokens during delay
   FILES: svelte/src/routes/pipsan-ystavat/+page.svelte
 
@@ -488,57 +487,120 @@ TASK 11: Enhance Tatoeba Pipeline with Filtering and Grouping
 --------------------------------------------------------------------------------
 
 DESCRIPTION:
-Update download_tatoeba.py to filter sentences by difficulty, group by theme,
-and output structured JSON files for game use. This is data processing work
-that runs in Python environment.
+Update download_tatoeba.py to filter sentences, group by theme, and output
+structured JSON files for game use. This is data processing work that runs
+in Python environment.
+
+NOTE ON SCOPE: Keep pipeline simple. Difficulty estimation is approximate
+and optional - word count is the only reliable heuristic. Grammar detection
+(subjunctive, conditionals) is complex and NOT required for V5. Theme
+assignment uses simple keyword matching. If a feature seems complex to
+implement reliably, leave it out - it can be added later.
+
+DATA MODEL - Sentence:
+  {
+    id: string,           // Tatoeba sentence ID
+    spanish: string,      // Spanish text
+    finnish: string,      // Finnish translation
+    english: string,      // English translation (optional, may be null)
+    wordCount: number,    // Word count for filtering
+    themes: string[]      // Assigned themes (may be empty)
+  }
+
+DATA MODEL - SentenceGroup:
+  {
+    id: string,           // e.g., "greetings" or "food"
+    theme: string,        // Human-readable theme name
+    sentences: Sentence[],
+    count: number         // Number of sentences in group
+  }
 
 SUBTASKS:
 
-□ 11.1 Add difficulty estimation to Tatoeba pipeline
-  - Estimate CEFR level based on:
-    * Sentence word count (1-4 words → A1, 5-8 → A2, 9+ → B1)
-    * Vocabulary frequency (using frequency data if available)
-    * Grammar complexity indicators (subjunctive, conditionals → B1+)
-  - Add 'level' field to each sentence: 'A1' | 'A2' | 'B1'
+□ 11.1 Define Sentence data model and pipeline structure
+  - Add Sentence dataclass/TypedDict to pipeline
+  - Organize pipeline into separate functions for testability:
+    * load_raw_sentences() → list of raw Tatoeba data
+    * deduplicate_sentences(sentences) → deduplicated list
+    * assign_themes(sentence) → list of theme strings
+    * group_by_theme(sentences) → dict of theme → sentences
+    * write_output_files(groups) → writes JSON files
+  - Each function should be independently testable
   FILES: scripts/data_story_pipeline/download_tatoeba.py
 
-□ 11.2 Add theme grouping to pipeline
-  - Create theme categories: greetings, food, travel, family, work, leisure, etc.
-  - Use keyword matching to assign themes
-  - Allow sentence to have multiple themes
-  - Add 'themes' array field to each sentence
+□ 11.2 Add theme assignment to pipeline
+  - Create theme categories: greetings, food, travel, family, work, leisure
+  - Use simple keyword matching to assign themes
+  - Keywords defined in a dict, easy to extend later
+  - Allow sentence to have multiple themes or none
+  - Sentences without themes go into "general" group
   FILES: scripts/data_story_pipeline/download_tatoeba.py
 
-□ 11.3 Create SentenceGroup output format
-  - Group sentences by theme and level
-  - Output structure:
-    {
-      id: string,
-      theme: string,
-      level: 'A1' | 'A2' | 'B1',
-      sentences: Sentence[],
-      wordCount: number (average)
-    }
-  - Generate output files per theme
+□ 11.3 Add optional word count filtering
+  - Calculate word count for each sentence
+  - Store wordCount in Sentence object
+  - Game can filter by wordCount at runtime if needed
+  - Do NOT attempt CEFR level estimation - too unreliable
   FILES: scripts/data_story_pipeline/download_tatoeba.py
 
 □ 11.4 Generate static JSON output files
   - Create output directory: svelte/static/sentences/
-  - Generate sentences/index.json (manifest of all groups)
-  - Generate sentences/themes/*.json (sentences grouped by theme)
+  - Generate sentences/index.json (manifest listing all themes)
+  - Generate sentences/{theme}.json for each theme
   - Ensure files are small enough for efficient loading (<500KB each)
+  - If theme file too large, split into {theme}-1.json, {theme}-2.json
   FILES: scripts/data_story_pipeline/download_tatoeba.py, svelte/static/sentences/*
 
-□ 11.5 Create pipeline tests
-  - Test difficulty estimation logic
-  - Test theme assignment
-  - Test output file generation
-  - Test deduplication
+□ 11.5 Create pipeline unit tests
+  - Test deduplicate_sentences removes exact duplicates
+  - Test assign_themes with known keywords
+  - Test group_by_theme produces correct groupings
+  - Test output file generation creates valid JSON
+  - Keep tests focused on individual functions
   FILES: scripts/data_story_pipeline/test_download_tatoeba.py
+
+□ 11.6 Add pipeline report generation
+  - Generate report after each pipeline run
+  - Output to: reports/sentence-pipeline-report.json
+  - Report contents:
+    {
+      generatedAt: string,           // ISO timestamp
+      totalSentences: number,        // Total processed
+      duplicatesRemoved: number,     // Deduplication count
+      themeDistribution: {           // Sentences per theme
+        greetings: number,
+        food: number,
+        ...
+        general: number              // Unassigned sentences
+      },
+      unassignedPercentage: number,  // % in "general" (target: <30%)
+      wordCountDistribution: {       // For filtering insights
+        "1-4": number,
+        "5-8": number,
+        "9+": number
+      },
+      sampleUnassigned: string[]     // 10 example unassigned sentences
+    }
+  - Print summary to console during pipeline run
+  FILES: scripts/data_story_pipeline/download_tatoeba.py,
+         reports/sentence-pipeline-report.json
+
+□ 11.7 Define fallback strategy for poor theme coverage
+  - MONITOR: If unassignedPercentage > 50%, theme keywords need expansion
+  - FALLBACK OPTIONS (in order of preference):
+    1. Expand keyword dict with more terms (easiest)
+    2. Use sampleUnassigned to identify missing keyword patterns
+    3. If still >50% after keyword expansion: accept "general" as valid theme
+       (game can use general sentences for mixed practice)
+  - Do NOT build manual assignment UI for V5 - too much scope
+  - Document in report if manual intervention needed for future version
+  FILES: reports/sentence-pipeline-report.json (review after run)
 
 TESTING:
 - Run: cd scripts && python -m pytest data_story_pipeline/test_download_tatoeba.py
-- Verify output files are generated correctly
+- Run pipeline and check reports/sentence-pipeline-report.json
+- Verify unassignedPercentage is acceptable (<50%, ideally <30%)
+- Verify JSON files are valid and loadable
 
 ESTIMATED TIME: 5-6 hours
 
@@ -836,14 +898,37 @@ SUBTASKS:
   - Buttons: "Pelaa uudelleen", "Takaisin"
   FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
 
-□ 17.4 Integrate with knowledge tracking
-  - Record sentence comprehension to wordKnowledge or separate store
-  - Consider: track by sentence ID or by words in sentence?
-  - Decision: track by sentence ID (simpler, different skill than word recall)
-  - Create sentence knowledge tracking if needed
+□ 17.4 Create sentenceKnowledge store
+  - Create: svelte/src/lib/stores/sentenceKnowledge.ts
+  - Separate from wordKnowledge (words = recall, sentences = comprehension)
+  - Interface SentenceKnowledge:
+    {
+      id: string,              // Tatoeba sentence ID
+      correctCount: number,
+      wrongCount: number,
+      lastSeenAt: string       // ISO date string
+    }
+  - Store in localStorage key: espanjapeli_sentence_knowledge
+  - Functions:
+    * recordSentenceAnswer(sentenceId: string, correct: boolean): void
+    * getSentenceScore(sentenceId: string): number | null
+    * getSentenceStats(): { total: number, practiced: number, mastered: number }
+  - Mastered = correctCount >= 3 && correctCount > wrongCount * 2
+  FILES: svelte/src/lib/stores/sentenceKnowledge.ts
+
+□ 17.5 Integrate sentenceKnowledge into game
+  - Import sentenceKnowledge store
+  - Call recordSentenceAnswer after each answer
+  - Show sentence stats in game report (practiced/mastered counts)
   FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
 
-□ 17.5 Add to main navigation
+□ 17.6 Add sentence progress to statistics display
+  - Update statistics UI to show sentence comprehension progress
+  - Display: sentences practiced, sentences mastered
+  - Keep separate from word knowledge display
+  FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
+
+□ 17.7 Add to main navigation
   - Add game link to main page game list
   - Add to navbar if applicable
   - Use appropriate icon/emoji
@@ -853,8 +938,10 @@ TESTING:
 - Manual: Complete full game flow from start to report
 - Verify all UI states display correctly
 - Verify mobile layout works
+- Verify sentenceKnowledge persists after page refresh
+- Verify sentence stats display in game report
 
-ESTIMATED TIME: 4-5 hours
+ESTIMATED TIME: 5-6 hours
 
 
 ================================================================================
@@ -1189,7 +1276,7 @@ User performs this testing manually after all tasks complete.
 Existing Games with New Data Model:
 • Yhdistäsanat: word IDs tracked correctly, polysemous words separated
 • Sanapeli: knowledge updates persist, scores calculate correctly
-• Pipsan maailma: kids mode tracking works, TokenAnimation displays
+• Pipsan maailma: kids mode tracking works, TokenDelayAnimation displays
 • Pipsan ystävät: kids mode tracking works, delay selector works
 • Tarinat: story vocabulary tracked, questions work
 
@@ -1198,7 +1285,7 @@ Timed Answer Reveal:
 • TTS speaks during delay period
 • Answers appear after configured delay
 • delay=0 shows answers immediately
-• TokenAnimation themes rotate in kids games
+• TokenDelayAnimation themes rotate in kids games
 
 New Game - Mitä sä sanoit:
 • Home screen displays with all options
@@ -1283,13 +1370,14 @@ KEY FILES CHANGED:
 - svelte/src/lib/utils/wordId.ts (NEW)
 - svelte/src/lib/stores/wordKnowledge.ts (ID keying, migration)
 - svelte/src/lib/config/dataModelVersion.ts (bump to 5.0.0)
-- svelte/src/lib/components/shared/TimedAnswerReveal.svelte (NEW)
+- svelte/src/lib/components/shared/StepwiseReveal.svelte (NEW)
 - svelte/src/lib/stores/timedAnswerSettings.ts (NEW)
-- svelte/src/lib/components/kids/TokenAnimation.svelte (NEW)
+- svelte/src/lib/components/kids/TokenDelayAnimation.svelte (NEW)
 - svelte/src/lib/components/kids/TokenDelaySelector.svelte (NEW)
 - svelte/src/lib/services/sentenceLoader.ts (NEW)
 - svelte/src/lib/services/lessonService.ts (NEW)
 - svelte/src/lib/stores/lessonProgress.ts (NEW)
+- svelte/src/lib/stores/sentenceKnowledge.ts (NEW)
 - svelte/src/routes/mita-sa-sanoit/+page.svelte (NEW)
 - svelte/src/routes/valitut-sanat/+page.svelte (NEW)
 - scripts/data_story_pipeline/download_tatoeba.py (enhanced)
