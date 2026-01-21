@@ -16,7 +16,8 @@
           "description": "Add senseKey?: string field to Word interface. senseKey is human-readable disambiguator: \"time\", \"weather\", \"finance\". Document ID format convention: {spanish}#{sense} for polysemous words. Update JSDoc comments explaining when id and senseKey are required.",
           "files": [
             "svelte/src/lib/data/words.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "1.2",
@@ -25,7 +26,8 @@
           "files": [
             "svelte/src/lib/utils/wordId.ts",
             "svelte/src/lib/utils/wordId.test.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "1.3",
@@ -35,7 +37,8 @@
             "svelte/src/lib/data/words.ts",
             "scripts/extract-polysemous.js",
             "scripts/apply-polysemous.js"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [

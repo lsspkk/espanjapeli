@@ -1,0 +1,68 @@
+[
+  {
+    "spanish": "bajo",
+    "occurrences": 2,
+    "entries": [
+      {
+        "category": "adjectives",
+        "categoryName": "Adjektiivit",
+        "english": "short",
+        "finnish": "lyhyt",
+        "id": "bajo#short",
+        "senseKey": "short"
+      },
+      {
+        "category": "prepositions",
+        "categoryName": "Prepositiot ja konjunktiot",
+        "english": "under",
+        "finnish": "alla",
+        "id": "bajo#under",
+        "senseKey": "under"
+      }
+    ]
+  },
+  {
+    "spanish": "feliz",
+    "occurrences": 2,
+    "entries": [
+      {
+        "category": "adjectives",
+        "categoryName": "Adjektiivit",
+        "english": "happy",
+        "finnish": "onnellinen",
+        "id": "feliz#adjective",
+        "senseKey": "adjective"
+      },
+      {
+        "category": "emotions",
+        "categoryName": "Tunteet ja tilat",
+        "english": "happy",
+        "finnish": "onnellinen",
+        "id": "feliz#emotion",
+        "senseKey": "emotion"
+      }
+    ]
+  },
+  {
+    "spanish": "triste",
+    "occurrences": 2,
+    "entries": [
+      {
+        "category": "adjectives",
+        "categoryName": "Adjektiivit",
+        "english": "sad",
+        "finnish": "surullinen",
+        "id": "triste#adjective",
+        "senseKey": "adjective"
+      },
+      {
+        "category": "emotions",
+        "categoryName": "Tunteet ja tilat",
+        "english": "sad",
+        "finnish": "surullinen",
+        "id": "triste#emotion",
+        "senseKey": "emotion"
+      }
+    ]
+  }
+]
