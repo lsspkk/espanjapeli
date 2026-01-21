@@ -16,6 +16,20 @@ import { wordKnowledge, type WordKnowledgeData, type GameMode } from '$lib/store
 import { getWordsMetadata, type WordMetadata } from './vocabularyService';
 import { getAllWords, type Word } from '$lib/data/words';
 
+/**
+ * Extract Spanish word from word ID
+ * Word IDs can be:
+ * - Simple: "perro" (just the Spanish word)
+ * - Polysemous: "tiempo#time" (Spanish word + sense)
+ * 
+ * @param wordId - The word ID (from word.id or word.spanish)
+ * @returns The Spanish word portion
+ */
+function extractSpanishFromWordId(wordId: string): string {
+	const hashIndex = wordId.indexOf('#');
+	return hashIndex === -1 ? wordId : wordId.substring(0, hashIndex);
+}
+
 /** Progress for a top-N word set */
 export interface TopNProgress {
 	known: number;
@@ -75,7 +89,9 @@ async function calculateTopNProgress(
 	let known = 0;
 	
 	// Count words in top N that user has practiced with good score
-	for (const [spanish, wordData] of Object.entries(knowledgeData.words)) {
+	for (const [wordId, wordData] of Object.entries(knowledgeData.words)) {
+		// Extract Spanish word from word ID (handles polysemous words)
+		const spanish = extractSpanishFromWordId(wordId);
 		const metadata = wordMetadataMap.get(spanish);
 		if (!metadata) continue;
 		
@@ -178,7 +194,9 @@ export async function calculateVocabularyStats(mode?: GameMode): Promise<Vocabul
 	const allWords = getAllWords();
 	
 	// Get metadata for all practiced words
-	const practicedSpanish = Object.keys(knowledgeData.words);
+	// Extract Spanish words from word IDs (handles polysemous words)
+	const practicedWordIds = Object.keys(knowledgeData.words);
+	const practicedSpanish = practicedWordIds.map(extractSpanishFromWordId);
 	const wordMetadataMap = await getWordsMetadata(practicedSpanish);
 	
 	// Calculate basic stats
@@ -292,7 +310,8 @@ export async function calculateVocabularyStats(mode?: GameMode): Promise<Vocabul
  */
 export async function getTop100Progress(mode?: GameMode): Promise<TopNProgress> {
 	const knowledgeData = get(wordKnowledge);
-	const practicedSpanish = Object.keys(knowledgeData.words);
+	const practicedWordIds = Object.keys(knowledgeData.words);
+	const practicedSpanish = practicedWordIds.map(extractSpanishFromWordId);
 	const wordMetadataMap = await getWordsMetadata(practicedSpanish);
 	return calculateTopNProgress(knowledgeData, 100, wordMetadataMap, mode);
 }
@@ -302,7 +321,8 @@ export async function getTop100Progress(mode?: GameMode): Promise<TopNProgress> 
  */
 export async function getTop500Progress(mode?: GameMode): Promise<TopNProgress> {
 	const knowledgeData = get(wordKnowledge);
-	const practicedSpanish = Object.keys(knowledgeData.words);
+	const practicedWordIds = Object.keys(knowledgeData.words);
+	const practicedSpanish = practicedWordIds.map(extractSpanishFromWordId);
 	const wordMetadataMap = await getWordsMetadata(practicedSpanish);
 	return calculateTopNProgress(knowledgeData, 500, wordMetadataMap, mode);
 }
@@ -312,7 +332,8 @@ export async function getTop500Progress(mode?: GameMode): Promise<TopNProgress> 
  */
 export async function getTop1000Progress(mode?: GameMode): Promise<TopNProgress> {
 	const knowledgeData = get(wordKnowledge);
-	const practicedSpanish = Object.keys(knowledgeData.words);
+	const practicedWordIds = Object.keys(knowledgeData.words);
+	const practicedSpanish = practicedWordIds.map(extractSpanishFromWordId);
 	const wordMetadataMap = await getWordsMetadata(practicedSpanish);
 	return calculateTopNProgress(knowledgeData, 1000, wordMetadataMap, mode);
 }
