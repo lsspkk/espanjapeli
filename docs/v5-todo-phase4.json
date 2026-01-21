@@ -194,7 +194,8 @@
           "description": "Create: svelte/src/lib/services/sentenceLoader.ts. Functions: loadSentenceIndex(): Promise<SentenceGroupManifest>, loadSentenceGroup(groupId: string): Promise<SentenceGroup>, getSentencesByTheme(theme: string): Promise<Sentence[]>, getSentencesByLevel(level: CEFRLevel): Promise<Sentence[]>. Implement in-memory caching for loaded groups. TypeScript interfaces for sentence data.",
           "files": [
             "svelte/src/lib/services/sentenceLoader.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "14.2",
@@ -202,7 +203,8 @@
           "description": "Create: svelte/src/lib/services/lessonService.ts. Functions: loadLessonIndex(): Promise<LessonManifest>, loadLesson(lessonId: string): Promise<Lesson>, getLessonsByCategory(category: string): Promise<Lesson[]>. Implement caching. TypeScript interfaces for lesson data.",
           "files": [
             "svelte/src/lib/services/lessonService.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "14.3",
@@ -210,7 +212,8 @@
           "description": "Create: svelte/src/lib/stores/lessonProgress.ts. Track lesson completion per user. Store in localStorage. Interface: { lessonId: string, completedAt: string, wordScores: Record<string, number>, nextReviewAt: string }",
           "files": [
             "svelte/src/lib/stores/lessonProgress.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "14.4",
@@ -219,7 +222,8 @@
           "files": [
             "svelte/src/lib/services/sentenceLoader.test.ts",
             "svelte/src/lib/services/lessonService.test.ts"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
