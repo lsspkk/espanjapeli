@@ -1,0 +1,292 @@
+{
+  "lessons": [
+    {
+      "id": "adjectives-1",
+      "category": "adjectives",
+      "categoryName": "Adjektiivit",
+      "tier": 1,
+      "wordCount": 15,
+      "phraseCount": 42,
+      "filename": "adjectives-1.json"
+    },
+    {
+      "id": "adjectives-2",
+      "category": "adjectives",
+      "categoryName": "Adjektiivit",
+      "tier": 2,
+      "wordCount": 12,
+      "phraseCount": 17,
+      "filename": "adjectives-2.json"
+    },
+    {
+      "id": "body-1",
+      "category": "body",
+      "categoryName": "Keho",
+      "tier": 1,
+      "wordCount": 15,
+      "phraseCount": 32,
+      "filename": "body-1.json"
+    },
+    {
+      "id": "body-2",
+      "category": "body",
+      "categoryName": "Keho",
+      "tier": 2,
+      "wordCount": 3,
+      "phraseCount": 6,
+      "filename": "body-2.json"
+    },
+    {
+      "id": "clothing",
+      "category": "clothing",
+      "categoryName": "Vaatteet",
+      "tier": 1,
+      "wordCount": 13,
+      "phraseCount": 27,
+      "filename": "clothing.json"
+    },
+    {
+      "id": "common",
+      "category": "common",
+      "categoryName": "Yleisiä sanoja",
+      "tier": 1,
+      "wordCount": 2,
+      "phraseCount": 6,
+      "filename": "common.json"
+    },
+    {
+      "id": "emotions",
+      "category": "emotions",
+      "categoryName": "Tunteet ja tilat",
+      "tier": 1,
+      "wordCount": 13,
+      "phraseCount": 32,
+      "filename": "emotions.json"
+    },
+    {
+      "id": "family",
+      "category": "family",
+      "categoryName": "Perhe",
+      "tier": 1,
+      "wordCount": 12,
+      "phraseCount": 34,
+      "filename": "family.json"
+    },
+    {
+      "id": "food",
+      "category": "food",
+      "categoryName": "Ruoka",
+      "tier": 1,
+      "wordCount": 1,
+      "phraseCount": 3,
+      "filename": "food.json"
+    },
+    {
+      "id": "money",
+      "category": "money",
+      "categoryName": "Raha ja ostokset",
+      "tier": 1,
+      "wordCount": 11,
+      "phraseCount": 23,
+      "filename": "money.json"
+    },
+    {
+      "id": "nature-1",
+      "category": "nature",
+      "categoryName": "Luonto",
+      "tier": 1,
+      "wordCount": 15,
+      "phraseCount": 36,
+      "filename": "nature-1.json"
+    },
+    {
+      "id": "nature-2",
+      "category": "nature",
+      "categoryName": "Luonto",
+      "tier": 2,
+      "wordCount": 15,
+      "phraseCount": 21,
+      "filename": "nature-2.json"
+    },
+    {
+      "id": "nature-3",
+      "category": "nature",
+      "categoryName": "Luonto",
+      "tier": 3,
+      "wordCount": 2,
+      "phraseCount": 0,
+      "filename": "nature-3.json"
+    },
+    {
+      "id": "numbers-1",
+      "category": "numbers",
+      "categoryName": "Numerot",
+      "tier": 1,
+      "wordCount": 15,
+      "phraseCount": 41,
+      "filename": "numbers-1.json"
+    },
+    {
+      "id": "numbers-2",
+      "category": "numbers",
+      "categoryName": "Numerot",
+      "tier": 2,
+      "wordCount": 5,
+      "phraseCount": 8,
+      "filename": "numbers-2.json"
+    },
+    {
+      "id": "places-1",
+      "category": "places",
+      "categoryName": "Paikat",
+      "tier": 1,
+      "wordCount": 15,
+      "phraseCount": 39,
+      "filename": "places-1.json"
+    },
+    {
+      "id": "places-2",
+      "category": "places",
+      "categoryName": "Paikat",
+      "tier": 2,
+      "wordCount": 10,
+      "phraseCount": 20,
+      "filename": "places-2.json"
+    },
+    {
+      "id": "prepositions-1",
+      "category": "prepositions",
+      "categoryName": "Prepositiot ja konjunktiot",
+      "tier": 1,
+      "wordCount": 15,
+      "phraseCount": 45,
+      "filename": "prepositions-1.json"
+    },
+    {
+      "id": "prepositions-2",
+      "category": "prepositions",
+      "categoryName": "Prepositiot ja konjunktiot",
+      "tier": 2,
+      "wordCount": 6,
+      "phraseCount": 18,
+      "filename": "prepositions-2.json"
+    },
+    {
+      "id": "professions",
+      "category": "professions",
+      "categoryName": "Ammatit",
+      "tier": 1,
+      "wordCount": 12,
+      "phraseCount": 22,
+      "filename": "professions.json"
+    },
+    {
+      "id": "pronouns-1",
+      "category": "pronouns",
+      "categoryName": "Pronominit",
+      "tier": 1,
+      "wordCount": 15,
+      "phraseCount": 45,
+      "filename": "pronouns-1.json"
+    },
+    {
+      "id": "pronouns-2",
+      "category": "pronouns",
+      "categoryName": "Pronominit",
+      "tier": 2,
+      "wordCount": 5,
+      "phraseCount": 15,
+      "filename": "pronouns-2.json"
+    },
+    {
+      "id": "questions",
+      "category": "questions",
+      "categoryName": "Kysymyssanat",
+      "tier": 1,
+      "wordCount": 10,
+      "phraseCount": 29,
+      "filename": "questions.json"
+    },
+    {
+      "id": "school",
+      "category": "school",
+      "categoryName": "Koulu",
+      "tier": 1,
+      "wordCount": 14,
+      "phraseCount": 26,
+      "filename": "school.json"
+    },
+    {
+      "id": "stories-1",
+      "category": "stories",
+      "categoryName": "Tarinoista",
+      "tier": 1,
+      "wordCount": 15,
+      "phraseCount": 11,
+      "filename": "stories-1.json"
+    },
+    {
+      "id": "stories-2",
+      "category": "stories",
+      "categoryName": "Tarinoista",
+      "tier": 2,
+      "wordCount": 10,
+      "phraseCount": 8,
+      "filename": "stories-2.json"
+    },
+    {
+      "id": "time-1",
+      "category": "time",
+      "categoryName": "Aika",
+      "tier": 1,
+      "wordCount": 15,
+      "phraseCount": 36,
+      "filename": "time-1.json"
+    },
+    {
+      "id": "time-2",
+      "category": "time",
+      "categoryName": "Aika",
+      "tier": 2,
+      "wordCount": 3,
+      "phraseCount": 7,
+      "filename": "time-2.json"
+    },
+    {
+      "id": "transportation",
+      "category": "transportation",
+      "categoryName": "Liikenne",
+      "tier": 1,
+      "wordCount": 13,
+      "phraseCount": 34,
+      "filename": "transportation.json"
+    },
+    {
+      "id": "verbs-1",
+      "category": "verbs",
+      "categoryName": "Verbit",
+      "tier": 1,
+      "wordCount": 15,
+      "phraseCount": 45,
+      "filename": "verbs-1.json"
+    },
+    {
+      "id": "verbs-2",
+      "category": "verbs",
+      "categoryName": "Verbit",
+      "tier": 2,
+      "wordCount": 15,
+      "phraseCount": 32,
+      "filename": "verbs-2.json"
+    },
+    {
+      "id": "verbs-3",
+      "category": "verbs",
+      "categoryName": "Verbit",
+      "tier": 3,
+      "wordCount": 6,
+      "phraseCount": 12,
+      "filename": "verbs-3.json"
+    }
+  ]
+}
