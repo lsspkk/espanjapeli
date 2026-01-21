@@ -7,6 +7,8 @@
 	import StoryQuestion from '$lib/components/basic/stories/StoryQuestion.svelte';
 	import StoryReport from '$lib/components/basic/stories/StoryReport.svelte';
 	import { wordKnowledge } from '$lib/stores/wordKnowledge';
+	import { getWordId } from '$lib/utils/wordId';
+	import { WORD_CATEGORIES } from '$lib/data/words';
 
 	export let data: {
 		story: Story;
@@ -45,9 +47,25 @@
 		// Record each vocabulary word as encountered in this story
 		for (const vocab of data.story.vocabulary) {
 			if (vocab.spanish) {
-				wordKnowledge.recordStoryEncounter(vocab.spanish, data.story.id);
+				// Look up the word in WORD_CATEGORIES to get full Word object
+				const word = findWordBySpanish(vocab.spanish);
+				if (word) {
+					// Use word ID (handles polysemous words)
+					wordKnowledge.recordStoryEncounter(getWordId(word), data.story.id);
+				} else {
+					// Fallback: use Spanish word directly if not found in vocabulary
+					wordKnowledge.recordStoryEncounter(vocab.spanish, data.story.id);
+				}
 			}
 		}
+	}
+	
+	function findWordBySpanish(spanish: string) {
+		for (const category of Object.values(WORD_CATEGORIES)) {
+			const word = category.words.find(w => w.spanish === spanish);
+			if (word) return word;
+		}
+		return null;
 	}
 
 	function handleAnswer(selectedIndex: number, correct: boolean) {

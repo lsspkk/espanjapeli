@@ -15,6 +15,8 @@
 import { writable, derived, get } from 'svelte/store';
 import { browser } from '$app/environment';
 import { DATA_MODEL_VERSION_NUMBER } from '$lib/config/dataModelVersion';
+import { getWordId } from '$lib/utils/wordId';
+import { WORD_CATEGORIES } from '$lib/data/words';
 
 // Storage key
 const STORAGE_KEY = 'yhdistasanat_word_knowledge';
@@ -115,7 +117,7 @@ export interface GameRecord {
 /** Full knowledge store data structure */
 export interface WordKnowledgeData {
 	version: number;
-	/** Word knowledge indexed by Spanish word */
+	/** Word knowledge indexed by word ID (word.id or word.spanish for non-polysemous words) */
 	words: Record<string, WordKnowledgeBidirectional>;
 	/** Game history for export (last 100 games) */
 	gameHistory: GameRecord[];
@@ -213,10 +215,10 @@ function migrateV1toV2(oldData: any): WordKnowledgeData {
 	const newWords: Record<string, WordKnowledgeBidirectional> = {};
 
 	// Migrate existing words to 'basic' mode
-	for (const [spanish, oldWordData] of Object.entries(oldData.words || {})) {
+	for (const [wordId, oldWordData] of Object.entries(oldData.words || {})) {
 		// @ts-ignore - Legacy data structure
 		const old = oldWordData as any;
-		newWords[spanish] = {
+		newWords[wordId] = {
 			spanish_to_finnish: {
 				basic: old.spanish_to_finnish
 			},
@@ -256,6 +258,67 @@ function migrateV2toCurrent(oldData: any): WordKnowledgeData {
 }
 
 /**
+ * Migrate V4 data to V5 format
+ * V4: Keys are Spanish words (string)
+ * V5: Keys are word IDs (word.id or word.spanish for non-polysemous words)
+ * 
+ * Migration strategy:
+ * - Single match: map to word's ID (or keep Spanish if no ID)
+ * - Multiple matches (polysemous): skip migration, log warning
+ * - No match (removed word): skip migration, log warning
+ */
+// @ts-ignore - Legacy data structure, type unknown
+function migrateV4toV5(oldData: any): WordKnowledgeData {
+	const now = new Date().toISOString();
+	const newWords: Record<string, WordKnowledgeBidirectional> = {};
+	
+	// Build lookup map: Spanish word -> Word[]
+	const spanishToWords = new Map<string, any[]>();
+	for (const category of Object.values(WORD_CATEGORIES)) {
+		for (const word of category.words) {
+			const existing = spanishToWords.get(word.spanish) || [];
+			existing.push(word);
+			spanishToWords.set(word.spanish, existing);
+		}
+	}
+	
+	// Migrate each word entry
+	for (const [spanishKey, wordData] of Object.entries(oldData.words || {})) {
+		const matches = spanishToWords.get(spanishKey);
+		
+		if (!matches || matches.length === 0) {
+			// No match: word was removed from vocabulary
+			console.warn(`⚠️ Migration: Word "${spanishKey}" not found in vocabulary database, skipping`);
+			continue;
+		}
+		
+		if (matches.length > 1) {
+			// Multiple matches: polysemous word
+			console.warn(`⚠️ Migration: Word "${spanishKey}" has multiple meanings (polysemous), skipping. User will re-learn these words.`);
+			continue;
+		}
+		
+		// Single match: migrate to new ID
+		const word = matches[0];
+		const newKey = word.id ?? word.spanish;
+		newWords[newKey] = wordData as WordKnowledgeBidirectional;
+	}
+	
+	return {
+		version: STORAGE_VERSION,
+		words: newWords,
+		gameHistory: oldData.gameHistory || [],
+		meta: {
+			createdAt: oldData.meta?.createdAt || now,
+			updatedAt: now,
+			totalGamesPlayed: oldData.meta?.totalGamesPlayed || 0,
+			basicGamesPlayed: oldData.meta?.basicGamesPlayed || 0,
+			kidsGamesPlayed: oldData.meta?.kidsGamesPlayed || 0
+		}
+	};
+}
+
+/**
  * Load knowledge data from localStorage
  */
 function loadData(): WordKnowledgeData {
@@ -280,6 +343,13 @@ function loadData(): WordKnowledgeData {
 				const migrated = migrateV2toCurrent(parsed);
 				saveData(migrated);
 				console.log('✅ Migration complete');
+				return migrated;
+			} else if (parsed.version === 4) {
+				console.log('📦 Migrating word knowledge from V4 to V5...');
+				console.log('⚠️ Note: Polysemous words will be skipped and need to be re-learned');
+				const migrated = migrateV4toV5(parsed);
+				saveData(migrated);
+				console.log('✅ V4→V5 migration complete');
 				return migrated;
 			} else {
 				console.log('⚠️ Unknown data version, resetting');
@@ -318,7 +388,7 @@ function createWordKnowledgeStore() {
 		 * Record a word answer from a game
 		 */
 		recordAnswer(
-			spanish: string,
+			wordId: string,
 			finnish: string,
 			direction: LanguageDirection,
 			quality: AnswerQuality,
@@ -326,12 +396,12 @@ function createWordKnowledgeStore() {
 		): void {
 			update((data) => {
 				// Initialize word if not exists
-				if (!data.words[spanish]) {
-					data.words[spanish] = createDefaultBidirectional();
+				if (!data.words[wordId]) {
+					data.words[wordId] = createDefaultBidirectional();
 				}
 
 				// Get or create mode-specific data
-				const directionData = data.words[spanish][direction];
+				const directionData = data.words[wordId][direction];
 				if (!directionData[mode]) {
 					directionData[mode] = createDefaultWordKnowledge();
 				}
@@ -420,9 +490,9 @@ function createWordKnowledgeStore() {
 		/**
 		 * Get knowledge score for a specific word
 		 */
-		getWordScore(spanish: string, direction: LanguageDirection, mode: GameMode = 'basic'): number {
+		getWordScore(wordId: string, direction: LanguageDirection, mode: GameMode = 'basic'): number {
 			const data = get({ subscribe });
-			const wordData = data.words[spanish];
+			const wordData = data.words[wordId];
 			if (!wordData) return 0;
 			const modeData = wordData[direction][mode];
 			return modeData?.score || 0;
@@ -433,7 +503,7 @@ function createWordKnowledgeStore() {
 		 */
 		getCategoryKnowledge(
 			categoryKey: string,
-			categoryWords: Array<{ spanish: string }>,
+			categoryWords: Array<{ id?: string; spanish: string }>,
 			mode: GameMode = 'basic'
 		): CategoryKnowledge {
 			const data = get({ subscribe });
@@ -444,7 +514,8 @@ function createWordKnowledgeStore() {
 			let lastPracticed: string | null = null;
 
 			for (const word of categoryWords) {
-				const wordData = data.words[word.spanish];
+				const wordId = word.id ?? word.spanish;
+				const wordData = data.words[wordId];
 				if (wordData) {
 					const stfData = wordData.spanish_to_finnish[mode];
 					const ftsData = wordData.finnish_to_spanish[mode];
@@ -495,12 +566,12 @@ function createWordKnowledgeStore() {
 			const data = get({ subscribe });
 			const words: string[] = [];
 
-			for (const [spanish, wordData] of Object.entries(data.words)) {
+			for (const [wordId, wordData] of Object.entries(data.words)) {
 				const stfData = wordData.spanish_to_finnish[mode];
 				const ftsData = wordData.finnish_to_spanish[mode];
 
 				if ((stfData && stfData.practiceCount > 0) || (ftsData && ftsData.practiceCount > 0)) {
-					words.push(spanish);
+					words.push(wordId);
 				}
 			}
 
@@ -527,12 +598,12 @@ function createWordKnowledgeStore() {
 				};
 
 				// Filter words to only include specified mode
-				for (const [spanish, wordData] of Object.entries(data.words)) {
+				for (const [wordId, wordData] of Object.entries(data.words)) {
 					const stfData = wordData.spanish_to_finnish[mode];
 					const ftsData = wordData.finnish_to_spanish[mode];
 
 					if (stfData || ftsData) {
-						filtered.words[spanish] = {
+						filtered.words[wordId] = {
 							spanish_to_finnish: stfData ? { [mode]: stfData } : {},
 							finnish_to_spanish: ftsData ? { [mode]: ftsData } : {}
 						};
@@ -660,15 +731,15 @@ function createWordKnowledgeStore() {
 		 * Record that a word was encountered in a story
 		 * Stories are tracked in 'basic' mode
 		 */
-		recordStoryEncounter(spanish: string, storyId: string): void {
+		recordStoryEncounter(wordId: string, storyId: string): void {
 			update((data) => {
 				// Initialize word if not exists
-				if (!data.words[spanish]) {
-					data.words[spanish] = createDefaultBidirectional();
+				if (!data.words[wordId]) {
+					data.words[wordId] = createDefaultBidirectional();
 				}
 
 				// Get or create basic mode data for Spanish→Finnish
-				const directionData = data.words[spanish].spanish_to_finnish;
+				const directionData = data.words[wordId].spanish_to_finnish;
 				if (!directionData.basic) {
 					directionData.basic = createDefaultWordKnowledge();
 				}
@@ -699,9 +770,9 @@ function createWordKnowledgeStore() {
 		/**
 		 * Get stories where a word was encountered
 		 */
-		getWordStories(spanish: string): string[] {
+		getWordStories(wordId: string): string[] {
 			const data = get({ subscribe });
-			const wordData = data.words[spanish];
+			const wordData = data.words[wordId];
 			if (!wordData) return [];
 			const basicData = wordData.spanish_to_finnish.basic;
 			return basicData?.storiesEncountered || [];

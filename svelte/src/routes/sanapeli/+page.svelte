@@ -52,6 +52,7 @@
 		type LanguageDirection, 
 		type AnswerQuality 
 	} from '$lib/stores/wordKnowledge';
+	import { getWordId } from '$lib/utils/wordId';
 
 	// Game states
 	type GameState = 'home' | 'playing' | 'answered' | 'report';
@@ -256,7 +257,7 @@
 			? (tipsShown === 0 ? 'perfect' : tipsShown === 1 ? 'good' : 'okay')
 			: 'failed';
 		wordKnowledge.recordAnswer(
-			currentWord.spanish, 
+			getWordId(currentWord), 
 			currentWord.finnish, 
 			'spanish_to_finnish', 
 			answerQuality,
