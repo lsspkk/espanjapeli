@@ -16,7 +16,8 @@
           "description": "Add Sentence dataclass/TypedDict to pipeline. Organize pipeline into separate testable functions: load_raw_sentences(), deduplicate_sentences(sentences), assign_themes(sentence), group_by_theme(sentences), write_output_files(groups). Each function should be independently testable.",
           "files": [
             "scripts/data_story_pipeline/download_tatoeba.py"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "11.2",
@@ -24,7 +25,8 @@
           "description": "Create theme categories: greetings, food, travel, family, work, leisure. Use simple keyword matching to assign themes. Keywords defined in a dict, easy to extend later. Allow sentence to have multiple themes or none. Sentences without themes go into 'general' group.",
           "files": [
             "scripts/data_story_pipeline/download_tatoeba.py"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "11.3",
@@ -32,7 +34,8 @@
           "description": "Calculate word count for each sentence. Store wordCount in Sentence object. Game can filter by wordCount at runtime if needed. Do NOT attempt CEFR level estimation - too unreliable without proper NLP.",
           "files": [
             "scripts/data_story_pipeline/download_tatoeba.py"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "11.4",
@@ -42,7 +45,8 @@
             "scripts/data_story_pipeline/download_tatoeba.py",
             "svelte/static/sentences/index.json",
             "svelte/static/sentences/*.json"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "11.5",
@@ -50,7 +54,8 @@
           "description": "Test deduplicate_sentences removes exact duplicates. Test assign_themes with known keywords. Test group_by_theme produces correct groupings. Test output file generation creates valid JSON. Keep tests focused on individual functions.",
           "files": [
             "scripts/data_story_pipeline/test_download_tatoeba.py"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "11.6",
@@ -59,7 +64,8 @@
           "files": [
             "scripts/data_story_pipeline/download_tatoeba.py",
             "reports/sentence-pipeline-report.json"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "11.7",
@@ -67,7 +73,8 @@
           "description": "MONITOR: If unassignedPercentage > 50%, theme keywords need expansion. FALLBACK OPTIONS (in order): 1) Expand keyword dict with more terms, 2) Use sampleUnassigned to identify missing patterns, 3) If still >50%: accept 'general' as valid theme for mixed practice. Do NOT build manual assignment UI for V5. Document in report if manual intervention needed for future version.",
           "files": [
             "reports/sentence-pipeline-report.json"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
