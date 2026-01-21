@@ -1,11 +1,20 @@
 <script lang="ts">
+	import { timedAnswerSettings } from '$lib/stores/timedAnswerSettings';
+	import type { GameType } from '$lib/types/game';
+
 	interface Props {
-		value: number; // 0-3 seconds
-		onChange: (value: number) => void;
+		value?: number; // 0-3 seconds (optional if gameMode provided)
+		onChange?: (value: number) => void; // optional if gameMode provided
+		gameMode?: GameType; // if provided, uses store for persistence
 		theme?: string; // matches TokenDelayAnimation themes
 	}
 
-	let { value, onChange, theme = 'dots' }: Props = $props();
+	let { value: valueProp, onChange, gameMode, theme = 'dots' }: Props = $props();
+
+	// Use store if gameMode is provided, otherwise use controlled props
+	let value = $derived(
+		gameMode ? $timedAnswerSettings[gameMode] : (valueProp ?? 0)
+	);
 
 	// Theme definitions matching TokenDelayAnimation
 	const themes = {
@@ -45,10 +54,13 @@
 		const newValue = index + 1;
 		
 		// If clicking the same position as current value, decrease by 1
-		if (newValue === value) {
-			onChange(Math.max(0, value - 1));
-		} else {
-			onChange(Math.min(3, newValue));
+		const finalValue = newValue === value ? Math.max(0, value - 1) : Math.min(3, newValue);
+		
+		// Update store if gameMode provided, otherwise call onChange
+		if (gameMode) {
+			timedAnswerSettings.setDelay(gameMode, finalValue);
+		} else if (onChange) {
+			onChange(finalValue);
 		}
 	}
 </script>
