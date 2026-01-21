@@ -126,7 +126,8 @@
           "description": "Check if component supports additional settings section. Add slot or prop for custom settings (delay selector). Maintain existing styling and layout.",
           "files": [
             "svelte/src/lib/components/kids/home/KidsStartScreen.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "10.2",
@@ -135,7 +136,8 @@
           "files": [
             "svelte/src/routes/pipsan-maailma/+page.svelte",
             "svelte/src/routes/pipsan-ystavat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [

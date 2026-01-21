@@ -688,9 +688,9 @@
 
 						<!-- Delay Selector -->
 						<div class="form-control">
-							<div class="bg-base-200 rounded-lg p-3">
-								<div class="text-center mb-2">
-									<span class="text-lg sm:text-xl font-bold">⏳ Odotusaika</span>
+							<div class="bg-base-200 rounded-lg p-1.5 sm:p-2">
+								<div class="text-center mb-1">
+									<span class="text-base sm:text-lg font-bold">⏳ Odotusaika</span>
 								</div>
 								<TokenDelaySelector gameMode="peppa" theme={currentTheme} />
 								<div class="text-center text-xs text-base-content/70 mt-1">
