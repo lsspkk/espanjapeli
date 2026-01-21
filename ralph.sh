@@ -1,19 +1,23 @@
 #!/bin/zsh
 setopt ERR_EXIT PIPE_FAIL NO_UNSET
 
-
 # Config
 MAX_ITERS="50"
-STOP_TOKEN="<promise>COMPLETE</promise>"
+STOP_TOKEN="RALPH_WIGGUM_COMPLETED_ALL_TASKS"
 PROJECT_DIR="/home/lvp/study/espanjapeli"
+TODO_FILE="docs/v5-todo-phase1.json"
+INSTRUCTIONS_FILE="ai-control/instructions.md"
 
 cd "$PROJECT_DIR"
 
+# Ensure log directory exists
+mkdir -p .log
 
-echo "🐷 Ralph 2.0 Starting..."
+echo "🐷 Ralph 3.0 Starting..."
+echo "📋 Todo: $TODO_FILE"
 echo ""
 
-# 3) Main loop
+# Main loop
 for i in {1..$MAX_ITERS}; do
   echo ""
   echo "════════════════════════════════════════"
@@ -27,56 +31,46 @@ for i in {1..$MAX_ITERS}; do
     --output-format stream-json \
     "# Espanjapeli Development Task
 
-First read some info files from ai-context folder
-1. Read PRINCIPLES.md and follow its guidelines
-2. Read ROADMAP.md for project goals
-3. Read codebase.md to understand codebase 
-4. Read todo.json for available tasks
-   Pick the first available subtask with status 'not-started'
+Project root: ${PROJECT_DIR}
 
-Rules:
-- ONLY WORK ON A SINGLE SUBTASK AT A TIME
-- Update todo.json status to 'in-progress' before starting
-- Task is NOT complete until tests pass (check testRequired field)
-- APPEND (do not overwrite) progress log into file in project root called progress.txt with timestamps after each agent action, as described below
-- ONLY when ALL tasks AND subtasks are 'completed', print exactly: ${STOP_TOKEN}
-- Check todo.json: if ANY task/subtask has status 'not-started', do NOT output stop token
-- When subtask is done
-  - mark subtask 'completed' in todo.json
-  - append to process.txt the log line, 
-    and a short (about 10 lines) summary of changes made
-  - if all subtasks of tasks are now complete, do git commit
-  - stop working: exit this agent session
+Read these files first:
+1. ${INSTRUCTIONS_FILE} - coding standards and commands
+2. ${TODO_FILE} - task list with subtasks
 
-Example of log line formats that you use in progress.txt file:
+Find the first subtask without status 'completed' and implement it.
 
-HH:MM - Started Task X.Y 
-HH:MM - Task X.Y complete
-HH:MM - Started Subtask X.Y 
-HH:MM - Subtask X.Y complete
-HH:MM - Created §filenames
-HH:MM - Updated §filenames
+STRICT RULES - DO NOT DEVIATE:
+- Do ONLY what the subtask describes. Nothing more.
+- Do NOT refactor, improve, or touch code outside subtask scope.
+- Do NOT add features, tests, or files not specified in subtask.
+- Run tests specified in task's testing array.
+- When subtask is done:
+  - Add \"status\": \"completed\" to that subtask in ${TODO_FILE}
+  - APPEND to ${PROJECT_DIR}/progress.txt (absolute path, do not create elsewhere)
+  - If all subtasks in current task complete, do git commit
+  - Exit session immediately
+- ONLY when ALL subtasks are completed, print exactly: ${STOP_TOKEN}
+
+Progress.txt format (append only):
+HH:MM - Started Subtask X.Y: title
+HH:MM - Created §filename
+HH:MM - Updated §filename
 HH:MM - Tests pass §test_filename
-HH:MM - Tests fail §test_filename
-HH:MM - Installed package_name
-HH:MM - [Loop N] Subtask X.Y complete
+HH:MM - Subtask X.Y complete
+[2-3 line summary]
 
-IMPORTANT: After completing ONE subtask, if more work remains, 
-end your response WITHOUT the stop token. 
-The loop will continue.
-
-Work incrementally. Small, safe edits. Begin." \
-    | tee ".ralph-loop-${i}.ndjson"
+Begin." \
+    | tee ".log/ralph-loop-${i}.ndjson"
 
   echo ""
 
-  # Debug: extract result line for stop condition check
-  RESULT_LINE=$(grep '"type":"result"' ".ralph-loop-${i}.ndjson" 2>/dev/null || echo "")
+  # Extract result line for stop condition check
+  RESULT_LINE=$(grep '"type":"result"' ".log/ralph-loop-${i}.ndjson" 2>/dev/null || echo "")
 
-  # Stop condition: check for STOP_TOKEN in the RESULT LINE ONLY (not whole file)
+  # Stop condition: check for STOP_TOKEN in the RESULT LINE ONLY
   if [[ -n "$RESULT_LINE" ]] && echo "$RESULT_LINE" | grep -q "$STOP_TOKEN"; then
     echo ""
-    echo "✅ Stop token received in agent result. Loop complete."
+    echo "✅ Stop token received. All tasks complete."
     break
   fi
 
@@ -84,14 +78,12 @@ Work incrementally. Small, safe edits. Begin." \
     echo ""
     echo "⚠️  Max loops reached"
   fi
-  
+
   echo ""
   echo "🔄 Continuing to next loop..."
-
   echo ""
 done
 
 echo ""
 echo "🏁 Ralph 3.0 complete"
 echo "📊 Total loops: $i"
-echo "🌿 Branch: $BRANCH"

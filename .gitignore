@@ -40,8 +40,7 @@ svg_preview.html
 reports/
 
 # Ralph loop logs
-.ralph-iter-*.ndjson
-.ralph-loop-*.ndjson
+.log/
 
 progress.txt
 

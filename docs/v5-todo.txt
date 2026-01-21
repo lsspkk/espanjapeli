@@ -1,0 +1,1350 @@
+================================================================================
+ESPANJAPELI V5.0.0 - TASK LIST
+================================================================================
+
+Project: Polysemy-Aware Data Model + Stepwise Reveal UX + Sentence Games
+Task Size: Variable (4-12 hours per task, subtasks 1-4 hours)
+Principle: Testable by AI agents, naturally divided, clear deliverables
+
+Each task can modify 10-20 files if needed. Focus on completing version goals.
+
+================================================================================
+PHASE 1: DATA MODEL REFACTORING FOR POLYSEMOUS WORDS (Tasks 1-3)
+================================================================================
+
+Goal: Extend Word interface with sense-aware IDs, update knowledge tracking
+to use word IDs instead of Spanish strings, migrate existing user data.
+
+--------------------------------------------------------------------------------
+TASK 1: Extend Word Interface with Sense-Aware IDs
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Add senseKey field to Word interface and create getWordId() helper function.
+This enables tracking different meanings of the same Spanish word separately.
+For example, "tiempo" (time) and "tiempo" (weather) become distinct entries.
+
+SUBTASKS:
+
+□ 1.1 Update Word interface in words.ts
+  - Add senseKey?: string field to Word interface
+  - senseKey is human-readable disambiguator: "time", "weather", "finance"
+  - Document ID format convention: {spanish}#{sense} for polysemous words
+  - Update JSDoc comments explaining when id and senseKey are required
+  FILES: svelte/src/lib/data/words.ts
+
+□ 1.2 Create wordId utility module
+  - Create new file: svelte/src/lib/utils/wordId.ts
+  - Implement getWordId(word: Word): string
+    - Returns word.id if defined
+    - Falls back to word.spanish if id is undefined
+  - Implement createPolysemousId(spanish: string, sense: string): string
+    - Returns `${spanish}#${sense}` format
+  - Implement parsePolysemousId(id: string): { spanish: string, sense?: string }
+    - Parses id back to components
+  - Add unit tests: svelte/src/lib/utils/wordId.test.ts
+  FILES: svelte/src/lib/utils/wordId.ts, svelte/src/lib/utils/wordId.test.ts
+
+□ 1.3 Add known polysemous words to words.ts
+  - Run extraction script: scripts/extract-polysemous.js
+    * Identifies duplicate Spanish words across categories
+    * Outputs:polysemous-words.json with all duplicates
+  - Manually edit polysemous-words.json:
+    * Add id field: {spanish}#{sense} format
+    * Add senseKey field: human-readable sense (time, weather, finance, etc.)
+    * Add finnish and english translations for each sense
+    * Example: tiempo#time vs tiempo#weather
+  - Run update script: scripts/apply-polysemous.js
+    * Reads edited polysemous-words.json
+    * Updates words.ts with id and senseKey fields
+    * Preserves all other word properties
+  - Verify changes compile: npm run build
+  FILES: svelte/src/lib/data/words.ts, scripts/extract-polysemous.js, scripts/apply-polysemous.js
+
+TESTING:
+- Run: npm test -- --run svelte/src/lib/utils/wordId.test.ts
+- Verify getWordId returns correct values for regular and polysemous words
+- Verify parsePolysemousId correctly extracts components
+
+ESTIMATED TIME: 3-4 hours
+
+
+--------------------------------------------------------------------------------
+TASK 2: Update Knowledge Store to Use Word IDs
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Modify wordKnowledge store to key by word ID instead of Spanish string.
+Update all game components that call recordAnswer() to use getWordId().
+This ensures polysemous words are tracked independently.
+
+SUBTASKS:
+
+□ 2.1 Update wordKnowledge.ts to use word IDs
+  - Import getWordId from utils/wordId
+  - Update recordAnswer() signature to accept wordId directly
+  - Ensure words Record<string, WordKnowledgeBidirectional> uses word ID as key
+  - Update getWordScore() to work with word IDs
+  - Update all internal functions that access word knowledge
+  FILES: svelte/src/lib/stores/wordKnowledge.ts
+
+□ 2.2 Update Yhdistäsanat game to use word IDs
+  - Import getWordId utility
+  - Change recordAnswer calls from currentWord.spanish to getWordId(currentWord)
+  - Verify word selection and display still work correctly
+  FILES: svelte/src/routes/yhdistasanat/+page.svelte
+
+□ 2.3 Update Sanapeli game to use word IDs
+  - Import getWordId utility
+  - Change recordAnswer calls to use getWordId(currentWord)
+  - Verify word history and stats work correctly
+  FILES: svelte/src/routes/sanapeli/+page.svelte
+
+□ 2.4 Update Pipsan maailma to use word IDs
+  - Import getWordId utility
+  - Update recordAnswer calls for kids mode
+  - Ensure kids vocabulary tracking uses word IDs
+  FILES: svelte/src/routes/pipsan-maailma/+page.svelte
+
+□ 2.5 Update Pipsan ystävät to use word IDs
+  - Import getWordId utility
+  - Update recordAnswer calls for kids mode
+  FILES: svelte/src/routes/pipsan-ystavat/+page.svelte
+
+□ 2.6 Update Tarinat story game to use word IDs
+  - Import getWordId utility
+  - Update vocabulary tracking when story is completed
+  - Ensure story vocabulary words use consistent IDs
+  FILES: svelte/src/routes/tarinat/[storyId]/+page.svelte
+
+□ 2.7 Update statisticsService for word ID compatibility
+  - Review and update functions that access wordKnowledge
+  - Ensure statistics calculations work with new ID format
+  - Update any word lookup logic
+  FILES: svelte/src/lib/services/statisticsService.ts
+
+TESTING:
+- Run: npm test -- --run svelte/src/lib/stores/wordKnowledge.test.ts
+- Run full test suite: npm test
+- Manual: Play each game mode, verify progress is tracked
+
+ESTIMATED TIME: 5-6 hours
+
+
+--------------------------------------------------------------------------------
+TASK 3: Implement V4 to V5 Data Migration
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Create migration function that converts old localStorage data (keyed by Spanish
+word) to new format (keyed by word ID). Handle polysemous words, removed words,
+and edge cases. Bump data model version to 5.0.0.
+
+SUBTASKS:
+
+□ 3.1 Create migration function in wordKnowledge.ts
+  - Implement migrateV4toV5(oldData: WordKnowledgeData): WordKnowledgeData
+  - For each old key (Spanish word):
+    * Find matching Word entries in vocabulary database
+    * If single match: map to word's ID (or keep Spanish if no ID)
+    * If multiple matches (polysemous): assign to primary sense (first match)
+    * If no match (word removed): preserve with old key
+  - Return migrated data with version: 5
+  FILES: svelte/src/lib/stores/wordKnowledge.ts
+
+□ 3.2 Update data model version
+  - Bump DATA_MODEL_VERSION to '5.0.0'
+  - Bump DATA_MODEL_VERSION_NUMBER to 5
+  FILES: svelte/src/lib/config/dataModelVersion.ts
+
+□ 3.3 Integrate migration into store initialization
+  - Check version on load
+  - If version < 5, run migrateV4toV5
+  - Save migrated data immediately
+  - Log migration in browser console for debugging
+  FILES: svelte/src/lib/stores/wordKnowledge.ts
+
+□ 3.4 Create migration test file with fixtures
+  - Create: svelte/src/lib/stores/wordKnowledge.migration.test.ts
+  - Test cases:
+    * V4 data with simple words migrates correctly
+    * V4 data with polysemous words assigns to primary sense
+    * V4 data with removed words preserves old keys
+    * Empty V4 data migrates to valid V5 structure
+    * Existing V5 data is not re-migrated
+  - Use realistic fixture data representing V4 localStorage contents
+  FILES: svelte/src/lib/stores/wordKnowledge.migration.test.ts
+
+TESTING:
+- Run: npm test -- --run svelte/src/lib/stores/wordKnowledge.migration.test.ts
+- Manual: Clear localStorage, load V4 fixture data, reload app, verify migration
+
+ESTIMATED TIME: 4-5 hours
+
+
+================================================================================
+PHASE 2: STEPWISE REVEAL COMPONENTS (Tasks 4-6)
+================================================================================
+
+Goal: Create components that delay showing answer options, forcing users to
+attempt mental recall before seeing choices. Research shows this significantly
+improves vocabulary retention.
+
+--------------------------------------------------------------------------------
+TASK 4: Create StepwiseReveal Shared Component
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Create a wrapper component that handles the delay logic for showing content.
+Shows question immediately, then reveals answer options after configurable delay.
+Works with any quiz-style content.
+
+This is a basic component, and not to be used in kids modes.
+
+SUBTASKS:
+
+□ 4.1 Create TimedAnswerReveal component
+  - Create: svelte/src/lib/components/shared/TimedAnswerReveal.svelte
+  - Props:
+    * delaySeconds: number (0-4, default 3)
+    * onReveal: () => void (callback when reveal happens)
+  - Slots:
+    * default slot: question content (shown immediately)
+    * answers slot: answer options (hidden until delay completes)
+  - State:
+    * revealed: boolean (false until delay passes)
+  - Use onMount / $: / effect to handle timer
+  - Cancel timer on component destroy
+  FILES: svelte/src/lib/components/shared/TimedAnswerReveal.svelte
+
+□ 4.2 Create delay settings store
+  - Create: svelte/src/lib/stores/timedAnswerSettings.ts
+  - Store delay preferences per game mode in localStorage
+  - Interface: { yhdistasanat: number, sanapeli: number, ... }
+  - Functions: getDelay(gameMode), setDelay(gameMode, seconds)
+  - Default: 3 seconds for all modes
+  FILES: svelte/src/lib/stores/timedAnswerSettings.ts
+
+□ 4.3 Add unit tests for TimedAnswerReveal
+  - Test that question slot is visible immediately
+  - Test that answers slot is hidden initially (when delay > 0)
+  - Test that answers slot appears after delay
+  - Test that onReveal callback fires when answers appear
+  - Test that delay=0 shows answers immediately
+  FILES: svelte/src/lib/components/shared/TimedAnswerReveal.test.ts
+
+TESTING:
+- Run: npm test -- --run svelte/src/lib/components/shared/TimedAnswerReveal.test.ts
+
+ESTIMATED TIME: 3-4 hours
+
+
+
+
+--------------------------------------------------------------------------------
+TASK 5: Create Kids TokenAnimation Component
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Create animated waiting indicator for kids games. Shows 1-3 tokens appearing
+sequentially (one per second) while answers are hidden. Tokens are themeable
+(dots, eggs, mud puddles, etc.) to match kids game aesthetics.
+
+SUBTASKS:
+
+□ 5.1 Create TokenAnimation component
+  - Create: svelte/src/lib/components/kids/TokenAnimation.svelte
+  - Props:
+    * count: number (1-3 tokens)
+    * theme: string (visual style: "dots", "eggs", "puddles", "raindrops", "suns")
+    * onComplete: () => void (callback when all tokens shown + 200ms pause)
+    * layout: "horizontal" | "vertical" (default: horizontal)
+  - Each token appears with animation after 1 second interval
+  - After last token, wait 200ms then call onComplete
+  - Tokens use CSS animations for pop-in effect
+  FILES: svelte/src/lib/components/kids/TokenAnimation.svelte
+
+□ 5.2 Create token theme definitions
+  - Define theme variants in component or separate file
+  - Each theme has:
+    * SVG or CSS-based visual
+    * Color scheme matching kids game palette
+    * Micro-animation style (bounce, grow, fade-in)
+  - Themes: dots (default), eggs (Peppa style), puddles, raindrops, suns
+  - Keep themes lightweight (no large assets)
+  FILES: svelte/src/lib/components/kids/TokenAnimation.svelte
+
+□ 5.3 Create TokenDelaySelector component
+  - Create: svelte/src/lib/components/kids/TokenDelaySelector.svelte
+  - Props:
+    * value: number (0-3 seconds)
+    * onChange: (value: number) => void
+    * theme: string (matches TokenAnimation themes)
+  - Mobile-first horizontal layout
+  - Each position (0-3) shows as token or empty slot
+  - Tap to toggle tokens on/off (0-3 range)
+  - Uses same visual themes as TokenAnimation for consistency
+  FILES: svelte/src/lib/components/kids/TokenDelaySelector.svelte
+
+□ 5.4 Add tests for TokenAnimation
+  - Test token appearance timing
+  - Test onComplete callback fires after all tokens + 200ms
+  - Test different themes render correctly
+  - Test layout prop changes direction
+  FILES: svelte/src/lib/components/kids/TokenAnimation.test.ts
+
+TESTING:
+- Run: npm test -- --run svelte/src/lib/components/kids/TokenAnimation.test.ts
+- Visual: Verify animations look good in browser
+
+ESTIMATED TIME: 4-5 hours
+
+
+--------------------------------------------------------------------------------
+TASK 6: Create TokenDelaySelector Tests
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Complete the TokenDelaySelector with tests and integration with settings store.
+Ensure the selector persists user preferences per game mode.
+
+SUBTASKS:
+
+□ 6.1 Add tests for TokenDelaySelector
+  - Test that current value is displayed correctly
+  - Test that clicking changes the value
+  - Test that onChange callback fires with new value
+  - Test value bounds (0-3)
+  - Test theme prop affects visuals
+  FILES: svelte/src/lib/components/kids/TokenDelaySelector.test.ts
+
+□ 6.2 Connect TokenDelaySelector to settings store
+  - Import stepwiseSettings store
+  - Use value from store as initial state
+  - Update store when value changes
+  - Verify localStorage persistence
+  FILES: svelte/src/lib/components/kids/TokenDelaySelector.svelte
+
+TESTING:
+- Run: npm test -- --run svelte/src/lib/components/kids/TokenDelaySelector.test.ts
+
+ESTIMATED TIME: 2-3 hours
+
+
+================================================================================
+PHASE 3: INTEGRATE STEPWISE REVEAL INTO EXISTING GAMES (Tasks 7-10)
+================================================================================
+
+Goal: Add stepwise reveal pattern to existing quiz games. This is gradual
+integration - start with one game, verify it works, then apply to others.
+
+--------------------------------------------------------------------------------
+TASK 7: Integrate Stepwise Reveal into Yhdistäsanat
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Refactor Yhdistäsanat quiz phase to use stepwise reveal. Show Spanish/Finnish
+word first, speak with TTS if enabled, then reveal answer buttons after delay.
+
+SUBTASKS:
+
+□ 7.1 Add StepwiseReveal to quiz phase
+  - Import StepwiseReveal component
+  - Wrap QuestionCard in default slot (always visible)
+  - Wrap OptionButtons in answers slot (revealed after delay)
+  - Get delay from stepwiseSettings store
+  FILES: svelte/src/routes/yhdistasanat/+page.svelte
+
+□ 7.2 Coordinate TTS with reveal
+  - Speak word when question displays (if autoSpeak enabled)
+  - Ensure TTS completes before delay timer starts OR runs in parallel
+  - Decision: TTS and delay run in parallel (simpler implementation)
+  FILES: svelte/src/routes/yhdistasanat/+page.svelte
+
+□ 7.3 Add delay selector to game home page
+  - Add section for configuring reveal delay
+  - Use simple number input or slider 
+  - Range: 0-4 seconds with 0.25s increments
+  - Save to stepwiseSettings store with 'yhdistasanat' key
+  FILES: svelte/src/routes/yhdistasanat/+page.svelte
+
+□ 7.4 Add visual waiting indicator
+  - Show subtle indicator during delay (e.g., "Muistele..." text)
+  - Or small animation below question card
+  - Keep design consistent with basic game style
+  FILES: svelte/src/routes/yhdistasanat/+page.svelte
+
+TESTING:
+- Manual: Play game with delay=0, verify immediate answer display
+- Manual: Play game with delay=3, verify 3-second pause before answers
+- Verify TTS speaks correctly
+- Verify settings persist after page refresh
+
+ESTIMATED TIME: 3-4 hours
+
+
+--------------------------------------------------------------------------------
+TASK 8: Integrate Stepwise Reveal into Pipsan maailma
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Add stepwise reveal to Pipsan maailma with kid-friendly TokenCounter animation.
+Show question, animate tokens, then reveal image options.
+
+SUBTASKS:
+
+□ 8.1 Add TokenCounter and stepwise logic
+  - Import TokenCounter component
+  - Add state for revealed: boolean
+  - Show question content immediately
+  - Show TokenCounter during delay
+  - Reveal image options when TokenAnimation completes
+  FILES: svelte/src/routes/pipsan-maailma/+page.svelte
+
+□ 8.2 Add theme rotation logic
+  - Track last used theme
+  - Select random theme different from last
+  - Pass theme to TokenAnimation
+  FILES: svelte/src/routes/pipsan-maailma/+page.svelte
+
+□ 8.3 Add TokenDelaySelector to start screen
+  - Add selector below existing settings on KidsStartScreen
+  - Connect to stepwiseSettings store with 'pipsanMaailma' key
+  - Show preview of selected token count
+  FILES: svelte/src/routes/pipsan-maailma/+page.svelte
+
+TESTING:
+- Manual: Verify TokenAnimation animation plays correctly
+- Manual: Verify different themes appear
+- Verify delay setting persists
+
+ESTIMATED TIME: 3-4 hours
+
+
+--------------------------------------------------------------------------------
+TASK 9: Integrate Stepwise Reveal into Pipsan ystävät
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Same as Task 8 but for Pipsan ystävät game. Reuse same components and patterns.
+
+SUBTASKS:
+
+□ 9.1 Add TokenAnimation and stepwise logic
+  - Same pattern as Pipsan maailma
+  - Import TokenAnimation, add revealed state
+  - Show tokens during delay
+  FILES: svelte/src/routes/pipsan-ystavat/+page.svelte
+
+□ 9.2 Add TokenDelaySelector to start screen
+  - Add to KidsStartScreen section
+  - Connect to stepwiseSettings with 'pipsanYstavat' key
+  FILES: svelte/src/routes/pipsan-ystavat/+page.svelte
+
+TESTING:
+- Manual: Play game, verify token animation and reveal works
+
+ESTIMATED TIME: 2-3 hours
+
+
+--------------------------------------------------------------------------------
+TASK 10: Update Kids Game Home Pages with Delay Selector
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Ensure both kids game home screens have consistent delay selector UI.
+The KidsStartScreen component may need modification to support delay selector
+as a slot or prop.
+
+SUBTASKS:
+
+□ 10.1 Review and update KidsStartScreen component
+  - Check if component supports additional settings section
+  - Add slot or prop for custom settings (delay selector)
+  - Maintain existing styling and layout
+  FILES: svelte/src/lib/components/kids/home/KidsStartScreen.svelte
+
+□ 10.2 Verify consistent styling across both kids games
+  - Delay selector should look identical in both games
+  - Use same theme preview visuals
+  - Mobile-first responsive design
+  FILES: Multiple kids game files
+
+TESTING:
+- Visual: Compare both games' home screens for consistency
+
+ESTIMATED TIME: 2-3 hours
+
+
+================================================================================
+PHASE 4: TATOEBA DATA PIPELINE AND LICENSING (Tasks 11-14)
+================================================================================
+
+Goal: Enhance Tatoeba pipeline to produce game-ready data, add proper licensing
+attribution, and create static JSON files for new game modes.
+
+--------------------------------------------------------------------------------
+TASK 11: Enhance Tatoeba Pipeline with Filtering and Grouping
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Update download_tatoeba.py to filter sentences by difficulty, group by theme,
+and output structured JSON files for game use. This is data processing work
+that runs in Python environment.
+
+SUBTASKS:
+
+□ 11.1 Add difficulty estimation to Tatoeba pipeline
+  - Estimate CEFR level based on:
+    * Sentence word count (1-4 words → A1, 5-8 → A2, 9+ → B1)
+    * Vocabulary frequency (using frequency data if available)
+    * Grammar complexity indicators (subjunctive, conditionals → B1+)
+  - Add 'level' field to each sentence: 'A1' | 'A2' | 'B1'
+  FILES: scripts/data_story_pipeline/download_tatoeba.py
+
+□ 11.2 Add theme grouping to pipeline
+  - Create theme categories: greetings, food, travel, family, work, leisure, etc.
+  - Use keyword matching to assign themes
+  - Allow sentence to have multiple themes
+  - Add 'themes' array field to each sentence
+  FILES: scripts/data_story_pipeline/download_tatoeba.py
+
+□ 11.3 Create SentenceGroup output format
+  - Group sentences by theme and level
+  - Output structure:
+    {
+      id: string,
+      theme: string,
+      level: 'A1' | 'A2' | 'B1',
+      sentences: Sentence[],
+      wordCount: number (average)
+    }
+  - Generate output files per theme
+  FILES: scripts/data_story_pipeline/download_tatoeba.py
+
+□ 11.4 Generate static JSON output files
+  - Create output directory: svelte/static/sentences/
+  - Generate sentences/index.json (manifest of all groups)
+  - Generate sentences/themes/*.json (sentences grouped by theme)
+  - Ensure files are small enough for efficient loading (<500KB each)
+  FILES: scripts/data_story_pipeline/download_tatoeba.py, svelte/static/sentences/*
+
+□ 11.5 Create pipeline tests
+  - Test difficulty estimation logic
+  - Test theme assignment
+  - Test output file generation
+  - Test deduplication
+  FILES: scripts/data_story_pipeline/test_download_tatoeba.py
+
+TESTING:
+- Run: cd scripts && python -m pytest data_story_pipeline/test_download_tatoeba.py
+- Verify output files are generated correctly
+
+ESTIMATED TIME: 5-6 hours
+
+
+--------------------------------------------------------------------------------
+TASK 12: Generate Lesson Definition Files
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Create lesson definitions for "Valitut sanat" game mode. Lessons combine
+vocabulary words with example sentences from Tatoeba.
+
+SUBTASKS:
+
+□ 12.1 Create lesson generation script
+  - Create: scripts/data_pipeline/generate_lessons.py
+  - Input: vocabulary categories from words.ts, Tatoeba sentences
+  - Output: lesson JSON files with word-sentence pairings
+  - Lesson structure:
+    {
+      id: string,
+      category: string,
+      tier: number (1 = most common, 2 = less common),
+      words: string[] (word IDs),
+      phrases: string[] (sentence IDs from Tatoeba)
+    }
+  FILES: scripts/data_pipeline/generate_lessons.py
+
+□ 12.2 Match vocabulary words to Tatoeba sentences
+  - For each word in vocabulary database:
+    * Find Tatoeba sentences containing that word
+    * Select sentences appropriate for word's CEFR level
+    * Limit to 2-3 example sentences per word
+  - Handle words with no matching sentences gracefully
+  FILES: scripts/data_pipeline/generate_lessons.py
+
+□ 12.3 Split large categories into tiers
+  - Categories with >15 words split into tiers by frequency
+  - Tier 1: most common words (first lesson)
+  - Tier 2: less common words (second lesson)
+  - Example: verbs-1.json (common verbs), verbs-2.json (less common)
+  FILES: scripts/data_pipeline/generate_lessons.py
+
+□ 12.4 Generate lesson output files
+  - Create output: svelte/static/lessons/
+  - Generate lessons/index.json (manifest of all lessons)
+  - Generate individual lesson files: lessons/*.json
+  FILES: svelte/static/lessons/*
+
+TESTING:
+- Run lesson generation script
+- Verify output files contain valid data
+- Verify word-sentence matching works correctly
+
+ESTIMATED TIME: 4-5 hours
+
+
+--------------------------------------------------------------------------------
+TASK 13: Add Tatoeba License Attribution
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Add proper CC-BY 2.0 FR attribution for Tatoeba corpus. Update licenses data,
+tietoja page, and repository files.
+
+SUBTASKS:
+
+□ 13.1 Update licenses.ts with Tatoeba
+  - Add Tatoeba entry to licenses data:
+    {
+      name: "Tatoeba Sentence Corpus",
+      source: "https://tatoeba.org",
+      license: "CC-BY 2.0 FR",
+      description: "Trilingual sentence pairs for language learning",
+      attribution: "Sentences from Tatoeba.org contributors"
+    }
+  FILES: svelte/src/lib/data/licenses.ts
+
+□ 13.2 Update tietoja page with Tatoeba attribution
+  - Add Tatoeba section to /tietoja page
+  - Display license information clearly
+  - Link to original Tatoeba source
+  - Include proper attribution text as required by CC-BY
+  FILES: svelte/src/routes/tietoja/+page.svelte
+
+□ 13.3 Update repository LICENSE or NOTICES file
+  - Add Tatoeba to NOTICES file or create one
+  - Document all third-party licenses in one place
+  FILES: NOTICES.md (create if needed)
+
+□ 13.4 Add license headers to relevant source files
+  - Add comment at top of sentence-related files noting Tatoeba license
+  - Files: sentenceLoader.ts, lesson-related files
+  FILES: Various source files using Tatoeba data
+
+TESTING:
+- Manual: View /tietoja page, verify Tatoeba attribution displays
+- Verify licenses.ts compiles without errors
+
+ESTIMATED TIME: 2-3 hours
+
+
+--------------------------------------------------------------------------------
+TASK 14: Create Sentence and Lesson Loader Services
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Create TypeScript services for loading sentence and lesson data in the Svelte
+app. These services handle fetching, caching, and providing data to game modes.
+
+SUBTASKS:
+
+□ 14.1 Create sentenceLoader service
+  - Create: svelte/src/lib/services/sentenceLoader.ts
+  - Functions:
+    * loadSentenceIndex(): Promise<SentenceGroupManifest>
+    * loadSentenceGroup(groupId: string): Promise<SentenceGroup>
+    * getSentencesByTheme(theme: string): Promise<Sentence[]>
+    * getSentencesByLevel(level: CEFRLevel): Promise<Sentence[]>
+  - Implement in-memory caching for loaded groups
+  - TypeScript interfaces for sentence data
+  FILES: svelte/src/lib/services/sentenceLoader.ts
+
+□ 14.2 Create lessonService
+  - Create: svelte/src/lib/services/lessonService.ts
+  - Functions:
+    * loadLessonIndex(): Promise<LessonManifest>
+    * loadLesson(lessonId: string): Promise<Lesson>
+    * getLessonsByCategory(category: string): Promise<Lesson[]>
+  - Implement caching
+  - TypeScript interfaces for lesson data
+  FILES: svelte/src/lib/services/lessonService.ts
+
+□ 14.3 Create lessonProgress store
+  - Create: svelte/src/lib/stores/lessonProgress.ts
+  - Track lesson completion per user
+  - Store in localStorage
+  - Interface:
+    {
+      lessonId: string,
+      completedAt: string,
+      wordScores: Record<string, number>,
+      nextReviewAt: string
+    }
+  FILES: svelte/src/lib/stores/lessonProgress.ts
+
+□ 14.4 Add service tests
+  - Test sentenceLoader fetch and cache behavior
+  - Test lessonService loading and filtering
+  - Mock fetch for testing
+  FILES: svelte/src/lib/services/sentenceLoader.test.ts,
+         svelte/src/lib/services/lessonService.test.ts
+
+TESTING:
+- Run: npm test -- --run svelte/src/lib/services/sentenceLoader.test.ts
+- Run: npm test -- --run svelte/src/lib/services/lessonService.test.ts
+
+ESTIMATED TIME: 4-5 hours
+
+
+================================================================================
+PHASE 5: NEW GAME - MITÄ SÄ SANOIT (Tasks 15-17)
+================================================================================
+
+Goal: Create listening/reading comprehension game using Tatoeba sentences.
+Route: /mita-sa-sanoit
+
+--------------------------------------------------------------------------------
+TASK 15: Create Mitä sä sanoit Route and Page Structure
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Set up the route structure and basic page layout for the new sentence
+comprehension game. Create home screen with game options.
+
+SUBTASKS:
+
+□ 15.1 Create route structure
+  - Create: svelte/src/routes/mita-sa-sanoit/+page.svelte
+  - Create: svelte/src/routes/mita-sa-sanoit/+layout.ts (prerender settings)
+  - Set up basic page structure with game states
+  - Import required stores and services
+  FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte,
+         svelte/src/routes/mita-sa-sanoit/+layout.ts
+
+□ 15.2 Create game home screen
+  - Display game title "Mitä sä sanoit?" with subtitle
+  - Explain game concept in Finnish
+  - Options:
+    * Mode selector: Listen (audio) vs Read (text)
+    * Theme selector (greetings, food, travel, etc.)
+    * Level selector (A1, A2, B1)
+  - "Aloita" (Start) button
+  FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
+
+□ 15.3 Set up game state management
+  - Define game states: 'home' | 'loading' | 'playing' | 'feedback' | 'report'
+  - Create state variables for:
+    * currentSentence: Sentence
+    * answerOptions: string[] (Finnish translations)
+    * selectedAnswer: string | null
+    * score: number
+    * questionIndex: number
+  - Handle transitions between states
+  FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
+
+TESTING:
+- Manual: Navigate to /mita-sa-sanoit, verify page loads
+- Verify home screen displays correctly
+
+ESTIMATED TIME: 3-4 hours
+
+
+--------------------------------------------------------------------------------
+TASK 16: Implement Sentence Selection and Game Logic
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Implement the core game logic: selecting sentences, generating wrong answers,
+handling user input, and scoring.
+
+SUBTASKS:
+
+□ 16.1 Create sentence selection logic
+  - Filter sentences by selected theme and level
+  - Randomly select sentences for game session
+  - Avoid repeating sentences within session
+  - Default: 10 sentences per game
+  FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
+
+□ 16.2 Create wrong answer generation
+  - For each sentence, generate 3 wrong Finnish translations
+  - Select from other sentences at similar difficulty level
+  - Avoid obviously wrong answers (very different length, etc.)
+  - Shuffle correct answer among wrong answers
+  FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
+
+□ 16.3 Implement listen mode
+  - Use TTS to speak Spanish sentence
+  - Show "play again" button for replaying audio
+  - Do NOT show Spanish text in listen mode
+  - Respect autoSpeak settings from store
+  FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
+
+□ 16.4 Implement read mode
+  - Show Spanish sentence as text (no audio by default)
+  - Optional TTS button to hear pronunciation
+  - Use large, readable font for sentence
+  FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
+
+□ 16.5 Add stepwise reveal integration
+  - Import StepwiseReveal component
+  - Show sentence (audio or text) immediately
+  - Delay showing Finnish translation options
+  - Use delay from stepwiseSettings store
+  FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
+
+TESTING:
+- Manual: Play game in both listen and read modes
+- Verify wrong answers are plausible
+- Verify stepwise reveal works
+
+ESTIMATED TIME: 5-6 hours
+
+
+--------------------------------------------------------------------------------
+TASK 17: Implement Game UI and Results
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Create the playing state UI, feedback overlays, and game report screen.
+Reuse existing components where possible.
+
+SUBTASKS:
+
+□ 17.1 Create playing state UI
+  - Use GameHeader for progress/score display
+  - Display Spanish sentence (or audio controls in listen mode)
+  - Display 4 Finnish translation options as buttons
+  - Use OptionButtons or similar component
+  - Mobile-first responsive layout
+  FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
+
+□ 17.2 Create feedback state
+  - Show correct answer with Spanish and Finnish together
+  - Use FeedbackOverlay or similar component
+  - Correct: green styling, celebration animation
+  - Wrong: show correct translation, allow continue
+  FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
+
+□ 17.3 Create game report screen
+  - Reuse GameReport component or create similar
+  - Show score breakdown (correct/wrong)
+  - Show sentences that were answered incorrectly
+  - Buttons: "Pelaa uudelleen", "Takaisin"
+  FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
+
+□ 17.4 Integrate with knowledge tracking
+  - Record sentence comprehension to wordKnowledge or separate store
+  - Consider: track by sentence ID or by words in sentence?
+  - Decision: track by sentence ID (simpler, different skill than word recall)
+  - Create sentence knowledge tracking if needed
+  FILES: svelte/src/routes/mita-sa-sanoit/+page.svelte
+
+□ 17.5 Add to main navigation
+  - Add game link to main page game list
+  - Add to navbar if applicable
+  - Use appropriate icon/emoji
+  FILES: svelte/src/routes/+page.svelte
+
+TESTING:
+- Manual: Complete full game flow from start to report
+- Verify all UI states display correctly
+- Verify mobile layout works
+
+ESTIMATED TIME: 4-5 hours
+
+
+================================================================================
+PHASE 6: NEW GAME - VALITUT SANAT (Tasks 18-21)
+================================================================================
+
+Goal: Create structured vocabulary lesson game combining teaching and testing.
+Route: /valitut-sanat
+
+--------------------------------------------------------------------------------
+TASK 18: Create Valitut sanat Route and Lesson Selection
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Set up route and create lesson selection home screen. User picks a lesson
+category, sees lesson structure, and starts learning flow.
+
+SUBTASKS:
+
+□ 18.1 Create route structure
+  - Create: svelte/src/routes/valitut-sanat/+page.svelte
+  - Create: svelte/src/routes/valitut-sanat/+layout.ts
+  - Set up basic page with game states
+  FILES: svelte/src/routes/valitut-sanat/+page.svelte,
+         svelte/src/routes/valitut-sanat/+layout.ts
+
+□ 18.2 Create lesson selection home screen
+  - Display game title "Valitut sanat"
+  - Load and display available lessons
+  - Group lessons by category
+  - Show lesson status: not started, in progress, completed
+  - Show spaced repetition recommendations
+  FILES: svelte/src/routes/valitut-sanat/+page.svelte
+
+□ 18.3 Create lesson card component
+  - Create: svelte/src/lib/components/basic/LessonCard.svelte
+  - Display: category name, tier number, word count
+  - Show progress indicator (% complete, last practiced)
+  - Click to start lesson
+  FILES: svelte/src/lib/components/basic/LessonCard.svelte
+
+□ 18.4 Implement spaced repetition recommendations
+  - Check lessonProgress store for completed lessons
+  - Calculate which lessons are due for review
+  - Use intervals: 1 day, 3 days, 7 days, 14 days, 30 days
+  - Display "Aika kerrata!" badge on due lessons
+  - Reference: svelte/src/routes/kielten-oppiminen/+page.svelte for intervals
+  FILES: svelte/src/routes/valitut-sanat/+page.svelte
+
+TESTING:
+- Manual: Navigate to /valitut-sanat, verify lesson list displays
+- Verify spaced repetition badges show correctly
+
+ESTIMATED TIME: 4-5 hours
+
+
+--------------------------------------------------------------------------------
+TASK 19: Implement Teaching Phase - Word List
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Create the first teaching phase where user sees word list with translations.
+Optimized for mobile vertical layout.
+
+SUBTASKS:
+
+□ 19.1 Create word list display state
+  - Add 'teaching-words' to game states
+  - Load lesson data when lesson selected
+  - Display words from lesson in list format
+  - Order by frequency (most useful words first)
+  FILES: svelte/src/routes/valitut-sanat/+page.svelte
+
+□ 19.2 Create word list UI component
+  - Create: svelte/src/lib/components/basic/WordList.svelte
+  - Mobile-first list layout
+  - Each row: Spanish word | Finnish translation | TTS button
+  - Large touch targets (44px minimum)
+  - Progress bar at top showing position in lesson
+  FILES: svelte/src/lib/components/basic/WordList.svelte
+
+□ 19.3 Add word-by-word TTS
+  - TTS button next to each word
+  - Speak Spanish word when button tapped
+  - Use TTSButton shared component
+  FILES: svelte/src/lib/components/basic/WordList.svelte
+
+□ 19.4 Add navigation controls
+  - "Jatka" (Continue) button to move to example phrases
+  - Progress bar showing lesson phase (1 of 3)
+  - Close button to return to lesson selection
+  FILES: svelte/src/routes/valitut-sanat/+page.svelte
+
+TESTING:
+- Manual: Start lesson, verify word list displays
+- Verify TTS works for each word
+- Verify mobile layout is usable
+
+ESTIMATED TIME: 3-4 hours
+
+
+--------------------------------------------------------------------------------
+TASK 20: Implement Teaching Phase - Example Phrases
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Create second teaching phase showing example sentences from Tatoeba for each
+word in the lesson.
+
+SUBTASKS:
+
+□ 20.1 Create example phrases state
+  - Add 'teaching-phrases' to game states
+  - Load matching Tatoeba sentences for lesson words
+  - Display sentences with target word highlighted
+  FILES: svelte/src/routes/valitut-sanat/+page.svelte
+
+□ 20.2 Create example phrase UI
+  - Create: svelte/src/lib/components/basic/ExamplePhraseList.svelte
+  - Group phrases by target word
+  - Show: Spanish sentence, Finnish translation
+  - Highlight target word in sentence
+  - TTS button for Spanish sentence
+  FILES: svelte/src/lib/components/basic/ExamplePhraseList.svelte
+
+□ 20.3 Handle missing example phrases
+  - Some words may not have Tatoeba matches
+  - Display word without examples, or skip in phrase section
+  - Show message: "Ei esimerkkejä saatavilla" if no matches
+  FILES: svelte/src/lib/components/basic/ExamplePhraseList.svelte
+
+□ 20.4 Add navigation controls
+  - "Aloita testi" (Start quiz) button to begin quiz phase
+  - "Takaisin" button to return to word list
+  - Progress bar showing phase 2 of 3
+  FILES: svelte/src/routes/valitut-sanat/+page.svelte
+
+TESTING:
+- Manual: Progress to phrase phase, verify display
+- Verify word highlighting works
+- Verify TTS works for sentences
+
+ESTIMATED TIME: 3-4 hours
+
+
+--------------------------------------------------------------------------------
+TASK 21: Implement Quiz Phase and Lesson Completion
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Create quiz phase using stepwise reveal pattern. Test user on words from
+the lesson, track scores, update knowledge stores.
+
+SUBTASKS:
+
+□ 21.1 Create quiz phase state
+  - Add 'quiz' to game states
+  - Generate questions from lesson words
+  - Randomize order
+  - Use both directions (Spanish→Finnish, Finnish→Spanish)
+  FILES: svelte/src/routes/valitut-sanat/+page.svelte
+
+□ 21.2 Implement quiz UI with stepwise reveal
+  - Use StepwiseReveal component
+  - Show prompt word with TTS
+  - Reveal 4 answer options after delay
+  - Score based on tries (same as other games)
+  FILES: svelte/src/routes/valitut-sanat/+page.svelte
+
+□ 21.3 Create lesson completion screen
+  - Show score summary
+  - Display words that need more practice
+  - Calculate next review date based on performance
+  - Buttons: "Takaisin oppitunteihin", "Pelaa uudelleen"
+  FILES: svelte/src/routes/valitut-sanat/+page.svelte
+
+□ 21.4 Update knowledge stores
+  - Record word scores to wordKnowledge store
+  - Update lessonProgress with completion data
+  - Calculate nextReviewAt based on performance
+  - If all words scored >80%, extend review interval
+  FILES: svelte/src/routes/valitut-sanat/+page.svelte
+
+□ 21.5 Add to main navigation
+  - Add game link to main page
+  - Add to navbar if applicable
+  FILES: svelte/src/routes/+page.svelte
+
+TESTING:
+- Manual: Complete full lesson flow (words → phrases → quiz → report)
+- Verify knowledge tracking works
+- Verify spaced repetition updates
+
+ESTIMATED TIME: 4-5 hours
+
+
+================================================================================
+PHASE 7: VERSION UPDATE AND POLISH (Tasks 22-24)
+================================================================================
+
+Goal: Update version numbers, verify all migrations work, final testing.
+
+--------------------------------------------------------------------------------
+TASK 22: Update Application Version
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Update version numbers throughout the application. Ensure version is displayed
+correctly in UI.
+
+SUBTASKS:
+
+□ 22.1 Update package.json version
+  - Change version from current to "5.0.0"
+  FILES: svelte/package.json
+
+□ 22.2 Update version display in settings/about pages
+  - Verify /asetukset shows correct version
+  - Verify /tietoja shows correct version
+  - Check any other version displays
+  FILES: svelte/src/routes/asetukset/+page.svelte,
+         svelte/src/routes/tietoja/+page.svelte
+
+□ 22.3 Update VERSION_HISTORY.md
+  - Add V5.0.0 section with:
+    * Release date
+    * Major features: polysemy support, stepwise reveal, new games
+    * Breaking changes: data model version 5
+    * Migration notes
+  FILES: VERSION_HISTORY.md
+
+TESTING:
+- Manual: Check version displays in UI
+- Verify package.json has correct version
+
+ESTIMATED TIME: 1-2 hours
+
+
+--------------------------------------------------------------------------------
+TASK 23: Final Migration Testing
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Comprehensive testing of V4→V5 migration with various data scenarios.
+Create test fixtures and verify migration handles all edge cases.
+
+SUBTASKS:
+
+□ 23.1 Create comprehensive migration test fixtures
+  - Fixture: Empty V4 data
+  - Fixture: V4 data with 10 words
+  - Fixture: V4 data with 100+ words
+  - Fixture: V4 data with polysemous word candidates
+  - Fixture: V4 data with words not in current vocabulary
+  FILES: svelte/src/lib/stores/test-fixtures/*
+
+□ 23.2 Test migration with each fixture
+  - Run migration tests
+  - Verify all fixtures migrate correctly
+  - Verify no data loss
+  - Verify polysemous words are handled correctly
+  FILES: Test files
+
+□ 23.3 Test migration in browser environment
+  - Create test page or use developer console
+  - Manually inject V4 data into localStorage
+  - Reload application
+  - Verify migration runs and data is correct
+  FILES: Manual testing
+
+□ 23.4 Document migration edge cases
+  - Document any cases that don't migrate perfectly
+  - Create report: docs/v5-migration-notes.md
+  FILES: docs/v5-migration-notes.md
+
+TESTING:
+- Run: npm test -- --run svelte/src/lib/stores/wordKnowledge.migration.test.ts
+- Manual browser testing with localStorage manipulation
+
+ESTIMATED TIME: 3-4 hours
+
+
+--------------------------------------------------------------------------------
+TASK 24: Integration Tests for New Games and Final Bug Fixes
+--------------------------------------------------------------------------------
+
+DESCRIPTION:
+Create simple integration tests for new game modes using mocked data.
+Tests verify correct elements are visible in each game state.
+User performs comprehensive manual testing separately.
+
+SUBTASKS:
+
+□ 24.1 Create integration test for Mitä sä sanoit
+  - Create: svelte/src/routes/mita-sa-sanoit/mita-sa-sanoit.test.ts
+  - Mock sentenceLoader to return fixture data
+  - Test home state: title, mode selector, theme selector, start button visible
+  - Test playing state: sentence display, answer options visible
+  - Test feedback state: correct/wrong indicator, continue button visible
+  - Test report state: score summary, play again button visible
+  - Use @testing-library/svelte queries (getByRole, getByText)
+  - Keep tests simple, focus on user-facing elements
+  FILES: svelte/src/routes/mita-sa-sanoit/mita-sa-sanoit.test.ts
+
+□ 24.2 Create integration test for Valitut sanat
+  - Create: svelte/src/routes/valitut-sanat/valitut-sanat.test.ts
+  - Mock lessonService to return fixture data
+  - Test home state: lesson list, lesson cards visible
+  - Test teaching-words state: word list, TTS buttons, continue button visible
+  - Test teaching-phrases state: example sentences, continue button visible
+  - Test quiz state: question, answer options visible
+  - Test report state: score, next review info visible
+  - Keep tests simple, verify critical elements only
+  FILES: svelte/src/routes/valitut-sanat/valitut-sanat.test.ts
+
+□ 24.3 Fix bugs found during testing
+  - Run full test suite: npm test
+  - Fix any failing tests
+  - Document non-critical bugs for future fixing
+  FILES: Various files based on bugs found
+
+TESTING:
+- Run: npm test -- --run svelte/src/routes/mita-sa-sanoit/mita-sa-sanoit.test.ts
+- Run: npm test -- --run svelte/src/routes/valitut-sanat/valitut-sanat.test.ts
+- Run: npm test (full suite)
+
+ESTIMATED TIME: 3-4 hours
+
+MANUAL TESTING CHECKLIST:
+User performs this testing manually after all tasks complete.
+
+Existing Games with New Data Model:
+• Yhdistäsanat: word IDs tracked correctly, polysemous words separated
+• Sanapeli: knowledge updates persist, scores calculate correctly
+• Pipsan maailma: kids mode tracking works, TokenAnimation displays
+• Pipsan ystävät: kids mode tracking works, delay selector works
+• Tarinat: story vocabulary tracked, questions work
+
+Timed Answer Reveal:
+• Delay settings persist after page refresh
+• TTS speaks during delay period
+• Answers appear after configured delay
+• delay=0 shows answers immediately
+• TokenAnimation themes rotate in kids games
+
+New Game - Mitä sä sanoit:
+• Home screen displays with all options
+• Listen mode: audio plays, text hidden
+• Read mode: Spanish text displays
+• Answer options are plausible
+• Correct/wrong feedback works
+• Report shows score and wrong answers
+• Navigation back to home works
+
+New Game - Valitut sanat:
+• Lesson list loads and displays
+• Spaced repetition badges appear on due lessons
+• Word list phase: all words visible, TTS works
+• Phrase phase: example sentences display
+• Quiz phase: stepwise reveal works
+• Completion updates knowledge stores
+• Next review date calculates correctly
+
+Mobile Testing:
+• All games work on mobile viewport
+• Touch targets are large enough (44px minimum)
+• Layouts adapt to small screens
+• Orientation changes handled
+• Navbar/navigation works on mobile
+
+Cross-Browser:
+• Test on Chrome, Firefox, Safari
+• Verify TTS works in each browser
+
+
+================================================================================
+SUMMARY
+================================================================================
+
+Total Tasks: 24
+Phases: 7
+
+PHASE BREAKDOWN:
+• Phase 1: Data Model Refactoring (Tasks 1-3): ~12-15 hours
+  - Word interface extension, knowledge store update, migration
+
+• Phase 2: Stepwise Reveal Components (Tasks 4-6): ~9-12 hours
+  - Shared component, kids components, tests
+
+• Phase 3: Integrate Stepwise Reveal (Tasks 7-10): ~10-14 hours
+  - Yhdistäsanat, Pipsan maailma, Pipsan ystävät, home pages
+
+• Phase 4: Tatoeba Pipeline and Licensing (Tasks 11-14): ~15-19 hours
+  - Pipeline enhancement, lesson generation, licensing, loader services
+
+• Phase 5: Mitä sä sanoit Game (Tasks 15-17): ~12-15 hours
+  - Route setup, game logic, UI and results
+
+• Phase 6: Valitut sanat Game (Tasks 18-21): ~14-18 hours
+  - Lesson selection, teaching phases, quiz phase
+
+• Phase 7: Version Update and Polish (Tasks 22-24): ~8-12 hours
+  - Version numbers, migration testing, feature testing
+
+TOTAL ESTIMATED TIME: ~80-105 hours
+
+DEPENDENCIES:
+• Tasks 1-3 MUST complete first (data model foundation)
+• Tasks 4-6 should complete before Tasks 7-10 (components before integration)
+• Task 11 must complete before Tasks 12, 15-17, 18-21 (data pipeline)
+• Tasks 14 must complete before Tasks 15-17 (loader services)
+• Tasks 22-24 are final polishing tasks
+
+PRIORITY ORDER:
+1. Phase 1 (Tasks 1-3): Data model is foundation
+2. Phase 2 (Tasks 4-6): Components for UX improvement
+3. Phase 4 (Task 11): Data pipeline (can parallel with Phase 3)
+4. Phase 3 (Tasks 7-10): Integrate stepwise into existing games
+5. Phase 4 (Tasks 12-14): Complete data pipeline and services
+6. Phase 5 (Tasks 15-17): New game - Mitä sä sanoit
+7. Phase 6 (Tasks 18-21): New game - Valitut sanat
+8. Phase 7 (Tasks 22-24): Final polish
+
+KEY FILES CHANGED:
+- svelte/src/lib/data/words.ts (Word interface, polysemous entries)
+- svelte/src/lib/utils/wordId.ts (NEW)
+- svelte/src/lib/stores/wordKnowledge.ts (ID keying, migration)
+- svelte/src/lib/config/dataModelVersion.ts (bump to 5.0.0)
+- svelte/src/lib/components/shared/TimedAnswerReveal.svelte (NEW)
+- svelte/src/lib/stores/timedAnswerSettings.ts (NEW)
+- svelte/src/lib/components/kids/TokenAnimation.svelte (NEW)
+- svelte/src/lib/components/kids/TokenDelaySelector.svelte (NEW)
+- svelte/src/lib/services/sentenceLoader.ts (NEW)
+- svelte/src/lib/services/lessonService.ts (NEW)
+- svelte/src/lib/stores/lessonProgress.ts (NEW)
+- svelte/src/routes/mita-sa-sanoit/+page.svelte (NEW)
+- svelte/src/routes/valitut-sanat/+page.svelte (NEW)
+- scripts/data_story_pipeline/download_tatoeba.py (enhanced)
+- scripts/data_pipeline/generate_lessons.py (NEW)
+- scripts/extract-polysemous.js (NEW)
+- scripts/apply-polysemous.js (NEW)
+- svelte/static/sentences/* (NEW)
+- svelte/static/lessons/* (NEW)
+
+TESTING COMMANDS:
+- npm test -- --run <specific-test-file>
+- npm test (full suite)
+- cd scripts && python -m pytest <test-file>
+
+================================================================================
+AI AGENT GUIDELINES
+================================================================================
+
+For agents implementing these tasks:
+
+1. ALWAYS read existing code before modifying
+   - Use Read tool on files mentioned in SUBTASKS
+   - Understand current patterns and conventions
+
+2. FOLLOW EXISTING PATTERNS
+   - Match code style of surrounding code
+   - Use existing utility functions when available
+   - Import from existing services/stores
+
+3. RUN TESTS AFTER CHANGES
+   - Run specific test files for modified code
+   - Run npm test for final verification
+
+4. SMALL COMMITS
+   - Commit after each subtask if possible
+   - Write clear commit messages describing changes
+
+5. MOBILE-FIRST
+   - All UI must work on mobile viewport
+   - Touch targets minimum 44px
+   - Test responsive layouts
+
+6. FINNISH UI LANGUAGE
+   - All user-facing text in Finnish
+   - Only learning content in Spanish/English
+
+7. USE SVELTE 5 RUNES
+   - $state for reactive state
+   - $derived for computed values
+   - $effect for side effects
+
+================================================================================
+END OF V5 TODO LIST
+================================================================================
+
+Created: January 2026
+Based on: v5-roadmap.md, PRINCIPLES.md, existing todo structures
+Target Release: V5.0.0 - Polysemy + Stepwise Reveal + Sentence Games

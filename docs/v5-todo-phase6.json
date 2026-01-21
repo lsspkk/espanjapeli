@@ -1,0 +1,196 @@
+{
+  "phase": 6,
+  "title": "NEW GAME - VALITUT SANAT",
+  "description": "Create structured vocabulary lesson game combining teaching and testing. Route: /valitut-sanat",
+  "estimatedHours": "14-18 hours",
+  "tasks": [
+    {
+      "id": "task-18",
+      "title": "Create Valitut sanat Route and Lesson Selection",
+      "description": "Set up route and create lesson selection home screen. User picks a lesson category, sees lesson structure, and starts learning flow.",
+      "estimatedHours": "4-5 hours",
+      "subtasks": [
+        {
+          "id": "18.1",
+          "title": "Create route structure",
+          "description": "Create: svelte/src/routes/valitut-sanat/+page.svelte. Create: svelte/src/routes/valitut-sanat/+layout.ts. Set up basic page with game states.",
+          "files": [
+            "svelte/src/routes/valitut-sanat/+page.svelte",
+            "svelte/src/routes/valitut-sanat/+layout.ts"
+          ]
+        },
+        {
+          "id": "18.2",
+          "title": "Create lesson selection home screen",
+          "description": "Display game title \"Valitut sanat\". Load and display available lessons. Group lessons by category. Show lesson status: not started, in progress, completed. Show spaced repetition recommendations.",
+          "files": [
+            "svelte/src/routes/valitut-sanat/+page.svelte"
+          ]
+        },
+        {
+          "id": "18.3",
+          "title": "Create lesson card component",
+          "description": "Create: svelte/src/lib/components/basic/LessonCard.svelte. Display: category name, tier number, word count. Show progress indicator (% complete, last practiced). Click to start lesson.",
+          "files": [
+            "svelte/src/lib/components/basic/LessonCard.svelte"
+          ]
+        },
+        {
+          "id": "18.4",
+          "title": "Implement spaced repetition recommendations",
+          "description": "Check lessonProgress store for completed lessons. Calculate which lessons are due for review. Use intervals: 1 day, 3 days, 7 days, 14 days, 30 days. Display \"Aika kerrata!\" badge on due lessons. Reference: svelte/src/routes/kielten-oppiminen/+page.svelte for intervals.",
+          "files": [
+            "svelte/src/routes/valitut-sanat/+page.svelte"
+          ]
+        }
+      ],
+      "testing": [
+        "Manual: Navigate to /valitut-sanat, verify lesson list displays",
+        "Verify spaced repetition badges show correctly"
+      ]
+    },
+    {
+      "id": "task-19",
+      "title": "Implement Teaching Phase - Word List",
+      "description": "Create the first teaching phase where user sees word list with translations. Optimized for mobile vertical layout.",
+      "estimatedHours": "3-4 hours",
+      "subtasks": [
+        {
+          "id": "19.1",
+          "title": "Create word list display state",
+          "description": "Add 'teaching-words' to game states. Load lesson data when lesson selected. Display words from lesson in list format. Order by frequency (most useful words first).",
+          "files": [
+            "svelte/src/routes/valitut-sanat/+page.svelte"
+          ]
+        },
+        {
+          "id": "19.2",
+          "title": "Create word list UI component",
+          "description": "Create: svelte/src/lib/components/basic/WordList.svelte. Mobile-first list layout. Each row: Spanish word | Finnish translation | TTS button. Large touch targets (44px minimum). Progress bar at top showing position in lesson.",
+          "files": [
+            "svelte/src/lib/components/basic/WordList.svelte"
+          ]
+        },
+        {
+          "id": "19.3",
+          "title": "Add word-by-word TTS",
+          "description": "TTS button next to each word. Speak Spanish word when button tapped. Use TTSButton shared component.",
+          "files": [
+            "svelte/src/lib/components/basic/WordList.svelte"
+          ]
+        },
+        {
+          "id": "19.4",
+          "title": "Add navigation controls",
+          "description": "\"Jatka\" (Continue) button to move to example phrases. Progress bar showing lesson phase (1 of 3). Close button to return to lesson selection.",
+          "files": [
+            "svelte/src/routes/valitut-sanat/+page.svelte"
+          ]
+        }
+      ],
+      "testing": [
+        "Manual: Start lesson, verify word list displays",
+        "Verify TTS works for each word",
+        "Verify mobile layout is usable"
+      ]
+    },
+    {
+      "id": "task-20",
+      "title": "Implement Teaching Phase - Example Phrases",
+      "description": "Create second teaching phase showing example sentences from Tatoeba for each word in the lesson.",
+      "estimatedHours": "3-4 hours",
+      "subtasks": [
+        {
+          "id": "20.1",
+          "title": "Create example phrases state",
+          "description": "Add 'teaching-phrases' to game states. Load matching Tatoeba sentences for lesson words. Display sentences with target word highlighted.",
+          "files": [
+            "svelte/src/routes/valitut-sanat/+page.svelte"
+          ]
+        },
+        {
+          "id": "20.2",
+          "title": "Create example phrase UI",
+          "description": "Create: svelte/src/lib/components/basic/ExamplePhraseList.svelte. Group phrases by target word. Show: Spanish sentence, Finnish translation. Highlight target word in sentence. TTS button for Spanish sentence.",
+          "files": [
+            "svelte/src/lib/components/basic/ExamplePhraseList.svelte"
+          ]
+        },
+        {
+          "id": "20.3",
+          "title": "Handle missing example phrases",
+          "description": "Some words may not have Tatoeba matches. Display word without examples, or skip in phrase section. Show message: \"Ei esimerkkejä saatavilla\" if no matches.",
+          "files": [
+            "svelte/src/lib/components/basic/ExamplePhraseList.svelte"
+          ]
+        },
+        {
+          "id": "20.4",
+          "title": "Add navigation controls",
+          "description": "\"Aloita testi\" (Start quiz) button to begin quiz phase. \"Takaisin\" button to return to word list. Progress bar showing phase 2 of 3.",
+          "files": [
+            "svelte/src/routes/valitut-sanat/+page.svelte"
+          ]
+        }
+      ],
+      "testing": [
+        "Manual: Progress to phrase phase, verify display",
+        "Verify word highlighting works",
+        "Verify TTS works for sentences"
+      ]
+    },
+    {
+      "id": "task-21",
+      "title": "Implement Quiz Phase and Lesson Completion",
+      "description": "Create quiz phase using stepwise reveal pattern. Test user on words from the lesson, track scores, update knowledge stores.",
+      "estimatedHours": "4-5 hours",
+      "subtasks": [
+        {
+          "id": "21.1",
+          "title": "Create quiz phase state",
+          "description": "Add 'quiz' to game states. Generate questions from lesson words. Randomize order. Use both directions (Spanish→Finnish, Finnish→Spanish).",
+          "files": [
+            "svelte/src/routes/valitut-sanat/+page.svelte"
+          ]
+        },
+        {
+          "id": "21.2",
+          "title": "Implement quiz UI with stepwise reveal",
+          "description": "Use StepwiseReveal component. Show prompt word with TTS. Reveal 4 answer options after delay. Score based on tries (same as other games).",
+          "files": [
+            "svelte/src/routes/valitut-sanat/+page.svelte"
+          ]
+        },
+        {
+          "id": "21.3",
+          "title": "Create lesson completion screen",
+          "description": "Show score summary. Display words that need more practice. Calculate next review date based on performance. Buttons: \"Takaisin oppitunteihin\", \"Pelaa uudelleen\".",
+          "files": [
+            "svelte/src/routes/valitut-sanat/+page.svelte"
+          ]
+        },
+        {
+          "id": "21.4",
+          "title": "Update knowledge stores",
+          "description": "Record word scores to wordKnowledge store. Update lessonProgress with completion data. Calculate nextReviewAt based on performance. If all words scored >80%, extend review interval.",
+          "files": [
+            "svelte/src/routes/valitut-sanat/+page.svelte"
+          ]
+        },
+        {
+          "id": "21.5",
+          "title": "Add to main navigation",
+          "description": "Add game link to main page. Add to navbar if applicable.",
+          "files": [
+            "svelte/src/routes/+page.svelte"
+          ]
+        }
+      ],
+      "testing": [
+        "Manual: Complete full lesson flow (words → phrases → quiz → report)",
+        "Verify knowledge tracking works",
+        "Verify spaced repetition updates"
+      ]
+    }
+  ]
+}

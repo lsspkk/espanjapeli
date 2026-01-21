@@ -1,0 +1,167 @@
+{
+  "phase": 7,
+  "title": "VERSION UPDATE AND POLISH",
+  "description": "Update version numbers, verify all migrations work, final testing.",
+  "estimatedHours": "8-12 hours",
+  "tasks": [
+    {
+      "id": "task-22",
+      "title": "Update Application Version",
+      "description": "Update version numbers throughout the application. Ensure version is displayed correctly in UI.",
+      "estimatedHours": "1-2 hours",
+      "subtasks": [
+        {
+          "id": "22.1",
+          "title": "Update package.json version",
+          "description": "Change version from current to \"5.0.0\"",
+          "files": [
+            "svelte/package.json"
+          ]
+        },
+        {
+          "id": "22.2",
+          "title": "Update version display in settings/about pages",
+          "description": "Verify /asetukset shows correct version. Verify /tietoja shows correct version. Check any other version displays.",
+          "files": [
+            "svelte/src/routes/asetukset/+page.svelte",
+            "svelte/src/routes/tietoja/+page.svelte"
+          ]
+        },
+        {
+          "id": "22.3",
+          "title": "Update VERSION_HISTORY.md",
+          "description": "Add V5.0.0 section with: Release date, Major features: polysemy support, stepwise reveal, new games, Breaking changes: data model version 5, Migration notes.",
+          "files": [
+            "VERSION_HISTORY.md"
+          ]
+        }
+      ],
+      "testing": [
+        "Manual: Check version displays in UI",
+        "Verify package.json has correct version"
+      ]
+    },
+    {
+      "id": "task-23",
+      "title": "Final Migration Testing",
+      "description": "Comprehensive testing of V4→V5 migration with various data scenarios. Create test fixtures and verify migration handles all edge cases.",
+      "estimatedHours": "3-4 hours",
+      "subtasks": [
+        {
+          "id": "23.1",
+          "title": "Create comprehensive migration test fixtures",
+          "description": "Fixture: Empty V4 data. Fixture: V4 data with 10 words. Fixture: V4 data with 100+ words. Fixture: V4 data with polysemous word candidates. Fixture: V4 data with words not in current vocabulary.",
+          "files": [
+            "svelte/src/lib/stores/test-fixtures/"
+          ]
+        },
+        {
+          "id": "23.2",
+          "title": "Test migration with each fixture",
+          "description": "Run migration tests. Verify all fixtures migrate correctly. Verify no data loss. Verify polysemous words are handled correctly.",
+          "files": [
+            "svelte/src/lib/stores/wordKnowledge.migration.test.ts"
+          ]
+        },
+        {
+          "id": "23.3",
+          "title": "Test migration in browser environment",
+          "description": "Create test page or use developer console. Manually inject V4 data into localStorage. Reload application. Verify migration runs and data is correct.",
+          "files": []
+        },
+        {
+          "id": "23.4",
+          "title": "Document migration edge cases",
+          "description": "Document any cases that don't migrate perfectly. Create report: docs/v5-migration-notes.md",
+          "files": [
+            "docs/v5-migration-notes.md"
+          ]
+        }
+      ],
+      "testing": [
+        "Run: npm test -- --run svelte/src/lib/stores/wordKnowledge.migration.test.ts",
+        "Manual browser testing with localStorage manipulation"
+      ]
+    },
+    {
+      "id": "task-24",
+      "title": "Integration Tests for New Games and Final Bug Fixes",
+      "description": "Create simple integration tests for new game modes using mocked data. Tests verify correct elements are visible in each game state. User performs comprehensive manual testing separately.",
+      "estimatedHours": "3-4 hours",
+      "subtasks": [
+        {
+          "id": "24.1",
+          "title": "Create integration test for Mitä sä sanoit",
+          "description": "Create: svelte/src/routes/mita-sa-sanoit/mita-sa-sanoit.test.ts. Mock sentenceLoader to return fixture data. Test home state: title, mode selector, theme selector, start button visible. Test playing state: sentence display, answer options visible. Test feedback state: correct/wrong indicator, continue button visible. Test report state: score summary, play again button visible. Use @testing-library/svelte queries (getByRole, getByText). Keep tests simple, focus on user-facing elements.",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/mita-sa-sanoit.test.ts"
+          ]
+        },
+        {
+          "id": "24.2",
+          "title": "Create integration test for Valitut sanat",
+          "description": "Create: svelte/src/routes/valitut-sanat/valitut-sanat.test.ts. Mock lessonService to return fixture data. Test home state: lesson list, lesson cards visible. Test teaching-words state: word list, TTS buttons, continue button visible. Test teaching-phrases state: example sentences, continue button visible. Test quiz state: question, answer options visible. Test report state: score, next review info visible. Keep tests simple, verify critical elements only.",
+          "files": [
+            "svelte/src/routes/valitut-sanat/valitut-sanat.test.ts"
+          ]
+        },
+        {
+          "id": "24.3",
+          "title": "Fix bugs found during testing",
+          "description": "Run full test suite: npm test. Fix any failing tests. Document non-critical bugs for future fixing.",
+          "files": []
+        }
+      ],
+      "testing": [
+        "Run: npm test -- --run svelte/src/routes/mita-sa-sanoit/mita-sa-sanoit.test.ts",
+        "Run: npm test -- --run svelte/src/routes/valitut-sanat/valitut-sanat.test.ts",
+        "Run: npm test (full suite)"
+      ],
+      "manualTestingChecklist": {
+        "existingGamesWithNewDataModel": [
+          "Yhdistäsanat: word IDs tracked correctly, polysemous words separated",
+          "Sanapeli: knowledge updates persist, scores calculate correctly",
+          "Pipsan maailma: kids mode tracking works, TokenAnimation displays",
+          "Pipsan ystävät: kids mode tracking works, delay selector works",
+          "Tarinat: story vocabulary tracked, questions work"
+        ],
+        "timedAnswerReveal": [
+          "Delay settings persist after page refresh",
+          "TTS speaks during delay period",
+          "Answers appear after configured delay",
+          "delay=0 shows answers immediately",
+          "TokenAnimation themes rotate in kids games"
+        ],
+        "newGameMitaSaSanoit": [
+          "Home screen displays with all options",
+          "Listen mode: audio plays, text hidden",
+          "Read mode: Spanish text displays",
+          "Answer options are plausible",
+          "Correct/wrong feedback works",
+          "Report shows score and wrong answers",
+          "Navigation back to home works"
+        ],
+        "newGameValitutSanat": [
+          "Lesson list loads and displays",
+          "Spaced repetition badges appear on due lessons",
+          "Word list phase: all words visible, TTS works",
+          "Phrase phase: example sentences display",
+          "Quiz phase: stepwise reveal works",
+          "Completion updates knowledge stores",
+          "Next review date calculates correctly"
+        ],
+        "mobileTesting": [
+          "All games work on mobile viewport",
+          "Touch targets are large enough (44px minimum)",
+          "Layouts adapt to small screens",
+          "Orientation changes handled",
+          "Navbar/navigation works on mobile"
+        ],
+        "crossBrowser": [
+          "Test on Chrome, Firefox, Safari",
+          "Verify TTS works in each browser"
+        ]
+      }
+    }
+  ]
+}

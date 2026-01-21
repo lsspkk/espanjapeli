@@ -1,0 +1,151 @@
+{
+  "phase": 5,
+  "title": "NEW GAME - MITÄ SÄ SANOIT",
+  "description": "Create listening/reading comprehension game using Tatoeba sentences. Route: /mita-sa-sanoit",
+  "estimatedHours": "12-15 hours",
+  "tasks": [
+    {
+      "id": "task-15",
+      "title": "Create Mitä sä sanoit Route and Page Structure",
+      "description": "Set up the route structure and basic page layout for the new sentence comprehension game. Create home screen with game options.",
+      "estimatedHours": "3-4 hours",
+      "subtasks": [
+        {
+          "id": "15.1",
+          "title": "Create route structure",
+          "description": "Create: svelte/src/routes/mita-sa-sanoit/+page.svelte. Create: svelte/src/routes/mita-sa-sanoit/+layout.ts (prerender settings). Set up basic page structure with game states. Import required stores and services.",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/+page.svelte",
+            "svelte/src/routes/mita-sa-sanoit/+layout.ts"
+          ]
+        },
+        {
+          "id": "15.2",
+          "title": "Create game home screen",
+          "description": "Display game title \"Mitä sä sanoit?\" with subtitle. Explain game concept in Finnish. Options: Mode selector: Listen (audio) vs Read (text), Theme selector (greetings, food, travel, etc.), Level selector (A1, A2, B1). \"Aloita\" (Start) button.",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/+page.svelte"
+          ]
+        },
+        {
+          "id": "15.3",
+          "title": "Set up game state management",
+          "description": "Define game states: 'home' | 'loading' | 'playing' | 'feedback' | 'report'. Create state variables for: currentSentence: Sentence, answerOptions: string[] (Finnish translations), selectedAnswer: string | null, score: number, questionIndex: number. Handle transitions between states.",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/+page.svelte"
+          ]
+        }
+      ],
+      "testing": [
+        "Manual: Navigate to /mita-sa-sanoit, verify page loads",
+        "Verify home screen displays correctly"
+      ]
+    },
+    {
+      "id": "task-16",
+      "title": "Implement Sentence Selection and Game Logic",
+      "description": "Implement the core game logic: selecting sentences, generating wrong answers, handling user input, and scoring.",
+      "estimatedHours": "5-6 hours",
+      "subtasks": [
+        {
+          "id": "16.1",
+          "title": "Create sentence selection logic",
+          "description": "Filter sentences by selected theme and level. Randomly select sentences for game session. Avoid repeating sentences within session. Default: 10 sentences per game.",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/+page.svelte"
+          ]
+        },
+        {
+          "id": "16.2",
+          "title": "Create wrong answer generation",
+          "description": "For each sentence, generate 3 wrong Finnish translations. Select from other sentences at similar difficulty level. Avoid obviously wrong answers (very different length, etc.). Shuffle correct answer among wrong answers.",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/+page.svelte"
+          ]
+        },
+        {
+          "id": "16.3",
+          "title": "Implement listen mode",
+          "description": "Use TTS to speak Spanish sentence. Show \"play again\" button for replaying audio. Do NOT show Spanish text in listen mode. Respect autoSpeak settings from store.",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/+page.svelte"
+          ]
+        },
+        {
+          "id": "16.4",
+          "title": "Implement read mode",
+          "description": "Show Spanish sentence as text (no audio by default). Optional TTS button to hear pronunciation. Use large, readable font for sentence.",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/+page.svelte"
+          ]
+        },
+        {
+          "id": "16.5",
+          "title": "Add stepwise reveal integration",
+          "description": "Import StepwiseReveal component. Show sentence (audio or text) immediately. Delay showing Finnish translation options. Use delay from stepwiseSettings store.",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/+page.svelte"
+          ]
+        }
+      ],
+      "testing": [
+        "Manual: Play game in both listen and read modes",
+        "Verify wrong answers are plausible",
+        "Verify stepwise reveal works"
+      ]
+    },
+    {
+      "id": "task-17",
+      "title": "Implement Game UI and Results",
+      "description": "Create the playing state UI, feedback overlays, and game report screen. Reuse existing components where possible.",
+      "estimatedHours": "4-5 hours",
+      "subtasks": [
+        {
+          "id": "17.1",
+          "title": "Create playing state UI",
+          "description": "Use GameHeader for progress/score display. Display Spanish sentence (or audio controls in listen mode). Display 4 Finnish translation options as buttons. Use OptionButtons or similar component. Mobile-first responsive layout.",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/+page.svelte"
+          ]
+        },
+        {
+          "id": "17.2",
+          "title": "Create feedback state",
+          "description": "Show correct answer with Spanish and Finnish together. Use FeedbackOverlay or similar component. Correct: green styling, celebration animation. Wrong: show correct translation, allow continue.",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/+page.svelte"
+          ]
+        },
+        {
+          "id": "17.3",
+          "title": "Create game report screen",
+          "description": "Reuse GameReport component or create similar. Show score breakdown (correct/wrong). Show sentences that were answered incorrectly. Buttons: \"Pelaa uudelleen\", \"Takaisin\".",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/+page.svelte"
+          ]
+        },
+        {
+          "id": "17.4",
+          "title": "Integrate with knowledge tracking",
+          "description": "Record sentence comprehension to wordKnowledge or separate store. Consider: track by sentence ID or by words in sentence? Decision: track by sentence ID (simpler, different skill than word recall). Create sentence knowledge tracking if needed.",
+          "files": [
+            "svelte/src/routes/mita-sa-sanoit/+page.svelte"
+          ]
+        },
+        {
+          "id": "17.5",
+          "title": "Add to main navigation",
+          "description": "Add game link to main page game list. Add to navbar if applicable. Use appropriate icon/emoji.",
+          "files": [
+            "svelte/src/routes/+page.svelte"
+          ]
+        }
+      ],
+      "testing": [
+        "Manual: Complete full game flow from start to report",
+        "Verify all UI states display correctly",
+        "Verify mobile layout works"
+      ]
+    }
+  ]
+}

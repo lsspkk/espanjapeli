@@ -1,0 +1,197 @@
+{
+  "phase": 4,
+  "title": "TATOEBA DATA PIPELINE AND LICENSING",
+  "description": "Enhance Tatoeba pipeline to produce game-ready data, add proper licensing attribution, and create static JSON files for new game modes.",
+  "estimatedHours": "15-19 hours",
+  "tasks": [
+    {
+      "id": "task-11",
+      "title": "Enhance Tatoeba Pipeline with Filtering and Grouping",
+      "description": "Update download_tatoeba.py to filter sentences by difficulty, group by theme, and output structured JSON files for game use. This is data processing work that runs in Python environment.",
+      "estimatedHours": "5-6 hours",
+      "subtasks": [
+        {
+          "id": "11.1",
+          "title": "Add difficulty estimation to Tatoeba pipeline",
+          "description": "Estimate CEFR level based on: Sentence word count (1-4 words → A1, 5-8 → A2, 9+ → B1), Vocabulary frequency (using frequency data if available), Grammar complexity indicators (subjunctive, conditionals → B1+). Add 'level' field to each sentence: 'A1' | 'A2' | 'B1'.",
+          "files": [
+            "scripts/data_story_pipeline/download_tatoeba.py"
+          ]
+        },
+        {
+          "id": "11.2",
+          "title": "Add theme grouping to pipeline",
+          "description": "Create theme categories: greetings, food, travel, family, work, leisure, etc. Use keyword matching to assign themes. Allow sentence to have multiple themes. Add 'themes' array field to each sentence.",
+          "files": [
+            "scripts/data_story_pipeline/download_tatoeba.py"
+          ]
+        },
+        {
+          "id": "11.3",
+          "title": "Create SentenceGroup output format",
+          "description": "Group sentences by theme and level. Output structure: { id: string, theme: string, level: 'A1' | 'A2' | 'B1', sentences: Sentence[], wordCount: number (average) }. Generate output files per theme.",
+          "files": [
+            "scripts/data_story_pipeline/download_tatoeba.py"
+          ]
+        },
+        {
+          "id": "11.4",
+          "title": "Generate static JSON output files",
+          "description": "Create output directory: svelte/static/sentences/. Generate sentences/index.json (manifest of all groups). Generate sentences/themes/*.json (sentences grouped by theme). Ensure files are small enough for efficient loading (<500KB each).",
+          "files": [
+            "scripts/data_story_pipeline/download_tatoeba.py",
+            "svelte/static/sentences/index.json",
+            "svelte/static/sentences/themes/*.json"
+          ]
+        },
+        {
+          "id": "11.5",
+          "title": "Create pipeline tests",
+          "description": "Test difficulty estimation logic. Test theme assignment. Test output file generation. Test deduplication.",
+          "files": [
+            "scripts/data_story_pipeline/test_download_tatoeba.py"
+          ]
+        }
+      ],
+      "testing": [
+        "Run: cd scripts && python -m pytest data_story_pipeline/test_download_tatoeba.py",
+        "Verify output files are generated correctly"
+      ]
+    },
+    {
+      "id": "task-12",
+      "title": "Generate Lesson Definition Files",
+      "description": "Create lesson definitions for \"Valitut sanat\" game mode. Lessons combine vocabulary words with example sentences from Tatoeba.",
+      "estimatedHours": "4-5 hours",
+      "subtasks": [
+        {
+          "id": "12.1",
+          "title": "Create lesson generation script",
+          "description": "Create: scripts/data_pipeline/generate_lessons.py. Input: vocabulary categories from words.ts, Tatoeba sentences. Output: lesson JSON files with word-sentence pairings. Lesson structure: { id: string, category: string, tier: number (1 = most common, 2 = less common), words: string[] (word IDs), phrases: string[] (sentence IDs from Tatoeba) }",
+          "files": [
+            "scripts/data_pipeline/generate_lessons.py"
+          ]
+        },
+        {
+          "id": "12.2",
+          "title": "Match vocabulary words to Tatoeba sentences",
+          "description": "For each word in vocabulary database: Find Tatoeba sentences containing that word, Select sentences appropriate for word's CEFR level, Limit to 2-3 example sentences per word. Handle words with no matching sentences gracefully.",
+          "files": [
+            "scripts/data_pipeline/generate_lessons.py"
+          ]
+        },
+        {
+          "id": "12.3",
+          "title": "Split large categories into tiers",
+          "description": "Categories with >15 words split into tiers by frequency. Tier 1: most common words (first lesson). Tier 2: less common words (second lesson). Example: verbs-1.json (common verbs), verbs-2.json (less common).",
+          "files": [
+            "scripts/data_pipeline/generate_lessons.py"
+          ]
+        },
+        {
+          "id": "12.4",
+          "title": "Generate lesson output files",
+          "description": "Create output: svelte/static/lessons/. Generate lessons/index.json (manifest of all lessons). Generate individual lesson files: lessons/*.json.",
+          "files": [
+            "svelte/static/lessons/index.json",
+            "svelte/static/lessons/*.json"
+          ]
+        }
+      ],
+      "testing": [
+        "Run lesson generation script",
+        "Verify output files contain valid data",
+        "Verify word-sentence matching works correctly"
+      ]
+    },
+    {
+      "id": "task-13",
+      "title": "Add Tatoeba License Attribution",
+      "description": "Add proper CC-BY 2.0 FR attribution for Tatoeba corpus. Update licenses data, tietoja page, and repository files.",
+      "estimatedHours": "2-3 hours",
+      "subtasks": [
+        {
+          "id": "13.1",
+          "title": "Update licenses.ts with Tatoeba",
+          "description": "Add Tatoeba entry to licenses data: { name: \"Tatoeba Sentence Corpus\", source: \"https://tatoeba.org\", license: \"CC-BY 2.0 FR\", description: \"Trilingual sentence pairs for language learning\", attribution: \"Sentences from Tatoeba.org contributors\" }",
+          "files": [
+            "svelte/src/lib/data/licenses.ts"
+          ]
+        },
+        {
+          "id": "13.2",
+          "title": "Update tietoja page with Tatoeba attribution",
+          "description": "Add Tatoeba section to /tietoja page. Display license information clearly. Link to original Tatoeba source. Include proper attribution text as required by CC-BY.",
+          "files": [
+            "svelte/src/routes/tietoja/+page.svelte"
+          ]
+        },
+        {
+          "id": "13.3",
+          "title": "Update repository LICENSE or NOTICES file",
+          "description": "Add Tatoeba to NOTICES file or create one. Document all third-party licenses in one place.",
+          "files": [
+            "NOTICES.md"
+          ]
+        },
+        {
+          "id": "13.4",
+          "title": "Add license headers to relevant source files",
+          "description": "Add comment at top of sentence-related files noting Tatoeba license. Files: sentenceLoader.ts, lesson-related files.",
+          "files": [
+            "svelte/src/lib/services/sentenceLoader.ts"
+          ]
+        }
+      ],
+      "testing": [
+        "Manual: View /tietoja page, verify Tatoeba attribution displays",
+        "Verify licenses.ts compiles without errors"
+      ]
+    },
+    {
+      "id": "task-14",
+      "title": "Create Sentence and Lesson Loader Services",
+      "description": "Create TypeScript services for loading sentence and lesson data in the Svelte app. These services handle fetching, caching, and providing data to game modes.",
+      "estimatedHours": "4-5 hours",
+      "subtasks": [
+        {
+          "id": "14.1",
+          "title": "Create sentenceLoader service",
+          "description": "Create: svelte/src/lib/services/sentenceLoader.ts. Functions: loadSentenceIndex(): Promise<SentenceGroupManifest>, loadSentenceGroup(groupId: string): Promise<SentenceGroup>, getSentencesByTheme(theme: string): Promise<Sentence[]>, getSentencesByLevel(level: CEFRLevel): Promise<Sentence[]>. Implement in-memory caching for loaded groups. TypeScript interfaces for sentence data.",
+          "files": [
+            "svelte/src/lib/services/sentenceLoader.ts"
+          ]
+        },
+        {
+          "id": "14.2",
+          "title": "Create lessonService",
+          "description": "Create: svelte/src/lib/services/lessonService.ts. Functions: loadLessonIndex(): Promise<LessonManifest>, loadLesson(lessonId: string): Promise<Lesson>, getLessonsByCategory(category: string): Promise<Lesson[]>. Implement caching. TypeScript interfaces for lesson data.",
+          "files": [
+            "svelte/src/lib/services/lessonService.ts"
+          ]
+        },
+        {
+          "id": "14.3",
+          "title": "Create lessonProgress store",
+          "description": "Create: svelte/src/lib/stores/lessonProgress.ts. Track lesson completion per user. Store in localStorage. Interface: { lessonId: string, completedAt: string, wordScores: Record<string, number>, nextReviewAt: string }",
+          "files": [
+            "svelte/src/lib/stores/lessonProgress.ts"
+          ]
+        },
+        {
+          "id": "14.4",
+          "title": "Add service tests",
+          "description": "Test sentenceLoader fetch and cache behavior. Test lessonService loading and filtering. Mock fetch for testing.",
+          "files": [
+            "svelte/src/lib/services/sentenceLoader.test.ts",
+            "svelte/src/lib/services/lessonService.test.ts"
+          ]
+        }
+      ],
+      "testing": [
+        "Run: npm test -- --run svelte/src/lib/services/sentenceLoader.test.ts",
+        "Run: npm test -- --run svelte/src/lib/services/lessonService.test.ts"
+      ]
+    }
+  ]
+}

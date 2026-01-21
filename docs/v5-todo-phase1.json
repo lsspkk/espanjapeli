@@ -1,0 +1,161 @@
+{
+  "phase": 1,
+  "title": "DATA MODEL REFACTORING FOR POLYSEMOUS WORDS",
+  "description": "Extend Word interface with sense-aware IDs, update knowledge tracking to use word IDs instead of Spanish strings, migrate existing user data.",
+  "estimatedHours": "12-15 hours",
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Extend Word Interface with Sense-Aware IDs",
+      "description": "Add senseKey field to Word interface and create getWordId() helper function. This enables tracking different meanings of the same Spanish word separately. For example, \"tiempo\" (time) and \"tiempo\" (weather) become distinct entries.",
+      "estimatedHours": "3-4 hours",
+      "subtasks": [
+        {
+          "id": "1.1",
+          "title": "Update Word interface in words.ts",
+          "description": "Add senseKey?: string field to Word interface. senseKey is human-readable disambiguator: \"time\", \"weather\", \"finance\". Document ID format convention: {spanish}#{sense} for polysemous words. Update JSDoc comments explaining when id and senseKey are required.",
+          "files": [
+            "svelte/src/lib/data/words.ts"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Create wordId utility module",
+          "description": "Create new file: svelte/src/lib/utils/wordId.ts. Implement getWordId(word: Word): string - Returns word.id if defined, Falls back to word.spanish if id is undefined. Implement createPolysemousId(spanish: string, sense: string): string - Returns `${spanish}#${sense}` format. Implement parsePolysemousId(id: string): { spanish: string, sense?: string } - Parses id back to components. Add unit tests: svelte/src/lib/utils/wordId.test.ts",
+          "files": [
+            "svelte/src/lib/utils/wordId.ts",
+            "svelte/src/lib/utils/wordId.test.ts"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Add known polysemous words to words.ts",
+          "description": "Run extraction script: scripts/extract-polysemous.js - Identifies duplicate Spanish words across categories, Outputs: polysemous-words.json with all duplicates. Manually edit polysemous-words.json: Add id field: {spanish}#{sense} format, Add senseKey field: human-readable sense (time, weather, finance, etc.), Add finnish and english translations for each sense, Example: tiempo#time vs tiempo#weather. Run update script: scripts/apply-polysemous.js - Reads edited polysemous-words.json, Updates words.ts with id and senseKey fields, Preserves all other word properties. Verify changes compile: npm run build",
+          "files": [
+            "svelte/src/lib/data/words.ts",
+            "scripts/extract-polysemous.js",
+            "scripts/apply-polysemous.js"
+          ]
+        }
+      ],
+      "testing": [
+        "Run: npm test -- --run svelte/src/lib/utils/wordId.test.ts",
+        "Verify getWordId returns correct values for regular and polysemous words",
+        "Verify parsePolysemousId correctly extracts components"
+      ]
+    },
+    {
+      "id": "task-2",
+      "title": "Update Knowledge Store to Use Word IDs",
+      "description": "Modify wordKnowledge store to key by word ID instead of Spanish string. Update all game components that call recordAnswer() to use getWordId(). This ensures polysemous words are tracked independently.",
+      "estimatedHours": "5-6 hours",
+      "subtasks": [
+        {
+          "id": "2.1",
+          "title": "Update wordKnowledge.ts to use word IDs",
+          "description": "Import getWordId from utils/wordId. Update recordAnswer() signature to accept wordId directly. Ensure words Record<string, WordKnowledgeBidirectional> uses word ID as key. Update getWordScore() to work with word IDs. Update all internal functions that access word knowledge.",
+          "files": [
+            "svelte/src/lib/stores/wordKnowledge.ts"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Update Yhdistäsanat game to use word IDs",
+          "description": "Import getWordId utility. Change recordAnswer calls from currentWord.spanish to getWordId(currentWord). Verify word selection and display still work correctly.",
+          "files": [
+            "svelte/src/routes/yhdistasanat/+page.svelte"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Update Sanapeli game to use word IDs",
+          "description": "Import getWordId utility. Change recordAnswer calls to use getWordId(currentWord). Verify word history and stats work correctly.",
+          "files": [
+            "svelte/src/routes/sanapeli/+page.svelte"
+          ]
+        },
+        {
+          "id": "2.4",
+          "title": "Update Pipsan maailma to use word IDs",
+          "description": "Import getWordId utility. Update recordAnswer calls for kids mode. Ensure kids vocabulary tracking uses word IDs.",
+          "files": [
+            "svelte/src/routes/pipsan-maailma/+page.svelte"
+          ]
+        },
+        {
+          "id": "2.5",
+          "title": "Update Pipsan ystävät to use word IDs",
+          "description": "Import getWordId utility. Update recordAnswer calls for kids mode.",
+          "files": [
+            "svelte/src/routes/pipsan-ystavat/+page.svelte"
+          ]
+        },
+        {
+          "id": "2.6",
+          "title": "Update Tarinat story game to use word IDs",
+          "description": "Import getWordId utility. Update vocabulary tracking when story is completed. Ensure story vocabulary words use consistent IDs.",
+          "files": [
+            "svelte/src/routes/tarinat/[storyId]/+page.svelte"
+          ]
+        },
+        {
+          "id": "2.7",
+          "title": "Update statisticsService for word ID compatibility",
+          "description": "Review and update functions that access wordKnowledge. Ensure statistics calculations work with new ID format. Update any word lookup logic.",
+          "files": [
+            "svelte/src/lib/services/statisticsService.ts"
+          ]
+        }
+      ],
+      "testing": [
+        "Run: npm test -- --run svelte/src/lib/stores/wordKnowledge.test.ts",
+        "Run full test suite: npm test",
+        "Manual: Play each game mode, verify progress is tracked"
+      ]
+    },
+    {
+      "id": "task-3",
+      "title": "Implement V4 to V5 Data Migration",
+      "description": "Create migration function that converts old localStorage data (keyed by Spanish word) to new format (keyed by word ID). Handle polysemous words, removed words, and edge cases. Bump data model version to 5.0.0.",
+      "estimatedHours": "4-5 hours",
+      "subtasks": [
+        {
+          "id": "3.1",
+          "title": "Create migration function in wordKnowledge.ts",
+          "description": "Implement migrateV4toV5(oldData: WordKnowledgeData): WordKnowledgeData. For each old key (Spanish word): Find matching Word entries in vocabulary database, If single match: map to word's ID (or keep Spanish if no ID), If multiple matches (polysemous): assign to primary sense (first match), If no match (word removed): preserve with old key. Return migrated data with version: 5",
+          "files": [
+            "svelte/src/lib/stores/wordKnowledge.ts"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Update data model version",
+          "description": "Bump DATA_MODEL_VERSION to '5.0.0'. Bump DATA_MODEL_VERSION_NUMBER to 5",
+          "files": [
+            "svelte/src/lib/config/dataModelVersion.ts"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Integrate migration into store initialization",
+          "description": "Check version on load. If version < 5, run migrateV4toV5. Save migrated data immediately. Log migration in browser console for debugging.",
+          "files": [
+            "svelte/src/lib/stores/wordKnowledge.ts"
+          ]
+        },
+        {
+          "id": "3.4",
+          "title": "Create migration test file with fixtures",
+          "description": "Create: svelte/src/lib/stores/wordKnowledge.migration.test.ts. Test cases: V4 data with simple words migrates correctly, V4 data with polysemous words assigns to primary sense, V4 data with removed words preserves old keys, Empty V4 data migrates to valid V5 structure, Existing V5 data is not re-migrated. Use realistic fixture data representing V4 localStorage contents.",
+          "files": [
+            "svelte/src/lib/stores/wordKnowledge.migration.test.ts"
+          ]
+        }
+      ],
+      "testing": [
+        "Run: npm test -- --run svelte/src/lib/stores/wordKnowledge.migration.test.ts",
+        "Manual: Clear localStorage, load V4 fixture data, reload app, verify migration"
+      ]
+    }
+  ]
+}

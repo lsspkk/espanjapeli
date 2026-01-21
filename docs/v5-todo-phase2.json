@@ -1,0 +1,114 @@
+{
+  "phase": 2,
+  "title": "STEPWISE REVEAL COMPONENTS",
+  "description": "Create components that delay showing answer options, forcing users to attempt mental recall before seeing choices. Research shows this significantly improves vocabulary retention.",
+  "estimatedHours": "9-12 hours",
+  "tasks": [
+    {
+      "id": "task-4",
+      "title": "Create StepwiseReveal Shared Component",
+      "description": "Create a wrapper component that handles the delay logic for showing content. Shows question immediately, then reveals answer options after configurable delay. Works with any quiz-style content. This is a basic component, and not to be used in kids modes.",
+      "estimatedHours": "3-4 hours",
+      "subtasks": [
+        {
+          "id": "4.1",
+          "title": "Create TimedAnswerReveal component",
+          "description": "Create: svelte/src/lib/components/shared/TimedAnswerReveal.svelte. Props: delaySeconds: number (0-4, default 3), onReveal: () => void (callback when reveal happens). Slots: default slot: question content (shown immediately), answers slot: answer options (hidden until delay completes). State: revealed: boolean (false until delay passes). Use onMount / $: / effect to handle timer. Cancel timer on component destroy.",
+          "files": [
+            "svelte/src/lib/components/shared/TimedAnswerReveal.svelte"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Create delay settings store",
+          "description": "Create: svelte/src/lib/stores/timedAnswerSettings.ts. Store delay preferences per game mode in localStorage. Interface: { yhdistasanat: number, sanapeli: number, ... }. Functions: getDelay(gameMode), setDelay(gameMode, seconds). Default: 3 seconds for all modes.",
+          "files": [
+            "svelte/src/lib/stores/timedAnswerSettings.ts"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Add unit tests for TimedAnswerReveal",
+          "description": "Test that question slot is visible immediately. Test that answers slot is hidden initially (when delay > 0). Test that answers slot appears after delay. Test that onReveal callback fires when answers appear. Test that delay=0 shows answers immediately.",
+          "files": [
+            "svelte/src/lib/components/shared/TimedAnswerReveal.test.ts"
+          ]
+        }
+      ],
+      "testing": [
+        "Run: npm test -- --run svelte/src/lib/components/shared/TimedAnswerReveal.test.ts"
+      ]
+    },
+    {
+      "id": "task-5",
+      "title": "Create Kids TokenAnimation Component",
+      "description": "Create animated waiting indicator for kids games. Shows 1-3 tokens appearing sequentially (one per second) while answers are hidden. Tokens are themeable (dots, eggs, mud puddles, etc.) to match kids game aesthetics.",
+      "estimatedHours": "4-5 hours",
+      "subtasks": [
+        {
+          "id": "5.1",
+          "title": "Create TokenAnimation component",
+          "description": "Create: svelte/src/lib/components/kids/TokenAnimation.svelte. Props: count: number (1-3 tokens), theme: string (visual style: \"dots\", \"eggs\", \"puddles\", \"raindrops\", \"suns\"), onComplete: () => void (callback when all tokens shown + 200ms pause), layout: \"horizontal\" | \"vertical\" (default: horizontal). Each token appears with animation after 1 second interval. After last token, wait 200ms then call onComplete. Tokens use CSS animations for pop-in effect.",
+          "files": [
+            "svelte/src/lib/components/kids/TokenAnimation.svelte"
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Create token theme definitions",
+          "description": "Define theme variants in component or separate file. Each theme has: SVG or CSS-based visual, Color scheme matching kids game palette, Micro-animation style (bounce, grow, fade-in). Themes: dots (default), eggs (Peppa style), puddles, raindrops, suns. Keep themes lightweight (no large assets).",
+          "files": [
+            "svelte/src/lib/components/kids/TokenAnimation.svelte"
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "Create TokenDelaySelector component",
+          "description": "Create: svelte/src/lib/components/kids/TokenDelaySelector.svelte. Props: value: number (0-3 seconds), onChange: (value: number) => void, theme: string (matches TokenAnimation themes). Mobile-first horizontal layout. Each position (0-3) shows as token or empty slot. Tap to toggle tokens on/off (0-3 range). Uses same visual themes as TokenAnimation for consistency.",
+          "files": [
+            "svelte/src/lib/components/kids/TokenDelaySelector.svelte"
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": "Add tests for TokenAnimation",
+          "description": "Test token appearance timing. Test onComplete callback fires after all tokens + 200ms. Test different themes render correctly. Test layout prop changes direction.",
+          "files": [
+            "svelte/src/lib/components/kids/TokenAnimation.test.ts"
+          ]
+        }
+      ],
+      "testing": [
+        "Run: npm test -- --run svelte/src/lib/components/kids/TokenAnimation.test.ts",
+        "Visual: Verify animations look good in browser"
+      ]
+    },
+    {
+      "id": "task-6",
+      "title": "Create TokenDelaySelector Tests",
+      "description": "Complete the TokenDelaySelector with tests and integration with settings store. Ensure the selector persists user preferences per game mode.",
+      "estimatedHours": "2-3 hours",
+      "subtasks": [
+        {
+          "id": "6.1",
+          "title": "Add tests for TokenDelaySelector",
+          "description": "Test that current value is displayed correctly. Test that clicking changes the value. Test that onChange callback fires with new value. Test value bounds (0-3). Test theme prop affects visuals.",
+          "files": [
+            "svelte/src/lib/components/kids/TokenDelaySelector.test.ts"
+          ]
+        },
+        {
+          "id": "6.2",
+          "title": "Connect TokenDelaySelector to settings store",
+          "description": "Import stepwiseSettings store. Use value from store as initial state. Update store when value changes. Verify localStorage persistence.",
+          "files": [
+            "svelte/src/lib/components/kids/TokenDelaySelector.svelte"
+          ]
+        }
+      ],
+      "testing": [
+        "Run: npm test -- --run svelte/src/lib/components/kids/TokenDelaySelector.test.ts"
+      ]
+    }
+  ]
+}
