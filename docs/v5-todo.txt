@@ -344,6 +344,7 @@ TASK 7: Integrate Stepwise Reveal into Yhdistäsanat
 DESCRIPTION:
 Refactor Yhdistäsanat quiz phase to use stepwise reveal. Show Spanish/Finnish
 word first, speak with TTS if enabled, then reveal answer buttons after delay.
+Delay is configured in global game settings (no game-specific selector needed).
 
 SUBTASKS:
 
@@ -360,14 +361,7 @@ SUBTASKS:
   - Decision: TTS and delay run in parallel (simpler implementation)
   FILES: svelte/src/routes/yhdistasanat/+page.svelte
 
-□ 7.3 Add delay selector to game home page
-  - Add section for configuring reveal delay
-  - Use simple number input or slider 
-  - Range: 0-4 seconds with 0.25s increments
-  - Save to stepwiseSettings store with 'yhdistasanat' key
-  FILES: svelte/src/routes/yhdistasanat/+page.svelte
-
-□ 7.4 Add visual waiting indicator
+□ 7.3 Add visual waiting indicator
   - Show subtle indicator during delay (e.g., "Muistele..." text)
   - Or small animation below question card
   - Keep design consistent with basic game style
@@ -379,7 +373,7 @@ TESTING:
 - Verify TTS speaks correctly
 - Verify settings persist after page refresh
 
-ESTIMATED TIME: 3-4 hours
+ESTIMATED TIME: 2-3 hours
 
 
 --------------------------------------------------------------------------------
