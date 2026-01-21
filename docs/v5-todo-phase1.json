@@ -135,7 +135,8 @@
           "description": "Implement migrateV4toV5(oldData: WordKnowledgeData): WordKnowledgeData. For each old key (Spanish word): Find matching Word entries in vocabulary database, If single match: map to word's ID (or keep Spanish if no ID), If multiple matches (polysemous): skip migration and log warning (user will re-learn these words - safer than guessing wrong sense), If no match (word removed): skip migration and log warning. Return migrated data with version: 5",
           "files": [
             "svelte/src/lib/stores/wordKnowledge.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "3.2",
@@ -143,7 +144,8 @@
           "description": "Bump DATA_MODEL_VERSION to '5.0.0'. Bump DATA_MODEL_VERSION_NUMBER to 5",
           "files": [
             "svelte/src/lib/config/dataModelVersion.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "3.3",
@@ -151,7 +153,8 @@
           "description": "Check version on load. If version < 5, run migrateV4toV5. Save migrated data immediately. Log migration in browser console for debugging.",
           "files": [
             "svelte/src/lib/stores/wordKnowledge.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "3.4",
@@ -159,7 +162,8 @@
           "description": "Create: svelte/src/lib/stores/wordKnowledge.migration.test.ts. Test cases: V4 data with simple words migrates correctly, V4 data with polysemous words is skipped (not migrated), V4 data with removed words is skipped (not migrated), Empty V4 data migrates to valid V5 structure, Existing V5 data is not re-migrated. Use realistic fixture data representing V4 localStorage contents.",
           "files": [
             "svelte/src/lib/stores/wordKnowledge.migration.test.ts"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
