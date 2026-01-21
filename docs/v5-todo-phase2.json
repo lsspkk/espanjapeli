@@ -12,10 +12,10 @@
       "subtasks": [
         {
           "id": "4.1",
-          "title": "Create TimedAnswerReveal component",
-          "description": "Create: svelte/src/lib/components/shared/TimedAnswerReveal.svelte. Props: delaySeconds: number (0-4, default 3), onReveal: () => void (callback when reveal happens). Slots: default slot: question content (shown immediately), answers slot: answer options (hidden until delay completes). State: revealed: boolean (false until delay passes). Use onMount / $: / effect to handle timer. Cancel timer on component destroy.",
+          "title": "Create StepwiseReveal component",
+          "description": "Create: svelte/src/lib/components/shared/StepwiseReveal.svelte. Props: delaySeconds: number (0-4, default 3), onReveal: () => void (callback when reveal happens). Slots: default slot: question content (shown immediately), answers slot: answer options (hidden until delay completes). State: revealed: boolean (false until delay passes). Use onMount / $: / effect to handle timer. Cancel timer on component destroy.",
           "files": [
-            "svelte/src/lib/components/shared/TimedAnswerReveal.svelte"
+            "svelte/src/lib/components/shared/StepwiseReveal.svelte"
           ]
         },
         {
@@ -28,29 +28,29 @@
         },
         {
           "id": "4.3",
-          "title": "Add unit tests for TimedAnswerReveal",
+          "title": "Add unit tests for StepwiseReveal",
           "description": "Test that question slot is visible immediately. Test that answers slot is hidden initially (when delay > 0). Test that answers slot appears after delay. Test that onReveal callback fires when answers appear. Test that delay=0 shows answers immediately.",
           "files": [
-            "svelte/src/lib/components/shared/TimedAnswerReveal.test.ts"
+            "svelte/src/lib/components/shared/StepwiseReveal.test.ts"
           ]
         }
       ],
       "testing": [
-        "Run: npm test -- --run svelte/src/lib/components/shared/TimedAnswerReveal.test.ts"
+        "Run: npm test -- --run svelte/src/lib/components/shared/StepwiseReveal.test.ts"
       ]
     },
     {
       "id": "task-5",
-      "title": "Create Kids TokenAnimation Component",
+      "title": "Create Kids TokenDelayAnimation Component",
       "description": "Create animated waiting indicator for kids games. Shows 1-3 tokens appearing sequentially (one per second) while answers are hidden. Tokens are themeable (dots, eggs, mud puddles, etc.) to match kids game aesthetics.",
       "estimatedHours": "4-5 hours",
       "subtasks": [
         {
           "id": "5.1",
-          "title": "Create TokenAnimation component",
-          "description": "Create: svelte/src/lib/components/kids/TokenAnimation.svelte. Props: count: number (1-3 tokens), theme: string (visual style: \"dots\", \"eggs\", \"puddles\", \"raindrops\", \"suns\"), onComplete: () => void (callback when all tokens shown + 200ms pause), layout: \"horizontal\" | \"vertical\" (default: horizontal). Each token appears with animation after 1 second interval. After last token, wait 200ms then call onComplete. Tokens use CSS animations for pop-in effect.",
+          "title": "Create TokenDelayAnimation component",
+          "description": "Create: svelte/src/lib/components/kids/TokenDelayAnimation.svelte. Props: count: number (1-3 tokens), theme: string (visual style: \"dots\", \"eggs\", \"puddles\", \"raindrops\", \"suns\"), onComplete: () => void (callback when all tokens shown + 200ms pause), layout: \"horizontal\" | \"vertical\" (default: horizontal). Each token appears with animation after 1 second interval. After last token, wait 200ms then call onComplete. Tokens use CSS animations for pop-in effect.",
           "files": [
-            "svelte/src/lib/components/kids/TokenAnimation.svelte"
+            "svelte/src/lib/components/kids/TokenDelayAnimation.svelte"
           ]
         },
         {
@@ -58,28 +58,28 @@
           "title": "Create token theme definitions",
           "description": "Define theme variants in component or separate file. Each theme has: SVG or CSS-based visual, Color scheme matching kids game palette, Micro-animation style (bounce, grow, fade-in). Themes: dots (default), eggs (Peppa style), puddles, raindrops, suns. Keep themes lightweight (no large assets).",
           "files": [
-            "svelte/src/lib/components/kids/TokenAnimation.svelte"
+            "svelte/src/lib/components/kids/TokenDelayAnimation.svelte"
           ]
         },
         {
           "id": "5.3",
           "title": "Create TokenDelaySelector component",
-          "description": "Create: svelte/src/lib/components/kids/TokenDelaySelector.svelte. Props: value: number (0-3 seconds), onChange: (value: number) => void, theme: string (matches TokenAnimation themes). Mobile-first horizontal layout. Each position (0-3) shows as token or empty slot. Tap to toggle tokens on/off (0-3 range). Uses same visual themes as TokenAnimation for consistency.",
+          "description": "Create: svelte/src/lib/components/kids/TokenDelaySelector.svelte. Props: value: number (0-3 seconds), onChange: (value: number) => void, theme: string (matches TokenDelayAnimation themes). Mobile-first horizontal layout. Each position (0-3) shows as token or empty slot. Tap to toggle tokens on/off (0-3 range). Uses same visual themes as TokenDelayAnimation for consistency.",
           "files": [
             "svelte/src/lib/components/kids/TokenDelaySelector.svelte"
           ]
         },
         {
           "id": "5.4",
-          "title": "Add tests for TokenAnimation",
+          "title": "Add tests for TokenDelayAnimation",
           "description": "Test token appearance timing. Test onComplete callback fires after all tokens + 200ms. Test different themes render correctly. Test layout prop changes direction.",
           "files": [
-            "svelte/src/lib/components/kids/TokenAnimation.test.ts"
+            "svelte/src/lib/components/kids/TokenDelayAnimation.test.ts"
           ]
         }
       ],
       "testing": [
-        "Run: npm test -- --run svelte/src/lib/components/kids/TokenAnimation.test.ts",
+        "Run: npm test -- --run svelte/src/lib/components/kids/TokenDelayAnimation.test.ts",
         "Visual: Verify animations look good in browser"
       ]
     },

@@ -121,16 +121,16 @@
         "existingGamesWithNewDataModel": [
           "Yhdistäsanat: word IDs tracked correctly, polysemous words separated",
           "Sanapeli: knowledge updates persist, scores calculate correctly",
-          "Pipsan maailma: kids mode tracking works, TokenAnimation displays",
+          "Pipsan maailma: kids mode tracking works, TokenDelayAnimation displays",
           "Pipsan ystävät: kids mode tracking works, delay selector works",
           "Tarinat: story vocabulary tracked, questions work"
         ],
-        "timedAnswerReveal": [
+        "StepwiseReveal": [
           "Delay settings persist after page refresh",
           "TTS speaks during delay period",
           "Answers appear after configured delay",
           "delay=0 shows answers immediately",
-          "TokenAnimation themes rotate in kids games"
+          "TokenDelayAnimation themes rotate in kids games"
         ],
         "newGameMitaSaSanoit": [
           "Home screen displays with all options",

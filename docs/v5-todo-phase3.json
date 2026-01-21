@@ -53,13 +53,13 @@
     {
       "id": "task-8",
       "title": "Integrate Stepwise Reveal into Pipsan maailma",
-      "description": "Add stepwise reveal to Pipsan maailma with kid-friendly TokenCounter animation. Show question, animate tokens, then reveal image options.",
+      "description": "Add stepwise reveal to Pipsan maailma with kid-friendly TokenDelayAnimation animation. Show question, animate tokens, then reveal image options.",
       "estimatedHours": "3-4 hours",
       "subtasks": [
         {
           "id": "8.1",
-          "title": "Add TokenCounter and stepwise logic",
-          "description": "Import TokenCounter component. Add state for revealed: boolean. Show question content immediately. Show TokenCounter during delay. Reveal image options when TokenAnimation completes.",
+          "title": "Add TokenDelayAnimation and stepwise logic",
+          "description": "Import TokenDelayAnimation component. Add state for revealed: boolean. Show question content immediately. Show TokenDelayAnimation during delay. Reveal image options when TokenDelayAnimation completes.",
           "files": [
             "svelte/src/routes/pipsan-maailma/+page.svelte"
           ]
@@ -67,7 +67,7 @@
         {
           "id": "8.2",
           "title": "Add theme rotation logic",
-          "description": "Track last used theme. Select random theme different from last. Pass theme to TokenAnimation.",
+          "description": "Track last used theme. Select random theme different from last. Pass theme to TokenDelayAnimation.",
           "files": [
             "svelte/src/routes/pipsan-maailma/+page.svelte"
           ]
@@ -82,7 +82,7 @@
         }
       ],
       "testing": [
-        "Manual: Verify TokenAnimation animation plays correctly",
+        "Manual: Verify TokenDelayAnimation animation plays correctly",
         "Manual: Verify different themes appear",
         "Verify delay setting persists"
       ]
@@ -95,8 +95,8 @@
       "subtasks": [
         {
           "id": "9.1",
-          "title": "Add TokenAnimation and stepwise logic",
-          "description": "Same pattern as Pipsan maailma. Import TokenAnimation, add revealed state. Show tokens during delay.",
+          "title": "Add TokenDelayAnimation and stepwise logic",
+          "description": "Same pattern as Pipsan maailma. Import TokenDelayAnimation, add revealed state. Show tokens during delay.",
           "files": [
             "svelte/src/routes/pipsan-ystavat/+page.svelte"
           ]
