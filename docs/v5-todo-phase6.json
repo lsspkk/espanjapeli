@@ -65,7 +65,8 @@
           "description": "Add 'teaching-words' to game states. Load lesson data when lesson selected. Display words from lesson in list format. Order by frequency (most useful words first).",
           "files": [
             "svelte/src/routes/valitut-sanat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "19.2",
@@ -73,7 +74,8 @@
           "description": "Create: svelte/src/lib/components/basic/WordList.svelte. Mobile-first list layout. Each row: Spanish word | Finnish translation | TTS button. Large touch targets (44px minimum). Progress bar at top showing position in lesson.",
           "files": [
             "svelte/src/lib/components/basic/WordList.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "19.3",
@@ -81,7 +83,8 @@
           "description": "TTS button next to each word. Speak Spanish word when button tapped. Use TTSButton shared component.",
           "files": [
             "svelte/src/lib/components/basic/WordList.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "19.4",
@@ -89,7 +92,8 @@
           "description": "\"Jatka\" (Continue) button to move to example phrases. Progress bar showing lesson phase (1 of 3). Close button to return to lesson selection.",
           "files": [
             "svelte/src/routes/valitut-sanat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
