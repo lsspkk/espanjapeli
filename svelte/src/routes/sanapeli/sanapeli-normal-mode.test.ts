@@ -33,9 +33,12 @@ describe('Sanapeli - Normal Mode', () => {
 	it('should have category selection available', () => {
 		render(SanapeliPage);
 		
-		// Check for category button
-		const categoryButton = screen.getByRole('button', { name: /kaikki sanat/i });
+		// Check for category button by its accessible name (from label)
+		const categoryButton = screen.getByRole('button', { name: /valitse kategoria/i });
 		expect(categoryButton).toBeTruthy();
+		
+		// Verify it contains the category text
+		expect(categoryButton.textContent).toContain('Kaikki sanat');
 	});
 
 	it('should have game length selector available', () => {

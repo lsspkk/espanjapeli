@@ -73,6 +73,6 @@ describe('Sanapeli - Compact Mode', () => {
 		// Verify all main features are still available
 		expect(screen.getByRole('button', { name: /aloita/i })).toBeTruthy();
 		expect(screen.getByRole('button', { name: /sanakirja/i })).toBeTruthy();
-		expect(screen.getByRole('button', { name: /kaikki sanat/i })).toBeTruthy();
+		expect(screen.getByRole('button', { name: /valitse kategoria/i })).toBeTruthy();
 	});
 });

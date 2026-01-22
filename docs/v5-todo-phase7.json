@@ -102,7 +102,8 @@
           "description": "Create: svelte/src/routes/mita-sa-sanoit/mita-sa-sanoit.test.ts. Mock sentenceLoader to return fixture data. Test home state: title, mode selector, theme selector, start button visible. Test playing state: sentence display, answer options visible. Test feedback state: correct/wrong indicator, continue button visible. Test report state: score summary, play again button visible. Use @testing-library/svelte queries (getByRole, getByText). Keep tests simple, focus on user-facing elements.",
           "files": [
             "svelte/src/routes/mita-sa-sanoit/mita-sa-sanoit.test.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "24.2",
@@ -110,13 +111,15 @@
           "description": "Create: svelte/src/routes/valitut-sanat/valitut-sanat.test.ts. Mock lessonService to return fixture data. Test home state: lesson list, lesson cards visible. Test teaching-words state: word list, TTS buttons, continue button visible. Test teaching-phrases state: example sentences, continue button visible. Test quiz state: question, answer options visible. Test report state: score, next review info visible. Keep tests simple, verify critical elements only.",
           "files": [
             "svelte/src/routes/valitut-sanat/valitut-sanat.test.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "24.3",
           "title": "Fix bugs found during testing",
           "description": "Run full test suite: npm test. Fix any failing tests. Document non-critical bugs for future fixing.",
-          "files": []
+          "files": [],
+          "status": "completed"
         }
       ],
       "testing": [
