@@ -74,16 +74,43 @@ function createLessonProgressStore() {
 
 		/**
 		 * Mark a lesson as completed with word scores
+		 * Automatically calculates next review interval based on performance
+		 * Intervals: 1 day, 3 days, 7 days, 14 days, 30 days
 		 */
 		completeLesson: (
 			lessonId: string,
 			wordScores: Record<string, number>,
-			reviewDelayDays: number = 1
+			reviewDelayDays?: number
 		) => {
 			update((store) => {
 				const now = new Date();
 				const nextReview = new Date(now);
-				nextReview.setDate(nextReview.getDate() + reviewDelayDays);
+				
+				// Calculate review delay based on average score if not provided
+				let delayDays = reviewDelayDays;
+				if (delayDays === undefined) {
+					const scores = Object.values(wordScores);
+					if (scores.length > 0) {
+						const avgScore = scores.reduce((sum, score) => sum + score, 0) / scores.length;
+						
+						// Spaced repetition intervals based on performance
+						if (avgScore >= 90) {
+							delayDays = 30; // Excellent: review in 30 days
+						} else if (avgScore >= 80) {
+							delayDays = 14; // Good: review in 14 days
+						} else if (avgScore >= 70) {
+							delayDays = 7; // Fair: review in 7 days
+						} else if (avgScore >= 60) {
+							delayDays = 3; // Needs work: review in 3 days
+						} else {
+							delayDays = 1; // Poor: review in 1 day
+						}
+					} else {
+						delayDays = 1; // Default to 1 day if no scores
+					}
+				}
+				
+				nextReview.setDate(nextReview.getDate() + delayDays);
 
 				store.lessons[lessonId] = {
 					lessonId,
