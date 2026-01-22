@@ -17,7 +17,8 @@
           "files": [
             "svelte/src/routes/valitut-sanat/+page.svelte",
             "svelte/src/routes/valitut-sanat/+layout.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "18.2",
@@ -25,7 +26,8 @@
           "description": "Display game title \"Valitut sanat\". Load and display available lessons. Group lessons by category. Show lesson status: not started, in progress, completed. Show spaced repetition recommendations.",
           "files": [
             "svelte/src/routes/valitut-sanat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "18.3",
@@ -33,7 +35,8 @@
           "description": "Create: svelte/src/lib/components/basic/LessonCard.svelte. Display: category name, tier number, word count. Show progress indicator (% complete, last practiced). Click to start lesson.",
           "files": [
             "svelte/src/lib/components/basic/LessonCard.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "18.4",
@@ -41,7 +44,8 @@
           "description": "Check lessonProgress store for completed lessons. Calculate which lessons are due for review. Use intervals: 1 day, 3 days, 7 days, 14 days, 30 days. Display \"Aika kerrata!\" badge on due lessons. Reference: svelte/src/routes/kielten-oppiminen/+page.svelte for intervals.",
           "files": [
             "svelte/src/routes/valitut-sanat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
