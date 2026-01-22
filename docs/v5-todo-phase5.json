@@ -56,7 +56,8 @@
           "description": "Filter sentences by selected theme and level. Randomly select sentences for game session. Avoid repeating sentences within session. Default: 10 sentences per game.",
           "files": [
             "svelte/src/routes/mita-sa-sanoit/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "16.2",
@@ -64,7 +65,8 @@
           "description": "For each sentence, generate 3 wrong Finnish translations. Select from other sentences at similar difficulty level. Avoid obviously wrong answers (very different length, etc.). Shuffle correct answer among wrong answers.",
           "files": [
             "svelte/src/routes/mita-sa-sanoit/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "16.3",
@@ -72,7 +74,8 @@
           "description": "Use TTS to speak Spanish sentence. Show \"play again\" button for replaying audio. Do NOT show Spanish text in listen mode. Respect autoSpeak settings from store.",
           "files": [
             "svelte/src/routes/mita-sa-sanoit/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "16.4",
@@ -80,7 +83,8 @@
           "description": "Show Spanish sentence as text (no audio by default). Optional TTS button to hear pronunciation. Use large, readable font for sentence.",
           "files": [
             "svelte/src/routes/mita-sa-sanoit/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "16.5",
@@ -88,7 +92,8 @@
           "description": "Import StepwiseReveal component. Show sentence (audio or text) immediately. Delay showing Finnish translation options. Use delay from stepwiseSettings store.",
           "files": [
             "svelte/src/routes/mita-sa-sanoit/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
@@ -109,7 +114,8 @@
           "description": "Use GameHeader for progress/score display. Display Spanish sentence (or audio controls in listen mode). Display 4 Finnish translation options as buttons. Use OptionButtons or similar component. Mobile-first responsive layout.",
           "files": [
             "svelte/src/routes/mita-sa-sanoit/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "17.2",
@@ -117,7 +123,8 @@
           "description": "Show correct answer with Spanish and Finnish together. Use FeedbackOverlay or similar component. Correct: green styling, celebration animation. Wrong: show correct translation, allow continue.",
           "files": [
             "svelte/src/routes/mita-sa-sanoit/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "17.3",
@@ -125,7 +132,8 @@
           "description": "Reuse GameReport component or create similar. Show score breakdown (correct/wrong). Show sentences that were answered incorrectly. Buttons: \"Pelaa uudelleen\", \"Takaisin\".",
           "files": [
             "svelte/src/routes/mita-sa-sanoit/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "17.4",
@@ -133,7 +141,8 @@
           "description": "Create: svelte/src/lib/stores/sentenceKnowledge.ts. Separate from wordKnowledge (words = recall, sentences = comprehension). Interface SentenceKnowledge: { id: string (Tatoeba sentence ID), correctCount: number, wrongCount: number, lastSeenAt: string (ISO date) }. Store in localStorage key: espanjapeli_sentence_knowledge. Functions: recordSentenceAnswer(sentenceId, correct), getSentenceScore(sentenceId), getSentenceStats() returning { total, practiced, mastered }. Mastered = correctCount >= 3 && correctCount > wrongCount * 2.",
           "files": [
             "svelte/src/lib/stores/sentenceKnowledge.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "17.5",
@@ -141,15 +150,17 @@
           "description": "Import sentenceKnowledge store. Call recordSentenceAnswer after each answer. Show sentence stats in game report (practiced/mastered counts).",
           "files": [
             "svelte/src/routes/mita-sa-sanoit/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "17.6",
           "title": "Add sentence progress to statistics display",
           "description": "Update statistics UI to show sentence comprehension progress. Display: sentences practiced, sentences mastered. Keep separate from word knowledge display.",
           "files": [
-            "svelte/src/routes/mita-sa-sanoit/+page.svelte"
-          ]
+            "svelte/src/routes/sanasto/+page.svelte"
+          ],
+          "status": "completed"
         },
         {
           "id": "17.7",
@@ -157,7 +168,8 @@
           "description": "Add game link to main page game list. Add to navbar if applicable. Use appropriate icon/emoji.",
           "files": [
             "svelte/src/routes/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [

@@ -20,6 +20,7 @@
 	import VocabularyWordListDialog from '$lib/components/shared/VocabularyWordListDialog.svelte';
 	import { getAllWords, type Word } from '$lib/data/words';
 	import { wordKnowledge } from '$lib/stores/wordKnowledge';
+	import { sentenceKnowledge } from '$lib/stores/sentenceKnowledge';
 	import { get } from 'svelte/store';
 
 	let stats = $state<VocabularyStatistics | null>(null);
@@ -31,6 +32,9 @@
 	} | null>(null);
 	let loading = $state(true);
 	let error = $state<string | null>(null);
+	
+	// Sentence comprehension stats
+	let sentenceStats = $derived(sentenceKnowledge.getSentenceStats());
 
 	// Dialog state
 	let dialogOpen = $state(false);
@@ -200,6 +204,39 @@
 							💡 {stats.wordsWeak} sanaa tarvitsee lisäharjoittelua
 						</div>
 					{/if}
+				</div>
+			</div>
+
+			<!-- Sentence Comprehension Progress Card -->
+			<div class="card mb-6 bg-base-100 shadow-xl">
+				<div class="card-body">
+					<h2 class="card-title">
+						<BookOpen class="h-6 w-6" />
+						Lauseiden ymmärrys
+					</h2>
+
+					<div class="divider"></div>
+
+					<div class="grid grid-cols-2 gap-4 text-center">
+						<div class="stat bg-base-200 rounded-lg p-4">
+							<div class="stat-title flex items-center justify-center gap-2">
+								<BookOpen class="h-4 w-4" />
+								Harjoitellut lauseet
+							</div>
+							<div class="stat-value text-info">{sentenceStats.practiced}</div>
+						</div>
+						<div class="stat bg-base-200 rounded-lg p-4">
+							<div class="stat-title flex items-center justify-center gap-2">
+								<Award class="h-4 w-4" />
+								Hallitut lauseet
+							</div>
+							<div class="stat-value text-success">{sentenceStats.mastered}</div>
+						</div>
+					</div>
+
+					<div class="mt-4 text-xs text-base-content/50">
+						Lauseiden ymmärrys harjoitellaan "Mitä sä sanoit?" -pelissä
+					</div>
 				</div>
 			</div>
 
