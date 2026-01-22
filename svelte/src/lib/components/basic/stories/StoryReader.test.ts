@@ -134,7 +134,7 @@ describe('StoryReader', () => {
 		expect(mockOnContinue).toHaveBeenCalledTimes(1);
 	});
 
-	it('renders vocabulary with examples', () => {
+	it('renders vocabulary with examples', async () => {
 		const vocabWithExample: VocabularyWord[] = [
 			{
 				spanish: 'buenos días',
@@ -152,7 +152,7 @@ describe('StoryReader', () => {
 		});
 
 		// Go to vocabulary
-		fireEvent.click(screen.getByText('Sanasto'));
+		await fireEvent.click(screen.getByText('Sanasto'));
 
 		expect(screen.getByText('Buenos días, señora')).toBeInTheDocument();
 	});

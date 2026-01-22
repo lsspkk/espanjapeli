@@ -29,6 +29,8 @@ vi.stubGlobal('localStorage', localStorageMock);
 describe('Theme Store', () => {
 	beforeEach(() => {
 		localStorageMock.clear();
+		// Reset theme store to default after clearing localStorage
+		theme.reset();
 	});
 
 	describe('Available Themes', () => {

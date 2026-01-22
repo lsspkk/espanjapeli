@@ -45,15 +45,14 @@ describe('Sanapeli - Compact Mode', () => {
 		const compactCheckbox = screen.getByLabelText(/pieni näyttö/i);
 		await fireEvent.click(compactCheckbox);
 		
-		// Check localStorage was updated (check both possible keys)
-		const storedValue = localStorage.getItem('espanjapeli_compactMode') || 
-		                     localStorage.getItem('espanjapeli_compact_mode');
+		// Check localStorage was updated with correct key
+		const storedValue = localStorage.getItem('espanjapeli_compact_mode');
 		expect(storedValue).toBeTruthy();
 	});
 
 	it('should load compact mode preference from localStorage', () => {
-		// Set compact mode in localStorage before render
-		localStorage.setItem('espanjapeli_compactMode', 'true');
+		// Set compact mode in localStorage before render (use correct key)
+		localStorage.setItem('espanjapeli_compact_mode', 'true');
 		
 		render(SanapeliPage);
 		
