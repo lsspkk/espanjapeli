@@ -1,6 +1,11 @@
 <script lang="ts">
-	import { onMount, onDestroy } from 'svelte';
+	import { onMount, onDestroy, tick } from 'svelte';
 	import { base } from '$app/paths';
+	
+	// Autofocus action for buttons
+	function autofocus(node: HTMLElement) {
+		tick().then(() => node.focus());
+	}
 	import { tts } from '$lib/services/tts';
 	import { pushGameState, replaceGameState, setupHistoryListener } from '$lib/services/gameNavHistory';
 	import { checkAnswer } from '$lib/services/answerChecker';
@@ -250,8 +255,9 @@
 		currentQuestionData.pointsEarned = earned;
 		
 		// Record answer to word knowledge store
+		// Map tips shown to answer quality: 0 tips = first_try, 1 tip = second_try, 2+ tips = third_try
 		const answerQuality: AnswerQuality = result.isCorrect 
-			? (tipsShown === 0 ? 'perfect' : tipsShown === 1 ? 'good' : 'okay')
+			? (tipsShown === 0 ? 'first_try' : tipsShown === 1 ? 'second_try' : 'third_try')
 			: 'failed';
 		wordKnowledge.recordAnswer(
 			getWordId(currentWord), 
@@ -261,8 +267,8 @@
 			'basic'
 		);
 		
-		// Add to game questions
-		gameQuestions.push({ ...currentQuestionData });
+		// Add to game questions (reassign to trigger reactivity)
+		gameQuestions = [...gameQuestions, { ...currentQuestionData }];
 
 		// Update score
 		if (result.isCorrect) {
@@ -292,12 +298,13 @@
 		recordGameCompletion(upcomingWords, selectedCategory);
 
 		// Record complete game to word knowledge store
+		// Map tips requested to answer quality: 0 tips = first_try, 1 tip = second_try, 2+ tips = third_try
 		const gameWordResults = gameQuestions.map(q => ({
 			spanish: q.spanish,
 			finnish: q.finnish,
-			quality: q.isCorrect 
-				? (q.tipsRequested === 0 ? 'perfect' : q.tipsRequested === 1 ? 'good' : 'okay')
-				: 'failed' as AnswerQuality
+			quality: (q.isCorrect 
+				? (q.tipsRequested === 0 ? 'first_try' : q.tipsRequested === 1 ? 'second_try' : 'third_try')
+				: 'failed') as AnswerQuality
 		}));
 		wordKnowledge.recordGame(selectedCategory, 'spanish_to_finnish', gameWordResults, 'basic');
 
@@ -370,18 +377,17 @@
 		showCategoryPicker = !showCategoryPicker;
 	}
 
-	/**
-	 * Get the display name for current category
-	 */
-	function getCurrentCategoryDisplay(): { emoji: string; name: string } {
+	// Reactive: compute display name when selectedCategory or categories change
+	$: currentCategoryDisplay = (() => {
+		if (categories.length === 0) {
+			return { emoji: '📚', name: 'Ladataan...' };
+		}
 		if (selectedCategory === 'all') {
 			return { emoji: '📚', name: 'Kaikki sanat' };
 		}
 		const cat = categories.find(c => c.key === selectedCategory);
 		return cat ? { emoji: cat.emoji, name: cat.name } : { emoji: '📚', name: 'Valitse kategoria' };
-	}
-
-	$: currentCategoryDisplay = getCurrentCategoryDisplay();
+	})();
 
 	/**
 	 * Handle game length change
@@ -851,12 +857,13 @@
 
 				<!-- Answer Form -->
 				<form on:submit={handleSubmit} class="space-y-4">
-					<input 
-					type="text" 
-					class="input input-bordered input-lg w-full text-center text-2xl"
-					bind:value={userAnswer}
-					placeholder="Kirjoita vastaus suomeksi..."
-					/>
+				<input 
+				type="text" 
+				class="input input-bordered input-lg w-full text-center text-2xl"
+				bind:value={userAnswer}
+				placeholder="Kirjoita vastaus suomeksi..."
+				use:autofocus
+				/>
 					<button 
 						type="submit"
 						class="btn btn-success btn-lg w-full"
@@ -957,14 +964,15 @@
 						Anna vihje
 					{/if}
 				</button>
-				<input 
-					type="text" 
-					class="input input-bordered h-8 min-h-8 flex-1 text-center text-sm px-2 py-0 border-base-300"
-					style="line-height: 1.5rem;"
-				bind:value={userAnswer}
-				placeholder="Vastaus..."
-				on:keypress={(e) => e.key === 'Enter' && userAnswer.trim() && submitAnswer()}
-				/>
+			<input 
+				type="text" 
+				class="input input-bordered h-8 min-h-8 flex-1 text-center text-sm px-2 py-0 border-base-300"
+				style="line-height: 1.5rem;"
+			bind:value={userAnswer}
+			placeholder="Vastaus..."
+			on:keypress={(e) => e.key === 'Enter' && userAnswer.trim() && submitAnswer()}
+			use:autofocus
+			/>
 				<button 
 					type="button"
 					class="btn btn-success btn-xs h-8 min-h-8 px-2 text-xs"
@@ -1024,10 +1032,10 @@
 					</div>
 				</div>
 
-			<!-- Next Button -->
-			<button class="btn btn-primary btn-lg w-full mt-6" on:click={nextQuestion}>
-					Seuraava
-				</button>
+		<!-- Next Button -->
+		<button class="btn btn-primary btn-lg w-full mt-6" on:click={nextQuestion} use:autofocus>
+				Seuraava
+			</button>
 			</div>
 		</div>
 	</div>
@@ -1079,7 +1087,7 @@
 			</div>
 
 		<!-- Next Button -->
-		<button class="btn btn-primary btn-sm flex-shrink-0 mt-2" on:click={nextQuestion}>
+		<button class="btn btn-primary btn-sm flex-shrink-0 mt-2" on:click={nextQuestion} use:autofocus>
 				Seuraava
 			</button>
 		</div>
@@ -1090,10 +1098,10 @@
 {#if gameState === 'report'}
 	<GameContainer gameType="basic" buttonMode="basic" showBackButton={false}>
 		<div class="card-body">
-			<h2 class="card-title text-3xl justify-center mb-6 text-primary">🎉 Peli päättyi!</h2>
+			<h2 class="card-title text-xl md:text-3xl justify-center mb-2 md:mb-6 text-primary">🎉 Peli päättyi!</h2>
 
 			<!-- Stats Grid -->
-			<div class="stats stats-vertical lg:stats-horizontal shadow mb-6 w-full">
+			<div class="stats stats-horizontal shadow mb-6 w-full">
 				<div class="stat">
 					<div class="stat-title">Kysymyksiä</div>
 					<div class="stat-value text-primary text-3xl">{selectedGameLength}</div>
@@ -1113,7 +1121,7 @@
 			</div>
 
 			<!-- Score Summary -->
-			<div class="bg-primary/10 border border-primary/30 rounded-lg p-4 mb-6">
+			<div class="bg-primary/10 border border-primary/30 rounded-lg p-4 mb-2 md:mb-6">
 				<div class="text-center w-full">
 					<div class="text-2xl font-bold text-primary">
 						Pisteet: {totalScore} / {maxPossibleScore}
@@ -1131,7 +1139,7 @@
 
 			<!-- Wrong Answers -->
 			{#if wrongAnswers.length > 0}
-				<div class="mb-6">
+				<div class="mb-2 md:mb-6">
 					<h3 class="text-xl font-bold mb-3 text-error">Väärät vastaukset:</h3>
 					<div class="space-y-2">
 						{#each wrongAnswers as wrong}
@@ -1154,11 +1162,8 @@
 
 			<!-- Action Buttons -->
 			<div class="flex flex-col sm:flex-row gap-3">
-				<button class="btn btn-primary flex-1" on:click={startGame}>
-					Pelaa uudestaan
-				</button>
 				<button class="btn btn-ghost flex-1" on:click={goHome}>
-					Palaa kotiin
+					Alkuun
 				</button>
 			</div>
 		</div>
