@@ -1,0 +1,1733 @@
+[
+  {
+    "id": "2889",
+    "spanish": "¡Feliz Navidad!",
+    "finnish": "Hyvää joulua!",
+    "english": "Happy Christmas!",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "136209",
+    "spanish": "¡Feliz Año Nuevo!",
+    "finnish": "Onnellista uuttavuotta!",
+    "english": "Happy New Year!",
+    "wordCount": 3,
+    "categories": [
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "331278",
+    "spanish": "Estoy contento de verte.",
+    "finnish": "Olen onnellinen tapaamisestamme.",
+    "english": "I'm happy to see you.",
+    "wordCount": 4,
+    "categories": [
+      "leisure",
+      "emotions"
+    ]
+  },
+  {
+    "id": "332230",
+    "spanish": "¡Feliz cumpleaños!",
+    "finnish": "Hyvää syntymäpäivää!",
+    "english": "Happy Birthday!",
+    "wordCount": 2,
+    "categories": [
+      "leisure",
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "341757",
+    "spanish": "Ella llevó una vida feliz.",
+    "finnish": "Hän eli onnellisen elämän.",
+    "english": "She lived a happy life.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "345181",
+    "spanish": "Feliz Pascua.",
+    "finnish": "Iloista Pääsiäistä!",
+    "english": "Happy Easter!",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "356709",
+    "spanish": "Estoy enamorado de ella.",
+    "finnish": "Rakastan häntä.",
+    "english": "I'm in love with her.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "394306",
+    "spanish": "Tengo miedo de caer.",
+    "finnish": "Pelkään kaatuvani.",
+    "english": "I'm afraid to fall.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "402809",
+    "spanish": "El amor es ciego.",
+    "finnish": "Rakkaus on sokeaa.",
+    "english": "Love is by nature blind.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "449928",
+    "spanish": "Los niños necesitan amor.",
+    "finnish": "Lapset tarvitsevat rakkautta.",
+    "english": "Children need loving.",
+    "wordCount": 4,
+    "categories": [
+      "family",
+      "emotions"
+    ]
+  },
+  {
+    "id": "452064",
+    "spanish": "Odio a mis vecinos.",
+    "finnish": "Mä vihaan mun naapureita.",
+    "english": "I hate my neighbors.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "452941",
+    "spanish": "Él parecía muy feliz.",
+    "finnish": "Hän näytti hyvin onnelliselta.",
+    "english": "He looked very happy.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "452962",
+    "spanish": "La niña temblaba de miedo.",
+    "finnish": "Tyttö tärisi pelosta.",
+    "english": "The girl trembled with fear.",
+    "wordCount": 5,
+    "categories": [
+      "family",
+      "emotions"
+    ]
+  },
+  {
+    "id": "459194",
+    "spanish": "¡Eres realmente odioso!",
+    "finnish": "Olet todella inhottava!",
+    "english": "You're really hateful!",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "476109",
+    "spanish": "Estoy triste.",
+    "finnish": "Olen surullinen.",
+    "english": "I'm sad.",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "521936",
+    "spanish": "Le pregunté por qué estaba tan triste.",
+    "finnish": "Kysyin häneltä miksi hän on niin surullinen.",
+    "english": "I asked him why he was sad.",
+    "wordCount": 7,
+    "categories": [
+      "food",
+      "emotions"
+    ]
+  },
+  {
+    "id": "535045",
+    "spanish": "Soy muy feliz.",
+    "finnish": "Olen hyvin onnellinen.",
+    "english": "I'm very happy.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "541127",
+    "spanish": "Me dan miedo los terremotos.",
+    "finnish": "Minä pelkään maanjäristyksiä.",
+    "english": "I'm afraid of earthquakes.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "544423",
+    "spanish": "Ella tenía miedo del perro.",
+    "finnish": "Koira pelotti häntä.",
+    "english": "She was afraid of the dog.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "570958",
+    "spanish": "¡Feliz día de la madre!",
+    "finnish": "Hyvää äitienpäivää!",
+    "english": "Happy Mother's Day!",
+    "wordCount": 5,
+    "categories": [
+      "family",
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "576089",
+    "spanish": "Odio los lunes.",
+    "finnish": "Vihaan maanantaita.",
+    "english": "I hate Mondays.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "578930",
+    "spanish": "¿No eres feliz?",
+    "finnish": "Etkö ole onnellinen?",
+    "english": "Aren't you happy?",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "578931",
+    "spanish": "¿No estás feliz?",
+    "finnish": "Etkö ole onnellinen?",
+    "english": "Aren't you happy?",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "580574",
+    "spanish": "Ella tuvo una niñez feliz.",
+    "finnish": "Hän vietti onnellisen lapsuuden.",
+    "english": "She had a happy childhood.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "600224",
+    "spanish": "Tu carta me hizo feliz.",
+    "finnish": "Ilahduin kirjeestäsi.",
+    "english": "Your letter made me happy.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "623851",
+    "spanish": "Soy tan feliz.",
+    "finnish": "Olen niin onnellinen.",
+    "english": "I'm so happy.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "623853",
+    "spanish": "Estoy tan feliz.",
+    "finnish": "Olen niin onnellinen.",
+    "english": "I'm so happy.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "646142",
+    "spanish": "¿Estás feliz?",
+    "finnish": "Oletko onnellinen?",
+    "english": "Are you happy?",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "683460",
+    "spanish": "Feliz Navidad y próspero año nuevo a todos.",
+    "finnish": "Hyvää joulua ja onnellista uutta vuotta kaikille.",
+    "english": "Merry Christmas and a happy New Year to everyone.",
+    "wordCount": 8,
+    "categories": [
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "717412",
+    "spanish": "La historia tiene un final feliz.",
+    "finnish": "Tarinalla on onnellinen loppu.",
+    "english": "The story ends happily.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "767061",
+    "spanish": "No puedo evitar enamorarme de ti.",
+    "finnish": "En voi olla rakastumatta sinuun.",
+    "english": "I cannot help falling in love with you.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "821953",
+    "spanish": "¿Estás contento con tu nueva casa?",
+    "finnish": "Oletko tyytyväinen uuteen taloosi?",
+    "english": "Are you pleased with your new house?",
+    "wordCount": 6,
+    "categories": [
+      "emotions",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "834784",
+    "spanish": "¿Amor? ¿Qué es eso? Soy un huérfano. Nunca he conocido el amor.",
+    "finnish": "Rakkaus? Mitä se on? Olen orpo. En ole koskaan tuntenut rakkautta.",
+    "english": "Love? What's that? I'm an orphan. I've never known love.",
+    "wordCount": 12,
+    "categories": [
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "849798",
+    "spanish": "¿Eres feliz?",
+    "finnish": "Oletko onnellinen?",
+    "english": "Are you happy?",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "853338",
+    "spanish": "El teléfono no funciona, Sr. Tamori.",
+    "finnish": "Herra Tamori, puhelin on epäkunnossa.",
+    "english": "The phone doesn't work, Mr. Tamori.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "907197",
+    "spanish": "No hay nada por lo que tengas que estar enojado.",
+    "finnish": "Sinulla ei ole mitään syytä olla vihainen.",
+    "english": "There is nothing for you to be angry about.",
+    "wordCount": 10,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "927369",
+    "spanish": "¡Feliz Navidad y Feliz Año Nuevo!",
+    "finnish": "Hyvää joulua ja onnellista uutta vuotta!",
+    "english": "Merry Christmas and a Happy New Year!",
+    "wordCount": 6,
+    "categories": [
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "932232",
+    "spanish": "Feliz cumpleaños.",
+    "finnish": "Hyvää syntymäpäivää.",
+    "english": "Happy birthday.",
+    "wordCount": 2,
+    "categories": [
+      "leisure",
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "942393",
+    "spanish": "Le tiene miedo a la muerte.",
+    "finnish": "Hän pelkää kuolemaa.",
+    "english": "She is afraid of death.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "959918",
+    "spanish": "Odio los mosquitos.",
+    "finnish": "Minä vihaan hyttysiä.",
+    "english": "I hate mosquitoes.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "987436",
+    "spanish": "Esta canción suena triste.",
+    "finnish": "Tämä laulu kuulostaa surulliselta.",
+    "english": "This song sounds sad.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "993417",
+    "spanish": "Ella estaba temblando de miedo.",
+    "finnish": "Hän tärisi pelosta.",
+    "english": "She trembled with fear.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "999585",
+    "spanish": "Creo que él estaba enojado.",
+    "finnish": "Uskon että hän oli vihainen.",
+    "english": "I think he was angry.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1031706",
+    "spanish": "Ella se ve triste.",
+    "finnish": "Hän näyttää surulliselta.",
+    "english": "She looks sad.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1062777",
+    "spanish": "El amor es más fuerte que la muerte.",
+    "finnish": "Rakkaus on vahvempi kuin kuolema.",
+    "english": "Love is stronger than death.",
+    "wordCount": 8,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1069975",
+    "spanish": "Me pregunto si esto será amor.",
+    "finnish": "Onkohan tämä rakkautta.",
+    "english": "I wonder if this is love.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1069977",
+    "spanish": "Me pregunto si esto es amor.",
+    "finnish": "Onkohan tämä rakkautta.",
+    "english": "I wonder if this is love.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1105288",
+    "spanish": "El amor y la amistad se excluyen el uno al otro.",
+    "finnish": "Rakkaus ja ystävyys ovat toisensa poissulkevia.",
+    "english": "Love and friendship are mutually exclusive.",
+    "wordCount": 11,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1119469",
+    "spanish": "El amor es una mierda.",
+    "finnish": "Rakkaus on perseestä.",
+    "english": "Love sucks.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1120139",
+    "spanish": "El amor apesta.",
+    "finnish": "Rakkaus on perseestä.",
+    "english": "Love sucks.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1167472",
+    "spanish": "Tom se ve feliz.",
+    "finnish": "Tom näyttää onnelliselta.",
+    "english": "Tom seems happy.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1178517",
+    "spanish": "Tom está más feliz ahora que Mary se ha ido.",
+    "finnish": "Tom on onnellisempi nyt kun Mary on lähtenyt.",
+    "english": "Tom is happier now that Mary has left.",
+    "wordCount": 10,
+    "categories": [
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "1208133",
+    "spanish": "Ella tuvo una infancia alegre.",
+    "finnish": "Hän vietti onnellisen lapsuuden.",
+    "english": "She had a happy childhood.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1215381",
+    "spanish": "Ella tuvo una infancia feliz.",
+    "finnish": "Hän vietti onnellisen lapsuuden.",
+    "english": "She had a happy childhood.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1234702",
+    "spanish": "¿Sigues enamorado de tu esposa?",
+    "finnish": "Rakastatko yhä vaimoasi?",
+    "english": "Are you still in love with your wife?",
+    "wordCount": 5,
+    "categories": [
+      "family",
+      "emotions"
+    ]
+  },
+  {
+    "id": "1237131",
+    "spanish": "Ella parece triste.",
+    "finnish": "Hän näyttää surulliselta.",
+    "english": "She looks sad.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1245235",
+    "spanish": "¡Odio levantarme temprano!",
+    "finnish": "Vihaan aikaisin heräämistä.",
+    "english": "I hate getting up early.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1246353",
+    "spanish": "Estamos asustados.",
+    "finnish": "Meitä pelottaa.",
+    "english": "We're scared.",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1305638",
+    "spanish": "Odio a las mujeres celosas.",
+    "finnish": "Vihaan mustasukkaisia naisia.",
+    "english": "I hate jealous women.",
+    "wordCount": 5,
+    "categories": [
+      "family",
+      "emotions"
+    ]
+  },
+  {
+    "id": "1320237",
+    "spanish": "¡Feliz Navidad, mi amor!",
+    "finnish": "Hyvää joulua, kulta!",
+    "english": "Merry Christmas, my love!",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1320484",
+    "spanish": "¡Feliz Navidad, amor mío!",
+    "finnish": "Hyvää joulua, kulta!",
+    "english": "Merry Christmas, my love!",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1321973",
+    "spanish": "Tom parece ser muy feliz.",
+    "finnish": "Tom vaikuttaa todella onnelliselta.",
+    "english": "Tom seems very happy.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1330595",
+    "spanish": "Tom parece estar muy contento.",
+    "finnish": "Tom näyttää hyvin onnelliselta.",
+    "english": "Tom looks very happy.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1386408",
+    "spanish": "Odio los insectos de cualquier tipo.",
+    "finnish": "Vihaan kaikenlaisia hyönteisiä.",
+    "english": "I hate insects of all kinds.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1394224",
+    "spanish": "No puedes vivir solo de amor.",
+    "finnish": "Et voi elää vain rakkaudesta.",
+    "english": "You cannot live by love alone.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1396272",
+    "spanish": "Francamente hablando, lo odio.",
+    "finnish": "Suoraan sanottuna, mä vihaan sitä.",
+    "english": "Frankly speaking, I hate him.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1406461",
+    "spanish": "Me dan miedo los perros.",
+    "finnish": "Pelkään koiria.",
+    "english": "I am afraid of dogs.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1406667",
+    "spanish": "Me enamoré de ella.",
+    "finnish": "Rakastuin häneen.",
+    "english": "I fell in love with her.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1447942",
+    "spanish": "El amor no es lo que piensas.",
+    "finnish": "Rakkaus ei ole mitä luulet.",
+    "english": "Love is not what you think.",
+    "wordCount": 7,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1452397",
+    "spanish": "Le tengo miedo a las arañas.",
+    "finnish": "Pelkään hämähäkkejä.",
+    "english": "I'm afraid of spiders.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1459998",
+    "spanish": "Ella dice que es feliz.",
+    "finnish": "Tyttö sanoo olevansa onnellinen.",
+    "english": "She says that she is happy.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1503333",
+    "spanish": "Tomándolo todo en cuenta, la vida de mi padre fue feliz.",
+    "finnish": "Kaikki asiat huomioon ottaen, isäni elämä oli onnellinen.",
+    "english": "All things taken into consideration, my father's life was a happy one.",
+    "wordCount": 11,
+    "categories": [
+      "family",
+      "emotions"
+    ]
+  },
+  {
+    "id": "1580300",
+    "spanish": "Me gustan las historias de amor.",
+    "finnish": "Pidän rakkauskertomuksista.",
+    "english": "I like love stories.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1606011",
+    "spanish": "Todos sonríen alegremente en la fotografía.",
+    "finnish": "Kaikki kuvassa olijat hymyilevät onnellisesti.",
+    "english": "Everybody in the picture is smiling happily.",
+    "wordCount": 6,
+    "categories": [
+      "travel",
+      "emotions"
+    ]
+  },
+  {
+    "id": "1625465",
+    "spanish": "Les deseo a todos una feliz navidad y un feliz año nuevo.",
+    "finnish": "Toivotan teille kaikille hyvää joulua ja onnellista uutta vuotta.",
+    "english": "I wish you all a merry Christmas and a happy new year.",
+    "wordCount": 12,
+    "categories": [
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "1654012",
+    "spanish": "Si pierdo tu amor, lo pierdo todo.",
+    "finnish": "Jos menetän rakkautesi, menetän kaiken.",
+    "english": "If I lose your love, I lose everything.",
+    "wordCount": 7,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1659038",
+    "spanish": "¿Aún sigue enamorado de su mujer?",
+    "finnish": "Rakastatko yhä vaimoasi?",
+    "english": "Do you still love your wife?",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "emotions"
+    ]
+  },
+  {
+    "id": "1687031",
+    "spanish": "No me sorprendería.",
+    "finnish": "En olisi lainkaan yllättynyt.",
+    "english": "It wouldn't surprise me.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1706383",
+    "spanish": "¡Qué triste historia!",
+    "finnish": "Onpa surullinen tarina!",
+    "english": "What a sad story this is!",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1783135",
+    "spanish": "Tom debe estar furioso con Mary.",
+    "finnish": "Tomin täytyy olla raivoissaan Marylle.",
+    "english": "Tom must be furious with Mary.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1794994",
+    "spanish": "Tom estaba realmente contento al oír que María lo iba a ayudar a mudarse.",
+    "finnish": "Tom oli todella iloinen kuullessaan että Mary tulee auttamaan häntä muuttamaan.",
+    "english": "Tom was really glad to hear that Mary was going to help him move.",
+    "wordCount": 14,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1794996",
+    "spanish": "Tom estaba realmente contento al oír que María quería venir a su fiesta.",
+    "finnish": "Tom oli todella iloinen kuullessaan että Mary halusi tulla hänen juhliinsa.",
+    "english": "Tom was really glad to hear that Mary wanted to come to his party.",
+    "wordCount": 13,
+    "categories": [
+      "leisure",
+      "emotions"
+    ]
+  },
+  {
+    "id": "1794997",
+    "spanish": "Tom estaba realmente contento al oír que María había aprobado sus exámenes.",
+    "finnish": "Tom oli todella iloinen kuullessaan että Mary oli läpäissyt tutkintonsa.",
+    "english": "Tom was really glad to hear that Mary had passed her exams.",
+    "wordCount": 12,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1840121",
+    "spanish": "No sos el único que está enamorado de Mary.",
+    "finnish": "Et ole ainoa, joka on rakastunut Mariin.",
+    "english": "You aren't the only one who's in love with Mary.",
+    "wordCount": 9,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "1874060",
+    "spanish": "Le tengo miedo a la oscuridad.",
+    "finnish": "Pelkään pimeää.",
+    "english": "I'm afraid of the dark.",
+    "wordCount": 6,
+    "categories": [
+      "emotions",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2001463",
+    "spanish": "No estoy feliz.",
+    "finnish": "En ole onnellinen.",
+    "english": "I'm not happy.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2001464",
+    "spanish": "No soy feliz.",
+    "finnish": "En ole onnellinen.",
+    "english": "I'm not happy.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2032361",
+    "spanish": "Estaba triste, pero Tom me animó.",
+    "finnish": "Olin surullinen, mutta Tomi piristi minua.",
+    "english": "I was sad, but Tom cheered me up.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2033176",
+    "spanish": "Quiero hacer feliz a Tom.",
+    "finnish": "Haluan tehdä Tomin onnelliseksi.",
+    "english": "I want to make Tom happy.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2042215",
+    "spanish": "¿Eres feliz aquí?",
+    "finnish": "Oletko onnellinen täällä?",
+    "english": "Are you happy here?",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2061315",
+    "spanish": "¿Tienes miedo de Tom?",
+    "finnish": "Pelottaako Tom sinua?",
+    "english": "Are you afraid of Tom?",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2129604",
+    "spanish": "Pensé que sería divertido sorprender a Tom.",
+    "finnish": "Ajattelin, että olisi mukavaa yllättää Tomi.",
+    "english": "I thought it'd be fun to surprise Tom.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "emotions"
+    ]
+  },
+  {
+    "id": "2152539",
+    "spanish": "Están enojados.",
+    "finnish": "He ovat vihaisia.",
+    "english": "They're angry.",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2209551",
+    "spanish": "Tom parece triste.",
+    "finnish": "Tomi näyttää surulliselta.",
+    "english": "Tom looks sad.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2230073",
+    "spanish": "Tom tiene miedo.",
+    "finnish": "Tomi on peloissaan.",
+    "english": "Tom is afraid.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2351565",
+    "spanish": "Tom está furioso.",
+    "finnish": "Tom on raivoissaan.",
+    "english": "Tom is furious.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2409257",
+    "spanish": "¿Tom es feliz?",
+    "finnish": "Onko Tomi onnellinen?",
+    "english": "Is Tom happy?",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2459150",
+    "spanish": "Él se enamoró de una bella princesa.",
+    "finnish": "Hän rakastui kauniiseen prinsessaan.",
+    "english": "He fell in love with a beautiful princess.",
+    "wordCount": 7,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2476892",
+    "spanish": "Estoy muy contento con la segunda parte del vídeo.",
+    "finnish": "Olen hyvin tyytyväinen videon toiseen osaan.",
+    "english": "I am very pleased with the second part of the video.",
+    "wordCount": 9,
+    "categories": [
+      "leisure",
+      "emotions"
+    ]
+  },
+  {
+    "id": "2498833",
+    "spanish": "Tom está muy triste.",
+    "finnish": "Tom on hyvin surullinen.",
+    "english": "Tom is very sad.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2667234",
+    "spanish": "No pareces muy feliz de verme.",
+    "finnish": "Et vaikuta kovin iloiselta nähdessäsi minut.",
+    "english": "You don't seem too happy to see me.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "emotions"
+    ]
+  },
+  {
+    "id": "2667254",
+    "spanish": "Me alegra que te haga feliz.",
+    "finnish": "Olen iloinen, että se ilahduttaa sinua.",
+    "english": "I'm glad it makes you happy.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2667255",
+    "spanish": "Quiero que sepas que podemos parar de preocuparnos.",
+    "finnish": "Haluan sinun tietävän, että voimme lakata huolehtimasta.",
+    "english": "I want you to know we can stop worrying.",
+    "wordCount": 8,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2680522",
+    "spanish": "Odio a mi familia.",
+    "finnish": "Vihaan perhettäni.",
+    "english": "I hate my family.",
+    "wordCount": 4,
+    "categories": [
+      "family",
+      "emotions"
+    ]
+  },
+  {
+    "id": "2707013",
+    "spanish": "Estoy enojado.",
+    "finnish": "Olen vihainen.",
+    "english": "I am angry.",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2747080",
+    "spanish": "Odio esa canción.",
+    "finnish": "Vihaan tuota kappaletta.",
+    "english": "I hate that song.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2812080",
+    "spanish": "Tom estaba enojado con Mary.",
+    "finnish": "Tomi oli vihainen Marille.",
+    "english": "Tom was angry with Mary.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2849450",
+    "spanish": "Quiero vivir mi vida sin estrés y preocupaciones. No necesito ser rico y famoso, sólo quiero ser feliz...",
+    "finnish": "Haluan elää elämäni ilman stressiä ja huolia. Minun ei tarvitse olla rikas ja kuuluisa, haluan vain olla onnellinen...",
+    "english": "I want to live my life without stress and worries. I don't need to be rich or famous, I just want to be happy.",
+    "wordCount": 18,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2852377",
+    "spanish": "Cuando probé explicarle mis motivos, él simplemente se puso más furioso.",
+    "finnish": "Kun yritin selittää syitäni, hän yksinkertaisesti tuli vielä vihaisemmaksi.",
+    "english": "When I tried to explain my reasons he simply became even angrier.",
+    "wordCount": 11,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2857810",
+    "spanish": "No me das miedo.",
+    "finnish": "Sinä et pelota minua.",
+    "english": "You don't scare me.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2906846",
+    "spanish": "No sé qué decir para hacerte sentir mejor.",
+    "finnish": "En tiedä mitä sanoa, että sinulle tulisi parempi olla.",
+    "english": "I don't know what to say to make you feel better.",
+    "wordCount": 8,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2917350",
+    "spanish": "El amor es una cosa importante.",
+    "finnish": "Rakkaus on tärkeä asia.",
+    "english": "Love is an important thing.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2948492",
+    "spanish": "Jane es gorda, grosera y fuma demasiado. Pero Ken piensa que ella es adorable y encantadora. Es por eso que dicen que el amor es ciego.",
+    "finnish": "Jane on lihava, töykeä ja polttaa liikaa. Mutta Kenistä hän on ihana ja hurmaava. Siksi rakkautta sanotaankin sokeaksi.",
+    "english": "Jane is fat and rude, and smokes too much. However, Ken thinks she's lovely and charming. That's why they say love is blind.",
+    "wordCount": 26,
+    "categories": [
+      "greetings",
+      "emotions"
+    ]
+  },
+  {
+    "id": "2949422",
+    "spanish": "No me interesa mientras seas feliz.",
+    "finnish": "En välitä siitä, kunhan olet onnellinen.",
+    "english": "I don't care as long as you're happy.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2951299",
+    "spanish": "Ella se veía triste al leer la carta.",
+    "finnish": "Hän näytti surulliselta kun hän luki kirjeen.",
+    "english": "When she was reading the letter, she looked sad.",
+    "wordCount": 8,
+    "categories": [
+      "leisure",
+      "emotions"
+    ]
+  },
+  {
+    "id": "2990202",
+    "spanish": "Prefiero dejar mis frases en español en los amorosos brazos de un hispano-hablante.",
+    "finnish": "Jätän mieluummin espanjankieliset lauseeni espanjan puhujan rakastaville käsivarsille.",
+    "english": "I prefer to leave my Spanish sentences in the loving arms of a Hispanophone.",
+    "wordCount": 13,
+    "categories": [
+      "food",
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "2998104",
+    "spanish": "Te ves más feliz de lo normal.",
+    "finnish": "Näytät iloisemmalta kuin tavallisesti.",
+    "english": "You look happier than usual.",
+    "wordCount": 7,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "2998105",
+    "spanish": "Tom se ve más feliz de lo normal.",
+    "finnish": "Tom näyttää onnellisemmalta kuin tavallisesti.",
+    "english": "Tom looks happier than usual.",
+    "wordCount": 8,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3056408",
+    "spanish": "Tom estaba locamente enamorado de María.",
+    "finnish": "Tom oli hulluna rakastunut Maryyn.",
+    "english": "Tom was madly in love with Mary.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3081382",
+    "spanish": "Tom parece estar un poco nervioso.",
+    "finnish": "Tom vaikuttaa olevan vähän hermostunut.",
+    "english": "Tom appears to be a bit nervous.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3081912",
+    "spanish": "Jamás estuve enojado contigo.",
+    "finnish": "En koskaan ollut sinulle vihainen.",
+    "english": "I was never mad at you.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3082629",
+    "spanish": "¡Feliz Día Internacional de la Mujer!",
+    "finnish": "Hyvää kansainvälistä naistenpäivää!",
+    "english": "Happy International Women's Day!",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "3091196",
+    "spanish": "Sé que estás enojado.",
+    "finnish": "Tiedän että olet vihainen.",
+    "english": "I know you're angry.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3100732",
+    "spanish": "Nunca me he enamorado de alguna chica.",
+    "finnish": "En ole koskaan rakastunut johonkin tyttöön.",
+    "english": "I have never fallen in love with any girl.",
+    "wordCount": 7,
+    "categories": [
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "3109025",
+    "spanish": "Yo escucho esta canción cuando estoy triste.",
+    "finnish": "Kuuntelen tätä laulua, kun olen surullinen.",
+    "english": "I listen to this song when I'm sad.",
+    "wordCount": 7,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3113410",
+    "spanish": "Tom ni siquiera estaba asustado.",
+    "finnish": "Tom ei ollut edes peloissaan.",
+    "english": "Tom wasn't even scared.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3183308",
+    "spanish": "Me hizo sumamente feliz.",
+    "finnish": "Se teki minut äärimmäisen iloiseksi.",
+    "english": "It made me supremely happy.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3202498",
+    "spanish": "Mi amor por ti no me deja contarte todo. Es mejor no contar algunas cosas.",
+    "finnish": "Rakkauteni sinuun ei anna minun kertoa sinulle kaikkea. Jotkin asiat on parempi jättää sanomatta.",
+    "english": "My love for you won't let me tell you everything. Some things are better left unsaid.",
+    "wordCount": 15,
+    "categories": [
+      "leisure",
+      "emotions"
+    ]
+  },
+  {
+    "id": "3232909",
+    "spanish": "Nunca he sido más feliz.",
+    "finnish": "En ole ollut ikinä onnellisempi.",
+    "english": "I've never been happier.",
+    "wordCount": 5,
+    "categories": [
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "3277740",
+    "spanish": "Tom no estaba feliz de ver a María ahí.",
+    "finnish": "Tom ei ilahtunut nähdessään Marin siellä.",
+    "english": "Tom wasn't happy to see Mary there.",
+    "wordCount": 9,
+    "categories": [
+      "leisure",
+      "emotions"
+    ]
+  },
+  {
+    "id": "3315994",
+    "spanish": "Simplemente odio ver llorar a Tom.",
+    "finnish": "Minä vain inhoa nähdä Tomin itkevän.",
+    "english": "I just hate to see Tom cry.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "emotions"
+    ]
+  },
+  {
+    "id": "3368879",
+    "spanish": "El amor es lo que verdaderamente no quiero perder.",
+    "finnish": "Rakkaus on se, mitä en todellakaan halua menettää.",
+    "english": "Love is what I really don't want to lose.",
+    "wordCount": 9,
+    "categories": [
+      "leisure",
+      "emotions"
+    ]
+  },
+  {
+    "id": "3389935",
+    "spanish": "Estoy tan feliz por ustedes dos.",
+    "finnish": "Olen niin onnellinen teidän molempien puolesta.",
+    "english": "I'm so happy for you both.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3390013",
+    "spanish": "Creo que Tom podría estar enojado conmigo.",
+    "finnish": "Luulen, että Tom saattaa olla vihainen minulle.",
+    "english": "I think Tom might be mad at me.",
+    "wordCount": 7,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3390056",
+    "spanish": "Estoy tan feliz de que vinieras.",
+    "finnish": "Olen niin iloinen kun tulit.",
+    "english": "I'm so happy you came.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3390058",
+    "spanish": "Estoy contento aquí.",
+    "finnish": "Olen tyytyväinen tässä missä olen.",
+    "english": "I'm happy here.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3390059",
+    "spanish": "Estoy feliz de que estés feliz.",
+    "finnish": "Olen iloinen, että olet iloinen.",
+    "english": "I'm happy you're happy.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "emotions"
+    ]
+  },
+  {
+    "id": "3425734",
+    "spanish": "Tom tuvo una infancia feliz.",
+    "finnish": "Tomilla oli onnellinen lapsuus.",
+    "english": "Tom had a happy childhood.",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3490513",
+    "spanish": "¡Feliz cumple!",
+    "finnish": "Hyvää synttäriä!",
+    "english": "Happy Birthday!",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3496581",
+    "spanish": "¡Feliz día de la independencia!",
+    "finnish": "Hyvää itsenäisyyspäivää!",
+    "english": "Happy Independence Day!",
+    "wordCount": 5,
+    "categories": [
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "3523447",
+    "spanish": "Tom y María se enamoraron y decidieron casarse.",
+    "finnish": "Tom ja Mary rakastuivat ja päättivät mennä naimisiin.",
+    "english": "Tom and Mary fell in love and decided to get married.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "emotions",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3562776",
+    "spanish": "Odio a los perros.",
+    "finnish": "Vihaan koiria.",
+    "english": "I hate dogs.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3562777",
+    "spanish": "Odio los perros.",
+    "finnish": "Vihaan koiria.",
+    "english": "I hate dogs.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3562783",
+    "spanish": "Espero que Tom esté feliz.",
+    "finnish": "Toivon, että Tom on iloinen.",
+    "english": "I hope Tom is happy.",
+    "wordCount": 5,
+    "categories": [
+      "food",
+      "emotions"
+    ]
+  },
+  {
+    "id": "3562805",
+    "spanish": "Odio a los padres de Tom.",
+    "finnish": "Vihaan Tomin vanhempia.",
+    "english": "I hate Tom's parents.",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "emotions"
+    ]
+  },
+  {
+    "id": "3674920",
+    "spanish": "Odio planchar.",
+    "finnish": "Vihaan silittämistä.",
+    "english": "I hate to iron.",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3675408",
+    "spanish": "Odio volar.",
+    "finnish": "Vihaan lentämistä.",
+    "english": "I hate flying.",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3675414",
+    "spanish": "Odio perder.",
+    "finnish": "Inhoan häviämistä.",
+    "english": "I hate losing.",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3675419",
+    "spanish": "Odio bailar.",
+    "finnish": "Inhoan tanssimista.",
+    "english": "I hate dancing.",
+    "wordCount": 2,
+    "categories": [
+      "leisure",
+      "emotions"
+    ]
+  },
+  {
+    "id": "3676939",
+    "spanish": "Odio cortar el césped.",
+    "finnish": "Vihaan nurmikon leikkaamista.",
+    "english": "I hate mowing the lawn.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3678866",
+    "spanish": "Tom quiere que Mary sea feliz.",
+    "finnish": "Tomi haluaa Marin olevan onnellinen.",
+    "english": "Tom wants Mary to be happy.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3696937",
+    "spanish": "Estoy muy contento de encontrarme hoy contigo.",
+    "finnish": "Olen hyvin mielissäni tavatessani sinut tänään.",
+    "english": "I'm very pleased to meet you today.",
+    "wordCount": 7,
+    "categories": [
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "3775654",
+    "spanish": "Tom parece estar enojado.",
+    "finnish": "Tom näyttää vihaiselta.",
+    "english": "Tom looks angry.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "3853789",
+    "spanish": "Estoy enojado contigo.",
+    "finnish": "Olen vihainen sinulle.",
+    "english": "I'm angry with you.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "4522190",
+    "spanish": "Estoy enamorada de ella.",
+    "finnish": "Rakastan häntä.",
+    "english": "I'm in love with her.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "4522195",
+    "spanish": "Estoy enamorada de él.",
+    "finnish": "Rakastan häntä.",
+    "english": "I love him.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "4807977",
+    "spanish": "Estás triste.",
+    "finnish": "Olet surullinen.",
+    "english": "You're sad.",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "5011590",
+    "spanish": "A Tom le dan miedo las arañas.",
+    "finnish": "Tomi pelkää hämähäkkejä.",
+    "english": "Tom is afraid of spiders.",
+    "wordCount": 7,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "5718531",
+    "spanish": "¿Has sido feliz alguna vez?",
+    "finnish": "Oletko ollut koskaan onnellinen?",
+    "english": "Have you ever been happy?",
+    "wordCount": 5,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "5752506",
+    "spanish": "Tom está triste.",
+    "finnish": "Tomi on surullinen.",
+    "english": "Tom's sad.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "5907944",
+    "spanish": "Tom se enamoró de la novia de su mejor amigo.",
+    "finnish": "Tomi rakastui parhaan kaverinsa tyttöystävään.",
+    "english": "Tom fell in love with his best friend's girlfriend.",
+    "wordCount": 10,
+    "categories": [
+      "leisure",
+      "emotions"
+    ]
+  },
+  {
+    "id": "6607921",
+    "spanish": "Odio a los hipócritas.",
+    "finnish": "Vihaan tekopyhiä.",
+    "english": "I hate hypocrites.",
+    "wordCount": 4,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "6682456",
+    "spanish": "Hazme feliz.",
+    "finnish": "Tee minut onnelliseksi.",
+    "english": "Make me happy.",
+    "wordCount": 2,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "6703397",
+    "spanish": "Quiero conocer qué es el amor.",
+    "finnish": "Haluan tietää, mitä rakkaus on.",
+    "english": "I want to know what love is.",
+    "wordCount": 6,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "7968546",
+    "spanish": "Estoy tan contento de verte.",
+    "finnish": "Ihana nähdä sua.",
+    "english": "I'm so glad to see you.",
+    "wordCount": 5,
+    "categories": [
+      "leisure",
+      "emotions"
+    ]
+  },
+  {
+    "id": "9340812",
+    "spanish": "Feliz año nuevo.",
+    "finnish": "Onnellista uutta vuotta!",
+    "english": "Happy New Year!",
+    "wordCount": 3,
+    "categories": [
+      "emotions",
+      "time"
+    ]
+  },
+  {
+    "id": "9535583",
+    "spanish": "¡Feliz Navidad, Tatoeba!",
+    "finnish": "Hyvää joulua Tatoeba!",
+    "english": "Merry Christmas, Tatoeba!",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  },
+  {
+    "id": "9868292",
+    "spanish": "Él es feliz.",
+    "finnish": "Hän on onnellinen.",
+    "english": "He is happy.",
+    "wordCount": 3,
+    "categories": [
+      "emotions"
+    ]
+  }
+]

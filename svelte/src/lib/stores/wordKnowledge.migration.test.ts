@@ -515,4 +515,176 @@ describe('V4 to V5 Migration', () => {
 		expect(data.meta.basicGamesPlayed).toBe(15);
 		expect(data.meta.kidsGamesPlayed).toBe(5);
 	});
+
+	it('should migrate 100+ words fixture correctly', async () => {
+		// Load fixture file
+		const v4Data = await import('./test-fixtures/v4-100-words.json');
+
+		// Spy on console.warn to track skipped words
+		const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
+
+		localStorage.setItem('yhdistasanat_word_knowledge', JSON.stringify(v4Data.default));
+
+		// Dynamically import the store to trigger migration
+		const { wordKnowledge } = await import('./wordKnowledge');
+		const data = get(wordKnowledge);
+
+		// Verify migration to V5
+		expect(data.version).toBe(5);
+
+		// Verify metadata is preserved
+		expect(data.meta).toBeDefined();
+		expect(data.meta.totalGamesPlayed).toBeGreaterThan(0);
+
+		// Verify words that exist in mocked vocabulary are migrated
+		// (Most words in fixture don't exist in mock, so only a few will migrate)
+		const wordCount = Object.keys(data.words).length;
+		expect(wordCount).toBeGreaterThanOrEqual(2); // At least hola and adios
+
+		// Spot check words that exist in mock vocabulary
+		expect(data.words['hola']).toBeDefined();
+		expect(data.words['adios']).toBeDefined();
+
+		// Verify structure is correct for migrated words
+		for (const [wordKey, wordData] of Object.entries(data.words)) {
+			expect(wordData.spanish_to_finnish).toBeDefined();
+			expect(wordData.finnish_to_spanish).toBeDefined();
+		}
+
+		// Verify warnings were logged for words not in vocabulary
+		expect(warnSpy).toHaveBeenCalledWith(
+			expect.stringContaining('not found in vocabulary')
+		);
+
+		warnSpy.mockRestore();
+	});
+
+	it('should handle removed words fixture correctly', async () => {
+		// Load fixture file with removed words
+		const v4Data = await import('./test-fixtures/v4-removed-words.json');
+
+		// Spy on console.warn to verify warnings are logged
+		const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
+
+		localStorage.setItem('yhdistasanat_word_knowledge', JSON.stringify(v4Data.default));
+
+		// Dynamically import the store to trigger migration
+		const { wordKnowledge } = await import('./wordKnowledge');
+		const data = get(wordKnowledge);
+
+		// Verify migration to V5
+		expect(data.version).toBe(5);
+
+		// Verify removed words are skipped
+		expect(data.words['palabraremovida']).toBeUndefined();
+		expect(data.words['antiguapalabra']).toBeUndefined();
+		expect(data.words['vocabularioviejo']).toBeUndefined();
+
+		// Verify warnings were logged for removed words
+		expect(warnSpy).toHaveBeenCalledWith(
+			expect.stringContaining('palabraremovida')
+		);
+
+		// Verify existing words that are in mock vocabulary are migrated
+		expect(data.words['hola']).toBeDefined();
+		expect(data.words['adios']).toBeDefined();
+		// Note: 'casa' is not in the mocked vocabulary, so it won't be migrated
+
+		warnSpy.mockRestore();
+	});
+
+	it('should handle empty fixture correctly', async () => {
+		// Load empty fixture
+		const v4Data = await import('./test-fixtures/v4-empty.json');
+
+		localStorage.setItem('yhdistasanat_word_knowledge', JSON.stringify(v4Data.default));
+
+		// Dynamically import the store to trigger migration
+		const { wordKnowledge } = await import('./wordKnowledge');
+		const data = get(wordKnowledge);
+
+		// Verify migration to V5
+		expect(data.version).toBe(5);
+
+		// Verify empty data structure is valid
+		expect(data.words).toEqual({});
+		expect(data.gameHistory).toEqual([]);
+		expect(data.meta.totalGamesPlayed).toBe(0);
+	});
+
+	it('should handle 10 words fixture correctly', async () => {
+		// Load 10 words fixture
+		const v4Data = await import('./test-fixtures/v4-10-words.json');
+
+		// Spy on console.warn to track skipped words
+		const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
+
+		localStorage.setItem('yhdistasanat_word_knowledge', JSON.stringify(v4Data.default));
+
+		// Dynamically import the store to trigger migration
+		const { wordKnowledge } = await import('./wordKnowledge');
+		const data = get(wordKnowledge);
+
+		// Verify migration to V5
+		expect(data.version).toBe(5);
+
+		// Verify word count (only words in mocked vocabulary will migrate)
+		// Mock vocabulary has: hola, adios, rojo (and polysemous tiempo)
+		const wordCount = Object.keys(data.words).length;
+		expect(wordCount).toBeGreaterThanOrEqual(2); // At least hola and adios
+
+		// Verify words that exist in mock vocabulary are migrated with correct data
+		expect(data.words['hola']).toBeDefined();
+		expect(data.words['hola'].spanish_to_finnish.basic?.score).toBe(85.5);
+		expect(data.words['adios']).toBeDefined();
+		expect(data.words['rojo']).toBeDefined();
+
+		// Words not in mock vocabulary won't be migrated
+		expect(data.words['casa']).toBeUndefined();
+		expect(data.words['perro']).toBeUndefined();
+
+		// Verify game history is preserved
+		expect(data.gameHistory).toHaveLength(1);
+		expect(data.gameHistory[0].id).toBe('game_123');
+
+		// Verify metadata
+		expect(data.meta.totalGamesPlayed).toBe(20);
+
+		warnSpy.mockRestore();
+	});
+
+	it('should handle polysemous words fixture correctly', async () => {
+		// Load polysemous fixture
+		const v4Data = await import('./test-fixtures/v4-polysemous.json');
+
+		// Spy on console.warn to verify warnings
+		const warnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
+
+		localStorage.setItem('yhdistasanat_word_knowledge', JSON.stringify(v4Data.default));
+
+		// Dynamically import the store to trigger migration
+		const { wordKnowledge } = await import('./wordKnowledge');
+		const data = get(wordKnowledge);
+
+		// Verify migration to V5
+		expect(data.version).toBe(5);
+
+		// Verify polysemous words are skipped
+		expect(data.words['tiempo']).toBeUndefined();
+		expect(data.words['banco']).toBeUndefined();
+		expect(data.words['copa']).toBeUndefined();
+		expect(data.words['planta']).toBeUndefined();
+		expect(data.words['carta']).toBeUndefined();
+
+		// Verify warnings were logged
+		expect(warnSpy).toHaveBeenCalledWith(
+			expect.stringContaining('polysemous')
+		);
+
+		// Verify non-polysemous words are migrated
+		expect(data.words['hola']).toBeDefined();
+		expect(data.words['adios']).toBeDefined();
+
+		warnSpy.mockRestore();
+	});
 });

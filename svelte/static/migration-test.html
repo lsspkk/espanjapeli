@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V4→V5 Migration Test</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        button.danger {
+            background: #f44336;
+        }
+        button.danger:hover {
+            background: #da190b;
+        }
+        button.secondary {
+            background: #2196F3;
+        }
+        button.secondary:hover {
+            background: #0b7dda;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            max-height: 400px;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .status.warning {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+        .instructions {
+            background: #e3f2fd;
+            padding: 15px;
+            border-left: 4px solid #2196F3;
+            margin: 20px 0;
+        }
+        .instructions ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔄 V4→V5 Migration Test Tool</h1>
+    
+    <div class="instructions">
+        <h3>📋 Testing Instructions</h3>
+        <ol>
+            <li>Choose a test fixture below and click "Inject V4 Data"</li>
+            <li>Open browser console (F12) to see migration warnings</li>
+            <li>Click "Reload App" to trigger migration</li>
+            <li>Verify migrated data in "Current localStorage Data" section</li>
+            <li>Check console for migration warnings (polysemous words, removed words)</li>
+            <li>Use "Clear All Data" to reset and test another fixture</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>1. Inject Test Data</h2>
+        <p>Select a V4 fixture to inject into localStorage:</p>
+        <button onclick="injectFixture('empty')">Empty Data</button>
+        <button onclick="injectFixture('10-words')">10 Words</button>
+        <button onclick="injectFixture('100-words')">100+ Words</button>
+        <button onclick="injectFixture('polysemous')">Polysemous Words</button>
+        <button onclick="injectFixture('removed-words')">Removed Words</button>
+        <div id="inject-status"></div>
+    </div>
+
+    <div class="section">
+        <h2>2. Trigger Migration</h2>
+        <p>Reload the app to trigger automatic migration:</p>
+        <button class="secondary" onclick="window.location.href='/'">Reload App (Go to Home)</button>
+        <button class="secondary" onclick="location.reload()">Reload This Page</button>
+    </div>
+
+    <div class="section">
+        <h2>3. View Current Data</h2>
+        <button onclick="displayCurrentData()">Refresh Display</button>
+        <button class="danger" onclick="clearAllData()">Clear All Data</button>
+        <div id="current-data"></div>
+    </div>
+
+    <div class="section">
+        <h2>4. Manual Data Injection</h2>
+        <p>Paste V4 JSON data here for custom testing:</p>
+        <textarea id="custom-data" rows="10" style="width: 100%; font-family: monospace; padding: 10px;"></textarea>
+        <button onclick="injectCustomData()">Inject Custom Data</button>
+        <div id="custom-status"></div>
+    </div>
+
+    <script>
+        const FIXTURES = {
+            'empty': {
+                "version": 4,
+                "words": {},
+                "gameHistory": [],
+                "meta": {
+                    "createdAt": "2024-01-01T10:00:00.000Z",
+                    "updatedAt": "2024-01-01T10:00:00.000Z",
+                    "totalGamesPlayed": 0,
+                    "basicGamesPlayed": 0,
+                    "kidsGamesPlayed": 0
+                }
+            },
+            '10-words': {
+                "version": 4,
+                "words": {
+                    "hola": {
+                        "spanish_to_finnish": {
+                            "basic": {
+                                "score": 85.5,
+                                "practiceCount": 10,
+                                "firstTryCount": 8,
+                                "secondTryCount": 2,
+                                "thirdTryCount": 0,
+                                "failedCount": 0,
+                                "lastPracticed": "2024-01-15T10:00:00.000Z",
+                                "firstPracticed": "2024-01-01T10:00:00.000Z"
+                            }
+                        },
+                        "finnish_to_spanish": {
+                            "basic": {
+                                "score": 72.3,
+                                "practiceCount": 8,
+                                "firstTryCount": 5,
+                                "secondTryCount": 3,
+                                "thirdTryCount": 0,
+                                "failedCount": 0,
+                                "lastPracticed": "2024-01-14T10:00:00.000Z",
+                                "firstPracticed": "2024-01-02T10:00:00.000Z"
+                            }
+                        }
+                    },
+                    "adios": {
+                        "spanish_to_finnish": {
+                            "basic": {
+                                "score": 90.0,
+                                "practiceCount": 5,
+                                "firstTryCount": 5,
+                                "secondTryCount": 0,
+                                "thirdTryCount": 0,
+                                "failedCount": 0,
+                                "lastPracticed": "2024-01-16T10:00:00.000Z",
+                                "firstPracticed": "2024-01-03T10:00:00.000Z"
+                            }
+                        },
+                        "finnish_to_spanish": {}
+                    }
+                },
+                "gameHistory": [],
+                "meta": {
+                    "createdAt": "2024-01-01T10:00:00.000Z",
+                    "updatedAt": "2024-01-16T10:00:00.000Z",
+                    "totalGamesPlayed": 20,
+                    "basicGamesPlayed": 15,
+                    "kidsGamesPlayed": 5
+                }
+            },
+            'polysemous': {
+                "version": 4,
+                "words": {
+                    "tiempo": {
+                        "spanish_to_finnish": {
+                            "basic": {
+                                "score": 75.0,
+                                "practiceCount": 6,
+                                "firstTryCount": 4,
+                                "secondTryCount": 2,
+                                "thirdTryCount": 0,
+                                "failedCount": 0,
+                                "lastPracticed": "2024-01-15T10:00:00.000Z",
+                                "firstPracticed": "2024-01-01T10:00:00.000Z"
+                            }
+                        },
+                        "finnish_to_spanish": {}
+                    },
+                    "hola": {
+                        "spanish_to_finnish": {
+                            "basic": {
+                                "score": 85.0,
+                                "practiceCount": 5,
+                                "firstTryCount": 5,
+                                "secondTryCount": 0,
+                                "thirdTryCount": 0,
+                                "failedCount": 0,
+                                "lastPracticed": "2024-01-16T10:00:00.000Z",
+                                "firstPracticed": "2024-01-03T10:00:00.000Z"
+                            }
+                        },
+                        "finnish_to_spanish": {}
+                    }
+                },
+                "gameHistory": [],
+                "meta": {
+                    "createdAt": "2024-01-01T10:00:00.000Z",
+                    "updatedAt": "2024-01-16T10:00:00.000Z",
+                    "totalGamesPlayed": 11,
+                    "basicGamesPlayed": 11,
+                    "kidsGamesPlayed": 0
+                }
+            },
+            'removed-words': {
+                "version": 4,
+                "words": {
+                    "palabraremovida": {
+                        "spanish_to_finnish": {
+                            "basic": {
+                                "score": 60.0,
+                                "practiceCount": 3,
+                                "firstTryCount": 2,
+                                "secondTryCount": 1,
+                                "thirdTryCount": 0,
+                                "failedCount": 0,
+                                "lastPracticed": "2024-01-10T10:00:00.000Z",
+                                "firstPracticed": "2024-01-05T10:00:00.000Z"
+                            }
+                        },
+                        "finnish_to_spanish": {}
+                    },
+                    "hola": {
+                        "spanish_to_finnish": {
+                            "basic": {
+                                "score": 85.0,
+                                "practiceCount": 5,
+                                "firstTryCount": 5,
+                                "secondTryCount": 0,
+                                "thirdTryCount": 0,
+                                "failedCount": 0,
+                                "lastPracticed": "2024-01-16T10:00:00.000Z",
+                                "firstPracticed": "2024-01-03T10:00:00.000Z"
+                            }
+                        },
+                        "finnish_to_spanish": {}
+                    }
+                },
+                "gameHistory": [],
+                "meta": {
+                    "createdAt": "2024-01-01T10:00:00.000Z",
+                    "updatedAt": "2024-01-16T10:00:00.000Z",
+                    "totalGamesPlayed": 8,
+                    "basicGamesPlayed": 8,
+                    "kidsGamesPlayed": 0
+                }
+            }
+        };
+
+        function injectFixture(fixtureName) {
+            const fixture = FIXTURES[fixtureName];
+            if (!fixture) {
+                showStatus('inject-status', 'error', 'Fixture not found!');
+                return;
+            }
+
+            try {
+                localStorage.setItem('yhdistasanat_word_knowledge', JSON.stringify(fixture));
+                showStatus('inject-status', 'success', 
+                    `✅ Injected "${fixtureName}" fixture (V4 data). Now reload the app to trigger migration.`);
+                displayCurrentData();
+            } catch (e) {
+                showStatus('inject-status', 'error', `❌ Error: ${e.message}`);
+            }
+        }
+
+        function injectCustomData() {
+            const customData = document.getElementById('custom-data').value;
+            if (!customData.trim()) {
+                showStatus('custom-status', 'error', 'Please enter JSON data');
+                return;
+            }
+
+            try {
+                const parsed = JSON.parse(customData);
+                localStorage.setItem('yhdistasanat_word_knowledge', JSON.stringify(parsed));
+                showStatus('custom-status', 'success', 
+                    '✅ Custom data injected. Reload the app to trigger migration.');
+                displayCurrentData();
+            } catch (e) {
+                showStatus('custom-status', 'error', `❌ Invalid JSON: ${e.message}`);
+            }
+        }
+
+        function displayCurrentData() {
+            const data = localStorage.getItem('yhdistasanat_word_knowledge');
+            const container = document.getElementById('current-data');
+            
+            if (!data) {
+                container.innerHTML = '<div class="status warning">⚠️ No data in localStorage</div>';
+                return;
+            }
+
+            try {
+                const parsed = JSON.parse(data);
+                const version = parsed.version || 'unknown';
+                const wordCount = Object.keys(parsed.words || {}).length;
+                const gameCount = parsed.meta?.totalGamesPlayed || 0;
+
+                let html = `<div class="status ${version === 5 ? 'success' : 'warning'}">
+                    <strong>Version:</strong> ${version} ${version === 5 ? '✅ (Migrated)' : '⚠️ (Not migrated)'}
+                    <br><strong>Words:</strong> ${wordCount}
+                    <br><strong>Total Games:</strong> ${gameCount}
+                </div>`;
+
+                if (wordCount > 0) {
+                    html += '<h3>Word Keys (first 20):</h3><ul>';
+                    const keys = Object.keys(parsed.words).slice(0, 20);
+                    keys.forEach(key => {
+                        html += `<li><code>${key}</code></li>`;
+                    });
+                    if (wordCount > 20) {
+                        html += `<li><em>... and ${wordCount - 20} more</em></li>`;
+                    }
+                    html += '</ul>';
+                }
+
+                html += '<h3>Full Data:</h3><pre>' + JSON.stringify(parsed, null, 2) + '</pre>';
+                container.innerHTML = html;
+            } catch (e) {
+                container.innerHTML = `<div class="status error">❌ Error parsing data: ${e.message}</div>`;
+            }
+        }
+
+        function clearAllData() {
+            if (!confirm('Are you sure you want to clear all localStorage data?')) {
+                return;
+            }
+            localStorage.clear();
+            displayCurrentData();
+            showStatus('inject-status', 'success', '✅ All data cleared');
+        }
+
+        function showStatus(elementId, type, message) {
+            const element = document.getElementById(elementId);
+            element.innerHTML = `<div class="status ${type}">${message}</div>`;
+        }
+
+        // Display current data on load
+        displayCurrentData();
+    </script>
+</body>
+</html>

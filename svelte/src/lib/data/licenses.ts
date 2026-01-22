@@ -93,7 +93,7 @@ export const softwareLicenses: SoftwareLicense[] = [
 
 export const appInfo = {
 	name: 'Espanjapeli',
-	version: '4.0.0',
+	version: '5.0.0',
 	description: 'Mobiiliystävällinen espanjan kielen oppimissovellus',
 	repository: 'https://github.com/your-username/espanjapeli',
 	storage: 'Paikallinen (selaimen localStorage)',

@@ -516,7 +516,7 @@
 			<div class="card-body">
 				<h2 class="card-title">ℹ️ Tietoja</h2>
 				<div class="space-y-2 text-sm">
-					<p><strong>Versio:</strong> 2.0.0 (SvelteKit)</p>
+					<p><strong>Versio:</strong> 5.0.0 (SvelteKit)</p>
 					<p><strong>Tietojen tallennus:</strong> Paikallinen (selaimen localStorage)</p>
 					<p><strong>Yksityisyys:</strong> Kaikki tiedot pysyvät laitteellasi</p>
 					<p><strong>Offline-tuki:</strong> Toimii ilman internet-yhteyttä</p>

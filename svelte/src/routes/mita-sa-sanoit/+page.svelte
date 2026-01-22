@@ -8,7 +8,13 @@
 		type CEFRLevel 
 	} from '$lib/services/sentenceLoader';
 	import { tts } from '$lib/services/tts';
-	import { autoSpeak } from '$lib/stores/progress';
+	import { ttsSettings } from '$lib/stores/ttsSettings';
+	import StepwiseReveal from '$lib/components/shared/StepwiseReveal.svelte';
+	import { timedAnswerSettings } from '$lib/stores/timedAnswerSettings';
+	import GameHeader from '$lib/components/basic/core/GameHeader.svelte';
+	import OptionButtons from '$lib/components/basic/input/OptionButtons.svelte';
+	import FeedbackOverlay from '$lib/components/basic/feedback/FeedbackOverlay.svelte';
+	import { sentenceKnowledge } from '$lib/stores/sentenceKnowledge';
 
 	// Game states
 	type GameState = 'home' | 'loading' | 'playing' | 'feedback' | 'report';
@@ -20,6 +26,13 @@
 	let selectedLevel = $state<CEFRLevel>('A1');
 	let availableThemes = $state<string[]>([]);
 
+	// TTS settings
+	let autoSpeakEnabled = $state(true);
+
+	// Stepwise reveal state
+	let answersRevealed = $state(false);
+	let delaySeconds = $state(3);
+
 	// Game variables
 	let currentSentence = $state<Sentence | null>(null);
 	let answerOptions = $state<string[]>([]);
@@ -28,6 +41,7 @@
 	let questionIndex = $state(0);
 	let totalQuestions = $state(10);
 	let sentenceQueue = $state<Sentence[]>([]);
+	let wrongAnswers = $state<Array<{ spanish: string; finnish: string; userAnswer: string }>>([]);
 
 	// Load available themes on mount
 	onMount(async () => {
@@ -40,6 +54,21 @@
 		} catch (error) {
 			console.error('Failed to load sentence themes:', error);
 		}
+
+		// Subscribe to TTS settings
+		const unsubscribeTts = ttsSettings.subscribe((settings) => {
+			autoSpeakEnabled = settings.autoSpeak;
+		});
+
+		// Subscribe to timed answer settings
+		const unsubscribeTimer = timedAnswerSettings.subscribe((settings) => {
+			delaySeconds = settings.mitasasanoit;
+		});
+
+		return () => {
+			unsubscribeTts();
+			unsubscribeTimer();
+		};
 	});
 
 	// Start game
@@ -70,6 +99,7 @@
 			// Reset game state
 			score = 0;
 			questionIndex = 0;
+			wrongAnswers = [];
 
 			// Start first question
 			if (sentenceQueue.length > 0) {
@@ -94,11 +124,66 @@
 
 		currentSentence = sentenceQueue[questionIndex];
 		selectedAnswer = null;
+		answersRevealed = false;
+		disabledOptions = new Set();
 		
-		// Generate answer options (placeholder - will be implemented in next subtask)
-		answerOptions = [currentSentence.finnish];
+		// Generate answer options
+		answerOptions = generateAnswerOptions(currentSentence, sentenceQueue);
 
 		gameState = 'playing';
+
+		// Auto-speak in listen mode if autoSpeak is enabled
+		if (selectedMode === 'listen' && autoSpeakEnabled && currentSentence) {
+			tts.speakSpanish(currentSentence.spanish);
+		}
+	}
+
+	// Generate 4 answer options (1 correct + 3 wrong)
+	function generateAnswerOptions(correct: Sentence, allSentences: Sentence[]): string[] {
+		const correctAnswer = correct.finnish;
+		const wrongAnswers: string[] = [];
+		
+		// Filter candidates: exclude current sentence, prefer similar word count
+		const candidates = allSentences.filter(s => s.id !== correct.id);
+		
+		// Sort by similarity in word count (prefer similar difficulty)
+		const sorted = candidates.sort((a, b) => {
+			const diffA = Math.abs(a.wordCount - correct.wordCount);
+			const diffB = Math.abs(b.wordCount - correct.wordCount);
+			return diffA - diffB;
+		});
+		
+		// Select 3 wrong answers
+		// Avoid answers that are too different in length (character count)
+		const correctLength = correctAnswer.length;
+		for (const candidate of sorted) {
+			if (wrongAnswers.length >= 3) break;
+			
+			const candidateLength = candidate.finnish.length;
+			const lengthDiff = Math.abs(candidateLength - correctLength);
+			const maxDiff = correctLength * 0.5; // Allow up to 50% difference
+			
+			// Skip if too different in length or already selected
+			if (lengthDiff > maxDiff || wrongAnswers.includes(candidate.finnish)) {
+				continue;
+			}
+			
+			wrongAnswers.push(candidate.finnish);
+		}
+		
+		// If we couldn't find 3 suitable wrong answers, relax the length constraint
+		if (wrongAnswers.length < 3) {
+			for (const candidate of sorted) {
+				if (wrongAnswers.length >= 3) break;
+				if (!wrongAnswers.includes(candidate.finnish) && candidate.finnish !== correctAnswer) {
+					wrongAnswers.push(candidate.finnish);
+				}
+			}
+		}
+		
+		// Combine and shuffle
+		const allOptions = [correctAnswer, ...wrongAnswers];
+		return allOptions.sort(() => Math.random() - 0.5);
 	}
 
 	// Handle answer selection
@@ -107,8 +192,32 @@
 		const correct = answer === currentSentence?.finnish;
 		if (correct) {
 			score++;
+		} else {
+			// Track wrong answer
+			if (currentSentence) {
+				wrongAnswers.push({
+					spanish: currentSentence.spanish,
+					finnish: currentSentence.finnish,
+					userAnswer: answer
+				});
+			}
 		}
+		
+		// Record answer in sentenceKnowledge store
+		if (currentSentence) {
+			sentenceKnowledge.recordSentenceAnswer(currentSentence.id, correct);
+		}
+		
 		gameState = 'feedback';
+		feedbackVisible = true;
+		feedbackClosing = false;
+		
+		// Auto-continue after delay for correct answers
+		if (correct) {
+			setTimeout(() => {
+				closeFeedbackAndContinue();
+			}, 2000);
+		}
 	}
 
 	// Continue to next question
@@ -116,11 +225,48 @@
 		questionIndex++;
 		loadNextQuestion();
 	}
+	
+	// Close feedback overlay and continue
+	function closeFeedbackAndContinue() {
+		feedbackClosing = true;
+		setTimeout(() => {
+			feedbackVisible = false;
+			continueGame();
+		}, 300);
+	}
 
 	// Restart game
 	function restartGame() {
 		gameState = 'home';
 	}
+
+	// Quit game
+	function quitGame() {
+		gameState = 'home';
+	}
+
+	// Prepare options for OptionButtons component
+	let optionButtonsData = $derived(
+		answerOptions.map(option => ({
+			id: option,
+			text: option
+		}))
+	);
+	let disabledOptions = $state(new Set<string>());
+
+	// Feedback overlay state
+	let feedbackVisible = $state(false);
+	let feedbackClosing = $state(false);
+	
+	// Celebration exclamations for correct answers
+	const celebrationExclamations = ['¡Perfecto!', '¡Muy bien!', '¡Excelente!', '¡Fantástico!', '¡Bravo!'];
+	
+	function getRandomExclamation(): string {
+		return celebrationExclamations[Math.floor(Math.random() * celebrationExclamations.length)];
+	}
+	
+	// Get sentence stats for report
+	let sentenceStats = $derived(sentenceKnowledge.getSentenceStats());
 </script>
 
 {#if gameState === 'home'}
@@ -207,81 +353,135 @@
 		</div>
 	</div>
 {:else if gameState === 'playing'}
-	<div class="min-h-screen bg-base-200">
-		<div class="container mx-auto px-4 py-8">
-			<div class="card bg-base-100 shadow-xl max-w-2xl mx-auto">
-				<div class="card-body">
-					<div class="flex justify-between items-center mb-4">
-						<span class="text-sm">Kysymys {questionIndex + 1}/{totalQuestions}</span>
-						<span class="text-sm font-semibold">Pisteet: {score}</span>
-					</div>
+	<div class="min-h-screen bg-base-200 flex flex-col">
+		<div class="bg-base-100 shadow-md">
+			<div class="container mx-auto max-w-2xl">
+				<GameHeader 
+					currentQuestion={questionIndex + 1}
+					totalQuestions={totalQuestions}
+					score={score}
+					onQuit={quitGame}
+				/>
+			</div>
+		</div>
 
-					<div class="text-center mb-6">
-						{#if selectedMode === 'listen'}
-							<p class="text-lg mb-4">Kuuntele lause:</p>
-							<button class="btn btn-primary" onclick={() => currentSentence && tts(currentSentence.spanish, 'es')}>
-								🔊 Toista
-							</button>
-						{:else}
-							<p class="text-2xl font-semibold mb-4">{currentSentence?.spanish}</p>
+		<div class="flex-1 flex flex-col">
+			<div class="container mx-auto px-4 py-4 md:py-8 max-w-2xl flex-1 flex flex-col">
+				<StepwiseReveal delaySeconds={delaySeconds} onReveal={() => answersRevealed = true}>
+					{#snippet children()}
+						<div class="text-center mb-6">
+							{#if selectedMode === 'listen'}
+								<p class="text-lg md:text-xl mb-4">Kuuntele lause ja valitse oikea käännös:</p>
+								<button class="btn btn-primary btn-lg" onclick={() => currentSentence && tts.speakSpanish(currentSentence.spanish)}>
+									🔊 Toista uudelleen
+								</button>
+							{:else}
+								<p class="text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 leading-relaxed">{currentSentence?.spanish}</p>
+								<button class="btn btn-sm btn-ghost" onclick={() => currentSentence && tts.speakSpanish(currentSentence.spanish)}>
+									🔊 Kuuntele ääntämys
+								</button>
+							{/if}
+						</div>
+
+						{#if !answersRevealed && delaySeconds > 0}
+							<div class="text-center text-sm text-base-content/60 italic animate-pulse mb-4">
+								Muistele...
+							</div>
 						{/if}
-					</div>
+					{/snippet}
 
-					<div class="space-y-2">
-						{#each answerOptions as option}
-							<button 
-								class="btn btn-outline w-full" 
-								onclick={() => selectAnswer(option)}
-							>
-								{option}
-							</button>
-						{/each}
-					</div>
-				</div>
+					{#snippet answers()}
+						<OptionButtons 
+							options={optionButtonsData}
+							disabledIds={disabledOptions}
+							onSelect={(id) => selectAnswer(id)}
+							disabled={false}
+						/>
+					{/snippet}
+				</StepwiseReveal>
 			</div>
 		</div>
 	</div>
 {:else if gameState === 'feedback'}
-	<div class="min-h-screen bg-base-200">
-		<div class="container mx-auto px-4 py-8">
-			<div class="card bg-base-100 shadow-xl max-w-2xl mx-auto">
-				<div class="card-body">
-					{#if selectedAnswer === currentSentence?.finnish}
-						<div class="alert alert-success">
-							<span class="text-lg">✅ Oikein!</span>
-						</div>
-					{:else}
-						<div class="alert alert-error">
-							<span class="text-lg">❌ Väärin</span>
-						</div>
-					{/if}
-
-					<div class="mt-4">
-						<p class="text-lg font-semibold">{currentSentence?.spanish}</p>
-						<p class="text-lg">{currentSentence?.finnish}</p>
-					</div>
-
-					<button class="btn btn-primary mt-6" onclick={continueGame}>
-						Jatka
-					</button>
-				</div>
-			</div>
-		</div>
+	<div class="min-h-screen bg-base-200 relative">
+		<FeedbackOverlay
+			visible={feedbackVisible}
+			isCorrect={selectedAnswer === currentSentence?.finnish}
+			exclamation={getRandomExclamation()}
+			primaryWord={currentSentence?.spanish || ''}
+			secondaryWord={currentSentence?.finnish || ''}
+			pointsEarned={1}
+			animationIn="animate-pop-in"
+			animationOut="animate-pop-out"
+			closing={feedbackClosing}
+			onContinue={closeFeedbackAndContinue}
+		/>
 	</div>
 {:else if gameState === 'report'}
 	<div class="min-h-screen bg-base-200">
 		<div class="container mx-auto px-4 py-8">
 			<div class="card bg-base-100 shadow-xl max-w-2xl mx-auto">
 				<div class="card-body">
-					<h2 class="card-title text-2xl mb-4">Peli päättyi!</h2>
+					<h2 class="card-title text-2xl md:text-3xl justify-center mb-4 text-primary">
+						🎉 Peli päättyi!
+					</h2>
 					
-					<div class="stats stats-vertical shadow mb-6">
-						<div class="stat">
-							<div class="stat-title">Pisteet</div>
-							<div class="stat-value">{score}/{totalQuestions}</div>
+					<!-- Score Summary -->
+					<div class="bg-primary/10 border border-primary/30 rounded-lg p-4 mb-6">
+						<div class="text-center">
+							<div class="text-3xl font-bold text-primary mb-2">
+								{score} / {totalQuestions}
+							</div>
+							<div class="text-lg text-base-content/70">
+								({Math.round((score / totalQuestions) * 100)}%)
+							</div>
 						</div>
 					</div>
 
+					<!-- Score Breakdown -->
+					<div class="grid grid-cols-2 gap-3 mb-6">
+						<div class="bg-success/10 border border-success/30 rounded-lg p-3 text-center">
+							<div class="text-2xl font-bold text-success">{score}</div>
+							<div class="text-sm text-base-content/70">Oikein</div>
+						</div>
+						<div class="bg-error/10 border border-error/30 rounded-lg p-3 text-center">
+							<div class="text-2xl font-bold text-error">{wrongAnswers.length}</div>
+							<div class="text-sm text-base-content/70">Väärin</div>
+						</div>
+					</div>
+
+					<!-- Wrong Answers List -->
+					{#if wrongAnswers.length > 0}
+						<div class="mb-6">
+							<h3 class="text-lg font-semibold mb-3">Väärät vastaukset:</h3>
+							<div class="space-y-2">
+								{#each wrongAnswers as wrong}
+									<div class="bg-base-200 rounded-lg p-3">
+										<div class="font-semibold text-base-content">{wrong.spanish}</div>
+										<div class="text-sm text-success mt-1">✓ {wrong.finnish}</div>
+										<div class="text-sm text-error">✗ {wrong.userAnswer}</div>
+									</div>
+								{/each}
+							</div>
+						</div>
+					{/if}
+
+					<!-- Sentence Knowledge Stats -->
+					<div class="mb-6">
+						<h3 class="text-lg font-semibold mb-3">Lauseiden ymmärrys:</h3>
+						<div class="grid grid-cols-2 gap-3">
+							<div class="bg-info/10 border border-info/30 rounded-lg p-3 text-center">
+								<div class="text-2xl font-bold text-info">{sentenceStats.practiced}</div>
+								<div class="text-sm text-base-content/70">Harjoiteltu</div>
+							</div>
+							<div class="bg-success/10 border border-success/30 rounded-lg p-3 text-center">
+								<div class="text-2xl font-bold text-success">{sentenceStats.mastered}</div>
+								<div class="text-sm text-base-content/70">Hallittu</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Action Buttons -->
 					<div class="flex gap-2">
 						<button class="btn btn-primary flex-1" onclick={startGame}>
 							Pelaa uudelleen

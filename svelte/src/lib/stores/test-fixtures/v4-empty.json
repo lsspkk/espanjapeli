@@ -1,0 +1,12 @@
+{
+  "version": 4,
+  "words": {},
+  "gameHistory": [],
+  "meta": {
+    "createdAt": "2024-01-01T10:00:00.000Z",
+    "updatedAt": "2024-01-01T10:00:00.000Z",
+    "totalGamesPlayed": 0,
+    "basicGamesPlayed": 0,
+    "kidsGamesPlayed": 0
+  }
+}

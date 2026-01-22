@@ -1,0 +1,257 @@
+{
+  "version": 4,
+  "words": {
+    "hola": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 85.5,
+          "practiceCount": 10,
+          "firstTryCount": 8,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-15T10:00:00.000Z",
+          "firstPracticed": "2024-01-01T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 72.3,
+          "practiceCount": 8,
+          "firstTryCount": 5,
+          "secondTryCount": 3,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-14T10:00:00.000Z",
+          "firstPracticed": "2024-01-02T10:00:00.000Z"
+        }
+      }
+    },
+    "adios": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 90.0,
+          "practiceCount": 5,
+          "firstTryCount": 5,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-16T10:00:00.000Z",
+          "firstPracticed": "2024-01-03T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "casa": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 78.0,
+          "practiceCount": 7,
+          "firstTryCount": 5,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-12T10:00:00.000Z",
+          "firstPracticed": "2024-01-04T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 65.0,
+          "practiceCount": 6,
+          "firstTryCount": 3,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-13T10:00:00.000Z",
+          "firstPracticed": "2024-01-05T10:00:00.000Z"
+        }
+      }
+    },
+    "perro": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 92.5,
+          "practiceCount": 8,
+          "firstTryCount": 7,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-17T10:00:00.000Z",
+          "firstPracticed": "2024-01-06T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "gato": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 88.0,
+          "practiceCount": 9,
+          "firstTryCount": 8,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-18T10:00:00.000Z",
+          "firstPracticed": "2024-01-07T10:00:00.000Z"
+        },
+        "kids": {
+          "score": 70.0,
+          "practiceCount": 4,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-19T10:00:00.000Z",
+          "firstPracticed": "2024-01-08T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "libro": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 75.0,
+          "practiceCount": 6,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-11T10:00:00.000Z",
+          "firstPracticed": "2024-01-09T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 80.0,
+          "practiceCount": 5,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-10T10:00:00.000Z",
+          "firstPracticed": "2024-01-09T10:00:00.000Z"
+        }
+      }
+    },
+    "agua": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 95.0,
+          "practiceCount": 10,
+          "firstTryCount": 10,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-20T10:00:00.000Z",
+          "firstPracticed": "2024-01-10T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "comer": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 82.0,
+          "practiceCount": 7,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-19T10:00:00.000Z",
+          "firstPracticed": "2024-01-11T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 70.0,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-18T10:00:00.000Z",
+          "firstPracticed": "2024-01-12T10:00:00.000Z"
+        }
+      }
+    },
+    "verde": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 68.0,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 1,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-15T10:00:00.000Z",
+          "firstPracticed": "2024-01-13T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "rojo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 88.2,
+          "practiceCount": 12,
+          "firstTryCount": 10,
+          "secondTryCount": 1,
+          "thirdTryCount": 1,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-20T15:30:00.000Z",
+          "firstPracticed": "2024-01-05T08:00:00.000Z",
+          "storiesEncountered": ["story1", "story2"],
+          "storyEncounterCount": 5
+        },
+        "kids": {
+          "score": 75.0,
+          "practiceCount": 6,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-18T12:00:00.000Z",
+          "firstPracticed": "2024-01-10T09:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 82.5,
+          "practiceCount": 8,
+          "firstTryCount": 7,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-19T14:00:00.000Z",
+          "firstPracticed": "2024-01-06T10:00:00.000Z"
+        }
+      }
+    }
+  },
+  "gameHistory": [
+    {
+      "id": "game_123",
+      "timestamp": "2024-01-20T15:30:00.000Z",
+      "category": "colors",
+      "direction": "spanish_to_finnish",
+      "questionsCount": 5,
+      "results": {
+        "firstTry": 4,
+        "secondTry": 1,
+        "thirdTry": 0,
+        "failed": 0
+      },
+      "words": [
+        { "spanish": "rojo", "finnish": "punainen", "quality": "first_try" }
+      ]
+    }
+  ],
+  "meta": {
+    "createdAt": "2024-01-01T10:00:00.000Z",
+    "updatedAt": "2024-01-20T15:30:00.000Z",
+    "totalGamesPlayed": 20,
+    "basicGamesPlayed": 15,
+    "kidsGamesPlayed": 5
+  }
+}

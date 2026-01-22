@@ -1,0 +1,2826 @@
+{
+  "version": 4,
+  "words": {
+    "hola": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 93.6,
+          "practiceCount": 9,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-24T01:27:49.348Z",
+          "firstPracticed": "2024-01-21T21:06:56.794Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 82.1,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-22T01:06:00.867Z",
+          "firstPracticed": "2024-01-21T21:06:56.794Z"
+        }
+      }
+    },
+    "adios": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 99.5,
+          "practiceCount": 17,
+          "firstTryCount": 11,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-30T23:54:22.952Z",
+          "firstPracticed": "2024-01-23T10:50:26.290Z"
+        },
+        "kids": {
+          "score": 73.9,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T13:11:10.312Z",
+          "firstPracticed": "2024-01-23T10:50:26.290Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 68.4,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-30T18:23:33.374Z",
+          "firstPracticed": "2024-01-23T10:50:26.290Z"
+        }
+      }
+    },
+    "casa": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 64.6,
+          "practiceCount": 13,
+          "firstTryCount": 9,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-12T18:49:38.428Z",
+          "firstPracticed": "2024-01-01T15:43:52.341Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "perro": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 92.7,
+          "practiceCount": 20,
+          "firstTryCount": 14,
+          "secondTryCount": 4,
+          "thirdTryCount": 2,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-14T21:12:36.772Z",
+          "firstPracticed": "2024-01-08T21:17:28.255Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "gato": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 87.1,
+          "practiceCount": 1,
+          "firstTryCount": 0,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T01:46:11.467Z",
+          "firstPracticed": "2024-01-24T16:50:49.599Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "libro": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 78.7,
+          "practiceCount": 9,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-22T05:51:28.549Z",
+          "firstPracticed": "2024-01-20T14:29:16.572Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 83.1,
+          "practiceCount": 1,
+          "firstTryCount": 0,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-28T20:55:48.777Z",
+          "firstPracticed": "2024-01-20T14:29:16.572Z"
+        }
+      }
+    },
+    "agua": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 84.7,
+          "practiceCount": 11,
+          "firstTryCount": 7,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-28T01:29:22.996Z",
+          "firstPracticed": "2024-01-19T00:09:05.428Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 89.4,
+          "practiceCount": 8,
+          "firstTryCount": 5,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-21T02:34:04.222Z",
+          "firstPracticed": "2024-01-19T00:09:05.428Z"
+        }
+      }
+    },
+    "comer": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 99.3,
+          "practiceCount": 7,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-26T05:44:49.129Z",
+          "firstPracticed": "2024-01-20T02:55:59.157Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "verde": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 87,
+          "practiceCount": 9,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-28T00:07:57.288Z",
+          "firstPracticed": "2024-01-27T18:24:22.673Z"
+        },
+        "kids": {
+          "score": 62.5,
+          "practiceCount": 3,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-29T13:28:30.377Z",
+          "firstPracticed": "2024-01-27T18:24:22.673Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "rojo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 91.9,
+          "practiceCount": 8,
+          "firstTryCount": 5,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-17T16:57:52.546Z",
+          "firstPracticed": "2024-01-12T19:44:38.861Z"
+        },
+        "kids": {
+          "score": 70.6,
+          "practiceCount": 3,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-13T22:21:03.988Z",
+          "firstPracticed": "2024-01-12T19:44:38.861Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 73.4,
+          "practiceCount": 9,
+          "firstTryCount": 5,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-16T00:35:05.261Z",
+          "firstPracticed": "2024-01-12T19:44:38.861Z"
+        }
+      }
+    },
+    "azul": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 66.8,
+          "practiceCount": 12,
+          "firstTryCount": 8,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T01:42:05.498Z",
+          "firstPracticed": "2024-01-26T19:36:03.241Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 99.6,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-28T03:05:27.457Z",
+          "firstPracticed": "2024-01-26T19:36:03.241Z"
+        }
+      }
+    },
+    "amarillo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 85.3,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-25T23:24:35.064Z",
+          "firstPracticed": "2024-01-17T04:15:01.755Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 98.7,
+          "practiceCount": 15,
+          "firstTryCount": 9,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-26T20:14:23.925Z",
+          "firstPracticed": "2024-01-17T04:15:01.755Z"
+        }
+      }
+    },
+    "blanco": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 73.8,
+          "practiceCount": 19,
+          "firstTryCount": 13,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-24T22:49:16.789Z",
+          "firstPracticed": "2024-01-14T17:45:04.034Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "negro": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 82.2,
+          "practiceCount": 14,
+          "firstTryCount": 9,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-29T15:38:14.695Z",
+          "firstPracticed": "2024-01-23T05:26:50.799Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "grande": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 98.3,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T09:50:01.134Z",
+          "firstPracticed": "2024-01-28T15:20:44.018Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "pequeño": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 88,
+          "practiceCount": 18,
+          "firstTryCount": 12,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-07T17:03:03.872Z",
+          "firstPracticed": "2024-01-06T19:41:30.011Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 90.7,
+          "practiceCount": 6,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-13T03:33:47.110Z",
+          "firstPracticed": "2024-01-06T19:41:30.011Z"
+        }
+      }
+    },
+    "bueno": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 66.5,
+          "practiceCount": 6,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-16T10:26:15.752Z",
+          "firstPracticed": "2024-01-15T21:53:38.583Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "malo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 61.9,
+          "practiceCount": 9,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-28T10:46:58.289Z",
+          "firstPracticed": "2024-01-17T11:05:05.163Z"
+        },
+        "kids": {
+          "score": 93.6,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-18T15:43:27.865Z",
+          "firstPracticed": "2024-01-17T11:05:05.163Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 65.4,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-20T00:56:20.528Z",
+          "firstPracticed": "2024-01-17T11:05:05.163Z"
+        }
+      }
+    },
+    "nuevo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 71.6,
+          "practiceCount": 13,
+          "firstTryCount": 9,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-30T16:57:01.653Z",
+          "firstPracticed": "2024-01-27T01:07:16.289Z"
+        },
+        "kids": {
+          "score": 64.8,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T22:10:48.948Z",
+          "firstPracticed": "2024-01-27T01:07:16.289Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "viejo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 90.4,
+          "practiceCount": 9,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-27T16:20:23.139Z",
+          "firstPracticed": "2024-01-08T18:23:04.993Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 91,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-26T14:12:50.223Z",
+          "firstPracticed": "2024-01-08T18:23:04.993Z"
+        }
+      }
+    },
+    "día": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 94.9,
+          "practiceCount": 12,
+          "firstTryCount": 8,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-28T22:16:01.099Z",
+          "firstPracticed": "2024-01-23T11:50:12.885Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "noche": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 87.9,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-30T16:20:21.909Z",
+          "firstPracticed": "2024-01-29T15:54:34.411Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "sol": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 98.6,
+          "practiceCount": 9,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-19T12:33:44.804Z",
+          "firstPracticed": "2024-01-09T05:07:44.768Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "luna": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 79,
+          "practiceCount": 8,
+          "firstTryCount": 5,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-17T20:29:27.595Z",
+          "firstPracticed": "2024-01-06T12:38:46.308Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "estrella": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 92.4,
+          "practiceCount": 13,
+          "firstTryCount": 9,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-25T05:44:24.545Z",
+          "firstPracticed": "2024-01-08T10:57:49.403Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 67.8,
+          "practiceCount": 12,
+          "firstTryCount": 7,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-25T06:34:23.361Z",
+          "firstPracticed": "2024-01-08T10:57:49.403Z"
+        }
+      }
+    },
+    "cielo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 84.2,
+          "practiceCount": 16,
+          "firstTryCount": 11,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T15:22:46.418Z",
+          "firstPracticed": "2024-01-24T03:25:04.513Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 97.9,
+          "practiceCount": 3,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-26T01:18:41.857Z",
+          "firstPracticed": "2024-01-24T03:25:04.513Z"
+        }
+      }
+    },
+    "tierra": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 63.1,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-22T20:08:52.230Z",
+          "firstPracticed": "2024-01-21T23:04:00.813Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "mar": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 82,
+          "practiceCount": 15,
+          "firstTryCount": 10,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-26T02:31:02.974Z",
+          "firstPracticed": "2024-01-08T15:02:31.927Z"
+        },
+        "kids": {
+          "score": 60.6,
+          "practiceCount": 8,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-10T12:55:35.688Z",
+          "firstPracticed": "2024-01-08T15:02:31.927Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 67.2,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T07:37:41.388Z",
+          "firstPracticed": "2024-01-08T15:02:31.927Z"
+        }
+      }
+    },
+    "río": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 82.2,
+          "practiceCount": 9,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-24T02:47:43.721Z",
+          "firstPracticed": "2024-01-07T15:12:52.005Z"
+        },
+        "kids": {
+          "score": 70.6,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-09T17:15:15.039Z",
+          "firstPracticed": "2024-01-07T15:12:52.005Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 75.2,
+          "practiceCount": 13,
+          "firstTryCount": 8,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-15T00:58:47.853Z",
+          "firstPracticed": "2024-01-07T15:12:52.005Z"
+        }
+      }
+    },
+    "montaña": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 94,
+          "practiceCount": 20,
+          "firstTryCount": 14,
+          "secondTryCount": 4,
+          "thirdTryCount": 2,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-08T15:13:57.556Z",
+          "firstPracticed": "2024-01-06T01:38:47.951Z"
+        },
+        "kids": {
+          "score": 73.5,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-07T11:41:22.271Z",
+          "firstPracticed": "2024-01-06T01:38:47.951Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "árbol": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 78.1,
+          "practiceCount": 12,
+          "firstTryCount": 8,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-22T14:55:08.264Z",
+          "firstPracticed": "2024-01-21T07:05:24.869Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 69.6,
+          "practiceCount": 3,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-26T17:48:54.202Z",
+          "firstPracticed": "2024-01-21T07:05:24.869Z"
+        }
+      }
+    },
+    "flor": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 82.4,
+          "practiceCount": 9,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-15T14:45:01.386Z",
+          "firstPracticed": "2024-01-06T11:48:23.868Z"
+        },
+        "kids": {
+          "score": 85.2,
+          "practiceCount": 3,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-20T17:01:45.923Z",
+          "firstPracticed": "2024-01-06T11:48:23.868Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "planta": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 97.3,
+          "practiceCount": 3,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-13T01:00:32.372Z",
+          "firstPracticed": "2024-01-10T15:22:46.708Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 62.6,
+          "practiceCount": 8,
+          "firstTryCount": 5,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-14T10:13:41.635Z",
+          "firstPracticed": "2024-01-10T15:22:46.708Z"
+        }
+      }
+    },
+    "jardín": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 65,
+          "practiceCount": 15,
+          "firstTryCount": 10,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-25T14:55:57.673Z",
+          "firstPracticed": "2024-01-24T21:59:50.471Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 82.4,
+          "practiceCount": 14,
+          "firstTryCount": 9,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T23:25:24.841Z",
+          "firstPracticed": "2024-01-24T21:59:50.471Z"
+        }
+      }
+    },
+    "parque": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 88.6,
+          "practiceCount": 18,
+          "firstTryCount": 12,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-31T09:13:10.996Z",
+          "firstPracticed": "2024-01-31T03:49:20.870Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "ciudad": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 75.2,
+          "practiceCount": 12,
+          "firstTryCount": 8,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-15T12:51:55.397Z",
+          "firstPracticed": "2024-01-12T01:54:54.467Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "pueblo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 94.6,
+          "practiceCount": 20,
+          "firstTryCount": 14,
+          "secondTryCount": 4,
+          "thirdTryCount": 2,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-28T01:34:56.441Z",
+          "firstPracticed": "2024-01-26T16:20:10.480Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 60.6,
+          "practiceCount": 11,
+          "firstTryCount": 7,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-30T05:44:03.019Z",
+          "firstPracticed": "2024-01-26T16:20:10.480Z"
+        }
+      }
+    },
+    "calle": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 60.6,
+          "practiceCount": 13,
+          "firstTryCount": 9,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-18T18:02:31.642Z",
+          "firstPracticed": "2024-01-11T14:01:58.466Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "plaza": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 96.4,
+          "practiceCount": 17,
+          "firstTryCount": 11,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-30T15:57:45.570Z",
+          "firstPracticed": "2024-01-27T10:50:55.765Z"
+        },
+        "kids": {
+          "score": 91.1,
+          "practiceCount": 10,
+          "firstTryCount": 6,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-27T12:44:41.293Z",
+          "firstPracticed": "2024-01-27T10:50:55.765Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "mercado": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 84.4,
+          "practiceCount": 3,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-09T05:42:15.887Z",
+          "firstPracticed": "2024-01-08T21:18:17.206Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 83.4,
+          "practiceCount": 6,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-11T05:37:36.642Z",
+          "firstPracticed": "2024-01-08T21:18:17.206Z"
+        }
+      }
+    },
+    "padre": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 98.4,
+          "practiceCount": 9,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-24T01:20:24.404Z",
+          "firstPracticed": "2024-01-22T01:30:32.095Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 73.5,
+          "practiceCount": 15,
+          "firstTryCount": 9,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-30T23:22:45.421Z",
+          "firstPracticed": "2024-01-22T01:30:32.095Z"
+        }
+      }
+    },
+    "madre": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 75.1,
+          "practiceCount": 3,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-20T04:25:05.079Z",
+          "firstPracticed": "2024-01-16T20:03:37.351Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "hijo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 81.6,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-27T20:16:22.025Z",
+          "firstPracticed": "2024-01-24T06:44:49.193Z"
+        },
+        "kids": {
+          "score": 83.7,
+          "practiceCount": 8,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-25T04:32:45.333Z",
+          "firstPracticed": "2024-01-24T06:44:49.193Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 91.4,
+          "practiceCount": 11,
+          "firstTryCount": 7,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-28T19:41:30.909Z",
+          "firstPracticed": "2024-01-24T06:44:49.193Z"
+        }
+      }
+    },
+    "hija": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 69,
+          "practiceCount": 17,
+          "firstTryCount": 11,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-30T16:44:23.612Z",
+          "firstPracticed": "2024-01-20T11:42:14.476Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 98.4,
+          "practiceCount": 3,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-22T16:53:31.397Z",
+          "firstPracticed": "2024-01-20T11:42:14.476Z"
+        }
+      }
+    },
+    "hermano": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 74.7,
+          "practiceCount": 15,
+          "firstTryCount": 10,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T03:17:43.220Z",
+          "firstPracticed": "2024-01-24T17:17:47.274Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 92.6,
+          "practiceCount": 14,
+          "firstTryCount": 9,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-25T20:21:13.530Z",
+          "firstPracticed": "2024-01-24T17:17:47.274Z"
+        }
+      }
+    },
+    "hermana": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 61.5,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-05T05:17:04.684Z",
+          "firstPracticed": "2024-01-03T22:09:42.003Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 92,
+          "practiceCount": 7,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-12T16:44:15.801Z",
+          "firstPracticed": "2024-01-03T22:09:42.003Z"
+        }
+      }
+    },
+    "abuelo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 80.1,
+          "practiceCount": 8,
+          "firstTryCount": 5,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-07T19:35:34.291Z",
+          "firstPracticed": "2024-01-05T19:13:18.331Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "abuela": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 81.1,
+          "practiceCount": 12,
+          "firstTryCount": 8,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-18T18:27:31.230Z",
+          "firstPracticed": "2024-01-06T09:54:13.252Z"
+        },
+        "kids": {
+          "score": 83.3,
+          "practiceCount": 10,
+          "firstTryCount": 6,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-25T13:50:10.343Z",
+          "firstPracticed": "2024-01-06T09:54:13.252Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "tío": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 81.7,
+          "practiceCount": 9,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-23T02:45:18.953Z",
+          "firstPracticed": "2024-01-09T21:54:55.560Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 83,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-22T10:49:12.321Z",
+          "firstPracticed": "2024-01-09T21:54:55.560Z"
+        }
+      }
+    },
+    "tía": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 65,
+          "practiceCount": 8,
+          "firstTryCount": 5,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-29T16:02:57.453Z",
+          "firstPracticed": "2024-01-18T00:22:28.353Z"
+        },
+        "kids": {
+          "score": 63.4,
+          "practiceCount": 1,
+          "firstTryCount": 0,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-21T02:07:42.291Z",
+          "firstPracticed": "2024-01-18T00:22:28.353Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "amigo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 60.9,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-23T21:26:27.525Z",
+          "firstPracticed": "2024-01-03T02:56:50.402Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "niño": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 76.1,
+          "practiceCount": 9,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-27T01:32:40.388Z",
+          "firstPracticed": "2024-01-27T01:13:12.664Z"
+        },
+        "kids": {
+          "score": 62,
+          "practiceCount": 8,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-28T13:46:40.315Z",
+          "firstPracticed": "2024-01-27T01:13:12.664Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "niña": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 82.2,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-23T18:47:16.909Z",
+          "firstPracticed": "2024-01-23T05:13:24.697Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "hombre": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 71.2,
+          "practiceCount": 6,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-10T05:30:02.436Z",
+          "firstPracticed": "2024-01-09T17:02:32.111Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "mujer": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 67.7,
+          "practiceCount": 15,
+          "firstTryCount": 10,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-24T12:42:24.643Z",
+          "firstPracticed": "2024-01-15T17:56:51.791Z"
+        },
+        "kids": {
+          "score": 62.5,
+          "practiceCount": 3,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-29T09:10:27.067Z",
+          "firstPracticed": "2024-01-15T17:56:51.791Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "persona": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 63.3,
+          "practiceCount": 3,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-26T12:55:07.994Z",
+          "firstPracticed": "2024-01-20T05:38:08.241Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "gente": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 70.3,
+          "practiceCount": 3,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T20:09:29.070Z",
+          "firstPracticed": "2024-01-29T16:52:54.189Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 95.1,
+          "practiceCount": 10,
+          "firstTryCount": 6,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-30T03:15:30.973Z",
+          "firstPracticed": "2024-01-29T16:52:54.189Z"
+        }
+      }
+    },
+    "familia": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 67.6,
+          "practiceCount": 1,
+          "firstTryCount": 0,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-25T13:58:39.580Z",
+          "firstPracticed": "2024-01-08T13:19:34.982Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 68.3,
+          "practiceCount": 3,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-19T01:05:53.982Z",
+          "firstPracticed": "2024-01-08T13:19:34.982Z"
+        }
+      }
+    },
+    "nombre": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 73.5,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-28T12:20:16.532Z",
+          "firstPracticed": "2024-01-14T14:44:19.948Z"
+        },
+        "kids": {
+          "score": 96.7,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-30T08:03:47.477Z",
+          "firstPracticed": "2024-01-14T14:44:19.948Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "edad": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 79.7,
+          "practiceCount": 13,
+          "firstTryCount": 9,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T08:02:17.895Z",
+          "firstPracticed": "2024-01-21T11:09:12.374Z"
+        },
+        "kids": {
+          "score": 78.3,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-24T06:41:16.669Z",
+          "firstPracticed": "2024-01-21T11:09:12.374Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 88.6,
+          "practiceCount": 8,
+          "firstTryCount": 5,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-28T16:38:42.481Z",
+          "firstPracticed": "2024-01-21T11:09:12.374Z"
+        }
+      }
+    },
+    "uno": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 76.7,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-27T11:49:46.404Z",
+          "firstPracticed": "2024-01-24T19:59:33.405Z"
+        },
+        "kids": {
+          "score": 62.3,
+          "practiceCount": 9,
+          "firstTryCount": 5,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-29T02:24:14.510Z",
+          "firstPracticed": "2024-01-24T19:59:33.405Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "dos": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 96.1,
+          "practiceCount": 19,
+          "firstTryCount": 13,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-10T12:16:51.342Z",
+          "firstPracticed": "2024-01-08T05:07:26.436Z"
+        },
+        "kids": {
+          "score": 98.9,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-11T07:03:00.346Z",
+          "firstPracticed": "2024-01-08T05:07:26.436Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 79.8,
+          "practiceCount": 3,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-15T01:16:18.349Z",
+          "firstPracticed": "2024-01-08T05:07:26.436Z"
+        }
+      }
+    },
+    "tres": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 65.7,
+          "practiceCount": 12,
+          "firstTryCount": 8,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-10T17:19:18.381Z",
+          "firstPracticed": "2024-01-05T12:28:10.740Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 97,
+          "practiceCount": 14,
+          "firstTryCount": 9,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-08T10:13:36.995Z",
+          "firstPracticed": "2024-01-05T12:28:10.740Z"
+        }
+      }
+    },
+    "cuatro": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 77.6,
+          "practiceCount": 17,
+          "firstTryCount": 11,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-15T04:58:56.302Z",
+          "firstPracticed": "2024-01-03T04:23:18.540Z"
+        },
+        "kids": {
+          "score": 69.7,
+          "practiceCount": 7,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-08T23:36:04.325Z",
+          "firstPracticed": "2024-01-03T04:23:18.540Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 83.9,
+          "practiceCount": 15,
+          "firstTryCount": 9,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-11T18:17:18.477Z",
+          "firstPracticed": "2024-01-03T04:23:18.540Z"
+        }
+      }
+    },
+    "cinco": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 92.2,
+          "practiceCount": 1,
+          "firstTryCount": 0,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-25T19:33:46.417Z",
+          "firstPracticed": "2024-01-23T01:55:17.717Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "seis": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 62.3,
+          "practiceCount": 8,
+          "firstTryCount": 5,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-26T12:22:38.498Z",
+          "firstPracticed": "2024-01-26T09:23:25.951Z"
+        },
+        "kids": {
+          "score": 79.6,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-28T18:17:09.660Z",
+          "firstPracticed": "2024-01-26T09:23:25.951Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "siete": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 99.5,
+          "practiceCount": 16,
+          "firstTryCount": 11,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-15T11:20:51.926Z",
+          "firstPracticed": "2024-01-09T01:42:27.452Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 64.2,
+          "practiceCount": 8,
+          "firstTryCount": 5,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-22T02:17:26.215Z",
+          "firstPracticed": "2024-01-09T01:42:27.452Z"
+        }
+      }
+    },
+    "ocho": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 88.9,
+          "practiceCount": 19,
+          "firstTryCount": 13,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-31T01:57:37.604Z",
+          "firstPracticed": "2024-01-30T18:46:20.025Z"
+        },
+        "kids": {
+          "score": 66.5,
+          "practiceCount": 8,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-31T01:37:26.584Z",
+          "firstPracticed": "2024-01-30T18:46:20.025Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "nueve": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 90.7,
+          "practiceCount": 11,
+          "firstTryCount": 7,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T21:53:58.713Z",
+          "firstPracticed": "2024-01-28T13:55:09.081Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "diez": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 66.8,
+          "practiceCount": 6,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-24T05:53:23.088Z",
+          "firstPracticed": "2024-01-19T16:16:42.894Z"
+        },
+        "kids": {
+          "score": 74,
+          "practiceCount": 6,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-27T23:36:37.425Z",
+          "firstPracticed": "2024-01-19T16:16:42.894Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 86.2,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T05:08:44.630Z",
+          "firstPracticed": "2024-01-19T16:16:42.894Z"
+        }
+      }
+    },
+    "cien": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 91.8,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-17T18:22:31.149Z",
+          "firstPracticed": "2024-01-17T13:31:47.487Z"
+        },
+        "kids": {
+          "score": 77.1,
+          "practiceCount": 10,
+          "firstTryCount": 6,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-24T13:33:17.500Z",
+          "firstPracticed": "2024-01-17T13:31:47.487Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "mil": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 87.3,
+          "practiceCount": 10,
+          "firstTryCount": 7,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-29T17:48:46.155Z",
+          "firstPracticed": "2024-01-28T23:33:17.281Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "primero": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 66.8,
+          "practiceCount": 12,
+          "firstTryCount": 8,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T00:54:17.782Z",
+          "firstPracticed": "2024-01-29T11:40:18.823Z"
+        },
+        "kids": {
+          "score": 77.7,
+          "practiceCount": 7,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-30T21:10:35.569Z",
+          "firstPracticed": "2024-01-29T11:40:18.823Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "segundo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 73.3,
+          "practiceCount": 14,
+          "firstTryCount": 9,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-26T05:45:01.769Z",
+          "firstPracticed": "2024-01-02T14:21:59.194Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "tercero": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 92.6,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-29T02:31:09.003Z",
+          "firstPracticed": "2024-01-28T03:45:58.423Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "último": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 98.8,
+          "practiceCount": 18,
+          "firstTryCount": 12,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-15T17:43:14.373Z",
+          "firstPracticed": "2024-01-12T18:59:38.783Z"
+        },
+        "kids": {
+          "score": 87.4,
+          "practiceCount": 8,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-20T16:26:23.692Z",
+          "firstPracticed": "2024-01-12T18:59:38.783Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 61.1,
+          "practiceCount": 15,
+          "firstTryCount": 9,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-26T01:26:06.284Z",
+          "firstPracticed": "2024-01-12T18:59:38.783Z"
+        }
+      }
+    },
+    "medio": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 83.9,
+          "practiceCount": 13,
+          "firstTryCount": 9,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T19:53:39.026Z",
+          "firstPracticed": "2024-01-25T14:12:00.400Z"
+        },
+        "kids": {
+          "score": 61.7,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T05:53:50.224Z",
+          "firstPracticed": "2024-01-25T14:12:00.400Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 78.2,
+          "practiceCount": 7,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-25T15:02:50.762Z",
+          "firstPracticed": "2024-01-25T14:12:00.400Z"
+        }
+      }
+    },
+    "todo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 66.3,
+          "practiceCount": 6,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-24T11:07:00.779Z",
+          "firstPracticed": "2024-01-16T13:01:39.764Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "nada": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 93.9,
+          "practiceCount": 12,
+          "firstTryCount": 8,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T07:10:37.566Z",
+          "firstPracticed": "2024-01-13T16:51:38.891Z"
+        },
+        "kids": {
+          "score": 73.8,
+          "practiceCount": 6,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-24T02:18:32.117Z",
+          "firstPracticed": "2024-01-13T16:51:38.891Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "algo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 67.7,
+          "practiceCount": 6,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-17T14:28:46.184Z",
+          "firstPracticed": "2024-01-17T06:39:24.224Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "coche": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 96.1,
+          "practiceCount": 1,
+          "firstTryCount": 0,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-30T10:40:45.788Z",
+          "firstPracticed": "2024-01-28T13:32:16.174Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "bicicleta": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 82.4,
+          "practiceCount": 15,
+          "firstTryCount": 10,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-26T12:12:37.071Z",
+          "firstPracticed": "2024-01-07T19:57:56.017Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 88.7,
+          "practiceCount": 11,
+          "firstTryCount": 7,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-27T03:41:36.131Z",
+          "firstPracticed": "2024-01-07T19:57:56.017Z"
+        }
+      }
+    },
+    "avión": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 64.4,
+          "practiceCount": 13,
+          "firstTryCount": 9,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-18T07:53:11.355Z",
+          "firstPracticed": "2024-01-15T16:23:30.204Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "barco": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 73.7,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T05:32:38.483Z",
+          "firstPracticed": "2024-01-30T16:31:25.459Z"
+        },
+        "kids": {
+          "score": 66.5,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T08:25:08.565Z",
+          "firstPracticed": "2024-01-30T16:31:25.459Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 65.2,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T04:25:44.067Z",
+          "firstPracticed": "2024-01-30T16:31:25.459Z"
+        }
+      }
+    },
+    "tren": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 87.1,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-29T11:48:42.245Z",
+          "firstPracticed": "2024-01-09T12:09:36.482Z"
+        },
+        "kids": {
+          "score": 72.4,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-09T23:16:32.775Z",
+          "firstPracticed": "2024-01-09T12:09:36.482Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 93,
+          "practiceCount": 6,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-15T04:01:20.386Z",
+          "firstPracticed": "2024-01-09T12:09:36.482Z"
+        }
+      }
+    },
+    "autobús": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 83.2,
+          "practiceCount": 7,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-31T03:23:32.561Z",
+          "firstPracticed": "2024-01-31T01:31:41.597Z"
+        },
+        "kids": {
+          "score": 94.3,
+          "practiceCount": 7,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T05:35:33.010Z",
+          "firstPracticed": "2024-01-31T01:31:41.597Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 74.4,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T09:03:28.340Z",
+          "firstPracticed": "2024-01-31T01:31:41.597Z"
+        }
+      }
+    },
+    "taxi": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 64.1,
+          "practiceCount": 18,
+          "firstTryCount": 12,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-18T13:41:19.380Z",
+          "firstPracticed": "2024-01-02T06:07:25.181Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "moto": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 70,
+          "practiceCount": 7,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-11T02:05:27.507Z",
+          "firstPracticed": "2024-01-10T22:47:35.707Z"
+        },
+        "kids": {
+          "score": 81.8,
+          "practiceCount": 8,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-21T11:24:54.856Z",
+          "firstPracticed": "2024-01-10T22:47:35.707Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 82,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-16T15:23:08.545Z",
+          "firstPracticed": "2024-01-10T22:47:35.707Z"
+        }
+      }
+    },
+    "camión": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 96.3,
+          "practiceCount": 18,
+          "firstTryCount": 12,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-30T10:29:01.276Z",
+          "firstPracticed": "2024-01-30T05:08:42.218Z"
+        },
+        "kids": {
+          "score": 96.3,
+          "practiceCount": 8,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-30T16:05:04.204Z",
+          "firstPracticed": "2024-01-30T05:08:42.218Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "metro": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 71.8,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-09T21:53:16.021Z",
+          "firstPracticed": "2024-01-03T01:41:07.705Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 61,
+          "practiceCount": 1,
+          "firstTryCount": 0,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-25T17:10:01.497Z",
+          "firstPracticed": "2024-01-03T01:41:07.705Z"
+        }
+      }
+    },
+    "comida": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 94.5,
+          "practiceCount": 10,
+          "firstTryCount": 7,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-24T15:19:12.300Z",
+          "firstPracticed": "2024-01-17T13:55:55.043Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "bebida": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 81.2,
+          "practiceCount": 12,
+          "firstTryCount": 8,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-23T19:23:56.358Z",
+          "firstPracticed": "2024-01-20T18:49:13.403Z"
+        },
+        "kids": {
+          "score": 63,
+          "practiceCount": 8,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-30T19:46:07.193Z",
+          "firstPracticed": "2024-01-20T18:49:13.403Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 78.1,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-20T22:42:51.080Z",
+          "firstPracticed": "2024-01-20T18:49:13.403Z"
+        }
+      }
+    },
+    "pan": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 66.6,
+          "practiceCount": 18,
+          "firstTryCount": 12,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-13T17:18:03.673Z",
+          "firstPracticed": "2024-01-12T00:49:28.411Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "leche": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 86.6,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-08T13:21:19.409Z",
+          "firstPracticed": "2024-01-06T18:50:06.452Z"
+        },
+        "kids": {
+          "score": 98.7,
+          "practiceCount": 3,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-23T23:31:43.758Z",
+          "firstPracticed": "2024-01-06T18:50:06.452Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 73.9,
+          "practiceCount": 8,
+          "firstTryCount": 5,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-22T22:58:31.217Z",
+          "firstPracticed": "2024-01-06T18:50:06.452Z"
+        }
+      }
+    },
+    "café": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 78.4,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-17T21:52:53.938Z",
+          "firstPracticed": "2024-01-14T17:15:17.248Z"
+        },
+        "kids": {
+          "score": 64.6,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T03:30:56.961Z",
+          "firstPracticed": "2024-01-14T17:15:17.248Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "té": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 79.1,
+          "practiceCount": 14,
+          "firstTryCount": 9,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-31T08:08:36.860Z",
+          "firstPracticed": "2024-01-31T08:07:59.662Z"
+        },
+        "kids": {
+          "score": 92.5,
+          "practiceCount": 1,
+          "firstTryCount": 0,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T09:24:58.654Z",
+          "firstPracticed": "2024-01-31T08:07:59.662Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "vino": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 65.3,
+          "practiceCount": 7,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-30T16:48:23.790Z",
+          "firstPracticed": "2024-01-17T12:45:57.587Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 64,
+          "practiceCount": 8,
+          "firstTryCount": 5,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-20T03:26:30.467Z",
+          "firstPracticed": "2024-01-17T12:45:57.587Z"
+        }
+      }
+    },
+    "cerveza": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 70.3,
+          "practiceCount": 3,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T11:33:41.067Z",
+          "firstPracticed": "2024-01-29T02:45:09.005Z"
+        },
+        "kids": {
+          "score": 62.3,
+          "practiceCount": 6,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-31T07:32:56.177Z",
+          "firstPracticed": "2024-01-29T02:45:09.005Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 97,
+          "practiceCount": 11,
+          "firstTryCount": 7,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-29T06:38:19.094Z",
+          "firstPracticed": "2024-01-29T02:45:09.005Z"
+        }
+      }
+    },
+    "carne": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 95.7,
+          "practiceCount": 18,
+          "firstTryCount": 12,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-15T08:09:09.594Z",
+          "firstPracticed": "2024-01-09T05:13:39.567Z"
+        },
+        "kids": {
+          "score": 99.5,
+          "practiceCount": 10,
+          "firstTryCount": 6,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-26T12:42:02.506Z",
+          "firstPracticed": "2024-01-09T05:13:39.567Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 80.1,
+          "practiceCount": 13,
+          "firstTryCount": 8,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-12T01:08:37.702Z",
+          "firstPracticed": "2024-01-09T05:13:39.567Z"
+        }
+      }
+    },
+    "pescado": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 84.8,
+          "practiceCount": 20,
+          "firstTryCount": 14,
+          "secondTryCount": 4,
+          "thirdTryCount": 2,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-06T23:27:31.717Z",
+          "firstPracticed": "2024-01-05T13:46:30.343Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 83,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-25T12:14:32.408Z",
+          "firstPracticed": "2024-01-05T13:46:30.343Z"
+        }
+      }
+    },
+    "fruta": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 88.7,
+          "practiceCount": 8,
+          "firstTryCount": 5,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-20T09:53:28.723Z",
+          "firstPracticed": "2024-01-19T16:31:32.781Z"
+        },
+        "kids": {
+          "score": 88.1,
+          "practiceCount": 6,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-23T11:38:32.768Z",
+          "firstPracticed": "2024-01-19T16:31:32.781Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 92.9,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-20T20:23:23.117Z",
+          "firstPracticed": "2024-01-19T16:31:32.781Z"
+        }
+      }
+    },
+    "verdura": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 75.4,
+          "practiceCount": 15,
+          "firstTryCount": 10,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-26T06:15:46.775Z",
+          "firstPracticed": "2024-01-19T23:55:19.384Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 63.6,
+          "practiceCount": 14,
+          "firstTryCount": 9,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-21T05:37:50.246Z",
+          "firstPracticed": "2024-01-19T23:55:19.384Z"
+        }
+      }
+    },
+    "manzana": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 93.3,
+          "practiceCount": 16,
+          "firstTryCount": 11,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-17T05:50:22.453Z",
+          "firstPracticed": "2024-01-16T14:20:30.553Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "naranja": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 60.8,
+          "practiceCount": 14,
+          "firstTryCount": 9,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-26T08:34:42.599Z",
+          "firstPracticed": "2024-01-25T06:32:13.763Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "plátano": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 82.5,
+          "practiceCount": 9,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-19T10:50:47.025Z",
+          "firstPracticed": "2024-01-07T09:24:56.333Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "tomate": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 83.8,
+          "practiceCount": 1,
+          "firstTryCount": 0,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-26T04:35:41.692Z",
+          "firstPracticed": "2024-01-20T01:14:51.837Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 74,
+          "practiceCount": 14,
+          "firstTryCount": 9,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-24T11:54:08.374Z",
+          "firstPracticed": "2024-01-20T01:14:51.837Z"
+        }
+      }
+    },
+    "patata": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 84.5,
+          "practiceCount": 18,
+          "firstTryCount": 12,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-15T12:01:24.856Z",
+          "firstPracticed": "2024-01-01T11:17:34.216Z"
+        },
+        "kids": {
+          "score": 73.2,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-08T07:22:31.763Z",
+          "firstPracticed": "2024-01-01T11:17:34.216Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "arroz": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 73.2,
+          "practiceCount": 6,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-15T20:21:36.231Z",
+          "firstPracticed": "2024-01-11T14:46:25.272Z"
+        },
+        "kids": {
+          "score": 74.1,
+          "practiceCount": 1,
+          "firstTryCount": 0,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-12T07:43:03.250Z",
+          "firstPracticed": "2024-01-11T14:46:25.272Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 66.9,
+          "practiceCount": 1,
+          "firstTryCount": 0,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-13T01:42:04.758Z",
+          "firstPracticed": "2024-01-11T14:46:25.272Z"
+        }
+      }
+    },
+    "pasta": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 77.3,
+          "practiceCount": 15,
+          "firstTryCount": 10,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-30T01:50:02.373Z",
+          "firstPracticed": "2024-01-21T21:33:58.563Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 99.4,
+          "practiceCount": 6,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-30T23:47:17.032Z",
+          "firstPracticed": "2024-01-21T21:33:58.563Z"
+        }
+      }
+    },
+    "queso": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 90,
+          "practiceCount": 17,
+          "firstTryCount": 11,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-23T23:37:37.990Z",
+          "firstPracticed": "2024-01-23T16:30:19.449Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "mesa": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 97.9,
+          "practiceCount": 13,
+          "firstTryCount": 9,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-30T10:42:25.005Z",
+          "firstPracticed": "2024-01-29T00:23:10.799Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 89.2,
+          "practiceCount": 1,
+          "firstTryCount": 0,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T03:25:52.177Z",
+          "firstPracticed": "2024-01-29T00:23:10.799Z"
+        }
+      }
+    },
+    "silla": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 89.4,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-25T06:55:55.544Z",
+          "firstPracticed": "2024-01-14T14:45:02.840Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "cama": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 94.9,
+          "practiceCount": 17,
+          "firstTryCount": 11,
+          "secondTryCount": 3,
+          "thirdTryCount": 1,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-25T06:31:51.820Z",
+          "firstPracticed": "2024-01-20T05:01:26.561Z"
+        },
+        "kids": {
+          "score": 61.7,
+          "practiceCount": 8,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-26T21:16:37.261Z",
+          "firstPracticed": "2024-01-20T05:01:26.561Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "puerta": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 70.2,
+          "practiceCount": 12,
+          "firstTryCount": 8,
+          "secondTryCount": 2,
+          "thirdTryCount": 1,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-17T02:56:54.994Z",
+          "firstPracticed": "2024-01-02T02:39:21.467Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "ventana": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 77.1,
+          "practiceCount": 6,
+          "firstTryCount": 4,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T01:19:03.500Z",
+          "firstPracticed": "2024-01-23T20:56:52.299Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "pared": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 65.5,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-30T10:50:26.609Z",
+          "firstPracticed": "2024-01-29T02:49:59.896Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "suelo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 91.1,
+          "practiceCount": 9,
+          "firstTryCount": 6,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-29T12:37:04.116Z",
+          "firstPracticed": "2024-01-14T19:33:51.323Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "techo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 67.1,
+          "practiceCount": 1,
+          "firstTryCount": 0,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-30T04:14:35.260Z",
+          "firstPracticed": "2024-01-23T21:03:46.970Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "cocina": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 74.4,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 2,
+          "lastPracticed": "2024-01-30T20:36:50.053Z",
+          "firstPracticed": "2024-01-27T11:34:17.276Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "baño": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 69.8,
+          "practiceCount": 3,
+          "firstTryCount": 2,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 1,
+          "lastPracticed": "2024-01-31T08:34:18.337Z",
+          "firstPracticed": "2024-01-31T06:47:14.390Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    }
+  },
+  "gameHistory": [],
+  "meta": {
+    "createdAt": "2024-01-01T10:00:00.000Z",
+    "updatedAt": "2024-01-31T10:00:00.000Z",
+    "totalGamesPlayed": 1193,
+    "basicGamesPlayed": 954,
+    "kidsGamesPlayed": 238
+  }
+}

@@ -5,7 +5,7 @@
     "finnish": "Tulen pian takaisin.",
     "english": "I'll be back right away.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -15,7 +15,7 @@
     "finnish": "Kuinka monta läheistä ystävää sinulla on?",
     "english": "How many close friends do you have?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -25,18 +25,19 @@
     "finnish": "Olen niin tyhmä... Yritän selittää sinulle asioita, joita en itse ymmärrä.",
     "english": "I'm so dumb... I'm trying to explain things to you that I don't understand myself.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "9921",
     "spanish": "Ayer compré un libro.",
-    "finnish": "Ostin eilen kirjan.",
-    "english": "Yesterday, I bought a book.",
+    "finnish": "Eilen ostin kirjan.",
+    "english": "Yesterday I bought a book.",
     "wordCount": 4,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -45,8 +46,9 @@
     "finnish": "Olisi hauska nähdä, miten asiat tulevat vuosien saatossa muuttumaan.",
     "english": "It would be fun to see how things change over the years.",
     "wordCount": 12,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -55,18 +57,21 @@
     "finnish": "Olen onnellinen tapaamisestamme.",
     "english": "I'm happy to see you.",
     "wordCount": 4,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions"
     ]
   },
   {
     "id": "332230",
     "spanish": "¡Feliz cumpleaños!",
     "finnish": "Hyvää syntymäpäivää!",
-    "english": "Happy birthday!",
+    "english": "Happy Birthday!",
     "wordCount": 2,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions",
+      "time"
     ]
   },
   {
@@ -75,7 +80,7 @@
     "finnish": "Englantia puhutaan monissa maissa ympäri maailmaa.",
     "english": "English is spoken in many countries around the world.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "travel",
       "leisure"
     ]
@@ -86,7 +91,7 @@
     "finnish": "Tuo kirja maksaa viisi dollaria.",
     "english": "The price of that book is five dollars.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -96,28 +101,31 @@
     "finnish": "Soitan myöhemmin uudestaan.",
     "english": "I'll call again later.",
     "wordCount": 5,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
     "id": "339314",
     "spanish": "A él le gusta mucho la música.",
     "finnish": "Hän pitää paljon musiikista.",
-    "english": "He likes music very much.",
+    "english": "He is very fond of music.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "340048",
     "spanish": "Ella celebra una fiesta la semana próxima.",
-    "finnish": "Hän järjestää juhlat ensi viikolla.",
+    "finnish": "Hän pitää bileet ensi viikolla.",
     "english": "She will give a party next week.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -126,7 +134,7 @@
     "finnish": "Hän sanoi totuuden.",
     "english": "He told the truth.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -136,17 +144,17 @@
     "finnish": "Sano minulle totuus.",
     "english": "Tell me the truth.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "345521",
     "spanish": "Tú tienes muchos libros.",
-    "finnish": "Sinulla on paljon kirjoja.",
+    "finnish": "Sinulla on monta kirjaa.",
     "english": "You have a lot of books.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -156,8 +164,10 @@
     "finnish": "Sataakohan huomenna?",
     "english": "Is it going to rain tomorrow?",
     "wordCount": 2,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -166,7 +176,7 @@
     "finnish": "Hänellä oli tapana uida usein tässä joessa.",
     "english": "He would often swim in this river.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -176,7 +186,7 @@
     "finnish": "Mari osaa tanssia hyvin.",
     "english": "Mary can dance well.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -186,7 +196,7 @@
     "finnish": "Hän on todellinen herrasmies.",
     "english": "He's a real gentleman.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -196,7 +206,7 @@
     "finnish": "Etsin ystäviäni.",
     "english": "I am looking for my friends.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -206,17 +216,17 @@
     "finnish": "Tahdon suudella sinua.",
     "english": "I want to kiss you.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "445704",
     "spanish": "Te gusta la lluvia, ¿verdad?",
-    "finnish": "Sä tykkäät sateesta, eikö niin?",
+    "finnish": "Sinä pidät sateesta, eikö vain?",
     "english": "You like rain, don't you?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -226,7 +236,7 @@
     "finnish": "Sinun pitäisi yrittää katsoa asioita käytännön kannalta.",
     "english": "You should try to see things from the practical point of view.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -236,7 +246,7 @@
     "finnish": "Älä unohda palauttaa kirjaa kirjastoon.",
     "english": "Don't forget to return the book to the library.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -244,9 +254,9 @@
     "id": "449902",
     "spanish": "Yo no veo la televisión.",
     "finnish": "En katso TV:tä.",
-    "english": "I do not watch television.",
+    "english": "I don't watch TV.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -254,9 +264,9 @@
     "id": "449956",
     "spanish": "¿Quién escribió este libro?",
     "finnish": "Kuka on kirjoittanut tämän kirjan?",
-    "english": "Who wrote this book?",
+    "english": "Who is the author of this book?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -266,7 +276,7 @@
     "finnish": "Luin kirjaa.",
     "english": "I was reading a book.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -276,7 +286,7 @@
     "finnish": "Menin sairaalaan tapaamaan minun vaimoani.",
     "english": "I went to the hospital to see my wife.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -287,7 +297,7 @@
     "finnish": "Hän on yksi minun parhaista ystävistäni.",
     "english": "He is one of my best friends.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -295,9 +305,9 @@
     "id": "453851",
     "spanish": "Este libro nos será muy útil.",
     "finnish": "Tämä kirja tulee olemaan todella hyödyllinen meille.",
-    "english": "This book will be very useful to us.",
+    "english": "This book will be of great use to us.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -305,9 +315,9 @@
     "id": "454074",
     "spanish": "Tengo dos libros.",
     "finnish": "Minulla on kaksi kirjaa.",
-    "english": "I own two books.",
+    "english": "I have two books.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -317,7 +327,7 @@
     "finnish": "Etsin kirjaa keskiajan Espanjasta.",
     "english": "I'm looking for a book about medieval Spain.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -327,7 +337,7 @@
     "finnish": "Etsin kirjaa keskiajan Espanjasta.",
     "english": "I'm looking for a book about medieval Spain.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -337,7 +347,7 @@
     "finnish": "Hän on ostamassa kirjoja kirjakaupassa.",
     "english": "She is buying books in the bookstore.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -347,7 +357,7 @@
     "finnish": "Kesä on ohi.",
     "english": "Summer has ended.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -357,7 +367,7 @@
     "finnish": "Ensimmäistä kertaa elämässään Yuka luki loppuun kokonaisen englanninkielisen kirjan.",
     "english": "For the first time in his life, Yuka finished reading an entire book in English.",
     "wordCount": 15,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -367,7 +377,7 @@
     "finnish": "Hän myy vihanneksia.",
     "english": "She sells vegetables.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -378,7 +388,7 @@
     "finnish": "Ystäväni opiskelee koreaa.",
     "english": "My friend is studying Korean.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -388,7 +398,7 @@
     "finnish": "Katselen televisiota.",
     "english": "I am watching television.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -398,7 +408,7 @@
     "finnish": "Mary pitää television katselusta.",
     "english": "Mary likes watching TV.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -408,7 +418,7 @@
     "finnish": "Puut ovat vihreitä.",
     "english": "The trees are green.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -416,9 +426,9 @@
     "id": "475639",
     "spanish": "Es suyo, ¿verdad?",
     "finnish": "Se on hänen, eikö olekin?",
-    "english": "It is hers, is it not?",
+    "english": "It's his, isn't it?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -428,9 +438,10 @@
     "finnish": "Hänen veljensä katsoo koko ajan televisiota.",
     "english": "His brother is always watching TV.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -439,7 +450,7 @@
     "finnish": "Nuorena yritin lukea niin paljon kirjoja kuin voin.",
     "english": "When I was young, I tried to read as many books as I could.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -447,9 +458,9 @@
     "id": "481456",
     "spanish": "¿Dónde está mi libro?",
     "finnish": "Missä minun kirjani on?",
-    "english": "Where is my book?",
+    "english": "Where's my book?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -459,7 +470,7 @@
     "finnish": "Olin iloinen, kun näin hänet.",
     "english": "I was happy to see him.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -469,7 +480,7 @@
     "finnish": "Osaan pelata tennistä.",
     "english": "I can play tennis.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -479,7 +490,7 @@
     "finnish": "Kirja putosi kirjahyllystä.",
     "english": "A book dropped from the shelf.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -489,7 +500,7 @@
     "finnish": "Jaakko on todella ankara lapsilleen.",
     "english": "Jack is very severe with his children.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -500,7 +511,7 @@
     "finnish": "Pidätkö Mozartin musiikista?",
     "english": "Do you like Mozart's music?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -510,7 +521,7 @@
     "finnish": "Ville toi minulle tämän kirjan.",
     "english": "Bill brought me this book.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -520,17 +531,17 @@
     "finnish": "En pidä kesästä.",
     "english": "I don't like summer.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "502072",
     "spanish": "Él ha escrito un libro acerca de China.",
-    "finnish": "Hän on kirjoittanut kirjan, joka kertoo Kiinasta.",
+    "finnish": "Hän on kirjoittanut kirjan, joka käsittelee Kiinaa.",
     "english": "He wrote a book about China.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -540,7 +551,7 @@
     "finnish": "Hän lukee kirjaa.",
     "english": "He is reading a book.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -550,7 +561,7 @@
     "finnish": "Televisio ei toimi.",
     "english": "The television doesn't work.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -560,9 +571,10 @@
     "finnish": "Harrastan valokuvaamista.",
     "english": "My hobby is taking pictures.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -571,7 +583,7 @@
     "finnish": "Koira haukkui postinkantajalle.",
     "english": "The dog barked at the mailman.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -581,7 +593,7 @@
     "finnish": "Hän on kirjoittanut kaksi kirjaa.",
     "english": "He has written two books.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -589,11 +601,13 @@
     "id": "506210",
     "spanish": "¿Dónde está su libro? \"Está sobre la mesa.\"",
     "finnish": "”Missä hänen kirjansa on?” ”Se on pöydällä.”",
-    "english": "Where is his book? \"It's on the table.\"",
+    "english": "Where is her book? \"It's on the table.\"",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -602,7 +616,7 @@
     "finnish": "Kukaan ei voi ratkaista tätä ongelmaa.",
     "english": "Nobody can solve this problem.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -612,7 +626,7 @@
     "finnish": "En ole lukenut kaikkia kirjoja.",
     "english": "I have not read all the books.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -622,7 +636,7 @@
     "finnish": "Olen hyvä kokki.",
     "english": "I'm a good cook.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -630,9 +644,9 @@
     "id": "513083",
     "spanish": "La película empezó a las 2.",
     "finnish": "Elokuva alkoi kello 2.",
-    "english": "The film started at 2 o'clock.",
+    "english": "The film began at 2.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -642,7 +656,7 @@
     "finnish": "Hän on minun paras ystäväni.",
     "english": "She's my best friend.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -652,7 +666,7 @@
     "finnish": "On hauskaa pelata baseballia.",
     "english": "It is fun to play baseball.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -662,7 +676,7 @@
     "finnish": "Puisto oli väkeä täynnä.",
     "english": "The park was full of people.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -672,7 +686,7 @@
     "finnish": "On mahdollista että olet jo lukenut tämän kirjan.",
     "english": "You may have read this book already.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -680,9 +694,9 @@
     "id": "534770",
     "spanish": "Él dijo la verdad.",
     "finnish": "Hän sanoi totuuden.",
-    "english": "He told the truth.",
+    "english": "He spoke truth.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -690,9 +704,9 @@
     "id": "536523",
     "spanish": "Volverá.",
     "finnish": "Hän tulee takaisin.",
-    "english": "He will come back.",
+    "english": "It'll be back.",
     "wordCount": 1,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -702,7 +716,7 @@
     "finnish": "Haluaisin nähdä siskosi.",
     "english": "I'd like to see your sister.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -713,7 +727,7 @@
     "finnish": "Ostin kirjan.",
     "english": "I bought a book.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -723,7 +737,7 @@
     "finnish": "Bob on minun ystäväni.",
     "english": "Bob is my friend.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -733,18 +747,20 @@
     "finnish": "Pöydän päällä on kirja.",
     "english": "There is a book on the table.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
     "id": "544018",
     "spanish": "Quiero leer este libro.",
-    "finnish": "Mä haluun lukee tän kirjan.",
+    "finnish": "Haluan lukea tämän kirjan.",
     "english": "I want to read this book.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -754,7 +770,7 @@
     "finnish": "Hän alkoi laulaa.",
     "english": "She began to sing.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -764,7 +780,7 @@
     "finnish": "Onko posteljooni jo tullut?",
     "english": "Has the mailman already come?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -774,7 +790,7 @@
     "finnish": "Mistä sinä ostit tuon kirjan?",
     "english": "Where did you buy that book?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -784,7 +800,7 @@
     "finnish": "Voinko auttaa sinua?",
     "english": "Could I help you?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -794,7 +810,7 @@
     "finnish": "Hän otti vastaan lahjani.",
     "english": "He accepted my present.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -804,7 +820,7 @@
     "finnish": "Kirja julkaistiin vuonna 1689.",
     "english": "The book was published in 1689.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -814,7 +830,7 @@
     "finnish": "Nämä ovat kaikki minun kirjojani.",
     "english": "All these books are mine.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -824,7 +840,7 @@
     "finnish": "Missä kirja on?",
     "english": "Where is the book?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -834,7 +850,7 @@
     "finnish": "Tule uimaan minun kanssani.",
     "english": "Come swim with me.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -844,7 +860,7 @@
     "finnish": "Herra Whitella vaikuttaa olevan paljon ystäviä.",
     "english": "Mr White seems to have many friends.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -854,7 +870,7 @@
     "finnish": "Olen niin tyhmä... Yritän selittää sinulle asioita, joita en itse ymmärrä.",
     "english": "I'm so dumb... I'm trying to explain things to you that I don't understand myself.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -864,7 +880,7 @@
     "finnish": "Meillä oli todella hauskaa.",
     "english": "We really enjoyed ourselves.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -872,9 +888,9 @@
     "id": "576768",
     "spanish": "Tom es mi amigo.",
     "finnish": "Tom on minun ystäväni.",
-    "english": "Tom is my friend.",
+    "english": "Tom's my friend.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -884,7 +900,7 @@
     "finnish": "Pane kirjasi kiinni.",
     "english": "Close your book.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -894,7 +910,7 @@
     "finnish": "Pystytkö juoksemaan nopeasti?",
     "english": "Can you run fast?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -904,7 +920,7 @@
     "finnish": "Lasten pitäisi leikkiä ulkona.",
     "english": "Children should play outside.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -912,10 +928,10 @@
   {
     "id": "580961",
     "spanish": "¿Los fantasmas existen de verdad?",
-    "finnish": "Onko aaveita oikeasti olemassa?",
+    "finnish": "Onko kummituksia oikeasti olemassa?",
     "english": "Do ghosts really exist?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -925,8 +941,9 @@
     "finnish": "Juhlimme hänen syntymäpäiviään.",
     "english": "We celebrated his birthday.",
     "wordCount": 3,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -935,7 +952,7 @@
     "finnish": "Sinä olet minun ystävä.",
     "english": "You are my friend.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -945,7 +962,7 @@
     "finnish": "Sinä olet minun ystävä.",
     "english": "You are my friend.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -955,7 +972,7 @@
     "finnish": "Sinä olet minun ystävä.",
     "english": "You're my friend.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -965,7 +982,7 @@
     "finnish": "Puistossa oli paljon ihmisiä.",
     "english": "There were a lot of people in the park.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -975,7 +992,7 @@
     "finnish": "Et ole vielä pessyt käsiäsi, vai?",
     "english": "You haven't washed your hands yet, have you?",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -985,7 +1002,7 @@
     "finnish": "Ne eivät ole minun kirjojani.",
     "english": "They aren't my books.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -995,7 +1012,7 @@
     "finnish": "Kenen kirjoja nämä ovat?",
     "english": "Whose books are these?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1005,7 +1022,7 @@
     "finnish": "Tomi ja Joni ovat hyviä ystäviä.",
     "english": "Tom and John are good friends.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1015,7 +1032,7 @@
     "finnish": "Mikä tahansa kirja kelpaa.",
     "english": "Any book will do.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1025,7 +1042,7 @@
     "finnish": "Opettajamme kertoi meille, mitä meidän tulisi lukea.",
     "english": "Our teacher told us what to read.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1035,7 +1052,7 @@
     "finnish": "Pidät englannista, eikö totta?",
     "english": "You like English, don't you?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1045,7 +1062,7 @@
     "finnish": "Näen kirjan.",
     "english": "I see a book.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1055,7 +1072,7 @@
     "finnish": "En halua lukea tätä kirjaa.",
     "english": "I don't want to read this book.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1063,9 +1080,9 @@
     "id": "631463",
     "spanish": "Deberías decir la verdad.",
     "finnish": "Sinun pitäisi kertoa totuus.",
-    "english": "You should tell the truth.",
+    "english": "You ought to just tell the truth.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1075,7 +1092,7 @@
     "finnish": "Tämä kirja on hyvin uusi.",
     "english": "This book is very new.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1085,8 +1102,9 @@
     "finnish": "Annan sinulle polkypyörän syntymäpäivälahjaksi.",
     "english": "I will give you a bicycle for your birthday.",
     "wordCount": 9,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -1095,8 +1113,9 @@
     "finnish": "Annan sinulle polkypyörän syntymäpäivälahjaksi.",
     "english": "I will give you a bicycle for your birthday.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -1105,7 +1124,7 @@
     "finnish": "Sinä valehtelit minulle. Eikö niin?",
     "english": "You lied to me, didn't you?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1115,7 +1134,7 @@
     "finnish": "He osaavat uida.",
     "english": "They know how to swim.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1125,7 +1144,7 @@
     "finnish": "Minkä kirjan sinä ostit?",
     "english": "What book did you buy?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1135,7 +1154,7 @@
     "finnish": "En lue kirjoja.",
     "english": "I do not read books.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1145,7 +1164,7 @@
     "finnish": "Minulla on joitain kuvia näytettävänä sinulle.",
     "english": "I have some pictures to show you.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "travel",
       "leisure"
     ]
@@ -1156,7 +1175,7 @@
     "finnish": "Taivaalla voi nähdä tuhansittain tähtiä.",
     "english": "We can see thousands of stars in the sky.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1166,7 +1185,7 @@
     "finnish": "Tuo ei voi olla hyväksi terveydellesi, eihän?",
     "english": "That can't be good for your health, can it?",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -1177,8 +1196,9 @@
     "finnish": "Eilen oli Tomin syntymäpäivä.",
     "english": "Tom's birthday was yesterday.",
     "wordCount": 6,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -1187,7 +1207,7 @@
     "finnish": "Kysy häneltä milloin hän tulee takaisin.",
     "english": "Ask her when she will come back.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1197,7 +1217,7 @@
     "finnish": "Miten haastattelusi meni?",
     "english": "How did your interview go?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "work",
       "leisure"
     ]
@@ -1208,7 +1228,7 @@
     "finnish": "Pystyttekö ratkaista tämän ongelman?",
     "english": "Can you solve this problem?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1216,9 +1236,9 @@
     "id": "700062",
     "spanish": "Nuestro mundo es sólo una parte pequeña del universo.",
     "finnish": "Maailmamme on vain pieni osa universumia.",
-    "english": "Our world is only a tiny part of the universe.",
+    "english": "Our world is only a small part of the universe.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1228,7 +1248,7 @@
     "finnish": "Hän kirjoittaa kirjoja.",
     "english": "He writes books.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1238,7 +1258,7 @@
     "finnish": "Annoin sinulle kirjan.",
     "english": "I gave you a book.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1248,7 +1268,7 @@
     "finnish": "Menimme leikkimään puistoon.",
     "english": "We went to the park to play.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1258,7 +1278,7 @@
     "finnish": "Etsin lahjaa ystävälleni.",
     "english": "I'm looking for a gift for my friend.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1268,7 +1288,7 @@
     "finnish": "Tärkeätä on kuunnella huolellisesti.",
     "english": "The important thing is to listen carefully.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1278,7 +1298,7 @@
     "finnish": "Minulla on ystävä Englannissa.",
     "english": "I have a friend in England.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1288,7 +1308,7 @@
     "finnish": "Hän jatkoi kirjan lukemista.",
     "english": "He kept reading a book.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1298,9 +1318,10 @@
     "finnish": "Juna lähtee kymmenen minuutin kuluttua.",
     "english": "The train leaves in ten minutes.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -1309,7 +1330,7 @@
     "finnish": "Mary pitää television katselusta.",
     "english": "Mary likes watching TV.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1317,9 +1338,9 @@
     "id": "727656",
     "spanish": "Le gusta mucho la música.",
     "finnish": "Hän pitää paljon musiikista.",
-    "english": "He likes music very much.",
+    "english": "He is very fond of music.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1329,7 +1350,7 @@
     "finnish": "Osaatko uida?",
     "english": "Are you able to swim?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1339,27 +1360,29 @@
     "finnish": "En voi auttaa sinua.",
     "english": "I cannot help you.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "731207",
     "spanish": "Mañana es su cumpleaños.",
-    "finnish": "Huomenna on hänen syntymäpäivänsä.",
+    "finnish": "Hänellä on huomenna syntymäpäivä.",
     "english": "Tomorrow is her birthday.",
     "wordCount": 4,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
     "id": "731666",
     "spanish": "Él es mi mejor amigo.",
     "finnish": "Hän on paras ystäväni.",
-    "english": "He is my best friend.",
+    "english": "He's my best friend.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1367,9 +1390,9 @@
     "id": "733110",
     "spanish": "Quiero ir a ver una película.",
     "finnish": "Haluan mennä katsomaan elokuvan.",
-    "english": "I want to go to see a film.",
+    "english": "I want to go see a movie.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1377,9 +1400,9 @@
     "id": "741850",
     "spanish": "Este libro parece interesante.",
     "finnish": "Tämä kirja näyttää kiinnostavalta.",
-    "english": "This book seems interesting.",
+    "english": "This book looks interesting.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1389,7 +1412,7 @@
     "finnish": "Kenen kirja tämä on?",
     "english": "Whose is this book?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1399,7 +1422,7 @@
     "finnish": "Halusin mennä konserttiin.",
     "english": "I wanted to go to the concert.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1409,7 +1432,7 @@
     "finnish": "Hän ei osaa uida.",
     "english": "She can't swim.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1419,8 +1442,9 @@
     "finnish": "Hän luki tämän kirjan eilen.",
     "english": "He read this book yesterday.",
     "wordCount": 5,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -1429,7 +1453,7 @@
     "finnish": "Te olette saksalaisia, eikö vain?",
     "english": "You're Germans, aren't you?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1439,7 +1463,7 @@
     "finnish": "Te olette saksalaisia, eikö niin?",
     "english": "You're Germans, aren't you?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1449,7 +1473,7 @@
     "finnish": "Näetkö eron?",
     "english": "Can you see the difference?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1459,7 +1483,7 @@
     "finnish": "Kukaan ei tiedä totuutta.",
     "english": "Nobody knows the truth.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1469,7 +1493,7 @@
     "finnish": "Tomi kiitti minua lahjasta.",
     "english": "Tom thanked me for the gift.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "greetings",
       "leisure"
     ]
@@ -1480,17 +1504,17 @@
     "finnish": "Konsertissa oli paljon väkeä.",
     "english": "There were a lot of people at the concert.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "785237",
     "spanish": "Él es un amigo de mi hermano.",
-    "finnish": "Se on mun broidin kaveri.",
+    "finnish": "Hän on minun veljeni ystävä.",
     "english": "He's a friend of my brother's.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -1499,9 +1523,9 @@
     "id": "790558",
     "spanish": "Me alegro mucho de verte.",
     "finnish": "Todella mukavaa nähdä sua.",
-    "english": "I am very glad to see you.",
+    "english": "I'm very glad to see you.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1511,7 +1535,7 @@
     "finnish": "Laittaisitko television päälle?",
     "english": "Will you turn on the television?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1519,9 +1543,9 @@
     "id": "801656",
     "spanish": "Estoy leyendo un libro.",
     "finnish": "Minä luen kirjaa.",
-    "english": "I'm reading a book.",
+    "english": "I am reading a book.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1531,7 +1555,7 @@
     "finnish": "Koripallo on todella hauskaa.",
     "english": "Basketball is a lot of fun.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1541,7 +1565,7 @@
     "finnish": "Kävellessäni kadulla tapasin vanhan ystävän.",
     "english": "Walking along the street, I met an old friend.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1551,7 +1575,7 @@
     "finnish": "Veljeni pystyy juoksemaan todella nopeasti.",
     "english": "My brother can run very fast.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -1559,10 +1583,10 @@
   {
     "id": "831253",
     "spanish": "Elige un regalo con cuidado.",
-    "finnish": "Valitse lahja tarkkaan.",
+    "finnish": "Valitse lahja huolellisesti.",
     "english": "Choose a present carefully.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1572,7 +1596,7 @@
     "finnish": "Kirjoititko sinä tämän kirjan?",
     "english": "Did you write this book?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1582,7 +1606,7 @@
     "finnish": "Vitsailet, eikö niin?",
     "english": "You're joking, aren't you?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1592,7 +1616,7 @@
     "finnish": "Luin kirjaa.",
     "english": "I was reading a book.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1602,10 +1626,11 @@
     "finnish": "Ensimmäinen vuodenaika on kevät.",
     "english": "The first season of the year is spring.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "travel",
       "family",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -1614,7 +1639,7 @@
     "finnish": "Tiedän totuuden.",
     "english": "I know the truth.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1624,7 +1649,7 @@
     "finnish": "En halua auttaa sinua.",
     "english": "I don't want to help you.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1634,7 +1659,7 @@
     "finnish": "Hän sanoi totuuden.",
     "english": "He told the truth.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1644,7 +1669,7 @@
     "finnish": "Tuleeko hän koskaan takaisin?",
     "english": "Will he ever come back?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1654,7 +1679,7 @@
     "finnish": "Voit katsoa televisiota illallisen jälkeen.",
     "english": "You can watch television after dinner.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -1665,7 +1690,7 @@
     "finnish": "Kukaan ystävistäni ei juo kahvia.",
     "english": "None of my friends drink coffee.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -1676,7 +1701,7 @@
     "finnish": "Hän osaa uida.",
     "english": "He can swim.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1686,7 +1711,7 @@
     "finnish": "Minä pystyn lukea englanninkielistä tekstiä.",
     "english": "I am able to read English.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1696,7 +1721,7 @@
     "finnish": "Et näyttänyt tietävän totuutta.",
     "english": "You seemed not to know the truth.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1706,7 +1731,7 @@
     "finnish": "Polkupyörät ovat kesäaikaa varten.",
     "english": "Bicycles are for summertime.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1716,7 +1741,7 @@
     "finnish": "Tom ja minä olemme ystäviä.",
     "english": "Tom and I are friends.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1726,7 +1751,7 @@
     "finnish": "Haluan nähdä sen elokuvan uudestaan.",
     "english": "I want to see the movie again.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1736,7 +1761,7 @@
     "finnish": "Se on uusi kirja.",
     "english": "It's a new book.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1746,7 +1771,7 @@
     "finnish": "Jane vaikuttaa nauttivan juhlista.",
     "english": "Jane appears to be enjoying the party.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -1755,9 +1780,9 @@
     "id": "872275",
     "spanish": "¿Cuándo volverás?",
     "finnish": "Milloin palaat?",
-    "english": "When will you come back?",
+    "english": "When will you return?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1767,7 +1792,7 @@
     "finnish": "Pidän keväästä.",
     "english": "I like spring.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -1775,10 +1800,10 @@
   {
     "id": "879398",
     "spanish": "Necesito muchos libros.",
-    "finnish": "Tarvitsen paljon kirjoja.",
+    "finnish": "Tarvitsen monta kirjaa.",
     "english": "I need a lot of books.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1788,7 +1813,7 @@
     "finnish": "Saanko ottaa sinusta kuvan?",
     "english": "May I take your picture?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "travel",
       "leisure"
     ]
@@ -1799,7 +1824,7 @@
     "finnish": "Hän ei lue paljoa kirjoja.",
     "english": "He doesn't read many books.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1809,7 +1834,7 @@
     "finnish": "Tosisaksalainen ei siedä ranskalaisia, mutta kuitenkin juo näiden viinejä mielihyvin.",
     "english": "A true German can't stand the French, yet willingly he drinks their wines.",
     "wordCount": 15,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1819,7 +1844,7 @@
     "finnish": "Haluan, että isäni näkee sen elokuvan.",
     "english": "I want my father to see the movie.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -1830,8 +1855,9 @@
     "finnish": "Tom katsoi eilen TV:tä.",
     "english": "Tom watched TV yesterday.",
     "wordCount": 5,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -1840,18 +1866,21 @@
     "finnish": "Hän tuli eilen tapaamaan meitä.",
     "english": "She came to see us yesterday.",
     "wordCount": 4,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
     "id": "932232",
     "spanish": "Feliz cumpleaños.",
     "finnish": "Hyvää syntymäpäivää.",
-    "english": "Happy birthday to you!",
+    "english": "Happy birthday.",
     "wordCount": 2,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions",
+      "time"
     ]
   },
   {
@@ -1860,7 +1889,7 @@
     "finnish": "Elokuva on juuri alkamassa.",
     "english": "The movie's about to start.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1868,9 +1897,9 @@
     "id": "962624",
     "spanish": "Estoy muy avergonzado.",
     "finnish": "Hävettää kauheasti.",
-    "english": "I am deeply ashamed.",
+    "english": "I'm too ashamed.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1880,7 +1909,7 @@
     "finnish": "Jätän kirjat tähän.",
     "english": "I am leaving the books here.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1890,7 +1919,7 @@
     "finnish": "Toivon näkeväni sinut pian.",
     "english": "I hope to see you soon.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1900,7 +1929,7 @@
     "finnish": "Hänen unelmansa on ollut olla yliopistoprofessori.",
     "english": "It has been her dream to be a university professor.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1910,7 +1939,7 @@
     "finnish": "Osaisinpa uida.",
     "english": "I wish I could swim.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1920,7 +1949,7 @@
     "finnish": "Osaisinpa uida.",
     "english": "I wish I could swim.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1930,17 +1959,18 @@
     "finnish": "Palaan takaisin tunnin kuluttua.",
     "english": "I'll be back in an hour.",
     "wordCount": 4,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
     "id": "990767",
     "spanish": "Le gusta leer libros.",
     "finnish": "Hän lukee mielellään kirjoja.",
-    "english": "She likes to read books.",
+    "english": "He likes to read books.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1950,7 +1980,7 @@
     "finnish": "Tomi rakastaa klassisen musiikin kuuntelemista.",
     "english": "Tom loves listening to classical music.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1960,7 +1990,7 @@
     "finnish": "TV on päällä.",
     "english": "The TV's on.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1970,7 +2000,7 @@
     "finnish": "Mä lupaan auttaa sua.",
     "english": "I promise you I'll help you.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1980,7 +2010,7 @@
     "finnish": "Tämä kirja on minulle liian kallis.",
     "english": "This book is too expensive for me.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -1990,17 +2020,17 @@
     "finnish": "Sinun pitäisi käydä suihkussa.",
     "english": "You should shower.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "1066116",
     "spanish": "Estudio historia del arte.",
-    "finnish": "Opiskelen taidehistoriaa.",
+    "finnish": "Minä opiskelen taidehistoriaa.",
     "english": "I study art history.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2008,9 +2038,9 @@
     "id": "1068535",
     "spanish": "Me he leído el libro.",
     "finnish": "Minä olen lukenut sen kirjan.",
-    "english": "I've read the book.",
+    "english": "I have read the book.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2020,7 +2050,7 @@
     "finnish": "Hän ei tykkää jalkapallosta.",
     "english": "She doesn't like soccer.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2030,7 +2060,7 @@
     "finnish": "Koska ihminen on sosiaalinen eläin, ystävyys on olennainen osaa elämää.",
     "english": "As human beings are social animals, friendship is an essential part of life.",
     "wordCount": 16,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2040,7 +2070,7 @@
     "finnish": "Tom ei tiedä paljon taiteesta.",
     "english": "Tom doesn't know much about art.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2050,7 +2080,7 @@
     "finnish": "Tomi pystyy juosta yhtä nopeasti kuin Mari.",
     "english": "Tom can run as fast as Mary.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2060,7 +2090,7 @@
     "finnish": "Onko puutarhassa paljon kukkia?",
     "english": "Are there many flowers in the garden?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2068,9 +2098,9 @@
     "id": "1087823",
     "spanish": "¿Cómo se llama tu amigo?",
     "finnish": "Mikä sinun ystäväsi nimi on?",
-    "english": "What's your friend's name?",
+    "english": "What is your friend's name?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2080,7 +2110,7 @@
     "finnish": "Hän ei osaa uida.",
     "english": "He doesn't know how to swim.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2090,7 +2120,7 @@
     "finnish": "En ole nähnyt ketään paitsi sinut.",
     "english": "I have seen nobody apart from you.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2100,7 +2130,7 @@
     "finnish": "En pysty ostaa noin kallista kirjaa.",
     "english": "I can't buy a book this expensive.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2110,7 +2140,7 @@
     "finnish": "Puistossa on patsaita.",
     "english": "There are statues in the park.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2120,7 +2150,7 @@
     "finnish": "Kesä on lämpimin vuodenaika.",
     "english": "Summer is the hottest season.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2130,7 +2160,7 @@
     "finnish": "Tulin pelastamaan sinut.",
     "english": "I'm here to save you.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -2141,7 +2171,7 @@
     "finnish": "Todellinen ystävyys on mittaamattoman arvokas asia.",
     "english": "True friendship is priceless.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2149,9 +2179,9 @@
     "id": "1123596",
     "spanish": "A causa de la densa neblina, el camino era difícil de ver.",
     "finnish": "Paksun sumun vuoksi tietä oli vaikeaa nähdä.",
-    "english": "Because of the dense haze, the road was hard to see.",
+    "english": "Due to the thick fog, the road was difficult to see.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "travel",
       "leisure"
     ]
@@ -2162,7 +2192,7 @@
     "finnish": "Elokuvan tekeminen on jännittävää työtä.",
     "english": "Movie making is an exciting job.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "work",
       "leisure"
     ]
@@ -2173,7 +2203,7 @@
     "finnish": "En voi mennä takaisin heidän kanssaan.",
     "english": "I can't go back with them.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2183,7 +2213,7 @@
     "finnish": "Yllätyimme, kun näimme hänen haavansa.",
     "english": "We were astonished when we saw their wounds.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2193,7 +2223,7 @@
     "finnish": "Mikä on oikea aikomuksesi?",
     "english": "What's your real purpose?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2203,7 +2233,7 @@
     "finnish": "Ainoa ero huonon kokin ja myrkyttäjän välillä on aikomus.",
     "english": "The only difference between an awful cook and a poisoner is the intention.",
     "wordCount": 13,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2213,8 +2243,9 @@
     "finnish": "Älä koskaan ylitä katua, ennen kuin olet tarkistanut, että ei tule autoja.",
     "english": "Never cross the street without checking that no cars are coming.",
     "wordCount": 12,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -2223,7 +2254,7 @@
     "finnish": "Sinun ei ole pakko mennä niihin juhliin, jos et halua.",
     "english": "If you don't want to go to that party, you don't have to.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2233,7 +2264,7 @@
     "finnish": "Paksun sumun vuoksi katua oli vaikeaa nähdä.",
     "english": "Because of the thick fog, the road was hard to see.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2243,9 +2274,10 @@
     "finnish": "Olin poissa kotoa koko kesäloman ajan.",
     "english": "I was away from home all through the summer vacation.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "daily_life"
     ]
   },
   {
@@ -2254,10 +2286,11 @@
     "finnish": "Kirjoitin viime viikolla herra Woodille ja pyysin häntä antamaan sinulle töitä maatilalla.",
     "english": "I wrote last week to Mr. Wood and I asked him to give you a job on the farm.",
     "wordCount": 19,
-    "themes": [
+    "categories": [
       "food",
       "work",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -2266,8 +2299,10 @@
     "finnish": "Palataan ongelman yksityiskohtiin myöhemmin.",
     "english": "We'll return to the details of this problem later.",
     "wordCount": 9,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2276,7 +2311,7 @@
     "finnish": "Minulla on ystävä, jonka isä on tunnettu pianisti.",
     "english": "I have a friend whose father is a famous pianist.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -2285,19 +2320,19 @@
     "id": "1134612",
     "spanish": "Quiero ir a nadar.",
     "finnish": "Haluan mennä uimaan.",
-    "english": "I want to go for a swim.",
+    "english": "I want to go swimming.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "1135696",
     "spanish": "Papá, no puedo caminar más. Llévame.",
-    "finnish": "Isä, en pysty kävellä enää yhtään. Kanna minua.",
+    "finnish": "Isä, en jaksa kävellä enää yhtään. Kanna minua.",
     "english": "Daddy, I can't walk any more. Carry me.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "travel",
       "family",
       "leisure"
@@ -2309,7 +2344,7 @@
     "finnish": "Pidän vihreästä.",
     "english": "I like the green colour.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2319,9 +2354,11 @@
     "finnish": "Tomilla oli työhaastattelu tänä aamuna.",
     "english": "Tom had a job interview this morning.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "work",
-      "leisure"
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2330,7 +2367,7 @@
     "finnish": "Television katselu on hauskaa.",
     "english": "Watching TV is fun.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2340,8 +2377,9 @@
     "finnish": "Minun kotini on lähellä puistoa.",
     "english": "My house is close to the park.",
     "wordCount": 6,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "daily_life"
     ]
   },
   {
@@ -2350,7 +2388,7 @@
     "finnish": "Valitse sattumanvaraisesti kolme kirjaa.",
     "english": "Choose three books at random.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2360,7 +2398,7 @@
     "finnish": "Tämä tilanne on huvittava.",
     "english": "This situation is funny.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2370,8 +2408,9 @@
     "finnish": "Hän aina kertoi minulle totuuden.",
     "english": "He always told me the truth.",
     "wordCount": 5,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -2380,7 +2419,7 @@
     "finnish": "Jalkapallo on suositumpaa kuin tennis.",
     "english": "Football is more popular than tennis.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2390,7 +2429,7 @@
     "finnish": "Twitter ei ole oikea ystävä.",
     "english": "Twitter is not a real friend.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2400,7 +2439,7 @@
     "finnish": "Oletko lukenut kirjan loppuun?",
     "english": "Have you finished reading the book?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2410,8 +2449,9 @@
     "finnish": "Eilen kävin uimassa joessa.",
     "english": "I went to swim in the river yesterday.",
     "wordCount": 6,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -2420,7 +2460,7 @@
     "finnish": "Pystytkö uimaan yhtä nopeasti kuin hän?",
     "english": "Can you swim as fast as he?",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2430,7 +2470,7 @@
     "finnish": "Tämä ei ole totta.",
     "english": "This is not true.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2440,7 +2480,7 @@
     "finnish": "Hän kertoi minulle totuuden.",
     "english": "He told me the truth.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2450,7 +2490,7 @@
     "finnish": "Pystyn hädintuskin uida.",
     "english": "I can hardly swim.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2460,7 +2500,7 @@
     "finnish": "Onko elohopea todella metalli?",
     "english": "Is mercury really a metal?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2470,17 +2510,18 @@
     "finnish": "Harrastukseni on golfin pelaaminen.",
     "english": "My hobby is playing golf.",
     "wordCount": 5,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
     "id": "1268528",
     "spanish": "¿Qué puedo hacer para ayudarte?",
     "finnish": "Miten voin auttaa sinua?",
-    "english": "How can I help you?",
+    "english": "What can I do to help you?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2490,7 +2531,7 @@
     "finnish": "Tarvitsemme kaksikymmentä noppaa tämän pelin pelaamisessa.",
     "english": "We'll need twenty dice to play this game.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2500,7 +2541,7 @@
     "finnish": "Vihreä sopii sinulle.",
     "english": "Green suits you.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2510,7 +2551,7 @@
     "finnish": "Alkoi sataa.",
     "english": "It started to rain.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2520,7 +2561,7 @@
     "finnish": "Hallinto päätti siirtää yrityksen pääkonttorin Hawaijille.",
     "english": "The administration decided to move the home office of the company to Hawaii.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "work",
       "leisure"
     ]
@@ -2531,7 +2572,7 @@
     "finnish": "Luonnon tasapaino on hyvin hauras.",
     "english": "Nature's equilibrium is very fragile.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2541,7 +2582,7 @@
     "finnish": "Tom oli Maryn ainoa ystävä.",
     "english": "Tom was Mary's only friend.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2551,8 +2592,9 @@
     "finnish": "Ystäväni tottui siihen tapaan, kuinka asiat olivat Ranskassa noina päivinä.",
     "english": "My friend became accustomed to the way things were in France in those days.",
     "wordCount": 18,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -2561,7 +2603,7 @@
     "finnish": "Mä etsin lahjaa mun isälle.",
     "english": "I'm looking for a gift for my father.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -2572,7 +2614,7 @@
     "finnish": "Hän väitti, että hän oli palauttanut kirjan kirjastoon.",
     "english": "He claimed that he had returned the book to the library.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2582,7 +2624,7 @@
     "finnish": "Haluaisin suudella sinua.",
     "english": "I would like to kiss you.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2592,7 +2634,7 @@
     "finnish": "On hauskaa pelata baseballia.",
     "english": "Playing baseball is fun.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2602,7 +2644,7 @@
     "finnish": "Älä jätä televisiota päälle!",
     "english": "Don't leave the TV on.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2612,7 +2654,7 @@
     "finnish": "Kenelle sinä annat kirjan?",
     "english": "Who will you give the book to?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2622,7 +2664,7 @@
     "finnish": "Kaikki mitä minulla on, on eräs kirja.",
     "english": "All I have is a book.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2632,17 +2674,17 @@
     "finnish": "Hän lukee mielellään kirjoja.",
     "english": "He likes to read books.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "1324448",
     "spanish": "¡Pero qué hermoso jardín!",
-    "finnish": "Kuinka kaunis puutarha!",
+    "finnish": "Miten kaunis puutarha.",
     "english": "What a beautiful garden!",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2652,7 +2694,7 @@
     "finnish": "Kun löysin todellisen identiteettini, elämäni alkoi olla mielekästä.",
     "english": "When I found my true identity, my life began to make sense.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2662,7 +2704,7 @@
     "finnish": "Kirjaa voidaan verrata ystävään.",
     "english": "A book can be compared to a friend.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2672,7 +2714,7 @@
     "finnish": "Haluan kiivetä Fuji-vuoren uudestaan.",
     "english": "I want to climb Mt. Fuji again.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2682,7 +2724,7 @@
     "finnish": "Hänen teki mieli tanssia.",
     "english": "She felt like dancing.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2692,7 +2734,7 @@
     "finnish": "Tom kiinnostui musiikista, koska hänen naapurinsa oli melkoinen muusikko.",
     "english": "Tom became interested in music because his neighbor was quite a musician.",
     "wordCount": 13,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2702,7 +2744,7 @@
     "finnish": "Onko hän sinun ystäväsi?",
     "english": "Is he a friend of yours?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2712,7 +2754,7 @@
     "finnish": "Auton ajaminen on todella hauskaa.",
     "english": "It is a lot of fun to drive a car.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "travel",
       "leisure"
     ]
@@ -2723,7 +2765,7 @@
     "finnish": "Tosiystävä olisi auttanut minua.",
     "english": "A true friend would've helped me.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2733,17 +2775,17 @@
     "finnish": "Teatteri on tyhjä.",
     "english": "The theater is empty.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "1348679",
     "spanish": "Quiero bailar.",
-    "finnish": "Minä haluan tanssia.",
+    "finnish": "Haluan tanssia.",
     "english": "I want to dance.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2753,7 +2795,7 @@
     "finnish": "Voisik sä auttaa tän pöydän siirtämisen kaa?",
     "english": "Will you help me move this desk?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2763,7 +2805,7 @@
     "finnish": "Tom on ollut elokuvissa ja TV:ssä.",
     "english": "Tom has been in movies and on TV.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2773,7 +2815,7 @@
     "finnish": "Tomilla on laaja ystäväpiiri.",
     "english": "Tom has a wide circle of friends.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2783,7 +2825,7 @@
     "finnish": "Tomilla on maine olla kuuntelematta kenenkään neuvoja.",
     "english": "Tom has a reputation of never listening to anybody's advice.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2793,7 +2835,7 @@
     "finnish": "Tatoeba: ainoa paikka, jossa erilaisten heittomerkkien käyttäminen on kiistanalaista.",
     "english": "Tatoeba: the only place where the use of different apostrophes is controversial.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2803,7 +2845,7 @@
     "finnish": "Kuunteletko usein äänikirjoja?",
     "english": "Do you often listen to audiobooks?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2813,7 +2855,7 @@
     "finnish": "Leikkasin artikkelin lehdestä.",
     "english": "I cut the article out of the magazine.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -2821,10 +2863,10 @@
   {
     "id": "1384181",
     "spanish": "La señora Wood era muy buena cocinera.",
-    "finnish": "Rouva Woods oli erinomainen ruoanlaittaja.",
+    "finnish": "Rouva Woods oli todella hyvä laittamaan ruokaa.",
     "english": "Mrs. Wood was a very good cook.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2834,7 +2876,7 @@
     "finnish": "Voin laulaa sen englanniksi.",
     "english": "I can sing it in English.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2844,7 +2886,7 @@
     "finnish": "Pidän kaikenlaisesta musiikista.",
     "english": "I like all kinds of music.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2854,7 +2896,7 @@
     "finnish": "Hän tuli mustasukkaiseksi nähdessään hänet kävelevän toisen tytön kanssa.",
     "english": "It made her jealous to see him walking with another girl.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2864,7 +2906,7 @@
     "finnish": "Miksi et halua tulla kanssani elokuviin?",
     "english": "Why don't you want to come to the cinema with me?",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2874,7 +2916,7 @@
     "finnish": "Onko turvallista uida tässä joessa?",
     "english": "Is it safe to swim in this river?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2884,7 +2926,7 @@
     "finnish": "Katsoin pelin alusta loppuun.",
     "english": "I watched the game from beginning to end.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2894,7 +2936,7 @@
     "finnish": "Kaikki mitä sinun on tehtävä on keskittyä.",
     "english": "All you have to do is to concentrate.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2904,7 +2946,7 @@
     "finnish": "Minulla on vähemmän kirjoja kuin sinulla.",
     "english": "I have fewer books than you.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2914,7 +2956,7 @@
     "finnish": "Kuinka maailmankaikkeus muodostui?",
     "english": "How was the universe formed?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2924,7 +2966,7 @@
     "finnish": "Olen juuri aloittanut tenniksen pelaamisen.",
     "english": "I've just started playing tennis.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2934,7 +2976,7 @@
     "finnish": "Tomi ei uskaltanut kertoa Marille totuutta.",
     "english": "Tom didn't have the courage to tell Mary the truth.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2944,7 +2986,7 @@
     "finnish": "Hän pitää tv:n katsomisesta.",
     "english": "He likes watching TV.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2954,7 +2996,7 @@
     "finnish": "Tomi meni huvipuistoon.",
     "english": "Tom went to an amusement park.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2964,7 +3006,7 @@
     "finnish": "Tomi oli häpeissään.",
     "english": "Tom was embarrassed.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2974,7 +3016,7 @@
     "finnish": "En osaa lukea ranskaa.",
     "english": "I cannot read French.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -2984,8 +3026,9 @@
     "finnish": "Sinun kanssa on kesä vuoden ympäri.",
     "english": "With you it's summer all year round.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -2994,7 +3037,7 @@
     "finnish": "John on paras ystäväni.",
     "english": "John is my best friend.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3004,7 +3047,7 @@
     "finnish": "Luen tätä kirjaa.",
     "english": "I'm reading this book.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3014,7 +3057,7 @@
     "finnish": "Uiminen on terveellistä.",
     "english": "Swimming is healthy.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -3025,7 +3068,7 @@
     "finnish": "Mitä olet tehnyt kirjoilla?",
     "english": "What have you done with the books?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3035,8 +3078,9 @@
     "finnish": "Hän tulee tapaamaan meitä jonain päivänä.",
     "english": "He will come to see us some day.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -3045,7 +3089,7 @@
     "finnish": "Viholliseni vihollinen on ystäväni.",
     "english": "The enemy of my enemy is my friend.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3055,8 +3099,9 @@
     "finnish": "Me käytiin leffassa eilen.",
     "english": "Yesterday we went to the movies.",
     "wordCount": 4,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -3065,7 +3110,7 @@
     "finnish": "Palautitko Tomin kirjan?",
     "english": "Did you return Tom's book?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3075,7 +3120,7 @@
     "finnish": "Kaikki mitä hän sanoi oli totta.",
     "english": "All he said was true.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3085,7 +3130,7 @@
     "finnish": "Harjoitatko mitään urheilua?",
     "english": "Do you play any sports?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3093,9 +3138,9 @@
     "id": "1510050",
     "spanish": "Tendrás que esperar y ver.",
     "finnish": "Sinun on odotettava ja katsottava.",
-    "english": "You'll have to wait and see.",
+    "english": "You will have to wait and see.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3105,7 +3150,7 @@
     "finnish": "Kävitkö kirjamessuilla?",
     "english": "Did you go to the book fair?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3115,7 +3160,7 @@
     "finnish": "Hän poimi erilleen parhaan kirjan.",
     "english": "He picked out the best book.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3125,17 +3170,18 @@
     "finnish": "Hän on takaisin kymmenessä minuutissa.",
     "english": "He will be back in ten minutes.",
     "wordCount": 5,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
     "id": "1544119",
     "spanish": "Tom no tuvo nada que ver con el robo.",
     "finnish": "Tomilla ei ollut mitään tekemistä varkauden kanssa.",
-    "english": "Tom had nothing to do with the theft.",
+    "english": "Tom had nothing to do with the robbery.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3145,7 +3191,7 @@
     "finnish": "Hän kirjoittaa musiikkia elannokseen.",
     "english": "She writes music for a living.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3155,7 +3201,7 @@
     "finnish": "Mikään siitä mitä Tom sanoi, ei ollut totta.",
     "english": "None of what Tom said was true.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3165,8 +3211,9 @@
     "finnish": "Tom ei koskaan lukenut Maryn hänelle antamaa kirjaa.",
     "english": "Tom never read the book that Mary gave him.",
     "wordCount": 9,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -3175,7 +3222,7 @@
     "finnish": "Tapaan sinut tavallisessa paikassa.",
     "english": "I'll meet you at the usual place.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3183,9 +3230,9 @@
     "id": "1579880",
     "spanish": "Eso no es verdad.",
     "finnish": "Se ei ole totta.",
-    "english": "That isn't true.",
+    "english": "That is not true.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3195,7 +3242,7 @@
     "finnish": "Pienet lapset pitävät usein lohikäärmeistä ja muista hirviöistä kertovista kirjoista.",
     "english": "Small children often like books about dragons and other monsters.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -3206,7 +3253,7 @@
     "finnish": "En tiedä milloin äitini palaa takaisin.",
     "english": "I don't know when my mother will come back.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -3217,7 +3264,7 @@
     "finnish": "Meistä ja Tomista on tullut ystäviä.",
     "english": "We have made friends with Tom.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3227,17 +3274,18 @@
     "finnish": "Hänen ainoa vapaa-ajan harrastuksensa on kerätä postimerkkejä.",
     "english": "Her only hobby is collecting stamps.",
     "wordCount": 6,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
     "id": "1586766",
     "spanish": "Son los libros de mi abuelo.",
-    "finnish": "Ne ovat isoisäni kirjoja.",
+    "finnish": "Ne ovat minun isoisäni kirjoja.",
     "english": "They are my grandfather's books.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -3248,7 +3296,7 @@
     "finnish": "Palaan seitsemältä.",
     "english": "I'll be back at seven o'clock.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3258,7 +3306,7 @@
     "finnish": "Kaikkialla oli verta.",
     "english": "There was blood everywhere.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3268,7 +3316,7 @@
     "finnish": "Katson ottelua kännykkäni näytöltä.",
     "english": "I'm watching the game on my cellphone.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -3279,7 +3327,7 @@
     "finnish": "Hallituksen pitäisi edistää yhteistä hyvää.",
     "english": "The government should promote common welfare.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3289,7 +3337,7 @@
     "finnish": "Auta minua siirtämään tämä kivi.",
     "english": "Help me move this stone.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3297,9 +3345,9 @@
     "id": "1639098",
     "spanish": "¿Te divertiste?",
     "finnish": "Oliko sinulla hauskaa?",
-    "english": "Did you have a good time?",
+    "english": "Did you have fun?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3309,7 +3357,7 @@
     "finnish": "Minulla ei ole mitään aikeita häiritä sinua.",
     "english": "I have no intention whatever of disturbing you.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3319,7 +3367,7 @@
     "finnish": "Tykkään kavereistani.",
     "english": "I like my friends.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3329,8 +3377,9 @@
     "finnish": "Vietin koko viikon yksin ja kaipasin keskustelua.",
     "english": "I spent the whole week alone, and I longed for conversation.",
     "wordCount": 9,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -3339,7 +3388,7 @@
     "finnish": "Laita kirjan toisten päälle.",
     "english": "Put this book on top of the others.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3349,7 +3398,7 @@
     "finnish": "Hän päätti, ettei mene juhliin.",
     "english": "He decided not to go to the party.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3359,7 +3408,7 @@
     "finnish": "Tomi piilotti kirjan tyynynsä alle.",
     "english": "Tom hid the book below his pillow.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3367,9 +3416,9 @@
     "id": "1686431",
     "spanish": "Tom escondió el libro debajo de su almohada.",
     "finnish": "Tomi piilotti kirjan tyynynsä alle.",
-    "english": "Tom hid the book below his pillow.",
+    "english": "Tom hid the book under his pillow.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3379,7 +3428,7 @@
     "finnish": "Sinä et ole enää minun ystäväni.",
     "english": "You're not my friend anymore.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3389,7 +3438,7 @@
     "finnish": "Jos haluat olla ystäväni, ole myös ystävieni ystävä.",
     "english": "If you want to become my friend, then also become the friend of my friend.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3399,7 +3448,7 @@
     "finnish": "En käy elokuvissa yksin, koska minusta on mukavaa elokuvan jälkeen jutella siitä jonkun kanssa.",
     "english": "I don't go to the theater alone, because after the movie I like to talk about it with someone.",
     "wordCount": 18,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3409,7 +3458,7 @@
     "finnish": "Älkää laittako konsolia muuhun kuin pysty- tai vaakasuoraan asentoon.",
     "english": "Do not set the console other than in the vertical or horizontal position.",
     "wordCount": 13,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3419,7 +3468,7 @@
     "finnish": "Näin elokuvan ja minusta se oli mielenkiintoinen.",
     "english": "I saw the film and found it interesting.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3429,7 +3478,7 @@
     "finnish": "Milloin palaat Italiaan?",
     "english": "When will you be back in Italy?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3439,7 +3488,7 @@
     "finnish": "Meg hankki monia uusia ystäviä.",
     "english": "Meg acquired many new friends.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3449,7 +3498,7 @@
     "finnish": "Meg hankki monia uusia ystäviä.",
     "english": "Meg acquired many new friends.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3459,8 +3508,10 @@
     "finnish": "Säätiedote sanoo, että huomenna iltapäivällä sataa.",
     "english": "The weather report says it will rain tomorrow afternoon.",
     "wordCount": 10,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -3469,7 +3520,7 @@
     "finnish": "Hän ei halua leikkiä leluillansa.",
     "english": "He doesn't want to play with his toys.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3479,7 +3530,7 @@
     "finnish": "Laittaako sinun vaimosi hyvää ruokaa?",
     "english": "Is your wife a good cook?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -3490,7 +3541,7 @@
     "finnish": "Hänen tarinansa julkaistiin eräässä lehdessä.",
     "english": "His story was published in a magazine.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3500,7 +3551,7 @@
     "finnish": "Tämä järvi vuorilla on niin kaunis, että sitä ei pysty sanoin kuvailla. Se on nähtävä omin silmin.",
     "english": "The beauty of this lake on the mountain can't be put into words; you have to see it with your own eyes.",
     "wordCount": 20,
-    "themes": [
+    "categories": [
       "travel",
       "leisure"
     ]
@@ -3509,19 +3560,21 @@
     "id": "1712775",
     "spanish": "No va a llover esta noche.",
     "finnish": "Tänä iltana ei sada.",
-    "english": "It's not going to rain tonight.",
+    "english": "It isn't going to rain tonight.",
     "wordCount": 6,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
     "id": "1713546",
     "spanish": "Comencé a escribir un libro.",
     "finnish": "Aloin kirjoittaa kirjaa.",
-    "english": "I started writing a book.",
+    "english": "I started to write a book.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3531,7 +3584,7 @@
     "finnish": "Hän käy lastentarhaa.",
     "english": "He goes to kindergarten.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3541,8 +3594,9 @@
     "finnish": "Kaikki talot tärähtelivät ja hälytykset soivat kaikkialla.",
     "english": "All the houses were shaking and alarms were ringing everywhere.",
     "wordCount": 11,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "daily_life"
     ]
   },
   {
@@ -3551,7 +3605,7 @@
     "finnish": "Tom pani telkkarin päälle.",
     "english": "Tom turned on the TV.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3561,7 +3615,7 @@
     "finnish": "Kysytään onko se totta.",
     "english": "Let's ask if it's true.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3571,8 +3625,9 @@
     "finnish": "En ole koskaan nähnyt niitä missään.",
     "english": "I have never seen them anywhere.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -3581,7 +3636,7 @@
     "finnish": "Olen lukenut monenlaisia kirjoja.",
     "english": "I've read many kinds of books.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3591,7 +3646,7 @@
     "finnish": "Kuuntelen musiikkia.",
     "english": "I'm listening to music.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3601,7 +3656,7 @@
     "finnish": "Minä aion lukea kirjaa.",
     "english": "I will read a book.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3611,7 +3666,7 @@
     "finnish": "Totuutta verrataan usein karvaaseen pilleriin.",
     "english": "The truth is often compared to a bitter pill.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3621,7 +3676,7 @@
     "finnish": "Tämä kirja on liian vaikea minulle.",
     "english": "This book is too difficult for me.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3631,8 +3686,9 @@
     "finnish": "Tom oli todella iloinen kuullessaan että Mary halusi tulla hänen juhliinsa.",
     "english": "Tom was really glad to hear that Mary wanted to come to his party.",
     "wordCount": 13,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions"
     ]
   },
   {
@@ -3641,7 +3697,7 @@
     "finnish": "Olin katsomassa televisiota, kun puhelin soi.",
     "english": "I was watching television when the telephone rang.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3651,7 +3707,7 @@
     "finnish": "Tom ja Mary ovat hyviä ystäviä.",
     "english": "Tom and Mary are good friends.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3661,7 +3717,7 @@
     "finnish": "Tarvitsen paljon kirjoja.",
     "english": "I need a lot of books.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3671,7 +3727,7 @@
     "finnish": "Äitini rakastaa musiikkia.",
     "english": "My mother loves music.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -3679,10 +3735,10 @@
   {
     "id": "1868659",
     "spanish": "La expansión del universo se está acelerando.",
-    "finnish": "Universumin laajeneminen kiihtyy.",
+    "finnish": "Maailmankaikkeuden laajeneminen kiihtyy.",
     "english": "The expansion of the universe is speeding up.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -3693,18 +3749,20 @@
     "finnish": "Tom osti lahjan Marille.",
     "english": "Tom bought Mary a present.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "1871853",
     "spanish": "El partido de fútbol es mañana.",
-    "finnish": "Jalkapallo-ottelu on huomenna.",
-    "english": "The soccer game is tomorrow.",
+    "finnish": "Futismatsi on huomenna.",
+    "english": "The football game is tomorrow.",
     "wordCount": 6,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -3713,7 +3771,7 @@
     "finnish": "Hän osaa uida todella nopeasti.",
     "english": "He is able to swim very fast.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3723,7 +3781,7 @@
     "finnish": "Hänen uusi elokuvansa kannataa katsoa.",
     "english": "His new film is worth seeing.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3733,7 +3791,7 @@
     "finnish": "Menin konserttiin Tomin kanssa.",
     "english": "I went to a concert with Tom.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3743,7 +3801,7 @@
     "finnish": "Hän haluaa oppia uimaan.",
     "english": "He wants to learn to swim.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3753,7 +3811,7 @@
     "finnish": "Hän haluaa oppia uimaan.",
     "english": "She wants to learn to swim.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3763,7 +3821,7 @@
     "finnish": "En pysty kävellä.",
     "english": "I can't walk.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "travel",
       "leisure"
     ]
@@ -3774,7 +3832,7 @@
     "finnish": "Haluaisin tietää lisää Tomista.",
     "english": "I'd like to know more about Tom.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3784,7 +3842,7 @@
     "finnish": "Kirjastossa on paljon kirjoja.",
     "english": "There are a lot of books in the library.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3794,7 +3852,7 @@
     "finnish": "Sinulla on paljon kirjoja.",
     "english": "You have many books.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3804,7 +3862,7 @@
     "finnish": "Missä puisto on?",
     "english": "Where's the park?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3814,7 +3872,7 @@
     "finnish": "Haluan selvittää kuka teki tämän.",
     "english": "I want to find out who did this.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3824,7 +3882,7 @@
     "finnish": "Haluan sinun taas olevan ystäväni.",
     "english": "I want you to be my friend again.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3832,9 +3890,9 @@
     "id": "2025257",
     "spanish": "Eres mi amiga.",
     "finnish": "Sinä olet minun ystävä.",
-    "english": "You are my friend.",
+    "english": "You're my friend.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3844,7 +3902,7 @@
     "finnish": "Mul on ikävä mun kavereita.",
     "english": "I miss my friends.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3854,7 +3912,7 @@
     "finnish": "Haluaisin kiittää sinua.",
     "english": "I'd like to thank you.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "greetings",
       "leisure"
     ]
@@ -3865,17 +3923,17 @@
     "finnish": "Mä en osaa tanssii.",
     "english": "I can't dance.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "2042217",
     "spanish": "Tu libro está aquí.",
-    "finnish": "Sun kirja on tässä.",
+    "finnish": "Kirjasi on tässä.",
     "english": "Your book is here.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3885,7 +3943,7 @@
     "finnish": "Minulla on ystävä, jonka isä on kuuluisa näyttelijä.",
     "english": "I have a friend whose father is a famous actor.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -3896,7 +3954,7 @@
     "finnish": "Olen nähnyt Tomin monta kertaa televisiossa.",
     "english": "I've seen Tom on TV many times.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3906,7 +3964,7 @@
     "finnish": "Näin hänet puistossa.",
     "english": "I saw him in the park.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3916,7 +3974,7 @@
     "finnish": "Tom osti lahjan Marille.",
     "english": "Tom bought Mary a present.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3926,7 +3984,7 @@
     "finnish": "Käyn harvoin elokuvissa.",
     "english": "I rarely go to the cinema.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3936,7 +3994,7 @@
     "finnish": "Osaatko tanssia?",
     "english": "Do you know how to dance?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3946,7 +4004,7 @@
     "finnish": "Haluan tanssia Maryn kanssa.",
     "english": "I want to dance with Mary.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3956,7 +4014,7 @@
     "finnish": "Haluan olla ystäväsi.",
     "english": "I want to be your friend.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3964,9 +4022,9 @@
     "id": "2090035",
     "spanish": "Tiene muchos amigos.",
     "finnish": "Hänellä on paljon ystäviä.",
-    "english": "She has many friends.",
+    "english": "You have many friends.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3976,17 +4034,17 @@
     "finnish": "Olen täällä auttaakseni sinua.",
     "english": "I'm here to help you.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "2093156",
     "spanish": "Nadie va a lastimarte.",
-    "finnish": "Kukaan ei tee sinulle pahaa.",
-    "english": "Nobody is going to hurt you.",
+    "finnish": "Kukaan ei satuta sinua.",
+    "english": "No one will hurt you.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -3996,7 +4054,7 @@
     "finnish": "Tom ei ollut homoseksuaali, mutta Tomin ystävät kertoivat hänen tyttöystävälleen, että hän olisi.",
     "english": "Tom wasn't homosexual, but Tom's friends told Tom's girlfriend Tom was gay.",
     "wordCount": 17,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4006,7 +4064,7 @@
     "finnish": "Hän on minun paras ystäväni.",
     "english": "She's my best friend.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4016,7 +4074,7 @@
     "finnish": "Haluatko katsoa baseball-ottelun TV:stä?",
     "english": "Do you want to watch the baseball game on TV?",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4026,8 +4084,9 @@
     "finnish": "Ajattelin, että olisi mukavaa yllättää Tomi.",
     "english": "I thought it'd be fun to surprise Tom.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions"
     ]
   },
   {
@@ -4036,7 +4095,7 @@
     "finnish": "Ajattelin pelin menneen ohi.",
     "english": "I thought the game was over.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4046,7 +4105,7 @@
     "finnish": "Pesäpallon pelaaminen on kiinnostavaa.",
     "english": "It is interesting to play basketball.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4056,8 +4115,10 @@
     "finnish": "Kenen luulet katsoneen tv:tä tässä huoneessa eilen illalla?",
     "english": "Who do you think was watching TV in this room last night?",
     "wordCount": 14,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4066,7 +4127,7 @@
     "finnish": "Se kirja myy hyvin.",
     "english": "This book sells well.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4074,9 +4135,9 @@
     "id": "2142878",
     "spanish": "Tom le compró un regalo a Mary.",
     "finnish": "Tom osti lahjan Marille.",
-    "english": "Tom bought a gift for Mary.",
+    "english": "Tom bought Mary a gift.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4086,7 +4147,7 @@
     "finnish": "Tom osti lahjan Marille.",
     "english": "Tom bought a gift for Mary.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4096,7 +4157,7 @@
     "finnish": "Tänä kesänä matkustamme vuorille ja meren rannalle.",
     "english": "This summer we'll go to the mountains and to the sea.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "travel",
       "leisure"
     ]
@@ -4107,7 +4168,7 @@
     "finnish": "Marsilla on kaksi kuuta.",
     "english": "Mars has two moons.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4117,7 +4178,7 @@
     "finnish": "Tomi ei pysty auttaa sinua.",
     "english": "Tom can't help you.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4127,7 +4188,7 @@
     "finnish": "Pelaan tennistä aina sunnuntaisin.",
     "english": "I play tennis every Sunday.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4137,7 +4198,7 @@
     "finnish": "Voin laulaa sen englanniksi.",
     "english": "I can sing it in English.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4147,7 +4208,7 @@
     "finnish": "Pystytkö näkemään kuvan?",
     "english": "Can you see the picture?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4157,7 +4218,7 @@
     "finnish": "Minulla ei ole yhtäkään ystävää.",
     "english": "I don't have any friends.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4165,9 +4226,9 @@
     "id": "2220605",
     "spanish": "Te doy un libro.",
     "finnish": "Annan sinulle kirjan.",
-    "english": "I'm giving you a book.",
+    "english": "I give you a book.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4177,17 +4238,17 @@
     "finnish": "Olet ystävä.",
     "english": "You're a friend.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "2246845",
     "spanish": "No te olvides de tomarte tus pastillas.",
-    "finnish": "Älä unohda ottaa pillereitäsi.",
+    "finnish": "Älä unohda ottaa sun pillereitä.",
     "english": "Don't forget to take your pills.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4197,7 +4258,7 @@
     "finnish": "En voi auttaa sinua tässä.",
     "english": "I can't help you with this.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4205,9 +4266,9 @@
     "id": "2253453",
     "spanish": "Ese libro está lleno de errores.",
     "finnish": "Tuo kirja on virheitä täynnä.",
-    "english": "That book is full of mistakes.",
+    "english": "This book is full of mistakes.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4217,7 +4278,7 @@
     "finnish": "Olen ollut kerran televisiossa, mutta kukaan ei usko minua.",
     "english": "I appeared on television once, but nobody believes me.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -4228,7 +4289,7 @@
     "finnish": "Ole kiltti ja lopeta laulaminen.",
     "english": "Please stop singing.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "greetings",
       "leisure"
     ]
@@ -4239,7 +4300,7 @@
     "finnish": "Kerron sinulle elämäntarinani niin kuin se oikeasti oli.",
     "english": "I will tell you my life story how it truly was.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4249,7 +4310,7 @@
     "finnish": "Onko sinulla paljon ystäviä täällä Japanissa?",
     "english": "Do you have many friends here in Japan?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4259,7 +4320,7 @@
     "finnish": "Ystäväni on puhelias henkilö.",
     "english": "My friend is a talkative person.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4267,9 +4328,9 @@
     "id": "2344180",
     "spanish": "No creo que sea verdad.",
     "finnish": "En usko, että se on totta.",
-    "english": "I don't think that's true.",
+    "english": "I don't think it's true.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4279,7 +4340,7 @@
     "finnish": "Musiikki ei ole kieli. Mutta eräät kielet ovat musiikkia korvilleni.",
     "english": "Music is not a language. But some languages are music to my ears.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4289,7 +4350,7 @@
     "finnish": "Musiikki ei ole kieli. Mutta eräät kielet ovat musiikkia korvilleni.",
     "english": "Music is not a language. But some languages are music to my ears.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4299,9 +4360,11 @@
     "finnish": "Kirja on pöydällä.",
     "english": "The book is on the table.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4310,9 +4373,11 @@
     "finnish": "Kirja on pöydällä.",
     "english": "The book is on the table.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4321,7 +4386,7 @@
     "finnish": "Totta vai tarua?",
     "english": "True or false?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4331,7 +4396,7 @@
     "finnish": "Yamamoto on eräs ystävistäni.",
     "english": "Yamamoto is one of my friends.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4341,17 +4406,17 @@
     "finnish": "Tom haluaa tappaa sinut, Mari.",
     "english": "Tom wants to kill you, Mary.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "2409295",
     "spanish": "Puedo mostrarte las fotos.",
-    "finnish": "Mä voin näyttää sulle ne kuvat.",
+    "finnish": "Voin näyttää sinulle kuvat.",
     "english": "I can show you the pictures.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "travel",
       "leisure"
     ]
@@ -4362,7 +4427,7 @@
     "finnish": "Voiko sellaista sattua uudestaan?",
     "english": "Can such a thing happen again?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4372,7 +4437,7 @@
     "finnish": "Tom kastelee puutarhaansa.",
     "english": "Tom is watering his garden.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4382,7 +4447,7 @@
     "finnish": "Annan sinulle lahjan.",
     "english": "I'll give you a present.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4392,7 +4457,7 @@
     "finnish": "Minulla on kymmenen kertaa enemmän kirjoja kuin sinulla.",
     "english": "I have ten times as many books as you have.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4402,8 +4467,9 @@
     "finnish": "Olen hyvin tyytyväinen videon toiseen osaan.",
     "english": "I am very pleased with the second part of the video.",
     "wordCount": 9,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions"
     ]
   },
   {
@@ -4412,7 +4478,7 @@
     "finnish": "Minulla on ystävä.",
     "english": "I have a friend.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4422,7 +4488,7 @@
     "finnish": "Minun pitää juosta.",
     "english": "I must run.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4432,8 +4498,10 @@
     "finnish": "Näin hänet kävelyllä puistossa keskiyöllä.",
     "english": "I saw her taking a walk in the park at midnight.",
     "wordCount": 9,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4442,7 +4510,7 @@
     "finnish": "Harvat aarteet ovat yhtä arvokkaita kuin ystävä.",
     "english": "Few treasures are worth as much as a friend.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4452,7 +4520,7 @@
     "finnish": "Olen yksi tanssijoista.",
     "english": "I'm one of the dancers.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4462,7 +4530,7 @@
     "finnish": "Hänen kirjansa on todella mielenkiintoinen.",
     "english": "Her book is very interesting.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4472,7 +4540,7 @@
     "finnish": "Tomi antoi Marille kirjan, joka kertoo Australiasta.",
     "english": "Tom gave Mary a book about Australia.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4482,8 +4550,9 @@
     "finnish": "Et vaikuta kovin iloiselta nähdessäsi minut.",
     "english": "You don't seem too happy to see me.",
     "wordCount": 6,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions"
     ]
   },
   {
@@ -4492,7 +4561,7 @@
     "finnish": "Mikä on todellinen syy sille, että et halua tehdä tätä?",
     "english": "What's the real reason you don't want to do this?",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4502,7 +4571,7 @@
     "finnish": "Kahdestakymmenestä oppilaasta vain yksi on lukenut kirjan.",
     "english": "Out of twenty students, only one has read the book.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4512,7 +4581,7 @@
     "finnish": "En ole varma haluanko nähdä tämän.",
     "english": "I'm not sure I want to see this.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4522,7 +4591,7 @@
     "finnish": "Haluan puhua sinun kanssasi jostain muusta.",
     "english": "I want to talk to you about something else.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4532,7 +4601,7 @@
     "finnish": "Haluan näyttää sinulle jotakin toimistossani.",
     "english": "I want to show you something in my office.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "work",
       "leisure"
     ]
@@ -4540,10 +4609,10 @@
   {
     "id": "2667281",
     "spanish": "Lo devolveré.",
-    "finnish": "Annan sen takaisin.",
+    "finnish": "Minä annan sen takaisin.",
     "english": "I'll give it back.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4553,7 +4622,7 @@
     "finnish": "Haluan nähdä enemmän.",
     "english": "I want to see more.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4561,9 +4630,9 @@
     "id": "2679852",
     "spanish": "Tú no hablas mucho, ¿verdad?",
     "finnish": "Sinä et paljoa puhu, eikö vain?",
-    "english": "You don't talk a lot, do you?",
+    "english": "You don't talk much, do you?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4571,9 +4640,9 @@
     "id": "2680630",
     "spanish": "No estoy seguro de querer ver esto.",
     "finnish": "En ole varma haluanko nähdä tämän.",
-    "english": "I'm not sure I want to see this.",
+    "english": "I am not sure that I want to see that.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4583,7 +4652,7 @@
     "finnish": "He ovat ystäviäni.",
     "english": "They're my friends.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4593,7 +4662,7 @@
     "finnish": "He ovat ystäviäni.",
     "english": "They're my friends.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4603,7 +4672,7 @@
     "finnish": "Te olette minun ystäviäni.",
     "english": "You're my friends.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4613,7 +4682,7 @@
     "finnish": "Elämä on lahja.",
     "english": "Life is a gift.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4623,17 +4692,18 @@
     "finnish": "Älä unohda pestä käsiä.",
     "english": "Don't forget to wash your hands.",
     "wordCount": 5,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "daily_life"
     ]
   },
   {
     "id": "2733338",
     "spanish": "¿Cómo estuvo la fiesta?",
     "finnish": "Miten juhla sujui?",
-    "english": "How was the party?",
+    "english": "How did the party go?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4643,8 +4713,9 @@
     "finnish": "Tulen antamaan sinulle pyörän syntymäpäiväksesi.",
     "english": "I'm going to give you a bike for your birthday.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -4653,17 +4724,17 @@
     "finnish": "Kuinka monta Facebook-kaveria sinulla on?",
     "english": "How many friends do you have on Facebook?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "2783563",
     "spanish": "Me gusta leer novelas americanas.",
-    "finnish": "Luen kernaasti amerikkalaisia romaaneja.",
+    "finnish": "Luen mielelläni amerikkalaisia romaaneja.",
     "english": "I like reading American novels.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4673,7 +4744,7 @@
     "finnish": "Minä olen ystäväsi, eikö niin?",
     "english": "Am I your friend or not?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4681,9 +4752,9 @@
     "id": "2788128",
     "spanish": "Creo que ese libro está en la biblioteca.",
     "finnish": "Luulen, että se kirja löytyy kirjastosta.",
-    "english": "I believe that book is in the library.",
+    "english": "I think that book is in the library.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4693,18 +4764,20 @@
     "finnish": "Haluatko todella kupin kahvia näin myöhään illalla?",
     "english": "Do you really want a cup of coffee this late at night?",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
     "id": "2799996",
     "spanish": "Por lo general, mis amigos me llaman Freddy.",
     "finnish": "Ystäväni sanovat minua yleensä Freddyksi.",
-    "english": "My friends generally call me Freddy.",
+    "english": "In general my friends call me Freddy.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4714,7 +4787,7 @@
     "finnish": "Löysin lahjan tyynyni alta.",
     "english": "I found a gift underneath my pillow.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4724,7 +4797,7 @@
     "finnish": "Kirjasi muutti elämäni.",
     "english": "Your book has changed my life.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4734,7 +4807,7 @@
     "finnish": "Vihaan mykkäelokuvia.",
     "english": "I hate silent movies.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4744,7 +4817,7 @@
     "finnish": "Haluaisin opiskella kemiaa yliopistossa.",
     "english": "I'd like to study chemistry at college.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4754,7 +4827,7 @@
     "finnish": "Kuinka monta ihmistä on juhlissasi?",
     "english": "How many people are at your party?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4764,8 +4837,9 @@
     "finnish": "Liisan kesämökki on kuulemma palanut.",
     "english": "They say that Liisa's summer house burned down.",
     "wordCount": 10,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "daily_life"
     ]
   },
   {
@@ -4774,7 +4848,7 @@
     "finnish": "Moni petti ystävänsä rahan vuoksi.",
     "english": "Many betrayed their friends for money.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "work",
       "leisure"
     ]
@@ -4785,7 +4859,7 @@
     "finnish": "Television vuoksi pojat ja tytöt eivät halua lukea kirjoja.",
     "english": "Because of TV, boys and girls don't want to read books.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -4796,7 +4870,7 @@
     "finnish": "Tom ja Mary tapasivat olla ystäviä.",
     "english": "Tom and Mary used to be friends.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4806,7 +4880,7 @@
     "finnish": "Milloin ystäväsi lähti Amerikkaan?",
     "english": "When did your friend leave for America?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4816,7 +4890,7 @@
     "finnish": "En voi ostaa sinulle tuota mekkoa.",
     "english": "I can't buy you that dress.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4826,8 +4900,10 @@
     "finnish": "Televisiosta tulee huomenillalla elokuva, jonka tahdon katsoa.",
     "english": "There's a movie I want to watch on TV tomorrow night.",
     "wordCount": 12,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4836,7 +4912,7 @@
     "finnish": "Haluan nähdä tämän itse.",
     "english": "I want to see this myself.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4846,7 +4922,7 @@
     "finnish": "Tom ei pysty tulemaan poliisiksi.",
     "english": "Tom won't be able to become a policeman.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4856,7 +4932,7 @@
     "finnish": "Toivon että pystyn auttamaan sinua joskus toiste.",
     "english": "I hope that I will be able to help you at some other time.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4866,7 +4942,7 @@
     "finnish": "Jos menen juhliin, otan muutaman pullon viiniä.",
     "english": "If I go to the party, I'll take some bottles of wine.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -4877,7 +4953,7 @@
     "finnish": "Tulen palauttamaan tämän neulepuseron, koska se on liian iso.",
     "english": "I am going to return this sweater because it's too big.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4887,7 +4963,7 @@
     "finnish": "He kuulivat puheen, joka oli erityisesti kirjoitettu heitä varten.",
     "english": "They heard a speech written especially for them.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4897,8 +4973,9 @@
     "finnish": "Kaikki on nyt valmiina juhlaa varten.",
     "english": "Everything is ready now for the party.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -4907,7 +4984,7 @@
     "finnish": "Minut on lähetetty antamaan sinulle tämä.",
     "english": "I've been sent to give you this.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4917,7 +4994,7 @@
     "finnish": "Minua harmittaa, etteivät ystäväni ole täällä.",
     "english": "It annoys me that my friends aren't here.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -4928,8 +5005,10 @@
     "finnish": "Olen kesken tekemisen. Voisitko tulla takaisin myöhemmin?",
     "english": "I'm in the middle of something. Could you come back later?",
     "wordCount": 9,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4938,7 +5017,7 @@
     "finnish": "Näyttelijän kuolema oli jokaisen lehden otsikoissa.",
     "english": "The actor's death was in the headlines of every magazine.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4948,7 +5027,7 @@
     "finnish": "Ystävystyin ulkomaalaisen opiskelijan kanssa.",
     "english": "I made friends with a student from abroad.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4958,8 +5037,9 @@
     "finnish": "Saksantunnit pidetään kahdesti viikossa - maanantaisin ja keskiviikkoisin.",
     "english": "German classes are held twice a week - on Mondays and Wednesdays.",
     "wordCount": 14,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -4968,7 +5048,7 @@
     "finnish": "Tämä lista ei ole aakkosjärjestyksessä ja sitä on siksi vaikea lukea.",
     "english": "This list isn't in alphabetical order and because of that it's difficult to read.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4978,7 +5058,7 @@
     "finnish": "Menen ulos katsomaan ilotulitusta.",
     "english": "I'll go out and see the fireworks.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -4988,8 +5068,9 @@
     "finnish": "Hän näytti surulliselta kun hän luki kirjeen.",
     "english": "When she was reading the letter, she looked sad.",
     "wordCount": 8,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions"
     ]
   },
   {
@@ -4998,7 +5079,7 @@
     "finnish": "Linda meni puistoon kuuntelemaan musiikkia.",
     "english": "Linda went to the park to listen to music.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5008,7 +5089,7 @@
     "finnish": "Tämä kirja ei ole Tomin.",
     "english": "This book doesn't belong to Tom.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5018,7 +5099,7 @@
     "finnish": "On laitonta kopioida kirjoista ilman kirjailijan lupaa.",
     "english": "It is illegal to copy from books without the author's permission.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5028,7 +5109,7 @@
     "finnish": "Voit ostaa sen mistä tahansa kirjakaupasta.",
     "english": "You can buy it at any bookstore.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5038,7 +5119,7 @@
     "finnish": "Se elokuva oli paljon odotettua parempi.",
     "english": "The film was much better than expected.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5048,7 +5129,7 @@
     "finnish": "Paitsi kirjojen lainausta kirjastot tarjoavat lukuisia muita palveluita.",
     "english": "Besides lending books, libraries offer various other services.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5058,7 +5139,7 @@
     "finnish": "Miksei hän tullut juhliin?",
     "english": "Why didn't he come to the party?",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5068,7 +5149,7 @@
     "finnish": "Tom opettelee tanssimaan tangoa.",
     "english": "Tom is learning to dance the tango.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5078,9 +5159,11 @@
     "finnish": "Tomia ei huvita viedä koiraansa kävelylle tänä aamuna.",
     "english": "Tom doesn't feel like taking a walk with his dog this morning.",
     "wordCount": 13,
-    "themes": [
+    "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -5089,7 +5172,7 @@
     "finnish": "Anna minun tietää, kun keksit mikä se on.",
     "english": "Let me know when you find out what it is.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5099,7 +5182,7 @@
     "finnish": "Jos sinulla on tylsää, ehdotan, että menet elokuviin.",
     "english": "If you're bored, I suggest you go to the cinema.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5109,8 +5192,9 @@
     "finnish": "Viime aikoina minulla ei ole ollut lainkaan aikaa lukea kirjoja.",
     "english": "I haven't had any time to read books lately.",
     "wordCount": 10,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -5119,7 +5203,7 @@
     "finnish": "Miksi on välttämätöntä ratkaista konfliktit?",
     "english": "Why is it necessary to resolve conflicts?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5129,9 +5213,10 @@
     "finnish": "Rannalla voi viettää aikaa kavereiden kanssa.",
     "english": "On the beach you can spend time with your friends.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -5140,7 +5225,7 @@
     "finnish": "Tulin hyvin uneliaaksi pienen lukemisen jälkeen.",
     "english": "I became very sleepy after a bit of reading.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5150,7 +5235,7 @@
     "finnish": "Älä anna lasten katsoa tätä filmiä.",
     "english": "Don't let the kids watch this film.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -5161,8 +5246,9 @@
     "finnish": "Kuinka kauaksi aiot jäädä tänne Brasiliaan?",
     "english": "How long do you intend to stay here in Brazil?",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -5171,8 +5257,10 @@
     "finnish": "Hän haluaa pelata jalkapalloa tänä iltapäivänä.",
     "english": "He wants to play soccer this afternoon.",
     "wordCount": 6,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -5181,8 +5269,9 @@
     "finnish": "Kuwait kärsi vakavia vahinkoja.",
     "english": "Kuwait suffered severe damage.",
     "wordCount": 4,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -5191,8 +5280,9 @@
     "finnish": "Haluan antaa hänelle syntymäpäivälahjan.",
     "english": "I want to give him a present for his birthday.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -5201,7 +5291,7 @@
     "finnish": "On siinä vähän totuutta.",
     "english": "There is some truth in that.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5211,7 +5301,7 @@
     "finnish": "En voi antaa sinulle välitöntä vastausta.",
     "english": "I can not give you an immediate answer.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5221,7 +5311,7 @@
     "finnish": "Näytät todella hyvältä.",
     "english": "You look really good.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5231,8 +5321,9 @@
     "finnish": "Tapan sinut aikani tuhlaamisesta.",
     "english": "I'm going to kill you for wasting my time.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -5241,8 +5332,9 @@
     "finnish": "Tärkeätä on omistaa harrastus.",
     "english": "The important thing is to have your own hobby.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -5251,7 +5343,7 @@
     "finnish": "Tärkeätä ei ole voittaa peli vaan ottaa osaa siihen.",
     "english": "The important thing is not to win the game, but to take part in it.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5261,7 +5353,7 @@
     "finnish": "Se on kauheaa katsella.",
     "english": "It is horrible to see.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5271,7 +5363,7 @@
     "finnish": "Sateen loputtua menemme kävelylle.",
     "english": "When the rain stops, we'll go for a walk.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "travel",
       "leisure"
     ]
@@ -5282,7 +5374,7 @@
     "finnish": "Sain selville missä hän oli.",
     "english": "I found out where she was.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5292,7 +5384,7 @@
     "finnish": "Ole hyvä ja kerro miksi sinun tarvitsee jäädä tänne.",
     "english": "Please tell us why you need to stay here.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "greetings",
       "leisure"
     ]
@@ -5303,7 +5395,7 @@
     "finnish": "Tom toivoi että Mary ei saisi totuutta selville.",
     "english": "Tom was hoping Mary wouldn't find out the truth.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5313,7 +5405,7 @@
     "finnish": "Jo tuon laulun kuunteleminen saa minut ajattelemaan sinua.",
     "english": "Just listening to that song makes me think of you.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5323,7 +5415,7 @@
     "finnish": "Jousikvartetti harjoittelee seuraavassa huoneessa.",
     "english": "A string quartet is rehearsing in the next room.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5333,7 +5425,7 @@
     "finnish": "On vaikea erottaa totuus valheesta.",
     "english": "It is hard to distinguish truth from a lie.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5343,8 +5435,9 @@
     "finnish": "Mitkä ovat sinun harrastuksesi?",
     "english": "What are your hobbies?",
     "wordCount": 4,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -5353,7 +5446,7 @@
     "finnish": "Laulaisitko meille jonkin laulun ranskaksi?",
     "english": "Would you sing us a song in French?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5363,7 +5456,7 @@
     "finnish": "Et kerro totuutta.",
     "english": "You're not telling the truth.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5373,7 +5466,7 @@
     "finnish": "Minusta sinun pitäisi levätä. Näytät sairaalta.",
     "english": "I think you'd better take a rest; you look ill.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5383,7 +5476,7 @@
     "finnish": "Oliko sinulla hyvä kesä?",
     "english": "Did you have a good summer?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5393,7 +5486,7 @@
     "finnish": "Minä haluan pelata myös.",
     "english": "I also want to play.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5403,9 +5496,10 @@
     "finnish": "Todellako? Minulta se kesti tunnin junalla.",
     "english": "Really? It took me an hour by train.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -5414,7 +5508,7 @@
     "finnish": "En aio tavata ketään muita.",
     "english": "I'm not going to see anybody else.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5424,7 +5518,7 @@
     "finnish": "Tule katsomaan meitä.",
     "english": "Come to see us!",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5434,7 +5528,7 @@
     "finnish": "Kirja julkaistiin kirjailijan kuoleman jälkeen.",
     "english": "The book was published after the author's death.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5444,7 +5538,7 @@
     "finnish": "Haluaisin nähdä sen.",
     "english": "I'd like to see it.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5454,7 +5548,7 @@
     "finnish": "Tule juomaan kanssani lasi viiniä.",
     "english": "Come have a glass of wine with me.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -5465,8 +5559,9 @@
     "finnish": "Sinun ei pitäisi lukea noin heikossa valossa.",
     "english": "You shouldn't read in such poor light.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "daily_life"
     ]
   },
   {
@@ -5475,7 +5570,7 @@
     "finnish": "Tomilla on vaikeuksia ilmaista tosia tunteitaan.",
     "english": "Tom has trouble expressing his true feelings.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5485,7 +5580,7 @@
     "finnish": "Jos olet lukenut kirjan loppuun, palauta se kirjastoon.",
     "english": "If you have finished reading the book, return it to the library.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5495,7 +5590,7 @@
     "finnish": "Hänen kirjansa on punainen.",
     "english": "His book is red.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5505,7 +5600,7 @@
     "finnish": "Ryhmä yritti ratkaista sosiaalisia ongelmia.",
     "english": "The group tried to solve social problems.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5515,7 +5610,7 @@
     "finnish": "Annan ystävälleni kimpun kukkia.",
     "english": "I give my friend a bunch of flowers.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5525,17 +5620,17 @@
     "finnish": "Sade lakkasi.",
     "english": "The rain stopped.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "3173655",
     "spanish": "¡Para de quejarte!",
-    "finnish": "Lopeta valittaminen!",
+    "finnish": "Lakkaa valittamasta!",
     "english": "Quit complaining.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5545,7 +5640,7 @@
     "finnish": "Hän käänsi kirjan ranskasta englanniksi.",
     "english": "He translated the book from French into English.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5555,7 +5650,7 @@
     "finnish": "Ole kiltti ja jaa kortit.",
     "english": "Please deal the cards.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "greetings",
       "leisure"
     ]
@@ -5566,8 +5661,9 @@
     "finnish": "Yritän vain säästää aikaasi.",
     "english": "I'm only trying to save you time.",
     "wordCount": 5,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -5576,7 +5672,7 @@
     "finnish": "Olen kiinnostunut vain totuudesta.",
     "english": "I'm only interested in the truth.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5586,7 +5682,7 @@
     "finnish": "En ole varma että voin auttaa sinua.",
     "english": "I'm not sure that I can help you.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5596,7 +5692,7 @@
     "finnish": "Olen juuri nähnyt Marien puistossa.",
     "english": "I've just seen Marie at the park.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5606,8 +5702,9 @@
     "finnish": "Rakkauteni sinuun ei anna minun kertoa sinulle kaikkea. Jotkin asiat on parempi jättää sanomatta.",
     "english": "My love for you won't let me tell you everything. Some things are better left unsaid.",
     "wordCount": 15,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions"
     ]
   },
   {
@@ -5616,7 +5713,7 @@
     "finnish": "Veljeni on kiinnostunut siitä, mitä sanotaan popmusiikiksi.",
     "english": "My brother likes what they call pop music.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -5627,7 +5724,7 @@
     "finnish": "Tilasin Lontoosta joitakin kirjoja.",
     "english": "I ordered some books from London.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5637,7 +5734,7 @@
     "finnish": "En voisi tappaa sinua, Tom.",
     "english": "I couldn't kill you, Tom.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5647,7 +5744,7 @@
     "finnish": "Hän osaa paljon hauskoja taikatemppuja.",
     "english": "He knows many amusing magic tricks.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5657,7 +5754,7 @@
     "finnish": "Hänellä on silmää taiteelle.",
     "english": "He has a good eye for art.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5667,7 +5764,7 @@
     "finnish": "Ei ole mitään mieltä yrittää ratkaista tätä ongelmaa.",
     "english": "It is no use trying to solve this problem.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5677,7 +5774,7 @@
     "finnish": "Tiedän todellisen syyn hänen poissaoloonsa.",
     "english": "I know the real reason for his absence.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5687,7 +5784,7 @@
     "finnish": "Pidin siitä elokuvasta.",
     "english": "I liked that movie.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5697,7 +5794,7 @@
     "finnish": "Ravintola oli melko tyhjä, joten sain lukea rauhassa samalla kun söin.",
     "english": "The restaurant was fairly empty, so I could read in peace while I ate.",
     "wordCount": 13,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -5708,7 +5805,7 @@
     "finnish": "Tämä kirja on minulle sitä, mitä Raamattu on sinulle.",
     "english": "This book is to me what the Bible is to you.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5718,7 +5815,7 @@
     "finnish": "Tämä ongelma on todellinen haaste.",
     "english": "This problem is a real challenge.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5728,7 +5825,7 @@
     "finnish": "Haluaisin nähdä puut, joista poimit nämä omenat.",
     "english": "I would like to see the trees from which you picked these apples.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5738,7 +5835,7 @@
     "finnish": "Matematiikka on maailmankaikkeuden kieli.",
     "english": "Mathematics is the language of the universe.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5748,7 +5845,7 @@
     "finnish": "Tom piti elokuvasta paljon.",
     "english": "Tom liked the film a lot.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5758,7 +5855,7 @@
     "finnish": "Miten se liittyy Tomiin?",
     "english": "What does that have to do with Tom?",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5768,7 +5865,7 @@
     "finnish": "Tässä ovat ensimmäiset omassa puutarhassani kasvaneet tomaatit.",
     "english": "These are the first tomatoes from my garden.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5778,19 +5875,21 @@
     "finnish": "Voitko varmistaa, että Tom ilmestyy paikalle ajoissa?",
     "english": "Could you make sure Tom shows up on time?",
     "wordCount": 8,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
     "id": "3238095",
     "spanish": "Perdón por arruinar tu fiesta de cumpleaños.",
-    "finnish": "Anteeksi kun pilasin syntymäpäiväjuhlasi.",
+    "finnish": "Anteeksi, että pilasin syntymäpäiväjuhlasi.",
     "english": "I'm sorry for ruining your birthday party.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "greetings",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -5799,7 +5898,7 @@
     "finnish": "Haluaisin mennä katsomaan elokuvaa.",
     "english": "I'd like to go see a movie.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5809,7 +5908,7 @@
     "finnish": "Ensiksi en pitänyt siitä, mutta vähitellen se muuttui hauskaksi.",
     "english": "At first, I didn't like it, but it gradually became fun.",
     "wordCount": 13,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5819,7 +5918,7 @@
     "finnish": "Haluan sinun taas olevan ystäväni.",
     "english": "I want you to be my friend again.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5829,7 +5928,7 @@
     "finnish": "Monet astronomit olettavat avaruuden laajenevan rajattomasti.",
     "english": "Many astronomers assume that the universe expands infinitely.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -5840,7 +5939,7 @@
     "finnish": "Tuot mieleeni niin paljon ystäväni Marinan, loistavan venäjän opettajan.",
     "english": "You remind me so much of my friend Marina, a great teacher of Russian.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5850,18 +5949,19 @@
     "finnish": "Kuinka monta päivää meillä on jäljellä kunnes kesäloma alkaa?",
     "english": "How many days do we have left until summer vacation begins?",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
     "id": "3253280",
     "spanish": "¿Cuánto pesa una pelota de fútbol?",
-    "finnish": "Paljonko jalkapallo painaa?",
+    "finnish": "Kuinka paljon jalkapallo painaa?",
     "english": "How much does a soccer ball weigh?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5871,7 +5971,7 @@
     "finnish": "Rob, mene katsomaan TV:tä.",
     "english": "Rob, go watch TV.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5881,8 +5981,9 @@
     "finnish": "Koulussa oli kivaa tänään.",
     "english": "School was fun today.",
     "wordCount": 5,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -5891,8 +5992,10 @@
     "finnish": "Hän tulee pelaamaan tennistä huomisiltapäivänä.",
     "english": "He will be playing tennis tomorrow afternoon.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -5901,7 +6004,7 @@
     "finnish": "Tom kertoo kyllä totuuden.",
     "english": "Tom will tell the truth.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5911,8 +6014,9 @@
     "finnish": "Tom ei ilahtunut nähdessään Marin siellä.",
     "english": "Tom wasn't happy to see Mary there.",
     "wordCount": 9,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions"
     ]
   },
   {
@@ -5921,7 +6025,7 @@
     "finnish": "Tom oli läheisin ystäväni.",
     "english": "Tom was my closest friend.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5931,7 +6035,7 @@
     "finnish": "Vain harvat asiat tuottavat meille yhtä paljon nautintoa kuin musiikki.",
     "english": "Few things bring as much pleasure as music.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5941,7 +6045,7 @@
     "finnish": "Et ole kateellinen, vai kuinka?",
     "english": "You're not jealous, are you?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5951,7 +6055,7 @@
     "finnish": "Tom haluaa tappaa sinut, Mari.",
     "english": "Tom wants to kill you, Mary.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5961,8 +6065,9 @@
     "finnish": "Minä vain inhoa nähdä Tomin itkevän.",
     "english": "I just hate to see Tom cry.",
     "wordCount": 6,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions"
     ]
   },
   {
@@ -5971,7 +6076,7 @@
     "finnish": "Sinä olet kotoisin Bostonista, eikö niin?",
     "english": "You're from Boston, aren't you?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -5981,8 +6086,9 @@
     "finnish": "En voisi vihata sinua ikinä.",
     "english": "I could never hate you.",
     "wordCount": 3,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -5991,7 +6097,7 @@
     "finnish": "Tom työskenteli hengenpelastajana kesän ajan.",
     "english": "Tom worked as a lifeguard during the summer.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -6002,8 +6108,9 @@
     "finnish": "Tom vietti suurimman osan ajastaan kalastaen.",
     "english": "Tom passed most of the time fishing.",
     "wordCount": 9,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -6012,7 +6119,7 @@
     "finnish": "Kuulostaa siltä, että olet jutellut Tomin kanssa.",
     "english": "It sounds like you've been talking to Tom.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6022,7 +6129,7 @@
     "finnish": "Mitä Tom tekisi, jos hän saisi tietää totuuden?",
     "english": "What would Tom do if he ever learned the truth?",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6032,7 +6139,7 @@
     "finnish": "Tom on sulkeutunut ja ujo.",
     "english": "Tom is introverted and shy.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6042,7 +6149,7 @@
     "finnish": "Tämä kirja kertoo kuninkaasta, joka menettää kruununsa.",
     "english": "This book is about a king who loses his crown.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6052,8 +6159,9 @@
     "finnish": "Rakkaus on se, mitä en todellakaan halua menettää.",
     "english": "Love is what I really don't want to lose.",
     "wordCount": 9,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions"
     ]
   },
   {
@@ -6062,7 +6170,7 @@
     "finnish": "Miksi valtiovalta haluaa lukea sähköpostiani?",
     "english": "Why does the government want to read my emails?",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6072,7 +6180,7 @@
     "finnish": "Amerikkalaiset vihaavat musiikkia, mutta he rakastavat viihdettä.",
     "english": "Americans hate music, but love entertainment.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6082,7 +6190,7 @@
     "finnish": "En voinut jättää sinua yksin.",
     "english": "I couldn't leave you alone.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6092,7 +6200,7 @@
     "finnish": "Meidän täytyy näyttää sinulle jotain.",
     "english": "We need to show you something.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6102,7 +6210,7 @@
     "finnish": "Tiedän, että Tom on ystäväsi, mutta en silti pidä hänestä.",
     "english": "I know Tom is a friend of yours, but I still don't like him.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6112,7 +6220,7 @@
     "finnish": "Otetaan selvää siitä kuka tappoi Tomin.",
     "english": "Let's find out who killed Tom.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6122,8 +6230,9 @@
     "finnish": "Voisin suudella sinua juuri nyt.",
     "english": "I could kiss you right now.",
     "wordCount": 4,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -6132,7 +6241,7 @@
     "finnish": "Voisin määrätä sinut jäämään.",
     "english": "I could order you to stay.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6142,7 +6251,7 @@
     "finnish": "Haluan puhua sinulle Tomista.",
     "english": "I want to talk with you about Tom.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6152,7 +6261,7 @@
     "finnish": "Tom haluaa puhua kanssasi 2:30.",
     "english": "Tom wants to speak to you at 2:30.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6162,7 +6271,7 @@
     "finnish": "Miksi haluat, että menen tapaamaan Tomia.",
     "english": "Why do you want me to go see Tom?",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6172,7 +6281,7 @@
     "finnish": "Osaatko nimetä kaikki puutarhan puut?",
     "english": "Can you name all the trees in the garden?",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6182,7 +6291,7 @@
     "finnish": "Tämä kirja ei ole niin painava kuin tuo.",
     "english": "This book isn't as heavy as that one.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6192,7 +6301,7 @@
     "finnish": "Yritä varmistaa, että Tom ei tee mitään typerää.",
     "english": "Try to make sure Tom doesn't do something stupid.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6202,7 +6311,7 @@
     "finnish": "Onko sinulla mitään käsitystä siitä kuinka typerältä tämä saa sinut näyttämään?",
     "english": "Do you have any idea how stupid this makes you look?",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6212,7 +6321,7 @@
     "finnish": "Tämä koko juttu on todella typerä.",
     "english": "This whole thing is really stupid.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6222,7 +6331,7 @@
     "finnish": "Meidän olisi pitänyt varoittaa Tomia vaarasta.",
     "english": "We should've warned Tom of the danger.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6232,7 +6341,7 @@
     "finnish": "Tomilla ei ole mitään tekemistä tämän kanssa.",
     "english": "Tom has nothing to do with this.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6242,7 +6351,7 @@
     "finnish": "Tällä ei ole mitään tekemistä Tomin kanssa.",
     "english": "This has nothing to do with Tom.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6252,7 +6361,7 @@
     "finnish": "Vain koska hän pitää maalaamisesta, niin se ei tarkoita, että hän olisi hyvä siinä.",
     "english": "Just because he likes painting doesn't mean he's good at painting.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6262,7 +6371,7 @@
     "finnish": "Isäni nukkui koko elokuvan ajan.",
     "english": "My father slept through the movie.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -6273,7 +6382,7 @@
     "finnish": "En kyennyt näkemään yhtään tähteä taivaalla.",
     "english": "I couldn't see any stars in the sky.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6283,7 +6392,7 @@
     "finnish": "Aloitetaan konsertti!",
     "english": "Let the concert begin!",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6293,8 +6402,9 @@
     "finnish": "Olen kokeillut sitä muutaman päivän ja olen melko varma ettet sitä rakasta.",
     "english": "I've tried it for a few days, and I'm pretty sure you won't love it.",
     "wordCount": 15,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -6303,7 +6413,7 @@
     "finnish": "Sinun työsi on varmistaa, että Tom tekee työnsä oikein.",
     "english": "Your job is to make sure Tom does his job right.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "work",
       "leisure"
     ]
@@ -6314,7 +6424,7 @@
     "finnish": "Anna minun nähdä mitä sinulla on kädessäsi.",
     "english": "Let me see what's in your hand.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6324,7 +6434,7 @@
     "finnish": "Tomin on yhä maalattava aita loppuun.",
     "english": "Tom still has to finish painting the fence.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6334,8 +6444,9 @@
     "finnish": "Kreikan prinsessa Alice oli kuuro ja osasi lukea huulilta kolmea kieltä.",
     "english": "Princess Alice of Greece was deaf and could lip-read in three languages.",
     "wordCount": 13,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -6344,9 +6455,10 @@
     "finnish": "Isäni kuluttaa paljon aikaa harrastukseensa.",
     "english": "My father spends a lot of time on his hobby.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -6355,7 +6467,7 @@
     "finnish": "Luin hänen kirjansa.",
     "english": "I read his book.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6365,7 +6477,7 @@
     "finnish": "Se oli huono elokuva.",
     "english": "It was a bad movie.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6375,9 +6487,10 @@
     "finnish": "Aviomieheni ja minä olemme ajautuneet toisistamme erilleen ja nyt emme tiedä miten saisimme kehityskulun käännettyä toiseen suuntaan.",
     "english": "My husband and I, we have drifted apart, and now we don't know how to reverse the process.",
     "wordCount": 19,
-    "themes": [
+    "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -6386,7 +6499,7 @@
     "finnish": "Osaan lukea.",
     "english": "I can read.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6396,7 +6509,7 @@
     "finnish": "Tom osaa tanssia kuin robotti.",
     "english": "Tom can dance like a robot.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6406,7 +6519,7 @@
     "finnish": "Tom uskoo, että maailmankaukkeudessa on oikeasti yksitoista ulottuvuutta.",
     "english": "Tom believes that the universe really has eleven dimensions.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6416,8 +6529,9 @@
     "finnish": "Kerron sinulle totuuden nyt.",
     "english": "I'll tell you the truth now.",
     "wordCount": 5,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -6426,7 +6540,7 @@
     "finnish": "Meidän täytyy liikkua todella nopeasti.",
     "english": "We have to move very quickly.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6436,8 +6550,9 @@
     "finnish": "Tom tuskin koskaan katsoo TV:tä.",
     "english": "Tom hardly ever watches TV.",
     "wordCount": 5,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -6446,7 +6561,7 @@
     "finnish": "Tomilla oli vaivaa tilanteen selvittämisessä.",
     "english": "Tom had trouble resolving the situation.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6456,7 +6571,7 @@
     "finnish": "Tomilla oli vaikeuksia ystävystyä.",
     "english": "Tom had trouble making friends.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6466,7 +6581,7 @@
     "finnish": "Minulla on tili tuossa kirjakaupassa.",
     "english": "I have an account at that book shop.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6476,7 +6591,7 @@
     "finnish": "Mä lainaan sulle tän kirjan.",
     "english": "I'll lend you this book.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6486,7 +6601,7 @@
     "finnish": "Uin paljon kesälomalla.",
     "english": "I swam a lot during summer vacation.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "travel",
       "leisure"
     ]
@@ -6497,7 +6612,7 @@
     "finnish": "Lukekaa tämä kirja.",
     "english": "Read this book.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6507,7 +6622,7 @@
     "finnish": "Pidättekö uimisesta?",
     "english": "Do you like swimming?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6517,8 +6632,9 @@
     "finnish": "Inhoan tanssimista.",
     "english": "I hate dancing.",
     "wordCount": 2,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions"
     ]
   },
   {
@@ -6527,7 +6643,7 @@
     "finnish": "Inhoan tanssimista.",
     "english": "I hate dancing.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6537,7 +6653,7 @@
     "finnish": "Tiedätkö miksi kevätkääryleitä sanotaan kevätkääryleiksi?",
     "english": "Do you know why spring rolls are called spring rolls?",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -6548,17 +6664,17 @@
     "finnish": "Saamiesi muffinien lukumäärä on käänteisesti verrannollinen siihen, miten usein juttelet IRCissä.",
     "english": "The number of muffins that you'll receive will be inversely proportional to the number of times you talk on IRC.",
     "wordCount": 17,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "3718784",
     "spanish": "Tengo ganas de cantar en la lluvia.",
-    "finnish": "Minun tekee mieli laulaa sateessa.",
+    "finnish": "Minua haluttaa laulaa vesisateessa.",
     "english": "I feel like singing in the rain.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6568,17 +6684,17 @@
     "finnish": "Onko hän sinun ystäväsi?",
     "english": "Is he your friend?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "3771634",
     "spanish": "El fútbol es el deporte más popular en Brasil.",
-    "finnish": "Brasiliassa jalkapallo on suosituin urheilulaji.",
-    "english": "Soccer is the most popular sport in Brazil.",
+    "finnish": "Jalkapallo on Brasilian suosituin urheilulaji.",
+    "english": "Football is the most popular sport in Brazil.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6588,7 +6704,7 @@
     "finnish": "En pidä uimisesta.",
     "english": "I don't like to swim.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6598,7 +6714,7 @@
     "finnish": "Tom ja hänen ystävänsä pelaavat Dungeons & Dragonsia kellarissa.",
     "english": "Tom and his friends are playing Dungeons and Dragons in the basement.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6608,17 +6724,18 @@
     "finnish": "Kävin yliopistoa neljä vuotta ja kaikki, mitä sain, oli tämä surkea todistus.",
     "english": "I went to college for four years and all I got was this lousy diploma.",
     "wordCount": 16,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
     "id": "3775535",
     "spanish": "Un amigo mío está buscando a alguien que sepa hablar francés.",
     "finnish": "Eräs ystäväni etsii jotakuta, joka osaa puhua ranskaa.",
-    "english": "A friend of mine is looking for someone who can speak French.",
+    "english": "A friend of mine is looking for someone who speaks French.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6628,7 +6745,7 @@
     "finnish": "Olet hänelle velkaa totuuden.",
     "english": "You owe her the truth.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6638,7 +6755,7 @@
     "finnish": "Hänellä on harvoja ystäviä.",
     "english": "She has few friends.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6648,7 +6765,7 @@
     "finnish": "Montako laskuopin kirjaa on jäljellä?",
     "english": "How many arithmetic books are left?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6658,7 +6775,7 @@
     "finnish": "Jalkapallo on maailman suosituin urheilulaji.",
     "english": "Soccer is the world's most popular sport.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6668,17 +6785,17 @@
     "finnish": "Tomilla on kavereita joka puolella maailmaa.",
     "english": "Tom has friends all over the world.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "3892203",
     "spanish": "A Tom le gusta ver televisión.",
-    "finnish": "Tom tykkää katsoa TV:tä.",
+    "finnish": "Tom pitää telkkarin katsomisesta.",
     "english": "Tom likes watching TV.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6688,7 +6805,7 @@
     "finnish": "Uuden elokuvan päähahmo on lapsienkeli.",
     "english": "The protagonist of the new film is a child angel.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6698,8 +6815,9 @@
     "finnish": "Monelta konsertti oli eilen?",
     "english": "What time yesterday was the concert?",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -6708,7 +6826,7 @@
     "finnish": "Mitä puistossa tapahtui?",
     "english": "What happened in the park?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6718,7 +6836,7 @@
     "finnish": "Tästä tulee hauskaa.",
     "english": "This will be fun.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6728,7 +6846,7 @@
     "finnish": "Tom meni puistoon.",
     "english": "Tom went to the park.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6738,7 +6856,7 @@
     "finnish": "Hän pelaa hyvin jalkapalloa.",
     "english": "He is good at soccer.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6748,17 +6866,17 @@
     "finnish": "Sinun pitäisi kirjoittaa kirja.",
     "english": "You ought to write a book.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "4528618",
     "spanish": "La verdad es que no sé nada al respecto.",
-    "finnish": "Totuus on se, että en tiedä siitä yhtään mitään.",
+    "finnish": "Totuus on se, etten tiedä mitään siitä.",
     "english": "The truth is that I don't know anything about it.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6768,17 +6886,18 @@
     "finnish": "Onko se sinun asiasi mikä jonkun harrastus on?",
     "english": "Is it any of your business what someone's hobby is?",
     "wordCount": 10,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
     "id": "4546126",
     "spanish": "Mary no es mi novia. Es sólo una amiga.",
     "finnish": "Mari ei ole minun tyttöystäväni. Hän on vain ystävä.",
-    "english": "Mary isn't my girlfriend. She's just a friend.",
+    "english": "Mary is not my girlfriend. She's just a friend.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6788,8 +6907,9 @@
     "finnish": "Haluaisin pelata joskus kanssasi tennistä.",
     "english": "I want to play tennis with you someday.",
     "wordCount": 6,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -6798,7 +6918,7 @@
     "finnish": "Mä tykkään tanssia.",
     "english": "I like to dance.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6808,7 +6928,7 @@
     "finnish": "Mistä vihanneksista sinä pidät?",
     "english": "What vegetables do you like?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -6819,8 +6939,9 @@
     "finnish": "Katsoin tosi hyvän elokuvan eilen.",
     "english": "I watched a great movie yesterday.",
     "wordCount": 5,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -6829,7 +6950,7 @@
     "finnish": "Mä en osaa tanssii.",
     "english": "I can't dance.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6839,7 +6960,7 @@
     "finnish": "Tämä ei ole minun käsitykseni hauskanpidosta.",
     "english": "This is not my idea of fun.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6849,7 +6970,7 @@
     "finnish": "En halua tappaa sinua, Tomi.",
     "english": "I don't want to kill you, Tom.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6859,7 +6980,7 @@
     "finnish": "Tomi päätti kertoa Marille totuuden.",
     "english": "Tom decided to tell Mary the truth.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6869,7 +6990,7 @@
     "finnish": "Hänen uusi elokuvansa toi hänelle Akatemianpalkinnon.",
     "english": "His new movie earned him an Academy Award.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6879,7 +7000,7 @@
     "finnish": "Tomi on sinun ystäväsi, eikö niin?",
     "english": "Tom is a friend of yours, right?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6889,7 +7010,7 @@
     "finnish": "En halua tanssia.",
     "english": "I don't want to dance.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6899,7 +7020,7 @@
     "finnish": "Etsin ystäviäni.",
     "english": "I am looking for my friends.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6909,7 +7030,7 @@
     "finnish": "Jotkut mun kaverit tupakoi.",
     "english": "Some of my friends smoke.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6919,7 +7040,7 @@
     "finnish": "Musiikki on tärkeää minulle.",
     "english": "Music is important to me.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6929,7 +7050,7 @@
     "finnish": "Jänikset osaavat uida.",
     "english": "Rabbits can swim.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6939,7 +7060,7 @@
     "finnish": "Meillä on yksi kirja.",
     "english": "We have a book.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6949,7 +7070,7 @@
     "finnish": "Äidit ovat kaikki todellisia sankareita.",
     "english": "Mothers are all real heroines.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -6960,7 +7081,7 @@
     "finnish": "Tämä on kiistanalainen asia.",
     "english": "This is a controversial issue.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6970,7 +7091,7 @@
     "finnish": "Olen aika varma siitä, että Tomi ei osaa uida.",
     "english": "I'm pretty sure Tom doesn't know how to swim.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6980,7 +7101,7 @@
     "finnish": "Hänen oikea nimensä on Tomi.",
     "english": "His real name is Tom.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -6990,8 +7111,10 @@
     "finnish": "Vietin koko iltapäivän jutellen kavereideni kanssa.",
     "english": "I spent the whole afternoon chatting with friends.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -7000,7 +7123,7 @@
     "finnish": "En voi uskoa, että on jo kesä.",
     "english": "I can't believe it's summer already.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7010,7 +7133,7 @@
     "finnish": "Meidän pitää selvittää se, että kuka ajoi tuota autoa.",
     "english": "We need to find out who drove that car.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "travel",
       "leisure"
     ]
@@ -7021,7 +7144,7 @@
     "finnish": "Tomi on minun vaimoni pikkuveljen ystävä.",
     "english": "Tom is a friend of my wife's younger brother.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -7032,7 +7155,7 @@
     "finnish": "Mistä päin Australiaa olet kotoisin?",
     "english": "What part of Australia are you from?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7042,7 +7165,7 @@
     "finnish": "Sinähän puhut ranskaa, vai mitä?",
     "english": "You speak French, right?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7052,7 +7175,7 @@
     "finnish": "Tomi ja Mari ovat Jonin ystäviä.",
     "english": "Tom and Mary are friends with John.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7062,8 +7185,9 @@
     "finnish": "Tomi yritti suostutella Maria leipomaan kakun Jonin syntymäpäiväjuhliin, mutta Mari ei suostunut.",
     "english": "Tom wasn't able to talk Mary into baking a cake for John's birthday party.",
     "wordCount": 20,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -7072,7 +7196,7 @@
     "finnish": "Tomi, Mari, Joni ja Alisa ovat ystäviä. He ovat tunteneet toisensa lapsuudesta saakka.",
     "english": "Tom, Mary, John and Alice are friends. They've known each other since they were children.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -7083,7 +7207,7 @@
     "finnish": "Älä heitä pois tätä lehteä. En ole lukenut sitä vielä.",
     "english": "Don't throw away this magazine. I haven't read it yet.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7093,7 +7217,7 @@
     "finnish": "Minun teki mieli tanssia.",
     "english": "I felt like dancing.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7103,17 +7227,18 @@
     "finnish": "Tomi rakastui parhaan kaverinsa tyttöystävään.",
     "english": "Tom fell in love with his best friend's girlfriend.",
     "wordCount": 10,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions"
     ]
   },
   {
     "id": "5970711",
     "spanish": "Tengo muchos amigos canadienses.",
-    "finnish": "Minulla on paljon kanadalaisia ystäviä.",
+    "finnish": "Mul on paljon kanadalaisii kavereita.",
     "english": "I have many Canadian friends.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7123,7 +7248,7 @@
     "finnish": "Saavuin juhliin, mutta heti kun olin lopettanut syömisen, lähdin.",
     "english": "I came to the party, but as soon as I finished the meal, I left.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -7134,7 +7259,7 @@
     "finnish": "Mä löysin sun lompakon mun auton takapenkiltä.",
     "english": "I found your wallet on the backseat of my car.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "travel",
       "leisure"
     ]
@@ -7145,17 +7270,17 @@
     "finnish": "Onko tämä sinun lompakkosi?",
     "english": "Is this your wallet?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "6602271",
     "spanish": "¿Te importaría pasear al perro?",
-    "finnish": "Voisitko käydä koiran kanssa kävelyllä?",
+    "finnish": "Voisitko ulkoiluttaa koiraa?",
     "english": "Would you mind walking the dog?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7165,27 +7290,27 @@
     "finnish": "He kuulivat laukauksia.",
     "english": "They heard gunfire.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "6612790",
     "spanish": "Mi amigo es alemán.",
-    "finnish": "Minun ystäväni on saksalainen.",
+    "finnish": "Mun kaveri on saksalainen.",
     "english": "My friend is German.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
   {
     "id": "6628105",
     "spanish": "Tom descubrió dos cadáveres en su sótano.",
-    "finnish": "Tomi löysi kellaristaan kaksi vainajaa.",
+    "finnish": "Tomi löysi kellaristaan kaksi ruumista.",
     "english": "Tom discovered two dead bodies in his basement.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7195,7 +7320,7 @@
     "finnish": "Sinun pitää pitää parempaa huolta itsestäsi.",
     "english": "You need to take better care of yourself.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7205,7 +7330,7 @@
     "finnish": "Viime keväänä emme saaneet paljoa sadetta.",
     "english": "We didn't get much rain last spring.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -7216,7 +7341,7 @@
     "finnish": "Jänikset osaavat uida.",
     "english": "Rabbits can swim.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7226,7 +7351,7 @@
     "finnish": "Jonkun pitäisi tehdä elokuva tästä.",
     "english": "Somebody should make a movie out of this.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7236,7 +7361,7 @@
     "finnish": "Osaatko tanssia?",
     "english": "Can you dance?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7246,8 +7371,9 @@
     "finnish": "Ihana nähdä sua.",
     "english": "I'm so glad to see you.",
     "wordCount": 5,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "emotions"
     ]
   },
   {
@@ -7256,7 +7382,7 @@
     "finnish": "Mennään pienelle kävelylle.",
     "english": "Let's go out for a short walk.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -7267,7 +7393,7 @@
     "finnish": "Merida on ainoa Disneyn prinsessa, joka ei laula eikä tanssi elokuvassaan.",
     "english": "Merida is the only Disney princess that doesn't sing or dance in her movie.",
     "wordCount": 15,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7277,7 +7403,7 @@
     "finnish": "Puasinkoi on pieni, karjalainen kylä Tverin alueella.",
     "english": "Puasinkoi is a small Karelian village in the Tver region.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7287,8 +7413,9 @@
     "finnish": "Tomi harrastaa golfia.",
     "english": "Tom's hobby is golf.",
     "wordCount": 7,
-    "themes": [
-      "leisure"
+    "categories": [
+      "leisure",
+      "time"
     ]
   },
   {
@@ -7297,7 +7424,7 @@
     "finnish": "Hyvää lomaa.",
     "english": "Happy holidays.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7307,7 +7434,7 @@
     "finnish": "Tomi on poikani ystävä.",
     "english": "Tom is my son's friend.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -7318,7 +7445,7 @@
     "finnish": "Minun koirani on vihreä ja koko ajan puhuu filosofiasta.",
     "english": "My dog is green and talks about philosophy all the time.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7328,7 +7455,7 @@
     "finnish": "Haluatko leikkii minun luottokortilla?",
     "english": "Do you want to play with my credit card?",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   },
@@ -7338,7 +7465,7 @@
     "finnish": "Haluatko kirjan?",
     "english": "Do you want the book?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "leisure"
     ]
   }

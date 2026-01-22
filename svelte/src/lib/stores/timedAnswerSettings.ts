@@ -11,6 +11,7 @@ export interface TimedAnswerSettings {
 	sanapeli: number;
 	tarinat: number;
 	peppa: number;
+	mitasasanoit: number;
 }
 
 const STORAGE_KEY = 'espanjapeli-timed-answer-settings';
@@ -19,7 +20,8 @@ const defaultSettings: TimedAnswerSettings = {
 	yhdistasanat: 3,
 	sanapeli: 3,
 	tarinat: 3,
-	peppa: 3
+	peppa: 3,
+	mitasasanoit: 3
 };
 
 function getInitialSettings(): TimedAnswerSettings {
