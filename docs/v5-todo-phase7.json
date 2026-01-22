@@ -56,7 +56,8 @@
           "description": "Fixture: Empty V4 data. Fixture: V4 data with 10 words. Fixture: V4 data with 100+ words. Fixture: V4 data with polysemous word candidates. Fixture: V4 data with words not in current vocabulary.",
           "files": [
             "svelte/src/lib/stores/test-fixtures/"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "23.2",
@@ -64,13 +65,15 @@
           "description": "Run migration tests. Verify all fixtures migrate correctly. Verify no data loss. Verify polysemous words are handled correctly.",
           "files": [
             "svelte/src/lib/stores/wordKnowledge.migration.test.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "23.3",
           "title": "Test migration in browser environment",
           "description": "Create test page or use developer console. Manually inject V4 data into localStorage. Reload application. Verify migration runs and data is correct.",
-          "files": []
+          "files": [],
+          "status": "completed"
         },
         {
           "id": "23.4",
@@ -78,7 +81,8 @@
           "description": "Document any cases that don't migrate perfectly. Create report: docs/v5-migration-notes.md",
           "files": [
             "docs/v5-migration-notes.md"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
