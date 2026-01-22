@@ -110,20 +110,22 @@ async function calculateTopNProgress(
 			// If mode specified, only check that mode; otherwise check all modes
 			let bestScore = 0;
 			
+			// Helper to get safe score (handles NaN from corrupted data)
+			const safeScore = (score: number | undefined): number => {
+				const s = score || 0;
+				return Number.isNaN(s) ? 0 : s;
+			};
+			
 			if (mode) {
 				const stfData = wordData.spanish_to_finnish[mode];
 				const ftsData = wordData.finnish_to_spanish[mode];
-				const stfScore = stfData?.score || 0;
-				const ftsScore = ftsData?.score || 0;
-				bestScore = Math.max(stfScore, ftsScore);
+				bestScore = Math.max(safeScore(stfData?.score), safeScore(ftsData?.score));
 			} else {
 				// Check all modes
 				for (const m of ['basic', 'kids'] as GameMode[]) {
 					const stfData = wordData.spanish_to_finnish[m];
 					const ftsData = wordData.finnish_to_spanish[m];
-					const stfScore = stfData?.score || 0;
-					const ftsScore = ftsData?.score || 0;
-					bestScore = Math.max(bestScore, stfScore, ftsScore);
+					bestScore = Math.max(bestScore, safeScore(stfData?.score), safeScore(ftsData?.score));
 				}
 			}
 			
@@ -211,6 +213,12 @@ export async function calculateVocabularyStats(mode?: GameMode): Promise<Vocabul
 		let bestScore = 0;
 		let hasPracticed = false;
 		
+		// Helper to get safe score (handles NaN from corrupted data)
+		const safeScore = (score: number | undefined): number => {
+			const s = score || 0;
+			return Number.isNaN(s) ? 0 : s;
+		};
+		
 		if (mode) {
 			const stfData = wordData.spanish_to_finnish[mode];
 			const ftsData = wordData.finnish_to_spanish[mode];
@@ -219,7 +227,7 @@ export async function calculateVocabularyStats(mode?: GameMode): Promise<Vocabul
 			
 			if (stfPracticed || ftsPracticed) {
 				hasPracticed = true;
-				bestScore = Math.max(stfData?.score || 0, ftsData?.score || 0);
+				bestScore = Math.max(safeScore(stfData?.score), safeScore(ftsData?.score));
 			}
 		} else {
 			// Check all modes
@@ -231,7 +239,7 @@ export async function calculateVocabularyStats(mode?: GameMode): Promise<Vocabul
 				
 				if (stfPracticed || ftsPracticed) {
 					hasPracticed = true;
-					bestScore = Math.max(bestScore, stfData?.score || 0, ftsData?.score || 0);
+					bestScore = Math.max(bestScore, safeScore(stfData?.score), safeScore(ftsData?.score));
 				}
 			}
 		}

@@ -25,7 +25,11 @@
 
 
 ################################
-[ ] Testaushavanto, oli jo v4
+[ ] Testaushavanto, oli jo v4  
+- ongelma id:n kanssa v5 monisanasupport, kanssa, korjattu
+- ongelma sanapelit ei tallenna opittuja sanoja oikein
+
+
 yhdistasanat gamemode has button to see game knowledge
 it seems to work, showing for me that i know many words
 
