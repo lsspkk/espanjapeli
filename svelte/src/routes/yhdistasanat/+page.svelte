@@ -10,7 +10,6 @@
 		autoSpeak,
 		type QuestionResult 
 	} from '$lib/stores/progress';
-	import { theme, availableThemes, type Theme } from '$lib/stores/theme';
 	import { 
 		getAllWords, 
 		getWordsFromCategory, 
@@ -102,6 +101,7 @@
 	
 	// Stepwise reveal state
 	let answersRevealed = false;
+	let stepwiseRevealRef: any = null;
 
 	// Element references for line animation
 	let questionWordRef: HTMLElement | null = null;
@@ -137,14 +137,12 @@
 	// Settings (bound to stores)
 	let selectedCategory: string;
 	let selectedGameLength: number;
-	let selectedTheme: Theme;
 	let isAutoSpeakEnabled: boolean;
 	let delaySeconds: number;
 
 	// Subscribe to stores
 	category.subscribe(value => selectedCategory = value);
 	gameLength.subscribe(value => selectedGameLength = value);
-	theme.subscribe(value => selectedTheme = value);
 	autoSpeak.subscribe(value => isAutoSpeakEnabled = value);
 	timedAnswerSettings.subscribe(value => delaySeconds = value.yhdistasanat);
 
@@ -390,7 +388,7 @@
 		}
 
 		currentWord = wordQueue.shift() || null;
-		
+
 		if (!currentWord) {
 			console.error('❌ No more words in queue!');
 			return;
@@ -409,6 +407,11 @@
 		lineStart = null;
 		lineEnd = null;
 		answersRevealed = false;
+
+		// Reset stepwise reveal timer
+		if (stepwiseRevealRef?.reset) {
+			stepwiseRevealRef.reset();
+		}
 		
 		// Get random animations for this question
 		const animations = getRandomAnimations();
@@ -731,15 +734,6 @@
 	}
 
 	/**
-	 * Handle theme change
-	 */
-	function handleThemeChange(event: Event) {
-		const target = event.target as HTMLSelectElement;
-		selectedTheme = target.value as Theme;
-		theme.set(selectedTheme);
-	}
-
-	/**
 	 * Toggle Sanakirja modal
 	 */
 	function toggleSanakirja() {
@@ -893,39 +887,20 @@
 				onChange={handleGameLengthChange}
 			/>
 
-				<!-- Auto-speak -->
-				<div class="form-control mb-4">
-					<label class="label cursor-pointer justify-start gap-3">
-						<input 
-							type="checkbox" 
-							class="checkbox checkbox-primary"
-							checked={isAutoSpeakEnabled}
-							on:change={handleAutoSpeakChange}
-						/>
-						<span class="label-text">Lue sanat ääneen automaattisesti</span>
-					</label>
-				</div>
+			<!-- Auto-speak -->
+			<div class="form-control mb-6">
+				<label class="label cursor-pointer justify-start gap-3">
+					<input 
+						type="checkbox" 
+						class="checkbox checkbox-primary"
+						checked={isAutoSpeakEnabled}
+						on:change={handleAutoSpeakChange}
+					/>
+					<span class="label-text">Lue sanat ääneen automaattisesti</span>
+				</label>
+			</div>
 
-				<!-- Theme Selection -->
-				<div class="form-control mb-4">
-					<label class="label" for="theme-select">
-						<span class="label-text font-semibold text-lg">Väriteema:</span>
-					</label>
-					<select 
-						id="theme-select"
-						class="select select-bordered w-full"
-						bind:value={selectedTheme}
-						on:change={handleThemeChange}
-					>
-						{#each availableThemes as themeOption}
-							<option value={themeOption.value}>
-								{themeOption.emoji} {themeOption.name}
-							</option>
-						{/each}
-					</select>
-				</div>
-
-				<!-- Action Buttons -->
+			<!-- Action Buttons -->
 				<div class="flex flex-col gap-3">
 					<div class="flex gap-3">
 						<button 
@@ -986,65 +961,72 @@
 			triesRemaining={triesRemaining}
 		/>
 
-		<!-- Main Game Area - Two Column Layout -->
-		<div class="flex flex-row flex-1 min-h-0 relative" bind:this={gameAreaRef}>
-			<!-- SVG Line Animation Overlay -->
-			<LineAnimation 
-				start={lineStart}
-				end={lineEnd}
-				visible={showLine}
-				color={lineColor === 'stroke-success' ? 'success' : 'error'}
-			/>
+	<!-- Main Game Area - Two Column Layout -->
+	<div class="flex flex-row flex-1 min-h-0 relative" bind:this={gameAreaRef}>
+		<!-- Left Column: Question Word -->
+		<div class="w-1/2 flex flex-col items-center bg-base-200/50 py-4 md:py-6">
+			<!-- Instruction text -->
+			<div class="text-xs md:text-sm text-center text-base-content/50 mb-2">
+				Valitse oikea sana
+			</div>
 
-			<StepwiseReveal delaySeconds={delaySeconds} onReveal={() => answersRevealed = true}>
-				{#snippet children()}
-					<!-- Left Column: Question Word -->
-					<div class="w-1/2 flex flex-col items-center bg-base-200/50 py-4 md:py-6">
-						<!-- Instruction text -->
-						<div class="text-xs md:text-sm text-center text-base-content/50 mb-2">
-							Valitse oikea sana
-						</div>
-						
-						<!-- Current question score -->
-						<PossiblePoints {triesRemaining} />
+			<!-- Current question score -->
+			<PossiblePoints {triesRemaining} />
 
-						<!-- Question word (centered in remaining space) -->
-						<div bind:this={questionWordRef}>
-							<div bind:this={questionWordCardRef}>
-								<QuestionCard 
-									text={currentWord ? getQuestionText(currentWord) : ''}
-									onSpeak={speakCurrentWord}
-									spanishWord={currentWord?.spanish}
-									showFrequencyBadge={true}
-								/>
-							</div>
-						</div>
-						
-						<!-- Waiting indicator -->
-						{#if !answersRevealed && delaySeconds > 0}
-							<div class="mt-4 text-sm text-base-content/60 italic animate-pulse">
-								Muistele...
-							</div>
-						{/if}
-					</div>
-				{/snippet}
+			<!-- Question word (centered in remaining space) -->
+			<div bind:this={questionWordRef}>
+				<div bind:this={questionWordCardRef}>
+					<QuestionCard
+						text={currentWord ? getQuestionText(currentWord) : ''}
+						onSpeak={speakCurrentWord}
+						spanishWord={currentWord?.spanish}
+						showFrequencyBadge={true}
+					/>
+				</div>
+			</div>
 
-				{#snippet answers()}
-					<!-- Right Column: Answer Options -->
-					<div class="w-1/2 flex flex-col p-3 md:p-6 overflow-y-auto">
-						<OptionButtons 
-							options={answerOptions.map(opt => ({ id: opt.spanish, text: getAnswerText(opt) }))}
-							disabledIds={wrongClicks}
-							onSelect={(id, e) => {
-								const selectedWord = answerOptions.find(opt => opt.spanish === id);
-								if (selectedWord) handleAnswerClick(selectedWord, e);
-							}}
-							disabled={triesRemaining <= 0 || showFeedback}
-						/>
-					</div>
-				{/snippet}
-			</StepwiseReveal>
+			<!-- Waiting indicator -->
+			{#if !answersRevealed && delaySeconds > 0}
+				<div class="mt-4 text-sm text-base-content/60 italic animate-pulse">
+					Muistele...
+				</div>
+			{/if}
 		</div>
+
+		<!-- Right Column: Answer Options with Stepwise Reveal -->
+		<StepwiseReveal
+			bind:this={stepwiseRevealRef}
+			delaySeconds={delaySeconds}
+			onReveal={() => answersRevealed = true}
+		>
+			{#snippet children()}
+				<!-- Placeholder to maintain layout space -->
+				<div class="w-1/2"></div>
+			{/snippet}
+
+			{#snippet answers()}
+				<div class="w-1/2 flex flex-col p-3 md:p-6 overflow-y-auto" style="opacity: {answersRevealed ? 1 : 0}; transition: opacity 300ms ease-in-out;">
+					<OptionButtons
+						options={answerOptions.map(opt => ({ id: opt.spanish, text: getAnswerText(opt) }))}
+						disabledIds={wrongClicks}
+						onSelect={(id, e) => {
+							const selectedWord = answerOptions.find(opt => opt.spanish === id);
+							if (selectedWord) handleAnswerClick(selectedWord, e);
+						}}
+						disabled={triesRemaining <= 0 || showFeedback}
+					/>
+				</div>
+			{/snippet}
+		</StepwiseReveal>
+
+		<!-- SVG Line Animation Overlay - Rendered last to appear on top -->
+		<LineAnimation 
+			start={lineStart}
+			end={lineEnd}
+			visible={showLine}
+			color={lineColor === 'stroke-success' ? 'success' : 'error'}
+		/>
+	</div>
 
 		<!-- Feedback Overlay -->
 		<FeedbackOverlay

@@ -1,0 +1,5159 @@
+[
+  {
+    "id": "2639",
+    "spanish": "Te quiero.",
+    "finnish": "Minä rakastan sinua.",
+    "english": "I love you.",
+    "wordCount": 2,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2723",
+    "spanish": "Quiero un barco que me lleve lejos de aquí.",
+    "finnish": "Haluan veneen, joka veisi minut kauas pois täältä.",
+    "english": "I want a boat that'll take me far away from here.",
+    "wordCount": 9,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2781",
+    "spanish": "¿Puedo hacer una pregunta?",
+    "finnish": "Voinko kysyä kysymyksen?",
+    "english": "Can I ask a question?",
+    "wordCount": 4,
+    "categories": [
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2849",
+    "spanish": "Pásame la sal, por favor. \"Aquí tienes.\"",
+    "finnish": "”Saisinko suolan?” ”Olepa hyvä.”",
+    "english": "Pass me the salt, please. \"Here you are.\"",
+    "wordCount": 7,
+    "categories": [
+      "greetings",
+      "food",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2876",
+    "spanish": "La cuenta, por favor.",
+    "finnish": "Lasku, kiitos.",
+    "english": "The check, please.",
+    "wordCount": 4,
+    "categories": [
+      "greetings",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2941",
+    "spanish": "No quiero ir a la escuela.",
+    "finnish": "En halua mennä kouluun.",
+    "english": "I don't want to go to school.",
+    "wordCount": 6,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2971",
+    "spanish": "Quiero ser más independiente.",
+    "finnish": "Tahdon olla itsenäisempi.",
+    "english": "I want to be more independent.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3059",
+    "spanish": "¿Podría repetirlo, por favor?",
+    "finnish": "Voisitko toistaa?",
+    "english": "Could you please repeat that?",
+    "wordCount": 4,
+    "categories": [
+      "greetings",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3067",
+    "spanish": "Necesito tu consejo.",
+    "finnish": "Tarvitsen neuvojasi.",
+    "english": "I need your advice.",
+    "wordCount": 3,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "329818",
+    "spanish": "La leche se procesa para hacer mantequilla o queso.",
+    "finnish": "Maito jalostetaan voiksi ja juustoksi.",
+    "english": "Milk is made into butter and cheese.",
+    "wordCount": 9,
+    "categories": [
+      "food",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "331686",
+    "spanish": "Por favor, escriba lo que voy a decir.",
+    "finnish": "Ole hyvä ja kirjoita ylös mitä aion sanoa.",
+    "english": "Please write down what I'm going to say.",
+    "wordCount": 8,
+    "categories": [
+      "greetings",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "331781",
+    "spanish": "Debes hacer espacio para el televisor.",
+    "finnish": "Sinun täytyy tehdä tilaa televisiolle.",
+    "english": "You must make room for the television.",
+    "wordCount": 6,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "337887",
+    "spanish": "¿A qué hora puedes venir?",
+    "finnish": "Monelta voit tulla?",
+    "english": "What time can you come?",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "338544",
+    "spanish": "¿Qué harías tú en mi lugar?",
+    "finnish": "Mitä sinä tekisit minun asemassani?",
+    "english": "What would you do in my place?",
+    "wordCount": 6,
+    "categories": [
+      "questions_inquiries",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "343379",
+    "spanish": "Dime la verdad.",
+    "finnish": "Sano minulle totuus.",
+    "english": "Tell me the truth.",
+    "wordCount": 3,
+    "categories": [
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "358262",
+    "spanish": "Quiero algo dulce.",
+    "finnish": "Mä haluu jotain makeet.",
+    "english": "I want something sweet.",
+    "wordCount": 3,
+    "categories": [
+      "food",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "358543",
+    "spanish": "Mientras no comas demasiado, puedes comer cualquier cosa.",
+    "finnish": "Voit syödä mitä tahansa, kunhat et syö liikaa.",
+    "english": "You may eat anything so long as you don't eat too much.",
+    "wordCount": 8,
+    "categories": [
+      "food",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "375905",
+    "spanish": "No puedes decir \"no\".",
+    "finnish": "Et voi sanoa \"ei\".",
+    "english": "You can't say no.",
+    "wordCount": 4,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "436652",
+    "spanish": "Tengo un dolor de muelas y quiero ir al dentista.",
+    "finnish": "Minulla on hammassärkyä ja haluan mennä hammaslääkäriin.",
+    "english": "I have a toothache and I want to go to the dentist.",
+    "wordCount": 10,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "436906",
+    "spanish": "Te necesito.",
+    "finnish": "Tarvitsen sinua.",
+    "english": "I need you.",
+    "wordCount": 2,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "437020",
+    "spanish": "Quiero un tono más claro.",
+    "finnish": "Haluan vaaleamman sävyn.",
+    "english": "I want a lighter shade.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "437038",
+    "spanish": "Quiero limpiar la casa antes de que vuelvan mis padres.",
+    "finnish": "Haluan siivota talon ennen kuin vanhempani tulevat takaisin.",
+    "english": "I want to clean the house before my parents return.",
+    "wordCount": 10,
+    "categories": [
+      "family",
+      "daily_life",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "437048",
+    "spanish": "Quiero besarte.",
+    "finnish": "Tahdon suudella sinua.",
+    "english": "I want to kiss you.",
+    "wordCount": 2,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "445715",
+    "spanish": "Pásame la sal, por favor.",
+    "finnish": "Ojentaisitko minulle suolan, kiitos.",
+    "english": "Pass me the salt, please.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "food",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "454572",
+    "spanish": "Quiero alguien con quien hablar.",
+    "finnish": "Haluan jutella jonkun kanssa.",
+    "english": "I want somebody to talk to.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "455824",
+    "spanish": "Quisiera comprar un mapa.",
+    "finnish": "Haluaisin ostaa kartan.",
+    "english": "I'd like to buy a map.",
+    "wordCount": 4,
+    "categories": [
+      "travel",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "475712",
+    "spanish": "Puedes estudiar aquí.",
+    "finnish": "Voit opiskella täällä.",
+    "english": "You can study here.",
+    "wordCount": 3,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "479838",
+    "spanish": "Por favor, sea educado.",
+    "finnish": "Olethan kohtelias.",
+    "english": "Please be polite.",
+    "wordCount": 4,
+    "categories": [
+      "greetings",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "490675",
+    "spanish": "¿Me puedes dar un ejemplo?",
+    "finnish": "Voitko antaa minulle esimerkin?",
+    "english": "Can you give me an example?",
+    "wordCount": 5,
+    "categories": [
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "490693",
+    "spanish": "Necesito algo para un niño.",
+    "finnish": "Tarvitsen jotakin lapselle.",
+    "english": "I need something for a child.",
+    "wordCount": 5,
+    "categories": [
+      "family",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "499631",
+    "spanish": "Hoy tengo mucho que hacer.",
+    "finnish": "Minulla on paljon tekemistä tänään.",
+    "english": "I have a lot to do today.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "499748",
+    "spanish": "Me gustaría ir a Londres.",
+    "finnish": "Haluaisin mennä Lontooseen.",
+    "english": "I'd like to visit London.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "500504",
+    "spanish": "Dame un ejemplo.",
+    "finnish": "Anna minulle esimerkki.",
+    "english": "Give me an example.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "503616",
+    "spanish": "Enciende la luz, por favor.",
+    "finnish": "Sytytä valot, kiitos.",
+    "english": "Turn on the light, please.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "daily_life",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "507295",
+    "spanish": "Él no tiene que hacer eso.",
+    "finnish": "Hänen ei ole pakko tehdä tätä.",
+    "english": "He does not have to do this.",
+    "wordCount": 6,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "509756",
+    "spanish": "Lo siento, se me olvidó hacer los deberes.",
+    "finnish": "Anteeksi, mutta unohdin tehdä läksyt.",
+    "english": "I'm sorry, I forgot to do my homework.",
+    "wordCount": 8,
+    "categories": [
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "511269",
+    "spanish": "Pásame las tijeras, por favor.",
+    "finnish": "Voisiksä antaa mulle noi sakset?",
+    "english": "Get me the scissors, please.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "512397",
+    "spanish": "Quiero tu opinión.",
+    "finnish": "Haluan sinun mielipiteesi.",
+    "english": "I want your opinion.",
+    "wordCount": 3,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "537815",
+    "spanish": "Me gustaría ver a tu hermana.",
+    "finnish": "Haluaisin nähdä siskosi.",
+    "english": "I'd like to see your sister.",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "539997",
+    "spanish": "Dame la cuchara.",
+    "finnish": "Anna lusikka minulle.",
+    "english": "Give me the spoon.",
+    "wordCount": 3,
+    "categories": [
+      "food",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "541373",
+    "spanish": "Necesito una bicicleta nueva.",
+    "finnish": "Mä tarviin uuden pyörän.",
+    "english": "I need a new bicycle.",
+    "wordCount": 4,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "544018",
+    "spanish": "Quiero leer este libro.",
+    "finnish": "Haluan lukea tämän kirjan.",
+    "english": "I want to read this book.",
+    "wordCount": 4,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "558419",
+    "spanish": "Cualquiera puede hacerlo.",
+    "finnish": "Kukatahansa voi tehdä sen.",
+    "english": "Anyone can do it.",
+    "wordCount": 3,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "558614",
+    "spanish": "Necesito un sello.",
+    "finnish": "Tarvitsen postimerkin.",
+    "english": "I need to get a stamp.",
+    "wordCount": 3,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "568090",
+    "spanish": "No necesito tu ayuda.",
+    "finnish": "En tarvitse apuasi.",
+    "english": "I don't need your help.",
+    "wordCount": 4,
+    "categories": [
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "578805",
+    "spanish": "Quiero beber una taza de té.",
+    "finnish": "Haluan juoda kupillisen teetä.",
+    "english": "I want to drink a cup of tea.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "580908",
+    "spanish": "¿Puedes correr rápido?",
+    "finnish": "Pystytkö juoksemaan nopeasti?",
+    "english": "Can you run fast?",
+    "wordCount": 3,
+    "categories": [
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "581768",
+    "spanish": "Quiero aprender inglés.",
+    "finnish": "Haluan opiskella englantia.",
+    "english": "I want to learn English.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "588018",
+    "spanish": "¿Podrías cerrar la ventana?",
+    "finnish": "Voisitko sulkea ikkunan?",
+    "english": "Could you close the window, please?",
+    "wordCount": 4,
+    "categories": [
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "591983",
+    "spanish": "Me gustaría ser tan rico como él.",
+    "finnish": "Haluaisin olla yhtä rikas kuin hän.",
+    "english": "I'd like to be as rich as him.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "611832",
+    "spanish": "Por favor, cambia la bandera.",
+    "finnish": "Vaihda lippua, kiitos.",
+    "english": "Please change the flag.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "614460",
+    "spanish": "Ya no lo necesito.",
+    "finnish": "En tarvitse sitä enää.",
+    "english": "I don't need it anymore.",
+    "wordCount": 4,
+    "categories": [
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "627295",
+    "spanish": "No quiero leer este libro.",
+    "finnish": "En halua lukea tätä kirjaa.",
+    "english": "I don't want to read this book.",
+    "wordCount": 5,
+    "categories": [
+      "leisure",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "634788",
+    "spanish": "Tenemos que hacer algo.",
+    "finnish": "Meidän täytyy tehdä jotain.",
+    "english": "We'll have to do something.",
+    "wordCount": 4,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "638491",
+    "spanish": "No puedo hacer nada.",
+    "finnish": "En pysty tekemään mitään.",
+    "english": "I can't do anything.",
+    "wordCount": 4,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "638651",
+    "spanish": "¿Puedes apagar la luz?",
+    "finnish": "Voisitko sammuttaa valot?",
+    "english": "Could you turn off the lights?",
+    "wordCount": 4,
+    "categories": [
+      "work",
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "667057",
+    "spanish": "Quiero creer.",
+    "finnish": "Haluan uskoa.",
+    "english": "I want to believe.",
+    "wordCount": 2,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "690755",
+    "spanish": "Me gustaría saber su nombre.",
+    "finnish": "Haluaisin tietää hänen nimensä.",
+    "english": "I would like to know her name.",
+    "wordCount": 5,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "692694",
+    "spanish": "Puedes elegir el que quieras.",
+    "finnish": "Voit valita minkä tahansa haluat.",
+    "english": "You may choose whichever you want.",
+    "wordCount": 5,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "693868",
+    "spanish": "No puedes culpar a nadie más que a ti mismo.",
+    "finnish": "Et voi syyttää kuin itseäsi.",
+    "english": "You have no one but yourself to blame.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "712963",
+    "spanish": "Quiero querer lo que tú quieres.",
+    "finnish": "Haluan haluta, mitä sinä haluat.",
+    "english": "I want to want what you want.",
+    "wordCount": 6,
+    "categories": [
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "718802",
+    "spanish": "Quiero un masaje. Necesito relajarme.",
+    "finnish": "Haluan hierontaa. Minun tarvitsee rentoutua.",
+    "english": "I want a massage. I need to relax.",
+    "wordCount": 5,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "726743",
+    "spanish": "Más café, por favor.",
+    "finnish": "Saisinko lisää kahvia?",
+    "english": "More coffee, please.",
+    "wordCount": 4,
+    "categories": [
+      "greetings",
+      "food",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "730295",
+    "spanish": "Apaga la radio, por favor.",
+    "finnish": "Sammuta radio ole kiltti.",
+    "english": "Please turn off the radio.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "733110",
+    "spanish": "Quiero ir a ver una película.",
+    "finnish": "Haluan mennä katsomaan elokuvan.",
+    "english": "I want to go see a movie.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "733917",
+    "spanish": "Tengo que hacer unas compras.",
+    "finnish": "Minulla on vähän ostoksia tehtävänä.",
+    "english": "I have some shopping to do.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "736752",
+    "spanish": "¿Puedo hacer algunas preguntas?",
+    "finnish": "Voinko kysyä muutaman kysymyksen?",
+    "english": "Can I ask some questions?",
+    "wordCount": 4,
+    "categories": [
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "748718",
+    "spanish": "¿Me podrías dar un aventón en tu coche?",
+    "finnish": "Voisitko antaa minulle kyydin autossasi?",
+    "english": "Could you give me a lift in your car?",
+    "wordCount": 8,
+    "categories": [
+      "travel",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "748815",
+    "spanish": "Por favor, apunta lo que voy a decir.",
+    "finnish": "Ole hyvä ja kirjoita ylös mitä aion sanoa.",
+    "english": "Please write down what I'm going to say.",
+    "wordCount": 8,
+    "categories": [
+      "greetings",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "753070",
+    "spanish": "¿Podrías repetirlo, por favor?",
+    "finnish": "Voisitko toistaa?",
+    "english": "Could you repeat that, please?",
+    "wordCount": 4,
+    "categories": [
+      "greetings",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "759204",
+    "spanish": "Ya no necesito gafas.",
+    "finnish": "Mä en tarvii laseja enää.",
+    "english": "I don't need glasses anymore.",
+    "wordCount": 4,
+    "categories": [
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "769418",
+    "spanish": "¿Puedes ver la diferencia?",
+    "finnish": "Näetkö eron?",
+    "english": "Can you see the difference?",
+    "wordCount": 4,
+    "categories": [
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "769482",
+    "spanish": "¿Puedes responder a esta pregunta?",
+    "finnish": "Osaatko vastata tähän kysymykseen?",
+    "english": "Can you answer this question?",
+    "wordCount": 5,
+    "categories": [
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "769490",
+    "spanish": "¿Puedes adivinar su edad?",
+    "finnish": "Pystytkö arvata hänen ikänsä?",
+    "english": "Can you guess her age?",
+    "wordCount": 4,
+    "categories": [
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "770895",
+    "spanish": "Todo lo que tienes que hacer es pulsar el botón.",
+    "finnish": "Kaikki mitä sinun pitää tehdä on painaa nappia.",
+    "english": "All you have to do is press the button.",
+    "wordCount": 10,
+    "categories": [
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "785959",
+    "spanish": "Puedes escribir en la lengua que quieras. En Tatoeba, todas las lenguas son iguales.",
+    "finnish": "Voit kirjoittaa millä tahansa kielellä haluat. Tatoebassa kaikki kielet ovat tasa-arvoisia.",
+    "english": "You may write in any language you want. On Tatoeba, all languages are equal.",
+    "wordCount": 14,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "786300",
+    "spanish": "Puedes escribir en el idioma que quieras. En Tatoeba, todos los idiomas son iguales.",
+    "finnish": "Voit kirjoittaa millä tahansa kielellä haluat. Tatoebassa kaikki kielet ovat tasa-arvoisia.",
+    "english": "You may write in any language you want. On Tatoeba, all languages are equal.",
+    "wordCount": 14,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "800675",
+    "spanish": "¿Puedes encender la televisión?",
+    "finnish": "Laittaisitko television päälle?",
+    "english": "Will you turn on the television?",
+    "wordCount": 4,
+    "categories": [
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "805602",
+    "spanish": "Necesito unas tijeras para cortar este papel.",
+    "finnish": "Tarvitsen sakset tämän paperin leikkaamiseen.",
+    "english": "I need a pair of scissors to cut this paper.",
+    "wordCount": 7,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "824992",
+    "spanish": "Tú puedes hablar inglés.",
+    "finnish": "Osaat puhua englantia.",
+    "english": "You can speak English.",
+    "wordCount": 4,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "854825",
+    "spanish": "Yo también te quiero.",
+    "finnish": "Minäkin rakastan sinua.",
+    "english": "I love you, too.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "855430",
+    "spanish": "Nadie sabe por qué rechaza mi ayuda.",
+    "finnish": "Kukaan ei tiedä miksi hän kieltäytyy avustani.",
+    "english": "Nobody knows why he turns down my help.",
+    "wordCount": 7,
+    "categories": [
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "855757",
+    "spanish": "No quiero ayudarte.",
+    "finnish": "En halua auttaa sinua.",
+    "english": "I don't want to help you.",
+    "wordCount": 3,
+    "categories": [
+      "leisure",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "859727",
+    "spanish": "Tengo muchas cosas que hacer esta tarde.",
+    "finnish": "Minulla on paljon tekemistä tänään iltapäivällä.",
+    "english": "I have a lot of things to do this afternoon.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "860137",
+    "spanish": "¿Qué vas a hacer?",
+    "finnish": "Mitä sä aiot tehä?",
+    "english": "What are you going to do?",
+    "wordCount": 4,
+    "categories": [
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "861572",
+    "spanish": "Puedes ver la televisión después de cenar.",
+    "finnish": "Voit katsoa televisiota illallisen jälkeen.",
+    "english": "You can watch television after dinner.",
+    "wordCount": 7,
+    "categories": [
+      "food",
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "871019",
+    "spanish": "Quiero ver la película otra vez.",
+    "finnish": "Haluan nähdä sen elokuvan uudestaan.",
+    "english": "I want to see the movie again.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "871149",
+    "spanish": "¿Qué harías si el mundo se acabara mañana?",
+    "finnish": "Mitä tekisit, jos huomenna olisi tulossa maailmanloppu?",
+    "english": "What would you do if the world were to come to an end tomorrow?",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "871329",
+    "spanish": "Quiero visitar las ruinas de Machu Picchu.",
+    "finnish": "Haluan käydä Machu Picchun raunioilla.",
+    "english": "I want to visit the ruins of Machu Picchu.",
+    "wordCount": 7,
+    "categories": [
+      "travel",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "876900",
+    "spanish": "Necesito que me ayudes.",
+    "finnish": "Minä tarvitsen apuasi.",
+    "english": "I need your help.",
+    "wordCount": 4,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "879398",
+    "spanish": "Necesito muchos libros.",
+    "finnish": "Tarvitsen monta kirjaa.",
+    "english": "I need a lot of books.",
+    "wordCount": 3,
+    "categories": [
+      "leisure",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "880812",
+    "spanish": "Necesito otra almohada.",
+    "finnish": "Tarvitsen ylimääräisen tyynyn.",
+    "english": "I need an extra pillow.",
+    "wordCount": 3,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "883639",
+    "spanish": "Una cerveza, por favor.",
+    "finnish": "Yksi olut, kiitos.",
+    "english": "A beer, please.",
+    "wordCount": 4,
+    "categories": [
+      "greetings",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "916173",
+    "spanish": "Quiero que mi padre vea la película.",
+    "finnish": "Haluan, että isäni näkee sen elokuvan.",
+    "english": "I want my father to see the movie.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "924498",
+    "spanish": "Nadie puede hacer dos cosas a la vez.",
+    "finnish": "Kukaan ei voi tehdä kahta asiaa kerralla.",
+    "english": "Nobody can do two things at once.",
+    "wordCount": 8,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "961274",
+    "spanish": "Quiero saber tu opinión.",
+    "finnish": "Haluan tietää sinun mielipiteesi.",
+    "english": "I want to know your opinion.",
+    "wordCount": 4,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "977640",
+    "spanish": "Sólo haz preguntas que puedan responderse con un \"sí\" o con un \"no\".",
+    "finnish": "Esitä vain kysymyksiä, joihin voi vastata joko kyllä tai ei.",
+    "english": "Only ask questions to which the reply can be either \"yes\" or \"no\".",
+    "wordCount": 13,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "979404",
+    "spanish": "Puedes preguntar al chico que está jugando allí.",
+    "finnish": "Voit kysyä tuolla leikkivältä lapselta.",
+    "english": "You can ask the child who's playing over there.",
+    "wordCount": 8,
+    "categories": [
+      "reasoning_assessment",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1001567",
+    "spanish": "Lentamente, por favor.",
+    "finnish": "Hitaasti, kiitos.",
+    "english": "Slowly, please.",
+    "wordCount": 3,
+    "categories": [
+      "greetings",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1003054",
+    "spanish": "Puedo hacerlo sin tu ayuda.",
+    "finnish": "Pystyn tehdä sen ilman sinun apuasi.",
+    "english": "I can do this without your help.",
+    "wordCount": 5,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1003055",
+    "spanish": "Puedo hacerlo sin vuestra ayuda.",
+    "finnish": "Pystyn siihen ilman teidän apuannekin.",
+    "english": "I can do it without your help.",
+    "wordCount": 5,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1003073",
+    "spanish": "Decidí decirle que la quiero.",
+    "finnish": "Päätin kertoa hänelle rakastavani häntä.",
+    "english": "I decided to tell her that I love her.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1004394",
+    "spanish": "Puedes comer cualquier cosa, siempre que no comas demasiado.",
+    "finnish": "Voit syödä mitä tahansa, kunhat et syö liikaa.",
+    "english": "You may eat anything so long as you don't eat too much.",
+    "wordCount": 9,
+    "categories": [
+      "food",
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1064994",
+    "spanish": "Ella tenía un deseo desmesurado por el dinero.",
+    "finnish": "Hänellä oli luonnoton rahanhimo.",
+    "english": "She had an unnatural desire for money.",
+    "wordCount": 8,
+    "categories": [
+      "work",
+      "time",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1066928",
+    "spanish": "Todo lo que tienes que hacer es apretar el botón.",
+    "finnish": "Kaikki mitä sinun pitää tehdä on painaa nappia.",
+    "english": "All you have to do is press the button.",
+    "wordCount": 10,
+    "categories": [
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1075410",
+    "spanish": "¿Qué tengo que hacer ahora?",
+    "finnish": "Mitä minun täytyy tehdä nyt?",
+    "english": "What do I need to do now?",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1086510",
+    "spanish": "Quiero otro cuchillo, uno que sirva para cortar el asado.",
+    "finnish": "Haluan toisen veitsen, sellaisen jolla voi leikata lihaa.",
+    "english": "I want another knife. One that's good for cutting roast.",
+    "wordCount": 10,
+    "categories": [
+      "food",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1087864",
+    "spanish": "No soy rico ni quiero serlo.",
+    "finnish": "En ole rikas, enkä haluakaan olla.",
+    "english": "I'm not rich, nor do I want to be.",
+    "wordCount": 6,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1121806",
+    "spanish": "No llores. Te quiero.",
+    "finnish": "Älä itke. Rakastan sinua.",
+    "english": "Don't cry. I love you.",
+    "wordCount": 4,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1123598",
+    "spanish": "Debes ser cuidadoso de no hacerlo enfadar.",
+    "finnish": "Sinun pitää olla varovainen, että et suututa häntä.",
+    "english": "You must be careful not to get angry.",
+    "wordCount": 7,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1124019",
+    "spanish": "Estoy cansado de todo, sólo quisiera estar en las Islas Canarias.",
+    "finnish": "Olen väsynyt kaikkeen; en haluaisi mitään muuta kuin olla Kanarian saarilla.",
+    "english": "I'm tired of everything; I would like nothing more than to be in the Canary Islands.",
+    "wordCount": 11,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1124042",
+    "spanish": "Hacer películas es un trabajo emocionante.",
+    "finnish": "Elokuvan tekeminen on jännittävää työtä.",
+    "english": "Movie making is an exciting job.",
+    "wordCount": 6,
+    "categories": [
+      "work",
+      "leisure",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1126385",
+    "spanish": "Por favor, apaga la luz cuando dejes la habitación.",
+    "finnish": "Sammutathan valot, kun lähdet huoneesta.",
+    "english": "Please put the light out when you leave the room.",
+    "wordCount": 9,
+    "categories": [
+      "greetings",
+      "daily_life",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1127345",
+    "spanish": "Es un buen día y quiero dar un paseo.",
+    "finnish": "On kaunis päivä ja haluan mennä kävelylle.",
+    "english": "It's a nice day and I feel like taking a walk.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1128223",
+    "spanish": "¿Qué vas a hacer cuando crezcas?",
+    "finnish": "Mitä aiot tehdä isona?",
+    "english": "What do you want to do when you grow up?",
+    "wordCount": 6,
+    "categories": [
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1134612",
+    "spanish": "Quiero ir a nadar.",
+    "finnish": "Haluan mennä uimaan.",
+    "english": "I want to go swimming.",
+    "wordCount": 4,
+    "categories": [
+      "leisure",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1143654",
+    "spanish": "Yo no necesito tu dinero. Solo necesito tu tiempo.",
+    "finnish": "En tarvitse rahaasi. Tarvitsen vain aikaasi.",
+    "english": "I don't need your money. I just need your time.",
+    "wordCount": 9,
+    "categories": [
+      "work",
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1147781",
+    "spanish": "Quiero la dirección.",
+    "finnish": "Haluan sen osoitteen.",
+    "english": "I want the address.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1198500",
+    "spanish": "Por favor, apaga la radio.",
+    "finnish": "Sammuta radio ole kiltti.",
+    "english": "Please turn off the radio.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1203865",
+    "spanish": "Tom acaba de ser despedido.",
+    "finnish": "Tomi sai juuri potkut.",
+    "english": "Tom just got fired.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1205490",
+    "spanish": "¿Tú puedes nadar tan rápido como él?",
+    "finnish": "Pystytkö uimaan yhtä nopeasti kuin hän?",
+    "english": "Can you swim as fast as he?",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1239109",
+    "spanish": "¿Te puedes acordar de lo lento que solía ser el Internet?",
+    "finnish": "Voitko muistaa kuinka hidas Internet tapasi olla?",
+    "english": "Can you remember how slow the Internet used to be?",
+    "wordCount": 11,
+    "categories": [
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1245070",
+    "spanish": "¿Puedes conducir hasta allí?",
+    "finnish": "Voitko ajaa sinne asti?",
+    "english": "Can you drive until there?",
+    "wordCount": 4,
+    "categories": [
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1250993",
+    "spanish": "Él es incapaz de hacerlo.",
+    "finnish": "Hän ei pysty siihen.",
+    "english": "He is unable to do it.",
+    "wordCount": 5,
+    "categories": [
+      "statements_of_fact",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1264087",
+    "spanish": "Tienes que hacerlo.",
+    "finnish": "Sinun täytyy tehdä tämä.",
+    "english": "You must do it.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1268528",
+    "spanish": "¿Qué puedo hacer para ayudarte?",
+    "finnish": "Miten voin auttaa sinua?",
+    "english": "What can I do to help you?",
+    "wordCount": 5,
+    "categories": [
+      "leisure",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1296681",
+    "spanish": "Escúchame, por favor.",
+    "finnish": "Kuuntele minua, pyydän.",
+    "english": "Please listen to me.",
+    "wordCount": 3,
+    "categories": [
+      "greetings",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1318250",
+    "spanish": "Me gustaría besarte.",
+    "finnish": "Haluaisin suudella sinua.",
+    "english": "I would like to kiss you.",
+    "wordCount": 3,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1322008",
+    "spanish": "Me gustaría ir a Francia alguna vez.",
+    "finnish": "Haluaisin käydä joskus Ranskassa.",
+    "english": "I'd like to go to France sometime.",
+    "wordCount": 7,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1328232",
+    "spanish": "Me gustaría tomar un vaso de vino.",
+    "finnish": "Haluaisin lasin viiniä.",
+    "english": "I'd like to have a glass of wine.",
+    "wordCount": 7,
+    "categories": [
+      "food",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1328264",
+    "spanish": "Quiero volver a escalar el monte Fuji.",
+    "finnish": "Haluan kiivetä Fuji-vuoren uudestaan.",
+    "english": "I want to climb Mt. Fuji again.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1328402",
+    "spanish": "No lo necesito.",
+    "finnish": "En tarvitse sitä.",
+    "english": "I don't need it.",
+    "wordCount": 3,
+    "categories": [
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1329482",
+    "spanish": "No quiero desperdiciar los mejores años de mi vida por ti.",
+    "finnish": "En halua tuhlata elämäni parhaita vuosia sinuun.",
+    "english": "I do not want to waste the best years of my life for you.",
+    "wordCount": 11,
+    "categories": [
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1332423",
+    "spanish": "¿Podrías hacerme un descuento?",
+    "finnish": "Voisitko antaa minulle alennusta?",
+    "english": "Could you give me a discount?",
+    "wordCount": 4,
+    "categories": [
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1348679",
+    "spanish": "Quiero bailar.",
+    "finnish": "Haluan tanssia.",
+    "english": "I want to dance.",
+    "wordCount": 2,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1350957",
+    "spanish": "Está claro qué hay que hacer.",
+    "finnish": "On ilmiselvää mitä täytyy tehdä.",
+    "english": "It is clear what must be done.",
+    "wordCount": 6,
+    "categories": [
+      "questions_inquiries",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1360996",
+    "spanish": "Necesito un masaje.",
+    "finnish": "Tarvitsen hierontaa.",
+    "english": "I need a massage.",
+    "wordCount": 3,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1362003",
+    "spanish": "¡Quiero una espada como esta!",
+    "finnish": "Tämänlaisen miekan minä haluan!",
+    "english": "I want a sword like this!",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1369837",
+    "spanish": "No necesito sonar como un hablante nativo, sólo quiero ser capaz de hablar con fluidez.",
+    "finnish": "Minun ei tarvitse kuulostaa syntyperäiseltä puhujalta, haluan vain pystyä puhumaan sujuvasti.",
+    "english": "I don't need to sound like a native speaker, I just want to be able to speak fluently.",
+    "wordCount": 15,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1371904",
+    "spanish": "¿Puedes arreglar la radio defectuosa?",
+    "finnish": "Osaatko korjata rikkinäisen radion?",
+    "english": "Can you fix the broken radio?",
+    "wordCount": 5,
+    "categories": [
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1394224",
+    "spanish": "No puedes vivir solo de amor.",
+    "finnish": "Et voi elää vain rakkaudesta.",
+    "english": "You cannot live by love alone.",
+    "wordCount": 6,
+    "categories": [
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1395417",
+    "spanish": "Yo tampoco lo puedo hacer.",
+    "finnish": "Minäkään en pysty tekemään sitä.",
+    "english": "I can't do it either.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1411210",
+    "spanish": "Todo lo que tienes que hacer es concentrarte.",
+    "finnish": "Kaikki mitä sinun on tehtävä on keskittyä.",
+    "english": "All you have to do is to concentrate.",
+    "wordCount": 8,
+    "categories": [
+      "leisure",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1412029",
+    "spanish": "Tú puedes elegir la que quieras.",
+    "finnish": "Voit valita minkä tahansa haluat.",
+    "english": "You may choose whichever you want.",
+    "wordCount": 6,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1414823",
+    "spanish": "Ha pedido más dinero.",
+    "finnish": "Hän pyysi lisää rahaa.",
+    "english": "He asked for more money.",
+    "wordCount": 4,
+    "categories": [
+      "work",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1421603",
+    "spanish": "No quiero hablar de ella.",
+    "finnish": "En halua puhua hänestä.",
+    "english": "I don't want to speak about her.",
+    "wordCount": 5,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1423199",
+    "spanish": "Haz lo que sea correcto.",
+    "finnish": "Tee se mikä on oikein.",
+    "english": "Do that which is right.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1425827",
+    "spanish": "No sé si lo pueda hacer, pero lo voy a intentar.",
+    "finnish": "En tiedä pystynkö siihen, mutta minä yritän.",
+    "english": "I don't know whether I can do it, but I'll try.",
+    "wordCount": 11,
+    "categories": [
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1431367",
+    "spanish": "Quiero cambiar de vida.",
+    "finnish": "Haluan muuttaa elämääni.",
+    "english": "I want to change my life.",
+    "wordCount": 4,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1439542",
+    "spanish": "No basta con hacer el bien; también hay que hacerlo bien.",
+    "finnish": "Ei riitä, että tekee hyvää - se täytyy tehdä myös hyvin.",
+    "english": "It is not enough to do good; one must also do it well.",
+    "wordCount": 11,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1468197",
+    "spanish": "Si un cerebro puede hacerlo, también un computador.",
+    "finnish": "Jos aivot siihen pystyvät, pystyy tietokonekin.",
+    "english": "If a brain can do it, a computer can do it.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1486830",
+    "spanish": "¿Lo podrías explicar con más detalle?",
+    "finnish": "Selittäisitkö sen tarkemmin?",
+    "english": "Would you explain it in more detail?",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1488964",
+    "spanish": "Tom no quería hacer el trabajo sucio de ellos.",
+    "finnish": "Tom ei tahtonut tehdä heidän likaista työtään.",
+    "english": "Tom didn't want to do their dirty work.",
+    "wordCount": 9,
+    "categories": [
+      "work",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1512832",
+    "spanish": "Si tienes problemas de ratones o ratas, los puedes ahuyentar con ultrasonido.",
+    "finnish": "Jos sinulla on ongelmia rottien ja hiirten kanssa, voit pelottaa ne pois ultraäänellä.",
+    "english": "If you have problems with rats or mice, you can scare them away with ultrasound.",
+    "wordCount": 12,
+    "categories": [
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1524165",
+    "spanish": "Mi bolígrafo está viejo. Quiero uno nuevo.",
+    "finnish": "Minun kynäni on vanha. Haluan uuden.",
+    "english": "My pen is old. I want a new one.",
+    "wordCount": 7,
+    "categories": [
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1527817",
+    "spanish": "No quiero limpiar caca de perro.",
+    "finnish": "En halua siivota koiran paskaa.",
+    "english": "I don't wanna clean up dog shit.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1569382",
+    "spanish": "No tengo nada que hacer esta tarde.",
+    "finnish": "Minulla ei tänään iltapäivällä ole mitään tehtävää.",
+    "english": "I have nothing to do this afternoon.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1617917",
+    "spanish": "Si quieres que algo se haga bien, tienes que hacerlo tú mismo.",
+    "finnish": "Jos haluat, että jotain tehdään oikein, sinun täytyy tehdä se itse.",
+    "english": "If you want something done right, you have to do it yourself.",
+    "wordCount": 12,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1625465",
+    "spanish": "Les deseo a todos una feliz navidad y un feliz año nuevo.",
+    "finnish": "Toivotan teille kaikille hyvää joulua ja onnellista uutta vuotta.",
+    "english": "I wish you all a merry Christmas and a happy new year.",
+    "wordCount": 12,
+    "categories": [
+      "emotions",
+      "time",
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1639067",
+    "spanish": "Necesito un mapa.",
+    "finnish": "Tarvitsen kartan.",
+    "english": "I need a map.",
+    "wordCount": 3,
+    "categories": [
+      "travel",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1658263",
+    "spanish": "Quiero ayudar.",
+    "finnish": "Minä haluan auttaa.",
+    "english": "I want to help.",
+    "wordCount": 2,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1671410",
+    "spanish": "Pon ese libro sobre los demás.",
+    "finnish": "Laita kirjan toisten päälle.",
+    "english": "Put this book on top of the others.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1673595",
+    "spanish": "Por favor no deje objetos valiosos aquí.",
+    "finnish": "Olkaa hyvät älkääkä jättäkö arvokkaita esineitä tänne.",
+    "english": "Please don't leave valuable things here.",
+    "wordCount": 7,
+    "categories": [
+      "greetings",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1676462",
+    "spanish": "Por favor, añade un punto final al final de tu frase.",
+    "finnish": "Voisitko lisätä pisteen lauseesi loppuun.",
+    "english": "Please add a period at the end of your sentence.",
+    "wordCount": 11,
+    "categories": [
+      "greetings",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1684178",
+    "spanish": "No quiero saber.",
+    "finnish": "En halua tietää.",
+    "english": "I don't want to know.",
+    "wordCount": 3,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1684375",
+    "spanish": "¿Qué planeas hacer?",
+    "finnish": "Mitä sinä aiot tehdä?",
+    "english": "What do you intend to do?",
+    "wordCount": 3,
+    "categories": [
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1713258",
+    "spanish": "No puedo aprender finés porque no quiero vivir en Finlandia.",
+    "finnish": "En voi opiskella suomea, koska en halua asua Suomessa.",
+    "english": "I cannot learn Finnish because I don't want to live in Finland.",
+    "wordCount": 10,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1747157",
+    "spanish": "No quiero vivir sola.",
+    "finnish": "En halua asua yksin.",
+    "english": "I don't want to live alone.",
+    "wordCount": 4,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1790322",
+    "spanish": "Necesito un poco de ayuda tuya.",
+    "finnish": "Tarvitsen vähän apua sinulta.",
+    "english": "I need a little help from you.",
+    "wordCount": 6,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1805452",
+    "spanish": "Por favor, quítate los zapatos.",
+    "finnish": "Ota kengät pois, kiitos.",
+    "english": "Please take off your shoes.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "daily_life",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1816557",
+    "spanish": "Necesito un montón de libros.",
+    "finnish": "Tarvitsen paljon kirjoja.",
+    "english": "I need a lot of books.",
+    "wordCount": 5,
+    "categories": [
+      "leisure",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1824787",
+    "spanish": "Mi tía me mostró cómo hacer buen café.",
+    "finnish": "Tätini näytti minulle, miten hyvää kahvia tehdään.",
+    "english": "My aunt showed me how to make good coffee.",
+    "wordCount": 8,
+    "categories": [
+      "food",
+      "family",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1827667",
+    "spanish": "No se lo digas a nadie, por favor.",
+    "finnish": "Ethän kerro tästä kenellekään?",
+    "english": "Please don't tell anyone.",
+    "wordCount": 8,
+    "categories": [
+      "greetings",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1831931",
+    "spanish": "No quiero comer nada.",
+    "finnish": "En halua syödä mitään.",
+    "english": "I don't want to eat anything.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1835188",
+    "spanish": "Le gusta hacer fotos.",
+    "finnish": "Hän valokuvaa mielellään.",
+    "english": "She likes taking pictures.",
+    "wordCount": 4,
+    "categories": [
+      "travel",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1853380",
+    "spanish": "Dame tu dinero o te daré una paliza.",
+    "finnish": "Anna minulle rahasi tai muuten hakkaan sinut.",
+    "english": "Give me your money or else I'll beat you up.",
+    "wordCount": 8,
+    "categories": [
+      "work",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1862098",
+    "spanish": "Quiero divorciarme.",
+    "finnish": "Haluan avioeron.",
+    "english": "I want a divorce.",
+    "wordCount": 2,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1868799",
+    "spanish": "Quiero el divorcio.",
+    "finnish": "Haluan avioeron.",
+    "english": "I want a divorce.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1869195",
+    "spanish": "No quiero que lo vea nadie.",
+    "finnish": "En halua kenenkään näkevän sitä.",
+    "english": "I don't want anyone to see it.",
+    "wordCount": 6,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1869196",
+    "spanish": "No quiero que nadie lo vea.",
+    "finnish": "En halua kenenkään näkevän sitä.",
+    "english": "I don't want anyone to see it.",
+    "wordCount": 6,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1869280",
+    "spanish": "Quiero a mi hija.",
+    "finnish": "Rakastan tytärtäni.",
+    "english": "I love my daughter.",
+    "wordCount": 4,
+    "categories": [
+      "family",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1881120",
+    "spanish": "Quiero un perrito.",
+    "finnish": "Haluan koiranpennun.",
+    "english": "I want a puppy.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1885087",
+    "spanish": "Todavía no me he despedido.",
+    "finnish": "Et ole vielä hyvästellyt minua.",
+    "english": "I haven't said goodbye yet.",
+    "wordCount": 5,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1897599",
+    "spanish": "¿Puedes ayudarme un poco?",
+    "finnish": "Voisitko auttaa minua vähän?",
+    "english": "Can you help me a little?",
+    "wordCount": 4,
+    "categories": [
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1914160",
+    "spanish": "Jamás vuelvas a hacer eso.",
+    "finnish": "Älä enää koskaan tee tälläistä!",
+    "english": "Don't ever do that again.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1917712",
+    "spanish": "¿Puedes empezar mañana?",
+    "finnish": "Voitko aloittaa huomenna?",
+    "english": "Can you start tomorrow?",
+    "wordCount": 3,
+    "categories": [
+      "time",
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1960698",
+    "spanish": "Deshazte del arma.",
+    "finnish": "Hankkiudu eroon aseesta.",
+    "english": "Get rid of the gun.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1976925",
+    "spanish": "Quisiera averiguar más sobre Tom.",
+    "finnish": "Haluaisin tietää lisää Tomista.",
+    "english": "I'd like to know more about Tom.",
+    "wordCount": 5,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2008113",
+    "spanish": "Podemos hacerlo.",
+    "finnish": "Voimme tehdä tuon.",
+    "english": "We can get that done.",
+    "wordCount": 2,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2011117",
+    "spanish": "Quiero a mi madre.",
+    "finnish": "Minä rakastan äitiäni.",
+    "english": "I love my mom.",
+    "wordCount": 4,
+    "categories": [
+      "family",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2015315",
+    "spanish": "Quiero averiguar quién hizo esto.",
+    "finnish": "Haluan selvittää kuka teki tämän.",
+    "english": "I want to find out who did this.",
+    "wordCount": 5,
+    "categories": [
+      "leisure",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2015520",
+    "spanish": "No quiero ir a trabajar hoy.",
+    "finnish": "En halua mennä töihin tänään.",
+    "english": "I don't want to go to work today.",
+    "wordCount": 6,
+    "categories": [
+      "work",
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2015547",
+    "spanish": "Sencillamente no quiero herir a nadie.",
+    "finnish": "En kylläkään halua loukata ketään.",
+    "english": "I just don't want to hurt anyone.",
+    "wordCount": 6,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2015605",
+    "spanish": "Quiero que seas mi amigo de nuevo.",
+    "finnish": "Haluan sinun taas olevan ystäväni.",
+    "english": "I want you to be my friend again.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2028992",
+    "spanish": "No quiero niños.",
+    "finnish": "En halua lapsia.",
+    "english": "I don't want kids.",
+    "wordCount": 3,
+    "categories": [
+      "family",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2033143",
+    "spanish": "Quiero que ayudes a Tom.",
+    "finnish": "Haluan, että sinä autat Tomia.",
+    "english": "I want you to help Tom.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2033151",
+    "spanish": "Quisiera darte las gracias.",
+    "finnish": "Haluaisin kiittää sinua.",
+    "english": "I'd like to thank you.",
+    "wordCount": 4,
+    "categories": [
+      "greetings",
+      "leisure",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2033174",
+    "spanish": "Quiero lo que prometiste.",
+    "finnish": "Haluan sen, minkä lupasit.",
+    "english": "I want what you promised.",
+    "wordCount": 4,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2033176",
+    "spanish": "Quiero hacer feliz a Tom.",
+    "finnish": "Haluan tehdä Tomin onnelliseksi.",
+    "english": "I want to make Tom happy.",
+    "wordCount": 5,
+    "categories": [
+      "emotions",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2050306",
+    "spanish": "Quiero disculparme por todas las cosas terribles que dije.",
+    "finnish": "Haluan pyytää anteeksi kaikkia niitä kauheita asioita, jotka sanoin.",
+    "english": "I want to apologize for all the terrible things I said.",
+    "wordCount": 9,
+    "categories": [
+      "greetings",
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2050336",
+    "spanish": "Quiero saber qué pasó con la pistola que te dio Tom.",
+    "finnish": "Haluan tietää mitä tapahtui Tomin sinulle antamalle pyssylle.",
+    "english": "I want to know what happened to the gun you received from Tom.",
+    "wordCount": 11,
+    "categories": [
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2067002",
+    "spanish": "Solo quiero lo mejor para ti.",
+    "finnish": "Haluan vain sinun parastasi.",
+    "english": "I only want what's best for you.",
+    "wordCount": 6,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2067003",
+    "spanish": "Yo solo quiero lo mejor para ti.",
+    "finnish": "Haluan vain sinun parastasi.",
+    "english": "I only want what's best for you.",
+    "wordCount": 7,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2079102",
+    "spanish": "Hazlo ahora.",
+    "finnish": "Tee se nyt.",
+    "english": "Do it right now.",
+    "wordCount": 2,
+    "categories": [
+      "time",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2079566",
+    "spanish": "Por favor, cerrad los ojos.",
+    "finnish": "Sulkekaa silmänne.",
+    "english": "Close your eyes, please.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2084510",
+    "spanish": "Quiero bailar con Mary.",
+    "finnish": "Haluan tanssia Maryn kanssa.",
+    "english": "I want to dance with Mary.",
+    "wordCount": 4,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2086361",
+    "spanish": "Tom no quería hacer nada que pudiera lamentar.",
+    "finnish": "Tom ei halunnut tehdä mitään, jota hän tulisi katumaan.",
+    "english": "Tom didn't want to do something he would regret.",
+    "wordCount": 8,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2087351",
+    "spanish": "Quiero ser tu amiga.",
+    "finnish": "Haluan olla ystäväsi.",
+    "english": "I want to be your friend.",
+    "wordCount": 4,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2092234",
+    "spanish": "Ella sabía lo que se debía hacer.",
+    "finnish": "Hän tiesi mitä piti tehdä.",
+    "english": "She knew what needed to be done.",
+    "wordCount": 7,
+    "categories": [
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2096435",
+    "spanish": "Quiero dejar mi empleo.",
+    "finnish": "Haluan lopettaa työni.",
+    "english": "I wanna quit my job.",
+    "wordCount": 4,
+    "categories": [
+      "work",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2104045",
+    "spanish": "Quiero ganar.",
+    "finnish": "Haluan voittaa.",
+    "english": "I want to win.",
+    "wordCount": 2,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2112265",
+    "spanish": "Puedo hacer eso si me dejas.",
+    "finnish": "Voin tehdä sen jos annat minun.",
+    "english": "I can do that if you let me.",
+    "wordCount": 6,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2117439",
+    "spanish": "Trae vino.",
+    "finnish": "Tuo viiniä.",
+    "english": "Bring wine.",
+    "wordCount": 2,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2132139",
+    "spanish": "No es difícil de hacer.",
+    "finnish": "Sen tekeminen ei ole vaikeaa.",
+    "english": "It isn't hard to do.",
+    "wordCount": 5,
+    "categories": [
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2148216",
+    "spanish": "Quiero el mismo diccionario que tienes tú.",
+    "finnish": "Haluaisin saman sanakirjan kuin sinulla on.",
+    "english": "I want the same dictionary as you have.",
+    "wordCount": 7,
+    "categories": [
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2169601",
+    "spanish": "Quiero un desafío.",
+    "finnish": "Haluan haastetta.",
+    "english": "I want a challenge.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2183993",
+    "spanish": "Quiero más dinero.",
+    "finnish": "Tahdon lisää rahaa.",
+    "english": "I want more money.",
+    "wordCount": 3,
+    "categories": [
+      "work",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2185218",
+    "spanish": "Quiero vivir en casa con mi familia.",
+    "finnish": "Haluan asua kotona perheeni kanssa.",
+    "english": "I want to live at home with my family.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "daily_life",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2186657",
+    "spanish": "Puedes confiar en ella.",
+    "finnish": "Voit luottaa häneen.",
+    "english": "You can rely on her.",
+    "wordCount": 4,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2191928",
+    "spanish": "¿Puedes ver la imagen?",
+    "finnish": "Pystytkö näkemään kuvan?",
+    "english": "Can you see the picture?",
+    "wordCount": 4,
+    "categories": [
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2192403",
+    "spanish": "Solo quiero tomar una foto.",
+    "finnish": "Haluan vain ottaa kuvan.",
+    "english": "I just want to take a picture.",
+    "wordCount": 5,
+    "categories": [
+      "travel",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2192426",
+    "spanish": "Solo quiero que sepas que te perdono.",
+    "finnish": "Haluan vain sinun tietävän, että annan sinulle anteeksi.",
+    "english": "I just want you to know that I forgive you.",
+    "wordCount": 7,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2216569",
+    "spanish": "Dame un abrazo.",
+    "finnish": "Anna mulle hali.",
+    "english": "Give me a hug.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2228128",
+    "spanish": "Sus deseos se cumplieron plenamente.",
+    "finnish": "Hänen toiveensa tulivat täysin toteen.",
+    "english": "Her desires were fully fulfilled.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2228151",
+    "spanish": "No quiero comprar esta alfombra.",
+    "finnish": "En halua ostaa tätä mattoa.",
+    "english": "I don't want to buy this carpet.",
+    "wordCount": 5,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2261107",
+    "spanish": "Deja de cantar, por favor.",
+    "finnish": "Ole kiltti ja lopeta laulaminen.",
+    "english": "Please stop singing.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2305876",
+    "spanish": "Necesito aire fresco.",
+    "finnish": "Tarvitsen raitista ilmaa.",
+    "english": "I need some fresh air.",
+    "wordCount": 3,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2333054",
+    "spanish": "Yo quiero participar en la protesta.",
+    "finnish": "Haluan osallistua protestiin.",
+    "english": "I want to participate in the protest.",
+    "wordCount": 6,
+    "categories": [
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2351638",
+    "spanish": "Dame un beso.",
+    "finnish": "Pussaa minua!",
+    "english": "Give me a kiss.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2352698",
+    "spanish": "Escucha a Tom.",
+    "finnish": "Kuuntele Tomia.",
+    "english": "Listen to Tom.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2378470",
+    "spanish": "Ahora tengo muchas cosas que hacer.",
+    "finnish": "Minulla on nyt paljon tehtävää.",
+    "english": "I have many things to do now.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2390592",
+    "spanish": "¡Te quiero!",
+    "finnish": "Minä rakastan sinua.",
+    "english": "I love you!",
+    "wordCount": 2,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2532862",
+    "spanish": "No quiero hablar con Tom.",
+    "finnish": "En halua puhua Tomin kanssa.",
+    "english": "I don't want to talk to Tom.",
+    "wordCount": 5,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2571598",
+    "spanish": "Es difícil hacer suficiente ejercicio en un trabajo así.",
+    "finnish": "Tällaisessa työssä on vaikea saada tarpeeksi liikuntoa.",
+    "english": "In a job like this, it's hard to get enough exercise.",
+    "wordCount": 9,
+    "categories": [
+      "work",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2592533",
+    "spanish": "Esto es algo que necesito hacer sola.",
+    "finnish": "Tämä on jotain, mikä minun pitää tehdä yksin.",
+    "english": "This is something I need to do alone.",
+    "wordCount": 7,
+    "categories": [
+      "conditional_statements",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2594546",
+    "spanish": "¿Por qué querrías hacer algo así?",
+    "finnish": "Miksi haluaisit tehdä jotain sellaista?",
+    "english": "Why would you want to do something like that?",
+    "wordCount": 6,
+    "categories": [
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2624644",
+    "spanish": "Necesito unas tijeras.",
+    "finnish": "Tarvitsen saksia.",
+    "english": "I need scissors.",
+    "wordCount": 3,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2654087",
+    "spanish": "No necesito dinero.",
+    "finnish": "En tarvitse rahaa.",
+    "english": "I don't need money.",
+    "wordCount": 3,
+    "categories": [
+      "work",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2658192",
+    "spanish": "¿Tienes algo que hacer mañana a esta hora?",
+    "finnish": "Täytyykö sinun tehdä jotakin huomenna tähän aikaan?",
+    "english": "What'll you be doing at this time tomorrow?",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2667235",
+    "spanish": "Puedes hacer lo que quieras, por supuesto.",
+    "finnish": "Voit tietysti tehdä mitä ikinä haluatkin.",
+    "english": "You can do whatever you want to do, of course.",
+    "wordCount": 7,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2667238",
+    "spanish": "¿Cuál es la verdadera razón por la que no quieres hacer esto?",
+    "finnish": "Mikä on todellinen syy sille, että et halua tehdä tätä?",
+    "english": "What's the real reason you don't want to do this?",
+    "wordCount": 12,
+    "categories": [
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2667239",
+    "spanish": "Hay tantas cosas que quiero decirte.",
+    "finnish": "Minulla on niin paljon sanottavaa sinulle.",
+    "english": "There's so much I want to say to you.",
+    "wordCount": 6,
+    "categories": [
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2667255",
+    "spanish": "Quiero que sepas que podemos parar de preocuparnos.",
+    "finnish": "Haluan sinun tietävän, että voimme lakata huolehtimasta.",
+    "english": "I want you to know we can stop worrying.",
+    "wordCount": 8,
+    "categories": [
+      "emotions",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2667256",
+    "spanish": "Quiero hablarte acerca de algo más.",
+    "finnish": "Haluan puhua sinun kanssasi jostain muusta.",
+    "english": "I want to talk to you about something else.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2667257",
+    "spanish": "Quiero enseñarte algo en mi oficina.",
+    "finnish": "Haluan näyttää sinulle jotakin toimistossani.",
+    "english": "I want to show you something in my office.",
+    "wordCount": 6,
+    "categories": [
+      "work",
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2667272",
+    "spanish": "¿Estás seguro de que no quieres hacer eso?",
+    "finnish": "Oletko varma, että et haluat tehdä sitä?",
+    "english": "Are you sure you don't want to do that?",
+    "wordCount": 8,
+    "categories": [
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2671393",
+    "spanish": "Quiero ver más.",
+    "finnish": "Haluan nähdä enemmän.",
+    "english": "I want to see more.",
+    "wordCount": 3,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2698841",
+    "spanish": "No quiero hacerte daño.",
+    "finnish": "En halua satuttaa sinua.",
+    "english": "I don't want to harm you.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2700732",
+    "spanish": "Quiero comer tarta de manzana.",
+    "finnish": "Haluan syödä omenapiirakkaa.",
+    "english": "I want to eat apple pie.",
+    "wordCount": 5,
+    "categories": [
+      "food",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2721431",
+    "spanish": "Quiero hablar contigo sobre Tom.",
+    "finnish": "Mä haluun jutella sun kanssa Tomista.",
+    "english": "I want to talk to you about Tom.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2762362",
+    "spanish": "Quiero saber por qué no te gusta Tom.",
+    "finnish": "Haluan tietää mikset pidä Tomista.",
+    "english": "I want to know why you don't like Tom.",
+    "wordCount": 8,
+    "categories": [
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2783579",
+    "spanish": "Realmente quiero una motocicleta.",
+    "finnish": "Todella tahdon moottoripyörän.",
+    "english": "I really want a motorcycle.",
+    "wordCount": 4,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2802433",
+    "spanish": "¿Me podría dar un vaso de leche, por favor?",
+    "finnish": "Voisinko saada lasin maitoa, kiitos?",
+    "english": "May I have a glass of milk, please?",
+    "wordCount": 9,
+    "categories": [
+      "greetings",
+      "food",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2809340",
+    "spanish": "No puedo hacer eso ahora.",
+    "finnish": "En voi tehdä sitä nyt.",
+    "english": "I can't do that now.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2810710",
+    "spanish": "Quiero una botella de Coca-Cola.",
+    "finnish": "Haluan pullon kokista.",
+    "english": "I want a bottle of Coca-Cola.",
+    "wordCount": 5,
+    "categories": [
+      "food",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2812794",
+    "spanish": "No sé si puedo hacerlo.",
+    "finnish": "En tiedä voinko tehdä sen.",
+    "english": "I don't know if I can do it.",
+    "wordCount": 5,
+    "categories": [
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2849450",
+    "spanish": "Quiero vivir mi vida sin estrés y preocupaciones. No necesito ser rico y famoso, sólo quiero ser feliz...",
+    "finnish": "Haluan elää elämäni ilman stressiä ja huolia. Minun ei tarvitse olla rikas ja kuuluisa, haluan vain olla onnellinen...",
+    "english": "I want to live my life without stress and worries. I don't need to be rich or famous, I just want to be happy.",
+    "wordCount": 18,
+    "categories": [
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2852270",
+    "spanish": "Me gustaría estudiar química en la universidad.",
+    "finnish": "Haluaisin opiskella kemiaa yliopistossa.",
+    "english": "I'd like to study chemistry at college.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2852413",
+    "spanish": "Te quiero hacer una sencilla pregunta.",
+    "finnish": "Haluan kysyä sinulta yhden yksinkertaisen kysymyksen.",
+    "english": "I want to ask you one simple question.",
+    "wordCount": 6,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2856394",
+    "spanish": "Quiero saber por qué Tom no está aquí.",
+    "finnish": "Haluan tietää miksei Tom ole täällä.",
+    "english": "I want to know why Tom isn't here.",
+    "wordCount": 8,
+    "categories": [
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2856521",
+    "spanish": "Necesito un cuarto más grande.",
+    "finnish": "Tarvitsen isomman huoneen.",
+    "english": "I need a larger room.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2895152",
+    "spanish": "Hay una película que quiero ver por TV mañana en la noche.",
+    "finnish": "Televisiosta tulee huomenillalla elokuva, jonka tahdon katsoa.",
+    "english": "There's a movie I want to watch on TV tomorrow night.",
+    "wordCount": 12,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2897733",
+    "spanish": "Necesito mis gafas.",
+    "finnish": "Tarvitsen silmälasejani.",
+    "english": "I need my glasses.",
+    "wordCount": 3,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2902482",
+    "spanish": "Debemos encontrarlo antes de que cometa una estupidez.",
+    "finnish": "Meidän on löydettävä hänet ennen kuin hän tekee jotakin typerää.",
+    "english": "We've got to find him before he does something stupid.",
+    "wordCount": 8,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2906846",
+    "spanish": "No sé qué decir para hacerte sentir mejor.",
+    "finnish": "En tiedä mitä sanoa, että sinulle tulisi parempi olla.",
+    "english": "I don't know what to say to make you feel better.",
+    "wordCount": 8,
+    "categories": [
+      "emotions",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2917757",
+    "spanish": "Quiero ver esto por mí mismo.",
+    "finnish": "Haluan nähdä tämän itse.",
+    "english": "I want to see this myself.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2921014",
+    "spanish": "¿Puedes dormir?",
+    "finnish": "Pystytkö nukkumaan?",
+    "english": "Can you sleep?",
+    "wordCount": 2,
+    "categories": [
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2927893",
+    "spanish": "No quiero arriesgarlo.",
+    "finnish": "En tahdo vaarantaa sitä.",
+    "english": "I don't want to risk it.",
+    "wordCount": 3,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2927906",
+    "spanish": "Tendré que hacerlo yo misma.",
+    "finnish": "Minun täytyy tehdä se itse.",
+    "english": "I'll have to do it myself.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2934709",
+    "spanish": "Estoy en medio de algo. ¿Podrías volver más tarde?",
+    "finnish": "Olen kesken tekemisen. Voisitko tulla takaisin myöhemmin?",
+    "english": "I'm in the middle of something. Could you come back later?",
+    "wordCount": 9,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2959966",
+    "spanish": "Hola, quisiera un poco de fresco jugo de naranja.",
+    "finnish": "Haloo, haluaisin vähän tuoretta appelsiinimehua.",
+    "english": "Hello, I would like some fresh orange juice.",
+    "wordCount": 9,
+    "categories": [
+      "greetings",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2959974",
+    "spanish": "No quiero que pase algo así.",
+    "finnish": "En halua jotain tämän kaltaista tapahtuvan.",
+    "english": "I don't want something like this to happen.",
+    "wordCount": 6,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2959975",
+    "spanish": "No quiero que suceda algo así.",
+    "finnish": "En halua jotain tämän kaltaista tapahtuvan.",
+    "english": "I don't want something like this to happen.",
+    "wordCount": 6,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2964482",
+    "spanish": "Quiero ayudar a Tom tanto como pueda.",
+    "finnish": "Haluan auttaa Tomia niin paljon kuin voin.",
+    "english": "I want to help Tom as much as I can.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2975869",
+    "spanish": "Puedes comprarlo en cualquier venta de libros.",
+    "finnish": "Voit ostaa sen mistä tahansa kirjakaupasta.",
+    "english": "You can buy it at any bookstore.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2988591",
+    "spanish": "No cambies frases que estén correctas. En lugar de eso puedes añadir traducciones alternativas que suenen naturales.",
+    "finnish": "Älä muuta lauseita, jotka ovat oikein. Voit sen sijaan lisätä luonnollisen kuuloisia vaihtoehtoisia käännöksiä.",
+    "english": "Don't change sentences that are correct. You can, instead, submit natural-sounding alternative translations.",
+    "wordCount": 17,
+    "categories": [
+      "food",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3056763",
+    "spanish": "En la playa puedes pasar tiempo con tus amigos.",
+    "finnish": "Rannalla voi viettää aikaa kavereiden kanssa.",
+    "english": "On the beach you can spend time with your friends.",
+    "wordCount": 9,
+    "categories": [
+      "travel",
+      "leisure",
+      "time",
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3056772",
+    "spanish": "Quiero pasar toda mi vida contigo.",
+    "finnish": "Haluan viettää koko elämäni kanssasi.",
+    "english": "I want to spend all my life with you.",
+    "wordCount": 6,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3056798",
+    "spanish": "Quisiera pasar algunos días con Tom.",
+    "finnish": "Haluaisin viettää muutaman päivän Tomin kanssa.",
+    "english": "I'd like to spend a few days with Tom.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3067864",
+    "spanish": "Tom puede hacerlo en diez minutos.",
+    "finnish": "Tomi pystyy tehdä sen kymmenessä minuutissa.",
+    "english": "Tom can do it in 10 minutes.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3084183",
+    "spanish": "Quiero intentar otra cosa.",
+    "finnish": "Haluan yrittää jotakin muuta.",
+    "english": "I want to try something else.",
+    "wordCount": 4,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3098743",
+    "spanish": "Dejar algo incompleto es lo peor que puedes hacer.",
+    "finnish": "Se, että jätätte jotain kesken, on pahin asia, mitä saatatte tehdä.",
+    "english": "Leaving something unfinished is the worst thing you can do.",
+    "wordCount": 9,
+    "categories": [
+      "reasoning_assessment",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3098884",
+    "spanish": "Ayer fui al gran almacén a hacer unas compras.",
+    "finnish": "Menin eilen tavarataloon tekemään vähän ostoksia.",
+    "english": "I went to the department store to do some shopping yesterday.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3099075",
+    "spanish": "Le quiero dar un regalo de cumpleaños.",
+    "finnish": "Haluan antaa hänelle syntymäpäivälahjan.",
+    "english": "I want to give him a present for his birthday.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "time",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3100349",
+    "spanish": "Esta noche quiero salir a comer.",
+    "finnish": "Haluan syödä ulkona tänä iltana.",
+    "english": "I want to eat out tonight.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "time",
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3100616",
+    "spanish": "Uno de nosotros debe hacerlo.",
+    "finnish": "Yhden meistä on se tehtävä.",
+    "english": "One of us has to do it.",
+    "wordCount": 5,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3100700",
+    "spanish": "No tengo nada que hacer ahora mismo.",
+    "finnish": "Minulla ei ole mitään tekemistä juuri nyt.",
+    "english": "I don't have anything to do right now.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3100781",
+    "spanish": "Por favor, cuéntanos por qué necesitas quedarte aquí.",
+    "finnish": "Ole hyvä ja kerro miksi sinun tarvitsee jäädä tänne.",
+    "english": "Please tell us why you need to stay here.",
+    "wordCount": 8,
+    "categories": [
+      "greetings",
+      "leisure",
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3100792",
+    "spanish": "Necesito el dinero de Tom.",
+    "finnish": "Tarvitsen Tomin rahat.",
+    "english": "I need Tom's money.",
+    "wordCount": 5,
+    "categories": [
+      "work",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3112567",
+    "spanish": "Yo también quiero jugar.",
+    "finnish": "Minä haluan pelata myös.",
+    "english": "I also want to play.",
+    "wordCount": 4,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3113383",
+    "spanish": "¡No quiero oír una palabra más al respecto!",
+    "finnish": "En halua kuulla sanaakaan siitä enää.",
+    "english": "I don't want to hear another word about it!",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3118298",
+    "spanish": "Quisiera verlo.",
+    "finnish": "Haluaisin nähdä sen.",
+    "english": "I'd like to see it.",
+    "wordCount": 2,
+    "categories": [
+      "leisure",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3118326",
+    "spanish": "Yoko fue a hacer compras ayer.",
+    "finnish": "Yoko meni eilen ostoksille.",
+    "english": "Yoko went shopping yesterday.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3136560",
+    "spanish": "¿Acaso debes hacerlo ahora?",
+    "finnish": "Onko sinun tehtävä se nyt?",
+    "english": "Do you have to do that now?",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3136638",
+    "spanish": "Solo quería hacer una pregunta.",
+    "finnish": "Halusin vain kysyä yhden kysymyksen.",
+    "english": "I just wanted to ask a question.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3145275",
+    "spanish": "Puedes ocupar tu tiempo de la manera que tú quieras; es tu tiempo al fin y al cabo.",
+    "finnish": "Voit käyttää aikasi millä tapaa haluat; sehän on sinun aikaasi loppujen lopuksi.",
+    "english": "You can spend your time in any way you want; it's your time, after all.",
+    "wordCount": 18,
+    "categories": [
+      "time",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3177346",
+    "spanish": "Reparte las cartas, por favor.",
+    "finnish": "Ole kiltti ja jaa kortit.",
+    "english": "Please deal the cards.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3177420",
+    "spanish": "No soy lo suficientemente fuerte para hacer esto.",
+    "finnish": "En ole tarpeeksi vahva tekemään tätä.",
+    "english": "I'm not strong enough to do this.",
+    "wordCount": 8,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3201103",
+    "spanish": "Quiero vivir en Brasil.",
+    "finnish": "Haluan asua Brasiliassa.",
+    "english": "I want to live in Brazil.",
+    "wordCount": 4,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3202199",
+    "spanish": "Tom dijo que quisiera otra taza de café.",
+    "finnish": "Tom sanoi, että hän haluaisi toisen kupillisen kahvia.",
+    "english": "Tom said he'd like to have another cup of coffee.",
+    "wordCount": 8,
+    "categories": [
+      "food",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3202463",
+    "spanish": "¿Me podría dar un mapa del metro, por favor?",
+    "finnish": "Saisinko metrokartan, kiitos.",
+    "english": "Please could I have a subway map.",
+    "wordCount": 9,
+    "categories": [
+      "greetings",
+      "travel",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3202495",
+    "spanish": "Quiero saber acerca del nuevo trabajo de Tom.",
+    "finnish": "Haluan saada tietää Tomin uudesta työstä.",
+    "english": "I want to know about Tom's new job.",
+    "wordCount": 8,
+    "categories": [
+      "work",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3209195",
+    "spanish": "Por favor, compórtese como un caballero inglés.",
+    "finnish": "Käyttäydythän sitten niin kuin englantilainen herrasmies.",
+    "english": "Please behave like an English gentleman.",
+    "wordCount": 7,
+    "categories": [
+      "greetings",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3215032",
+    "spanish": "¿Puedes parar de llamarme así?",
+    "finnish": "Voitko lakata nimittämästä minua noin?",
+    "english": "Can you stop calling me that?",
+    "wordCount": 5,
+    "categories": [
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3215626",
+    "spanish": "No puedo, a pesar que quiero.",
+    "finnish": "En voi vaikka haluan.",
+    "english": "I can't even if I want to.",
+    "wordCount": 6,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3215638",
+    "spanish": "¿Por qué alguien querría hacer eso?",
+    "finnish": "Miksi joku tahtoisi tehdä sen?",
+    "english": "Why would anyone want to do that?",
+    "wordCount": 6,
+    "categories": [
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3216179",
+    "spanish": "No quiero que esto suceda otra vez.",
+    "finnish": "En halua tämän tapahtuvan uudestaan.",
+    "english": "I don't want this to happen again.",
+    "wordCount": 7,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3232869",
+    "spanish": "Quiero un cachorrito.",
+    "finnish": "Haluan koiranpennun.",
+    "english": "I want a puppy.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3234754",
+    "spanish": "Quisiera ver los árboles de donde agarraste estas manzanas.",
+    "finnish": "Haluaisin nähdä puut, joista poimit nämä omenat.",
+    "english": "I would like to see the trees from which you picked these apples.",
+    "wordCount": 9,
+    "categories": [
+      "leisure",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3238039",
+    "spanish": "¿Puedes asegurarte de que Tom aparezca a tiempo?",
+    "finnish": "Voitko varmistaa, että Tom ilmestyy paikalle ajoissa?",
+    "english": "Could you make sure Tom shows up on time?",
+    "wordCount": 8,
+    "categories": [
+      "leisure",
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3238042",
+    "spanish": "No voy a alcanzar a hacerlo.",
+    "finnish": "En tule valmistumaan ajoissa.",
+    "english": "I'm not going to make it on time.",
+    "wordCount": 6,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3238097",
+    "spanish": "Quisiera ir a ver una película.",
+    "finnish": "Haluaisin mennä katsomaan elokuvaa.",
+    "english": "I'd like to go see a movie.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3245524",
+    "spanish": "Quiero que seas mi amiga de nuevo.",
+    "finnish": "Haluan sinun taas olevan ystäväni.",
+    "english": "I want you to be my friend again.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3247737",
+    "spanish": "El diablo nos enseña a hacer sus trucos, pero no a ocultarlos.",
+    "finnish": "Piru opettaa meille temppujaan mutta ei kuinka peittää niitä.",
+    "english": "The devil teaches us his tricks but not how to hide them.",
+    "wordCount": 12,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3247960",
+    "spanish": "Para hacer dinero necesitas dinero.",
+    "finnish": "Tarvitset rahaa takoaksesi rahaa.",
+    "english": "You need money to make money.",
+    "wordCount": 5,
+    "categories": [
+      "work",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3248060",
+    "spanish": "Quiero comprar piñas.",
+    "finnish": "Haluan ostaa ananaksia.",
+    "english": "I want to buy pineapples.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3249679",
+    "spanish": "No quiero el anillo.",
+    "finnish": "En halua sormusta.",
+    "english": "I don't want the ring.",
+    "wordCount": 4,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3250899",
+    "spanish": "Desafortunadamente, no puedo hacer eso por ti.",
+    "finnish": "Valitettavasti en voi tehdä sitä puolestasi.",
+    "english": "Unfortunately, I can't do that for you.",
+    "wordCount": 7,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3253284",
+    "spanish": "Solo quiero ser una persona normal.",
+    "finnish": "Haluan vain olla normaali ihminen.",
+    "english": "I just want to be a normal person.",
+    "wordCount": 6,
+    "categories": [
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3295454",
+    "spanish": "Tom estaba a punto de hacer la llamada telefónica más importante de su vida.",
+    "finnish": "Tom oli juuri aikeissa soittaa elämänsä tärkeimmän puhelun.",
+    "english": "Tom was about to make the most important phone call of his life.",
+    "wordCount": 14,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3295468",
+    "spanish": "Tom no tenía derecho a hacer lo que hizo.",
+    "finnish": "Tomilla ei ollut oikeutta tehdä mitä teki.",
+    "english": "Tom had no right to do what he did.",
+    "wordCount": 9,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3302369",
+    "spanish": "¿Puedes encontrarlo?",
+    "finnish": "Voitko löytää sen?",
+    "english": "Can you find it?",
+    "wordCount": 2,
+    "categories": [
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3353717",
+    "spanish": "No necesito vigilar a Tom todo el tiempo.",
+    "finnish": "Minun ei tarvitse vahtia Tomia koko ajan.",
+    "english": "I don't need to watch Tom all the time.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3355262",
+    "spanish": "Quiero salir con él.",
+    "finnish": "Haluan mennä ulos hänen kanssaan.",
+    "english": "I want to go out with him.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3357606",
+    "spanish": "Tom estaba apresurado así que dejó su cama sin hacer.",
+    "finnish": "Tomilla oli kiire, niinpä hän jätti vuoteensa tekemättä.",
+    "english": "Tom was in a hurry so he left his bed unmade.",
+    "wordCount": 10,
+    "categories": [
+      "daily_life",
+      "reasoning_assessment",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3357719",
+    "spanish": "Estoy cansada y me quiero ir a la cama.",
+    "finnish": "Olen väsynyt ja haluan mennä nukkumaan.",
+    "english": "I'm tired and I want to go to bed.",
+    "wordCount": 9,
+    "categories": [
+      "daily_life",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3368879",
+    "spanish": "El amor es lo que verdaderamente no quiero perder.",
+    "finnish": "Rakkaus on se, mitä en todellakaan halua menettää.",
+    "english": "Love is what I really don't want to lose.",
+    "wordCount": 9,
+    "categories": [
+      "leisure",
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3371715",
+    "spanish": "No puedes detener el progreso.",
+    "finnish": "Et voi pysäyttää kehitystä.",
+    "english": "You can't stop progress.",
+    "wordCount": 5,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3379084",
+    "spanish": "Haz lo que digo y nadie saldrá herido.",
+    "finnish": "Tee niin kuin sanon, niin keneenkään ei satu.",
+    "english": "Do as I say, and no one will get hurt.",
+    "wordCount": 8,
+    "categories": [
+      "food",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3384083",
+    "spanish": "Tom me rogó que le ayudara a hacerlo.",
+    "finnish": "Tom kerjäsi minua auttamaan häntä tekemään se.",
+    "english": "Tom begged me to help him do it.",
+    "wordCount": 8,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3384767",
+    "spanish": "Quisiera comprar un computador nuevo para mí; muéstrame el mejor modelo.",
+    "finnish": "Haluaisin ostaa uuden tietokoneen itselleni; näytä minulle paras malli.",
+    "english": "I would like to buy myself a new computer; show me the best model.",
+    "wordCount": 11,
+    "categories": [
+      "reasoning_assessment",
+      "conditional_statements",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3389914",
+    "spanish": "No estoy segura de si quiero tocar eso.",
+    "finnish": "En ole varma haluanko koskea tuota.",
+    "english": "I'm not sure I want to touch that.",
+    "wordCount": 8,
+    "categories": [
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3389917",
+    "spanish": "Solo quiero contarle a Tom antes de que otro le cuente.",
+    "finnish": "Haluan vain kertoa Tomille ennen kuin joku muu kertoo.",
+    "english": "I just want to tell Tom before somebody else does.",
+    "wordCount": 11,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3389932",
+    "spanish": "Quiero que me escuches con mucho cuidado.",
+    "finnish": "Haluan että kuuntelet minut todella tarkkaan.",
+    "english": "I want you to listen to me very carefully.",
+    "wordCount": 7,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3389943",
+    "spanish": "Quiero saber qué le pasó a tu auto.",
+    "finnish": "Haluan tietää mitä autollesi tapahtui.",
+    "english": "I want to know what happened to your car.",
+    "wordCount": 8,
+    "categories": [
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3389947",
+    "spanish": "No tuve más opción que hacer lo que Tom me decía que haga.",
+    "finnish": "Minulla ei ollut muuta vaihtoehtoa kuin tehdä, mitä Tom käski minun tehdä.",
+    "english": "I had no choice but to do what Tom told me to do.",
+    "wordCount": 13,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3389963",
+    "spanish": "No puedes culpar a Tom por toda tu mala suerte.",
+    "finnish": "Emme voi syyttää kaikkesta huonosta onneasi Tomia.",
+    "english": "You can't blame all your bad luck on Tom.",
+    "wordCount": 10,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3389975",
+    "spanish": "Quisiera que Tom me llevara a casa.",
+    "finnish": "Haluaisin Tomin vievän minut kotiin.",
+    "english": "I'd like Tom to take me home.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3389976",
+    "spanish": "No quiero hacer esto, pero no me dejas más alternativa.",
+    "finnish": "En halua tehdä tätä, mutta et jätä minulle muuta mahdollisuutta.",
+    "english": "I don't want to do this, but you leave me no choice.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3390023",
+    "spanish": "Podría hacer esto por días.",
+    "finnish": "Voisin tehdä tätä päiviä.",
+    "english": "I could do this for days.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3390033",
+    "spanish": "¿A quién más quisieras culpar?",
+    "finnish": "Ketä muuta haluaisit syyttää?",
+    "english": "Who else would you like to blame?",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3390120",
+    "spanish": "Eso quieres hacer, ¿no es así?",
+    "finnish": "Haluat tehdä niin, vai kuinka?",
+    "english": "That's what you want to do, isn't it?",
+    "wordCount": 6,
+    "categories": [
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3390122",
+    "spanish": "No quiero a Tom en este edificio.",
+    "finnish": "En halua Tomia tähän rakennukseen.",
+    "english": "I don't want Tom in this building.",
+    "wordCount": 7,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3390123",
+    "spanish": "Quiero hablarte acerca de Tom.",
+    "finnish": "Haluan puhua sinulle Tomista.",
+    "english": "I want to talk with you about Tom.",
+    "wordCount": 5,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3390126",
+    "spanish": "Quiero hablar con Tom acerca de María.",
+    "finnish": "Haluan puhua Tomille Marista.",
+    "english": "I want to talk to Tom about Mary.",
+    "wordCount": 7,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3390132",
+    "spanish": "Tom, no quiero que te lastimes.",
+    "finnish": "Tom, en halua että sinuun sattuu.",
+    "english": "Tom, I don't want you getting hurt.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3390133",
+    "spanish": "No quiero que Tom oiga de esto.",
+    "finnish": "En halua Tomin kuulevan tästä.",
+    "english": "I don't want Tom to hear about this.",
+    "wordCount": 7,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3391960",
+    "spanish": "¿Puedes nombrar todos los árboles en el jardín?",
+    "finnish": "Osaatko nimetä kaikki puutarhan puut?",
+    "english": "Can you name all the trees in the garden?",
+    "wordCount": 8,
+    "categories": [
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3392092",
+    "spanish": "No quiero hacerlo porque es peligroso y tonto.",
+    "finnish": "En halua tehdä sitä, koska se on vaarallista ja typerää.",
+    "english": "I don't want to do it because it's dangerous and it's stupid.",
+    "wordCount": 8,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3392100",
+    "spanish": "Todos cometen estupideces así en la escuela.",
+    "finnish": "Kaikki tekevät sellaisia typeryyksiä lukiossa.",
+    "english": "Everybody does stupid stuff like that in high school.",
+    "wordCount": 7,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3392125",
+    "spanish": "La falta de sueño lo lleva a uno a hacer estupideces.",
+    "finnish": "Unenpuute saa tekemään typeryyksiä.",
+    "english": "Lack of sleep will make you do stupid things.",
+    "wordCount": 11,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3392126",
+    "spanish": "Incluso la gente inteligente hace estupideces de vez en cuando.",
+    "finnish": "Jopa viisaat ihmiset tekevät silloin tällöin typeryyksiä.",
+    "english": "Even smart people sometimes do stupid things.",
+    "wordCount": 10,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3392132",
+    "spanish": "La gente hace estupideces cuando está enojada.",
+    "finnish": "Ihmiset tekevät typeryyksiä, kun he ovat vihaisia.",
+    "english": "People do stupid things when they're angry.",
+    "wordCount": 7,
+    "categories": [
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3392133",
+    "spanish": "Fue estúpido. Jamás debimos hacer eso.",
+    "finnish": "Se oli typerää. Meidän ei olisi ikinä pitänyt tehdä sitä.",
+    "english": "It was stupid. We never should've done it.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3392137",
+    "spanish": "El hambre puede llevar a la gente a hacer estupideces.",
+    "finnish": "Nälkä voi panna ihmiset tekemään typeryyksiä.",
+    "english": "Hunger can make people do stupid things.",
+    "wordCount": 10,
+    "categories": [
+      "food",
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3392138",
+    "spanish": "¿Quién sería tan estúpido como para hacer eso?",
+    "finnish": "Kuka olisi niin typerä, että tekisi noin?",
+    "english": "Who would be stupid enough to do that?",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3392177",
+    "spanish": "Los niños hacen muchas estupideces.",
+    "finnish": "Lapset tekevät paljon typeriä asioita.",
+    "english": "Children do a lot of stupid things.",
+    "wordCount": 5,
+    "categories": [
+      "family",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3392181",
+    "spanish": "Hacerse un tatuaje es una idea tonta.",
+    "finnish": "Tatuoinnin hankkiminen on typerä idea.",
+    "english": "Getting a tattoo is a stupid idea.",
+    "wordCount": 7,
+    "categories": [
+      "reasoning_assessment",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3392186",
+    "spanish": "¿Quién haría una estupidez así?",
+    "finnish": "Kuka tekisi sellaisen typeryyden?",
+    "english": "Who would do such a stupid thing?",
+    "wordCount": 5,
+    "categories": [
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3392196",
+    "spanish": "Los niños a menudo hacen estupideces.",
+    "finnish": "Lapset tekevät usein typeriä asioita.",
+    "english": "Children often do stupid things.",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3395269",
+    "spanish": "Puedes creer todo lo que quieras de mí, pero eso no significa que sea cierto.",
+    "finnish": "Voit uskoa minusta mitä haluat, mutta se ei tarkoita, että se olisi totta.",
+    "english": "You can believe what you want to about me, but that doesn't mean it's true.",
+    "wordCount": 15,
+    "categories": [
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3399713",
+    "spanish": "Lávate las manos después de ir al baño, por favor.",
+    "finnish": "Pesethän kätesi WC:ssä käynnin jälkeen.",
+    "english": "Please wash your hands after using the bathroom.",
+    "wordCount": 10,
+    "categories": [
+      "greetings",
+      "time",
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3411083",
+    "spanish": "Uno de nosotros dos debe hacerlo.",
+    "finnish": "Toisen meistä kahdesta on tehtävä se.",
+    "english": "One of us two should do it.",
+    "wordCount": 6,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3424007",
+    "spanish": "Ahora tengo que hacer otra cosa.",
+    "finnish": "Minun täytyy tehdä nyt jotain muuta.",
+    "english": "I have to do something else now.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3424448",
+    "spanish": "Podrías haberme hablado de esto antes.",
+    "finnish": "Olisit voinut kertoa tästä minulle aikaisemmin.",
+    "english": "You could've told me about this earlier.",
+    "wordCount": 6,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3424460",
+    "spanish": "Ni siquiera quiero saber.",
+    "finnish": "En edes halua tietää.",
+    "english": "I don't even want to know.",
+    "wordCount": 4,
+    "categories": [
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3432892",
+    "spanish": "Debes hacerlo, te guste o no.",
+    "finnish": "Tykkäät siitä tai et, sinun täytyy tehdä se.",
+    "english": "You must do it, like it or not.",
+    "wordCount": 6,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3436258",
+    "spanish": "No me puedes engañar.",
+    "finnish": "Et voi huijata minua.",
+    "english": "You can't fool me.",
+    "wordCount": 4,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3452258",
+    "spanish": "Quiero que Tom gane las elecciones.",
+    "finnish": "Haluan, että Tom voittaa vaalit.",
+    "english": "I want Tom to win the election.",
+    "wordCount": 6,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3530900",
+    "spanish": "¡Quiero pizza!",
+    "finnish": "Minä haluan pizzaa!",
+    "english": "I want pizza!",
+    "wordCount": 2,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3533986",
+    "spanish": "Estoy haciendo lo que debo hacer.",
+    "finnish": "Teen mitä minun täytyy.",
+    "english": "I'm doing what I have to do.",
+    "wordCount": 6,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3536292",
+    "spanish": "¿Puedes llamar más tarde?",
+    "finnish": "Voitko soittaa myöhemmin?",
+    "english": "Can you call me later?",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3536295",
+    "spanish": "Justo a ti te necesito.",
+    "finnish": "Tarvitsen juuri sinua.",
+    "english": "You are the very person I need.",
+    "wordCount": 5,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3536314",
+    "spanish": "No podrías estar más equivocado.",
+    "finnish": "Et voisi olla enempää väärässä.",
+    "english": "You couldn't be more wrong.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3536315",
+    "spanish": "No podrías estar más equivocada.",
+    "finnish": "Et voisi olla enempää väärässä.",
+    "english": "You couldn't be more wrong.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3538550",
+    "spanish": "¿Me puedes guardar un puesto?",
+    "finnish": "Voitko varata istumapaikan minulle?",
+    "english": "Can you save a seat for me?",
+    "wordCount": 5,
+    "categories": [
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3538579",
+    "spanish": "Necesito una caja más o menos de este porte.",
+    "finnish": "Tarvitsen suunnilleen näin ison laatikon.",
+    "english": "I need a box about this big.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3541738",
+    "spanish": "A Tom le costaba hacer amigos.",
+    "finnish": "Tomilla oli vaikeuksia ystävystyä.",
+    "english": "Tom had trouble making friends.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3541744",
+    "spanish": "No te puedes imaginar lo humillante que es esto.",
+    "finnish": "Et voi kuvitella kuinka nöyryyttävää tämä on.",
+    "english": "You can't imagine how humiliating this is.",
+    "wordCount": 9,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3545767",
+    "spanish": "Quisiera vivir en Francia.",
+    "finnish": "Haluaisin asua Ranskassa.",
+    "english": "I would like to live in France.",
+    "wordCount": 4,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3547509",
+    "spanish": "Te llamaré si te necesito.",
+    "finnish": "Soitan sinulle jos tarvitsen sinua.",
+    "english": "I'll call you if I need you.",
+    "wordCount": 5,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3562823",
+    "spanish": "Necesito una larga siesta.",
+    "finnish": "Tarvitsen pitkät päiväunet.",
+    "english": "I need a long nap.",
+    "wordCount": 4,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3600581",
+    "spanish": "Por eso quiero hablar con Tom.",
+    "finnish": "Sen takia haluan puhua Tomin kanssa.",
+    "english": "That's why I want to talk to Tom.",
+    "wordCount": 6,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3600592",
+    "spanish": "¿Puedes parar de gritar?",
+    "finnish": "Voitko lopettaa huutamisen?",
+    "english": "Can you stop yelling?",
+    "wordCount": 4,
+    "categories": [
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3635642",
+    "spanish": "¿Tengo que hacerlo ya?",
+    "finnish": "Täytyykö minun tehdä se heti?",
+    "english": "Do I have to do it already?",
+    "wordCount": 4,
+    "categories": [
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3635643",
+    "spanish": "¿Tengo que hacerlo justo ahora?",
+    "finnish": "Täytyykö minun tehdä se nyt heti?",
+    "english": "Do I have to do it right now?",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3635644",
+    "spanish": "¿Tengo que hacerlo ahora?",
+    "finnish": "Täytyykö minun tehdä se nyt heti?",
+    "english": "Do I have to do it now?",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3700787",
+    "spanish": "No puedes hacer buena sopa con carne barata.",
+    "finnish": "Hyvää keittoa ei voi saa halvalla lihalla.",
+    "english": "You can't make good soup with cheap meat.",
+    "wordCount": 8,
+    "categories": [
+      "food",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3767717",
+    "spanish": "Quiero estar más independiente.",
+    "finnish": "Tahdon olla itsenäisempi.",
+    "english": "I want to be more independent.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3775204",
+    "spanish": "La astuta serpiente le dijo al bobo unicornio qué hacer.",
+    "finnish": "Viisas käärme kertoi höpsölle yksisarviselle mitä tehdä.",
+    "english": "The sagacious serpent told the silly unicorn what to do.",
+    "wordCount": 10,
+    "categories": [
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3834303",
+    "spanish": "Quiero entrar.",
+    "finnish": "Haluan tulla sisään.",
+    "english": "I want to come in.",
+    "wordCount": 2,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3856331",
+    "spanish": "No me quiero casar, pero quiero tener hijos.",
+    "finnish": "En halua mennä naimisiin, mutta haluan lapsia.",
+    "english": "I don't want to get married, but I want to have kids.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3866817",
+    "spanish": "Espera a María.",
+    "finnish": "Odota Marya.",
+    "english": "Wait for Mary.",
+    "wordCount": 3,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3866819",
+    "spanish": "Tú sabes lo que necesito.",
+    "finnish": "Tiedät mitä tarvitsen.",
+    "english": "You know what I need.",
+    "wordCount": 5,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3886308",
+    "spanish": "Puedes estar seguro de ello.",
+    "finnish": "Voi olla siitä varma.",
+    "english": "You can be sure of that.",
+    "wordCount": 5,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3886310",
+    "spanish": "Puedes estar segura de ello.",
+    "finnish": "Voi olla siitä varma.",
+    "english": "You can be sure of that.",
+    "wordCount": 5,
+    "categories": [
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3948749",
+    "spanish": "Quiero ir a la montaña.",
+    "finnish": "Minä haluan mennä vuorille.",
+    "english": "I want to go to the mountain.",
+    "wordCount": 5,
+    "categories": [
+      "travel",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3967173",
+    "spanish": "Lo puedo hacer ahora",
+    "finnish": "Voin tehdä sen nyt.",
+    "english": "I can do it now.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4075233",
+    "spanish": "Quisiera que pararas de hacer eso.",
+    "finnish": "Toivon että lopettaisit tuon tekemisen.",
+    "english": "I wish you'd quit doing that.",
+    "wordCount": 6,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4183489",
+    "spanish": "¿Por qué necesito un abogado?",
+    "finnish": "Miksi tarvitsen asianajajan?",
+    "english": "Why do I need a lawyer?",
+    "wordCount": 5,
+    "categories": [
+      "conditional_statements",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4392195",
+    "spanish": "No necesito protección.",
+    "finnish": "En tarvitse suojelua.",
+    "english": "I don't need protection.",
+    "wordCount": 3,
+    "categories": [
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4410108",
+    "spanish": "Quiero un cuchillo.",
+    "finnish": "Haluan yhden veitsen.",
+    "english": "I want a knife.",
+    "wordCount": 3,
+    "categories": [
+      "food",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4412139",
+    "spanish": "Apuesto a que no puedes hacer esto.",
+    "finnish": "Lyön vetoa, että et osaa tehdä tätä.",
+    "english": "I bet you can't do this.",
+    "wordCount": 7,
+    "categories": [
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4422408",
+    "spanish": "Necesito algunos voluntarios.",
+    "finnish": "Tarvitsen vapaaehtoisia.",
+    "english": "I need some volunteers.",
+    "wordCount": 3,
+    "categories": [
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4491285",
+    "spanish": "¿Qué harías sin nosotros?",
+    "finnish": "Mitä tekisit ilman meitä?",
+    "english": "What would you do without us?",
+    "wordCount": 4,
+    "categories": [
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "4491286",
+    "spanish": "¿Qué harías sin nosotras?",
+    "finnish": "Mitä sinä tekisit ilman meitä?",
+    "english": "What would you do without us?",
+    "wordCount": 4,
+    "categories": [
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4530177",
+    "spanish": "Hazlo conmigo.",
+    "finnish": "Tee se minun kanssani.",
+    "english": "Do it with me.",
+    "wordCount": 2,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4544418",
+    "spanish": "Quiero hacerte unas preguntas con respecto a Tom.",
+    "finnish": "Haluan kysyä sinulta Tomista.",
+    "english": "I want to ask you about Tom.",
+    "wordCount": 8,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4554011",
+    "spanish": "Quiero jugar tenis contigo algún día.",
+    "finnish": "Haluaisin pelata joskus kanssasi tennistä.",
+    "english": "I want to play tennis with you someday.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4613370",
+    "spanish": "Yo necesito consejos.",
+    "finnish": "Tarvitsen neuvoja.",
+    "english": "I need advice.",
+    "wordCount": 3,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "4618612",
+    "spanish": "No quiero matarte, Tom.",
+    "finnish": "En halua tappaa sinua, Tomi.",
+    "english": "I don't want to kill you, Tom.",
+    "wordCount": 4,
+    "categories": [
+      "leisure",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4658806",
+    "spanish": "Dame las llaves del coche.",
+    "finnish": "Anna minulle auton avaimet.",
+    "english": "Give me the car keys.",
+    "wordCount": 5,
+    "categories": [
+      "travel",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4694034",
+    "spanish": "Quiero darle celos a Tom.",
+    "finnish": "Haluan saada Tomin kateelliseksi.",
+    "english": "I want to make Tom jealous.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4694109",
+    "spanish": "Necesito ayuda para traducir este documento al francés.",
+    "finnish": "Tarvitsen apua tämän dokumentin kääntämisessä ranskaksi.",
+    "english": "I need help translating this document into French.",
+    "wordCount": 8,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4721389",
+    "spanish": "No hay para qué hacer esto.",
+    "finnish": "Meidän ei tarvitse tehdä tätä.",
+    "english": "We don't have to do this.",
+    "wordCount": 6,
+    "categories": [
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4732343",
+    "spanish": "Tenemos un trabajo que hacer.",
+    "finnish": "Meillä on tehtävää.",
+    "english": "We have work to do.",
+    "wordCount": 5,
+    "categories": [
+      "work",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "4871250",
+    "spanish": "No quiero bailar.",
+    "finnish": "En halua tanssia.",
+    "english": "I don't want to dance.",
+    "wordCount": 3,
+    "categories": [
+      "leisure",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "5056723",
+    "spanish": "Tom tuvo que hacer un desvío.",
+    "finnish": "Tomin oli mentävä kiertotietä.",
+    "english": "Tom had to take a detour.",
+    "wordCount": 6,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "5108491",
+    "spanish": "Hoy no quiero ir a trabajar.",
+    "finnish": "En halua mennä töihin tänään.",
+    "english": "I don't want to go to work today.",
+    "wordCount": 6,
+    "categories": [
+      "work",
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "5146808",
+    "spanish": "Quiero comer helado.",
+    "finnish": "Minä haluan syödä jäätelöä.",
+    "english": "I want to eat ice cream.",
+    "wordCount": 3,
+    "categories": [
+      "food",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "5631983",
+    "spanish": "Lo necesito cuanto antes.",
+    "finnish": "Mä tarviin sen mahollisimman pian.",
+    "english": "I need it as soon as possible.",
+    "wordCount": 4,
+    "categories": [
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "5704666",
+    "spanish": "Me gustaría quedarme y charlar, pero tengo que irme a una reunión.",
+    "finnish": "Haluaisin jäädä juttelemaan, mutta minun pitää mennä tapaamiseen.",
+    "english": "I'd like to stay and chat, but I've got a meeting to go to.",
+    "wordCount": 12,
+    "categories": [
+      "work",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "5706535",
+    "spanish": "Quería ayudar, pero no podía hacer nada.",
+    "finnish": "Halusin auttaa, mutta en pystynyt tehdä mitään.",
+    "english": "I wanted to help, but I couldn't do anything.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "5755739",
+    "spanish": "Me gustaría vivir en Australia.",
+    "finnish": "Haluaisin asua Australiassa.",
+    "english": "I'd like to live in Australia.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "6156740",
+    "spanish": "Yo sólo quiero ayudar a Tom.",
+    "finnish": "Minä haluan vain auttaa Tomia.",
+    "english": "I just want to help Tom.",
+    "wordCount": 6,
+    "categories": [
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "6156742",
+    "spanish": "Sólo quiero ayudar a Tom.",
+    "finnish": "Haluan vain auttaa Tomia.",
+    "english": "I just want to help Tom.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "6612082",
+    "spanish": "Ese ruido me impide dormir.",
+    "finnish": "En saa unta tuon melun takia.",
+    "english": "That noise keeps me from sleeping.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "6682456",
+    "spanish": "Hazme feliz.",
+    "finnish": "Tee minut onnelliseksi.",
+    "english": "Make me happy.",
+    "wordCount": 2,
+    "categories": [
+      "emotions",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "6703397",
+    "spanish": "Quiero conocer qué es el amor.",
+    "finnish": "Haluan tietää, mitä rakkaus on.",
+    "english": "I want to know what love is.",
+    "wordCount": 6,
+    "categories": [
+      "emotions",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "6873573",
+    "spanish": "Alguien debería hacer una película de esto.",
+    "finnish": "Jonkun pitäisi tehdä elokuva tästä.",
+    "english": "Somebody should make a movie out of this.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "7851918",
+    "spanish": "Tengo que hacer unas cuantas cosas.",
+    "finnish": "Minun pitää tehdä pari asiaa.",
+    "english": "I have a few things I need to do.",
+    "wordCount": 6,
+    "categories": [
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "7946576",
+    "spanish": "Quiero sopa de tomate.",
+    "finnish": "Pidän tomaattikeitosta.",
+    "english": "I like tomato soup.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "7946584",
+    "spanish": "¿Puedes bailar?",
+    "finnish": "Osaatko tanssia?",
+    "english": "Can you dance?",
+    "wordCount": 2,
+    "categories": [
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "7946585",
+    "spanish": "¿Puedes venir tú también?",
+    "finnish": "Pääsetkö sinäkin mukaan?",
+    "english": "Can you come, too?",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "7946591",
+    "spanish": "¿Puedes firmar esto?",
+    "finnish": "Voitko allekirjoittaa tämän?",
+    "english": "Can you sign this?",
+    "wordCount": 3,
+    "categories": [
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "7950367",
+    "spanish": "No quiero matar a nadie.",
+    "finnish": "En halua tappaa ketään.",
+    "english": "I don't want to kill anybody.",
+    "wordCount": 5,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "8006282",
+    "spanish": "No sabía qué hacer en esa situación.",
+    "finnish": "En tiennyt, mitä tehdä siinä tilanteessa.",
+    "english": "I didn't know how to deal with that situation.",
+    "wordCount": 7,
+    "categories": [
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "9752578",
+    "spanish": "Tengo que hacerlo yo mismo.",
+    "finnish": "Minun on tehtävä se itse.",
+    "english": "I have to do it myself.",
+    "wordCount": 5,
+    "categories": [
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "9800820",
+    "spanish": "Ya no quiero esconderme de ti.",
+    "finnish": "En halua vältellä sinua enää.",
+    "english": "I don't want to hide from you anymore.",
+    "wordCount": 6,
+    "categories": [
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  }
+]

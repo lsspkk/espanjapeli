@@ -31,16 +31,28 @@
 			clearTimeout(timerId);
 		}
 	});
+
+	export function reset() {
+		if (timerId !== null) {
+			clearTimeout(timerId);
+		}
+		revealed = false;
+		if (delaySeconds === 0) {
+			revealed = true;
+			onReveal?.();
+		} else {
+			timerId = window.setTimeout(() => {
+				revealed = true;
+				onReveal?.();
+			}, delaySeconds * 1000);
+		}
+	}
 </script>
 
-<div class="stepwise-reveal">
-	<div class="question-content">
-		{@render children?.()}
-	</div>
+<div class="question-content contents">
+	{@render children?.()}
+</div>
 
-	{#if revealed}
-		<div class="answers-content">
-			{@render answers?.()}
-		</div>
-	{/if}
+<div class="answers-content contents" style="opacity: {revealed ? 1 : 0}; transition: opacity 300ms ease-in-out;">
+	{@render answers?.()}
 </div>

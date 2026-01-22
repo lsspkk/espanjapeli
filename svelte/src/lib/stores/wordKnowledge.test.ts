@@ -91,7 +91,7 @@ describe('wordKnowledge store', () => {
 			const data = get(wordKnowledge);
 
 			// Check version is current
-			expect(data.version).toBe(4);
+			expect(data.version).toBe(5);
 
 			// Check metadata has new fields
 			expect(data.meta).toHaveProperty('basicGamesPlayed');

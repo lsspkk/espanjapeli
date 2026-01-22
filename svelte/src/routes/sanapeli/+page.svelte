@@ -18,7 +18,6 @@
 		gameHistory,
 		type QuestionResult 
 	} from '$lib/stores/progress';
-	import { theme, availableThemes, type Theme } from '$lib/stores/theme';
 	import { 
 		getAllWords, 
 		getWordsFromCategory, 
@@ -97,14 +96,12 @@
 	let selectedGameLength: number;
 	let isAutoSpeakEnabled: boolean;
 	let isCompactModeEnabled: boolean;
-	let selectedTheme: Theme;
 
 	// Subscribe to stores
 	category.subscribe(value => selectedCategory = value);
 	gameLength.subscribe(value => selectedGameLength = value);
 	autoSpeak.subscribe(value => isAutoSpeakEnabled = value);
 	compactMode.subscribe(value => isCompactModeEnabled = value);
-	theme.subscribe(value => selectedTheme = value);
 
 	/**
 	 * Start a new game
@@ -417,15 +414,6 @@
 	}
 
 	/**
-	 * Handle theme change
-	 */
-	function handleThemeChange(event: Event) {
-		const target = event.target as HTMLSelectElement;
-		selectedTheme = target.value as Theme;
-		theme.set(selectedTheme);
-	}
-
-	/**
 	 * Toggle Sanakirja modal
 	 */
 	function toggleSanakirja() {
@@ -663,39 +651,20 @@
 				</label>
 			</div>
 
-			<!-- Compact mode -->
-			<div class="form-control mb-6">
-				<label class="label cursor-pointer justify-start gap-3">
-					<input 
-						type="checkbox" 
-						class="checkbox checkbox-primary"
-						checked={isCompactModeEnabled}
-						on:change={handleCompactModeChange}
-					/>
-					<span class="label-text">Pieni näyttö (50vh)</span>
-				</label>
-			</div>
+		<!-- Compact mode -->
+		<div class="form-control mb-6">
+			<label class="label cursor-pointer justify-start gap-3">
+				<input 
+					type="checkbox" 
+					class="checkbox checkbox-primary"
+					checked={isCompactModeEnabled}
+					on:change={handleCompactModeChange}
+				/>
+				<span class="label-text">Pieni näyttö (50vh)</span>
+			</label>
+		</div>
 
-			<!-- Theme Selection -->
-			<div class="form-control mb-4">
-				<label class="label" for="theme-select">
-					<span class="label-text font-semibold text-lg">Väriteema:</span>
-				</label>
-				<select 
-					id="theme-select"
-					class="select select-bordered w-full"
-					bind:value={selectedTheme}
-					on:change={handleThemeChange}
-				>
-					{#each availableThemes as themeOption}
-						<option value={themeOption.value}>
-							{themeOption.emoji} {themeOption.name}
-						</option>
-					{/each}
-				</select>
-			</div>
-
-			<!-- Action Buttons -->
+		<!-- Action Buttons -->
 			<div class="flex gap-3">
 				<button 
 					class="btn btn-outline flex-shrink-0 btn-lg"

@@ -31,7 +31,8 @@ describe('StepwiseReveal', () => {
 		});
 
 		const answersContent = container.querySelector('.answers-content');
-		expect(answersContent).toBeNull();
+		expect(answersContent).toBeTruthy();
+		expect(answersContent?.style.opacity).toBe('0');
 	});
 
 	it('shows answers slot after delay', async () => {
@@ -42,12 +43,14 @@ describe('StepwiseReveal', () => {
 		});
 
 		let answersContent = container.querySelector('.answers-content');
-		expect(answersContent).toBeNull();
+		expect(answersContent).toBeTruthy();
+		expect(answersContent?.style.opacity).toBe('0');
 
 		await vi.advanceTimersByTimeAsync(3000);
 
 		answersContent = container.querySelector('.answers-content');
 		expect(answersContent).toBeTruthy();
+		expect(answersContent?.style.opacity).toBe('1');
 		expect(answersContent?.textContent).toContain('Answer content');
 	});
 

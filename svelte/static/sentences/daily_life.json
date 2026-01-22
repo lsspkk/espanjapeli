@@ -26,7 +26,8 @@
     "english": "We can't sleep because of the noise.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -37,7 +38,8 @@
     "wordCount": 2,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -49,7 +51,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -61,7 +64,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -72,7 +76,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -83,7 +89,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -93,7 +100,8 @@
     "english": "He left the door open.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -117,7 +125,8 @@
     "categories": [
       "food",
       "family",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -138,7 +147,8 @@
     "english": "He hid his toys under the bed.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -161,7 +171,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -172,7 +183,9 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -184,7 +197,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -194,7 +208,8 @@
     "english": "Do you sell sport shoes?",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -204,7 +219,9 @@
     "english": "How much does the wooden chair cost?",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -215,7 +232,8 @@
     "wordCount": 10,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -257,7 +275,8 @@
     "english": "What did you eat for breakfast?",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -292,7 +311,8 @@
     "categories": [
       "food",
       "family",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -305,7 +325,8 @@
       "greetings",
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -337,7 +358,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -347,7 +369,9 @@
     "english": "I wish I had married her.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -358,7 +382,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -371,7 +396,8 @@
       "food",
       "travel",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -381,7 +407,9 @@
     "english": "She is married to a foreigner.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -401,7 +429,8 @@
     "english": "He came in through the window.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -412,7 +441,10 @@
     "wordCount": 11,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -455,7 +487,9 @@
     "english": "Are you married?",
     "wordCount": 2,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -466,7 +500,8 @@
     "wordCount": 5,
     "categories": [
       "greetings",
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -477,7 +512,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment"
     ]
   },
   {
@@ -487,7 +523,9 @@
     "english": "He came into my room.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -499,7 +537,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -524,7 +563,9 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -535,7 +576,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -546,7 +589,9 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -556,7 +601,8 @@
     "english": "The house is haunted.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -578,7 +624,8 @@
     "english": "There is a school near my house.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -590,7 +637,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -602,7 +650,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -644,7 +693,9 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -657,7 +708,9 @@
       "travel",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -670,7 +723,8 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -680,7 +734,8 @@
     "english": "A cat was sitting on the chair.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -690,7 +745,8 @@
     "english": "Honey, come to bed. \"No, not yet. I still have to translate some sentences on Tatoeba.\"",
     "wordCount": 15,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -700,7 +756,9 @@
     "english": "Where is your room?",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -710,7 +768,9 @@
     "english": "How does it feel to be back home?",
     "wordCount": 8,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -732,7 +792,10 @@
     "english": "All the houses in this neighborhood look so much alike that I can't tell them apart.",
     "wordCount": 14,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -742,7 +805,10 @@
     "english": "Could you close the window, please?",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -753,7 +819,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -763,7 +830,8 @@
     "english": "The house is cold.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -773,7 +841,9 @@
     "english": "These shoes are hers.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -794,7 +864,8 @@
     "english": "He lives in a big house.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -804,7 +875,8 @@
     "english": "Your house is big.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -826,7 +898,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -837,7 +910,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -849,7 +923,8 @@
     "categories": [
       "food",
       "family",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -860,7 +935,10 @@
     "wordCount": 4,
     "categories": [
       "work",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -871,7 +949,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -882,7 +962,9 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -893,7 +975,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -903,7 +986,10 @@
     "english": "Iker Casillas is the best goalie in the world.",
     "wordCount": 8,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -913,7 +999,8 @@
     "english": "That is his house.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -924,7 +1011,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -935,7 +1023,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -945,7 +1034,9 @@
     "english": "His house is not far from here.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -956,7 +1047,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -968,7 +1061,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -979,7 +1073,9 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -991,7 +1087,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1002,7 +1099,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -1014,7 +1112,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1025,7 +1124,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1036,7 +1137,8 @@
     "wordCount": 8,
     "categories": [
       "travel",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1056,7 +1158,8 @@
     "english": "I couldn't sleep.",
     "wordCount": 3,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1101,7 +1204,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -1122,7 +1226,9 @@
     "wordCount": 6,
     "categories": [
       "emotions",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1154,7 +1260,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -1175,7 +1283,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1185,7 +1294,8 @@
     "english": "When will you get married?",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -1207,7 +1317,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1218,7 +1329,8 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1229,7 +1341,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1241,7 +1354,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -1262,7 +1377,11 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1284,7 +1403,8 @@
     "english": "I like candlelight.",
     "wordCount": 9,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1304,7 +1424,8 @@
     "english": "Your room is twice the size of mine.",
     "wordCount": 10,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1327,7 +1448,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1357,7 +1479,10 @@
     "english": "Light travels faster than sound.",
     "wordCount": 9,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1367,7 +1492,8 @@
     "english": "The house is burning.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1378,7 +1504,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -1400,7 +1527,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -1421,7 +1549,9 @@
     "english": "Do you mind if I open the window?",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -1432,7 +1562,10 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1464,7 +1597,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1474,7 +1609,9 @@
     "english": "I can't open the door. Do you have the key?",
     "wordCount": 8,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -1485,7 +1622,8 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1496,7 +1634,11 @@
     "wordCount": 11,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1506,7 +1648,8 @@
     "english": "The roof of my house is red.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1516,7 +1659,8 @@
     "english": "The windows are open.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1537,7 +1681,8 @@
     "english": "The house is on fire!",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1547,7 +1692,9 @@
     "english": "I can't sleep with all this noise.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -1557,7 +1704,8 @@
     "english": "I can't sleep with all this noise.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1567,7 +1715,8 @@
     "english": "I can't sleep with all this noise.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1580,7 +1729,8 @@
       "food",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1591,7 +1741,8 @@
     "wordCount": 11,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1603,7 +1754,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1614,7 +1766,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1624,7 +1777,9 @@
     "english": "Are you all home?",
     "wordCount": 3,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1635,7 +1790,8 @@
     "wordCount": 9,
     "categories": [
       "greetings",
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1646,7 +1802,8 @@
     "wordCount": 9,
     "categories": [
       "work",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1656,7 +1813,9 @@
     "english": "He broke the window intentionally.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1668,7 +1827,9 @@
     "categories": [
       "travel",
       "leisure",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1680,7 +1841,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -1691,7 +1853,8 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1701,7 +1864,8 @@
     "english": "My room is number five.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1713,7 +1877,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -1734,7 +1899,10 @@
     "english": "If he fails, so what?",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1745,7 +1913,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1756,7 +1925,8 @@
     "wordCount": 7,
     "categories": [
       "work",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1766,7 +1936,8 @@
     "english": "I'm afraid of the dark.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1790,7 +1961,9 @@
     "wordCount": 3,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1800,7 +1973,8 @@
     "english": "The door doesn't open.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1811,7 +1985,8 @@
     "wordCount": 6,
     "categories": [
       "leisure",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1821,7 +1996,9 @@
     "english": "What's wrong with being nude in your own house?",
     "wordCount": 10,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries"
     ]
   },
   {
@@ -1841,7 +2018,8 @@
     "english": "He was drunk and forgot to shut the back door.",
     "wordCount": 9,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1851,7 +2029,8 @@
     "english": "The house is on fire!",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1862,7 +2041,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1872,7 +2053,9 @@
     "english": "The house I'm living in isn't very large.",
     "wordCount": 11,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1883,7 +2066,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1906,7 +2090,8 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1928,7 +2113,8 @@
     "wordCount": 2,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -1939,7 +2125,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1950,7 +2137,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -1960,7 +2148,8 @@
     "english": "Tom should have married Mary.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1971,7 +2160,9 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1981,7 +2172,9 @@
     "english": "How many languages are there in Europe?",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2016,7 +2209,8 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -2027,7 +2221,9 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2038,7 +2234,9 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2048,7 +2246,8 @@
     "english": "Tom doesn't want to go home.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2060,7 +2259,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2071,7 +2271,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -2081,7 +2282,9 @@
     "english": "Why is the light on?",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2101,7 +2304,8 @@
     "english": "I don't like the colour of this house.",
     "wordCount": 8,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2111,7 +2315,9 @@
     "english": "This chair is broken.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -2122,7 +2328,10 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2133,7 +2342,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -2144,7 +2354,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -2154,7 +2365,9 @@
     "english": "Cats' eyes are very sensitive to light.",
     "wordCount": 11,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -2177,7 +2390,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2199,7 +2413,8 @@
     "wordCount": 3,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2219,7 +2434,8 @@
     "english": "Don't leave the windows open.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2229,7 +2445,8 @@
     "english": "The door won't close.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2272,7 +2489,9 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -2294,7 +2513,8 @@
     "english": "She cleaned her room in a hurry.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2326,7 +2546,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2346,7 +2567,8 @@
     "english": "She has put her house up for sale.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2357,7 +2579,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -2367,7 +2590,9 @@
     "english": "She came in through the back door lest she be seen.",
     "wordCount": 11,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2377,7 +2602,8 @@
     "english": "No one told me that she had failed.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2387,7 +2613,8 @@
     "english": "The door is open. I'll go and shut it.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2428,7 +2655,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2449,7 +2677,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -2481,7 +2710,9 @@
     "english": "I don't wanna clean up dog shit.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2502,7 +2733,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2512,7 +2744,8 @@
     "english": "That's the house I stayed in.",
     "wordCount": 9,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2522,7 +2755,8 @@
     "english": "This is the house I live in.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2532,7 +2766,9 @@
     "english": "Driving in the dark feels like flying!",
     "wordCount": 8,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "conditional_statements"
     ]
   },
   {
@@ -2542,7 +2778,10 @@
     "english": "She is accustomed to rising early.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2554,7 +2793,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2565,7 +2805,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2577,7 +2819,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2587,7 +2831,9 @@
     "english": "Why don't we share a room?",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2597,7 +2843,8 @@
     "english": "When he returned home, the kids were already asleep.",
     "wordCount": 11,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2607,7 +2854,9 @@
     "english": "That's my favorite chair.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -2641,7 +2890,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2653,7 +2903,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2664,7 +2915,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2675,7 +2927,8 @@
     "wordCount": 7,
     "categories": [
       "work",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2687,7 +2940,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2707,7 +2961,10 @@
     "english": "Is the cat on the chair or under the chair?",
     "wordCount": 9,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2717,7 +2974,8 @@
     "english": "They live in a big house.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2728,7 +2986,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2762,7 +3021,8 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2774,7 +3034,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2785,7 +3046,8 @@
     "wordCount": 11,
     "categories": [
       "leisure",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2807,7 +3069,8 @@
     "english": "Tom has just installed an alarm system in his house.",
     "wordCount": 11,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -2817,7 +3080,9 @@
     "english": "Did you see how big their house is?",
     "wordCount": 8,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2827,7 +3092,8 @@
     "english": "There is a window on your left.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2860,7 +3126,8 @@
     "wordCount": 5,
     "categories": [
       "greetings",
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2871,7 +3138,10 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2881,7 +3151,9 @@
     "english": "Since he was tired, he went to bed early.",
     "wordCount": 10,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2892,7 +3164,8 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2902,7 +3175,8 @@
     "english": "Don't open the door for anybody.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2913,7 +3187,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2924,7 +3199,8 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2934,7 +3210,8 @@
     "english": "Your room is dirty.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2946,7 +3223,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2968,7 +3246,8 @@
     "wordCount": 6,
     "categories": [
       "emotions",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2978,7 +3257,8 @@
     "english": "He stood behind the chair.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -2988,7 +3268,10 @@
     "english": "What's this chair doing here?",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2998,7 +3281,8 @@
     "english": "We're not married.",
     "wordCount": 3,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3009,7 +3293,10 @@
     "wordCount": 3,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3030,7 +3317,9 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -3052,7 +3341,10 @@
     "wordCount": 12,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -3062,7 +3354,9 @@
     "english": "I made this chair.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3072,7 +3366,8 @@
     "english": "Tom is married.",
     "wordCount": 3,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -3082,7 +3377,8 @@
     "english": "These clothes of mine are out of style.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -3104,7 +3400,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3114,7 +3411,8 @@
     "english": "She gives us clothes.",
     "wordCount": 3,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3125,7 +3423,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3148,7 +3447,10 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -3160,7 +3462,8 @@
     "categories": [
       "work",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3170,7 +3473,9 @@
     "english": "The house I'm living in isn't very large.",
     "wordCount": 9,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3180,7 +3485,8 @@
     "english": "Mary needs new shoes.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -3221,7 +3527,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3241,7 +3548,8 @@
     "english": "I'm not married.",
     "wordCount": 3,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3251,7 +3559,8 @@
     "english": "I'm not married.",
     "wordCount": 3,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3262,7 +3571,9 @@
     "wordCount": 5,
     "categories": [
       "travel",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3284,7 +3595,10 @@
     "english": "This chair is uncomfortable.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -3296,7 +3610,9 @@
     "categories": [
       "food",
       "travel",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -3341,7 +3657,8 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -3354,7 +3671,8 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -3386,7 +3704,8 @@
     "english": "It was really noisy in the room so Tom covered his ears.",
     "wordCount": 14,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment"
     ]
   },
   {
@@ -3409,7 +3728,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -3420,7 +3740,8 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3432,7 +3753,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3444,7 +3766,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3455,7 +3778,9 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3477,7 +3802,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -3508,7 +3834,8 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3520,7 +3847,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3543,7 +3871,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -3554,7 +3884,9 @@
     "wordCount": 12,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3565,7 +3897,8 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -3575,7 +3908,10 @@
     "english": "He is no longer at home.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3610,7 +3946,11 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3621,7 +3961,9 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -3631,7 +3973,8 @@
     "english": "Tom couldn't open the door.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3642,7 +3985,8 @@
     "wordCount": 12,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3652,7 +3996,8 @@
     "english": "You have a very nice room.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3664,7 +4009,8 @@
     "categories": [
       "travel",
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3675,7 +4021,9 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3685,7 +4033,10 @@
     "english": "I can't open the door. Do you have the key?",
     "wordCount": 9,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3726,7 +4077,9 @@
     "english": "We can't sleep because of the noise.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -3737,7 +4090,9 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3748,7 +4103,8 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3758,7 +4114,8 @@
     "english": "The house is painted white.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -3781,7 +4138,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3804,7 +4162,10 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3814,7 +4175,10 @@
     "english": "Can you sleep?",
     "wordCount": 2,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3825,7 +4189,10 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3836,7 +4203,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3847,7 +4215,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3858,7 +4227,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3869,7 +4239,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3880,7 +4251,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3891,7 +4263,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3903,7 +4276,11 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3923,7 +4300,9 @@
     "english": "These shoes are too expensive.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -3933,7 +4312,10 @@
     "english": "These shoes are expensive, and what is more, they are too small.",
     "wordCount": 10,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -3945,7 +4327,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3956,7 +4339,8 @@
     "wordCount": 3,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3968,7 +4352,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3980,7 +4365,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -3990,7 +4376,8 @@
     "english": "He returns to his home.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4001,7 +4388,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4022,7 +4411,8 @@
     "wordCount": 5,
     "categories": [
       "work",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -4043,7 +4433,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4055,7 +4446,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4078,7 +4470,10 @@
       "food",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4089,7 +4484,9 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4100,7 +4497,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -4111,7 +4509,9 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "statements_of_fact"
     ]
   },
   {
@@ -4124,7 +4524,8 @@
       "travel",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4134,7 +4535,8 @@
     "english": "Tom was the only man in the room.",
     "wordCount": 8,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4144,7 +4546,8 @@
     "english": "Tom was married, but he didn't wear a ring.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4155,7 +4558,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4165,7 +4569,8 @@
     "english": "The front door won't open.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4186,7 +4591,10 @@
     "wordCount": 10,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -4219,7 +4627,9 @@
     "wordCount": 10,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4230,7 +4640,8 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -4242,7 +4653,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4253,7 +4665,9 @@
     "wordCount": 12,
     "categories": [
       "travel",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4263,7 +4677,8 @@
     "english": "I stayed in bed because I had a bit of a fever.",
     "wordCount": 10,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment"
     ]
   },
   {
@@ -4274,7 +4689,9 @@
     "wordCount": 14,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -4285,7 +4702,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -4297,7 +4715,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4307,7 +4726,8 @@
     "english": "You should stay in bed.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment"
     ]
   },
   {
@@ -4318,7 +4738,8 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -4330,7 +4751,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4350,7 +4773,8 @@
     "english": "Someone's in the house.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -4360,7 +4784,8 @@
     "english": "Tom is lying in bed.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -4371,7 +4796,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -4392,7 +4819,8 @@
     "wordCount": 10,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -4413,7 +4841,10 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4424,7 +4855,9 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -4456,7 +4889,8 @@
     "wordCount": 2,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4466,7 +4900,8 @@
     "english": "I'm not opening the door for Tom.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4487,7 +4922,8 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4510,7 +4946,9 @@
     "categories": [
       "work",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -4522,7 +4960,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -4533,7 +4973,8 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4544,7 +4985,10 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4565,7 +5009,8 @@
     "english": "Does Europe have a common language?",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -4575,7 +5020,8 @@
     "english": "Do you regret the fact that you married me?",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -4606,7 +5052,9 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4627,7 +5075,9 @@
     "wordCount": 13,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4647,7 +5097,8 @@
     "english": "The house is two miles off.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -4657,7 +5108,9 @@
     "english": "Is there a washing machine in the house?",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -4668,7 +5121,8 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4679,7 +5133,8 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4691,7 +5146,9 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4702,7 +5159,10 @@
     "wordCount": 14,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4723,7 +5183,10 @@
     "english": "Tom was in a hurry so he left his bed unmade.",
     "wordCount": 10,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4733,7 +5196,8 @@
     "english": "I'm tired and I want to go to bed.",
     "wordCount": 9,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4763,7 +5227,8 @@
     "english": "Do you want us to take you back to your house?",
     "wordCount": 9,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -4773,7 +5238,9 @@
     "english": "I'd like Tom to take me home.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4805,7 +5272,8 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4816,7 +5284,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4827,7 +5297,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4849,7 +5321,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -4861,7 +5334,9 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4872,7 +5347,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -4883,7 +5360,9 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4894,7 +5373,8 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -4914,7 +5394,8 @@
     "english": "Tom is tidying his room.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -4937,7 +5418,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4958,7 +5441,8 @@
     "english": "Tom makes his own wine at home.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4970,7 +5454,8 @@
     "categories": [
       "family",
       "emotions",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment"
     ]
   },
   {
@@ -4981,7 +5466,11 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4992,7 +5481,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -5014,7 +5504,9 @@
     "wordCount": 11,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -5025,7 +5517,8 @@
     "wordCount": 11,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5037,7 +5530,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -5068,7 +5562,8 @@
     "english": "Get out of my bed.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -5079,7 +5574,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -5089,7 +5586,8 @@
     "english": "I saw a light at the end of the tunnel.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5120,7 +5618,9 @@
     "wordCount": 11,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5133,7 +5633,8 @@
       "food",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5144,7 +5645,8 @@
     "wordCount": 3,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5155,7 +5657,9 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5175,7 +5679,8 @@
     "english": "Tom was sitting cross-legged on his bed, typing on his laptop.",
     "wordCount": 13,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5185,7 +5690,8 @@
     "english": "So you ate at your house?",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -5196,7 +5702,9 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -5207,7 +5715,8 @@
     "wordCount": 9,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -5219,7 +5728,9 @@
     "categories": [
       "work",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -5230,7 +5741,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -5240,7 +5753,9 @@
     "english": "Mary needs a whole roll of toilet paper to wipe her ass clean.",
     "wordCount": 12,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -5273,7 +5788,8 @@
     "english": "We got married.",
     "wordCount": 2,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5284,7 +5800,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5295,7 +5812,8 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5305,7 +5823,8 @@
     "english": "I have no intention of getting married.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5328,7 +5847,9 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "opinions_and_beliefs",
+      "statements_of_fact"
     ]
   },
   {
@@ -5368,7 +5889,10 @@
     "english": "Is Tom married?",
     "wordCount": 3,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -5389,7 +5913,9 @@
     "english": "Tom is hardly ever at home.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "statements_of_fact"
     ]
   },
   {
@@ -5399,7 +5925,8 @@
     "english": "Tom is cleaning his room.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -5409,7 +5936,8 @@
     "english": "We kissed in the dark.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5420,7 +5948,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5431,7 +5960,9 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5441,7 +5972,8 @@
     "english": "How much is the rent for this room?",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -5463,7 +5995,8 @@
     "english": "This is my favorite pair of shoes.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -5473,7 +6006,9 @@
     "english": "Tom's shoes are too big for him.",
     "wordCount": 8,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -5483,7 +6018,9 @@
     "english": "Tom's room isn't very clean.",
     "wordCount": 8,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5494,7 +6031,10 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5504,7 +6044,8 @@
     "english": "My home is on the fourth floor.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -5545,7 +6086,8 @@
     "english": "Don't leave the light on.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5565,7 +6107,9 @@
     "english": "There was no one in that room when I went.",
     "wordCount": 9,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5576,7 +6120,9 @@
     "wordCount": 12,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5587,7 +6133,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -5607,7 +6154,8 @@
     "english": "We were newlyweds.",
     "wordCount": 3,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -5628,7 +6176,8 @@
     "english": "I haven't been able to sleep very well lately.",
     "wordCount": 6,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5638,7 +6187,8 @@
     "english": "That noise keeps me from sleeping.",
     "wordCount": 5,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5660,7 +6210,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5672,7 +6224,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -5682,7 +6236,8 @@
     "english": "I haven't been able to get enough sleep lately.",
     "wordCount": 7,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5704,7 +6259,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5715,7 +6271,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5727,7 +6284,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -5771,7 +6329,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5781,7 +6340,8 @@
     "english": "We just got married.",
     "wordCount": 3,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5792,7 +6352,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -5803,7 +6364,8 @@
     "wordCount": 2,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -5825,7 +6387,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5835,7 +6398,8 @@
     "english": "Don't open the door.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5845,7 +6409,8 @@
     "english": "Don't open the door.",
     "wordCount": 4,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5855,7 +6420,9 @@
     "english": "Europe doesn't exist.",
     "wordCount": 3,
     "categories": [
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   }
 ]

@@ -16,7 +16,8 @@
     "english": "How many close friends do you have?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -26,7 +27,9 @@
     "english": "I'm so dumb... I'm trying to explain things to you that I don't understand myself.",
     "wordCount": 12,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -48,7 +51,10 @@
     "wordCount": 12,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -82,7 +88,9 @@
     "wordCount": 10,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -92,7 +100,8 @@
     "english": "The price of that book is five dollars.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -104,7 +113,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -114,7 +124,9 @@
     "english": "He is very fond of music.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -125,7 +137,8 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -135,7 +148,10 @@
     "english": "He told the truth.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -145,7 +161,10 @@
     "english": "Tell me the truth.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -155,7 +174,8 @@
     "english": "You have a lot of books.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -167,7 +187,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -177,7 +198,9 @@
     "english": "He would often swim in this river.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -197,7 +220,9 @@
     "english": "He's a real gentleman.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -217,7 +242,8 @@
     "english": "I want to kiss you.",
     "wordCount": 2,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -227,7 +253,10 @@
     "english": "You like rain, don't you?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -237,7 +266,8 @@
     "english": "You should try to see things from the practical point of view.",
     "wordCount": 11,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -247,7 +277,8 @@
     "english": "Don't forget to return the book to the library.",
     "wordCount": 10,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -257,7 +288,10 @@
     "english": "I don't watch TV.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -267,7 +301,8 @@
     "english": "Who is the author of this book?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -277,7 +312,8 @@
     "english": "I was reading a book.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -298,7 +334,9 @@
     "english": "He is one of my best friends.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -308,7 +346,8 @@
     "english": "This book will be of great use to us.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -348,7 +387,9 @@
     "english": "She is buying books in the bookstore.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -358,7 +399,8 @@
     "english": "Summer has ended.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -368,7 +410,8 @@
     "english": "For the first time in his life, Yuka finished reading an entire book in English.",
     "wordCount": 15,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -379,7 +422,8 @@
     "wordCount": 3,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -389,7 +433,8 @@
     "english": "My friend is studying Korean.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -399,7 +444,8 @@
     "english": "I am watching television.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -409,7 +455,8 @@
     "english": "Mary likes watching TV.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -419,7 +466,8 @@
     "english": "The trees are green.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -429,7 +477,11 @@
     "english": "It's his, isn't it?",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -441,7 +493,10 @@
     "categories": [
       "family",
       "leisure",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -451,7 +506,9 @@
     "english": "When I was young, I tried to read as many books as I could.",
     "wordCount": 10,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -461,7 +518,9 @@
     "english": "Where's my book?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -481,7 +540,8 @@
     "english": "I can play tennis.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -502,7 +562,9 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -512,7 +574,9 @@
     "english": "Do you like Mozart's music?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -532,7 +596,8 @@
     "english": "I don't like summer.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -542,7 +607,8 @@
     "english": "He wrote a book about China.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -552,7 +618,9 @@
     "english": "He is reading a book.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -562,7 +630,9 @@
     "english": "The television doesn't work.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -574,7 +644,8 @@
     "categories": [
       "travel",
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -594,7 +665,8 @@
     "english": "He has written two books.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -607,7 +679,9 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -617,7 +691,9 @@
     "english": "Nobody can solve this problem.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -627,7 +703,8 @@
     "english": "I have not read all the books.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -657,7 +734,10 @@
     "english": "She's my best friend.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -667,7 +747,8 @@
     "english": "It is fun to play baseball.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -677,7 +758,8 @@
     "english": "The park was full of people.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -687,7 +769,9 @@
     "english": "You may have read this book already.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -697,7 +781,10 @@
     "english": "He spoke truth.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -718,7 +805,8 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -738,7 +826,8 @@
     "english": "Bob is my friend.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -751,7 +840,8 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -761,7 +851,8 @@
     "english": "I want to read this book.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -771,7 +862,8 @@
     "english": "She began to sing.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -781,7 +873,9 @@
     "english": "Has the mailman already come?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -791,7 +885,8 @@
     "english": "Where did you buy that book?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -801,7 +896,8 @@
     "english": "Could I help you?",
     "wordCount": 2,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -811,7 +907,8 @@
     "english": "He accepted my present.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -831,7 +928,9 @@
     "english": "All these books are mine.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -841,7 +940,9 @@
     "english": "Where is the book?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -851,7 +952,8 @@
     "english": "Come swim with me.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -861,7 +963,8 @@
     "english": "Mr White seems to have many friends.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -871,7 +974,9 @@
     "english": "I'm so dumb... I'm trying to explain things to you that I don't understand myself.",
     "wordCount": 12,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -881,7 +986,8 @@
     "english": "We really enjoyed ourselves.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -891,7 +997,8 @@
     "english": "Tom's my friend.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -911,7 +1018,10 @@
     "english": "Can you run fast?",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -922,7 +1032,10 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -932,7 +1045,10 @@
     "english": "Do ghosts really exist?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -953,7 +1069,8 @@
     "english": "You are my friend.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -963,7 +1080,8 @@
     "english": "You are my friend.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -993,7 +1111,11 @@
     "english": "You haven't washed your hands yet, have you?",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1003,7 +1125,9 @@
     "english": "They aren't my books.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1013,7 +1137,9 @@
     "english": "Whose books are these?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1023,7 +1149,10 @@
     "english": "Tom and John are good friends.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1043,7 +1172,10 @@
     "english": "Our teacher told us what to read.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1053,7 +1185,10 @@
     "english": "You like English, don't you?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1073,7 +1208,9 @@
     "english": "I don't want to read this book.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1083,7 +1220,9 @@
     "english": "You ought to just tell the truth.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -1093,7 +1232,8 @@
     "english": "This book is very new.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -1125,7 +1265,10 @@
     "english": "You lied to me, didn't you?",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1135,7 +1278,9 @@
     "english": "They know how to swim.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1145,7 +1290,8 @@
     "english": "What book did you buy?",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -1155,7 +1301,8 @@
     "english": "I do not read books.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -1176,7 +1323,8 @@
     "english": "We can see thousands of stars in the sky.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1187,7 +1335,11 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1208,7 +1360,8 @@
     "english": "Ask her when she will come back.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -1219,7 +1372,8 @@
     "wordCount": 6,
     "categories": [
       "work",
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -1229,7 +1383,8 @@
     "english": "Can you solve this problem?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -1239,7 +1394,11 @@
     "english": "Our world is only a small part of the universe.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1249,7 +1408,8 @@
     "english": "He writes books.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1289,7 +1449,8 @@
     "english": "The important thing is to listen carefully.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -1299,7 +1460,8 @@
     "english": "I have a friend in England.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1309,7 +1471,9 @@
     "english": "He kept reading a book.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1341,7 +1505,8 @@
     "english": "He is very fond of music.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -1351,7 +1516,9 @@
     "english": "Are you able to swim?",
     "wordCount": 2,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -1361,7 +1528,8 @@
     "english": "I cannot help you.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -1373,7 +1541,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1383,7 +1552,10 @@
     "english": "He's my best friend.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1393,7 +1565,8 @@
     "english": "I want to go see a movie.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1403,7 +1576,8 @@
     "english": "This book looks interesting.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -1413,7 +1587,9 @@
     "english": "Whose is this book?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1423,7 +1599,8 @@
     "english": "I wanted to go to the concert.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -1433,7 +1610,9 @@
     "english": "She can't swim.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1444,7 +1623,8 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1454,7 +1634,10 @@
     "english": "You're Germans, aren't you?",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1464,7 +1647,10 @@
     "english": "You're Germans, aren't you?",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1474,7 +1660,10 @@
     "english": "Can you see the difference?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1484,7 +1673,10 @@
     "english": "Nobody knows the truth.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1505,7 +1697,8 @@
     "english": "There were a lot of people at the concert.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -1516,7 +1709,10 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1536,7 +1732,11 @@
     "english": "Will you turn on the television?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1556,7 +1756,8 @@
     "english": "Basketball is a lot of fun.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -1577,7 +1778,9 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1597,7 +1800,9 @@
     "english": "Did you write this book?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1607,7 +1812,10 @@
     "english": "You're joking, aren't you?",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1630,7 +1838,8 @@
       "travel",
       "family",
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -1640,7 +1849,9 @@
     "english": "I know the truth.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -1650,7 +1861,9 @@
     "english": "I don't want to help you.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1660,7 +1873,9 @@
     "english": "He told the truth.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -1670,7 +1885,9 @@
     "english": "Will he ever come back?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1681,7 +1898,10 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1692,7 +1912,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -1702,7 +1923,9 @@
     "english": "He can swim.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1712,7 +1935,8 @@
     "english": "I am able to read English.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1722,7 +1946,10 @@
     "english": "You seemed not to know the truth.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1732,7 +1959,9 @@
     "english": "Bicycles are for summertime.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1742,7 +1971,8 @@
     "english": "Tom and I are friends.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1752,7 +1982,8 @@
     "english": "I want to see the movie again.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1773,7 +2004,9 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "opinions_and_beliefs",
+      "statements_of_fact"
     ]
   },
   {
@@ -1783,7 +2016,8 @@
     "english": "When will you return?",
     "wordCount": 2,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -1804,7 +2038,9 @@
     "english": "I need a lot of books.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1815,7 +2051,8 @@
     "wordCount": 4,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -1825,7 +2062,8 @@
     "english": "He doesn't read many books.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -1835,7 +2073,11 @@
     "english": "A true German can't stand the French, yet willingly he drinks their wines.",
     "wordCount": 15,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1846,7 +2088,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1857,7 +2100,8 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -1868,7 +2112,8 @@
     "wordCount": 4,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -1890,7 +2135,8 @@
     "english": "The movie's about to start.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -1930,7 +2176,9 @@
     "english": "It has been her dream to be a university professor.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1940,7 +2188,8 @@
     "english": "I wish I could swim.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -1950,7 +2199,8 @@
     "english": "I wish I could swim.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -1981,7 +2231,8 @@
     "english": "Tom loves listening to classical music.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -1991,7 +2242,9 @@
     "english": "The TV's on.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -2011,7 +2264,10 @@
     "english": "This book is too expensive for me.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2021,7 +2277,8 @@
     "english": "You should shower.",
     "wordCount": 2,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2051,7 +2308,9 @@
     "english": "She doesn't like soccer.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2061,7 +2320,12 @@
     "english": "As human beings are social animals, friendship is an essential part of life.",
     "wordCount": 16,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2071,7 +2335,8 @@
     "english": "Tom doesn't know much about art.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -2081,7 +2346,9 @@
     "english": "Tom can run as fast as Mary.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2091,7 +2358,9 @@
     "english": "Are there many flowers in the garden?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2101,7 +2370,8 @@
     "english": "What is your friend's name?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -2111,7 +2381,8 @@
     "english": "He doesn't know how to swim.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -2121,7 +2392,9 @@
     "english": "I have seen nobody apart from you.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2131,7 +2404,8 @@
     "english": "I can't buy a book this expensive.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -2141,7 +2415,8 @@
     "english": "There are statues in the park.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -2151,7 +2426,10 @@
     "english": "Summer is the hottest season.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2172,7 +2450,10 @@
     "english": "True friendship is priceless.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2183,7 +2464,9 @@
     "wordCount": 12,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -2194,7 +2477,9 @@
     "wordCount": 6,
     "categories": [
       "work",
-      "leisure"
+      "leisure",
+      "statements_of_fact",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2204,7 +2489,9 @@
     "english": "I can't go back with them.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2214,7 +2501,9 @@
     "english": "We were astonished when we saw their wounds.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2224,7 +2513,10 @@
     "english": "What's your real purpose?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2234,7 +2526,9 @@
     "english": "The only difference between an awful cook and a poisoner is the intention.",
     "wordCount": 13,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2245,7 +2539,9 @@
     "wordCount": 12,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -2255,7 +2551,9 @@
     "english": "If you don't want to go to that party, you don't have to.",
     "wordCount": 10,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -2277,7 +2575,9 @@
     "categories": [
       "travel",
       "leisure",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -2290,7 +2590,8 @@
       "food",
       "work",
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2302,7 +2603,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -2313,7 +2615,9 @@
     "wordCount": 10,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2323,7 +2627,9 @@
     "english": "I want to go swimming.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2335,7 +2641,9 @@
     "categories": [
       "travel",
       "family",
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -2368,7 +2676,8 @@
     "english": "Watching TV is fun.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -2379,7 +2688,8 @@
     "wordCount": 6,
     "categories": [
       "leisure",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2399,7 +2709,9 @@
     "english": "This situation is funny.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -2410,7 +2722,10 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -2420,7 +2735,10 @@
     "english": "Football is more popular than tennis.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2430,7 +2748,10 @@
     "english": "Twitter is not a real friend.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2440,7 +2761,8 @@
     "english": "Have you finished reading the book?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -2451,7 +2773,8 @@
     "wordCount": 6,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -2461,7 +2784,13 @@
     "english": "Can you swim as fast as he?",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2471,7 +2800,10 @@
     "english": "This is not true.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2481,7 +2813,10 @@
     "english": "He told me the truth.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2491,7 +2826,8 @@
     "english": "I can hardly swim.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -2501,7 +2837,10 @@
     "english": "Is mercury really a metal?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2512,7 +2851,8 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -2522,7 +2862,9 @@
     "english": "What can I do to help you?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2532,7 +2874,8 @@
     "english": "We'll need twenty dice to play this game.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -2563,7 +2906,8 @@
     "wordCount": 12,
     "categories": [
       "work",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -2573,7 +2917,8 @@
     "english": "Nature's equilibrium is very fragile.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -2583,7 +2928,8 @@
     "english": "Tom was Mary's only friend.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -2594,7 +2940,8 @@
     "wordCount": 18,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2615,7 +2962,8 @@
     "english": "He claimed that he had returned the book to the library.",
     "wordCount": 11,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2625,7 +2973,8 @@
     "english": "I would like to kiss you.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2645,7 +2994,9 @@
     "english": "Don't leave the TV on.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -2655,7 +3006,8 @@
     "english": "Who will you give the book to?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -2665,7 +3017,8 @@
     "english": "All I have is a book.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -2675,7 +3028,8 @@
     "english": "He likes to read books.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2685,7 +3039,8 @@
     "english": "What a beautiful garden!",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -2695,7 +3050,9 @@
     "english": "When I found my true identity, my life began to make sense.",
     "wordCount": 11,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -2705,7 +3062,8 @@
     "english": "A book can be compared to a friend.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2715,7 +3073,8 @@
     "english": "I want to climb Mt. Fuji again.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2725,7 +3084,8 @@
     "english": "She felt like dancing.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2735,7 +3095,10 @@
     "english": "Tom became interested in music because his neighbor was quite a musician.",
     "wordCount": 13,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -2745,7 +3108,9 @@
     "english": "Is he a friend of yours?",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2766,7 +3131,10 @@
     "english": "A true friend would've helped me.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -2776,7 +3144,8 @@
     "english": "The theater is empty.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -2786,7 +3155,8 @@
     "english": "I want to dance.",
     "wordCount": 2,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2796,7 +3166,8 @@
     "english": "Will you help me move this desk?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -2806,7 +3177,8 @@
     "english": "Tom has been in movies and on TV.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -2826,7 +3198,9 @@
     "english": "Tom has a reputation of never listening to anybody's advice.",
     "wordCount": 10,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -2836,7 +3210,10 @@
     "english": "Tatoeba: the only place where the use of different apostrophes is controversial.",
     "wordCount": 12,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2846,7 +3223,8 @@
     "english": "Do you often listen to audiobooks?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -2887,7 +3265,8 @@
     "english": "I like all kinds of music.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -2907,7 +3286,9 @@
     "english": "Why don't you want to come to the cinema with me?",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2917,7 +3298,9 @@
     "english": "Is it safe to swim in this river?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2937,7 +3320,9 @@
     "english": "All you have to do is to concentrate.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2947,7 +3332,10 @@
     "english": "I have fewer books than you.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2957,7 +3345,9 @@
     "english": "How was the universe formed?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2967,7 +3357,8 @@
     "english": "I've just started playing tennis.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -2977,7 +3368,10 @@
     "english": "Tom didn't have the courage to tell Mary the truth.",
     "wordCount": 11,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2987,7 +3381,9 @@
     "english": "He likes watching TV.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2997,7 +3393,8 @@
     "english": "Tom went to an amusement park.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -3017,7 +3414,8 @@
     "english": "I cannot read French.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -3028,7 +3426,9 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3038,7 +3438,9 @@
     "english": "John is my best friend.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -3059,7 +3461,9 @@
     "wordCount": 3,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3069,7 +3473,9 @@
     "english": "What have you done with the books?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -3080,7 +3486,9 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3090,7 +3498,8 @@
     "english": "The enemy of my enemy is my friend.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -3111,7 +3520,8 @@
     "english": "Did you return Tom's book?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -3121,7 +3531,9 @@
     "english": "All he said was true.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -3131,7 +3543,8 @@
     "english": "Do you play any sports?",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -3151,7 +3564,8 @@
     "english": "Did you go to the book fair?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -3161,7 +3575,9 @@
     "english": "He picked out the best book.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3172,7 +3588,8 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3182,7 +3599,8 @@
     "english": "Tom had nothing to do with the robbery.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -3192,7 +3610,9 @@
     "english": "She writes music for a living.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3202,7 +3622,10 @@
     "english": "None of what Tom said was true.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3213,7 +3636,8 @@
     "wordCount": 9,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3223,7 +3647,8 @@
     "english": "I'll meet you at the usual place.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -3233,7 +3658,10 @@
     "english": "That is not true.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3244,7 +3672,8 @@
     "wordCount": 14,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -3255,7 +3684,9 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -3265,7 +3696,9 @@
     "english": "We have made friends with Tom.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3276,7 +3709,9 @@
     "wordCount": 6,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3287,7 +3722,8 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -3297,7 +3733,8 @@
     "english": "I'll be back at seven o'clock.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -3328,7 +3765,9 @@
     "english": "The government should promote common welfare.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -3348,7 +3787,8 @@
     "english": "Did you have fun?",
     "wordCount": 2,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -3358,7 +3798,8 @@
     "english": "I have no intention whatever of disturbing you.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -3389,7 +3830,9 @@
     "english": "Put this book on top of the others.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3399,7 +3842,9 @@
     "english": "He decided not to go to the party.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3429,7 +3874,8 @@
     "english": "You're not my friend anymore.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -3439,7 +3885,9 @@
     "english": "If you want to become my friend, then also become the friend of my friend.",
     "wordCount": 12,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "conditional_statements"
     ]
   },
   {
@@ -3449,7 +3897,10 @@
     "english": "I don't go to the theater alone, because after the movie I like to talk about it with someone.",
     "wordCount": 18,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3459,7 +3910,9 @@
     "english": "Do not set the console other than in the vertical or horizontal position.",
     "wordCount": 13,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -3479,7 +3932,8 @@
     "english": "When will you be back in Italy?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -3489,7 +3943,8 @@
     "english": "Meg acquired many new friends.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -3521,7 +3976,9 @@
     "english": "He doesn't want to play with his toys.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3532,7 +3989,8 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -3553,7 +4011,10 @@
     "wordCount": 20,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3565,7 +4026,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3585,7 +4047,8 @@
     "english": "He goes to kindergarten.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3596,7 +4059,8 @@
     "wordCount": 11,
     "categories": [
       "leisure",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -3606,7 +4070,8 @@
     "english": "Tom turned on the TV.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -3616,7 +4081,10 @@
     "english": "Let's ask if it's true.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -3627,7 +4095,8 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3647,7 +4116,8 @@
     "english": "I'm listening to music.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -3667,7 +4137,9 @@
     "english": "The truth is often compared to a bitter pill.",
     "wordCount": 11,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -3677,7 +4149,10 @@
     "english": "This book is too difficult for me.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3688,7 +4163,8 @@
     "wordCount": 13,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "negation_and_denial"
     ]
   },
   {
@@ -3698,7 +4174,11 @@
     "english": "I was watching television when the telephone rang.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3708,7 +4188,10 @@
     "english": "Tom and Mary are good friends.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3718,7 +4201,9 @@
     "english": "I need a lot of books.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3729,7 +4214,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -3740,7 +4226,10 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3762,7 +4251,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -3772,7 +4262,8 @@
     "english": "He is able to swim very fast.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -3792,7 +4283,8 @@
     "english": "I went to a concert with Tom.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -3802,7 +4294,9 @@
     "english": "He wants to learn to swim.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3812,7 +4306,9 @@
     "english": "She wants to learn to swim.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3823,7 +4319,8 @@
     "wordCount": 3,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -3833,7 +4330,10 @@
     "english": "I'd like to know more about Tom.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3843,7 +4343,8 @@
     "english": "There are a lot of books in the library.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -3863,7 +4364,9 @@
     "english": "Where's the park?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -3873,7 +4376,9 @@
     "english": "I want to find out who did this.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3883,7 +4388,8 @@
     "english": "I want you to be my friend again.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3903,7 +4409,9 @@
     "english": "I miss my friends.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -3914,7 +4422,9 @@
     "wordCount": 4,
     "categories": [
       "greetings",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3924,7 +4434,8 @@
     "english": "I can't dance.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -3934,7 +4445,8 @@
     "english": "Your book is here.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -3945,7 +4457,9 @@
     "wordCount": 9,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3955,7 +4469,8 @@
     "english": "I've seen Tom on TV many times.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -3995,7 +4510,8 @@
     "english": "Do you know how to dance?",
     "wordCount": 2,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -4005,7 +4521,8 @@
     "english": "I want to dance with Mary.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4015,7 +4532,8 @@
     "english": "I want to be your friend.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4045,7 +4563,8 @@
     "english": "No one will hurt you.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4055,7 +4574,8 @@
     "english": "Tom wasn't homosexual, but Tom's friends told Tom's girlfriend Tom was gay.",
     "wordCount": 17,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4065,7 +4585,8 @@
     "english": "She's my best friend.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -4075,7 +4596,8 @@
     "english": "Do you want to watch the baseball game on TV?",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -4086,7 +4608,9 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -4118,7 +4642,10 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -4159,7 +4686,8 @@
     "wordCount": 9,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4179,7 +4707,9 @@
     "english": "Tom can't help you.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -4189,7 +4719,8 @@
     "english": "I play tennis every Sunday.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4209,7 +4740,10 @@
     "english": "Can you see the picture?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4219,7 +4753,8 @@
     "english": "I don't have any friends.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4249,7 +4784,8 @@
     "english": "Don't forget to take your pills.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4259,7 +4795,8 @@
     "english": "I can't help you with this.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4269,7 +4806,9 @@
     "english": "This book is full of mistakes.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4280,7 +4819,9 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -4291,7 +4832,8 @@
     "wordCount": 5,
     "categories": [
       "greetings",
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4301,7 +4843,10 @@
     "english": "I will tell you my life story how it truly was.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -4311,7 +4856,8 @@
     "english": "Do you have many friends here in Japan?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -4321,7 +4867,8 @@
     "english": "My friend is a talkative person.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -4331,7 +4878,11 @@
     "english": "I don't think it's true.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4341,7 +4892,10 @@
     "english": "Music is not a language. But some languages are music to my ears.",
     "wordCount": 14,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4351,7 +4905,10 @@
     "english": "Music is not a language. But some languages are music to my ears.",
     "wordCount": 14,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4364,7 +4921,8 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -4377,7 +4935,8 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -4387,7 +4946,10 @@
     "english": "True or false?",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -4397,7 +4959,9 @@
     "english": "Yamamoto is one of my friends.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4428,7 +4992,9 @@
     "english": "Can such a thing happen again?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries"
     ]
   },
   {
@@ -4438,7 +5004,8 @@
     "english": "Tom is watering his garden.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -4458,7 +5025,9 @@
     "english": "I have ten times as many books as you have.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4501,7 +5070,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4511,7 +5081,9 @@
     "english": "Few treasures are worth as much as a friend.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "statements_of_fact"
     ]
   },
   {
@@ -4521,7 +5093,8 @@
     "english": "I'm one of the dancers.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4531,7 +5104,8 @@
     "english": "Her book is very interesting.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -4552,7 +5126,9 @@
     "wordCount": 6,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "opinions_and_beliefs",
+      "negation_and_denial"
     ]
   },
   {
@@ -4562,7 +5138,12 @@
     "english": "What's the real reason you don't want to do this?",
     "wordCount": 12,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4572,7 +5153,8 @@
     "english": "Out of twenty students, only one has read the book.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4582,7 +5164,8 @@
     "english": "I'm not sure I want to see this.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4592,7 +5175,9 @@
     "english": "I want to talk to you about something else.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4603,7 +5188,8 @@
     "wordCount": 6,
     "categories": [
       "work",
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4623,7 +5209,9 @@
     "english": "I want to see more.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4633,7 +5221,12 @@
     "english": "You don't talk much, do you?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4643,7 +5236,8 @@
     "english": "I am not sure that I want to see that.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4653,7 +5247,8 @@
     "english": "They're my friends.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -4663,7 +5258,9 @@
     "english": "They're my friends.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4683,7 +5280,9 @@
     "english": "Life is a gift.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -4694,7 +5293,8 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4704,7 +5304,8 @@
     "english": "How did the party go?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -4725,7 +5326,8 @@
     "english": "How many friends do you have on Facebook?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -4735,7 +5337,8 @@
     "english": "I like reading American novels.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4745,7 +5348,10 @@
     "english": "Am I your friend or not?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4755,7 +5361,9 @@
     "english": "I think that book is in the library.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "opinions_and_beliefs",
+      "statements_of_fact"
     ]
   },
   {
@@ -4768,7 +5376,11 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4798,7 +5410,8 @@
     "english": "Your book has changed my life.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -4818,7 +5431,10 @@
     "english": "I'd like to study chemistry at college.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4828,7 +5444,9 @@
     "english": "How many people are at your party?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -4850,7 +5468,8 @@
     "wordCount": 7,
     "categories": [
       "work",
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4861,7 +5480,10 @@
     "wordCount": 11,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -4881,7 +5503,8 @@
     "english": "When did your friend leave for America?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -4891,7 +5514,8 @@
     "english": "I can't buy you that dress.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4903,7 +5527,10 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4913,7 +5540,9 @@
     "english": "I want to see this myself.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4923,7 +5552,8 @@
     "english": "Tom won't be able to become a policeman.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4933,7 +5563,9 @@
     "english": "I hope that I will be able to help you at some other time.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -4944,7 +5576,10 @@
     "wordCount": 10,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4954,7 +5589,10 @@
     "english": "I am going to return this sweater because it's too big.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -4964,7 +5602,8 @@
     "english": "They heard a speech written especially for them.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4975,7 +5614,8 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -4996,7 +5636,8 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -5008,7 +5649,11 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5018,7 +5663,8 @@
     "english": "The actor's death was in the headlines of every magazine.",
     "wordCount": 12,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -5049,7 +5695,10 @@
     "english": "This list isn't in alphabetical order and because of that it's difficult to read.",
     "wordCount": 14,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5059,7 +5708,8 @@
     "english": "I'll go out and see the fireworks.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -5070,7 +5720,8 @@
     "wordCount": 8,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5080,7 +5731,8 @@
     "english": "Linda went to the park to listen to music.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -5090,7 +5742,9 @@
     "english": "This book doesn't belong to Tom.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5100,7 +5754,8 @@
     "english": "It is illegal to copy from books without the author's permission.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -5110,7 +5765,9 @@
     "english": "You can buy it at any bookstore.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5120,7 +5777,8 @@
     "english": "The film was much better than expected.",
     "wordCount": 10,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -5140,7 +5798,10 @@
     "english": "Why didn't he come to the party?",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5150,7 +5811,8 @@
     "english": "Tom is learning to dance the tango.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -5163,7 +5825,8 @@
       "travel",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5173,7 +5836,8 @@
     "english": "Let me know when you find out what it is.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -5183,7 +5847,9 @@
     "english": "If you're bored, I suggest you go to the cinema.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -5194,7 +5860,8 @@
     "wordCount": 10,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5204,7 +5871,10 @@
     "english": "Why is it necessary to resolve conflicts?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5216,7 +5886,9 @@
     "categories": [
       "travel",
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5237,7 +5909,8 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -5248,7 +5921,9 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -5260,7 +5935,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5282,7 +5958,8 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5292,7 +5969,9 @@
     "english": "There is some truth in that.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -5302,7 +5981,8 @@
     "english": "I can not give you an immediate answer.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -5312,7 +5992,9 @@
     "english": "You look really good.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -5334,7 +6016,8 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -5344,7 +6027,10 @@
     "english": "The important thing is not to win the game, but to take part in it.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5354,7 +6040,8 @@
     "english": "It is horrible to see.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -5375,7 +6062,9 @@
     "english": "I found out where she was.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5386,7 +6075,11 @@
     "wordCount": 8,
     "categories": [
       "greetings",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5396,7 +6089,10 @@
     "english": "Tom was hoping Mary wouldn't find out the truth.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5406,7 +6102,8 @@
     "english": "Just listening to that song makes me think of you.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5416,7 +6113,8 @@
     "english": "A string quartet is rehearsing in the next room.",
     "wordCount": 10,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -5426,7 +6124,9 @@
     "english": "It is hard to distinguish truth from a lie.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -5437,7 +6137,9 @@
     "wordCount": 4,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -5447,7 +6149,9 @@
     "english": "Would you sing us a song in French?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -5457,7 +6161,10 @@
     "english": "You're not telling the truth.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5467,7 +6174,10 @@
     "english": "I think you'd better take a rest; you look ill.",
     "wordCount": 10,
     "categories": [
-      "leisure"
+      "leisure",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5477,7 +6187,9 @@
     "english": "Did you have a good summer?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -5487,7 +6199,10 @@
     "english": "I also want to play.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5499,7 +6214,11 @@
     "categories": [
       "travel",
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5509,7 +6228,9 @@
     "english": "I'm not going to see anybody else.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -5519,7 +6240,8 @@
     "english": "Come to see us!",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -5529,7 +6251,8 @@
     "english": "The book was published after the author's death.",
     "wordCount": 10,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -5539,7 +6262,9 @@
     "english": "I'd like to see it.",
     "wordCount": 2,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5550,7 +6275,8 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -5561,7 +6287,9 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -5571,7 +6299,10 @@
     "english": "Tom has trouble expressing his true feelings.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5581,7 +6312,9 @@
     "english": "If you have finished reading the book, return it to the library.",
     "wordCount": 10,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5591,7 +6324,8 @@
     "english": "His book is red.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -5641,7 +6375,8 @@
     "english": "He translated the book from French into English.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5652,7 +6387,8 @@
     "wordCount": 5,
     "categories": [
       "greetings",
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5673,7 +6409,9 @@
     "english": "I'm only interested in the truth.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -5683,7 +6421,9 @@
     "english": "I'm not sure that I can help you.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -5704,7 +6444,10 @@
     "wordCount": 15,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5715,7 +6458,9 @@
     "wordCount": 10,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -5725,7 +6470,8 @@
     "english": "I ordered some books from London.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -5735,7 +6481,9 @@
     "english": "I couldn't kill you, Tom.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -5745,7 +6493,8 @@
     "english": "He knows many amusing magic tricks.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5755,7 +6504,8 @@
     "english": "He has a good eye for art.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5765,7 +6515,8 @@
     "english": "It is no use trying to solve this problem.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -5775,7 +6526,9 @@
     "english": "I know the real reason for his absence.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -5796,7 +6549,8 @@
     "wordCount": 13,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -5806,7 +6560,9 @@
     "english": "This book is to me what the Bible is to you.",
     "wordCount": 12,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5816,7 +6572,9 @@
     "english": "This problem is a real challenge.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -5826,7 +6584,9 @@
     "english": "I would like to see the trees from which you picked these apples.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5836,7 +6596,9 @@
     "english": "Mathematics is the language of the universe.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5856,7 +6618,8 @@
     "english": "What does that have to do with Tom?",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -5866,7 +6629,8 @@
     "english": "These are the first tomatoes from my garden.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -5877,7 +6641,10 @@
     "wordCount": 8,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5899,7 +6666,9 @@
     "english": "I'd like to go see a movie.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5909,7 +6678,8 @@
     "english": "At first, I didn't like it, but it gradually became fun.",
     "wordCount": 13,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -5919,7 +6689,8 @@
     "english": "I want you to be my friend again.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5930,7 +6701,8 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -5940,7 +6712,8 @@
     "english": "You remind me so much of my friend Marina, a great teacher of Russian.",
     "wordCount": 12,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -5952,7 +6725,9 @@
     "categories": [
       "travel",
       "leisure",
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -5962,7 +6737,8 @@
     "english": "How much does a soccer ball weigh?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -5972,7 +6748,8 @@
     "english": "Rob, go watch TV.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -5995,7 +6772,9 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6005,7 +6784,9 @@
     "english": "Tom will tell the truth.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -6016,7 +6797,8 @@
     "wordCount": 9,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "negation_and_denial"
     ]
   },
   {
@@ -6026,7 +6808,9 @@
     "english": "Tom was my closest friend.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -6036,7 +6820,10 @@
     "english": "Few things bring as much pleasure as music.",
     "wordCount": 10,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -6046,7 +6833,11 @@
     "english": "You're not jealous, are you?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -6067,7 +6858,9 @@
     "wordCount": 6,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -6077,7 +6870,10 @@
     "english": "You're from Boston, aren't you?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -6088,7 +6884,9 @@
     "wordCount": 3,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -6099,7 +6897,10 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -6110,7 +6911,8 @@
     "wordCount": 9,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6130,7 +6932,11 @@
     "english": "What would Tom do if he ever learned the truth?",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -6140,7 +6946,8 @@
     "english": "Tom is introverted and shy.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -6161,7 +6968,11 @@
     "wordCount": 9,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -6171,7 +6982,9 @@
     "english": "Why does the government want to read my emails?",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -6181,7 +6994,9 @@
     "english": "Americans hate music, but love entertainment.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -6191,7 +7006,8 @@
     "english": "I couldn't leave you alone.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -6201,7 +7017,8 @@
     "english": "We need to show you something.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -6211,7 +7028,9 @@
     "english": "I know Tom is a friend of yours, but I still don't like him.",
     "wordCount": 14,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -6221,7 +7040,8 @@
     "english": "Let's find out who killed Tom.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -6232,7 +7052,8 @@
     "wordCount": 4,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -6242,7 +7063,8 @@
     "english": "I could order you to stay.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -6252,7 +7074,8 @@
     "english": "I want to talk with you about Tom.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -6272,7 +7095,8 @@
     "english": "Why do you want me to go see Tom?",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -6282,7 +7106,11 @@
     "english": "Can you name all the trees in the garden?",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -6292,7 +7120,10 @@
     "english": "This book isn't as heavy as that one.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -6302,7 +7133,9 @@
     "english": "Try to make sure Tom doesn't do something stupid.",
     "wordCount": 10,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6312,7 +7145,10 @@
     "english": "Do you have any idea how stupid this makes you look?",
     "wordCount": 11,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6322,7 +7158,10 @@
     "english": "This whole thing is really stupid.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6332,7 +7171,8 @@
     "english": "We should've warned Tom of the danger.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -6342,7 +7182,8 @@
     "english": "Tom has nothing to do with this.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -6352,7 +7193,8 @@
     "english": "This has nothing to do with Tom.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -6362,7 +7204,11 @@
     "english": "Just because he likes painting doesn't mean he's good at painting.",
     "wordCount": 14,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6383,7 +7229,9 @@
     "english": "I couldn't see any stars in the sky.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6393,7 +7241,8 @@
     "english": "Let the concert begin!",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -6404,7 +7253,8 @@
     "wordCount": 15,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -6415,7 +7265,8 @@
     "wordCount": 11,
     "categories": [
       "work",
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -6425,7 +7276,9 @@
     "english": "Let me see what's in your hand.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -6435,7 +7288,8 @@
     "english": "Tom still has to finish painting the fence.",
     "wordCount": 8,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -6490,7 +7344,10 @@
     "categories": [
       "family",
       "leisure",
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6510,7 +7367,9 @@
     "english": "Tom can dance like a robot.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment"
     ]
   },
   {
@@ -6520,7 +7379,11 @@
     "english": "Tom believes that the universe really has eleven dimensions.",
     "wordCount": 10,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -6531,7 +7394,9 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -6541,7 +7406,9 @@
     "english": "We have to move very quickly.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -6552,7 +7419,9 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -6562,7 +7431,8 @@
     "english": "Tom had trouble resolving the situation.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -6572,7 +7442,8 @@
     "english": "Tom had trouble making friends.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -6603,7 +7474,8 @@
     "wordCount": 7,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -6623,7 +7495,9 @@
     "english": "Do you like swimming?",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -6634,7 +7508,8 @@
     "wordCount": 2,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -6655,7 +7530,8 @@
     "wordCount": 10,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -6685,7 +7561,9 @@
     "english": "Is he your friend?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6695,7 +7573,10 @@
     "english": "Football is the most popular sport in Brazil.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -6705,7 +7586,8 @@
     "english": "I don't like to swim.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -6715,7 +7597,10 @@
     "english": "Tom and his friends are playing Dungeons and Dragons in the basement.",
     "wordCount": 12,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6726,7 +7611,9 @@
     "wordCount": 16,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -6736,7 +7623,9 @@
     "english": "A friend of mine is looking for someone who speaks French.",
     "wordCount": 11,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6746,7 +7635,9 @@
     "english": "You owe her the truth.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -6766,7 +7657,8 @@
     "english": "How many arithmetic books are left?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -6776,7 +7668,10 @@
     "english": "Soccer is the world's most popular sport.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -6786,7 +7681,8 @@
     "english": "Tom has friends all over the world.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -6796,7 +7692,8 @@
     "english": "Tom likes watching TV.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -6806,7 +7703,9 @@
     "english": "The protagonist of the new film is a child angel.",
     "wordCount": 10,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -6817,7 +7716,9 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -6827,7 +7728,8 @@
     "english": "What happened in the park?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -6857,7 +7759,8 @@
     "english": "He is good at soccer.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6867,7 +7770,8 @@
     "english": "You ought to write a book.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -6877,7 +7781,10 @@
     "english": "The truth is that I don't know anything about it.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -6888,7 +7795,9 @@
     "wordCount": 10,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -6898,7 +7807,9 @@
     "english": "Mary is not my girlfriend. She's just a friend.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -6909,7 +7820,9 @@
     "wordCount": 6,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -6930,7 +7843,8 @@
     "wordCount": 4,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -6951,7 +7865,9 @@
     "english": "I can't dance.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6961,7 +7877,11 @@
     "english": "This is not my idea of fun.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -6971,7 +7891,9 @@
     "english": "I don't want to kill you, Tom.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -6981,7 +7903,9 @@
     "english": "Tom decided to tell Mary the truth.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -7001,7 +7925,11 @@
     "english": "Tom is a friend of yours, right?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7011,7 +7939,9 @@
     "english": "I don't want to dance.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -7031,7 +7961,8 @@
     "english": "Some of my friends smoke.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -7041,7 +7972,10 @@
     "english": "Music is important to me.",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7051,7 +7985,9 @@
     "english": "Rabbits can swim.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -7072,7 +8008,9 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -7082,7 +8020,8 @@
     "english": "This is a controversial issue.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -7092,7 +8031,8 @@
     "english": "I'm pretty sure Tom doesn't know how to swim.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -7102,7 +8042,10 @@
     "english": "His real name is Tom.",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -7124,7 +8067,8 @@
     "english": "I can't believe it's summer already.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -7135,7 +8079,9 @@
     "wordCount": 6,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -7146,7 +8092,9 @@
     "wordCount": 9,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -7156,7 +8104,8 @@
     "english": "What part of Australia are you from?",
     "wordCount": 6,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -7166,7 +8115,10 @@
     "english": "You speak French, right?",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -7176,7 +8128,8 @@
     "english": "Tom and Mary are friends with John.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -7187,7 +8140,8 @@
     "wordCount": 20,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -7198,7 +8152,9 @@
     "wordCount": 14,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -7208,7 +8164,8 @@
     "english": "Don't throw away this magazine. I haven't read it yet.",
     "wordCount": 9,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -7229,7 +8186,9 @@
     "wordCount": 10,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -7239,7 +8198,8 @@
     "english": "I have many Canadian friends.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -7261,7 +8221,9 @@
     "wordCount": 10,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "opinions_and_beliefs",
+      "conditional_statements"
     ]
   },
   {
@@ -7271,7 +8233,8 @@
     "english": "Is this your wallet?",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -7281,7 +8244,8 @@
     "english": "Would you mind walking the dog?",
     "wordCount": 5,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -7301,7 +8265,8 @@
     "english": "My friend is German.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -7311,7 +8276,8 @@
     "english": "Tom discovered two dead bodies in his basement.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -7321,7 +8287,8 @@
     "english": "You need to take better care of yourself.",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -7332,7 +8299,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -7342,7 +8310,8 @@
     "english": "Rabbits can swim.",
     "wordCount": 4,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -7352,7 +8321,9 @@
     "english": "Somebody should make a movie out of this.",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -7362,7 +8333,10 @@
     "english": "Can you dance?",
     "wordCount": 2,
     "categories": [
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -7394,7 +8368,9 @@
     "english": "Merida is the only Disney princess that doesn't sing or dance in her movie.",
     "wordCount": 15,
     "categories": [
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -7404,7 +8380,9 @@
     "english": "Puasinkoi is a small Karelian village in the Tver region.",
     "wordCount": 12,
     "categories": [
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -7415,7 +8393,8 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -7436,7 +8415,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -7446,7 +8426,8 @@
     "english": "My dog is green and talks about philosophy all the time.",
     "wordCount": 11,
     "categories": [
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -7456,7 +8437,8 @@
     "english": "Do you want to play with my credit card?",
     "wordCount": 7,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -7466,7 +8448,8 @@
     "english": "Do you want the book?",
     "wordCount": 3,
     "categories": [
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   }
 ]

@@ -27,7 +27,8 @@
     "wordCount": 7,
     "categories": [
       "greetings",
-      "food"
+      "food",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -37,7 +38,8 @@
     "english": "The check, please.",
     "wordCount": 4,
     "categories": [
-      "greetings"
+      "greetings",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -47,7 +49,8 @@
     "english": "Thanks. \"You're welcome.\"",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -57,7 +60,10 @@
     "english": "Could you please repeat that?",
     "wordCount": 4,
     "categories": [
-      "greetings"
+      "greetings",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -67,7 +73,8 @@
     "english": "Please write down what I'm going to say.",
     "wordCount": 8,
     "categories": [
-      "greetings"
+      "greetings",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -87,7 +94,8 @@
     "english": "Welcome!",
     "wordCount": 1,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -97,7 +105,8 @@
     "english": "Welcome.",
     "wordCount": 1,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -117,7 +126,9 @@
     "english": "How do you do?",
     "wordCount": 2,
     "categories": [
-      "greetings"
+      "greetings",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -128,7 +139,9 @@
     "wordCount": 2,
     "categories": [
       "greetings",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -138,7 +151,8 @@
     "english": "Welcome to Tatoeba!",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -170,7 +184,9 @@
     "wordCount": 3,
     "categories": [
       "greetings",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -181,7 +197,8 @@
     "wordCount": 5,
     "categories": [
       "greetings",
-      "food"
+      "food",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -217,7 +234,8 @@
       "greetings",
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -227,7 +245,8 @@
     "english": "Hello, world!",
     "wordCount": 2,
     "categories": [
-      "greetings"
+      "greetings",
+      "reasoning_assessment"
     ]
   },
   {
@@ -237,7 +256,8 @@
     "english": "Please be polite.",
     "wordCount": 4,
     "categories": [
-      "greetings"
+      "greetings",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -247,7 +267,8 @@
     "english": "Thank you very, very much!",
     "wordCount": 2,
     "categories": [
-      "greetings"
+      "greetings",
+      "conditional_statements"
     ]
   },
   {
@@ -258,7 +279,8 @@
     "wordCount": 5,
     "categories": [
       "greetings",
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -270,7 +292,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -290,7 +313,8 @@
     "english": "Get me the scissors, please.",
     "wordCount": 5,
     "categories": [
-      "greetings"
+      "greetings",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -301,7 +325,9 @@
     "wordCount": 3,
     "categories": [
       "greetings",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -313,7 +339,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -323,7 +350,8 @@
     "english": "No thank you, I'm pregnant.",
     "wordCount": 4,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -333,7 +361,8 @@
     "english": "Thank you very much for your help.",
     "wordCount": 5,
     "categories": [
-      "greetings"
+      "greetings",
+      "conditional_statements"
     ]
   },
   {
@@ -343,7 +372,8 @@
     "english": "How do you say \"good bye\" in German?",
     "wordCount": 6,
     "categories": [
-      "greetings"
+      "greetings",
+      "questions_inquiries"
     ]
   },
   {
@@ -363,7 +393,8 @@
     "english": "Please change the flag.",
     "wordCount": 5,
     "categories": [
-      "greetings"
+      "greetings",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -373,7 +404,8 @@
     "english": "Welcome to Tatoeba!",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -393,7 +425,9 @@
     "english": "Hi, Mimi! How are you doing?",
     "wordCount": 4,
     "categories": [
-      "greetings"
+      "greetings",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -404,7 +438,9 @@
     "wordCount": 4,
     "categories": [
       "greetings",
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -414,7 +450,8 @@
     "english": "Please turn off the radio.",
     "wordCount": 5,
     "categories": [
-      "greetings"
+      "greetings",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -424,7 +461,8 @@
     "english": "Please write down what I'm going to say.",
     "wordCount": 8,
     "categories": [
-      "greetings"
+      "greetings",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -436,7 +474,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -446,7 +485,10 @@
     "english": "Could you repeat that, please?",
     "wordCount": 4,
     "categories": [
-      "greetings"
+      "greetings",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -521,7 +563,8 @@
     "english": "A beer, please.",
     "wordCount": 4,
     "categories": [
-      "greetings"
+      "greetings",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -531,7 +574,8 @@
     "english": "Slowly, please.",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -541,7 +585,8 @@
     "english": "See you!",
     "wordCount": 2,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -551,7 +596,8 @@
     "english": "Thank you ever so much.",
     "wordCount": 2,
     "categories": [
-      "greetings"
+      "greetings",
+      "conditional_statements"
     ]
   },
   {
@@ -572,7 +618,8 @@
     "wordCount": 9,
     "categories": [
       "greetings",
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -582,7 +629,9 @@
     "english": "Thanks for asking, she is fine.",
     "wordCount": 6,
     "categories": [
-      "greetings"
+      "greetings",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -593,7 +642,9 @@
     "wordCount": 4,
     "categories": [
       "greetings",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -603,7 +654,8 @@
     "english": "Sorry, I didn't hear.",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -613,7 +665,8 @@
     "english": "Thanks, everything is fine there.",
     "wordCount": 5,
     "categories": [
-      "greetings"
+      "greetings",
+      "statements_of_fact"
     ]
   },
   {
@@ -623,7 +676,8 @@
     "english": "Please turn off the radio.",
     "wordCount": 5,
     "categories": [
-      "greetings"
+      "greetings",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -633,7 +687,8 @@
     "english": "Welcome to Tatoeba!",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -643,7 +698,10 @@
     "english": "Hi, my name is Pekka. What is your name?",
     "wordCount": 9,
     "categories": [
-      "greetings"
+      "greetings",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -653,7 +711,8 @@
     "english": "Goodbye, Sayoko.",
     "wordCount": 2,
     "categories": [
-      "greetings"
+      "greetings",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -663,7 +722,8 @@
     "english": "You should apologize to her.",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "reasoning_assessment"
     ]
   },
   {
@@ -673,7 +733,8 @@
     "english": "Please listen to me.",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -683,7 +744,8 @@
     "english": "I'll be seeing you.",
     "wordCount": 2,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -713,7 +775,8 @@
     "english": "Bye, Sayoko!",
     "wordCount": 2,
     "categories": [
-      "greetings"
+      "greetings",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -733,7 +796,8 @@
     "english": "Wherever you go, you'll be welcomed.",
     "wordCount": 5,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -765,7 +829,9 @@
     "english": "Please don't leave valuable things here.",
     "wordCount": 7,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -775,7 +841,8 @@
     "english": "Please add a period at the end of your sentence.",
     "wordCount": 11,
     "categories": [
-      "greetings"
+      "greetings",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -796,7 +863,8 @@
     "wordCount": 5,
     "categories": [
       "greetings",
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -806,7 +874,9 @@
     "english": "Please don't tell anyone.",
     "wordCount": 8,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -816,7 +886,8 @@
     "english": "Welcome to Boston.",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -826,7 +897,8 @@
     "english": "Welcome to Boston.",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -837,7 +909,9 @@
     "wordCount": 4,
     "categories": [
       "greetings",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -847,7 +921,9 @@
     "english": "I want to apologize for all the terrible things I said.",
     "wordCount": 9,
     "categories": [
-      "greetings"
+      "greetings",
+      "reasoning_assessment",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -857,7 +933,8 @@
     "english": "Close your eyes, please.",
     "wordCount": 5,
     "categories": [
-      "greetings"
+      "greetings",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -887,7 +964,8 @@
     "english": "Hello. Are you Jackie Scott?",
     "wordCount": 4,
     "categories": [
-      "greetings"
+      "greetings",
+      "questions_inquiries"
     ]
   },
   {
@@ -897,7 +975,8 @@
     "english": "Thank you. God bless you. And may God bless the United States of America.",
     "wordCount": 14,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -907,7 +986,8 @@
     "english": "Welcome to Japan.",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -918,7 +998,9 @@
     "wordCount": 2,
     "categories": [
       "greetings",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -929,7 +1011,8 @@
     "wordCount": 5,
     "categories": [
       "greetings",
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -950,7 +1033,8 @@
     "english": "We see each other every day.",
     "wordCount": 4,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -960,7 +1044,9 @@
     "english": "Where is the Dutch embassy?",
     "wordCount": 5,
     "categories": [
-      "greetings"
+      "greetings",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -982,7 +1068,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1023,7 +1110,10 @@
     "wordCount": 9,
     "categories": [
       "greetings",
-      "food"
+      "food",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1035,7 +1125,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1055,7 +1146,9 @@
     "english": "How do we look?",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -1065,7 +1158,9 @@
     "english": "There is something very charming about you.",
     "wordCount": 6,
     "categories": [
-      "greetings"
+      "greetings",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1076,7 +1171,11 @@
     "wordCount": 26,
     "categories": [
       "greetings",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1086,7 +1185,9 @@
     "english": "Hello, I would like some fresh orange juice.",
     "wordCount": 9,
     "categories": [
-      "greetings"
+      "greetings",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1097,7 +1198,11 @@
     "wordCount": 8,
     "categories": [
       "greetings",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1118,7 +1223,8 @@
     "wordCount": 5,
     "categories": [
       "greetings",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -1128,7 +1234,8 @@
     "english": "Hello, Meg, how have you been?",
     "wordCount": 5,
     "categories": [
-      "greetings"
+      "greetings",
+      "questions_inquiries"
     ]
   },
   {
@@ -1139,7 +1246,8 @@
     "wordCount": 5,
     "categories": [
       "greetings",
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1149,7 +1257,8 @@
     "english": "Welcome to Dublin!",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -1160,7 +1269,10 @@
     "wordCount": 9,
     "categories": [
       "greetings",
-      "travel"
+      "travel",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1170,7 +1282,9 @@
     "english": "Please behave like an English gentleman.",
     "wordCount": 7,
     "categories": [
-      "greetings"
+      "greetings",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1214,7 +1328,9 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1224,7 +1340,8 @@
     "english": "You owe Tom a big apology.",
     "wordCount": 7,
     "categories": [
-      "greetings"
+      "greetings",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1244,7 +1361,10 @@
     "english": "Thanks. \"You're welcome.\"",
     "wordCount": 5,
     "categories": [
-      "greetings"
+      "greetings",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1254,7 +1374,8 @@
     "english": "We came to apologize.",
     "wordCount": 4,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -1264,7 +1385,8 @@
     "english": "We came to apologize.",
     "wordCount": 4,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -1274,7 +1396,8 @@
     "english": "Thank you for the opportunity.",
     "wordCount": 4,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -1284,7 +1407,8 @@
     "english": "Welcome to Wikipedia.",
     "wordCount": 3,
     "categories": [
-      "greetings"
+      "greetings",
+      "negation_and_denial"
     ]
   },
   {
@@ -1374,7 +1498,9 @@
     "english": "I think you should apologize.",
     "wordCount": 5,
     "categories": [
-      "greetings"
+      "greetings",
+      "opinions_and_beliefs",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1386,7 +1512,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {

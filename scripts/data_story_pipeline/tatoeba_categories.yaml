@@ -1,0 +1,542 @@
+# Tatoeba Sentence Categorization Configuration
+#
+# Data source: https://tatoeba.org
+# License: CC-BY 2.0 FR
+#
+# Priority field controls the order in which categories appear in reports.
+# Lower priority number = appears first.
+# Sentences can belong to multiple categories simultaneously.
+
+categories:
+  - id: greetings
+    priority: 1
+    keywords:
+      - hola
+      - buenos días
+      - buenas tardes
+      - buenas noches
+      - adiós
+      - hasta luego
+      - bienvenido
+      - gracias
+      - por favor
+      - perdón
+      - disculpa
+      - cómo estás
+      - mucho gusto
+      - encantado
+      - hasta pronto
+      - nos vemos
+      - saludos
+
+  - id: food
+    priority: 2
+    keywords:
+      - comida
+      - comer
+      - beber
+      - desayuno
+      - almuerzo
+      - cena
+      - restaurante
+      - cocina
+      - plato
+      - pan
+      - agua
+      - café
+      - té
+      - leche
+      - fruta
+      - verdura
+      - carne
+      - pescado
+      - pollo
+      - arroz
+      - pasta
+      - sopa
+      - ensalada
+      - postre
+      - dulce
+      - azúcar
+      - sal
+      - sabor
+      - delicioso
+      - hambre
+      - sed
+      - mesa
+      - tenedor
+      - cuchillo
+      - cuchara
+      - vaso
+      - taza
+      - botella
+      - menú
+
+  - id: travel
+    priority: 3
+    keywords:
+      - viajar
+      - viaje
+      - turismo
+      - hotel
+      - aeropuerto
+      - avión
+      - tren
+      - autobús
+      - taxi
+      - coche
+      - billete
+      - boleto
+      - equipaje
+      - maleta
+      - pasaporte
+      - visa
+      - ciudad
+      - país
+      - mapa
+      - guía
+      - reserva
+      - vacaciones
+      - playa
+      - montaña
+      - museo
+      - monumento
+      - foto
+      - fotografía
+      - caminar
+      - visitar
+      - destino
+      - vuelo
+      - estación
+      - parada
+      - carretera
+      - camino
+
+  - id: family
+    priority: 4
+    keywords:
+      - familia
+      - padre
+      - madre
+      - papá
+      - mamá
+      - hijo
+      - hija
+      - hermano
+      - hermana
+      - abuelo
+      - abuela
+      - tío
+      - tía
+      - primo
+      - prima
+      - esposo
+      - esposa
+      - marido
+      - mujer
+      - niño
+      - niña
+      - bebé
+      - pariente
+      - familiar
+      - padres
+      - hijos
+      - hermanos
+      - abuelos
+      - matrimonio
+      - boda
+      - casarse
+      - nacer
+      - nacimiento
+
+  - id: work
+    priority: 5
+    keywords:
+      - trabajo
+      - trabajar
+      - empleo
+      - empleado
+      - jefe
+      - oficina
+      - empresa
+      - compañía
+      - negocio
+      - reunión
+      - proyecto
+      - cliente
+      - colega
+      - compañero
+      - sueldo
+      - salario
+      - dinero
+      - pagar
+      - cobrar
+      - contrato
+      - carrera
+      - profesión
+      - ocupación
+      - horario
+      - turno
+      - vacante
+      - entrevista
+      - currículum
+      - experiencia
+      - habilidad
+      - tarea
+      - responsabilidad
+
+  - id: leisure
+    priority: 6
+    keywords:
+      - tiempo libre
+      - diversión
+      - jugar
+      - juego
+      - deporte
+      - fútbol
+      - música
+      - cantar
+      - bailar
+      - película
+      - cine
+      - teatro
+      - concierto
+      - fiesta
+      - celebrar
+      - cumpleaños
+      - regalo
+      - amigo
+      - amiga
+      - pasatiempo
+      - hobby
+      - leer
+      - libro
+      - revista
+      - televisión
+      - ver
+      - escuchar
+      - parque
+      - jardín
+      - pasear
+      - caminar
+      - correr
+      - nadar
+      - arte
+      - pintar
+      - dibujar
+
+  - id: emotions
+    priority: 7
+    keywords:
+      - sentir
+      - feliz
+      - triste
+      - enojado
+      - preocupar
+      - sorprender
+      - emoción
+      - alegre
+      - contento
+      - nervioso
+      - asustado
+      - miedo
+      - enamorado
+      - amor
+      - odio
+      - ansioso
+      - tranquilo
+      - furioso
+      - deprimido
+      - eufórico
+
+  - id: time
+    priority: 8
+    keywords:
+      - tiempo
+      - hora
+      - día
+      - noche
+      - mañana
+      - tarde
+      - semana
+      - mes
+      - año
+      - hoy
+      - ayer
+      - mañana
+      - ahora
+      - luego
+      - siempre
+      - nunca
+      - momento
+      - reloj
+      - calendario
+      - época
+      - siglo
+      - instante
+      - minuto
+      - segundo
+
+  - id: daily_life
+    priority: 9
+    keywords:
+      - dormir
+      - despertar
+      - levantarse
+      - ducharse
+      - vestirse
+      - vida diaria
+      - rutina
+      - casa
+      - habitación
+      - baño
+      - cocina
+      - ropa
+      - zapatos
+      - cama
+      - mesa
+      - silla
+      - puerta
+      - ventana
+      - luz
+      - oscuridad
+      - mañana
+      - noche
+      - tarde
+      - desayunar
+      - limpiar
+      - lavar
+      - secar
+      - organizar
+
+  - id: opinions_and_beliefs
+    priority: 10
+    keywords:
+      - creo
+      - pienso
+      - opino
+      - considero
+      - parece
+      - me parece
+      - a mi juicio
+      - en mi opinión
+      - personalmente
+      - me imagino
+      - supongo
+      - imagino
+      - siento
+      - me siento
+    patterns:
+      - '\b(creo|pienso|me parece|opino|considero|supongo)\b'
+      - '^(yo|a mi)\s+(creo|pienso|opino)'
+
+  - id: comparison_and_contrast
+    priority: 11
+    keywords:
+      - como
+      - igual
+      - diferente
+      - distinto
+      - similar
+      - parecido
+      - más que
+      - menos que
+      - más
+      - menos
+      - tanto
+      - también
+      - tampoco
+      - en cambio
+      - por el contrario
+      - al contrario
+    patterns:
+      - '\b(como|igual|diferente|similar|parecido)\b'
+      - '\b(más que|menos que|en cambio|por el contrario|al contrario)\b'
+
+  - id: reasoning_assessment
+    priority: 12
+    keywords:
+      - porque
+      - por eso
+      - por lo tanto
+      - por consiguiente
+      - así que
+      - resultado
+      - consecuencia
+      - razón
+      - causa
+      - motivo
+      - debido a
+      - a causa de
+      - por culpa de
+      - puede
+      - pueda
+      - posible
+      - probable
+      - probablemente
+      - quizá
+      - quizás
+      - tal vez
+      - posiblemente
+      - seguramente
+      - debe
+      - podría
+      - habría
+      - bueno
+      - malo
+      - mejor
+      - peor
+      - excelente
+      - horrible
+      - fantástico
+      - terrible
+      - perfecto
+      - pésimo
+      - magnífico
+      - mundo
+      - vida
+      - muerte
+      - alma
+      - espíritu
+      - idea
+      - concepto
+      - pensamiento
+      - sentimiento
+      - verdad
+      - mentira
+      - esperanza
+      - miedo
+      - valor
+      - cobardía
+      - amor
+      - odio
+      - justicia
+    patterns:
+      - '\b(porque|por eso|debido a|a causa de|como resultado)\b'
+      - '\b(por lo tanto|por consiguiente|así que|en consecuencia)\b'
+      - '\b(puede|posible|probable|probablemente|quizá|quizás|tal vez)\b'
+      - '\b(seguramente|debe|podría|sería|habría)\b'
+      - '\b(bueno|malo|mejor|peor|excelente|horrible|fantástico|terrible)\b'
+      - '\b(mundo|vida|muerte|alma|espíritu|idea|verdad|mentira)\b'
+
+  - id: conditional_statements
+    priority: 13
+    keywords:
+      - si
+      - si no
+      - en caso de
+      - a menos que
+      - si acaso
+      - si por
+      - condicional
+      - sería
+      - fuera
+      - fuese
+      - hubiera
+      - habría
+    patterns:
+      - '^si\s+'
+      - '\b(si|en caso de|a menos que)\b'
+      - '\b(sería|fuera|hubiera|habría)\b'
+
+  - id: questions_inquiries
+    priority: 14
+    keywords:
+      - '¿'
+      - qué
+      - cuál
+      - cuáles
+      - cuándo
+      - dónde
+      - por qué
+      - cómo
+      - cuánto
+      - cuántos
+      - cuánta
+      - cuántas
+      - quién
+    patterns:
+      - '^.*\?$'
+      - '^¿.*\?$'
+
+  - id: negation_and_denial
+    priority: 15
+    keywords:
+      - 'no'
+      - 'ni'
+      - nada
+      - nadie
+      - nunca
+      - jamás
+      - nunca jamás
+      - de ninguna forma
+      - de ningún modo
+      - de ninguna manera
+      - para nada
+      - en absoluto
+    patterns:
+      - '^no\s+'
+      - '\b(no|ni|nada|nadie|nunca)\b'
+
+  - id: statements_of_fact
+    priority: 16
+    keywords:
+      - son
+      - está
+      - están
+      - hay
+      - existe
+      - existen
+      - verdad
+      - realidad
+      - hecho
+      - cierto
+      - verdadero
+    patterns:
+      - '^[^.!?]*\s(es|son|está|están|hay)\s'
+      - '\b(es decir|o sea|es cierto|es verdad|es evidente)\b'
+
+  - id: requests_and_imperatives
+    priority: 17
+    keywords:
+      - por favor
+      - harías
+      - puedes
+      - podrías
+      - haz
+      - hacer
+      - necesito
+      - quiero
+      - deseo
+      - quisiera
+      - me gustaría
+      - pide
+      - pedido
+      - solicito
+    patterns:
+      - '^(haz|hazme|dime|dame|pon|trae|lleva|espera|escucha)\b'
+      - '\b(por favor|si no te importa|si es posible)\b'
+
+  - id: interpersonal_dynamics
+    priority: 18
+    keywords:
+      - tú
+      - yo
+      - él
+      - ella
+      - nosotros
+      - vosotros
+      - ellos
+      - mío
+      - tuyo
+      - suyo
+      - nuestro
+      - vuestro
+      - sus
+      - relación
+      - amistad
+      - enemistad
+      - alianza
+      - conflicto
+    patterns:
+      - '\b(mí|ti|él|ella|nosotros|vosotros|ellos|ellas)\b'

@@ -18,7 +18,7 @@ vi.mock('$app/paths', () => ({
 global.fetch = vi.fn();
 
 const mockManifest: SentenceGroupManifest = {
-	themes: [
+	categories: [
 		{
 			id: 'greetings',
 			name: 'greetings',

@@ -6,7 +6,8 @@
     "english": "I don't have a lot of money.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -27,7 +28,8 @@
     "english": "I have no money, but I have dreams.",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -37,7 +39,8 @@
     "english": "It looks like Tom won the race.",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -47,7 +50,8 @@
     "english": "Can I pay with a credit card?",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "questions_inquiries"
     ]
   },
   {
@@ -68,7 +72,8 @@
     "english": "I'm going to save more money.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -78,7 +83,8 @@
     "english": "The mayor's office is in the city hall.",
     "wordCount": 8,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -98,7 +104,8 @@
     "english": "Money doesn't grow on trees.",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -110,7 +117,9 @@
     "categories": [
       "family",
       "work",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -121,7 +130,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -152,7 +162,8 @@
     "english": "Do you like your new job?",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "questions_inquiries"
     ]
   },
   {
@@ -172,7 +183,8 @@
     "english": "That's your responsibility.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -183,7 +195,8 @@
     "wordCount": 7,
     "categories": [
       "work",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -204,7 +217,8 @@
     "english": "He lost his job.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -215,7 +229,10 @@
     "wordCount": 4,
     "categories": [
       "work",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -236,7 +253,8 @@
     "wordCount": 6,
     "categories": [
       "work",
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -246,7 +264,8 @@
     "english": "I don't have any money.",
     "wordCount": 3,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -257,7 +276,9 @@
     "wordCount": 13,
     "categories": [
       "family",
-      "work"
+      "work",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -267,7 +288,8 @@
     "english": "Have you finished your work?",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "questions_inquiries"
     ]
   },
   {
@@ -277,7 +299,8 @@
     "english": "The company is losing money.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -287,7 +310,9 @@
     "english": "The salary of a teacher is lower than that of a lawyer.",
     "wordCount": 12,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -327,7 +352,8 @@
     "english": "Wait until your turn comes.",
     "wordCount": 3,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -349,7 +375,8 @@
     "english": "I have no money to buy the dictionary.",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -359,7 +386,8 @@
     "english": "How much money do you have?",
     "wordCount": 3,
     "categories": [
-      "work"
+      "work",
+      "questions_inquiries"
     ]
   },
   {
@@ -369,7 +397,9 @@
     "english": "He is looking for a job.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -379,7 +409,9 @@
     "english": "You've done a perfect job.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -412,7 +444,8 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -422,7 +455,8 @@
     "english": "The scandal nearly wrecked her career.",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements"
     ]
   },
   {
@@ -442,7 +476,9 @@
     "english": "We need more workers.",
     "wordCount": 3,
     "categories": [
-      "work"
+      "work",
+      "comparison_and_contrast",
+      "conditional_statements"
     ]
   },
   {
@@ -453,7 +489,9 @@
     "wordCount": 8,
     "categories": [
       "work",
-      "time"
+      "time",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -464,7 +502,8 @@
     "wordCount": 11,
     "categories": [
       "work",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -474,7 +513,9 @@
     "english": "How much money do you owe Tom?",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "reasoning_assessment",
+      "questions_inquiries"
     ]
   },
   {
@@ -485,7 +526,9 @@
     "wordCount": 6,
     "categories": [
       "work",
-      "leisure"
+      "leisure",
+      "statements_of_fact",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -496,7 +539,8 @@
     "wordCount": 9,
     "categories": [
       "work",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment"
     ]
   },
   {
@@ -509,7 +553,8 @@
       "food",
       "work",
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -520,7 +565,11 @@
     "wordCount": 9,
     "categories": [
       "work",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -531,7 +580,8 @@
     "wordCount": 7,
     "categories": [
       "work",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -586,7 +636,9 @@
     "english": "He is my boss.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -606,7 +658,8 @@
     "english": "He did it for money.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -649,7 +702,9 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "work"
+      "work",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -659,7 +714,9 @@
     "english": "Where's the boss?",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -679,7 +736,11 @@
     "english": "He is not aggressive enough to succeed in business.",
     "wordCount": 11,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -689,7 +750,9 @@
     "english": "He is looking for a job.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -699,7 +762,9 @@
     "english": "Both are my colleagues.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -710,7 +775,8 @@
     "wordCount": 12,
     "categories": [
       "work",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -720,7 +786,9 @@
     "english": "He is my classmate.",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -730,7 +798,8 @@
     "english": "He ran away with the money.",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -753,7 +822,8 @@
     "categories": [
       "travel",
       "work",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -763,7 +833,8 @@
     "english": "Do you plan to work until 10:00?",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "questions_inquiries"
     ]
   },
   {
@@ -773,7 +844,8 @@
     "english": "Our project failed.",
     "wordCount": 3,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -783,7 +855,8 @@
     "english": "His death was a great loss to our firm.",
     "wordCount": 9,
     "categories": [
-      "work"
+      "work",
+      "reasoning_assessment"
     ]
   },
   {
@@ -793,7 +866,8 @@
     "english": "The meeting was put off until next Friday.",
     "wordCount": 8,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -813,7 +887,9 @@
     "english": "He asked for more money.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -824,7 +900,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -834,7 +911,8 @@
     "english": "After I die, I hope that people will say of me: \"That guy sure owed me a lot of money.\"",
     "wordCount": 21,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -844,7 +922,10 @@
     "english": "Tom didn't want to do their dirty work.",
     "wordCount": 9,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -875,7 +956,8 @@
     "english": "Money is of great importance in political circles.",
     "wordCount": 9,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -885,7 +967,8 @@
     "english": "Sometimes I run out of money.",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements"
     ]
   },
   {
@@ -895,7 +978,8 @@
     "english": "The meeting ended earlier than usual.",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -906,7 +990,8 @@
     "wordCount": 7,
     "categories": [
       "work",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -917,7 +1002,8 @@
     "wordCount": 11,
     "categories": [
       "food",
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -927,7 +1013,8 @@
     "english": "I work like a slave!",
     "wordCount": 3,
     "categories": [
-      "work"
+      "work",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -937,7 +1024,8 @@
     "english": "I work like a slave!",
     "wordCount": 3,
     "categories": [
-      "work"
+      "work",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -957,7 +1045,10 @@
     "english": "I have less money than you.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -977,7 +1068,8 @@
     "english": "Give me your money or else I'll beat you up.",
     "wordCount": 8,
     "categories": [
-      "work"
+      "work",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -987,7 +1079,9 @@
     "english": "Don't waste your money by buying things you don't need.",
     "wordCount": 10,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1028,7 +1122,9 @@
     "wordCount": 6,
     "categories": [
       "work",
-      "time"
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1038,7 +1134,8 @@
     "english": "I needed cash.",
     "wordCount": 2,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements"
     ]
   },
   {
@@ -1049,7 +1146,8 @@
     "wordCount": 5,
     "categories": [
       "work",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -1071,7 +1169,8 @@
     "wordCount": 5,
     "categories": [
       "work",
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -1081,7 +1180,8 @@
     "english": "I wanna quit my job.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1102,7 +1202,8 @@
     "english": "Carry on with your work.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements"
     ]
   },
   {
@@ -1114,7 +1215,8 @@
     "categories": [
       "work",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1124,7 +1226,9 @@
     "english": "That's Saturn.",
     "wordCount": 3,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1134,7 +1238,9 @@
     "english": "I want more money.",
     "wordCount": 3,
     "categories": [
-      "work"
+      "work",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1177,7 +1283,8 @@
     "categories": [
       "food",
       "work",
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -1187,7 +1294,8 @@
     "english": "In a job like this, it's hard to get enough exercise.",
     "wordCount": 9,
     "categories": [
-      "work"
+      "work",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1197,7 +1305,10 @@
     "english": "I don't need money.",
     "wordCount": 3,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1208,7 +1319,8 @@
     "wordCount": 6,
     "categories": [
       "work",
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1218,7 +1330,9 @@
     "english": "The gardener was the murderer.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1228,7 +1342,8 @@
     "english": "We have no money.",
     "wordCount": 3,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -1250,7 +1365,9 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "work"
+      "work",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1261,7 +1378,10 @@
     "wordCount": 23,
     "categories": [
       "food",
-      "work"
+      "work",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1272,7 +1392,8 @@
     "wordCount": 7,
     "categories": [
       "work",
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1282,7 +1403,9 @@
     "english": "She's more experienced than I am.",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1292,7 +1415,10 @@
     "english": "Tom won't be able to finish the job unless we help him.",
     "wordCount": 11,
     "categories": [
-      "work"
+      "work",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1302,7 +1428,9 @@
     "english": "He's friendly with all his classmates.",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1312,7 +1440,10 @@
     "english": "They consider him unfit for the job.",
     "wordCount": 8,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1333,7 +1464,9 @@
     "english": "Our customers are in Taiwan, explained Tom.",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1343,7 +1476,8 @@
     "english": "My co-worker is a wolf in sheep's clothing.",
     "wordCount": 8,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -1354,7 +1488,8 @@
     "wordCount": 5,
     "categories": [
       "work",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1384,7 +1519,9 @@
     "english": "Japan should not spend much money on weapons.",
     "wordCount": 8,
     "categories": [
-      "work"
+      "work",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1394,7 +1531,8 @@
     "english": "I don't have any money with me.",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -1414,7 +1552,10 @@
     "english": "What's Tom's profession?",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1425,7 +1566,8 @@
     "wordCount": 8,
     "categories": [
       "work",
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -1435,7 +1577,9 @@
     "english": "They need money to pay for the materials.",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1445,7 +1589,9 @@
     "english": "He accumulated his fortune by hard work.",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1456,7 +1602,9 @@
     "wordCount": 9,
     "categories": [
       "family",
-      "work"
+      "work",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1496,7 +1644,8 @@
     "english": "She suggested that the customer buy a blue tie.",
     "wordCount": 8,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1506,7 +1655,9 @@
     "english": "I need Tom's money.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1516,7 +1667,8 @@
     "english": "There is a post office close by.",
     "wordCount": 8,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -1527,7 +1679,9 @@
     "wordCount": 6,
     "categories": [
       "work",
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -1537,7 +1691,9 @@
     "english": "If you need any money, I'll lend you some.",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1547,7 +1703,8 @@
     "english": "He wants me to help him with a school project.",
     "wordCount": 10,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1568,7 +1725,8 @@
     "english": "He finished this work for himself.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1578,7 +1736,8 @@
     "english": "She has done her homework.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1590,7 +1749,9 @@
     "categories": [
       "work",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -1600,7 +1761,8 @@
     "english": "What do you think about your boss's plan?",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "questions_inquiries"
     ]
   },
   {
@@ -1610,7 +1772,8 @@
     "english": "I want to know about Tom's new job.",
     "wordCount": 8,
     "categories": [
-      "work"
+      "work",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1620,7 +1783,8 @@
     "english": "Do you want to come over after work?",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "questions_inquiries"
     ]
   },
   {
@@ -1640,7 +1804,10 @@
     "english": "That's not our job.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1650,7 +1817,8 @@
     "english": "Something like this could ruin your career.",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1660,7 +1828,9 @@
     "english": "Let's not waste our money.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1670,7 +1840,12 @@
     "english": "You want me to get a better job, but I don't think I can.",
     "wordCount": 12,
     "categories": [
-      "work"
+      "work",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1680,7 +1855,9 @@
     "english": "You need money to make money.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1690,7 +1867,8 @@
     "english": "Smoking in the office is against our rules.",
     "wordCount": 10,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -1710,7 +1888,8 @@
     "english": "He is getting along well with his employees.",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1750,7 +1929,10 @@
     "english": "I think we should ask Tom why he left his last job.",
     "wordCount": 13,
     "categories": [
-      "work"
+      "work",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1760,7 +1942,9 @@
     "english": "Do we live to work? No, we work to live.",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -1771,7 +1955,8 @@
     "wordCount": 10,
     "categories": [
       "work",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -1782,7 +1967,8 @@
     "wordCount": 11,
     "categories": [
       "work",
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -1792,7 +1978,8 @@
     "english": "I didn't expect Tom to be at the meeting.",
     "wordCount": 8,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -1814,7 +2001,8 @@
     "english": "She thought of a good way to make money with the help of the internet.",
     "wordCount": 13,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1834,7 +2022,8 @@
     "english": "Does Tom enjoy his work?",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "questions_inquiries"
     ]
   },
   {
@@ -1854,7 +2043,8 @@
     "english": "Money doesn't excite me. It calms me.",
     "wordCount": 7,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -1864,7 +2054,9 @@
     "english": "Tom can't work.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1876,7 +2068,8 @@
     "categories": [
       "family",
       "work",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -1888,7 +2081,9 @@
     "categories": [
       "work",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1918,7 +2113,9 @@
     "english": "Modern man looks on money as a means to getting more money.",
     "wordCount": 13,
     "categories": [
-      "work"
+      "work",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -1940,7 +2137,8 @@
     "english": "He's very experienced.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1950,7 +2148,8 @@
     "english": "We have work to do.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1960,7 +2159,8 @@
     "english": "I'm here for a meeting.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -1970,7 +2170,8 @@
     "english": "Tom needs money.",
     "wordCount": 3,
     "categories": [
-      "work"
+      "work",
+      "conditional_statements"
     ]
   },
   {
@@ -1980,7 +2181,8 @@
     "english": "Who'll pay the rent?",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "questions_inquiries"
     ]
   },
   {
@@ -1991,7 +2193,9 @@
     "wordCount": 6,
     "categories": [
       "work",
-      "time"
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2002,7 +2206,8 @@
     "wordCount": 9,
     "categories": [
       "work",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -2022,7 +2227,9 @@
     "english": "I'd like to stay and chat, but I've got a meeting to go to.",
     "wordCount": 12,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2032,7 +2239,8 @@
     "english": "Our boss approved our plan.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2043,7 +2251,9 @@
     "wordCount": 8,
     "categories": [
       "work",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -2054,7 +2264,8 @@
     "wordCount": 11,
     "categories": [
       "travel",
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -2074,7 +2285,8 @@
     "english": "Tom is looking for work.",
     "wordCount": 4,
     "categories": [
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -2116,7 +2328,8 @@
     "english": "He gets a good salary.",
     "wordCount": 5,
     "categories": [
-      "work"
+      "work",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2126,7 +2339,8 @@
     "english": "I arrived very early to the office.",
     "wordCount": 6,
     "categories": [
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   }
 ]

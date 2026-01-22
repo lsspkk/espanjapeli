@@ -6,7 +6,8 @@
     "english": "Happy Christmas!",
     "wordCount": 2,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -50,7 +51,9 @@
     "english": "She lived a happy life.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -70,7 +73,9 @@
     "english": "I'm in love with her.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -80,7 +85,8 @@
     "english": "I'm afraid to fall.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -90,7 +96,9 @@
     "english": "Love is by nature blind.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -101,7 +109,10 @@
     "wordCount": 4,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -111,7 +122,9 @@
     "english": "I hate my neighbors.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -121,7 +134,8 @@
     "english": "He looked very happy.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -132,7 +146,9 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -142,7 +158,8 @@
     "english": "You're really hateful!",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -163,7 +180,8 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "emotions"
+      "emotions",
+      "questions_inquiries"
     ]
   },
   {
@@ -183,7 +201,8 @@
     "english": "I'm afraid of earthquakes.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -193,7 +212,9 @@
     "english": "She was afraid of the dog.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -215,7 +236,8 @@
     "english": "I hate Mondays.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -225,7 +247,9 @@
     "english": "Aren't you happy?",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -235,7 +259,10 @@
     "english": "Aren't you happy?",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -245,7 +272,9 @@
     "english": "She had a happy childhood.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -285,7 +314,9 @@
     "english": "Are you happy?",
     "wordCount": 2,
     "categories": [
-      "emotions"
+      "emotions",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -296,7 +327,8 @@
     "wordCount": 8,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -316,7 +348,10 @@
     "english": "I cannot help falling in love with you.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -327,7 +362,9 @@
     "wordCount": 6,
     "categories": [
       "emotions",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -338,7 +375,10 @@
     "wordCount": 12,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -348,7 +388,8 @@
     "english": "Are you happy?",
     "wordCount": 2,
     "categories": [
-      "emotions"
+      "emotions",
+      "questions_inquiries"
     ]
   },
   {
@@ -358,7 +399,9 @@
     "english": "The phone doesn't work, Mr. Tamori.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -368,7 +411,9 @@
     "english": "There is nothing for you to be angry about.",
     "wordCount": 10,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -379,7 +424,8 @@
     "wordCount": 6,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -401,7 +447,8 @@
     "english": "She is afraid of death.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -411,7 +458,8 @@
     "english": "I hate mosquitoes.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -431,7 +479,9 @@
     "english": "She trembled with fear.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -441,7 +491,10 @@
     "english": "I think he was angry.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -451,7 +504,8 @@
     "english": "She looks sad.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -461,7 +515,10 @@
     "english": "Love is stronger than death.",
     "wordCount": 8,
     "categories": [
-      "emotions"
+      "emotions",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -471,7 +528,9 @@
     "english": "I wonder if this is love.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -481,7 +540,10 @@
     "english": "I wonder if this is love.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -491,7 +553,10 @@
     "english": "Love and friendship are mutually exclusive.",
     "wordCount": 11,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -501,7 +566,9 @@
     "english": "Love sucks.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -511,7 +578,8 @@
     "english": "Love sucks.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -532,7 +600,9 @@
     "wordCount": 10,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "statements_of_fact"
     ]
   },
   {
@@ -542,7 +612,8 @@
     "english": "She had a happy childhood.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -552,7 +623,8 @@
     "english": "She had a happy childhood.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -563,7 +635,10 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -573,7 +648,9 @@
     "english": "She looks sad.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -583,7 +660,9 @@
     "english": "I hate getting up early.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -593,7 +672,8 @@
     "english": "We're scared.",
     "wordCount": 2,
     "categories": [
-      "emotions"
+      "emotions",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -604,7 +684,8 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -614,7 +695,8 @@
     "english": "Merry Christmas, my love!",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -624,7 +706,9 @@
     "english": "Merry Christmas, my love!",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -634,7 +718,8 @@
     "english": "Tom seems very happy.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -644,7 +729,8 @@
     "english": "Tom looks very happy.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -654,7 +740,8 @@
     "english": "I hate insects of all kinds.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -664,7 +751,10 @@
     "english": "You cannot live by love alone.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -674,7 +764,8 @@
     "english": "Frankly speaking, I hate him.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -684,7 +775,8 @@
     "english": "I am afraid of dogs.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -694,7 +786,9 @@
     "english": "I fell in love with her.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -704,7 +798,10 @@
     "english": "Love is not what you think.",
     "wordCount": 7,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -714,7 +811,8 @@
     "english": "I'm afraid of spiders.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -724,7 +822,9 @@
     "english": "She says that she is happy.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -735,7 +835,8 @@
     "wordCount": 11,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -745,7 +846,8 @@
     "english": "I like love stories.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -756,7 +858,8 @@
     "wordCount": 6,
     "categories": [
       "travel",
-      "emotions"
+      "emotions",
+      "statements_of_fact"
     ]
   },
   {
@@ -767,7 +870,9 @@
     "wordCount": 12,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -777,7 +882,9 @@
     "english": "If I lose your love, I lose everything.",
     "wordCount": 7,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -788,7 +895,10 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -798,7 +908,8 @@
     "english": "It wouldn't surprise me.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial"
     ]
   },
   {
@@ -808,7 +919,8 @@
     "english": "What a sad story this is!",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "questions_inquiries"
     ]
   },
   {
@@ -818,7 +930,8 @@
     "english": "Tom must be furious with Mary.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -839,7 +952,8 @@
     "wordCount": 13,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "negation_and_denial"
     ]
   },
   {
@@ -849,7 +963,8 @@
     "english": "Tom was really glad to hear that Mary had passed her exams.",
     "wordCount": 12,
     "categories": [
-      "emotions"
+      "emotions",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -859,7 +974,10 @@
     "english": "You aren't the only one who's in love with Mary.",
     "wordCount": 9,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -870,7 +988,8 @@
     "wordCount": 6,
     "categories": [
       "emotions",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment"
     ]
   },
   {
@@ -880,7 +999,8 @@
     "english": "I'm not happy.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial"
     ]
   },
   {
@@ -890,7 +1010,8 @@
     "english": "I'm not happy.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial"
     ]
   },
   {
@@ -900,7 +1021,8 @@
     "english": "I was sad, but Tom cheered me up.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial"
     ]
   },
   {
@@ -910,7 +1032,8 @@
     "english": "I want to make Tom happy.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -920,7 +1043,8 @@
     "english": "Are you happy here?",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "questions_inquiries"
     ]
   },
   {
@@ -930,7 +1054,9 @@
     "english": "Are you afraid of Tom?",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "questions_inquiries"
     ]
   },
   {
@@ -941,7 +1067,9 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -951,7 +1079,9 @@
     "english": "They're angry.",
     "wordCount": 2,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -961,7 +1091,8 @@
     "english": "Tom looks sad.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -971,7 +1102,8 @@
     "english": "Tom is afraid.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -981,7 +1113,8 @@
     "english": "Tom is furious.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "statements_of_fact"
     ]
   },
   {
@@ -991,7 +1124,9 @@
     "english": "Is Tom happy?",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1001,7 +1136,9 @@
     "english": "He fell in love with a beautiful princess.",
     "wordCount": 7,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1022,7 +1159,8 @@
     "english": "Tom is very sad.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "statements_of_fact"
     ]
   },
   {
@@ -1033,7 +1171,9 @@
     "wordCount": 6,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "opinions_and_beliefs",
+      "negation_and_denial"
     ]
   },
   {
@@ -1053,7 +1193,9 @@
     "english": "I want you to know we can stop worrying.",
     "wordCount": 8,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1064,7 +1206,8 @@
     "wordCount": 4,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1074,7 +1217,8 @@
     "english": "I am angry.",
     "wordCount": 2,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial"
     ]
   },
   {
@@ -1084,7 +1228,8 @@
     "english": "I hate that song.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1094,7 +1239,8 @@
     "english": "Tom was angry with Mary.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial"
     ]
   },
   {
@@ -1104,7 +1250,11 @@
     "english": "I want to live my life without stress and worries. I don't need to be rich or famous, I just want to be happy.",
     "wordCount": 18,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1114,7 +1264,11 @@
     "english": "When I tried to explain my reasons he simply became even angrier.",
     "wordCount": 11,
     "categories": [
-      "emotions"
+      "emotions",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1124,7 +1278,9 @@
     "english": "You don't scare me.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1134,7 +1290,11 @@
     "english": "I don't know what to say to make you feel better.",
     "wordCount": 8,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1144,7 +1304,9 @@
     "english": "Love is an important thing.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -1155,7 +1317,11 @@
     "wordCount": 26,
     "categories": [
       "greetings",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1165,7 +1331,8 @@
     "english": "I don't care as long as you're happy.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial"
     ]
   },
   {
@@ -1176,7 +1343,8 @@
     "wordCount": 8,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1188,7 +1356,9 @@
     "categories": [
       "food",
       "emotions",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1198,7 +1368,9 @@
     "english": "You look happier than usual.",
     "wordCount": 7,
     "categories": [
-      "emotions"
+      "emotions",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -1208,7 +1380,9 @@
     "english": "Tom looks happier than usual.",
     "wordCount": 8,
     "categories": [
-      "emotions"
+      "emotions",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -1218,7 +1392,8 @@
     "english": "Tom was madly in love with Mary.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1228,7 +1403,8 @@
     "english": "Tom appears to be a bit nervous.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -1238,7 +1414,9 @@
     "english": "I was never mad at you.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -1260,7 +1438,9 @@
     "english": "I know you're angry.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1271,7 +1451,9 @@
     "wordCount": 7,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1281,7 +1463,8 @@
     "english": "I listen to this song when I'm sad.",
     "wordCount": 7,
     "categories": [
-      "emotions"
+      "emotions",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1291,7 +1474,10 @@
     "english": "Tom wasn't even scared.",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1312,7 +1498,10 @@
     "wordCount": 15,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1323,7 +1512,10 @@
     "wordCount": 5,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1334,7 +1526,8 @@
     "wordCount": 9,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "negation_and_denial"
     ]
   },
   {
@@ -1345,7 +1538,9 @@
     "wordCount": 6,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -1356,7 +1551,11 @@
     "wordCount": 9,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1376,7 +1575,10 @@
     "english": "I think Tom might be mad at me.",
     "wordCount": 7,
     "categories": [
-      "emotions"
+      "emotions",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1386,7 +1588,8 @@
     "english": "I'm so happy you came.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial"
     ]
   },
   {
@@ -1450,7 +1653,8 @@
     "categories": [
       "family",
       "emotions",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1460,7 +1664,8 @@
     "english": "I hate dogs.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1470,7 +1675,8 @@
     "english": "I hate dogs.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1492,7 +1698,8 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1502,7 +1709,8 @@
     "english": "I hate to iron.",
     "wordCount": 2,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1512,7 +1720,8 @@
     "english": "I hate flying.",
     "wordCount": 2,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1522,7 +1731,8 @@
     "english": "I hate losing.",
     "wordCount": 2,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1533,7 +1743,8 @@
     "wordCount": 2,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1543,7 +1754,8 @@
     "english": "I hate mowing the lawn.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1574,7 +1786,9 @@
     "english": "Tom looks angry.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "opinions_and_beliefs",
+      "negation_and_denial"
     ]
   },
   {
@@ -1584,7 +1798,8 @@
     "english": "I'm angry with you.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "negation_and_denial"
     ]
   },
   {
@@ -1594,7 +1809,9 @@
     "english": "I'm in love with her.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1604,7 +1821,9 @@
     "english": "I love him.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1614,7 +1833,8 @@
     "english": "You're sad.",
     "wordCount": 2,
     "categories": [
-      "emotions"
+      "emotions",
+      "statements_of_fact"
     ]
   },
   {
@@ -1624,7 +1844,8 @@
     "english": "Tom is afraid of spiders.",
     "wordCount": 7,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1634,7 +1855,9 @@
     "english": "Have you ever been happy?",
     "wordCount": 5,
     "categories": [
-      "emotions"
+      "emotions",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -1644,7 +1867,8 @@
     "english": "Tom's sad.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "statements_of_fact"
     ]
   },
   {
@@ -1655,7 +1879,9 @@
     "wordCount": 10,
     "categories": [
       "leisure",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1665,7 +1891,8 @@
     "english": "I hate hypocrites.",
     "wordCount": 4,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1675,7 +1902,8 @@
     "english": "Make me happy.",
     "wordCount": 2,
     "categories": [
-      "emotions"
+      "emotions",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1685,7 +1913,12 @@
     "english": "I want to know what love is.",
     "wordCount": 6,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1717,7 +1950,8 @@
     "english": "Merry Christmas, Tatoeba!",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1727,7 +1961,9 @@
     "english": "He is happy.",
     "wordCount": 3,
     "categories": [
-      "emotions"
+      "emotions",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   }
 ]

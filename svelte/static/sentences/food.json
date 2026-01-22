@@ -7,7 +7,8 @@
     "wordCount": 7,
     "categories": [
       "greetings",
-      "food"
+      "food",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -27,7 +28,8 @@
     "english": "When are we eating? I'm hungry!",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -49,7 +51,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -59,7 +62,8 @@
     "english": "Milk is made into butter and cheese.",
     "wordCount": 9,
     "categories": [
-      "food"
+      "food",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -69,7 +73,9 @@
     "english": "Smoking is not good for the health.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -79,7 +85,9 @@
     "english": "Gold is far heavier than water.",
     "wordCount": 9,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "statements_of_fact"
     ]
   },
   {
@@ -103,7 +111,8 @@
     "categories": [
       "food",
       "family",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -113,7 +122,9 @@
     "english": "Beer bottles are made of glass.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -123,7 +134,8 @@
     "english": "I got up at seven.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements"
     ]
   },
   {
@@ -133,7 +145,8 @@
     "english": "Oil and water won't blend with each other.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -143,7 +156,9 @@
     "english": "We buy eggs by the dozen.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -153,7 +168,8 @@
     "english": "She was washing the dishes.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -163,7 +179,8 @@
     "english": "I want something sweet.",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -173,7 +190,11 @@
     "english": "You may eat anything so long as you don't eat too much.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -183,7 +204,8 @@
     "english": "Can I eat this?",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -194,7 +216,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -214,7 +237,10 @@
     "english": "Nothing is more valuable than health.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -225,7 +251,8 @@
     "wordCount": 5,
     "categories": [
       "greetings",
-      "food"
+      "food",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -248,7 +275,9 @@
     "english": "This diamond is not real.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -258,7 +287,8 @@
     "english": "I drink water because I am thirsty.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment"
     ]
   },
   {
@@ -270,7 +300,8 @@
     "categories": [
       "food",
       "family",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -280,7 +311,8 @@
     "english": "Water is a liquid.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -293,7 +325,8 @@
       "greetings",
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -304,7 +337,8 @@
     "wordCount": 3,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -314,7 +348,9 @@
     "english": "Where's the toothpaste?",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -344,7 +380,8 @@
     "english": "This knife is very sharp.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -366,7 +403,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -377,7 +415,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -390,7 +429,8 @@
       "food",
       "travel",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -410,7 +450,8 @@
     "english": "You want to drink tea or coffee?",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -420,7 +461,8 @@
     "english": "He lost his umbrella again.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -430,7 +472,8 @@
     "english": "I can't drink coffee as sweet as this.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -465,7 +508,9 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -476,7 +521,8 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -486,7 +532,8 @@
     "english": "Wash your hands before meals.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -496,7 +543,8 @@
     "english": "Have you fed the dog yet?",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -508,7 +556,8 @@
     "categories": [
       "food",
       "travel",
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -531,7 +580,8 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "emotions"
+      "emotions",
+      "questions_inquiries"
     ]
   },
   {
@@ -541,7 +591,8 @@
     "english": "Do you have some milk?",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -553,7 +604,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -594,7 +646,8 @@
     "english": "Give me the spoon.",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -607,7 +660,8 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -618,7 +672,10 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -648,7 +705,9 @@
     "english": "What's your favorite food?",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -658,7 +717,8 @@
     "english": "Can I drink alcohol?",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -680,7 +740,8 @@
     "english": "I want to drink a cup of tea.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -690,7 +751,8 @@
     "english": "Cats don't like water.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -700,7 +762,8 @@
     "english": "Don't feed the animals.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -710,7 +773,9 @@
     "english": "The knife is not sharp.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -720,7 +785,8 @@
     "english": "You drink too much coffee.",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements"
     ]
   },
   {
@@ -740,7 +806,8 @@
     "english": "My knife is broken.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -750,7 +817,10 @@
     "english": "We'd like another bottle of wine.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -760,7 +830,8 @@
     "english": "There wasn't anyone in the room.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -780,7 +851,8 @@
     "english": "What would you like for dessert?",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -792,7 +864,8 @@
     "categories": [
       "food",
       "family",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -802,7 +875,8 @@
     "english": "Thousands of people died of hunger.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -823,7 +897,11 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -833,7 +911,9 @@
     "english": "Where is the exit?",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -843,7 +923,8 @@
     "english": "Dinner is ready to eat.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -865,7 +946,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -876,7 +958,9 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -886,7 +970,8 @@
     "english": "Do you like Japanese food?",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -897,7 +982,9 @@
     "wordCount": 4,
     "categories": [
       "greetings",
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -907,7 +994,9 @@
     "english": "Smoking is terrible for your health.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -937,7 +1026,8 @@
     "english": "She doesn't eat raw fish.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -957,7 +1047,8 @@
     "english": "The meat is frozen.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -1008,7 +1099,8 @@
     "english": "Do you like fish?",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -1018,7 +1110,9 @@
     "english": "It is abnormal to eat so much.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -1039,7 +1133,10 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "travel"
+      "travel",
+      "reasoning_assessment",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1049,7 +1146,8 @@
     "english": "I can't afford eating in such an expensive restaurant.",
     "wordCount": 10,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -1060,7 +1158,10 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1071,7 +1172,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -1083,7 +1185,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -1094,7 +1198,9 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "opinions_and_beliefs",
+      "statements_of_fact"
     ]
   },
   {
@@ -1104,7 +1210,8 @@
     "english": "There's milk in the fridge.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -1114,7 +1221,8 @@
     "english": "Do you have rice?",
     "wordCount": 2,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -1124,7 +1232,8 @@
     "english": "I can't stand this pain.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -1134,7 +1243,8 @@
     "english": "I can't stand him.",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -1144,7 +1254,8 @@
     "english": "I can't stand this noise.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -1154,7 +1265,8 @@
     "english": "I cannot stand this heat.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -1185,7 +1297,8 @@
     "english": "We enjoyed swimming in the lake.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -1228,7 +1341,11 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1239,7 +1356,8 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -1249,7 +1367,9 @@
     "english": "They stole my wine bottle!",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1259,7 +1379,8 @@
     "english": "This food is too salty.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -1269,7 +1390,10 @@
     "english": "I want another knife. One that's good for cutting roast.",
     "wordCount": 10,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1279,7 +1403,10 @@
     "english": "Sickness often results from eating too much.",
     "wordCount": 10,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -1292,7 +1419,8 @@
       "food",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1304,7 +1432,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1327,7 +1456,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -1340,7 +1470,8 @@
       "food",
       "work",
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1350,7 +1481,8 @@
     "english": "Tom doesn't drink coffee.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -1360,7 +1492,8 @@
     "english": "Do you drink coffee?",
     "wordCount": 2,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -1370,7 +1503,8 @@
     "english": "Would you give me something cold to drink?",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -1380,7 +1514,9 @@
     "english": "I am hungry because I did not eat lunch.",
     "wordCount": 9,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1401,7 +1537,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1413,7 +1550,8 @@
     "categories": [
       "food",
       "family",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -1423,7 +1561,9 @@
     "english": "Are you not hungry?",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -1433,7 +1573,8 @@
     "english": "The heavy rain prevented me from going out.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -1443,7 +1584,9 @@
     "english": "Do you eat meat or are you a vegetarian?",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -1454,7 +1597,9 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -1464,7 +1609,9 @@
     "english": "Is eating whale meat wrong?",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1474,7 +1621,8 @@
     "english": "Americans eat a lot of meat.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -1494,7 +1642,9 @@
     "english": "Be quiet while I'm speaking.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1504,7 +1654,8 @@
     "english": "Millions of wild animals live in Alaska.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -1525,7 +1676,8 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1545,7 +1697,8 @@
     "english": "Stay calm.",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1575,7 +1728,8 @@
     "english": "Do you eat meat?",
     "wordCount": 2,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -1586,7 +1740,8 @@
     "wordCount": 4,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -1606,7 +1761,9 @@
     "english": "Is this diamond real?",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1639,7 +1796,8 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -1660,7 +1818,9 @@
     "wordCount": 13,
     "categories": [
       "food",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1672,7 +1832,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1692,7 +1853,9 @@
     "english": "I cannot stand his comments.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1712,7 +1875,9 @@
     "english": "Breakfast is ready.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1733,7 +1898,8 @@
     "english": "I'm starting to get hungry.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -1745,7 +1911,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1765,7 +1932,9 @@
     "english": "Water is composed of oxygen and hydrogen.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1775,7 +1944,9 @@
     "english": "I'd like to have a glass of wine.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1785,7 +1956,9 @@
     "english": "I wrote down his name so I wouldn't forget it.",
     "wordCount": 9,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1796,7 +1969,8 @@
     "wordCount": 12,
     "categories": [
       "food",
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -1806,7 +1980,9 @@
     "english": "He took a walk before breakfast.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1816,7 +1992,10 @@
     "english": "I used to think that it didn't really matter what I fed my dog.",
     "wordCount": 14,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1837,7 +2016,8 @@
     "english": "Tom has been trying to learn how to brew the perfect cup of coffee.",
     "wordCount": 13,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -1848,7 +2028,9 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1869,7 +2051,9 @@
     "english": "Alcohol does not solve any problems, but neither does milk.",
     "wordCount": 12,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -1889,7 +2073,8 @@
     "english": "Tom doesn't eat meat.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -1901,7 +2086,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1911,7 +2097,8 @@
     "english": "She cooked a special dinner for him.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1922,7 +2109,8 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -1944,7 +2132,9 @@
     "wordCount": 3,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1954,7 +2144,8 @@
     "english": "Too many sweets make you fat.",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements"
     ]
   },
   {
@@ -1964,7 +2155,8 @@
     "english": "Tom came just before dinner.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -1974,7 +2166,8 @@
     "english": "This tea is very hot.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -1984,7 +2177,8 @@
     "english": "The committee decided to call off the strike.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1994,7 +2188,8 @@
     "english": "Tom doesn't feel like eating.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -2005,7 +2200,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2015,7 +2211,9 @@
     "english": "Tom doesn't care who Mary goes out with.",
     "wordCount": 9,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2025,7 +2223,8 @@
     "english": "He shouted, \"Get out!\"",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2035,7 +2234,8 @@
     "english": "He shouted, \"Get out!\"",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2045,7 +2245,8 @@
     "english": "He shouted, \"Get out!\"",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2055,7 +2256,9 @@
     "english": "No one else was injured.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -2067,7 +2270,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2090,7 +2295,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2100,7 +2306,8 @@
     "english": "I cleared the roof of snow.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -2122,7 +2329,9 @@
     "wordCount": 10,
     "categories": [
       "food",
-      "time"
+      "time",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -2134,7 +2343,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2144,7 +2354,8 @@
     "english": "There was a little water left in the bottom of the bottle.",
     "wordCount": 10,
     "categories": [
-      "food"
+      "food",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2174,7 +2385,8 @@
     "english": "This water is good to drink.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -2184,7 +2396,8 @@
     "english": "Cats like fish more than they like meat.",
     "wordCount": 11,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -2194,7 +2407,8 @@
     "english": "The dog is brown, small and thin.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -2204,7 +2418,9 @@
     "english": "This coffee is not hot enough.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2214,7 +2430,9 @@
     "english": "He saved the situation.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2224,7 +2442,8 @@
     "english": "What do you want for lunch?",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -2255,7 +2474,8 @@
     "wordCount": 11,
     "categories": [
       "food",
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -2317,7 +2537,8 @@
     "english": "She gave milk to the cat.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2338,7 +2559,8 @@
     "english": "Can we save the planet?",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -2349,7 +2571,9 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "family"
+      "family",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2359,7 +2583,9 @@
     "english": "I don't want to eat anything.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2369,7 +2595,8 @@
     "english": "I often eat chicken.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -2380,7 +2607,8 @@
     "wordCount": 4,
     "categories": [
       "food",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -2390,7 +2618,8 @@
     "english": "I believe it is a genuine Picasso.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -2411,7 +2640,10 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2422,7 +2654,8 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -2432,7 +2665,8 @@
     "english": "Wild animals live in the forest.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -2442,7 +2676,9 @@
     "english": "Maybe a few of you have seen pandas in the zoo.",
     "wordCount": 11,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -2452,7 +2688,9 @@
     "english": "Excuse me, could you pass me the salt and pepper?",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "questions_inquiries"
     ]
   },
   {
@@ -2462,7 +2700,8 @@
     "english": "The water's cold.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -2473,7 +2712,10 @@
     "wordCount": 12,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -2503,7 +2745,8 @@
     "english": "I showered before breakfast.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -2514,7 +2757,8 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -2535,7 +2779,8 @@
     "english": "This coffee is cold.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -2555,7 +2800,8 @@
     "english": "Don't jump!",
     "wordCount": 2,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -2565,7 +2811,9 @@
     "english": "We need more sugar.",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "conditional_statements"
     ]
   },
   {
@@ -2595,7 +2843,8 @@
     "english": "Do you want something to drink?",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -2605,7 +2854,8 @@
     "english": "Do we have enough food?",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -2615,7 +2865,9 @@
     "english": "Aren't you hungry?",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2625,7 +2877,9 @@
     "english": "Why are you drinking water?",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2635,7 +2889,8 @@
     "english": "We put sugar in our tea.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2646,7 +2901,8 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -2668,7 +2924,8 @@
     "english": "I can't drink milk.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -2689,7 +2946,9 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -2699,7 +2958,8 @@
     "english": "It's as clear as day.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -2721,7 +2981,9 @@
     "categories": [
       "food",
       "travel",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2732,7 +2994,9 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2743,7 +3007,8 @@
     "wordCount": 4,
     "categories": [
       "food",
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2753,7 +3018,8 @@
     "english": "The milk is in the fridge.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -2763,7 +3029,8 @@
     "english": "There is some milk in the fridge.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -2786,7 +3053,8 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2799,7 +3067,8 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2809,7 +3078,8 @@
     "english": "We can't drink milk.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -2819,7 +3089,8 @@
     "english": "Tom is dating Mary.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -2829,7 +3100,9 @@
     "english": "I opened a bottle of red wine.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2852,7 +3125,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2874,7 +3148,8 @@
     "categories": [
       "food",
       "work",
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -2884,7 +3159,8 @@
     "english": "Fish swim in the water.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -2894,7 +3170,8 @@
     "english": "May I have a cup of tea?",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -2904,7 +3181,8 @@
     "english": "I want to eat apple pie.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2926,7 +3204,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2938,7 +3217,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2959,7 +3239,9 @@
     "wordCount": 12,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2970,7 +3252,8 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -2993,7 +3276,11 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3004,7 +3291,9 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "work"
+      "work",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -3015,7 +3304,10 @@
     "wordCount": 9,
     "categories": [
       "greetings",
-      "food"
+      "food",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3025,7 +3317,9 @@
     "english": "I want a bottle of Coca-Cola.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3046,7 +3340,10 @@
     "wordCount": 23,
     "categories": [
       "food",
-      "work"
+      "work",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3057,7 +3354,8 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3077,7 +3375,9 @@
     "english": "The young man whom I employed as my assistant works very hard.",
     "wordCount": 11,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "conditional_statements"
     ]
   },
   {
@@ -3087,7 +3387,9 @@
     "english": "I couldn't go out because of the rain.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -3097,7 +3399,8 @@
     "english": "Natto smells awful but tastes delicious.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment"
     ]
   },
   {
@@ -3107,7 +3410,9 @@
     "english": "Bananas are delicious.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3117,7 +3422,8 @@
     "english": "I'm not going to eat that.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -3128,7 +3434,9 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3138,7 +3446,8 @@
     "english": "This food is enough for three people.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -3148,7 +3457,8 @@
     "english": "How many spoons are missing?",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -3159,7 +3469,10 @@
     "wordCount": 10,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3169,7 +3482,9 @@
     "english": "Which food do you think tastes best?",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "questions_inquiries"
     ]
   },
   {
@@ -3180,7 +3495,8 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -3191,7 +3507,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3211,7 +3528,10 @@
     "english": "I think food is expensive in Japan.",
     "wordCount": 9,
     "categories": [
-      "food"
+      "food",
+      "opinions_and_beliefs",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3221,7 +3541,9 @@
     "english": "Tom ate sushi at an expensive restaurant just around the corner.",
     "wordCount": 16,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3233,7 +3555,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3245,7 +3568,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3257,7 +3581,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -3267,7 +3592,9 @@
     "english": "I think the soup needs a bit of salt.",
     "wordCount": 12,
     "categories": [
-      "food"
+      "food",
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3277,7 +3604,8 @@
     "english": "Salt was a rare and costly commodity in ancient times.",
     "wordCount": 9,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3287,7 +3615,9 @@
     "english": "I just asked because I thought you would know.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3297,7 +3627,8 @@
     "english": "We have a long and cold winter, but we know how to enjoy it.",
     "wordCount": 9,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -3307,7 +3638,8 @@
     "english": "Japan has much trade with the USA.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -3337,7 +3669,10 @@
     "english": "Don't change sentences that are correct. You can, instead, submit natural-sounding alternative translations.",
     "wordCount": 17,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3349,7 +3684,9 @@
     "categories": [
       "food",
       "emotions",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -3382,7 +3719,10 @@
       "food",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3393,7 +3733,9 @@
     "wordCount": 10,
     "categories": [
       "food",
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "statements_of_fact"
     ]
   },
   {
@@ -3404,7 +3746,8 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3424,7 +3767,11 @@
     "english": "Why don't you and Tom get something to eat?",
     "wordCount": 11,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3445,7 +3792,10 @@
     "wordCount": 10,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -3455,7 +3805,9 @@
     "english": "This is my umbrella, not Tom's.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3465,7 +3817,9 @@
     "english": "When I give food to the poor, they call me a saint. When I ask why the poor have no food, they call me a communist.",
     "wordCount": 23,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -3475,7 +3829,10 @@
     "english": "What impresses me the most about China is Chinese food.",
     "wordCount": 11,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -3515,7 +3872,8 @@
     "english": "That's why I asked.",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment"
     ]
   },
   {
@@ -3527,7 +3885,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3537,7 +3897,9 @@
     "english": "It's possible that the victim is wounded in the head.",
     "wordCount": 10,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -3547,7 +3909,11 @@
     "english": "This is certainly the most delicious juice I have ever drunk in my life.",
     "wordCount": 14,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3567,7 +3933,8 @@
     "english": "Don't drop that cup.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -3588,7 +3955,8 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -3599,7 +3967,8 @@
     "wordCount": 10,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -3609,7 +3978,9 @@
     "english": "I don't think you're crazy.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "opinions_and_beliefs",
+      "negation_and_denial"
     ]
   },
   {
@@ -3620,7 +3991,8 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -3630,7 +4002,8 @@
     "english": "The committee will meet next Friday.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -3641,7 +4014,9 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "family"
+      "family",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -3651,7 +4026,8 @@
     "english": "Hunger knows no law.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -3671,7 +4047,8 @@
     "english": "What happened to the rest of the food?",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -3681,7 +4058,9 @@
     "english": "I don't think he's faking.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "opinions_and_beliefs",
+      "negation_and_denial"
     ]
   },
   {
@@ -3702,7 +4081,9 @@
     "english": "Tom said he'd like to have another cup of coffee.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3724,7 +4105,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -3756,7 +4139,8 @@
     "english": "The restaurant was almost empty.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements"
     ]
   },
   {
@@ -3767,7 +4151,8 @@
     "wordCount": 13,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "reasoning_assessment"
     ]
   },
   {
@@ -3777,7 +4162,9 @@
     "english": "It was so hot that she felt like eating ice cream.",
     "wordCount": 10,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3787,7 +4174,9 @@
     "english": "When does the next bus to Helsinki leave?",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -3797,7 +4186,8 @@
     "english": "Are we safe here?",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -3808,7 +4198,8 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -3818,7 +4209,8 @@
     "english": "The water is rising.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -3828,7 +4220,8 @@
     "english": "Do you have some fish? \"Yes, I do.\"",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -3838,7 +4231,8 @@
     "english": "How can I connect my iPod to a car stereo?",
     "wordCount": 10,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -3858,7 +4252,10 @@
     "english": "I don't think we can really say that one is right and the other is wrong.",
     "wordCount": 16,
     "categories": [
-      "food"
+      "food",
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3889,7 +4286,10 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -3909,7 +4309,9 @@
     "english": "I want to go out with him.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3929,7 +4331,9 @@
     "english": "Breakfast is served at seven a.m.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -3939,7 +4343,9 @@
     "english": "Do as I say, and no one will get hurt.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3949,7 +4355,8 @@
     "english": "I'm hungry like a wolf.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3980,7 +4387,8 @@
     "english": "Do you want some coffee or something?",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -3990,7 +4398,9 @@
     "english": "Hunger can make people do stupid things.",
     "wordCount": 10,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4000,7 +4410,8 @@
     "english": "I ate a salad for dinner.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -4010,7 +4421,8 @@
     "english": "Does Tom often go drinking with Mary?",
     "wordCount": 9,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -4020,7 +4432,8 @@
     "english": "Return it when you are done.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4030,7 +4443,10 @@
     "english": "He cannot be hungry; he has just had lunch.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4040,7 +4456,8 @@
     "english": "I asked Tom where he had gone.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -4052,7 +4469,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4062,7 +4481,9 @@
     "english": "Keep your hands out of your pockets.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -4082,7 +4503,8 @@
     "english": "The two Frenchmen speak French and eat French bread.",
     "wordCount": 10,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -4092,7 +4514,8 @@
     "english": "Tom handed Mary a glass of red wine.",
     "wordCount": 10,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -4104,7 +4527,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -4125,7 +4549,8 @@
     "english": "Do you drink tea?",
     "wordCount": 2,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -4136,7 +4561,8 @@
     "wordCount": 2,
     "categories": [
       "food",
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -4177,7 +4603,10 @@
     "english": "You can't make good soup with cheap meat.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4190,7 +4619,8 @@
       "food",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4201,7 +4631,8 @@
     "wordCount": 3,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4211,7 +4642,8 @@
     "english": "I'm a vegetarian who eats a ton of meat.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -4231,7 +4663,9 @@
     "english": "Tea is a popular beverage throughout the world.",
     "wordCount": 10,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -4242,7 +4676,9 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -4252,7 +4688,9 @@
     "english": "Tom thinks he can save the world.",
     "wordCount": 8,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4282,7 +4720,9 @@
     "english": "What can go wrong?",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment",
+      "questions_inquiries"
     ]
   },
   {
@@ -4292,7 +4732,8 @@
     "english": "Our plan went wrong from the beginning.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4303,7 +4744,9 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -4313,7 +4756,8 @@
     "english": "Tom might be there.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment"
     ]
   },
   {
@@ -4323,7 +4767,8 @@
     "english": "I want a knife.",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4357,7 +4802,8 @@
     "english": "Do you like Indian food?",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries"
     ]
   },
   {
@@ -4368,7 +4814,8 @@
     "wordCount": 4,
     "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -4378,7 +4825,9 @@
     "english": "I didn't sing.",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4398,7 +4847,8 @@
     "english": "The knife is dull.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -4428,7 +4878,9 @@
     "english": "The knife is dull.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4438,7 +4890,8 @@
     "english": "I didn't kill anyone.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -4458,7 +4911,9 @@
     "english": "Why are you drinking water?",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -4478,7 +4933,8 @@
     "english": "I want to eat ice cream.",
     "wordCount": 3,
     "categories": [
-      "food"
+      "food",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4508,7 +4964,8 @@
     "english": "I visited Boston.",
     "wordCount": 2,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements"
     ]
   },
   {
@@ -4518,7 +4975,8 @@
     "english": "Tom is blaming Mary.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -4528,7 +4986,9 @@
     "english": "Keep your eyes on Tom. Make sure he doesn't do anything to bother other people.",
     "wordCount": 15,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4538,7 +4998,9 @@
     "english": "More tea?",
     "wordCount": 2,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "questions_inquiries"
     ]
   },
   {
@@ -4559,7 +5021,8 @@
     "english": "The cat is brown.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -4580,7 +5043,9 @@
     "wordCount": 12,
     "categories": [
       "food",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4591,7 +5056,8 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4603,7 +5069,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4615,7 +5083,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -4658,7 +5128,8 @@
     "english": "Enjoy your life.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "reasoning_assessment"
     ]
   },
   {
@@ -4668,7 +5139,9 @@
     "english": "Smoking isn't allowed in this restaurant.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4678,7 +5151,8 @@
     "english": "Smoking isn't allowed in this restaurant.",
     "wordCount": 7,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -4709,7 +5183,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4719,7 +5194,8 @@
     "english": "I like tomato soup.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4729,7 +5205,8 @@
     "english": "I eat a lot of rice.",
     "wordCount": 5,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -4739,7 +5216,8 @@
     "english": "I hope I'm not boring you.",
     "wordCount": 6,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {
@@ -4749,7 +5227,8 @@
     "english": "Cut down on fatty foods.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "conditional_statements"
     ]
   },
   {
@@ -4771,7 +5250,10 @@
     "english": "This would taste better if you added a little more salt.",
     "wordCount": 10,
     "categories": [
-      "food"
+      "food",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -4813,7 +5295,8 @@
     "english": "Tom's safe.",
     "wordCount": 4,
     "categories": [
-      "food"
+      "food",
+      "statements_of_fact"
     ]
   },
   {
@@ -4833,7 +5316,8 @@
     "english": "Don't jump!",
     "wordCount": 2,
     "categories": [
-      "food"
+      "food",
+      "negation_and_denial"
     ]
   },
   {

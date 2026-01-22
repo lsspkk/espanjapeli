@@ -104,6 +104,7 @@ vi.mock('$lib/services/sentenceLoader', () => {
 		}
 	];
 
+	const mockFn = vi.fn().mockResolvedValue(mockSentences);
 	return {
 		loadSentenceIndex: vi.fn().mockResolvedValue({
 			themes: [
@@ -111,7 +112,9 @@ vi.mock('$lib/services/sentenceLoader', () => {
 				{ id: 'food', name: 'food', count: 8, filename: 'food.json' }
 			]
 		}),
-		getSentencesByTheme: vi.fn().mockResolvedValue(mockSentences),
+		getSentencesByTheme: mockFn,
+		getSentencesByCategory: mockFn,
+		getSentencesByLevel: mockFn,
 		type: {} as any
 	};
 });
