@@ -15,7 +15,8 @@
 		GraduationCap,
 		TrendingUp,
 		Target,
-		BookOpen
+		BookOpen,
+		Info
 	} from 'lucide-svelte';
 	import VocabularyWordListDialog from '$lib/components/shared/VocabularyWordListDialog.svelte';
 	import { getAllWords, type Word } from '$lib/data/words';
@@ -150,12 +151,32 @@
 			<!-- Summary Card -->
 			<div class="card mb-6 bg-base-100 shadow-xl">
 				<div class="card-body">
-					<h2 class="card-title">
-						<BarChart3 class="h-6 w-6" />
-						Yhteenveto
-					</h2>
+					<div class="flex items-center justify-between">
+						<h2 class="card-title">
+							<BarChart3 class="h-6 w-6" />
+							Yhteenveto
+						</h2>
+						<div class="dropdown dropdown-end">
+							<button tabindex="0" class="btn btn-circle btn-ghost btn-sm text-secondary">
+								<Info class="h-5 w-5" />
+							</button>
+							<!-- svelte-ignore a11y_no_noninteractive_tabindex -->
+						<div tabindex="0" class="dropdown-content z-10 card card-compact w-72 p-2 shadow bg-base-200 text-base-content">
+								<div class="card-body">
+									<h3 class="font-bold text-sm">Miten pisteet lasketaan?</h3>
+									<ul class="text-xs space-y-1 mt-1">
+										<li><strong>Harjoiteltu:</strong> Sana on vastattu vähintään kerran</li>
+										<li><strong>Osattu (≥60%):</strong> Sana on vastattu oikein useita kertoja</li>
+										<li><strong>Hallittu (≥80%):</strong> Sana osataan erittäin hyvin</li>
+										<li><strong>Heikko (&lt;40%):</strong> Sana tarvitsee lisäharjoittelua</li>
+									</ul>
+									<p class="text-xs mt-2 text-base-content/70">Pisteet kasvavat hitaasti: yksi oikea vastaus antaa ~30 pistettä. Tarvitset 3+ oikeaa vastausta saavuttaaksesi "osattu" tason.</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
-					<div class="divider"></div>
+					<div class="divider mt-0"></div>
 
 					<div class="grid grid-cols-2 gap-4 text-center">
 						<button 
