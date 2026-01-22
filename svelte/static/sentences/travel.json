@@ -1,0 +1,3149 @@
+[
+  {
+    "id": "2496",
+    "spanish": "¿Es una foto reciente?",
+    "finnish": "Onko se tuore kuva?",
+    "english": "Is it a recent picture?",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2679",
+    "spanish": "No tengo a nadie que viaje conmigo.",
+    "finnish": "Minulla ei ole ketään, joka matkustaisi kanssani.",
+    "english": "I don't have anyone who'd travel with me.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2805",
+    "spanish": "París es la ciudad más bonita del mundo.",
+    "finnish": "Pariisi on maailman kaunein kaupunki.",
+    "english": "Paris is the most beautiful city in the world.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2833",
+    "spanish": "Italia es un país muy bonito.",
+    "finnish": "Italia on hyvin kaunis maa.",
+    "english": "Italy is a very beautiful country.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3090",
+    "spanish": "Florencia es la ciudad más bonita de Italia.",
+    "finnish": "Firenze on Italian kaunein kaupunki.",
+    "english": "Florence is the most beautiful city in Italy.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "330123",
+    "spanish": "Montaron en el avión.",
+    "finnish": "He nousivat lentokoneeseen.",
+    "english": "They went aboard the plane.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "330675",
+    "spanish": "En países como Noruega o Finlandia, la nieve es abundante en invierno.",
+    "finnish": "Norjan ja Suomen kaltaisissa maissa on talvisin paljon lunta.",
+    "english": "In such countries as Norway and Finland, they have lots of snow in winter.",
+    "wordCount": 12,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "331342",
+    "spanish": "La biblioteca está al medio de la ciudad.",
+    "finnish": "Kirjasto on keskellä kaupunkia.",
+    "english": "The library is in the middle of the city.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "337111",
+    "spanish": "El inglés es hablado en diversos países alrededor del mundo.",
+    "finnish": "Englantia puhutaan monissa maissa ympäri maailmaa.",
+    "english": "English is spoken in many countries around the world.",
+    "wordCount": 10,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "339237",
+    "spanish": "¡Buen viaje!",
+    "finnish": "Hyvää matkaa!",
+    "english": "Bon voyage!",
+    "wordCount": 2,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "359755",
+    "spanish": "París es una de las ciudades más grandes del mundo.",
+    "finnish": "Pariisi on yksi maailman suurimmista kaupungeista.",
+    "english": "Paris is one of the biggest cities in the world.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "360217",
+    "spanish": "Japón es un bello país.",
+    "finnish": "Japani on kaunis maa.",
+    "english": "Japan is a beautiful country.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "435031",
+    "spanish": "Él lava el coche.",
+    "finnish": "Hän pesee auton.",
+    "english": "He washes the car.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "436226",
+    "spanish": "¿Cuánto cuesta el boleto?",
+    "finnish": "Paljonko lippu maksaa?",
+    "english": "How much is the ticket?",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "445711",
+    "spanish": "Un piano es caro, pero un coche lo es todavía más.",
+    "finnish": "Piano on kallis, mutta auto on kalliimpi.",
+    "english": "A piano is expensive, but a car is more expensive.",
+    "wordCount": 11,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "455824",
+    "spanish": "Quisiera comprar un mapa.",
+    "finnish": "Haluaisin ostaa kartan.",
+    "english": "I'd like to buy a map.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "456302",
+    "spanish": "Vamos a la playa.",
+    "finnish": "Mennään rannalle!",
+    "english": "Let's go to the beach.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "459188",
+    "spanish": "Los estudiantes están de vacaciones.",
+    "finnish": "Opiskelijat ovat lomalla.",
+    "english": "The students are on holiday.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "459195",
+    "spanish": "¿Adónde va este tren?",
+    "finnish": "Minne tämä juna menee?",
+    "english": "Where is this train bound?",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "480344",
+    "spanish": "Nuestros ancestros llegaron a este país hace 150 años.",
+    "finnish": "Esivanhempamme saapuivat tähän maahan 150 vuotta sitten.",
+    "english": "Our ancestors came to this country 150 years ago.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "483370",
+    "spanish": "Te llamaré tan pronto llegue al aeropuerto.",
+    "finnish": "Soitan sinulle heti kun olen lentokentällä.",
+    "english": "I'll phone you as soon as I get to the airport.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "488875",
+    "spanish": "Japón es un bonito país.",
+    "finnish": "Japani on kaunis maa.",
+    "english": "Japan is a beautiful country.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "490919",
+    "spanish": "Esta mesa está reservada.",
+    "finnish": "Tämä pöytä on varattu.",
+    "english": "This table is reserved.",
+    "wordCount": 4,
+    "themes": [
+      "food",
+      "travel"
+    ]
+  },
+  {
+    "id": "490967",
+    "spanish": "Roma es una ciudad que vale la pena visitar.",
+    "finnish": "Rooma on kyllä kaupunki, jossa kannattaa käydä.",
+    "english": "Rome is a city worth visiting.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "491496",
+    "spanish": "¿Qué lengua se habla en tu país?",
+    "finnish": "Mitä kieltä sinun maassasi puhutaan?",
+    "english": "What language do they speak in your country?",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "493526",
+    "spanish": "¿De quién es esta maleta?",
+    "finnish": "Kenen tämä matkalaukku on?",
+    "english": "Who does this suitcase belong to?",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "496814",
+    "spanish": "Soy un ciudadano romano.",
+    "finnish": "Olen Rooman kansalainen.",
+    "english": "I am a Roman citizen.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "497578",
+    "spanish": "¿Puedo sacar una foto?",
+    "finnish": "Voinko ottaa kuvan?",
+    "english": "May I take a photo?",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "499734",
+    "spanish": "Ellos viven en esta ciudad.",
+    "finnish": "He asuvat tässä kaupungissa.",
+    "english": "They live in this town.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "503625",
+    "spanish": "Mi pasatiempo es tomar fotografías.",
+    "finnish": "Harrastan valokuvaamista.",
+    "english": "My hobby is taking pictures.",
+    "wordCount": 5,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "504500",
+    "spanish": "Hice un avión de papel.",
+    "finnish": "Tein paperilennokin.",
+    "english": "I made a paper plane.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "508606",
+    "spanish": "¿A qué hora sale el último tren?",
+    "finnish": "Monelta viimeinen juna menee?",
+    "english": "When does the last train leave?",
+    "wordCount": 7,
+    "themes": [
+      "food",
+      "travel"
+    ]
+  },
+  {
+    "id": "511395",
+    "spanish": "En su país natal, Francia, Tatoeba se convirtió en un fenómeno social y cultural.",
+    "finnish": "Kotimaassaan, Ranskassa, Tatoebasta tuli sosiaalinen ja kulttuurillinen ilmiö.",
+    "english": "In its home country, France, Tatoeba became a social and cultural phenomenon.",
+    "wordCount": 14,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "529076",
+    "spanish": "El inglés se habla en muchos países.",
+    "finnish": "Englantia puhutaan monessa maassa.",
+    "english": "English is spoken in many countries.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "532605",
+    "spanish": "Tomé un taxi porque estaba lloviendo.",
+    "finnish": "Sateen vuoksi otin taksin.",
+    "english": "I took a taxi because it was raining.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "532606",
+    "spanish": "Cogí un taxi porque estaba lloviendo.",
+    "finnish": "Sateen vuoksi otin taksin.",
+    "english": "I took a taxi because it was raining.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "534046",
+    "spanish": "Me han robado el pasaporte.",
+    "finnish": "Passini on varastettu.",
+    "english": "My passport's been stolen.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "537356",
+    "spanish": "Él es lo suficientemente mayor para viajar solo.",
+    "finnish": "Hän on tarpeeksi vanha matkustamaan yksin.",
+    "english": "He is old enough to travel alone.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "538659",
+    "spanish": "Pasé todo el día en la playa.",
+    "finnish": "Vietin koko päivän rannalla.",
+    "english": "I spent the entire day on the beach.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "541301",
+    "spanish": "Mañana viene mi tío a visitarnos.",
+    "finnish": "Enoni tulee huomenna käymään meillä.",
+    "english": "My uncle is coming to see us tomorrow.",
+    "wordCount": 6,
+    "themes": [
+      "travel",
+      "family"
+    ]
+  },
+  {
+    "id": "546970",
+    "spanish": "Londres está entre las ciudades más grandes del mundo.",
+    "finnish": "Lontoo on yksi maailman suurimmista kaupungeista.",
+    "english": "London is among the world's largest cities.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "558717",
+    "spanish": "Vivo en este hotel.",
+    "finnish": "Asun tässä hotellissa.",
+    "english": "I live in this hotel.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "603320",
+    "spanish": "Éste es mi coche.",
+    "finnish": "Tää on mun auto.",
+    "english": "This is my car.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "610563",
+    "spanish": "Su coche es muy chulo.",
+    "finnish": "Hänen autonsa on tosi siisti.",
+    "english": "His car is really cool.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "651444",
+    "spanish": "Está lavando el coche.",
+    "finnish": "Hän pesee autoa.",
+    "english": "He is washing the car.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "651677",
+    "spanish": "Él está lavando el coche.",
+    "finnish": "Hän pesee autoa.",
+    "english": "He is washing the car.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "658626",
+    "spanish": "El presidente francés visitará Japón el próximo mes.",
+    "finnish": "Ranskan presidentti vierailee Japanissa ensi kuussa.",
+    "english": "The French president is to visit Japan next month.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "659079",
+    "spanish": "El presidente de Francia visitará Japón el mes que viene.",
+    "finnish": "Ranskan presidentti vierailee Japanissa ensi kuussa.",
+    "english": "The French president is to visit Japan next month.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "660067",
+    "spanish": "Tengo unas fotos para mostrarte.",
+    "finnish": "Minulla on joitain kuvia näytettävänä sinulle.",
+    "english": "I have some pictures to show you.",
+    "wordCount": 5,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "687893",
+    "spanish": "Tienes razón. Iré en taxi.",
+    "finnish": "Olet oikeassa. Menen taksilla.",
+    "english": "You're right. I'll go by taxi.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "718819",
+    "spanish": "Casi le atropelló un coche.",
+    "finnish": "Hän jäi melkein auton alle.",
+    "english": "He was almost hit by a car.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "722031",
+    "spanish": "El tren parte en diez minutos.",
+    "finnish": "Juna lähtee kymmenen minuutin kuluttua.",
+    "english": "The train leaves in ten minutes.",
+    "wordCount": 6,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "723101",
+    "spanish": "¿Sabes el camino?",
+    "finnish": "Tiedätkö sinä reitin?",
+    "english": "Do you know the way?",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "727674",
+    "spanish": "No me gustan las ciudades grandes.",
+    "finnish": "En pidä isoista kaupungeista.",
+    "english": "I dislike big cities.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "743575",
+    "spanish": "El tren se para en cada estación.",
+    "finnish": "Juna pysähtyy jokaisella asemalla.",
+    "english": "The train stops at every station.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "746507",
+    "spanish": "Tom conducía el coche.",
+    "finnish": "Tom ajoi autoa.",
+    "english": "Tom drove the car.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "746509",
+    "spanish": "Tom condujo el coche.",
+    "finnish": "Tom ajoi autoa.",
+    "english": "Tom drove the car.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "748718",
+    "spanish": "¿Me podrías dar un aventón en tu coche?",
+    "finnish": "Voisitko antaa minulle kyydin autossasi?",
+    "english": "Could you give me a lift in your car?",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "759907",
+    "spanish": "¿Cuánto cuesta el coche más caro?",
+    "finnish": "Paljonko kallein auto maksaa?",
+    "english": "How much is the most expensive car?",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "759999",
+    "spanish": "Su casa está muy lejos de la estación.",
+    "finnish": "Hänen talonsa on hyvin kaukana asemalta.",
+    "english": "His house is very far from the station.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "783653",
+    "spanish": "No tengo boleto.",
+    "finnish": "Minulla ei ole lippua.",
+    "english": "I don't have a ticket.",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "790185",
+    "spanish": "Él conduce a menudo el coche de su padre.",
+    "finnish": "Hän ajaa usein isänsä autolla.",
+    "english": "He often drives his father's car.",
+    "wordCount": 9,
+    "themes": [
+      "travel",
+      "family"
+    ]
+  },
+  {
+    "id": "793480",
+    "spanish": "Mi tío me dio su coche.",
+    "finnish": "Setäni antoi autonsa minulle.",
+    "english": "My uncle gave his car to me.",
+    "wordCount": 6,
+    "themes": [
+      "travel",
+      "family"
+    ]
+  },
+  {
+    "id": "798403",
+    "spanish": "Japón es un país rodeado del mar por todos lados.",
+    "finnish": "Japani on maa, joka on kaikilta suunnilta meren ympäröimä.",
+    "english": "Japan is a country surrounded by the sea on all sides.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "816230",
+    "spanish": "Un avión está volando sobre la ciudad.",
+    "finnish": "Lentokone lehtää kaupungin yllä.",
+    "english": "A plane is flying above the city.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "816297",
+    "spanish": "Un avión está sobrevolando la ciudad.",
+    "finnish": "Lentokone lehtää kaupungin yllä.",
+    "english": "A plane is flying above the city.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "817731",
+    "spanish": "Es peligroso saltar de un tren en marcha.",
+    "finnish": "On vaarallista hypätä pois liikkuvan junan kyydistä.",
+    "english": "It's dangerous to jump off a moving train.",
+    "wordCount": 8,
+    "themes": [
+      "food",
+      "travel"
+    ]
+  },
+  {
+    "id": "832497",
+    "spanish": "Casi me atropella un coche.",
+    "finnish": "Auto ajoi melkein päälleni.",
+    "english": "I was nearly run over by a car.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "836669",
+    "spanish": "Tengo una casa en las montañas.",
+    "finnish": "Minulla on talo vuorilla.",
+    "english": "I have a house in the mountains.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "836708",
+    "spanish": "Japón es un hermoso país.",
+    "finnish": "Japani on kaunis maa.",
+    "english": "Japan is a beautiful country.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "841939",
+    "spanish": "¿Este autobús va a la playa?",
+    "finnish": "Meneekö tämä bussi rannalle?",
+    "english": "Does this bus go to the beach?",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "854143",
+    "spanish": "Nosotros le mostramos algunas fotos de los Alpes.",
+    "finnish": "Näytimme hänelle kuvia Alpeista.",
+    "english": "We showed him some pictures of the Alps.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "855064",
+    "spanish": "La primera estación del año es la primavera.",
+    "finnish": "Ensimmäinen vuodenaika on kevät.",
+    "english": "The first season of the year is spring.",
+    "wordCount": 8,
+    "themes": [
+      "travel",
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "856269",
+    "spanish": "No tengo coche.",
+    "finnish": "Minulla ei ole autoa.",
+    "english": "I have no car.",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "857536",
+    "spanish": "Puede que él esté en el siguiente tren.",
+    "finnish": "Hän saattaa olla seuraavassa junassa.",
+    "english": "He may be on the next train.",
+    "wordCount": 8,
+    "themes": [
+      "food",
+      "travel"
+    ]
+  },
+  {
+    "id": "857782",
+    "spanish": "Los trenes pasan con mayor frecuencia que los autobuses.",
+    "finnish": "Junat kulkevat useammin kuin bussit.",
+    "english": "Trains come more often than buses.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "870338",
+    "spanish": "Mira este extenso mapa de América.",
+    "finnish": "Katso tätä isoa Amerikan karttaa.",
+    "english": "Look at this large map of America.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "870441",
+    "spanish": "Creo que Japón es un país muy seguro.",
+    "finnish": "Minusta Japani on todella turvallinen maa.",
+    "english": "I think that Japan is a very safe country.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "871329",
+    "spanish": "Quiero visitar las ruinas de Machu Picchu.",
+    "finnish": "Haluan käydä Machu Picchun raunioilla.",
+    "english": "I want to visit the ruins of Machu Picchu.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "875773",
+    "spanish": "Mario es un ciudadano italiano.",
+    "finnish": "Mario on Italian kansalainen.",
+    "english": "Mario is an Italian citizen.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "875949",
+    "spanish": "He comprado un coche nuevo.",
+    "finnish": "Mä ostin uuden auton.",
+    "english": "I bought a new car.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "885921",
+    "spanish": "¿Puedo sacarte una foto?",
+    "finnish": "Saanko ottaa sinusta kuvan?",
+    "english": "May I take your picture?",
+    "wordCount": 4,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "933311",
+    "spanish": "Espero que disfrutes tu vuelo.",
+    "finnish": "Toivon sinun nauttivan lennostasi.",
+    "english": "I hope you enjoy your flight.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "937796",
+    "spanish": "Tom compró un coche nuevo.",
+    "finnish": "Tom osti uuden auton.",
+    "english": "Tom bought a new car.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "949042",
+    "spanish": "Me gusta esta foto.",
+    "finnish": "Tämä on ihana kuva.",
+    "english": "I love this picture.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "949045",
+    "spanish": "Tengo un coche rojo nuevo.",
+    "finnish": "Minulla on uusi punainen auto.",
+    "english": "I have a new red car.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "950771",
+    "spanish": "Vi un avión.",
+    "finnish": "Näin lentokoneen.",
+    "english": "I saw a plane.",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "973041",
+    "spanish": "¿Dónde has pasado las vacaciones?",
+    "finnish": "Missä olit lomallasi?",
+    "english": "Where did you spend your holidays?",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "980405",
+    "spanish": "Vamos a tomar el autobús que sale a las cuatro.",
+    "finnish": "Menemme bussilla, joka lähtee neljältä.",
+    "english": "We are going to take the bus that leaves at four.",
+    "wordCount": 10,
+    "themes": [
+      "food",
+      "travel"
+    ]
+  },
+  {
+    "id": "982943",
+    "spanish": "No me gustan las grandes ciudades.",
+    "finnish": "En pidä isoista kaupungeista.",
+    "english": "I dislike big cities.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "995172",
+    "spanish": "¿Dónde está el aeropuerto?",
+    "finnish": "Missä on lentokenttä?",
+    "english": "Where's the airport?",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "999668",
+    "spanish": "El aeropuerto está cerca.",
+    "finnish": "Lentokenttä on lähellä.",
+    "english": "The airport is close at hand.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1017583",
+    "spanish": "Fui a Boston en tren.",
+    "finnish": "Menin Bostoniin junalla.",
+    "english": "I went to Boston on a train.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1021916",
+    "spanish": "¿Compraste un billete de ida y vuelta?",
+    "finnish": "Ostitko meno–paluu-lipun?",
+    "english": "Did you buy a round-trip ticket?",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1037626",
+    "spanish": "Es conductor de autobús.",
+    "finnish": "Hän on bussinkuljettaja.",
+    "english": "He's a bus driver.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1055619",
+    "spanish": "Ahora el museo está cerrado.",
+    "finnish": "Museo on nyt kiinni.",
+    "english": "The museum is closed now.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1063204",
+    "spanish": "Japón es un país rico.",
+    "finnish": "Japani on rikas maa.",
+    "english": "Japan is a rich country.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1077394",
+    "spanish": "¿Puedo sacar fotos aquí?",
+    "finnish": "Voinko valokuvata täällä?",
+    "english": "May I take pictures here?",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1104962",
+    "spanish": "La ciudad estaba desierta.",
+    "finnish": "Kaupunki oli autio.",
+    "english": "The town was deserted.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1115645",
+    "spanish": "Fui en avión a Kyuushuu.",
+    "finnish": "Lensin Kyuushuulle.",
+    "english": "I went to Kyushu by airplane.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1116477",
+    "spanish": "¿Dónde está el autobús?",
+    "finnish": "Missä bussi on?",
+    "english": "Where is the bus?",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1123596",
+    "spanish": "A causa de la densa neblina, el camino era difícil de ver.",
+    "finnish": "Paksun sumun vuoksi tietä oli vaikeaa nähdä.",
+    "english": "Because of the dense haze, the road was hard to see.",
+    "wordCount": 12,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1129902",
+    "spanish": "Te vas a arrepentir si lo dejas a medio camino.",
+    "finnish": "Tulet katumaan asiaa, jos jätät sen puolitiehen.",
+    "english": "I'm sure you'll be sorry if you give it up halfway through.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1129903",
+    "spanish": "Estuve fuera de casa durante todas las vacaciones de verano.",
+    "finnish": "Olin poissa kotoa koko kesäloman ajan.",
+    "english": "I was away from home all through the summer vacation.",
+    "wordCount": 10,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1131490",
+    "spanish": "¿Cuál es la próxima estación?",
+    "finnish": "Mikä on seuraava asema?",
+    "english": "What's the next station?",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1134300",
+    "spanish": "El mapa está en la pared.",
+    "finnish": "Kartta on seinällä.",
+    "english": "The map is on the wall.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1135696",
+    "spanish": "Papá, no puedo caminar más. Llévame.",
+    "finnish": "Isä, en pysty kävellä enää yhtään. Kanna minua.",
+    "english": "Daddy, I can't walk any more. Carry me.",
+    "wordCount": 6,
+    "themes": [
+      "travel",
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1137123",
+    "spanish": "Yo no uso taxis, a menos que sea absolutamente necesario.",
+    "finnish": "En käytä taksia, ellei se ole aivan välttämätöntä.",
+    "english": "I don't use taxis unless it's absolutely necessary.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1138966",
+    "spanish": "Moscú es una ciudad rusa.",
+    "finnish": "Moskova on venäläinen kaupunki.",
+    "english": "Moscow is a Russian town.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1167310",
+    "spanish": "Tom tiene una foto de Mary en su billetera.",
+    "finnish": "Tomilla on Maryn kuva lompakossaan.",
+    "english": "Tom has a picture of Mary in his wallet.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1171563",
+    "spanish": "Todos los días voy al trabajo en tren.",
+    "finnish": "Menen junalla töihin joka päivä.",
+    "english": "I go to work every day by train.",
+    "wordCount": 8,
+    "themes": [
+      "travel",
+      "work"
+    ]
+  },
+  {
+    "id": "1172196",
+    "spanish": "¿Has comprado un billete de ida y vuelta?",
+    "finnish": "Ostitko meno–paluu-lipun?",
+    "english": "Did you buy a round-trip ticket?",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1208939",
+    "spanish": "El museo no abre los domingos.",
+    "finnish": "Museo ei ole auki sunnuntaisin.",
+    "english": "The museum isn't open on Sundays.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1211589",
+    "spanish": "Este tren recorre entre Tokio y Hanata.",
+    "finnish": "Tämä juna kulkee Tokion ja Hakatan välillä.",
+    "english": "This train runs between Tokyo and Hakata.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1213623",
+    "spanish": "La estación está cerca del hotel.",
+    "finnish": "Asema on lähellä hotellia.",
+    "english": "The station's near the hotel.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1230909",
+    "spanish": "Tom bajó del taxi.",
+    "finnish": "Tom nousi ulos taksista.",
+    "english": "Tom got out of the taxi.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1258402",
+    "spanish": "Ese coche es mío.",
+    "finnish": "Tuo auto on minun.",
+    "english": "That car is mine.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1266289",
+    "spanish": "Me encanta esta foto.",
+    "finnish": "Tämä on ihana kuva.",
+    "english": "I love this picture.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1267126",
+    "spanish": "Ella no tuvo más alternativa que aceptar su destino.",
+    "finnish": "Hänellä ei ollut muuta vaihtoehtoa kuin hyväksyä kohtalonsa.",
+    "english": "She had no choice but to accept her fate.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1292377",
+    "spanish": "Hubiera sido mejor que le preguntaras qué camino tomar.",
+    "finnish": "Olisi ollut parempi, jos olisit kysynyt häneltä mitä tietä mennä.",
+    "english": "You had better ask him which way to take.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1297046",
+    "spanish": "Vamos a viajar a Estonia a finales del próximo mes.",
+    "finnish": "Matkustamme Viroon ensi kuun lopussa.",
+    "english": "We're going to travel to Estonia at the end of next month.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1302117",
+    "spanish": "Siga a ese coche.",
+    "finnish": "Seuraa tuota autoa.",
+    "english": "Follow that car.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1302823",
+    "spanish": "Hace una montaña de un grano de arena.",
+    "finnish": "Hän tekee kärpäsestä härkäsen.",
+    "english": "He makes a mountain out of a molehill.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1317311",
+    "spanish": "Él no puede comprar un coche.",
+    "finnish": "Hän ei pysty ostamaan autoa.",
+    "english": "He can't buy a car.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1319664",
+    "spanish": "El avión acaba de despegar.",
+    "finnish": "Lentokone on juuri noussut ilmaan.",
+    "english": "The plane took off just now.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1322467",
+    "spanish": "¿Dónde está la parada de autobús más cercana?",
+    "finnish": "Missä on lähin bussipysäkki?",
+    "english": "Where's the closest bus stop?",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1332470",
+    "spanish": "Es muy divertido conducir un coche.",
+    "finnish": "Auton ajaminen on todella hauskaa.",
+    "english": "It is a lot of fun to drive a car.",
+    "wordCount": 6,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1333706",
+    "spanish": "Vale la pena visitar Nueva York.",
+    "finnish": "Kannattaa käydä New Yorkissa.",
+    "english": "New York is worth visiting.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1340065",
+    "spanish": "Camino todos los días al trabajo.",
+    "finnish": "Kävelen työhön joka päivä.",
+    "english": "I walk to work every day.",
+    "wordCount": 6,
+    "themes": [
+      "travel",
+      "work"
+    ]
+  },
+  {
+    "id": "1358147",
+    "spanish": "Él compró un coche.",
+    "finnish": "Hän osti auton.",
+    "english": "He bought a car.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1368481",
+    "spanish": "Tom le pidió a Mary que le comprara un boleto.",
+    "finnish": "Tomi pyysi Maria ostamaan hänelle lipun.",
+    "english": "Tom asked Mary to buy him a ticket.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1371375",
+    "spanish": "México es un país que limita con los Estados Unidos.",
+    "finnish": "Meksiko on maa, jolla on yhteinen raja Yhdysvaltojen kanssa.",
+    "english": "Mexico is a nation that borders the United States.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1384558",
+    "spanish": "Él tiene un coche.",
+    "finnish": "Hänellä on auto.",
+    "english": "He has a car.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1386811",
+    "spanish": "Esto es un hotel.",
+    "finnish": "Tämä on hotelli.",
+    "english": "This is a hotel.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1386995",
+    "spanish": "Si quieres estudiar en Estados Unidos, necesitas conseguir una visa de estudiante.",
+    "finnish": "Jos haluat opiskella Yhdysvalloissa, sinun täytyy hankkia opiskelijaviisumi.",
+    "english": "If you want to study in the United States, you need to get a student visa.",
+    "wordCount": 12,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1393654",
+    "spanish": "Ella fue una huérfana que perdió a sus padres en un accidente de avión.",
+    "finnish": "Hän oli orpo, joka menetti vanhempansa lentokone-onnettomuudessa.",
+    "english": "She was an orphan who lost her parents in a plane crash.",
+    "wordCount": 14,
+    "themes": [
+      "travel",
+      "family"
+    ]
+  },
+  {
+    "id": "1403385",
+    "spanish": "Mirad esa montaña.",
+    "finnish": "Katsokaa tuota vuorta.",
+    "english": "Look at that mountain.",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1403950",
+    "spanish": "Abandonó el país después de la muerte del abuelo.",
+    "finnish": "Hän lähti maasta isoisänsä kuoleman jälkeen.",
+    "english": "He left the country after his grandfather's death.",
+    "wordCount": 9,
+    "themes": [
+      "travel",
+      "family"
+    ]
+  },
+  {
+    "id": "1418727",
+    "spanish": "Creo que me compraré un coche nuevo.",
+    "finnish": "Luulen, että ostan uuden auton.",
+    "english": "I think I'll buy a new car.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1439068",
+    "spanish": "Esta foto no es suya. Es nuestra.",
+    "finnish": "Tämä valokuva ei ole hänen. Se on meidän.",
+    "english": "This photo isn't hers. It's ours.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1439343",
+    "spanish": "No sé conducir un autobús.",
+    "finnish": "En osaa ajaa bussia.",
+    "english": "I can't drive a bus.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1441731",
+    "spanish": "El tren sale a las seis.",
+    "finnish": "Juna lähtee kuudelta.",
+    "english": "The train leaves at six.",
+    "wordCount": 6,
+    "themes": [
+      "food",
+      "travel"
+    ]
+  },
+  {
+    "id": "1448228",
+    "spanish": "Parecen fotografías.",
+    "finnish": "Ne näyttävät valokuvilta.",
+    "english": "They seem to be photographs.",
+    "wordCount": 2,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1455746",
+    "spanish": "Finlandia se encuentra en el mapa.",
+    "finnish": "Suomi on kartalla.",
+    "english": "Finland is on the map.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1457361",
+    "spanish": "Él vino de otro país.",
+    "finnish": "Hän tuli toisesta maasta.",
+    "english": "He came from another country.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1465214",
+    "spanish": "Nuestro avión volaba por sobre las nubes.",
+    "finnish": "Koneemme lensi pilvien yläpuolella.",
+    "english": "Our plane was flying above the clouds.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1468336",
+    "spanish": "El tren estaba lleno.",
+    "finnish": "Juna oli täynnä.",
+    "english": "The train was crowded.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1489820",
+    "spanish": "Él podría estar en el tren siguiente.",
+    "finnish": "Hän saattaa olla seuraavassa junassa.",
+    "english": "He may be on the next train.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1490162",
+    "spanish": "Está en el tren.",
+    "finnish": "Hän on junassa.",
+    "english": "He's on the train.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1499369",
+    "spanish": "El hombre que esperaba el autobús perdió la paciencia.",
+    "finnish": "Linja-autoa odottava mies menetti malttinsa.",
+    "english": "The man waiting for the bus lost his temper.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1546376",
+    "spanish": "Tom adora escalar montañas.",
+    "finnish": "Tomi rakastaa vuorikiipeilyä.",
+    "english": "Tom loves to climb mountains.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1558905",
+    "spanish": "Mi ciudad está rodeada por altas montañas.",
+    "finnish": "Korkeat vuoret ympäröivät minun kaupunkiani.",
+    "english": "My town is surrounded by tall mountains.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1559942",
+    "spanish": "¿Qué tan lejos queda el hotel del aeropuerto?",
+    "finnish": "Kuinka pitkä matka on lentokentältä hotellille?",
+    "english": "How far is it from the airport to the hotel?",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1585342",
+    "spanish": "Tom se encontró a Mary de camino a la escuela.",
+    "finnish": "Tom tapasi Maryn matkallaan kouluun.",
+    "english": "Tom came across Mary on his way to school.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1590172",
+    "spanish": "Planeo vivir en la ciudad.",
+    "finnish": "Aion asua kaupungissa.",
+    "english": "I plan on living in the city.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1591596",
+    "spanish": "Él tiene dos coches.",
+    "finnish": "Hänellä on kaksi autoa.",
+    "english": "He has two cars.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1606011",
+    "spanish": "Todos sonríen alegremente en la fotografía.",
+    "finnish": "Kaikki kuvassa olijat hymyilevät onnellisesti.",
+    "english": "Everybody in the picture is smiling happily.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1619556",
+    "spanish": "¿Cuánto cuesta el billete?",
+    "finnish": "Paljonko lippu maksaa?",
+    "english": "How much is the ticket?",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1621818",
+    "spanish": "Este coche ha sido hecho en Japón.",
+    "finnish": "Tämä auto on valmistettu Japanissa.",
+    "english": "This car was made in Japan.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1639067",
+    "spanish": "Necesito un mapa.",
+    "finnish": "Tarvitsen kartan.",
+    "english": "I need a map.",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1676401",
+    "spanish": "Ni siquiera está en el mapa.",
+    "finnish": "Sitä ei ole edes kartalla.",
+    "english": "It's not even on the map.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1699307",
+    "spanish": "Ellas vienen de la misma ciudad.",
+    "finnish": "He tulevat samasta kaupungista.",
+    "english": "They come from the same town.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1701805",
+    "spanish": "Tom sabe quién chocó contra el coche de Mary.",
+    "finnish": "Tom tietää kuka kolaroi Maryn auton kanssa.",
+    "english": "Tom knows who crashed into Mary's car.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1712685",
+    "spanish": "La belleza de este lago en la montaña no puede describirse en palabras; hay que verlo con los propios ojos.",
+    "finnish": "Tämä järvi vuorilla on niin kaunis, että sitä ei pysty sanoin kuvailla. Se on nähtävä omin silmin.",
+    "english": "The beauty of this lake on the mountain can't be put into words; you have to see it with your own eyes.",
+    "wordCount": 20,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1715862",
+    "spanish": "¿Cómo estuvo tu viaje?",
+    "finnish": "Miten sun reissu meni?",
+    "english": "How was your trip?",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1752007",
+    "spanish": "Hoy en día mucha gente viaja en coche.",
+    "finnish": "Nykyään monet matkustavat autolla.",
+    "english": "Nowadays many people travel by car.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1764248",
+    "spanish": "Este no es mi coche.",
+    "finnish": "Tämä ei ole minun autoni.",
+    "english": "This is not my car.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1764663",
+    "spanish": "A Tom le encanta escalar montañas.",
+    "finnish": "Tomi rakastaa vuorikiipeilyä.",
+    "english": "Tom loves to climb mountains.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1768999",
+    "spanish": "Nueva York es una de las ciudades más grandes del mundo.",
+    "finnish": "New York on yksi maailman suurimpia kaupunkeja.",
+    "english": "New York is one of the largest cities in the world.",
+    "wordCount": 11,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1820184",
+    "spanish": "Nuestro avión sobrevolaba las nubes.",
+    "finnish": "Koneemme lensi pilvien yläpuolella.",
+    "english": "Our plane was flying above the clouds.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1835187",
+    "spanish": "Le gusta sacar fotos.",
+    "finnish": "Hän ottaa mielellään valokuvia.",
+    "english": "She likes taking pictures.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1835188",
+    "spanish": "Le gusta hacer fotos.",
+    "finnish": "Hän ottaa mielellään valokuvia.",
+    "english": "She likes taking pictures.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1856740",
+    "spanish": "He perdido mi billete.",
+    "finnish": "Olen kadottanut lippuni.",
+    "english": "I've lost my ticket.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1877265",
+    "spanish": "El avión aterrizó exactamente a las seis horas.",
+    "finnish": "Lentokone laskeutui tasan kello kuudelta.",
+    "english": "The plane landed at 6 o'clock to the minute.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1878415",
+    "spanish": "Me las apañé para arreglar mi coche yo mismo.",
+    "finnish": "Onnistuin korjaamaan autoni itse.",
+    "english": "I managed to repair my car by myself.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1955458",
+    "spanish": "No puedo caminar.",
+    "finnish": "En pysty kävellä.",
+    "english": "I can't walk.",
+    "wordCount": 3,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1989756",
+    "spanish": "El nombre del coche de Marco es \"Thunder Giant\".",
+    "finnish": "Marcon auton nimi on Thunder Giant.",
+    "english": "Mark's car is called \"Thunder Giant\".",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "1993825",
+    "spanish": "¿Dónde está su maleta?",
+    "finnish": "Missä on matkalaukkusi?",
+    "english": "Where's your suitcase?",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2038413",
+    "spanish": "Compré un coche nuevo.",
+    "finnish": "Ostin uuden auton.",
+    "english": "I bought a new car.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2038417",
+    "spanish": "Le compré un coche nuevo.",
+    "finnish": "Ostin hänelle uuden auton.",
+    "english": "I bought her a new car.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2096533",
+    "spanish": "Voy al trabajo en autobús.",
+    "finnish": "Menen töihin linja-autolla.",
+    "english": "I go to work by bus.",
+    "wordCount": 5,
+    "themes": [
+      "travel",
+      "work"
+    ]
+  },
+  {
+    "id": "2110643",
+    "spanish": "Voy a la playa.",
+    "finnish": "Menen rannalle.",
+    "english": "I'm going to the beach.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2114424",
+    "spanish": "No dejes que conduzca tu coche.",
+    "finnish": "Älä anna hänen ajaa autoasi.",
+    "english": "Don't let her drive your car.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2114425",
+    "spanish": "No la dejes conducir tu coche.",
+    "finnish": "Älä anna hänen ajaa autoasi.",
+    "english": "Don't let her drive your car.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2117855",
+    "spanish": "¿Viniste en tren?",
+    "finnish": "Tulitko junalla?",
+    "english": "Did you come by train?",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2131420",
+    "spanish": "Tom fue a la ciudad en autobús.",
+    "finnish": "Tom meni kaupunkiin bussilla.",
+    "english": "Tom went to the city by bus.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2149631",
+    "spanish": "El último tren ya se ha ido.",
+    "finnish": "Viimeinen juna on jo mennyt.",
+    "english": "The last train has already gone.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2151472",
+    "spanish": "Este verano iremos a la montaña y al mar.",
+    "finnish": "Tänä kesänä matkustamme vuorille ja meren rannalle.",
+    "english": "This summer we'll go to the mountains and to the sea.",
+    "wordCount": 9,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2192403",
+    "spanish": "Solo quiero tomar una foto.",
+    "finnish": "Haluan vain ottaa kuvan.",
+    "english": "I just want to take a picture.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2197904",
+    "spanish": "Los aviones han sustituido a los trenes eléctricos.",
+    "finnish": "Lentokoneet ovat korvanneet sähköjunat.",
+    "english": "Airplanes have taken the place of electric trains.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2213868",
+    "spanish": "¿Cuándo sale el último tren?",
+    "finnish": "Monelta viimeinen juna menee?",
+    "english": "When does the last train leave?",
+    "wordCount": 5,
+    "themes": [
+      "food",
+      "travel"
+    ]
+  },
+  {
+    "id": "2240510",
+    "spanish": "Él vive fuera de la ciudad.",
+    "finnish": "Hän asuu kaupungin ulkopuolella.",
+    "english": "He lives outside the city.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2247019",
+    "spanish": "Europa no es un país.",
+    "finnish": "Eurooppa ei ole valtio.",
+    "english": "Europe is not a country.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2260876",
+    "spanish": "¿Cuántos días de edad tenía cuando se tomó esta foto?",
+    "finnish": "Kuinka monta päivää vanha olin, kun tämä valokuva otettiin?",
+    "english": "How many days old was I when this picture was taken?",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2262661",
+    "spanish": "Él lava el coche todas las semanas.",
+    "finnish": "Hän pesee auton joka päivä.",
+    "english": "He washes the car every week.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2269907",
+    "spanish": "¿Qué está haciendo el mapache en la cocina?",
+    "finnish": "Mitä pesukarhu tekee keittiössä?",
+    "english": "What is the racoon doing in the kitchen?",
+    "wordCount": 8,
+    "themes": [
+      "food",
+      "travel"
+    ]
+  },
+  {
+    "id": "2307002",
+    "spanish": "Él saltó al tren.",
+    "finnish": "Hän hyppäsi junaan.",
+    "english": "He jumped on the train.",
+    "wordCount": 4,
+    "themes": [
+      "food",
+      "travel"
+    ]
+  },
+  {
+    "id": "2308988",
+    "spanish": "Tiene dos coches.",
+    "finnish": "Hänellä on kaksi autoa.",
+    "english": "He's got two cars.",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2310767",
+    "spanish": "Tu coche es rápido, pero el mío es más rápido.",
+    "finnish": "Autosi on nopea, mutta minun on nopeampi.",
+    "english": "Your car is fast, but mine is faster.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2409295",
+    "spanish": "Puedo mostrarte las fotos.",
+    "finnish": "Mä voin näyttää sulle ne kuvat.",
+    "english": "I can show you the pictures.",
+    "wordCount": 4,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2442779",
+    "spanish": "Volvamos al hotel.",
+    "finnish": "Palataan hotellille.",
+    "english": "Let's go back to the hotel.",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2450821",
+    "spanish": "Tom está en el aeropuerto.",
+    "finnish": "Tomi on lentokentällä.",
+    "english": "Tom is at the airport.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2454320",
+    "spanish": "El Vaticano es el país más chico del mundo.",
+    "finnish": "Vatikaani on maailman pienin valtio.",
+    "english": "The Vatican is the smallest country in the world.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2624530",
+    "spanish": "He avisado a Tom.",
+    "finnish": "Varoitin Tomia.",
+    "english": "I warned Tom.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2667276",
+    "spanish": "Tuve que ir allí andando porque mi coche se estropeó.",
+    "finnish": "Minun täytyi kävellä sinne, koska autoni meni rikki.",
+    "english": "I had to walk there because my car broke down.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2734304",
+    "spanish": "Tom no está en el hotel.",
+    "finnish": "Tomi ei ole hotellissa.",
+    "english": "Tom isn't at the hotel.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2740682",
+    "spanish": "Este país tiene pocos recursos naturales.",
+    "finnish": "Tällä maalla on vain vähän luonnonresursseja.",
+    "english": "This country has few natural resources.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2754648",
+    "spanish": "Mañana vuelo a Boston.",
+    "finnish": "Lennän Bostoniin huomenna.",
+    "english": "I'm flying to Boston tomorrow.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2762909",
+    "spanish": "Él amaba viajar.",
+    "finnish": "Hän rakasti matkustamista.",
+    "english": "He loved to travel.",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2788122",
+    "spanish": "Para ganar tiempo viajamos en avión.",
+    "finnish": "Aikaa voittaaksemme matkustimme lentokoneella.",
+    "english": "To gain time we took the plane.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2789825",
+    "spanish": "Un fotógrafo le tomó una foto a mi casa.",
+    "finnish": "Valokuvaaja otti kuvan talostani.",
+    "english": "A photographer took a photograph of my house.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2789827",
+    "spanish": "Un fotógrafo sacó una foto de mi casa.",
+    "finnish": "Valokuvaaja otti kuvan talostani.",
+    "english": "A photographer took a photograph of my house.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2789839",
+    "spanish": "¿Puedo tomar una foto aquí?",
+    "finnish": "Voinko ottaa valokuvan täällä?",
+    "english": "Can I take a picture here?",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2789840",
+    "spanish": "Me gusta sacar fotos.",
+    "finnish": "Haluan ottaa valokuvia.",
+    "english": "I like to take photos.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2789849",
+    "spanish": "Aquí hay una foto de mi familia.",
+    "finnish": "Tässä on valokuva perheestäni.",
+    "english": "Here is a photograph of my family.",
+    "wordCount": 7,
+    "themes": [
+      "travel",
+      "family"
+    ]
+  },
+  {
+    "id": "2802446",
+    "spanish": "Este no es mi boleto.",
+    "finnish": "Tämä ei ole minun lippuni.",
+    "english": "This is not my ticket.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2803743",
+    "spanish": "¿Qué representan estos puntos en el mapa?",
+    "finnish": "Mitä nämä pisteet kartalla esittävät?",
+    "english": "What do these dots represent on the map?",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2843735",
+    "spanish": "Tom tiene un mapa.",
+    "finnish": "Tomilla on kartta.",
+    "english": "Tom has a map.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2843752",
+    "spanish": "Ellos se van a encontrar mañana en el hotel.",
+    "finnish": "He tulevat tapaamaan huomenna hotellissa.",
+    "english": "They are going to meet at the hotel tomorrow.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2844393",
+    "spanish": "¿Vuestro país posee armas nucleares?",
+    "finnish": "Onko teidän maallanne ydinaseita?",
+    "english": "Does your country have nuclear weapons?",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2853230",
+    "spanish": "Muchos vuelos fueron cancelados a causa del tifón.",
+    "finnish": "Monia lentoja peruttiin taifuunin tähden.",
+    "english": "Many flights were canceled, owing to the typhoon.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2881725",
+    "spanish": "Tenía una habitación con una hermosa vista de las montañas.",
+    "finnish": "Minulla oli huone, josta oli kaunis näköala vuorille.",
+    "english": "I had a room with a beautiful view of the mountains.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2906886",
+    "spanish": "Es peligroso escalar esa montaña.",
+    "finnish": "On vaarallista kiivetä tuolle vuorelle.",
+    "english": "It is dangerous to climb that mountain.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2926987",
+    "spanish": "Su auto chocó contra un tren.",
+    "finnish": "Hänen autonsa törmäsi junaan.",
+    "english": "His car collided with a train.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2940879",
+    "spanish": "Todos los días camino por el bosque.",
+    "finnish": "Kävelen metsässä joka päivä.",
+    "english": "I walk in the forest every day.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2944394",
+    "spanish": "El hotel era relativamente caro.",
+    "finnish": "Hotelli oli suhteellisen kallis.",
+    "english": "The hotel was relatively expensive.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2946634",
+    "spanish": "Pasamos unas vacaciones excelentes en Suecia.",
+    "finnish": "Vietimme mainion loman Ruotsissa.",
+    "english": "We spent a great holiday in Sweden.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2988782",
+    "spanish": "Busqué su número telefónico en la guía telefónica.",
+    "finnish": "Tarkistin hänen puhelinnumeronsa puhelinluettelosta.",
+    "english": "I looked up his phone number in the telephone book.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2988784",
+    "spanish": "¿Dónde está la guía telefónica?",
+    "finnish": "Missä puhelinluettelo on?",
+    "english": "Where's the telephone book?",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2998071",
+    "spanish": "El tren para en cada estación.",
+    "finnish": "Juna pysähtyy jokaisella asemalla.",
+    "english": "The train stops at every station.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "2998095",
+    "spanish": "Tom normalmente pesca desde el muelle, pero a veces pesca desde la playa.",
+    "finnish": "Tom tavallisesti kalastaa laiturilta, mutta joskus hän kalastaa rannalta.",
+    "english": "Tom usually fishes off the dock, but sometimes he fishes from the shore.",
+    "wordCount": 13,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3006054",
+    "spanish": "Acabo de llegar a la estación. Te estaré esperando en la biblioteca.",
+    "finnish": "Tulin juuri asemalle. Odotan sinua kirjastossa.",
+    "english": "I just got to the station. I'll be waiting for you at the library.",
+    "wordCount": 12,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3009376",
+    "spanish": "Tom no tiene ganas de llevar a su perro a caminar esta mañana.",
+    "finnish": "Tomia ei huvita viedä koiraansa kävelylle tänä aamuna.",
+    "english": "Tom doesn't feel like taking a walk with his dog this morning.",
+    "wordCount": 13,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3050796",
+    "spanish": "Tom no se subió al avión.",
+    "finnish": "Tom ei noussut koneeseen.",
+    "english": "Tom didn't get on the plane.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3056451",
+    "spanish": "Tom estaba al otro lado de la ciudad al momento del disparo.",
+    "finnish": "Tom oli kaupungin toisella laidalla ampumisen aikana.",
+    "english": "Tom was on the other side of town at the time of the shooting.",
+    "wordCount": 12,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3056763",
+    "spanish": "En la playa puedes pasar tiempo con tus amigos.",
+    "finnish": "Rannalla voi viettää aikaa kavereiden kanssa.",
+    "english": "On the beach you can spend time with your friends.",
+    "wordCount": 9,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3077997",
+    "spanish": "A mi padre le gusta viajar en avión.",
+    "finnish": "Isäni tykkää matkustaa lentokoneella.",
+    "english": "My father loves to travel by plane.",
+    "wordCount": 8,
+    "themes": [
+      "travel",
+      "family"
+    ]
+  },
+  {
+    "id": "3081692",
+    "spanish": "Me encontré con él en el camino del colegio a la casa.",
+    "finnish": "Tapasin hänet matkallani koulusta kotiin.",
+    "english": "I met him on my way home from school.",
+    "wordCount": 12,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3100339",
+    "spanish": "El avión aterrizó en la granja de mi papá.",
+    "finnish": "Kone laskeutui isäni tilalle.",
+    "english": "The airplane landed on my father's farm.",
+    "wordCount": 9,
+    "themes": [
+      "travel",
+      "family"
+    ]
+  },
+  {
+    "id": "3100607",
+    "spanish": "Mi auto está en la cochera.",
+    "finnish": "Autoni on tallissa.",
+    "english": "My car's in the garage.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3100741",
+    "spanish": "Cuando la lluvia amaine, iremos a caminar.",
+    "finnish": "Sateen loputtua menemme kävelylle.",
+    "english": "When the rain stops, we'll go for a walk.",
+    "wordCount": 7,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3108836",
+    "spanish": "¿Dónde está el hotel?",
+    "finnish": "Missä on hotelli?",
+    "english": "Where is the hotel?",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3113377",
+    "spanish": "¿De verdad? A mí me tomó una hora en tren.",
+    "finnish": "Todellako? Minulta se kesti tunnin junalla.",
+    "english": "Really? It took me an hour by train.",
+    "wordCount": 10,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3113419",
+    "spanish": "Hoy fui al museo.",
+    "finnish": "Tänään kävin museossa.",
+    "english": "I went to the museum today.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3168610",
+    "spanish": "Esto es un mapa de carreteras.",
+    "finnish": "Tämä on tiekartta.",
+    "english": "This is a road map.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3185646",
+    "spanish": "¿Dónde están sus otras fotos?",
+    "finnish": "Missä ovat hänen muut kuvansa?",
+    "english": "Where are her other pictures?",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3202463",
+    "spanish": "¿Me podría dar un mapa del metro, por favor?",
+    "finnish": "Saisinko metrokartan, kiitos.",
+    "english": "Please could I have a subway map.",
+    "wordCount": 9,
+    "themes": [
+      "greetings",
+      "travel"
+    ]
+  },
+  {
+    "id": "3212781",
+    "spanish": "Tom se bajó del taxi.",
+    "finnish": "Tom nousi ulos taksista.",
+    "english": "Tom got out of the taxi.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3215637",
+    "spanish": "Cuando llegaron a la estación, el tren ya se había ido.",
+    "finnish": "Kun he saapuivat asemalle, oli juna jo lähtenyt.",
+    "english": "When they got to the station, the train had already left.",
+    "wordCount": 11,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3218175",
+    "spanish": "Compré un boleto.",
+    "finnish": "Ostin lipun.",
+    "english": "I bought a ticket.",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3234908",
+    "spanish": "¿Por qué no te vas de la ciudad?",
+    "finnish": "Mikset lähde kaupungista?",
+    "english": "Why don't you leave town?",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3236669",
+    "spanish": "Él llegó en barco y se marchó en avión.",
+    "finnish": "Hän tuli laivalla ja lähti lentokoneella.",
+    "english": "He arrived by sea but left by air.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3250176",
+    "spanish": "¿Cuántos días nos quedan para que empiecen las vacaciones de verano?",
+    "finnish": "Kuinka monta päivää meillä on jäljellä kunnes kesäloma alkaa?",
+    "english": "How many days do we have left until summer vacation begins?",
+    "wordCount": 11,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3272906",
+    "spanish": "¿Dónde puedo conseguir el mapa?",
+    "finnish": "Mistä voisin saada kartan?",
+    "english": "Where can I get the map?",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3272923",
+    "spanish": "Llévate un mapa en caso de que te pierdas.",
+    "finnish": "Ota kartta mukaasi siltä varalta, että eksyt.",
+    "english": "Take a map with you in case you get lost.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3274381",
+    "spanish": "El nuevo aeropuerto internacional realmente ubicó a Narita en el mapa.",
+    "finnish": "Uusi kansainvälinen lentokenttä todella sijoitti Naritan kartalle.",
+    "english": "The new international airport really put Narita on the map.",
+    "wordCount": 11,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3368884",
+    "spanish": "Tom perdió la oportunidad de viajar a Boston con María.",
+    "finnish": "Tom menetti mahdollisuuden matkustaa Bostoniin Maryn kanssa.",
+    "english": "Tom missed the chance to go to Boston with Maria.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3389964",
+    "spanish": "Tom apuntó a una de las fotos y dijo: \"¿Quién es ese?\"",
+    "finnish": "Tom osoitti yhtä kuvista ja sanoi: \"Kuka tuo on?\"",
+    "english": "Tom pointed to one of the pictures and said, \"Who's that?\"",
+    "wordCount": 12,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3390110",
+    "spanish": "Cancelen sus reservas.",
+    "finnish": "Peruuttakaa varauksenne.",
+    "english": "Cancel your reservations.",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3395282",
+    "spanish": "El tren tiene dos motores.",
+    "finnish": "Junassa on kaksi veturia.",
+    "english": "The train has two engines.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3416626",
+    "spanish": "Debemos defender a nuestro país de agresiones extranjeras.",
+    "finnish": "Meidän on puolustettava maatamme ulkomaiselta aggressiolta.",
+    "english": "We have to defend our country from the foreign aggression.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3424459",
+    "spanish": "Es una de las ciudades más grandes del mundo.",
+    "finnish": "Se on yksi maailman suurimmista kaupungeista.",
+    "english": "It's one of the largest cities in the world.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3438594",
+    "spanish": "Tom no tiene coche.",
+    "finnish": "Tomilla ei ole autoa.",
+    "english": "Tom doesn't have a car.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3451313",
+    "spanish": "Tengo reserva para almorzar.",
+    "finnish": "Minulla on pöytävaraus lounaalle.",
+    "english": "I have a lunch reservation.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3458636",
+    "spanish": "¿Caminaste todo el camino hasta acá?",
+    "finnish": "Kävelitkö koko matkan tänne?",
+    "english": "Did you walk all the way here?",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3480822",
+    "spanish": "Amo mi país.",
+    "finnish": "Rakastan maatani.",
+    "english": "I love my country.",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3499425",
+    "spanish": "Cada empleado tiene derecho a dos semanas de vacaciones pagadas por año.",
+    "finnish": "Jokainen työntekijä on oikeutettu kahden viikon maksettuun lomaan vuodessa.",
+    "english": "Each employee is entitled to a two week paid vacation per year.",
+    "wordCount": 12,
+    "themes": [
+      "travel",
+      "work"
+    ]
+  },
+  {
+    "id": "3538585",
+    "spanish": "Es una gran ciudad.",
+    "finnish": "Se on iso kaupunki.",
+    "english": "It's a big city.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3547504",
+    "spanish": "¿Quieres que te llame un taxi?",
+    "finnish": "Haluatko että soitan sinulle taksin?",
+    "english": "Would you like me to get you a cab?",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3547511",
+    "spanish": "Te llamaré un taxi.",
+    "finnish": "Soitan sinulle taksin.",
+    "english": "I'll call you a cab.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3600579",
+    "spanish": "Nadé mucho durante las vacaciones de verano.",
+    "finnish": "Uin paljon kesälomalla.",
+    "english": "I swam a lot during summer vacation.",
+    "wordCount": 7,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3623728",
+    "spanish": "¿Cómo es el clima en tu país?",
+    "finnish": "Minkälainen ilmasto teidän maassanne on?",
+    "english": "What's the climate like in your country?",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3712200",
+    "spanish": "Ni corro ni camino.",
+    "finnish": "En kävele enkä juokse.",
+    "english": "I neither walk nor run.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3746786",
+    "spanish": "Estoy aquí de vacaciones.",
+    "finnish": "Lomailen täällä.",
+    "english": "I am here on holiday.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3864981",
+    "spanish": "El bus anda entre el colegio y la estación.",
+    "finnish": "Bussi kulkee koulun ja aseman välillä.",
+    "english": "The bus runs between the school and the station.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3890099",
+    "spanish": "¿Cuál es la montaña más grande del mundo?",
+    "finnish": "Mikä on maailman korkein vuori?",
+    "english": "What's the world's highest mountain?",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3890113",
+    "spanish": "Esta es la playa más bella de todo el mundo.",
+    "finnish": "Tämä on koko maailman kaunein ranta.",
+    "english": "This is the most beautiful beach in the whole world.",
+    "wordCount": 10,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3936494",
+    "spanish": "En Brasil hay muchas ciudades grandes.",
+    "finnish": "Brasiliassa on monta suurta kaupunkia.",
+    "english": "There are a lot of big cities in Brazil.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "3948749",
+    "spanish": "Quiero ir a la montaña.",
+    "finnish": "Minä haluan mennä vuorille.",
+    "english": "I want to go to the mountain.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "4308292",
+    "spanish": "Tras una breve pausa, Cesar decidió unirse de nuevo al ejército y dejó Roma. En su viaje por mar él fue secuestrado por piratas.",
+    "finnish": "Lyhyen tauon jälkeen Caesar päätti jälleen liittyä sotavoimiin ja lähti Roomasta. Caesarin matkatessa merellä merirosvojoukkio kaappasi hänet.",
+    "english": "After a brief interlude, Caesar decided to join the army once again and left Rome. While he was sailing across the sea, a group of pirates kidnapped him.",
+    "wordCount": 24,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "4308639",
+    "spanish": "¿A cuántos museos fuiste?",
+    "finnish": "Monessako museossa kävit?",
+    "english": "How many museums did you visit?",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "4308663",
+    "spanish": "A mucha gente le gusta viajar.",
+    "finnish": "Monet ihmiset pitävät matkustamisesta.",
+    "english": "Many people like to travel.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "4414622",
+    "spanish": "Ella regresó al hotel.",
+    "finnish": "Hän palasi hotellille.",
+    "english": "She went back to the hotel.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "4531452",
+    "spanish": "Tenga en cuenta que todos nuestros vuelos son para no fumadores.",
+    "finnish": "Huomaattehan, että kaikki lentomme ovat savuttomia.",
+    "english": "Keep in mind that all our flights are for non-smokers.",
+    "wordCount": 11,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "4549594",
+    "spanish": "Estoy preparada para lo peor.",
+    "finnish": "Olen valmistautunut pahimpaan.",
+    "english": "I'm prepared for the worst.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "4598048",
+    "spanish": "Tom tiene un boleto.",
+    "finnish": "Tomilla on lippu.",
+    "english": "Tom has a ticket.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "4651581",
+    "spanish": "Logré reparar mi coche yo solo.",
+    "finnish": "Onnistuin korjaamaan autoni itse.",
+    "english": "I managed to repair my car by myself.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "4658806",
+    "spanish": "Dame las llaves del coche.",
+    "finnish": "Anna minulle auton avaimet.",
+    "english": "Give me the car keys.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "4694042",
+    "spanish": "Él se subió al tren.",
+    "finnish": "Hän nousi junaan.",
+    "english": "He got on the train.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "4744290",
+    "spanish": "Este es el museo más grande de la ciudad.",
+    "finnish": "Tämä on kaupungin suurin museo.",
+    "english": "This is the largest museum in the city.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "5058551",
+    "spanish": "Soy un ciudadano de los Estados Unidos.",
+    "finnish": "Olen Yhdysvaltain kansalainen.",
+    "english": "I am a United States citizen.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "5058553",
+    "spanish": "Soy una ciudadana de los Estados Unidos.",
+    "finnish": "Olen Yhdysvaltain kansalainen.",
+    "english": "I am a United States citizen.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "5630610",
+    "spanish": "El país permaneció neutral durante la Segunda Guerra Mundial.",
+    "finnish": "Maa pysyi puolueettomana koko toisen maailmansodan.",
+    "english": "That country remained neutral throughout World War II.",
+    "wordCount": 9,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "5644156",
+    "spanish": "En las grandes ciudades hay demasiados coches.",
+    "finnish": "Suurissa kaupungeissa on liikaa autoja.",
+    "english": "There are too many cars in the big cities.",
+    "wordCount": 7,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "5660912",
+    "spanish": "Ojalá hubiera sacado más fotografías.",
+    "finnish": "Olisinpa ottanut enemmän kuvia.",
+    "english": "I wish I'd taken more pictures.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "5718634",
+    "spanish": "Necesitamos averiguar quién condujo ese coche.",
+    "finnish": "Meidän pitää selvittää se, että kuka ajoi tuota autoa.",
+    "english": "We need to find out who drove that car.",
+    "wordCount": 6,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "5720520",
+    "spanish": "Pensé que el autobús era gratis, pero he tenido que pagar.",
+    "finnish": "Luulin, että bussi on ilmainen, mutta minun piti maksaa siitä.",
+    "english": "I thought that the bus was free, but I had to pay.",
+    "wordCount": 11,
+    "themes": [
+      "travel",
+      "work"
+    ]
+  },
+  {
+    "id": "5752622",
+    "spanish": "¿Es Boston una ciudad grande?",
+    "finnish": "Onko Boston suuri kaupunki?",
+    "english": "Is Boston a big city?",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "5797171",
+    "spanish": "Tom mostró a Mary una foto de John.",
+    "finnish": "Tomi näytti Marille kuvaa Jonista.",
+    "english": "Tom showed Mary a photo of John.",
+    "wordCount": 8,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "5864190",
+    "spanish": "Me fui a la playa.",
+    "finnish": "Menin rannalle.",
+    "english": "I went to the beach.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "5880780",
+    "spanish": "Subimos al coche.",
+    "finnish": "Menimme autoon.",
+    "english": "We got into the car.",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "5975732",
+    "spanish": "Me voy a la playa.",
+    "finnish": "Menen rannalle.",
+    "english": "I'm going to go to the beach.",
+    "wordCount": 5,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "6602243",
+    "spanish": "Encontré tu cartera en el asiento trasero de mi coche.",
+    "finnish": "Mä löysin sun lompakon mun auton takapenkiltä.",
+    "english": "I found your wallet on the backseat of my car.",
+    "wordCount": 10,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "6602246",
+    "spanish": "¿Es éste tu billetero?",
+    "finnish": "Onko tämä sinun lompakkosi?",
+    "english": "Is this your wallet?",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "6602264",
+    "spanish": "Nos vamos a comprar un coche.",
+    "finnish": "Aiomme ostaa auton.",
+    "english": "We're going to buy ourselves a car.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "6677043",
+    "spanish": "La carretera está atascada.",
+    "finnish": "Tie on tukossa.",
+    "english": "There's a traffic jam on the highway.",
+    "wordCount": 4,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "6677046",
+    "spanish": "La próxima vez tomo el tren.",
+    "finnish": "Ensi kerralla menen junalla.",
+    "english": "Next time I'm taking the train.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "6730030",
+    "spanish": "Para el coche.",
+    "finnish": "Pysäyttäkää auto.",
+    "english": "Stop the car.",
+    "wordCount": 3,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "7559618",
+    "spanish": "Esperaré en la parada del autobús.",
+    "finnish": "Odotan bussipysäkillä.",
+    "english": "I'll wait at the bus stop.",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  },
+  {
+    "id": "7968486",
+    "spanish": "En este mapa, ¿dónde estoy yo?",
+    "finnish": "Missä minä olen tällä kartalla?",
+    "english": "Where am I on this map?",
+    "wordCount": 6,
+    "themes": [
+      "travel"
+    ]
+  }
+]
