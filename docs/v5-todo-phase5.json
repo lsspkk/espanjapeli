@@ -17,7 +17,8 @@
           "files": [
             "svelte/src/routes/mita-sa-sanoit/+page.svelte",
             "svelte/src/routes/mita-sa-sanoit/+layout.ts"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "15.2",
@@ -25,7 +26,8 @@
           "description": "Display game title \"Mitä sä sanoit?\" with subtitle. Explain game concept in Finnish. Options: Mode selector: Listen (audio) vs Read (text), Theme selector (greetings, food, travel, etc.), Level selector (A1, A2, B1). \"Aloita\" (Start) button.",
           "files": [
             "svelte/src/routes/mita-sa-sanoit/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "15.3",
@@ -33,7 +35,8 @@
           "description": "Define game states: 'home' | 'loading' | 'playing' | 'feedback' | 'report'. Create state variables for: currentSentence: Sentence, answerOptions: string[] (Finnish translations), selectedAnswer: string | null, score: number, questionIndex: number. Handle transitions between states.",
           "files": [
             "svelte/src/routes/mita-sa-sanoit/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
