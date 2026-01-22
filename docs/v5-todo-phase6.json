@@ -114,7 +114,8 @@
           "description": "Add 'teaching-phrases' to game states. Load matching Tatoeba sentences for lesson words. Display sentences with target word highlighted.",
           "files": [
             "svelte/src/routes/valitut-sanat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "20.2",
@@ -122,7 +123,8 @@
           "description": "Create: svelte/src/lib/components/basic/ExamplePhraseList.svelte. Group phrases by target word. Show: Spanish sentence, Finnish translation. Highlight target word in sentence. TTS button for Spanish sentence.",
           "files": [
             "svelte/src/lib/components/basic/ExamplePhraseList.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "20.3",
@@ -130,7 +132,8 @@
           "description": "Some words may not have Tatoeba matches. Display word without examples, or skip in phrase section. Show message: \"Ei esimerkkejä saatavilla\" if no matches.",
           "files": [
             "svelte/src/lib/components/basic/ExamplePhraseList.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "20.4",
@@ -138,7 +141,8 @@
           "description": "\"Aloita testi\" (Start quiz) button to begin quiz phase. \"Takaisin\" button to return to word list. Progress bar showing phase 2 of 3.",
           "files": [
             "svelte/src/routes/valitut-sanat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
