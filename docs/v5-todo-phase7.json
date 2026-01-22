@@ -16,7 +16,8 @@
           "description": "Change version from current to \"5.0.0\"",
           "files": [
             "svelte/package.json"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "22.2",
@@ -25,7 +26,8 @@
           "files": [
             "svelte/src/routes/asetukset/+page.svelte",
             "svelte/src/routes/tietoja/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "22.3",
@@ -33,7 +35,8 @@
           "description": "Add V5.0.0 section with: Release date, Major features: polysemy support, stepwise reveal, new games, Breaking changes: data model version 5, Migration notes.",
           "files": [
             "VERSION_HISTORY.md"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
