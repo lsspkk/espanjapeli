@@ -10,7 +10,7 @@ export type GameState = 'home' | 'playing' | 'feedback' | 'report';
 /**
  * Available game types in the application
  */
-export type GameType = 'sanapeli' | 'yhdistasanat' | 'tarinat' | 'peppa';
+export type GameType = 'sanapeli' | 'yhdistasanat' | 'tarinat' | 'peppa' | 'mitasasanoit';
 
 /**
  * Game configuration interface

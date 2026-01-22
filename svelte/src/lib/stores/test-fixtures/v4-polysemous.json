@@ -1,0 +1,162 @@
+{
+  "version": 4,
+  "words": {
+    "tiempo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 75.0,
+          "practiceCount": 6,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-15T10:00:00.000Z",
+          "firstPracticed": "2024-01-01T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 68.0,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-14T10:00:00.000Z",
+          "firstPracticed": "2024-01-02T10:00:00.000Z"
+        }
+      }
+    },
+    "banco": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 82.0,
+          "practiceCount": 8,
+          "firstTryCount": 6,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-16T10:00:00.000Z",
+          "firstPracticed": "2024-01-03T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "hola": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 90.0,
+          "practiceCount": 10,
+          "firstTryCount": 9,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-17T10:00:00.000Z",
+          "firstPracticed": "2024-01-04T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 85.0,
+          "practiceCount": 8,
+          "firstTryCount": 7,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-16T10:00:00.000Z",
+          "firstPracticed": "2024-01-05T10:00:00.000Z"
+        }
+      }
+    },
+    "copa": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 70.0,
+          "practiceCount": 5,
+          "firstTryCount": 3,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-12T10:00:00.000Z",
+          "firstPracticed": "2024-01-06T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "planta": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 78.0,
+          "practiceCount": 7,
+          "firstTryCount": 5,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-18T10:00:00.000Z",
+          "firstPracticed": "2024-01-07T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 72.0,
+          "practiceCount": 6,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-17T10:00:00.000Z",
+          "firstPracticed": "2024-01-08T10:00:00.000Z"
+        }
+      }
+    },
+    "carta": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 88.0,
+          "practiceCount": 9,
+          "firstTryCount": 8,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-19T10:00:00.000Z",
+          "firstPracticed": "2024-01-09T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "adios": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 92.0,
+          "practiceCount": 11,
+          "firstTryCount": 10,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-20T10:00:00.000Z",
+          "firstPracticed": "2024-01-10T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 87.0,
+          "practiceCount": 9,
+          "firstTryCount": 8,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-19T10:00:00.000Z",
+          "firstPracticed": "2024-01-11T10:00:00.000Z"
+        }
+      }
+    }
+  },
+  "gameHistory": [],
+  "meta": {
+    "createdAt": "2024-01-01T10:00:00.000Z",
+    "updatedAt": "2024-01-20T10:00:00.000Z",
+    "totalGamesPlayed": 55,
+    "basicGamesPlayed": 50,
+    "kidsGamesPlayed": 5
+  }
+}

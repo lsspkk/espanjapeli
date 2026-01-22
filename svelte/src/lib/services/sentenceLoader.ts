@@ -1,9 +1,7 @@
 /**
  * Sentence loader service for loading and managing Tatoeba sentence content
  * 
- * Data source: Tatoeba (https://tatoeba.org)
- * License: CC-BY 2.0 FR (https://creativecommons.org/licenses/by/2.0/fr/)
- * Attribution: Sentences from Tatoeba.org contributors
+
  */
 
 import { base } from '$app/paths';

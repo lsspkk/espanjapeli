@@ -1,0 +1,5861 @@
+[
+  {
+    "id": "2482",
+    "spanish": "Tengo que irme a dormir.",
+    "finnish": "Minun täytyy mennä nukkumaan.",
+    "english": "I have to go to sleep.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2630",
+    "spanish": "Me gusta la luz de las velas.",
+    "finnish": "Pidän kynttilän valosta.",
+    "english": "I like candlelight.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2793",
+    "spanish": "No podemos dormir por el ruido.",
+    "finnish": "Emme voi nukkua melun vuoksi.",
+    "english": "We can't sleep because of the noise.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2946",
+    "spanish": "Demasiado tarde.",
+    "finnish": "Liian myöhäistä.",
+    "english": "Too late.",
+    "wordCount": 2,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3058",
+    "spanish": "Todas las mañanas y todas las noches le doy de comer a mi gato.",
+    "finnish": "Syötän kissani joka aamu ja joka ilta.",
+    "english": "I feed my cat every morning and every evening.",
+    "wordCount": 14,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "338624",
+    "spanish": "Volveré a llamar más tarde.",
+    "finnish": "Soitan myöhemmin uudestaan.",
+    "english": "I'll call again later.",
+    "wordCount": 5,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "338917",
+    "spanish": "¿Dónde está el baño?",
+    "finnish": "Missä on vessa?",
+    "english": "Where is the toilet?",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "339401",
+    "spanish": "Mi hija tiene previsto casarse en junio.",
+    "finnish": "Tyttäreni menee naimisiin kesäkuussa.",
+    "english": "My daughter is to get married in June.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "342281",
+    "spanish": "Él dejó la puerta abierta.",
+    "finnish": "Hän jätti oven auki.",
+    "english": "He left the door open.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "343486",
+    "spanish": "Hiciste una promesa.",
+    "finnish": "Sinä lupasit.",
+    "english": "You have made a promise.",
+    "wordCount": 3,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "343693",
+    "spanish": "A él le gusta cocinar para su familia.",
+    "finnish": "Hänestä on mukavaa laittaa ruokaa perheelleen.",
+    "english": "He likes cooking for his family.",
+    "wordCount": 8,
+    "categories": [
+      "food",
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "343828",
+    "spanish": "Llegué tarde a la escuela por un accidente.",
+    "finnish": "Myöhästyin koulusta onnettomuuden vuoksi.",
+    "english": "I was late for school on account of an accident.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "345196",
+    "spanish": "Él escondió los juguetes bajo la cama.",
+    "finnish": "Hän piilotti lelunsa sängyn alle.",
+    "english": "He hid his toys under the bed.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "345592",
+    "spanish": "Jim lleva tres días en cama con la gripe.",
+    "finnish": "Jim on maannut flunssassa kolme päivää.",
+    "english": "Jim has been laid up with flu for three days.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "346603",
+    "spanish": "¿Lloverá mañana?",
+    "finnish": "Sataakohan huomenna?",
+    "english": "Is it going to rain tomorrow?",
+    "wordCount": 2,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "355717",
+    "spanish": "¿Está tu madre en casa?",
+    "finnish": "Onko sinun äitisi kotona?",
+    "english": "Is your mother at home now?",
+    "wordCount": 5,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "398411",
+    "spanish": "El bebé lloró toda la noche.",
+    "finnish": "Vauva itki koko yön.",
+    "english": "The baby cried all night.",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "434619",
+    "spanish": "¿Venden ustedes zapatos deportivos?",
+    "finnish": "Myyttekö urheilukenkiä?",
+    "english": "Do you sell sport shoes?",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "436198",
+    "spanish": "¿Cuánto cuesta la silla de madera?",
+    "finnish": "Paljonko puinen tuoli maksaa?",
+    "english": "How much does the wooden chair cost?",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "437038",
+    "spanish": "Quiero limpiar la casa antes de que vuelvan mis padres.",
+    "finnish": "Haluan siivota talon ennen kuin vanhempani tulevat takaisin.",
+    "english": "I want to clean the house before my parents return.",
+    "wordCount": 10,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "445679",
+    "spanish": "Tengo que limpiar mi habitación.",
+    "finnish": "Minun pitää siivota huoneeni.",
+    "english": "I have to clean my room.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "445764",
+    "spanish": "El ruido va a despertar al bebé.",
+    "finnish": "Melu herättää vauvan.",
+    "english": "The noise will wake the baby up.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "449686",
+    "spanish": "Hacía mucho frío ayer por la mañana.",
+    "finnish": "Eilisaamuna ilma oli tosi kylmä.",
+    "english": "It was very cold yesterday morning.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "449719",
+    "spanish": "¿Qué comiste para desayunar?",
+    "finnish": "Mitä söit aamiaiseksi?",
+    "english": "What did you eat for breakfast?",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "454975",
+    "spanish": "Perdóname por haber roto mi promesa.",
+    "finnish": "Anteeksi, että rikoin lupaukseni.",
+    "english": "Forgive me for breaking my promise.",
+    "wordCount": 6,
+    "categories": [
+      "greetings",
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "459192",
+    "spanish": "Vete a dormir.",
+    "finnish": "Mene nukkumaan.",
+    "english": "Just go to sleep.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "459248",
+    "spanish": "Mi mujer está cocinando.",
+    "finnish": "Vaimoni laittaa ruokaa.",
+    "english": "My wife is cooking.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "461023",
+    "spanish": "Buenas noches. Dulces sueños.",
+    "finnish": "Hyvää yötä. Kauniita unia.",
+    "english": "Good night. Sweet dreams.",
+    "wordCount": 4,
+    "categories": [
+      "greetings",
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "475569",
+    "spanish": "¡Me voy a la cama!",
+    "finnish": "Menen nukkumaan.",
+    "english": "I'm going to bed.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "475701",
+    "spanish": "Estoy intentando dormir.",
+    "finnish": "Yritän nukkua.",
+    "english": "I'm trying to sleep.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "488868",
+    "spanish": "Hay una naranja sobre la mesa.",
+    "finnish": "Pöydällä on appelsiini.",
+    "english": "There's an orange on the table.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "488869",
+    "spanish": "Ojalá me hubiera casado con ella.",
+    "finnish": "Olisinpa vaan mennyt hänen kanssaan naimisiin.",
+    "english": "I wish I had married her.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "490858",
+    "spanish": "Hay un gato en la cocina.",
+    "finnish": "Keittiössä on kissa.",
+    "english": "There is a cat in the kitchen.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "490919",
+    "spanish": "Esta mesa está reservada.",
+    "finnish": "Tämä pöytä on varattu.",
+    "english": "This table is reserved.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "travel",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "491133",
+    "spanish": "Ella está casada con un extranjero.",
+    "finnish": "Hän on naimisissa ulkomaalaisen kanssa.",
+    "english": "She is married to a foreigner.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "496806",
+    "spanish": "Lo encontré tumbado sobre la cama.",
+    "finnish": "Löysin hänet makaamassa sängyllä.",
+    "english": "I found him lying on the bed.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "496822",
+    "spanish": "Él entró por la ventana.",
+    "finnish": "Hän tuli sisään ikkunasta.",
+    "english": "He came in through the window.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "497498",
+    "spanish": "Él está orgulloso de no haber llegado nunca tarde a clase.",
+    "finnish": "Hän on ylpeä siitä, että hän ei ole koskaan tullut oppitunnille myöhässä.",
+    "english": "He is proud of never having been late for school.",
+    "wordCount": 11,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "497587",
+    "spanish": "Hasta mañana.",
+    "finnish": "Nähdään huomenna.",
+    "english": "See you again tomorrow.",
+    "wordCount": 2,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "499685",
+    "spanish": "Lamento llegar tarde.",
+    "finnish": "Pahoittelen, että olen myöhässä.",
+    "english": "I'm sorry about being late.",
+    "wordCount": 3,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "503046",
+    "spanish": "Llegué tarde a la escuela.",
+    "finnish": "Tulin myöhässä kouluun.",
+    "english": "I was late to school.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "503292",
+    "spanish": "¿Estás casado?",
+    "finnish": "Ooksä naimisis?",
+    "english": "Are you married?",
+    "wordCount": 2,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "503616",
+    "spanish": "Enciende la luz, por favor.",
+    "finnish": "Sytytä valot, kiitos.",
+    "english": "Turn on the light, please.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "504448",
+    "spanish": "Deberías desayunar todos los días.",
+    "finnish": "Sinun pitäisi syödä aamupalaa joka päivä.",
+    "english": "You should have breakfast every day.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "504454",
+    "spanish": "Él vino a mi habitación.",
+    "finnish": "Hän tuli minun huoneeseeni.",
+    "english": "He came into my room.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "504459",
+    "spanish": "Buenas noches, que duermas bien.",
+    "finnish": "Hyvää yötä. Nuku hyvin.",
+    "english": "Good night, sleep tight.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "506051",
+    "spanish": "Mi madre cocina bien.",
+    "finnish": "Minun äitini on taitava kokki.",
+    "english": "My mother cooks well.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "506210",
+    "spanish": "¿Dónde está su libro? \"Está sobre la mesa.\"",
+    "finnish": "”Missä hänen kirjansa on?” ”Se on pöydällä.”",
+    "english": "Where is her book? \"It's on the table.\"",
+    "wordCount": 8,
+    "categories": [
+      "food",
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "506730",
+    "spanish": "Él siempre llega tarde a la escuela.",
+    "finnish": "Hän saapuu aina myöhässä kouluun.",
+    "english": "He is always late for school.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "509763",
+    "spanish": "Nos casamos hace siete años.",
+    "finnish": "Menimme naimisiin seitsemän vuotta sitten.",
+    "english": "We married seven years ago.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "512333",
+    "spanish": "La casa está embrujada.",
+    "finnish": "Talossa kummittelee.",
+    "english": "The house is haunted.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "513437",
+    "spanish": "Había un gato sobre la mesa.",
+    "finnish": "Pöydän päällä oli kissa.",
+    "english": "On the table there was a cat.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "521079",
+    "spanish": "Hay una escuela cerca de mi casa.",
+    "finnish": "Minun kotini lähellä on koulu.",
+    "english": "There is a school near my house.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "523579",
+    "spanish": "Hay una manzana sobre la mesa.",
+    "finnish": "Pöydällä on omena.",
+    "english": "There is an apple on the table.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "528431",
+    "spanish": "¡Buenas noches!",
+    "finnish": "Hyvää illanjatkoa!",
+    "english": "Goodnight!",
+    "wordCount": 2,
+    "categories": [
+      "greetings",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "532548",
+    "spanish": "Cierra la puerta al salir.",
+    "finnish": "Laita ovi kiinni lähtiessäsi.",
+    "english": "Close the door when you leave.",
+    "wordCount": 5,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "532549",
+    "spanish": "Cierra la puerta cuando te vayas.",
+    "finnish": "Sulje ovi, kun lähdet.",
+    "english": "Close the door when you leave.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "538662",
+    "spanish": "Encendí la luz.",
+    "finnish": "Panin valot päälle.",
+    "english": "I turned on the lights.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "540000",
+    "spanish": "Papá no está en casa.",
+    "finnish": "Isi ei oo kotona.",
+    "english": "Dad's not home.",
+    "wordCount": 5,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "541301",
+    "spanish": "Mañana viene mi tío a visitarnos.",
+    "finnish": "Enoni tulee huomenna käymään meillä.",
+    "english": "My uncle is coming to see us tomorrow.",
+    "wordCount": 6,
+    "categories": [
+      "travel",
+      "family",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "541351",
+    "spanish": "Hay un libro sobre la mesa.",
+    "finnish": "Pöydän päällä on kirja.",
+    "english": "There is a book on the table.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "545613",
+    "spanish": "Un gato estaba sentado en la silla.",
+    "finnish": "Tuolilla istui kissa.",
+    "english": "A cat was sitting on the chair.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "551539",
+    "spanish": "Querido, ven a la cama. \"No, todavía no. Aún debo traducir algunas frases en Tatoeba.\"",
+    "finnish": "”Kulta, tule sänkyyn.” ”Ei vielä. Minun täytyy vielä kääntää pari lausetta Tatoebassa.”",
+    "english": "Honey, come to bed. \"No, not yet. I still have to translate some sentences on Tatoeba.\"",
+    "wordCount": 15,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "564598",
+    "spanish": "¿Dónde está tu habitación?",
+    "finnish": "Missä sinun huoneesi on?",
+    "english": "Where is your room?",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "569523",
+    "spanish": "¿Cómo se siente estar de vuelta en casa?",
+    "finnish": "Miltä tuntuu olla taas kotona?",
+    "english": "How does it feel to be back home?",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "572436",
+    "spanish": "Me escondí debajo de la mesa.",
+    "finnish": "Piilouduin pöydän alle.",
+    "english": "I hid under the table.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "584251",
+    "spanish": "Todas las casas en esta vecindad se parecen tanto que no las puedo distinguir.",
+    "finnish": "Kaikki tämän asuinalueen talot näyttävät niin samanlaisilta, että en erota niitä toisistaan.",
+    "english": "All the houses in this neighborhood look so much alike that I can't tell them apart.",
+    "wordCount": 14,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "588018",
+    "spanish": "¿Podrías cerrar la ventana?",
+    "finnish": "Voisitko sulkea ikkunan?",
+    "english": "Could you close the window, please?",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "589014",
+    "spanish": "Nunca hago la cama.",
+    "finnish": "En koskaan petaa sänkyä.",
+    "english": "I never make my bed.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "589026",
+    "spanish": "La casa está fría.",
+    "finnish": "Talo on kylmä.",
+    "english": "The house is cold.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "589521",
+    "spanish": "Estos zapatos son de ella.",
+    "finnish": "Nämä kengät ovat hänen.",
+    "english": "These shoes are hers.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "599154",
+    "spanish": "Maria gasta mucho dinero en ropa.",
+    "finnish": "Maria käyttää paljon rahaa vaatteisiin.",
+    "english": "Maria spends a lot of money on clothes.",
+    "wordCount": 6,
+    "categories": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "601848",
+    "spanish": "Él vive en una casa grande.",
+    "finnish": "Hän asuu isossa talossa.",
+    "english": "He lives in a big house.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "602554",
+    "spanish": "Tu casa es grande.",
+    "finnish": "Talosi on suuri.",
+    "english": "Your house is big.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "619612",
+    "spanish": "Lo haré mañana.",
+    "finnish": "Teen sen huomenna.",
+    "english": "I'll do it tomorrow.",
+    "wordCount": 3,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "625816",
+    "spanish": "Era una noche oscura y tormentosa.",
+    "finnish": "Oli synkkä ja myrskyinen yö.",
+    "english": "It was a dark and stormy night.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "632659",
+    "spanish": "Escribí una carta ayer por la noche.",
+    "finnish": "Eilen illalla kirjoitin kirjeen.",
+    "english": "I wrote a letter last night.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "634729",
+    "spanish": "Mi madre está en la cocina.",
+    "finnish": "Minun äitini on keittiössä.",
+    "english": "My mother is in the kitchen.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "638651",
+    "spanish": "¿Puedes apagar la luz?",
+    "finnish": "Voisitko sammuttaa valot?",
+    "english": "Could you turn off the lights?",
+    "wordCount": 4,
+    "categories": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "642253",
+    "spanish": "Tomaba un baño cuando el teléfono sonó.",
+    "finnish": "Olin kylvyssä, kun puhelin soi.",
+    "english": "I was taking a bath when the telephone rang.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "660241",
+    "spanish": "Puede que ella venga mañana.",
+    "finnish": "Hän tulee ehkä huomenna.",
+    "english": "Perhaps she will come tomorrow.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "668437",
+    "spanish": "Él llegó treinta minutos tarde.",
+    "finnish": "Hän saapui kolmekymmentä minuuttia myöhässä.",
+    "english": "He turned up 30 minutes late.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "669413",
+    "spanish": "Iker Casillas es el mejor portero del mundo.",
+    "finnish": "Iker Casillas on maailman paras maalivahti.",
+    "english": "Iker Casillas is the best goalie in the world.",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "674842",
+    "spanish": "Ésa es su casa.",
+    "finnish": "Tuo on hänen talonsa.",
+    "english": "That is his house.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "690132",
+    "spanish": "Follaron toda la noche.",
+    "finnish": "Ne nussi koko yön.",
+    "english": "They fucked all night long.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "707477",
+    "spanish": "¿A qué hora sueles irte a dormir?",
+    "finnish": "Monelta menet yleensä nukkumaan?",
+    "english": "What time do you usually go to bed?",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "710867",
+    "spanish": "Su casa no está lejos de aquí.",
+    "finnish": "Hänen kotinsa ei ole kaukana täältä.",
+    "english": "His house is not far from here.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "714776",
+    "spanish": "Tarde o temprano él me dirá todo.",
+    "finnish": "Hän kertoo kaiken minulle ennemmin tai myöhemmin.",
+    "english": "Sooner or later he will tell me everything.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "716854",
+    "spanish": "Hay un perro debajo de la mesa.",
+    "finnish": "Pöydän alla on koira.",
+    "english": "There is a dog under the table.",
+    "wordCount": 7,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "723215",
+    "spanish": "Nuestro gato está en la cocina.",
+    "finnish": "Meidän kissamme on keittiössä.",
+    "english": "Our cat is in the kitchen.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "731207",
+    "spanish": "Mañana es su cumpleaños.",
+    "finnish": "Hänellä on huomenna syntymäpäivä.",
+    "english": "Tomorrow is her birthday.",
+    "wordCount": 4,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "746298",
+    "spanish": "Siempre estoy en casa los domingos.",
+    "finnish": "Olen sunnuntaisin aina kotona.",
+    "english": "I am always at home on Sundays.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "749912",
+    "spanish": "¡Buenas noches a todos!",
+    "finnish": "Hyvää yötä kaikille!",
+    "english": "Good night, everybody!",
+    "wordCount": 4,
+    "categories": [
+      "greetings",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "750503",
+    "spanish": "Anoche se me ocurrió una buena idea.",
+    "finnish": "Minulle tuli viime yönä mieleen hyvä idea.",
+    "english": "A good idea occurred to me last night.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "759999",
+    "spanish": "Su casa está muy lejos de la estación.",
+    "finnish": "Hänen talonsa on hyvin kaukana asemalta.",
+    "english": "His house is very far from the station.",
+    "wordCount": 8,
+    "categories": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "770904",
+    "spanish": "Dejé la puerta abierta.",
+    "finnish": "Jätin oven auki.",
+    "english": "I left the door open.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "771912",
+    "spanish": "No pude dormir.",
+    "finnish": "En voinut nukkua.",
+    "english": "I couldn't sleep.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "778554",
+    "spanish": "Apenas tenemos tiempo para desayunar.",
+    "finnish": "Meillä on aikaa tuskin aamiaiseen.",
+    "english": "We hardly have time to eat breakfast.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "778583",
+    "spanish": "¡Buenas tardes!",
+    "finnish": "Hyvää iltaa!",
+    "english": "Good afternoon.",
+    "wordCount": 2,
+    "categories": [
+      "greetings",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "803417",
+    "spanish": "Se casaron hace tres meses.",
+    "finnish": "He menivät naimisiin kolme kuukautta sitten.",
+    "english": "They got married three months ago.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "805675",
+    "spanish": "Volvió dos días más tarde.",
+    "finnish": "Hän tuli takaisin kaksi päivää myöhemmin.",
+    "english": "He came back two days later.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "812542",
+    "spanish": "Deja que te lleve a casa.",
+    "finnish": "Anna minun viedä sinut kotiin.",
+    "english": "Let me take you home.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "821953",
+    "spanish": "¿Estás contento con tu nueva casa?",
+    "finnish": "Oletko tyytyväinen uuteen taloosi?",
+    "english": "Are you pleased with your new house?",
+    "wordCount": 6,
+    "categories": [
+      "emotions",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "836669",
+    "spanish": "Tengo una casa en las montañas.",
+    "finnish": "Minulla on talo vuorilla.",
+    "english": "I have a house in the mountains.",
+    "wordCount": 6,
+    "categories": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "840768",
+    "spanish": "Me quedé en casa para descansar.",
+    "finnish": "Mä jäin kotiin lepäämään.",
+    "english": "I stayed home to rest.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "840953",
+    "spanish": "Ya es demasiado tarde.",
+    "finnish": "On jo liian myöhäistä.",
+    "english": "It's already too late.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "856232",
+    "spanish": "Te llamaré cuando llegue a casa.",
+    "finnish": "Soitan sinulle kun pääsen kotiin.",
+    "english": "I'll give you a call when I get home.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "856346",
+    "spanish": "El baño está listo.",
+    "finnish": "Kylpy on valmis.",
+    "english": "The bath is ready.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "856559",
+    "spanish": "¿Cuándo te vas a casar?",
+    "finnish": "Koska menette naimisiin?",
+    "english": "When will you get married?",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "856700",
+    "spanish": "Estaré allí mañana.",
+    "finnish": "Tulen olemaan siellä huomenna.",
+    "english": "I'll be there tomorrow.",
+    "wordCount": 3,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "859727",
+    "spanish": "Tengo muchas cosas que hacer esta tarde.",
+    "finnish": "Minulla on paljon tekemistä tänään iltapäivällä.",
+    "english": "I have a lot of things to do this afternoon.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "860220",
+    "spanish": "Ella tenía puesto un traje de baño rojo.",
+    "finnish": "Hänellä oli yllään punainen uimapuku.",
+    "english": "She was dressed in a red bathing suit.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "862786",
+    "spanish": "Fue una noche oscura.",
+    "finnish": "Oli pimeä yö.",
+    "english": "It was a dark night.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "869936",
+    "spanish": "¿Saliste anoche?",
+    "finnish": "Olitko ulkona eilen illalla?",
+    "english": "Were you out last night?",
+    "wordCount": 2,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "870562",
+    "spanish": "La puerta se cierra automáticamente.",
+    "finnish": "Ovi menee automaattisesti kiinni.",
+    "english": "The door locks automatically.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "871149",
+    "spanish": "¿Qué harías si el mundo se acabara mañana?",
+    "finnish": "Mitä tekisit, jos huomenna olisi tulossa maailmanloppu?",
+    "english": "What would you do if the world were to come to an end tomorrow?",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "872348",
+    "spanish": "Buenas tardes.",
+    "finnish": "Iltaa.",
+    "english": "Good afternoon.",
+    "wordCount": 2,
+    "categories": [
+      "greetings",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "876879",
+    "spanish": "A mí me gusta la luz de las velas.",
+    "finnish": "Pidän kynttilän valosta.",
+    "english": "I like candlelight.",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "885672",
+    "spanish": "Me quedaré en casa.",
+    "finnish": "Minä jään kotiin.",
+    "english": "I'll stay home.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "919373",
+    "spanish": "Tu habitación es el doble de grande que la mía.",
+    "finnish": "Huoneesi on kaksi kertaa omaani suurempi.",
+    "english": "Your room is twice the size of mine.",
+    "wordCount": 10,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "943839",
+    "spanish": "Trabajo tres horas cada domingo por la mañana.",
+    "finnish": "Minä työskentelen kolme tuntia joka sunnuntaiaamu.",
+    "english": "I work for three hours every Sunday morning.",
+    "wordCount": 8,
+    "categories": [
+      "work",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "947257",
+    "spanish": "Tuve un sueño extraño anoche.",
+    "finnish": "Näin outoa unta viime yönä.",
+    "english": "I had a strange dream last night.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "950152",
+    "spanish": "Encontré mis zapatos.",
+    "finnish": "Löysin kenkäni.",
+    "english": "I found my shoes.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "963799",
+    "spanish": "Esta casa tiene seis habitaciones.",
+    "finnish": "Tässä talossa on kuusi huonetta.",
+    "english": "This house has six rooms.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "971517",
+    "spanish": "La luz se desplaza más rápido que el sonido.",
+    "finnish": "Valo kulkee ääntä nopeammin.",
+    "english": "Light travels faster than sound.",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "976248",
+    "spanish": "La casa está ardiendo.",
+    "finnish": "Talo palaa.",
+    "english": "The house is burning.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "980370",
+    "spanish": "Me molesta que llegue siempre tarde.",
+    "finnish": "Minua häiritsee, että hän aina myöhästyy.",
+    "english": "It bothers me that she's always late.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "988251",
+    "spanish": "Me desperté y vi un ladrón en mi habitación.",
+    "finnish": "Mä heräsin ja näin varkaan mun huoneessa.",
+    "english": "I awoke to find a burglar in my room.",
+    "wordCount": 9,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "998484",
+    "spanish": "¿A qué hora te vas a dormir?",
+    "finnish": "Monelta sinä menet nukkumaan?",
+    "english": "What time do you go to bed?",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1001434",
+    "spanish": "María se gasta mucho dinero en ropa.",
+    "finnish": "Maria käyttää paljon rahaa vaatteisiin.",
+    "english": "Maria spends a lot of money on clothes.",
+    "wordCount": 7,
+    "categories": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1011493",
+    "spanish": "¿Te molesta si abro la ventana?",
+    "finnish": "Saanko avata ikkunan?",
+    "english": "Do you mind if I open the window?",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1013631",
+    "spanish": "Cuando ella le abrió su corazón, era demasiado tarde.",
+    "finnish": "Kun hän avasi sydämensä hänelle, se oli jo liian myöhäistä.",
+    "english": "When she opened her heart to him, it was already too late.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1013884",
+    "spanish": "Estoy en casa.",
+    "finnish": "Olen kotona.",
+    "english": "I'm home.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1023564",
+    "spanish": "Les llamaré mañana cuando regrese.",
+    "finnish": "Soitan heille huomenna, kun tulen takaisin.",
+    "english": "I'll call them tomorrow when I come back.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1078824",
+    "spanish": "¿Estás libre esta tarde?",
+    "finnish": "Oletko vapaana iltapäivällä?",
+    "english": "Are you free this afternoon?",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1079569",
+    "spanish": "No puedo abrir la puerta. ¿Tenés la llave?",
+    "finnish": "En saa ovea auki. Onko sinulla avain?",
+    "english": "I can't open the door. Do you have the key?",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1080483",
+    "spanish": "Ella prometió casarse con él.",
+    "finnish": "Hän lupasi mennä naimisiin hänen kanssaan.",
+    "english": "She promised to marry him.",
+    "wordCount": 5,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1080774",
+    "spanish": "La noche era tan oscura, casi tan oscura como su corazón.",
+    "finnish": "Yö oli niin pimeä, melkein yhtä pimeä kuin hänen sydämensä.",
+    "english": "The night was so dark, almost as dark as her heart.",
+    "wordCount": 11,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1084654",
+    "spanish": "El techo de mi casa es rojo.",
+    "finnish": "Kotini katto on punainen.",
+    "english": "The roof of my house is red.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1105031",
+    "spanish": "Las ventanas están abiertas.",
+    "finnish": "Ikkunat ovat auki.",
+    "english": "The windows are open.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1108695",
+    "spanish": "¡Hasta mañana!",
+    "finnish": "Nähdään huomenna!",
+    "english": "See you tomorrow!",
+    "wordCount": 2,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1111692",
+    "spanish": "¡La casa se está incendiando!",
+    "finnish": "Talo palaa!",
+    "english": "The house is on fire!",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1116443",
+    "spanish": "No puedo dormir con tanto ruido.",
+    "finnish": "En pysty nukkua tässä metelissä.",
+    "english": "I can't sleep with all this noise.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1116444",
+    "spanish": "No puedo dormir con todo este jaleo.",
+    "finnish": "En pysty nukkua tässä metelissä.",
+    "english": "I can't sleep with all this noise.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1116446",
+    "spanish": "No puedo dormir con este alboroto.",
+    "finnish": "En pysty nukkua tässä metelissä.",
+    "english": "I can't sleep with all this noise.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1116617",
+    "spanish": "Sally obligó a su hermano a limpiar el baño.",
+    "finnish": "Sally pakotti veljensä siivoamaan vessan.",
+    "english": "Sally made his brother clean the bathroom.",
+    "wordCount": 9,
+    "categories": [
+      "food",
+      "family",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1116629",
+    "spanish": "A partir de mañana, esta dirección de correo electrónico será inválida.",
+    "finnish": "Huomisesta lähtien tämä sähköpostiosoite on poissa käytöstä.",
+    "english": "As of tomorrow, this e-mail address will be invalid.",
+    "wordCount": 11,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1120204",
+    "spanish": "Anoche comimos arroz con curry.",
+    "finnish": "Söimme curryriisiä eilen illalla.",
+    "english": "We ate curry rice last night.",
+    "wordCount": 5,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1123465",
+    "spanish": "Estoy disponible esta noche.",
+    "finnish": "Olen vapaa tänä yönä.",
+    "english": "I'm free this evening.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1124675",
+    "spanish": "¿Estáis en casa?",
+    "finnish": "Oletteko te kotona?",
+    "english": "Are you all home?",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1126385",
+    "spanish": "Por favor, apaga la luz cuando dejes la habitación.",
+    "finnish": "Sammutathan valot, kun lähdet huoneesta.",
+    "english": "Please put the light out when you leave the room.",
+    "wordCount": 9,
+    "categories": [
+      "greetings",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1126390",
+    "spanish": "Deberías apagar la luz antes de irte a dormir.",
+    "finnish": "Sinun pitäisi sammuttaa valot ennen nukkumaan menemistä.",
+    "english": "You should turn off the light before going to sleep.",
+    "wordCount": 9,
+    "categories": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1126576",
+    "spanish": "Él ha roto la ventana intencionadamente.",
+    "finnish": "Hän rikkoi ikkunan tahallaan.",
+    "english": "He broke the window intentionally.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1129903",
+    "spanish": "Estuve fuera de casa durante todas las vacaciones de verano.",
+    "finnish": "Olin poissa kotoa koko kesäloman ajan.",
+    "english": "I was away from home all through the summer vacation.",
+    "wordCount": 10,
+    "categories": [
+      "travel",
+      "leisure",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1131037",
+    "spanish": "Siempre mantengo mis promesas.",
+    "finnish": "Pidän aina lupaukseni.",
+    "english": "I always keep my promises.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1132750",
+    "spanish": "Mi hija se va a casar en junio.",
+    "finnish": "Tyttäreni menee naimisiin kesäkuussa.",
+    "english": "My daughter is getting married in June.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1134200",
+    "spanish": "Mi habitación es la número cinco.",
+    "finnish": "Huoneeni on numero viisi.",
+    "english": "My room is number five.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1134273",
+    "spanish": "Volveremos a los detalles de este problema más tarde.",
+    "finnish": "Palataan ongelman yksityiskohtiin myöhemmin.",
+    "english": "We'll return to the details of this problem later.",
+    "wordCount": 9,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1135956",
+    "spanish": "Mañana estudiaré mucho.",
+    "finnish": "Huomenna aion opiskella paljon.",
+    "english": "I'll study hard tomorrow.",
+    "wordCount": 3,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1136887",
+    "spanish": "¿Y qué si él fracasa?",
+    "finnish": "Ja mitä jos hän epäonnistuu?",
+    "english": "If he fails, so what?",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1138450",
+    "spanish": "Hay un incendio en mi cocina.",
+    "finnish": "Mun keittiössä on tulipalo.",
+    "english": "There's a fire in my kitchen.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1147705",
+    "spanish": "Era mi turno de limpiar la habitación.",
+    "finnish": "Oli minun vuoroni siivota huone.",
+    "english": "It was my turn to clean the room.",
+    "wordCount": 7,
+    "categories": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1155880",
+    "spanish": "Yo le temo a la oscuridad.",
+    "finnish": "Minä pelkään pimeää.",
+    "english": "I'm afraid of the dark.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1167304",
+    "spanish": "Tom tuvo una entrevista de trabajo esta mañana.",
+    "finnish": "Tomilla oli työhaastattelu tänä aamuna.",
+    "english": "Tom had a job interview this morning.",
+    "wordCount": 8,
+    "categories": [
+      "work",
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1169658",
+    "spanish": "Ellos partieron anoche.",
+    "finnish": "He lähtivät eilen illalla.",
+    "english": "They set out last night.",
+    "wordCount": 3,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1172684",
+    "spanish": "La puerta no abre.",
+    "finnish": "Ovi ei aukea.",
+    "english": "The door doesn't open.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1182845",
+    "spanish": "Mi casa está cerca del parque.",
+    "finnish": "Minun kotini on lähellä puistoa.",
+    "english": "My house is close to the park.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1188781",
+    "spanish": "¿Qué tiene de malo estar desnudo en tu propia casa?",
+    "finnish": "Mitä vikaa on olla alasti omassa kodissaan!",
+    "english": "What's wrong with being nude in your own house?",
+    "wordCount": 10,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1189766",
+    "spanish": "Estoy casado con una polaca.",
+    "finnish": "Olen naimisissa puolalaisen naisen kanssa.",
+    "english": "I am married to a Polish woman.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1189961",
+    "spanish": "Él estaba ebrio y olvidó cerrar la puerta trasera.",
+    "finnish": "Hän oli juovuksissa ja unohti sulkea takaoven.",
+    "english": "He was drunk and forgot to shut the back door.",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1192970",
+    "spanish": "¡La casa está ardiendo!",
+    "finnish": "Talo palaa!",
+    "english": "The house is on fire!",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1196533",
+    "spanish": "Yo llegué más tarde de lo acostumbrado.",
+    "finnish": "Saavuin perille tavallista myöhemmin.",
+    "english": "I arrived later than usual.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1198064",
+    "spanish": "La casa en la que estoy viviendo no es muy grande.",
+    "finnish": "Talo jossa asun ei ole kovin suuri.",
+    "english": "The house I'm living in isn't very large.",
+    "wordCount": 11,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1201515",
+    "spanish": "Anoche Tom tuvo un sueño extraño.",
+    "finnish": "Tom näki viime yönä outoa unta.",
+    "english": "Tom had a weird dream last night.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1205441",
+    "spanish": "Es de mañana aquí en mi huso horario.",
+    "finnish": "Täällä minun aikavyöhykkeelläni on nyt aamu.",
+    "english": "It's morning here in my time zone.",
+    "wordCount": 8,
+    "categories": [
+      "work",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1225944",
+    "spanish": "Disculpe, camarero. Hay un pelo en mi sopa.",
+    "finnish": "Anteeksi tarjoilija. Keitossani on hius.",
+    "english": "Excuse me, waiter. There's a hair in my soup.",
+    "wordCount": 8,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1235047",
+    "spanish": "Llegué tarde a casa.",
+    "finnish": "Tulin kotiin myöhään.",
+    "english": "I came back home late.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1240343",
+    "spanish": "¿Vuelves mañana?",
+    "finnish": "Tuletko huomenna takaisin?",
+    "english": "Are you coming back tomorrow?",
+    "wordCount": 2,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1243060",
+    "spanish": "Anoche tuve un sueño extraño.",
+    "finnish": "Näin outoa unta viime yönä.",
+    "english": "I had a strange dream last night.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1248014",
+    "spanish": "¡Te veo más tarde!",
+    "finnish": "Nähdään myöhemmin!",
+    "english": "See you later!",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1250964",
+    "spanish": "Tom debería haberse casado con Mary.",
+    "finnish": "Tomin olisi pitänyt mennä naimisiin Marin kanssa.",
+    "english": "Tom should have married Mary.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1255682",
+    "spanish": "Su hermano es casado, pero no tiene hijos.",
+    "finnish": "Hänen veljensä on naimisissa, mutta hänellä ei ole lapsia.",
+    "english": "His brother is married, but he doesn't have children.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1256262",
+    "spanish": "¿Cuántas lenguas hay en Europa?",
+    "finnish": "Montako kieltä Euroopassa on?",
+    "english": "How many languages are there in Europe?",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1262657",
+    "spanish": "Sobre la mesa había un gato.",
+    "finnish": "Pöydän päällä oli kissa.",
+    "english": "On the table there was a cat.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1264670",
+    "spanish": "Di a luz a mi primer hijo el año pasado.",
+    "finnish": "Sain ensimmäisen lapseni viime vuonna.",
+    "english": "I gave birth to my first child last year.",
+    "wordCount": 10,
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1266255",
+    "spanish": "Todas las plantas necesitan luz y agua.",
+    "finnish": "Kaikki kasvit tarvitsevat vettä ja valoa.",
+    "english": "All plants need water and light.",
+    "wordCount": 7,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1266779",
+    "spanish": "Él trabajaba de noche y dormía de día.",
+    "finnish": "Hän työskenteli öisin ja nukkui päivisin.",
+    "english": "He worked at night and slept in the daytime.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1272444",
+    "spanish": "El problema es que no tenemos donde quedarnos esta noche.",
+    "finnish": "Ongelma on se, ettei meillä ole yösijaa täksi yöksi.",
+    "english": "The trouble is that we have nowhere to stay tonight.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1281916",
+    "spanish": "Tom no quiere irse a casa.",
+    "finnish": "Tom ei halua mennä kotiin.",
+    "english": "Tom doesn't want to go home.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1284776",
+    "spanish": "El gato está debajo de la mesa.",
+    "finnish": "Kissa on pöydän alla.",
+    "english": "The cat is under the table.",
+    "wordCount": 7,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1287164",
+    "spanish": "¿A qué hora sueles ir a dormir?",
+    "finnish": "Monelta menet yleensä nukkumaan?",
+    "english": "What time do you usually go to bed?",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1290222",
+    "spanish": "¿Por qué está la luz encendida?",
+    "finnish": "Miksi valo on päällä?",
+    "english": "Why is the light on?",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1290466",
+    "spanish": "Alguien llamó a la puerta.",
+    "finnish": "Joku koputti oveen.",
+    "english": "Somebody knocked at the door.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1297031",
+    "spanish": "No me gusta el color de esta casa.",
+    "finnish": "En pidä tämän talon väristä.",
+    "english": "I don't like the colour of this house.",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1302123",
+    "spanish": "Esta silla está rota.",
+    "finnish": "Tämä tuoli on rikki.",
+    "english": "This chair is broken.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1306063",
+    "spanish": "Tom está en casa casi todas las noches.",
+    "finnish": "Tom on kotona lähes joka ilta.",
+    "english": "Tom is at home almost every evening.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1308660",
+    "spanish": "La guerra comenzó cinco años más tarde.",
+    "finnish": "Viisi vuotta myöhemmin syttyi sota.",
+    "english": "War began five years later.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1308661",
+    "spanish": "La guerra estalló cinco años más tarde.",
+    "finnish": "Viisi vuotta myöhemmin syttyi sota.",
+    "english": "War began five years later.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1316880",
+    "spanish": "Los ojos de los gatos son muy sensibles a la luz.",
+    "finnish": "Kissan silmät ovat erittäin valoherkät.",
+    "english": "Cats' eyes are very sensitive to light.",
+    "wordCount": 11,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1317412",
+    "spanish": "En la cocina falta un lavavajillas.",
+    "finnish": "Keittiöstä puuttuu tiskikone.",
+    "english": "The kitchen lacks a dishwasher.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1319881",
+    "spanish": "Tom salió con su novia la noche del sábado.",
+    "finnish": "Tom vei tyttöystävänsä ulos lauantai-iltana.",
+    "english": "Tom took his girlfriend out on Saturday night.",
+    "wordCount": 9,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1322517",
+    "spanish": "Tom rara vez llega tarde.",
+    "finnish": "Tomi tulee harvoin myöhässä.",
+    "english": "Tom is rarely late.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1323150",
+    "spanish": "No había baño.",
+    "finnish": "Siellä ei ollut kylpyhuonetta.",
+    "english": "There was no bathroom.",
+    "wordCount": 3,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1325216",
+    "spanish": "Escogí estos en lugar de los zapatos.",
+    "finnish": "Valitsin nämä kenkien sijaan.",
+    "english": "I chose these over the shoes.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1344879",
+    "spanish": "No dejes abiertas las ventanas.",
+    "finnish": "Älä jätä ikkunaa auki.",
+    "english": "Don't leave the windows open.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1348376",
+    "spanish": "La puerta no cierra.",
+    "finnish": "Ovi ei mene kiinni.",
+    "english": "The door won't close.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1354218",
+    "spanish": "Voy a estar ahí mañana.",
+    "finnish": "Tulen olemaan siellä huomenna.",
+    "english": "I will be there tomorrow.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1354223",
+    "spanish": "Voy a estar allí mañana.",
+    "finnish": "Tulen olemaan siellä huomenna.",
+    "english": "I will be there tomorrow.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1355787",
+    "spanish": "Tom ha estado casado tres veces.",
+    "finnish": "Tom on ollut naimisissa kolme kertaa.",
+    "english": "Tom has been married three times.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1359747",
+    "spanish": "Tom tiene mucho sueño porque anoche no durmió bien.",
+    "finnish": "Tomi on todella väsynyt, koska hän ei nukkunut hyvin viime yönä.",
+    "english": "Tom is very sleepy, because he didn't sleep well last night.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1359837",
+    "spanish": "Mi papá va a trotar todas las mañanas.",
+    "finnish": "Isä käy joka aamu lenkillä.",
+    "english": "My father goes jogging every morning.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1361204",
+    "spanish": "Ella limpió su habitación con prisa.",
+    "finnish": "Hän siivosi huoneensa kiireesti.",
+    "english": "She cleaned her room in a hurry.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1370372",
+    "spanish": "La luz se puso roja.",
+    "finnish": "Valo vaihtui punaiseksi.",
+    "english": "The light turned red.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1386200",
+    "spanish": "Alguien rompió la ventana.",
+    "finnish": "Joku rikkoi ikkunan.",
+    "english": "Someone broke the window.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1386756",
+    "spanish": "Me levanté cuando todavía era de noche.",
+    "finnish": "Nousin sängystä, kun oli vielä pimeää.",
+    "english": "I got up while it was still dark.",
+    "wordCount": 7,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1387944",
+    "spanish": "Terminó la guerra en Europa.",
+    "finnish": "Sota loppui Euroopassa.",
+    "english": "The war in Europe ended.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1406586",
+    "spanish": "Ella puso su casa en venta.",
+    "finnish": "Hän on laittanut talonsa myyntiin.",
+    "english": "She has put her house up for sale.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1411121",
+    "spanish": "¿A qué hora fuiste a dormir ayer?",
+    "finnish": "Monelta menit nukkumaan eilen?",
+    "english": "What time did you go to sleep yesterday?",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1424429",
+    "spanish": "Ella entró por la puerta trasera para que no la vieran.",
+    "finnish": "Hän tuli sisään takaovesta, ettei häntä huomattaisi.",
+    "english": "She came in through the back door lest she be seen.",
+    "wordCount": 11,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1426327",
+    "spanish": "Nadie me dijo que había fracasado.",
+    "finnish": "Kukaan ei kertonut minulle, että hän oli epäonnistunut.",
+    "english": "No one told me that she had failed.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1432051",
+    "spanish": "La puerta está abierta. Voy a cerrarla.",
+    "finnish": "Ovi on auki. Minä suljen sen.",
+    "english": "The door is open. I'll go and shut it.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1433379",
+    "spanish": "Tengo que quedarme en casa.",
+    "finnish": "Minun pitää jäädä kotiin.",
+    "english": "I have to stay home.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1458400",
+    "spanish": "Tom fue directo a la cama.",
+    "finnish": "Tom meni suoraan sänkyyn.",
+    "english": "Tom went straight to bed.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1463308",
+    "spanish": "Vivo en la casa.",
+    "finnish": "Asun talossa.",
+    "english": "I live in the house.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1471356",
+    "spanish": "Él se queda levantado hasta tarde.",
+    "finnish": "Hän pysyttelee valveilla myöhään yöhön.",
+    "english": "He sits up till late at night.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1483193",
+    "spanish": "Estaba borracho y se le olvidó cerrar la puerta de atrás.",
+    "finnish": "Hän oli juovuksissa ja unohti sulkea takaoven.",
+    "english": "He was drunk and forgot to shut the back door.",
+    "wordCount": 11,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1493503",
+    "spanish": "Ya era demasiado tarde.",
+    "finnish": "Oli jo liian myöhäistä.",
+    "english": "It was already very late.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1493526",
+    "spanish": "Llamame mañana.",
+    "finnish": "Soittakaa minulle huomenna.",
+    "english": "Call me tomorrow.",
+    "wordCount": 2,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1508833",
+    "spanish": "Tengo que ir al baño.",
+    "finnish": "Minun täytyy mennä vessaan.",
+    "english": "I have to go to the bathroom.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1527817",
+    "spanish": "No quiero limpiar caca de perro.",
+    "finnish": "En halua siivota koiran paskaa.",
+    "english": "I don't wanna clean up dog shit.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1528952",
+    "spanish": "Mucha gente se casa los sábados.",
+    "finnish": "Monet menevät naimisiin lauantaina.",
+    "english": "Lots of people get married on Saturdays.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1530623",
+    "spanish": "Tom no tiene ganas de cocinar.",
+    "finnish": "Tomia ei huvita laittaa ruokaa.",
+    "english": "Tom doesn't feel like cooking.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1532576",
+    "spanish": "Esa es la casa en la que me quedé.",
+    "finnish": "Tuo on talo, jossa majoituin.",
+    "english": "That's the house I stayed in.",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1534865",
+    "spanish": "Yo vivo en esta casa.",
+    "finnish": "Tässä talossa minä asun.",
+    "english": "This is the house I live in.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1536005",
+    "spanish": "¡Conducir en la oscuridad se siente como volar!",
+    "finnish": "Pimeässä ajaminen tuntuu lentämiseltä!",
+    "english": "Driving in the dark feels like flying!",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1558949",
+    "spanish": "Ella está acostumbrada a levantarse temprano.",
+    "finnish": "Hän on tottunut nousemaan aikaisin.",
+    "english": "She is accustomed to rising early.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1569031",
+    "spanish": "Mi papá está en el baño afeitándose.",
+    "finnish": "Isäni ajaa partaansa kylpyhuoneessa.",
+    "english": "My father is shaving in the bathroom.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1569382",
+    "spanish": "No tengo nada que hacer esta tarde.",
+    "finnish": "Minulla ei tänään iltapäivällä ole mitään tehtävää.",
+    "english": "I have nothing to do this afternoon.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1575094",
+    "spanish": "Una promesa no es suficiente.",
+    "finnish": "Lupaus ei ole tarpeeksi.",
+    "english": "A promise is not enough.",
+    "wordCount": 5,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1575132",
+    "spanish": "¿Por qué no compartimos una habitación?",
+    "finnish": "Miksemme jaa huonetta?",
+    "english": "Why don't we share a room?",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1578123",
+    "spanish": "Cuando él regresó a casa, los chicos ya se habían dormido.",
+    "finnish": "Kun hän palasi kotiin, lapset olivat jo unessa.",
+    "english": "When he returned home, the kids were already asleep.",
+    "wordCount": 11,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1588875",
+    "spanish": "Esa es mi silla preferida.",
+    "finnish": "Toi on mun lempituoli.",
+    "english": "That's my favorite chair.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1595395",
+    "spanish": "Me quité los zapatos.",
+    "finnish": "Riisuin kenkäni.",
+    "english": "I took my shoes off.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1604571",
+    "spanish": "Adiós. Hasta mañana.",
+    "finnish": "Hei hei. Huomiseen.",
+    "english": "Goodbye. See you tomorrow.",
+    "wordCount": 3,
+    "categories": [
+      "greetings",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1610748",
+    "spanish": "La noche era fría.",
+    "finnish": "Yö oli kylmä.",
+    "english": "The night was cold.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1612616",
+    "spanish": "Vomité anoche.",
+    "finnish": "Oksensin viime yönä.",
+    "english": "Last night I threw up.",
+    "wordCount": 2,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1615069",
+    "spanish": "A ese color le decimos \"azul medianoche\".",
+    "finnish": "Tätä väriä sanotaan \"keskiyön siniseksi\".",
+    "english": "We call that color \"midnight blue\".",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1626965",
+    "spanish": "Él se olvidó de apagar la luz.",
+    "finnish": "Hän unohti sammuttaa valon.",
+    "english": "He forgot to turn off the light.",
+    "wordCount": 7,
+    "categories": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1633569",
+    "spanish": "Tomo el desayuno cada mañana.",
+    "finnish": "Syön aamupalaa joka aamu.",
+    "english": "I have breakfast every morning.",
+    "wordCount": 5,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1660361",
+    "spanish": "Vi el rostro de un hombre en la ventana.",
+    "finnish": "Näin miehen kasvot ikkunassa.",
+    "english": "I saw a man's face in the window.",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1689384",
+    "spanish": "¿Está el gato encima o debajo de la silla?",
+    "finnish": "Onko kissa tuolilla vai sen alla?",
+    "english": "Is the cat on the chair or under the chair?",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1694252",
+    "spanish": "Ellos viven en una casa grande.",
+    "finnish": "He asuvat suuressa talossa.",
+    "english": "They live in a big house.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1701667",
+    "spanish": "No dormiré esta noche.",
+    "finnish": "Tänä yönä minä en nuku.",
+    "english": "I won't sleep tonight.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1703110",
+    "spanish": "Hoy voy a limpiar tu habitación.",
+    "finnish": "Tänään minä siivoan sinun huoneesi.",
+    "english": "I'm going to clean your bedroom today.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1704210",
+    "spanish": "El informe meteorológico dice que lloverá mañana por la tarde.",
+    "finnish": "Säätiedote sanoo, että huomenna iltapäivällä sataa.",
+    "english": "The weather report says it will rain tomorrow afternoon.",
+    "wordCount": 10,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1705547",
+    "spanish": "Mi hija se casará en junio.",
+    "finnish": "Tyttäreni menee naimisiin kesäkuussa.",
+    "english": "My daughter will get married in June.",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1712775",
+    "spanish": "No va a llover esta noche.",
+    "finnish": "Tänä iltana ei sada.",
+    "english": "It isn't going to rain tonight.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1713898",
+    "spanish": "Todas las casas temblaban y las alarmas sonaban en todas partes.",
+    "finnish": "Kaikki talot tärähtelivät ja hälytykset soivat kaikkialla.",
+    "english": "All the houses were shaking and alarms were ringing everywhere.",
+    "wordCount": 11,
+    "categories": [
+      "leisure",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1732146",
+    "spanish": "Pedí prestada una mesa.",
+    "finnish": "Olen lainannut pöydän.",
+    "english": "I've borrowed a table.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1734012",
+    "spanish": "Tom acaba de instalar un sistema de alarma en su casa.",
+    "finnish": "Tom on juuri asentanut hälytysjärjestelmän taloonsa.",
+    "english": "Tom has just installed an alarm system in his house.",
+    "wordCount": 11,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1748413",
+    "spanish": "¿Acaso viste lo grande que es su casa?",
+    "finnish": "Näitkö kuinka iso heidän talonsa on?",
+    "english": "Did you see how big their house is?",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1757061",
+    "spanish": "Hay una ventana a tu izquierda.",
+    "finnish": "Vasemmalla puolellasi on ikkuna.",
+    "english": "There is a window on your left.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1794979",
+    "spanish": "Se suponía que Tom me ayudara esta tarde.",
+    "finnish": "Tomin oletettiin auttavan minua tänä iltapäivänä.",
+    "english": "Tom was supposed to help me this afternoon.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1794992",
+    "spanish": "Tom estaba aliviado al oír que María había llegado sana y salva a casa.",
+    "finnish": "Tom oli helpottunut kuullessaan että Mary oli saapunut turvallisesti kotiin.",
+    "english": "Tom was relieved to hear that Mary had arrived home safely.",
+    "wordCount": 14,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1805452",
+    "spanish": "Por favor, quítate los zapatos.",
+    "finnish": "Ota kengät pois, kiitos.",
+    "english": "Please take off your shoes.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1820059",
+    "spanish": "Ella está acostumbrada a quedarse despierta toda la noche.",
+    "finnish": "Hän on tottunut olemaan valveilla koko yön.",
+    "english": "She is used to staying up all night.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1826751",
+    "spanish": "Él se fue a dormir temprano ya que estaba cansado.",
+    "finnish": "Hän meni sänkyyn aikaisin, koska hän oli väsynyt.",
+    "english": "Since he was tired, he went to bed early.",
+    "wordCount": 10,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1827714",
+    "spanish": "Una mañana él vio a una linda chica.",
+    "finnish": "Eräänä aamuna hän näki sievän tytön.",
+    "english": "One morning he saw a pretty girl.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1832122",
+    "spanish": "No le abras la puerta a nadie.",
+    "finnish": "Älä avaa ovea kenellekään.",
+    "english": "Don't open the door for anybody.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1844181",
+    "spanish": "Tom tuvo una cita con Mary anoche.",
+    "finnish": "Tomilla oli treffit Maryn kanssa eilen illalla.",
+    "english": "Tom had a date with Mary last night.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1854348",
+    "spanish": "Me llamo Tom y seré su camarero esta noche.",
+    "finnish": "Nimeni on Tom ja tulen olemaan palvelijanne tänä iltana.",
+    "english": "My name is Tom and I'll be your server tonight.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1869838",
+    "spanish": "Tu habitación está sucia.",
+    "finnish": "Huoneesi on likainen.",
+    "english": "Your room is dirty.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1871853",
+    "spanish": "El partido de fútbol es mañana.",
+    "finnish": "Futismatsi on huomenna.",
+    "english": "The football game is tomorrow.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1871954",
+    "spanish": "Tom cada tarde da un paseo.",
+    "finnish": "Tom käy kävelyllä joka iltapäivä.",
+    "english": "Tom goes for a walk every afternoon.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1874060",
+    "spanish": "Le tengo miedo a la oscuridad.",
+    "finnish": "Pelkään pimeää.",
+    "english": "I'm afraid of the dark.",
+    "wordCount": 6,
+    "categories": [
+      "emotions",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1880027",
+    "spanish": "Se paró detrás de la silla.",
+    "finnish": "Hän seisoi tuolin takana.",
+    "english": "He stood behind the chair.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1880028",
+    "spanish": "¿Qué está haciendo esta silla aquí?",
+    "finnish": "Mitä tämä tuoli täällä tekee?",
+    "english": "What's this chair doing here?",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1894111",
+    "spanish": "No estamos casados.",
+    "finnish": "Emme ole naimisissa.",
+    "english": "We're not married.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1917712",
+    "spanish": "¿Puedes empezar mañana?",
+    "finnish": "Voitko aloittaa huomenna?",
+    "english": "Can you start tomorrow?",
+    "wordCount": 3,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1941293",
+    "spanish": "Se usó un martillo para romper la ventana.",
+    "finnish": "Ikkunan rikkomiseen käytettiin vasaraa.",
+    "english": "A hammer was used to break the window.",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1947814",
+    "spanish": "¿Comes en casa o comes fuera?",
+    "finnish": "Syötkö kotona vai ulkona?",
+    "english": "Do you eat at home or eat out?",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1989570",
+    "spanish": "Tom llega tarde al colegio bastante seguido.",
+    "finnish": "Tom on melko usein myöhässä koulusta.",
+    "english": "Tom is quite often late for school.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "1993080",
+    "spanish": "No estoy seguro de si me debería quedar en casa o salir.",
+    "finnish": "En ole varma pysyäkö kotona vai mennäkö ulos.",
+    "english": "I'm not sure whether to stay home or go out.",
+    "wordCount": 12,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2028949",
+    "spanish": "Yo hice esta silla.",
+    "finnish": "Minä tein tämään tuolin.",
+    "english": "I made this chair.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2043517",
+    "spanish": "Tom está casado.",
+    "finnish": "Tomi on naimisissa.",
+    "english": "Tom is married.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2051709",
+    "spanish": "Esta ropa mía está pasada de moda.",
+    "finnish": "Nämä vaatteeni ovat poissa muodista.",
+    "english": "These clothes of mine are out of style.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2071758",
+    "spanish": "Tom abrió la puerta.",
+    "finnish": "Tom avasi oven.",
+    "english": "Tom opened the door.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2089523",
+    "spanish": "El doctor aconsejó que mi madre se quedara tres días más en cama.",
+    "finnish": "Lääkäri ohjeisti että äitini pysyy sängyssä vielä kolme päivää.",
+    "english": "The doctor advised that my mother stay in bed for three more days.",
+    "wordCount": 13,
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2093480",
+    "spanish": "Nos da ropa.",
+    "finnish": "Hän antaa meille vaatteet.",
+    "english": "She gives us clothes.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2096359",
+    "spanish": "Se lo diré a Tom más tarde.",
+    "finnish": "Kerron Tomille myöhemmin.",
+    "english": "I'll tell Tom later.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2099821",
+    "spanish": "Solo esta mañana llegué aquí.",
+    "finnish": "Minä vasta tulin tänne tänä aamuna.",
+    "english": "I just got here this morning.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2136864",
+    "spanish": "¿Quién piensas que estaba viendo la televisión en esta habitación ayer por la noche?",
+    "finnish": "Kenen luulet katsoneen tv:tä tässä huoneessa eilen illalla?",
+    "english": "Who do you think was watching TV in this room last night?",
+    "wordCount": 14,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2138178",
+    "spanish": "Normalmente se va a trabajar a las ocho de la mañana.",
+    "finnish": "Hän menee yleensä töihin kello kahdeksan.",
+    "english": "He usually goes to work at 8 a.m.",
+    "wordCount": 11,
+    "categories": [
+      "work",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2167098",
+    "spanish": "La casa en que vivo no es muy grande.",
+    "finnish": "Talo jossa asun ei ole kovin suuri.",
+    "english": "The house I'm living in isn't very large.",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2169120",
+    "spanish": "Mary necesita nuevos zapatos.",
+    "finnish": "Mari tarvitsee uudet kengät.",
+    "english": "Mary needs new shoes.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2173401",
+    "spanish": "Esta habitación tiene tres ventanas.",
+    "finnish": "Tässä huoneessa on kolme ikkunaa.",
+    "english": "This room has three windows.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2181152",
+    "spanish": "Me fui a la cama a la una.",
+    "finnish": "Menin nukkumaan yhdeltä.",
+    "english": "I went to bed at one o'clock.",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2185171",
+    "spanish": "Mira la casa con el techo rojo.",
+    "finnish": "Katso punakattoista taloa.",
+    "english": "Look at the house with the red roof.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2185218",
+    "spanish": "Quiero vivir en casa con mi familia.",
+    "finnish": "Haluan asua kotona perheeni kanssa.",
+    "english": "I want to live at home with my family.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2188271",
+    "spanish": "El sol entrega luz y calor.",
+    "finnish": "Aurinko antaa valoa ja lämpöä.",
+    "english": "The sun gives light and heat.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2209055",
+    "spanish": "No estoy casado.",
+    "finnish": "Mä en oo naimisissa.",
+    "english": "I'm not married.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2209056",
+    "spanish": "No estoy casada.",
+    "finnish": "Mä en oo naimisissa.",
+    "english": "I'm not married.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2247019",
+    "spanish": "Europa no es un país.",
+    "finnish": "Eurooppa ei ole maa.",
+    "english": "Europe is not a country.",
+    "wordCount": 5,
+    "categories": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2249941",
+    "spanish": "Movamos la mesa.",
+    "finnish": "Siirretään pöytä.",
+    "english": "Let's move the table.",
+    "wordCount": 3,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2268905",
+    "spanish": "Esta silla es incómoda.",
+    "finnish": "Tämä tuoli on epämukava.",
+    "english": "This chair is uncomfortable.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2269907",
+    "spanish": "¿Qué está haciendo el mapache en la cocina?",
+    "finnish": "Mitä pesukarhu tekee keittiössä?",
+    "english": "What is the racoon doing in the kitchen?",
+    "wordCount": 8,
+    "categories": [
+      "food",
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2309077",
+    "spanish": "Construí una casa nueva.",
+    "finnish": "Rakensin uuden talon.",
+    "english": "I built a new house.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2334764",
+    "spanish": "Tom se pasó todo el día solo en su habitación.",
+    "finnish": "Tom vietti koko päivän yksin huoneessaan.",
+    "english": "Tom spent all day alone in his room.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2340304",
+    "spanish": "Tom suele estar en casa los domingos por la tarde.",
+    "finnish": "Tomi on yleensä kotona sunnuntai-iltaisin.",
+    "english": "Tom is usually at home on Sunday evenings.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2345963",
+    "spanish": "El libro está sobre la mesa.",
+    "finnish": "Kirja on pöydällä.",
+    "english": "The book is on the table.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2345994",
+    "spanish": "El libro está en la mesa.",
+    "finnish": "Kirja on pöydällä.",
+    "english": "The book is on the table.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2383146",
+    "spanish": "Llegamos un poco tarde.",
+    "finnish": "Olemme saapuneet hieman myöhässä.",
+    "english": "We've arrived a little late.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2403431",
+    "spanish": "Había harta comida en la casa.",
+    "finnish": "Talossa oli paljon ruokaa.",
+    "english": "There was much food in the house.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2405777",
+    "spanish": "Se oía mucho ruido en la habitación, así que Tom se tapó los oídos.",
+    "finnish": "Huoneessa oli todella meluisaa, niinpä Tom peitti korvansa.",
+    "english": "It was really noisy in the room so Tom covered his ears.",
+    "wordCount": 14,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2446636",
+    "spanish": "Tom quería casarse con Mary.",
+    "finnish": "Tomi halusi mennä Marin kanssa naimisiin.",
+    "english": "Tom wanted to marry Mary.",
+    "wordCount": 5,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2450852",
+    "spanish": "La llave está en la mesa.",
+    "finnish": "Avain on pöydällä.",
+    "english": "The key is on the table.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2486140",
+    "spanish": "Tom llamó para decirle a Mary que vendría más tarde.",
+    "finnish": "Tom soitti sanoakseen Marylle, että hän tulisi myöhemmin.",
+    "english": "Tom called to tell Mary that he'd be late.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2502695",
+    "spanish": "La he visto paseando por el parque a medianoche.",
+    "finnish": "Näin hänet kävelyllä puistossa keskiyöllä.",
+    "english": "I saw her taking a walk in the park at midnight.",
+    "wordCount": 9,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2507852",
+    "spanish": "Buenas noches.",
+    "finnish": "Iltaa.",
+    "english": "Good evening.",
+    "wordCount": 2,
+    "categories": [
+      "greetings",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2658192",
+    "spanish": "¿Tienes algo que hacer mañana a esta hora?",
+    "finnish": "Täytyykö sinun tehdä jotakin huomenna tähän aikaan?",
+    "english": "What'll you be doing at this time tomorrow?",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2693745",
+    "spanish": "Tom cerró la ventana.",
+    "finnish": "Tomi sulki ikkunan.",
+    "english": "Tom shut the window.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2709179",
+    "spanish": "Esta mesa es blanca.",
+    "finnish": "Tämä pöytä on valkoinen.",
+    "english": "This table is white.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2715091",
+    "spanish": "Tom vende su casa.",
+    "finnish": "Tomi on myymässä taloansa.",
+    "english": "Tom is selling his house.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2717716",
+    "spanish": "Tengo una casa azul.",
+    "finnish": "Minulla on sininen talo.",
+    "english": "I have a blue house.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2724169",
+    "spanish": "No olvides lavarte las manos.",
+    "finnish": "Älä unohda pestä käsiä.",
+    "english": "Don't forget to wash your hands.",
+    "wordCount": 5,
+    "categories": [
+      "leisure",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2727044",
+    "spanish": "Ellos cubrieron la mesa con una tela.",
+    "finnish": "He peittivät pöydän liinalla.",
+    "english": "They covered the table with a cloth.",
+    "wordCount": 7,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2754648",
+    "spanish": "Mañana vuelo a Boston.",
+    "finnish": "Lennän Bostoniin huomenna.",
+    "english": "I'm flying to Boston tomorrow.",
+    "wordCount": 4,
+    "categories": [
+      "travel",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2755398",
+    "spanish": "¿Por qué no mañana?",
+    "finnish": "Miksei huomenna?",
+    "english": "Why not tomorrow?",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2768169",
+    "spanish": "Estaba a punto de salir de la casa cuando sonó el teléfono.",
+    "finnish": "Olin juuri lähdössä talosta, kun puhelin soi.",
+    "english": "I was just about to leave the house when the telephone rang.",
+    "wordCount": 12,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2775366",
+    "spanish": "¿A quién le toca lavar los platos?",
+    "finnish": "Kenen vuoro tiskata?",
+    "english": "Whose turn is it to wash the dishes?",
+    "wordCount": 7,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2785464",
+    "spanish": "Él ya no está en casa.",
+    "finnish": "Hän ei ole enää kotona.",
+    "english": "He is no longer at home.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2789825",
+    "spanish": "Un fotógrafo le tomó una foto a mi casa.",
+    "finnish": "Valokuvaaja otti kuvan talostani.",
+    "english": "A photographer took a photograph of my house.",
+    "wordCount": 9,
+    "categories": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2789827",
+    "spanish": "Un fotógrafo sacó una foto de mi casa.",
+    "finnish": "Valokuvaaja otti kuvan talostani.",
+    "english": "A photographer took a photograph of my house.",
+    "wordCount": 8,
+    "categories": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2790004",
+    "spanish": "¿De verdad quieres una taza de café tan tarde por la noche?",
+    "finnish": "Haluatko todella kupin kahvia näin myöhään illalla?",
+    "english": "Do you really want a cup of coffee this late at night?",
+    "wordCount": 12,
+    "categories": [
+      "food",
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2791857",
+    "spanish": "¿Cuándo vino a casa tu padre?",
+    "finnish": "Koska isäsi tuli kotiin?",
+    "english": "When did your father come home?",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2800615",
+    "spanish": "Tom no pudo abrir la puerta.",
+    "finnish": "Tom ei voinut avata ovea.",
+    "english": "Tom couldn't open the door.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2815154",
+    "spanish": "La anciana fue llevada al hospital, pero murió un poco más tarde.",
+    "finnish": "Vanha nainen vietiin sairaalaan, mutta hän kuoli pian sen jälkeen.",
+    "english": "The old woman was taken to a hospital, but she died not long after.",
+    "wordCount": 12,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2815351",
+    "spanish": "Tienes una habitación muy bonita.",
+    "finnish": "Sinulla on todella kaunis huone.",
+    "english": "You have a very nice room.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2843752",
+    "spanish": "Ellos se van a encontrar mañana en el hotel.",
+    "finnish": "He tulevat tapaamaan huomenna hotellissa.",
+    "english": "They are going to meet at the hotel tomorrow.",
+    "wordCount": 9,
+    "categories": [
+      "travel",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2844409",
+    "spanish": "Él debe ir allá mañana.",
+    "finnish": "Huomenna hänen täytyy mennä sinne.",
+    "english": "He must go there tomorrow.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2847473",
+    "spanish": "No puedo abrir la puerta. ¿Tienes tú la llave?",
+    "finnish": "En saa ovea auki. Onko sinulla avain?",
+    "english": "I can't open the door. Do you have the key?",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2852289",
+    "spanish": "Subí las escaleras y me fui a dormir.",
+    "finnish": "Mene yläkertaan ja käy nukkumaan.",
+    "english": "I went up the stairs and went to bed.",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2852370",
+    "spanish": "Vete a la cama.",
+    "finnish": "Mene sänkyyn!",
+    "english": "Go to bed.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2852401",
+    "spanish": "Dicen que la casa de veraneo de Liisa se incendió.",
+    "finnish": "Liisan kesämökki on kuulemma palanut.",
+    "english": "They say that Liisa's summer house burned down.",
+    "wordCount": 10,
+    "categories": [
+      "leisure",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2853120",
+    "spanish": "No podemos dormir a causa del ruido.",
+    "finnish": "Emme voi nukkua melun vuoksi.",
+    "english": "We can't sleep because of the noise.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2853222",
+    "spanish": "Ellos llegaron tarde a causa de la tormenta.",
+    "finnish": "He saapuivat myöhään myrskyn tähden.",
+    "english": "They were late because of the storm.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2859044",
+    "spanish": "Mi hermana limpia sus zapatos todos los domingos.",
+    "finnish": "Siskoni pesee kenkänsä joka sunnuntai.",
+    "english": "My sister washes her shoes every Sunday.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2880054",
+    "spanish": "La casa está pintada de blanco.",
+    "finnish": "Talo on valkoiseksi maalattu.",
+    "english": "The house is painted white.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2881725",
+    "spanish": "Tenía una habitación con una hermosa vista de las montañas.",
+    "finnish": "Minulla oli huone, josta oli kaunis näköala vuorille.",
+    "english": "I had a room with a beautiful view of the mountains.",
+    "wordCount": 10,
+    "categories": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2885705",
+    "spanish": "¡Buenas noches y duerme bien!",
+    "finnish": "Hyvää yötä ja nuku hyvin!",
+    "english": "Good night and sleep tight!",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2888074",
+    "spanish": "Te lo daré mañana.",
+    "finnish": "Mä annan sen huomen.",
+    "english": "I'll give it to you tomorrow.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2895152",
+    "spanish": "Hay una película que quiero ver por TV mañana en la noche.",
+    "finnish": "Televisiosta tulee huomenillalla elokuva, jonka tahdon katsoa.",
+    "english": "There's a movie I want to watch on TV tomorrow night.",
+    "wordCount": 12,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2921014",
+    "spanish": "¿Puedes dormir?",
+    "finnish": "Pystytkö nukkumaan?",
+    "english": "Can you sleep?",
+    "wordCount": 2,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2932134",
+    "spanish": "¿Estás listo para la Noche de Brujas?",
+    "finnish": "Oletko valmis halloweenia varten?",
+    "english": "Are you ready for Halloween?",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2934692",
+    "spanish": "Llegué más tarde de lo usual.",
+    "finnish": "Saavuin perille tavallista myöhemmin.",
+    "english": "I arrived later than usual.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2934698",
+    "spanish": "Hablaré con Tom más tarde.",
+    "finnish": "Puhun Tomin kanssa myöhemmin.",
+    "english": "I'll talk to Tom later.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2934700",
+    "spanish": "Pocos meses más tarde, Israel invadió Egipto.",
+    "finnish": "Muutama kuukausi myöhemmin Israel hyökkäsi Egyptiin.",
+    "english": "A few months later, Israel invaded Egypt.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2934702",
+    "spanish": "Lo discutiremos más tarde.",
+    "finnish": "Keskustelemme siitä myöhemmin.",
+    "english": "We'll discuss it later.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2934706",
+    "spanish": "Hablaremos de esto más tarde.",
+    "finnish": "Puhumme tästä myöhemmin.",
+    "english": "We'll talk about this later.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2934708",
+    "spanish": "Te mostraré más tarde.",
+    "finnish": "Näytän sinulle myöhemmin.",
+    "english": "I'll show you later.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2934709",
+    "spanish": "Estoy en medio de algo. ¿Podrías volver más tarde?",
+    "finnish": "Olen kesken tekemisen. Voisitko tulla takaisin myöhemmin?",
+    "english": "I'm in the middle of something. Could you come back later?",
+    "wordCount": 9,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2943210",
+    "spanish": "Estaba sorprendido de lo caro que eran los zapatos.",
+    "finnish": "Olin hämmästynyt siitä kuinka kalliit kengät olivat",
+    "english": "I was surprised at how expensive the shoes were.",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2943217",
+    "spanish": "Estos zapatos son demasiado caros.",
+    "finnish": "Nämä kengät ovat liian kalliit.",
+    "english": "These shoes are too expensive.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2943225",
+    "spanish": "Estos zapatos son caros, y más encima, son demasiado chicos.",
+    "finnish": "Nämä kengät ovat kalliit, ja muutenkin ne ovat liian pienet.",
+    "english": "These shoes are expensive, and what is more, they are too small.",
+    "wordCount": 10,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2943243",
+    "spanish": "Estoy cansado de salir a comer todas las noches.",
+    "finnish": "Olen kyllästynyt joka ilta ulkona syömiseen.",
+    "english": "I'm sick of eating out every night.",
+    "wordCount": 9,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2943244",
+    "spanish": "Es justo medianoche.",
+    "finnish": "On vasta keskiyö.",
+    "english": "It's just midnight.",
+    "wordCount": 3,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2943253",
+    "spanish": "Desperté pasada la medianoche.",
+    "finnish": "Heräsin keskiyön jälkeen.",
+    "english": "I woke up after midnight.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2944062",
+    "spanish": "¿Tienen una mesa en el patio?",
+    "finnish": "Onko teillä pöytää terassilla?",
+    "english": "Do you have a table on the patio?",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2944803",
+    "spanish": "Él regresa a su casa.",
+    "finnish": "Hän palaa kotiinsa.",
+    "english": "He returns to his home.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2944841",
+    "spanish": "Ahora ellos están casados.",
+    "finnish": "He ovat nyt naimisssa.",
+    "english": "They're married now.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2946297",
+    "spanish": "Estaba hablando de ropa.",
+    "finnish": "Olin puhumassa vaatteista.",
+    "english": "I was talking about clothes.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2946303",
+    "spanish": "Su trabajo es planchar ropa.",
+    "finnish": "Heidän työnsä on silittää vaatteita.",
+    "english": "Their job is to iron clothes.",
+    "wordCount": 5,
+    "categories": [
+      "work",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2947835",
+    "spanish": "La casa huele bien.",
+    "finnish": "Talossa tuoksuu hyvälle.",
+    "english": "The house smells good.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2959968",
+    "spanish": "Tom odia la Noche de Brujas.",
+    "finnish": "Tom vihaa halloweenia.",
+    "english": "Tom hates Halloween.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2975757",
+    "spanish": "Nunca he estado en la casa de mi tío.",
+    "finnish": "En ole koskaan ollut setäni kodissa.",
+    "english": "I've never been to my uncle's house.",
+    "wordCount": 9,
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2987840",
+    "spanish": "Al llegar a casa descubrí el robo.",
+    "finnish": "Kotiin tullessani huomasin murron.",
+    "english": "On arriving home, I discovered the burglary.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2998073",
+    "spanish": "Mi esposa normalmente no bebe café por la noche, y yo tampoco.",
+    "finnish": "Vaimoni ei tavallisesti juo kahvia öisin, enkä juo minäkään.",
+    "english": "My wife usually doesn't drink coffee at night, and neither do I.",
+    "wordCount": 12,
+    "categories": [
+      "food",
+      "family",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "2998109",
+    "spanish": "Esta mañana él se veía mucho mejor que ayer.",
+    "finnish": "Hän näytti tänä aamuna paljon paremmalta kuin eilen.",
+    "english": "He looked much better this morning than yesterday.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3001291",
+    "spanish": "Eso depende del tamaño de la silla.",
+    "finnish": "Se riippuu tuolin koosta.",
+    "english": "It depends on the size of the chair.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3006052",
+    "spanish": "También hay un baño en el cuarto piso.",
+    "finnish": "Neljännessä kerroksessakin on WC.",
+    "english": "There is also a toilet on the fourth floor.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3009376",
+    "spanish": "Tom no tiene ganas de llevar a su perro a caminar esta mañana.",
+    "finnish": "Tomia ei huvita viedä koiraansa kävelylle tänä aamuna.",
+    "english": "Tom doesn't feel like taking a walk with his dog this morning.",
+    "wordCount": 13,
+    "categories": [
+      "travel",
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3028989",
+    "spanish": "Tom era el único hombre en la habitación.",
+    "finnish": "Tom oli ainoa mies huoneessa.",
+    "english": "Tom was the only man in the room.",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3056412",
+    "spanish": "Tom era casado, pero no usaba anillo.",
+    "finnish": "Tom oli naimisissa mutta ei pitänyt sormusta.",
+    "english": "Tom was married, but he didn't wear a ring.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3056435",
+    "spanish": "Tom estuvo en las noticias anoche.",
+    "finnish": "Tom oli uutisissa eilen illalla.",
+    "english": "Tom was on the news last night.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3056545",
+    "spanish": "La puerta del frente no se abre.",
+    "finnish": "Etuovi ei aukea.",
+    "english": "The front door won't open.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3056602",
+    "spanish": "Tom tuvo un poco de problemas para encontrar la casa de María.",
+    "finnish": "Tomilla oli hieman vaikeuksia löytää Maryn talolle.",
+    "english": "Tom had a little trouble finding Mary's house.",
+    "wordCount": 12,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3056638",
+    "spanish": "Tom había bebido demasiado café así que no pudo dormir.",
+    "finnish": "Tom oli juonut liian paljon kahvia eikä voinut nukkua.",
+    "english": "Tom had drunk too much coffee so he couldn't sleep.",
+    "wordCount": 10,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3056787",
+    "spanish": "Pasé toda la tarde tratando de encontrar mis llaves.",
+    "finnish": "Vietin koko illan yrittäen löytää avaimeni.",
+    "english": "I spent the whole evening trying to find my keys.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3056788",
+    "spanish": "Pasé toda la mañana con Tom.",
+    "finnish": "Vietin koko aamun Tomin kanssa.",
+    "english": "I spent the whole morning with Tom.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3056808",
+    "spanish": "Ella pasó toda la Navidad en casa con su familia.",
+    "finnish": "Hän vietti kaikki joulunsa kotona perheensä kanssa.",
+    "english": "She spent all of her Christmases at home with her family.",
+    "wordCount": 10,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3058836",
+    "spanish": "El baño de hombres está en el segundo piso.",
+    "finnish": "Miesten vessa on toisessa kerroksessa.",
+    "english": "The men's room is on the second floor.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3079654",
+    "spanish": "Ellos pretenden casarse mañana.",
+    "finnish": "He aikovat mennä naimisiin huomenna.",
+    "english": "They intend to get married tomorrow.",
+    "wordCount": 4,
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3081692",
+    "spanish": "Me encontré con él en el camino del colegio a la casa.",
+    "finnish": "Tapasin hänet matkallani koulusta kotiin.",
+    "english": "I met him on my way home from school.",
+    "wordCount": 12,
+    "categories": [
+      "travel",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3084171",
+    "spanish": "Me quedé en cama porque tenía un poco de fiebre.",
+    "finnish": "Koska oli pientä kuumetta jäin vuoteeseen.",
+    "english": "I stayed in bed because I had a bit of a fever.",
+    "wordCount": 10,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3088926",
+    "spanish": "Son solo las cinco de la mañana, y sin embargo afuera es de día.",
+    "finnish": "Kello on vasta viisi aamulla, mutta joka tapauksessa ulkona on valoisaa.",
+    "english": "It's just five in the morning, but nevertheless it is light out.",
+    "wordCount": 14,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3091013",
+    "spanish": "La entrada al baño está muy sucia.",
+    "finnish": "Sisäänkäynti käymälään on hyvin likainen.",
+    "english": "The entrance to the toilet is very dirty.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3091203",
+    "spanish": "Él quiere jugar fútbol esta tarde.",
+    "finnish": "Hän haluaa pelata jalkapalloa tänä iltapäivänä.",
+    "english": "He wants to play soccer this afternoon.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3099119",
+    "spanish": "Deberían quedarse en cama.",
+    "finnish": "Teidän pitäisi pysyä vuoteessa.",
+    "english": "You should stay in bed.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3099127",
+    "spanish": "Me quedé otro día más en cama para estar seguro.",
+    "finnish": "Pysyin vuoteessa vielä yhden päivän ollakseni varmoilla.",
+    "english": "I stayed in bed one more day just to be on the safe side.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3100349",
+    "spanish": "Esta noche quiero salir a comer.",
+    "finnish": "Haluan syödä ulkona tänä iltana.",
+    "english": "I want to eat out tonight.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3100600",
+    "spanish": "En Europa, las clases empiezan en septiembre.",
+    "finnish": "Euroopassa koulut alkavat syyskuussa.",
+    "english": "School starts in September in Europe.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3100804",
+    "spanish": "Alguien está en la casa.",
+    "finnish": "Joku on talossa.",
+    "english": "Someone's in the house.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3112423",
+    "spanish": "Tom está echado en la cama.",
+    "finnish": "Tom makaa sängyssä.",
+    "english": "Tom is lying in bed.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3112524",
+    "spanish": "¿Tuviste una buena noche?",
+    "finnish": "Oliko sinulla mukava ilta?",
+    "english": "Did you have a nice evening?",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3113382",
+    "spanish": "Me devuelvo a dormir.",
+    "finnish": "Menen takaisin nukkumaan.",
+    "english": "I'm going back to sleep.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3116838",
+    "spanish": "A cada persona se le otorgó suficiente comida y ropa.",
+    "finnish": "Kullekin annettiin riittävästi ruokaa ja vaatteita.",
+    "english": "Each person was given enough food and clothing.",
+    "wordCount": 10,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3118309",
+    "spanish": "Viviré en un cuarto con cuatro camas.",
+    "finnish": "Aion asua huoneessa, jossa on neljä vuodetta.",
+    "english": "I will live in a room with four beds.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3118320",
+    "spanish": "¿Vendrá él esta noche?",
+    "finnish": "Tuleeko hän tänä iltana?",
+    "english": "Will he come this evening?",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3118323",
+    "spanish": "No deberías leer con tan poca luz.",
+    "finnish": "Sinun ei pitäisi lukea noin heikossa valossa.",
+    "english": "You shouldn't read in such poor light.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3135507",
+    "spanish": "Tom trató de abrir la puerta, pero estaba con llave.",
+    "finnish": "Tomi yritti avata ovea, mutta se oli lukossa.",
+    "english": "Tom tried opening the door, but it was locked.",
+    "wordCount": 10,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3145278",
+    "spanish": "Te diré el resto mañana.",
+    "finnish": "Kerron loput huomenna.",
+    "english": "I will tell you the rest tomorrow.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3165732",
+    "spanish": "Buitreé anoche.",
+    "finnish": "Oksensin viime yönä.",
+    "english": "Last night I threw up.",
+    "wordCount": 2,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3177419",
+    "spanish": "No le abriré la puerta a Tom.",
+    "finnish": "En avaa ovea Tomille.",
+    "english": "I'm not opening the door for Tom.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3179427",
+    "spanish": "La luz atrae polillas.",
+    "finnish": "Valo houkuttelee koita.",
+    "english": "Moths are attracted by light.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3183294",
+    "spanish": "Estuve toda la noche levantado pensando en eso.",
+    "finnish": "Olen ollut ylhäällä koko yön ajatellen sitä.",
+    "english": "I've been up all night thinking about that.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3202190",
+    "spanish": "Tom corrió hacia la puerta y trató de salir.",
+    "finnish": "Tom juoksi ovelle ja yritti päästä ulos.",
+    "english": "Tom ran to the door and tried to get out.",
+    "wordCount": 9,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3202457",
+    "spanish": "Terminaré la tarea, sin importar cuánto tarde.",
+    "finnish": "Huolimatta siitä kuinka kauan se kestää, teen työn valmiiksi.",
+    "english": "No matter how long it takes, I will finish the work.",
+    "wordCount": 7,
+    "categories": [
+      "work",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3202465",
+    "spanish": "Encontré una nota en la mesa, pero no sé de quién es.",
+    "finnish": "Löysin viestin pöydältä, mutta en tiedä keneltä se on.",
+    "english": "I found a note on the table, but I don't know who it's from.",
+    "wordCount": 12,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3202474",
+    "spanish": "Los tres niños abrieron las puertas del edificio.",
+    "finnish": "Kolme poikaa avasivat rakennukset ovet.",
+    "english": "The three boys opened the doors of the building.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3212838",
+    "spanish": "Hoy está nublado y hace frío; quizá nieve esta noche.",
+    "finnish": "Tänään on pilvistä ja kylmää; saattaa sataa lunta tänä iltana.",
+    "english": "Today, it's cloudy and cold; it might snow tonight.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3214024",
+    "spanish": "Tom va a comprar una casa nueva el próximo año.",
+    "finnish": "Tom ostaa uuden talon ensi vuonna.",
+    "english": "Tom is buying a new house next year.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3215000",
+    "spanish": "¿Tiene Europa una lengua común?",
+    "finnish": "Onko Euroopalla yhteistä kieltä?",
+    "english": "Does Europe have a common language?",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3215036",
+    "spanish": "¿Te arrepientes de haberte casado conmigo?",
+    "finnish": "Kadutko sitä, että menit naimisiin kanssani?",
+    "english": "Do you regret the fact that you married me?",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3216181",
+    "spanish": "Tom quiere cambiarse la ropa mojada por algo seco.",
+    "finnish": "Tom haluaa vaihtaa märät vaatteensa johonkin kuivaan.",
+    "english": "Tom wants to change out of his wet clothes into something dry.",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3238020",
+    "spanish": "¡Ve a dormir!",
+    "finnish": "Mene nukkumaan!",
+    "english": "Go to sleep.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3247717",
+    "spanish": "Ellos estuvieron conmigo en esa habitación toda la noche.",
+    "finnish": "He olivat siinä huoneessa koko yön minun kanssani.",
+    "english": "They were in that room with me all night.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3247747",
+    "spanish": "Tom tenía un gran moretón en la frente después de que chocó contra la puerta.",
+    "finnish": "Tomilla oli iso mustelma otsassaan sen jälkeen kun hän käveli päin ovea.",
+    "english": "Tom had a big bruise on his forehead after he walked into the door.",
+    "wordCount": 15,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3247752",
+    "spanish": "El comandante británico les ordenó a sus hombres que descansaran por la noche.",
+    "finnish": "Brittikomentaja käski miehensä yölepoon.",
+    "english": "The British commander ordered his men to rest for the night.",
+    "wordCount": 13,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3252729",
+    "spanish": "Me voy a dormir.",
+    "finnish": "Menen nukkumaan.",
+    "english": "I'm going to sleep.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3252810",
+    "spanish": "La casa está a dos millas.",
+    "finnish": "Koti on kahden mailin päässä.",
+    "english": "The house is two miles off.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3260858",
+    "spanish": "¿Hay una lavadora en la casa?",
+    "finnish": "Onko talossa pyykinpesukone?",
+    "english": "Is there a washing machine in the house?",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3267300",
+    "spanish": "Voy a estar solo en la casa toda la noche.",
+    "finnish": "Tulen olemaan yksin kotona koko yön.",
+    "english": "I'll be home alone all night.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3267301",
+    "spanish": "Voy a estar sola en la casa toda la noche.",
+    "finnish": "Tulen olemaan yksin kotona koko yön.",
+    "english": "I'll be home alone all night.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3274385",
+    "spanish": "Él jugará tenis mañana en la tarde.",
+    "finnish": "Hän tulee pelaamaan tennistä huomisiltapäivänä.",
+    "english": "He will be playing tennis tomorrow afternoon.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3277780",
+    "spanish": "Quizá te diga las respuestas más tarde, pero antes trata de encontrarlas tú mismo.",
+    "finnish": "Saatan kertoa vastaukset sinulle myöhemmin, mutta yritä selvittää ne ensin itseksesi.",
+    "english": "I might tell you the answers later, but try to figure them out on your own first.",
+    "wordCount": 14,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3302364",
+    "spanish": "Según el periódico nevará mañana.",
+    "finnish": "Sanomalehden mukaan huomenna sataa lunta.",
+    "english": "According to the paper, it will snow tomorrow.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3357606",
+    "spanish": "Tom estaba apresurado así que dejó su cama sin hacer.",
+    "finnish": "Tomilla oli kiire, niinpä hän jätti vuoteensa tekemättä.",
+    "english": "Tom was in a hurry so he left his bed unmade.",
+    "wordCount": 10,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3357719",
+    "spanish": "Estoy cansada y me quiero ir a la cama.",
+    "finnish": "Olen väsynyt ja haluan mennä nukkumaan.",
+    "english": "I'm tired and I want to go to bed.",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3374053",
+    "spanish": "Me voy derecho para la casa.",
+    "finnish": "Menen suoraan kotiin.",
+    "english": "I'm going straight home.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3384673",
+    "spanish": "Había dos pares de zapatos en el piso.",
+    "finnish": "Lattialla oli kaksi paria kenkiä.",
+    "english": "On the floor were two pairs of shoes.",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3389942",
+    "spanish": "¿Quieres que te llevemos de vuelta a tu casa?",
+    "finnish": "Haluatko, että viemme sinut takaisin kotiisi?",
+    "english": "Do you want us to take you back to your house?",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3389975",
+    "spanish": "Quisiera que Tom me llevara a casa.",
+    "finnish": "Haluaisin Tomin vievän minut kotiin.",
+    "english": "I'd like Tom to take me home.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3390041",
+    "spanish": "Me deshice de mis zapatos.",
+    "finnish": "Heitin pois kenkäni.",
+    "english": "I threw away my shoes.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3390054",
+    "spanish": "Fue una mañana ocupada.",
+    "finnish": "Se oli kiireinen aamu.",
+    "english": "It was a busy morning.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3392119",
+    "spanish": "Tom ha estado haciendo preguntas estúpidas toda la mañana.",
+    "finnish": "Tom on kysellyt typeriä kysymyksiä koko aamun.",
+    "english": "Tom has been asking stupid questions all morning.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3392124",
+    "spanish": "Anoche me emborraché e hice algo estúpido.",
+    "finnish": "Olin humalassa viime yönä ja tein jotain typerää.",
+    "english": "I got drunk last night and did something stupid.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3392193",
+    "spanish": "Anoche hice algo estúpido.",
+    "finnish": "Tein typerän asian eilen illalla.",
+    "english": "I did a stupid thing last night.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3393869",
+    "spanish": "La última semana he estado en cama con gripe.",
+    "finnish": "Olen maannut flunssassa viimeisen viikon.",
+    "english": "I've been laid up with flu for the last week.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3399710",
+    "spanish": "El baño está desocupado.",
+    "finnish": "Vessa on vapaa!",
+    "english": "Bathroom's free.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3399713",
+    "spanish": "Lávate las manos después de ir al baño, por favor.",
+    "finnish": "Pesethän kätesi WC:ssä käynnin jälkeen.",
+    "english": "Please wash your hands after using the bathroom.",
+    "wordCount": 10,
+    "categories": [
+      "greetings",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3416620",
+    "spanish": "Quizá debería irme temprano a casa hoy.",
+    "finnish": "Minun ehkä pitäisi mennä aikaisin kotiin tänään.",
+    "english": "I might have to go home early today.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3424004",
+    "spanish": "Él dijo que se iba a casa al día siguiente.",
+    "finnish": "Hän sanoi, että hän oli menossa kotiin seuraavana päivänä.",
+    "english": "He said that he was going home the following day.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3424009",
+    "spanish": "¿Cuántos de ustedes planean estar aquí otra vez mañana?",
+    "finnish": "Kuinka monta teistä suunnittelee olla täällä taas huomenna?",
+    "english": "How many of you plan to be here again tomorrow?",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3424011",
+    "spanish": "¡A levantarse!",
+    "finnish": "Ylös sängystä!",
+    "english": "Get up!",
+    "wordCount": 2,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3425794",
+    "spanish": "Tom está ordenando su habitación.",
+    "finnish": "Tomi siivoaa huonettaan.",
+    "english": "Tom is tidying his room.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3441211",
+    "spanish": "Esta mañana me he levantado muy pronto.",
+    "finnish": "Tänä aamuna nousin sängystä todella aikaisin.",
+    "english": "I got up very early this morning.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3450439",
+    "spanish": "Hay un abanico encima de la mesa.",
+    "finnish": "Pöydällä on viuhka.",
+    "english": "There's a fan on the table.",
+    "wordCount": 7,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3473950",
+    "spanish": "Mañana voy a Boston.",
+    "finnish": "Menen Bostoniin huomenna.",
+    "english": "I'm going to Boston tomorrow.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3523417",
+    "spanish": "Tom hace su propio vino en casa.",
+    "finnish": "Tom valmistaa kotona omat viininsä.",
+    "english": "Tom makes his own wine at home.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3523447",
+    "spanish": "Tom y María se enamoraron y decidieron casarse.",
+    "finnish": "Tom ja Mary rakastuivat ja päättivät mennä naimisiin.",
+    "english": "Tom and Mary fell in love and decided to get married.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "emotions",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3536292",
+    "spanish": "¿Puedes llamar más tarde?",
+    "finnish": "Voitko soittaa myöhemmin?",
+    "english": "Can you call me later?",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3538549",
+    "spanish": "Lo podemos terminar más tarde.",
+    "finnish": "Voimme viimeistellä sen myöhemmin.",
+    "english": "We can finish it later.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3538566",
+    "spanish": "Volvemos mañana.",
+    "finnish": "Tulemme takaisin huomenna.",
+    "english": "We're coming back tomorrow.",
+    "wordCount": 2,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3541197",
+    "spanish": "Tom casi nunca estudia después de las diez de la noche.",
+    "finnish": "Tom tuskin koskaan opiskelee kello 10:n jälkeen illalla.",
+    "english": "Tom hardly ever studies after 10:00 p.m.",
+    "wordCount": 11,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3541730",
+    "spanish": "Tom no esperaba que María viniera tan temprano por la mañana.",
+    "finnish": "Tom ei ollut odottanut Maryn tulevan niin aikaisin aamulla.",
+    "english": "Tom hadn't expected Mary to come so early in the morning.",
+    "wordCount": 11,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3545592",
+    "spanish": "Se me cayó mi celular nuevo a la taza del baño. ¡Qué rabia!",
+    "finnish": "Pudotin uuden kännykkäni vessanpönttöön. Nyt harmittaa!",
+    "english": "I dropped my new cell phone into the toilet bowl. Damn it!",
+    "wordCount": 13,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3547514",
+    "spanish": "Llamaré a Tom mañana.",
+    "finnish": "Soitan Tomille huomenna.",
+    "english": "I'll call Tom tomorrow.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3559857",
+    "spanish": "Le encanta la casa nueva.",
+    "finnish": "Hän pitää uudesta talosta.",
+    "english": "He loves the new house.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3666135",
+    "spanish": "Fuera de mi cama.",
+    "finnish": "Pois mun sängystä.",
+    "english": "Get out of my bed.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3678909",
+    "spanish": "¿Puedo dormir esta noche en tu sofá?",
+    "finnish": "Voinko nukkua sohvallasi ensi yönä?",
+    "english": "May I sleep on your couch tonight?",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3683914",
+    "spanish": "Vi una luz al final del túnel.",
+    "finnish": "Näin valoa tunnelin päässä.",
+    "english": "I saw a light at the end of the tunnel.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3687653",
+    "spanish": "Estos zapatos me calzan.",
+    "finnish": "Nämä kengät sopivat jalkoihini.",
+    "english": "These shoes fit my feet.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3687687",
+    "spanish": "Esos zapatos combinan bien con esa falda blanca.",
+    "finnish": "Nämä kengät sopivat hyvin yhteen tämän valkoisen hameen kanssa.",
+    "english": "Those shoes go well with this white skirt.",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3775509",
+    "spanish": "Mis dos hermanos están casados, pero todas mis hermanas son solteras.",
+    "finnish": "Molemmat veljistäni ovat naimisissa, mutta siskoni ovat kaikki naimattomia.",
+    "english": "Both my brothers are married, but my sisters are all single.",
+    "wordCount": 11,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3777978",
+    "spanish": "Mi abuelo toma café con un grupo de ancianos cada mañana.",
+    "finnish": "Vaarini juo kahvia vanhusjoukon kanssa joka aamu.",
+    "english": "My grandpa drinks coffee with a group of old guys every morning.",
+    "wordCount": 11,
+    "categories": [
+      "food",
+      "family",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3785214",
+    "spanish": "Tom nos cocina.",
+    "finnish": "Tom laittaa meille ruokaa.",
+    "english": "Tom cooks for us.",
+    "wordCount": 3,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3856331",
+    "spanish": "No me quiero casar, pero quiero tener hijos.",
+    "finnish": "En halua mennä naimisiin, mutta haluan lapsia.",
+    "english": "I don't want to get married, but I want to have kids.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3859176",
+    "spanish": "Estamos cerca del despertar cuando soñamos que estamos soñando.",
+    "finnish": "Lähestymme heräämistä, kun uneksimme uneksivamme.",
+    "english": "We are near awakening when we dream that we dream.",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3866825",
+    "spanish": "Tom estaba sentado de piernas cruzadas en su cama escribiendo en su notebook.",
+    "finnish": "Tom istui risti-istunnassa sängyllään kirjoittamassa kannettavallaan.",
+    "english": "Tom was sitting cross-legged on his bed, typing on his laptop.",
+    "wordCount": 13,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3874777",
+    "spanish": "¿Así comías en tu casa?",
+    "finnish": "Söitkö siis kotona?",
+    "english": "So you ate at your house?",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "3890115",
+    "spanish": "La cocina italiana es popular en todo el mundo.",
+    "finnish": "Italialainen keittiö on suosittua ympäri maailman.",
+    "english": "Italian cuisine is popular around the world.",
+    "wordCount": 9,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4075220",
+    "spanish": "¿Cuál era el apellido de María antes de casarse?",
+    "finnish": "Mikä Marin sukunimi olikaan ennen kuin hän meni naimisiin?",
+    "english": "What was Mary's last name before she got married?",
+    "wordCount": 9,
+    "categories": [
+      "family",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4189767",
+    "spanish": "Casi todos los trabajadores se rehusaron a trabajar de noche.",
+    "finnish": "Lähes kaikki työntekijät kieltäytyivät työskentelemästä öisin.",
+    "english": "Almost all workers refused to work during the night.",
+    "wordCount": 10,
+    "categories": [
+      "work",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4189770",
+    "spanish": "He estado despierto la noche casi entera.",
+    "finnish": "Olen ollut hereillä lähes koko yön.",
+    "english": "I've been awake nearly all the night.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4350817",
+    "spanish": "María necesita un rollo entero de papel higiénico para limpiarse el culo.",
+    "finnish": "Mary tarvitsee kokonaisen vessapaperirullan pyyhkiäkseen perseensä puhtaaksi.",
+    "english": "Mary needs a whole roll of toilet paper to wipe her ass clean.",
+    "wordCount": 12,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4414639",
+    "spanish": "Construiré una casa de madera.",
+    "finnish": "Minä rakennan puisen talon.",
+    "english": "I will build a wooden house.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4491284",
+    "spanish": "Mi madre puso la mesa para la cena.",
+    "finnish": "Äitini kattoi pöydän illallista varten.",
+    "english": "My mother set the table for dinner.",
+    "wordCount": 8,
+    "categories": [
+      "food",
+      "family",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4526186",
+    "spanish": "Nos casamos.",
+    "finnish": "Menimme naimisiin.",
+    "english": "We got married.",
+    "wordCount": 2,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4528818",
+    "spanish": "Esta noche vi a Tom.",
+    "finnish": "Näin Tomin tänä iltana.",
+    "english": "I saw Tom tonight.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4534005",
+    "spanish": "Anoche se produjo un incendio en el supermercado.",
+    "finnish": "Tulipalo syttyi viime yönä supermarketissa.",
+    "english": "A fire broke out in the supermarket last night.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4554036",
+    "spanish": "No tengo intención de casarme.",
+    "finnish": "Minulla ei ole aikomustakaan mennä naimisiin.",
+    "english": "I have no intention of getting married.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4612605",
+    "spanish": "Esta mañana he ido al trabajo en bicicleta.",
+    "finnish": "Tänä aamuna menin töihin pyörällä.",
+    "english": "This morning, I bicycled to work.",
+    "wordCount": 8,
+    "categories": [
+      "work",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4694068",
+    "spanish": "Parece que estás de mal humor esta mañana.",
+    "finnish": "Vaikuttaa siltä, että olet huonolla tuulella tänä aamuna.",
+    "english": "It seems like you're in a bad mood this morning.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4694075",
+    "spanish": "El accidente ocurrió cerca a su casa.",
+    "finnish": "Onnettomuus sattui lähellä hänen kotiaan.",
+    "english": "The accident took place near his home.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4874670",
+    "spanish": "La habitación estaba oscura.",
+    "finnish": "Huoneessa oli pimeää.",
+    "english": "The room was dark.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "4927007",
+    "spanish": "Podemos abrir las ventanas.",
+    "finnish": "Voimme avata ikkunat.",
+    "english": "We can open the windows.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5020692",
+    "spanish": "¿Tomás está casado?",
+    "finnish": "Onko Tomi naimisissa?",
+    "english": "Is Tom married?",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5038206",
+    "spanish": "Fue una mañana perfecta.",
+    "finnish": "Se oli täydellinen aamu.",
+    "english": "It was a perfect morning.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5057344",
+    "spanish": "Tomás rara vez está en su casa.",
+    "finnish": "Tomi on hyvin harvoin kotona.",
+    "english": "Tom is hardly ever at home.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5319662",
+    "spanish": "Tom está limpiando su habitación.",
+    "finnish": "Tomi on siivoamassa huonettaan.",
+    "english": "Tom is cleaning his room.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5439772",
+    "spanish": "Nos besamos en la oscuridad.",
+    "finnish": "Suutelimme pimeydessä.",
+    "english": "We kissed in the dark.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5482991",
+    "spanish": "Tom se emborrachó anoche.",
+    "finnish": "Tomi joi itsensä humalaan viime yönä.",
+    "english": "Tom got drunk last night.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5661167",
+    "spanish": "Tom es soltero y nunca ha estado casado.",
+    "finnish": "Tomi on sinkku eikä ole koskaan ollut naimisissa.",
+    "english": "Tom is single and has never been married.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5675729",
+    "spanish": "¿Cuánto cuesta el alquiler de esta habitación?",
+    "finnish": "Mikä on tämän huoneen vuokra?",
+    "english": "How much is the rent for this room?",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5704688",
+    "spanish": "Estuve toda la tarde charlando con amigos.",
+    "finnish": "Vietin koko iltapäivän jutellen kavereideni kanssa.",
+    "english": "I spent the whole afternoon chatting with friends.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5714062",
+    "spanish": "Éste es mi par de zapatos favorito.",
+    "finnish": "Nää on mun lempikengät.",
+    "english": "This is my favorite pair of shoes.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5854865",
+    "spanish": "Los zapatos de Tom le están demasiado grandes.",
+    "finnish": "Tomin kengät ovat liian suuret hänelle.",
+    "english": "Tom's shoes are too big for him.",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5854892",
+    "spanish": "La habitación de Tom no está muy limpia.",
+    "finnish": "Tomin huone ei ole kovin siisti.",
+    "english": "Tom's room isn't very clean.",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5890533",
+    "spanish": "Los caballos están inquietos, quizás tengamos truenos esta noche.",
+    "finnish": "Hevoset ovat levottomia — kenties illalla ukkostaa.",
+    "english": "The horses are restless—perhaps we will have thunder tonight.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5911559",
+    "spanish": "Mi casa está en el cuarto piso.",
+    "finnish": "Minun asuntoni on neljännessä kerroksessa.",
+    "english": "My home is on the fourth floor.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5911574",
+    "spanish": "Vivo en una casa adosada.",
+    "finnish": "Asun rivitalossa.",
+    "english": "I live in a terraced house.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5939582",
+    "spanish": "Lo primero que hizo fue limpiar las armas.",
+    "finnish": "Ensitöikseen hän puhdisti aseet.",
+    "english": "The first thing he did was clean the weapons.",
+    "wordCount": 8,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "5970765",
+    "spanish": "Tom murió el lunes por la mañana.",
+    "finnish": "Tomi kuoli maanantaiaamuna.",
+    "english": "Tom died Monday morning.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6165803",
+    "spanish": "No dejes la luz encendida.",
+    "finnish": "Älä jätä valoa päälle.",
+    "english": "Don't leave the light on.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6165822",
+    "spanish": "Tom encendió la luz.",
+    "finnish": "Tom laittoi valot päälle.",
+    "english": "Tom turned on the light.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6166839",
+    "spanish": "No había nadie en esa habitación cuando yo fui.",
+    "finnish": "Siellä huoneessa ei ollut ketään kun tulin.",
+    "english": "There was no one in that room when I went.",
+    "wordCount": 9,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6598998",
+    "spanish": "En nuestra casa está permitido todo lo que no esté explícitamente prohibido.",
+    "finnish": "Meidän kodissamme on sallittua kaikki se, mikä ei ole erikseen kiellettyä.",
+    "english": "In our house, anything that isn't prohibited is fair game.",
+    "wordCount": 12,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6602890",
+    "spanish": "Mañana es día de pago.",
+    "finnish": "Huomenna on palkanmaksupäivä.",
+    "english": "Tomorrow is payday.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6602996",
+    "spanish": "Somos recién casados.",
+    "finnish": "Olemme nuoripari.",
+    "english": "We're newlyweds.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6608081",
+    "spanish": "Estábamos recién casados.",
+    "finnish": "Olimme hiljattain menneet naimisiin.",
+    "english": "We were newlyweds.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6611825",
+    "spanish": "Suelo dormir ocho horas.",
+    "finnish": "Mä nukun yleensä kaheksan tuntii.",
+    "english": "I usually sleep eight hours.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6611852",
+    "spanish": "No he podido dormir bien últimamente.",
+    "finnish": "En ole nukkunut kovin hyvin viime aikoina.",
+    "english": "I haven't been able to sleep very well lately.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6612082",
+    "spanish": "Ese ruido me impide dormir.",
+    "finnish": "En saa unta tuon melun takia.",
+    "english": "That noise keeps me from sleeping.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6612115",
+    "spanish": "Duermo en una cama grande.",
+    "finnish": "Nukun suuressa sängyssä.",
+    "english": "I sleep in a big bed.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6617860",
+    "spanish": "La mesa no está sucia.",
+    "finnish": "Pöytä ei ole likainen.",
+    "english": "The table isn't dirty.",
+    "wordCount": 5,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6617862",
+    "spanish": "¿Está sucia la mesa?",
+    "finnish": "Onko pöytä likainen?",
+    "english": "Is that table dirty?",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6626410",
+    "spanish": "Últimamente no he podido dormir lo suficiente.",
+    "finnish": "Viime aikoina en ole saanut tarpeeksi unta.",
+    "english": "I haven't been able to get enough sleep lately.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6682414",
+    "spanish": "Cocina el arroz.",
+    "finnish": "Keitä riisi.",
+    "english": "Cook the rice.",
+    "wordCount": 3,
+    "categories": [
+      "food",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6683880",
+    "spanish": "Anoche tuve un sueño muy raro.",
+    "finnish": "Viime yönä näin todella outoa unta.",
+    "english": "I had a very strange dream last night.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6683885",
+    "spanish": "Tuve un sueño muy extraño anoche.",
+    "finnish": "Viime yönä näin todella outoa unta.",
+    "english": "I had a very strange dream last night.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "6985496",
+    "spanish": "Mañana, si Dios quiere, estaremos con tus padres.",
+    "finnish": "Huomenna, jos Luoja suo, olemme vanhempiesi kanssa.",
+    "english": "Tomorrow, God willing, we'll be with your parents.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "7412184",
+    "spanish": "Lavé las ventanas.",
+    "finnish": "Pesin ikkunat.",
+    "english": "I washed the windows.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "7950487",
+    "spanish": "Habrá un eclipse lunar mañana.",
+    "finnish": "Huomenna on kuunpimennys.",
+    "english": "There will be a lunar eclipse tomorrow.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "7977494",
+    "spanish": "Puso la mesa para la cena.",
+    "finnish": "Hän kattoi pöydän illallista varten.",
+    "english": "She set the table for supper.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "7996664",
+    "spanish": "No voy a competir mañana.",
+    "finnish": "En kilpaile huomenna.",
+    "english": "I'm not going to compete tomorrow.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "8187735",
+    "spanish": "Acabamos de casarnos.",
+    "finnish": "Menimme juuri naimisiin.",
+    "english": "We just got married.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "8310704",
+    "spanish": "Mañana es el día.",
+    "finnish": "Huominen on se päivä.",
+    "english": "Tomorrow's the day.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "9058034",
+    "spanish": "¿Hasta mañana?",
+    "finnish": "Nähdäänkö huomenna?",
+    "english": "See you tomorrow?",
+    "wordCount": 2,
+    "categories": [
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "9453008",
+    "spanish": "Tom se quedó en casa.",
+    "finnish": "Tom pysyi kotona.",
+    "english": "Tom stayed home.",
+    "wordCount": 5,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "9553780",
+    "spanish": "Buenas noches, Tom. \"Buenas noches, Mary.\"",
+    "finnish": "Hyvää yötä Tomi. \"Hyvää yötä Mari.\"",
+    "english": "Good night, Tom. \"Good night, Mary.\"",
+    "wordCount": 6,
+    "categories": [
+      "greetings",
+      "time",
+      "daily_life"
+    ]
+  },
+  {
+    "id": "9775162",
+    "spanish": "No abran la puerta.",
+    "finnish": "Älkää avatko ovea.",
+    "english": "Don't open the door.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "9775165",
+    "spanish": "No abráis la puerta.",
+    "finnish": "Älkää avatko ovea.",
+    "english": "Don't open the door.",
+    "wordCount": 4,
+    "categories": [
+      "daily_life"
+    ]
+  },
+  {
+    "id": "11189914",
+    "spanish": "Europa no existe.",
+    "finnish": "Eurooppaa ei ole.",
+    "english": "Europe doesn't exist.",
+    "wordCount": 3,
+    "categories": [
+      "daily_life"
+    ]
+  }
+]

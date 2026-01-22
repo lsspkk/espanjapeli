@@ -5,7 +5,7 @@
     "finnish": "Äitini ei puhu englantia kovin hyvin.",
     "english": "My mom doesn't speak English very well.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -15,17 +15,17 @@
     "finnish": "Isäni ei juo alkoholia. \"Ei minunkaan isäni.\"",
     "english": "My father doesn't drink. \"Neither does my father.\"",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "180713",
     "spanish": "Yo vivo con mis padres.",
-    "finnish": "Asun vanhempieni luona.",
+    "finnish": "Mä asun mun vanhempien luona.",
     "english": "I live with my parents.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -35,7 +35,7 @@
     "finnish": "Hänen isänsä on japanilainen.",
     "english": "Her father is Japanese.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -43,9 +43,9 @@
     "id": "330632",
     "spanish": "Su mujer es francesa.",
     "finnish": "Hänen vaimonsa on ranskalainen.",
-    "english": "Her wife is French.",
+    "english": "His wife is French.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -55,7 +55,7 @@
     "finnish": "Minun isäni kuoli keuhkosyöpään.",
     "english": "My father died of lung cancer.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -65,7 +65,7 @@
     "finnish": "Hänen poikansa tärisi pelosta.",
     "english": "His son trembled with fear.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -75,8 +75,9 @@
     "finnish": "Tyttäreni menee naimisiin kesäkuussa.",
     "english": "My daughter is to get married in June.",
     "wordCount": 7,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -85,7 +86,7 @@
     "finnish": "Hänellä on seitsemän lasta.",
     "english": "She has seven sons.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -95,7 +96,7 @@
     "finnish": "Hänen äitinsä oli Kennedyn perheestä.",
     "english": "Her mother was a Kennedy.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -105,7 +106,7 @@
     "finnish": "Hän on sen tyypin kaveri, joka ei ota naisia kovin vakavasti.",
     "english": "He's the kind of guy who doesn't take women seriously.",
     "wordCount": 15,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -115,9 +116,10 @@
     "finnish": "Hänestä on mukavaa laittaa ruokaa perheelleen.",
     "english": "He likes cooking for his family.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -126,17 +128,18 @@
     "finnish": "Onko sinun äitisi kotona?",
     "english": "Is your mother at home now?",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
     "id": "359732",
     "spanish": "Ella se parece a su tía.",
-    "finnish": "Hän muistuttaa tätiään.",
+    "finnish": "Hän näyttää tädiltään.",
     "english": "She looks like her aunt.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -146,8 +149,10 @@
     "finnish": "Vauva itki koko yön.",
     "english": "The baby cried all night.",
     "wordCount": 6,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -156,7 +161,7 @@
     "finnish": "Hänellä on vielä yksi poika.",
     "english": "He has another son.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -164,9 +169,9 @@
     "id": "434571",
     "spanish": "¿Tiene hijos?",
     "finnish": "Onko hänellä lapsia?",
-    "english": "Does he have children?",
+    "english": "Do you have kids?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -176,7 +181,7 @@
     "finnish": "Miten poikani voi?",
     "english": "How's my son doing?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -186,7 +191,7 @@
     "finnish": "Minä rakastan minun vaimoani.",
     "english": "I love my wife.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -196,8 +201,9 @@
     "finnish": "Haluan siivota talon ennen kuin vanhempani tulevat takaisin.",
     "english": "I want to clean the house before my parents return.",
     "wordCount": 10,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -206,8 +212,9 @@
     "finnish": "Melu herättää vauvan.",
     "english": "The noise will wake the baby up.",
     "wordCount": 7,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -216,7 +223,7 @@
     "finnish": "Hänen poikansa putosi kalliolta.",
     "english": "His son fell over the cliff.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -226,7 +233,7 @@
     "finnish": "Sinun isäsi on pitkä.",
     "english": "Your father is tall.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -236,8 +243,9 @@
     "finnish": "Minkä ikäisiä lapsenne ovat?",
     "english": "How old are your children?",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -246,8 +254,9 @@
     "finnish": "Lapset tarvitsevat rakkautta.",
     "english": "Children need loving.",
     "wordCount": 4,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "emotions"
     ]
   },
   {
@@ -256,7 +265,7 @@
     "finnish": "Menin sairaalaan tapaamaan minun vaimoani.",
     "english": "I went to the hospital to see my wife.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -267,8 +276,9 @@
     "finnish": "Tyttö tärisi pelosta.",
     "english": "The girl trembled with fear.",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "emotions"
     ]
   },
   {
@@ -277,7 +287,7 @@
     "finnish": "Hän on vähän isänsä kaltainen.",
     "english": "He's a little like his father.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -285,9 +295,9 @@
     "id": "454591",
     "spanish": "Sus padres eran granjeros.",
     "finnish": "Hänen vanhempansa olivat maanviljelijöitä.",
-    "english": "Her parents were farmers.",
+    "english": "His parents were farmers.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -297,7 +307,7 @@
     "finnish": "Onko tämä sinun perheesi?",
     "english": "Is this your family?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -307,7 +317,7 @@
     "finnish": "Vanhempani ovat eronneet.",
     "english": "My parents got divorced.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -315,9 +325,9 @@
     "id": "459177",
     "spanish": "Él ya no es un niño.",
     "finnish": "Hän ei ole enää lapsi.",
-    "english": "He's not a boy anymore.",
+    "english": "He is no longer a child.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -325,9 +335,9 @@
     "id": "459183",
     "spanish": "Estoy buscando a mi hermano.",
     "finnish": "Mä etin mun veljeä.",
-    "english": "I am searching for my brother.",
+    "english": "I'm looking for my brother.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -337,19 +347,20 @@
     "finnish": "Minulla on kaksi veljeä ja yksi sisko.",
     "english": "I have two brothers and a sister.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "459248",
     "spanish": "Mi mujer está cocinando.",
-    "finnish": "Vaimoni on laittamassa ruokaa.",
+    "finnish": "Vaimoni laittaa ruokaa.",
     "english": "My wife is cooking.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -358,8 +369,9 @@
     "finnish": "Vauva on yhden päivän ikäinen.",
     "english": "The baby is one day old.",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -368,7 +380,7 @@
     "finnish": "Nainen pesee kasvonsa.",
     "english": "The woman washes her face.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -376,9 +388,9 @@
     "id": "474301",
     "spanish": "Él no tiene hijos.",
     "finnish": "Hänellä ei ole lapsia.",
-    "english": "He has no children.",
+    "english": "He doesn't have any children.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -388,9 +400,10 @@
     "finnish": "Hänen veljensä katsoo koko ajan televisiota.",
     "english": "His brother is always watching TV.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -399,17 +412,17 @@
     "finnish": "Minun isäni on lääkäri.",
     "english": "My father is a doctor.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "488840",
     "spanish": "Mi padre vive y trabaja en Tokio.",
-    "finnish": "Minun isäni asuu ja työskentelee Tokiossa.",
+    "finnish": "Minun isäni asuu ja tekee töitä Tokiossa.",
     "english": "My father lives and works in Tokyo.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -419,7 +432,7 @@
     "finnish": "Tarvitsen jotakin lapselle.",
     "english": "I need something for a child.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -429,7 +442,7 @@
     "finnish": "Hän meni kouluun, vaikka hänen oikea jalkansa oli kipeä.",
     "english": "She went to school in spite of the pain in her right leg.",
     "wordCount": 15,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -439,7 +452,7 @@
     "finnish": "Vaimoni on lääkäri.",
     "english": "My wife is a doctor.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -447,9 +460,9 @@
     "id": "493576",
     "spanish": "Él es mi hermano.",
     "finnish": "Hän on minun veljeni.",
-    "english": "He's my brother.",
+    "english": "He is my brother.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -457,9 +470,9 @@
     "id": "493577",
     "spanish": "Es mi hermano.",
     "finnish": "Hän on minun veljeni.",
-    "english": "He's my brother.",
+    "english": "He is my brother.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -469,7 +482,7 @@
     "finnish": "Jaakko on todella ankara lapsilleen.",
     "english": "Jack is very severe with his children.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -477,20 +490,21 @@
   {
     "id": "504475",
     "spanish": "Su hijo tiene ocho años.",
-    "finnish": "Hänen poikansa on kahdeksan vuotta vanha.",
+    "finnish": "Hänen poikansa on kahdeksanvuotias.",
     "english": "His son is eight years old.",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
     "id": "504507",
     "spanish": "Betty mató a su madre.",
-    "finnish": "Betty tappoi oman äitinsä.",
+    "finnish": "Betty tappoi äitinsä.",
     "english": "Betty killed her mother.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -500,9 +514,10 @@
     "finnish": "Minun äitini on taitava kokki.",
     "english": "My mother cooks well.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -511,7 +526,7 @@
     "finnish": "Heillä on kaksi tytärtä.",
     "english": "They have two daughters.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -521,9 +536,10 @@
     "finnish": "Isäni ei aina kävele työhön.",
     "english": "My father does not always walk to work.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family",
-      "work"
+      "work",
+      "time"
     ]
   },
   {
@@ -532,7 +548,7 @@
     "finnish": "Isäni on liikemies.",
     "english": "My father is a businessman.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "work"
     ]
@@ -543,7 +559,7 @@
     "finnish": "Minulla on kaksi vanhempaa siskoa.",
     "english": "I have two older sisters.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -553,7 +569,7 @@
     "finnish": "Molemmat sisaret ovat hyvin kauniita.",
     "english": "Both sisters are very beautiful.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -561,9 +577,9 @@
     "id": "535036",
     "spanish": "Tiene siete hijos.",
     "finnish": "Hänellä on seitsemän poikaa.",
-    "english": "She has seven sons.",
+    "english": "He has seven sons.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -573,7 +589,7 @@
     "finnish": "Haluaisin nähdä siskosi.",
     "english": "I'd like to see your sister.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -584,7 +600,7 @@
     "finnish": "Vaimoni kuoli syöpään.",
     "english": "My wife died of cancer.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -594,7 +610,7 @@
     "finnish": "Tunnen isäsi.",
     "english": "I know your father.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -604,8 +620,9 @@
     "finnish": "Isi ei oo kotona.",
     "english": "Dad's not home.",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -614,9 +631,11 @@
     "finnish": "Enoni tulee huomenna käymään meillä.",
     "english": "My uncle is coming to see us tomorrow.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "travel",
-      "family"
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -625,7 +644,7 @@
     "finnish": "Minulla on kaksi serkkua.",
     "english": "I have two cousins.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -635,8 +654,9 @@
     "finnish": "Eilen autoin minun isääni.",
     "english": "I helped my father yesterday.",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -645,7 +665,7 @@
     "finnish": "Mun isoisä tykkää kävellä.",
     "english": "My grandfather likes to walk.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -655,8 +675,10 @@
     "finnish": "Hyvää äitienpäivää!",
     "english": "Happy Mother's Day!",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "emotions",
+      "time"
     ]
   },
   {
@@ -665,7 +687,7 @@
     "finnish": "Hän vihasi aviomiestään.",
     "english": "She hated her husband.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -675,7 +697,7 @@
     "finnish": "Lapset pitävät puussa kiipeilystä.",
     "english": "Children like climbing trees.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -685,7 +707,7 @@
     "finnish": "Lasten pitäisi leikkiä ulkona.",
     "english": "Children should play outside.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -696,7 +718,7 @@
     "finnish": "Jack muistuttaa isäänsä.",
     "english": "Jack resembles his father.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -706,7 +728,7 @@
     "finnish": "Tomin isoäiti näyttää terveeltä.",
     "english": "Tom's grandmother looks healthy.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -716,7 +738,7 @@
     "finnish": "Runoilija ilmaisi palavat tunteensa rakastamaansa naista kohtaan.",
     "english": "The poet expressed his burning passion for the woman he loved.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -726,7 +748,7 @@
     "finnish": "Minun isoveljeni on opettaja.",
     "english": "My older brother is a teacher.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -736,7 +758,7 @@
     "finnish": "Tom-eno on äitini veli.",
     "english": "Uncle Tom is my mother's brother.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -746,7 +768,7 @@
     "finnish": "Minun isäni on terve.",
     "english": "My father is in good health.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -756,7 +778,7 @@
     "finnish": "Ota siskostasi mallia.",
     "english": "Follow the example of your sister.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -766,7 +788,7 @@
     "finnish": "Äitini on dieetillä.",
     "english": "My mother is on a diet.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -776,8 +798,9 @@
     "finnish": "Poikani osaa nyt laskea sataan.",
     "english": "My son can count up to a hundred now.",
     "wordCount": 7,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -786,7 +809,7 @@
     "finnish": "He ovat serkkujani.",
     "english": "They are my cousins.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -796,9 +819,10 @@
     "finnish": "Minun äitini on keittiössä.",
     "english": "My mother is in the kitchen.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -807,8 +831,9 @@
     "finnish": "He eivät aina tottele vanhempiaan.",
     "english": "They don't always obey their parents.",
     "wordCount": 6,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -817,17 +842,17 @@
     "finnish": "Siskoni on kuuluisa.",
     "english": "My sister is famous.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "644860",
     "spanish": "Mi mujer es vegetariana.",
-    "finnish": "Mun vaimo on kasvissyöjä.",
+    "finnish": "Minun vaimoni on kasvissyöjä.",
     "english": "My wife is a vegetarian.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -835,9 +860,9 @@
     "id": "669728",
     "spanish": "Nuestro hijo murió en la guerra.",
     "finnish": "Poikamme kuoli sodassa.",
-    "english": "Our son died in the war.",
+    "english": "Our son died during the war.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -847,7 +872,7 @@
     "finnish": "Siskoni muistuttaa isoäitiäni.",
     "english": "My sister resembles my grandmother.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -857,7 +882,7 @@
     "finnish": "Hän on sen tyypin kaveri, joka ei ota naisia kovin vakavasti.",
     "english": "He's the type of guy who doesn't take women very seriously.",
     "wordCount": 16,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -867,7 +892,7 @@
     "finnish": "Vaimoni vihaa kissoja.",
     "english": "My wife hates cats.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -877,7 +902,7 @@
     "finnish": "Asun vanhempieni kanssa.",
     "english": "I live with my parents.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -885,9 +910,9 @@
     "id": "721570",
     "spanish": "Su padre es japonés.",
     "finnish": "Hänen isänsä on japanilainen.",
-    "english": "His father is Japanese.",
+    "english": "Your father is Japanese.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -897,7 +922,7 @@
     "finnish": "Hänen isänsä on japanilainen.",
     "english": "His father is Japanese.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -907,7 +932,7 @@
     "finnish": "Isäni pitää tenniksestä.",
     "english": "My father likes tennis.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -917,7 +942,7 @@
     "finnish": "Koska oli orpo, isäni täytyi aloittaa rahan ansaitseminen kymmenvuotiaana.",
     "english": "Being an orphan, my father had to start earning money at ten.",
     "wordCount": 13,
-    "themes": [
+    "categories": [
       "family",
       "work"
     ]
@@ -928,7 +953,7 @@
     "finnish": "Vauva purskahti itkuun.",
     "english": "The baby started to cry.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -936,9 +961,9 @@
     "id": "768638",
     "spanish": "¿Cómo está tu mujer?",
     "finnish": "Miten vaimollasi menee?",
-    "english": "How's the wife?",
+    "english": "How's your wife?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -948,7 +973,7 @@
     "finnish": "Mun lapset on koulus.",
     "english": "My children are at school.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -958,7 +983,7 @@
     "finnish": "Sisareni meni vihdoinkin naimisiin.",
     "english": "Finally, my sister got married.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -966,9 +991,9 @@
     "id": "779873",
     "spanish": "Mi hijo cree en Papá Noel.",
     "finnish": "Poikani uskoo joulupukkiin.",
-    "english": "My son believes in Santa Claus.",
+    "english": "My son believes in Father Christmas.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -978,17 +1003,17 @@
     "finnish": "Isäsi on japanilainen.",
     "english": "Your father is Japanese.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "785237",
     "spanish": "Él es un amigo de mi hermano.",
-    "finnish": "Se on mun broidin kaveri.",
+    "finnish": "Hän on minun veljeni ystävä.",
     "english": "He's a friend of my brother's.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -999,7 +1024,7 @@
     "finnish": "Hän ajaa usein isänsä autolla.",
     "english": "He often drives his father's car.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "travel",
       "family"
     ]
@@ -1008,9 +1033,9 @@
     "id": "793480",
     "spanish": "Mi tío me dio su coche.",
     "finnish": "Setäni antoi autonsa minulle.",
-    "english": "My uncle gave his car to me.",
+    "english": "My uncle gave me his car.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "travel",
       "family"
     ]
@@ -1021,7 +1046,7 @@
     "finnish": "Poikani ei osaa vielä laskea.",
     "english": "My son can't count yet.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1031,7 +1056,7 @@
     "finnish": "Veljeni pystyy juoksemaan todella nopeasti.",
     "english": "My brother can run very fast.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -1042,7 +1067,7 @@
     "finnish": "Etäännytämme itsemme muusta suvusta.",
     "english": "We're distancing ourselves from the rest of the family.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1052,7 +1077,7 @@
     "finnish": "Molemmat veljekset kuolivat.",
     "english": "The two brothers died.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1062,7 +1087,7 @@
     "finnish": "Nuori nainen kantoi lasta sylissään.",
     "english": "The young lady carried a child in her arm.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1072,7 +1097,7 @@
     "finnish": "Sinun täytyy totella vanhempiasi.",
     "english": "You have to obey your parents.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1082,10 +1107,11 @@
     "finnish": "Ensimmäinen vuodenaika on kevät.",
     "english": "The first season of the year is spring.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "travel",
       "family",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -1094,17 +1120,18 @@
     "finnish": "Hänen isänsä syö täällä kaksi kertaa viikossa.",
     "english": "His father eats there twice a week.",
     "wordCount": 9,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
     "id": "867880",
     "spanish": "Mi madre me compró una bicicleta nueva.",
     "finnish": "Äitini osti minulle uuden polkupyörän.",
-    "english": "My mother bought me a new bicycle.",
+    "english": "Mother bought me a new bicycle.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1114,7 +1141,7 @@
     "finnish": "Pidän keväästä.",
     "english": "I like spring.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -1125,7 +1152,7 @@
     "finnish": "Onko hän sinun äitisi?",
     "english": "Is she your mother?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1135,7 +1162,7 @@
     "finnish": "Hänellä on kolme isosiskoa.",
     "english": "He has three older sisters.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1145,7 +1172,7 @@
     "finnish": "Haluan, että isäni näkee sen elokuvan.",
     "english": "I want my father to see the movie.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -1156,7 +1183,7 @@
     "finnish": "Oletko ylpeä isästäsi?",
     "english": "Are you proud of your father?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1166,7 +1193,7 @@
     "finnish": "Oletko ylpeä isästäsi?",
     "english": "Are you proud of your father?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1176,7 +1203,7 @@
     "finnish": "Oletko ylpeä isästäsi?",
     "english": "Are you proud of your father?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1186,7 +1213,7 @@
     "finnish": "Oletko ylpeä isästäsi?",
     "english": "Are you proud of your father?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1196,7 +1223,7 @@
     "finnish": "Hän osti kameran pojalleen.",
     "english": "She bought her son a camera.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1204,9 +1231,9 @@
     "id": "918978",
     "spanish": "Mi hermano se parece mucho a mí.",
     "finnish": "Veljeni on todella samannäköinen kuin minä.",
-    "english": "My brother looks a lot like me.",
+    "english": "My brother looks very similar to me.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1216,18 +1243,19 @@
     "finnish": "Hän ei ole yhtä pitkä kuin hänen isänsä.",
     "english": "He is not as tall as his father.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "922613",
     "spanish": "Ahora Tom vive con su tío.",
-    "finnish": "Nyt Tomi asuu enonsa kanssa.",
+    "finnish": "Nyt Tomi asuu setänsä kanssa.",
     "english": "Tom is living with his uncle now.",
     "wordCount": 6,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -1236,7 +1264,7 @@
     "finnish": "Isä on hyvä ihminen.",
     "english": "Father is a good person.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1246,8 +1274,9 @@
     "finnish": "Serkkuni saa lapsen ensi kuussa.",
     "english": "My cousin is having a baby next month.",
     "wordCount": 11,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -1256,7 +1285,7 @@
     "finnish": "Äiti teki minulle uuden puvun.",
     "english": "Mother made me a new suit.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1266,7 +1295,7 @@
     "finnish": "Naiset havainnoivat ja miehet ajattelevat.",
     "english": "Women observe and men think.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1276,7 +1305,7 @@
     "finnish": "Missä vaarisi asuu?",
     "english": "Where does your grandfather live?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1286,7 +1315,7 @@
     "finnish": "Lääkäri neuvoi isääni lopettamaan tupakoinnin.",
     "english": "The doctor advised my father to give up smoking.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1296,7 +1325,7 @@
     "finnish": "Mun isä meni kalaan.",
     "english": "My father went fishing.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1306,7 +1335,7 @@
     "finnish": "Hän tunsi itsensä väsyneeksi.",
     "english": "He felt tired.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1316,7 +1345,7 @@
     "finnish": "Poika pysyi hiljaa.",
     "english": "The boy remained silent.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1324,19 +1353,19 @@
     "id": "1055460",
     "spanish": "Tenemos dos hijos.",
     "finnish": "Meillä on kaksi poikaa.",
-    "english": "We have two kids.",
+    "english": "We have two children.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "1061006",
     "spanish": "¿Tienen hijos?",
-    "finnish": "Onko heillä lapsia?",
+    "finnish": "Onko teillä lapsia?",
     "english": "Do you have kids?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1346,7 +1375,7 @@
     "finnish": "Lucia, onko sinulla siskoa?",
     "english": "Do you have a sister, Lucia?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1356,7 +1385,7 @@
     "finnish": "Lucia, onko sinulla siskoa?",
     "english": "Do you have a sister, Lucia?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1366,7 +1395,7 @@
     "finnish": "Olen ylpeä pojastani.",
     "english": "I'm proud of my son.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1376,8 +1405,9 @@
     "finnish": "Hän lupasi mennä naimisiin hänen kanssaan.",
     "english": "She promised to marry him.",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -1386,7 +1416,7 @@
     "finnish": "Onko hänellä lapsia?",
     "english": "Does he have children?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1396,7 +1426,7 @@
     "finnish": "Pedrolla ei ole siskoja.",
     "english": "Pedro has no sisters.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1406,7 +1436,7 @@
     "finnish": "Tom tuntee Maryn isän.",
     "english": "Tom knows Mary's father.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1416,7 +1446,7 @@
     "finnish": "Hänellä on kaunis tytär.",
     "english": "He has a beautiful daughter.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1426,7 +1456,7 @@
     "finnish": "Äidillä on kuumetta.",
     "english": "Mom has a fever.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1436,7 +1466,7 @@
     "finnish": "Siskoni itkee usein.",
     "english": "My sister often cries.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1446,7 +1476,7 @@
     "finnish": "Tietääkö kukaan, missä poikani on?",
     "english": "Does someone know where my son is?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1456,9 +1486,11 @@
     "finnish": "Sally pakotti veljensä siivoamaan vessan.",
     "english": "Sally made his brother clean the bathroom.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -1467,7 +1499,7 @@
     "finnish": "Minä näytän sinulle, kuinka mies pystyy uudestisyntymään tuhkistaan.",
     "english": "I will show you that man can be reborn from his ashes.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1477,17 +1509,18 @@
     "finnish": "Minun isäni kuolemasta on viisi vuotta.",
     "english": "Five years have gone by since my father died.",
     "wordCount": 9,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
     "id": "1122062",
     "spanish": "Tom tiene dos hijos. Ambos viven en Boston.",
-    "finnish": "Tomilla on kaksi poikaa. Molemmat asuvat Bostonissa.",
+    "finnish": "Tomilla on kaksi poikaa. Molemmat heistä asuvat Bostonissa.",
     "english": "Tom has two sons. Both of them live in Boston.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1497,8 +1530,9 @@
     "finnish": "Vuosien aikana äitini valehteli minulle niin monesta asiasta.",
     "english": "Over the years my mother lied to me about so many things.",
     "wordCount": 14,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -1507,7 +1541,7 @@
     "finnish": "Vaimoni hakkaa minua.",
     "english": "My wife beats me.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1517,8 +1551,9 @@
     "finnish": "Tyttäreni menee naimisiin kesäkuussa.",
     "english": "My daughter is getting married in June.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -1527,7 +1562,7 @@
     "finnish": "Hän on perheen musta lammas.",
     "english": "He's the black sheep of the family.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1537,7 +1572,7 @@
     "finnish": "Minulla on ystävä, jonka isä on tunnettu pianisti.",
     "english": "I have a friend whose father is a famous pianist.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -1545,10 +1580,10 @@
   {
     "id": "1135696",
     "spanish": "Papá, no puedo caminar más. Llévame.",
-    "finnish": "Isä, en pysty kävellä enää yhtään. Kanna minua.",
+    "finnish": "Isä, en jaksa kävellä enää yhtään. Kanna minua.",
     "english": "Daddy, I can't walk any more. Carry me.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "travel",
       "family",
       "leisure"
@@ -1560,8 +1595,9 @@
     "finnish": "Tomi ja Mari saavat esikoisensa ensi kuussa.",
     "english": "Tom and Mary are expecting their first child next month.",
     "wordCount": 10,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -1570,9 +1606,10 @@
     "finnish": "Minun vaimoni laittaa ruokaa.",
     "english": "My wife is cooking right now.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "time"
     ]
   },
   {
@@ -1581,27 +1618,27 @@
     "finnish": "Etsin siskoasi. Missä hän on?",
     "english": "I'm looking for your sister. Where is she?",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "1147703",
     "spanish": "Él vive con sus padres.",
-    "finnish": "Hän asuu vanhempiensa luona.",
+    "finnish": "Hän asuu vanhempiensa kanssa.",
     "english": "He lives with his parents.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "1147825",
     "spanish": "¿Cómo está su esposa?",
-    "finnish": "Mitä vaimollenne kuuluu?",
-    "english": "How is your wife?",
+    "finnish": "Miten vaimollasi menee?",
+    "english": "How's your wife?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1611,7 +1648,7 @@
     "finnish": "Poliisi etsi kadonnutta lasta.",
     "english": "The police searched for the missing child.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1621,7 +1658,7 @@
     "finnish": "Mari on unelmieni nainen.",
     "english": "Mary is the woman of my dreams.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1631,7 +1668,7 @@
     "finnish": "Olin mustasukkainen veljestäni.",
     "english": "I was jealous of my brother.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1641,7 +1678,7 @@
     "finnish": "Tom oli ilkeä ihminen ennen kuin hänen tyttärensä syntyi.",
     "english": "Tom was a mean man before his daughter was born.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1651,7 +1688,7 @@
     "finnish": "Mari on Tomin tytär.",
     "english": "Mary is Tom's daughter.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1661,7 +1698,7 @@
     "finnish": "Tomi on ainoa lapsi.",
     "english": "Tom is an only child.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1671,7 +1708,7 @@
     "finnish": "Työtoverini ja hänen aviomiehensä ovat molemmat amerikkalaisia.",
     "english": "My colleague and her husband are both American.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family",
       "work"
     ]
@@ -1682,8 +1719,9 @@
     "finnish": "Rakastatko yhä vaimoasi?",
     "english": "Are you still in love with your wife?",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "emotions"
     ]
   },
   {
@@ -1692,7 +1730,7 @@
     "finnish": "Miten sinun äitisi voi?",
     "english": "How's your mother?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1702,17 +1740,17 @@
     "finnish": "Hän on minun siskoni.",
     "english": "She's my sister.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "1249591",
     "spanish": "Él es mi tío.",
-    "finnish": "Hän on minun setäni.",
+    "finnish": "Hän on minun enoni.",
     "english": "He's my uncle.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1722,7 +1760,7 @@
     "finnish": "Äidilläni on kaksi veljeä.",
     "english": "My mother has two brothers.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1732,7 +1770,7 @@
     "finnish": "Tom on täydellinen isä.",
     "english": "Tom is the perfect father.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1740,10 +1778,11 @@
     "id": "1255682",
     "spanish": "Su hermano es casado, pero no tiene hijos.",
     "finnish": "Hänen veljensä on naimisissa, mutta hänellä ei ole lapsia.",
-    "english": "Her brother is married, but he doesn't have children.",
+    "english": "His brother is married, but he doesn't have children.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -1752,7 +1791,7 @@
     "finnish": "Isäni ajaa todella hyvin.",
     "english": "My father drives very well.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1762,7 +1801,7 @@
     "finnish": "Onko hänellä lapsia?",
     "english": "Does she have children?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1772,17 +1811,19 @@
     "finnish": "Sain ensimmäisen lapseni viime vuonna.",
     "english": "I gave birth to my first child last year.",
     "wordCount": 10,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
     "id": "1266477",
     "spanish": "¿Tienes hijos?",
     "finnish": "Onko sinulla lapsia?",
-    "english": "Do you have children?",
+    "english": "Do you have kids?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1792,17 +1833,17 @@
     "finnish": "Et tiedä mitä on menettää koko perheensä sodassa.",
     "english": "You don't know what it's like to lose your entire family in a war.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "1270427",
     "spanish": "Mi abuela habla despacio.",
-    "finnish": "Mummini puhuu hitaasti.",
+    "finnish": "Isoäitini puhuu hitaasti.",
     "english": "My grandmother speaks slowly.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1812,7 +1853,7 @@
     "finnish": "Minun isoäitini asui meidän kanssamme.",
     "english": "My grandmother lived with us.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1822,7 +1863,7 @@
     "finnish": "Minun isoäitini asui meidän kanssamme.",
     "english": "My grandmother lived with us.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1832,7 +1873,7 @@
     "finnish": "Mä etsin lahjaa mun isälle.",
     "english": "I'm looking for a gift for my father.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -1843,8 +1884,9 @@
     "finnish": "Vihaan mustasukkaisia naisia.",
     "english": "I hate jealous women.",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "emotions"
     ]
   },
   {
@@ -1853,7 +1895,7 @@
     "finnish": "Luulen että olet nainen jota olen odottanut koko ikäni.",
     "english": "I think you're the woman I've been waiting for all my life.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1863,7 +1905,7 @@
     "finnish": "Tomi on perheen pisin.",
     "english": "Tom is the tallest in his family.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1873,17 +1915,17 @@
     "finnish": "Minun isäni on pitkä.",
     "english": "My father is tall.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "1336312",
     "spanish": "Mary es la exesposa de Tom.",
-    "finnish": "Mari on Tomin entinen vaimo.",
+    "finnish": "Mari on Tomin ex-vaimo.",
     "english": "Mary is Tom's ex-wife.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1893,7 +1935,7 @@
     "finnish": "Sinun isäsi vaikuttaa todella mukavalta.",
     "english": "Your father seems very nice.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1903,7 +1945,7 @@
     "finnish": "Isoäitini kuolema oli suuri shokki.",
     "english": "My grandmother's death was a big shock.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1913,7 +1955,7 @@
     "finnish": "Lupaan pysyä luonasi kunnes isäsi saapuu.",
     "english": "I promise you I'll stay with you until your father arrives.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1923,7 +1965,7 @@
     "finnish": "Isäni pyörittää ravintolaa.",
     "english": "My father runs a restaurant.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -1934,8 +1976,10 @@
     "finnish": "Isä käy joka aamu lenkillä.",
     "english": "My father goes jogging every morning.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -1944,8 +1988,9 @@
     "finnish": "Hän aina kohtelee minua kuin lasta.",
     "english": "He always treats me like a child.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -1954,7 +1999,7 @@
     "finnish": "Näin oudon naisen siellä.",
     "english": "I saw a strange woman there.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1964,7 +2009,7 @@
     "finnish": "Minun perheeni ei ole kovin suuri.",
     "english": "My family is not very large.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1974,7 +2019,7 @@
     "finnish": "Minun isäni asuu maaseudulla.",
     "english": "My father lives in the country.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1984,7 +2029,7 @@
     "finnish": "Hän hylkäsi omat lapsensa.",
     "english": "She abandoned her children.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -1994,7 +2039,7 @@
     "finnish": "Tom on Marin ukki.",
     "english": "Tom is Mary's grandfather.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2004,7 +2049,7 @@
     "finnish": "Tom näyttää isältään.",
     "english": "Tom looks like his father.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2014,7 +2059,7 @@
     "finnish": "Isäni on rikas.",
     "english": "My father is rich.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2024,7 +2069,7 @@
     "finnish": "Hän oli orpo, joka menetti vanhempansa lentokone-onnettomuudessa.",
     "english": "She was an orphan who lost her parents in a plane crash.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "travel",
       "family"
     ]
@@ -2035,7 +2080,7 @@
     "finnish": "Hän lähti maasta isoisänsä kuoleman jälkeen.",
     "english": "He left the country after his grandfather's death.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "travel",
       "family"
     ]
@@ -2046,7 +2091,7 @@
     "finnish": "Tunnen todella hyvin sinun isäsi.",
     "english": "I know your father very well.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2056,7 +2101,7 @@
     "finnish": "Serkkuni on vähän minua vanhempi.",
     "english": "My cousin is a little older than I am.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2066,7 +2111,7 @@
     "finnish": "Serkkuni on vähän minua vanhempi.",
     "english": "My cousin is a little older than I am.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2076,7 +2121,7 @@
     "finnish": "Äiti valmistaa illallista.",
     "english": "Mom is getting dinner ready.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -2087,7 +2132,7 @@
     "finnish": "Poika meni sänkyyn sukat jalassaan.",
     "english": "The boy went to bed with his socks on.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2097,7 +2142,7 @@
     "finnish": "Masennun toisinaan.",
     "english": "I get depressed at times.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2107,7 +2152,7 @@
     "finnish": "Mieheni on työttömänä ja etsii töitä.",
     "english": "My husband is out of work and looking for a job.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "work"
     ]
@@ -2118,7 +2163,7 @@
     "finnish": "Maailmassa on enemmän naisia kuin miehiä.",
     "english": "There are more women than men in the world.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2126,10 +2171,11 @@
     "id": "1503333",
     "spanish": "Tomándolo todo en cuenta, la vida de mi padre fue feliz.",
     "finnish": "Kaikki asiat huomioon ottaen, isäni elämä oli onnellinen.",
-    "english": "Considering everything, my father's life was a happy one.",
+    "english": "All things taken into consideration, my father's life was a happy one.",
     "wordCount": 11,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "emotions"
     ]
   },
   {
@@ -2138,7 +2184,7 @@
     "finnish": "En tiedä mitään hänen perheestään.",
     "english": "I don't know anything about her family.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2148,7 +2194,7 @@
     "finnish": "Äitiänsä tulee rakastaa.",
     "english": "One should love one's own mother.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2158,7 +2204,7 @@
     "finnish": "Alice on äitini.",
     "english": "Alice is my mother.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2168,7 +2214,7 @@
     "finnish": "He tulevat saamaan lapsen.",
     "english": "They're going to have a baby.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2178,7 +2224,7 @@
     "finnish": "Tapasin lopulta oikean naisen.",
     "english": "I finally met the right woman.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2188,7 +2234,7 @@
     "finnish": "Hänen poikansa käyttäytyy hyvin.",
     "english": "His child behaves well.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2198,8 +2244,10 @@
     "finnish": "Isäni ajaa partaansa kylpyhuoneessa.",
     "english": "My father is shaving in the bathroom.",
     "wordCount": 7,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2208,7 +2256,7 @@
     "finnish": "Pienet lapset pitävät usein lohikäärmeistä ja muista hirviöistä kertovista kirjoista.",
     "english": "Small children often like books about dragons and other monsters.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -2219,7 +2267,7 @@
     "finnish": "En tiedä milloin äitini palaa takaisin.",
     "english": "I don't know when my mother will come back.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -2227,10 +2275,10 @@
   {
     "id": "1586766",
     "spanish": "Son los libros de mi abuelo.",
-    "finnish": "Ne ovat isoisäni kirjoja.",
+    "finnish": "Ne ovat minun isoisäni kirjoja.",
     "english": "They are my grandfather's books.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -2241,7 +2289,7 @@
     "finnish": "Kun hän hymyili, lapset näkivät hänen pitkät harmaat hampaansa.",
     "english": "When he smiled, the children saw his long, gray teeth.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2251,7 +2299,7 @@
     "finnish": "Jorgen rakastaa vaimoaan.",
     "english": "Jorgen loves his wife.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2261,7 +2309,7 @@
     "finnish": "Missä teidän vanhempanne ovat?",
     "english": "Where are your parents?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2271,7 +2319,7 @@
     "finnish": "Minun veljeni haluaa tappaa minut.",
     "english": "My brother wants to kill me.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2281,8 +2329,9 @@
     "finnish": "Rakastatko yhä vaimoasi?",
     "english": "Do you still love your wife?",
     "wordCount": 6,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "emotions"
     ]
   },
   {
@@ -2291,7 +2340,7 @@
     "finnish": "Julia suutelee tytärtään.",
     "english": "Julia kisses her daughter.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2301,7 +2350,7 @@
     "finnish": "Heillä on kaksitoista lasta.",
     "english": "They have twelve children.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2311,7 +2360,7 @@
     "finnish": "Se on sun ex-vaimo.",
     "english": "It's your ex-wife.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2321,7 +2370,7 @@
     "finnish": "Hän pitää huolta lapsistani.",
     "english": "She takes care of my children.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2331,17 +2380,18 @@
     "finnish": "Tyttäreni menee naimisiin kesäkuussa.",
     "english": "My daughter will get married in June.",
     "wordCount": 6,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
     "id": "1705587",
     "spanish": "El padre de Tom es un alcohólico.",
-    "finnish": "Tomin isä on alkoholisti.",
+    "finnish": "Tomin isä on juoppo.",
     "english": "Tom's father is an alcoholic.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2351,7 +2401,7 @@
     "finnish": "Laittaako sinun vaimosi hyvää ruokaa?",
     "english": "Is your wife a good cook?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -2362,7 +2412,7 @@
     "finnish": "Raivopäinen koira hyökkäsi tytön kimppuun.",
     "english": "A fierce dog attacked the girl.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2372,7 +2422,7 @@
     "finnish": "Tom oli Maryn lapsipuoli.",
     "english": "Tom was Mary's stepchild.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2382,7 +2432,7 @@
     "finnish": "Ei ole totta että molemmat vanhemmat yrittivät kovasti etsiä tytärtään.",
     "english": "It is not true that both of the parents tried hard in search of their daughter.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2392,7 +2442,7 @@
     "finnish": "Hän kirjoittaa usein kirjeitä vanhemmilleen.",
     "english": "He often writes letters to his parents.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2402,7 +2452,7 @@
     "finnish": "En ole enää vaimosi. Vaimosi on Tatoeba!",
     "english": "I'm not your wife anymore. Your wife is Tatoeba!",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2412,7 +2462,7 @@
     "finnish": "Sinun nimesi kuulostaa tutulta.",
     "english": "Your name sounds familiar to me.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2422,7 +2472,7 @@
     "finnish": "Valehtelin vanhemmilleni.",
     "english": "I lied to my parents.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2432,7 +2482,7 @@
     "finnish": "Hän huolehti lapsista.",
     "english": "She took care of the children.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2442,7 +2492,7 @@
     "finnish": "Tätini näytti minulle, miten hyvää kahvia tehdään.",
     "english": "My aunt showed me how to make good coffee.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -2453,7 +2503,7 @@
     "finnish": "Äitini rakastaa musiikkia.",
     "english": "My mother loves music.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -2464,7 +2514,7 @@
     "finnish": "Rakastan tytärtäni.",
     "english": "I love my daughter.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2474,7 +2524,7 @@
     "finnish": "Tomin perhe asuu Bostonissa.",
     "english": "Tom's family lives in Boston.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2484,7 +2534,7 @@
     "finnish": "Perhe söi illallisen yhdessä.",
     "english": "The family ate dinner together.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2494,7 +2544,7 @@
     "finnish": "Äitini antoi ompelukoneensa minulle.",
     "english": "My mother gave me her sewing machine.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2504,7 +2554,7 @@
     "finnish": "Pelasin tennistä veljeni kanssa.",
     "english": "I played tennis with my brother.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2514,17 +2564,17 @@
     "finnish": "Tom väitti olevansa erään rikkaan miehen poika.",
     "english": "Tom claimed to be the son of a rich man.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "1983827",
     "spanish": "Esos dos niños tenían la misma edad.",
-    "finnish": "Ne kaksi lasta olivat samanikäisiä.",
+    "finnish": "Molemmat lapset olivat samanikäisiä.",
     "english": "Those two children were the same age.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2534,7 +2584,7 @@
     "finnish": "Olen sinun veljesi.",
     "english": "I'm your brother.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2544,7 +2594,7 @@
     "finnish": "Hänen vaimonsa on ruotsalainen.",
     "english": "His wife is Swedish.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2554,7 +2604,7 @@
     "finnish": "Tom näyttää isältään.",
     "english": "Tom resembles his father.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2564,7 +2614,7 @@
     "finnish": "Vauva itki.",
     "english": "The baby cried.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2572,9 +2622,9 @@
     "id": "2011117",
     "spanish": "Quiero a mi madre.",
     "finnish": "Minä rakastan äitiäni.",
-    "english": "I love my mother.",
+    "english": "I love my mom.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2584,7 +2634,7 @@
     "finnish": "En halua lapsia.",
     "english": "I don't want kids.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2594,7 +2644,7 @@
     "finnish": "Onko sinun isäsi lääkäri?",
     "english": "Is your father a doctor?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2604,7 +2654,7 @@
     "finnish": "Minulla on ystävä, jonka isä on kuuluisa näyttelijä.",
     "english": "I have a friend whose father is a famous actor.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -2615,7 +2665,7 @@
     "finnish": "Mikä on teidän tyttärenne nimi?",
     "english": "What's your daughter's name?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2625,7 +2675,7 @@
     "finnish": "Onko tämä sinun perheesi?",
     "english": "Is this your family?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2635,7 +2685,7 @@
     "finnish": "Hän asuu isänsä kanssa.",
     "english": "She lives with her dad.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2643,10 +2693,11 @@
     "id": "2082157",
     "spanish": "Él siempre habla mal de su esposa.",
     "finnish": "Hän sanoo aina ilkeitä asioita vaimostaan.",
-    "english": "He's always bad-mouthing his wife.",
+    "english": "He is always speaking ill of his wife.",
     "wordCount": 7,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -2655,8 +2706,10 @@
     "finnish": "Lääkäri ohjeisti että äitini pysyy sängyssä vielä kolme päivää.",
     "english": "The doctor advised that my mother stay in bed for three more days.",
     "wordCount": 13,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2665,7 +2718,7 @@
     "finnish": "Hän lukee usein menestyksensä vaimonsa ansioksi.",
     "english": "He often attributes his success to his wife.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2675,7 +2728,7 @@
     "finnish": "Hän käyttäytyi lapsellisesti.",
     "english": "He behaved like a child.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2685,7 +2738,7 @@
     "finnish": "Hän ei voinut hyvin.",
     "english": "She was not feeling well.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2695,7 +2748,7 @@
     "finnish": "Tomilla on kolme isosiskoa.",
     "english": "Tom has three older sisters.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2705,7 +2758,7 @@
     "finnish": "Mari on Tomin isoäiti.",
     "english": "Mary is Tom's grandmother.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2715,7 +2768,7 @@
     "finnish": "Hänen molemmat isoisänsä ovat kuolleet.",
     "english": "Both his grandparents are dead.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2725,8 +2778,9 @@
     "finnish": "Haluan asua kotona perheeni kanssa.",
     "english": "I want to live at home with my family.",
     "wordCount": 7,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -2735,7 +2789,7 @@
     "finnish": "Miten häät menivät?",
     "english": "How was the wedding?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2745,7 +2799,7 @@
     "finnish": "Molemmat veljekset ovat yhä elossa.",
     "english": "Both brothers are still alive.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2753,9 +2807,9 @@
     "id": "2228150",
     "spanish": "Estoy en contra del matrimonio.",
     "finnish": "Vastustan tätä avioliittoa.",
-    "english": "I'm against marriage.",
+    "english": "I'm against the marriage.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2765,8 +2819,9 @@
     "finnish": "Hyväsydämiset naiset ovat aina kauniita, mutta kauniit naiset eivät aina ole hyväsydämisiä.",
     "english": "Good-hearted women are always beautiful, but beautiful women are not always good-hearted.",
     "wordCount": 17,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -2775,7 +2830,7 @@
     "finnish": "Onko sinulla kaksoissiskoa?",
     "english": "Do you have a twin sister?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2785,17 +2840,17 @@
     "finnish": "Onko sinulla kaksoisveljeä?",
     "english": "Do you have a twin brother?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "2246881",
     "spanish": "No quería que lo supiera mi mamá.",
-    "finnish": "En halunnut äitini tietävän siitä.",
+    "finnish": "En halunnut minun äitini tietävän siitä.",
     "english": "I didn't want my mom to know.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2805,7 +2860,7 @@
     "finnish": "Hän jätti vaimonsa.",
     "english": "He left his wife.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2815,7 +2870,7 @@
     "finnish": "Hän jätti vaimonsa.",
     "english": "He left his wife.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2825,7 +2880,7 @@
     "finnish": "Hän jätti vaimonsa.",
     "english": "He left his wife.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2835,7 +2890,7 @@
     "finnish": "Hän ei kuuntele vanhempiaan.",
     "english": "He doesn't listen to his parents.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2845,7 +2900,7 @@
     "finnish": "Lapsi on kadonnut.",
     "english": "A child is missing.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2855,7 +2910,7 @@
     "finnish": "Hän on minun poikani.",
     "english": "He's my son.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2865,7 +2920,7 @@
     "finnish": "Sinä olet minun poikani.",
     "english": "You're my son.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2875,7 +2930,7 @@
     "finnish": "Tomi on mun poika.",
     "english": "Tom is my son.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2885,8 +2940,9 @@
     "finnish": "Serkkuni saa lapsen ensi kuussa.",
     "english": "My cousin is having a baby next month.",
     "wordCount": 11,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -2895,7 +2951,7 @@
     "finnish": "Wenjin on kiinalainen nainen.",
     "english": "Wenjin is a Chinese woman.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2905,7 +2961,7 @@
     "finnish": "Mä oon Tomin serkku.",
     "english": "I'm Tom's cousin.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2915,7 +2971,7 @@
     "finnish": "Onko tämä Tomin vaimo?",
     "english": "Is this Tom's wife?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2925,8 +2981,9 @@
     "finnish": "Tomi halusi mennä Marin kanssa naimisiin.",
     "english": "Tom wanted to marry Mary.",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -2935,7 +2992,7 @@
     "finnish": "Tuo on Tomin veli.",
     "english": "That's Tom's brother.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2943,9 +3000,9 @@
     "id": "2489905",
     "spanish": "Tengo un hijo.",
     "finnish": "Minulla on poika.",
-    "english": "I have a child.",
+    "english": "I've got a son.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2955,7 +3012,7 @@
     "finnish": "Mul on kolme lasta.",
     "english": "I have three children.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2965,7 +3022,7 @@
     "finnish": "Hän on mustasukkainen nainen.",
     "english": "She's a jealous woman.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2975,7 +3032,7 @@
     "finnish": "Rasia on kyllin kevyt lapsen kantaa.",
     "english": "The box is light enough for a child to carry.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2985,7 +3042,7 @@
     "finnish": "Olen Tomin serkku.",
     "english": "I'm Tom's cousin.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -2995,7 +3052,7 @@
     "finnish": "Tomilla on kolme siskoa.",
     "english": "Tom has three sisters.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3005,8 +3062,9 @@
     "finnish": "Vihaan perhettäni.",
     "english": "I hate my family.",
     "wordCount": 4,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "emotions"
     ]
   },
   {
@@ -3015,7 +3073,7 @@
     "finnish": "Minulla on sukulaisia Bostonissa.",
     "english": "I have relatives in Boston.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3025,8 +3083,9 @@
     "finnish": "Minä vietin koko päivän leikkien lasteni kanssa.",
     "english": "I spent the whole day playing with my kids.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -3035,7 +3094,7 @@
     "finnish": "Mari on yksinhuoltajaäiti.",
     "english": "Mary is a single mom.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3045,7 +3104,7 @@
     "finnish": "Miksi vauva itkee?",
     "english": "Why is the baby crying?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3055,7 +3114,7 @@
     "finnish": "Se johtuu siitä, että olet tyttö.",
     "english": "That's because you're a girl.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3065,7 +3124,7 @@
     "finnish": "Tomi ei oo mun isä.",
     "english": "Tom isn't my father.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3075,7 +3134,7 @@
     "finnish": "Tietyt naiset eivät ajele sääriään.",
     "english": "Some women don't shave their legs.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3085,7 +3144,7 @@
     "finnish": "Tom on veljeni.",
     "english": "Tom is my brother.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3095,8 +3154,9 @@
     "finnish": "Hän sanoo aina ilkeitä asioita vaimostaan.",
     "english": "He's always saying bad things about his wife.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -3105,7 +3165,7 @@
     "finnish": "Tässä on valokuva perheestäni.",
     "english": "Here is a photograph of my family.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "travel",
       "family"
     ]
@@ -3116,7 +3176,7 @@
     "finnish": "Jumalat loivat naiset kesyttämään miehet.",
     "english": "Gods created women to tame men.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3126,8 +3186,9 @@
     "finnish": "Koska isäsi tuli kotiin?",
     "english": "When did your father come home?",
     "wordCount": 6,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -3136,7 +3197,7 @@
     "finnish": "Aviomieheni lähtee yleensä töihin kahdeksalta.",
     "english": "My husband usually leaves for work at 8 o'clock.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family",
       "work"
     ]
@@ -3147,7 +3208,7 @@
     "finnish": "Veljeni käyttää tuota pyörää.",
     "english": "My brother uses that bike.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3157,7 +3218,7 @@
     "finnish": "Muut lapset nauroivat.",
     "english": "The other children laughed.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3167,7 +3228,7 @@
     "finnish": "Sinä olet varmaankin Tomin veli.",
     "english": "You must be Tom's brother.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3177,7 +3238,7 @@
     "finnish": "Television vuoksi pojat ja tytöt eivät halua lukea kirjoja.",
     "english": "Because of TV, boys and girls don't want to read books.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -3188,8 +3249,9 @@
     "finnish": "Siskoni pesee kenkänsä joka sunnuntai.",
     "english": "My sister washes her shoes every Sunday.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -3198,8 +3260,9 @@
     "finnish": "Isäsi on nyt kaukana.",
     "english": "Your father is far away now.",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -3208,8 +3271,9 @@
     "finnish": "Häät ovat alle kolmen kuukauden kuluttua.",
     "english": "The wedding is less than three months away.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -3218,7 +3282,7 @@
     "finnish": "Sekoitin sinut veljeesi.",
     "english": "I mistook you for your brother.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3228,8 +3292,9 @@
     "finnish": "Orpo tapasi kaksi sisartaan, kun hän oli viisi vuotta vanha.",
     "english": "The orphan met up with his two sisters when he was five years old.",
     "wordCount": 12,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -3238,8 +3303,10 @@
     "finnish": "En ole koskaan ollut setäni kodissa.",
     "english": "I've never been to my uncle's house.",
     "wordCount": 9,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -3248,7 +3315,7 @@
     "finnish": "Tomin pojan nimi on Joni.",
     "english": "Tom's son's name is John.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3258,9 +3325,11 @@
     "finnish": "Vaimoni ei tavallisesti juo kahvia öisin, enkä juo minäkään.",
     "english": "My wife usually doesn't drink coffee at night, and neither do I.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -3269,7 +3338,7 @@
     "finnish": "Lapsena hän keräsi kovakuoriaisia.",
     "english": "He used to collect beetles when he was a kid.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3279,7 +3348,7 @@
     "finnish": "Hän tunsi olonsa epämukavaksi hänen isänsä seurassa.",
     "english": "He felt uneasy in his father's presence.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family",
       "work"
     ]
@@ -3290,7 +3359,7 @@
     "finnish": "Asuuko sisaresi siellä?",
     "english": "Does your sister live there?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3300,8 +3369,9 @@
     "finnish": "Hän haluaa viettää aikaa tyttärensä kanssa.",
     "english": "She wants to spend time with her daughter.",
     "wordCount": 7,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -3310,8 +3380,9 @@
     "finnish": "Kun olin lapsi, vietin tunteja lukien yksin huoneessani.",
     "english": "When I was a child, I would spend hours reading alone in my room.",
     "wordCount": 11,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -3320,8 +3391,9 @@
     "finnish": "Hän vietti kaikki joulunsa kotona perheensä kanssa.",
     "english": "She spent all of her Christmases at home with her family.",
     "wordCount": 10,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -3330,7 +3402,7 @@
     "finnish": "Isäni tykkää matkustaa lentokoneella.",
     "english": "My father loves to travel by plane.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "travel",
       "family"
     ]
@@ -3341,8 +3413,10 @@
     "finnish": "He aikovat mennä naimisiin huomenna.",
     "english": "They intend to get married tomorrow.",
     "wordCount": 4,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -3351,8 +3425,10 @@
     "finnish": "Hyvää kansainvälistä naistenpäivää!",
     "english": "Happy International Women's Day!",
     "wordCount": 6,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "emotions",
+      "time"
     ]
   },
   {
@@ -3361,7 +3437,7 @@
     "finnish": "Hän kohtelee minua kuin lasta.",
     "english": "He treats me like a child.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3371,7 +3447,7 @@
     "finnish": "Älä anna lasten katsoa tätä filmiä.",
     "english": "Don't let the kids watch this film.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -3382,7 +3458,7 @@
     "finnish": "Rukoilimme että isämme antaisi anteeksi.",
     "english": "We prayed that our father would forgive us.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3392,7 +3468,7 @@
     "finnish": "Tom on täydellinen isä.",
     "english": "Tom is the perfect father.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3402,17 +3478,18 @@
     "finnish": "Hän on pikkuveli, jota minulla ei koskaan ollut.",
     "english": "He's the little brother I never had.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
     "id": "3100339",
     "spanish": "El avión aterrizó en la granja de mi papá.",
     "finnish": "Kone laskeutui isäni tilalle.",
-    "english": "The airplane landed on my father's farm.",
+    "english": "The plane landed on my dad's farm.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "travel",
       "family"
     ]
@@ -3423,7 +3500,7 @@
     "finnish": "Mary haastoi oman äitinsä oikeuteen.",
     "english": "Mary sued her own mother.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3433,7 +3510,7 @@
     "finnish": "Kerro minulle pojastasi.",
     "english": "Tell me about your son.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3441,9 +3518,9 @@
     "id": "3108800",
     "spanish": "El monarca tiene seis hijos.",
     "finnish": "Hallitsijalla oli kuusi poikaa.",
-    "english": "The monarch has six children.",
+    "english": "The monarch has six sons.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3453,7 +3530,7 @@
     "finnish": "Onko teillä jo lapsia?",
     "english": "Do you have children already?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3463,7 +3540,7 @@
     "finnish": "Lapset pitävät hedelmämehusta.",
     "english": "Children like fruit juice.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -3474,7 +3551,7 @@
     "finnish": "Kahden lapsen iät yhdessä vastasivat heidän isänsä ikää.",
     "english": "The ages of the two children put together was equivalent to that of their father.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3484,7 +3561,7 @@
     "finnish": "Hän piti huolta äidistään isänsä kuoleman jälkeen.",
     "english": "He took care of his mother after his father's death.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3494,7 +3571,7 @@
     "finnish": "Aviomiehensä kuoleman jälkeen Christina on kärsinyt paljon.",
     "english": "Since her husband died, Cristina has suffered a lot.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3504,8 +3581,9 @@
     "finnish": "Minulla on uusi sukulainen: siskoni meni naimisiin, ja nyt minulla on lanko.",
     "english": "I have a new relative: my sister got married, so now I have a brother-in-law.",
     "wordCount": 14,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -3514,7 +3592,7 @@
     "finnish": "Jos olet kiltti tyttö, annan sinulle nameja.",
     "english": "If you are a good girl, you shall have candy.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -3525,7 +3603,7 @@
     "finnish": "Milloin ovat häät?",
     "english": "When's the wedding?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3533,9 +3611,9 @@
     "id": "3185663",
     "spanish": "¿Dónde están tus hijos?",
     "finnish": "Missä lapsesi ovat?",
-    "english": "Where are your children?",
+    "english": "Where are your kids?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3545,7 +3623,7 @@
     "finnish": "Veljelläni on Twitter-tili.",
     "english": "My brother has a Twitter account.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3555,8 +3633,9 @@
     "finnish": "Kolme poikaa avasivat rakennukset ovet.",
     "english": "The three boys opened the doors of the building.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -3565,7 +3644,7 @@
     "finnish": "Ajattele perhettäsi!",
     "english": "Think of your family.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3575,7 +3654,7 @@
     "finnish": "Veljeni on kiinnostunut siitä, mitä sanotaan popmusiikiksi.",
     "english": "My brother likes what they call pop music.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -3586,7 +3665,7 @@
     "finnish": "Hän kantoi vauvaa selässään.",
     "english": "She was carrying the baby on her back.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3596,17 +3675,17 @@
     "finnish": "Mette on Jörgenin vaimo.",
     "english": "Mette is Jørgen's wife.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "3231155",
     "spanish": "¿Cuántos hijos tiene Tom?",
-    "finnish": "Kuinka monta lasta Tomilla on?",
+    "finnish": "Montako lasta Tomilla on?",
     "english": "How many kids does Tom have?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3616,7 +3695,7 @@
     "finnish": "Häät ovat kalliita.",
     "english": "Weddings are expensive.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3626,8 +3705,9 @@
     "finnish": "Robertilla oli tapana auttaa isäänsä kaupassa viikonloppuisin.",
     "english": "Robert used to help his father in the store on weekends.",
     "wordCount": 13,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -3636,7 +3716,7 @@
     "finnish": "Nuorin siskoistani laulaa tosi hyvin.",
     "english": "My youngest sister sings very well.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3646,7 +3726,7 @@
     "finnish": "Lapset ovat koulussa.",
     "english": "The kids are at school.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3656,7 +3736,7 @@
     "finnish": "Minulla on vaimo ja lapsia.",
     "english": "I have a wife and kids.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3666,7 +3746,7 @@
     "finnish": "Äitini ja minä olemme täysin erilaisia.",
     "english": "My mom and I are completely different.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3676,7 +3756,7 @@
     "finnish": "Rasia on kyllin kevyt lapsen kantaa.",
     "english": "The box is light enough for a child to carry.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3686,7 +3766,7 @@
     "finnish": "Et tiedä mitä on menettää koko perheensä sodassa.",
     "english": "You don't know what it's like to lose your entire family in a war.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3696,7 +3776,7 @@
     "finnish": "Ei ole mitään tuskallisempaa kuin menettää oma rakas lapsensa.",
     "english": "There's nothing more painful than losing one's loved child.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3706,7 +3786,7 @@
     "finnish": "Millä luokalla siskosi on?",
     "english": "What grade is your sister in?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3716,7 +3796,7 @@
     "finnish": "Olemme viisihenkinen perhe.",
     "english": "There are five people in our family.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3726,8 +3806,9 @@
     "finnish": "Minulla on tytär, joka on kolmetoistavuotias.",
     "english": "I have a daughter who's 13 years old.",
     "wordCount": 6,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -3736,7 +3817,7 @@
     "finnish": "Tiedän, että isäni auttaa minua.",
     "english": "I know my father will help me.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3746,7 +3827,7 @@
     "finnish": "Olen tavannut täydellisen naisen.",
     "english": "I've met the perfect woman.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3756,7 +3837,7 @@
     "finnish": "Lapset tekevät paljon typeriä asioita.",
     "english": "Children do a lot of stupid things.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3766,7 +3847,7 @@
     "finnish": "Lapset tekevät usein typeriä asioita.",
     "english": "Children often do stupid things.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3776,7 +3857,7 @@
     "finnish": "Lapset sanovat niin typeriä asioita.",
     "english": "Children say such stupid things.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3786,7 +3867,7 @@
     "finnish": "Isäni nukkui koko elokuvan ajan.",
     "english": "My father slept through the movie.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -3797,27 +3878,29 @@
     "finnish": "Minulla on poika, joka täytti juuri kolme.",
     "english": "I have a son who's just turned three.",
     "wordCount": 9,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
     "id": "3420171",
     "spanish": "Tan solo el año pasado tuvimos un hijo.",
-    "finnish": "Meille syntyi lapsi juuri viime vuonna.",
+    "finnish": "Saimme lapsen juuri viime vuonna.",
     "english": "We had a kid just last year.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
     "id": "3422470",
     "spanish": "Tom tiene solo vagos recuerdos de su abuelo.",
-    "finnish": "Tomilla on vain hataria muistikuvia isoisästään.",
+    "finnish": "Tomilla on vain hämäriä muistikuvia ukistaan.",
     "english": "Tom only has faint memories of his grandfather.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3827,7 +3910,7 @@
     "finnish": "Tomin vaimon nimi on Mary.",
     "english": "Tom's wife is called Mary.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3837,7 +3920,7 @@
     "finnish": "Minun veljeni on minua vahvempi.",
     "english": "My brother is stronger than me.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3847,9 +3930,10 @@
     "finnish": "Isäni kuluttaa paljon aikaa harrastukseensa.",
     "english": "My father spends a lot of time on his hobby.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -3858,7 +3942,7 @@
     "finnish": "Tom kertoi Marylle, että hänen mielestään Mary oli kaunein nainen, jonka Tom on ikinä tavannut.",
     "english": "Tom told Mary he thought she was the most beautiful woman he'd ever met.",
     "wordCount": 18,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3868,7 +3952,7 @@
     "finnish": "Tom rakensi tämän isänsä kanssa.",
     "english": "Tom built this with his dad.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3878,9 +3962,10 @@
     "finnish": "Aviomieheni ja minä olemme ajautuneet toisistamme erilleen ja nyt emme tiedä miten saisimme kehityskulun käännettyä toiseen suuntaan.",
     "english": "My husband and I, we have drifted apart, and now we don't know how to reverse the process.",
     "wordCount": 19,
-    "themes": [
+    "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -3889,7 +3974,7 @@
     "finnish": "Tom tapasi vaimonsa kun hän oli opiskelemassa Saksassa.",
     "english": "Tom met his wife when he was studying in Germany.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3899,7 +3984,7 @@
     "finnish": "Tom tapasi vaimonsa kun hän oli opiskelemassa Ranskassa.",
     "english": "Tom met his wife while he was studying in France.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3909,7 +3994,7 @@
     "finnish": "Tomin juominen on aiheuttanut paljon ongelmia hänen avioliitossaan.",
     "english": "Tom's drinking has caused a lot of problems in his marriage.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3919,8 +4004,10 @@
     "finnish": "Tom ja Mary rakastuivat ja päättivät mennä naimisiin.",
     "english": "Tom and Mary fell in love and decided to get married.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "emotions",
+      "daily_life"
     ]
   },
   {
@@ -3929,7 +4016,7 @@
     "finnish": "Et ole vielä tavannut perhettäni.",
     "english": "You haven't met my family yet.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3939,7 +4026,7 @@
     "finnish": "Tomilla on serkku nimeltään Mary.",
     "english": "Tom has a cousin named Mary.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3949,7 +4036,7 @@
     "finnish": "Soitan miehelleni.",
     "english": "I'll call my husband.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3959,8 +4046,9 @@
     "finnish": "Vihaan Tomin vanhempia.",
     "english": "I hate Tom's parents.",
     "wordCount": 6,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "emotions"
     ]
   },
   {
@@ -3969,17 +4057,18 @@
     "finnish": "Tom ei puhu koskaan omista lapsistaan.",
     "english": "Tom never talks about his kids.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
     "id": "3666295",
     "spanish": "No tengo hijos.",
     "finnish": "Minulla ei ole lapsia.",
-    "english": "I don't have any children.",
+    "english": "I don't have children.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3989,7 +4078,7 @@
     "finnish": "Tomilla on kolme serkkua.",
     "english": "Tom has three cousins.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -3999,7 +4088,7 @@
     "finnish": "Tomilla on kolme serkkua.",
     "english": "Tom has three cousins.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4009,7 +4098,7 @@
     "finnish": "Juotteko teetä?",
     "english": "Do you drink tea?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -4018,9 +4107,9 @@
     "id": "3677232",
     "spanish": "Tienes siete hijos.",
     "finnish": "Sinulla on seitsemän lasta.",
-    "english": "You have seven kids.",
+    "english": "You have seven children.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4030,7 +4119,7 @@
     "finnish": "Isäni lopetti juomisen.",
     "english": "My father stopped drinking.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -4041,7 +4130,7 @@
     "finnish": "Susan on itseasiassa siskopuolesi.",
     "english": "Susan is actually your half sister.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4051,7 +4140,7 @@
     "finnish": "Tiedätkö miksi kevätkääryleitä sanotaan kevätkääryleiksi?",
     "english": "Do you know why spring rolls are called spring rolls?",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -4062,7 +4151,7 @@
     "finnish": "Likainen poika paljastui prinssiksi valepuvussa.",
     "english": "The dirty boy turned out to be a prince in disguise.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4072,7 +4161,7 @@
     "finnish": "Tomilla ja Marilla on kolme tytärtä.",
     "english": "Tom and Mary have three daughters.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4082,7 +4171,7 @@
     "finnish": "Hän oli ainoa nainen.",
     "english": "She was the only woman.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4092,8 +4181,9 @@
     "finnish": "Molemmat veljistäni ovat naimisissa, mutta siskoni ovat kaikki naimattomia.",
     "english": "Both my brothers are married, but my sisters are all single.",
     "wordCount": 11,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -4102,7 +4192,7 @@
     "finnish": "Naiset eivät ole seksiobjekteja.",
     "english": "Women are not sex objects.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4112,9 +4202,10 @@
     "finnish": "Isäni on työnarkomaani joka ajattelee vain työtään kellon ympäri.",
     "english": "My father is a workaholic who thinks of nothing but his job 24/7.",
     "wordCount": 16,
-    "themes": [
+    "categories": [
       "family",
-      "work"
+      "work",
+      "time"
     ]
   },
   {
@@ -4123,9 +4214,11 @@
     "finnish": "Vaarini juo kahvia vanhusjoukon kanssa joka aamu.",
     "english": "My grandpa drinks coffee with a group of old guys every morning.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4134,8 +4227,9 @@
     "finnish": "En halua mennä naimisiin, mutta haluan lapsia.",
     "english": "I don't want to get married, but I want to have kids.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -4144,7 +4238,7 @@
     "finnish": "Näin monia tuttuja kasvoja.",
     "english": "I saw many familiar faces.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4154,7 +4248,7 @@
     "finnish": "Rakastatko äitiäsi?",
     "english": "Do you love your mother?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4162,9 +4256,9 @@
     "id": "4062808",
     "spanish": "Ellos son hermanos.",
     "finnish": "He ovat veljeksiä.",
-    "english": "They are brothers.",
+    "english": "They're brothers.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4174,8 +4268,9 @@
     "finnish": "Mikä Marin sukunimi olikaan ennen kuin hän meni naimisiin?",
     "english": "What was Mary's last name before she got married?",
     "wordCount": 9,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -4184,7 +4279,7 @@
     "finnish": "Minulla on kaksosveli.",
     "english": "I have a twin brother.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4194,7 +4289,7 @@
     "finnish": "Monet lapset käyttävät niitä.",
     "english": "A lot of kids wear them.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4204,7 +4299,7 @@
     "finnish": "Hän oli keski-ikäinen nainen.",
     "english": "She was a middle-aged woman.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4214,7 +4309,7 @@
     "finnish": "Mari on minun vaimoni.",
     "english": "Mary is my wife.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4224,9 +4319,11 @@
     "finnish": "Äitini kattoi pöydän illallista varten.",
     "english": "My mother set the table for dinner.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4235,7 +4332,7 @@
     "finnish": "Näytät aivan veljeltäsi.",
     "english": "You look just like your brother.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4245,17 +4342,17 @@
     "finnish": "Isäsi olisi ollut todella ylpeä sinusta.",
     "english": "Your father would have been very proud of you.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "4656434",
     "spanish": "¡Qué padre!",
-    "finnish": "Päheetä!",
-    "english": "Cool!",
+    "finnish": "Makeaa!",
+    "english": "Terrific!",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4265,7 +4362,7 @@
     "finnish": "Kohtelin häntä kuin omaa poikaani.",
     "english": "I treated him like my own son.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4275,7 +4372,7 @@
     "finnish": "Vauva säikähti suurta koiraa.",
     "english": "The big dog frightened the baby.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4285,7 +4382,7 @@
     "finnish": "Meillä on kolme lasta.",
     "english": "We have three children.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4295,7 +4392,7 @@
     "finnish": "Tomin isä on rikas.",
     "english": "Tom's father is rich.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4305,7 +4402,7 @@
     "finnish": "Romulus ja Remus olivat veljiä.",
     "english": "Romulus and Remus were brothers.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4315,7 +4412,7 @@
     "finnish": "Tomi on minun kaksoisveljeni.",
     "english": "Tom is my twin brother.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4325,7 +4422,7 @@
     "finnish": "Mun vaimo on raskaana.",
     "english": "My wife's pregnant.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4335,7 +4432,7 @@
     "finnish": "Mun vaimo on raskaana.",
     "english": "My wife's pregnant.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4345,7 +4442,7 @@
     "finnish": "Äidit ovat kaikki todellisia sankareita.",
     "english": "Mothers are all real heroines.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -4356,7 +4453,7 @@
     "finnish": "Menin naimisiin ja sain lapsia.",
     "english": "I got married and had children.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4366,7 +4463,7 @@
     "finnish": "Minä tulen lääkäriperheestä.",
     "english": "I come from a family of doctors.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4376,7 +4473,7 @@
     "finnish": "Uskoitko Joulupukkiin, kun olit lapsi?",
     "english": "Did you believe in Santa Claus when you were a child?",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4386,7 +4483,7 @@
     "finnish": "Isä kasteli kukat.",
     "english": "Dad watered the flowers.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4396,7 +4493,7 @@
     "finnish": "Tomi on minun vaimoni pikkuveljen ystävä.",
     "english": "Tom is a friend of my wife's younger brother.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -4404,10 +4501,10 @@
   {
     "id": "5755728",
     "spanish": "Mis padres están en Australia.",
-    "finnish": "Vanhempani ovat Australiassa.",
+    "finnish": "Mun vanhemmat on Australiassa.",
     "english": "My parents are in Australia.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4417,7 +4514,7 @@
     "finnish": "Tomi, Mari, Joni ja Alisa ovat ystäviä. He ovat tunteneet toisensa lapsuudesta saakka.",
     "english": "Tom, Mary, John and Alice are friends. They've known each other since they were children.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -4428,7 +4525,7 @@
     "finnish": "OIet unelmieni nainen.",
     "english": "You're the woman of my dreams.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4438,8 +4535,9 @@
     "finnish": "Tomin vaimo menehtyi viime viikolla.",
     "english": "Tom's wife died last week.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -4448,7 +4546,7 @@
     "finnish": "Tomin vanhemmat olivat kanadalaisia.",
     "english": "Tom's parents were Canadian.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4458,7 +4556,7 @@
     "finnish": "Onko äiti täällä?",
     "english": "Is Mom here?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4468,7 +4566,7 @@
     "finnish": "Soturit taistelivat urhoollisesti, mutta tappio oli vääjäämätön.",
     "english": "The warriors fought valiantly, but the defeat was inevitable.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4478,8 +4576,9 @@
     "finnish": "Veljesi osti vaaleanpunaisen rekan viime viikolla.",
     "english": "Your brother bought a pink truck last week.",
     "wordCount": 9,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -4488,17 +4587,18 @@
     "finnish": "Eilen isäni ja minä vierailimme Marjan luona.",
     "english": "Yesterday, my father and I visited Mary.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
     "id": "6614107",
     "spanish": "Somos como una familia.",
-    "finnish": "Olemme kuin perhettä.",
+    "finnish": "Olemme kuin perhe.",
     "english": "We're like family.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4508,38 +4608,39 @@
     "finnish": "Oletteko te veljeksiä?",
     "english": "Are you brothers?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "6683673",
     "spanish": "¿Son hermanos?",
-    "finnish": "Oletteko te veljeksiä?",
-    "english": "Are they brothers?",
+    "finnish": "Ovatko he veljeksiä?",
+    "english": "Are you brothers?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "6692092",
     "spanish": "¿Que edad tienen tus hermanos?",
-    "finnish": "Minkä ikäisiä sinun veljesi ovat?",
+    "finnish": "Minkä ikäsiä sun veljet on?",
     "english": "How old are your brothers and sisters?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "6692094",
     "spanish": "¿Cuántos años tienen tus hermanos?",
-    "finnish": "Minkä ikäisiä sinun veljesi ovat?",
+    "finnish": "Minkä ikäsiä sun veljet on?",
     "english": "How old are your brothers and sisters?",
     "wordCount": 5,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time"
     ]
   },
   {
@@ -4548,7 +4649,7 @@
     "finnish": "Juotteko te?",
     "english": "Do you drink?",
     "wordCount": 1,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4558,7 +4659,7 @@
     "finnish": "Viime keväänä emme saaneet paljoa sadetta.",
     "english": "We didn't get much rain last spring.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -4569,7 +4670,7 @@
     "finnish": "Lapsesi ovat ihania.",
     "english": "Your kids are adorable.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4579,8 +4680,10 @@
     "finnish": "Huomenna, jos Luoja suo, olemme vanhempiesi kanssa.",
     "english": "Tomorrow, God willing, we'll be with your parents.",
     "wordCount": 8,
-    "themes": [
-      "family"
+    "categories": [
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4589,17 +4692,17 @@
     "finnish": "Onko Mari vaimosi?",
     "english": "Is Mary your wife?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
   {
     "id": "8006265",
     "spanish": "Este cuchillo me lo dio mi abuelo.",
-    "finnish": "Minun isoisäni antoi minulle tämän puukon.",
+    "finnish": "Minun isoisäni antoi minulle tämän veitsen.",
     "english": "This knife was given to me by my grandfather.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -4610,7 +4713,7 @@
     "finnish": "Meidän vauvamme ei puhu vielä.",
     "english": "Our baby isn't talking yet.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4620,7 +4723,7 @@
     "finnish": "Olemme sukua.",
     "english": "We're relatives.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4630,7 +4733,7 @@
     "finnish": "Tomi on esikoiseni.",
     "english": "Tom is my firstborn.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "family"
     ]
   },
@@ -4640,7 +4743,7 @@
     "finnish": "Tomi on poikani ystävä.",
     "english": "Tom is my son's friend.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "family",
       "leisure"
     ]
@@ -4651,7 +4754,7 @@
     "finnish": "Isäni kuoli Vietnamissa.",
     "english": "My father died in Vietnam.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "family"
     ]
   }

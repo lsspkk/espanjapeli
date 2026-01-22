@@ -5,7 +5,7 @@
     "finnish": "”Saisinko suolan?” ”Olepa hyvä.”",
     "english": "Pass me the salt, please. \"Here you are.\"",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "greetings",
       "food"
     ]
@@ -13,10 +13,10 @@
   {
     "id": "2900",
     "spanish": "¡Me muero de hambre!",
-    "finnish": "Olen todella nälkäinen.",
-    "english": "I'm famished!",
+    "finnish": "Minulla on kauhea nälkä.",
+    "english": "I'm starved.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -26,7 +26,7 @@
     "finnish": "Milloin syödään? Minulla on nälkä!",
     "english": "When are we eating? I'm hungry!",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -34,9 +34,9 @@
     "id": "3032",
     "spanish": "Propongo que salgamos el viernes.",
     "finnish": "Ehdotan, että lähdemme perjantaina.",
-    "english": "I suggest we go out on Friday.",
+    "english": "I suggest that we go out on Friday.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -46,8 +46,10 @@
     "finnish": "Syötän kissani joka aamu ja joka ilta.",
     "english": "I feed my cat every morning and every evening.",
     "wordCount": 14,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -56,7 +58,7 @@
     "finnish": "Maito jalostetaan voiksi ja juustoksi.",
     "english": "Milk is made into butter and cheese.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -64,19 +66,19 @@
     "id": "338600",
     "spanish": "Fumar es malo para la salud.",
     "finnish": "Tupakointi on haitaksi terveydelle.",
-    "english": "Smoking is bad for your health.",
+    "english": "Smoking is not good for the health.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "339125",
     "spanish": "El oro es mucho más pesado que el agua.",
-    "finnish": "Kulta on paljon vettä painavampaa.",
+    "finnish": "Kulta on paljon painavampi kuin vesi.",
     "english": "Gold is far heavier than water.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -86,8 +88,10 @@
     "finnish": "Sinä lupasit.",
     "english": "You have made a promise.",
     "wordCount": 3,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -96,9 +100,10 @@
     "finnish": "Hänestä on mukavaa laittaa ruokaa perheelleen.",
     "english": "He likes cooking for his family.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -107,7 +112,7 @@
     "finnish": "Olutpullot valmistetaan lasista.",
     "english": "Beer bottles are made of glass.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -117,7 +122,7 @@
     "finnish": "Nousin seitsemältä.",
     "english": "I got up at seven.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -125,9 +130,9 @@
     "id": "347391",
     "spanish": "El aceite no se mezcla con el agua.",
     "finnish": "Öljy ja vesi eivät sekoitu.",
-    "english": "Oil and water don't mix.",
+    "english": "Oil and water won't blend with each other.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -137,7 +142,7 @@
     "finnish": "Ostamme munia tusinoittain.",
     "english": "We buy eggs by the dozen.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -147,7 +152,7 @@
     "finnish": "Hän oli tiskaamassa.",
     "english": "She was washing the dishes.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -157,7 +162,7 @@
     "finnish": "Mä haluu jotain makeet.",
     "english": "I want something sweet.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -167,7 +172,7 @@
     "finnish": "Voit syödä mitä tahansa, kunhat et syö liikaa.",
     "english": "You may eat anything so long as you don't eat too much.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -177,7 +182,7 @@
     "finnish": "Voinko syödä tämän?",
     "english": "Can I eat this?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -187,17 +192,18 @@
     "finnish": "Mihin aikaan laiva lähtee?",
     "english": "What time does the ship leave?",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
     "id": "434329",
     "spanish": "¡Salud!",
     "finnish": "Kippis!",
-    "english": "Toast!",
+    "english": "Bless you!",
     "wordCount": 1,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -207,17 +213,17 @@
     "finnish": "Mikään ei ole yhtä arvokasta kuin terveys.",
     "english": "Nothing is more valuable than health.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "445715",
     "spanish": "Pásame la sal, por favor.",
-    "finnish": "Voisitko antaa suolan?",
+    "finnish": "Ojentaisitko minulle suolan, kiitos.",
     "english": "Pass me the salt, please.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "greetings",
       "food"
     ]
@@ -228,9 +234,11 @@
     "finnish": "Anteeksi, että rikoin lupaukseni.",
     "english": "Forgive me for breaking my promise.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "greetings",
-      "food"
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -239,7 +247,7 @@
     "finnish": "Tämä ei ole oikea timantti.",
     "english": "This diamond is not real.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -249,19 +257,20 @@
     "finnish": "Juon vettä, koska minulla on jano.",
     "english": "I drink water because I am thirsty.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "459248",
     "spanish": "Mi mujer está cocinando.",
-    "finnish": "Vaimoni on laittamassa ruokaa.",
+    "finnish": "Vaimoni laittaa ruokaa.",
     "english": "My wife is cooking.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -270,7 +279,7 @@
     "finnish": "Vesi on neste.",
     "english": "Water is a liquid.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -280,9 +289,11 @@
     "finnish": "Hyvää yötä. Kauniita unia.",
     "english": "Good night. Sweet dreams.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "greetings",
-      "food"
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -291,7 +302,7 @@
     "finnish": "Hän myy vihanneksia.",
     "english": "She sells vegetables.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -300,9 +311,9 @@
     "id": "473453",
     "spanish": "¿Dónde está la pasta de dientes?",
     "finnish": "Missä hammastahna on?",
-    "english": "Where is the toothpaste?",
+    "english": "Where's the toothpaste?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -312,7 +323,7 @@
     "finnish": "Minulla oli nälkä ja jano.",
     "english": "I was hungry and thirsty.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -322,7 +333,7 @@
     "finnish": "Ei savua ilman tulta.",
     "english": "There is no smoke without fire.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -332,7 +343,7 @@
     "finnish": "Tämä veitsi on hyvin terävä.",
     "english": "This knife is very sharp.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -342,7 +353,7 @@
     "finnish": "Kahvi pitää minut hereillä.",
     "english": "Coffee keeps me awake.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -350,10 +361,12 @@
     "id": "488868",
     "spanish": "Hay una naranja sobre la mesa.",
     "finnish": "Pöydällä on appelsiini.",
-    "english": "There is an orange on the table.",
+    "english": "There's an orange on the table.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -362,8 +375,9 @@
     "finnish": "Keittiössä on kissa.",
     "english": "There is a cat in the kitchen.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -372,18 +386,20 @@
     "finnish": "Tämä pöytä on varattu.",
     "english": "This table is reserved.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food",
-      "travel"
+      "travel",
+      "time",
+      "daily_life"
     ]
   },
   {
     "id": "493982",
     "spanish": "Me arrepiento de haber descuidado mi salud.",
     "finnish": "Kadun sitä, että en pitänyt huolta terveydestäni.",
-    "english": "I regret not paying attention to my health.",
+    "english": "I regret having neglected my health.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -393,7 +409,7 @@
     "finnish": "Haluatko juoda teetä tai kahvia?",
     "english": "You want to drink tea or coffee?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -403,7 +419,7 @@
     "finnish": "Hän hävitti taas sateenvarjonsa.",
     "english": "He lost his umbrella again.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -413,7 +429,7 @@
     "finnish": "En pysty juoda näin makeaa kahvia.",
     "english": "I can't drink coffee as sweet as this.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -423,7 +439,7 @@
     "finnish": "Istuuduin hänen viereensä.",
     "english": "I sat down next to him.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -433,20 +449,23 @@
     "finnish": "Minun äitini on taitava kokki.",
     "english": "My mother cooks well.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "daily_life"
     ]
   },
   {
     "id": "506210",
     "spanish": "¿Dónde está su libro? \"Está sobre la mesa.\"",
     "finnish": "”Missä hänen kirjansa on?” ”Se on pöydällä.”",
-    "english": "Where is his book? \"It's on the table.\"",
+    "english": "Where is her book? \"It's on the table.\"",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -455,17 +474,18 @@
     "finnish": "Kävin Kanadassa kauan sitten.",
     "english": "I visited Canada long ago.",
     "wordCount": 5,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
     "id": "507166",
     "spanish": "Lávate las manos antes de comer.",
     "finnish": "Pese kädet ennen kuin syöt.",
-    "english": "Wash your hands before eating.",
+    "english": "Wash your hands before meals.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -475,7 +495,7 @@
     "finnish": "Oletko jo antanut koiralle syötävää?",
     "english": "Have you fed the dog yet?",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -485,9 +505,10 @@
     "finnish": "Monelta viimeinen juna menee?",
     "english": "When does the last train leave?",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
-      "travel"
+      "travel",
+      "time"
     ]
   },
   {
@@ -496,8 +517,10 @@
     "finnish": "Pöydän päällä oli kissa.",
     "english": "On the table there was a cat.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -506,8 +529,9 @@
     "finnish": "Kysyin häneltä miksi hän on niin surullinen.",
     "english": "I asked him why he was sad.",
     "wordCount": 7,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "emotions"
     ]
   },
   {
@@ -516,7 +540,7 @@
     "finnish": "Onko sinulla maitoa?",
     "english": "Do you have some milk?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -526,17 +550,19 @@
     "finnish": "Pöydällä on omena.",
     "english": "There is an apple on the table.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
     "id": "528288",
     "spanish": "Falta un tenedor.",
     "finnish": "Yksi haarukka puuttuu.",
-    "english": "One fork is missing.",
+    "english": "There is a fork missing.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -546,8 +572,9 @@
     "finnish": "Laita ovi kiinni lähtiessäsi.",
     "english": "Close the door when you leave.",
     "wordCount": 5,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -556,7 +583,7 @@
     "finnish": "Mä kuolen nälkään!",
     "english": "I'm starved.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -566,7 +593,7 @@
     "finnish": "Anna lusikka minulle.",
     "english": "Give me the spoon.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -576,9 +603,11 @@
     "finnish": "Pöydän päällä on kirja.",
     "english": "There is a book on the table.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -587,8 +616,9 @@
     "finnish": "Ravintola on aina täynnä.",
     "english": "The restaurant is always full.",
     "wordCount": 5,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -597,7 +627,7 @@
     "finnish": "Pidän ranskalaisesta ruoasta todella paljon.",
     "english": "I like French food very much.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -607,7 +637,7 @@
     "finnish": "Söin lounaani loppuun nopeasti.",
     "english": "I finished my lunch quickly.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -617,7 +647,7 @@
     "finnish": "Mikä sinun lempiruokasi on?",
     "english": "What's your favorite food?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -627,27 +657,29 @@
     "finnish": "Voinko juoda alkoholia?",
     "english": "Can I drink alcohol?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "572436",
     "spanish": "Me escondí debajo de la mesa.",
-    "finnish": "Menin piiloon pöydän alle.",
+    "finnish": "Piilouduin pöydän alle.",
     "english": "I hid under the table.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
     "id": "578805",
     "spanish": "Quiero beber una taza de té.",
-    "finnish": "Haluan juoda kupin teetä.",
+    "finnish": "Haluan juoda kupillisen teetä.",
     "english": "I want to drink a cup of tea.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -657,7 +689,7 @@
     "finnish": "Kissat eivät pidä vedestä.",
     "english": "Cats don't like water.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -667,7 +699,7 @@
     "finnish": "Älä ruoki eläimiä.",
     "english": "Don't feed the animals.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -677,7 +709,7 @@
     "finnish": "Veitsi ei ole terävä.",
     "english": "The knife is not sharp.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -687,7 +719,7 @@
     "finnish": "Juot liian paljon kahvia.",
     "english": "You drink too much coffee.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -697,7 +729,7 @@
     "finnish": "Tuo kahvi tuoksuu hyvältä.",
     "english": "That coffee smells good.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -707,7 +739,7 @@
     "finnish": "Minun veitseni on rikki.",
     "english": "My knife is broken.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -717,7 +749,7 @@
     "finnish": "Haluaisimme toisen pullollisen viiniä.",
     "english": "We'd like another bottle of wine.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -727,7 +759,7 @@
     "finnish": "Huoneessa ei ollut ketään.",
     "english": "There wasn't anyone in the room.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -737,7 +769,7 @@
     "finnish": "Mene ulos.",
     "english": "Get out.",
     "wordCount": 1,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -747,7 +779,7 @@
     "finnish": "Mitä haluaisit jälkiruoaksi?",
     "english": "What would you like for dessert?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -757,9 +789,10 @@
     "finnish": "Minun äitini on keittiössä.",
     "english": "My mother is in the kitchen.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "daily_life"
     ]
   },
   {
@@ -768,7 +801,7 @@
     "finnish": "Tuhannet ihmiset kuolivat nälkään.",
     "english": "Thousands of people died of hunger.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -778,7 +811,7 @@
     "finnish": "Rakastan kiinalaista ruokaa.",
     "english": "I love Chinese food.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -788,7 +821,7 @@
     "finnish": "Tuo ei voi olla hyväksi terveydellesi, eihän?",
     "english": "That can't be good for your health, can it?",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -796,10 +829,10 @@
   {
     "id": "687649",
     "spanish": "¿Dónde está la salida?",
-    "finnish": "Missä on uloskäynti?",
-    "english": "Where is the way out?",
+    "finnish": "Missä uloskäynti on?",
+    "english": "Where is the exit?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -807,9 +840,9 @@
     "id": "702993",
     "spanish": "La cena está lista.",
     "finnish": "Illallinen on valmis.",
-    "english": "Dinner's ready.",
+    "english": "Dinner is ready to eat.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -819,7 +852,7 @@
     "finnish": "Sokeri liukenee veteen.",
     "english": "Sugar dissolves in water.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -829,8 +862,10 @@
     "finnish": "Pöydän alla on koira.",
     "english": "There is a dog under the table.",
     "wordCount": 7,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -839,8 +874,9 @@
     "finnish": "Meidän kissamme on keittiössä.",
     "english": "Our cat is in the kitchen.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -849,7 +885,7 @@
     "finnish": "Pidätkö japanilaisesta ruoasta?",
     "english": "Do you like Japanese food?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -859,7 +895,7 @@
     "finnish": "Saisinko lisää kahvia?",
     "english": "More coffee, please.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "greetings",
       "food"
     ]
@@ -870,7 +906,7 @@
     "finnish": "Tupakointi on hyvin pahaksi terveydellesi.",
     "english": "Smoking is terrible for your health.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -880,7 +916,7 @@
     "finnish": "Pidän enemmän kahvista.",
     "english": "I like coffee better.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -888,9 +924,9 @@
     "id": "736673",
     "spanish": "Estoy saludable.",
     "finnish": "Olen terve.",
-    "english": "I'm healthy.",
+    "english": "I am well.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -900,7 +936,7 @@
     "finnish": "Hän ei syö raakaa kalaa.",
     "english": "She doesn't eat raw fish.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -910,7 +946,7 @@
     "finnish": "Minun täytyy mennä ulos.",
     "english": "I've got to go out.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -920,7 +956,7 @@
     "finnish": "Liha on jäässä.",
     "english": "The meat is frozen.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -930,7 +966,7 @@
     "finnish": "Pidän teestä enemmän kuin kahvista.",
     "english": "I prefer tea to coffee.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -940,7 +976,7 @@
     "finnish": "Hävitin sateenvarjoni.",
     "english": "I lost my umbrella.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -950,7 +986,7 @@
     "finnish": "On vaarallista hypätä pois liikkuvan junan kyydistä.",
     "english": "It's dangerous to jump off a moving train.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
       "travel"
     ]
@@ -961,7 +997,7 @@
     "finnish": "Juon mieluummin kahvia kuin teetä.",
     "english": "I prefer coffee to tea.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -971,7 +1007,7 @@
     "finnish": "Pidätkö kalasta?",
     "english": "Do you like fish?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -981,7 +1017,7 @@
     "finnish": "On epänormaalia syödä niin paljon.",
     "english": "It is abnormal to eat so much.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -991,7 +1027,7 @@
     "finnish": "Mies söi leipää.",
     "english": "The man ate bread.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1001,7 +1037,7 @@
     "finnish": "Hän saattaa olla seuraavassa junassa.",
     "english": "He may be on the next train.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
       "travel"
     ]
@@ -1010,9 +1046,9 @@
     "id": "859121",
     "spanish": "No me puedo permitir comer en un restaurante tan caro.",
     "finnish": "Minulla ei ole varaa syödä näin kalliissa ravintolassa.",
-    "english": "I can't afford to eat in such an expensive restaurant.",
+    "english": "I can't afford eating in such an expensive restaurant.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1022,7 +1058,7 @@
     "finnish": "Voit katsoa televisiota illallisen jälkeen.",
     "english": "You can watch television after dinner.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -1033,7 +1069,7 @@
     "finnish": "Kukaan ystävistäni ei juo kahvia.",
     "english": "None of my friends drink coffee.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -1042,10 +1078,12 @@
     "id": "869936",
     "spanish": "¿Saliste anoche?",
     "finnish": "Olitko ulkona eilen illalla?",
-    "english": "Did you go out last night?",
+    "english": "Were you out last night?",
     "wordCount": 2,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -1054,7 +1092,7 @@
     "finnish": "Jane vaikuttaa nauttivan juhlista.",
     "english": "Jane appears to be enjoying the party.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -1063,9 +1101,9 @@
     "id": "885628",
     "spanish": "Hay leche en el frigorífico.",
     "finnish": "Jääkaapissa on maitoa.",
-    "english": "There's milk in the refrigerator.",
+    "english": "There's milk in the fridge.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1075,7 +1113,7 @@
     "finnish": "Onko sinulla riisiä?",
     "english": "Do you have rice?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1085,7 +1123,7 @@
     "finnish": "En kestä tätä kipua.",
     "english": "I can't stand this pain.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1095,7 +1133,7 @@
     "finnish": "En voi sietää häntä.",
     "english": "I can't stand him.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1105,7 +1143,7 @@
     "finnish": "En voi sietää tätä meteliä.",
     "english": "I can't stand this noise.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1113,9 +1151,9 @@
     "id": "892068",
     "spanish": "No aguanto este calor.",
     "finnish": "En kestä tätä kuumuutta.",
-    "english": "I can't stand this heat.",
+    "english": "I cannot stand this heat.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1125,8 +1163,9 @@
     "finnish": "Komitea kokoontuu kaksi kertaa kuukaudessa.",
     "english": "The committee meets twice a month.",
     "wordCount": 8,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -1135,7 +1174,7 @@
     "finnish": "Oksensin kolme kertaa.",
     "english": "I threw up three times.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1145,7 +1184,7 @@
     "finnish": "Nautimme järvessä uimisesta.",
     "english": "We enjoyed swimming in the lake.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1155,7 +1194,7 @@
     "finnish": "Menemme bussilla, joka lähtee neljältä.",
     "english": "We are going to take the bus that leaves at four.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food",
       "travel"
     ]
@@ -1163,11 +1202,12 @@
   {
     "id": "988251",
     "spanish": "Me desperté y vi un ladrón en mi habitación.",
-    "finnish": "Heräsin ja näin varkaan huoneessani.",
+    "finnish": "Mä heräsin ja näin varkaan mun huoneessa.",
     "english": "I awoke to find a burglar in my room.",
     "wordCount": 9,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -1176,7 +1216,7 @@
     "finnish": "Koira nuoli lautasta kielellään.",
     "english": "The dog licked the plate with its tongue.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1186,8 +1226,9 @@
     "finnish": "Voit syödä mitä tahansa, kunhat et syö liikaa.",
     "english": "You may eat anything so long as you don't eat too much.",
     "wordCount": 9,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -1196,7 +1237,7 @@
     "finnish": "Esittelin itseni kokouksessa.",
     "english": "I presented myself at the meeting.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food",
       "work"
     ]
@@ -1204,10 +1245,10 @@
   {
     "id": "1010943",
     "spanish": "¡Ellos robaron mi botella de vino!",
-    "finnish": "He varastivat minun viinipulloni!",
+    "finnish": "He varastivat viinipulloni!",
     "english": "They stole my wine bottle!",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1217,7 +1258,7 @@
     "finnish": "Tämä ruoka on liian suolaista.",
     "english": "This food is too salty.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1227,7 +1268,7 @@
     "finnish": "Haluan toisen veitsen, sellaisen jolla voi leikata lihaa.",
     "english": "I want another knife. One that's good for cutting roast.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1237,7 +1278,7 @@
     "finnish": "Sairaus on usein seuraus ylensyönnistä.",
     "english": "Sickness often results from eating too much.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1247,9 +1288,11 @@
     "finnish": "Sally pakotti veljensä siivoamaan vessan.",
     "english": "Sally made his brother clean the bathroom.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -1258,8 +1301,10 @@
     "finnish": "Söimme curryriisiä eilen illalla.",
     "english": "We ate curry rice last night.",
     "wordCount": 5,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -1268,7 +1313,7 @@
     "finnish": "Tulin pelastamaan sinut.",
     "english": "I'm here to save you.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -1279,8 +1324,10 @@
     "finnish": "Pidän aina lupaukseni.",
     "english": "I always keep my promises.",
     "wordCount": 4,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -1289,10 +1336,11 @@
     "finnish": "Kirjoitin viime viikolla herra Woodille ja pyysin häntä antamaan sinulle töitä maatilalla.",
     "english": "I wrote last week to Mr. Wood and I asked him to give you a job on the farm.",
     "wordCount": 19,
-    "themes": [
+    "categories": [
       "food",
       "work",
-      "leisure"
+      "leisure",
+      "time"
     ]
   },
   {
@@ -1301,7 +1349,7 @@
     "finnish": "Tom ei juo kahvia.",
     "english": "Tom doesn't drink coffee.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1311,17 +1359,17 @@
     "finnish": "Juotko kahvia?",
     "english": "Do you drink coffee?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "1134288",
     "spanish": "¿Me darías algo frío de beber?",
-    "finnish": "Antaisitko minulle jotain kylmää juotavaa?",
+    "finnish": "Voisitko antaa minulle jotain kylmää juotavaa?",
     "english": "Would you give me something cold to drink?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1331,7 +1379,7 @@
     "finnish": "Olen nälkäinen, koska en ole syönyt lounasta.",
     "english": "I am hungry because I did not eat lunch.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1341,18 +1389,19 @@
     "finnish": "Kaikki olivat yllättyneitä kun menin huoneeseen.",
     "english": "Everyone was surprised when I went into the room.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "1138450",
     "spanish": "Hay un incendio en mi cocina.",
-    "finnish": "Minun keittiössäni on tulipalo.",
+    "finnish": "Mun keittiössä on tulipalo.",
     "english": "There's a fire in my kitchen.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -1361,9 +1410,10 @@
     "finnish": "Minun vaimoni laittaa ruokaa.",
     "english": "My wife is cooking right now.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "time"
     ]
   },
   {
@@ -1372,7 +1422,7 @@
     "finnish": "Eikö sinulla ole nälkä?",
     "english": "Are you not hungry?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1382,7 +1432,7 @@
     "finnish": "Rankka sade esti minua menemästä ulos.",
     "english": "The heavy rain prevented me from going out.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1392,7 +1442,7 @@
     "finnish": "Syötkö lihaa vai oletko vegetariaani?",
     "english": "Do you eat meat or are you a vegetarian?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1402,27 +1452,28 @@
     "finnish": "Syötkö lihaa vai oletko vegetariaani?",
     "english": "Do you eat meat or are you a vegetarian?",
     "wordCount": 5,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
     "id": "1173644",
     "spanish": "¿Está mal comer carne de ballena?",
-    "finnish": "Onko valaanlihan syönti väärin?",
+    "finnish": "Onko valaanlihan syöminen epäeettistä?",
     "english": "Is eating whale meat wrong?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "1173657",
     "spanish": "Los estadounidenses comen un montón de carne.",
-    "finnish": "Yhdysvaltalaiset syövät paljon lihaa.",
+    "finnish": "Jenkit syö paljon lihaa.",
     "english": "Americans eat a lot of meat.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1432,7 +1483,7 @@
     "finnish": "Tämä veitsi leikkaa hyvin.",
     "english": "This knife cuts well.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1442,7 +1493,7 @@
     "finnish": "Ole hiljaa kun minä puhun.",
     "english": "Be quiet while I'm speaking.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1452,7 +1503,7 @@
     "finnish": "Alaskassa elää miljoonia villieläimiä.",
     "english": "Millions of wild animals live in Alaska.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1462,7 +1513,7 @@
     "finnish": "Tomi hyppäsi ojan yli.",
     "english": "Tom jumped over the ditch.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1472,17 +1523,18 @@
     "finnish": "Anteeksi tarjoilija. Keitossani on hius.",
     "english": "Excuse me, waiter. There's a hair in my soup.",
     "wordCount": 8,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
     "id": "1234561",
     "spanish": "El precio de la carne caerá pronto.",
     "finnish": "Lihan hinta laskee pian.",
-    "english": "The price of meat will soon come down.",
+    "english": "The price of meat will drop soon.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1492,7 +1544,7 @@
     "finnish": "Pysy rauhallisena.",
     "english": "Stay calm.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1502,7 +1554,7 @@
     "finnish": "Tom hyppäsi puusta.",
     "english": "Tom jumped out of the tree.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1512,7 +1564,7 @@
     "finnish": "Tämä leipä tuoksuu todella hyvältä.",
     "english": "This bread smells really good.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1522,7 +1574,7 @@
     "finnish": "Syöttekö lihaa?",
     "english": "Do you eat meat?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1532,8 +1584,9 @@
     "finnish": "Emme käytä koskaan sokeria.",
     "english": "We never use sugar.",
     "wordCount": 4,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -1542,7 +1595,7 @@
     "finnish": "Pyydetään häntä.",
     "english": "Let's ask him.",
     "wordCount": 1,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1552,7 +1605,7 @@
     "finnish": "Onko tämä aito timantti?",
     "english": "Is this diamond real?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1562,7 +1615,7 @@
     "finnish": "Pidän tästä kupista.",
     "english": "I like this cup.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1572,8 +1625,10 @@
     "finnish": "Pöydän päällä oli kissa.",
     "english": "On the table there was a cat.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -1582,8 +1637,9 @@
     "finnish": "Kaikki kasvit tarvitsevat vettä ja valoa.",
     "english": "All plants need water and light.",
     "wordCount": 7,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -1592,18 +1648,19 @@
     "finnish": "Pidä silmäsi auki.",
     "english": "Keep your eyes open.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "1279598",
     "spanish": "Siempre mantén un balde de agua a mano, en caso de un incendio.",
-    "finnish": "Pidä aina käsillä vesiämpäri tulipalon varalta.",
+    "finnish": "Pidä aina käsillä sangollinen vettä palon varalta.",
     "english": "Always keep a bucket of water handy, in case of fire.",
     "wordCount": 13,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -1612,17 +1669,19 @@
     "finnish": "Kissa on pöydän alla.",
     "english": "The cat is under the table.",
     "wordCount": 7,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
     "id": "1287011",
     "spanish": "Todo salió mal.",
     "finnish": "Kaikki meni pieleen.",
-    "english": "Everything failed.",
+    "english": "Everything's gone wrong.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1632,7 +1691,7 @@
     "finnish": "En kestä hänen kommenttejaan.",
     "english": "I cannot stand his comments.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1642,7 +1701,7 @@
     "finnish": "Sairaus esti minua menemästä ulos.",
     "english": "Illness prevented me from going out.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1652,7 +1711,7 @@
     "finnish": "Aamiainen on valmis.",
     "english": "Breakfast is ready.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1662,17 +1721,18 @@
     "finnish": "Keittiöstä puuttuu tiskikone.",
     "english": "The kitchen lacks a dishwasher.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
     "id": "1318320",
     "spanish": "Me está empezando a entrar hambre.",
     "finnish": "Minulla alkaa olla nälkä.",
-    "english": "I'm beginning to get hungry.",
+    "english": "I'm starting to get hungry.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1682,8 +1742,10 @@
     "finnish": "Tom vei tyttöystävänsä ulos lauantai-iltana.",
     "english": "Tom took his girlfriend out on Saturday night.",
     "wordCount": 9,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -1692,7 +1754,7 @@
     "finnish": "Minulla on vähän nälkä.",
     "english": "I'm slightly hungry.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1700,9 +1762,9 @@
     "id": "1326337",
     "spanish": "El agua está formada por oxígeno e hidrógeno.",
     "finnish": "Vesi koostuu hapesta ja vedystä.",
-    "english": "Water is made up of oxygen and hydrogen.",
+    "english": "Water is composed of oxygen and hydrogen.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1712,7 +1774,7 @@
     "finnish": "Haluaisin lasin viiniä.",
     "english": "I'd like to have a glass of wine.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1722,7 +1784,7 @@
     "finnish": "Kirjoitin hänen nimensä muistiin, jotta en unohtaisi sitä.",
     "english": "I wrote down his name so I wouldn't forget it.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1732,8 +1794,9 @@
     "finnish": "Kahvinhinnat ovat nousseet melkein 50 % kuudessa kuukaudessa.",
     "english": "Coffee prices have jumped almost 50% in six months.",
     "wordCount": 12,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -1742,7 +1805,7 @@
     "finnish": "Ennen aamupalaa hän kävi kävelyllä.",
     "english": "He took a walk before breakfast.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1752,7 +1815,7 @@
     "finnish": "Ennen luulin, että sillä ei ole juurikaan väliä, mitä minä syötän koiralleni.",
     "english": "I used to think that it didn't really matter what I fed my dog.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1762,7 +1825,7 @@
     "finnish": "Isäni pyörittää ravintolaa.",
     "english": "My father runs a restaurant.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -1773,7 +1836,7 @@
     "finnish": "Tom on yrittänyt oppia kuinka valmistaa täydellisen kupin kahvia.",
     "english": "Tom has been trying to learn how to brew the perfect cup of coffee.",
     "wordCount": 13,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1783,8 +1846,9 @@
     "finnish": "Hän inhoaa kalaa eikä syö sitä koskaan.",
     "english": "She hates fish and never eats any.",
     "wordCount": 8,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -1793,7 +1857,7 @@
     "finnish": "Leikkasin artikkelin lehdestä.",
     "english": "I cut the article out of the magazine.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -1804,7 +1868,7 @@
     "finnish": "Alkoholi ei ratkaise mitään ongelmia, mutta sitä ei tee myöskään maito.",
     "english": "Alcohol does not solve any problems, but neither does milk.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1814,7 +1878,7 @@
     "finnish": "Tom keräsi kahvikupit.",
     "english": "Tom collected coffee cups.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1824,7 +1888,7 @@
     "finnish": "Tom ei syö lihaa.",
     "english": "Tom doesn't eat meat.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1834,8 +1898,10 @@
     "finnish": "Nousin sängystä, kun oli vielä pimeää.",
     "english": "I got up while it was still dark.",
     "wordCount": 7,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -1844,7 +1910,7 @@
     "finnish": "Hän valmisti erikoisillallisen hänelle.",
     "english": "She cooked a special dinner for him.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1854,7 +1920,7 @@
     "finnish": "Äiti valmistaa illallista.",
     "english": "Mom is getting dinner ready.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -1865,7 +1931,7 @@
     "finnish": "Juna lähtee kuudelta.",
     "english": "The train leaves at six.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food",
       "travel"
     ]
@@ -1876,7 +1942,7 @@
     "finnish": "Uiminen on terveellistä.",
     "english": "Swimming is healthy.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -1887,7 +1953,7 @@
     "finnish": "Liika karkki lihottaa.",
     "english": "Too many sweets make you fat.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1897,7 +1963,7 @@
     "finnish": "Tomi tuli juuri ennen illallista.",
     "english": "Tom came just before dinner.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1907,7 +1973,7 @@
     "finnish": "Tää tee on tosi kuumaa.",
     "english": "This tea is very hot.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1917,7 +1983,7 @@
     "finnish": "Komitea päätti perua lakon.",
     "english": "The committee decided to call off the strike.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1927,7 +1993,7 @@
     "finnish": "Tomia ei huvita syödä.",
     "english": "Tom doesn't feel like eating.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1937,8 +2003,9 @@
     "finnish": "Tomia ei huvita laittaa ruokaa.",
     "english": "Tom doesn't feel like cooking.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -1947,7 +2014,7 @@
     "finnish": "Tom ei välitä kenen kanssa Mary käy treffeillä.",
     "english": "Tom doesn't care who Mary goes out with.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1957,7 +2024,7 @@
     "finnish": "Hän huusi: ”Ulos täältä!”",
     "english": "He shouted, \"Get out!\"",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1967,7 +2034,7 @@
     "finnish": "Hän huusi: ”Ulos täältä!”",
     "english": "He shouted, \"Get out!\"",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1977,7 +2044,7 @@
     "finnish": "Hän huusi: ”Ulos täältä!”",
     "english": "He shouted, \"Get out!\"",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1987,7 +2054,7 @@
     "finnish": "Kukaan muu ei loukkaantunut.",
     "english": "No one else was injured.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -1997,8 +2064,10 @@
     "finnish": "Lupaus ei ole tarpeeksi.",
     "english": "A promise is not enough.",
     "wordCount": 5,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2007,18 +2076,21 @@
     "finnish": "Riisuin kenkäni.",
     "english": "I took my shoes off.",
     "wordCount": 4,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
     "id": "1612616",
     "spanish": "Vomité anoche.",
     "finnish": "Oksensin viime yönä.",
-    "english": "Last night I puked.",
+    "english": "Last night I threw up.",
     "wordCount": 2,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2027,7 +2099,7 @@
     "finnish": "Otin lumet pois katolta.",
     "english": "I cleared the roof of snow.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2037,7 +2109,7 @@
     "finnish": "Katson ottelua kännykkäni näytöltä.",
     "english": "I'm watching the game on my cellphone.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -2048,18 +2120,21 @@
     "finnish": "Lisään aina lusikallisen hunajaa teeheni.",
     "english": "I always add a spoonful of honey to my tea.",
     "wordCount": 10,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
     "id": "1633569",
     "spanish": "Tomo el desayuno cada mañana.",
-    "finnish": "Syön aamiaista joka aamu.",
+    "finnish": "Syön aamupalaa joka aamu.",
     "english": "I have breakfast every morning.",
     "wordCount": 5,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2068,7 +2143,7 @@
     "finnish": "Pullon pohjalla oli vähän vettä jäljellä.",
     "english": "There was a little water left in the bottom of the bottle.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2078,7 +2153,7 @@
     "finnish": "Yritin keskittyä lukemiseen.",
     "english": "I tried to focus my attention on reading.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2088,7 +2163,7 @@
     "finnish": "Lihansyönti on haitallista ympäristölle.",
     "english": "Eating meat is bad for the environment.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2098,7 +2173,7 @@
     "finnish": "Tämä vesi on juomakelpoista.",
     "english": "This water is good to drink.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2108,7 +2183,7 @@
     "finnish": "Kissat pitävät kalasta enemmän kuin ne pitävät lihasta.",
     "english": "Cats like fish more than they like meat.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2118,7 +2193,7 @@
     "finnish": "Koira on ruskea, pieni ja laiha.",
     "english": "The dog is brown, small and thin.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2128,7 +2203,7 @@
     "finnish": "Tämä kahvi ei ole tarpeeksi kuumaa.",
     "english": "This coffee is not hot enough.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2138,7 +2213,7 @@
     "finnish": "Hän pelasti tilanteen.",
     "english": "He saved the situation.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2148,7 +2223,7 @@
     "finnish": "Mitä haluat syödä lounaaksi?",
     "english": "What do you want for lunch?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2158,7 +2233,7 @@
     "finnish": "Nousin sängystä, kun oli vielä pimeää.",
     "english": "I got up while it was still dark.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2168,7 +2243,7 @@
     "finnish": "Olen allerginen maidolle.",
     "english": "I have an allergy to milk.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2178,7 +2253,7 @@
     "finnish": "Tämä huone on makuuhuoneeni, ja toinen on toimistoni.",
     "english": "This room is my bedroom, and the other one is my office.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "food",
       "work"
     ]
@@ -2189,7 +2264,7 @@
     "finnish": "Tomin lounas sisältää voileivän ja omenan.",
     "english": "Tom's lunch includes a sandwich and an apple.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2199,7 +2274,7 @@
     "finnish": "Kulutin kaikki säästöni.",
     "english": "I've run out of my savings.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2209,7 +2284,7 @@
     "finnish": "Ostin sateenvarjon.",
     "english": "I bought an umbrella.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2219,8 +2294,10 @@
     "finnish": "Olen lainannut pöydän.",
     "english": "I've borrowed a table.",
     "wordCount": 4,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2229,7 +2306,7 @@
     "finnish": "Mary piti silkkipuseroa.",
     "english": "Mary wore a silk blouse.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2239,7 +2316,7 @@
     "finnish": "Hän antoi kissalle maitoa.",
     "english": "She gave milk to the cat.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2249,8 +2326,9 @@
     "finnish": "Tom oli helpottunut kuullessaan että Mary oli saapunut turvallisesti kotiin.",
     "english": "Tom was relieved to hear that Mary had arrived home safely.",
     "wordCount": 14,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -2259,7 +2337,7 @@
     "finnish": "Pystymmekö pelastaa planeetan?",
     "english": "Can we save the planet?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2269,7 +2347,7 @@
     "finnish": "Tätini näytti minulle, miten hyvää kahvia tehdään.",
     "english": "My aunt showed me how to make good coffee.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -2280,7 +2358,7 @@
     "finnish": "En halua syödä mitään.",
     "english": "I don't want to eat anything.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2290,7 +2368,7 @@
     "finnish": "Minä syön usein kanaa.",
     "english": "I often eat chicken.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2300,8 +2378,9 @@
     "finnish": "Nyt olette turvassa.",
     "english": "You're safe now.",
     "wordCount": 4,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -2310,7 +2389,7 @@
     "finnish": "Luulen että se on aito Picasso.",
     "english": "I believe it is a genuine Picasso.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2320,17 +2399,17 @@
     "finnish": "Koira haluaa ulos.",
     "english": "The dog wants out.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "1868659",
     "spanish": "La expansión del universo se está acelerando.",
-    "finnish": "Universumin laajeneminen kiihtyy.",
+    "finnish": "Maailmankaikkeuden laajeneminen kiihtyy.",
     "english": "The expansion of the universe is speeding up.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -2341,8 +2420,9 @@
     "finnish": "Nancy ei ollut koskaan ennen nähnyt jättiläispandaa.",
     "english": "Nancy had never seen a giant panda before.",
     "wordCount": 8,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -2351,7 +2431,7 @@
     "finnish": "Metsässä on villieläimiä.",
     "english": "Wild animals live in the forest.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2361,7 +2441,7 @@
     "finnish": "Ehkä muutama teistä on nähnyt pandoja eläintarhassa.",
     "english": "Maybe a few of you have seen pandas in the zoo.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2371,7 +2451,7 @@
     "finnish": "Anteeksi, voisitko ojentaa suolan ja pippurin?",
     "english": "Excuse me, could you pass me the salt and pepper?",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2381,7 +2461,7 @@
     "finnish": "Vesi on kylmää.",
     "english": "The water's cold.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2391,8 +2471,9 @@
     "finnish": "En ole varma pysyäkö kotona vai mennäkö ulos.",
     "english": "I'm not sure whether to stay home or go out.",
     "wordCount": 12,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -2401,7 +2482,7 @@
     "finnish": "Tomi yritti pelastaa minut.",
     "english": "Tom tried to save me.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2411,7 +2492,7 @@
     "finnish": "Lisää sokeria teehen.",
     "english": "Add sugar to the tea.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2421,7 +2502,7 @@
     "finnish": "Kävin suihkussa ennen aamupalaa.",
     "english": "I showered before breakfast.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2431,8 +2512,9 @@
     "finnish": "Kokoonnutaan täällä kerran viikossa.",
     "english": "Let's get together here once a week.",
     "wordCount": 7,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -2441,8 +2523,9 @@
     "finnish": "Eilen söin kalaa.",
     "english": "I ate fish yesterday.",
     "wordCount": 3,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -2451,7 +2534,7 @@
     "finnish": "Tämä kahvi on kylmää.",
     "english": "This coffee is cold.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2461,7 +2544,7 @@
     "finnish": "Olkaa kunnioittavia.",
     "english": "Be respectful.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2471,17 +2554,17 @@
     "finnish": "Älkää hypätkö!",
     "english": "Don't jump!",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "2119384",
     "spanish": "Necesitamos más azúcar.",
-    "finnish": "Me tarvitsemme lisää sokeria.",
+    "finnish": "Tarvitsemme lisää sokeria.",
     "english": "We need more sugar.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2491,7 +2574,7 @@
     "finnish": "Ajattelin että peli sujui oikein hyvin.",
     "english": "I thought the play went very well.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2501,7 +2584,7 @@
     "finnish": "Ole varovainen tuon veitsen kanssa.",
     "english": "Be careful with that knife.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2511,7 +2594,7 @@
     "finnish": "Haluatko jotain juotavaa?",
     "english": "Do you want something to drink?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2521,7 +2604,7 @@
     "finnish": "Onko meillä tarpeeksi ruokaa?",
     "english": "Do we have enough food?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2531,7 +2614,7 @@
     "finnish": "Eikö sinulla ole nälkä?",
     "english": "Aren't you hungry?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2541,7 +2624,7 @@
     "finnish": "Miks sä juot vettä?",
     "english": "Why are you drinking water?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2551,7 +2634,7 @@
     "finnish": "Panemme sokeria teehemme.",
     "english": "We put sugar in our tea.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2561,7 +2644,7 @@
     "finnish": "Monelta viimeinen juna menee?",
     "english": "When does the last train leave?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food",
       "travel"
     ]
@@ -2572,8 +2655,10 @@
     "finnish": "Siirretään pöytä.",
     "english": "Let's move the table.",
     "wordCount": 3,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2582,7 +2667,7 @@
     "finnish": "En voi juoda maitoa.",
     "english": "I can't drink milk.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2592,7 +2677,7 @@
     "finnish": "Juon kahvia.",
     "english": "I drink coffee.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2602,7 +2687,7 @@
     "finnish": "Olen ollut kerran televisiossa, mutta kukaan ei usko minua.",
     "english": "I appeared on television once, but nobody believes me.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -2611,9 +2696,9 @@
     "id": "2258999",
     "spanish": "Es tan claro como el agua.",
     "finnish": "Se on selvä kuin päivä.",
-    "english": "It's as clear as crystal.",
+    "english": "It's as clear as day.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2623,7 +2708,7 @@
     "finnish": "Vesi alkoi kiehua.",
     "english": "The water began to boil.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2633,9 +2718,10 @@
     "finnish": "Mitä pesukarhu tekee keittiössä?",
     "english": "What is the racoon doing in the kitchen?",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
-      "travel"
+      "travel",
+      "daily_life"
     ]
   },
   {
@@ -2644,8 +2730,9 @@
     "finnish": "Milloin illallinen tarjoillaan?",
     "english": "When's dinner served?",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -2654,7 +2741,7 @@
     "finnish": "Hän hyppäsi junaan.",
     "english": "He jumped on the train.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food",
       "travel"
     ]
@@ -2665,7 +2752,7 @@
     "finnish": "Maito on jääkaapissa.",
     "english": "The milk is in the fridge.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2675,7 +2762,7 @@
     "finnish": "Jääkaapissa on maitoa.",
     "english": "There is some milk in the fridge.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2685,7 +2772,7 @@
     "finnish": "Jääkaapissa on maitoa jäljellä.",
     "english": "There is some milk left in the fridge.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2695,9 +2782,11 @@
     "finnish": "Kirja on pöydällä.",
     "english": "The book is on the table.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2706,9 +2795,11 @@
     "finnish": "Kirja on pöydällä.",
     "english": "The book is on the table.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2717,7 +2808,7 @@
     "finnish": "Emme voi juoda maitoa.",
     "english": "We can't drink milk.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2727,7 +2818,7 @@
     "finnish": "Tomi tapailee Maria.",
     "english": "Tom is dating Mary.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2737,7 +2828,7 @@
     "finnish": "Avasin punaviinipullon.",
     "english": "I opened a bottle of red wine.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2745,10 +2836,11 @@
     "id": "2403431",
     "spanish": "Había harta comida en la casa.",
     "finnish": "Talossa oli paljon ruokaa.",
-    "english": "There was lots of food in the house.",
+    "english": "There was much food in the house.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -2757,8 +2849,10 @@
     "finnish": "Avain on pöydällä.",
     "english": "The key is on the table.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2767,7 +2861,7 @@
     "finnish": "Laurie söi salaatin.",
     "english": "Laurie ate the salad.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2777,9 +2871,10 @@
     "finnish": "Milloin tavallisesti pääset töistä?",
     "english": "When do you usually get off work?",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
-      "work"
+      "work",
+      "time"
     ]
   },
   {
@@ -2788,7 +2883,7 @@
     "finnish": "Kalat uivat vedessä.",
     "english": "Fish swim in the water.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2798,7 +2893,7 @@
     "finnish": "Saisinko kupin teetä?",
     "english": "May I have a cup of tea?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2808,7 +2903,7 @@
     "finnish": "Haluan syödä omenapiirakkaa.",
     "english": "I want to eat apple pie.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2818,7 +2913,7 @@
     "finnish": "Hän auttoi ruuanlaitossa.",
     "english": "She helped cook lunch.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2828,8 +2923,10 @@
     "finnish": "Tämä pöytä on valkoinen.",
     "english": "This table is white.",
     "wordCount": 4,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2838,8 +2935,10 @@
     "finnish": "He peittivät pöydän liinalla.",
     "english": "They covered the table with a cloth.",
     "wordCount": 7,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2848,7 +2947,7 @@
     "finnish": "Tomi juo kahvia.",
     "english": "Tom drinks coffee.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2858,8 +2957,9 @@
     "finnish": "Olin juuri lähdössä talosta, kun puhelin soi.",
     "english": "I was just about to leave the house when the telephone rang.",
     "wordCount": 12,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -2868,8 +2968,9 @@
     "finnish": "Kenen vuoro tiskata?",
     "english": "Whose turn is it to wash the dishes?",
     "wordCount": 7,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -2878,7 +2979,7 @@
     "finnish": "Sain jo kahvia.",
     "english": "I've had coffee already.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2888,9 +2989,11 @@
     "finnish": "Haluatko todella kupin kahvia näin myöhään illalla?",
     "english": "Do you really want a cup of coffee this late at night?",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "food",
-      "leisure"
+      "leisure",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -2899,7 +3002,7 @@
     "finnish": "Hänellä ei ollut rahaa joten hän ei voinut ostaa ruokaa",
     "english": "He had no money and so could not buy any food.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food",
       "work"
     ]
@@ -2910,7 +3013,7 @@
     "finnish": "Voisinko saada lasin maitoa, kiitos?",
     "english": "May I have a glass of milk, please?",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "greetings",
       "food"
     ]
@@ -2921,7 +3024,7 @@
     "finnish": "Haluan pullon kokista.",
     "english": "I want a bottle of Coca-Cola.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2931,7 +3034,7 @@
     "finnish": "Yritin jopa kirjoittaa laulua siitä mitä tapahtui.",
     "english": "I even tried writing a song about what happened.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2941,7 +3044,7 @@
     "finnish": "Kaikki lääkärit sanovat, että minä en saa juoda kahvia, mutta minä juon kuitenkin vähän silloin tällöin mukavassa seurassa.",
     "english": "All the doctors say that I shouldn't drink coffee, but, despite that, I do have a bit now and then when I'm in good company.",
     "wordCount": 23,
-    "themes": [
+    "categories": [
       "food",
       "work"
     ]
@@ -2952,8 +3055,9 @@
     "finnish": "Hän oli veden alla kolme minuuttia.",
     "english": "He was underwater for three minutes.",
     "wordCount": 7,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -2962,7 +3066,7 @@
     "finnish": "Tässä vedessä on hieman alkoholia.",
     "english": "This water contains a little alcohol.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2972,7 +3076,7 @@
     "finnish": "Nuori mies, jonka palkkasin assistentikseni, työskentelee kovasti.",
     "english": "The young man whom I employed as my assistant works very hard.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2982,7 +3086,7 @@
     "finnish": "En voinut mennä ulos sateen takia.",
     "english": "I couldn't go out because of the rain.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -2992,7 +3096,7 @@
     "finnish": "Nattō haisee kamalalta mutta maistuu herkulliselta.",
     "english": "Natto smells awful but tastes delicious.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3002,17 +3106,17 @@
     "finnish": "Banaanit ovat herkullisia.",
     "english": "Bananas are delicious.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "2906841",
     "spanish": "No voy a comer eso.",
-    "finnish": "En syö tätä.",
+    "finnish": "En aio syödä tätä.",
     "english": "I'm not going to eat that.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3022,8 +3126,9 @@
     "finnish": "Hänellä ei koskaan ollut tarpeeksi ruokaa toiselle annettavaksi.",
     "english": "He never had enough food to give to someone else.",
     "wordCount": 9,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -3032,7 +3137,7 @@
     "finnish": "Tätä ruokaa on tarpeeksi kolmelle ihmiselle.",
     "english": "This food is enough for three people.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3042,7 +3147,7 @@
     "finnish": "Kuinka monta lusikkaa puuttuu?",
     "english": "How many spoons are missing?",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3052,7 +3157,7 @@
     "finnish": "Jos menen juhliin, otan muutaman pullon viiniä.",
     "english": "If I go to the party, I'll take some bottles of wine.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -3063,7 +3168,7 @@
     "finnish": "Mikä ruoka maistuu mielestäsi parhaalta?",
     "english": "Which food do you think tastes best?",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3073,7 +3178,7 @@
     "finnish": "Minua harmittaa, etteivät ystäväni ole täällä.",
     "english": "It annoys me that my friends aren't here.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -3084,8 +3189,9 @@
     "finnish": "Hän pelasti päivän... taas.",
     "english": "She saved the day... again.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -3094,7 +3200,7 @@
     "finnish": "Söimme herkullisen pihvi-illallisen erittäin kalliissa ravintolassa.",
     "english": "We ate a delicious steak dinner at a very expensive restaurant.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3104,7 +3210,7 @@
     "finnish": "Minusta Japanissa ruoka on kallista.",
     "english": "I think food is expensive in Japan.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3114,7 +3220,7 @@
     "finnish": "Tom söi sushia kalliissa ravintolassa, joka on aivan kulman takana.",
     "english": "Tom ate sushi at an expensive restaurant just around the corner.",
     "wordCount": 16,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3124,8 +3230,10 @@
     "finnish": "Olen kyllästynyt joka ilta ulkona syömiseen.",
     "english": "I'm sick of eating out every night.",
     "wordCount": 9,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -3134,8 +3242,10 @@
     "finnish": "Heräsin keskiyön jälkeen.",
     "english": "I woke up after midnight.",
     "wordCount": 4,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -3144,8 +3254,10 @@
     "finnish": "Onko teillä pöytää terassilla?",
     "english": "Do you have a table on the patio?",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -3154,7 +3266,7 @@
     "finnish": "Minusta keitto kaipaisi hiukan suolaa.",
     "english": "I think the soup needs a bit of salt.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3164,7 +3276,7 @@
     "finnish": "Suola oli entisaikaan harvinainen ja kallis hyödyke.",
     "english": "Salt was a rare and costly commodity in ancient times.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3174,7 +3286,7 @@
     "finnish": "Kysyin vain siksi että ajattelin että tietäisit.",
     "english": "I just asked because I thought you would know.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3184,7 +3296,7 @@
     "finnish": "Meillä on pitkä ja kylmä talvi, mutta tiedämme miten nauttia siitä.",
     "english": "We have a long and cold winter, but we know how to enjoy it.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3194,7 +3306,7 @@
     "finnish": "Japanilla on paljon kauppaa USA:n kanssa.",
     "english": "Japan has much trade with the USA.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3204,7 +3316,7 @@
     "finnish": "Japani on riippuvainen ulkomaankaupasta.",
     "english": "Japan depends on foreign trade.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3214,7 +3326,7 @@
     "finnish": "Me käytämme syömäpuikkoja haarukan ja veitsen sijasta.",
     "english": "We use chopsticks in place of knives and forks.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3224,7 +3336,7 @@
     "finnish": "Älä muuta lauseita, jotka ovat oikein. Voit sen sijaan lisätä luonnollisen kuuloisia vaihtoehtoisia käännöksiä.",
     "english": "Don't change sentences that are correct. You can, instead, submit natural-sounding alternative translations.",
     "wordCount": 17,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3234,8 +3346,10 @@
     "finnish": "Jätän mieluummin espanjankieliset lauseeni espanjan puhujan rakastaville käsivarsille.",
     "english": "I prefer to leave my Spanish sentences in the loving arms of a Hispanophone.",
     "wordCount": 13,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "emotions",
+      "time"
     ]
   },
   {
@@ -3244,7 +3358,7 @@
     "finnish": "Tom sanoi, että hänellä on jano.",
     "english": "Tom said he was thirsty.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3254,7 +3368,7 @@
     "finnish": "Tom tervehti Marya.",
     "english": "Tom said hello to Mary.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3264,9 +3378,11 @@
     "finnish": "Vaimoni ei tavallisesti juo kahvia öisin, enkä juo minäkään.",
     "english": "My wife usually doesn't drink coffee at night, and neither do I.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -3275,8 +3391,9 @@
     "finnish": "Luokkahuoneessa on tänään paljon enemmän opiskelijoita kuin eilen.",
     "english": "There are many more students in the classroom today than yesterday.",
     "wordCount": 10,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -3285,8 +3402,9 @@
     "finnish": "Minua ei oikein huvita syödä mitään tänään.",
     "english": "I don't feel like eating anything today.",
     "wordCount": 7,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -3295,7 +3413,7 @@
     "finnish": "Se on minun sateenvarjoni.",
     "english": "It's my umbrella.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3305,7 +3423,7 @@
     "finnish": "Miksette sinä ja Tom hanki jotakin syötävää?",
     "english": "Why don't you and Tom get something to eat?",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3315,7 +3433,7 @@
     "finnish": "Tom oli nälkäänkuolemisen partaalla.",
     "english": "Tom was on the verge of starvation.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3325,8 +3443,9 @@
     "finnish": "Tom oli juonut liian paljon kahvia eikä voinut nukkua.",
     "english": "Tom had drunk too much coffee so he couldn't sleep.",
     "wordCount": 10,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -3335,7 +3454,7 @@
     "finnish": "Tämä on minun sateenvarjoni, ei Tomin.",
     "english": "This is my umbrella, not Tom's.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3345,7 +3464,7 @@
     "finnish": "Kun annan ruokaa köyhille ihmisille, minua kutsutaan pyhimykseksi. Kun kysyn, miksi köyhät ihmiset eivät saa ruokaa, minua kutsutaan kommunistiksi.",
     "english": "When I give food to the poor, they call me a saint. When I ask why the poor have no food, they call me a communist.",
     "wordCount": 23,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3355,7 +3474,7 @@
     "finnish": "Mikä tekee minuun suurimman vaikutuksen Kiinassa on kiinalainen ruoka.",
     "english": "What impresses me the most about China is Chinese food.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3365,7 +3484,7 @@
     "finnish": "Join kahvin.",
     "english": "I drank the coffee.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3375,7 +3494,7 @@
     "finnish": "Join kahvia.",
     "english": "I drank coffee.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3385,7 +3504,7 @@
     "finnish": "Voi tehdään maidosta.",
     "english": "Butter is made from milk.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3395,7 +3514,7 @@
     "finnish": "Siksi minä kysyin.",
     "english": "That's why I asked.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3405,8 +3524,10 @@
     "finnish": "Haluan syödä ulkona tänä iltana.",
     "english": "I want to eat out tonight.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -3415,7 +3536,7 @@
     "finnish": "On mahdollista että uhri on haavoittunut päähän.",
     "english": "It's possible that the victim is wounded in the head.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3425,7 +3546,7 @@
     "finnish": "Tämä on varmaankin herkullisinta tuoremehua jota olen koskaan eläessäni juonut.",
     "english": "This is certainly the most delicious juice I have ever drunk in my life.",
     "wordCount": 14,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3435,7 +3556,7 @@
     "finnish": "Se näyttää herkulliselta.",
     "english": "It looks delicious.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3445,7 +3566,7 @@
     "finnish": "Älä pudota tuota kuppia.",
     "english": "Don't drop that cup.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3455,7 +3576,7 @@
     "finnish": "Saan vatsakivun maidosta.",
     "english": "Milk gives me a stomachache.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3465,7 +3586,7 @@
     "finnish": "Lapset pitävät hedelmämehusta.",
     "english": "Children like fruit juice.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -3476,8 +3597,9 @@
     "finnish": "Kullekin annettiin riittävästi ruokaa ja vaatteita.",
     "english": "Each person was given enough food and clothing.",
     "wordCount": 10,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -3486,7 +3608,7 @@
     "finnish": "En usko sinun olevan hullu.",
     "english": "I don't think you're crazy.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3496,7 +3618,7 @@
     "finnish": "Tule juomaan kanssani lasi viiniä.",
     "english": "Come have a glass of wine with me.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -3507,7 +3629,7 @@
     "finnish": "Komitea kokoontuu ensi perjantaina.",
     "english": "The committee will meet next Friday.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3517,7 +3639,7 @@
     "finnish": "Jos olet kiltti tyttö, annan sinulle nameja.",
     "english": "If you are a good girl, you shall have candy.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -3528,7 +3650,7 @@
     "finnish": "Nälkä ei lue lakia.",
     "english": "Hunger knows no law.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3538,17 +3660,17 @@
     "finnish": "Tom täytti ämpärin vedellä.",
     "english": "Tom filled the bucket with water.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "3177423",
     "spanish": "¿Qué pasó con el resto de la comida?",
-    "finnish": "Mitä tapahtui ruoantähteille?",
+    "finnish": "Mitä tapahtui lopulle ruoasta?",
     "english": "What happened to the rest of the food?",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3556,9 +3678,9 @@
     "id": "3198510",
     "spanish": "No creo que esté fingiendo.",
     "finnish": "En usko, että hän teeskentelee.",
-    "english": "I don't think she's faking.",
+    "english": "I don't think he's faking.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3568,8 +3690,9 @@
     "finnish": "Tom juoksi ovelle ja yritti päästä ulos.",
     "english": "Tom ran to the door and tried to get out.",
     "wordCount": 9,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -3578,7 +3701,7 @@
     "finnish": "Tom sanoi, että hän haluaisi toisen kupillisen kahvia.",
     "english": "Tom said he'd like to have another cup of coffee.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3588,7 +3711,7 @@
     "finnish": "Tom alkoi tulla nälkäiseksi.",
     "english": "Tom started to get hungry.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3598,8 +3721,10 @@
     "finnish": "Löysin viestin pöydältä, mutta en tiedä keneltä se on.",
     "english": "I found a note on the table, but I don't know who it's from.",
     "wordCount": 12,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -3608,18 +3733,20 @@
     "finnish": "Yleensä juomme teetä aterian jälkeen.",
     "english": "We generally drink tea after a meal.",
     "wordCount": 7,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
     "id": "3215647",
     "spanish": "Aguarda un segundo.",
-    "finnish": "Odotapa hetki.",
+    "finnish": "Odota vähän.",
     "english": "Wait a second.",
     "wordCount": 3,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -3628,7 +3755,7 @@
     "finnish": "Ravintola oli melkein tyhjä.",
     "english": "The restaurant was almost empty.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3638,7 +3765,7 @@
     "finnish": "Ravintola oli melko tyhjä, joten sain lukea rauhassa samalla kun söin.",
     "english": "The restaurant was fairly empty, so I could read in peace while I ate.",
     "wordCount": 13,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -3649,7 +3776,7 @@
     "finnish": "Oli niin kuumaa että häntä halutti jäätelö.",
     "english": "It was so hot that she felt like eating ice cream.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3659,7 +3786,7 @@
     "finnish": "Milloin seuraava bussi Helsinkiin menee?",
     "english": "When does the next bus to Helsinki leave?",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3669,7 +3796,7 @@
     "finnish": "Olemmeko täällä turvassa?",
     "english": "Are we safe here?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3679,7 +3806,7 @@
     "finnish": "Monet astronomit olettavat avaruuden laajenevan rajattomasti.",
     "english": "Many astronomers assume that the universe expands infinitely.",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -3690,7 +3817,7 @@
     "finnish": "Vesi nousee.",
     "english": "The water is rising.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3700,7 +3827,7 @@
     "finnish": "Onko sinulla kalaa? \" Kyllä on.\"",
     "english": "Do you have some fish? \"Yes, I do.\"",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3710,7 +3837,7 @@
     "finnish": "Miten voin yhdistää iPodini autostereoihin?",
     "english": "How can I connect my iPod to a car stereo?",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3720,7 +3847,7 @@
     "finnish": "Tein kahvia teille.",
     "english": "I made you coffee.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3730,7 +3857,7 @@
     "finnish": "En usko, että voimme oikeastaan sanoa toisen olleen oikeassa ja toisen väärässä.",
     "english": "I don't think we can really say that one is right and the other is wrong.",
     "wordCount": 16,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3740,7 +3867,7 @@
     "finnish": "Ulkomaalaisten on vaikeaa tottua japanilaiseen ruokaan.",
     "english": "It is difficult for foreigners to get used to Japanese food.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3750,7 +3877,7 @@
     "finnish": "Tomilla on vakavia terveysongelmia.",
     "english": "Tom has serious health problems.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3760,7 +3887,7 @@
     "finnish": "Tom työskenteli hengenpelastajana kesän ajan.",
     "english": "Tom worked as a lifeguard during the summer.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -3771,7 +3898,7 @@
     "finnish": "Rakastan tuota mainosta.",
     "english": "I love that commercial.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3781,7 +3908,7 @@
     "finnish": "Haluan mennä ulos hänen kanssaan.",
     "english": "I want to go out with him.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3791,7 +3918,7 @@
     "finnish": "Herra Smith on mennyt ulos lounaalle.",
     "english": "Mr Smith has gone out to lunch.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3801,7 +3928,7 @@
     "finnish": "Aamiainen tarjoillaan kello seitsemän.",
     "english": "Breakfast is served at seven a.m.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3811,7 +3938,7 @@
     "finnish": "Tee niin kuin sanon, niin keneenkään ei satu.",
     "english": "Do as I say, and no one will get hurt.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3821,7 +3948,7 @@
     "finnish": "Olen nälkäinen kuin susi.",
     "english": "I'm hungry like a wolf.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3831,7 +3958,7 @@
     "finnish": "Olen jo kokeillut sitä.",
     "english": "I've already tried it.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3841,8 +3968,9 @@
     "finnish": "Olen iloinen, että olet iloinen.",
     "english": "I'm happy you're happy.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "emotions"
     ]
   },
   {
@@ -3851,17 +3979,17 @@
     "finnish": "Haluatko kahvia tai jotain?",
     "english": "Do you want some coffee or something?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "3392137",
     "spanish": "El hambre puede llevar a la gente a hacer estupideces.",
-    "finnish": "Nälkä voi saada ihmiset tekemään typeriä asioita.",
+    "finnish": "Nälkä voi panna ihmiset tekemään typeryyksiä.",
     "english": "Hunger can make people do stupid things.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3871,7 +3999,7 @@
     "finnish": "Söin salaatin päivälliseksi.",
     "english": "I ate a salad for dinner.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3881,7 +4009,7 @@
     "finnish": "Meneekö Tom usein juomaan Maryn kanssa?",
     "english": "Does Tom often go drinking with Mary?",
     "wordCount": 9,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3891,7 +4019,7 @@
     "finnish": "Palauta se kun olet valmis.",
     "english": "Return it when you are done.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3901,7 +4029,7 @@
     "finnish": "Hänellä ei voi olla nälkä, hän söi juuri lounasta.",
     "english": "He cannot be hungry; he has just had lunch.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3911,7 +4039,7 @@
     "finnish": "Kysyin Tomilta minne hän oli mennyt.",
     "english": "I asked Tom where he had gone.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3921,8 +4049,10 @@
     "finnish": "Pöydällä on viuhka.",
     "english": "There's a fan on the table.",
     "wordCount": 7,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -3931,7 +4061,7 @@
     "finnish": "Pidä kädet poissa taskuistasi.",
     "english": "Keep your hands out of your pockets.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3941,7 +4071,7 @@
     "finnish": "Olen iloinen, että nautit siitä.",
     "english": "I'm glad you're enjoying it.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3951,7 +4081,7 @@
     "finnish": "Kaksi ranskalaista puhuu ranskaa, ja syö ranskanleipää.",
     "english": "The two Frenchmen speak French and eat French bread.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3961,7 +4091,7 @@
     "finnish": "Tom ojensi Marylle lasillisen punaviiniä.",
     "english": "Tom handed Mary a glass of red wine.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -3971,8 +4101,10 @@
     "finnish": "Pudotin uuden kännykkäni vessanpönttöön. Nyt harmittaa!",
     "english": "I dropped my new cell phone into the toilet bowl. Damn it!",
     "wordCount": 13,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -3981,8 +4113,9 @@
     "finnish": "Toivon, että Tom on iloinen.",
     "english": "I hope Tom is happy.",
     "wordCount": 5,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "emotions"
     ]
   },
   {
@@ -3991,7 +4124,7 @@
     "finnish": "Juotko teetä?",
     "english": "Do you drink tea?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4001,7 +4134,7 @@
     "finnish": "Juotteko teetä?",
     "english": "Do you drink tea?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -4012,7 +4145,7 @@
     "finnish": "Olkaa rohkeita.",
     "english": "Have courage.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4022,7 +4155,7 @@
     "finnish": "Hevonen on janoinen.",
     "english": "The horse is thirsty.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4032,7 +4165,7 @@
     "finnish": "Isäni lopetti juomisen.",
     "english": "My father stopped drinking.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -4043,7 +4176,7 @@
     "finnish": "Hyvää keittoa ei voi saa halvalla lihalla.",
     "english": "You can't make good soup with cheap meat.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4053,9 +4186,11 @@
     "finnish": "Vaarini juo kahvia vanhusjoukon kanssa joka aamu.",
     "english": "My grandpa drinks coffee with a group of old guys every morning.",
     "wordCount": 11,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4064,8 +4199,9 @@
     "finnish": "Tom laittaa meille ruokaa.",
     "english": "Tom cooks for us.",
     "wordCount": 3,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -4074,7 +4210,7 @@
     "finnish": "Olen kasvissyöjä, joka syö läjäpäin lihaa.",
     "english": "I'm a vegetarian who eats a ton of meat.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4084,7 +4220,7 @@
     "finnish": "Meillä on runsaasti ruokaa.",
     "english": "We have plenty of food.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4094,7 +4230,7 @@
     "finnish": "Tee on suosittu juoma ympäri maailman.",
     "english": "Tea is a popular beverage throughout the world.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4104,8 +4240,9 @@
     "finnish": "Italialainen keittiö on suosittua ympäri maailman.",
     "english": "Italian cuisine is popular around the world.",
     "wordCount": 9,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -4114,7 +4251,7 @@
     "finnish": "Tom luulee, että hän voi pelastaa maailman.",
     "english": "Tom thinks he can save the world.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4124,7 +4261,7 @@
     "finnish": "Tomilla on jano.",
     "english": "Tom is thirsty.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4134,17 +4271,17 @@
     "finnish": "Se on kala.",
     "english": "It's a fish.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "4250681",
     "spanish": "¿Qué puede salir mal?",
-    "finnish": "Mikä voi mennä vikaan?",
+    "finnish": "Mikä voi mennä pieleen?",
     "english": "What can go wrong?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4154,7 +4291,7 @@
     "finnish": "Suunnitelmamme meni vikaan alusta lähtien.",
     "english": "Our plan went wrong from the beginning.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4164,8 +4301,9 @@
     "finnish": "Monelta lounas on?",
     "english": "What time is lunch?",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -4174,7 +4312,7 @@
     "finnish": "Tomi saattaa olla siellä.",
     "english": "Tom might be there.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4184,7 +4322,7 @@
     "finnish": "Haluan yhden veitsen.",
     "english": "I want a knife.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4194,8 +4332,9 @@
     "finnish": "Eilen lopetimme rakentamisen uuden näyttämön.",
     "english": "Yesterday, we finished constructing the new stage.",
     "wordCount": 7,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -4204,9 +4343,11 @@
     "finnish": "Äitini kattoi pöydän illallista varten.",
     "english": "My mother set the table for dinner.",
     "wordCount": 8,
-    "themes": [
+    "categories": [
       "food",
-      "family"
+      "family",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4215,7 +4356,7 @@
     "finnish": "Pidätkö intiaisesta ruoasta?",
     "english": "Do you like Indian food?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4225,7 +4366,7 @@
     "finnish": "Mistä vihanneksista sinä pidät?",
     "english": "What vegetables do you like?",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -4236,7 +4377,7 @@
     "finnish": "Mä en laulanu.",
     "english": "I didn't sing.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4246,7 +4387,7 @@
     "finnish": "Tomi ojensi menun Marille.",
     "english": "Tom handed Mary the menu.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4256,7 +4397,7 @@
     "finnish": "Veitsi on tylsä.",
     "english": "The knife is dull.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4266,7 +4407,7 @@
     "finnish": "Tule pois vedestä.",
     "english": "Get out of the water.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4276,7 +4417,7 @@
     "finnish": "Kun heräsin, niin minulla oli jäykkä niska.",
     "english": "I woke up with a stiff neck.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4286,27 +4427,27 @@
     "finnish": "Veitsi on tylsä.",
     "english": "The knife is dull.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "5005985",
     "spanish": "No maté a nadie.",
-    "finnish": "En surmannut ketään.",
+    "finnish": "En tappanut ketään.",
     "english": "I didn't kill anyone.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "5019049",
     "spanish": "Maté a los ratones.",
-    "finnish": "Tapoin hiiret.",
+    "finnish": "Minä tapoin hiiret.",
     "english": "I killed the mice.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4316,7 +4457,7 @@
     "finnish": "Miks sä juot vettä?",
     "english": "Why are you drinking water?",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4326,7 +4467,7 @@
     "finnish": "Yritetään.",
     "english": "Let's try that.",
     "wordCount": 1,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4336,7 +4477,7 @@
     "finnish": "Minä haluan syödä jäätelöä.",
     "english": "I want to eat ice cream.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4346,17 +4487,17 @@
     "finnish": "Suojaudu!",
     "english": "Take cover!",
     "wordCount": 1,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "5749745",
     "spanish": "Pásala bien.",
-    "finnish": "Pidähän kivaa!",
-    "english": "Have a nice time.",
+    "finnish": "Pidä kivaa!",
+    "english": "Have fun.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4366,7 +4507,7 @@
     "finnish": "Kävin Bostonissa.",
     "english": "I visited Boston.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4376,7 +4517,7 @@
     "finnish": "Tomi syyttää Maria.",
     "english": "Tom is blaming Mary.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4386,7 +4527,7 @@
     "finnish": "Pidä Tomia silmällä. Pidä huoli, ettei Tomi tee mitään muita ihmisiä häiritsevää.",
     "english": "Keep your eyes on Tom. Make sure he doesn't do anything to bother other people.",
     "wordCount": 15,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4396,7 +4537,7 @@
     "finnish": "Lisää teetä?",
     "english": "More tea?",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4406,7 +4547,7 @@
     "finnish": "Saavuin juhliin, mutta heti kun olin lopettanut syömisen, lähdin.",
     "english": "I came to the party, but as soon as I finished the meal, I left.",
     "wordCount": 12,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -4417,7 +4558,7 @@
     "finnish": "Kissa on ruskea.",
     "english": "The cat is brown.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4427,7 +4568,7 @@
     "finnish": "Ostin kupillisen kahvia.",
     "english": "I've bought a cup of coffee.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4437,18 +4578,20 @@
     "finnish": "Meidän kodissamme on sallittua kaikki se, mikä ei ole erikseen kiellettyä.",
     "english": "In our house, anything that isn't prohibited is fair game.",
     "wordCount": 12,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
     "id": "6612109",
     "spanish": "Ayer me acosté muy temprano.",
-    "finnish": "Eilen menin nukkumaan hyvin aikaisin.",
+    "finnish": "Eilen mä menin nukkumaan tosi aikaisin.",
     "english": "I went to bed very early yesterday.",
     "wordCount": 5,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -4457,8 +4600,10 @@
     "finnish": "Pöytä ei ole likainen.",
     "english": "The table isn't dirty.",
     "wordCount": 5,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4467,8 +4612,10 @@
     "finnish": "Onko pöytä likainen?",
     "english": "Is that table dirty?",
     "wordCount": 4,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4477,7 +4624,7 @@
     "finnish": "Aurinkokenno ottaa vastaan aurinkoenergiaa.",
     "english": "The solar panel captures solar energy.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4487,8 +4634,9 @@
     "finnish": "Keitä riisi.",
     "english": "Cook the rice.",
     "wordCount": 3,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "daily_life"
     ]
   },
   {
@@ -4497,9 +4645,10 @@
     "finnish": "Käytin todella paljon rahaa eilen.",
     "english": "I spent a lot of money yesterday.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food",
-      "work"
+      "work",
+      "time"
     ]
   },
   {
@@ -4508,7 +4657,7 @@
     "finnish": "Nauti elämästäsi.",
     "english": "Enjoy your life.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4518,7 +4667,7 @@
     "finnish": "Tässä ravintolassa ei saa tupakoida.",
     "english": "Smoking isn't allowed in this restaurant.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4528,7 +4677,7 @@
     "finnish": "Tässä ravintolassa ei saa tupakoida.",
     "english": "Smoking isn't allowed in this restaurant.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4538,7 +4687,7 @@
     "finnish": "Meillä on jano.",
     "english": "We're thirsty.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4548,7 +4697,7 @@
     "finnish": "Tomi teroitti veitset.",
     "english": "Tom sharpened the knives.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4558,8 +4707,9 @@
     "finnish": "Aurinko on ollut piilossa koko päivän.",
     "english": "The sun hasn't come out today.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time"
     ]
   },
   {
@@ -4568,17 +4718,17 @@
     "finnish": "Pidän tomaattikeitosta.",
     "english": "I like tomato soup.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "7946581",
     "spanish": "Como un montón de arroz.",
-    "finnish": "Syön paljon riisiä.",
+    "finnish": "Minä syön paljon riisiä.",
     "english": "I eat a lot of rice.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4588,7 +4738,7 @@
     "finnish": "Toivottavasti en tylsistytä sinua.",
     "english": "I hope I'm not boring you.",
     "wordCount": 6,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4598,7 +4748,7 @@
     "finnish": "Vähennä rasvaisten ruokien syömistä.",
     "english": "Cut down on fatty foods.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4608,8 +4758,10 @@
     "finnish": "Hän kattoi pöydän illallista varten.",
     "english": "She set the table for supper.",
     "wordCount": 6,
-    "themes": [
-      "food"
+    "categories": [
+      "food",
+      "time",
+      "daily_life"
     ]
   },
   {
@@ -4618,17 +4770,17 @@
     "finnish": "Tämä maistuisi paremmalta, jos lisäisit hieman suolaa.",
     "english": "This would taste better if you added a little more salt.",
     "wordCount": 10,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "8006265",
     "spanish": "Este cuchillo me lo dio mi abuelo.",
-    "finnish": "Minun isoisäni antoi minulle tämän puukon.",
+    "finnish": "Minun isoisäni antoi minulle tämän veitsen.",
     "english": "This knife was given to me by my grandfather.",
     "wordCount": 7,
-    "themes": [
+    "categories": [
       "food",
       "family"
     ]
@@ -4639,7 +4791,7 @@
     "finnish": "Mennään pienelle kävelylle.",
     "english": "Let's go out for a short walk.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4649,7 +4801,7 @@
     "finnish": "Mennään pienelle kävelylle.",
     "english": "Let's go out for a short walk.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food",
       "leisure"
     ]
@@ -4658,19 +4810,19 @@
     "id": "8833877",
     "spanish": "Tom está a salvo.",
     "finnish": "Tomi on turvassa.",
-    "english": "Tom is safe.",
+    "english": "Tom's safe.",
     "wordCount": 4,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "9452763",
     "spanish": "Me desperté.",
-    "finnish": "Heräsin.",
+    "finnish": "Minä heräsin.",
     "english": "I woke up.",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4680,7 +4832,7 @@
     "finnish": "Älkää hypätkö!",
     "english": "Don't jump!",
     "wordCount": 2,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
@@ -4688,29 +4840,29 @@
     "id": "9885924",
     "spanish": "Vendemos carne fresca.",
     "finnish": "Myymme tuoretta lihaa.",
-    "english": "We sell fresh beef.",
+    "english": "We sell fresh meat.",
     "wordCount": 3,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "9972203",
     "spanish": "Bajé mis porciones de carne.",
-    "finnish": "Vähensin lihankulutustani.",
+    "finnish": "Minä vähensin lihankulutustani.",
     "english": "I lowered my meat consumption.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   },
   {
     "id": "12026767",
     "spanish": "Los elefantes beben mucha agua.",
-    "finnish": "Elefantit juovat paljon vettä.",
+    "finnish": "Norsut juovat paljon vettä.",
     "english": "Elephants drink a lot of water.",
     "wordCount": 5,
-    "themes": [
+    "categories": [
       "food"
     ]
   }

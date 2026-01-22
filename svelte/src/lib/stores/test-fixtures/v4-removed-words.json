@@ -1,0 +1,136 @@
+{
+  "version": 4,
+  "words": {
+    "palabraremovida": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 60.0,
+          "practiceCount": 3,
+          "firstTryCount": 2,
+          "secondTryCount": 1,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-10T10:00:00.000Z",
+          "firstPracticed": "2024-01-05T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "antiguapalabra": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 55.0,
+          "practiceCount": 4,
+          "firstTryCount": 2,
+          "secondTryCount": 1,
+          "thirdTryCount": 1,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-12T10:00:00.000Z",
+          "firstPracticed": "2024-01-06T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 50.0,
+          "practiceCount": 3,
+          "firstTryCount": 1,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-11T10:00:00.000Z",
+          "firstPracticed": "2024-01-07T10:00:00.000Z"
+        }
+      }
+    },
+    "hola": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 85.0,
+          "practiceCount": 5,
+          "firstTryCount": 5,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-16T10:00:00.000Z",
+          "firstPracticed": "2024-01-03T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 80.0,
+          "practiceCount": 4,
+          "firstTryCount": 4,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-15T10:00:00.000Z",
+          "firstPracticed": "2024-01-04T10:00:00.000Z"
+        }
+      }
+    },
+    "adios": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 90.0,
+          "practiceCount": 6,
+          "firstTryCount": 6,
+          "secondTryCount": 0,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-17T10:00:00.000Z",
+          "firstPracticed": "2024-01-08T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "vocabularioviejo": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 45.0,
+          "practiceCount": 2,
+          "firstTryCount": 1,
+          "secondTryCount": 0,
+          "thirdTryCount": 1,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-09T10:00:00.000Z",
+          "firstPracticed": "2024-01-08T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {}
+    },
+    "casa": {
+      "spanish_to_finnish": {
+        "basic": {
+          "score": 78.0,
+          "practiceCount": 7,
+          "firstTryCount": 5,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-18T10:00:00.000Z",
+          "firstPracticed": "2024-01-09T10:00:00.000Z"
+        }
+      },
+      "finnish_to_spanish": {
+        "basic": {
+          "score": 72.0,
+          "practiceCount": 6,
+          "firstTryCount": 4,
+          "secondTryCount": 2,
+          "thirdTryCount": 0,
+          "failedCount": 0,
+          "lastPracticed": "2024-01-17T10:00:00.000Z",
+          "firstPracticed": "2024-01-10T10:00:00.000Z"
+        }
+      }
+    }
+  },
+  "gameHistory": [],
+  "meta": {
+    "createdAt": "2024-01-01T10:00:00.000Z",
+    "updatedAt": "2024-01-18T10:00:00.000Z",
+    "totalGamesPlayed": 35,
+    "basicGamesPlayed": 32,
+    "kidsGamesPlayed": 3
+  }
+}
