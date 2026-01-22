@@ -22,6 +22,7 @@
 	import { wordKnowledge } from '$lib/stores/wordKnowledge';
 	import { sentenceKnowledge } from '$lib/stores/sentenceKnowledge';
 	import { get } from 'svelte/store';
+	import { getWordId } from '$lib/utils/wordId';
 
 	let stats = $state<VocabularyStatistics | null>(null);
 	let nextMilestone = $state<{
@@ -68,9 +69,9 @@
 	function showPracticedWords() {
 		const knowledgeData = get(wordKnowledge);
 		const allWords = getAllWords();
-		const practicedSpanish = new Set(Object.keys(knowledgeData.words));
+		const practicedWordIds = new Set(Object.keys(knowledgeData.words));
 		
-		const words = allWords.filter(word => practicedSpanish.has(word.spanish));
+		const words = allWords.filter(word => practicedWordIds.has(getWordId(word)));
 		
 		dialogTitle = 'Harjoitellut sanat';
 		dialogWords = words;
@@ -84,7 +85,7 @@
 		const KNOWN_THRESHOLD = 60;
 		
 		const words = allWords.filter(word => {
-			const wordData = knowledgeData.words[word.spanish];
+			const wordData = knowledgeData.words[getWordId(word)];
 			if (!wordData) return false;
 			
 			// Check basic mode scores (sanasto page shows basic game progress)
@@ -107,7 +108,7 @@
 		const MASTERED_THRESHOLD = 80;
 		
 		const words = allWords.filter(word => {
-			const wordData = knowledgeData.words[word.spanish];
+			const wordData = knowledgeData.words[getWordId(word)];
 			if (!wordData) return false;
 			
 			// Check basic mode scores (sanasto page shows basic game progress)
