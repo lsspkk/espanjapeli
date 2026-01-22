@@ -163,7 +163,8 @@
           "description": "Add 'quiz' to game states. Generate questions from lesson words. Randomize order. Use both directions (Spanish→Finnish, Finnish→Spanish).",
           "files": [
             "svelte/src/routes/valitut-sanat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "21.2",
@@ -171,7 +172,8 @@
           "description": "Use StepwiseReveal component. Show prompt word with TTS. Reveal 4 answer options after delay. Score based on tries (same as other games).",
           "files": [
             "svelte/src/routes/valitut-sanat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "21.3",
@@ -179,7 +181,8 @@
           "description": "Show score summary. Display words that need more practice. Calculate next review date based on performance. Buttons: \"Takaisin oppitunteihin\", \"Pelaa uudelleen\".",
           "files": [
             "svelte/src/routes/valitut-sanat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "21.4",
@@ -187,7 +190,8 @@
           "description": "Record word scores to wordKnowledge store. Update lessonProgress with completion data. Calculate nextReviewAt based on performance. If all words scored >80%, extend review interval.",
           "files": [
             "svelte/src/routes/valitut-sanat/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         },
         {
           "id": "21.5",
@@ -195,7 +199,8 @@
           "description": "Add game link to main page. Add to navbar if applicable.",
           "files": [
             "svelte/src/routes/+page.svelte"
-          ]
+          ],
+          "status": "completed"
         }
       ],
       "testing": [
