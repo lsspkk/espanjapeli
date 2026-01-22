@@ -14,6 +14,8 @@
 	import StepwiseReveal from '$lib/components/shared/StepwiseReveal.svelte';
 	import { timedAnswerSettings } from '$lib/stores/timedAnswerSettings';
 	import LessonCard from '$lib/components/basic/LessonCard.svelte';
+	import WordList from '$lib/components/basic/WordList.svelte';
+	import { getAllWords, type Word } from '$lib/data/words';
 
 	// Game states
 	type GameState = 'home' | 'loading' | 'teaching-words' | 'teaching-phrases' | 'quiz' | 'report';
@@ -22,6 +24,7 @@
 	// Lesson data
 	let availableLessons = $state<LessonMetadata[]>([]);
 	let selectedLesson = $state<Lesson | null>(null);
+	let lessonWords = $state<Word[]>([]);
 
 	// Game variables
 	let score = $state(0);
@@ -109,11 +112,42 @@
 		}
 	});
 
+	// Get Word objects from word IDs
+	function getWordsFromIds(wordIds: string[]): Word[] {
+		const allWords = getAllWords();
+		const wordMap = new Map<string, Word>();
+		
+		// Create a map for quick lookup by word ID or spanish
+		for (const word of allWords) {
+			const wordId = word.id ?? word.spanish;
+			wordMap.set(wordId, word);
+			// Also map by spanish for backwards compatibility
+			wordMap.set(word.spanish, word);
+		}
+		
+		// Get words in the order they appear in the lesson
+		const words: Word[] = [];
+		for (const wordId of wordIds) {
+			const word = wordMap.get(wordId);
+			if (word) {
+				words.push(word);
+			}
+		}
+		
+		return words;
+	}
+
 	// Start lesson
 	async function startLesson(lessonId: string) {
 		gameState = 'loading';
 		try {
 			selectedLesson = await loadLesson(lessonId);
+			
+			// Load word objects from word IDs
+			if (selectedLesson) {
+				lessonWords = getWordsFromIds(selectedLesson.words);
+			}
+			
 			gameState = 'teaching-words';
 		} catch (error) {
 			console.error('Failed to load lesson:', error);
@@ -125,6 +159,7 @@
 	function returnToHome() {
 		gameState = 'home';
 		selectedLesson = null;
+		lessonWords = [];
 		score = 0;
 		questionIndex = 0;
 	}
@@ -200,8 +235,18 @@
 			<h2 class="text-2xl font-bold mb-4">Sanat</h2>
 			<p class="text-base-content/70 mb-4">Vaihe 1/3</p>
 			{#if selectedLesson}
-				<p>Oppitunti: {selectedLesson.categoryName}</p>
-				<p>{selectedLesson.words.length} sanaa</p>
+				<div class="mb-6">
+					<h3 class="text-xl font-semibold mb-2">{selectedLesson.categoryName}</h3>
+					<p class="text-base-content/70">{lessonWords.length} sanaa</p>
+				</div>
+				
+				<WordList words={lessonWords} />
+				
+				<div class="mt-6 flex justify-end">
+					<button class="btn btn-primary" onclick={() => gameState = 'teaching-phrases'}>
+						Jatka →
+					</button>
+				</div>
 			{/if}
 		</div>
 
