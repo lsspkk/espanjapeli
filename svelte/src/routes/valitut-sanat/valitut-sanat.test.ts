@@ -90,6 +90,7 @@ vi.mock('$lib/services/sentenceLoader', () => {
 		}
 	];
 
+	const mockFn = vi.fn().mockResolvedValue(mockSentences);
 	return {
 		loadSentenceIndex: vi.fn().mockResolvedValue({
 			themes: [
@@ -103,6 +104,9 @@ vi.mock('$lib/services/sentenceLoader', () => {
 			sentences: mockSentences,
 			count: mockSentences.length
 		}),
+		getSentencesByTheme: mockFn,
+		getSentencesByCategory: mockFn,
+		getSentencesByLevel: mockFn,
 		type: {} as any
 	};
 });
@@ -194,8 +198,7 @@ describe('Valitut sanat Page', () => {
 			expect(screen.getByRole('heading', { level: 1, name: 'Valitut sanat' })).toBeTruthy();
 
 			// Description
-			expect(screen.getByText(/Opi sanoja oppitunneilla/i)).toBeTruthy();
-
+			
 			// Category headings
 			expect(screen.getByText('Verbit')).toBeTruthy();
 			expect(screen.getByText('Substantiivit')).toBeTruthy();

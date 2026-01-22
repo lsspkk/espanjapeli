@@ -1,0 +1,22 @@
+# Game Modes Navigation
+
+## Navbar Behavior
+Navbar automatically hides on mobile in game modes, shows on desktop always.
+Game mode paths in Navbar.svelte control this: /sanapeli, /yhdistasanat, /tarinat, /muisti, /kuuntelu, /lukeminen, /puhuminen, /pipsan-ystavat, /pipsan-maailma, /valitut-sanat
+
+## Components
+
+Home & Report states: Use GameContainer with buttonMode="basic" and back button
+Playing/Question states: Use GameContainer + GameHeader (shows score, counter, quit button ✕)
+Teaching states: Use BackButton between phases
+
+GameContainer: wraps entire game mode layout
+GameHeader: compact header with counter | score | tries | quit button
+BackButton: navigation between teaching phases (arrow + text)
+
+## Game State: Playing/Question Phase
+During active quiz/matching (yhdistasanat example):
+- GameContainer with showBackButton={false} (hides standard back button)
+- GameHeader appears instead: shows counter | score | tries | X close button (top right)
+- No phase indicators needed - user sees one question at a time
+See: svelte/src/routes/yhdistasanat/+page.svelte:979-987

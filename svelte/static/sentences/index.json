@@ -55,26 +55,73 @@
       "filename": "daily_life.json"
     },
     {
-      "id": "general-1",
-      "name": "general",
+      "id": "opinions_and_beliefs",
+      "name": "opinions_and_beliefs",
+      "count": 171,
+      "filename": "opinions_and_beliefs.json"
+    },
+    {
+      "id": "comparison_and_contrast",
+      "name": "comparison_and_contrast",
+      "count": 422,
+      "filename": "comparison_and_contrast.json"
+    },
+    {
+      "id": "reasoning_assessment",
+      "name": "reasoning_assessment",
+      "count": 868,
+      "filename": "reasoning_assessment.json"
+    },
+    {
+      "id": "conditional_statements",
+      "name": "conditional_statements",
+      "count": 785,
+      "filename": "conditional_statements.json"
+    },
+    {
+      "id": "questions_inquiries",
+      "name": "questions_inquiries",
+      "count": 1245,
+      "filename": "questions_inquiries.json"
+    },
+    {
+      "id": "negation_and_denial-1",
+      "name": "negation_and_denial",
       "part": 1,
-      "count": 1663,
-      "filename": "general-1.json"
+      "count": 1228,
+      "filename": "negation_and_denial-1.json"
     },
     {
-      "id": "general-2",
-      "name": "general",
+      "id": "negation_and_denial-2",
+      "name": "negation_and_denial",
       "part": 2,
-      "count": 1663,
-      "filename": "general-2.json"
+      "count": 1226,
+      "filename": "negation_and_denial-2.json"
     },
     {
-      "id": "general-3",
+      "id": "statements_of_fact",
+      "name": "statements_of_fact",
+      "count": 1737,
+      "filename": "statements_of_fact.json"
+    },
+    {
+      "id": "requests_and_imperatives",
+      "name": "requests_and_imperatives",
+      "count": 439,
+      "filename": "requests_and_imperatives.json"
+    },
+    {
+      "id": "interpersonal_dynamics",
+      "name": "interpersonal_dynamics",
+      "count": 1328,
+      "filename": "interpersonal_dynamics.json"
+    },
+    {
+      "id": "general",
       "name": "general",
-      "part": 3,
-      "count": 1661,
-      "filename": "general-3.json"
+      "count": 1378,
+      "filename": "general.json"
     }
   ],
-  "generatedAt": "2026-01-22T09:25:30.631975"
+  "generatedAt": "2026-01-22T10:10:43.695846"
 }

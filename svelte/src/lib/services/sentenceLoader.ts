@@ -19,9 +19,9 @@ export interface Sentence {
 }
 
 /**
- * Theme group metadata from manifest
+ * Category group metadata from manifest
  */
-export interface ThemeGroupInfo {
+export interface CategoryGroupInfo {
 	id: string;
 	name: string;
 	part?: number;
@@ -33,7 +33,7 @@ export interface ThemeGroupInfo {
  * Sentence index manifest
  */
 export interface SentenceGroupManifest {
-	themes: ThemeGroupInfo[];
+	categories: CategoryGroupInfo[];
 }
 
 /**
@@ -88,7 +88,7 @@ export async function loadSentenceGroup(groupId: string): Promise<SentenceGroup>
 
 	// Get group metadata from manifest
 	const manifest = await loadSentenceIndex();
-	const groupInfo = manifest.themes.find((t) => t.id === groupId);
+	const groupInfo = manifest.categories.find((t) => t.id === groupId);
 
 	if (!groupInfo) {
 		throw new Error(`Sentence group not found in manifest: ${groupId}`);
@@ -118,28 +118,33 @@ export async function loadSentenceGroup(groupId: string): Promise<SentenceGroup>
 }
 
 /**
- * Get sentences by theme name (loads all parts if theme is split)
+ * Get sentences by category name (loads all parts if category is split)
  */
-export async function getSentencesByTheme(theme: string): Promise<Sentence[]> {
+export async function getSentencesByCategory(category: string): Promise<Sentence[]> {
 	const manifest = await loadSentenceIndex();
-	
-	// Find all groups for this theme
-	const themeGroups = manifest.themes.filter((t) => t.name === theme);
-	
-	if (themeGroups.length === 0) {
-		console.warn(`No sentence groups found for theme: ${theme}`);
+
+	// Find all groups for this category
+	const categoryGroups = manifest.categories.filter((c) => c.name === category);
+
+	if (categoryGroups.length === 0) {
+		console.warn(`No sentence groups found for category: ${category}`);
 		return [];
 	}
 
-	// Load all groups for this theme
+	// Load all groups for this category
 	const allSentences: Sentence[] = [];
-	for (const groupInfo of themeGroups) {
+	for (const groupInfo of categoryGroups) {
 		const group = await loadSentenceGroup(groupInfo.id);
 		allSentences.push(...group.sentences);
 	}
 
 	return allSentences;
 }
+
+/**
+ * Alias for getSentencesByCategory for backward compatibility
+ */
+export const getSentencesByTheme = getSentencesByCategory;
 
 /**
  * Get sentences filtered by CEFR level (based on word count)
@@ -161,7 +166,7 @@ export async function getSentencesByLevel(level: CEFRLevel): Promise<Sentence[]>
 
 	// Load all sentences and filter by word count
 	const allSentences: Sentence[] = [];
-	for (const groupInfo of manifest.themes) {
+	for (const groupInfo of manifest.categories) {
 		const group = await loadSentenceGroup(groupInfo.id);
 		const filtered = group.sentences.filter(
 			(s) => s.wordCount >= range.min && s.wordCount <= range.max

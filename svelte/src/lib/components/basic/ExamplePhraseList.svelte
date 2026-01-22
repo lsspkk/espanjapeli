@@ -38,7 +38,7 @@
 				{:else}
 					<div class="space-y-3 mt-2">
 						{#each phrases as phrase}
-							<div class="border-l-4 border-primary pl-4">
+							<div class="border-l-4 border-primary pl-2">
 								<div class="flex items-start gap-2">
 									<div class="flex-1">
 										<p class="font-medium">

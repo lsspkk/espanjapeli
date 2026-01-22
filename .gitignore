@@ -39,6 +39,9 @@ svg_preview.html
 # Reports folder (generated or temporary reports)
 reports/
 
+# Generated analysis data
+data/analysis/
+
 # Ralph loop logs
 .log/
 

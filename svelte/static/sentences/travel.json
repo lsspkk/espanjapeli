@@ -6,7 +6,8 @@
     "english": "Is it a recent picture?",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -16,7 +17,8 @@
     "english": "I don't have anyone who'd travel with me.",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -26,7 +28,11 @@
     "english": "Paris is the most beautiful city in the world.",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -36,7 +42,9 @@
     "english": "Italy is a very beautiful country.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -46,7 +54,10 @@
     "english": "Florence is the most beautiful city in Italy.",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -66,7 +77,10 @@
     "english": "In such countries as Norway and Finland, they have lots of snow in winter.",
     "wordCount": 12,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -76,7 +90,8 @@
     "english": "The library is in the middle of the city.",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -87,7 +102,9 @@
     "wordCount": 10,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -107,7 +124,10 @@
     "english": "Paris is one of the largest cities in the world.",
     "wordCount": 10,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -117,7 +137,8 @@
     "english": "Japan is a beautiful country.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -127,7 +148,8 @@
     "english": "He washes the car.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -137,7 +159,8 @@
     "english": "How much is the ticket?",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -147,7 +170,10 @@
     "english": "A piano is expensive, but a car is more expensive.",
     "wordCount": 11,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -157,7 +183,9 @@
     "english": "I'd like to buy a map.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -177,7 +205,8 @@
     "english": "The students are on holiday.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -187,7 +216,8 @@
     "english": "Where is this train bound?",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -198,7 +228,8 @@
     "wordCount": 9,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -218,7 +249,9 @@
     "english": "Japan is a beautiful country.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -231,7 +264,8 @@
       "food",
       "travel",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -241,7 +275,9 @@
     "english": "Rome is a city worth visiting.",
     "wordCount": 9,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -251,7 +287,8 @@
     "english": "What language do they speak in your country?",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -261,7 +298,9 @@
     "english": "Who does this suitcase belong to?",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -271,7 +310,8 @@
     "english": "I am a Roman citizen.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -281,7 +321,8 @@
     "english": "May I take a photo?",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -291,7 +332,8 @@
     "english": "They live in this town.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -303,7 +345,8 @@
     "categories": [
       "travel",
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -325,7 +368,8 @@
     "categories": [
       "food",
       "travel",
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -335,7 +379,8 @@
     "english": "In its home country, France, Tatoeba became a social and cultural phenomenon.",
     "wordCount": 14,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -355,7 +400,8 @@
     "english": "I took a taxi because it was raining.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "reasoning_assessment"
     ]
   },
   {
@@ -365,7 +411,8 @@
     "english": "I took a taxi because it was raining.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "reasoning_assessment"
     ]
   },
   {
@@ -385,7 +432,9 @@
     "english": "He is old enough to travel alone.",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -409,7 +458,9 @@
       "travel",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -419,7 +470,10 @@
     "english": "London is among the world's largest cities.",
     "wordCount": 9,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -439,7 +493,8 @@
     "english": "This is my car.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -449,7 +504,8 @@
     "english": "His car is really cool.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -459,7 +515,8 @@
     "english": "He is washing the car.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -469,7 +526,9 @@
     "english": "He is washing the car.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -480,7 +539,8 @@
     "wordCount": 8,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -491,7 +551,8 @@
     "wordCount": 10,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -512,7 +573,8 @@
     "english": "You're right. I'll go by taxi.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "reasoning_assessment"
     ]
   },
   {
@@ -522,7 +584,8 @@
     "english": "He was almost hit by a car.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements"
     ]
   },
   {
@@ -544,7 +607,9 @@
     "english": "Do you know the way?",
     "wordCount": 3,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -554,7 +619,8 @@
     "english": "I dislike big cities.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -594,7 +660,10 @@
     "english": "Could you give me a lift in your car?",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -604,7 +673,9 @@
     "english": "How much is the most expensive car?",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "questions_inquiries"
     ]
   },
   {
@@ -615,7 +686,8 @@
     "wordCount": 8,
     "categories": [
       "travel",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -625,7 +697,8 @@
     "english": "I don't have a ticket.",
     "wordCount": 3,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -636,7 +709,8 @@
     "wordCount": 9,
     "categories": [
       "travel",
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -657,7 +731,8 @@
     "english": "Japan is a country that is surrounded on all sides by the ocean.",
     "wordCount": 10,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -667,7 +742,8 @@
     "english": "A plane is flying above the city.",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -677,7 +753,8 @@
     "english": "A plane is flying above the city.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -698,7 +775,9 @@
     "english": "I was nearly run over by a car.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -719,7 +798,8 @@
     "english": "Japan is a beautiful country.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -729,7 +809,8 @@
     "english": "Does this bus go to the beach?",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -739,7 +820,9 @@
     "english": "We showed him some pictures of the Alps.",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -752,7 +835,8 @@
       "travel",
       "family",
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -762,7 +846,8 @@
     "english": "I haven't got a car.",
     "wordCount": 3,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -773,7 +858,10 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "travel"
+      "travel",
+      "reasoning_assessment",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -783,7 +871,8 @@
     "english": "Trains come more often than buses.",
     "wordCount": 9,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -803,7 +892,9 @@
     "english": "I think that Japan is a very safe country.",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "opinions_and_beliefs",
+      "statements_of_fact"
     ]
   },
   {
@@ -813,7 +904,9 @@
     "english": "I want to visit the ruins of Machu Picchu.",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -823,7 +916,9 @@
     "english": "Mario is an Italian citizen.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -844,7 +939,8 @@
     "wordCount": 4,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -904,7 +1000,8 @@
     "english": "Where did you spend your holidays?",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -925,7 +1022,8 @@
     "english": "I dislike big cities.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -935,7 +1033,9 @@
     "english": "Where's the airport?",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -945,7 +1045,8 @@
     "english": "The airport is close by.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -965,7 +1066,8 @@
     "english": "Did you buy a round-trip ticket?",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -986,7 +1088,8 @@
     "wordCount": 5,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -996,7 +1099,8 @@
     "english": "Japan is a rich country.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -1006,7 +1110,8 @@
     "english": "May I take pictures here?",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -1016,7 +1121,8 @@
     "english": "The town was deserted.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements"
     ]
   },
   {
@@ -1036,7 +1142,9 @@
     "english": "Where is the bus?",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1047,7 +1155,9 @@
     "wordCount": 12,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1057,7 +1167,9 @@
     "english": "I'm sure you'll be sorry if you give it up halfway through.",
     "wordCount": 10,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1069,7 +1181,9 @@
     "categories": [
       "travel",
       "leisure",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1079,7 +1193,9 @@
     "english": "What's the next station?",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1089,7 +1205,8 @@
     "english": "The map is on the wall.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -1101,7 +1218,9 @@
     "categories": [
       "travel",
       "family",
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -1111,7 +1230,11 @@
     "english": "I don't use taxis unless it's absolutely necessary.",
     "wordCount": 10,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1121,7 +1244,8 @@
     "english": "Moscow is a Russian town.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -1153,7 +1277,8 @@
     "english": "Did you buy a round-trip ticket?",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -1163,7 +1288,8 @@
     "english": "The museum isn't open on Sundays.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -1183,7 +1309,8 @@
     "english": "The station's near the hotel.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -1203,7 +1330,9 @@
     "english": "That car is mine.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1223,7 +1352,10 @@
     "english": "She had no choice but to accept her fate.",
     "wordCount": 9,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1233,7 +1365,11 @@
     "english": "It would have been better, if you had asked him which way to go.",
     "wordCount": 9,
     "categories": [
-      "travel"
+      "travel",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -1244,7 +1380,8 @@
     "wordCount": 10,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -1254,7 +1391,8 @@
     "english": "Follow that car.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements"
     ]
   },
   {
@@ -1264,7 +1402,8 @@
     "english": "He makes a mountain out of a molehill.",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -1274,7 +1413,10 @@
     "english": "He isn't able to buy a car.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1294,7 +1436,10 @@
     "english": "Where's the closest bus stop?",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1315,7 +1460,9 @@
     "english": "New York is worth visiting.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1327,7 +1474,8 @@
     "categories": [
       "travel",
       "work",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -1337,7 +1485,8 @@
     "english": "He bought a car.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1357,7 +1506,9 @@
     "english": "Mexico is a nation that borders the United States.",
     "wordCount": 10,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1367,7 +1518,8 @@
     "english": "He has a car.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1377,7 +1529,8 @@
     "english": "This is a hotel.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -1387,7 +1540,9 @@
     "english": "If you want to study in the United States, you need to get a student visa.",
     "wordCount": 12,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1398,7 +1553,8 @@
     "wordCount": 14,
     "categories": [
       "travel",
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1419,7 +1575,8 @@
     "wordCount": 9,
     "categories": [
       "travel",
-      "family"
+      "family",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1429,7 +1586,8 @@
     "english": "I think I'll buy a new car.",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -1439,7 +1597,9 @@
     "english": "This photo isn't hers. It's ours.",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1449,7 +1609,8 @@
     "english": "I cannot drive a bus.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -1470,7 +1631,8 @@
     "english": "They seem to be photographs.",
     "wordCount": 2,
     "categories": [
-      "travel"
+      "travel",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -1490,7 +1652,9 @@
     "english": "He came from another country.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1500,7 +1664,8 @@
     "english": "Our plane was flying above the clouds.",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1510,7 +1675,8 @@
     "english": "The train was crowded.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -1520,7 +1686,10 @@
     "english": "He may be on the next train.",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "reasoning_assessment",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1530,7 +1699,8 @@
     "english": "He's on the train.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -1560,7 +1730,8 @@
     "english": "My town is surrounded by tall mountains.",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -1570,7 +1741,8 @@
     "english": "How far is it from the airport to the hotel?",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -1580,7 +1752,8 @@
     "english": "Tom came across Mary on his way to school.",
     "wordCount": 10,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -1600,7 +1773,8 @@
     "english": "He has two cars.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1611,7 +1785,8 @@
     "wordCount": 6,
     "categories": [
       "travel",
-      "emotions"
+      "emotions",
+      "statements_of_fact"
     ]
   },
   {
@@ -1621,7 +1796,8 @@
     "english": "How much is the ticket?",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -1631,7 +1807,9 @@
     "english": "This car was made in Japan.",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -1641,7 +1819,9 @@
     "english": "I need a map.",
     "wordCount": 3,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1651,7 +1831,10 @@
     "english": "It's not even on the map.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1661,7 +1844,8 @@
     "english": "They come from the same town.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1671,7 +1855,8 @@
     "english": "Tom knows who crashed into Mary's car.",
     "wordCount": 9,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -1682,7 +1867,10 @@
     "wordCount": 20,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1692,7 +1880,8 @@
     "english": "How was your trip?",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -1713,7 +1902,9 @@
     "english": "This is not my car.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1733,7 +1924,11 @@
     "english": "New York is one of the largest cities in the world.",
     "wordCount": 11,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1743,7 +1938,8 @@
     "english": "Our plane was flying above the clouds.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1763,7 +1959,8 @@
     "english": "She likes taking pictures.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1794,7 +1991,8 @@
     "english": "I managed to repair my car by myself.",
     "wordCount": 9,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1805,7 +2003,8 @@
     "wordCount": 3,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -1815,7 +2014,9 @@
     "english": "Mark's car is called \"Thunder Giant\".",
     "wordCount": 9,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1825,7 +2026,9 @@
     "english": "Where's your suitcase?",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1876,7 +2079,8 @@
     "english": "Don't let her drive your car.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -1886,7 +2090,8 @@
     "english": "Don't let her drive your car.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -1896,7 +2101,9 @@
     "english": "Did you come by train?",
     "wordCount": 3,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -1927,7 +2134,8 @@
     "wordCount": 9,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -1937,7 +2145,8 @@
     "english": "I just want to take a picture.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1947,7 +2156,8 @@
     "english": "Airplanes have taken the place of electric trains.",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1958,7 +2168,8 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -1968,7 +2179,9 @@
     "english": "He lives outside the city.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1979,7 +2192,9 @@
     "wordCount": 5,
     "categories": [
       "travel",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1990,7 +2205,8 @@
     "wordCount": 10,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -2001,7 +2217,8 @@
     "wordCount": 7,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2013,7 +2230,9 @@
     "categories": [
       "food",
       "travel",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2024,7 +2243,8 @@
     "wordCount": 4,
     "categories": [
       "food",
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2044,7 +2264,10 @@
     "english": "Your car is fast, but mine is faster.",
     "wordCount": 10,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2075,7 +2298,8 @@
     "english": "Tom is at the airport.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -2085,7 +2309,11 @@
     "english": "The Vatican is the smallest country in the world.",
     "wordCount": 9,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2105,7 +2333,8 @@
     "english": "I had to walk there because my car broke down.",
     "wordCount": 10,
     "categories": [
-      "travel"
+      "travel",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2115,7 +2344,9 @@
     "english": "Tom isn't at the hotel.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2147,7 +2378,8 @@
     "english": "He loved to travel.",
     "wordCount": 3,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2190,7 +2422,8 @@
     "english": "Can I take a picture here?",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -2211,7 +2444,8 @@
     "wordCount": 7,
     "categories": [
       "travel",
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -2221,7 +2455,9 @@
     "english": "This is not my ticket.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2231,7 +2467,8 @@
     "english": "What do these dots represent on the map?",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -2253,7 +2490,8 @@
     "categories": [
       "travel",
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2263,7 +2501,9 @@
     "english": "Does your country have nuclear weapons?",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2273,7 +2513,8 @@
     "english": "Many flights were canceled, owing to the typhoon.",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2315,7 +2556,8 @@
     "wordCount": 7,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -2335,7 +2577,8 @@
     "english": "We spent a great holiday in Sweden.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2345,7 +2588,9 @@
     "english": "I looked up his phone number in the telephone book.",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2355,7 +2600,10 @@
     "english": "Where is the telephone book?",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2375,7 +2623,8 @@
     "english": "Tom usually fishes off the dock, but sometimes he fishes from the shore.",
     "wordCount": 13,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -2398,7 +2647,8 @@
       "travel",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2408,7 +2658,8 @@
     "english": "Tom didn't get on the plane.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -2431,7 +2682,9 @@
     "categories": [
       "travel",
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2453,7 +2706,9 @@
     "wordCount": 12,
     "categories": [
       "travel",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2474,7 +2729,8 @@
     "english": "My car's in the garage.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -2495,7 +2751,9 @@
     "english": "Where is the hotel?",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2507,7 +2765,11 @@
     "categories": [
       "travel",
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2528,7 +2790,8 @@
     "english": "This is a road map.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -2538,7 +2801,10 @@
     "english": "Where are her other pictures?",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2549,7 +2815,10 @@
     "wordCount": 9,
     "categories": [
       "greetings",
-      "travel"
+      "travel",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2589,7 +2858,9 @@
     "english": "Why don't you leave town?",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2599,7 +2870,8 @@
     "english": "He arrived by sea but left by air.",
     "wordCount": 9,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2611,7 +2883,9 @@
     "categories": [
       "travel",
       "leisure",
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2621,7 +2895,8 @@
     "english": "Where can I get the map?",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -2631,7 +2906,8 @@
     "english": "Take a map with you in case you get lost.",
     "wordCount": 9,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements"
     ]
   },
   {
@@ -2651,7 +2927,8 @@
     "english": "Tom missed the chance to go to Boston with Maria.",
     "wordCount": 10,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -2661,7 +2938,9 @@
     "english": "Tom pointed to one of the pictures and said, \"Who's that?\"",
     "wordCount": 12,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2671,7 +2950,8 @@
     "english": "Cancel your reservations.",
     "wordCount": 3,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2691,7 +2971,10 @@
     "english": "We have to defend our country from the foreign aggression.",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "reasoning_assessment",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2701,7 +2984,9 @@
     "english": "It's one of the largest cities in the world.",
     "wordCount": 9,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2711,7 +2996,8 @@
     "english": "Tom doesn't have a car.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -2731,7 +3017,9 @@
     "english": "Did you walk all the way here?",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2773,7 +3061,8 @@
     "english": "Would you like me to get you a cab?",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -2794,7 +3083,8 @@
     "wordCount": 7,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -2804,7 +3094,9 @@
     "english": "What's the climate like in your country?",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2814,7 +3106,8 @@
     "english": "I neither walk nor run.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -2844,7 +3137,11 @@
     "english": "What's the world's highest mountain?",
     "wordCount": 8,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2854,7 +3151,11 @@
     "english": "This is the most beautiful beach in the whole world.",
     "wordCount": 10,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2864,7 +3165,9 @@
     "english": "There are a lot of big cities in Brazil.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -2874,7 +3177,8 @@
     "english": "I want to go to the mountain.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2884,7 +3188,9 @@
     "english": "After a brief interlude, Caesar decided to join the army once again and left Rome. While he was sailing across the sea, a group of pirates kidnapped him.",
     "wordCount": 24,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2894,7 +3200,8 @@
     "english": "How many museums did you visit?",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -2914,7 +3221,8 @@
     "english": "She went back to the hotel.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2924,7 +3232,10 @@
     "english": "Keep in mind that all our flights are for non-smokers.",
     "wordCount": 11,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2934,7 +3245,8 @@
     "english": "I'm prepared for the worst.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2954,7 +3266,8 @@
     "english": "I managed to repair my car by myself.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2964,7 +3277,8 @@
     "english": "Give me the car keys.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2974,7 +3288,8 @@
     "english": "He got on the train.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2984,7 +3299,9 @@
     "english": "This is the largest museum in the city.",
     "wordCount": 9,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "statements_of_fact"
     ]
   },
   {
@@ -2994,7 +3311,8 @@
     "english": "I'm a US citizen.",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -3004,7 +3322,8 @@
     "english": "I'm a US citizen.",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -3024,7 +3343,9 @@
     "english": "There are too many cars in the big cities.",
     "wordCount": 7,
     "categories": [
-      "travel"
+      "travel",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -3034,7 +3355,9 @@
     "english": "I wish I'd taken more pictures.",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "comparison_and_contrast",
+      "conditional_statements"
     ]
   },
   {
@@ -3045,7 +3368,9 @@
     "wordCount": 6,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -3056,7 +3381,8 @@
     "wordCount": 11,
     "categories": [
       "travel",
-      "work"
+      "work",
+      "negation_and_denial"
     ]
   },
   {
@@ -3066,7 +3392,8 @@
     "english": "Is Boston a big city?",
     "wordCount": 5,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -3117,7 +3444,9 @@
     "wordCount": 10,
     "categories": [
       "travel",
-      "leisure"
+      "leisure",
+      "opinions_and_beliefs",
+      "conditional_statements"
     ]
   },
   {
@@ -3127,7 +3456,8 @@
     "english": "Is this your wallet?",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries"
     ]
   },
   {
@@ -3137,7 +3467,8 @@
     "english": "We're going to buy ourselves a car.",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "negation_and_denial"
     ]
   },
   {
@@ -3147,7 +3478,8 @@
     "english": "There's a traffic jam on the highway.",
     "wordCount": 4,
     "categories": [
-      "travel"
+      "travel",
+      "statements_of_fact"
     ]
   },
   {
@@ -3187,7 +3519,9 @@
     "english": "Where am I on this map?",
     "wordCount": 6,
     "categories": [
-      "travel"
+      "travel",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   }
 ]

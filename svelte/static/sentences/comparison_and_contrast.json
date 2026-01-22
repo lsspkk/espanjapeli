@@ -1,0 +1,5020 @@
+[
+  {
+    "id": "2805",
+    "spanish": "París es la ciudad más bonita del mundo.",
+    "finnish": "Pariisi on maailman kaunein kaupunki.",
+    "english": "Paris is the most beautiful city in the world.",
+    "wordCount": 8,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2971",
+    "spanish": "Quiero ser más independiente.",
+    "finnish": "Tahdon olla itsenäisempi.",
+    "english": "I want to be more independent.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3090",
+    "spanish": "Florencia es la ciudad más bonita de Italia.",
+    "finnish": "Firenze on Italian kaunein kaupunki.",
+    "english": "Florence is the most beautiful city in Italy.",
+    "wordCount": 8,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "12820",
+    "spanish": "Mi padre no bebe alcohol. \"El mío tampoco.\"",
+    "finnish": "Isäni ei juo alkoholia. \"Ei minunkaan isäni.\"",
+    "english": "My father doesn't drink. \"Neither does my father.\"",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "12865",
+    "spanish": "Australia es más pequeña que Sudamérica.",
+    "finnish": "Australia on pienempi kuin Etelä-Amerikka.",
+    "english": "Australia is smaller than South America.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "330675",
+    "spanish": "En países como Noruega o Finlandia, la nieve es abundante en invierno.",
+    "finnish": "Norjan ja Suomen kaltaisissa maissa on talvisin paljon lunta.",
+    "english": "In such countries as Norway and Finland, they have lots of snow in winter.",
+    "wordCount": 12,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "338624",
+    "spanish": "Volveré a llamar más tarde.",
+    "finnish": "Soitan myöhemmin uudestaan.",
+    "english": "I'll call again later.",
+    "wordCount": 5,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "339125",
+    "spanish": "El oro es mucho más pesado que el agua.",
+    "finnish": "Kulta on paljon painavampi kuin vesi.",
+    "english": "Gold is far heavier than water.",
+    "wordCount": 9,
+    "categories": [
+      "food",
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "359755",
+    "spanish": "París es una de las ciudades más grandes del mundo.",
+    "finnish": "Pariisi on yksi maailman suurimmista kaupungeista.",
+    "english": "Paris is one of the largest cities in the world.",
+    "wordCount": 10,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "437020",
+    "spanish": "Quiero un tono más claro.",
+    "finnish": "Haluan vaaleamman sävyn.",
+    "english": "I want a lighter shade.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "445708",
+    "spanish": "Nada es más valioso que la salud.",
+    "finnish": "Mikään ei ole yhtä arvokasta kuin terveys.",
+    "english": "Nothing is more valuable than health.",
+    "wordCount": 7,
+    "categories": [
+      "food",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "445711",
+    "spanish": "Un piano es caro, pero un coche lo es todavía más.",
+    "finnish": "Piano on kallis, mutta auto on kalliimpi.",
+    "english": "A piano is expensive, but a car is more expensive.",
+    "wordCount": 11,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "452939",
+    "spanish": "Ella no es tan joven como parece.",
+    "finnish": "Tyttö ei ole niin nuori miltä näyttää.",
+    "english": "She is not as young as she looks.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "452943",
+    "spanish": "Voy a ahorrar más dinero.",
+    "finnish": "Säästän enemmän rahaa.",
+    "english": "I'm going to save more money.",
+    "wordCount": 5,
+    "categories": [
+      "work",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "454528",
+    "spanish": "Él es fuerte como un toro.",
+    "finnish": "Hän on vahva kuin härkä.",
+    "english": "He's very strong.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "454537",
+    "spanish": "Él es un poco como su padre.",
+    "finnish": "Hän on vähän isänsä kaltainen.",
+    "english": "He's a little like his father.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "454574",
+    "spanish": "Te echo de menos.",
+    "finnish": "Minulla on sinua ikävä.",
+    "english": "I miss you.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "454585",
+    "spanish": "Le gusta el jazz, y a mí también.",
+    "finnish": "Hän pitää jazzista, samoin kuin minä.",
+    "english": "He likes jazz, and so do I.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "455015",
+    "spanish": "Ella parece joven, pero de hecho tiene más de cuarenta años.",
+    "finnish": "Hän näyttää nuorelta, mutta itse asiassa hän on yli neljäkymmentävuotias.",
+    "english": "She looks young. But actually, she's over forty.",
+    "wordCount": 11,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "456294",
+    "spanish": "El año pasado fue abril el mes más caluroso.",
+    "finnish": "Viime vuonna huhtikuu oli lämpimin kuukausi.",
+    "english": "Last year April was the warmest month.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "459269",
+    "spanish": "Tendrás que estudiar más de ahora en adelante.",
+    "finnish": "Sinun pitää opiskella enemmän jatkossa.",
+    "english": "You'll have to study harder from now on.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "460883",
+    "spanish": "Cada día hace más calor.",
+    "finnish": "Päivä päivältä tulee lämpimämpää.",
+    "english": "Every day, it's getting hotter and hotter.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "461099",
+    "spanish": "Bill tiene dos años más que yo.",
+    "finnish": "Bill on kaksi vuotta minua vanhempi.",
+    "english": "Bill is two years older than I am.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "475609",
+    "spanish": "Tom no vino, y tampoco Jane.",
+    "finnish": "Tomi ei tullut, eikä tullut Janekaan.",
+    "english": "Tom didn't come, nor did Jane.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "476795",
+    "spanish": "Yo te amo más de lo que tú me amas a mí.",
+    "finnish": "Minä rakastan sinua enemmän kuin sinä minua.",
+    "english": "I love you more than you love me.",
+    "wordCount": 12,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "481335",
+    "spanish": "Cuando yo era joven intentaba leer tantos libros como pudiera.",
+    "finnish": "Nuorena yritin lukea niin paljon kirjoja kuin voin.",
+    "english": "When I was young, I tried to read as many books as I could.",
+    "wordCount": 10,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "493485",
+    "spanish": "Él llegó más pronto de lo habitual.",
+    "finnish": "Hän saapui tavallista aikaisemmin.",
+    "english": "He arrived earlier than usual.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "493797",
+    "spanish": "China es mucho más grande que Japón.",
+    "finnish": "Kiina on paljon suurempi kuin Japani.",
+    "english": "China is much larger than Japan.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "502064",
+    "spanish": "Hoy hace más calor que ayer.",
+    "finnish": "Tänään on lämpimämpi sää kuin eilen.",
+    "english": "It is warmer today than yesterday.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "503723",
+    "spanish": "La próxima vez vendré más pronto.",
+    "finnish": "Ensi kerralla tulen aiemmin.",
+    "english": "Next time I'll come earlier.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "516152",
+    "spanish": "Su significado básico permanece igual.",
+    "finnish": "Sen perusmerkitys pysyy ennallaan.",
+    "english": "The basic meaning of it remains the same.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "534286",
+    "spanish": "Ojalá fuera más alto.",
+    "finnish": "Kunpa olisin pidempi.",
+    "english": "I wish I were taller.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "534287",
+    "spanish": "Ojalá fuera más alta.",
+    "finnish": "Olisinpa pidempi.",
+    "english": "I wish I were taller.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "534308",
+    "spanish": "¿A qué hora más o menos?",
+    "finnish": "Mihin aikaan suunnilleen?",
+    "english": "About what time?",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "535472",
+    "spanish": "El muchacho estaba tan cansado, que no podía dar un paso más.",
+    "finnish": "Poika oli niin väsynyt, ettei jaksanut ottaa enää askeltakaan.",
+    "english": "The boy was so tired that he couldn't take one more step.",
+    "wordCount": 12,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "546970",
+    "spanish": "Londres está entre las ciudades más grandes del mundo.",
+    "finnish": "Lontoo on yksi maailman suurimmista kaupungeista.",
+    "english": "London is among the world's largest cities.",
+    "wordCount": 9,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "550565",
+    "spanish": "No puedo esperar más tiempo.",
+    "finnish": "En pysty odottaa enää.",
+    "english": "I can't wait any longer.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "584251",
+    "spanish": "Todas las casas en esta vecindad se parecen tanto que no las puedo distinguir.",
+    "finnish": "Kaikki tämän asuinalueen talot näyttävät niin samanlaisilta, että en erota niitä toisistaan.",
+    "english": "All the houses in this neighborhood look so much alike that I can't tell them apart.",
+    "wordCount": 14,
+    "categories": [
+      "daily_life",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "591983",
+    "spanish": "Me gustaría ser tan rico como él.",
+    "finnish": "Haluaisin olla yhtä rikas kuin hän.",
+    "english": "I'd like to be as rich as him.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "600181",
+    "spanish": "Deberíais tener más cuidado.",
+    "finnish": "Teidän pitäisi olla varovaisempia.",
+    "english": "You should be more careful.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "600183",
+    "spanish": "Deberían tener más cuidado.",
+    "finnish": "Teidän pitäisi olla varovaisempia.",
+    "english": "You should be more careful.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "665530",
+    "spanish": "La idea de Dios sería más interesante si en vez de haber creado a los humanos los hubiera encontrado.",
+    "finnish": "Ajatus Jumalasta olisi paljon mielenkiintoisempi, jos hän olisi löytänyt ihmiset sen sijaan, että hän olisi luonut heidät.",
+    "english": "The idea of God would be more interesting if instead of having created humans he had found them.",
+    "wordCount": 19,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "669707",
+    "spanish": "Tom es el más alto de su clase.",
+    "finnish": "Tomi on luokan pisin.",
+    "english": "Tom is the tallest in his class.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "672227",
+    "spanish": "Habla más fuerte para que todos puedan oírte.",
+    "finnish": "Puhu kovemmalla äänellä, jotta kaikki kuulevat.",
+    "english": "Speak louder so everyone can hear you.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "693868",
+    "spanish": "No puedes culpar a nadie más que a ti mismo.",
+    "finnish": "Et voi syyttää kuin itseäsi.",
+    "english": "You have no one but yourself to blame.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "704196",
+    "spanish": "Puede que te preguntes ¿por qué oraciones?… Bueno, porque las oraciones son más interesantes.",
+    "finnish": "”Miksi lauseita?” saatat kysyä. No, siksi koska lauseet ovat kiinnostavampia.",
+    "english": "Why sentences? …you may ask. Well, because sentences are more interesting.",
+    "wordCount": 14,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "719755",
+    "spanish": "Cuanto más comas, más gordo te pondrás.",
+    "finnish": "Mitä enemmän syöt sitä lihavammaksi tulet.",
+    "english": "The more you eat, the fatter you'll get.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "726743",
+    "spanish": "Más café, por favor.",
+    "finnish": "Saisinko lisää kahvia?",
+    "english": "More coffee, please.",
+    "wordCount": 4,
+    "categories": [
+      "greetings",
+      "food",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "735572",
+    "spanish": "Él es más fuerte que tú.",
+    "finnish": "Hän on sinua vahvempi.",
+    "english": "He's stronger than you.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "736033",
+    "spanish": "¿Cuál es más grande: el Sol o la Tierra?",
+    "finnish": "Kumpi on suurempi; Aurinko vai Kuu?",
+    "english": "Which is larger, the sun or the earth?",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "740723",
+    "spanish": "Tom no corre tan rápido como Bill.",
+    "finnish": "Tom ei juokse niin lujaa kuin Bill.",
+    "english": "Tom doesn't run as fast as Bill.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "755735",
+    "spanish": "Me da igual.",
+    "finnish": "En välitä.",
+    "english": "It's all the same to me.",
+    "wordCount": 3,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "759907",
+    "spanish": "¿Cuánto cuesta el coche más caro?",
+    "finnish": "Paljonko kallein auto maksaa?",
+    "english": "How much is the most expensive car?",
+    "wordCount": 6,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "questions_inquiries"
+    ]
+  },
+  {
+    "id": "763500",
+    "spanish": "Los ricos se hacen más ricos y los pobres más pobres.",
+    "finnish": "Rikkaat rikastuvat ja köyhät köyhtyvät.",
+    "english": "The rich grow richer and the poor grow poorer.",
+    "wordCount": 11,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "777607",
+    "spanish": "Tiene más de cinco diccionarios.",
+    "finnish": "Hänellä on enemmän kuin viisi sanakirjaa.",
+    "english": "He has more than five dictionaries.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "781053",
+    "spanish": "Él quiere un reloj como el tuyo.",
+    "finnish": "Hän haluaa samanlaisen kellon kuin sinulla.",
+    "english": "He wants a watch like yours.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "785959",
+    "spanish": "Puedes escribir en la lengua que quieras. En Tatoeba, todas las lenguas son iguales.",
+    "finnish": "Voit kirjoittaa millä tahansa kielellä haluat. Tatoebassa kaikki kielet ovat tasa-arvoisia.",
+    "english": "You may write in any language you want. On Tatoeba, all languages are equal.",
+    "wordCount": 14,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "786300",
+    "spanish": "Puedes escribir en el idioma que quieras. En Tatoeba, todos los idiomas son iguales.",
+    "finnish": "Voit kirjoittaa millä tahansa kielellä haluat. Tatoebassa kaikki kielet ovat tasa-arvoisia.",
+    "english": "You may write in any language you want. On Tatoeba, all languages are equal.",
+    "wordCount": 14,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "788149",
+    "spanish": "¿Dónde está la biblioteca más cercana?",
+    "finnish": "Missä on lähin kirjasto?",
+    "english": "Where's the nearest library?",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "805675",
+    "spanish": "Volvió dos días más tarde.",
+    "finnish": "Hän tuli takaisin kaksi päivää myöhemmin.",
+    "english": "He came back two days later.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "834489",
+    "spanish": "Lo más que sé es que es un hombre honesto.",
+    "finnish": "Tietääkseni hän on rehellinen mies.",
+    "english": "As far as I know, he is an honest man.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "853641",
+    "spanish": "Es anormal comer tanto.",
+    "finnish": "On epänormaalia syödä niin paljon.",
+    "english": "It is abnormal to eat so much.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "854825",
+    "spanish": "Yo también te quiero.",
+    "finnish": "Minäkin rakastan sinua.",
+    "english": "I love you, too.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "855661",
+    "spanish": "Hay más de 4000 lenguas en el mundo.",
+    "finnish": "Maailmassa on enemmän kuin 4000 kieltä.",
+    "english": "There are more than 4,000 languages in the world.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "860411",
+    "spanish": "Sé amable con los demás.",
+    "finnish": "Ole kiltti muita kohtaan.",
+    "english": "Be kind to others!",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "864844",
+    "spanish": "Investigar el incidente nos llevará por lo menos tres semanas.",
+    "finnish": "Meiltä menisi ainakin kolme viikkoa tutkia tapaus.",
+    "english": "To investigate the incident would take us at least three weeks.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "901961",
+    "spanish": "Ella hizo como si no supiera nada.",
+    "finnish": "Hän teeskenteli tietämätöntä.",
+    "english": "She acted as if she knew nothing.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "906676",
+    "spanish": "A menudo las mentiras más crueles se dicen en silencio.",
+    "finnish": "Julmimmat valheet sanotaan usein hiljaisuudessa.",
+    "english": "The cruelest lies are often told in silence.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "921521",
+    "spanish": "Tanto Magdalena como Ania son de Polonia.",
+    "finnish": "Sekä Magdalena että Ania ovat puolalaisia.",
+    "english": "Both Magdalena and Ania are from Poland.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "922339",
+    "spanish": "No es tan alto como su padre.",
+    "finnish": "Hän ei ole yhtä pitkä kuin hänen isänsä.",
+    "english": "He is not as tall as his father.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "922652",
+    "spanish": "Es mucho más joven que Tom.",
+    "finnish": "Hän on paljon Tomia nuorempi.",
+    "english": "She is much younger than Tom.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "971517",
+    "spanish": "La luz se desplaza más rápido que el sonido.",
+    "finnish": "Valo kulkee ääntä nopeammin.",
+    "english": "Light travels faster than sound.",
+    "wordCount": 9,
+    "categories": [
+      "daily_life",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "988012",
+    "spanish": "Esto es más caro que eso.",
+    "finnish": "Tämä on kalliimpi kuin tuo.",
+    "english": "This is more expensive than that.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1011395",
+    "spanish": "Es difícil conocer a gente tan agradable como tú.",
+    "finnish": "On harvinaista tavata kaltaisiasi mukavia ihmisiä.",
+    "english": "It's rare to meet nice people like you.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1036784",
+    "spanish": "Necesitamos más empleados.",
+    "finnish": "Tarvitsemme lisää työntekijöitä.",
+    "english": "We need more workers.",
+    "wordCount": 3,
+    "categories": [
+      "work",
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "1042598",
+    "spanish": "Corrió tan rápido como pudo.",
+    "finnish": "Hän juoksi niin nopeasti kuin pystyi.",
+    "english": "She ran as fast as she could.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1056410",
+    "spanish": "Soy más grande que tú.",
+    "finnish": "Olen suurempi kuin sinä.",
+    "english": "I'm bigger than you.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1062777",
+    "spanish": "El amor es más fuerte que la muerte.",
+    "finnish": "Rakkaus on vahvempi kuin kuolema.",
+    "english": "Love is stronger than death.",
+    "wordCount": 8,
+    "categories": [
+      "emotions",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1074148",
+    "spanish": "Como los seres humanos son animales sociales, la amistad es una parte esencial de la vida.",
+    "finnish": "Koska ihminen on sosiaalinen eläin, ystävyys on olennainen osaa elämää.",
+    "english": "As human beings are social animals, friendship is an essential part of life.",
+    "wordCount": 16,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1080774",
+    "spanish": "La noche era tan oscura, casi tan oscura como su corazón.",
+    "finnish": "Yö oli niin pimeä, melkein yhtä pimeä kuin hänen sydämensä.",
+    "english": "The night was so dark, almost as dark as her heart.",
+    "wordCount": 11,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1084503",
+    "spanish": "Tom puede correr tan rápido como Mary.",
+    "finnish": "Tomi pystyy juosta yhtä nopeasti kuin Mari.",
+    "english": "Tom can run as fast as Mary.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "1106075",
+    "spanish": "Cuzco es uno de los lugares más interesantes del mundo.",
+    "finnish": "Cuzco on yksi maailman mielenkiintoisimmista paikoista.",
+    "english": "Cuzco is one of the most interesting places in the world.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1116443",
+    "spanish": "No puedo dormir con tanto ruido.",
+    "finnish": "En pysty nukkua tässä metelissä.",
+    "english": "I can't sleep with all this noise.",
+    "wordCount": 6,
+    "categories": [
+      "daily_life",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1116548",
+    "spanish": "El verano es la temporada más cálida.",
+    "finnish": "Kesä on lämpimin vuodenaika.",
+    "english": "Summer is the hottest season.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1126452",
+    "spanish": "En la gente mayor, las heridas toman más tiempo en sanar.",
+    "finnish": "Vanhemmilla ihmisillä haavat parantuvat hitaammin.",
+    "english": "For the elderly, wounds take more time to heal.",
+    "wordCount": 11,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1126502",
+    "spanish": "En la investigación médica, uno de los problemas más grandes es aislar la causa de la enfermedad.",
+    "finnish": "Lääketieteellisissä tutkimuksissa yksi suurimmista ongelmista on eristää sairauden syy.",
+    "english": "In medical investigation, one of the biggest problems is isolating the cause of the illness.",
+    "wordCount": 17,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1127429",
+    "spanish": "Debes haberme confundido con alguien más.",
+    "finnish": "Olet varmasti sekoittanut minut johonkuhun toiseen.",
+    "english": "You must have me confused with somebody else.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "1133056",
+    "spanish": "El oro es más pesado que la plata.",
+    "finnish": "Kulta on painavampaa kuin hopea.",
+    "english": "Gold is heavier than silver.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1133085",
+    "spanish": "Él fue más que un Rey.",
+    "finnish": "Hän oli enemmän kuin kuningas.",
+    "english": "He was more than a king.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1134273",
+    "spanish": "Volveremos a los detalles de este problema más tarde.",
+    "finnish": "Palataan ongelman yksityiskohtiin myöhemmin.",
+    "english": "We'll return to the details of this problem later.",
+    "wordCount": 9,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1134298",
+    "spanish": "Yo considero a los obstáculos como un desafío.",
+    "finnish": "Näen esteet haasteina.",
+    "english": "I see obstacles as challenges.",
+    "wordCount": 8,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1135696",
+    "spanish": "Papá, no puedo caminar más. Llévame.",
+    "finnish": "Isä, en jaksa kävellä enää yhtään. Kanna minua.",
+    "english": "Daddy, I can't walk any more. Carry me.",
+    "wordCount": 6,
+    "categories": [
+      "travel",
+      "family",
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1136000",
+    "spanish": "Son las ocho menos cuarto.",
+    "finnish": "Kello on varttia vaille kahdeksan.",
+    "english": "It is a quarter to eight.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1137087",
+    "spanish": "Cuatro más dieciocho son veintidós.",
+    "finnish": "Neljä plus kahdeksantoista on kaksikymmentäkaksi.",
+    "english": "Four plus eighteen is twenty-two.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1137123",
+    "spanish": "Yo no uso taxis, a menos que sea absolutamente necesario.",
+    "finnish": "En käytä taksia, ellei se ole aivan välttämätöntä.",
+    "english": "I don't use taxis unless it's absolutely necessary.",
+    "wordCount": 10,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1147882",
+    "spanish": "La policía buscó al niño desaparecido.",
+    "finnish": "Poliisi etsi kadonnutta lasta.",
+    "english": "The police searched for the missing child.",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1173754",
+    "spanish": "Ella tiene más de veinte años.",
+    "finnish": "Hän on yli kaksikymmentävuotias.",
+    "english": "She is over twenty.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1178517",
+    "spanish": "Tom está más feliz ahora que Mary se ha ido.",
+    "finnish": "Tom on onnellisempi nyt kun Mary on lähtenyt.",
+    "english": "Tom is happier now that Mary has left.",
+    "wordCount": 10,
+    "categories": [
+      "emotions",
+      "time",
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1178673",
+    "spanish": "Todos son iguales ante la ley.",
+    "finnish": "Lain mukaan kaikki ovat tasavertaisia.",
+    "english": "Everybody is equal before the law.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1196533",
+    "spanish": "Yo llegué más tarde de lo acostumbrado.",
+    "finnish": "Saavuin perille tavallista myöhemmin.",
+    "english": "I arrived later than usual.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1197364",
+    "spanish": "El fútbol es más popular que el tenis.",
+    "finnish": "Jalkapallo on suositumpaa kuin tennis.",
+    "english": "Football is more popular than tennis.",
+    "wordCount": 8,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1198017",
+    "spanish": "Él corrió tan rápidamente como pudo.",
+    "finnish": "Hän juoksi niin kovaa kuin pystyi.",
+    "english": "He ran as fast as he could.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1205490",
+    "spanish": "¿Tú puedes nadar tan rápido como él?",
+    "finnish": "Pystytkö uimaan yhtä nopeasti kuin hän?",
+    "english": "Can you swim as fast as he?",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1211078",
+    "spanish": "No puedo conducir, me olvidé como.",
+    "finnish": "En pysty ajamaan, unohdin kuinka.",
+    "english": "I can't drive, I forgot how to.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1214028",
+    "spanish": "Lo más importante no es ganar, sino participar.",
+    "finnish": "Tärkeä asia ei ole voittaa vaan ottaa osaa.",
+    "english": "The important thing is not to win but to take part.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1232983",
+    "spanish": "No me trates como a un perro.",
+    "finnish": "Älä kohtele minua niin kuin koiraa.",
+    "english": "Don't treat me like a dog.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1240442",
+    "spanish": "¡Habla más alto!",
+    "finnish": "Puhu kovempaa!",
+    "english": "Speak up!",
+    "wordCount": 3,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1248014",
+    "spanish": "¡Te veo más tarde!",
+    "finnish": "Nähdään myöhemmin!",
+    "english": "See you later!",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1264526",
+    "spanish": "Hablad un poco más alto.",
+    "finnish": "Puhukaa vähän kovempaa.",
+    "english": "Speak a little louder.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1267126",
+    "spanish": "Ella no tuvo más alternativa que aceptar su destino.",
+    "finnish": "Hänellä ei ollut muuta vaihtoehtoa kuin hyväksyä kohtalonsa.",
+    "english": "She had no choice but to accept her fate.",
+    "wordCount": 9,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1272417",
+    "spanish": "No soy tan rico como solía ser.",
+    "finnish": "En ole enää yhtä rikas kuin ennen.",
+    "english": "I'm not as rich as I was.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1286953",
+    "spanish": "Come como un cerdo.",
+    "finnish": "Hän syö kuin porsas.",
+    "english": "She eats like a pig.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1308660",
+    "spanish": "La guerra comenzó cinco años más tarde.",
+    "finnish": "Viisi vuotta myöhemmin syttyi sota.",
+    "english": "War began five years later.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1308661",
+    "spanish": "La guerra estalló cinco años más tarde.",
+    "finnish": "Viisi vuotta myöhemmin syttyi sota.",
+    "english": "War began five years later.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1320979",
+    "spanish": "Ella actuó como si no supiera nada.",
+    "finnish": "Hän teeskenteli tietämätöntä.",
+    "english": "She acted as if she knew nothing.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1322467",
+    "spanish": "¿Dónde está la parada de autobús más cercana?",
+    "finnish": "Missä on lähin bussipysäkki?",
+    "english": "Where's the closest bus stop?",
+    "wordCount": 8,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1328258",
+    "spanish": "Camina más despacio.",
+    "finnish": "Kävele hitaammin.",
+    "english": "Walk more slowly.",
+    "wordCount": 3,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1333018",
+    "spanish": "Deberías pasar más tiempo fuera y menos tiempo dentro.",
+    "finnish": "Sinun pitäisi viettää enemmän aikaa ulkona ja vähemmän sisällä.",
+    "english": "You should spend more time outside and less time inside.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1333721",
+    "spanish": "Tom es el más alto de su familia.",
+    "finnish": "Tomi on perheen pisin.",
+    "english": "Tom is the tallest in his family.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1334880",
+    "spanish": "Él también puede hablar ruso.",
+    "finnish": "Hän osaa myös puhua venäjää.",
+    "english": "He can speak Russian, too.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1335712",
+    "spanish": "Si es gratis, coge tanto como puedas.",
+    "finnish": "Jos se on ilmaista, ota niin paljon kuin pystyt.",
+    "english": "If it's free, get as much as you can.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1355858",
+    "spanish": "Tom tiene reputación de jamás escuchar el consejo de nadie.",
+    "finnish": "Tomilla on maine olla kuuntelematta kenenkään neuvoja.",
+    "english": "Tom has a reputation of never listening to anybody's advice.",
+    "wordCount": 10,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1362003",
+    "spanish": "¡Quiero una espada como esta!",
+    "finnish": "Tämänlaisen miekan minä haluan!",
+    "english": "I want a sword like this!",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1363584",
+    "spanish": "Él siempre me trata como a un niño.",
+    "finnish": "Hän aina kohtelee minua kuin lasta.",
+    "english": "He always treats me like a child.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "time",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1369837",
+    "spanish": "No necesito sonar como un hablante nativo, sólo quiero ser capaz de hablar con fluidez.",
+    "finnish": "Minun ei tarvitse kuulostaa syntyperäiseltä puhujalta, haluan vain pystyä puhumaan sujuvasti.",
+    "english": "I don't need to sound like a native speaker, I just want to be able to speak fluently.",
+    "wordCount": 15,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1384758",
+    "spanish": "El alcohol no resuelve los problemas, pero tampoco los resuelve la leche.",
+    "finnish": "Alkoholi ei ratkaise mitään ongelmia, mutta sitä ei tee myöskään maito.",
+    "english": "Alcohol does not solve any problems, but neither does milk.",
+    "wordCount": 12,
+    "categories": [
+      "food",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1388079",
+    "spanish": "Tom luce como su padre.",
+    "finnish": "Tom näyttää isältään.",
+    "english": "Tom looks like his father.",
+    "wordCount": 5,
+    "categories": [
+      "family",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1395417",
+    "spanish": "Yo tampoco lo puedo hacer.",
+    "finnish": "Minäkään en pysty tekemään sitä.",
+    "english": "I can't do it either.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1414823",
+    "spanish": "Ha pedido más dinero.",
+    "finnish": "Hän pyysi lisää rahaa.",
+    "english": "He asked for more money.",
+    "wordCount": 4,
+    "categories": [
+      "work",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1415528",
+    "spanish": "Tengo menos libros que tú.",
+    "finnish": "Minulla on vähemmän kirjoja kuin sinulla.",
+    "english": "I have fewer books than you.",
+    "wordCount": 5,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1431334",
+    "spanish": "Él se comportó como un loco.",
+    "finnish": "Hän käyttäytyi kuin sekopää.",
+    "english": "He acted like a madman.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1438825",
+    "spanish": "Todo sobre este mundo no es más que un sueño.",
+    "finnish": "Kaikki tässä maailmassa on vain unta.",
+    "english": "Everything that is in this world is but a dream.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1439542",
+    "spanish": "No basta con hacer el bien; también hay que hacerlo bien.",
+    "finnish": "Ei riitä, että tekee hyvää - se täytyy tehdä myös hyvin.",
+    "english": "It is not enough to do good; one must also do it well.",
+    "wordCount": 11,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1447963",
+    "spanish": "Tu problema es parecido al mío.",
+    "finnish": "Ongelmasi on samantapainen kuin minun.",
+    "english": "Your problem is similar to mine.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1458477",
+    "spanish": "Tom esperó por más de una hora.",
+    "finnish": "Tom odotti yli tunnin.",
+    "english": "Tom waited more than an hour.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1468197",
+    "spanish": "Si un cerebro puede hacerlo, también un computador.",
+    "finnish": "Jos aivot siihen pystyvät, pystyy tietokonekin.",
+    "english": "If a brain can do it, a computer can do it.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1469611",
+    "spanish": "Sysko trabaja como hormiga.",
+    "finnish": "Sysko työskentelee kuin muurahainen.",
+    "english": "Sysko works like an ant.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1481544",
+    "spanish": "Tom jamás había visto antes a una chica tan bella como Mary.",
+    "finnish": "Tom ei ollut koskaan aikaisemmin nähnyt yhtä kaunista tyttöä kuin Mari.",
+    "english": "Tom had never seen a girl as beautiful as Mary before.",
+    "wordCount": 12,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1481705",
+    "spanish": "En el mundo, hay más mujeres que hombres.",
+    "finnish": "Maailmassa on enemmän naisia kuin miehiä.",
+    "english": "There are more women than men in the world.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1486830",
+    "spanish": "¿Lo podrías explicar con más detalle?",
+    "finnish": "Selittäisitkö sen tarkemmin?",
+    "english": "Would you explain it in more detail?",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1498530",
+    "spanish": "Su piel es blanca como la nieve.",
+    "finnish": "Hänen ihonsa on vaalea kuin lumi.",
+    "english": "Her skin is whiter than snow.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1507382",
+    "spanish": "Vista de lejos, se ve como una pelota.",
+    "finnish": "Kaukaa katsoen se näyttää pallolta.",
+    "english": "Seen from a distance, it looks like a ball.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1536005",
+    "spanish": "¡Conducir en la oscuridad se siente como volar!",
+    "finnish": "Pimeässä ajaminen tuntuu lentämiseltä!",
+    "english": "Driving in the dark feels like flying!",
+    "wordCount": 8,
+    "categories": [
+      "daily_life",
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "1548006",
+    "spanish": "Nadie más salió herido.",
+    "finnish": "Kukaan muu ei loukkaantunut.",
+    "english": "No one else was injured.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1557092",
+    "spanish": "Igualmente.",
+    "finnish": "Samoin.",
+    "english": "Likewise.",
+    "wordCount": 1,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1599208",
+    "spanish": "Sus dientes son blancos como perlas.",
+    "finnish": "Hänen hampaansa ovat valkoiset kuin helmi.",
+    "english": "His teeth are white like a pearl.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1606386",
+    "spanish": "Mi perro es más chico que el tuyo.",
+    "finnish": "Minun koirani on pienempi kuin sinun.",
+    "english": "My dog is smaller than yours is.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1634598",
+    "spanish": "El lago Baikal en Rusia es el lago más profundo del mundo.",
+    "finnish": "Baikaljärvi Venäjällä on maailman syvin järvi.",
+    "english": "Lake Baikal in Russia is the deepest lake in the world.",
+    "wordCount": 12,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1641740",
+    "spanish": "Él es mucho más inteligente que yo.",
+    "finnish": "Hän on paljon minua nokkelampi.",
+    "english": "He is much smarter than I am.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1646160",
+    "spanish": "Nada es como parece.",
+    "finnish": "Mikään ei ole miltä näyttää.",
+    "english": "Nothing is as it seems.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1671410",
+    "spanish": "Pon ese libro sobre los demás.",
+    "finnish": "Laita kirjan toisten päälle.",
+    "english": "Put this book on top of the others.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1672410",
+    "spanish": "No lo puedo soportar por más tiempo.",
+    "finnish": "En siedä sitä enää.",
+    "english": "I cannot bear it any longer.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1675720",
+    "spanish": "El hierro es el metal más útil.",
+    "finnish": "Rauta on kaikista hyödyllisin metalli.",
+    "english": "Iron is the most useful metal.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1675730",
+    "spanish": "El hierro es mucho más útil que el oro.",
+    "finnish": "Rauta on paljon hyödyllisempää kuin kulta.",
+    "english": "Iron is much more useful than gold.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1682633",
+    "spanish": "A los gatos les gusta más el pescado que la carne.",
+    "finnish": "Kissat pitävät kalasta enemmän kuin ne pitävät lihasta.",
+    "english": "Cats like fish more than they like meat.",
+    "wordCount": 11,
+    "categories": [
+      "food",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1685568",
+    "spanish": "Tom tuvo un presentimiento de que Mary estaba viendo a alguien más.",
+    "finnish": "Tomilla oli aavistus että Mary tapaili jotakuta muuta.",
+    "english": "Tom had a hunch that Mary was seeing someone else.",
+    "wordCount": 12,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "1690894",
+    "spanish": "Si quieres ser mi amigo, entonces sé también amigo de mi amigo.",
+    "finnish": "Jos haluat olla ystäväni, ole myös ystävieni ystävä.",
+    "english": "If you want to become my friend, then also become the friend of my friend.",
+    "wordCount": 12,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "1695572",
+    "spanish": "No hablaré más con él.",
+    "finnish": "En puhu enää hänen kanssaan.",
+    "english": "I won't talk to him anymore.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1704431",
+    "spanish": "A Tom no le quedaban más opciones.",
+    "finnish": "Tomilla ei ollut vaihtoehtoja jäljellä.",
+    "english": "Tom had no options left.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1704966",
+    "spanish": "Los ojos de un pintor son sus herramientas más importantes.",
+    "finnish": "Taidemaalarin silmät ovat hänen tärkeimmät työkalunsa.",
+    "english": "A painter's eyes are his most important tools.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1705595",
+    "spanish": "¡Trabajo como esclavo!",
+    "finnish": "Teen töitä kuin orja!",
+    "english": "I work like a slave!",
+    "wordCount": 3,
+    "categories": [
+      "work",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1705598",
+    "spanish": "¡Trabajo como esclava!",
+    "finnish": "Teen töitä kuin orja!",
+    "english": "I work like a slave!",
+    "wordCount": 3,
+    "categories": [
+      "work",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1713279",
+    "spanish": "Marika es finesa pero habla alemán igual que los alemanes.",
+    "finnish": "Marika on suomalainen, mutta hän puhuu saksaa aivan kuten saksalaiset.",
+    "english": "Marika is Finnish but she speaks German just like the Germans.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1744964",
+    "spanish": "Él quiere ser más independiente.",
+    "finnish": "Hän haluaa olla itsenäisempi.",
+    "english": "He wants to be more independent.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1753939",
+    "spanish": "Ojalá ocurriera con más frecuencia.",
+    "finnish": "Toivon että sitä sattuisi useammin.",
+    "english": "I wish it would happen more often.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1753940",
+    "spanish": "Ojalá pasara más a menudo.",
+    "finnish": "Toivon että sitä sattuisi useammin.",
+    "english": "I wish it would happen more often.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1767539",
+    "spanish": "Este árbol es más grande que todos los otros.",
+    "finnish": "Tämä puu on kaikkia muita suurempi.",
+    "english": "This tree is bigger than all the others.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1767545",
+    "spanish": "Tengo menos dinero que tú.",
+    "finnish": "Minulla on vähemmän rahaa kuin sinulla.",
+    "english": "I have less money than you.",
+    "wordCount": 5,
+    "categories": [
+      "work",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1768999",
+    "spanish": "Nueva York es una de las ciudades más grandes del mundo.",
+    "finnish": "New York on yksi maailman suurimpia kaupunkeja.",
+    "english": "New York is one of the largest cities in the world.",
+    "wordCount": 11,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1794982",
+    "spanish": "Tom fue tan estúpido como para creerle a María.",
+    "finnish": "Tom oli tarpeeksi tyhmä uskoakseen Maryä.",
+    "english": "Tom was foolish enough to believe Mary.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1831939",
+    "spanish": "Como pollo con frecuencia.",
+    "finnish": "Minä syön usein kanaa.",
+    "english": "I often eat chicken.",
+    "wordCount": 4,
+    "categories": [
+      "food",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1832052",
+    "spanish": "Tom comía como un cerdo.",
+    "finnish": "Tomi söi kuin possu.",
+    "english": "Tom ate like a pig.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "1857624",
+    "spanish": "El chico estaba tan cansado que no podía dar un paso más.",
+    "finnish": "Poika oli niin väsynyt, ettei jaksanut ottaa enää askeltakaan.",
+    "english": "The boy was so tired that he could walk no longer.",
+    "wordCount": 12,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1901117",
+    "spanish": "Esto no es tan fácil como se ve.",
+    "finnish": "Tämä ei ole niin helppoa miltä näyttää.",
+    "english": "This isn't as easy as it looks.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1901118",
+    "spanish": "Esto no es tan difícil como se ve.",
+    "finnish": "Tämä ei ole niin vaikeaa miltä näyttää.",
+    "english": "This isn't as hard as it looks.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1914160",
+    "spanish": "Jamás vuelvas a hacer eso.",
+    "finnish": "Älä enää koskaan tee tälläistä!",
+    "english": "Don't ever do that again.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1966360",
+    "spanish": "No tenemos tanto tiempo.",
+    "finnish": "Meillä ei ole niin paljon aikaa.",
+    "english": "We don't have that long.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1976925",
+    "spanish": "Quisiera averiguar más sobre Tom.",
+    "finnish": "Haluaisin tietää lisää Tomista.",
+    "english": "I'd like to know more about Tom.",
+    "wordCount": 5,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "1990710",
+    "spanish": "La vista de Tom no es tan buena como antes.",
+    "finnish": "Tomin näkö ei ole niin hyvä kuin tapasi olla.",
+    "english": "Tom's eyesight isn't as good as it used to be.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2008125",
+    "spanish": "Tom te echa de menos.",
+    "finnish": "Tomilla on ikävä sinua.",
+    "english": "Tom misses you.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2028948",
+    "spanish": "Echo de menos a mis amigos.",
+    "finnish": "Mul on ikävä mun kavereita.",
+    "english": "I miss my friends.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2033365",
+    "spanish": "Esta es la puesta de sol más bella que jamás haya visto.",
+    "finnish": "Tämä on kaunein koskaan näkemäni auringonlasku.",
+    "english": "This is the most beautiful sunset that I have ever seen.",
+    "wordCount": 12,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2043402",
+    "spanish": "Echo mucho de menos a mi novia.",
+    "finnish": "Mul on kova ikävä mun tyttöystävää.",
+    "english": "I really miss my girlfriend.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2049249",
+    "spanish": "Mary trabaja como enfermera a tiempo parcial.",
+    "finnish": "Mari työskentelee osa-aikaisesti sairaanhoitajana.",
+    "english": "Mary works part-time as a nurse.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2054735",
+    "spanish": "Él merece más.",
+    "finnish": "Hän ansaitsee enemmän.",
+    "english": "He deserves more.",
+    "wordCount": 3,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2069426",
+    "spanish": "Tomás no tenía a quién más acudir.",
+    "finnish": "Tomilla ei ollut ketään muuta, kenen puoleen kääntyä.",
+    "english": "Tom had no one else to turn to.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2089523",
+    "spanish": "El doctor aconsejó que mi madre se quedara tres días más en cama.",
+    "finnish": "Lääkäri ohjeisti että äitini pysyy sängyssä vielä kolme päivää.",
+    "english": "The doctor advised that my mother stay in bed for three more days.",
+    "wordCount": 13,
+    "categories": [
+      "family",
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2096359",
+    "spanish": "Se lo diré a Tom más tarde.",
+    "finnish": "Kerron Tomille myöhemmin.",
+    "english": "I'll tell Tom later.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2096623",
+    "spanish": "Esto también es una manzana.",
+    "finnish": "Tämäkin on omena.",
+    "english": "This is also an apple.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2098586",
+    "spanish": "Él se portó como un niño.",
+    "finnish": "Hän käyttäytyi lapsellisesti.",
+    "english": "He behaved like a child.",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2117395",
+    "spanish": "Conduce más rápido.",
+    "finnish": "Aja nopeammin.",
+    "english": "Drive faster.",
+    "wordCount": 3,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2119384",
+    "spanish": "Necesitamos más azúcar.",
+    "finnish": "Tarvitsemme lisää sokeria.",
+    "english": "We need more sugar.",
+    "wordCount": 3,
+    "categories": [
+      "food",
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "2123008",
+    "spanish": "Mhmm. Yo también pienso que sí.",
+    "finnish": "Mm-hm. Niin minäkin uskon.",
+    "english": "Mm-hm. I think so too.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2182505",
+    "spanish": "Ella merece más.",
+    "finnish": "Hän ansaitsee enemmän.",
+    "english": "She deserves more.",
+    "wordCount": 3,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2183993",
+    "spanish": "Quiero más dinero.",
+    "finnish": "Tahdon lisää rahaa.",
+    "english": "I want more money.",
+    "wordCount": 3,
+    "categories": [
+      "work",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2210033",
+    "spanish": "Hable más despacio.",
+    "finnish": "Puhu hitaammin.",
+    "english": "Speak more slowly.",
+    "wordCount": 3,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2256583",
+    "spanish": "La vista de Tom no es tan buena como solía ser.",
+    "finnish": "Tomin näkö ei ole niin hyvä kuin tapasi olla.",
+    "english": "Tom's eyesight isn't as good as it used to be.",
+    "wordCount": 11,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2258999",
+    "spanish": "Es tan claro como el agua.",
+    "finnish": "Se on selvä kuin päivä.",
+    "english": "It's as clear as day.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2264710",
+    "spanish": "A lo más, costará diez pesos.",
+    "finnish": "Korkeintaan se maksaa kymmenen pesoa.",
+    "english": "At most, it'll cost ten pesos.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2266471",
+    "spanish": "Te contaré mi vida como fue verdaderamente.",
+    "finnish": "Kerron sinulle elämäntarinani niin kuin se oikeasti oli.",
+    "english": "I will tell you my life story how it truly was.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2305649",
+    "spanish": "Necesitamos gente más talentosa.",
+    "finnish": "Tarvitsemme lahjakkaampia ihmisiä.",
+    "english": "We need more talented people.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "2305664",
+    "spanish": "Necesitamos más gente talentosa.",
+    "finnish": "Tarvitsemme enemmän lahjakkaita ihmisiä.",
+    "english": "We need more talented people.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "2310767",
+    "spanish": "Tu coche es rápido, pero el mío es más rápido.",
+    "finnish": "Autosi on nopea, mutta minun on nopeampi.",
+    "english": "Your car is fast, but mine is faster.",
+    "wordCount": 10,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2434511",
+    "spanish": "Tom es diferente.",
+    "finnish": "Tom on erilainen.",
+    "english": "Tom is different.",
+    "wordCount": 3,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2454320",
+    "spanish": "El Vaticano es el país más chico del mundo.",
+    "finnish": "Vatikaani on maailman pienin valtio.",
+    "english": "The Vatican is the smallest country in the world.",
+    "wordCount": 9,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2461901",
+    "spanish": "Tengo diez veces más libros que tú.",
+    "finnish": "Minulla on kymmenen kertaa enemmän kirjoja kuin sinulla.",
+    "english": "I have ten times as many books as you have.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2482293",
+    "spanish": "Tom habla francés tan bien como Mary.",
+    "finnish": "Tom puhuu ranskaa yhtä hyvin kuin Mari.",
+    "english": "Tom speaks French as well as Mary does.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2486140",
+    "spanish": "Tom llamó para decirle a Mary que vendría más tarde.",
+    "finnish": "Tom soitti sanoakseen Marylle, että hän tulisi myöhemmin.",
+    "english": "Tom called to tell Mary that he'd be late.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2498863",
+    "spanish": "Tom es el más viejo.",
+    "finnish": "Tom on kaikista vanhin.",
+    "english": "Tom is the oldest.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2533200",
+    "spanish": "Hasta la rosa más bella se marchitará un día.",
+    "finnish": "Jopa kaikista kaunein ruusu kuihtuu jonakin päivänä.",
+    "english": "Even the most beautiful rose will someday wilt.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2585558",
+    "spanish": "Pocos tesoros son tan valiosos como un amigo.",
+    "finnish": "Harvat aarteet ovat yhtä arvokkaita kuin ystävä.",
+    "english": "Few treasures are worth as much as a friend.",
+    "wordCount": 8,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2667256",
+    "spanish": "Quiero hablarte acerca de algo más.",
+    "finnish": "Haluan puhua sinun kanssasi jostain muusta.",
+    "english": "I want to talk to you about something else.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2671393",
+    "spanish": "Quiero ver más.",
+    "finnish": "Haluan nähdä enemmän.",
+    "english": "I want to see more.",
+    "wordCount": 3,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2702236",
+    "spanish": "Tom es más joven que tú.",
+    "finnish": "Tomi on sinua nuorempi.",
+    "english": "Tom is younger than you are.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2711379",
+    "spanish": "No necesitamos nada más.",
+    "finnish": "Emme tarvitse mitään muuta.",
+    "english": "We don't need anything else.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2711395",
+    "spanish": "El lago es más profundo aquí.",
+    "finnish": "Järvi on syvimmillään tässä.",
+    "english": "The lake is deepest here.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2711464",
+    "spanish": "Soy el más viejo.",
+    "finnish": "Olen vanhin.",
+    "english": "I'm the oldest.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2747282",
+    "spanish": "Nunca he visto nada como esto.",
+    "finnish": "En ole ikinä ennen nähnyt mitään tällaista.",
+    "english": "I've never seen anything quite like this.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2762799",
+    "spanish": "Yo jamás diría algo así.",
+    "finnish": "En koskaan sanoisi jotain tuollaista.",
+    "english": "I'd never say something like that.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2783570",
+    "spanish": "Nadie más puede saber.",
+    "finnish": "Kukaan muu ei voi tietää.",
+    "english": "Nobody else can know.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2783572",
+    "spanish": "Ella era más linda que todas las demás.",
+    "finnish": "Hän oli kauniimpi kuin kukaan muu.",
+    "english": "She was more beautiful than all of the others.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2789940",
+    "spanish": "¿Jamás te das por vencido?",
+    "finnish": "Etkö anna koskaan periksi?",
+    "english": "Don't you ever give up?",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2799994",
+    "spanish": "Enero usualmente es el mes más frío.",
+    "finnish": "Tammikuu on yleensä kylmin kuukausi.",
+    "english": "January is usually the coldest month.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2815154",
+    "spanish": "La anciana fue llevada al hospital, pero murió un poco más tarde.",
+    "finnish": "Vanha nainen vietiin sairaalaan, mutta hän kuoli pian sen jälkeen.",
+    "english": "The old woman was taken to a hospital, but she died not long after.",
+    "wordCount": 12,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2828860",
+    "spanish": "Mientras más viejo me hago, con más claridad recuerdo cosas que nunca pasaron.",
+    "finnish": "Mitä vanhemmaksi tulen, sitä selvemmin muistan asioita, joita ei koskaan tapahtunut.",
+    "english": "The older I get, the more clearly I remember things that never happened.",
+    "wordCount": 13,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2851994",
+    "spanish": "El joven al que contraté como mi asistente trabaja muy duro.",
+    "finnish": "Nuori mies, jonka palkkasin assistentikseni, työskentelee kovasti.",
+    "english": "The young man whom I employed as my assistant works very hard.",
+    "wordCount": 11,
+    "categories": [
+      "food",
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "2852377",
+    "spanish": "Cuando probé explicarle mis motivos, él simplemente se puso más furioso.",
+    "finnish": "Kun yritin selittää syitäni, hän yksinkertaisesti tuli vielä vihaisemmaksi.",
+    "english": "When I tried to explain my reasons he simply became even angrier.",
+    "wordCount": 11,
+    "categories": [
+      "emotions",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2852410",
+    "spanish": "Todo era más sencillo entonces.",
+    "finnish": "Silloin kaikki oli yksinkertaisempaa.",
+    "english": "Everything was simpler then.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2856382",
+    "spanish": "La Policía jamás nos va a encontrar.",
+    "finnish": "Poliisi ei tule koskaan löytämään meitä.",
+    "english": "The police will never find us.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2856521",
+    "spanish": "Necesito un cuarto más grande.",
+    "finnish": "Tarvitsen isomman huoneen.",
+    "english": "I need a larger room.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2857704",
+    "spanish": "No puedo manejar una moto y mucho menos un carro.",
+    "finnish": "En osaa ajaa moottoripyörää, vielä vähemmän autoa.",
+    "english": "I cannot drive a motorcycle, much less a car.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2861442",
+    "spanish": "Ella tiene más experiencia que yo.",
+    "finnish": "Hän on kokeneempi kuin minä.",
+    "english": "She's more experienced than I am.",
+    "wordCount": 6,
+    "categories": [
+      "work",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2902538",
+    "spanish": "¡Pelea como hombre!",
+    "finnish": "Taistele kuin mies!",
+    "english": "Fight like a man!",
+    "wordCount": 3,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2908560",
+    "spanish": "Amo tanto a María.",
+    "finnish": "Rakastan Marya niin paljon.",
+    "english": "I love Mary so much.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2920908",
+    "spanish": "De acuerdo. Iré tan pronto como pueda.",
+    "finnish": "Hyvä on, tulen niin pian kuin pystyn.",
+    "english": "All right. I'll come as soon as possible.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "2921019",
+    "spanish": "Tom no podrá terminar el trabajo a menos que lo ayudemos.",
+    "finnish": "Tom ei pysty tekemään työtä loppuun, ellemme auta häntä.",
+    "english": "Tom won't be able to finish the job unless we help him.",
+    "wordCount": 11,
+    "categories": [
+      "work",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2929569",
+    "spanish": "Recibí cartas de una persona que jamás he conocido.",
+    "finnish": "Sain kirjeitä eräältä henkilöltä jota en ole koskaan tavannut.",
+    "english": "I got letters from a person I've never met.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2932203",
+    "spanish": "¿Acaso sería justo con los demás?",
+    "finnish": "Olisiko se reilua muita kohtaan?",
+    "english": "Would it be fair to the others?",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries"
+    ]
+  },
+  {
+    "id": "2933171",
+    "spanish": "Jorge pesa al menos 70 kilos.",
+    "finnish": "George painaa ainakin 70 kiloa.",
+    "english": "George weighs at least 70 kilograms.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2933233",
+    "spanish": "Al menos no soy un perdedor como tú.",
+    "finnish": "Ainakaan minä en ole kaltaisesi luuseri.",
+    "english": "At least I'm not a loser like you.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2934692",
+    "spanish": "Llegué más tarde de lo usual.",
+    "finnish": "Saavuin perille tavallista myöhemmin.",
+    "english": "I arrived later than usual.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2934698",
+    "spanish": "Hablaré con Tom más tarde.",
+    "finnish": "Puhun Tomin kanssa myöhemmin.",
+    "english": "I'll talk to Tom later.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2934700",
+    "spanish": "Pocos meses más tarde, Israel invadió Egipto.",
+    "finnish": "Muutama kuukausi myöhemmin Israel hyökkäsi Egyptiin.",
+    "english": "A few months later, Israel invaded Egypt.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2934702",
+    "spanish": "Lo discutiremos más tarde.",
+    "finnish": "Keskustelemme siitä myöhemmin.",
+    "english": "We'll discuss it later.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2934706",
+    "spanish": "Hablaremos de esto más tarde.",
+    "finnish": "Puhumme tästä myöhemmin.",
+    "english": "We'll talk about this later.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2934708",
+    "spanish": "Te mostraré más tarde.",
+    "finnish": "Näytän sinulle myöhemmin.",
+    "english": "I'll show you later.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2934709",
+    "spanish": "Estoy en medio de algo. ¿Podrías volver más tarde?",
+    "finnish": "Olen kesken tekemisen. Voisitko tulla takaisin myöhemmin?",
+    "english": "I'm in the middle of something. Could you come back later?",
+    "wordCount": 9,
+    "categories": [
+      "leisure",
+      "time",
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2935659",
+    "spanish": "Podés escribir en el idioma que querás. En Tatoeba todos los idiomas son iguales.",
+    "finnish": "Voit kirjoittaa millä tahansa kielellä haluat. Tatoebassa kaikki kielet ovat tasa-arvoisia.",
+    "english": "You may write in any language you want. On Tatoeba, all languages are equal.",
+    "wordCount": 14,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2943225",
+    "spanish": "Estos zapatos son caros, y más encima, son demasiado chicos.",
+    "finnish": "Nämä kengät ovat kalliit, ja muutenkin ne ovat liian pienet.",
+    "english": "These shoes are expensive, and what is more, they are too small.",
+    "wordCount": 10,
+    "categories": [
+      "daily_life",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2944684",
+    "spanish": "Jamás hemos tenido una nevada tan intensa.",
+    "finnish": "Ikinä ei ole satanut näin paljon lunta.",
+    "english": "We have never had such a heavy snowfall.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2947993",
+    "spanish": "Antiguamente la sal era una comodidad rara y costosa.",
+    "finnish": "Suola oli entisaikaan harvinainen ja kallis hyödyke.",
+    "english": "Salt was a rare and costly commodity in ancient times.",
+    "wordCount": 9,
+    "categories": [
+      "food",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "2949557",
+    "spanish": "La boda es en menos de tres meses.",
+    "finnish": "Häät ovat alle kolmen kuukauden kuluttua.",
+    "english": "The wedding is less than three months away.",
+    "wordCount": 8,
+    "categories": [
+      "family",
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2949956",
+    "spanish": "La gente consume menos electricidad que antes.",
+    "finnish": "Ihmiset kuluttavat vähemmän sähköä kuin ennen.",
+    "english": "People consume less electricity than before.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2963429",
+    "spanish": "Él es la persona más alta del mundo.",
+    "finnish": "Hän on maailman pisin ihminen.",
+    "english": "He is the tallest person in the world.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2964179",
+    "spanish": "Una palabra más, y estás muerto.",
+    "finnish": "Sanakin ja olet kuollut mies.",
+    "english": "One more word, and you're dead!",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2964482",
+    "spanish": "Quiero ayudar a Tom tanto como pueda.",
+    "finnish": "Haluan auttaa Tomia niin paljon kuin voin.",
+    "english": "I want to help Tom as much as I can.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "2975858",
+    "spanish": "Haría cualquier cosa menos eso.",
+    "finnish": "Tekisin mitä tahansa paitsi tuota.",
+    "english": "I would do anything but that.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2988588",
+    "spanish": "¡Parece que ahora hay más de dos mil frases en uigur en Tatoeba!",
+    "finnish": "Näyttää siltä, että Tatoebassa on nyt yli kaksituhatta uiguurinkielistä lausetta!",
+    "english": "It looks like there are now over two thousand Uyghur sentences on Tatoeba!",
+    "wordCount": 13,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2998073",
+    "spanish": "Mi esposa normalmente no bebe café por la noche, y yo tampoco.",
+    "finnish": "Vaimoni ei tavallisesti juo kahvia öisin, enkä juo minäkään.",
+    "english": "My wife usually doesn't drink coffee at night, and neither do I.",
+    "wordCount": 12,
+    "categories": [
+      "food",
+      "family",
+      "time",
+      "daily_life",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2998104",
+    "spanish": "Te ves más feliz de lo normal.",
+    "finnish": "Näytät iloisemmalta kuin tavallisesti.",
+    "english": "You look happier than usual.",
+    "wordCount": 7,
+    "categories": [
+      "emotions",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2998105",
+    "spanish": "Tom se ve más feliz de lo normal.",
+    "finnish": "Tom näyttää onnellisemmalta kuin tavallisesti.",
+    "english": "Tom looks happier than usual.",
+    "wordCount": 8,
+    "categories": [
+      "emotions",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2998110",
+    "spanish": "Hoy hay muchos más estudiantes en la sala que ayer.",
+    "finnish": "Luokkahuoneessa on tänään paljon enemmän opiskelijoita kuin eilen.",
+    "english": "There are many more students in the classroom today than yesterday.",
+    "wordCount": 10,
+    "categories": [
+      "food",
+      "time",
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2998487",
+    "spanish": "El futuro está más cerca de lo que crees.",
+    "finnish": "Tulevaisuus on lähempänä kuin luulet.",
+    "english": "The future is closer than you think.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3002689",
+    "spanish": "Debemos respetar a los demás.",
+    "finnish": "Meidän tulee kunnoittaa toisia.",
+    "english": "We must respect others.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "3006052",
+    "spanish": "También hay un baño en el cuarto piso.",
+    "finnish": "Neljännessä kerroksessakin on WC.",
+    "english": "There is also a toilet on the fourth floor.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3053883",
+    "spanish": "Tom jamás había visto a María tan enojada.",
+    "finnish": "Tom ei ole koskaan nähnyt Marya niin vihaisena.",
+    "english": "Tom has never seen Mary so angry.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3056564",
+    "spanish": "No tenían nada más pequeño.",
+    "finnish": "Heillä ei ollut mitään pienempää.",
+    "english": "They didn't have anything smaller.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3057649",
+    "spanish": "La estrella más cercana a nuestro sistema solar es Próxima Centauri.",
+    "finnish": "Aurinkokuntamme lähin tähti on Proxima Centauri.",
+    "english": "The nearest star to our solar system is Proxima Centauri.",
+    "wordCount": 11,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3081151",
+    "spanish": "He esperado dos horas enteras. No puedo esperar más.",
+    "finnish": "Olen odottanut kaksi kokonaista tuntia. En voi odottaa kauempaa.",
+    "english": "I've waited two whole hours. I can't wait any longer.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3081397",
+    "spanish": "Tom parece ser más amistoso que antes.",
+    "finnish": "Tom vaikuttaa ystävällisemmältä kuin aikaisemmin.",
+    "english": "Tom seems friendlier than before.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "3081912",
+    "spanish": "Jamás estuve enojado contigo.",
+    "finnish": "En koskaan ollut sinulle vihainen.",
+    "english": "I was never mad at you.",
+    "wordCount": 4,
+    "categories": [
+      "emotions",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3084132",
+    "spanish": "Él me trata como a un niño.",
+    "finnish": "Hän kohtelee minua kuin lasta.",
+    "english": "He treats me like a child.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3084189",
+    "spanish": "Él no quiere intentar nada más.",
+    "finnish": "Hän ei halua yrittää mitään muuta.",
+    "english": "He doesn't want to try anything else.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3084197",
+    "spanish": "¿Qué más puede pedir una chica?",
+    "finnish": "Mitä muuta tyttö voi pyytää?",
+    "english": "What more can a girl ask for?",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries"
+    ]
+  },
+  {
+    "id": "3084214",
+    "spanish": "Lo que más me impresiona de China es la comida china.",
+    "finnish": "Mikä tekee minuun suurimman vaikutuksen Kiinassa on kiinalainen ruoka.",
+    "english": "What impresses me the most about China is Chinese food.",
+    "wordCount": 11,
+    "categories": [
+      "food",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3084223",
+    "spanish": "Deberías ponerle más atención a tu propia seguridad.",
+    "finnish": "Sinun pitäisi kiinnittää enemmän huomiota omaan turvallisuuteesi.",
+    "english": "You should pay more attention to your own safety.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "3099127",
+    "spanish": "Me quedé otro día más en cama para estar seguro.",
+    "finnish": "Pysyin vuoteessa vielä yhden päivän ollakseni varmoilla.",
+    "english": "I stayed in bed one more day just to be on the safe side.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "3100342",
+    "spanish": "Ya había más de veinte personas sentadas allí.",
+    "finnish": "Siellä oli jo yli 20 ihmistä istumassa.",
+    "english": "There were already over 20 people sitting there.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3100764",
+    "spanish": "Este es ciertamente el jugo más delicioso que jamás he bebido en mi vida.",
+    "finnish": "Tämä on varmaankin herkullisinta tuoremehua jota olen koskaan eläessäni juonut.",
+    "english": "This is certainly the most delicious juice I have ever drunk in my life.",
+    "wordCount": 14,
+    "categories": [
+      "food",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3100861",
+    "spanish": "Es todo menos imposible.",
+    "finnish": "Se on kaikkea muuta kuin mahdotonta.",
+    "english": "It's all but impossible.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3104498",
+    "spanish": "Trabajo todos los días, menos sábados.",
+    "finnish": "Teen työtä joka päivä paitsi lauantaina.",
+    "english": "I work every day except Saturday.",
+    "wordCount": 6,
+    "categories": [
+      "work",
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3109023",
+    "spanish": "Tu voz para mí es como el canto de la sirena.",
+    "finnish": "Äänesi on minulle kuin seireenin laulua.",
+    "english": "The sound of your voice is like a siren's song to me.",
+    "wordCount": 11,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3112417",
+    "spanish": "Nunca más digas una mentira.",
+    "finnish": "Älä enää koskaan kerro valetta.",
+    "english": "Never tell a lie again.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3112567",
+    "spanish": "Yo también quiero jugar.",
+    "finnish": "Minä haluan pelata myös.",
+    "english": "I also want to play.",
+    "wordCount": 4,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3113383",
+    "spanish": "¡No quiero oír una palabra más al respecto!",
+    "finnish": "En halua kuulla sanaakaan siitä enää.",
+    "english": "I don't want to hear another word about it!",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3113402",
+    "spanish": "No voy a ver a nadie más.",
+    "finnish": "En aio tavata ketään muita.",
+    "english": "I'm not going to see anybody else.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3116840",
+    "spanish": "Le gusto a ella y ella también me gusta.",
+    "finnish": "Hän pitää minusta ja minä hänestä myös.",
+    "english": "She likes me and I like her too.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3118308",
+    "spanish": "Desearía haber hecho más.",
+    "finnish": "Toivon että olisin tehnyt enemmän.",
+    "english": "I wish I had done more.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3118345",
+    "spanish": "¿Tú lo amas también?",
+    "finnish": "Rakastatko myös häntä?",
+    "english": "Do you love him too?",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3118346",
+    "spanish": "¿También tú lo amas?",
+    "finnish": "Rakastatko myös häntä?",
+    "english": "Do you love him too?",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3118350",
+    "spanish": "Jamás he tenido ese problema antes.",
+    "finnish": "Minulla ei koskaan ennen ole ollut tuota ongelmaa.",
+    "english": "I've never had that problem before.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3177421",
+    "spanish": "Ya no te escucho más.",
+    "finnish": "En kuuntele sinua enää.",
+    "english": "I'm not listening to you anymore.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3209195",
+    "spanish": "Por favor, compórtese como un caballero inglés.",
+    "finnish": "Käyttäydythän sitten niin kuin englantilainen herrasmies.",
+    "english": "Please behave like an English gentleman.",
+    "wordCount": 7,
+    "categories": [
+      "greetings",
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3215642",
+    "spanish": "El invierno pasado en Helsinki nevó más de setenta centímetros de nieve.",
+    "finnish": "Helsingissä satoi viime talvena yli seitsemänkymmentä senttimetriä lunta.",
+    "english": "More than seventy centimetres of snow fell in Helsinki last year.",
+    "wordCount": 12,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3216169",
+    "spanish": "¿Le preguntaste a los demás?",
+    "finnish": "Oletko kysynyt muilta?",
+    "english": "Have you asked the others?",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries"
+    ]
+  },
+  {
+    "id": "3225156",
+    "spanish": "Cuéntame más sobre ti.",
+    "finnish": "Kerro minulle lisää itsestäsi.",
+    "english": "Tell me more about yourself.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3229887",
+    "spanish": "No he visto a nadie más que a ti.",
+    "finnish": "En ole nähnyt ketään paitsi sinut.",
+    "english": "I've seen nobody except you.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3232909",
+    "spanish": "Nunca he sido más feliz.",
+    "finnish": "En ole ollut ikinä onnellisempi.",
+    "english": "I've never been happier.",
+    "wordCount": 5,
+    "categories": [
+      "emotions",
+      "time",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3235843",
+    "spanish": "Hacía tanto calor que ella tenía ganas de comer helado.",
+    "finnish": "Oli niin kuumaa että häntä halutti jäätelö.",
+    "english": "It was so hot that she felt like eating ice cream.",
+    "wordCount": 10,
+    "categories": [
+      "food",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3247711",
+    "spanish": "John no está tan bien como para ir al colegio hoy.",
+    "finnish": "John ei voi niin hyvin, että hän voisi mennä tänään kouluun.",
+    "english": "John isn't well enough to go to school today.",
+    "wordCount": 11,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3247915",
+    "spanish": "Lamento no poder ayudar más.",
+    "finnish": "Olen pahoillani, etten voi auttaa enempää.",
+    "english": "I'm sorry I can't be of more help.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3247923",
+    "spanish": "Tom jamás pensó en Mary cuando se había ido.",
+    "finnish": "Tom ei koskaan ajatellut Marya, kun tämä oli poissa.",
+    "english": "Tom never thought about Mary while she was away.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3247978",
+    "spanish": "¿Por qué a tanta gente le gusta tanto John Lennon?",
+    "finnish": "Miksi niin monet ihmiset pitävät John Lennonista niin paljon?",
+    "english": "Why do many people like John Lennon so much?",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3248062",
+    "spanish": "Me recuerdas tanto a mi amiga Marina, una gran profesora de ruso.",
+    "finnish": "Tuot mieleeni niin paljon ystäväni Marinan, loistavan venäjän opettajan.",
+    "english": "You remind me so much of my friend Marina, a great teacher of Russian.",
+    "wordCount": 12,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "3253257",
+    "spanish": "Envejecer es una cosa fascinante. Mientras más envejeces, más quieres envejecer.",
+    "finnish": "Vanheneminen on kiehtova asia. Mitä vanhemmaksi tulet, sitä vanhemmaksi haluat tulla.",
+    "english": "Getting old is a fascinating thing. The older you get, the older you want to get.",
+    "wordCount": 11,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3253293",
+    "spanish": "Liisa es tan alta como yo.",
+    "finnish": "Liisa on yhtä pitkä kuin kuin minä.",
+    "english": "Liisa is as tall as me.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3254512",
+    "spanish": "A Tom no le interesa lo que los demás piensen.",
+    "finnish": "Tomia ei kiinnosta mitä muuta ihmiset ajattelevat.",
+    "english": "Tom doesn't care what other people think.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3270602",
+    "spanish": "Me acuerdo como si hubiera sido ayer.",
+    "finnish": "Muistan sen kuin eilisen.",
+    "english": "I remember it as if it were yesterday.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "3277780",
+    "spanish": "Quizá te diga las respuestas más tarde, pero antes trata de encontrarlas tú mismo.",
+    "finnish": "Saatan kertoa vastaukset sinulle myöhemmin, mutta yritä selvittää ne ensin itseksesi.",
+    "english": "I might tell you the answers later, but try to figure them out on your own first.",
+    "wordCount": 14,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3277781",
+    "spanish": "Tom habla contigo más que con cualquier otra muchacha.",
+    "finnish": "Tom puhuu sinulle enemmän kuin kenellekään muulle tytölle.",
+    "english": "Tom talks to you more than he talks to any other girl.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "3277788",
+    "spanish": "Tom era mi amigo más cercano.",
+    "finnish": "Tom oli läheisin ystäväni.",
+    "english": "Tom was my closest friend.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3277789",
+    "spanish": "Solo pocas cosas nos traen tanto placer como la música.",
+    "finnish": "Vain harvat asiat tuottavat meille yhtä paljon nautintoa kuin musiikki.",
+    "english": "Few things bring as much pleasure as music.",
+    "wordCount": 10,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3295454",
+    "spanish": "Tom estaba a punto de hacer la llamada telefónica más importante de su vida.",
+    "finnish": "Tom oli juuri aikeissa soittaa elämänsä tärkeimmän puhelun.",
+    "english": "Tom was about to make the most important phone call of his life.",
+    "wordCount": 14,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3353714",
+    "spanish": "Tom trabajó como salvavidas durante el verano.",
+    "finnish": "Tom työskenteli hengenpelastajana kesän ajan.",
+    "english": "Tom worked as a lifeguard during the summer.",
+    "wordCount": 7,
+    "categories": [
+      "food",
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3353715",
+    "spanish": "Tom estudia todo el tiempo, pero jamás parece aprender nada.",
+    "finnish": "Tom opiskelee koko ajan, mutta ei tunnu ikinä oppivan mitään.",
+    "english": "Tom is always studying, but he never seems to learn anything.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3354562",
+    "spanish": "Mi mamá y yo somos completamente diferentes.",
+    "finnish": "Äitini ja minä olemme täysin erilaisia.",
+    "english": "My mom and I are completely different.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3357726",
+    "spanish": "Tom quería decir más, pero no pudo.",
+    "finnish": "Tom halusi sanoa enemmän, mutta hän ei pystynyt.",
+    "english": "Tom wanted to say more, but he couldn't.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3368883",
+    "spanish": "No hay nada más doloroso que perder a tu propio querido hijo.",
+    "finnish": "Ei ole mitään tuskallisempaa kuin menettää oma rakas lapsensa.",
+    "english": "There's nothing more painful than losing one's loved child.",
+    "wordCount": 12,
+    "categories": [
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3371738",
+    "spanish": "Tom jamás soñó que María alguna vez lo abandonaría.",
+    "finnish": "Tom ei koskaan uneksinutkaan, että Mary saattaisi koskaan jättää hänet.",
+    "english": "Tom never dreamed that Mary would ever leave him.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3379087",
+    "spanish": "Tengo tanta hambre como un lobo.",
+    "finnish": "Olen nälkäinen kuin susi.",
+    "english": "I'm hungry like a wolf.",
+    "wordCount": 6,
+    "categories": [
+      "food",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "3389927",
+    "spanish": "Nuestra relación es como una aventura.",
+    "finnish": "Suhteemme on kuin seikkailu.",
+    "english": "Our relationship is like an adventure.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3389947",
+    "spanish": "No tuve más opción que hacer lo que Tom me decía que haga.",
+    "finnish": "Minulla ei ollut muuta vaihtoehtoa kuin tehdä, mitä Tom käski minun tehdä.",
+    "english": "I had no choice but to do what Tom told me to do.",
+    "wordCount": 13,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3389976",
+    "spanish": "No quiero hacer esto, pero no me dejas más alternativa.",
+    "finnish": "En halua tehdä tätä, mutta et jätä minulle muuta mahdollisuutta.",
+    "english": "I don't want to do this, but you leave me no choice.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3390033",
+    "spanish": "¿A quién más quisieras culpar?",
+    "finnish": "Ketä muuta haluaisit syyttää?",
+    "english": "Who else would you like to blame?",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3390083",
+    "spanish": "Yo tampoco dije eso.",
+    "finnish": "En minäkään sanonut sitä.",
+    "english": "I didn't say that either.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3390125",
+    "spanish": "Tom jamás querría herirte.",
+    "finnish": "Tom ei haluaisi ikinä satuttaa sinua.",
+    "english": "Tom would never want to hurt you.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3392078",
+    "spanish": "Este libro no es tan pesado como aquel.",
+    "finnish": "Tämä kirja ei ole niin painava kuin tuo.",
+    "english": "This book isn't as heavy as that one.",
+    "wordCount": 8,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3392079",
+    "spanish": "He cometido más de un error estúpido en mi vida.",
+    "finnish": "Olen tehnyt elämässäni useampia typeriä virheitä kuin yhden.",
+    "english": "I've made more than one stupid mistake in my life.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3392133",
+    "spanish": "Fue estúpido. Jamás debimos hacer eso.",
+    "finnish": "Se oli typerää. Meidän ei olisi ikinä pitänyt tehdä sitä.",
+    "english": "It was stupid. We never should've done it.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3392134",
+    "spanish": "No somos tan tontos como pensabas, ¿o no?",
+    "finnish": "Emme ole niin typeriä kuin luulit, eikö totta?",
+    "english": "We're not as stupid as you thought, right?",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3392138",
+    "spanish": "¿Quién sería tan estúpido como para hacer eso?",
+    "finnish": "Kuka olisi niin typerä, että tekisi noin?",
+    "english": "Who would be stupid enough to do that?",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3392182",
+    "spanish": "No eres tan estúpido como aparentas.",
+    "finnish": "Et ole niin typerä kuin miltä näytät.",
+    "english": "You're not as stupid as you look.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3392215",
+    "spanish": "Tom Jackson es considerado como uno de los hombres más peligrosos en Australia.",
+    "finnish": "Tom Jacksonia pidetään yhtenä Australian vaarallisimmista miehistä.",
+    "english": "Tom Jackson is considered to be one of the most dangerous men in Australia.",
+    "wordCount": 13,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3393897",
+    "spanish": "Este me gusta aún más.",
+    "finnish": "Pidän tästä vielä enemmän.",
+    "english": "I like this one even better.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "3393899",
+    "spanish": "Tom trabaja muy duro, pero no tan duro como María.",
+    "finnish": "Tom tekee todella kovasti töitä, mutta ei niin kovasti kuin Mari.",
+    "english": "Tom works very hard, but not as hard as Mary.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3395273",
+    "spanish": "Solo porque Tom dijo que jamás se ha juntado con María no significa que sea cierto.",
+    "finnish": "Vain koska Tom sanoi, ettei hän ole koskaan tavannut Maria, niin se ei tarkoita, että se olisi totta.",
+    "english": "Just because Tom said he had never met Mary doesn't mean it's true.",
+    "wordCount": 16,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3414170",
+    "spanish": "Comí una ensalada como cena.",
+    "finnish": "Söin salaatin päivälliseksi.",
+    "english": "I ate a salad for dinner.",
+    "wordCount": 5,
+    "categories": [
+      "food",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "3424459",
+    "spanish": "Es una de las ciudades más grandes del mundo.",
+    "finnish": "Se on yksi maailman suurimmista kaupungeista.",
+    "english": "It's one of the largest cities in the world.",
+    "wordCount": 9,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "3425758",
+    "spanish": "Mi hermano es más fuerte que yo.",
+    "finnish": "Minun veljeni on minua vahvempi.",
+    "english": "My brother is stronger than me.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3432923",
+    "spanish": "El lago Biwa es el lago más grande de Japón.",
+    "finnish": "Biwa-järvi on Japanin suurin järvi.",
+    "english": "Lake Biwa is the largest lake in Japan.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3453677",
+    "spanish": "Tom le dijo a María que para él, ella era la mujer más bella que jamás había conocido.",
+    "finnish": "Tom kertoi Marylle, että hänen mielestään Mary oli kaunein nainen, jonka Tom on ikinä tavannut.",
+    "english": "Tom told Mary he thought she was the most beautiful woman he'd ever met.",
+    "wordCount": 18,
+    "categories": [
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3466165",
+    "spanish": "Los matemáticos son como algunos franceses: cualquier cosa que les diga lo traducen a su propio idioma y al instante se convierte en algo completamente diferente.",
+    "finnish": "Matemaatikot ovat kuin ranskalaiset: mitä vain heille sanookin, he kääntävät sen omalle kielelleen ja se onkin jo jotain aivan muuta.",
+    "english": "Mathematicians are like some Frenchmen: whatever you say to them they translate into their own language, and forthwith it is something entirely different.",
+    "wordCount": 26,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3523440",
+    "spanish": "Tom puede bailar como un robot.",
+    "finnish": "Tom osaa tanssia kuin robotti.",
+    "english": "Tom can dance like a robot.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "3536292",
+    "spanish": "¿Puedes llamar más tarde?",
+    "finnish": "Voitko soittaa myöhemmin?",
+    "english": "Can you call me later?",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3536311",
+    "spanish": "No solo te ves como Tom, sino que también te oyes como él.",
+    "finnish": "Et vain näytä Tomilta vaan myös kuulostat häneltä.",
+    "english": "You not only look like Tom, you sound like him.",
+    "wordCount": 13,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3536314",
+    "spanish": "No podrías estar más equivocado.",
+    "finnish": "Et voisi olla enempää väärässä.",
+    "english": "You couldn't be more wrong.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3536315",
+    "spanish": "No podrías estar más equivocada.",
+    "finnish": "Et voisi olla enempää väärässä.",
+    "english": "You couldn't be more wrong.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3538549",
+    "spanish": "Lo podemos terminar más tarde.",
+    "finnish": "Voimme viimeistellä sen myöhemmin.",
+    "english": "We can finish it later.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "daily_life",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "3538551",
+    "spanish": "Tom es tan alto como yo.",
+    "finnish": "Tom on yhtä iso kuin minä.",
+    "english": "Tom is as big as I am.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3538579",
+    "spanish": "Necesito una caja más o menos de este porte.",
+    "finnish": "Tarvitsen suunnilleen näin ison laatikon.",
+    "english": "I need a box about this big.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3538582",
+    "spanish": "¿Tienes un tazón más grande?",
+    "finnish": "Onko sinulla suurempaa kulhoa?",
+    "english": "Do you have a bigger bowl?",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries"
+    ]
+  },
+  {
+    "id": "3542986",
+    "spanish": "Tom es sólo un poquito más alto que María.",
+    "finnish": "Tomi on vain ihan vähän Maria pidempi.",
+    "english": "Tom is only just a little bit taller than Mary.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3622966",
+    "spanish": "Esto es tan pesado como el plomo.",
+    "finnish": "Tämä on painavaa kuin lyijy.",
+    "english": "This is as heavy as lead.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3635664",
+    "spanish": "Tom es más inteligente que yo.",
+    "finnish": "Tomi on älykkäämpi kuin minä.",
+    "english": "Tom is more intelligent than me.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3696923",
+    "spanish": "Como premio recibió un reloj de oro.",
+    "finnish": "Palkinnoksi hän sai kultakellon.",
+    "english": "He received a golden watch as a prize.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "3762278",
+    "spanish": "En Japón supuestamente hay gente que tiene pingüinos como mascotas.",
+    "finnish": "Japanissa on ilmeisesti ihmisiä, jotka pitävät pingviiniä lemmikkinä.",
+    "english": "It seems that there are people in Japan who keep penguins as pets.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3767717",
+    "spanish": "Quiero estar más independiente.",
+    "finnish": "Tahdon olla itsenäisempi.",
+    "english": "I want to be more independent.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "3771634",
+    "spanish": "El fútbol es el deporte más popular en Brasil.",
+    "finnish": "Jalkapallo on Brasilian suosituin urheilulaji.",
+    "english": "Football is the most popular sport in Brazil.",
+    "wordCount": 9,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3775427",
+    "spanish": "Soy mucho más grande que tú.",
+    "finnish": "Olen paljon sinua isompi.",
+    "english": "I'm a lot bigger than you are.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3800069",
+    "spanish": "Comía como un cerdo.",
+    "finnish": "Söin kuin porsas.",
+    "english": "I used to eat like a pig.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "3855989",
+    "spanish": "Menos es más.",
+    "finnish": "Vähempi on enempi.",
+    "english": "Less is more.",
+    "wordCount": 3,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3857458",
+    "spanish": "Él habla tanto el francés como el inglés.",
+    "finnish": "Hän puhuu ranskaa sekä englantia.",
+    "english": "He speaks French as well as English.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3875905",
+    "spanish": "Tú no eres asesino y yo tampoco.",
+    "finnish": "Sinä et ole tappaja enkä ole minäkään.",
+    "english": "You're not a killer and neither am I.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3890096",
+    "spanish": "El fútbol es el deporte más popular del mundo.",
+    "finnish": "Jalkapallo on maailman suosituin urheilulaji.",
+    "english": "Soccer is the world's most popular sport.",
+    "wordCount": 9,
+    "categories": [
+      "leisure",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3890099",
+    "spanish": "¿Cuál es la montaña más grande del mundo?",
+    "finnish": "Mikä on maailman korkein vuori?",
+    "english": "What's the world's highest mountain?",
+    "wordCount": 8,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3890113",
+    "spanish": "Esta es la playa más bella de todo el mundo.",
+    "finnish": "Tämä on koko maailman kaunein ranta.",
+    "english": "This is the most beautiful beach in the whole world.",
+    "wordCount": 10,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3982169",
+    "spanish": "Tom come menos que Mary.",
+    "finnish": "Tom syö vähemmän kuin Mary.",
+    "english": "Tom eats less than Mary does.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3987985",
+    "spanish": "La inundación fue la peor catástrofe que jamás hayan tenido.",
+    "finnish": "Se tulva oli pahin katastrofi, joka heidät oli koskaan kohdannut.",
+    "english": "The flood was the greatest disaster they had ever had.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "4167273",
+    "spanish": "¿Me puede contar más acerca de Boston?",
+    "finnish": "Voisitko kertoa minulle lisää Bostonista?",
+    "english": "Can you tell me more about Boston?",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries"
+    ]
+  },
+  {
+    "id": "4250701",
+    "spanish": "No hay nada de malo en como te ves.",
+    "finnish": "Ulkonäössäsi ei ole mitään vikaa.",
+    "english": "There's nothing wrong with the way you look.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "4349746",
+    "spanish": "Él come como un puerco.",
+    "finnish": "Hän syö kuin porsas.",
+    "english": "He eats like a pig.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "4392355",
+    "spanish": "Me siento como un extraño.",
+    "finnish": "Tunnen itseni ulkopuoliseksi.",
+    "english": "I feel like an outsider.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "4544337",
+    "spanish": "El hombre moderno ve al dinero como un medio para conseguir más dinero.",
+    "finnish": "Nykyihminen katsoo rahan olevan keino saada lisää rahaa.",
+    "english": "Modern man looks on money as a means to getting more money.",
+    "wordCount": 13,
+    "categories": [
+      "work",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "4592774",
+    "spanish": "Te ves igual a tu hermano.",
+    "finnish": "Näytät aivan veljeltäsi.",
+    "english": "You look just like your brother.",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "4598024",
+    "spanish": "Eso suena como una amenaza.",
+    "finnish": "Tuo kuulostaa uhkaukselta.",
+    "english": "That sounds like a threat.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "4694085",
+    "spanish": "Lo trataba como a mi propio hijo.",
+    "finnish": "Kohtelin häntä kuin omaa poikaani.",
+    "english": "I treated him like my own son.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "4694092",
+    "spanish": "Tom y María también estaban en el auto.",
+    "finnish": "Tom ja Mary olivat myös autossa.",
+    "english": "Tom and Mary were also in the car.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "4744290",
+    "spanish": "Este es el museo más grande de la ciudad.",
+    "finnish": "Tämä on kaupungin suurin museo.",
+    "english": "This is the largest museum in the city.",
+    "wordCount": 9,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "4781561",
+    "spanish": "Tomás lo hizo tres veces.",
+    "finnish": "Tomi teki sen kolmesti.",
+    "english": "Tom did it three times.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "4784117",
+    "spanish": "Pertenecía a Tomás.",
+    "finnish": "Se kuului Tomille.",
+    "english": "It belonged to Tom.",
+    "wordCount": 3,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "5015694",
+    "spanish": "¿No fumás?",
+    "finnish": "Etkö tupakoi?",
+    "english": "Don't you smoke?",
+    "wordCount": 2,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "5020642",
+    "spanish": "A Tomás le gusta la idea.",
+    "finnish": "Tomi tykkää ideasta.",
+    "english": "Tom likes the idea.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "5020692",
+    "spanish": "¿Tomás está casado?",
+    "finnish": "Onko Tomi naimisissa?",
+    "english": "Is Tom married?",
+    "wordCount": 3,
+    "categories": [
+      "daily_life",
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "5023344",
+    "spanish": "Tomás está aprendiendo a programar.",
+    "finnish": "Tomi opettelee ohjelmointia.",
+    "english": "Tom is learning programming.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "5023345",
+    "spanish": "Tomás está aprendiendo programación.",
+    "finnish": "Tomi opettelee ohjelmointia.",
+    "english": "Tom is learning programming.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "5048084",
+    "spanish": "Tomás está de acuerdo.",
+    "finnish": "Tuomo on samaa mieltä.",
+    "english": "Tom agrees.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "5052158",
+    "spanish": "Tomás puede hablar en francés.",
+    "finnish": "Tom osaa ranskaa.",
+    "english": "Tom is able to speak French.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "5057344",
+    "spanish": "Tomás rara vez está en su casa.",
+    "finnish": "Tomi on hyvin harvoin kotona.",
+    "english": "Tom is hardly ever at home.",
+    "wordCount": 7,
+    "categories": [
+      "daily_life",
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "5106065",
+    "spanish": "Tomás murió en el incendio.",
+    "finnish": "Tomi kuoli tulipalossa.",
+    "english": "Tom died in the fire.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "5147737",
+    "spanish": "El plan de Tomás falló.",
+    "finnish": "Tomin suunnitelma epäonnistui.",
+    "english": "Tom's plan failed.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "5151550",
+    "spanish": "Me quedaré en la piscina un rato más.",
+    "finnish": "Jään altaaseen vielä hetkeksi.",
+    "english": "I'm going to stay in the pool a little longer.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "5483005",
+    "spanish": "¿Tiene tallas más pequeñas?",
+    "finnish": "Onko teillä pienempiä kokoja?",
+    "english": "Do you have smaller sizes?",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries"
+    ]
+  },
+  {
+    "id": "5630459",
+    "spanish": "Algunas legumbres, como los garbanzos y las judías, provocan flatulencias, pero son excelentes alimentos.",
+    "finnish": "Jotkut palkokasvit, kuten kikherneet ja pavut, aiheuttavat ilmavaivoja, mutta ovat erinomaista ravintoa.",
+    "english": "Some legumes, like chickpeas and green beans, cause flatulence but are excellent foods.",
+    "wordCount": 14,
+    "categories": [
+      "time",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "5632897",
+    "spanish": "El portugués brasileño suena muy diferente del europeo.",
+    "finnish": "Brasilian portugali ja Euroopan portugali kuulostavat hyvin erilaisilta.",
+    "english": "Brazilian and European Portuguese sound very different.",
+    "wordCount": 8,
+    "categories": [
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "5645602",
+    "spanish": "Soy más guapo que Tom.",
+    "finnish": "Olen komeampi kuin Tomi.",
+    "english": "I'm better-looking than Tom is.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "5645747",
+    "spanish": "Mi pelo no es tan largo como el de Tom.",
+    "finnish": "Minulla ei ole yhtä pitkä tukka kuin Tomilla.",
+    "english": "My hair isn't as long as Tom's.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "5660912",
+    "spanish": "Ojalá hubiera sacado más fotografías.",
+    "finnish": "Voi kun olisin ottanut enemmän valokuvia.",
+    "english": "I wish I'd taken more pictures.",
+    "wordCount": 5,
+    "categories": [
+      "travel",
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "5661164",
+    "spanish": "Tom es sólo un poquito más bajo que yo.",
+    "finnish": "Tomi on vain hiukan minua lyhyempi.",
+    "english": "Tom is just a little bit shorter than me.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "5714092",
+    "spanish": "Tom es mucho más fuerte que Mary.",
+    "finnish": "Tomi on paljon vahvempi kuin Mari.",
+    "english": "Tom is a lot stronger than Mary.",
+    "wordCount": 7,
+    "categories": [
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "5752547",
+    "spanish": "Echo de menos a Tom.",
+    "finnish": "Mul on ikävä Tomii.",
+    "english": "I miss Tom.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "5752626",
+    "spanish": "Extraño tanto Boston.",
+    "finnish": "Minulla on niin ikävä Bostonia.",
+    "english": "I miss Boston so much.",
+    "wordCount": 3,
+    "categories": [
+      "time",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "5755874",
+    "spanish": "También estoy aprendiendo francés.",
+    "finnish": "Minä opiskelen myös ranskaa.",
+    "english": "I'm also learning French.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "5911199",
+    "spanish": "Adriano también nació en España.",
+    "finnish": "Myös Hadrianus syntyi Espanjassa.",
+    "english": "Adrian was also born in Spain.",
+    "wordCount": 5,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "5939230",
+    "spanish": "No soy tan rico como Tom.",
+    "finnish": "En ole yhtä rikas kuin Tomi.",
+    "english": "I'm not as rich as Tom.",
+    "wordCount": 6,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "5994048",
+    "spanish": "¿Más té?",
+    "finnish": "Lisää teetä?",
+    "english": "More tea?",
+    "wordCount": 2,
+    "categories": [
+      "food",
+      "comparison_and_contrast",
+      "questions_inquiries"
+    ]
+  },
+  {
+    "id": "6611694",
+    "spanish": "Debería haber dormido más.",
+    "finnish": "Minun olisi pitänyt nukkua enemmän.",
+    "english": "I should've slept longer.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "6614107",
+    "spanish": "Somos como una familia.",
+    "finnish": "Olemme kuin perhe.",
+    "english": "We're like family.",
+    "wordCount": 4,
+    "categories": [
+      "family",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "6632865",
+    "spanish": "No parece tan difícil como antes.",
+    "finnish": "Se ei vaikuta yhtä vaikealta kuin ennen.",
+    "english": "It doesn't seem as difficult as before.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "6677419",
+    "spanish": "Soy el más inteligente.",
+    "finnish": "Olen kaikista älykkäin.",
+    "english": "I'm the smartest.",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "7917092",
+    "spanish": "La plata es mucho menos cara que el oro.",
+    "finnish": "Hopea on paljon halvempaa kuin kulta.",
+    "english": "Silver is much less expensive than gold.",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "7946581",
+    "spanish": "Como un montón de arroz.",
+    "finnish": "Minä syön paljon riisiä.",
+    "english": "I eat a lot of rice.",
+    "wordCount": 5,
+    "categories": [
+      "food",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "7946585",
+    "spanish": "¿Puedes venir tú también?",
+    "finnish": "Pääsetkö sinäkin mukaan?",
+    "english": "Can you come, too?",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "7950491",
+    "spanish": "Ésta es, de lejos, la más interesante de sus novelas.",
+    "finnish": "Tämä on kaikista hänen romaaneistaan ylivoimaisesti mielenkiintoisin.",
+    "english": "This is by far the most interesting of all his novels.",
+    "wordCount": 10,
+    "categories": [
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "7996681",
+    "spanish": "Esto sabría mejor si añadieses un poco más de sal.",
+    "finnish": "Tämä maistuisi paremmalta, jos lisäisit hieman suolaa.",
+    "english": "This would taste better if you added a little more salt.",
+    "wordCount": 10,
+    "categories": [
+      "food",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "7996690",
+    "spanish": "Creo que deberías añadir un poco más de pimienta.",
+    "finnish": "Minusta sinun pitäisi lisätä hieman pippuria.",
+    "english": "I think that you should add a little more pepper.",
+    "wordCount": 9,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "8189035",
+    "spanish": "El próximo fin de semana también será lluvioso.",
+    "finnish": "Ensi viikonloppu on myös sateinen.",
+    "english": "Next weekend will also be rainy.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "8310821",
+    "spanish": "Creo que Tomás está loco.",
+    "finnish": "Mä luulen, et Tomi on tullu hulluksi.",
+    "english": "I think that Tom is crazy.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "8310916",
+    "spanish": "Mira, ahí está la chaqueta de Tomás. ¿Cómo ha llegado aquí?",
+    "finnish": "Katso, tuossa on Tomin takki. Miten se on päätynyt tänne?",
+    "english": "Look, there's Thomas's jacket. How did it get here?",
+    "wordCount": 11,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "8322159",
+    "spanish": "Perdí más de tres horas.",
+    "finnish": "Siihen tuhlaantui kolme tuntia.",
+    "english": "I lost more than three hours.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "9868855",
+    "spanish": "¿Lo echas de menos?",
+    "finnish": "Kaipaatko sitä?",
+    "english": "Do you miss it?",
+    "wordCount": 4,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "10006841",
+    "spanish": "Es parecido.",
+    "finnish": "Se on samanlainen.",
+    "english": "It's similar.",
+    "wordCount": 2,
+    "categories": [
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "10297672",
+    "spanish": "¿Hay algo más que quieras añadir sobre este tema?",
+    "finnish": "Onko vielä jotain mitä haluaisit lisätä tähän asiaan?",
+    "english": "Is there anything else you'd like to add to this topic?",
+    "wordCount": 9,
+    "categories": [
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "statements_of_fact"
+    ]
+  }
+]

@@ -6,7 +6,8 @@
     "english": "This is never going to end.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -16,7 +17,9 @@
     "english": "I don't know if I have the time.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -26,7 +29,8 @@
     "english": "This is always the way it has been.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -36,7 +40,8 @@
     "english": "We might have frost next week.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -46,7 +51,8 @@
     "english": "A Japanese would never do such a thing.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -56,7 +62,9 @@
     "english": "If you don't eat, you die.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -76,7 +84,10 @@
     "english": "I would never have guessed that.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -86,7 +97,8 @@
     "english": "Smile now, cry later!",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -97,7 +109,8 @@
     "wordCount": 2,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -109,7 +122,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -142,7 +156,10 @@
     "wordCount": 12,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -152,7 +169,8 @@
     "english": "Some day my dream will come true.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -184,7 +202,11 @@
     "english": "What time can you come?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -196,7 +218,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -207,7 +230,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -217,7 +242,8 @@
     "english": "The weather turned better.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -238,7 +264,8 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -282,7 +309,8 @@
     "english": "She smokes twenty cigarettes a day.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -313,7 +341,10 @@
     "english": "It's never too late to learn.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -323,7 +354,8 @@
     "english": "He works every day except Sunday.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -335,7 +367,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -357,7 +390,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -367,7 +401,9 @@
     "english": "English is a very important language in today's world.",
     "wordCount": 12,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -378,7 +414,9 @@
     "wordCount": 2,
     "categories": [
       "greetings",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -400,7 +438,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -410,7 +449,8 @@
     "english": "He became an orphan when he was ten.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -421,7 +461,9 @@
     "wordCount": 3,
     "categories": [
       "greetings",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -431,7 +473,8 @@
     "english": "I always give something to the beggars.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -451,7 +494,8 @@
     "english": "I study Spanish.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -484,7 +528,9 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "time"
+      "time",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -504,7 +550,8 @@
     "english": "What time do you usually get up?",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -527,7 +574,8 @@
     "english": "Spanish is their native language.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -537,7 +585,11 @@
     "english": "She looks young. But actually, she's over forty.",
     "wordCount": 11,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -557,7 +609,8 @@
     "english": "Last year April was the warmest month.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -567,7 +620,8 @@
     "english": "We might have frost next week.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -577,7 +631,8 @@
     "english": "Do you come here every day?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -587,7 +642,8 @@
     "english": "Don't underestimate me.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -597,7 +653,8 @@
     "english": "Don't underestimate us.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -617,7 +674,8 @@
     "english": "You'll have to study harder from now on.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -637,7 +695,8 @@
     "english": "Every day, it's getting hotter and hotter.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -647,7 +706,9 @@
     "english": "Didn't you know that he passed away two years ago?",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -660,7 +721,8 @@
       "greetings",
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -670,7 +732,9 @@
     "english": "Bill is two years older than I am.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -691,7 +755,10 @@
     "english": "Today, I am feeling a lot better.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -712,7 +779,8 @@
     "wordCount": 9,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -724,7 +792,10 @@
     "categories": [
       "family",
       "leisure",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -734,7 +805,8 @@
     "english": "I haven't seen him for years.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -746,7 +818,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -759,7 +832,8 @@
       "food",
       "travel",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -769,7 +843,8 @@
     "english": "Today, I have a lot of homework.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -780,7 +855,10 @@
     "wordCount": 11,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -801,7 +879,8 @@
     "english": "He died yesterday.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -811,7 +890,8 @@
     "english": "I have a lot to do today.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -832,7 +912,8 @@
     "english": "I have been a teacher for 15 years.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -842,7 +923,8 @@
     "english": "It is warmer today than yesterday.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -875,7 +957,8 @@
     "categories": [
       "travel",
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -886,7 +969,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment"
     ]
   },
   {
@@ -898,7 +982,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -922,7 +1007,9 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -933,7 +1020,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -944,7 +1033,8 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -956,7 +1046,8 @@
     "categories": [
       "food",
       "travel",
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -967,7 +1058,9 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1000,7 +1093,9 @@
     "wordCount": 3,
     "categories": [
       "greetings",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1012,7 +1107,9 @@
     "categories": [
       "family",
       "work",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1034,7 +1131,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1056,7 +1154,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1066,7 +1165,8 @@
     "english": "What year were you born?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -1076,7 +1176,8 @@
     "english": "What year were you born?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -1086,7 +1187,8 @@
     "english": "What year were you born?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -1096,7 +1198,9 @@
     "english": "I remember you. We met three years ago.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1106,7 +1210,9 @@
     "english": "Did you play tennis yesterday?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -1116,7 +1222,8 @@
     "english": "We have no time.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -1126,7 +1233,10 @@
     "english": "About what time?",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -1136,7 +1246,9 @@
     "english": "The boy was so tired that he couldn't take one more step.",
     "wordCount": 12,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -1146,7 +1258,8 @@
     "english": "He will be very busy next month.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1156,7 +1269,9 @@
     "english": "He is always studying.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -1188,7 +1303,8 @@
     "english": "He comes here twice a week.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1198,7 +1314,8 @@
     "english": "Today is Sunday.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -1211,7 +1328,9 @@
       "travel",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1224,7 +1343,8 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1234,7 +1354,9 @@
     "english": "I can't wait any longer.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -1244,7 +1366,8 @@
     "english": "Today is extremely hot.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -1254,7 +1377,9 @@
     "english": "I think of you all the time.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1265,7 +1390,10 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1275,7 +1403,8 @@
     "english": "It was not very cold yesterday.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -1320,7 +1449,8 @@
     "english": "According to the Bible, God created the world in six days.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1340,7 +1470,9 @@
     "english": "I bought this computer one year ago and it's already a dinosaur.",
     "wordCount": 11,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1350,7 +1482,8 @@
     "english": "When do you get up? \"I get up at eight.\"",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -1372,7 +1505,8 @@
     "wordCount": 7,
     "categories": [
       "work",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -1383,7 +1517,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1393,7 +1528,8 @@
     "english": "He is eight.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1403,7 +1539,10 @@
     "english": "I feel worse today than I did yesterday.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -1423,7 +1562,8 @@
     "english": "He was running and calling for help.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1433,7 +1573,8 @@
     "english": "It was a terrible day.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1443,7 +1584,8 @@
     "english": "An earthquake can take place at any time.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1453,7 +1595,9 @@
     "english": "How long has he been absent?",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1474,7 +1618,8 @@
     "english": "The dog always barks at me.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -1484,7 +1629,10 @@
     "english": "January, February, March, April, May, June, July, August, September, October, November and December are the twelve months of the year.",
     "wordCount": 19,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1495,7 +1643,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1516,7 +1665,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1536,7 +1686,8 @@
     "english": "What time are you leaving?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -1547,7 +1698,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1557,7 +1709,8 @@
     "english": "I'm addicted to translating sentences from French into English on Tatoeba, and Spanish is tempting me sorely.",
     "wordCount": 17,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -1590,7 +1743,10 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1601,7 +1757,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1642,7 +1800,8 @@
     "wordCount": 8,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -1653,7 +1812,8 @@
     "wordCount": 10,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -1664,7 +1824,9 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1674,7 +1836,8 @@
     "english": "You're forever making mistakes.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -1685,7 +1848,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1707,7 +1871,8 @@
     "wordCount": 8,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1718,7 +1883,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1739,7 +1905,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -1760,7 +1927,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1772,7 +1941,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1814,7 +1984,8 @@
     "english": "What did you do yesterday?",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -1824,7 +1995,9 @@
     "english": "By the way, how old are you?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1846,7 +2019,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -1867,7 +2041,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -1879,7 +2054,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1900,7 +2076,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1921,7 +2099,8 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1931,7 +2110,9 @@
     "english": "Today is the first day of the rest of your life.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -1994,7 +2175,9 @@
     "english": "He wants a watch like yours.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2016,7 +2199,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -2027,7 +2211,10 @@
     "wordCount": 12,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2038,7 +2225,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -2048,7 +2237,9 @@
     "english": "Tom corrected all the errors. Now the report is perfect.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -2068,7 +2259,8 @@
     "english": "Excuse me, what time is it?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -2081,7 +2273,8 @@
       "travel",
       "family",
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -2092,7 +2285,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2114,7 +2308,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2124,7 +2319,10 @@
     "english": "Great men are not always wise.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2135,7 +2333,8 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2146,7 +2345,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2156,7 +2356,9 @@
     "english": "To investigate the incident would take us at least three weeks.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -2166,7 +2368,8 @@
     "english": "She married Tom last month.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2187,7 +2390,8 @@
     "english": "It has been a long time since I saw him.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -2199,7 +2403,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2209,7 +2415,8 @@
     "english": "What time did you eat?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -2220,7 +2427,11 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2242,7 +2453,8 @@
     "english": "Where are you living now?",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -2273,7 +2485,8 @@
     "english": "One day, we'll all have to die.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2284,7 +2497,8 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -2306,7 +2520,8 @@
     "wordCount": 4,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -2317,7 +2532,8 @@
     "wordCount": 6,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2339,7 +2555,8 @@
     "english": "She goes to the supermarket once a week.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2362,7 +2579,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2373,7 +2591,8 @@
     "wordCount": 11,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -2383,7 +2602,8 @@
     "english": "Today is a good day to die.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -2413,7 +2633,8 @@
     "english": "I spent the whole day reading a novel.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -2423,7 +2644,9 @@
     "english": "What's John doing right now?",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2434,7 +2657,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -2444,7 +2668,8 @@
     "english": "I have never been to the States.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -2465,7 +2690,8 @@
     "english": "It is said that Friday the 13th is an unlucky day.",
     "wordCount": 12,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -2496,7 +2722,8 @@
     "english": "How long have you been looking for it?",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -2507,7 +2734,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -2518,7 +2746,11 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2528,7 +2760,8 @@
     "english": "Adam spent 3 years in jail for drug possession.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -2549,7 +2782,10 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2559,7 +2795,8 @@
     "english": "What time does school begin?",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -2569,7 +2806,8 @@
     "english": "Where did you go yesterday?",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -2579,7 +2817,8 @@
     "english": "John came to Japan yesterday.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -2589,7 +2828,8 @@
     "english": "John came to Japan yesterday.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -2621,7 +2861,8 @@
     "wordCount": 5,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -2652,7 +2893,9 @@
     "wordCount": 8,
     "categories": [
       "work",
-      "time"
+      "time",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2662,7 +2905,8 @@
     "english": "They made a strange discovery.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2673,7 +2917,8 @@
     "wordCount": 11,
     "categories": [
       "work",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2683,7 +2928,8 @@
     "english": "Everything's all right now.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -2693,7 +2939,8 @@
     "english": "Everything's all right now.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -2713,7 +2960,9 @@
     "english": "What do I need to do now?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2724,7 +2973,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2735,7 +2986,11 @@
     "wordCount": 11,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -2745,7 +3000,8 @@
     "english": "I believe she's 40 years old.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -2755,7 +3011,8 @@
     "english": "He stole my watch.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2789,7 +3046,8 @@
       "food",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2800,7 +3058,8 @@
     "wordCount": 11,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2823,7 +3082,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2843,7 +3103,9 @@
     "english": "Your dog always barks at me.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2854,7 +3116,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2864,7 +3127,10 @@
     "english": "I'm not sure why Tom said those things, but I bet he now wishes he hadn't.",
     "wordCount": 18,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2874,7 +3140,9 @@
     "english": "I've never met you in person.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2894,7 +3162,9 @@
     "english": "For the elderly, wounds take more time to heal.",
     "wordCount": 11,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2904,7 +3174,8 @@
     "english": "It's a nice day and I feel like taking a walk.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2914,7 +3185,8 @@
     "english": "She has worn the same hat for a month.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2936,7 +3208,9 @@
     "wordCount": 12,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -2948,7 +3222,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -2971,7 +3246,8 @@
       "food",
       "work",
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2983,7 +3259,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -2993,7 +3270,12 @@
     "english": "This coat is worn and looks bad. Isn't it time you got a new one?",
     "wordCount": 18,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3003,7 +3285,9 @@
     "english": "Nobody lives forever.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -3013,7 +3297,8 @@
     "english": "Modern cats don't eat mice.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3035,7 +3320,8 @@
     "wordCount": 10,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3047,7 +3333,8 @@
     "categories": [
       "food",
       "family",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -3058,7 +3345,11 @@
     "wordCount": 9,
     "categories": [
       "work",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3069,7 +3360,9 @@
     "wordCount": 4,
     "categories": [
       "greetings",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -3112,7 +3405,8 @@
     "english": "Tom is a bit strange.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -3122,7 +3416,9 @@
     "english": "What time is it there?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -3133,7 +3429,9 @@
     "wordCount": 3,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3156,7 +3454,9 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -3166,7 +3466,9 @@
     "english": "She is over twenty.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3176,7 +3478,8 @@
     "english": "Tom never cheats.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3187,7 +3490,9 @@
     "wordCount": 10,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "statements_of_fact"
     ]
   },
   {
@@ -3197,7 +3502,8 @@
     "english": "She's thirty-three.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3218,7 +3524,10 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -3239,7 +3548,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3250,7 +3561,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3261,7 +3573,8 @@
     "wordCount": 6,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3283,7 +3596,9 @@
     "english": "Is your watch correct?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -3293,7 +3608,8 @@
     "english": "Don't all speak at the same time.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3303,7 +3619,10 @@
     "english": "Today, I am feeling a lot better.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -3375,7 +3694,8 @@
     "wordCount": 2,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -3386,7 +3706,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3407,7 +3728,8 @@
     "wordCount": 4,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3418,7 +3740,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3438,7 +3761,9 @@
     "english": "Tom doesn't know what time it is.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -3448,7 +3773,9 @@
     "english": "What time do you usually have breakfast?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -3471,7 +3798,8 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -3504,7 +3832,9 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3515,7 +3845,9 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3526,7 +3858,9 @@
     "wordCount": 13,
     "categories": [
       "food",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -3556,7 +3890,10 @@
     "english": "That was an awful day.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3568,7 +3905,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -3589,7 +3927,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -3629,7 +3968,8 @@
     "english": "Tom never lived in Boston.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3640,7 +3980,8 @@
     "wordCount": 18,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3651,7 +3992,8 @@
     "wordCount": 10,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3661,7 +4003,8 @@
     "english": "He plays tennis every day.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3672,7 +4015,10 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3682,7 +4028,8 @@
     "english": "I have never been to the States.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3693,7 +4040,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3704,7 +4052,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -3714,7 +4063,9 @@
     "english": "Tom and Mary claim that they never lie to each other.",
     "wordCount": 13,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3734,7 +4085,8 @@
     "english": "We have all the time in the world.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -3746,7 +4098,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3767,7 +4120,10 @@
     "english": "You're never satisfied!",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3778,7 +4134,8 @@
     "wordCount": 3,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3799,7 +4156,8 @@
     "english": "My clock seems to be broken.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -3809,7 +4167,11 @@
     "english": "I do not want to waste the best years of my life for you.",
     "wordCount": 11,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3819,7 +4181,11 @@
     "english": "You should spend more time outside and less time inside.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -3829,7 +4195,8 @@
     "english": "I've never been to Paris.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3860,7 +4227,8 @@
     "wordCount": 12,
     "categories": [
       "food",
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -3872,7 +4240,8 @@
     "categories": [
       "travel",
       "work",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3882,7 +4251,9 @@
     "english": "He will always love her.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3915,7 +4286,9 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -3948,7 +4321,9 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3959,7 +4334,11 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3979,7 +4358,8 @@
     "english": "It was not very cold yesterday.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -3989,7 +4369,9 @@
     "english": "Tom can't sit still for a moment.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -4031,7 +4413,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4041,7 +4424,9 @@
     "english": "Where are my clocks?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -4061,7 +4446,8 @@
     "english": "Tom should be here within fifteen minutes.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -4071,7 +4457,9 @@
     "english": "Tom almost never eats breakfast.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -4081,7 +4469,9 @@
     "english": "Tom almost never eats breakfast.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -4092,7 +4482,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -4102,7 +4493,9 @@
     "english": "This is your last chance to spend time with Tom.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4122,7 +4515,9 @@
     "english": "I've never considered it.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -4142,7 +4537,8 @@
     "english": "She called him every other day.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4152,7 +4548,8 @@
     "english": "Tom scolded Mary for not arriving on time.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4163,7 +4560,9 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4173,7 +4572,8 @@
     "english": "I've never been spoken to like that.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4194,7 +4594,9 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4204,7 +4606,8 @@
     "english": "Tom waited more than an hour.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -4214,7 +4617,8 @@
     "english": "He came back two days later.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4235,7 +4639,9 @@
     "english": "Where are you living now?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -4246,7 +4652,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4277,7 +4684,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -4298,7 +4706,8 @@
     "english": "Times are tough.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -4308,7 +4717,9 @@
     "english": "Are you satisfied now?",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -4318,7 +4729,8 @@
     "english": "They were acting strangely.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4339,7 +4751,8 @@
     "english": "Never talk to strangers.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4349,7 +4762,9 @@
     "english": "Our guests should be here within an hour.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4359,7 +4774,8 @@
     "english": "What do we do next?",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -4370,7 +4786,8 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4380,7 +4797,8 @@
     "english": "Today was the worst day in Sarajevo.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -4402,7 +4820,8 @@
     "wordCount": 9,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4422,7 +4841,8 @@
     "english": "You did not come to school yesterday.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4434,7 +4854,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -4445,7 +4866,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4457,7 +4880,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4468,7 +4893,9 @@
     "wordCount": 6,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4488,7 +4915,10 @@
     "english": "I guess we should leave now.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -4510,7 +4940,8 @@
     "english": "The dog will not harm you.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4531,7 +4962,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4543,7 +4975,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4554,7 +4987,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4574,7 +5008,9 @@
     "english": "I don't know how long it'll last.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -4585,7 +5021,9 @@
     "wordCount": 10,
     "categories": [
       "food",
-      "time"
+      "time",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -4596,7 +5034,9 @@
     "wordCount": 12,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4608,7 +5048,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4659,7 +5100,9 @@
     "english": "I cannot bear it any longer.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -4669,7 +5112,8 @@
     "english": "For one thing, I'm busy; for another, I'm not interested.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4679,7 +5123,10 @@
     "english": "Ninety-five percent of orphans are older than 5 years old.",
     "wordCount": 13,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4689,7 +5136,8 @@
     "english": "I will never forgive you.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4699,7 +5147,8 @@
     "english": "How long did it last?",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -4719,7 +5168,8 @@
     "english": "Do you shower every day?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -4729,7 +5179,8 @@
     "english": "Unfortunately, I don't have time today.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4739,7 +5190,8 @@
     "english": "Unfortunately, I already have plans for that day.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4749,7 +5201,9 @@
     "english": "There isn't time to explain.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4759,7 +5213,8 @@
     "english": "What time did that happen?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -4769,7 +5224,8 @@
     "english": "What time do you usually eat breakfast?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -4779,7 +5235,8 @@
     "english": "Yesterday, an explosion occurred at the fireworks factory.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -4790,7 +5247,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4800,7 +5258,8 @@
     "english": "I'm not busy now.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4833,7 +5292,8 @@
     "english": "Tom is an adult now.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -4843,7 +5303,11 @@
     "english": "Maybe he is Italian or Spanish.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4853,7 +5317,8 @@
     "english": "It's strange, but true.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -4863,7 +5328,8 @@
     "english": "It's five o'clock somewhere now.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -4873,7 +5339,8 @@
     "english": "What time does it open?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -4885,7 +5352,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4905,7 +5373,9 @@
     "english": "It's almost time to go.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -4915,7 +5385,8 @@
     "english": "The shop is closed today.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -4938,7 +5409,8 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4948,7 +5420,9 @@
     "english": "I feel bad today.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "conditional_statements"
     ]
   },
   {
@@ -4969,7 +5443,10 @@
     "english": "Frankly speaking, his speeches are always dull.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4989,7 +5466,8 @@
     "english": "Tom was sure better times were coming.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -5020,7 +5498,8 @@
     "english": "Tom was sentenced to 20 years in prison.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -5030,7 +5509,8 @@
     "english": "He had a bad day.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5041,7 +5521,10 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5062,7 +5545,8 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5072,7 +5556,8 @@
     "english": "I didn't eat anything yesterday.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5083,7 +5568,8 @@
     "wordCount": 4,
     "categories": [
       "food",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -5094,7 +5580,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5105,7 +5592,8 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5115,7 +5603,9 @@
     "english": "The boy was so tired that he could walk no longer.",
     "wordCount": 12,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -5125,7 +5615,8 @@
     "english": "I was playing tennis all day.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5135,7 +5626,8 @@
     "english": "I ate too much food yesterday.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -5155,7 +5647,8 @@
     "english": "George was always my favorite.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -5167,7 +5660,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -5188,7 +5682,10 @@
     "english": "Free advice isn't always good advice.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5209,7 +5706,8 @@
     "english": "They can speak Spanish.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5219,7 +5717,8 @@
     "english": "This year's harvest will fall short of last year.",
     "wordCount": 11,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5230,7 +5729,8 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5240,7 +5740,8 @@
     "english": "Tom never works on Sunday.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5250,7 +5751,8 @@
     "english": "This is the third time I've heard this song today.",
     "wordCount": 11,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -5260,7 +5762,9 @@
     "english": "I like him, but at the same time I don't really trust him.",
     "wordCount": 12,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5271,7 +5775,10 @@
     "wordCount": 3,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5292,7 +5799,9 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -5302,7 +5811,9 @@
     "english": "Elephants are enormous animals.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5322,7 +5833,9 @@
     "english": "We don't have that long.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -5332,7 +5845,8 @@
     "english": "It's raining today.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -5363,7 +5877,8 @@
     "english": "It's ready now.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -5373,7 +5888,9 @@
     "english": "He came here ten minutes ago.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5384,7 +5901,9 @@
     "wordCount": 6,
     "categories": [
       "work",
-      "time"
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5394,7 +5913,9 @@
     "english": "He never told anyone.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5404,7 +5925,8 @@
     "english": "Tom comes here every single day.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -5414,7 +5936,9 @@
     "english": "He's reading a novel now.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5424,7 +5948,8 @@
     "english": "Mary works part-time as a nurse.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -5435,7 +5960,8 @@
     "wordCount": 5,
     "categories": [
       "work",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -5457,7 +5983,8 @@
     "wordCount": 5,
     "categories": [
       "work",
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -5477,7 +6004,8 @@
     "english": "This is weird.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -5487,7 +6015,8 @@
     "english": "He is serving a three-year sentence for burglary.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -5498,7 +6027,8 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5508,7 +6038,8 @@
     "english": "Do it right now.",
     "wordCount": 2,
     "categories": [
-      "time"
+      "time",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -5529,7 +6060,8 @@
     "english": "Did you get the flowers I sent the other day?",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -5540,7 +6072,9 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "time"
+      "time",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5552,7 +6086,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -5572,7 +6107,8 @@
     "english": "Did it rain here yesterday?",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -5583,7 +6119,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -5644,7 +6181,8 @@
     "english": "I've never played golf.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5654,7 +6192,8 @@
     "english": "Normally, we eat three times a day.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5664,7 +6203,8 @@
     "english": "Now what do we do?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -5674,7 +6214,9 @@
     "english": "He plays tennis every day.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5684,7 +6226,8 @@
     "english": "It's been a hard year.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -5704,7 +6247,8 @@
     "english": "I always get up early.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -5714,7 +6258,8 @@
     "english": "That didn't take long.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5726,7 +6271,10 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -5738,7 +6286,8 @@
     "categories": [
       "work",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -5758,7 +6307,8 @@
     "english": "What time do we get to San Francisco?",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -5768,7 +6318,10 @@
     "english": "I feel a lot better now.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -5788,7 +6341,9 @@
     "english": "Are you free this weekend?",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -5798,7 +6353,8 @@
     "english": "Does anyone know what time it is?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -5818,7 +6374,8 @@
     "english": "Don't waste your time doing that.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5839,7 +6396,11 @@
     "wordCount": 17,
     "categories": [
       "family",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -5849,7 +6410,8 @@
     "english": "I never got caught.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5872,7 +6434,9 @@
     "wordCount": 2,
     "categories": [
       "greetings",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -5882,7 +6446,8 @@
     "english": "A month is too little time.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -5892,7 +6457,8 @@
     "english": "Tom will never forgive you.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5903,7 +6469,8 @@
     "wordCount": 10,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -5914,7 +6481,8 @@
     "wordCount": 7,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -5924,7 +6492,8 @@
     "english": "He has a strange name.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -5946,7 +6515,9 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -5956,7 +6527,8 @@
     "english": "She stayed here for a moment.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6017,7 +6589,8 @@
     "english": "I will never write a letter to Mary.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -6027,7 +6600,9 @@
     "english": "Kim is four years older than me.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6072,7 +6647,8 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -6085,7 +6661,8 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -6095,7 +6672,8 @@
     "english": "How long have you been in Japan?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -6105,7 +6683,8 @@
     "english": "I have many things to do now.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -6115,7 +6694,9 @@
     "english": "He's always asking silly questions.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6147,7 +6728,9 @@
     "english": "We all stood up at once.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -6159,7 +6742,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -6169,7 +6753,8 @@
     "english": "What sort of things do you do on weekends?",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -6179,7 +6764,8 @@
     "english": "I've had a busy week.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -6199,7 +6785,8 @@
     "english": "I've never heard Tom speak French.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -6210,7 +6797,8 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -6232,7 +6820,8 @@
     "categories": [
       "food",
       "work",
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -6244,7 +6833,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -6256,7 +6846,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -6266,7 +6857,9 @@
     "english": "Even the most beautiful rose will someday wilt.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6276,7 +6869,8 @@
     "english": "He went to Tokyo yesterday.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6286,7 +6880,8 @@
     "english": "Don't underestimate Tom.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -6296,7 +6891,8 @@
     "english": "How old is Tom?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -6307,7 +6903,9 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -6327,7 +6925,8 @@
     "english": "Right now I am writing a letter to my Chinese professor, but in English.",
     "wordCount": 16,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -6347,7 +6946,9 @@
     "english": "I don't want to harm you.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -6357,7 +6958,8 @@
     "english": "Don't waste Tom's time.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -6369,7 +6971,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -6390,7 +6993,9 @@
     "english": "Tom almost never complains about anything.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -6400,7 +7005,8 @@
     "english": "It's snowing now.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -6410,7 +7016,9 @@
     "english": "Mary is now my girlfriend.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -6422,7 +7030,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6443,7 +7052,9 @@
     "english": "I've never seen anything quite like this.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -6453,7 +7064,8 @@
     "english": "This is never going to end.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -6476,7 +7088,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -6486,7 +7100,8 @@
     "english": "I'm always tired.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -6496,7 +7111,8 @@
     "english": "I'm always tired.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -6506,7 +7122,10 @@
     "english": "A man can't always be a hero, but he can always be a man.",
     "wordCount": 14,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -6516,7 +7135,10 @@
     "english": "Frankly speaking, his speeches are always dull.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6536,7 +7158,8 @@
     "english": "What is the price of this watch?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -6546,7 +7169,9 @@
     "english": "You never say that you love me.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6556,7 +7181,8 @@
     "english": "Something very strange is going on.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -6566,7 +7192,8 @@
     "english": "That's a strange problem.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -6588,7 +7215,9 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "time"
+      "time",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6598,7 +7227,8 @@
     "english": "Don't ever give up.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -6611,7 +7241,11 @@
       "food",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -6621,7 +7255,9 @@
     "english": "You must always keep your hands clean.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -6631,7 +7267,9 @@
     "english": "January is usually the coldest month.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "statements_of_fact"
     ]
   },
   {
@@ -6641,7 +7279,8 @@
     "english": "Was Ms. Kato your teacher last year?",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -6651,7 +7290,9 @@
     "english": "I'm not saying that your answers are always wrong.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -6661,7 +7302,9 @@
     "english": "I can't do that now.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -6672,7 +7315,8 @@
     "wordCount": 12,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -6682,7 +7326,8 @@
     "english": "Do you speak French every day?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -6692,7 +7337,9 @@
     "english": "The older I get, the more clearly I remember things that never happened.",
     "wordCount": 13,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -6714,7 +7361,8 @@
     "categories": [
       "travel",
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6735,7 +7383,9 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6756,7 +7406,8 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6766,7 +7417,9 @@
     "english": "We celebrate November 28 as Tatoeba day because it is the day when Turkish, Esperanto and Greek were added.",
     "wordCount": 22,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -6777,7 +7430,9 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6787,7 +7442,9 @@
     "english": "You don't have to decide right now.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -6807,7 +7464,8 @@
     "english": "The weather is getting worse as the day draws on.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -6817,7 +7475,11 @@
     "english": "I have no idea where Tom is now.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -6827,7 +7489,8 @@
     "english": "She writes me every week.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6839,7 +7502,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -6862,7 +7526,10 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -6873,7 +7540,9 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6883,7 +7552,8 @@
     "english": "I didn't have enough time.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -6903,7 +7573,10 @@
     "english": "He is always right.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6913,7 +7586,8 @@
     "english": "Tom won't be able to get here on time.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -6924,7 +7598,8 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -6934,7 +7609,8 @@
     "english": "Did Paula study for today's test?",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -6945,7 +7621,10 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -6955,7 +7634,10 @@
     "english": "I'm not always going to be there for you.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6966,7 +7648,8 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -6987,7 +7670,9 @@
     "english": "By the way, I saw him yesterday.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -6998,7 +7683,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -7009,7 +7695,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -7020,7 +7707,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -7031,7 +7719,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -7042,7 +7731,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -7053,7 +7743,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -7065,7 +7756,11 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -7075,7 +7770,11 @@
     "english": "She didn't live a single day of her life without violence.",
     "wordCount": 11,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7086,7 +7785,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7097,7 +7797,8 @@
     "wordCount": 7,
     "categories": [
       "travel",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -7107,7 +7808,8 @@
     "english": "I get the feeling that she will come today.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7119,7 +7821,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -7130,7 +7833,8 @@
     "wordCount": 3,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -7142,7 +7846,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -7154,7 +7859,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -7164,7 +7870,10 @@
     "english": "Tom always deceives us; I don't trust him.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7186,7 +7895,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7207,7 +7918,10 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -7217,7 +7931,8 @@
     "english": "We meet again in three hours.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -7227,7 +7942,8 @@
     "english": "In a few moments you'll become either a holy martyr or a dead witch.",
     "wordCount": 13,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -7247,7 +7963,9 @@
     "english": "Are you going to help me now, or not?",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -7257,7 +7975,10 @@
     "english": "Quick thinking prevented the damage from being even worse.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -7267,7 +7988,10 @@
     "english": "Now I realise why she was angry with me.",
     "wordCount": 11,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7278,7 +8002,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -7289,7 +8014,9 @@
     "wordCount": 12,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7301,7 +8028,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -7311,7 +8039,10 @@
     "english": "It looks like there are now over two thousand Uyghur sentences on Tatoeba!",
     "wordCount": 13,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "statements_of_fact"
     ]
   },
   {
@@ -7323,7 +8054,9 @@
     "categories": [
       "food",
       "emotions",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -7336,7 +8069,10 @@
       "food",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7347,7 +8083,9 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7358,7 +8096,9 @@
     "wordCount": 10,
     "categories": [
       "food",
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "statements_of_fact"
     ]
   },
   {
@@ -7368,7 +8108,8 @@
     "english": "He devoted all his time to the study of history.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7379,7 +8120,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -7389,7 +8131,9 @@
     "english": "You should come to class on time.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -7400,7 +8144,9 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "statements_of_fact"
     ]
   },
   {
@@ -7413,7 +8159,8 @@
       "travel",
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -7424,7 +8171,8 @@
     "wordCount": 7,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -7445,7 +8193,8 @@
     "wordCount": 8,
     "categories": [
       "work",
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -7456,7 +8205,8 @@
     "wordCount": 10,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -7467,7 +8217,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -7530,7 +8281,9 @@
     "categories": [
       "travel",
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -7572,7 +8325,10 @@
     "english": "I'd like to spend a few days with Tom.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -7583,7 +8339,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7594,7 +8351,9 @@
     "wordCount": 11,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7615,7 +8374,8 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -7625,7 +8385,9 @@
     "english": "Tom can do it in 10 minutes.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -7637,7 +8399,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7647,7 +8410,9 @@
     "english": "I've waited two whole hours. I can't wait any longer.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -7657,7 +8422,10 @@
     "english": "He never seems to be any older.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7679,7 +8447,8 @@
     "english": "He will return to Japan some day.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7689,7 +8458,9 @@
     "english": "He is a strange man.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7699,7 +8470,8 @@
     "english": "Has it been 10 years already?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -7709,7 +8481,8 @@
     "english": "Today has been extremely lame.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -7720,7 +8493,9 @@
     "wordCount": 14,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -7730,7 +8505,9 @@
     "english": "He doesn't want to go to school today.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7741,7 +8518,9 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -7752,7 +8531,8 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -7762,7 +8542,8 @@
     "english": "It'll never happen.",
     "wordCount": 2,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -7774,7 +8555,8 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7795,7 +8577,9 @@
     "english": "I went to the department store to do some shopping yesterday.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -7806,7 +8590,8 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -7817,7 +8602,10 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7828,7 +8616,8 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -7851,7 +8640,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -7862,7 +8653,8 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -7872,7 +8664,9 @@
     "english": "I don't have anything to do right now.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -7883,7 +8677,9 @@
     "wordCount": 7,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -7893,7 +8689,8 @@
     "english": "Tom hit me in the head with my laptop. Now it's cracked!",
     "wordCount": 12,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -7934,7 +8731,9 @@
     "wordCount": 6,
     "categories": [
       "work",
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -7945,7 +8744,9 @@
     "wordCount": 4,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -7955,7 +8756,8 @@
     "english": "He works every day except Sunday.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -7965,7 +8767,10 @@
     "english": "Never tell a lie again.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -7976,7 +8781,8 @@
     "wordCount": 5,
     "categories": [
       "greetings",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -7987,7 +8793,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -7999,7 +8807,11 @@
     "categories": [
       "travel",
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8009,7 +8821,8 @@
     "english": "They were free at that moment.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8019,7 +8832,8 @@
     "english": "Alex often spends his holiday in Spain.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8029,7 +8843,8 @@
     "english": "How long have you worked in Boston?",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -8070,7 +8885,8 @@
     "english": "It took Tom a long time to get over Mary's death.",
     "wordCount": 12,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -8081,7 +8897,8 @@
     "wordCount": 14,
     "categories": [
       "family",
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -8091,7 +8908,8 @@
     "english": "Did God really create the earth in a single day?",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -8102,7 +8920,10 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8112,7 +8933,8 @@
     "english": "Yoko went shopping yesterday.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8122,7 +8944,9 @@
     "english": "Yoko went shopping yesterday.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8132,7 +8956,8 @@
     "english": "I couldn't believe my ears.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -8153,7 +8978,10 @@
     "english": "Do you have to do that now?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -8163,7 +8991,11 @@
     "english": "You can spend your time in any way you want; it's your time, after all.",
     "wordCount": 18,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "requests_and_imperatives",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8185,7 +9017,8 @@
     "wordCount": 2,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -8195,7 +9028,9 @@
     "english": "Have you known him for a long time?",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -8205,7 +9040,9 @@
     "english": "What's happening next week?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -8215,7 +9052,9 @@
     "english": "These are wicked times.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -8237,7 +9076,8 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -8247,7 +9087,8 @@
     "english": "I've never told this to anyone.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -8257,7 +9098,9 @@
     "english": "Tom told me that he could get us what we need.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -8269,7 +9112,9 @@
     "categories": [
       "work",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -8281,7 +9126,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -8312,7 +9159,9 @@
     "english": "These days John drinks too much.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -8323,7 +9172,10 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -8344,7 +9196,9 @@
     "english": "Do you remember the day when we met each other for the first time?",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -8354,7 +9208,8 @@
     "english": "Do you do this every day?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -8364,7 +9219,9 @@
     "english": "I'll need a few minutes.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -8374,7 +9231,8 @@
     "english": "I don't have time to help her.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -8395,7 +9253,8 @@
     "english": "I know you'd never let Tom hurt me.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -8415,7 +9274,9 @@
     "english": "Has Tom always been fat?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -8426,7 +9287,10 @@
     "wordCount": 5,
     "categories": [
       "emotions",
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -8437,7 +9301,10 @@
     "wordCount": 8,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -8459,7 +9326,8 @@
     "english": "Don't waste your time.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -8469,7 +9337,8 @@
     "english": "Don't waste your time.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -8479,7 +9348,10 @@
     "english": "John isn't well enough to go to school today.",
     "wordCount": 11,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -8490,7 +9362,9 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8501,7 +9375,9 @@
     "wordCount": 13,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8511,7 +9387,8 @@
     "english": "How long did it take you to learn Finnish?",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -8523,7 +9400,9 @@
     "categories": [
       "travel",
       "leisure",
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -8544,7 +9423,8 @@
     "english": "I haven't seen one of these in years.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -8555,7 +9435,8 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -8566,7 +9447,8 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -8587,7 +9469,9 @@
     "english": "I remember it as if it were yesterday.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "conditional_statements"
     ]
   },
   {
@@ -8599,7 +9483,9 @@
     "categories": [
       "leisure",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8620,7 +9506,10 @@
     "wordCount": 14,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8642,7 +9531,9 @@
     "wordCount": 3,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -8672,7 +9563,10 @@
     "english": "Tom is always studying, but he never seems to learn anything.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -8682,7 +9576,10 @@
     "english": "I don't need to watch Tom all the time.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -8693,7 +9590,8 @@
     "wordCount": 9,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8723,7 +9621,9 @@
     "english": "Tom isn't here now, but Mary is.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -8743,7 +9643,10 @@
     "english": "I can't stand the thought of losing you forever.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -8753,7 +9656,8 @@
     "english": "Tom never wears a tie.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -8763,7 +9667,9 @@
     "english": "It's almost intermission.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -8773,7 +9679,10 @@
     "english": "I think it's highly unlikely that Tom will show up today.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -8783,7 +9692,9 @@
     "english": "I thought Tom would have found Mary by now.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements"
     ]
   },
   {
@@ -8814,7 +9725,8 @@
     "english": "I thought for a moment Tom was really going to tell Mary about what happened.",
     "wordCount": 15,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -8824,7 +9736,10 @@
     "english": "They're always careful.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8844,7 +9759,8 @@
     "english": "I've always believed that.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -8854,7 +9770,9 @@
     "english": "I've always trusted you.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8864,7 +9782,9 @@
     "english": "I've always liked that name.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -8874,7 +9794,9 @@
     "english": "I could do this for days.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -8885,7 +9807,8 @@
     "wordCount": 4,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -8906,7 +9829,10 @@
     "english": "Don't you ever get lonely?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -8916,7 +9842,10 @@
     "english": "Don't you ever get lonely?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -8926,7 +9855,9 @@
     "english": "Tom, I don't want you getting hurt.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -8946,7 +9877,8 @@
     "english": "Tom couldn't believe that Mary could be so stupid.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -8957,7 +9889,8 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8968,7 +9901,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -8979,7 +9914,9 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -9001,7 +9938,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -9013,7 +9951,9 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -9034,7 +9974,8 @@
     "wordCount": 10,
     "categories": [
       "work",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -9044,7 +9985,8 @@
     "english": "Now we have to be very careful.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -9055,7 +9997,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -9088,7 +10032,8 @@
     "wordCount": 15,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -9099,7 +10044,9 @@
     "wordCount": 10,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -9109,7 +10056,8 @@
     "english": "I have to do something else now.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -9120,7 +10068,8 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -9140,7 +10089,9 @@
     "english": "Tom, would you leave us alone for a moment?",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -9196,7 +10147,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -9206,7 +10159,10 @@
     "english": "Mathematicians are like some Frenchmen: whatever you say to them they translate into their own language, and forthwith it is something entirely different.",
     "wordCount": 26,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -9262,7 +10218,10 @@
     "categories": [
       "family",
       "leisure",
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -9273,7 +10232,9 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -9294,7 +10255,11 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -9304,7 +10269,8 @@
     "english": "Today would be good.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -9314,7 +10280,9 @@
     "english": "You weren't here last year.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -9324,7 +10292,8 @@
     "english": "You haven't got much time.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -9344,7 +10313,8 @@
     "english": "We get together once a month.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -9355,7 +10325,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -9377,7 +10348,9 @@
     "wordCount": 11,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -9387,7 +10360,9 @@
     "english": "Tom hardly ever listens to the radio.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -9398,7 +10373,9 @@
     "wordCount": 5,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -9408,7 +10385,8 @@
     "english": "Tom hadn't thought about Mary for days.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -9419,7 +10397,8 @@
     "wordCount": 11,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -9431,7 +10410,8 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -9452,7 +10432,11 @@
     "english": "Youth is always right. Those who follow the counsels of youth are wise.",
     "wordCount": 16,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -9463,7 +10447,9 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -9483,7 +10469,8 @@
     "english": "Do you walk to school every day?",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -9493,7 +10480,8 @@
     "english": "We play tennis every day.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -9503,7 +10491,9 @@
     "english": "Do I have to do it right now?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -9513,7 +10503,9 @@
     "english": "Do I have to do it now?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -9524,7 +10516,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -9534,7 +10528,8 @@
     "english": "He received a golden watch as a prize.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -9566,7 +10561,9 @@
     "wordCount": 16,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -9598,7 +10595,8 @@
     "categories": [
       "family",
       "work",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -9611,7 +10609,8 @@
       "food",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -9621,7 +10620,8 @@
     "english": "His dog always barks at me.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -9641,7 +10641,9 @@
     "english": "I never lost hope.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -9651,7 +10653,8 @@
     "english": "I can do it now.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -9663,7 +10666,9 @@
     "categories": [
       "work",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -9674,7 +10679,9 @@
     "wordCount": 7,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -9684,7 +10691,8 @@
     "english": "Mary was wrongly imprisoned for nearly 10 years.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -9694,7 +10702,10 @@
     "english": "That guitar never sounded so good when I played it.",
     "wordCount": 10,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -9704,7 +10715,8 @@
     "english": "Something was wrong with the watch.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -9714,7 +10726,10 @@
     "english": "They identified two brain areas with sizes that are apparently associated with the ideas and political values of an individual.",
     "wordCount": 20,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -9724,7 +10739,8 @@
     "english": "I've always admired Tom.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -9735,7 +10751,9 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -9745,7 +10763,8 @@
     "english": "When did you wake up today?",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -9756,7 +10775,9 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -9766,7 +10787,8 @@
     "english": "What time did Tom get here?",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -9776,7 +10798,10 @@
     "english": "I feel like an outsider.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "conditional_statements"
     ]
   },
   {
@@ -9811,7 +10836,9 @@
     "wordCount": 10,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -9822,7 +10849,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -9832,7 +10860,8 @@
     "english": "You need to rest now.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -9843,7 +10872,8 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -9853,7 +10883,8 @@
     "english": "What time will Tom be arriving?",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -9863,7 +10894,8 @@
     "english": "Tom never drinks beer.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -9874,7 +10906,9 @@
     "wordCount": 6,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -9908,7 +10942,9 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "opinions_and_beliefs",
+      "statements_of_fact"
     ]
   },
   {
@@ -9918,7 +10954,9 @@
     "english": "Tom used to love Mary. Now he can't stand her.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -9940,7 +10978,9 @@
     "wordCount": 6,
     "categories": [
       "work",
-      "time"
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -9951,7 +10991,8 @@
     "wordCount": 9,
     "categories": [
       "work",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -9961,7 +11002,8 @@
     "english": "I never doubted it.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -9972,7 +11014,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -9992,7 +11035,10 @@
     "english": "Some legumes, like chickpeas and green beans, cause flatulence but are excellent foods.",
     "wordCount": 14,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -10002,7 +11048,8 @@
     "english": "Tom and Mary have been a couple since a year ago.",
     "wordCount": 9,
     "categories": [
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -10012,7 +11059,8 @@
     "english": "Mary and Tom met a year ago.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10022,7 +11070,9 @@
     "english": "Tom isn't in a good mood today.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -10032,7 +11082,8 @@
     "english": "I've never heard him speak ill of others.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10063,7 +11114,9 @@
     "wordCount": 8,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -10083,7 +11136,9 @@
     "english": "Tom always seems to be in a bad mood.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs",
+      "conditional_statements"
     ]
   },
   {
@@ -10093,7 +11148,8 @@
     "english": "Tom always seems to be in a bad mood.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -10115,7 +11171,8 @@
     "english": "I think it's going to take time.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -10125,7 +11182,9 @@
     "english": "I wanted to help, but I couldn't do anything.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -10135,7 +11194,9 @@
     "english": "There's always a line around this time.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "statements_of_fact"
     ]
   },
   {
@@ -10145,7 +11206,8 @@
     "english": "I always wear a seatbelt when I'm driving.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -10156,7 +11218,9 @@
     "wordCount": 8,
     "categories": [
       "work",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -10166,7 +11230,8 @@
     "english": "Do you miss Boston?",
     "wordCount": 2,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -10186,7 +11251,8 @@
     "english": "I miss Boston so much.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -10237,7 +11303,8 @@
     "wordCount": 20,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10257,7 +11324,8 @@
     "english": "I never lie to Tom.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10267,7 +11335,9 @@
     "english": "Tom has never been punctual.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -10277,7 +11347,8 @@
     "english": "Don't leave everything to the last minute.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10299,7 +11370,10 @@
     "wordCount": 9,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -10319,7 +11393,8 @@
     "english": "I take a short nap every day.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -10341,7 +11416,8 @@
     "wordCount": 9,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10351,7 +11427,8 @@
     "english": "They explained it to me many times, but I never understood.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10362,7 +11439,9 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "time"
+      "time",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -10383,7 +11462,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -10404,7 +11484,8 @@
     "english": "I never remember my dreams.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10415,7 +11496,8 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10427,7 +11509,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -10439,7 +11523,9 @@
     "categories": [
       "food",
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -10449,7 +11535,8 @@
     "english": "I'm always punctual.",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -10459,7 +11546,8 @@
     "english": "I'm almost always punctual.",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "conditional_statements"
     ]
   },
   {
@@ -10470,7 +11558,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -10481,7 +11570,8 @@
     "wordCount": 6,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -10503,7 +11593,8 @@
     "english": "Is today Friday?",
     "wordCount": 3,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {
@@ -10523,7 +11614,8 @@
     "english": "I've never traveled abroad.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10533,7 +11625,8 @@
     "english": "I've never traveled abroad.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10544,7 +11637,9 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -10556,7 +11651,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -10567,7 +11663,8 @@
     "wordCount": 6,
     "categories": [
       "food",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10577,7 +11674,8 @@
     "english": "I'm fasting today.",
     "wordCount": 2,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10631,7 +11729,8 @@
     "wordCount": 5,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -10641,7 +11740,9 @@
     "english": "Right now, it isn't raining.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -10651,7 +11752,9 @@
     "english": "At this moment, it isn't raining.",
     "wordCount": 6,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -10661,7 +11764,8 @@
     "english": "Next weekend will also be rainy.",
     "wordCount": 8,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -10691,7 +11795,8 @@
     "english": "It has been weeks since it rained.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10702,7 +11807,8 @@
     "wordCount": 4,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -10722,7 +11828,8 @@
     "english": "I lost more than three hours.",
     "wordCount": 5,
     "categories": [
-      "time"
+      "time",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -10733,7 +11840,8 @@
     "wordCount": 7,
     "categories": [
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -10744,7 +11852,8 @@
     "wordCount": 2,
     "categories": [
       "time",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -10767,7 +11876,8 @@
     "categories": [
       "greetings",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -10777,7 +11887,8 @@
     "english": "I have not seen him for a long time.",
     "wordCount": 7,
     "categories": [
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -10787,7 +11898,8 @@
     "english": "How was your day?",
     "wordCount": 4,
     "categories": [
-      "time"
+      "time",
+      "questions_inquiries"
     ]
   },
   {

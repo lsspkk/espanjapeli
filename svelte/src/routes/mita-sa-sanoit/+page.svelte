@@ -1,16 +1,17 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
-	import { 
-		loadSentenceIndex, 
-		getSentencesByTheme,
+	import {
+		loadSentenceIndex,
+		getSentencesByCategory,
 		type Sentence,
-		type CEFRLevel 
+		type CEFRLevel
 	} from '$lib/services/sentenceLoader';
 	import { tts } from '$lib/services/tts';
 	import { ttsSettings } from '$lib/stores/ttsSettings';
 	import StepwiseReveal from '$lib/components/shared/StepwiseReveal.svelte';
 	import { timedAnswerSettings } from '$lib/stores/timedAnswerSettings';
+	import GameContainer from '$lib/components/shared/GameContainer.svelte';
 	import GameHeader from '$lib/components/basic/core/GameHeader.svelte';
 	import OptionButtons from '$lib/components/basic/input/OptionButtons.svelte';
 	import FeedbackOverlay from '$lib/components/basic/feedback/FeedbackOverlay.svelte';
@@ -32,6 +33,7 @@
 	// Stepwise reveal state
 	let answersRevealed = $state(false);
 	let delaySeconds = $state(3);
+	let stepwiseRevealRef = $state<any>(null);
 
 	// Game variables
 	let currentSentence = $state<Sentence | null>(null);
@@ -47,12 +49,12 @@
 	onMount(async () => {
 		try {
 			const manifest = await loadSentenceIndex();
-			availableThemes = [...new Set(manifest.themes.map(t => t.name))];
+			availableThemes = [...new Set(manifest.categories.map(c => c.name))];
 			if (availableThemes.length > 0) {
 				selectedTheme = availableThemes[0];
 			}
 		} catch (error) {
-			console.error('Failed to load sentence themes:', error);
+			console.error('Failed to load sentence categories:', error);
 		}
 
 		// Subscribe to TTS settings
@@ -75,8 +77,8 @@
 	async function startGame() {
 		gameState = 'loading';
 		try {
-			// Load sentences for selected theme
-			const sentences = await getSentencesByTheme(selectedTheme);
+			// Load sentences for selected category
+			const sentences = await getSentencesByCategory(selectedTheme);
 			
 			// Filter by level (word count)
 			const levelRanges: Record<CEFRLevel, { min: number; max: number }> = {
@@ -129,6 +131,11 @@
 		
 		// Generate answer options
 		answerOptions = generateAnswerOptions(currentSentence, sentenceQueue);
+
+		// Reset stepwise reveal timer
+		if (stepwiseRevealRef?.reset) {
+			stepwiseRevealRef.reset();
+		}
 
 		gameState = 'playing';
 
@@ -284,58 +291,58 @@
 						Kuuntele tai lue espanjalainen lause ja valitse oikea suomennos neljästä vaihtoehdosta.
 					</p>
 
-					<!-- Mode selector -->
-					<div class="form-control mb-4">
-						<label class="label">
-							<span class="label-text font-semibold">Pelimuoto</span>
-						</label>
-						<div class="flex gap-2">
-							<button 
-								class="btn flex-1" 
-								class:btn-primary={selectedMode === 'listen'}
-								onclick={() => selectedMode = 'listen'}
-							>
-								👂 Kuuntelu
-							</button>
-							<button 
-								class="btn flex-1" 
-								class:btn-primary={selectedMode === 'read'}
-								onclick={() => selectedMode = 'read'}
-							>
-								📖 Lukeminen
-							</button>
-						</div>
+				<!-- Mode selector -->
+				<div class="form-control mb-4">
+					<div class="label">
+						<span class="label-text font-semibold">Pelimuoto</span>
 					</div>
+					<div class="flex gap-2">
+						<button 
+							class="btn flex-1" 
+							class:btn-primary={selectedMode === 'listen'}
+							onclick={() => selectedMode = 'listen'}
+						>
+							👂 Kuuntelu
+						</button>
+						<button 
+							class="btn flex-1" 
+							class:btn-primary={selectedMode === 'read'}
+							onclick={() => selectedMode = 'read'}
+						>
+							📖 Lukeminen
+						</button>
+					</div>
+				</div>
 
-					<!-- Theme selector -->
-					<div class="form-control mb-4">
-						<label class="label">
-							<span class="label-text font-semibold">Teema</span>
-						</label>
-						<select class="select select-bordered" bind:value={selectedTheme}>
-							{#each availableThemes as theme}
-								<option value={theme}>{theme}</option>
-							{/each}
-						</select>
-					</div>
+				<!-- Theme selector -->
+				<div class="form-control mb-4">
+					<label class="label" for="theme-select">
+						<span class="label-text font-semibold">Teema</span>
+					</label>
+					<select id="theme-select" class="select select-bordered" bind:value={selectedTheme}>
+						{#each availableThemes as theme}
+							<option value={theme}>{theme}</option>
+						{/each}
+					</select>
+				</div>
 
-					<!-- Level selector -->
-					<div class="form-control mb-6">
-						<label class="label">
-							<span class="label-text font-semibold">Taso</span>
-						</label>
-						<div class="flex gap-2 flex-wrap">
-							{#each ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as level}
-								<button 
-									class="btn btn-sm" 
-									class:btn-primary={selectedLevel === level}
-									onclick={() => selectedLevel = level as CEFRLevel}
-								>
-									{level}
-								</button>
-							{/each}
-						</div>
+				<!-- Level selector -->
+				<div class="form-control mb-6">
+					<div class="label">
+						<span class="label-text font-semibold">Taso</span>
 					</div>
+					<div class="flex gap-2 flex-wrap">
+						{#each ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as level}
+							<button 
+								class="btn btn-sm" 
+								class:btn-primary={selectedLevel === level}
+								onclick={() => selectedLevel = level as CEFRLevel}
+							>
+								{level}
+							</button>
+						{/each}
+					</div>
+				</div>
 
 					<!-- Start button -->
 					<button class="btn btn-primary btn-lg" onclick={startGame}>
@@ -352,58 +359,62 @@
 			<p class="mt-4">Ladataan...</p>
 		</div>
 	</div>
-{:else if gameState === 'playing'}
-	<div class="min-h-screen bg-base-200 flex flex-col">
-		<div class="bg-base-100 shadow-md">
-			<div class="container mx-auto max-w-2xl">
-				<GameHeader 
-					currentQuestion={questionIndex + 1}
-					totalQuestions={totalQuestions}
-					score={score}
-					onQuit={quitGame}
-				/>
-			</div>
-		</div>
+{:else if gameState === 'playing' || gameState === 'feedback'}
+	<GameContainer gameType="basic" buttonMode="basic" showBackButton={false}>
+		<GameHeader 
+			currentQuestion={questionIndex + 1}
+			totalQuestions={totalQuestions}
+			score={score}
+			onQuit={quitGame}
+		/>
 
-		<div class="flex-1 flex flex-col">
-			<div class="container mx-auto px-4 py-4 md:py-8 max-w-2xl flex-1 flex flex-col">
-				<StepwiseReveal delaySeconds={delaySeconds} onReveal={() => answersRevealed = true}>
+		<div class="flex-1 flex flex-col items-center justify-start p-4 md:p-6">
+			<div class="w-full max-w-2xl">
+				<div class="text-center mb-6">
+					{#if selectedMode === 'listen'}
+						<p class="text-lg md:text-xl mb-4">Kuuntele lause ja valitse oikea käännös:</p>
+						<button class="btn btn-primary btn-lg" onclick={() => currentSentence && tts.speakSpanish(currentSentence.spanish)}>
+							🔊 Toista uudelleen
+						</button>
+					{:else}
+						<p class="text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 leading-relaxed">{currentSentence?.spanish}</p>
+						<button class="btn btn-sm btn-ghost" onclick={() => currentSentence && tts.speakSpanish(currentSentence.spanish)}>
+							🔊 Kuuntele ääntämys
+						</button>
+					{/if}
+				</div>
+
+				{#if !answersRevealed && delaySeconds > 0}
+					<div class="text-center text-sm text-base-content/60 italic animate-pulse mb-4">
+						Muistele...
+					</div>
+				{/if}
+
+				<StepwiseReveal 
+					bind:this={stepwiseRevealRef}
+					delaySeconds={delaySeconds} 
+					onReveal={() => answersRevealed = true}
+				>
 					{#snippet children()}
-						<div class="text-center mb-6">
-							{#if selectedMode === 'listen'}
-								<p class="text-lg md:text-xl mb-4">Kuuntele lause ja valitse oikea käännös:</p>
-								<button class="btn btn-primary btn-lg" onclick={() => currentSentence && tts.speakSpanish(currentSentence.spanish)}>
-									🔊 Toista uudelleen
-								</button>
-							{:else}
-								<p class="text-2xl md:text-3xl lg:text-4xl font-semibold mb-4 leading-relaxed">{currentSentence?.spanish}</p>
-								<button class="btn btn-sm btn-ghost" onclick={() => currentSentence && tts.speakSpanish(currentSentence.spanish)}>
-									🔊 Kuuntele ääntämys
-								</button>
-							{/if}
-						</div>
-
-						{#if !answersRevealed && delaySeconds > 0}
-							<div class="text-center text-sm text-base-content/60 italic animate-pulse mb-4">
-								Muistele...
-							</div>
-						{/if}
+						<!-- Placeholder to maintain space -->
+						<div></div>
 					{/snippet}
 
 					{#snippet answers()}
-						<OptionButtons 
-							options={optionButtonsData}
-							disabledIds={disabledOptions}
-							onSelect={(id) => selectAnswer(id)}
-							disabled={false}
-						/>
+						<div style="opacity: {answersRevealed ? 1 : 0}; transition: opacity 300ms ease-in-out;">
+							<OptionButtons 
+								options={optionButtonsData}
+								disabledIds={disabledOptions}
+								onSelect={(id) => selectAnswer(id)}
+								disabled={false}
+							/>
+						</div>
 					{/snippet}
 				</StepwiseReveal>
 			</div>
 		</div>
-	</div>
-{:else if gameState === 'feedback'}
-	<div class="min-h-screen bg-base-200 relative">
+
+		<!-- Feedback Overlay -->
 		<FeedbackOverlay
 			visible={feedbackVisible}
 			isCorrect={selectedAnswer === currentSentence?.finnish}
@@ -416,7 +427,7 @@
 			closing={feedbackClosing}
 			onContinue={closeFeedbackAndContinue}
 		/>
-	</div>
+	</GameContainer>
 {:else if gameState === 'report'}
 	<div class="min-h-screen bg-base-200">
 		<div class="container mx-auto px-4 py-8">

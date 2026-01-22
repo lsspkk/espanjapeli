@@ -1,31 +1,45 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
-	import { 
-		loadLessonIndex, 
+	import {
+		loadLessonIndex,
 		loadLesson,
 		type Lesson,
-		type LessonMetadata 
+		type LessonMetadata
 	} from '$lib/services/lessonService';
 	import { lessonProgress } from '$lib/stores/lessonProgress';
 	import { wordKnowledge } from '$lib/stores/wordKnowledge';
 	import { tts } from '$lib/services/tts';
 	import { ttsSettings } from '$lib/stores/ttsSettings';
 	import StepwiseReveal from '$lib/components/shared/StepwiseReveal.svelte';
+	import GameContainer from '$lib/components/shared/GameContainer.svelte';
+	import BackButton from '$lib/components/shared/BackButton.svelte';
+	import GameHeader from '$lib/components/basic/core/GameHeader.svelte';
 	import { timedAnswerSettings } from '$lib/stores/timedAnswerSettings';
 	import LessonCard from '$lib/components/basic/LessonCard.svelte';
 	import WordList from '$lib/components/basic/WordList.svelte';
 	import ExamplePhraseList from '$lib/components/basic/ExamplePhraseList.svelte';
+	import DictionaryStyleWordList from '$lib/components/basic/DictionaryStyleWordList.svelte';
 	import { getAllWords, type Word } from '$lib/data/words';
-	import { 
-		loadSentenceIndex, 
-		loadSentenceGroup,
-		type Sentence 
+	import {
+		type Sentence
 	} from '$lib/services/sentenceLoader';
+	import { getExampleSentencesForWords } from '$lib/services/sentenceLookup';
+	import GameLengthSelector from '$lib/components/basic/input/GameLengthSelector.svelte';
+	import LanguageDirectionSwitch from '$lib/components/basic/input/LanguageDirectionSwitch.svelte';
+	import { selectGameWords, recordGameCompletion } from '$lib/services/wordSelection';
 
 	// Game states
 	type GameState = 'home' | 'loading' | 'teaching-words' | 'teaching-phrases' | 'quiz' | 'report';
+	type LanguageDirection = 'spanish_to_finnish' | 'finnish_to_spanish';
+	type QuestionLanguage = 'spanish' | 'finnish';
+
 	let gameState = $state<GameState>('home');
+	let selectedGameLength = $state(10);
+	let questionLanguage = $state<QuestionLanguage>('spanish');
+
+	// Storage key for language preference
+	const QUESTION_LANGUAGE_KEY = 'valitut-sanat_question_language';
 
 	// Lesson data
 	let availableLessons = $state<LessonMetadata[]>([]);
@@ -134,12 +148,28 @@
 	// Load available lessons on mount
 	onMount(async () => {
 		try {
+			// Load language preference
+			if (typeof localStorage !== 'undefined') {
+				const savedLang = localStorage.getItem(QUESTION_LANGUAGE_KEY);
+				if (savedLang === 'finnish' || savedLang === 'spanish') {
+					questionLanguage = savedLang;
+				}
+			}
+
 			const manifest = await loadLessonIndex();
 			availableLessons = manifest.lessons;
 		} catch (error) {
 			console.error('Failed to load lessons:', error);
 		}
 	});
+
+	// Handle language direction change
+	function handleQuestionLanguageChange(lang: QuestionLanguage) {
+		questionLanguage = lang;
+		if (typeof localStorage !== 'undefined') {
+			localStorage.setItem(QUESTION_LANGUAGE_KEY, lang);
+		}
+	}
 
 	// Get Word objects from word IDs
 	function getWordsFromIds(wordIds: string[]): Word[] {
@@ -184,43 +214,87 @@
 		}
 	}
 
+	// Prepare quiz questions using the word selection algorithm
+	async function prepareQuizQuestions(): Promise<QuizQuestion[]> {
+		try {
+			// Determine direction based on selected language
+			const direction: LanguageDirection =
+				questionLanguage === 'spanish' ? 'spanish_to_finnish' : 'finnish_to_spanish';
+
+			// Use wordSelection algorithm to select and optimize words from the lesson
+			// We use the lesson ID as the category key for history tracking
+			const selectedWords = await selectGameWords(
+				lessonWords,
+				selectedGameLength,
+				selectedLesson?.id || 'default',
+				direction,
+				true // prioritizeFrequency
+			);
+
+			// Generate quiz questions from selected words
+			const questions: QuizQuestion[] = [];
+
+			for (const word of selectedWords) {
+				if (direction === 'spanish_to_finnish') {
+					questions.push({
+						word,
+						direction: 'spanish_to_finnish',
+						prompt: word.spanish,
+						correctAnswer: word.finnish,
+						options: []
+					});
+				} else {
+					questions.push({
+						word,
+						direction: 'finnish_to_spanish',
+						prompt: word.finnish,
+						correctAnswer: word.spanish,
+						options: []
+					});
+				}
+			}
+
+			// Randomize order
+			const shuffled = [...questions].sort(() => Math.random() - 0.5);
+
+			// Generate wrong answer options for each question
+			for (const question of shuffled) {
+				question.options = generateAnswerOptionsForWord(question, shuffled);
+			}
+
+			return shuffled;
+		} catch (error) {
+			console.error('Error preparing quiz questions:', error);
+			// Fallback to simple generation if algorithm fails
+			return generateQuizQuestions();
+		}
+	}
+
 	// Load example phrases for lesson words
 	async function loadExamplePhrases() {
 		gameState = 'loading';
-		
+
 		try {
-			// Load all sentence groups from Tatoeba
-			const manifest = await loadSentenceIndex();
-			const allSentences: Sentence[] = [];
-			
-			// Load all sentence groups
-			for (const themeInfo of manifest.themes) {
-				const group = await loadSentenceGroup(themeInfo.id);
-				allSentences.push(...group.sentences);
-			}
-			
-			// For each word in the lesson, find matching sentences
+			// Get Spanish words from lesson
+			const spanishWords = lessonWords.map(w => w.spanish);
+
+			// Load example sentences for all words in batch
+			const wordSentencesMap = await getExampleSentencesForWords(spanishWords);
+
+			// Build result with phrases for each word
 			const wordsWithPhrasesTemp: WordWithPhrases[] = [];
-			
+
 			for (const word of lessonWords) {
-				// Find sentences that contain this word (case-insensitive)
-				const wordLower = word.spanish.toLowerCase();
-				const matchingSentences = allSentences.filter(sentence => {
-					const sentenceLower = sentence.spanish.toLowerCase();
-					// Match whole word or word with common Spanish punctuation
-					const wordPattern = new RegExp(`\\b${wordLower}\\b|\\b${wordLower}[,.:;!?¿¡]`, 'i');
-					return wordPattern.test(sentenceLower);
-				});
-				
-				// Limit to 2-3 example sentences per word
-				const limitedSentences = matchingSentences.slice(0, 3);
-				
+				const phrases = wordSentencesMap.get(word.spanish) || [];
+				// Limit to 3 sentences per word for display
+				const limitedPhrases = phrases.slice(0, 3);
+
 				wordsWithPhrasesTemp.push({
 					word,
-					phrases: limitedSentences
+					phrases: limitedPhrases
 				});
 			}
-			
+
 			wordsWithPhrases = wordsWithPhrasesTemp;
 			gameState = 'teaching-phrases';
 		} catch (error) {
@@ -230,39 +304,46 @@
 		}
 	}
 
-	// Generate quiz questions from lesson words
+	// Generate quiz questions from lesson words based on selected language direction
 	function generateQuizQuestions(): QuizQuestion[] {
 		const questions: QuizQuestion[] = [];
-		
-		// For each word, create questions in both directions
+
+		// Determine direction based on selected language
+		const direction: 'spanish_to_finnish' | 'finnish_to_spanish' =
+			questionLanguage === 'spanish' ? 'spanish_to_finnish' : 'finnish_to_spanish';
+
+		// For each word, create a question in the selected direction
 		for (const word of lessonWords) {
-			// Spanish → Finnish
-			questions.push({
-				word,
-				direction: 'spanish_to_finnish',
-				prompt: word.spanish,
-				correctAnswer: word.finnish,
-				options: [] // Will be populated later
-			});
-			
-			// Finnish → Spanish
-			questions.push({
-				word,
-				direction: 'finnish_to_spanish',
-				prompt: word.finnish,
-				correctAnswer: word.spanish,
-				options: [] // Will be populated later
-			});
+			if (direction === 'spanish_to_finnish') {
+				questions.push({
+					word,
+					direction: 'spanish_to_finnish',
+					prompt: word.spanish,
+					correctAnswer: word.finnish,
+					options: [] // Will be populated later
+				});
+			} else {
+				questions.push({
+					word,
+					direction: 'finnish_to_spanish',
+					prompt: word.finnish,
+					correctAnswer: word.spanish,
+					options: [] // Will be populated later
+				});
+			}
 		}
-		
+
+		// Limit to selectedGameLength questions
+		const limited = questions.slice(0, selectedGameLength);
+
 		// Randomize order
-		const shuffled = [...questions].sort(() => Math.random() - 0.5);
-		
+		const shuffled = [...limited].sort(() => Math.random() - 0.5);
+
 		// Generate wrong answer options for each question
 		for (const question of shuffled) {
 			question.options = generateAnswerOptionsForWord(question, shuffled);
 		}
-		
+
 		return shuffled;
 	}
 	
@@ -270,45 +351,51 @@
 	function generateAnswerOptionsForWord(question: QuizQuestion, allQuestions: QuizQuestion[]): string[] {
 		const correctAnswer = question.correctAnswer;
 		const wrongAnswers: string[] = [];
-		
+
 		// Get candidates from other questions with same direction
 		const candidates = allQuestions
 			.filter(q => q.direction === question.direction && q.correctAnswer !== correctAnswer)
 			.map(q => q.correctAnswer);
-		
+
 		// Shuffle and select 3 wrong answers
 		const shuffledCandidates = [...candidates].sort(() => Math.random() - 0.5);
 		for (let i = 0; i < Math.min(3, shuffledCandidates.length); i++) {
 			wrongAnswers.push(shuffledCandidates[i]);
 		}
-		
+
 		// If we don't have enough wrong answers, pad with generic ones
 		while (wrongAnswers.length < 3) {
 			wrongAnswers.push(`[Vaihtoehto ${wrongAnswers.length + 1}]`);
 		}
-		
+
 		// Combine and shuffle
 		const allOptions = [correctAnswer, ...wrongAnswers];
 		return allOptions.sort(() => Math.random() - 0.5);
 	}
 	
 	// Start quiz phase
-	function startQuiz() {
-		// Generate questions
-		quizQuestions = generateQuizQuestions();
-		totalQuestions = quizQuestions.length;
-		
-		// Reset game state
-		score = 0;
-		questionIndex = 0;
-		wrongWords = [];
-		
-		// Load first question
-		if (quizQuestions.length > 0) {
-			loadNextQuizQuestion();
-		} else {
-			// No questions, skip to report
-			gameState = 'report';
+	async function startQuiz() {
+		gameState = 'loading';
+		try {
+			// Generate questions using word selection algorithm
+			quizQuestions = await prepareQuizQuestions();
+			totalQuestions = quizQuestions.length;
+
+			// Reset game state
+			score = 0;
+			questionIndex = 0;
+			wrongWords = [];
+
+			// Load first question
+			if (quizQuestions.length > 0) {
+				loadNextQuizQuestion();
+			} else {
+				// No questions, skip to report
+				gameState = 'report';
+			}
+		} catch (error) {
+			console.error('Error starting quiz:', error);
+			gameState = 'teaching-phrases';
 		}
 	}
 	
@@ -346,39 +433,39 @@
 	
 	// Handle answer selection
 	function handleAnswerSelection(answer: string) {
-		if (!currentQuestion || selectedAnswer !== null) {
+		if (!currentQuestion) {
 			return;
 		}
-		
+
 		tries++;
-		
+
 		const isCorrect = answer === currentQuestion.correctAnswer;
-		
+
 		if (isCorrect) {
 			// Calculate points based on tries (10 for first try, 3 for second, 1 for third)
 			const triesRemaining = 4 - tries; // 3, 2, or 1
 			const pointsMap: Record<number, number> = { 3: 10, 2: 3, 1: 1 };
 			const pointsEarned = pointsMap[triesRemaining] || 0;
-			
+
 			score += pointsEarned;
-			
+
 			// Determine answer quality for knowledge tracking
-			const qualityMap: Record<number, 'first_try' | 'second_try' | 'third_try'> = { 
-				3: 'first_try', 
-				2: 'second_try', 
-				1: 'third_try' 
+			const qualityMap: Record<number, 'first_try' | 'second_try' | 'third_try'> = {
+				3: 'first_try',
+				2: 'second_try',
+				1: 'third_try'
 			};
 			const answerQuality = qualityMap[triesRemaining] || 'third_try';
-			
+
 			// Record answer to wordKnowledge store
 			const wordId = currentQuestion.word.id ?? currentQuestion.word.spanish;
-			const direction = currentQuestion.direction === 'spanish_to_finnish' 
+			const direction = currentQuestion.direction === 'spanish_to_finnish'
 				? 'spanish_to_finnish' as const
 				: 'finnish_to_spanish' as const;
 			wordKnowledge.recordAnswer(wordId, currentQuestion.word.finnish, direction, answerQuality, 'basic');
-			
+
 			selectedAnswer = answer;
-			
+
 			// Auto-continue after brief delay
 			setTimeout(() => {
 				questionIndex++;
@@ -387,24 +474,28 @@
 		} else {
 			// Wrong answer - disable this option and allow retry
 			disabledOptions = new Set([...disabledOptions, answer]);
-			
-			// If all 3 tries used, record as wrong and move on
-			if (tries >= 3) {
+
+			// Record wrong attempt if all options (except correct one) are disabled
+			const wrongAnswerCount = disabledOptions.size;
+			const totalOptions = currentQuestion.options.length;
+
+			if (wrongAnswerCount >= totalOptions - 1) {
+				// All wrong answers disabled, show correct answer
 				wrongWords = [...wrongWords, {
 					word: currentQuestion.word,
 					userAnswer: answer,
 					correctAnswer: currentQuestion.correctAnswer
 				}];
-				
-				// Record as wrong answer (no quality, 0 points)
+
+				// Record as wrong answer
 				const wordId = currentQuestion.word.id ?? currentQuestion.word.spanish;
-				const direction = currentQuestion.direction === 'spanish_to_finnish' 
+				const direction = currentQuestion.direction === 'spanish_to_finnish'
 					? 'spanish_to_finnish' as const
 					: 'finnish_to_spanish' as const;
 				wordKnowledge.recordAnswer(wordId, currentQuestion.word.finnish, direction, 'third_try', 'basic');
-				
+
 				selectedAnswer = currentQuestion.correctAnswer;
-				
+
 				// Move to next question after delay
 				setTimeout(() => {
 					questionIndex++;
@@ -467,14 +558,14 @@
 		if (!selectedLesson) {
 			return;
 		}
-		
+
 		// Calculate word scores
 		const wordScores = calculateWordScores();
-		
+
 		// Check if all words scored >80% for extended review interval
 		const scores = Object.values(wordScores);
 		const allWordsStrong = scores.length > 0 && scores.every(score => score > 80);
-		
+
 		// Calculate review delay
 		// If all words >80%, extend the interval by 1.5x
 		let reviewDelayDays: number | undefined = undefined;
@@ -487,9 +578,12 @@
 				reviewDelayDays = 21; // 14 * 1.5 = 21 days
 			}
 		}
-		
+
 		// Update lessonProgress store with calculated review delay
 		lessonProgress.completeLesson(selectedLesson.id, wordScores, reviewDelayDays);
+
+		// Record game completion for word selection history
+		recordGameCompletion(quizQuestions.map(q => q.word), selectedLesson.id);
 	}
 	
 	// Play lesson again
@@ -520,13 +614,20 @@
 	<title>Valitut sanat - Espanjapeli</title>
 </svelte:head>
 
-<div class="min-h-screen bg-base-100 p-4">
-	{#if gameState === 'home'}
-		<div class="max-w-4xl mx-auto">
-			<h1 class="text-3xl font-bold mb-4">Valitut sanat</h1>
-			<p class="text-lg mb-6">
-				Opi sanoja oppitunneilla. Jokaisessa oppitunnissa on sanoja, esimerkkejä ja testi.
-			</p>
+{#if gameState === 'home'}
+	<GameContainer gameType="basic" buttonMode="basic" onBack={() => window.location.href = `${base}/`}>
+		<div class="card-body p-4 md:p-8">
+			<h1 class="text-3xl font-bold mb-6">Valitut sanat</h1>
+
+			<LanguageDirectionSwitch
+				direction={questionLanguage}
+				onChange={handleQuestionLanguageChange}
+			/>
+
+			<GameLengthSelector
+				value={selectedGameLength}
+				onChange={(length) => selectedGameLength = length}
+			/>
 
 			<!-- Spaced Repetition Recommendations -->
 			{#if lessonsDueForReview.length > 0}
@@ -550,7 +651,7 @@
 					{#each Array.from(lessonsByCategory) as [categoryName, lessons]}
 						<div class="space-y-3">
 							<h2 class="text-xl font-semibold">{categoryName}</h2>
-							<div class="grid gap-4 md:grid-cols-2">
+							<div class="grid gap-4" style="grid-template-columns: repeat(auto-fit, minmax(calc(33.333% - 1rem), 1fr))">
 								{#each lessons as lesson}
 									{@const status = getLessonStatus(lesson.id)}
 									{@const needsReviewFlag = needsReview(lesson.id)}
@@ -567,8 +668,8 @@
 				{/if}
 			</div>
 		</div>
-
-	{:else if gameState === 'loading'}
+	</GameContainer>
+{:else if gameState === 'loading'}
 		<div class="flex items-center justify-center min-h-[50vh]">
 			<div class="text-center">
 				<div class="loading loading-spinner loading-lg"></div>
@@ -577,151 +678,142 @@
 		</div>
 
 	{:else if gameState === 'teaching-words'}
-		<div class="max-w-4xl mx-auto">
-			<div class="mb-4">
-				<button class="btn btn-sm" onclick={returnToHome}>
-					← Takaisin
-				</button>
+		<GameContainer gameType="basic" buttonMode="basic" showBackButton={false}>
+			<div class="border-b border-base-200 flex justify-between items-center p-4 shrink-0">
+				<h2 class="text-lg font-semibold">Vaihe 1/3: Sanat</h2>
+				<button
+					onclick={returnToHome}
+					class="btn btn-ghost btn-circle btn-sm text-xl"
+					title="Lopeta peli"
+				>✕</button>
 			</div>
-			<h2 class="text-2xl font-bold mb-4">Sanat</h2>
-			<p class="text-base-content/70 mb-4">Vaihe 1/3</p>
-			{#if selectedLesson}
-				<div class="mb-6">
-					<h3 class="text-xl font-semibold mb-2">{selectedLesson.categoryName}</h3>
-					<p class="text-base-content/70">{lessonWords.length} sanaa</p>
+
+			<div class="flex-1 overflow-y-auto p-4 md:p-6">
+				<div class="max-w-2xl mx-auto">
+					{#if selectedLesson}
+						<DictionaryStyleWordList
+							words={lessonWords}
+							title={selectedLesson.categoryName}
+							showTitle={true}
+						/>
+
+						<div class="mt-8 flex justify-end">
+							<button class="btn btn-primary" onclick={loadExamplePhrases}>
+								Jatka
+							</button>
+						</div>
+					{/if}
 				</div>
-				
-				<WordList words={lessonWords} />
-				
-				<div class="mt-6 flex justify-end">
-					<button class="btn btn-primary" onclick={loadExamplePhrases}>
-						Jatka →
-					</button>
-				</div>
-			{/if}
-		</div>
+			</div>
+		</GameContainer>
 
 	{:else if gameState === 'teaching-phrases'}
-		<div class="max-w-4xl mx-auto">
-			<div class="mb-4">
-				<button class="btn btn-sm" onclick={() => gameState = 'teaching-words'}>
-					← Takaisin
-				</button>
+		<GameContainer gameType="basic" buttonMode="basic" showBackButton={false}>
+			<div class="border-b border-base-200 flex justify-between items-center p-4 shrink-0">
+				<h2 class="text-lg font-semibold">Vaihe 2/3: Esimerkit</h2>
+				<button
+					onclick={returnToHome}
+					class="btn btn-ghost btn-circle btn-sm text-xl"
+					title="Lopeta peli"
+				>✕</button>
 			</div>
-			<h2 class="text-2xl font-bold mb-4">Esimerkit</h2>
-			<p class="text-base-content/70 mb-4">Vaihe 2/3</p>
-			
-			{#if wordsWithPhrases.length === 0}
-				<p class="text-base-content/70">Ladataan esimerkkejä...</p>
-			{:else}
-				<ExamplePhraseList {wordsWithPhrases} />
-				
-				<div class="mt-6 flex justify-between">
-					<button class="btn" onclick={() => gameState = 'teaching-words'}>
-						← Takaisin
-					</button>
-					<button class="btn btn-primary" onclick={startQuiz}>
-						Aloita testi →
-					</button>
+
+			<div class="flex-1 overflow-y-auto p-4 md:p-6">
+				<div class="max-w-2xl mx-auto">
+					{#if wordsWithPhrases.length === 0}
+						<p class="text-base-content/70">Ladataan esimerkkejä...</p>
+					{:else}
+						<ExamplePhraseList {wordsWithPhrases} />
+
+						<div class="mt-8 flex justify-end">
+							<button class="btn btn-primary" onclick={startQuiz}>
+								Aloita testi
+							</button>
+						</div>
+					{/if}
 				</div>
-			{/if}
-		</div>
+			</div>
+		</GameContainer>
 
 	{:else if gameState === 'quiz'}
-		<div class="max-w-4xl mx-auto">
-			<!-- Header -->
-			<div class="mb-4">
-				<div class="flex justify-between items-center">
-					<div>
-						<h2 class="text-2xl font-bold">Testi</h2>
-						<p class="text-base-content/70">Vaihe 3/3</p>
-					</div>
-					<div class="text-right">
-						<div class="text-sm text-base-content/70">
-							Kysymys {questionIndex + 1}/{totalQuestions}
-						</div>
-						<div class="text-lg font-semibold">
-							Pisteet: {score}
-						</div>
-					</div>
-				</div>
-			</div>
-			
+		<GameContainer gameType="basic" buttonMode="basic" showBackButton={false}>
+			<GameHeader
+				currentQuestion={questionIndex + 1}
+				totalQuestions={totalQuestions}
+				score={score}
+				onQuit={returnToHome}
+			/>
+
 			{#if currentQuestion}
-				<div class="card bg-base-100 shadow-xl">
-					<div class="card-body">
-						<StepwiseReveal delaySeconds={currentDelay} onReveal={handleAnswersRevealed}>
-							{#snippet children()}
-								<!-- Question prompt -->
-								<div class="text-center mb-6">
-									<div class="text-3xl font-bold mb-4">
-										{currentQuestion.prompt}
-									</div>
-									
-									<!-- TTS button -->
-									<button 
-										class="btn btn-circle btn-ghost"
-										onclick={() => {
-											if (currentQuestion) {
-												const language = currentQuestion.direction === 'spanish_to_finnish' ? 'spanish' : 'finnish';
-												if (language === 'spanish') {
-													tts.speakSpanish(currentQuestion.prompt);
-												} else {
-													tts.speakFinnish(currentQuestion.prompt);
-												}
-											}
-										}}
-									>
-										🔊
-									</button>
-								</div>
-								
-								{#if !answersRevealed}
-									<div class="text-center text-base-content/70">
-										Odota hetki...
-									</div>
-								{/if}
-							{/snippet}
-							
-							{#snippet answers()}
-								<!-- Answer options -->
-								<div class="grid grid-cols-1 gap-3">
-									{#each currentQuestion.options as option}
-										{@const isDisabled = disabledOptions.has(option)}
-										{@const isSelected = selectedAnswer === option}
-										{@const isCorrect = option === currentQuestion.correctAnswer}
-										{@const showAsCorrect = isSelected && isCorrect}
-										{@const showAsWrong = isSelected && !isCorrect}
-										
-										<button
-											class="btn btn-lg justify-start text-left h-auto min-h-[3rem] whitespace-normal"
-											class:btn-success={showAsCorrect}
-											class:btn-error={showAsWrong}
-											class:btn-disabled={isDisabled}
-											disabled={isDisabled || selectedAnswer !== null}
-											onclick={() => handleAnswerSelection(option)}
-										>
-											{option}
-										</button>
-									{/each}
-								</div>
-								
-								<!-- Tries indicator -->
-								{#if tries > 0 && selectedAnswer === null}
-									<div class="text-center mt-4 text-sm text-base-content/70">
-										Yritys {tries}/3
-									</div>
-								{/if}
-							{/snippet}
-						</StepwiseReveal>
+				<div class="flex-1 overflow-y-auto p-4 md:p-6">
+					<div class="max-w-2xl mx-auto">
+						<div class="card bg-base-200 shadow-lg">
+							<div class="card-body">
+								<StepwiseReveal delaySeconds={currentDelay} onReveal={handleAnswersRevealed}>
+									{#snippet children()}
+										<div class="text-center">
+											<div class="text-4xl font-bold">
+												{currentQuestion.prompt}
+											</div>
+
+											<button
+												class="btn btn-circle btn-ghost mt-4"
+												onclick={() => {
+													if (currentQuestion) {
+														const language = currentQuestion.direction === 'spanish_to_finnish' ? 'spanish' : 'finnish';
+														if (language === 'spanish') {
+															tts.speakSpanish(currentQuestion.prompt);
+														} else {
+															tts.speakFinnish(currentQuestion.prompt);
+														}
+													}
+												}}
+											>
+												🔊
+											</button>
+										</div>
+									{/snippet}
+
+									{#snippet answers()}
+										<div class="space-y-2 mt-6">
+											{#each currentQuestion.options as option}
+												{@const isDisabled = disabledOptions.has(option)}
+												{@const isSelected = selectedAnswer === option}
+												{@const isCorrect = option === currentQuestion.correctAnswer}
+												{@const showAsCorrect = isSelected && isCorrect}
+												{@const showAsWrong = isSelected && !isCorrect}
+
+												<button
+													class="w-full p-4 rounded-lg border-2 text-left transition-colors text-lg font-medium"
+													class:border-success={showAsCorrect}
+													class:border-error={showAsWrong}
+													class:border-base-300={!showAsCorrect && !showAsWrong}
+													class:bg-success={showAsCorrect}
+													class:bg-error={showAsWrong}
+													class:bg-base-100={!showAsCorrect && !showAsWrong}
+													class:hover:bg-base-200={!isDisabled && !showAsCorrect && !showAsWrong}
+													class:opacity-50={isDisabled}
+													class:cursor-not-allowed={isDisabled}
+													disabled={isDisabled}
+													onclick={() => handleAnswerSelection(option)}
+												>
+													{option}
+												</button>
+											{/each}
+										</div>
+									{/snippet}
+								</StepwiseReveal>
+							</div>
+						</div>
 					</div>
 				</div>
 			{/if}
-		</div>
+		</GameContainer>
 
 	{:else if gameState === 'report'}
-		<div class="max-w-4xl mx-auto">
-			<h2 class="text-3xl font-bold mb-4">Oppitunti suoritettu!</h2>
+		<GameContainer gameType="basic" buttonMode="basic" showBackButton={false}>
+			<div class="card-body p-4 md:p-8">
+				<h2 class="text-3xl font-bold mb-4">Oppitunti suoritettu!</h2>
 			
 			<!-- Score Summary -->
 			<div class="card bg-base-200 shadow-xl mb-6">
@@ -817,6 +909,6 @@
 					Pelaa uudelleen
 				</button>
 			</div>
-		</div>
+			</div>
+		</GameContainer>
 	{/if}
-</div>

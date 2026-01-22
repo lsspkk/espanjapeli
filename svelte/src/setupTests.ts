@@ -1,6 +1,11 @@
 import '@testing-library/jest-dom/vitest';
-import { afterEach, vi } from 'vitest';
+import { afterEach, vi, beforeAll } from 'vitest';
 import { cleanup } from '@testing-library/svelte';
+
+// Mock global alert for tests
+beforeAll(() => {
+	global.alert = vi.fn();
+});
 
 // Clean up after each test
 // Note: cleanup() is already optimized in @testing-library/svelte

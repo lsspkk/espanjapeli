@@ -26,7 +26,9 @@
 		'/lukeminen',
 		'/puhuminen',
 		'/pipsan-ystavat',
-		'/pipsan-maailma'
+		'/pipsan-maailma',
+		'/valitut-sanat',
+		'/mita-sa-sanoit'
 	];
 
 	let isMenuOpen = $state(false);

@@ -1,0 +1,1959 @@
+[
+  {
+    "id": "2819",
+    "spanish": "Pareces estúpido.",
+    "finnish": "Näytät tyhmältä.",
+    "english": "You look stupid.",
+    "wordCount": 2,
+    "categories": [
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "347445",
+    "spanish": "Creo que él tiene razón.",
+    "finnish": "Luulen, että hän on oikeassa.",
+    "english": "I think he's right.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "356089",
+    "spanish": "Ella parece una profesora.",
+    "finnish": "Hän näyttää opettajalta.",
+    "english": "She looks like a teacher.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "359732",
+    "spanish": "Ella se parece a su tía.",
+    "finnish": "Hän näyttää tädiltään.",
+    "english": "She looks like her aunt.",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "401596",
+    "spanish": "Parece que Tom ganó la carrera.",
+    "finnish": "Näyttää siltä, että Tom voitti sen kilpailun.",
+    "english": "It looks like Tom won the race.",
+    "wordCount": 6,
+    "categories": [
+      "work",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "432129",
+    "spanish": "Te creo.",
+    "finnish": "Minä uskon sinua.",
+    "english": "I believe you.",
+    "wordCount": 2,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "449847",
+    "spanish": "Lo siento, no tengo suelto.",
+    "finnish": "Valitettavasti minulla ei ole vaihtorahaa.",
+    "english": "I'm sorry, I don't have change.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "452939",
+    "spanish": "Ella no es tan joven como parece.",
+    "finnish": "Tyttö ei ole niin nuori miltä näyttää.",
+    "english": "She is not as young as she looks.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "455015",
+    "spanish": "Ella parece joven, pero de hecho tiene más de cuarenta años.",
+    "finnish": "Hän näyttää nuorelta, mutta itse asiassa hän on yli neljäkymmentävuotias.",
+    "english": "She looks young. But actually, she's over forty.",
+    "wordCount": 11,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "473460",
+    "spanish": "El perro parece hambriento.",
+    "finnish": "Koira näyttää nälkäiseltä.",
+    "english": "The dog looks hungry.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "477133",
+    "spanish": "Hoy me siento mucho mejor.",
+    "finnish": "Tänään voin paljon paremmin.",
+    "english": "Today, I am feeling a lot better.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "485121",
+    "spanish": "Nancy parece cansada.",
+    "finnish": "Nancy näyttää väsyneeltä.",
+    "english": "Nancy looks tired.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "491153",
+    "spanish": "Ken parece una persona simpática.",
+    "finnish": "Ken vaikuttaa mukavalta ihmiseltä.",
+    "english": "Ken appears to be a friendly person.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "507142",
+    "spanish": "Él parece cansado.",
+    "finnish": "Hän näyttää väsyneeltä.",
+    "english": "He seems tired.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "509756",
+    "spanish": "Lo siento, se me olvidó hacer los deberes.",
+    "finnish": "Anteeksi, mutta unohdin tehdä läksyt.",
+    "english": "I'm sorry, I forgot to do my homework.",
+    "wordCount": 8,
+    "categories": [
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements",
+      "requests_and_imperatives"
+    ]
+  },
+  {
+    "id": "553304",
+    "spanish": "Pienso en ti todo el tiempo.",
+    "finnish": "Ajattelen sinua kaiken aikaa.",
+    "english": "I think of you all the time.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "564559",
+    "spanish": "El Sr. White parece tener muchos amigos.",
+    "finnish": "Herra Whitella vaikuttaa olevan paljon ystäviä.",
+    "english": "Mr White seems to have many friends.",
+    "wordCount": 7,
+    "categories": [
+      "leisure",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "576616",
+    "spanish": "Pareces cansado.",
+    "finnish": "Näytät väsyneeltä.",
+    "english": "You look tired.",
+    "wordCount": 2,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "580333",
+    "spanish": "Creo que tienes razón.",
+    "finnish": "Luulen, että olet oikeassa.",
+    "english": "I think that you're right.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "580820",
+    "spanish": "Pareces enfermo.",
+    "finnish": "Näytät kipeältä.",
+    "english": "You look sick.",
+    "wordCount": 2,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "582490",
+    "spanish": "Creo que lo entiendo.",
+    "finnish": "Luulen, että ymmärrän.",
+    "english": "I think I understand.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "584251",
+    "spanish": "Todas las casas en esta vecindad se parecen tanto que no las puedo distinguir.",
+    "finnish": "Kaikki tämän asuinalueen talot näyttävät niin samanlaisilta, että en erota niitä toisistaan.",
+    "english": "All the houses in this neighborhood look so much alike that I can't tell them apart.",
+    "wordCount": 14,
+    "categories": [
+      "daily_life",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "584893",
+    "spanish": "Jack se parece a su padre.",
+    "finnish": "Jack muistuttaa isäänsä.",
+    "english": "Jack resembles his father.",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "587354",
+    "spanish": "La abuela de Tom parece estar sana.",
+    "finnish": "Tomin isoäiti näyttää terveeltä.",
+    "english": "Tom's grandmother looks healthy.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "606089",
+    "spanish": "Hoy me siento peor que ayer.",
+    "finnish": "Tänään voin huonommin kuin eilen.",
+    "english": "I feel worse today than I did yesterday.",
+    "wordCount": 6,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "623863",
+    "spanish": "Pareces cansada.",
+    "finnish": "Näytät väsyneeltä.",
+    "english": "You seem tired.",
+    "wordCount": 2,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "672912",
+    "spanish": "Mi hermana se parece a mi abuela.",
+    "finnish": "Siskoni muistuttaa isoäitiäni.",
+    "english": "My sister resembles my grandmother.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "688383",
+    "spanish": "Me siento vivo.",
+    "finnish": "Tunnen olevani elossa.",
+    "english": "I feel alive.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "688384",
+    "spanish": "Me siento viva.",
+    "finnish": "Tunnen olevani elossa.",
+    "english": "I feel alive.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "728507",
+    "spanish": "Me parece que esto está demasiado caro.",
+    "finnish": "Minusta näyttää, että tämä on liian kallista.",
+    "english": "It seems to me that this is too expensive.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "728606",
+    "spanish": "Me parece que esto es demasiado caro.",
+    "finnish": "Minusta näyttää, että tämä on liian kallista.",
+    "english": "It seems to me that this is too expensive.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "741850",
+    "spanish": "Este libro parece interesante.",
+    "finnish": "Tämä kirja näyttää kiinnostavalta.",
+    "english": "This book looks interesting.",
+    "wordCount": 4,
+    "categories": [
+      "leisure",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "870441",
+    "spanish": "Creo que Japón es un país muy seguro.",
+    "finnish": "Minusta Japani on todella turvallinen maa.",
+    "english": "I think that Japan is a very safe country.",
+    "wordCount": 8,
+    "categories": [
+      "travel",
+      "opinions_and_beliefs",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "871177",
+    "spanish": "Parece que Jane está disfrutando de la fiesta.",
+    "finnish": "Jane vaikuttaa nauttivan juhlista.",
+    "english": "Jane appears to be enjoying the party.",
+    "wordCount": 8,
+    "categories": [
+      "food",
+      "leisure",
+      "opinions_and_beliefs",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "918978",
+    "spanish": "Mi hermano se parece mucho a mí.",
+    "finnish": "Veljeni on todella samannäköinen kuin minä.",
+    "english": "My brother looks very similar to me.",
+    "wordCount": 7,
+    "categories": [
+      "family",
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "942156",
+    "spanish": "Lo siento.",
+    "finnish": "Olen pahoillani.",
+    "english": "Sorry...",
+    "wordCount": 2,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "999585",
+    "spanish": "Creo que él estaba enojado.",
+    "finnish": "Uskon että hän oli vihainen.",
+    "english": "I think he was angry.",
+    "wordCount": 5,
+    "categories": [
+      "emotions",
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1001030",
+    "spanish": "Pareces realmente cansado.",
+    "finnish": "Näytät todella väsyneeltä.",
+    "english": "You look like you're really tired.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1068541",
+    "spanish": "Tus oes parecen aes.",
+    "finnish": "Sinun o-kirjaimesi näyttävät a-kirjaimilta.",
+    "english": "Your o's look like a's.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1084378",
+    "spanish": "Creo que tiene cuarenta años.",
+    "finnish": "Luulen, että hän on neljäkymmentä vuotta.",
+    "english": "I believe she's 40 years old.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1127346",
+    "spanish": "Me siento aliviado después de haber dicho todo lo que quería decir.",
+    "finnish": "Minulla on helpottunut olo, kun sain sanottua kaiken, minkä halusin sanoa.",
+    "english": "I feel relieved after having said all that I wanted to say.",
+    "wordCount": 12,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "1134182",
+    "spanish": "En mi opinión, el esperanto es muy difícil.",
+    "finnish": "Minusta esperanto on hyvin vaikeaa.",
+    "english": "In my opinion, Esperanto is very difficult.",
+    "wordCount": 8,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1134298",
+    "spanish": "Yo considero a los obstáculos como un desafío.",
+    "finnish": "Näen esteet haasteina.",
+    "english": "I see obstacles as challenges.",
+    "wordCount": 8,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1139002",
+    "spanish": "Creo que me voy a quedar aquí.",
+    "finnish": "Luulen että aion pysyä täällä.",
+    "english": "I think I'm going to stay here.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1214468",
+    "spanish": "Hoy en día, me siento mucho mejor.",
+    "finnish": "Voin tänään paljon paremmin.",
+    "english": "Today, I am feeling a lot better.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "1237131",
+    "spanish": "Ella parece triste.",
+    "finnish": "Hän näyttää surulliselta.",
+    "english": "She looks sad.",
+    "wordCount": 3,
+    "categories": [
+      "emotions",
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1238889",
+    "spanish": "¡Creo que todavía estamos en Polonia!",
+    "finnish": "Luulen että olemme yhä Puolassa.",
+    "english": "I think we are still in Poland!",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1271106",
+    "spanish": "Parece que pasó algo.",
+    "finnish": "Vaikuttaa siltä, että jotain on tapahtunut.",
+    "english": "It seems that something has happened.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1271108",
+    "spanish": "Parece que ha ocurrido algo.",
+    "finnish": "Vaikuttaa siltä, että jotain on tapahtunut.",
+    "english": "It seems that something has happened.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1281269",
+    "spanish": "Él parece fuerte.",
+    "finnish": "Hän näyttää vahvalta.",
+    "english": "He looks strong.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1281937",
+    "spanish": "Tom no quiere parecer débil.",
+    "finnish": "Tom ei halua vaikuttaa heikolta.",
+    "english": "Tom doesn't want to appear weak.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1285322",
+    "spanish": "Parece buena persona.",
+    "finnish": "Hän vaikuttaa hyvältä ihmiseltä.",
+    "english": "He seems like a good person.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1292394",
+    "spanish": "Él parece haber sido rico.",
+    "finnish": "Hän vaikuttaa olleen aikaisemmin rikas.",
+    "english": "He seems to have been rich.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1318826",
+    "spanish": "Creo que entiendo.",
+    "finnish": "Luulen, että ymmärrän.",
+    "english": "I think I understand.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1320172",
+    "spanish": "Creo que la historia es cierta.",
+    "finnish": "Uskon, että se on tositarina.",
+    "english": "I believe that the story is true.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1321973",
+    "spanish": "Tom parece ser muy feliz.",
+    "finnish": "Tom vaikuttaa todella onnelliselta.",
+    "english": "Tom seems very happy.",
+    "wordCount": 5,
+    "categories": [
+      "emotions",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1322045",
+    "spanish": "Creo que eres la mujer que he estado esperando toda mi vida.",
+    "finnish": "Luulen että olet nainen jota olen odottanut koko ikäni.",
+    "english": "I think you're the woman I've been waiting for all my life.",
+    "wordCount": 12,
+    "categories": [
+      "family",
+      "opinions_and_beliefs",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "1329383",
+    "spanish": "Mi reloj parece estar roto.",
+    "finnish": "Minun kelloni näyttää olevan rikki.",
+    "english": "My clock seems to be broken.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1330595",
+    "spanish": "Tom parece estar muy contento.",
+    "finnish": "Tom näyttää hyvin onnelliselta.",
+    "english": "Tom looks very happy.",
+    "wordCount": 5,
+    "categories": [
+      "emotions",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1334202",
+    "spanish": "Parece muy interesante.",
+    "finnish": "Tuo vaikuttaa hyvin mielenkiintoiselta.",
+    "english": "It seems very interesting.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1337473",
+    "spanish": "Parece que tengo que el número incorrecto.",
+    "finnish": "Vaikuttaa siltä, että minulla on väärä numero.",
+    "english": "I seem to have the wrong number.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1343020",
+    "spanish": "Vuestro padre parece muy amable.",
+    "finnish": "Sinun isäsi vaikuttaa todella mukavalta.",
+    "english": "Your father seems very nice.",
+    "wordCount": 5,
+    "categories": [
+      "family",
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1357683",
+    "spanish": "No creo que su historia sea cierta.",
+    "finnish": "En usko, että hänen tarinansa on totta.",
+    "english": "I don't think his story is true.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1418727",
+    "spanish": "Creo que me compraré un coche nuevo.",
+    "finnish": "Luulen, että ostan uuden auton.",
+    "english": "I think I'll buy a new car.",
+    "wordCount": 7,
+    "categories": [
+      "travel",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1435306",
+    "spanish": "Pienso en ti cada vez que me cepillo mis dientes.",
+    "finnish": "Ajattelen sinua joka kerta, kun harjaan hampaani.",
+    "english": "I think about you every time I brush my teeth.",
+    "wordCount": 10,
+    "categories": [
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1437252",
+    "spanish": "Pienso que mi novio husmea en mi correo.",
+    "finnish": "Luulen, että poikaystäväni urkkii sähköpostejani.",
+    "english": "I think my boyfriend is spying on my emails.",
+    "wordCount": 8,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1437255",
+    "spanish": "Pienso que mi novio me espía mi correo.",
+    "finnish": "Luulen, että poikaystäväni urkkii sähköpostejani.",
+    "english": "I think my boyfriend is spying on my emails.",
+    "wordCount": 8,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1437426",
+    "spanish": "Creo que sí.",
+    "finnish": "Luulen niin.",
+    "english": "I think so.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1448228",
+    "spanish": "Parecen fotografías.",
+    "finnish": "He näyttävät olevan valokuvaajia.",
+    "english": "They seem to be photographs.",
+    "wordCount": 2,
+    "categories": [
+      "travel",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1456233",
+    "spanish": "Parece que mucha gente no sabe la diferencia entre \"their\" y \"they're\".",
+    "finnish": "Vaikuttaa siltä, että monet ihmiset eivät tiedä mitä eroa on sanoilla ”their” ja ”they're”.",
+    "english": "It seems that many people don't know the difference between \"their\" and \"they're\".",
+    "wordCount": 12,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1456234",
+    "spanish": "Parece que mucha gente no sabe la diferencia entre \"then\" y \"than\".",
+    "finnish": "Vaikuttaa siltä, että monet ihmiset eivät tiedä mitä eroa on sanoilla ”then” ja ”than”.",
+    "english": "It seems that many people don't know the difference between \"then\" and \"than\".",
+    "wordCount": 12,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1456235",
+    "spanish": "Parece que mucha gente no sabe la diferencia entre \"loose\" y \"lose\".",
+    "finnish": "Näyttää siltä, että monet eivät tiedä mitä eroa on sanoilla ”loose” ja ”lose”.",
+    "english": "It seems that many people don't know the difference between \"loose\" and \"lose\".",
+    "wordCount": 12,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1469761",
+    "spanish": "A menudo pienso en ti.",
+    "finnish": "Ajattelen sinua usein.",
+    "english": "I often think about you.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1477171",
+    "spanish": "Parece que Mary está borracha otra vez.",
+    "finnish": "Vaikuttaa siltä, että Mary on taas humalassa.",
+    "english": "It looks like Mary is drunk again.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1507396",
+    "spanish": "Siento que algo anda mal.",
+    "finnish": "Tuntuu, että jotakin on vialla.",
+    "english": "I feel that something is wrong.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "1507462",
+    "spanish": "Tom parece estar dormido.",
+    "finnish": "Tom vaikuttaa nukkuvan.",
+    "english": "Tom seems to be asleep.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1527067",
+    "spanish": "Creo que entiende de qué hablo.",
+    "finnish": "Kyllä sinä tiedät mitä tarkoitan.",
+    "english": "I think you know what I mean.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "questions_inquiries"
+    ]
+  },
+  {
+    "id": "1592362",
+    "spanish": "Parece ser un estudiante.",
+    "finnish": "Näyttää siltä, että hän on opiskelija.",
+    "english": "He seems to be a student.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1603681",
+    "spanish": "Supongo que deberíamos irnos ahora.",
+    "finnish": "Meidän lienee parasta nyt lähteä.",
+    "english": "I guess we should leave now.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "1604909",
+    "spanish": "En mi opinión, él tiene razón.",
+    "finnish": "Minun mielestäni hän on oikeassa.",
+    "english": "In my opinion, he is correct.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "1646160",
+    "spanish": "Nada es como parece.",
+    "finnish": "Mikään ei ole miltä näyttää.",
+    "english": "Nothing is as it seems.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "1713654",
+    "spanish": "Parece que Tony se compró un auto costoso.",
+    "finnish": "Vaikuttaa siltä, että Toni osti kalliin auton.",
+    "english": "It seems that Tony bought an expensive car.",
+    "wordCount": 8,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "1747166",
+    "spanish": "Hoy me siento mal.",
+    "finnish": "Tänään minulla on huono olo.",
+    "english": "I feel bad today.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "1841352",
+    "spanish": "Creo que se trata de un Picasso auténtico.",
+    "finnish": "Luulen että se on aito Picasso.",
+    "english": "I believe it is a genuine Picasso.",
+    "wordCount": 8,
+    "categories": [
+      "food",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "2005623",
+    "spanish": "Tom se parece a su padre.",
+    "finnish": "Tom näyttää isältään.",
+    "english": "Tom resembles his father.",
+    "wordCount": 6,
+    "categories": [
+      "family",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "2008126",
+    "spanish": "Tom parece enfermo.",
+    "finnish": "Tom näyttää sairaalta.",
+    "english": "Tom looks sick.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "2103203",
+    "spanish": "Pienso que es demasiado joven.",
+    "finnish": "Luulen, että hän on liian nuori.",
+    "english": "I think she's too young.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2110504",
+    "spanish": "Me siento enfermo.",
+    "finnish": "Tunnen oloni sairaaksi.",
+    "english": "I'm feeling sick.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "2123008",
+    "spanish": "Mhmm. Yo también pienso que sí.",
+    "finnish": "Mm-hm. Niin minäkin uskon.",
+    "english": "Mm-hm. I think so too.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2177995",
+    "spanish": "Ahora me siento mucho mejor.",
+    "finnish": "Nyt minulla on paljon parempi olo.",
+    "english": "I feel a lot better now.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "2209551",
+    "spanish": "Tom parece triste.",
+    "finnish": "Tomi näyttää surulliselta.",
+    "english": "Tom looks sad.",
+    "wordCount": 3,
+    "categories": [
+      "emotions",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "2229439",
+    "spanish": "Parece nieve.",
+    "finnish": "Se näyttää lumelta.",
+    "english": "It looks like snow.",
+    "wordCount": 2,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2307942",
+    "spanish": "Lo siento, se me olvidó.",
+    "finnish": "Anteeksi, unohdin sen.",
+    "english": "Sorry, I forgot.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "2344180",
+    "spanish": "No creo que sea verdad.",
+    "finnish": "En usko, että se on totta.",
+    "english": "I don't think it's true.",
+    "wordCount": 5,
+    "categories": [
+      "leisure",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2667234",
+    "spanish": "No pareces muy feliz de verme.",
+    "finnish": "Et vaikuta kovin iloiselta nähdessäsi minut.",
+    "english": "You don't seem too happy to see me.",
+    "wordCount": 6,
+    "categories": [
+      "leisure",
+      "emotions",
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2667275",
+    "spanish": "No importa lo que digas, no cambiaré de parecer.",
+    "finnish": "Aivan sama mitä sanot, minä en muuta mieltäni.",
+    "english": "No matter what you say, I won't change my mind.",
+    "wordCount": 9,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2667278",
+    "spanish": "No creo que nadie notara lo que hiciste.",
+    "finnish": "En usko, että kukaan huomasi mitä teit.",
+    "english": "I don't think anyone noticed what you did.",
+    "wordCount": 8,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2720063",
+    "spanish": "Creo que deberías decírselo a Tom.",
+    "finnish": "Minusta sinun pitäisi sanoa se Tomille.",
+    "english": "I think you should tell Tom that.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "2756515",
+    "spanish": "Parece que ella está borracha.",
+    "finnish": "Hän näyttää olevan humalassa.",
+    "english": "She looks as if she were drunk.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2769198",
+    "spanish": "No creo que entiendas del todo las consecuencias.",
+    "finnish": "En luule, että täysin ymmärrät seuraukset.",
+    "english": "I don't think you fully understand the consequences.",
+    "wordCount": 8,
+    "categories": [
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2788128",
+    "spanish": "Creo que ese libro está en la biblioteca.",
+    "finnish": "Luulen, että se kirja löytyy kirjastosta.",
+    "english": "I think that book is in the library.",
+    "wordCount": 8,
+    "categories": [
+      "leisure",
+      "opinions_and_beliefs",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2827055",
+    "spanish": "Me siento tan sola.",
+    "finnish": "Minulla on tosi yksinäinen olo.",
+    "english": "I feel so lonely.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "2854265",
+    "spanish": "No creo que acabas de decir eso.",
+    "finnish": "En usko että sanoit sen juuri.",
+    "english": "I don't believe you just said that.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2857731",
+    "spanish": "Creo que deberías decirle eso a Tom.",
+    "finnish": "Minusta sinun pitäisi sanoa se Tomille.",
+    "english": "I think you should tell Tom that.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "2943206",
+    "spanish": "Yo pienso que la comida en Japón es cara.",
+    "finnish": "Minusta Japanissa ruoka on kallista.",
+    "english": "I think food is expensive in Japan.",
+    "wordCount": 9,
+    "categories": [
+      "food",
+      "opinions_and_beliefs",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2947989",
+    "spanish": "Yo creo que a la sopa le falta un poco de sal.",
+    "finnish": "Minusta keitto kaipaisi hiukan suolaa.",
+    "english": "I think the soup needs a bit of salt.",
+    "wordCount": 12,
+    "categories": [
+      "food",
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2977428",
+    "spanish": "Creo que veo el problema.",
+    "finnish": "Luulen että näen ongelman.",
+    "english": "I think I see the problem.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "2987894",
+    "spanish": "Yo no me creo todo lo que Tom dice.",
+    "finnish": "En usko kaikkea, mitä Tom sanoo.",
+    "english": "I don't believe everything Tom says.",
+    "wordCount": 9,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "2988588",
+    "spanish": "¡Parece que ahora hay más de dos mil frases en uigur en Tatoeba!",
+    "finnish": "Näyttää siltä, että Tatoebassa on nyt yli kaksituhatta uiguurinkielistä lausetta!",
+    "english": "It looks like there are now over two thousand Uyghur sentences on Tatoeba!",
+    "wordCount": 13,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "2988680",
+    "spanish": "Lo siento, olvidé tu nombre.",
+    "finnish": "Anteeksi, unohdin nimesi.",
+    "english": "I'm sorry, I forgot your name.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "2993886",
+    "spanish": "Pienso en ello de vez en cuando.",
+    "finnish": "Ajattelen sitä silloin tällöin.",
+    "english": "I think about that from time to time.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "3057882",
+    "spanish": "No creo que ellos sean profesores.",
+    "finnish": "En usko heidän olevan opettajia.",
+    "english": "I don't think they're teachers.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3057883",
+    "spanish": "No creo que eso sea sabio.",
+    "finnish": "En usko sen olevan viisasta.",
+    "english": "I don't think that's wise.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3057885",
+    "spanish": "No creo que eso sea cierto.",
+    "finnish": "En usko, että se on totta.",
+    "english": "I don't believe that to be true.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3057887",
+    "spanish": "No creo que eso sea posible.",
+    "finnish": "En usko sen olevan mahdollista.",
+    "english": "I don't think that's possible.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3057891",
+    "spanish": "No creo que sea necesario.",
+    "finnish": "En usko sen olevan välttämätöntä.",
+    "english": "I don't think that's necessary.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3074233",
+    "spanish": "Tom es mayor de lo que parece.",
+    "finnish": "Tom on vanhempi kuin miltä näyttää.",
+    "english": "Tom is older than he looks.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3081311",
+    "spanish": "Él parece nunca envejecer.",
+    "finnish": "Hän ei vaikuta vanhenevan ikinä.",
+    "english": "He never seems to be any older.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3081313",
+    "spanish": "Ese parece ser el problema.",
+    "finnish": "Se vaikuttaa olevan ongelma.",
+    "english": "That seems to be the problem.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "3081376",
+    "spanish": "Tom parece ser incapaz de interactuar normalmente con otras personas.",
+    "finnish": "Vaikuttaa siltä, että Tom ei pysty toimimaan normaalisti muiden ihmisten kanssa.",
+    "english": "Tom seems to be unable to interact normally with other people.",
+    "wordCount": 10,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3081382",
+    "spanish": "Tom parece estar un poco nervioso.",
+    "finnish": "Tom vaikuttaa olevan vähän hermostunut.",
+    "english": "Tom appears to be a bit nervous.",
+    "wordCount": 6,
+    "categories": [
+      "emotions",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "3081384",
+    "spanish": "Tom parece estar un poco preocupado.",
+    "finnish": "Tom vaikuttaa olevan vähän huolissaan.",
+    "english": "Tom appears to be a bit worried.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "3081397",
+    "spanish": "Tom parece ser más amistoso que antes.",
+    "finnish": "Tom vaikuttaa ystävällisemmältä kuin aikaisemmin.",
+    "english": "Tom seems friendlier than before.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast"
+    ]
+  },
+  {
+    "id": "3084166",
+    "spanish": "Creo que tengo un poco de fiebre.",
+    "finnish": "Luulen että minulla on hienoinen kuume.",
+    "english": "I think I've got a touch of fever.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "3111445",
+    "spanish": "Parece que Tanaka pasó su examen.",
+    "finnish": "Näyttää että Tanaka läpäisi tutkintonsa.",
+    "english": "It seems Tanaka passed her exam.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "3112436",
+    "spanish": "Yo pienso que deberías tomarte un descanso; te ves enferma.",
+    "finnish": "Minusta sinun pitäisi levätä. Näytät sairaalta.",
+    "english": "I think you'd better take a rest; you look ill.",
+    "wordCount": 10,
+    "categories": [
+      "leisure",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3117100",
+    "spanish": "No creo que estés loco.",
+    "finnish": "En usko sinun olevan hullu.",
+    "english": "I don't think you're crazy.",
+    "wordCount": 5,
+    "categories": [
+      "food",
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3118305",
+    "spanish": "No creo en los extraterrestres.",
+    "finnish": "En usko avaruusolioihin.",
+    "english": "I don't believe in aliens.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3173742",
+    "spanish": "No creo haber infringido alguna ley.",
+    "finnish": "En luule rikkoneeni mitään lakia.",
+    "english": "I don't think I've broken any laws.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3198507",
+    "spanish": "Creo que ella está fingiendo.",
+    "finnish": "Luulen, että hän teeskentelee.",
+    "english": "I think she's faking.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3198508",
+    "spanish": "Creo que él está fingiendo.",
+    "finnish": "Luulen, että hän teeskentelee.",
+    "english": "I think he's faking.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3198510",
+    "spanish": "No creo que esté fingiendo.",
+    "finnish": "En usko, että hän teeskentelee.",
+    "english": "I don't think he's faking.",
+    "wordCount": 5,
+    "categories": [
+      "food",
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3202487",
+    "spanish": "No creo que haya hecho suficiente espagueti para todos.",
+    "finnish": "En usko, että olen tehnyt tarpeeksi spaghettia kaikille.",
+    "english": "I don't think I've made enough spaghetti for everyone.",
+    "wordCount": 9,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3216170",
+    "spanish": "Tom se levantó de su asiento.",
+    "finnish": "Tom nousi ylös istuimeltaan.",
+    "english": "Tom got up from his seat.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "3239781",
+    "spanish": "Tú quieres que consiga un mejor trabajo, pero no creo que pueda.",
+    "finnish": "Haluat, että hankin paremman työn, mutta en usko, että voin.",
+    "english": "You want me to get a better job, but I don't think I can.",
+    "wordCount": 12,
+    "categories": [
+      "work",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3250414",
+    "spanish": "Todo parece confuso.",
+    "finnish": "Kaikki vaikuttaa sekavalta.",
+    "english": "Everything seems confusing.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "3256694",
+    "spanish": "No creo que en realidad podamos decir que uno esté bien y el otro esté mal.",
+    "finnish": "En usko, että voimme oikeastaan sanoa toisen olleen oikeassa ja toisen väärässä.",
+    "english": "I don't think we can really say that one is right and the other is wrong.",
+    "wordCount": 16,
+    "categories": [
+      "food",
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3263509",
+    "spanish": "Yo pienso que es medio estúpido.",
+    "finnish": "Mielestäni se on tavallaan tyhmää.",
+    "english": "I think it's kind of stupid.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3277674",
+    "spanish": "Creo que hay alguien ahí afuera.",
+    "finnish": "Luulen, että tuolla ulkona on joku.",
+    "english": "I think there's someone out there.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3353715",
+    "spanish": "Tom estudia todo el tiempo, pero jamás parece aprender nada.",
+    "finnish": "Tom opiskelee koko ajan, mutta ei tunnu ikinä oppivan mitään.",
+    "english": "Tom is always studying, but he never seems to learn anything.",
+    "wordCount": 10,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3373709",
+    "spanish": "Vuelve a tu asiento.",
+    "finnish": "Mene takaisin istuinpaikallesi.",
+    "english": "Go back to your seat.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "3389918",
+    "spanish": "Creo que se puede vencer a Tom.",
+    "finnish": "Luulen, että Tom voidaan päihittää.",
+    "english": "I think Tom can be beaten.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "3389928",
+    "spanish": "Creo que es muy improbable que Tom aparezca hoy.",
+    "finnish": "Luulen, että on erittäin epätodennäköistä, että Tom ilmaantuu paikalle tänään.",
+    "english": "I think it's highly unlikely that Tom will show up today.",
+    "wordCount": 9,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3390013",
+    "spanish": "Creo que Tom podría estar enojado conmigo.",
+    "finnish": "Luulen, että Tom saattaa olla vihainen minulle.",
+    "english": "I think Tom might be mad at me.",
+    "wordCount": 7,
+    "categories": [
+      "emotions",
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3390022",
+    "spanish": "Lo considero mi deber.",
+    "finnish": "Pidän sitä velvollisuutenani.",
+    "english": "I consider it my duty.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "3390063",
+    "spanish": "En mi opinión, no es importante.",
+    "finnish": "Minun mielestäni se ei ole tärkeää.",
+    "english": "In my opinion, it's not important.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "3393867",
+    "spanish": "Creo que tienes gripe.",
+    "finnish": "Luulen, että sinulla on flunssa.",
+    "english": "I think you've got the flu.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "3416624",
+    "spanish": "Yo pienso que deberías tener cuidado.",
+    "finnish": "Mielestäni sinun pitäisi olla varovainen.",
+    "english": "I think you should be careful.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3567409",
+    "spanish": "Pareces ser un hombre honesto.",
+    "finnish": "Vaikutat rehelliseltä mieheltä.",
+    "english": "You seem to be an honest man.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "3600591",
+    "spanish": "Parece que Tom quiere hablar contigo.",
+    "finnish": "Tom näyttää siltä, että hän haluaa puhua kanssasi.",
+    "english": "It seems like Tom wants to talk to you.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "3762251",
+    "spanish": "Yo pienso que es demasiado arriesgado.",
+    "finnish": "Se on minusta liian riskialtista.",
+    "english": "I think it's too risky.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements",
+      "statements_of_fact",
+      "interpersonal_dynamics"
+    ]
+  },
+  {
+    "id": "3762309",
+    "spanish": "No creo que nadie notara lo que hicimos.",
+    "finnish": "En usko, että kukaan huomasi mitä me teimme.",
+    "english": "I don't think anyone noticed what we did.",
+    "wordCount": 8,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3775654",
+    "spanish": "Tom parece estar enojado.",
+    "finnish": "Tom näyttää vihaiselta.",
+    "english": "Tom looks angry.",
+    "wordCount": 4,
+    "categories": [
+      "emotions",
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "3892202",
+    "spanish": "Parece ser una cámara de algún tipo.",
+    "finnish": "Se näyttää jonkinlaiselta kameralta.",
+    "english": "It looks like a camera of some kind.",
+    "wordCount": 7,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "4075228",
+    "spanish": "Todos parecen ser optimistas.",
+    "finnish": "Kaikki vaikuttavat optimistisilta.",
+    "english": "Everyone seems optimistic.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "4286657",
+    "spanish": "Creo que estás siendo un poco muy cuidadoso.",
+    "finnish": "Luulen että olet hieman liian varovainen.",
+    "english": "I think you're being a little too careful.",
+    "wordCount": 8,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "4392355",
+    "spanish": "Me siento como un extraño.",
+    "finnish": "Tunnen itseni ulkopuoliseksi.",
+    "english": "I feel like an outsider.",
+    "wordCount": 5,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "4555647",
+    "spanish": "¡Lo siento!",
+    "finnish": "Olen pahoillani!",
+    "english": "Sorry!",
+    "wordCount": 2,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "4694068",
+    "spanish": "Parece que estás de mal humor esta mañana.",
+    "finnish": "Vaikuttaa siltä, että olet huonolla tuulella tänä aamuna.",
+    "english": "It seems like you're in a bad mood this morning.",
+    "wordCount": 8,
+    "categories": [
+      "time",
+      "daily_life",
+      "opinions_and_beliefs",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "5569560",
+    "spanish": "Parece que falta algo.",
+    "finnish": "Jokin näyttää puuttuvan.",
+    "english": "Something seems to be missing.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "5674430",
+    "spanish": "Tom parece estar siempre de mal humor.",
+    "finnish": "Tomi näyttää olevan aina huonolla tuulella.",
+    "english": "Tom always seems to be in a bad mood.",
+    "wordCount": 7,
+    "categories": [
+      "time",
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "5705198",
+    "spanish": "Pienso que llevará tiempo.",
+    "finnish": "Mä luulen, et siihen menee aikaa.",
+    "english": "I think it's going to take time.",
+    "wordCount": 4,
+    "categories": [
+      "time",
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "5854106",
+    "spanish": "No pareces muy satisfecho.",
+    "finnish": "Et näytä kovin tyytyväiseltä.",
+    "english": "You don't seem very satisfied.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "5917120",
+    "spanish": "Pareces estar aburrido.",
+    "finnish": "Näyttää siltä, että sinulla on tylsää.",
+    "english": "You seem to be bored.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "5917124",
+    "spanish": "Pareces estar bebido.",
+    "finnish": "Vaikuttaa siltä, että olet humalassa.",
+    "english": "You seem to be drunk.",
+    "wordCount": 3,
+    "categories": [
+      "opinions_and_beliefs"
+    ]
+  },
+  {
+    "id": "6602243",
+    "spanish": "Encontré tu cartera en el asiento trasero de mi coche.",
+    "finnish": "Mä löysin sun lompakon mun auton takapenkiltä.",
+    "english": "I found your wallet on the backseat of my car.",
+    "wordCount": 10,
+    "categories": [
+      "travel",
+      "leisure",
+      "opinions_and_beliefs",
+      "conditional_statements"
+    ]
+  },
+  {
+    "id": "6632865",
+    "spanish": "No parece tan difícil como antes.",
+    "finnish": "Se ei vaikuta yhtä vaikealta kuin ennen.",
+    "english": "It doesn't seem as difficult as before.",
+    "wordCount": 6,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "negation_and_denial"
+    ]
+  },
+  {
+    "id": "7996690",
+    "spanish": "Creo que deberías añadir un poco más de pimienta.",
+    "finnish": "Minusta sinun pitäisi lisätä hieman pippuria.",
+    "english": "I think that you should add a little more pepper.",
+    "wordCount": 9,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "8310821",
+    "spanish": "Creo que Tomás está loco.",
+    "finnish": "Mä luulen, et Tomi on tullu hulluksi.",
+    "english": "I think that Tom is crazy.",
+    "wordCount": 5,
+    "categories": [
+      "opinions_and_beliefs",
+      "comparison_and_contrast",
+      "statements_of_fact"
+    ]
+  },
+  {
+    "id": "8312737",
+    "spanish": "Creo que deberías pedir perdón.",
+    "finnish": "Minusta sinun pitäisi pyytää anteeksi.",
+    "english": "I think you should apologize.",
+    "wordCount": 5,
+    "categories": [
+      "greetings",
+      "opinions_and_beliefs",
+      "reasoning_assessment"
+    ]
+  },
+  {
+    "id": "9842492",
+    "spanish": "Me siento tan estúpido.",
+    "finnish": "Tunnen itseni niin typeräksi.",
+    "english": "I feel so stupid.",
+    "wordCount": 4,
+    "categories": [
+      "opinions_and_beliefs",
+      "conditional_statements",
+      "interpersonal_dynamics"
+    ]
+  }
+]

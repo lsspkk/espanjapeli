@@ -6,7 +6,8 @@
     "english": "My mom doesn't speak English very well.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -16,7 +17,10 @@
     "english": "My father doesn't drink. \"Neither does my father.\"",
     "wordCount": 8,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -26,7 +30,8 @@
     "english": "I live with my parents.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -36,7 +41,9 @@
     "english": "Her father is Japanese.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -46,7 +53,8 @@
     "english": "His wife is French.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -77,7 +85,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -87,7 +96,9 @@
     "english": "She has seven sons.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -107,7 +118,10 @@
     "english": "He's the kind of guy who doesn't take women seriously.",
     "wordCount": 15,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -119,7 +133,8 @@
     "categories": [
       "food",
       "family",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -130,7 +145,9 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -140,7 +157,9 @@
     "english": "She looks like her aunt.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -152,7 +171,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -162,7 +182,8 @@
     "english": "He has another son.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -172,7 +193,8 @@
     "english": "Do you have kids?",
     "wordCount": 2,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -182,7 +204,9 @@
     "english": "How's my son doing?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -203,7 +227,8 @@
     "wordCount": 10,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -234,7 +259,8 @@
     "english": "Your father is tall.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -245,7 +271,9 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "time"
+      "time",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -256,7 +284,10 @@
     "wordCount": 4,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -278,7 +309,9 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -288,7 +321,10 @@
     "english": "He's a little like his father.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -298,7 +334,8 @@
     "english": "His parents were farmers.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -308,7 +345,8 @@
     "english": "Is this your family?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -318,7 +356,8 @@
     "english": "My parents got divorced.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -328,7 +367,10 @@
     "english": "He is no longer a child.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -338,7 +380,8 @@
     "english": "I'm looking for my brother.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -348,7 +391,8 @@
     "english": "I have two brothers and a sister.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -360,7 +404,8 @@
     "categories": [
       "food",
       "family",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -391,7 +436,9 @@
     "english": "He doesn't have any children.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -403,7 +450,10 @@
     "categories": [
       "family",
       "leisure",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -413,7 +463,8 @@
     "english": "My father is a doctor.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -433,7 +484,10 @@
     "english": "I need something for a child.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "conditional_statements",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -443,7 +497,8 @@
     "english": "She went to school in spite of the pain in her right leg.",
     "wordCount": 15,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -453,7 +508,8 @@
     "english": "My wife is a doctor.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -463,7 +519,10 @@
     "english": "He is my brother.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -473,7 +532,8 @@
     "english": "He is my brother.",
     "wordCount": 3,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -484,7 +544,9 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -539,7 +601,9 @@
     "categories": [
       "family",
       "work",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -550,7 +614,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -560,7 +625,8 @@
     "english": "I have two older sisters.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -570,7 +636,8 @@
     "english": "Both sisters are very beautiful.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -580,7 +647,8 @@
     "english": "He has seven sons.",
     "wordCount": 3,
     "categories": [
-      "family"
+      "family",
+      "conditional_statements"
     ]
   },
   {
@@ -591,7 +659,8 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -611,7 +680,8 @@
     "english": "I know your father.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -622,7 +692,9 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -635,7 +707,9 @@
       "travel",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -688,7 +762,8 @@
     "english": "She hated her husband.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -698,7 +773,8 @@
     "english": "Children like climbing trees.",
     "wordCount": 9,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -709,7 +785,10 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -719,7 +798,8 @@
     "english": "Jack resembles his father.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -729,7 +809,8 @@
     "english": "Tom's grandmother looks healthy.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -739,7 +820,8 @@
     "english": "The poet expressed his burning passion for the woman he loved.",
     "wordCount": 11,
     "categories": [
-      "family"
+      "family",
+      "conditional_statements"
     ]
   },
   {
@@ -749,7 +831,10 @@
     "english": "My older brother is a teacher.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -759,7 +844,9 @@
     "english": "Uncle Tom is my mother's brother.",
     "wordCount": 9,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -769,7 +856,9 @@
     "english": "My father is in good health.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -779,7 +868,8 @@
     "english": "Follow the example of your sister.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "conditional_statements"
     ]
   },
   {
@@ -789,7 +879,8 @@
     "english": "My mother is on a diet.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -800,7 +891,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -810,7 +902,8 @@
     "english": "They are my cousins.",
     "wordCount": 3,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -822,7 +915,8 @@
     "categories": [
       "food",
       "family",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -833,7 +927,10 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "time"
+      "time",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -843,7 +940,8 @@
     "english": "My sister is famous.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -853,7 +951,8 @@
     "english": "My wife is a vegetarian.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -863,7 +962,8 @@
     "english": "Our son died during the war.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -873,7 +973,8 @@
     "english": "My sister resembles my grandmother.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -883,7 +984,10 @@
     "english": "He's the type of guy who doesn't take women very seriously.",
     "wordCount": 16,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -913,7 +1017,8 @@
     "english": "Your father is Japanese.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -923,7 +1028,8 @@
     "english": "His father is Japanese.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -933,7 +1039,8 @@
     "english": "My father likes tennis.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -944,7 +1051,9 @@
     "wordCount": 13,
     "categories": [
       "family",
-      "work"
+      "work",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -964,7 +1073,9 @@
     "english": "How's your wife?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -974,7 +1085,8 @@
     "english": "My children are at school.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -994,7 +1106,8 @@
     "english": "My son believes in Father Christmas.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -1004,7 +1117,8 @@
     "english": "Your father is Japanese.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -1015,7 +1129,10 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1026,7 +1143,8 @@
     "wordCount": 9,
     "categories": [
       "travel",
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1047,7 +1165,8 @@
     "english": "My son can't count yet.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -1058,7 +1177,9 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -1068,7 +1189,8 @@
     "english": "We're distancing ourselves from the rest of the family.",
     "wordCount": 8,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -1078,7 +1200,8 @@
     "english": "The two brothers died.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -1088,7 +1211,9 @@
     "english": "The young lady carried a child in her arm.",
     "wordCount": 8,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1111,7 +1236,8 @@
       "travel",
       "family",
       "leisure",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -1153,7 +1279,10 @@
     "english": "Is she your mother?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1163,7 +1292,8 @@
     "english": "He has three older sisters.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1174,7 +1304,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -1184,7 +1315,9 @@
     "english": "Are you proud of your father?",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1194,7 +1327,9 @@
     "english": "Are you proud of your father?",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1204,7 +1339,10 @@
     "english": "Are you proud of your father?",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1214,7 +1352,10 @@
     "english": "Are you proud of your father?",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1224,7 +1365,8 @@
     "english": "She bought her son a camera.",
     "wordCount": 8,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1234,7 +1376,10 @@
     "english": "My brother looks very similar to me.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "opinions_and_beliefs",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1244,7 +1389,10 @@
     "english": "He is not as tall as his father.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1265,7 +1413,8 @@
     "english": "Father is a good person.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -1276,7 +1425,8 @@
     "wordCount": 11,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -1306,7 +1456,8 @@
     "english": "Where does your grandfather live?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -1346,7 +1497,9 @@
     "english": "The boy remained silent.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -1366,7 +1519,8 @@
     "english": "Do you have kids?",
     "wordCount": 2,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -1376,7 +1530,8 @@
     "english": "Do you have a sister, Lucia?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -1386,7 +1541,8 @@
     "english": "Do you have a sister, Lucia?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -1407,7 +1563,8 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1417,7 +1574,9 @@
     "english": "Does he have children?",
     "wordCount": 3,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1427,7 +1586,8 @@
     "english": "Pedro has no sisters.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -1437,7 +1597,8 @@
     "english": "Tom knows Mary's father.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -1447,7 +1608,8 @@
     "english": "He has a beautiful daughter.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1477,7 +1639,9 @@
     "english": "Does someone know where my son is?",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1490,7 +1654,8 @@
       "food",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1500,7 +1665,10 @@
     "english": "I will show you that man can be reborn from his ashes.",
     "wordCount": 11,
     "categories": [
-      "family"
+      "family",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1553,7 +1721,8 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -1563,7 +1732,9 @@
     "english": "He's the black sheep of the family.",
     "wordCount": 8,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1574,7 +1745,9 @@
     "wordCount": 10,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1586,7 +1759,9 @@
     "categories": [
       "travel",
       "family",
-      "leisure"
+      "leisure",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -1597,7 +1772,8 @@
     "wordCount": 10,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -1609,7 +1785,8 @@
     "categories": [
       "food",
       "family",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -1619,7 +1796,10 @@
     "english": "I'm looking for your sister. Where is she?",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1629,7 +1809,8 @@
     "english": "He lives with his parents.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1639,7 +1820,9 @@
     "english": "How's your wife?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1649,7 +1832,9 @@
     "english": "The police searched for the missing child.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -1659,7 +1844,8 @@
     "english": "Mary is the woman of my dreams.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -1669,7 +1855,8 @@
     "english": "I was jealous of my brother.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -1689,7 +1876,8 @@
     "english": "Mary is Tom's daughter.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -1699,7 +1887,9 @@
     "english": "Tom is an only child.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1710,7 +1900,9 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "work"
+      "work",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1721,7 +1913,10 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -1731,7 +1926,9 @@
     "english": "How's your mother?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -1741,7 +1938,9 @@
     "english": "She's my sister.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1751,7 +1950,9 @@
     "english": "He's my uncle.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1761,7 +1962,8 @@
     "english": "My mother has two brothers.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -1771,7 +1973,9 @@
     "english": "Tom is the perfect father.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -1782,7 +1986,9 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1802,7 +2008,9 @@
     "english": "Does she have children?",
     "wordCount": 3,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1824,7 +2032,8 @@
     "english": "Do you have kids?",
     "wordCount": 2,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -1834,7 +2043,9 @@
     "english": "You don't know what it's like to lose your entire family in a war.",
     "wordCount": 14,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -1854,7 +2065,9 @@
     "english": "My grandmother lived with us.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1864,7 +2077,8 @@
     "english": "My grandmother lived with us.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -1886,7 +2100,8 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1896,7 +2111,9 @@
     "english": "I think you're the woman I've been waiting for all my life.",
     "wordCount": 12,
     "categories": [
-      "family"
+      "family",
+      "opinions_and_beliefs",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1906,7 +2123,9 @@
     "english": "Tom is the tallest in his family.",
     "wordCount": 8,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast",
+      "statements_of_fact"
     ]
   },
   {
@@ -1916,7 +2135,8 @@
     "english": "My father is tall.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -1926,7 +2146,8 @@
     "english": "Mary is Tom's ex-wife.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -1936,7 +2157,9 @@
     "english": "Your father seems very nice.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "opinions_and_beliefs",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -1946,7 +2169,8 @@
     "english": "My grandmother's death was a big shock.",
     "wordCount": 9,
     "categories": [
-      "family"
+      "family",
+      "reasoning_assessment"
     ]
   },
   {
@@ -1990,7 +2214,11 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "conditional_statements",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2010,7 +2238,9 @@
     "english": "My family is not very large.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2030,7 +2260,8 @@
     "english": "She abandoned her children.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2040,7 +2271,8 @@
     "english": "Tom is Mary's grandfather.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -2050,7 +2282,8 @@
     "english": "Tom looks like his father.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -2060,7 +2293,8 @@
     "english": "My father is rich.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -2071,7 +2305,8 @@
     "wordCount": 14,
     "categories": [
       "travel",
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2082,7 +2317,8 @@
     "wordCount": 9,
     "categories": [
       "travel",
-      "family"
+      "family",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2092,7 +2328,8 @@
     "english": "I know your father very well.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2102,7 +2339,9 @@
     "english": "My cousin is a little older than I am.",
     "wordCount": 8,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2112,7 +2351,9 @@
     "english": "My cousin is a little older than I am.",
     "wordCount": 8,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2123,7 +2364,8 @@
     "wordCount": 5,
     "categories": [
       "food",
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -2133,7 +2375,8 @@
     "english": "The boy went to bed with his socks on.",
     "wordCount": 8,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2154,7 +2397,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "work"
+      "work",
+      "statements_of_fact"
     ]
   },
   {
@@ -2164,7 +2408,10 @@
     "english": "There are more women than men in the world.",
     "wordCount": 8,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -2175,7 +2422,8 @@
     "wordCount": 11,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2185,7 +2433,8 @@
     "english": "I don't know anything about her family.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2195,7 +2444,8 @@
     "english": "One should love one's own mother.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "reasoning_assessment"
     ]
   },
   {
@@ -2205,7 +2455,8 @@
     "english": "Alice is my mother.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -2215,7 +2466,8 @@
     "english": "They're going to have a baby.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2225,7 +2477,8 @@
     "english": "I finally met the right woman.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2247,7 +2500,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "statements_of_fact"
     ]
   },
   {
@@ -2258,7 +2512,8 @@
     "wordCount": 14,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -2269,7 +2524,9 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2280,7 +2537,8 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
@@ -2290,7 +2548,10 @@
     "english": "When he smiled, the children saw his long, gray teeth.",
     "wordCount": 11,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2310,7 +2571,10 @@
     "english": "Where are your parents?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2320,7 +2584,8 @@
     "english": "My brother wants to kill me.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2331,7 +2596,10 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment",
+      "conditional_statements",
+      "questions_inquiries"
     ]
   },
   {
@@ -2351,7 +2619,8 @@
     "english": "They have twelve children.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2371,7 +2640,8 @@
     "english": "She takes care of my children.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2382,7 +2652,8 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -2392,7 +2663,8 @@
     "english": "Tom's father is an alcoholic.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -2403,7 +2675,8 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -2413,7 +2686,8 @@
     "english": "A fierce dog attacked the girl.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2433,7 +2707,9 @@
     "english": "It is not true that both of the parents tried hard in search of their daughter.",
     "wordCount": 14,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2443,7 +2719,8 @@
     "english": "He often writes letters to his parents.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2453,7 +2730,9 @@
     "english": "I'm not your wife anymore. Your wife is Tatoeba!",
     "wordCount": 10,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2463,7 +2742,8 @@
     "english": "Your name sounds familiar to me.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2483,7 +2763,9 @@
     "english": "She took care of the children.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2494,7 +2776,9 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "family"
+      "family",
+      "questions_inquiries",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2505,7 +2789,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "conditional_statements"
     ]
   },
   {
@@ -2515,7 +2800,8 @@
     "english": "I love my daughter.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2535,7 +2821,8 @@
     "english": "The family ate dinner together.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2555,7 +2842,8 @@
     "english": "I played tennis with my brother.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2575,7 +2863,8 @@
     "english": "Those two children were the same age.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2585,7 +2874,8 @@
     "english": "I'm your brother.",
     "wordCount": 3,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2595,7 +2885,8 @@
     "english": "His wife is Swedish.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -2605,7 +2896,8 @@
     "english": "Tom resembles his father.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "opinions_and_beliefs"
     ]
   },
   {
@@ -2625,7 +2917,8 @@
     "english": "I love my mom.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2635,7 +2928,9 @@
     "english": "I don't want kids.",
     "wordCount": 3,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2645,7 +2940,9 @@
     "english": "Is your father a doctor?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2656,7 +2953,9 @@
     "wordCount": 9,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2666,7 +2965,8 @@
     "english": "What's your daughter's name?",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -2676,7 +2976,9 @@
     "english": "Is this your family?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2686,7 +2988,8 @@
     "english": "She lives with her dad.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2697,7 +3000,9 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "time"
+      "time",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2709,7 +3014,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -2719,7 +3025,8 @@
     "english": "He often attributes his success to his wife.",
     "wordCount": 9,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2729,7 +3036,10 @@
     "english": "He behaved like a child.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2739,7 +3049,8 @@
     "english": "She was not feeling well.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2749,7 +3060,8 @@
     "english": "Tom has three older sisters.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2759,7 +3071,8 @@
     "english": "Mary is Tom's grandmother.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -2769,7 +3082,9 @@
     "english": "Both his grandparents are dead.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2780,7 +3095,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -2790,7 +3106,8 @@
     "english": "How was the wedding?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -2800,7 +3117,9 @@
     "english": "Both brothers are still alive.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -2810,7 +3129,8 @@
     "english": "I'm against the marriage.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2821,7 +3141,11 @@
     "wordCount": 17,
     "categories": [
       "family",
-      "time"
+      "time",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2831,7 +3155,8 @@
     "english": "Do you have a twin sister?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -2841,7 +3166,9 @@
     "english": "Do you have a twin brother?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -2851,7 +3178,8 @@
     "english": "I didn't want my mom to know.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -2891,7 +3219,9 @@
     "english": "He doesn't listen to his parents.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -2901,7 +3231,9 @@
     "english": "A child is missing.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -2931,7 +3263,8 @@
     "english": "Tom is my son.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -2952,7 +3285,8 @@
     "english": "Wenjin is a Chinese woman.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -2972,7 +3306,9 @@
     "english": "Is this Tom's wife?",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -2993,7 +3329,9 @@
     "english": "That's Tom's brother.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3013,7 +3351,8 @@
     "english": "I have three children.",
     "wordCount": 3,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -3033,7 +3372,9 @@
     "english": "The box is light enough for a child to carry.",
     "wordCount": 12,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3064,7 +3405,8 @@
     "wordCount": 4,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -3095,7 +3437,8 @@
     "english": "Mary is a single mom.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -3105,7 +3448,8 @@
     "english": "Why is the baby crying?",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -3115,7 +3459,10 @@
     "english": "That's because you're a girl.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "reasoning_assessment",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3125,7 +3472,9 @@
     "english": "Tom isn't my father.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3135,7 +3484,8 @@
     "english": "Some women don't shave their legs.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -3145,7 +3495,9 @@
     "english": "Tom is my brother.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3156,7 +3508,9 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "time"
+      "time",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3167,7 +3521,8 @@
     "wordCount": 7,
     "categories": [
       "travel",
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -3188,7 +3543,9 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -3209,7 +3566,8 @@
     "english": "My brother uses that bike.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -3219,7 +3577,8 @@
     "english": "The other children laughed.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -3229,7 +3588,9 @@
     "english": "You must be Tom's brother.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -3240,7 +3601,10 @@
     "wordCount": 11,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -3251,7 +3615,8 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3262,7 +3627,8 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -3273,7 +3639,10 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "time"
+      "time",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3283,7 +3652,8 @@
     "english": "I mistook you for your brother.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -3294,7 +3664,9 @@
     "wordCount": 12,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3306,7 +3678,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3329,7 +3702,10 @@
       "food",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3339,7 +3715,9 @@
     "english": "He used to collect beetles when he was a kid.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3350,7 +3728,9 @@
     "wordCount": 9,
     "categories": [
       "family",
-      "work"
+      "work",
+      "questions_inquiries",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3360,7 +3740,8 @@
     "english": "Does your sister live there?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -3371,7 +3752,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "time"
+      "time",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3382,7 +3764,9 @@
     "wordCount": 11,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3393,7 +3777,9 @@
     "wordCount": 10,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3416,7 +3802,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3438,7 +3825,10 @@
     "english": "He treats me like a child.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3449,7 +3839,8 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -3459,7 +3850,9 @@
     "english": "We prayed that our father would forgive us.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3469,7 +3862,9 @@
     "english": "Tom is the perfect father.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -3480,7 +3875,10 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3531,7 +3929,8 @@
     "english": "Do you have children already?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -3542,7 +3941,8 @@
     "wordCount": 9,
     "categories": [
       "food",
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -3552,7 +3952,8 @@
     "english": "The ages of the two children put together was equivalent to that of their father.",
     "wordCount": 14,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -3562,7 +3963,9 @@
     "english": "He took care of his mother after his father's death.",
     "wordCount": 12,
     "categories": [
-      "family"
+      "family",
+      "reasoning_assessment",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3572,7 +3975,8 @@
     "english": "Since her husband died, Cristina has suffered a lot.",
     "wordCount": 9,
     "categories": [
-      "family"
+      "family",
+      "reasoning_assessment"
     ]
   },
   {
@@ -3583,7 +3987,8 @@
     "wordCount": 14,
     "categories": [
       "family",
-      "time"
+      "time",
+      "reasoning_assessment"
     ]
   },
   {
@@ -3594,7 +3999,9 @@
     "wordCount": 8,
     "categories": [
       "food",
-      "family"
+      "family",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -3604,7 +4011,8 @@
     "english": "When's the wedding?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -3614,7 +4022,9 @@
     "english": "Where are your kids?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -3624,7 +4034,8 @@
     "english": "My brother has a Twitter account.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -3635,7 +4046,8 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -3656,7 +4068,9 @@
     "wordCount": 10,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "conditional_statements",
+      "negation_and_denial"
     ]
   },
   {
@@ -3666,7 +4080,8 @@
     "english": "She was carrying the baby on her back.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3676,7 +4091,8 @@
     "english": "Mette is Jørgen's wife.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -3686,7 +4102,8 @@
     "english": "How many kids does Tom have?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -3696,7 +4113,8 @@
     "english": "Weddings are expensive.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -3717,7 +4135,8 @@
     "english": "My youngest sister sings very well.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -3727,7 +4146,9 @@
     "english": "The kids are at school.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3747,7 +4168,9 @@
     "english": "My mom and I are completely different.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3757,7 +4180,9 @@
     "english": "The box is light enough for a child to carry.",
     "wordCount": 12,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3767,7 +4192,10 @@
     "english": "You don't know what it's like to lose your entire family in a war.",
     "wordCount": 14,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3777,7 +4205,10 @@
     "english": "There's nothing more painful than losing one's loved child.",
     "wordCount": 12,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -3787,7 +4218,8 @@
     "english": "What grade is your sister in?",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -3797,7 +4229,8 @@
     "english": "There are five people in our family.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -3828,7 +4261,8 @@
     "english": "I've met the perfect woman.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -3838,7 +4272,9 @@
     "english": "Children do a lot of stupid things.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3848,7 +4284,9 @@
     "english": "Children often do stupid things.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -3858,7 +4296,9 @@
     "english": "Children say such stupid things.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3921,7 +4361,11 @@
     "english": "My brother is stronger than me.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3943,7 +4387,10 @@
     "english": "Tom told Mary he thought she was the most beautiful woman he'd ever met.",
     "wordCount": 18,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3965,7 +4412,10 @@
     "categories": [
       "family",
       "leisure",
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -3975,7 +4425,8 @@
     "english": "Tom met his wife when he was studying in Germany.",
     "wordCount": 9,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -3985,7 +4436,8 @@
     "english": "Tom met his wife while he was studying in France.",
     "wordCount": 9,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -3995,7 +4447,9 @@
     "english": "Tom's drinking has caused a lot of problems in his marriage.",
     "wordCount": 11,
     "categories": [
-      "family"
+      "family",
+      "reasoning_assessment",
+      "negation_and_denial"
     ]
   },
   {
@@ -4007,7 +4461,8 @@
     "categories": [
       "family",
       "emotions",
-      "daily_life"
+      "daily_life",
+      "reasoning_assessment"
     ]
   },
   {
@@ -4017,7 +4472,8 @@
     "english": "You haven't met my family yet.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -4027,7 +4483,8 @@
     "english": "Tom has a cousin named Mary.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -4048,7 +4505,8 @@
     "wordCount": 6,
     "categories": [
       "family",
-      "emotions"
+      "emotions",
+      "reasoning_assessment"
     ]
   },
   {
@@ -4059,7 +4517,9 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4069,7 +4529,8 @@
     "english": "I don't have children.",
     "wordCount": 3,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -4100,7 +4561,8 @@
     "wordCount": 2,
     "categories": [
       "food",
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -4110,7 +4572,8 @@
     "english": "You have seven children.",
     "wordCount": 3,
     "categories": [
-      "family"
+      "family",
+      "conditional_statements"
     ]
   },
   {
@@ -4131,7 +4594,9 @@
     "english": "Susan is actually your half sister.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4142,7 +4607,8 @@
     "wordCount": 10,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "questions_inquiries"
     ]
   },
   {
@@ -4152,7 +4618,8 @@
     "english": "The dirty boy turned out to be a prince in disguise.",
     "wordCount": 9,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -4172,7 +4639,9 @@
     "english": "She was the only woman.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4183,7 +4652,9 @@
     "wordCount": 11,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4193,7 +4664,9 @@
     "english": "Women are not sex objects.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4205,7 +4678,8 @@
     "categories": [
       "family",
       "work",
-      "time"
+      "time",
+      "statements_of_fact"
     ]
   },
   {
@@ -4218,7 +4692,8 @@
       "food",
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial"
     ]
   },
   {
@@ -4229,7 +4704,9 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "negation_and_denial",
+      "requests_and_imperatives"
     ]
   },
   {
@@ -4249,7 +4726,8 @@
     "english": "Do you love your mother?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -4259,7 +4737,10 @@
     "english": "They're brothers.",
     "wordCount": 3,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4270,7 +4751,8 @@
     "wordCount": 9,
     "categories": [
       "family",
-      "daily_life"
+      "daily_life",
+      "questions_inquiries"
     ]
   },
   {
@@ -4280,7 +4762,8 @@
     "english": "I have a twin brother.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -4290,7 +4773,8 @@
     "english": "A lot of kids wear them.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -4300,7 +4784,8 @@
     "english": "She was a middle-aged woman.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4310,7 +4795,8 @@
     "english": "Mary is my wife.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -4333,7 +4819,9 @@
     "english": "You look just like your brother.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast",
+      "negation_and_denial"
     ]
   },
   {
@@ -4343,7 +4831,10 @@
     "english": "Your father would have been very proud of you.",
     "wordCount": 8,
     "categories": [
-      "family"
+      "family",
+      "reasoning_assessment",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4353,7 +4844,8 @@
     "english": "Terrific!",
     "wordCount": 2,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -4363,7 +4855,8 @@
     "english": "I treated him like my own son.",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -4373,7 +4866,8 @@
     "english": "The big dog frightened the baby.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4393,7 +4887,8 @@
     "english": "Tom's father is rich.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -4403,7 +4898,8 @@
     "english": "Romulus and Remus were brothers.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -4413,7 +4909,9 @@
     "english": "Tom is my twin brother.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4423,7 +4921,8 @@
     "english": "My wife's pregnant.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -4433,7 +4932,8 @@
     "english": "My wife's pregnant.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -4444,7 +4944,9 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "reasoning_assessment",
+      "statements_of_fact"
     ]
   },
   {
@@ -4474,7 +4976,9 @@
     "english": "Did you believe in Santa Claus when you were a child?",
     "wordCount": 7,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -4495,7 +4999,9 @@
     "wordCount": 9,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4505,7 +5011,8 @@
     "english": "My parents are in Australia.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "statements_of_fact"
     ]
   },
   {
@@ -4516,7 +5023,9 @@
     "wordCount": 14,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4547,7 +5056,8 @@
     "english": "Tom's parents were Canadian.",
     "wordCount": 6,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -4557,7 +5067,9 @@
     "english": "Is Mom here?",
     "wordCount": 3,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -4578,7 +5090,8 @@
     "wordCount": 9,
     "categories": [
       "family",
-      "time"
+      "time",
+      "negation_and_denial"
     ]
   },
   {
@@ -4589,7 +5102,9 @@
     "wordCount": 8,
     "categories": [
       "family",
-      "time"
+      "time",
+      "conditional_statements",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4599,7 +5114,8 @@
     "english": "We're like family.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "comparison_and_contrast"
     ]
   },
   {
@@ -4609,7 +5125,9 @@
     "english": "Are you brothers?",
     "wordCount": 2,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -4619,7 +5137,10 @@
     "english": "Are you brothers?",
     "wordCount": 2,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4629,7 +5150,9 @@
     "english": "How old are your brothers and sisters?",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -4640,7 +5163,9 @@
     "wordCount": 5,
     "categories": [
       "family",
-      "time"
+      "time",
+      "questions_inquiries",
+      "negation_and_denial"
     ]
   },
   {
@@ -4650,7 +5175,8 @@
     "english": "Do you drink?",
     "wordCount": 1,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries"
     ]
   },
   {
@@ -4661,7 +5187,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "negation_and_denial"
     ]
   },
   {
@@ -4671,7 +5198,8 @@
     "english": "Your kids are adorable.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial"
     ]
   },
   {
@@ -4683,7 +5211,8 @@
     "categories": [
       "family",
       "time",
-      "daily_life"
+      "daily_life",
+      "conditional_statements"
     ]
   },
   {
@@ -4693,7 +5222,9 @@
     "english": "Is Mary your wife?",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "questions_inquiries",
+      "statements_of_fact"
     ]
   },
   {
@@ -4714,7 +5245,9 @@
     "english": "Our baby isn't talking yet.",
     "wordCount": 5,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "interpersonal_dynamics"
     ]
   },
   {
@@ -4734,7 +5267,9 @@
     "english": "Tom is my firstborn.",
     "wordCount": 4,
     "categories": [
-      "family"
+      "family",
+      "negation_and_denial",
+      "statements_of_fact"
     ]
   },
   {
@@ -4745,7 +5280,8 @@
     "wordCount": 7,
     "categories": [
       "family",
-      "leisure"
+      "leisure",
+      "statements_of_fact"
     ]
   },
   {
