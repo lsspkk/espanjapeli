@@ -1,0 +1,1365 @@
+[
+  {
+    "id": "2609",
+    "spanish": "Gracias por tu explicación.",
+    "finnish": "Kiitos selityksestäsi.",
+    "english": "Thanks for your explanation.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2755",
+    "spanish": "¡Muchas gracias!",
+    "finnish": "Kiitos paljon!",
+    "english": "Thanks a lot!",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2849",
+    "spanish": "Pásame la sal, por favor. \"Aquí tienes.\"",
+    "finnish": "”Saisinko suolan?” ”Olepa hyvä.”",
+    "english": "Pass me the salt, please. \"Here you are.\"",
+    "wordCount": 7,
+    "themes": [
+      "greetings",
+      "food"
+    ]
+  },
+  {
+    "id": "2876",
+    "spanish": "La cuenta, por favor.",
+    "finnish": "Saisinko laskun.",
+    "english": "Check, please.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2965",
+    "spanish": "Gracias. \"De nada.\"",
+    "finnish": "”Kiitos.” ”Olkaa hyvä.”",
+    "english": "Thanks. \"You're welcome.\"",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3059",
+    "spanish": "¿Podría repetirlo, por favor?",
+    "finnish": "Voisitko toistaa?",
+    "english": "Could you please repeat that?",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "331686",
+    "spanish": "Por favor, escriba lo que voy a decir.",
+    "finnish": "Ole hyvä ja kirjoita ylös mitä aion sanoa.",
+    "english": "Please write down what I'm going to say.",
+    "wordCount": 8,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "351033",
+    "spanish": "Hola, Tom.",
+    "finnish": "Terve, Tom!",
+    "english": "Hello, Tom.",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "373297",
+    "spanish": "¡Bienvenidos!",
+    "finnish": "Tervetuloa!",
+    "english": "Welcome!",
+    "wordCount": 1,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "375833",
+    "spanish": "¡Bienvenido!",
+    "finnish": "Tervetuloa!",
+    "english": "Welcome!",
+    "wordCount": 1,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "382058",
+    "spanish": "¡Gracias!",
+    "finnish": "Kiitos!",
+    "english": "Thank you.",
+    "wordCount": 1,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "397688",
+    "spanish": "¿Cómo estás?",
+    "finnish": "Miten menee?",
+    "english": "How are you doing?",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "403913",
+    "spanish": "¡Buenos días!",
+    "finnish": "Päivää!",
+    "english": "Good day!",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "416653",
+    "spanish": "Bienvenido a Tatoeba.",
+    "finnish": "Tervetuloa Tatoebaan!",
+    "english": "Welcome to Tatoeba!",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "427036",
+    "spanish": "¡Hasta luego!",
+    "finnish": "Nähdään!",
+    "english": "Goodbye!",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "431975",
+    "spanish": "Hola.",
+    "finnish": "Moro.",
+    "english": "Hello!",
+    "wordCount": 1,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "435083",
+    "spanish": "¡Hola! ¡Buenos días!",
+    "finnish": "Hei! Huomenta!",
+    "english": "Hi! Good morning!",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "445715",
+    "spanish": "Pásame la sal, por favor.",
+    "finnish": "Voisitko antaa suolan?",
+    "english": "Pass me the salt, please.",
+    "wordCount": 5,
+    "themes": [
+      "greetings",
+      "food"
+    ]
+  },
+  {
+    "id": "454975",
+    "spanish": "Perdóname por haber roto mi promesa.",
+    "finnish": "Anteeksi, että rikoin lupaukseni.",
+    "english": "Forgive me for breaking my promise.",
+    "wordCount": 6,
+    "themes": [
+      "greetings",
+      "food"
+    ]
+  },
+  {
+    "id": "456636",
+    "spanish": "Encantado.",
+    "finnish": "Mukava tavata.",
+    "english": "Pleased to meet you.",
+    "wordCount": 1,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "461023",
+    "spanish": "Buenas noches. Dulces sueños.",
+    "finnish": "Hyvää yötä. Kauniita unia.",
+    "english": "Good night. Sweet dreams.",
+    "wordCount": 4,
+    "themes": [
+      "greetings",
+      "food"
+    ]
+  },
+  {
+    "id": "475005",
+    "spanish": "¡Hola mundo!",
+    "finnish": "Hyvää päivää, maailma!",
+    "english": "Hello world!",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "479838",
+    "spanish": "Por favor, sea educado.",
+    "finnish": "Olethan kohtelias.",
+    "english": "Please be polite.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "493739",
+    "spanish": "¡Muchísimas gracias!",
+    "finnish": "Suurkiitokset!",
+    "english": "Thank you very, very much!",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "503616",
+    "spanish": "Enciende la luz, por favor.",
+    "finnish": "Sytytä valot, kiitos.",
+    "english": "Turn on the light, please.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "504459",
+    "spanish": "Buenas noches, que duermas bien.",
+    "finnish": "Hyvää yötä. Nuku hyvin.",
+    "english": "Good night, sleep tight.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "504493",
+    "spanish": "¡Hasta pronto!",
+    "finnish": "Nähdään pian!",
+    "english": "See you soon!",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "511269",
+    "spanish": "Pásame las tijeras, por favor.",
+    "finnish": "Voisiksä antaa mulle noi sakset?",
+    "english": "Get me the scissors, please.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "519812",
+    "spanish": "Buenos días, Mike.",
+    "finnish": "Hei, Mike.",
+    "english": "Good morning, Mike.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "528431",
+    "spanish": "¡Buenas noches!",
+    "finnish": "Hyvää yönjatkoa!",
+    "english": "Goodnight!",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "543449",
+    "spanish": "No, gracias. Estoy embarazada.",
+    "finnish": "Ei kiitos. Olen raskaana.",
+    "english": "No thank you, I'm pregnant.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "564156",
+    "spanish": "Muchísimas gracias por tu ayuda.",
+    "finnish": "Suurkiitos avustasi.",
+    "english": "Thank you very much for your help.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "580167",
+    "spanish": "¿Cómo se dice \"adiós\" en alemán?",
+    "finnish": "Miten sanotaan ”näkemiin” saksaksi?",
+    "english": "How do you say \"good bye\" in German?",
+    "wordCount": 6,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "600457",
+    "spanish": "Mucho gusto.",
+    "finnish": "Hauska tavata.",
+    "english": "It's nice to meet you.",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "611832",
+    "spanish": "Por favor, cambia la bandera.",
+    "finnish": "Vaihda lippua, kiitos.",
+    "english": "Change the flag, please.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "638014",
+    "spanish": "Bienvenidos a Tatoeba.",
+    "finnish": "Tervetuloa Tatoebaan!",
+    "english": "Welcome to Tatoeba!",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "690746",
+    "spanish": "Hola, soy Tomoko Sato, de Japón.",
+    "finnish": "Hei. Olen Tomoka Sato Japanista.",
+    "english": "Hello, I'm Tomoko Sato from Japan.",
+    "wordCount": 6,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "705191",
+    "spanish": "¡Hola, Mimi! ¿Cómo estás?",
+    "finnish": "Hei Mimi! Mitä kuuluu?",
+    "english": "Hello Mimi! How are you?",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "726743",
+    "spanish": "Más café, por favor.",
+    "finnish": "Saisinko lisää kahvia?",
+    "english": "More coffee, please.",
+    "wordCount": 4,
+    "themes": [
+      "greetings",
+      "food"
+    ]
+  },
+  {
+    "id": "730295",
+    "spanish": "Apaga la radio, por favor.",
+    "finnish": "Sammuta radio ole kiltti.",
+    "english": "Turn off the radio, please.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "748815",
+    "spanish": "Por favor, apunta lo que voy a decir.",
+    "finnish": "Ole hyvä ja kirjoita ylös mitä aion sanoa.",
+    "english": "Please write down what I am going to say.",
+    "wordCount": 8,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "749912",
+    "spanish": "¡Buenas noches a todos!",
+    "finnish": "Hyvää yötä kaikille!",
+    "english": "Good night, everyone!",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "753070",
+    "spanish": "¿Podrías repetirlo, por favor?",
+    "finnish": "Voisitko toistaa?",
+    "english": "Could you repeat that, please?",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "770921",
+    "spanish": "Tom me dio las gracias por el regalo.",
+    "finnish": "Tomi kiitti minua lahjasta.",
+    "english": "Tom thanked me for the gift.",
+    "wordCount": 8,
+    "themes": [
+      "greetings",
+      "leisure"
+    ]
+  },
+  {
+    "id": "778583",
+    "spanish": "¡Buenas tardes!",
+    "finnish": "Hyvää iltaa.",
+    "english": "Good afternoon.",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "850006",
+    "spanish": "Adiós.",
+    "finnish": "Hyvästi.",
+    "english": "Goodbye!",
+    "wordCount": 1,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "853351",
+    "spanish": "¡Adiós!",
+    "finnish": "Hei hei!",
+    "english": "Goodbye!",
+    "wordCount": 1,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "872348",
+    "spanish": "Buenas tardes.",
+    "finnish": "Hyvää iltaa.",
+    "english": "Good afternoon.",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "878507",
+    "spanish": "Gracias por todo.",
+    "finnish": "Kiitos kaikesta.",
+    "english": "Thank you for everything.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "883639",
+    "spanish": "Una cerveza, por favor.",
+    "finnish": "Yksi olut, kiitos.",
+    "english": "A beer, please.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1001567",
+    "spanish": "Lentamente, por favor.",
+    "finnish": "Hitaasti, kiitos.",
+    "english": "Slowly, please.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1036411",
+    "spanish": "¡Nos vemos!",
+    "finnish": "Nähdään.",
+    "english": "See you!",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1108123",
+    "spanish": "Muchísimas gracias.",
+    "finnish": "Kiitos todella paljon.",
+    "english": "Thank you so very much.",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1117759",
+    "spanish": "Gracias de todos modos.",
+    "finnish": "Kiitos kuitenkin.",
+    "english": "Thank you just the same.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1126385",
+    "spanish": "Por favor, apaga la luz cuando dejes la habitación.",
+    "finnish": "Sammutathan valot, kun lähdet huoneesta.",
+    "english": "Please put the light out when you leave the room.",
+    "wordCount": 9,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1138969",
+    "spanish": "Gracias por preguntar, ella está bien.",
+    "finnish": "Kiitos kysymästä, hänelle kuuluu hyvää.",
+    "english": "Thanks for asking, she is fine.",
+    "wordCount": 6,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1147775",
+    "spanish": "Buenos días, señor Saari.",
+    "finnish": "Hyvää huomenta, herra Saari.",
+    "english": "Good morning, Mr. Saari.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1147822",
+    "spanish": "Perdón, no escuché.",
+    "finnish": "Anteeksi, en kuullut.",
+    "english": "Sorry, I didn't hear.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1147832",
+    "spanish": "Gracias, todo está bien allá.",
+    "finnish": "Kiitos, sinne kuuluu hyvää.",
+    "english": "Thanks, everything is fine there.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1198500",
+    "spanish": "Por favor, apaga la radio.",
+    "finnish": "Sammuta radio ole kiltti.",
+    "english": "Turn off the radio, please.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1205841",
+    "spanish": "¡Bienvenido a Tatoeba!",
+    "finnish": "Tervetuloa Tatoebaan!",
+    "english": "Welcome to Tatoeba!",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1215542",
+    "spanish": "Hola, mi nombre es Pekka. ¿Cuál es tu nombre?",
+    "finnish": "Moi, minä olen Pekka. Mikä sinun nimesi on?",
+    "english": "Hi, my name is Pekka. What is your name?",
+    "wordCount": 9,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1281300",
+    "spanish": "Adiós, Sayoko.",
+    "finnish": "Hyvästi, Sayoko.",
+    "english": "Goodbye, Sayoko.",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1288935",
+    "spanish": "Deberías pedirle disculpas.",
+    "finnish": "Sinun pitäisi pyytää anteeksi häneltä.",
+    "english": "You should apologize to her.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1296681",
+    "spanish": "Escúchame, por favor.",
+    "finnish": "Kuuntele minua, pyydän.",
+    "english": "Please listen to me.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1302968",
+    "spanish": "Nos vemos.",
+    "finnish": "Nähdään.",
+    "english": "See you.",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1502706",
+    "spanish": "¡Hola!",
+    "finnish": "Moro!",
+    "english": "Hello!",
+    "wordCount": 1,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1505946",
+    "spanish": "Perdón, se me olvidó.",
+    "finnish": "Anteeksi, unohdin.",
+    "english": "Sorry, I forgot.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1531305",
+    "spanish": "¡Adiós, Sayoko!",
+    "finnish": "Hyvästi, Sayoko!",
+    "english": "Bye, Sayoko!",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1536270",
+    "spanish": "Disculpa mi pobre esperanto.",
+    "finnish": "Pyydän anteeksi heikkoa esperantoani.",
+    "english": "Pardon my poor Esperanto.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1565006",
+    "spanish": "Dondequiera que vayas, serás bienvenido.",
+    "finnish": "Olet tervetullut mihin tahansa menetkin.",
+    "english": "Wherever you go, you'll be welcomed.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1604571",
+    "spanish": "Adiós. Hasta mañana.",
+    "finnish": "Hei hei. Huomiseen.",
+    "english": "Goodbye. See you tomorrow.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1649226",
+    "spanish": "Hola, chicas.",
+    "finnish": "Haloo tytöt.",
+    "english": "Hello, girls.",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1673595",
+    "spanish": "Por favor no deje objetos valiosos aquí.",
+    "finnish": "Olkaa hyvät älkääkä jättäkö arvokkaita esineitä tänne.",
+    "english": "Please don't leave valuable things here.",
+    "wordCount": 7,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1676462",
+    "spanish": "Por favor, añade un punto final al final de tu frase.",
+    "finnish": "Voisitko lisätä pisteen lauseesi loppuun.",
+    "english": "Please add a period at the end of your sentence.",
+    "wordCount": 11,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1771994",
+    "spanish": "¡Perdón!",
+    "finnish": "Sori!",
+    "english": "Pardon!",
+    "wordCount": 1,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1805452",
+    "spanish": "Por favor, quítate los zapatos.",
+    "finnish": "Ota kengät pois, kiitos.",
+    "english": "Please take off your shoes.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1827667",
+    "spanish": "No se lo digas a nadie, por favor.",
+    "finnish": "Ethän kerro tästä kenellekään?",
+    "english": "Please don't tell anyone.",
+    "wordCount": 8,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1901919",
+    "spanish": "Bienvenido a Boston.",
+    "finnish": "Tervetuloa Bostoniin!",
+    "english": "Welcome to Boston.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "1901920",
+    "spanish": "Bienvenidos a Boston.",
+    "finnish": "Tervetuloa Bostoniin!",
+    "english": "Welcome to Boston.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2033151",
+    "spanish": "Quisiera darte las gracias.",
+    "finnish": "Haluaisin kiittää sinua.",
+    "english": "I'd like to thank you.",
+    "wordCount": 4,
+    "themes": [
+      "greetings",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2050306",
+    "spanish": "Quiero disculparme por todas las cosas terribles que dije.",
+    "finnish": "Haluan pyytää anteeksi kaikkia niitä kauheita asioita, jotka sanoin.",
+    "english": "I want to apologize for all the terrible things I said.",
+    "wordCount": 9,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2079566",
+    "spanish": "Por favor, cerrad los ojos.",
+    "finnish": "Sulkekaa silmänne.",
+    "english": "Close your eyes, please.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2120804",
+    "spanish": "Gracias por el comentario.",
+    "finnish": "Kiitos kommentista.",
+    "english": "Thanks for the comment.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2131418",
+    "spanish": "Le di las gracias a Mary por su ayuda.",
+    "finnish": "Kiitin Maria hänen avustaan.",
+    "english": "I thanked Mary for her help.",
+    "wordCount": 9,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2140252",
+    "spanish": "Hola, ¿eres Jackie Scott?",
+    "finnish": "Terve. Oletko sinä Jackie Scott?",
+    "english": "Hello. Are you Jackie Scott?",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2225360",
+    "spanish": "Gracias. Dios les bendiga. Y que Dios bendiga a los Estados Unidos de América.",
+    "finnish": "Kiitos. Jumala siunatkoon teitä. Jumala siunatkoon Amerikan Yhdysvaltoja.",
+    "english": "Thank you. God bless you. And may God bless the United States of America.",
+    "wordCount": 14,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2231839",
+    "spanish": "Bienvenidos a Japón.",
+    "finnish": "Tervetuloa Japaniin.",
+    "english": "Welcome to Japan.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2258235",
+    "spanish": "Buenos días.",
+    "finnish": "Hyvää huomenta.",
+    "english": "G'day.",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2261107",
+    "spanish": "Deja de cantar, por favor.",
+    "finnish": "Ole kiltti ja lopeta laulaminen.",
+    "english": "Please stop singing.",
+    "wordCount": 5,
+    "themes": [
+      "greetings",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2267734",
+    "spanish": "Hasta luego.",
+    "finnish": "Nähdään.",
+    "english": "See you.",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2270038",
+    "spanish": "Nos vemos a diario.",
+    "finnish": "Tapaamme joka päivä.",
+    "english": "We see each other every day.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2474615",
+    "spanish": "¿Dónde está la embajada holandesa?",
+    "finnish": "Missä on Alankomaiden suurlähetystö?",
+    "english": "Where is the Dutch embassy?",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2502593",
+    "spanish": "Te debo una gran disculpa.",
+    "finnish": "Olen sinulle velkaa suuren anteeksipyynnön.",
+    "english": "I owe you a big apology.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2507852",
+    "spanish": "Buenas noches.",
+    "finnish": "Hyvää iltaa.",
+    "english": "Good evening.",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2732593",
+    "spanish": "¡Mucho gusto!",
+    "finnish": "Mukava tutustua!",
+    "english": "Glad to meet you!",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2768166",
+    "spanish": "Quería decir gracias.",
+    "finnish": "Halusin sanoa kiitokset.",
+    "english": "I wanted to say thanks.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2768167",
+    "spanish": "Quería dar las gracias.",
+    "finnish": "Halusin sanoa kiitokset.",
+    "english": "I wanted to say thanks.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2802433",
+    "spanish": "¿Me podría dar un vaso de leche, por favor?",
+    "finnish": "Voisinko saada lasin maitoa, kiitos?",
+    "english": "May I have a glass of milk, please?",
+    "wordCount": 9,
+    "themes": [
+      "greetings",
+      "food"
+    ]
+  },
+  {
+    "id": "2885705",
+    "spanish": "¡Buenas noches y duerme bien!",
+    "finnish": "Hyvää yötä ja nuku hyvin!",
+    "english": "Good night and sleep tight!",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2917409",
+    "spanish": "¡Mil gracias!",
+    "finnish": "Suurkiitokset!",
+    "english": "Thank you very much!",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2917751",
+    "spanish": "¿Cómo nos vemos?",
+    "finnish": "Miltä me näytämme?",
+    "english": "How do we look?",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2945787",
+    "spanish": "Hay algo muy encantador en ti.",
+    "finnish": "Sinussa on jotain todella viehättävää.",
+    "english": "There is something very charming about you.",
+    "wordCount": 6,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2948492",
+    "spanish": "Jane es gorda, grosera y fuma demasiado. Pero Ken piensa que ella es adorable y encantadora. Es por eso que dicen que el amor es ciego.",
+    "finnish": "Jane on lihava, töykeä ja polttaa liikaa. Mutta Kenistä hän on ihana ja hurmaava. Siksi rakkautta sanotaankin sokeaksi.",
+    "english": "Jane is fat and rude, and smokes too much. However, Ken thinks she's lovely and charming. That's why they say love is blind.",
+    "wordCount": 26,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "2959966",
+    "spanish": "Hola, quisiera un poco de fresco jugo de naranja.",
+    "finnish": "Haloo, haluaisin vähän tuoretta appelsiinimehua.",
+    "english": "Hello, I would like some fresh orange juice.",
+    "wordCount": 9,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3100781",
+    "spanish": "Por favor, cuéntanos por qué necesitas quedarte aquí.",
+    "finnish": "Ole hyvä ja kerro miksi sinun tarvitsee jäädä tänne.",
+    "english": "Please tell us why you need to stay here.",
+    "wordCount": 8,
+    "themes": [
+      "greetings",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100856",
+    "spanish": "Gracias otra vez.",
+    "finnish": "Kiitos taas.",
+    "english": "Thanks again.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3112435",
+    "spanish": "Nos vemos en dos años.",
+    "finnish": "Nähdään kahden vuoden päästä.",
+    "english": "See you in two years.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3113420",
+    "spanish": "Hola, Meg. ¿Cómo has estado?",
+    "finnish": "Terve Meg. Kuinka sinulla on mennyt?",
+    "english": "Hello, Meg, how have you been?",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3177346",
+    "spanish": "Reparte las cartas, por favor.",
+    "finnish": "Ole kiltti ja jaa kortit.",
+    "english": "Please deal the cards.",
+    "wordCount": 5,
+    "themes": [
+      "greetings",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3177403",
+    "spanish": "¡Bienvenido a Dublín!",
+    "finnish": "Tervetuloa Dubliniin!",
+    "english": "Welcome to Dublin!",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3202463",
+    "spanish": "¿Me podría dar un mapa del metro, por favor?",
+    "finnish": "Saisinko metrokartan, kiitos.",
+    "english": "Please could I have a subway map.",
+    "wordCount": 9,
+    "themes": [
+      "greetings",
+      "travel"
+    ]
+  },
+  {
+    "id": "3209195",
+    "spanish": "Por favor, compórtese como un caballero inglés.",
+    "finnish": "Käyttäydythän sitten niin kuin englantilainen herrasmies.",
+    "english": "Please behave like an English gentleman.",
+    "wordCount": 7,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3238095",
+    "spanish": "Perdón por arruinar tu fiesta de cumpleaños.",
+    "finnish": "Anteeksi kun pilasin syntymäpäiväjuhlasi.",
+    "english": "I'm sorry for ruining your birthday party.",
+    "wordCount": 7,
+    "themes": [
+      "greetings",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3301993",
+    "spanish": "Muchas gracias.",
+    "finnish": "Kiitoksia paljon.",
+    "english": "Thanks very much.",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3305844",
+    "spanish": "Gracias por esto.",
+    "finnish": "Kiitoksia sinulle tästä.",
+    "english": "Thanks for this.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3399713",
+    "spanish": "Lávate las manos después de ir al baño, por favor.",
+    "finnish": "Pese kätesi vessassa käynnin jälkeen, kiitos.",
+    "english": "Please wash your hands after using the bathroom.",
+    "wordCount": 10,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3538553",
+    "spanish": "Le debes una gran disculpa a Tom.",
+    "finnish": "Olet Tomille velkaa ison anteeksipyynnön.",
+    "english": "You owe Tom a big apology.",
+    "wordCount": 7,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3594305",
+    "spanish": "Gracias.",
+    "finnish": "Kiitos.",
+    "english": "Thank you.",
+    "wordCount": 1,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3664380",
+    "spanish": "Gracias. \"No hay de qué.\"",
+    "finnish": "”Kiitos.” ”Eipä kestä kiittää.”",
+    "english": "Thanks. \"You're welcome.\"",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3792894",
+    "spanish": "Vinimos a pedir disculpas.",
+    "finnish": "Tulimme pyytämään anteeksi.",
+    "english": "We came to apologize.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3792896",
+    "spanish": "Vinimos a pedir perdón.",
+    "finnish": "Tulimme pyytämään anteeksi.",
+    "english": "We came to apologize.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "3806164",
+    "spanish": "Gracias por la oportunidad.",
+    "finnish": "Kiitos mahdollisuudesta.",
+    "english": "Thank you for the opportunity.",
+    "wordCount": 4,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "4256140",
+    "spanish": "Bienvenidos a Wikipedia.",
+    "finnish": "Tervetuloo Wikipediaa.",
+    "english": "Welcome to Wikipedia.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "4506672",
+    "spanish": "Gracias por compartir esto conmigo.",
+    "finnish": "Kiitos kun jaoit tämän kanssani.",
+    "english": "Thanks for sharing this with me.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "4708420",
+    "spanish": "Perdón.",
+    "finnish": "Sori.",
+    "english": "Pardon.",
+    "wordCount": 1,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "5083664",
+    "spanish": "¡Encantado!",
+    "finnish": "Mukava tavata!",
+    "english": "Nice to meet you!",
+    "wordCount": 1,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "5165674",
+    "spanish": "¡Perdóname!",
+    "finnish": "Anna anteeksi!",
+    "english": "Forgive me!",
+    "wordCount": 1,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "6145972",
+    "spanish": "¡Adiós José!",
+    "finnish": "Näkemiin, José!",
+    "english": "Goodbye, José!",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "6688879",
+    "spanish": "Gracias por preguntar.",
+    "finnish": "Kiitos kysymästä.",
+    "english": "Thank you for asking.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "6688881",
+    "spanish": "Gracias por entenderlo.",
+    "finnish": "Kiitos että ymmärrät.",
+    "english": "Thanks for understanding.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "6688882",
+    "spanish": "Gracias por comprenderlo.",
+    "finnish": "Kiitos että ymmärrät.",
+    "english": "Thank you for understanding.",
+    "wordCount": 3,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "8312737",
+    "spanish": "Creo que deberías pedir perdón.",
+    "finnish": "Minusta sinun pitäisi pyytää anteeksi.",
+    "english": "I think that you should apologize.",
+    "wordCount": 5,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "9553780",
+    "spanish": "Buenas noches, Tom. \"Buenas noches, Mary.\"",
+    "finnish": "Hyvää yötä Tomi. \"Hyvää yötä Mari.\"",
+    "english": "Good night, Tom. \"Good night, Mary.\"",
+    "wordCount": 6,
+    "themes": [
+      "greetings"
+    ]
+  },
+  {
+    "id": "10031478",
+    "spanish": "¡Hola, Satán!",
+    "finnish": "Hei, Saatana!",
+    "english": "Hi, Satan!",
+    "wordCount": 2,
+    "themes": [
+      "greetings"
+    ]
+  }
+]

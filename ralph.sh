@@ -5,7 +5,7 @@ setopt ERR_EXIT PIPE_FAIL NO_UNSET
 MAX_ITERS="42"
 STOP_TOKEN="RALPH_WIGGUM_COMPLETED_ALL_TASKS"
 PROJECT_DIR="/home/lvp/study/espanjapeli"
-TODO_FILE="docs/v5-todo-phase3.json"
+TODO_FILE="docs/v5-todo-phase4-8.son"
 INSTRUCTIONS_FILE="ai-control/instructions.md"
 
 cd "$PROJECT_DIR"
@@ -35,7 +35,7 @@ Project root: ${PROJECT_DIR}
 
 Read these files first:
 1. ${INSTRUCTIONS_FILE} - coding standards and commands
-2. ${TODO_FILE} - task list with subtasks
+2. ${TODO_FILE} - phase files, with task and subtasks to implement
 
 Find the first subtask without status 'completed' and implement it.
 

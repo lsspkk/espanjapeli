@@ -1,0 +1,2080 @@
+[
+  {
+    "id": "339039",
+    "spanish": "No tengo mucho dinero.",
+    "finnish": "Minulla ei ole paljoa rahaa.",
+    "english": "I don't have a lot of money.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "345139",
+    "spanish": "Este mes estoy escaso de dinero.",
+    "finnish": "Raha on vähissä tässä kuussa.",
+    "english": "Money's tight for me this month.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "345519",
+    "spanish": "No tengo dinero, pero tengo sueños.",
+    "finnish": "Minulla ei ole rahaa, mutta minulla on unelmia.",
+    "english": "I have no money, but I have dreams.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "401596",
+    "spanish": "Parece que Tom ganó la carrera.",
+    "finnish": "Näyttää siltä, että Tom voitti sen kilpailun.",
+    "english": "It looks like Tom won the race.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "434377",
+    "spanish": "¿Puedo pagar con una tarjeta de crédito?",
+    "finnish": "Voinko maksaa kortilla?",
+    "english": "Can I pay with a credit card?",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "449691",
+    "spanish": "Paul ganó mucho dinero el año pasado.",
+    "finnish": "Pauli tienasi viime vuonna paljon rahaa.",
+    "english": "Paul made a lot of money last year.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "452943",
+    "spanish": "Voy a ahorrar más dinero.",
+    "finnish": "Säästän enemmän rahaa.",
+    "english": "I'm going to save more money.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "462813",
+    "spanish": "La oficina del alcalde está en el ayuntamiento.",
+    "finnish": "Pormestarin toimisto on kaupungintalolla.",
+    "english": "The mayor's office is in the city hall.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "500116",
+    "spanish": "Tom perdió su trabajo.",
+    "finnish": "Tomi menetti työnsä.",
+    "english": "Tom lost his job.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "514281",
+    "spanish": "El dinero no crece en los árboles.",
+    "finnish": "Raha ei kasva puussa.",
+    "english": "Money does not grow on trees.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "520741",
+    "spanish": "Mi padre no va siempre andando al trabajo.",
+    "finnish": "Isäni ei aina kävele työhön.",
+    "english": "My father does not always walk to work.",
+    "wordCount": 8,
+    "themes": [
+      "family",
+      "work"
+    ]
+  },
+  {
+    "id": "528301",
+    "spanish": "Mi padre es un hombre de negocios.",
+    "finnish": "Isäni on liikemies.",
+    "english": "My father is a businessman.",
+    "wordCount": 7,
+    "themes": [
+      "family",
+      "work"
+    ]
+  },
+  {
+    "id": "530514",
+    "spanish": "Ojalá tuviera mucho dinero.",
+    "finnish": "Kunpa minulla olisi paljon rahaa.",
+    "english": "I wish I had a lot of money.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "539098",
+    "spanish": "Voy a empezar en un trabajo nuevo la semana próxima.",
+    "finnish": "Aloitan uuden työn ensi viikolla.",
+    "english": "I am going to start a new job next week.",
+    "wordCount": 10,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "544312",
+    "spanish": "¿Te gusta tu nuevo trabajo?",
+    "finnish": "Tykkääk sä sun uudesta työstä?",
+    "english": "Do you like your new job?",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "546952",
+    "spanish": "Tengo dinero.",
+    "finnish": "Minulla on rahaa.",
+    "english": "I have money.",
+    "wordCount": 2,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "566355",
+    "spanish": "Eso es tu responsabilidad.",
+    "finnish": "Se on sinun vastuualueesi.",
+    "english": "That's your responsibility.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "587341",
+    "spanish": "Se ha cancelado la reunión de hoy.",
+    "finnish": "Tämänpäiväinen kokous on peruttu.",
+    "english": "Today's meeting has been canceled.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "599154",
+    "spanish": "Maria gasta mucho dinero en ropa.",
+    "finnish": "Maria käyttää paljon rahaa vaatteisiin.",
+    "english": "Maria spends a lot of money on clothes.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "631056",
+    "spanish": "Él perdió su trabajo.",
+    "finnish": "Hän menetti työnsä.",
+    "english": "He lost his job.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "638651",
+    "spanish": "¿Puedes apagar la luz?",
+    "finnish": "Voisitko sammuttaa valot?",
+    "english": "Could you turn off the lights?",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "641029",
+    "spanish": "Tengo mucho dinero.",
+    "finnish": "Mul on paljon rahaa.",
+    "english": "I have a lot of money.",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "694522",
+    "spanish": "¿Cómo te fue en la entrevista?",
+    "finnish": "Miten haastattelusi meni?",
+    "english": "How did your interview go?",
+    "wordCount": 6,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "724228",
+    "spanish": "No tengo dinero.",
+    "finnish": "Minulla ei ole rahaa.",
+    "english": "I don't have money.",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "743635",
+    "spanish": "Siendo huérfano, mi padre tuvo que comenzar a ganar dinero a los diez.",
+    "finnish": "Koska oli orpo, isäni täytyi aloittaa rahan ansaitseminen kymmenvuotiaana.",
+    "english": "Being an orphan, my father had to start earning money at ten.",
+    "wordCount": 13,
+    "themes": [
+      "family",
+      "work"
+    ]
+  },
+  {
+    "id": "747321",
+    "spanish": "¿Has terminado tu trabajo?",
+    "finnish": "Oletko lopettanut työsi?",
+    "english": "Have you finished your work?",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "765568",
+    "spanish": "La compañía está perdiendo dinero.",
+    "finnish": "Yhtiö menettää rahaa.",
+    "english": "The company is hemorrhaging money.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "766026",
+    "spanish": "El sueldo de un maestro es menor que el de un abogado.",
+    "finnish": "Opettajan palkka on pienempi kuin asianajajan.",
+    "english": "The salary of a teacher is lower than that of a lawyer.",
+    "wordCount": 12,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "783660",
+    "spanish": "De repente se apagaron las luces.",
+    "finnish": "Yhtäkkiä valot sammuivat.",
+    "english": "All of a sudden, the lights went out.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "825569",
+    "spanish": "Trabajo aquí.",
+    "finnish": "Työskentelen täällä.",
+    "english": "I work here.",
+    "wordCount": 2,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "857556",
+    "spanish": "Prefiero relajarme a trabajar.",
+    "finnish": "Rentoudun mieluummin kuin työskentelen.",
+    "english": "I prefer relaxing to working.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "859663",
+    "spanish": "Espere su turno.",
+    "finnish": "Odottakaa vuoroanne.",
+    "english": "Wait until your turn comes.",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "943839",
+    "spanish": "Trabajo tres horas cada domingo por la mañana.",
+    "finnish": "Minä työskentelen kolme tuntia joka sunnuntaiaamu.",
+    "english": "I work for three hours every Sunday morning.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "956801",
+    "spanish": "No tengo dinero para comprar el diccionario.",
+    "finnish": "Minulla ei ole rahaa ostaa sanakirjaa.",
+    "english": "I have no money to buy the dictionary.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "977651",
+    "spanish": "¿Cuánto dinero tienes?",
+    "finnish": "Kuinka paljon rahaa sinulla on?",
+    "english": "How much money do you have?",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "979090",
+    "spanish": "Él está buscando empleo.",
+    "finnish": "Hän etsii töitä.",
+    "english": "He is after a job.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "990286",
+    "spanish": "Has hecho un trabajo perfecto.",
+    "finnish": "Olet tehnyt täydellistä työtä.",
+    "english": "You've done a perfect job.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "992519",
+    "spanish": "El trabajo parecía muy sencillo, pero me llevó una semana.",
+    "finnish": "Työ näytti ihan yksinkertaiselta, mutta vei minulta viikon.",
+    "english": "The job looked quite simple, but it took me a week.",
+    "wordCount": 10,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1001434",
+    "spanish": "María se gasta mucho dinero en ropa.",
+    "finnish": "Maria käyttää paljon rahaa vaatteisiin.",
+    "english": "Maria spends a lot of money on clothes.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1004698",
+    "spanish": "Me presenté en la reunión.",
+    "finnish": "Esittelin itseni kokouksessa.",
+    "english": "I presented myself at the meeting.",
+    "wordCount": 5,
+    "themes": [
+      "food",
+      "work"
+    ]
+  },
+  {
+    "id": "1021917",
+    "spanish": "El escándalo casi le arruinó la carrera.",
+    "finnish": "Skandaali melkein raunioitti hänen uransa.",
+    "english": "The scandal nearly wrecked her career.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1031899",
+    "spanish": "Finalmente encontré un trabajo.",
+    "finnish": "Sain vihdoinkin työpaikan.",
+    "english": "Finally, I found a job.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1036784",
+    "spanish": "Necesitamos más empleados.",
+    "finnish": "Tarvitsemme lisää työntekijöitä.",
+    "english": "We need more workers.",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1064994",
+    "spanish": "Ella tenía un deseo desmesurado por el dinero.",
+    "finnish": "Hänellä oli luonnoton rahanhimo.",
+    "english": "She had an unnatural desire for money.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1068441",
+    "spanish": "Un hombre extraño se acercó a mí y me pidió dinero.",
+    "finnish": "Vieras mies lähestyi minua ja pyysi rahaa.",
+    "english": "A strange man came up to me and asked for money.",
+    "wordCount": 11,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1116448",
+    "spanish": "¿Cuánto dinero le debes a Tom?",
+    "finnish": "Paljonko olet velkaa Tomille?",
+    "english": "How much money do you owe Tom?",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1124042",
+    "spanish": "Hacer películas es un trabajo emocionante.",
+    "finnish": "Elokuvan tekeminen on jännittävää työtä.",
+    "english": "Movie making is an exciting job.",
+    "wordCount": 6,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1126390",
+    "spanish": "Deberías apagar la luz antes de irte a dormir.",
+    "finnish": "Sinun pitäisi sammuttaa valot ennen nukkumaan menoa.",
+    "english": "You should turn off the light before going to sleep.",
+    "wordCount": 9,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1133070",
+    "spanish": "Le escribí la semana pasada al señor Wood y le pregunté a él para darte trabajo en la granja.",
+    "finnish": "Kirjoitin viime viikolla herra Woodille ja pyysin häntä antamaan sinulle töitä maatilalla.",
+    "english": "I wrote last week to Mr. Wood and I asked him to give you a job on the farm.",
+    "wordCount": 19,
+    "themes": [
+      "food",
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1143654",
+    "spanish": "Yo no necesito tu dinero. Solo necesito tu tiempo.",
+    "finnish": "En tarvitse rahaasi. Tarvitsen vain aikaasi.",
+    "english": "I don't need your money. I just need your time.",
+    "wordCount": 9,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1147705",
+    "spanish": "Era mi turno de limpiar la habitación.",
+    "finnish": "Oli minun vuoroni siivota huone.",
+    "english": "It was my turn to clean the room.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1147782",
+    "spanish": "Voy al trabajo.",
+    "finnish": "Menen töihin.",
+    "english": "I go to work.",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1156203",
+    "spanish": "Te encargo este trabajo.",
+    "finnish": "Jätän tämän työn sinulle.",
+    "english": "I'll leave this work to you.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1167304",
+    "spanish": "Tom tuvo una entrevista de trabajo esta mañana.",
+    "finnish": "Tomilla oli työhaastattelu tänä aamuna.",
+    "english": "Tom had a job interview this morning.",
+    "wordCount": 8,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1171563",
+    "spanish": "Todos los días voy al trabajo en tren.",
+    "finnish": "Menen junalla töihin joka päivä.",
+    "english": "I go to work every day by train.",
+    "wordCount": 8,
+    "themes": [
+      "travel",
+      "work"
+    ]
+  },
+  {
+    "id": "1190129",
+    "spanish": "Él es mi jefe.",
+    "finnish": "Hän on esimieheni.",
+    "english": "This is my boss.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1195347",
+    "spanish": "Busco un trabajo.",
+    "finnish": "Etsin työtä.",
+    "english": "I'm looking for a job.",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1198062",
+    "spanish": "Él lo hizo por dinero.",
+    "finnish": "Hän teki sen rahan vuoksi.",
+    "english": "He did it for money.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1198298",
+    "spanish": "Tom ama su trabajo.",
+    "finnish": "Tom rakastaa työtään.",
+    "english": "Tom loves his job.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1205441",
+    "spanish": "Es de mañana aquí en mi huso horario.",
+    "finnish": "Täällä minun aikavyöhykkeelläni on nyt aamu.",
+    "english": "It's morning here in my time zone.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1211603",
+    "spanish": "Tengo suficiente dinero para comprar un auto.",
+    "finnish": "Minulla on riittävästi rahaa auton ostamiseen.",
+    "english": "I've got enough money for a car.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1222581",
+    "spanish": "Mi colega y su marido son ambos americanos.",
+    "finnish": "Työtoverini ja hänen aviomiehensä ovat molemmat amerikkalaisia.",
+    "english": "My colleague and her husband are both American.",
+    "wordCount": 8,
+    "themes": [
+      "family",
+      "work"
+    ]
+  },
+  {
+    "id": "1249616",
+    "spanish": "¿Dónde está el jefe?",
+    "finnish": "Missä pomo on?",
+    "english": "Where's the boss?",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1260378",
+    "spanish": "Trabajo en la embajada.",
+    "finnish": "Työskentelen suurlähetystössä.",
+    "english": "I work at the embassy.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1272484",
+    "spanish": "Él no es lo suficientemente agresivo para triunfar en los negocios.",
+    "finnish": "Hän ei ole tarpeeksi aggressiivinen onnistuakseen liike-elämässä.",
+    "english": "He is not aggressive enough to succeed in business.",
+    "wordCount": 11,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1274233",
+    "spanish": "Él está buscando trabajo.",
+    "finnish": "Hän etsii töitä.",
+    "english": "He is after a job.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1277849",
+    "spanish": "Ellos dos son mis colegas.",
+    "finnish": "Molemmat ovat kollegojani.",
+    "english": "Both are my colleagues.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1292160",
+    "spanish": "La administración decidió mover la oficina central de la compañía a Hawaii.",
+    "finnish": "Hallinto päätti siirtää yrityksen pääkonttorin Hawaijille.",
+    "english": "The administration decided to move the home office of the company to Hawaii.",
+    "wordCount": 12,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1318273",
+    "spanish": "Él es mi compañero de clase.",
+    "finnish": "Hän on luokkakaverini.",
+    "english": "He is my classmate.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1321916",
+    "spanish": "Él se escapó con el dinero.",
+    "finnish": "Hän juoksi karkuun rahojen kanssa.",
+    "english": "He ran away with the money.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1323406",
+    "spanish": "Tengo que encontrar un trabajo de medio tiempo.",
+    "finnish": "Minun on pakko löytää osa-aikatyö.",
+    "english": "I have to find a part-time job.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1340065",
+    "spanish": "Camino todos los días al trabajo.",
+    "finnish": "Kävelen työhön joka päivä.",
+    "english": "I walk to work every day.",
+    "wordCount": 6,
+    "themes": [
+      "travel",
+      "work"
+    ]
+  },
+  {
+    "id": "1340422",
+    "spanish": "¿Pretendes trabajar hasta las diez?",
+    "finnish": "Aiotko tehdä töitä kymmeneen asti?",
+    "english": "Do you plan to work until 10:00?",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1349838",
+    "spanish": "Nuestro proyecto fracasó.",
+    "finnish": "Projektimme epäonnistui.",
+    "english": "Our project failed.",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1358439",
+    "spanish": "Su muerte fue una gran pérdida para nuestra compañía.",
+    "finnish": "Hänen kuolemansa oli suuri menetys yrityksellemme.",
+    "english": "His death was a great loss to our firm.",
+    "wordCount": 9,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1384730",
+    "spanish": "Se pospuso la reunión hasta el próximo viernes.",
+    "finnish": "Kokousta lykättiin seuraavaan perjantaihin.",
+    "english": "The meeting was put off until next Friday.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1407796",
+    "spanish": "Estoy hasta el cuello de trabajo.",
+    "finnish": "Minulla on töitä korviani myöten.",
+    "english": "I am up to my neck in work.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1414823",
+    "spanish": "Ha pedido más dinero.",
+    "finnish": "Hän pyysi lisää rahaa.",
+    "english": "He asked for more money.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1453747",
+    "spanish": "Mi esposo está desempleado y busca trabajo.",
+    "finnish": "Mieheni on työttömänä ja etsii töitä.",
+    "english": "My husband is out of work and looking for a job.",
+    "wordCount": 7,
+    "themes": [
+      "family",
+      "work"
+    ]
+  },
+  {
+    "id": "1476781",
+    "spanish": "Después de que muera, espero que la gente diga de mí: \"Ese tipo sí que me debía un montón de dinero.\"",
+    "finnish": "Kun kuolen, toivon että ihmiset sanovat minusta: ”Siinäpä kaveri, joka oli minulle paljon velkaa.”",
+    "english": "After I die, I hope that people will say of me: \"That guy sure owed me a lot of money.\"",
+    "wordCount": 21,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1488964",
+    "spanish": "Tom no quería hacer el trabajo sucio de ellos.",
+    "finnish": "Tom ei tahtonut tehdä heidän likaista työtään.",
+    "english": "Tom didn't want to do their dirty work.",
+    "wordCount": 9,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1498537",
+    "spanish": "Me gusta mi nuevo trabajo.",
+    "finnish": "Pidän uudesta työstäni.",
+    "english": "I like my new job.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1552991",
+    "spanish": "Todos los días voy en bicicleta o en bus al trabajo.",
+    "finnish": "Joka päivä pyöräilen tai otan bussin töihin.",
+    "english": "Every day I either ride a bike or get the bus to work.",
+    "wordCount": 11,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1581981",
+    "spanish": "El dinero es muy importante en los círculos políticos.",
+    "finnish": "Raha on tärkeää poliittisissa piireissä.",
+    "english": "Money is of great importance in political circles.",
+    "wordCount": 9,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1581982",
+    "spanish": "A veces me quedo sin dinero.",
+    "finnish": "Joskus minulta loppuvat rahat.",
+    "english": "Sometimes I run out of money.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1608708",
+    "spanish": "La reunión terminó antes de lo normal.",
+    "finnish": "Kokous loppui aikaisemmin kuin tavallisesti.",
+    "english": "The meeting ended earlier than usual.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1626965",
+    "spanish": "Él se olvidó de apagar la luz.",
+    "finnish": "Hän unohti sammuttaa valon.",
+    "english": "He forgot to turn off the light.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1703109",
+    "spanish": "Esta sala es mi dormitorio, y la otra es mi oficina.",
+    "finnish": "Tämä huone on makuuhuoneeni, ja toinen on toimistoni.",
+    "english": "This room is my bedroom, and the other one is my office.",
+    "wordCount": 11,
+    "themes": [
+      "food",
+      "work"
+    ]
+  },
+  {
+    "id": "1705595",
+    "spanish": "¡Trabajo como esclavo!",
+    "finnish": "Teen töitä kuin orja!",
+    "english": "I work like a slave!",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1705598",
+    "spanish": "¡Trabajo como esclava!",
+    "finnish": "Teen töitä kuin orja!",
+    "english": "I work like a slave!",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1705606",
+    "spanish": "El viento y la lluvia apagaron el incendio.",
+    "finnish": "Tuuli ja sade sammuttivat liekit.",
+    "english": "The wind and the rain put out the fire.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1767545",
+    "spanish": "Tengo menos dinero que tú.",
+    "finnish": "Minulla on vähemmän rahaa kuin sinulla.",
+    "english": "I have less money than you.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1837732",
+    "spanish": "Cuéntame acerca de tu trabajo.",
+    "finnish": "Kerro minulle työstäsi.",
+    "english": "Tell me about your job.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1853380",
+    "spanish": "Dame tu dinero o te daré una paliza.",
+    "finnish": "Anna minulle rahasi tai muuten hakkaan sinut.",
+    "english": "Give me your money or else I'll beat you up.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1871964",
+    "spanish": "No malgastes tu dinero en comprar cosas que no necesitas.",
+    "finnish": "Älä tuhlaa rahojasi ostamalla tavaroita, joita et tarvitse.",
+    "english": "Don't waste your money by buying things you don't need.",
+    "wordCount": 10,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1873333",
+    "spanish": "Tom todavía tiene que pagar la cuenta.",
+    "finnish": "Tomin on vielä maksettava lasku.",
+    "english": "Tom still has to pay the bill.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "1976302",
+    "spanish": "Por fin he encontrado un trabajo.",
+    "finnish": "Löysin lopultakin töitä.",
+    "english": "Finally, I found a job.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2011145",
+    "spanish": "Me encanta este trabajo.",
+    "finnish": "Mä tykkään tästä työstä tosi paljon.",
+    "english": "I love this job.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2015520",
+    "spanish": "No quiero ir a trabajar hoy.",
+    "finnish": "En halua mennä töihin tänään.",
+    "english": "I don't want to go to work today.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2049193",
+    "spanish": "Necesitaba dinero.",
+    "finnish": "Tarvitsin rahaa.",
+    "english": "I needed cash.",
+    "wordCount": 2,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2049250",
+    "spanish": "Son empleados a tiempo parcial.",
+    "finnish": "He ovat osa-aikaisia työntekijöitä.",
+    "english": "They're part-time employees.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2049255",
+    "spanish": "Tom tiene un trabajo a tiempo parcial.",
+    "finnish": "Tomilla on osa-aikatyö.",
+    "english": "Tom has a part-time job.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2049282",
+    "spanish": "¿Puedo trabajar a tiempo parcial?",
+    "finnish": "Voinko tehdä töitä osa-aikaisesti?",
+    "english": "Could I work part-time?",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2096435",
+    "spanish": "Quiero dejar mi empleo.",
+    "finnish": "Haluan lopettaa työni.",
+    "english": "I wanna quit my job.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2096533",
+    "spanish": "Voy al trabajo en autobús.",
+    "finnish": "Menen töihin linja-autolla.",
+    "english": "I go to work by bus.",
+    "wordCount": 5,
+    "themes": [
+      "travel",
+      "work"
+    ]
+  },
+  {
+    "id": "2134809",
+    "spanish": "Sigue con tu trabajo.",
+    "finnish": "Jatka työtäsi.",
+    "english": "Carry on with your work.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2138178",
+    "spanish": "Normalmente se va a trabajar a las ocho de la mañana.",
+    "finnish": "Hän menee yleensä töihin kello kahdeksan.",
+    "english": "He usually goes to work at 8 a.m.",
+    "wordCount": 11,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2151027",
+    "spanish": "Eso es Saturno.",
+    "finnish": "Tuo on Saturnus.",
+    "english": "That's Saturn.",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2183993",
+    "spanish": "Quiero más dinero.",
+    "finnish": "Haluan lisää rahaa.",
+    "english": "I want more money.",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2306996",
+    "spanish": "El próximo año voy a trabajar en Osaka.",
+    "finnish": "Ensi vuonna työskentelen Osakassa.",
+    "english": "I am going to work in Osaka next year.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2405702",
+    "spanish": "Llevo mi propio negocio.",
+    "finnish": "Minulla on oma yritys.",
+    "english": "I run my own business.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2409351",
+    "spanish": "Ese trabajo exige una habilidad especial.",
+    "finnish": "Tämä työ vaatii erityisiä kykyjä.",
+    "english": "This work demands specific abilities.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2501110",
+    "spanish": "¿A qué hora sale comúnmente del trabajo?",
+    "finnish": "Milloin tavallisesti pääset töistä?",
+    "english": "When do you usually get off work?",
+    "wordCount": 7,
+    "themes": [
+      "food",
+      "work"
+    ]
+  },
+  {
+    "id": "2571598",
+    "spanish": "Es difícil hacer suficiente ejercicio en un trabajo así.",
+    "finnish": "Tällaisessa työssä on vaikea saada tarpeeksi liikuntoa.",
+    "english": "In a job like this, it's hard to get enough exercise.",
+    "wordCount": 9,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2654087",
+    "spanish": "No necesito dinero.",
+    "finnish": "En tarvitse rahaa.",
+    "english": "I don't need money.",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2667257",
+    "spanish": "Quiero enseñarte algo en mi oficina.",
+    "finnish": "Haluan näyttää sinulle jotakin toimistossani.",
+    "english": "I want to show you something in my office.",
+    "wordCount": 6,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2671465",
+    "spanish": "El jardinero era el asesino.",
+    "finnish": "Murhaaja oli puutarhuri.",
+    "english": "The gardener was the murderer.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2679770",
+    "spanish": "No tenemos dinero.",
+    "finnish": "Meillä ei ole rahaa.",
+    "english": "We have no money.",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2799987",
+    "spanish": "Mi marido suele irse a trabajar a las 8.",
+    "finnish": "Aviomieheni lähtee yleensä töihin kahdeksalta.",
+    "english": "My husband usually leaves for work at 8 o'clock.",
+    "wordCount": 9,
+    "themes": [
+      "family",
+      "work"
+    ]
+  },
+  {
+    "id": "2800621",
+    "spanish": "No tenía dinero, así que no pudo comprar comida.",
+    "finnish": "Hänellä ei ollut rahaa joten hän ei voinut ostaa ruokaa",
+    "english": "He had no money and so could not buy any food.",
+    "wordCount": 9,
+    "themes": [
+      "food",
+      "work"
+    ]
+  },
+  {
+    "id": "2847462",
+    "spanish": "Todos los doctores dicen que yo no debo tomar café, y sin embargo bebo un poco de vez en cuando en buena compañía.",
+    "finnish": "Kaikki lääkärit sanovat, että minä en saa juoda kahvia, mutta minä juon kuitenkin vähän silloin tällöin mukavassa seurassa.",
+    "english": "All the doctors say that I shouldn't drink coffee, but, despite that, I do have a bit now and then when I'm in good company.",
+    "wordCount": 23,
+    "themes": [
+      "food",
+      "work"
+    ]
+  },
+  {
+    "id": "2853235",
+    "spanish": "Muchos traicionaron a sus amigos por dinero.",
+    "finnish": "Moni petti ystävänsä rahan vuoksi.",
+    "english": "Many betrayed their friends for money.",
+    "wordCount": 7,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2861442",
+    "spanish": "Ella tiene más experiencia que yo.",
+    "finnish": "Hän on kokeneempi kuin minä.",
+    "english": "She's more experienced than I am.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2921019",
+    "spanish": "Tom no podrá terminar el trabajo a menos que lo ayudemos.",
+    "finnish": "Tom ei pysty tekemään työtä loppuun, ellemme auta häntä.",
+    "english": "Tom won't be able to finish the job unless we help him.",
+    "wordCount": 11,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2927021",
+    "spanish": "Él es amistoso con todos sus compañeros.",
+    "finnish": "Hän on ystävällinen kaikkia luokkatovereitaan kohtaan.",
+    "english": "He's friendly with all his classmates.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2932125",
+    "spanish": "Ellos no lo consideran adecuado para el trabajo.",
+    "finnish": "He pitivät häntä epäpätevänä tätä työtä varten.",
+    "english": "They consider him unfit for the job.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2932855",
+    "spanish": "He buscado trabajo por un largo tiempo.",
+    "finnish": "Olen pitkään etsinyt työtä.",
+    "english": "I've been looking for a job a long time.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2944700",
+    "spanish": "Nuestros clientes están en Taiwan, explicó Tom.",
+    "finnish": "Asiakkaamme ovat Taiwanissa, selitti Tom.",
+    "english": "Our customers are in Taiwan, explained Tom.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2946171",
+    "spanish": "Mi colega es un lobo vestido de oveja.",
+    "finnish": "Työtoverini on susi lammasten vaatteissa.",
+    "english": "My co-worker is a wolf in sheep's clothing.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2946303",
+    "spanish": "Su trabajo es planchar ropa.",
+    "finnish": "Heidän työnsä on silittää vaatteita.",
+    "english": "Their job is to iron clothes.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2951292",
+    "spanish": "Roba el dinero.",
+    "finnish": "Varasta rahat.",
+    "english": "Steal the money.",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2951297",
+    "spanish": "Roba dinero.",
+    "finnish": "Varasta rahaa.",
+    "english": "Steal money.",
+    "wordCount": 2,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2951394",
+    "spanish": "Japón no debería gastar mucho dinero en armas.",
+    "finnish": "Japanin ei pitäisi kuluttaa paljoa rahaa aseisiin.",
+    "english": "Japan should not spend much money on weapons.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2959933",
+    "spanish": "No llevo nada de dinero conmigo.",
+    "finnish": "Minulla ei ole yhtään rahaa mukana.",
+    "english": "I don't have any money with me.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "2995578",
+    "spanish": "Tom tiene un trabajo.",
+    "finnish": "Tomilla on töitä.",
+    "english": "Tom has a job.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3006049",
+    "spanish": "¿Cuál es la profesión de Tom?",
+    "finnish": "Mikä on Tomin ammatti?",
+    "english": "What's Tom's profession?",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3032989",
+    "spanish": "Esa compañía ha sido muy exitosa hasta ahora.",
+    "finnish": "Tuo firma on menestynyt tähän mennessä erittäin hyvin.",
+    "english": "That company has been very successful up to now.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3033159",
+    "spanish": "Ellos necesitan dinero para pagar los materiales.",
+    "finnish": "He tarvitsevat rahaa aineksien maksamiseen.",
+    "english": "They need money to pay for the materials.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3033175",
+    "spanish": "Él reunió su fortuna con trabajo duro.",
+    "finnish": "Hän keräsi omaisuutensa kovalla työllä.",
+    "english": "He accumulated his fortune by hard work.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3035250",
+    "spanish": "Él se sentía incómodo en compañía de su padre.",
+    "finnish": "Hän tunsi olonsa epämukavaksi hänen isänsä seurassa.",
+    "english": "He felt uneasy in his father's presence.",
+    "wordCount": 9,
+    "themes": [
+      "family",
+      "work"
+    ]
+  },
+  {
+    "id": "3056362",
+    "spanish": "Tom fue lo suficientemente afortunado para encontrar un buen empleo.",
+    "finnish": "Tom oli tarpeeksi onnekas löytämään hyvän työn.",
+    "english": "Tom was lucky enough to find a good job.",
+    "wordCount": 10,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3056583",
+    "spanish": "A Tom le costó encontrar trabajo.",
+    "finnish": "Tomilla oli vaikeata löytää työtä.",
+    "english": "Tom had a hard time finding work.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3073440",
+    "spanish": "Trabajo contigo.",
+    "finnish": "Teen työtä kanssasi.",
+    "english": "I work with you.",
+    "wordCount": 2,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3100581",
+    "spanish": "Ella le recomendó al cliente una corbata azul.",
+    "finnish": "Hän suositteli asiakkaalle sinistä kravattia.",
+    "english": "She suggested that the customer buy a blue tie.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3100792",
+    "spanish": "Necesito el dinero de Tom.",
+    "finnish": "Tarvitsen Tomin rahat.",
+    "english": "I need Tom's money.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3102865",
+    "spanish": "Hay una oficina de correos por acá cerca.",
+    "finnish": "Lähellä on postitoimisto.",
+    "english": "There is a post office close by.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3104498",
+    "spanish": "Trabajo todos los días, menos sábados.",
+    "finnish": "Teen työtä joka päivä paitsi lauantaina.",
+    "english": "I work every day except Saturday.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3118306",
+    "spanish": "Si necesitas dinero, yo te paso.",
+    "finnish": "Jos tarvitset rahaa, lainaan sitä sinulle.",
+    "english": "If you need any money, I'll lend you some.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3118349",
+    "spanish": "Él quiere que lo ayude con un proyecto del colegio.",
+    "finnish": "Hän haluaa minun auttavan häntä kouluprojektissa.",
+    "english": "He wants me to help him with a school project.",
+    "wordCount": 10,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3118352",
+    "spanish": "Trataré de pagar lo que debo de aquí a final de mes.",
+    "finnish": "Aion yrittää maksaa mitä olen velkaa kuun loppuun mennessä.",
+    "english": "I will try to pay what I owe by the end of the month.",
+    "wordCount": 12,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3147708",
+    "spanish": "Él terminó este trabajo solo.",
+    "finnish": "Hän teki itse tämän työn loppuun.",
+    "english": "He finished this work for himself.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3198504",
+    "spanish": "Ella hizo su tarea.",
+    "finnish": "Hän on tehnyt kotiläksynsä.",
+    "english": "She has done her homework.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3202457",
+    "spanish": "Terminaré la tarea, sin importar cuánto tarde.",
+    "finnish": "Huolimatta siitä kuinka kauan se kestää, teen työn valmiiksi.",
+    "english": "No matter how long it takes, I will finish the work.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3202460",
+    "spanish": "¿Qué opinas del plan de tu jefe?",
+    "finnish": "Mitä mieltä olet pomosi suunnitelmasta?",
+    "english": "What do you think about your boss's plan?",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3202495",
+    "spanish": "Quiero saber acerca del nuevo trabajo de Tom.",
+    "finnish": "Haluan saada tietää Tomin uudesta työstä.",
+    "english": "I want to know about Tom's new job.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3215008",
+    "spanish": "¿Quieres pasar por acá después del trabajo?",
+    "finnish": "Haluatko tulla käymään kylässä töiden jälkeen?",
+    "english": "Do you want to come over after work?",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3215874",
+    "spanish": "Se rehusó a tomar el dinero.",
+    "finnish": "Hän kieltäytyi ottamasta rahaa.",
+    "english": "She refused to take the money.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3237626",
+    "spanish": "Ese no es nuestro trabajo.",
+    "finnish": "Tuo ei ole meidän tehtävämme.",
+    "english": "That's not our job.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3238093",
+    "spanish": "Algo así podría arruinar tu carrera.",
+    "finnish": "Jokin tällainen voisi pilata urasi.",
+    "english": "Something like this could ruin your career.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3239759",
+    "spanish": "No malgastemos nuestro dinero.",
+    "finnish": "Ei tuhlata meidän rahojamme.",
+    "english": "Let's not waste our money.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3239781",
+    "spanish": "Tú quieres que consiga un mejor trabajo, pero no creo que pueda.",
+    "finnish": "Haluat, että hankin paremman työn, mutta en usko, että voin.",
+    "english": "You want me to get a better job, but I don't think I can.",
+    "wordCount": 12,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3247960",
+    "spanish": "Para hacer dinero necesitas dinero.",
+    "finnish": "Tarvitset rahaa takoaksesi rahaa.",
+    "english": "You need money to make money.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3256005",
+    "spanish": "Fumar en la oficina está en contra de nuestras reglas.",
+    "finnish": "Polttaminen toimistossa on vastoin sääntöjämme.",
+    "english": "Smoking in the office is against our rules.",
+    "wordCount": 10,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3263506",
+    "spanish": "Es una manera fácil de ganar dinero.",
+    "finnish": "Se on helppo tapa ansaita rahaa.",
+    "english": "It's an easy way to make money.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3272826",
+    "spanish": "Él se lleva bien con sus empleados.",
+    "finnish": "Hän tulee hyvin toimeen työntekijöidensä kanssa.",
+    "english": "He is getting along well with his employees.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3277787",
+    "spanish": "Encontré trabajo.",
+    "finnish": "Olen löytänyt työpaikan.",
+    "english": "I've found a job.",
+    "wordCount": 2,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3371732",
+    "spanish": "Trabajé duro por este dinero.",
+    "finnish": "Tein kovasti töitä näiden rahojen eteen.",
+    "english": "I worked hard for this money.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3389913",
+    "spanish": "Mi trabajo me mantiene ocupada.",
+    "finnish": "Työni pitää minut kiireisenä.",
+    "english": "My work keeps me busy.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3389978",
+    "spanish": "Según yo, deberíamos preguntarle a Tom por qué él dejó su último trabajo.",
+    "finnish": "Minun mielestäni meidän pitäisi kysyä Tomilta miksi hän jätti edellisen työpaikkansa.",
+    "english": "I think we should ask Tom why he left his last job.",
+    "wordCount": 13,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3393564",
+    "spanish": "¿Vivimos para trabajar? No, trabajamos para vivir.",
+    "finnish": "Elämmekö me tehdäksemme töitä? Ei, me teemme töitä elääksemme.",
+    "english": "Do we live to work? No, we work to live.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3416613",
+    "spanish": "Únete ahora y no pagarás nada por todo un año.",
+    "finnish": "Liity nyt äläkä maksa mitään koko vuonna.",
+    "english": "Join now and pay nothing for a whole year.",
+    "wordCount": 10,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3424005",
+    "spanish": "Tu trabajo es asegurarte de que Tom haga bien su trabajo.",
+    "finnish": "Sinun työsi on varmistaa, että Tom tekee työnsä oikein.",
+    "english": "Your job is to make sure Tom does his job right.",
+    "wordCount": 11,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3424452",
+    "spanish": "No esperaba que Tom estuviera en la reunión.",
+    "finnish": "En odottanut Tomin olevan kokouksessa.",
+    "english": "I didn't expect Tom to be at the meeting.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3499425",
+    "spanish": "Cada empleado tiene derecho a dos semanas de vacaciones pagadas por año.",
+    "finnish": "Jokainen työntekijä on oikeutettu kahden viikon maksettuun lomaan vuodessa.",
+    "english": "Each employee is entitled to a two week paid vacation per year.",
+    "wordCount": 12,
+    "themes": [
+      "travel",
+      "work"
+    ]
+  },
+  {
+    "id": "3541754",
+    "spanish": "Ella pensó en una buena manera de ganar dinero con ayuda del Internet.",
+    "finnish": "Hän pohti hyvää tapaa ansaita rahaa internetin avulla.",
+    "english": "She thought of a good way to make money with the help of the internet.",
+    "wordCount": 13,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3657057",
+    "spanish": "Recuerda apagar las luces.",
+    "finnish": "Muista sammuttaa valot.",
+    "english": "Remember to turn off the lights.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3678873",
+    "spanish": "¿A Tom le gusta su trabajo?",
+    "finnish": "Pitääkö Tomi työstään?",
+    "english": "Does Tom like his job?",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3717620",
+    "spanish": "Huyó con el dinero.",
+    "finnish": "Hän pakeni rahojen kanssa.",
+    "english": "He ran away with the money.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3762225",
+    "spanish": "El dinero no me emociona. Me relaja.",
+    "finnish": "Raha ei innosta minua. Se rauhoittaa minut.",
+    "english": "Money doesn't excite me. It calms me.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3775516",
+    "spanish": "Tom no puede trabajar.",
+    "finnish": "Tom ei voi tehdä töitä.",
+    "english": "Tom can't work.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "3775541",
+    "spanish": "Mi padre es un adicto al trabajo que piensa solo en su trabajo las veinticuatro horas.",
+    "finnish": "Isäni on työnarkomaani joka ajattelee vain työtään kellon ympäri.",
+    "english": "My father is a workaholic who thinks of nothing but his job 24/7.",
+    "wordCount": 16,
+    "themes": [
+      "family",
+      "work"
+    ]
+  },
+  {
+    "id": "4189767",
+    "spanish": "Casi todos los trabajadores se rehusaron a trabajar de noche.",
+    "finnish": "Lähes kaikki työntekijät kieltäytyivät työskentelemästä öisin.",
+    "english": "Almost all workers refused to work during the night.",
+    "wordCount": 10,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "4244664",
+    "spanish": "Hiciste un muy buen trabajo.",
+    "finnish": "Teit todella hyvää työtä.",
+    "english": "You did a very good job.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "4308299",
+    "spanish": "Le pedí prestado dinero a Tom.",
+    "finnish": "Lainasin rahaa Tomilta.",
+    "english": "I borrowed money from Tom.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "4544337",
+    "spanish": "El hombre moderno ve al dinero como un medio para conseguir más dinero.",
+    "finnish": "Nykyihminen katsoo rahan olevan keino saada lisää rahaa.",
+    "english": "Modern man looks on money as a means to getting more money.",
+    "wordCount": 13,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "4612605",
+    "spanish": "Esta mañana he ido al trabajo en bicicleta.",
+    "finnish": "Tänä aamuna menin töihin pyörällä.",
+    "english": "This morning, I bicycled to work.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "4694055",
+    "spanish": "Él tiene mucha experiencia.",
+    "finnish": "Hänellä on paljon kokemusta.",
+    "english": "He's very experienced.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "4732343",
+    "spanish": "Tenemos un trabajo que hacer.",
+    "finnish": "Meillä on töitä tehtävinä.",
+    "english": "We have work to do.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "4781883",
+    "spanish": "Estoy aquí para una reunión.",
+    "finnish": "Tulin tänne kokousta varten.",
+    "english": "I'm here for a meeting.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "5003797",
+    "spanish": "Tom necesita dinero.",
+    "finnish": "Tomi tarvitsee rahaa.",
+    "english": "Tom needs money.",
+    "wordCount": 3,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "5056326",
+    "spanish": "¿Quién va a pagar el alquiler?",
+    "finnish": "Kuka maksaa vuokran?",
+    "english": "Who'll pay the rent?",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "5108491",
+    "spanish": "Hoy no quiero ir a trabajar.",
+    "finnish": "En halua mennä töihin tänään.",
+    "english": "I don't want to go to work today.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "5144139",
+    "spanish": "Tom tuvo definitivamente suficiente tiempo para realizar el trabajo.",
+    "finnish": "Tomilla oli varmasti tarpeeksi aikaa työn tekemiseen.",
+    "english": "Tom definitely had enough time to get the job done.",
+    "wordCount": 9,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "5665101",
+    "spanish": "Tom ha dado un montón de dinero a la caridad.",
+    "finnish": "Tomi on antanut valtavan määrän rahaa hyväntekeväisyyteen.",
+    "english": "Tom has given a lot of money to charity.",
+    "wordCount": 10,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "5704666",
+    "spanish": "Me gustaría quedarme y charlar, pero tengo que irme a una reunión.",
+    "finnish": "Haluaisin jäädä juttelemaan, mutta minun pitää mennä tapaamiseen.",
+    "english": "I'd like to stay and chat, but I've got a meeting to go to.",
+    "wordCount": 12,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "5704879",
+    "spanish": "Nuestro jefe aprobó nuestro plan.",
+    "finnish": "Meidän pomomme hyväksyi meidän suunnitelmamme.",
+    "english": "Our boss approved our plan.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "5714283",
+    "spanish": "Debería haber ido a la reunión de ayer.",
+    "finnish": "Minun olisi pitänyt mennä eiliseen kokoukseen.",
+    "english": "I should've gone to yesterday's meeting.",
+    "wordCount": 8,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "5720520",
+    "spanish": "Pensé que el autobús era gratis, pero he tenido que pagar.",
+    "finnish": "Luulin, että bussi on ilmainen, mutta minun piti maksaa siitä.",
+    "english": "I thought that the bus was free, but I had to pay.",
+    "wordCount": 11,
+    "themes": [
+      "travel",
+      "work"
+    ]
+  },
+  {
+    "id": "5748664",
+    "spanish": "La empresa de mudanzas trasladará los muebles.",
+    "finnish": "Muuttofirma kuljettaa huonekalut.",
+    "english": "The moving company will transport the furniture.",
+    "wordCount": 7,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "5854922",
+    "spanish": "Tom está buscando trabajo.",
+    "finnish": "Tomi etsii töitä.",
+    "english": "Tom's looking for work.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "5952654",
+    "spanish": "Alguien tiene que pagar.",
+    "finnish": "Jonkun pitää maksaa.",
+    "english": "Someone has to pay.",
+    "wordCount": 4,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "6683888",
+    "spanish": "Me gasté mucho dinero ayer.",
+    "finnish": "Käytin todella paljon rahaa eilen.",
+    "english": "I spent a lot of money yesterday.",
+    "wordCount": 5,
+    "themes": [
+      "food",
+      "work"
+    ]
+  },
+  {
+    "id": "6690819",
+    "spanish": "Tengo un trabajo muy aburrido.",
+    "finnish": "Minulla on todella tylsä työ.",
+    "english": "I have a very boring job.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "6761441",
+    "spanish": "Él recibe un buen sueldo.",
+    "finnish": "Hän saa hyvää palkkaa.",
+    "english": "He gets a good salary.",
+    "wordCount": 5,
+    "themes": [
+      "work"
+    ]
+  },
+  {
+    "id": "8317978",
+    "spanish": "Llegó muy temprano a la oficina.",
+    "finnish": "Hän saapui toimistoon hyvin aikaisin.",
+    "english": "I arrived very early to the office.",
+    "wordCount": 6,
+    "themes": [
+      "work"
+    ]
+  }
+]

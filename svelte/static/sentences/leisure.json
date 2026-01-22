@@ -1,0 +1,7345 @@
+[
+  {
+    "id": "2489",
+    "spanish": "Volveré pronto.",
+    "finnish": "Tulen pian takaisin.",
+    "english": "I'll be back right away.",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2560",
+    "spanish": "¿Cuántos amigos íntimos tienes?",
+    "finnish": "Kuinka monta läheistä ystävää sinulla on?",
+    "english": "How many close friends do you have?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2700",
+    "spanish": "Soy tan tonto... estoy intentando explicarte cosas que no entiendo ni yo.",
+    "finnish": "Olen niin tyhmä... Yritän selittää sinulle asioita, joita en itse ymmärrä.",
+    "english": "I'm so dumb... I'm trying to explain things to you that I don't understand myself.",
+    "wordCount": 12,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "9921",
+    "spanish": "Ayer compré un libro.",
+    "finnish": "Ostin eilen kirjan.",
+    "english": "Yesterday, I bought a book.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "180552",
+    "spanish": "Sería divertido ver cómo las cosas cambian a través de los años.",
+    "finnish": "Olisi hauska nähdä, miten asiat tulevat vuosien saatossa muuttumaan.",
+    "english": "It would be fun to see how things change over the years.",
+    "wordCount": 12,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "331278",
+    "spanish": "Estoy contento de verte.",
+    "finnish": "Olen onnellinen tapaamisestamme.",
+    "english": "I'm happy to see you.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "332230",
+    "spanish": "¡Feliz cumpleaños!",
+    "finnish": "Hyvää syntymäpäivää!",
+    "english": "Happy birthday!",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "337111",
+    "spanish": "El inglés es hablado en diversos países alrededor del mundo.",
+    "finnish": "Englantia puhutaan monissa maissa ympäri maailmaa.",
+    "english": "English is spoken in many countries around the world.",
+    "wordCount": 10,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "338587",
+    "spanish": "El precio de ese libro es de 5 dólares.",
+    "finnish": "Tuo kirja maksaa viisi dollaria.",
+    "english": "The price of that book is five dollars.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "338624",
+    "spanish": "Volveré a llamar más tarde.",
+    "finnish": "Soitan myöhemmin uudestaan.",
+    "english": "I'll call again later.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "339314",
+    "spanish": "A él le gusta mucho la música.",
+    "finnish": "Hän pitää paljon musiikista.",
+    "english": "He likes music very much.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "340048",
+    "spanish": "Ella celebra una fiesta la semana próxima.",
+    "finnish": "Hän järjestää juhlat ensi viikolla.",
+    "english": "She will give a party next week.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "340655",
+    "spanish": "Él decía la verdad.",
+    "finnish": "Hän sanoi totuuden.",
+    "english": "He told the truth.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "343379",
+    "spanish": "Dime la verdad.",
+    "finnish": "Sano minulle totuus.",
+    "english": "Tell me the truth.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "345521",
+    "spanish": "Tú tienes muchos libros.",
+    "finnish": "Sinulla on paljon kirjoja.",
+    "english": "You have a lot of books.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "346603",
+    "spanish": "¿Lloverá mañana?",
+    "finnish": "Sataakohan huomenna?",
+    "english": "Is it going to rain tomorrow?",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "347344",
+    "spanish": "Él solía nadar en este río a menudo.",
+    "finnish": "Hänellä oli tapana uida usein tässä joessa.",
+    "english": "He would often swim in this river.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "360168",
+    "spanish": "Mary sabe bailar bien.",
+    "finnish": "Mari osaa tanssia hyvin.",
+    "english": "Mary can dance well.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "435057",
+    "spanish": "Es un verdadero caballero.",
+    "finnish": "Hän on todellinen herrasmies.",
+    "english": "He's a real gentleman.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "436394",
+    "spanish": "Estoy buscando a mis amigos.",
+    "finnish": "Etsin ystäviäni.",
+    "english": "I am looking for my friends.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "437048",
+    "spanish": "Quiero besarte.",
+    "finnish": "Tahdon suudella sinua.",
+    "english": "I want to kiss you.",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "445704",
+    "spanish": "Te gusta la lluvia, ¿verdad?",
+    "finnish": "Sä tykkäät sateesta, eikö niin?",
+    "english": "You like rain, don't you?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "449713",
+    "spanish": "Deberías intentar ver las cosas desde un punto de vista práctico.",
+    "finnish": "Sinun pitäisi yrittää katsoa asioita käytännön kannalta.",
+    "english": "You should try to see things from the practical point of view.",
+    "wordCount": 11,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "449731",
+    "spanish": "No te olvides de devolver el libro a la biblioteca.",
+    "finnish": "Älä unohda palauttaa kirjaa kirjastoon.",
+    "english": "Don't forget to return the book to the library.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "449902",
+    "spanish": "Yo no veo la televisión.",
+    "finnish": "En katso TV:tä.",
+    "english": "I do not watch television.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "449956",
+    "spanish": "¿Quién escribió este libro?",
+    "finnish": "Kuka on kirjoittanut tämän kirjan?",
+    "english": "Who wrote this book?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "451605",
+    "spanish": "Yo estaba leyendo un libro.",
+    "finnish": "Luin kirjaa.",
+    "english": "I was reading a book.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "452054",
+    "spanish": "He ido al hospital a ver a mi mujer.",
+    "finnish": "Menin sairaalaan tapaamaan minun vaimoani.",
+    "english": "I went to the hospital to see my wife.",
+    "wordCount": 9,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "452925",
+    "spanish": "Es uno de mis mejores amigos.",
+    "finnish": "Hän on yksi minun parhaista ystävistäni.",
+    "english": "He is one of my best friends.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "453851",
+    "spanish": "Este libro nos será muy útil.",
+    "finnish": "Tämä kirja tulee olemaan todella hyödyllinen meille.",
+    "english": "This book will be very useful to us.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "454074",
+    "spanish": "Tengo dos libros.",
+    "finnish": "Minulla on kaksi kirjaa.",
+    "english": "I own two books.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "455910",
+    "spanish": "Busco un libro acerca de la España medieval.",
+    "finnish": "Etsin kirjaa keskiajan Espanjasta.",
+    "english": "I'm looking for a book about medieval Spain.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "455912",
+    "spanish": "Estoy buscando un libro acerca de la España medieval.",
+    "finnish": "Etsin kirjaa keskiajan Espanjasta.",
+    "english": "I'm looking for a book about medieval Spain.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "456714",
+    "spanish": "Ella está comprando libros en la librería.",
+    "finnish": "Hän on ostamassa kirjoja kirjakaupassa.",
+    "english": "She is buying books in the bookstore.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "459236",
+    "spanish": "El verano se ha terminado.",
+    "finnish": "Kesä on ohi.",
+    "english": "Summer has ended.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "460879",
+    "spanish": "Por primera vez en su vida, Yuka terminó de leer un libro entero en inglés.",
+    "finnish": "Ensimmäistä kertaa elämässään Yuka luki loppuun kokonaisen englanninkielisen kirjan.",
+    "english": "For the first time in his life, Yuka finished reading an entire book in English.",
+    "wordCount": 15,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "462393",
+    "spanish": "Ella vende verduras.",
+    "finnish": "Hän myy vihanneksia.",
+    "english": "She sells vegetables.",
+    "wordCount": 3,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "473447",
+    "spanish": "Mi amigo estudia coreano.",
+    "finnish": "Ystäväni opiskelee koreaa.",
+    "english": "My friend is studying Korean.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "473524",
+    "spanish": "Estoy viendo la televisión.",
+    "finnish": "Katselen televisiota.",
+    "english": "I am watching television.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "473526",
+    "spanish": "A Mary le gusta ver la televisión.",
+    "finnish": "Mary pitää television katselusta.",
+    "english": "Mary likes watching TV.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "475582",
+    "spanish": "Los árboles son verdes.",
+    "finnish": "Puut ovat vihreitä.",
+    "english": "The trees are green.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "475639",
+    "spanish": "Es suyo, ¿verdad?",
+    "finnish": "Se on hänen, eikö olekin?",
+    "english": "It is hers, is it not?",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "481301",
+    "spanish": "Su hermano siempre está viendo la televisión.",
+    "finnish": "Hänen veljensä katsoo koko ajan televisiota.",
+    "english": "His brother is always watching TV.",
+    "wordCount": 7,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "481335",
+    "spanish": "Cuando yo era joven intentaba leer tantos libros como pudiera.",
+    "finnish": "Nuorena yritin lukea niin paljon kirjoja kuin voin.",
+    "english": "When I was young, I tried to read as many books as I could.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "481456",
+    "spanish": "¿Dónde está mi libro?",
+    "finnish": "Missä minun kirjani on?",
+    "english": "Where is my book?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "481954",
+    "spanish": "Me alegré de verlo.",
+    "finnish": "Olin iloinen, kun näin hänet.",
+    "english": "I was happy to see him.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "491070",
+    "spanish": "Sé jugar al tenis.",
+    "finnish": "Osaan pelata tennistä.",
+    "english": "I can play tennis.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "497595",
+    "spanish": "Un libro cayó de la estantería.",
+    "finnish": "Kirja putosi kirjahyllystä.",
+    "english": "A book dropped from the shelf.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "499636",
+    "spanish": "Jack es muy severo con sus hijos.",
+    "finnish": "Jaakko on todella ankara lapsilleen.",
+    "english": "Jack is very severe with his children.",
+    "wordCount": 7,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "499901",
+    "spanish": "¿Te gusta la música de Mozart?",
+    "finnish": "Pidätkö Mozartin musiikista?",
+    "english": "Do you like Mozart's music?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "500083",
+    "spanish": "Bill me trajo este libro.",
+    "finnish": "Ville toi minulle tämän kirjan.",
+    "english": "Bill brought me this book.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "501964",
+    "spanish": "No me gusta el verano.",
+    "finnish": "En pidä kesästä.",
+    "english": "I don't like summer.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "502072",
+    "spanish": "Él ha escrito un libro acerca de China.",
+    "finnish": "Hän on kirjoittanut kirjan, joka kertoo Kiinasta.",
+    "english": "He wrote a book about China.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "502077",
+    "spanish": "Él está leyendo un libro.",
+    "finnish": "Hän lukee kirjaa.",
+    "english": "He is reading a book.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "503570",
+    "spanish": "La televisión no funciona.",
+    "finnish": "Televisio ei toimi.",
+    "english": "The television doesn't work.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "503625",
+    "spanish": "Mi pasatiempo es tomar fotografías.",
+    "finnish": "Harrastan valokuvaamista.",
+    "english": "My hobby is taking pictures.",
+    "wordCount": 5,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "504455",
+    "spanish": "El perro ladró al cartero.",
+    "finnish": "Koira haukkui postinkantajalle.",
+    "english": "The dog barked at the mailman.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "504480",
+    "spanish": "Él ha escrito dos libros.",
+    "finnish": "Hän on kirjoittanut kaksi kirjaa.",
+    "english": "He has written two books.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "506210",
+    "spanish": "¿Dónde está su libro? \"Está sobre la mesa.\"",
+    "finnish": "”Missä hänen kirjansa on?” ”Se on pöydällä.”",
+    "english": "Where is his book? \"It's on the table.\"",
+    "wordCount": 8,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "507458",
+    "spanish": "Nadie puede resolver este problema.",
+    "finnish": "Kukaan ei voi ratkaista tätä ongelmaa.",
+    "english": "Nobody can solve this problem.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "508093",
+    "spanish": "No he leído todos los libros.",
+    "finnish": "En ole lukenut kaikkia kirjoja.",
+    "english": "I have not read all the books.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "508242",
+    "spanish": "Soy un buen cocinero.",
+    "finnish": "Olen hyvä kokki.",
+    "english": "I'm a good cook.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "513083",
+    "spanish": "La película empezó a las 2.",
+    "finnish": "Elokuva alkoi kello 2.",
+    "english": "The film started at 2 o'clock.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "520883",
+    "spanish": "Ella es mi mejor amiga.",
+    "finnish": "Hän on minun paras ystäväni.",
+    "english": "She's my best friend.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "520893",
+    "spanish": "Jugar al béisbol es divertido.",
+    "finnish": "On hauskaa pelata baseballia.",
+    "english": "It is fun to play baseball.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "528568",
+    "spanish": "El parque estaba lleno de gente.",
+    "finnish": "Puisto oli väkeä täynnä.",
+    "english": "The park was full of people.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "531857",
+    "spanish": "Puede que ya hayas leído este libro.",
+    "finnish": "On mahdollista että olet jo lukenut tämän kirjan.",
+    "english": "You may have read this book already.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "534770",
+    "spanish": "Él dijo la verdad.",
+    "finnish": "Hän sanoi totuuden.",
+    "english": "He told the truth.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "536523",
+    "spanish": "Volverá.",
+    "finnish": "Hän tulee takaisin.",
+    "english": "He will come back.",
+    "wordCount": 1,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "537815",
+    "spanish": "Me gustaría ver a tu hermana.",
+    "finnish": "Haluaisin nähdä siskosi.",
+    "english": "I'd like to see your sister.",
+    "wordCount": 6,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "540310",
+    "spanish": "Compré un libro.",
+    "finnish": "Ostin kirjan.",
+    "english": "I bought a book.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "540477",
+    "spanish": "Bob es mi amigo.",
+    "finnish": "Bob on minun ystäväni.",
+    "english": "Bob is my friend.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "541351",
+    "spanish": "Hay un libro sobre la mesa.",
+    "finnish": "Pöydän päällä on kirja.",
+    "english": "There is a book on the table.",
+    "wordCount": 6,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "544018",
+    "spanish": "Quiero leer este libro.",
+    "finnish": "Mä haluun lukee tän kirjan.",
+    "english": "I want to read this book.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "544067",
+    "spanish": "Ella empezó a cantar.",
+    "finnish": "Hän alkoi laulaa.",
+    "english": "She began to sing.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "544295",
+    "spanish": "¿Ya ha venido el cartero?",
+    "finnish": "Onko posteljooni jo tullut?",
+    "english": "Has the mailman already come?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "545582",
+    "spanish": "¿Dónde compraste este libro?",
+    "finnish": "Mistä sinä ostit tuon kirjan?",
+    "english": "Where did you buy that book?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "545750",
+    "spanish": "¿Puedo ayudarte?",
+    "finnish": "Voinko auttaa sinua?",
+    "english": "Could I help you?",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "551886",
+    "spanish": "Él aceptó mi regalo.",
+    "finnish": "Hän otti vastaan lahjani.",
+    "english": "He accepted my present.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "553663",
+    "spanish": "El libro se publicó en 1689.",
+    "finnish": "Kirja julkaistiin vuonna 1689.",
+    "english": "The book was published in 1689.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "558603",
+    "spanish": "Todos estos libros son míos.",
+    "finnish": "Nämä ovat kaikki minun kirjojani.",
+    "english": "All these books are mine.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "561077",
+    "spanish": "¿Dónde está el libro?",
+    "finnish": "Missä kirja on?",
+    "english": "Where is the book?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "564502",
+    "spanish": "Ven a nadar conmigo.",
+    "finnish": "Tule uimaan minun kanssani.",
+    "english": "Come swim with me.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "564559",
+    "spanish": "El Sr. White parece tener muchos amigos.",
+    "finnish": "Herra Whitella vaikuttaa olevan paljon ystäviä.",
+    "english": "Mr White seems to have many friends.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "565449",
+    "spanish": "Soy tan estúpido... Estoy intentando explicarte cosas que yo mismo no entiendo.",
+    "finnish": "Olen niin tyhmä... Yritän selittää sinulle asioita, joita en itse ymmärrä.",
+    "english": "I'm so dumb... I'm trying to explain things to you that I don't understand myself.",
+    "wordCount": 12,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "576726",
+    "spanish": "Nos divertimos mucho.",
+    "finnish": "Meillä oli todella hauskaa.",
+    "english": "We really enjoyed ourselves.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "576768",
+    "spanish": "Tom es mi amigo.",
+    "finnish": "Tom on minun ystäväni.",
+    "english": "Tom is my friend.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "577602",
+    "spanish": "Cierra tu libro.",
+    "finnish": "Pane kirjasi kiinni.",
+    "english": "Close your book.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "580908",
+    "spanish": "¿Puedes correr rápido?",
+    "finnish": "Pystytkö juoksemaan nopeasti?",
+    "english": "Can you run fast?",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "580926",
+    "spanish": "Los niños deberían jugar fuera.",
+    "finnish": "Lasten pitäisi leikkiä ulkona.",
+    "english": "Children should play outside.",
+    "wordCount": 5,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "580961",
+    "spanish": "¿Los fantasmas existen de verdad?",
+    "finnish": "Onko aaveita oikeasti olemassa?",
+    "english": "Do ghosts really exist?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "584427",
+    "spanish": "Celebramos su cumpleaños.",
+    "finnish": "Juhlimme hänen syntymäpäiviään.",
+    "english": "We celebrated his birthday.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "584668",
+    "spanish": "Tú eres mi amigo.",
+    "finnish": "Sinä olet minun ystävä.",
+    "english": "You are my friend.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "584680",
+    "spanish": "Tú eres mi amiga.",
+    "finnish": "Sinä olet minun ystävä.",
+    "english": "You are my friend.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "585066",
+    "spanish": "Eres mi amigo.",
+    "finnish": "Sinä olet minun ystävä.",
+    "english": "You're my friend.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "585089",
+    "spanish": "Había mucha gente en el parque.",
+    "finnish": "Puistossa oli paljon ihmisiä.",
+    "english": "There were a lot of people in the park.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "594125",
+    "spanish": "No te has lavado las manos todavía, ¿verdad?",
+    "finnish": "Et ole vielä pessyt käsiäsi, vai?",
+    "english": "You haven't washed your hands yet, have you?",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "597708",
+    "spanish": "No son mis libros.",
+    "finnish": "Ne eivät ole minun kirjojani.",
+    "english": "They aren't my books.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "604343",
+    "spanish": "¿De quién son estos libros?",
+    "finnish": "Kenen kirjoja nämä ovat?",
+    "english": "Whose books are these?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "609774",
+    "spanish": "Tom y John son buenos amigos.",
+    "finnish": "Tomi ja Joni ovat hyviä ystäviä.",
+    "english": "Tom and John are good friends.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "617758",
+    "spanish": "Cualquier libro servirá.",
+    "finnish": "Mikä tahansa kirja kelpaa.",
+    "english": "Any book will do.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "618847",
+    "spanish": "Nuestro maestro nos dijo qué leer.",
+    "finnish": "Opettajamme kertoi meille, mitä meidän tulisi lukea.",
+    "english": "Our teacher told us what to read.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "624988",
+    "spanish": "Te gusta el inglés, ¿verdad?",
+    "finnish": "Pidät englannista, eikö totta?",
+    "english": "You like English, don't you?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "627073",
+    "spanish": "Veo un libro.",
+    "finnish": "Näen kirjan.",
+    "english": "I see a book.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "627295",
+    "spanish": "No quiero leer este libro.",
+    "finnish": "En halua lukea tätä kirjaa.",
+    "english": "I don't want to read this book.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "631463",
+    "spanish": "Deberías decir la verdad.",
+    "finnish": "Sinun pitäisi kertoa totuus.",
+    "english": "You should tell the truth.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "636882",
+    "spanish": "Este libro es muy nuevo.",
+    "finnish": "Tämä kirja on hyvin uusi.",
+    "english": "This book is very new.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "637107",
+    "spanish": "Te voy a regalar una bicicleta para tu cumpleaños.",
+    "finnish": "Annan sinulle polkypyörän syntymäpäivälahjaksi.",
+    "english": "I will give you a bicycle for your birthday.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "637109",
+    "spanish": "Te regalaré una bicicleta para tu cumpleaños.",
+    "finnish": "Annan sinulle polkypyörän syntymäpäivälahjaksi.",
+    "english": "I will give you a bicycle for your birthday.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "638000",
+    "spanish": "Me mentiste, ¿verdad?",
+    "finnish": "Sinä valehtelit minulle. Eikö niin?",
+    "english": "You lied to me, didn't you?",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "638663",
+    "spanish": "Ellos saben nadar.",
+    "finnish": "He osaavat uida.",
+    "english": "They know how to swim.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "642173",
+    "spanish": "¿Qué libro compraste?",
+    "finnish": "Minkä kirjan sinä ostit?",
+    "english": "What book did you buy?",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "644848",
+    "spanish": "No leo libros.",
+    "finnish": "En lue kirjoja.",
+    "english": "I do not read books.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "660067",
+    "spanish": "Tengo unas fotos para mostrarte.",
+    "finnish": "Minulla on joitain kuvia näytettävänä sinulle.",
+    "english": "I have some pictures to show you.",
+    "wordCount": 5,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "673731",
+    "spanish": "Podemos ver miles de estrellas en el cielo.",
+    "finnish": "Taivaalla voi nähdä tuhansittain tähtiä.",
+    "english": "We can see thousands of stars in the sky.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "678881",
+    "spanish": "Eso no puede ser bueno para su salud, ¿verdad?",
+    "finnish": "Tuo ei voi olla hyväksi terveydellesi, eihän?",
+    "english": "That can't be good for your health, can it?",
+    "wordCount": 9,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "683131",
+    "spanish": "Ayer fue el cumpleaños de Tom.",
+    "finnish": "Eilen oli Tomin syntymäpäivä.",
+    "english": "Tom's birthday was yesterday.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "686522",
+    "spanish": "Pregúntale cuándo va a volver.",
+    "finnish": "Kysy häneltä milloin hän tulee takaisin.",
+    "english": "Ask her when she will come back.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "694522",
+    "spanish": "¿Cómo te fue en la entrevista?",
+    "finnish": "Miten haastattelusi meni?",
+    "english": "How did your interview go?",
+    "wordCount": 6,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "697479",
+    "spanish": "¿Podéis resolver este problema?",
+    "finnish": "Pystyttekö ratkaista tämän ongelman?",
+    "english": "Can you solve this problem?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "700062",
+    "spanish": "Nuestro mundo es sólo una parte pequeña del universo.",
+    "finnish": "Maailmamme on vain pieni osa universumia.",
+    "english": "Our world is only a tiny part of the universe.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "701622",
+    "spanish": "Él escribe libros.",
+    "finnish": "Hän kirjoittaa kirjoja.",
+    "english": "He writes books.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "704242",
+    "spanish": "Te di un libro.",
+    "finnish": "Annoin sinulle kirjan.",
+    "english": "I gave you a book.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "705161",
+    "spanish": "Fuimos a jugar al parque.",
+    "finnish": "Menimme leikkimään puistoon.",
+    "english": "We went to the park to play.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "709309",
+    "spanish": "Busco un regalo para mi amigo.",
+    "finnish": "Etsin lahjaa ystävälleni.",
+    "english": "I'm looking for a gift for my friend.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "710268",
+    "spanish": "Lo importante es escuchar atentamente.",
+    "finnish": "Tärkeätä on kuunnella huolellisesti.",
+    "english": "The important thing is to listen carefully.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "710499",
+    "spanish": "Yo tengo un amigo en Inglaterra.",
+    "finnish": "Minulla on ystävä Englannissa.",
+    "english": "I have a friend in England.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "720470",
+    "spanish": "Él siguió leyendo un libro.",
+    "finnish": "Hän jatkoi kirjan lukemista.",
+    "english": "He kept reading a book.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "722031",
+    "spanish": "El tren parte en diez minutos.",
+    "finnish": "Juna lähtee kymmenen minuutin kuluttua.",
+    "english": "The train leaves in ten minutes.",
+    "wordCount": 6,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "727546",
+    "spanish": "A Mary le gusta ver la tele.",
+    "finnish": "Mary pitää television katselusta.",
+    "english": "Mary likes watching TV.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "727656",
+    "spanish": "Le gusta mucho la música.",
+    "finnish": "Hän pitää paljon musiikista.",
+    "english": "He likes music very much.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "727769",
+    "spanish": "¿Sabes nadar?",
+    "finnish": "Osaatko uida?",
+    "english": "Are you able to swim?",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "731162",
+    "spanish": "No puedo ayudarte.",
+    "finnish": "En voi auttaa sinua.",
+    "english": "I cannot help you.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "731207",
+    "spanish": "Mañana es su cumpleaños.",
+    "finnish": "Huomenna on hänen syntymäpäivänsä.",
+    "english": "Tomorrow is her birthday.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "731666",
+    "spanish": "Él es mi mejor amigo.",
+    "finnish": "Hän on paras ystäväni.",
+    "english": "He is my best friend.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "733110",
+    "spanish": "Quiero ir a ver una película.",
+    "finnish": "Haluan mennä katsomaan elokuvan.",
+    "english": "I want to go to see a film.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "741850",
+    "spanish": "Este libro parece interesante.",
+    "finnish": "Tämä kirja näyttää kiinnostavalta.",
+    "english": "This book seems interesting.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "742193",
+    "spanish": "¿De quién es este libro?",
+    "finnish": "Kenen kirja tämä on?",
+    "english": "Whose is this book?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "743305",
+    "spanish": "Quería ir al concierto.",
+    "finnish": "Halusin mennä konserttiin.",
+    "english": "I wanted to go to the concert.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "746189",
+    "spanish": "Ella no sabe nadar.",
+    "finnish": "Hän ei osaa uida.",
+    "english": "She can't swim.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "760208",
+    "spanish": "Él leyó este libro ayer.",
+    "finnish": "Hän luki tämän kirjan eilen.",
+    "english": "He read this book yesterday.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "768650",
+    "spanish": "Sois alemanes, ¿verdad?",
+    "finnish": "Te olette saksalaisia, eikö vain?",
+    "english": "You're Germans, aren't you?",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "768651",
+    "spanish": "Sois alemanas, ¿verdad?",
+    "finnish": "Te olette saksalaisia, eikö niin?",
+    "english": "You're Germans, aren't you?",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "769418",
+    "spanish": "¿Puedes ver la diferencia?",
+    "finnish": "Näetkö eron?",
+    "english": "Can you see the difference?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "769745",
+    "spanish": "Nadie sabe la verdad.",
+    "finnish": "Kukaan ei tiedä totuutta.",
+    "english": "Nobody knows the truth.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "770921",
+    "spanish": "Tom me dio las gracias por el regalo.",
+    "finnish": "Tomi kiitti minua lahjasta.",
+    "english": "Tom thanked me for the gift.",
+    "wordCount": 8,
+    "themes": [
+      "greetings",
+      "leisure"
+    ]
+  },
+  {
+    "id": "776591",
+    "spanish": "Había mucha gente en el concierto.",
+    "finnish": "Konsertissa oli paljon väkeä.",
+    "english": "There were a lot of people at the concert.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "785237",
+    "spanish": "Él es un amigo de mi hermano.",
+    "finnish": "Se on mun broidin kaveri.",
+    "english": "He's a friend of my brother's.",
+    "wordCount": 7,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "790558",
+    "spanish": "Me alegro mucho de verte.",
+    "finnish": "Todella mukavaa nähdä sua.",
+    "english": "I am very glad to see you.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "800675",
+    "spanish": "¿Puedes encender la televisión?",
+    "finnish": "Laittaisitko television päälle?",
+    "english": "Will you turn on the television?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "801656",
+    "spanish": "Estoy leyendo un libro.",
+    "finnish": "Minä luen kirjaa.",
+    "english": "I'm reading a book.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "808094",
+    "spanish": "El baloncesto es muy divertido.",
+    "finnish": "Koripallo on todella hauskaa.",
+    "english": "Basketball is a lot of fun.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "816218",
+    "spanish": "Andando por la calle me encontré con un viejo amigo.",
+    "finnish": "Kävellessäni kadulla tapasin vanhan ystävän.",
+    "english": "Walking along the street, I met an old friend.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "817632",
+    "spanish": "Mi hermano puede correr muy rápido.",
+    "finnish": "Veljeni pystyy juoksemaan todella nopeasti.",
+    "english": "My brother can run very fast.",
+    "wordCount": 6,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "831253",
+    "spanish": "Elige un regalo con cuidado.",
+    "finnish": "Valitse lahja tarkkaan.",
+    "english": "Choose a present carefully.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "843472",
+    "spanish": "¿Tú has escrito este libro?",
+    "finnish": "Kirjoititko sinä tämän kirjan?",
+    "english": "Did you write this book?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "849754",
+    "spanish": "Estás bromeando, ¿verdad?",
+    "finnish": "Vitsailet, eikö niin?",
+    "english": "You're joking, aren't you?",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "853669",
+    "spanish": "Estaba leyendo un libro.",
+    "finnish": "Luin kirjaa.",
+    "english": "I was reading a book.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "855064",
+    "spanish": "La primera estación del año es la primavera.",
+    "finnish": "Ensimmäinen vuodenaika on kevät.",
+    "english": "The first season of the year is spring.",
+    "wordCount": 8,
+    "themes": [
+      "travel",
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "855480",
+    "spanish": "Sé la verdad.",
+    "finnish": "Tiedän totuuden.",
+    "english": "I know the truth.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "855757",
+    "spanish": "No quiero ayudarte.",
+    "finnish": "En halua auttaa sinua.",
+    "english": "I don't want to help you.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "856074",
+    "spanish": "Dijo la verdad.",
+    "finnish": "Hän sanoi totuuden.",
+    "english": "He told the truth.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "860523",
+    "spanish": "¿Volverá él alguna vez?",
+    "finnish": "Tuleeko hän koskaan takaisin?",
+    "english": "Will he ever come back?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "861572",
+    "spanish": "Puedes ver la televisión después de cenar.",
+    "finnish": "Voit katsoa televisiota illallisen jälkeen.",
+    "english": "You can watch television after dinner.",
+    "wordCount": 7,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "862714",
+    "spanish": "Ninguno de mis amigos bebe café.",
+    "finnish": "Kukaan ystävistäni ei juo kahvia.",
+    "english": "None of my friends drink coffee.",
+    "wordCount": 6,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "865711",
+    "spanish": "Él sabe nadar.",
+    "finnish": "Hän osaa uida.",
+    "english": "He can swim.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "866085",
+    "spanish": "Yo puedo leer en inglés.",
+    "finnish": "Minä pystyn lukea englanninkielistä tekstiä.",
+    "english": "I am able to read English.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "867492",
+    "spanish": "No parecías saber la verdad.",
+    "finnish": "Et näyttänyt tietävän totuutta.",
+    "english": "You seemed not to know the truth.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "869774",
+    "spanish": "Las bicicletas son para el verano.",
+    "finnish": "Polkupyörät ovat kesäaikaa varten.",
+    "english": "Bicycles are for summertime.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "870259",
+    "spanish": "Tom y yo somos amigos.",
+    "finnish": "Tom ja minä olemme ystäviä.",
+    "english": "Tom and I are friends.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "871019",
+    "spanish": "Quiero ver la película otra vez.",
+    "finnish": "Haluan nähdä sen elokuvan uudestaan.",
+    "english": "I want to see the movie again.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "871146",
+    "spanish": "Es un libro nuevo.",
+    "finnish": "Se on uusi kirja.",
+    "english": "It's a new book.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "871177",
+    "spanish": "Parece que Jane está disfrutando de la fiesta.",
+    "finnish": "Jane vaikuttaa nauttivan juhlista.",
+    "english": "Jane appears to be enjoying the party.",
+    "wordCount": 8,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "872275",
+    "spanish": "¿Cuándo volverás?",
+    "finnish": "Milloin palaat?",
+    "english": "When will you come back?",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "875815",
+    "spanish": "Me gusta la primavera.",
+    "finnish": "Pidän keväästä.",
+    "english": "I like spring.",
+    "wordCount": 4,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "879398",
+    "spanish": "Necesito muchos libros.",
+    "finnish": "Tarvitsen paljon kirjoja.",
+    "english": "I need a lot of books.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "885921",
+    "spanish": "¿Puedo sacarte una foto?",
+    "finnish": "Saanko ottaa sinusta kuvan?",
+    "english": "May I take your picture?",
+    "wordCount": 4,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "888539",
+    "spanish": "No lee muchos libros.",
+    "finnish": "Hän ei lue paljoa kirjoja.",
+    "english": "He doesn't read many books.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "892058",
+    "spanish": "Un verdadero alemán no soporta a los franceses, aunque con gusto se beba sus vinos.",
+    "finnish": "Tosisaksalainen ei siedä ranskalaisia, mutta kuitenkin juo näiden viinejä mielihyvin.",
+    "english": "A true German can't stand the French, yet willingly he drinks their wines.",
+    "wordCount": 15,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "916173",
+    "spanish": "Quiero que mi padre vea la película.",
+    "finnish": "Haluan, että isäni näkee sen elokuvan.",
+    "english": "I want my father to see the movie.",
+    "wordCount": 7,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "922609",
+    "spanish": "Ayer Tom vio la televisión.",
+    "finnish": "Tom katsoi eilen TV:tä.",
+    "english": "Tom watched TV yesterday.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "925662",
+    "spanish": "Vino a vernos ayer.",
+    "finnish": "Hän tuli eilen tapaamaan meitä.",
+    "english": "She came to see us yesterday.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "932232",
+    "spanish": "Feliz cumpleaños.",
+    "finnish": "Hyvää syntymäpäivää.",
+    "english": "Happy birthday to you!",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "939624",
+    "spanish": "La película está a punto de empezar.",
+    "finnish": "Elokuva on juuri alkamassa.",
+    "english": "The movie's about to start.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "962624",
+    "spanish": "Estoy muy avergonzado.",
+    "finnish": "Hävettää kauheasti.",
+    "english": "I am deeply ashamed.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "962803",
+    "spanish": "Dejo los libros aquí.",
+    "finnish": "Jätän kirjat tähän.",
+    "english": "I am leaving the books here.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "966475",
+    "spanish": "Espero verte pronto.",
+    "finnish": "Toivon näkeväni sinut pian.",
+    "english": "I hope to see you soon.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "968590",
+    "spanish": "Su sueño era ser profesor de universidad.",
+    "finnish": "Hänen unelmansa on ollut olla yliopistoprofessori.",
+    "english": "It has been her dream to be a university professor.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "981191",
+    "spanish": "Ojalá pudiera nadar.",
+    "finnish": "Osaisinpa uida.",
+    "english": "I wish I could swim.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "981193",
+    "spanish": "Ojalá supiera nadar.",
+    "finnish": "Osaisinpa uida.",
+    "english": "I wish I could swim.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "989542",
+    "spanish": "Volveré en una hora.",
+    "finnish": "Palaan takaisin tunnin kuluttua.",
+    "english": "I'll be back in an hour.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "990767",
+    "spanish": "Le gusta leer libros.",
+    "finnish": "Hän lukee mielellään kirjoja.",
+    "english": "She likes to read books.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1016984",
+    "spanish": "A Tom le encanta escuchar música clásica.",
+    "finnish": "Tomi rakastaa klassisen musiikin kuuntelemista.",
+    "english": "Tom loves listening to classical music.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1020499",
+    "spanish": "La televisión está encendida.",
+    "finnish": "TV on päällä.",
+    "english": "The TV's on.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1050500",
+    "spanish": "Prometo ayudarte.",
+    "finnish": "Mä lupaan auttaa sua.",
+    "english": "I promise you I'll help you.",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1052056",
+    "spanish": "Este libro es demasiado caro para mí.",
+    "finnish": "Tämä kirja on minulle liian kallis.",
+    "english": "This book is too expensive for me.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1055449",
+    "spanish": "Deberías ducharte.",
+    "finnish": "Sinun pitäisi käydä suihkussa.",
+    "english": "You should shower.",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1066116",
+    "spanish": "Estudio historia del arte.",
+    "finnish": "Opiskelen taidehistoriaa.",
+    "english": "I study art history.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1068535",
+    "spanish": "Me he leído el libro.",
+    "finnish": "Minä olen lukenut sen kirjan.",
+    "english": "I've read the book.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1070551",
+    "spanish": "A ella no le gusta el fútbol.",
+    "finnish": "Hän ei tykkää jalkapallosta.",
+    "english": "She doesn't like soccer.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1074148",
+    "spanish": "Como los seres humanos son animales sociales, la amistad es una parte esencial de la vida.",
+    "finnish": "Koska ihminen on sosiaalinen eläin, ystävyys on olennainen osaa elämää.",
+    "english": "As human beings are social animals, friendship is an essential part of life.",
+    "wordCount": 16,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1082199",
+    "spanish": "Tom no sabe mucho sobre el arte.",
+    "finnish": "Tom ei tiedä paljon taiteesta.",
+    "english": "Tom doesn't know much about art.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1084503",
+    "spanish": "Tom puede correr tan rápido como Mary.",
+    "finnish": "Tomi pystyy juosta yhtä nopeasti kuin Mari.",
+    "english": "Tom can run as fast as Mary.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1086356",
+    "spanish": "¿Hay muchas flores en el jardín?",
+    "finnish": "Onko puutarhassa paljon kukkia?",
+    "english": "Are there many flowers in the garden?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1087823",
+    "spanish": "¿Cómo se llama tu amigo?",
+    "finnish": "Mikä sinun ystäväsi nimi on?",
+    "english": "What's your friend's name?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1089628",
+    "spanish": "No sabe nadar.",
+    "finnish": "Hän ei osaa uida.",
+    "english": "He doesn't know how to swim.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1100861",
+    "spanish": "No vi a nadie aparte de ti.",
+    "finnish": "En ole nähnyt ketään paitsi sinut.",
+    "english": "I have seen nobody apart from you.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1115721",
+    "spanish": "No puedo comprar un libro tan caro.",
+    "finnish": "En pysty ostaa noin kallista kirjaa.",
+    "english": "I can't buy a book this expensive.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1115873",
+    "spanish": "Hay estatuas en el parque.",
+    "finnish": "Puistossa on patsaita.",
+    "english": "There are statues in the park.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1116548",
+    "spanish": "El verano es la temporada más cálida.",
+    "finnish": "Kesä on lämpimin vuodenaika.",
+    "english": "Summer is the hottest season.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1121813",
+    "spanish": "Estoy aquí para salvarte.",
+    "finnish": "Tulin pelastamaan sinut.",
+    "english": "I'm here to save you.",
+    "wordCount": 4,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1123334",
+    "spanish": "La verdadera amistad es invaluable.",
+    "finnish": "Todellinen ystävyys on mittaamattoman arvokas asia.",
+    "english": "True friendship is priceless.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1123596",
+    "spanish": "A causa de la densa neblina, el camino era difícil de ver.",
+    "finnish": "Paksun sumun vuoksi tietä oli vaikeaa nähdä.",
+    "english": "Because of the dense haze, the road was hard to see.",
+    "wordCount": 12,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1124042",
+    "spanish": "Hacer películas es un trabajo emocionante.",
+    "finnish": "Elokuvan tekeminen on jännittävää työtä.",
+    "english": "Movie making is an exciting job.",
+    "wordCount": 6,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1125414",
+    "spanish": "No puedo volver con ellos.",
+    "finnish": "En voi mennä takaisin heidän kanssaan.",
+    "english": "I can't go back with them.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1126453",
+    "spanish": "Nosotros nos sorprendimos al ver sus heridas.",
+    "finnish": "Yllätyimme, kun näimme hänen haavansa.",
+    "english": "We were astonished when we saw their wounds.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1126602",
+    "spanish": "¿Cuál es tu verdadera intención?",
+    "finnish": "Mikä on oikea aikomuksesi?",
+    "english": "What's your real purpose?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1126645",
+    "spanish": "La única diferencia entre una mala cocinera y un envenenador es la intención.",
+    "finnish": "Ainoa ero huonon kokin ja myrkyttäjän välillä on aikomus.",
+    "english": "The only difference between an awful cook and a poisoner is the intention.",
+    "wordCount": 13,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1128912",
+    "spanish": "Nunca cruces la calle sin comenzar por verificar que no vengan vehículos.",
+    "finnish": "Älä koskaan ylitä katua, ennen kuin olet tarkistanut, että ei tule autoja.",
+    "english": "Never cross the street without checking that no cars are coming.",
+    "wordCount": 12,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1129806",
+    "spanish": "No tienes que ir a esa fiesta si no quieres.",
+    "finnish": "Sinun ei ole pakko mennä niihin juhliin, jos et halua.",
+    "english": "If you don't want to go to that party, you don't have to.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1129899",
+    "spanish": "La calle era difícil de ver por la densa neblina.",
+    "finnish": "Paksun sumun vuoksi katua oli vaikeaa nähdä.",
+    "english": "Because of the thick fog, the road was hard to see.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1129903",
+    "spanish": "Estuve fuera de casa durante todas las vacaciones de verano.",
+    "finnish": "Olin poissa kotoa koko kesäloman ajan.",
+    "english": "I was away from home all through the summer vacation.",
+    "wordCount": 10,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1133070",
+    "spanish": "Le escribí la semana pasada al señor Wood y le pregunté a él para darte trabajo en la granja.",
+    "finnish": "Kirjoitin viime viikolla herra Woodille ja pyysin häntä antamaan sinulle töitä maatilalla.",
+    "english": "I wrote last week to Mr. Wood and I asked him to give you a job on the farm.",
+    "wordCount": 19,
+    "themes": [
+      "food",
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1134273",
+    "spanish": "Volveremos a los detalles de este problema más tarde.",
+    "finnish": "Palataan ongelman yksityiskohtiin myöhemmin.",
+    "english": "We'll return to the details of this problem later.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1134290",
+    "spanish": "Tengo un amigo que su padre es un pianista conocido.",
+    "finnish": "Minulla on ystävä, jonka isä on tunnettu pianisti.",
+    "english": "I have a friend whose father is a famous pianist.",
+    "wordCount": 10,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1134612",
+    "spanish": "Quiero ir a nadar.",
+    "finnish": "Haluan mennä uimaan.",
+    "english": "I want to go for a swim.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1135696",
+    "spanish": "Papá, no puedo caminar más. Llévame.",
+    "finnish": "Isä, en pysty kävellä enää yhtään. Kanna minua.",
+    "english": "Daddy, I can't walk any more. Carry me.",
+    "wordCount": 6,
+    "themes": [
+      "travel",
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1138928",
+    "spanish": "Me gusta el verde.",
+    "finnish": "Pidän vihreästä.",
+    "english": "I like the green colour.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1167304",
+    "spanish": "Tom tuvo una entrevista de trabajo esta mañana.",
+    "finnish": "Tomilla oli työhaastattelu tänä aamuna.",
+    "english": "Tom had a job interview this morning.",
+    "wordCount": 8,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1173968",
+    "spanish": "Es divertido ver la televisión.",
+    "finnish": "Television katselu on hauskaa.",
+    "english": "Watching TV is fun.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1182845",
+    "spanish": "Mi casa está cerca del parque.",
+    "finnish": "Minun kotini on lähellä puistoa.",
+    "english": "My house is close to the park.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1185870",
+    "spanish": "Elige tres libros al azar.",
+    "finnish": "Valitse sattumanvaraisesti kolme kirjaa.",
+    "english": "Choose three books at random.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1187294",
+    "spanish": "Esta situación es divertida.",
+    "finnish": "Tämä tilanne on huvittava.",
+    "english": "This situation is funny.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1193331",
+    "spanish": "Siempre me dijo la verdad.",
+    "finnish": "Hän aina kertoi minulle totuuden.",
+    "english": "He always told me the truth.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1197364",
+    "spanish": "El fútbol es más popular que el tenis.",
+    "finnish": "Jalkapallo on suositumpaa kuin tennis.",
+    "english": "Football is more popular than tennis.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1200078",
+    "spanish": "Twitter no es un amigo de verdad.",
+    "finnish": "Twitter ei ole oikea ystävä.",
+    "english": "Twitter is not a real friend.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1202407",
+    "spanish": "¿Has terminado de leer el libro?",
+    "finnish": "Oletko lukenut kirjan loppuun?",
+    "english": "Have you finished reading the book?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1204717",
+    "spanish": "Ayer fui a nadar al río.",
+    "finnish": "Eilen kävin uimassa joessa.",
+    "english": "I went to swim in the river yesterday.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1205490",
+    "spanish": "¿Tú puedes nadar tan rápido como él?",
+    "finnish": "Pystytkö uimaan yhtä nopeasti kuin hän?",
+    "english": "Can you swim as fast as he?",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1205682",
+    "spanish": "Esto no es verdad.",
+    "finnish": "Tämä ei ole totta.",
+    "english": "This is not true.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1246383",
+    "spanish": "Él me dijo la verdad.",
+    "finnish": "Hän kertoi minulle totuuden.",
+    "english": "He told me the truth.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1248361",
+    "spanish": "Apenas puedo nadar.",
+    "finnish": "Pystyn hädintuskin uida.",
+    "english": "I can hardly swim.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1258806",
+    "spanish": "¿El mercurio es verdaderamente un metal?",
+    "finnish": "Onko elohopea todella metalli?",
+    "english": "Is mercury really a metal?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1263717",
+    "spanish": "Mi pasatiempo es jugar golf.",
+    "finnish": "Harrastukseni on golfin pelaaminen.",
+    "english": "My hobby is playing golf.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1268528",
+    "spanish": "¿Qué puedo hacer para ayudarte?",
+    "finnish": "Miten voin auttaa sinua?",
+    "english": "How can I help you?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1277918",
+    "spanish": "Necesitaremos veinte dados para jugar este juego.",
+    "finnish": "Tarvitsemme kaksikymmentä noppaa tämän pelin pelaamisessa.",
+    "english": "We'll need twenty dice to play this game.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1281296",
+    "spanish": "El verde te queda.",
+    "finnish": "Vihreä sopii sinulle.",
+    "english": "Green suits you.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1292053",
+    "spanish": "Se puso a llover.",
+    "finnish": "Alkoi sataa.",
+    "english": "It started to rain.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1292160",
+    "spanish": "La administración decidió mover la oficina central de la compañía a Hawaii.",
+    "finnish": "Hallinto päätti siirtää yrityksen pääkonttorin Hawaijille.",
+    "english": "The administration decided to move the home office of the company to Hawaii.",
+    "wordCount": 12,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1294086",
+    "spanish": "El equilibro de la naturaleza es muy frágil.",
+    "finnish": "Luonnon tasapaino on hyvin hauras.",
+    "english": "Nature's equilibrium is very fragile.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1296393",
+    "spanish": "Tom era el único amigo de Mary.",
+    "finnish": "Tom oli Maryn ainoa ystävä.",
+    "english": "Tom was Mary's only friend.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1297015",
+    "spanish": "Mi amigo se acostumbró a la manera a la cual eran las cosas en Francia en aquellos días.",
+    "finnish": "Ystäväni tottui siihen tapaan, kuinka asiat olivat Ranskassa noina päivinä.",
+    "english": "My friend became accustomed to the way things were in France in those days.",
+    "wordCount": 18,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1302450",
+    "spanish": "Estoy buscando un regalo para mi padre.",
+    "finnish": "Mä etsin lahjaa mun isälle.",
+    "english": "I'm looking for a gift for my father.",
+    "wordCount": 7,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1313007",
+    "spanish": "Él sostenía que sí había devuelto el libro a la biblioteca.",
+    "finnish": "Hän väitti, että hän oli palauttanut kirjan kirjastoon.",
+    "english": "He claimed that he had returned the book to the library.",
+    "wordCount": 11,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1318250",
+    "spanish": "Me gustaría besarte.",
+    "finnish": "Haluaisin suudella sinua.",
+    "english": "I would like to kiss you.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1321880",
+    "spanish": "Es divertido jugar al béisbol.",
+    "finnish": "On hauskaa pelata baseballia.",
+    "english": "Playing baseball is fun.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1321967",
+    "spanish": "No dejes la televisión encendida.",
+    "finnish": "Älä jätä televisiota päälle!",
+    "english": "Don't leave the TV on.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1321998",
+    "spanish": "¿A quién le darás el libro?",
+    "finnish": "Kenelle sinä annat kirjan?",
+    "english": "Who will you give the book to?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1322529",
+    "spanish": "Todo lo que tengo es un libro.",
+    "finnish": "Kaikki mitä minulla on, on eräs kirja.",
+    "english": "All I have is a book.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1323154",
+    "spanish": "A él le gusta leer libros.",
+    "finnish": "Hän lukee mielellään kirjoja.",
+    "english": "He likes to read books.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1324448",
+    "spanish": "¡Pero qué hermoso jardín!",
+    "finnish": "Kuinka kaunis puutarha!",
+    "english": "What a beautiful garden!",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1325918",
+    "spanish": "Cuando encontré mi verdadera identidad, mi vida empezó a tener sentido.",
+    "finnish": "Kun löysin todellisen identiteettini, elämäni alkoi olla mielekästä.",
+    "english": "When I found my true identity, my life began to make sense.",
+    "wordCount": 11,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1327327",
+    "spanish": "Se puede comparar un libro con un amigo.",
+    "finnish": "Kirjaa voidaan verrata ystävään.",
+    "english": "A book can be compared to a friend.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1328264",
+    "spanish": "Quiero volver a escalar el monte Fuji.",
+    "finnish": "Haluan kiivetä Fuji-vuoren uudestaan.",
+    "english": "I want to climb Mt. Fuji again.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1328383",
+    "spanish": "Ella tenía ganas de bailar.",
+    "finnish": "Hänen teki mieli tanssia.",
+    "english": "She felt like dancing.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1331666",
+    "spanish": "Tom se interesó por la música porque su vecino tenía harto de músico.",
+    "finnish": "Tom kiinnostui musiikista, koska hänen naapurinsa oli melkoinen muusikko.",
+    "english": "Tom became interested in music because his neighbor was quite a musician.",
+    "wordCount": 13,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1332250",
+    "spanish": "¿Es amigo tuyo?",
+    "finnish": "Onko hän sinun ystäväsi?",
+    "english": "Is he a friend of yours?",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1332470",
+    "spanish": "Es muy divertido conducir un coche.",
+    "finnish": "Auton ajaminen on todella hauskaa.",
+    "english": "It is a lot of fun to drive a car.",
+    "wordCount": 6,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1332556",
+    "spanish": "Un verdadero amigo me habría ayudado.",
+    "finnish": "Tosiystävä olisi auttanut minua.",
+    "english": "A true friend would've helped me.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1336199",
+    "spanish": "El teatro está vacío.",
+    "finnish": "Teatteri on tyhjä.",
+    "english": "The theater is empty.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1348679",
+    "spanish": "Quiero bailar.",
+    "finnish": "Minä haluan tanssia.",
+    "english": "I want to dance.",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1351332",
+    "spanish": "¿Me ayudarás a mover este escritorio?",
+    "finnish": "Voisik sä auttaa tän pöydän siirtämisen kaa?",
+    "english": "Will you help me move this desk?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1355777",
+    "spanish": "Tom ha estado en películas y en la televisión.",
+    "finnish": "Tom on ollut elokuvissa ja TV:ssä.",
+    "english": "Tom has been in movies and on TV.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1355829",
+    "spanish": "Tom tiene un amplio círculo de amigos.",
+    "finnish": "Tomilla on laaja ystäväpiiri.",
+    "english": "Tom has a wide circle of friends.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1355858",
+    "spanish": "Tom tiene reputación de jamás escuchar el consejo de nadie.",
+    "finnish": "Tomilla on maine olla kuuntelematta kenenkään neuvoja.",
+    "english": "Tom has a reputation of never listening to anybody's advice.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1359212",
+    "spanish": "Tatoeba: el único sitio donde el uso de distintas apóstrofos es controvertido.",
+    "finnish": "Tatoeba: ainoa paikka, jossa erilaisten heittomerkkien käyttäminen on kiistanalaista.",
+    "english": "Tatoeba: the only place where the use of different apostrophes is controversial.",
+    "wordCount": 12,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1364540",
+    "spanish": "¿Escuchas con frecuencia audiolibros?",
+    "finnish": "Kuunteletko usein äänikirjoja?",
+    "english": "Do you often listen to audiobooks?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1364575",
+    "spanish": "Recorté el artículo de la revista.",
+    "finnish": "Leikkasin artikkelin lehdestä.",
+    "english": "I cut the article out of the magazine.",
+    "wordCount": 6,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1384181",
+    "spanish": "La señora Wood era muy buena cocinera.",
+    "finnish": "Rouva Woods oli erinomainen ruoanlaittaja.",
+    "english": "Mrs. Wood was a very good cook.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1384473",
+    "spanish": "Puedo cantarlo en inglés.",
+    "finnish": "Voin laulaa sen englanniksi.",
+    "english": "I can sing it in English.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1386426",
+    "spanish": "Me gusta todo tipo de música.",
+    "finnish": "Pidän kaikenlaisesta musiikista.",
+    "english": "I like all kinds of music.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1388682",
+    "spanish": "Se puso celosa al verle andando con otra chica.",
+    "finnish": "Hän tuli mustasukkaiseksi nähdessään hänet kävelevän toisen tytön kanssa.",
+    "english": "It made her jealous to see him walking with another girl.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1394251",
+    "spanish": "¿Por qué no quieres venir al cine conmigo?",
+    "finnish": "Miksi et halua tulla kanssani elokuviin?",
+    "english": "Why don't you want to come to the cinema with me?",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1396903",
+    "spanish": "¿Es seguro nadar en este río?",
+    "finnish": "Onko turvallista uida tässä joessa?",
+    "english": "Is it safe to swim in this river?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1406119",
+    "spanish": "Vi el juego de principio a fin.",
+    "finnish": "Katsoin pelin alusta loppuun.",
+    "english": "I watched the game from beginning to end.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1411210",
+    "spanish": "Todo lo que tienes que hacer es concentrarte.",
+    "finnish": "Kaikki mitä sinun on tehtävä on keskittyä.",
+    "english": "All you have to do is to concentrate.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1415528",
+    "spanish": "Tengo menos libros que tú.",
+    "finnish": "Minulla on vähemmän kirjoja kuin sinulla.",
+    "english": "I have fewer books than you.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1419198",
+    "spanish": "¿Cómo se creó el universo?",
+    "finnish": "Kuinka maailmankaikkeus muodostui?",
+    "english": "How was the universe formed?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1420081",
+    "spanish": "Acabo de empezar a jugar al tenis.",
+    "finnish": "Olen juuri aloittanut tenniksen pelaamisen.",
+    "english": "I've just started playing tennis.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1434007",
+    "spanish": "Tom no tuvo el coraje para decirle a Mary la verdad.",
+    "finnish": "Tomi ei uskaltanut kertoa Marille totuutta.",
+    "english": "Tom didn't have the courage to tell Mary the truth.",
+    "wordCount": 11,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1435655",
+    "spanish": "A él le gusta ver televisión.",
+    "finnish": "Hän pitää tv:n katsomisesta.",
+    "english": "He likes watching TV.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1435943",
+    "spanish": "Tom fue a un parque de diversiones.",
+    "finnish": "Tomi meni huvipuistoon.",
+    "english": "Tom went to an amusement park.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1435990",
+    "spanish": "Tom estaba avergonzado.",
+    "finnish": "Tomi oli häpeissään.",
+    "english": "Tom was embarrassed.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1439337",
+    "spanish": "No sé leer francés.",
+    "finnish": "En osaa lukea ranskaa.",
+    "english": "I cannot read French.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1439538",
+    "spanish": "Contigo es verano en todo el año.",
+    "finnish": "Sinun kanssa on kesä vuoden ympäri.",
+    "english": "With you it's summer all year round.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1441331",
+    "spanish": "Juan es mi mejor amigo.",
+    "finnish": "John on paras ystäväni.",
+    "english": "John is my best friend.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1446289",
+    "spanish": "Estoy leyendo este libro.",
+    "finnish": "Luen tätä kirjaa.",
+    "english": "I'm reading this book.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1446543",
+    "spanish": "Nadar es saludable.",
+    "finnish": "Uiminen on terveellistä.",
+    "english": "Swimming is healthy.",
+    "wordCount": 3,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1451286",
+    "spanish": "¿Qué has hecho con los libros?",
+    "finnish": "Mitä olet tehnyt kirjoilla?",
+    "english": "What have you done with the books?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1455272",
+    "spanish": "Él nos vendrá a ver algún día.",
+    "finnish": "Hän tulee tapaamaan meitä jonain päivänä.",
+    "english": "He will come to see us some day.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1457917",
+    "spanish": "El enemigo de mi enemigo es mi amigo.",
+    "finnish": "Viholliseni vihollinen on ystäväni.",
+    "english": "The enemy of my enemy is my friend.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1466689",
+    "spanish": "Ayer fuimos al cine.",
+    "finnish": "Me käytiin leffassa eilen.",
+    "english": "Yesterday we went to the movies.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1496933",
+    "spanish": "¿Devolviste el libro de Tom?",
+    "finnish": "Palautitko Tomin kirjan?",
+    "english": "Did you return Tom's book?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1503537",
+    "spanish": "Todo lo que dijo era verdad.",
+    "finnish": "Kaikki mitä hän sanoi oli totta.",
+    "english": "All he said was true.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1508855",
+    "spanish": "¿Practicas algún deporte?",
+    "finnish": "Harjoitatko mitään urheilua?",
+    "english": "Do you play any sports?",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1510050",
+    "spanish": "Tendrás que esperar y ver.",
+    "finnish": "Sinun on odotettava ja katsottava.",
+    "english": "You'll have to wait and see.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1522737",
+    "spanish": "¿Fuiste a la feria del libro?",
+    "finnish": "Kävitkö kirjamessuilla?",
+    "english": "Did you go to the book fair?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1526380",
+    "spanish": "Él eligió el mejor libro.",
+    "finnish": "Hän poimi erilleen parhaan kirjan.",
+    "english": "He picked out the best book.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1536588",
+    "spanish": "Él volverá en diez minutos.",
+    "finnish": "Hän on takaisin kymmenessä minuutissa.",
+    "english": "He will be back in ten minutes.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1544119",
+    "spanish": "Tom no tuvo nada que ver con el robo.",
+    "finnish": "Tomilla ei ollut mitään tekemistä varkauden kanssa.",
+    "english": "Tom had nothing to do with the theft.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1546457",
+    "spanish": "Ella escribe música para vivir.",
+    "finnish": "Hän kirjoittaa musiikkia elannokseen.",
+    "english": "She writes music for a living.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1555818",
+    "spanish": "Nada de lo que dijo Tom era verdad.",
+    "finnish": "Mikään siitä mitä Tom sanoi, ei ollut totta.",
+    "english": "None of what Tom said was true.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1555853",
+    "spanish": "Tom nunca leyó el libro que Mary le regaló.",
+    "finnish": "Tom ei koskaan lukenut Maryn hänelle antamaa kirjaa.",
+    "english": "Tom never read the book that Mary gave him.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1567725",
+    "spanish": "Te veré en el sitio habitual.",
+    "finnish": "Tapaan sinut tavallisessa paikassa.",
+    "english": "I'll meet you at the usual place.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1579880",
+    "spanish": "Eso no es verdad.",
+    "finnish": "Se ei ole totta.",
+    "english": "That isn't true.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1582879",
+    "spanish": "Comúnmente a los niños pequeños le gustan los libros sobre dragones y otros monstruos.",
+    "finnish": "Pienet lapset pitävät usein lohikäärmeistä ja muista hirviöistä kertovista kirjoista.",
+    "english": "Small children often like books about dragons and other monsters.",
+    "wordCount": 14,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1583272",
+    "spanish": "No sé cuándo volverá mi madre.",
+    "finnish": "En tiedä milloin äitini palaa takaisin.",
+    "english": "I don't know when my mother will come back.",
+    "wordCount": 6,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1584731",
+    "spanish": "Nos hemos hecho amigos de Tom.",
+    "finnish": "Meistä ja Tomista on tullut ystäviä.",
+    "english": "We have made friends with Tom.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1585066",
+    "spanish": "Su único pasatiempo es coleccionar estampillas.",
+    "finnish": "Hänen ainoa vapaa-ajan harrastuksensa on kerätä postimerkkejä.",
+    "english": "Her only hobby is collecting stamps.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1586766",
+    "spanish": "Son los libros de mi abuelo.",
+    "finnish": "Ne ovat isoisäni kirjoja.",
+    "english": "They are my grandfather's books.",
+    "wordCount": 6,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1602229",
+    "spanish": "Volveré a las siete.",
+    "finnish": "Palaan seitsemältä.",
+    "english": "I'll be back at seven o'clock.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1619828",
+    "spanish": "Había sangre por todas partes.",
+    "finnish": "Kaikkialla oli verta.",
+    "english": "There was blood everywhere.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1622309",
+    "spanish": "Estoy viendo el juego en la pantalla de mi celular.",
+    "finnish": "Katson ottelua kännykkäni näytöltä.",
+    "english": "I'm watching the game on my cellphone.",
+    "wordCount": 10,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1623604",
+    "spanish": "El gobierno debería promover el bienestar común.",
+    "finnish": "Hallituksen pitäisi edistää yhteistä hyvää.",
+    "english": "The government should promote common welfare.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1637534",
+    "spanish": "Ayúdame a mover esta piedra.",
+    "finnish": "Auta minua siirtämään tämä kivi.",
+    "english": "Help me move this stone.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1639098",
+    "spanish": "¿Te divertiste?",
+    "finnish": "Oliko sinulla hauskaa?",
+    "english": "Did you have a good time?",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1641912",
+    "spanish": "No tengo ninguna intención de estorbarte.",
+    "finnish": "Minulla ei ole mitään aikeita häiritä sinua.",
+    "english": "I have no intention whatever of disturbing you.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1649250",
+    "spanish": "Me gustan mis amigos.",
+    "finnish": "Tykkään kavereistani.",
+    "english": "I like my friends.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1667218",
+    "spanish": "Estuve toda la semana solo, y anhelaba una conversación.",
+    "finnish": "Vietin koko viikon yksin ja kaipasin keskustelua.",
+    "english": "I spent the whole week alone, and I longed for conversation.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1671410",
+    "spanish": "Pon ese libro sobre los demás.",
+    "finnish": "Laita kirjan toisten päälle.",
+    "english": "Put this book on top of the others.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1672451",
+    "spanish": "Él decidió no ir a la fiesta.",
+    "finnish": "Hän päätti, ettei mene juhliin.",
+    "english": "He decided not to go to the party.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1683273",
+    "spanish": "Tom escondió el libro abajo de la almohada.",
+    "finnish": "Tomi piilotti kirjan tyynynsä alle.",
+    "english": "Tom hid the book below his pillow.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1686431",
+    "spanish": "Tom escondió el libro debajo de su almohada.",
+    "finnish": "Tomi piilotti kirjan tyynynsä alle.",
+    "english": "Tom hid the book below his pillow.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1687170",
+    "spanish": "Ya no eres mi amigo.",
+    "finnish": "Sinä et ole enää minun ystäväni.",
+    "english": "You're not my friend anymore.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1690894",
+    "spanish": "Si quieres ser mi amigo, entonces sé también amigo de mi amigo.",
+    "finnish": "Jos haluat olla ystäväni, ole myös ystävieni ystävä.",
+    "english": "If you want to become my friend, then also become the friend of my friend.",
+    "wordCount": 12,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1694355",
+    "spanish": "Yo no voy solo al cine, porque después de la película me gusta hablar de ella con alguien.",
+    "finnish": "En käy elokuvissa yksin, koska minusta on mukavaa elokuvan jälkeen jutella siitä jonkun kanssa.",
+    "english": "I don't go to the theater alone, because after the movie I like to talk about it with someone.",
+    "wordCount": 18,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1695217",
+    "spanish": "No ponga la consola en otra posición que no sea vertical o horizontal.",
+    "finnish": "Älkää laittako konsolia muuhun kuin pysty- tai vaakasuoraan asentoon.",
+    "english": "Do not set the console other than in the vertical or horizontal position.",
+    "wordCount": 13,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1695534",
+    "spanish": "Vi la película y la encontré interesante.",
+    "finnish": "Näin elokuvan ja minusta se oli mielenkiintoinen.",
+    "english": "I saw the film and found it interesting.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1697799",
+    "spanish": "¿Cuándo volverás a Italia?",
+    "finnish": "Milloin palaat Italiaan?",
+    "english": "When will you be back in Italy?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1702694",
+    "spanish": "Meg consiguió muchos nuevos amigos.",
+    "finnish": "Meg hankki monia uusia ystäviä.",
+    "english": "Meg acquired many new friends.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1702695",
+    "spanish": "Meg hizo muchos nuevos amigos.",
+    "finnish": "Meg hankki monia uusia ystäviä.",
+    "english": "Meg acquired many new friends.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1704210",
+    "spanish": "El informe meteorológico dice que lloverá mañana por la tarde.",
+    "finnish": "Säätiedote sanoo, että huomenna iltapäivällä sataa.",
+    "english": "The weather report says it will rain tomorrow afternoon.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1704763",
+    "spanish": "Él no quiere jugar con sus juguetes.",
+    "finnish": "Hän ei halua leikkiä leluillansa.",
+    "english": "He doesn't want to play with his toys.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1705903",
+    "spanish": "¿Es buena cocinera tu esposa?",
+    "finnish": "Laittaako sinun vaimosi hyvää ruokaa?",
+    "english": "Is your wife a good cook?",
+    "wordCount": 5,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1707676",
+    "spanish": "Su historia fue publicada en una revista.",
+    "finnish": "Hänen tarinansa julkaistiin eräässä lehdessä.",
+    "english": "His story was published in a magazine.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1712685",
+    "spanish": "La belleza de este lago en la montaña no puede describirse en palabras; hay que verlo con los propios ojos.",
+    "finnish": "Tämä järvi vuorilla on niin kaunis, että sitä ei pysty sanoin kuvailla. Se on nähtävä omin silmin.",
+    "english": "The beauty of this lake on the mountain can't be put into words; you have to see it with your own eyes.",
+    "wordCount": 20,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1712775",
+    "spanish": "No va a llover esta noche.",
+    "finnish": "Tänä iltana ei sada.",
+    "english": "It's not going to rain tonight.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1713546",
+    "spanish": "Comencé a escribir un libro.",
+    "finnish": "Aloin kirjoittaa kirjaa.",
+    "english": "I started writing a book.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1713646",
+    "spanish": "Él va al jardín infantil.",
+    "finnish": "Hän käy lastentarhaa.",
+    "english": "He goes to kindergarten.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1713898",
+    "spanish": "Todas las casas temblaban y las alarmas sonaban en todas partes.",
+    "finnish": "Kaikki talot tärähtelivät ja hälytykset soivat kaikkialla.",
+    "english": "All the houses were shaking and alarms were ringing everywhere.",
+    "wordCount": 11,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1715858",
+    "spanish": "Tom encendió la televisión.",
+    "finnish": "Tom pani telkkarin päälle.",
+    "english": "Tom turned on the TV.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1717529",
+    "spanish": "Preguntemos si es verdad.",
+    "finnish": "Kysytään onko se totta.",
+    "english": "Let's ask if it's true.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1745333",
+    "spanish": "Nunca los he visto en ninguna parte.",
+    "finnish": "En ole koskaan nähnyt niitä missään.",
+    "english": "I have never seen them anywhere.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1748186",
+    "spanish": "He leído muchas clases de libros.",
+    "finnish": "Olen lukenut monenlaisia kirjoja.",
+    "english": "I've read many kinds of books.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1754075",
+    "spanish": "Estoy escuchando música.",
+    "finnish": "Kuuntelen musiikkia.",
+    "english": "I'm listening to music.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1766479",
+    "spanish": "Leeré un libro.",
+    "finnish": "Minä aion lukea kirjaa.",
+    "english": "I will read a book.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1775529",
+    "spanish": "A menudo se compara a la verdad con una píldora amarga.",
+    "finnish": "Totuutta verrataan usein karvaaseen pilleriin.",
+    "english": "The truth is often compared to a bitter pill.",
+    "wordCount": 11,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1793318",
+    "spanish": "Este libro es demasiado difícil para mí.",
+    "finnish": "Tämä kirja on liian vaikea minulle.",
+    "english": "This book is too difficult for me.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1794996",
+    "spanish": "Tom estaba realmente contento al oír que María quería venir a su fiesta.",
+    "finnish": "Tom oli todella iloinen kuullessaan että Mary halusi tulla hänen juhliinsa.",
+    "english": "Tom was really glad to hear that Mary wanted to come to his party.",
+    "wordCount": 13,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1797564",
+    "spanish": "Cuando sonó el teléfono, yo estaba viendo televisión.",
+    "finnish": "Olin katsomassa televisiota, kun puhelin soi.",
+    "english": "I was watching television when the telephone rang.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1797640",
+    "spanish": "Tom y Mary son buenos amigos.",
+    "finnish": "Tom ja Mary ovat hyviä ystäviä.",
+    "english": "Tom and Mary are good friends.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1816557",
+    "spanish": "Necesito un montón de libros.",
+    "finnish": "Tarvitsen paljon kirjoja.",
+    "english": "I need a lot of books.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1835048",
+    "spanish": "A mi madre le encanta la música.",
+    "finnish": "Äitini rakastaa musiikkia.",
+    "english": "My mother loves music.",
+    "wordCount": 7,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1868659",
+    "spanish": "La expansión del universo se está acelerando.",
+    "finnish": "Universumin laajeneminen kiihtyy.",
+    "english": "The expansion of the universe is speeding up.",
+    "wordCount": 7,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1869389",
+    "spanish": "Tom compró a Mary un regalo.",
+    "finnish": "Tom osti lahjan Marille.",
+    "english": "Tom bought Mary a present.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1871853",
+    "spanish": "El partido de fútbol es mañana.",
+    "finnish": "Jalkapallo-ottelu on huomenna.",
+    "english": "The soccer game is tomorrow.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1876526",
+    "spanish": "Es capaz de nadar muy rápido.",
+    "finnish": "Hän osaa uida todella nopeasti.",
+    "english": "He is able to swim very fast.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1884911",
+    "spanish": "Merece la pena ver su nueva película.",
+    "finnish": "Hänen uusi elokuvansa kannataa katsoa.",
+    "english": "His new film is worth seeing.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1888683",
+    "spanish": "Fui a un concierto con Tom.",
+    "finnish": "Menin konserttiin Tomin kanssa.",
+    "english": "I went to a concert with Tom.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1919594",
+    "spanish": "Él quiere aprender a nadar.",
+    "finnish": "Hän haluaa oppia uimaan.",
+    "english": "He wants to learn to swim.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1919595",
+    "spanish": "Ella quiere aprender a nadar.",
+    "finnish": "Hän haluaa oppia uimaan.",
+    "english": "She wants to learn to swim.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1955458",
+    "spanish": "No puedo caminar.",
+    "finnish": "En pysty kävellä.",
+    "english": "I can't walk.",
+    "wordCount": 3,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "1976925",
+    "spanish": "Quisiera averiguar más sobre Tom.",
+    "finnish": "Haluaisin tietää lisää Tomista.",
+    "english": "I'd like to know more about Tom.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1979080",
+    "spanish": "Hay muchos libros en la biblioteca.",
+    "finnish": "Kirjastossa on paljon kirjoja.",
+    "english": "There are a lot of books in the library.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "1991041",
+    "spanish": "Tienes muchos libros.",
+    "finnish": "Sinulla on paljon kirjoja.",
+    "english": "You have many books.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2008791",
+    "spanish": "¿Dónde está el parque?",
+    "finnish": "Missä puisto on?",
+    "english": "Where's the park?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2015315",
+    "spanish": "Quiero averiguar quién hizo esto.",
+    "finnish": "Haluan selvittää kuka teki tämän.",
+    "english": "I want to find out who did this.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2015605",
+    "spanish": "Quiero que seas mi amigo de nuevo.",
+    "finnish": "Haluan sinun taas olevan ystäväni.",
+    "english": "I want you to be my friend again.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2025257",
+    "spanish": "Eres mi amiga.",
+    "finnish": "Sinä olet minun ystävä.",
+    "english": "You are my friend.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2028948",
+    "spanish": "Echo de menos a mis amigos.",
+    "finnish": "Mul on ikävä mun kavereita.",
+    "english": "I miss my friends.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2033151",
+    "spanish": "Quisiera darte las gracias.",
+    "finnish": "Haluaisin kiittää sinua.",
+    "english": "I'd like to thank you.",
+    "wordCount": 4,
+    "themes": [
+      "greetings",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2038214",
+    "spanish": "No sé bailar.",
+    "finnish": "Mä en osaa tanssii.",
+    "english": "I can't dance.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2042217",
+    "spanish": "Tu libro está aquí.",
+    "finnish": "Sun kirja on tässä.",
+    "english": "Your book is here.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2046236",
+    "spanish": "Tengo un amigo cuyo padre es un actor famoso.",
+    "finnish": "Minulla on ystävä, jonka isä on kuuluisa näyttelijä.",
+    "english": "I have a friend whose father is a famous actor.",
+    "wordCount": 9,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2058859",
+    "spanish": "He visto muchas veces a Tom en la televisión.",
+    "finnish": "Olen nähnyt Tomin monta kertaa televisiossa.",
+    "english": "I've seen Tom on TV many times.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2058918",
+    "spanish": "Le vi en el parque.",
+    "finnish": "Näin hänet puistossa.",
+    "english": "I saw him in the park.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2061982",
+    "spanish": "Tom le compró a Mary un regalo.",
+    "finnish": "Tom osti lahjan Marille.",
+    "english": "Tom bought Mary a present.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2062332",
+    "spanish": "Rara vez voy al cine.",
+    "finnish": "Käyn harvoin elokuvissa.",
+    "english": "I rarely go to the cinema.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2067007",
+    "spanish": "¿Sabes bailar?",
+    "finnish": "Osaatko tanssia?",
+    "english": "Do you know how to dance?",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2084510",
+    "spanish": "Quiero bailar con Mary.",
+    "finnish": "Haluan tanssia Maryn kanssa.",
+    "english": "I want to dance with Mary.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2087351",
+    "spanish": "Quiero ser tu amiga.",
+    "finnish": "Haluan olla ystäväsi.",
+    "english": "I want to be your friend.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2090035",
+    "spanish": "Tiene muchos amigos.",
+    "finnish": "Hänellä on paljon ystäviä.",
+    "english": "She has many friends.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2090148",
+    "spanish": "Estoy aquí para ayudarte.",
+    "finnish": "Olen täällä auttaakseni sinua.",
+    "english": "I'm here to help you.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2093156",
+    "spanish": "Nadie va a lastimarte.",
+    "finnish": "Kukaan ei tee sinulle pahaa.",
+    "english": "Nobody is going to hurt you.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2094544",
+    "spanish": "Tom no era homosexual, pero los amigos de Tom le dijeron a su novia que era gay.",
+    "finnish": "Tom ei ollut homoseksuaali, mutta Tomin ystävät kertoivat hänen tyttöystävälleen, että hän olisi.",
+    "english": "Tom wasn't homosexual, but Tom's friends told Tom's girlfriend Tom was gay.",
+    "wordCount": 17,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2096598",
+    "spanish": "Es mi mejor amiga.",
+    "finnish": "Hän on minun paras ystäväni.",
+    "english": "She's my best friend.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2112053",
+    "spanish": "¿Quieres ver el partido de béisbol por la tele?",
+    "finnish": "Haluatko katsoa baseball-ottelun TV:stä?",
+    "english": "Do you want to watch the baseball game on TV?",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2129604",
+    "spanish": "Pensé que sería divertido sorprender a Tom.",
+    "finnish": "Ajattelin, että olisi mukavaa yllättää Tomi.",
+    "english": "I thought it'd be fun to surprise Tom.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2129781",
+    "spanish": "Pensaba que el juego había terminado.",
+    "finnish": "Ajattelin pelin menneen ohi.",
+    "english": "I thought the game was over.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2131574",
+    "spanish": "Es interesante jugar al baloncesto.",
+    "finnish": "Pesäpallon pelaaminen on kiinnostavaa.",
+    "english": "It is interesting to play basketball.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2136864",
+    "spanish": "¿Quién piensas que estaba viendo la televisión en esta habitación ayer por la noche?",
+    "finnish": "Kenen luulet katsoneen tv:tä tässä huoneessa eilen illalla?",
+    "english": "Who do you think was watching TV in this room last night?",
+    "wordCount": 14,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2142152",
+    "spanish": "Ese libro se vende bien.",
+    "finnish": "Se kirja myy hyvin.",
+    "english": "This book sells well.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2142878",
+    "spanish": "Tom le compró un regalo a Mary.",
+    "finnish": "Tom osti lahjan Marille.",
+    "english": "Tom bought a gift for Mary.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2142881",
+    "spanish": "Tom compró un regalo para Mary.",
+    "finnish": "Tom osti lahjan Marille.",
+    "english": "Tom bought a gift for Mary.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2151472",
+    "spanish": "Este verano iremos a la montaña y al mar.",
+    "finnish": "Tänä kesänä matkustamme vuorille ja meren rannalle.",
+    "english": "This summer we'll go to the mountains and to the sea.",
+    "wordCount": 9,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2166373",
+    "spanish": "Marte tiene dos lunas.",
+    "finnish": "Marsilla on kaksi kuuta.",
+    "english": "Mars has two moons.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2170075",
+    "spanish": "Tom no puede ayudarte.",
+    "finnish": "Tomi ei pysty auttaa sinua.",
+    "english": "Tom can't help you.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2170533",
+    "spanish": "Juego tenis todos los domingos.",
+    "finnish": "Pelaan tennistä aina sunnuntaisin.",
+    "english": "I play tennis every Sunday.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2185219",
+    "spanish": "Puedo cantarla en inglés.",
+    "finnish": "Voin laulaa sen englanniksi.",
+    "english": "I can sing it in English.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2191928",
+    "spanish": "¿Puedes ver la imagen?",
+    "finnish": "Pystytkö näkemään kuvan?",
+    "english": "Can you see the picture?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2209705",
+    "spanish": "No tengo ningún amigo.",
+    "finnish": "Minulla ei ole yhtäkään ystävää.",
+    "english": "I don't have any friends.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2220605",
+    "spanish": "Te doy un libro.",
+    "finnish": "Annan sinulle kirjan.",
+    "english": "I'm giving you a book.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2228366",
+    "spanish": "Sos un amigo.",
+    "finnish": "Olet ystävä.",
+    "english": "You're a friend.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2246845",
+    "spanish": "No te olvides de tomarte tus pastillas.",
+    "finnish": "Älä unohda ottaa pillereitäsi.",
+    "english": "Don't forget to take your pills.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2247086",
+    "spanish": "No puedo ayudarte con esto.",
+    "finnish": "En voi auttaa sinua tässä.",
+    "english": "I can't help you with this.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2253453",
+    "spanish": "Ese libro está lleno de errores.",
+    "finnish": "Tuo kirja on virheitä täynnä.",
+    "english": "That book is full of mistakes.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2256379",
+    "spanish": "Una vez salí en televisión, pero nadie me cree.",
+    "finnish": "Olen ollut kerran televisiossa, mutta kukaan ei usko minua.",
+    "english": "I appeared on television once, but nobody believes me.",
+    "wordCount": 9,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2261107",
+    "spanish": "Deja de cantar, por favor.",
+    "finnish": "Ole kiltti ja lopeta laulaminen.",
+    "english": "Please stop singing.",
+    "wordCount": 5,
+    "themes": [
+      "greetings",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2266471",
+    "spanish": "Te contaré mi vida como fue verdaderamente.",
+    "finnish": "Kerron sinulle elämäntarinani niin kuin se oikeasti oli.",
+    "english": "I will tell you my life story how it truly was.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2306686",
+    "spanish": "¿Tienes muchos amigos aquí en Japón?",
+    "finnish": "Onko sinulla paljon ystäviä täällä Japanissa?",
+    "english": "Do you have many friends here in Japan?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2307476",
+    "spanish": "Mi amigo es una persona conversadora.",
+    "finnish": "Ystäväni on puhelias henkilö.",
+    "english": "My friend is a talkative person.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2344180",
+    "spanish": "No creo que sea verdad.",
+    "finnish": "En usko, että se on totta.",
+    "english": "I don't think that's true.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2345874",
+    "spanish": "La música no es una lengua, pero algunas lenguas son música para mis oídos.",
+    "finnish": "Musiikki ei ole kieli. Mutta eräät kielet ovat musiikkia korvilleni.",
+    "english": "Music is not a language. But some languages are music to my ears.",
+    "wordCount": 14,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2345876",
+    "spanish": "La música no es un idioma, pero algunos idiomas son música para mis oídos.",
+    "finnish": "Musiikki ei ole kieli. Mutta eräät kielet ovat musiikkia korvilleni.",
+    "english": "Music is not a language. But some languages are music to my ears.",
+    "wordCount": 14,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2345963",
+    "spanish": "El libro está sobre la mesa.",
+    "finnish": "Kirja on pöydällä.",
+    "english": "The book is on the table.",
+    "wordCount": 6,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2345994",
+    "spanish": "El libro está en la mesa.",
+    "finnish": "Kirja on pöydällä.",
+    "english": "The book is on the table.",
+    "wordCount": 6,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2365620",
+    "spanish": "¿Verdadero o falso?",
+    "finnish": "Totta vai tarua?",
+    "english": "True or false?",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2366183",
+    "spanish": "Yamamoto es uno de mis amigos.",
+    "finnish": "Yamamoto on eräs ystävistäni.",
+    "english": "Yamamoto is one of my friends.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2395041",
+    "spanish": "Mary, Tom quiere matarte.",
+    "finnish": "Tom haluaa tappaa sinut, Mari.",
+    "english": "Tom wants to kill you, Mary.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2409295",
+    "spanish": "Puedo mostrarte las fotos.",
+    "finnish": "Mä voin näyttää sulle ne kuvat.",
+    "english": "I can show you the pictures.",
+    "wordCount": 4,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2411710",
+    "spanish": "¿Puede volver a pasar algo así?",
+    "finnish": "Voiko sellaista sattua uudestaan?",
+    "english": "Can such a thing happen again?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2422296",
+    "spanish": "Tom está regando el jardín.",
+    "finnish": "Tom kastelee puutarhaansa.",
+    "english": "Tom is watering his garden.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2459554",
+    "spanish": "Te daré un regalo.",
+    "finnish": "Annan sinulle lahjan.",
+    "english": "I'll give you a present.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2461901",
+    "spanish": "Tengo diez veces más libros que tú.",
+    "finnish": "Minulla on kymmenen kertaa enemmän kirjoja kuin sinulla.",
+    "english": "I have ten times as many books as you have.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2476892",
+    "spanish": "Estoy muy contento con la segunda parte del vídeo.",
+    "finnish": "Olen hyvin tyytyväinen videon toiseen osaan.",
+    "english": "I am very pleased with the second part of the video.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2489900",
+    "spanish": "Tengo un amigo.",
+    "finnish": "Minulla on ystävä.",
+    "english": "I have a friend.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2489923",
+    "spanish": "Tengo que correr.",
+    "finnish": "Minun pitää juosta.",
+    "english": "I must run.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2502695",
+    "spanish": "La he visto paseando por el parque a medianoche.",
+    "finnish": "Näin hänet kävelyllä puistossa keskiyöllä.",
+    "english": "I saw her taking a walk in the park at midnight.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2585558",
+    "spanish": "Pocos tesoros son tan valiosos como un amigo.",
+    "finnish": "Harvat aarteet ovat yhtä arvokkaita kuin ystävä.",
+    "english": "Few treasures are worth as much as a friend.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2635511",
+    "spanish": "Soy uno de los bailarines.",
+    "finnish": "Olen yksi tanssijoista.",
+    "english": "I'm one of the dancers.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2635959",
+    "spanish": "Su libro es muy interesante.",
+    "finnish": "Hänen kirjansa on todella mielenkiintoinen.",
+    "english": "Her book is very interesting.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2656716",
+    "spanish": "Tom le dio a Mary un libro acerca de Australia.",
+    "finnish": "Tomi antoi Marille kirjan, joka kertoo Australiasta.",
+    "english": "Tom gave Mary a book about Australia.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2667234",
+    "spanish": "No pareces muy feliz de verme.",
+    "finnish": "Et vaikuta kovin iloiselta nähdessäsi minut.",
+    "english": "You don't seem too happy to see me.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2667238",
+    "spanish": "¿Cuál es la verdadera razón por la que no quieres hacer esto?",
+    "finnish": "Mikä on todellinen syy sille, että et halua tehdä tätä?",
+    "english": "What's the real reason you don't want to do this?",
+    "wordCount": 12,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2667241",
+    "spanish": "De veinte estudiantes, solo uno ha leído el libro.",
+    "finnish": "Kahdestakymmenestä oppilaasta vain yksi on lukenut kirjan.",
+    "english": "Out of twenty students, only one has read the book.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2667252",
+    "spanish": "No estoy seguro de que quiera ver esto.",
+    "finnish": "En ole varma haluanko nähdä tämän.",
+    "english": "I'm not sure I want to see this.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2667256",
+    "spanish": "Quiero hablarte acerca de algo más.",
+    "finnish": "Haluan puhua sinun kanssasi jostain muusta.",
+    "english": "I want to talk to you about something else.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2667257",
+    "spanish": "Quiero enseñarte algo en mi oficina.",
+    "finnish": "Haluan näyttää sinulle jotakin toimistossani.",
+    "english": "I want to show you something in my office.",
+    "wordCount": 6,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2667281",
+    "spanish": "Lo devolveré.",
+    "finnish": "Annan sen takaisin.",
+    "english": "I'll give it back.",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2671393",
+    "spanish": "Quiero ver más.",
+    "finnish": "Haluan nähdä enemmän.",
+    "english": "I want to see more.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2679852",
+    "spanish": "Tú no hablas mucho, ¿verdad?",
+    "finnish": "Sinä et paljoa puhu, eikö vain?",
+    "english": "You don't talk a lot, do you?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2680630",
+    "spanish": "No estoy seguro de querer ver esto.",
+    "finnish": "En ole varma haluanko nähdä tämän.",
+    "english": "I'm not sure I want to see this.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2710908",
+    "spanish": "Son mis amigos.",
+    "finnish": "He ovat ystäviäni.",
+    "english": "They're my friends.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2710910",
+    "spanish": "Son amigos míos.",
+    "finnish": "He ovat ystäviäni.",
+    "english": "They're my friends.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2715117",
+    "spanish": "Sois mis amigos.",
+    "finnish": "Te olette minun ystäviäni.",
+    "english": "You're my friends.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2721848",
+    "spanish": "La vida es un regalo.",
+    "finnish": "Elämä on lahja.",
+    "english": "Life is a gift.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2724169",
+    "spanish": "No olvides lavarte las manos.",
+    "finnish": "Älä unohda pestä käsiä.",
+    "english": "Don't forget to wash your hands.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2733338",
+    "spanish": "¿Cómo estuvo la fiesta?",
+    "finnish": "Miten juhla sujui?",
+    "english": "How was the party?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2740679",
+    "spanish": "Para tu cumpleaños te regalaré una bicicleta.",
+    "finnish": "Tulen antamaan sinulle pyörän syntymäpäiväksesi.",
+    "english": "I'm going to give you a bike for your birthday.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2775746",
+    "spanish": "¿Cuántos amigos tienes en Facebook?",
+    "finnish": "Kuinka monta Facebook-kaveria sinulla on?",
+    "english": "How many friends do you have on Facebook?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2783563",
+    "spanish": "Me gusta leer novelas americanas.",
+    "finnish": "Luen kernaasti amerikkalaisia romaaneja.",
+    "english": "I like reading American novels.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2783565",
+    "spanish": "Yo soy tu amigo, ¿o no?",
+    "finnish": "Minä olen ystäväsi, eikö niin?",
+    "english": "Am I your friend or not?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2788128",
+    "spanish": "Creo que ese libro está en la biblioteca.",
+    "finnish": "Luulen, että se kirja löytyy kirjastosta.",
+    "english": "I believe that book is in the library.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2790004",
+    "spanish": "¿De verdad quieres una taza de café tan tarde por la noche?",
+    "finnish": "Haluatko todella kupin kahvia näin myöhään illalla?",
+    "english": "Do you really want a cup of coffee this late at night?",
+    "wordCount": 12,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2799996",
+    "spanish": "Por lo general, mis amigos me llaman Freddy.",
+    "finnish": "Ystäväni sanovat minua yleensä Freddyksi.",
+    "english": "My friends generally call me Freddy.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2800218",
+    "spanish": "Encontré un regalo bajo mi almohada.",
+    "finnish": "Löysin lahjan tyynyni alta.",
+    "english": "I found a gift underneath my pillow.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2813268",
+    "spanish": "Tu libro cambió mi vida.",
+    "finnish": "Kirjasi muutti elämäni.",
+    "english": "Your book has changed my life.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2822256",
+    "spanish": "Me apesta el cine mudo.",
+    "finnish": "Vihaan mykkäelokuvia.",
+    "english": "I hate silent movies.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2852270",
+    "spanish": "Me gustaría estudiar química en la universidad.",
+    "finnish": "Haluaisin opiskella kemiaa yliopistossa.",
+    "english": "I'd like to study chemistry at college.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2852335",
+    "spanish": "¿Cuánta gente hay en tu fiesta?",
+    "finnish": "Kuinka monta ihmistä on juhlissasi?",
+    "english": "How many people are at your party?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2852401",
+    "spanish": "Dicen que la casa de veraneo de Liisa se incendió.",
+    "finnish": "Liisan kesämökki on kuulemma palanut.",
+    "english": "They say that Liisa's summer house burned down.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2853235",
+    "spanish": "Muchos traicionaron a sus amigos por dinero.",
+    "finnish": "Moni petti ystävänsä rahan vuoksi.",
+    "english": "Many betrayed their friends for money.",
+    "wordCount": 7,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2853247",
+    "spanish": "Debido a la televisión, niños y niñas no quieren leer libros.",
+    "finnish": "Television vuoksi pojat ja tytöt eivät halua lukea kirjoja.",
+    "english": "Because of TV, boys and girls don't want to read books.",
+    "wordCount": 11,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2853324",
+    "spanish": "Tom y María solían ser amigos.",
+    "finnish": "Tom ja Mary tapasivat olla ystäviä.",
+    "english": "Tom and Mary used to be friends.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2865110",
+    "spanish": "¿Cuándo partió tu amigo a América?",
+    "finnish": "Milloin ystäväsi lähti Amerikkaan?",
+    "english": "When did your friend leave for America?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2888161",
+    "spanish": "No puedo comprarte ese vestido.",
+    "finnish": "En voi ostaa sinulle tuota mekkoa.",
+    "english": "I can't buy you that dress.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2895152",
+    "spanish": "Hay una película que quiero ver por TV mañana en la noche.",
+    "finnish": "Televisiosta tulee huomenillalla elokuva, jonka tahdon katsoa.",
+    "english": "There's a movie I want to watch on TV tomorrow night.",
+    "wordCount": 12,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2917757",
+    "spanish": "Quiero ver esto por mí mismo.",
+    "finnish": "Haluan nähdä tämän itse.",
+    "english": "I want to see this myself.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2921024",
+    "spanish": "Tom no podrá convertirse en policía.",
+    "finnish": "Tom ei pysty tulemaan poliisiksi.",
+    "english": "Tom won't be able to become a policeman.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2921115",
+    "spanish": "Espero que pueda ayudarte en otra ocasión.",
+    "finnish": "Toivon että pystyn auttamaan sinua joskus toiste.",
+    "english": "I hope that I will be able to help you at some other time.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2926990",
+    "spanish": "Si voy a la fiesta llevaré algunas botellas de vino.",
+    "finnish": "Jos menen juhliin, otan muutaman pullon viiniä.",
+    "english": "If I go to the party, I'll take some bottles of wine.",
+    "wordCount": 10,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2927902",
+    "spanish": "Voy a devolver este suéter porque es demasiado grande.",
+    "finnish": "Tulen palauttamaan tämän neulepuseron, koska se on liian iso.",
+    "english": "I am going to return this sweater because it's too big.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2932133",
+    "spanish": "Ellos escucharon un discurso escrito especialmente para ellos.",
+    "finnish": "He kuulivat puheen, joka oli erityisesti kirjoitettu heitä varten.",
+    "english": "They heard a speech written especially for them.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2932136",
+    "spanish": "Todo está listo para la fiesta ahora.",
+    "finnish": "Kaikki on nyt valmiina juhlaa varten.",
+    "english": "Everything is ready now for the party.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2932885",
+    "spanish": "Me enviaron a darte esto.",
+    "finnish": "Minut on lähetetty antamaan sinulle tämä.",
+    "english": "I've been sent to give you this.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2934425",
+    "spanish": "Me hace enfadar que mis amigos no estén aquí.",
+    "finnish": "Minua harmittaa, etteivät ystäväni ole täällä.",
+    "english": "It annoys me that my friends aren't here.",
+    "wordCount": 9,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "2934709",
+    "spanish": "Estoy en medio de algo. ¿Podrías volver más tarde?",
+    "finnish": "Olen kesken tekemisen. Voisitko tulla takaisin myöhemmin?",
+    "english": "I'm in the middle of something. Could you come back later?",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2944070",
+    "spanish": "La muerte del actor estuvo en los encabezados de todas las revistas.",
+    "finnish": "Näyttelijän kuolema oli jokaisen lehden otsikoissa.",
+    "english": "The actor's death was in the headlines of every magazine.",
+    "wordCount": 12,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2944694",
+    "spanish": "Me hice amigo de una estudiante extranjera.",
+    "finnish": "Ystävystyin ulkomaalaisen opiskelijan kanssa.",
+    "english": "I made friends with a student from abroad.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2944838",
+    "spanish": "Las clases de alemán se imparten dos veces a la semana; lunes y miércoles.",
+    "finnish": "Saksantunnit pidetään kahdesti viikossa - maanantaisin ja keskiviikkoisin.",
+    "english": "German classes are held twice a week - on Mondays and Wednesdays.",
+    "wordCount": 14,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2948496",
+    "spanish": "Esta lista no esta en orden alfabético y por eso es difícil de leer.",
+    "finnish": "Tämä lista ei ole aakkosjärjestyksessä ja sitä on siksi vaikea lukea.",
+    "english": "This list isn't in alphabetical order and because of that it's difficult to read.",
+    "wordCount": 14,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2951242",
+    "spanish": "Iré afuera a ver los fuegos artificiales.",
+    "finnish": "Menen ulos katsomaan ilotulitusta.",
+    "english": "I'll go out and see the fireworks.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2951299",
+    "spanish": "Ella se veía triste al leer la carta.",
+    "finnish": "Hän näytti surulliselta kun hän luki kirjeen.",
+    "english": "When she was reading the letter, she looked sad.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2951404",
+    "spanish": "Linda fue al parque a escuchar música.",
+    "finnish": "Linda meni puistoon kuuntelemaan musiikkia.",
+    "english": "Linda went to the park to listen to music.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2951700",
+    "spanish": "Este libro no es de Tom.",
+    "finnish": "Tämä kirja ei ole Tomin.",
+    "english": "This book doesn't belong to Tom.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2959951",
+    "spanish": "Es ilegal copiar libros sin permiso del autor.",
+    "finnish": "On laitonta kopioida kirjoista ilman kirjailijan lupaa.",
+    "english": "It is illegal to copy from books without the author's permission.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2975869",
+    "spanish": "Puedes comprarlo en cualquier venta de libros.",
+    "finnish": "Voit ostaa sen mistä tahansa kirjakaupasta.",
+    "english": "You can buy it at any bookstore.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2978140",
+    "spanish": "La película fue mucho mejor de lo que se esperaba.",
+    "finnish": "Se elokuva oli paljon odotettua parempi.",
+    "english": "The film was much better than expected.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2979972",
+    "spanish": "Las bibliotecas ofrecen varios otros servicios aparte de prestar libros.",
+    "finnish": "Paitsi kirjojen lainausta kirjastot tarjoavat lukuisia muita palveluita.",
+    "english": "Besides lending books, libraries offer various other services.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "2990215",
+    "spanish": "¿Por qué él no vino a la fiesta?",
+    "finnish": "Miksei hän tullut juhliin?",
+    "english": "Why didn't he come to the party?",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3006048",
+    "spanish": "Tom está aprendiendo a bailar tango.",
+    "finnish": "Tom opettelee tanssimaan tangoa.",
+    "english": "Tom is learning to dance the tango.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3009376",
+    "spanish": "Tom no tiene ganas de llevar a su perro a caminar esta mañana.",
+    "finnish": "Tomia ei huvita viedä koiraansa kävelylle tänä aamuna.",
+    "english": "Tom doesn't feel like taking a walk with his dog this morning.",
+    "wordCount": 13,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3013547",
+    "spanish": "Avísame cuando averigües qué es.",
+    "finnish": "Anna minun tietää, kun keksit mikä se on.",
+    "english": "Let me know when you find out what it is.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3030016",
+    "spanish": "Si estás aburrido, sugiero que vayas al cine.",
+    "finnish": "Jos sinulla on tylsää, ehdotan, että menet elokuviin.",
+    "english": "If you're bored, I suggest you go to the cinema.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3034880",
+    "spanish": "Últimamente no he tenido nada de tiempo para leer libros.",
+    "finnish": "Viime aikoina minulla ei ole ollut lainkaan aikaa lukea kirjoja.",
+    "english": "I haven't had any time to read books lately.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3050026",
+    "spanish": "¿Por qué es necesario resolver conflictos?",
+    "finnish": "Miksi on välttämätöntä ratkaista konfliktit?",
+    "english": "Why is it necessary to resolve conflicts?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3056763",
+    "spanish": "En la playa puedes pasar tiempo con tus amigos.",
+    "finnish": "Rannalla voi viettää aikaa kavereiden kanssa.",
+    "english": "On the beach you can spend time with your friends.",
+    "wordCount": 9,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3084172",
+    "spanish": "Me dio mucho sueño después de leer un poco.",
+    "finnish": "Tulin hyvin uneliaaksi pienen lukemisen jälkeen.",
+    "english": "I became very sleepy after a bit of reading.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3088929",
+    "spanish": "No dejes que los niños vean esta película.",
+    "finnish": "Älä anna lasten katsoa tätä filmiä.",
+    "english": "Don't let the kids watch this film.",
+    "wordCount": 8,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3091007",
+    "spanish": "¿Cuánto tiempo piensas quedarte aquí en Brasil?",
+    "finnish": "Kuinka kauaksi aiot jäädä tänne Brasiliaan?",
+    "english": "How long do you intend to stay here in Brazil?",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3091203",
+    "spanish": "Él quiere jugar fútbol esta tarde.",
+    "finnish": "Hän haluaa pelata jalkapalloa tänä iltapäivänä.",
+    "english": "He wants to play soccer this afternoon.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3095512",
+    "spanish": "Kuwait sufrió daños severos.",
+    "finnish": "Kuwait kärsi vakavia vahinkoja.",
+    "english": "Kuwait suffered severe damage.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3099075",
+    "spanish": "Le quiero dar un regalo de cumpleaños.",
+    "finnish": "Haluan antaa hänelle syntymäpäivälahjan.",
+    "english": "I want to give him a present for his birthday.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100321",
+    "spanish": "Hay algo de verdad en eso.",
+    "finnish": "On siinä vähän totuutta.",
+    "english": "There is some truth in that.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100329",
+    "spanish": "No puedo darte una respuesta inmediata.",
+    "finnish": "En voi antaa sinulle välitöntä vastausta.",
+    "english": "I can not give you an immediate answer.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100332",
+    "spanish": "Te ves verdaderamente bien.",
+    "finnish": "Näytät todella hyvältä.",
+    "english": "You look really good.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100341",
+    "spanish": "Voy a matarte por desperdiciar mi tiempo.",
+    "finnish": "Tapan sinut aikani tuhlaamisesta.",
+    "english": "I'm going to kill you for wasting my time.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100384",
+    "spanish": "Lo importante es tener tu propio pasatiempo.",
+    "finnish": "Tärkeätä on omistaa harrastus.",
+    "english": "The important thing is to have your own hobby.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100385",
+    "spanish": "Lo importante no es ganar el juego, sino participar.",
+    "finnish": "Tärkeätä ei ole voittaa peli vaan ottaa osaa siihen.",
+    "english": "The important thing is not to win the game, but to take part in it.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100597",
+    "spanish": "Es horrible verlo.",
+    "finnish": "Se on kauheaa katsella.",
+    "english": "It is horrible to see.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100741",
+    "spanish": "Cuando la lluvia amaine, iremos a caminar.",
+    "finnish": "Sateen loputtua menemme kävelylle.",
+    "english": "When the rain stops, we'll go for a walk.",
+    "wordCount": 7,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100748",
+    "spanish": "Averigüé dónde estaba ella.",
+    "finnish": "Sain selville missä hän oli.",
+    "english": "I found out where she was.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100781",
+    "spanish": "Por favor, cuéntanos por qué necesitas quedarte aquí.",
+    "finnish": "Ole hyvä ja kerro miksi sinun tarvitsee jäädä tänne.",
+    "english": "Please tell us why you need to stay here.",
+    "wordCount": 8,
+    "themes": [
+      "greetings",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100783",
+    "spanish": "Tom esperaba que María no descubriera la verdad.",
+    "finnish": "Tom toivoi että Mary ei saisi totuutta selville.",
+    "english": "Tom was hoping Mary wouldn't find out the truth.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100789",
+    "spanish": "Solo escuchar esa canción me hace pensar en ti.",
+    "finnish": "Jo tuon laulun kuunteleminen saa minut ajattelemaan sinua.",
+    "english": "Just listening to that song makes me think of you.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100793",
+    "spanish": "Un cuarteto de cuerdas está ensayando en el cuarto contiguo.",
+    "finnish": "Jousikvartetti harjoittelee seuraavassa huoneessa.",
+    "english": "A string quartet is rehearsing in the next room.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3100832",
+    "spanish": "Es difícil distinguir una verdad de una mentira.",
+    "finnish": "On vaikea erottaa totuus valheesta.",
+    "english": "It is hard to distinguish truth from a lie.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3106484",
+    "spanish": "¿Cuáles son tus pasatiempos?",
+    "finnish": "Mitkä ovat sinun harrastuksesi?",
+    "english": "What are your hobbies?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3109022",
+    "spanish": "¿Nos cantarías una canción en francés?",
+    "finnish": "Laulaisitko meille jonkin laulun ranskaksi?",
+    "english": "Would you sing us a song in French?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3112422",
+    "spanish": "No estás diciendo la verdad.",
+    "finnish": "Et kerro totuutta.",
+    "english": "You're not telling the truth.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3112436",
+    "spanish": "Yo pienso que deberías tomarte un descanso; te ves enferma.",
+    "finnish": "Minusta sinun pitäisi levätä. Näytät sairaalta.",
+    "english": "I think you'd better take a rest; you look ill.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3112528",
+    "spanish": "¿Pasaste un buen verano?",
+    "finnish": "Oliko sinulla hyvä kesä?",
+    "english": "Did you have a good summer?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3112567",
+    "spanish": "Yo también quiero jugar.",
+    "finnish": "Minä haluan pelata myös.",
+    "english": "I also want to play.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3113377",
+    "spanish": "¿De verdad? A mí me tomó una hora en tren.",
+    "finnish": "Todellako? Minulta se kesti tunnin junalla.",
+    "english": "Really? It took me an hour by train.",
+    "wordCount": 10,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3113402",
+    "spanish": "No voy a ver a nadie más.",
+    "finnish": "En aio tavata ketään muita.",
+    "english": "I'm not going to see anybody else.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3116772",
+    "spanish": "¡Ven a vernos!",
+    "finnish": "Tule katsomaan meitä.",
+    "english": "Come to see us!",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3117178",
+    "spanish": "El libro fue publicado después de la muerte del autor.",
+    "finnish": "Kirja julkaistiin kirjailijan kuoleman jälkeen.",
+    "english": "The book was published after the author's death.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3118298",
+    "spanish": "Quisiera verlo.",
+    "finnish": "Haluaisin nähdä sen.",
+    "english": "I'd like to see it.",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3118300",
+    "spanish": "Ven a tomarte un vaso de vino conmigo.",
+    "finnish": "Tule juomaan kanssani lasi viiniä.",
+    "english": "Come have a glass of wine with me.",
+    "wordCount": 8,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3118323",
+    "spanish": "No deberías leer con tan poca luz.",
+    "finnish": "Sinun ei pitäisi lukea noin heikossa valossa.",
+    "english": "You shouldn't read in such poor light.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3134204",
+    "spanish": "Tom tiene problemas para expresar sus verdaderos sentimientos.",
+    "finnish": "Tomilla on vaikeuksia ilmaista tosia tunteitaan.",
+    "english": "Tom has trouble expressing his true feelings.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3145277",
+    "spanish": "Si terminaste de leer el libro, devuélvelo a la biblioteca.",
+    "finnish": "Jos olet lukenut kirjan loppuun, palauta se kirjastoon.",
+    "english": "If you have finished reading the book, return it to the library.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3148902",
+    "spanish": "Su libro es rojo.",
+    "finnish": "Hänen kirjansa on punainen.",
+    "english": "His book is red.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3150049",
+    "spanish": "El grupo trataba de resolver problemas sociales.",
+    "finnish": "Ryhmä yritti ratkaista sosiaalisia ongelmia.",
+    "english": "The group tried to solve social problems.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3170779",
+    "spanish": "Le doy un ramo de flores a mi amiga.",
+    "finnish": "Annan ystävälleni kimpun kukkia.",
+    "english": "I give my friend a bunch of flowers.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3170836",
+    "spanish": "Paró de llover.",
+    "finnish": "Sade lakkasi.",
+    "english": "The rain stopped.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3173655",
+    "spanish": "¡Para de quejarte!",
+    "finnish": "Lopeta valittaminen!",
+    "english": "Quit complaining.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3173780",
+    "spanish": "Él tradujo el libro del francés al inglés.",
+    "finnish": "Hän käänsi kirjan ranskasta englanniksi.",
+    "english": "He translated the book from French into English.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3177346",
+    "spanish": "Reparte las cartas, por favor.",
+    "finnish": "Ole kiltti ja jaa kortit.",
+    "english": "Please deal the cards.",
+    "wordCount": 5,
+    "themes": [
+      "greetings",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3177412",
+    "spanish": "Solo trato de ahorrarte tiempo.",
+    "finnish": "Yritän vain säästää aikaasi.",
+    "english": "I'm only trying to save you time.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3177414",
+    "spanish": "Solo estoy interesado en la verdad.",
+    "finnish": "Olen kiinnostunut vain totuudesta.",
+    "english": "I'm only interested in the truth.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3177418",
+    "spanish": "No estoy segura de que pueda ayudarte.",
+    "finnish": "En ole varma että voin auttaa sinua.",
+    "english": "I'm not sure that I can help you.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3177424",
+    "spanish": "Acabo de ver a María en el parque.",
+    "finnish": "Olen juuri nähnyt Marien puistossa.",
+    "english": "I've just seen Marie at the park.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3202498",
+    "spanish": "Mi amor por ti no me deja contarte todo. Es mejor no contar algunas cosas.",
+    "finnish": "Rakkauteni sinuun ei anna minun kertoa sinulle kaikkea. Jotkin asiat on parempi jättää sanomatta.",
+    "english": "My love for you won't let me tell you everything. Some things are better left unsaid.",
+    "wordCount": 15,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3204972",
+    "spanish": "A mi hermano le interesa aquello que llaman música pop.",
+    "finnish": "Veljeni on kiinnostunut siitä, mitä sanotaan popmusiikiksi.",
+    "english": "My brother likes what they call pop music.",
+    "wordCount": 10,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3204974",
+    "spanish": "Pedí algunos libros desde Londres.",
+    "finnish": "Tilasin Lontoosta joitakin kirjoja.",
+    "english": "I ordered some books from London.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3205195",
+    "spanish": "No podría matarte, Tom.",
+    "finnish": "En voisi tappaa sinua, Tom.",
+    "english": "I couldn't kill you, Tom.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3210430",
+    "spanish": "Él se sabe muchos trucos de magia divertidos.",
+    "finnish": "Hän osaa paljon hauskoja taikatemppuja.",
+    "english": "He knows many amusing magic tricks.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3212780",
+    "spanish": "Él tiene buen ojo para el arte.",
+    "finnish": "Hänellä on silmää taiteelle.",
+    "english": "He has a good eye for art.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3214021",
+    "spanish": "No tiene sentido tratar de resolver este problema.",
+    "finnish": "Ei ole mitään mieltä yrittää ratkaista tätä ongelmaa.",
+    "english": "It is no use trying to solve this problem.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3215587",
+    "spanish": "Sé la verdadera razón por la que se ausenta.",
+    "finnish": "Tiedän todellisen syyn hänen poissaoloonsa.",
+    "english": "I know the real reason for his absence.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3215639",
+    "spanish": "Me gustó esa película.",
+    "finnish": "Pidin siitä elokuvasta.",
+    "english": "I liked that movie.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3215667",
+    "spanish": "El restaurante estaba bien vacío, así que pude leer en paz mientras comía.",
+    "finnish": "Ravintola oli melko tyhjä, joten sain lukea rauhassa samalla kun söin.",
+    "english": "The restaurant was fairly empty, so I could read in peace while I ate.",
+    "wordCount": 13,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3216143",
+    "spanish": "Este libro es para mí lo que la Biblia es para ti.",
+    "finnish": "Tämä kirja on minulle sitä, mitä Raamattu on sinulle.",
+    "english": "This book is to me what the Bible is to you.",
+    "wordCount": 12,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3216173",
+    "spanish": "Este problema es un verdadero desafío.",
+    "finnish": "Tämä ongelma on todellinen haaste.",
+    "english": "This problem is a real challenge.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3234754",
+    "spanish": "Quisiera ver los árboles de donde agarraste estas manzanas.",
+    "finnish": "Haluaisin nähdä puut, joista poimit nämä omenat.",
+    "english": "I would like to see the trees from which you picked these apples.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3235841",
+    "spanish": "La matemática es la lengua del universo.",
+    "finnish": "Matematiikka on maailmankaikkeuden kieli.",
+    "english": "Mathematics is the language of the universe.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3237625",
+    "spanish": "A Tom le gustó mucho la película.",
+    "finnish": "Tom piti elokuvasta paljon.",
+    "english": "Tom liked the film a lot.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3238017",
+    "spanish": "¿Qué tiene eso que ver con Tom?",
+    "finnish": "Miten se liittyy Tomiin?",
+    "english": "What does that have to do with Tom?",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3238022",
+    "spanish": "Estos son los primeros tomates cultivados en mi jardín.",
+    "finnish": "Tässä ovat ensimmäiset omassa puutarhassani kasvaneet tomaatit.",
+    "english": "These are the first tomatoes from my garden.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3238039",
+    "spanish": "¿Puedes asegurarte de que Tom aparezca a tiempo?",
+    "finnish": "Voitko varmistaa, että Tom ilmestyy paikalle ajoissa?",
+    "english": "Could you make sure Tom shows up on time?",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3238095",
+    "spanish": "Perdón por arruinar tu fiesta de cumpleaños.",
+    "finnish": "Anteeksi kun pilasin syntymäpäiväjuhlasi.",
+    "english": "I'm sorry for ruining your birthday party.",
+    "wordCount": 7,
+    "themes": [
+      "greetings",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3238097",
+    "spanish": "Quisiera ir a ver una película.",
+    "finnish": "Haluaisin mennä katsomaan elokuvaa.",
+    "english": "I'd like to go see a movie.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3239784",
+    "spanish": "Al principio no me gustó, pero de poco a poco se volvió divertido.",
+    "finnish": "Ensiksi en pitänyt siitä, mutta vähitellen se muuttui hauskaksi.",
+    "english": "At first, I didn't like it, but it gradually became fun.",
+    "wordCount": 13,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3245524",
+    "spanish": "Quiero que seas mi amiga de nuevo.",
+    "finnish": "Haluan sinun taas olevan ystäväni.",
+    "english": "I want you to be my friend again.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3247981",
+    "spanish": "Muchos astrónomos asumen que el universo se expande infinitamente.",
+    "finnish": "Monet astronomit olettavat avaruuden laajenevan rajattomasti.",
+    "english": "Many astronomers assume that the universe expands infinitely.",
+    "wordCount": 9,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3248062",
+    "spanish": "Me recuerdas tanto a mi amiga Marina, una gran profesora de ruso.",
+    "finnish": "Tuot mieleeni niin paljon ystäväni Marinan, loistavan venäjän opettajan.",
+    "english": "You remind me so much of my friend Marina, a great teacher of Russian.",
+    "wordCount": 12,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3250176",
+    "spanish": "¿Cuántos días nos quedan para que empiecen las vacaciones de verano?",
+    "finnish": "Kuinka monta päivää meillä on jäljellä kunnes kesäloma alkaa?",
+    "english": "How many days do we have left until summer vacation begins?",
+    "wordCount": 11,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3253280",
+    "spanish": "¿Cuánto pesa una pelota de fútbol?",
+    "finnish": "Paljonko jalkapallo painaa?",
+    "english": "How much does a soccer ball weigh?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3263633",
+    "spanish": "Rob, ve a ver televisión.",
+    "finnish": "Rob, mene katsomaan TV:tä.",
+    "english": "Rob, go watch TV.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3267303",
+    "spanish": "Hoy estuvo divertida la escuela.",
+    "finnish": "Koulussa oli kivaa tänään.",
+    "english": "School was fun today.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3274385",
+    "spanish": "Él jugará tenis mañana en la tarde.",
+    "finnish": "Hän tulee pelaamaan tennistä huomisiltapäivänä.",
+    "english": "He will be playing tennis tomorrow afternoon.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3277633",
+    "spanish": "Tom dirá la verdad.",
+    "finnish": "Tom kertoo kyllä totuuden.",
+    "english": "Tom will tell the truth.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3277740",
+    "spanish": "Tom no estaba feliz de ver a María ahí.",
+    "finnish": "Tom ei ilahtunut nähdessään Marin siellä.",
+    "english": "Tom wasn't happy to see Mary there.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3277788",
+    "spanish": "Tom era mi amigo más cercano.",
+    "finnish": "Tom oli läheisin ystäväni.",
+    "english": "Tom was my closest friend.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3277789",
+    "spanish": "Solo pocas cosas nos traen tanto placer como la música.",
+    "finnish": "Vain harvat asiat tuottavat meille yhtä paljon nautintoa kuin musiikki.",
+    "english": "Few things bring as much pleasure as music.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3285304",
+    "spanish": "No estás celoso, ¿verdad?",
+    "finnish": "Et ole kateellinen, vai kuinka?",
+    "english": "You're not jealous, are you?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3315977",
+    "spanish": "Tom quiere matarte, Mary.",
+    "finnish": "Tom haluaa tappaa sinut, Mari.",
+    "english": "Tom wants to kill you, Mary.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3315994",
+    "spanish": "Simplemente odio ver llorar a Tom.",
+    "finnish": "Minä vain inhoa nähdä Tomin itkevän.",
+    "english": "I just hate to see Tom cry.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3326694",
+    "spanish": "Eres de Boston, ¿verdad?",
+    "finnish": "Sinä olet kotoisin Bostonista, eikö niin?",
+    "english": "You're from Boston, aren't you?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3338872",
+    "spanish": "Nunca podría odiarte.",
+    "finnish": "En voisi vihata sinua ikinä.",
+    "english": "I could never hate you.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3353714",
+    "spanish": "Tom trabajó como salvavidas durante el verano.",
+    "finnish": "Tom työskenteli hengenpelastajana kesän ajan.",
+    "english": "Tom worked as a lifeguard during the summer.",
+    "wordCount": 7,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3353718",
+    "spanish": "Tom pasó la mayor parte de su tiempo pescando.",
+    "finnish": "Tom vietti suurimman osan ajastaan kalastaen.",
+    "english": "Tom passed most of the time fishing.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3357621",
+    "spanish": "Suena a que has conversado con Tom.",
+    "finnish": "Kuulostaa siltä, että olet jutellut Tomin kanssa.",
+    "english": "It sounds like you've been talking to Tom.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3367206",
+    "spanish": "¿Qué haría Tom si llegara a saber la verdad?",
+    "finnish": "Mitä Tom tekisi, jos hän saisi tietää totuuden?",
+    "english": "What would Tom do if he ever learned the truth?",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3367209",
+    "spanish": "Tom es introvertido y tímido.",
+    "finnish": "Tom on sulkeutunut ja ujo.",
+    "english": "Tom is introverted and shy.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3368876",
+    "spanish": "Este libro habla sobre un rey que pierde su corona.",
+    "finnish": "Tämä kirja kertoo kuninkaasta, joka menettää kruununsa.",
+    "english": "This book is about a king who loses his crown.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3368879",
+    "spanish": "El amor es lo que verdaderamente no quiero perder.",
+    "finnish": "Rakkaus on se, mitä en todellakaan halua menettää.",
+    "english": "Love is what I really don't want to lose.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3384636",
+    "spanish": "¿Por qué el gobierno quiere leer mi e-mail?",
+    "finnish": "Miksi valtiovalta haluaa lukea sähköpostiani?",
+    "english": "Why does the government want to read my emails?",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3384660",
+    "spanish": "Los americanos odian la música, pero adoran el entretenimiento.",
+    "finnish": "Amerikkalaiset vihaavat musiikkia, mutta he rakastavat viihdettä.",
+    "english": "Americans hate music, but love entertainment.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3389931",
+    "spanish": "No pude dejarte solo.",
+    "finnish": "En voinut jättää sinua yksin.",
+    "english": "I couldn't leave you alone.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3389946",
+    "spanish": "Debemos mostrarte algo.",
+    "finnish": "Meidän täytyy näyttää sinulle jotain.",
+    "english": "We need to show you something.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3389984",
+    "spanish": "Sé que Tom es tu amigo, pero no me agrada mucho de todas formas.",
+    "finnish": "Tiedän, että Tom on ystäväsi, mutta en silti pidä hänestä.",
+    "english": "I know Tom is a friend of yours, but I still don't like him.",
+    "wordCount": 14,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3389989",
+    "spanish": "Averigüemos quién mató a Tom.",
+    "finnish": "Otetaan selvää siitä kuka tappoi Tomin.",
+    "english": "Let's find out who killed Tom.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3390024",
+    "spanish": "Podría besarte justo ahora.",
+    "finnish": "Voisin suudella sinua juuri nyt.",
+    "english": "I could kiss you right now.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3390025",
+    "spanish": "Podría ordenarte que te quedes.",
+    "finnish": "Voisin määrätä sinut jäämään.",
+    "english": "I could order you to stay.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3390123",
+    "spanish": "Quiero hablarte acerca de Tom.",
+    "finnish": "Haluan puhua sinulle Tomista.",
+    "english": "I want to talk with you about Tom.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3390135",
+    "spanish": "Tom quiere hablarte a las 2:30.",
+    "finnish": "Tom haluaa puhua kanssasi 2:30.",
+    "english": "Tom wants to speak to you at 2:30.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3390139",
+    "spanish": "¿Por qué quieres que vaya a ver a Tom?",
+    "finnish": "Miksi haluat, että menen tapaamaan Tomia.",
+    "english": "Why do you want me to go see Tom?",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3391960",
+    "spanish": "¿Puedes nombrar todos los árboles en el jardín?",
+    "finnish": "Osaatko nimetä kaikki puutarhan puut?",
+    "english": "Can you name all the trees in the garden?",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3392078",
+    "spanish": "Este libro no es tan pesado como aquel.",
+    "finnish": "Tämä kirja ei ole niin painava kuin tuo.",
+    "english": "This book isn't as heavy as that one.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3392080",
+    "spanish": "Trata de asegurarte de que Tom no haga algo estúpido.",
+    "finnish": "Yritä varmistaa, että Tom ei tee mitään typerää.",
+    "english": "Try to make sure Tom doesn't do something stupid.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3392102",
+    "spanish": "¿Acaso tienes idea de lo estúpido que te hace ver esto?",
+    "finnish": "Onko sinulla mitään käsitystä siitä kuinka typerältä tämä saa sinut näyttämään?",
+    "english": "Do you have any idea how stupid this makes you look?",
+    "wordCount": 11,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3392178",
+    "spanish": "Todo este asunto es verdaderamente estúpido.",
+    "finnish": "Tämä koko juttu on todella typerä.",
+    "english": "This whole thing is really stupid.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3392222",
+    "spanish": "Le deberíamos haber advertido a Tom del peligro.",
+    "finnish": "Meidän olisi pitänyt varoittaa Tomia vaarasta.",
+    "english": "We should've warned Tom of the danger.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3395262",
+    "spanish": "Tom no tiene nada que ver con esto.",
+    "finnish": "Tomilla ei ole mitään tekemistä tämän kanssa.",
+    "english": "Tom has nothing to do with this.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3395264",
+    "spanish": "Esto no tiene nada que ver con Tom.",
+    "finnish": "Tällä ei ole mitään tekemistä Tomin kanssa.",
+    "english": "This has nothing to do with Tom.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3395271",
+    "spanish": "Solo porque a él le gusta pintar no significa que sea bueno para ello.",
+    "finnish": "Vain koska hän pitää maalaamisesta, niin se ei tarkoita, että hän olisi hyvä siinä.",
+    "english": "Just because he likes painting doesn't mean he's good at painting.",
+    "wordCount": 14,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3395287",
+    "spanish": "Mi padre durmió durante toda la película.",
+    "finnish": "Isäni nukkui koko elokuvan ajan.",
+    "english": "My father slept through the movie.",
+    "wordCount": 7,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3416581",
+    "spanish": "No pude ver un sola estrella en el cielo.",
+    "finnish": "En kyennyt näkemään yhtään tähteä taivaalla.",
+    "english": "I couldn't see any stars in the sky.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3416614",
+    "spanish": "¡Que comience el concierto!",
+    "finnish": "Aloitetaan konsertti!",
+    "english": "Let the concert begin!",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3422490",
+    "spanish": "Lo he probado por algunos días y estoy bien seguro de que no te encantará.",
+    "finnish": "Olen kokeillut sitä muutaman päivän ja olen melko varma ettet sitä rakasta.",
+    "english": "I've tried it for a few days, and I'm pretty sure you won't love it.",
+    "wordCount": 15,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3424005",
+    "spanish": "Tu trabajo es asegurarte de que Tom haga bien su trabajo.",
+    "finnish": "Sinun työsi on varmistaa, että Tom tekee työnsä oikein.",
+    "english": "Your job is to make sure Tom does his job right.",
+    "wordCount": 11,
+    "themes": [
+      "work",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3424015",
+    "spanish": "Déjame ver qué tienes en la mano.",
+    "finnish": "Anna minun nähdä mitä sinulla on kädessäsi.",
+    "english": "Let me see what's in your hand.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3424016",
+    "spanish": "Tom aún debe terminar de pintar la cerca.",
+    "finnish": "Tomin on yhä maalattava aita loppuun.",
+    "english": "Tom still has to finish painting the fence.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3424493",
+    "spanish": "La princesa griega Alice era sorda y podía leer labios en tres idiomas.",
+    "finnish": "Kreikan prinsessa Alice oli kuuro ja osasi lukea huulilta kolmea kieltä.",
+    "english": "Princess Alice of Greece was deaf and could lip-read in three languages.",
+    "wordCount": 13,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3445543",
+    "spanish": "Mi papá gasta mucho tiempo en su pasatiempo.",
+    "finnish": "Isäni kuluttaa paljon aikaa harrastukseensa.",
+    "english": "My father spends a lot of time on his hobby.",
+    "wordCount": 8,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3507996",
+    "spanish": "Leí su libro.",
+    "finnish": "Luin hänen kirjansa.",
+    "english": "I read his book.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3519007",
+    "spanish": "Fue una película mala.",
+    "finnish": "Se oli huono elokuva.",
+    "english": "It was a bad movie.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3523325",
+    "spanish": "Mi esposo y yo nos hemos apartado el uno de otro y ahora no sabemos cómo revertir el proceso.",
+    "finnish": "Aviomieheni ja minä olemme ajautuneet toisistamme erilleen ja nyt emme tiedä miten saisimme kehityskulun käännettyä toiseen suuntaan.",
+    "english": "My husband and I, we have drifted apart, and now we don't know how to reverse the process.",
+    "wordCount": 19,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3523416",
+    "spanish": "Sé leer.",
+    "finnish": "Osaan lukea.",
+    "english": "I can read.",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3523440",
+    "spanish": "Tom puede bailar como un robot.",
+    "finnish": "Tom osaa tanssia kuin robotti.",
+    "english": "Tom can dance like a robot.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3523442",
+    "spanish": "Tom cree que el universo de verdad tiene once dimensiones.",
+    "finnish": "Tom uskoo, että maailmankaukkeudessa on oikeasti yksitoista ulottuvuutta.",
+    "english": "Tom believes that the universe really has eleven dimensions.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3534003",
+    "spanish": "Te diré la verdad ahora.",
+    "finnish": "Kerron sinulle totuuden nyt.",
+    "english": "I'll tell you the truth now.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3538543",
+    "spanish": "Debemos movernos muy rápido.",
+    "finnish": "Meidän täytyy liikkua todella nopeasti.",
+    "english": "We have to move very quickly.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3541724",
+    "spanish": "Tom casi nunca ve televisión.",
+    "finnish": "Tom tuskin koskaan katsoo TV:tä.",
+    "english": "Tom hardly ever watches TV.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3541737",
+    "spanish": "Tom tuvo problemas para resolver la situación.",
+    "finnish": "Tomilla oli vaivaa tilanteen selvittämisessä.",
+    "english": "Tom had trouble resolving the situation.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3541738",
+    "spanish": "A Tom le costaba hacer amigos.",
+    "finnish": "Tomilla oli vaikeuksia ystävystyä.",
+    "english": "Tom had trouble making friends.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3574248",
+    "spanish": "Tengo una cuenta en esa tienda de libros.",
+    "finnish": "Minulla on tili tuossa kirjakaupassa.",
+    "english": "I have an account at that book shop.",
+    "wordCount": 8,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3575512",
+    "spanish": "Te prestaré este libro.",
+    "finnish": "Mä lainaan sulle tän kirjan.",
+    "english": "I'll lend you this book.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3600579",
+    "spanish": "Nadé mucho durante las vacaciones de verano.",
+    "finnish": "Uin paljon kesälomalla.",
+    "english": "I swam a lot during summer vacation.",
+    "wordCount": 7,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3666670",
+    "spanish": "Leed este libro.",
+    "finnish": "Lukekaa tämä kirja.",
+    "english": "Read this book.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3670738",
+    "spanish": "¿Os gusta nadar?",
+    "finnish": "Pidättekö uimisesta?",
+    "english": "Do you like swimming?",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3675419",
+    "spanish": "Odio bailar.",
+    "finnish": "Inhoan tanssimista.",
+    "english": "I hate dancing.",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3675422",
+    "spanish": "Detesto bailar.",
+    "finnish": "Inhoan tanssimista.",
+    "english": "I hate dancing.",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3704231",
+    "spanish": "¿Sabes por qué al arrollado primavera le dicen arrollado primavera?",
+    "finnish": "Tiedätkö miksi kevätkääryleitä sanotaan kevätkääryleiksi?",
+    "english": "Do you know why spring rolls are called spring rolls?",
+    "wordCount": 10,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "3706953",
+    "spanish": "El número de muffins que recibirás será inversamente proporcional al número de veces que hables por IRC.",
+    "finnish": "Saamiesi muffinien lukumäärä on käänteisesti verrannollinen siihen, miten usein juttelet IRCissä.",
+    "english": "The number of muffins that you'll receive will be inversely proportional to the number of times you talk on IRC.",
+    "wordCount": 17,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3718784",
+    "spanish": "Tengo ganas de cantar en la lluvia.",
+    "finnish": "Minun tekee mieli laulaa sateessa.",
+    "english": "I feel like singing in the rain.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3762237",
+    "spanish": "¿Es él tu amigo?",
+    "finnish": "Onko hän sinun ystäväsi?",
+    "english": "Is he your friend?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3771634",
+    "spanish": "El fútbol es el deporte más popular en Brasil.",
+    "finnish": "Brasiliassa jalkapallo on suosituin urheilulaji.",
+    "english": "Soccer is the most popular sport in Brazil.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3774692",
+    "spanish": "No me gusta nadar.",
+    "finnish": "En pidä uimisesta.",
+    "english": "I don't like to swim.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3775144",
+    "spanish": "Tom y sus amigos están jugando Dungeons & Dragons en el sótano.",
+    "finnish": "Tom ja hänen ystävänsä pelaavat Dungeons & Dragonsia kellarissa.",
+    "english": "Tom and his friends are playing Dungeons and Dragons in the basement.",
+    "wordCount": 12,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3775165",
+    "spanish": "Fui a la universidad por cuatro años y todo lo que obtuve fue este miserable diploma.",
+    "finnish": "Kävin yliopistoa neljä vuotta ja kaikki, mitä sain, oli tämä surkea todistus.",
+    "english": "I went to college for four years and all I got was this lousy diploma.",
+    "wordCount": 16,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3775535",
+    "spanish": "Un amigo mío está buscando a alguien que sepa hablar francés.",
+    "finnish": "Eräs ystäväni etsii jotakuta, joka osaa puhua ranskaa.",
+    "english": "A friend of mine is looking for someone who can speak French.",
+    "wordCount": 11,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3775583",
+    "spanish": "Le debes la verdad.",
+    "finnish": "Olet hänelle velkaa totuuden.",
+    "english": "You owe her the truth.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3804655",
+    "spanish": "Tiene pocas amigas.",
+    "finnish": "Hänellä on harvoja ystäviä.",
+    "english": "She has few friends.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3812260",
+    "spanish": "¿Cuántos libros de aritmética quedan?",
+    "finnish": "Montako laskuopin kirjaa on jäljellä?",
+    "english": "How many arithmetic books are left?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3890096",
+    "spanish": "El fútbol es el deporte más popular del mundo.",
+    "finnish": "Jalkapallo on maailman suosituin urheilulaji.",
+    "english": "Soccer is the world's most popular sport.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3890098",
+    "spanish": "Tom tiene amigos en todo el mundo.",
+    "finnish": "Tomilla on kavereita joka puolella maailmaa.",
+    "english": "Tom has friends all over the world.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "3892203",
+    "spanish": "A Tom le gusta ver televisión.",
+    "finnish": "Tom tykkää katsoa TV:tä.",
+    "english": "Tom likes watching TV.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4000016",
+    "spanish": "El protagonista de la nueva película es un ángel joven.",
+    "finnish": "Uuden elokuvan päähahmo on lapsienkeli.",
+    "english": "The protagonist of the new film is a child angel.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4308662",
+    "spanish": "¿A qué hora fue ayer el concierto?",
+    "finnish": "Monelta konsertti oli eilen?",
+    "english": "What time yesterday was the concert?",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4317990",
+    "spanish": "¿Qué pasó en el parque?",
+    "finnish": "Mitä puistossa tapahtui?",
+    "english": "What happened in the park?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4329449",
+    "spanish": "Esto será divertido.",
+    "finnish": "Tästä tulee hauskaa.",
+    "english": "This will be fun.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4391789",
+    "spanish": "Tom fue al parque.",
+    "finnish": "Tom meni puistoon.",
+    "english": "Tom went to the park.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4421064",
+    "spanish": "Él juega bien al fútbol.",
+    "finnish": "Hän pelaa hyvin jalkapalloa.",
+    "english": "He is good at soccer.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4507703",
+    "spanish": "Deberías escribir un libro.",
+    "finnish": "Sinun pitäisi kirjoittaa kirja.",
+    "english": "You ought to write a book.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4528618",
+    "spanish": "La verdad es que no sé nada al respecto.",
+    "finnish": "Totuus on se, että en tiedä siitä yhtään mitään.",
+    "english": "The truth is that I don't know anything about it.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4528812",
+    "spanish": "¿Es cosa tuya cuál sea el pasatiempo de una persona?",
+    "finnish": "Onko se sinun asiasi mikä jonkun harrastus on?",
+    "english": "Is it any of your business what someone's hobby is?",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4546126",
+    "spanish": "Mary no es mi novia. Es sólo una amiga.",
+    "finnish": "Mari ei ole minun tyttöystäväni. Hän on vain ystävä.",
+    "english": "Mary isn't my girlfriend. She's just a friend.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4554011",
+    "spanish": "Quiero jugar tenis contigo algún día.",
+    "finnish": "Haluaisin pelata joskus kanssasi tennistä.",
+    "english": "I want to play tennis with you someday.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4570678",
+    "spanish": "Me gusta bailar.",
+    "finnish": "Mä tykkään tanssia.",
+    "english": "I like to dance.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4575489",
+    "spanish": "¿Qué verduras te gustan?",
+    "finnish": "Mistä vihanneksista sinä pidät?",
+    "english": "What vegetables do you like?",
+    "wordCount": 4,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "4580940",
+    "spanish": "Ayer vi una película estupenda.",
+    "finnish": "Katsoin tosi hyvän elokuvan eilen.",
+    "english": "I watched a great movie yesterday.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4589135",
+    "spanish": "Yo no puedo bailar.",
+    "finnish": "Mä en osaa tanssii.",
+    "english": "I can't dance.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4603961",
+    "spanish": "Esta no es mi idea de diversión.",
+    "finnish": "Tämä ei ole minun käsitykseni hauskanpidosta.",
+    "english": "This is not my idea of fun.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4618612",
+    "spanish": "No quiero matarte, Tom.",
+    "finnish": "En halua tappaa sinua, Tomi.",
+    "english": "I don't want to kill you, Tom.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4640704",
+    "spanish": "Tom decidió decirle la verdad a Mary.",
+    "finnish": "Tomi päätti kertoa Marille totuuden.",
+    "english": "Tom decided to tell Mary the truth.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4694045",
+    "spanish": "Su nueva película le ameritó un Premio de la Academia.",
+    "finnish": "Hänen uusi elokuvansa toi hänelle Akatemianpalkinnon.",
+    "english": "His new movie earned him an Academy Award.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4727876",
+    "spanish": "Tom es amigo tuyo, ¿verdad?",
+    "finnish": "Tomi on sinun ystäväsi, eikö niin?",
+    "english": "Tom is a friend of yours, right?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4871250",
+    "spanish": "No quiero bailar.",
+    "finnish": "En halua tanssia.",
+    "english": "I don't want to dance.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4952303",
+    "spanish": "Busco a mis amigos.",
+    "finnish": "Etsin ystäviäni.",
+    "english": "I am looking for my friends.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4989266",
+    "spanish": "Algunos de mis amigos fuman.",
+    "finnish": "Jotkut mun kaverit tupakoi.",
+    "english": "Some of my friends smoke.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "4989269",
+    "spanish": "La música es importante para mí.",
+    "finnish": "Musiikki on tärkeää minulle.",
+    "english": "Music is important to me.",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5057251",
+    "spanish": "Los conejos pueden nadar.",
+    "finnish": "Jänikset osaavat uida.",
+    "english": "Rabbits can swim.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5592057",
+    "spanish": "Tenemos un libro.",
+    "finnish": "Meillä on yksi kirja.",
+    "english": "We have a book.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5629097",
+    "spanish": "Las madres son todas unas verdaderas heroínas.",
+    "finnish": "Äidit ovat kaikki todellisia sankareita.",
+    "english": "Mothers are all real heroines.",
+    "wordCount": 7,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "5637304",
+    "spanish": "Este asunto es controvertido.",
+    "finnish": "Tämä on kiistanalainen asia.",
+    "english": "This is a controversial issue.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5648744",
+    "spanish": "Estoy bastante seguro de que Tom no sabe nadar.",
+    "finnish": "Olen aika varma siitä, että Tomi ei osaa uida.",
+    "english": "I'm pretty sure Tom doesn't know how to swim.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5669790",
+    "spanish": "Su verdadero nombre es Tom.",
+    "finnish": "Hänen oikea nimensä on Tomi.",
+    "english": "His real name is Tom.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5704688",
+    "spanish": "Estuve toda la tarde charlando con amigos.",
+    "finnish": "Vietin koko iltapäivän jutellen kavereideni kanssa.",
+    "english": "I spent the whole afternoon chatting with friends.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5714214",
+    "spanish": "No puedo creer que ya sea verano.",
+    "finnish": "En voi uskoa, että on jo kesä.",
+    "english": "I can't believe it's summer already.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5718634",
+    "spanish": "Necesitamos averiguar quién condujo ese coche.",
+    "finnish": "Meidän pitää selvittää se, että kuka ajoi tuota autoa.",
+    "english": "We need to find out who drove that car.",
+    "wordCount": 6,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "5724684",
+    "spanish": "Tom es amigo del hermano menor de mi esposa.",
+    "finnish": "Tomi on minun vaimoni pikkuveljen ystävä.",
+    "english": "Tom is a friend of my wife's younger brother.",
+    "wordCount": 9,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "5755774",
+    "spanish": "¿De qué parte de Australia vienes?",
+    "finnish": "Mistä päin Australiaa olet kotoisin?",
+    "english": "What part of Australia are you from?",
+    "wordCount": 6,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5755840",
+    "spanish": "Hablas francés, ¿verdad?",
+    "finnish": "Sinähän puhut ranskaa, vai mitä?",
+    "english": "You speak French, right?",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5797213",
+    "spanish": "Tom y Mary son amigos de John.",
+    "finnish": "Tomi ja Mari ovat Jonin ystäviä.",
+    "english": "Tom and Mary are friends with John.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5803342",
+    "spanish": "Tom no fue capaz de convencer a Mary de que preparase una tarta para la fiesta de cumpleaños de John.",
+    "finnish": "Tomi yritti suostutella Maria leipomaan kakun Jonin syntymäpäiväjuhliin, mutta Mari ei suostunut.",
+    "english": "Tom wasn't able to talk Mary into baking a cake for John's birthday party.",
+    "wordCount": 20,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5803355",
+    "spanish": "Tom, Mary, John y Alice son amigos. Todos se conocen desde que eran niños.",
+    "finnish": "Tomi, Mari, Joni ja Alisa ovat ystäviä. He ovat tunteneet toisensa lapsuudesta saakka.",
+    "english": "Tom, Mary, John and Alice are friends. They've known each other since they were children.",
+    "wordCount": 14,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "5854207",
+    "spanish": "No tires esa revista. Todavía no la he leído.",
+    "finnish": "Älä heitä pois tätä lehteä. En ole lukenut sitä vielä.",
+    "english": "Don't throw away this magazine. I haven't read it yet.",
+    "wordCount": 9,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5864170",
+    "spanish": "Sentí ganas de bailar.",
+    "finnish": "Minun teki mieli tanssia.",
+    "english": "I felt like dancing.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5907944",
+    "spanish": "Tom se enamoró de la novia de su mejor amigo.",
+    "finnish": "Tomi rakastui parhaan kaverinsa tyttöystävään.",
+    "english": "Tom fell in love with his best friend's girlfriend.",
+    "wordCount": 10,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "5970711",
+    "spanish": "Tengo muchos amigos canadienses.",
+    "finnish": "Minulla on paljon kanadalaisia ystäviä.",
+    "english": "I have many Canadian friends.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "6166850",
+    "spanish": "Llegué a la fiesta, pero en cuanto acabé mi comida, me fui.",
+    "finnish": "Saavuin juhliin, mutta heti kun olin lopettanut syömisen, lähdin.",
+    "english": "I came to the party, but as soon as I finished the meal, I left.",
+    "wordCount": 12,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "6602243",
+    "spanish": "Encontré tu cartera en el asiento trasero de mi coche.",
+    "finnish": "Mä löysin sun lompakon mun auton takapenkiltä.",
+    "english": "I found your wallet on the backseat of my car.",
+    "wordCount": 10,
+    "themes": [
+      "travel",
+      "leisure"
+    ]
+  },
+  {
+    "id": "6602245",
+    "spanish": "¿Es ésta tu cartera?",
+    "finnish": "Onko tämä sinun lompakkosi?",
+    "english": "Is this your wallet?",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "6602271",
+    "spanish": "¿Te importaría pasear al perro?",
+    "finnish": "Voisitko käydä koiran kanssa kävelyllä?",
+    "english": "Would you mind walking the dog?",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "6607874",
+    "spanish": "Escucharon tiros.",
+    "finnish": "He kuulivat laukauksia.",
+    "english": "They heard gunfire.",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "6612790",
+    "spanish": "Mi amigo es alemán.",
+    "finnish": "Minun ystäväni on saksalainen.",
+    "english": "My friend is German.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "6628105",
+    "spanish": "Tom descubrió dos cadáveres en su sótano.",
+    "finnish": "Tomi löysi kellaristaan kaksi vainajaa.",
+    "english": "Tom discovered two dead bodies in his basement.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "6682080",
+    "spanish": "Debes cuidarte mejor.",
+    "finnish": "Sinun pitää pitää parempaa huolta itsestäsi.",
+    "english": "You need to take better care of yourself.",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "6703348",
+    "spanish": "No tuvimos mucha lluvia la primavera pasada.",
+    "finnish": "Viime keväänä emme saaneet paljoa sadetta.",
+    "english": "We didn't get much rain last spring.",
+    "wordCount": 7,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "6704554",
+    "spanish": "Los conejos saben nadar.",
+    "finnish": "Jänikset osaavat uida.",
+    "english": "Rabbits can swim.",
+    "wordCount": 4,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "6873573",
+    "spanish": "Alguien debería hacer una película de esto.",
+    "finnish": "Jonkun pitäisi tehdä elokuva tästä.",
+    "english": "Somebody should make a movie out of this.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "7946584",
+    "spanish": "¿Puedes bailar?",
+    "finnish": "Osaatko tanssia?",
+    "english": "Can you dance?",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "7968546",
+    "spanish": "Estoy tan contento de verte.",
+    "finnish": "Ihana nähdä sua.",
+    "english": "I'm so glad to see you.",
+    "wordCount": 5,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "8044391",
+    "spanish": "Salgamos a pasear un poco.",
+    "finnish": "Mennään pienelle kävelylle.",
+    "english": "Let's go out for a short walk.",
+    "wordCount": 5,
+    "themes": [
+      "food",
+      "leisure"
+    ]
+  },
+  {
+    "id": "8310928",
+    "spanish": "Mérida es la única princesa de Disney que ni canta ni baila en su película.",
+    "finnish": "Merida on ainoa Disneyn prinsessa, joka ei laula eikä tanssi elokuvassaan.",
+    "english": "Merida is the only Disney princess that doesn't sing or dance in her movie.",
+    "wordCount": 15,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "8545945",
+    "spanish": "Puasinkoi es un pequeño pueblo de Carelia en la región de Tver.",
+    "finnish": "Puasinkoi on pieni, karjalainen kylä Tverin alueella.",
+    "english": "Puasinkoi is a small Karelian village in the Tver region.",
+    "wordCount": 12,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "8619127",
+    "spanish": "El pasatiempo de Tom es el golf.",
+    "finnish": "Tomi harrastaa golfia.",
+    "english": "Tom's hobby is golf.",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "9499103",
+    "spanish": "Felices fiestas.",
+    "finnish": "Hyvää lomaa.",
+    "english": "Happy holidays.",
+    "wordCount": 2,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "9858935",
+    "spanish": "Tom es el amigo de mi hijo.",
+    "finnish": "Tomi on poikani ystävä.",
+    "english": "Tom is my son's friend.",
+    "wordCount": 7,
+    "themes": [
+      "family",
+      "leisure"
+    ]
+  },
+  {
+    "id": "10363969",
+    "spanish": "Mi perro es verde y habla todo el rato de filosofía.",
+    "finnish": "Minun koirani on vihreä ja koko ajan puhuu filosofiasta.",
+    "english": "My dog is green and talks about philosophy all the time.",
+    "wordCount": 11,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "10502173",
+    "spanish": "¿Quieres jugar con mi tarjeta de crédito?",
+    "finnish": "Haluatko leikkii minun luottokortilla?",
+    "english": "Do you want to play with my credit card?",
+    "wordCount": 7,
+    "themes": [
+      "leisure"
+    ]
+  },
+  {
+    "id": "13521360",
+    "spanish": "¿Quieres un libro?",
+    "finnish": "Haluatko kirjan?",
+    "english": "Do you want the book?",
+    "wordCount": 3,
+    "themes": [
+      "leisure"
+    ]
+  }
+]
