@@ -78,15 +78,24 @@
 			route: '/tarinat',
 			available: true // NEW: Story reading game ✅
 		},
-		{
-			id: 'mita-sa-sanoit',
-			icon: '👂',
-			title: 'Mitä sä sanoit?',
-			description: 'Kuuntele tai lue espanjalainen lause ja valitse oikea suomennos',
-			scored: true,
-			route: '/mita-sa-sanoit',
-			available: true // NEW: Sentence comprehension game ✅
-		}
+	{
+		id: 'mita-sa-sanoit',
+		icon: '👂',
+		title: 'Mitä sä sanoit?',
+		description: 'Kuuntele tai lue espanjalainen lause ja valitse oikea suomennos',
+		scored: true,
+		route: '/mita-sa-sanoit',
+		available: true // NEW: Sentence comprehension game ✅
+	},
+	{
+		id: 'valitut-sanat',
+		icon: '📚',
+		title: 'Valitut sanat',
+		description: 'Strukturoitu sanasto-oppitunti esimerkkeineen ja testillä',
+		scored: true,
+		route: '/valitut-sanat',
+		available: true // NEW: Structured vocabulary lesson game ✅
+	}
 	];
 
 	let stats = $state({ gamesPlayed: 0, phrasesLearned: 0, categoriesMastered: 0 });
